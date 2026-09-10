@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kosmologické novinky – denní agent</title>
+  <style>
+    :root { --bg: #0b0f19; --card: #151b2d; --text: #e8eef7; --accent: #6ea8fe; --muted: #9aa8c7; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.55; }
+    header { background: linear-gradient(135deg, #0f172a, #1e293b); padding: 2rem 1rem; text-align: center; border-bottom: 1px solid #1e293b; }
+    h1 { margin: 0 0 0.4rem; font-size: 1.8rem; }
+    .subtitle { color: var(--muted); font-size: 0.95rem; }
+    main { max-width: 820px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+    .post { background: var(--card); border-radius: 12px; padding: 1.25rem 1.4rem; margin-bottom: 1.2rem; border: 1px solid #1e293b; }
+    .post h2 { margin: 0 0 0.5rem; font-size: 1.25rem; }
+    .meta { font-size: 0.85rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .summary { margin: 0 0 0.9rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
+    footer { text-align: center; padding: 1.5rem; color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kosmologické novinky</h1>
+    <p class="subtitle">Automatický denní agent · temná hmota, temná energie, černé díry, QFT a další</p>
+  </header>
+
+  <main id="feed">
+    <p class="empty">Načítám historii…</p>
+  </main>
+
+  <footer>
+    Data z arXiv + RSS · Aktualizace každý den v 9:00 · Historie se uchovává
+  </footer>
+
+  <script>
+    async function loadNews() {
+      const feed = document.getElementById('feed');
+      try {
+        const res = await fetch('data/news.json?' + Date.now());
+        if (!res.ok) throw new Error('Soubor ještě neexistuje');
+        const items = await res.json();
+
+        if (!items || items.length === 0) {
+          feed.innerHTML = '<p class="empty">Zatím žádné novinky. Agent je přidá při příštím běhu.</p>';
+          return;
+        }
+
+        feed.innerHTML = items.map(item => {
+          const inserted = new Date(item.inserted_at).toLocaleString('cs-CZ', { timeZone: 'Europe/Prague' });
+          const published = item.published ? new Date(item.published).toLocaleDateString('cs-CZ') : '';
+          return `
+            <article class="post">
+              <h2>${escapeHtml(item.title)}</h2>
+              <div class="meta">
+                Vloženo: ${inserted} · Zdroj: ${item.source} ${published ? '· Publikováno: ' + published : ''}
+              </div>
+              <p class="summary">${escapeHtml(item.summary)}</p>
+              <a href="${item.url}" target="_blank" rel="noopener">Původní zdroj →</a>
+            </article>
+          `;
+        }).join('');
+      } catch (e) {
+        feed.innerHTML = `<p class="empty">Nepodařilo se načíst data. Zkus obnovit stránku později.<br><small>${e.message}</small></p>`;
+      }
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    loadNews();
+  </script>
+</body>
+</html>
