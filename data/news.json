@@ -1,5 +1,85 @@
 [
   {
+    "id": "2609.11747v1",
+    "title": "Precise bubble wall velocity in a specific phase transition pattern in the CxSM and beyond",
+    "summary": "The bubble wall velocity is a key quantity in cosmological first-order phase transitions, with important implications for electroweak baryogenesis, gravitational wave signals, the dark matter relic density and primordial black holes formed during the…",
+    "url": "http://arxiv.org/abs/2609.11747v1",
+    "source": "arXiv",
+    "original_title": "Precise bubble wall velocity in a specific phase transition pattern in the CxSM and beyond",
+    "published": "2026-09-10T16:02:55+00:00",
+    "inserted_at": "2026-09-11T17:34:41.861137+00:00"
+  },
+  {
+    "id": "2609.11738v1",
+    "title": "Fermion quantum field theory on curved and non-inertial backgrounds in standard-Minkowski form",
+    "summary": "Quantum field theory on curved and non-inertial backgrounds contains background- and foliation-dependent quantities in the canonical Lagrangian, the hypersurface inner product and bilinear form, as well as in the equal-time anti-commutation relations…",
+    "url": "http://arxiv.org/abs/2609.11738v1",
+    "source": "arXiv",
+    "original_title": "Fermion quantum field theory on curved and non-inertial backgrounds in standard-Minkowski form",
+    "published": "2026-09-10T15:53:12+00:00",
+    "inserted_at": "2026-09-11T17:34:41.861137+00:00"
+  },
+  {
+    "id": "2609.11726v1",
+    "title": "From the Test-Mass Limit to Binary Black-Hole Waveforms in Higher-Derivative Gravity",
+    "summary": "Many higher-derivative theories predict stronger deviations from General Relativity for lower-mass black holes, while their nonlinear field equations often prevent reliable simulations of the full binary evolution. Here we develop a route from contro…",
+    "url": "http://arxiv.org/abs/2609.11726v1",
+    "source": "arXiv",
+    "original_title": "From the Test-Mass Limit to Binary Black-Hole Waveforms in Higher-Derivative Gravity",
+    "published": "2026-09-10T15:42:38+00:00",
+    "inserted_at": "2026-09-11T17:34:41.861137+00:00"
+  },
+  {
+    "id": "2609.11692v1",
+    "title": "Hunting the Unseen: Deep Learning Analysis for Semi-Visible Jet Tagging",
+    "summary": "Semi-Visible Jets (SVJs) constitute a distinctive collider signature of strongly interacting dark sectors, embedding Dark Matter candidates, wherein jets contain both visible Standard Model objects and invisible dark hadrons, giving rise to correlate…",
+    "url": "http://arxiv.org/abs/2609.11692v1",
+    "source": "arXiv",
+    "original_title": "Hunting the Unseen: Deep Learning Analysis for Semi-Visible Jet Tagging",
+    "published": "2026-09-10T15:17:24+00:00",
+    "inserted_at": "2026-09-11T17:34:41.861137+00:00"
+  },
+  {
+    "id": "2609.11643v1",
+    "title": "Effective Dynamics of Inflationary End-of-the-World Branes in AdS$_3$",
+    "summary": "We develop an effective description of a two-dimensional cosmological end-of-the-world brane embedded in AdS$_3$, with a scalar field localized on the brane. Integrating out bulk degrees of freedom, especially in the small-gradient regime, the effect…",
+    "url": "http://arxiv.org/abs/2609.11643v1",
+    "source": "arXiv",
+    "original_title": "Effective Dynamics of Inflationary End-of-the-World Branes in AdS$_3$",
+    "published": "2026-09-10T14:51:06+00:00",
+    "inserted_at": "2026-09-11T17:34:41.861137+00:00"
+  },
+  {
+    "id": "2609.11609v1",
+    "title": "Probing the details of relativistic electrons with multifrequency observations of M87 black hole",
+    "summary": "Beginning in March 2026, the Event Horizon Telescope (EHT) conducted a two-month observing campaign aimed at obtaining the first time-resolved sequence of images of the black hole M87* at the center of the Virgo A galaxy. The primary scientific objec…",
+    "url": "http://arxiv.org/abs/2609.11609v1",
+    "source": "arXiv",
+    "original_title": "Probing the details of relativistic electrons with multifrequency observations of M87 black hole",
+    "published": "2026-09-10T14:28:36+00:00",
+    "inserted_at": "2026-09-11T17:34:41.861137+00:00"
+  },
+  {
+    "id": "2609.11600v1",
+    "title": "Cosmic ray boosted dark matter with momentum dependent interactions can explain the LZ 248 keV event",
+    "summary": "The LZ experiment has recently reported an observation of a single event with characteristics of a nuclear recoil at a high recoil energy of 248 keV, where no background events are expected. We show that such nuclear recoil event could be caused by h…",
+    "url": "http://arxiv.org/abs/2609.11600v1",
+    "source": "arXiv",
+    "original_title": "Cosmic ray boosted dark matter with momentum dependent interactions can explain the LZ 248 keV event",
+    "published": "2026-09-10T14:23:20+00:00",
+    "inserted_at": "2026-09-11T17:34:41.861137+00:00"
+  },
+  {
+    "id": "2609.11570v1",
+    "title": "How much chaos can be generated by gravitational collapse before reaching the Planck scale?",
+    "summary": "According to the Belinski-Khalatnikov-Lifshitz (BKL) conjecture the dynamics of general relativity near singularities is highly chaotic. However, since general relativity breaks down at singularities, it is generally expected that a more fundamental …",
+    "url": "http://arxiv.org/abs/2609.11570v1",
+    "source": "arXiv",
+    "original_title": "How much chaos can be generated by gravitational collapse before reaching the Planck scale?",
+    "published": "2026-09-10T14:04:54+00:00",
+    "inserted_at": "2026-09-11T17:34:41.861137+00:00"
+  },
+  {
     "id": "2609.11914v1",
     "title": "Anomalous Dimensions, Matching, and Phenomenology of Dirac Fermionic Dark Matter Effective Interacti",
     "summary": "We explore a fermionic dark matter (DM) extension of the Standard Model Effective Field Theory (SMEFT) and establish a complete renormalisation-group framework for its phenomenological investigation. We derive the anomalous-dimension matrix of all re…",
