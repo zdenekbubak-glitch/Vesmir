@@ -1,5 +1,85 @@
 [
   {
+    "id": "2609.11747v1",
+    "title": "Záhada raného vesmíru: Jak rychle rostly fázové bubliny?",
+    "summary": "V raném vesmíru docházelo k fázovým přechodům, při nichž vznikaly a rozpínaly se bubliny nového stavu prostoročasu. Rychlost jejich stěn je klíčová pro vznik gravitačních vln, temné hmoty i přebytku hmoty nad antihmotou. Vědci tuto rychlost dosud většinou jen odhadovali jako volný parametr. Autorům nové studie se však podařilo přesně spočítat dynamiku stěn bublin v rozšířeném Standardním modelu částicové fyziky. Propojili mikroskopické tření částic s makroskopickou reakcí okolního plazmatu a ukázali, že rychlost stěny určuje vyváženost mezi expanzní sílou a odporovým třením. Proč je to zajímavé: Přesný výpočet rychlosti rozpínání bublin umožňuje spolehlivěji předpovídat detekovatelné signály gravitačních vln a pochopit, proč ve vesmíru hmota převládla nad antihmotou.",
+    "url": "http://arxiv.org/abs/2609.11747v1",
+    "source": "arXiv",
+    "original_title": "Precise bubble wall velocity in a specific phase transition pattern in the CxSM and beyond",
+    "published": "2026-09-10T16:02:55+00:00",
+    "inserted_at": "2026-09-11T17:42:53.460053+00:00"
+  },
+  {
+    "id": "2609.11738v1",
+    "title": "Kvantová pole v zakřiveném vesmíru: Návrat ke známým pravidlům",
+    "summary": "Popisovat kvantová pole, jako je elektron, v zakřiveném nebo zrychlujícím se časoprostoru představuje značnou výzvu. Matematický popis a kvantová pravidla se totiž mění podle zvolené souřadnicové sítě a geometrie pozadí. Fyzici nyní představili elegantní způsob, jak tento problém vyřešit. Pomocí lokální redefinice fermionového pole dokázali převést základní matematické struktury do standardního tvaru známého z plochého Minkowskiho časoprostoru. Veškerá složitost zakřivení se tak přenáší pouze do transformovaného lagranžiánu, který získává přehlednou formu podobnou Schrödingerově rovnici. Tento krok výrazně zjednodušuje počítání obsazovacích čísel a analýzu nerelativistických limit. Proč je to zajímavé: Práce dává fyzikům praktický nástroj pro snazší studium kvantových jevů v blízkosti černých děr nebo v rotujících soustavách, aniž by museli opouštět osvědčený aparát standardní kvantové teorie.",
+    "url": "http://arxiv.org/abs/2609.11738v1",
+    "source": "arXiv",
+    "original_title": "Fermion quantum field theory on curved and non-inertial backgrounds in standard-Minkowski form",
+    "published": "2026-09-10T15:53:12+00:00",
+    "inserted_at": "2026-09-11T17:42:53.460053+00:00"
+  },
+  {
+    "id": "2609.11726v1",
+    "title": "Srážky černých děr: Jak testovat teorie gravitace přesahující Einsteina",
+    "summary": "Einsteinova obecná teorie relativity zatím skvěle obstála, ale mnohé alternativní teorie gravitace předpovídají u menších černých děr odchylky. Přímé simulace srážek dvou srovnatelně velkých těles jsou však v těchto teoriích kvůli složitým matematickým rovnicím téměř nemožné. Vědci proto vyvinuli novou metodu: začali přesným výpočtem pohybu malé černé díry kolem velké, započítali slapové deformace a tyto poznatky přenesli do pokročilého modelu efektivního jednoho tělesa. Díky tomu dokázali popsat celý průběh gravitační vlny od oběhu až po splynutí. Proč je to zajímavé: Tento přístup umožňuje fyzikům testovat novou fyziku a limity Einsteinovy teorie v reálných datech z detektorů gravitačních vln i bez extrémně náročných superpočítačových simulací.",
+    "url": "http://arxiv.org/abs/2609.11726v1",
+    "source": "arXiv",
+    "original_title": "From the Test-Mass Limit to Binary Black-Hole Waveforms in Higher-Derivative Gravity",
+    "published": "2026-09-10T15:42:38+00:00",
+    "inserted_at": "2026-09-11T17:42:53.460053+00:00"
+  },
+  {
+    "id": "2609.11692v1",
+    "title": "Lov na neviditelné: Hluboké učení odhaluje temnou hmotu",
+    "summary": "Při hledání temné hmoty na urychlovačích částic mohou vznikat takzvané poloviditelné výtrysky. Ty obsahují jak běžné viditelné částice, tak neviditelné temné hadrony, které se projevují jako chybějící energie. Odlišit tyto vzácné procesy od běžného pozadí Standardního modelu představuje značnou výzvu. Nová studie využívá pokročilé modely hlubokého učení k analýze dat z Velkého hadronového urychlovače. Vědci zkombinovali celkovou kinematiku srážek s detailní vnitřní strukturou částicových výtrysků. Nejlepších výsledků dosáhly multimodální neuronové sítě, které propojují více typů datových reprezentací. Proč je to zajímavé: Výzkum ukazuje, že detailní rozbor vnitřní struktury výtrysků pomocí umělé inteligence může výrazně zvýšit šance na objevení dosud neviditelných částic temné hmoty.",
+    "url": "http://arxiv.org/abs/2609.11692v1",
+    "source": "arXiv",
+    "original_title": "Hunting the Unseen: Deep Learning Analysis for Semi-Visible Jet Tagging",
+    "published": "2026-09-10T15:17:24+00:00",
+    "inserted_at": "2026-09-11T17:42:53.460053+00:00"
+  },
+  {
+    "id": "2609.11643v1",
+    "title": "Inflace na okraji vesmíru: Nový pohled na fyziku časoprostorových bran",
+    "summary": "Teoretičtí fyzikové vyvinuli nový efektivní popis takzvaných „bran na konci světa“ v trojrozměrném Anti-de Sitterově časoprostoru (AdS₃). Tento model představuje dvoudimenzionální vesmír ležící na hranici vyšší dimenze, spojený se skalárním polem. Po započítání vlivu okolního časoprostoru získává systém vlastnosti známé Liouvilleovy teorie. Autoři ukázali, že specifické trajektorie bran přirozeně generují kosmickou inflaci v režimu pomalého valení. Studie také zkoumá eukleidovskou geometrii pro výpočet semiklasické pravděpodobnosti vzniku vesmíru a potvrzuje stabilitu systému vůči drobným poruchám. Proč je to zajímavé: Práce nabízí elegantní matematický most mezi strunovou teorií a kosmologií, který umožňuje studovat kvantový vznik a stabilní inflaci vesmíru v řízeném teoretickém prostředí.",
+    "url": "http://arxiv.org/abs/2609.11643v1",
+    "source": "arXiv",
+    "original_title": "Effective Dynamics of Inflationary End-of-the-World Branes in AdS$_3$",
+    "published": "2026-09-10T14:51:06+00:00",
+    "inserted_at": "2026-09-11T17:42:53.460053+00:00"
+  },
+  {
+    "id": "2609.11609v1",
+    "title": "Černá díra M87* pod drobnohledem: Co prozradí relativistické elektrony?",
+    "summary": "Mezinárodní síť teleskopů Event Horizon Telescope se chystá na detailní sledování časového vývoje černé díry M87*. Vědci pomocí superpočítačových simulací předpověděli, jak se bude měnit spektrální index záření, který odhaluje vlastnosti plazmatu a magnetických polí u horizontu událostí. Výsledky ukazují zásadní rozdíl: pokud plazma tvoří jen tepelné elektrony, spektrální mapa prudce reaguje na lokální fyzikální změny. Přítomnost urychlených netepelných elektronů však tyto výkyvy výrazně tlumí. Porovnání simulací s reálnými daty tak umožňuje přesněji určit rotaci černé díry i vlastnosti jejích výtrysků. Proč je to zajímavé: Tato metoda dává vědcům do rukou klíč k odlišení chování horkého plynu od extrémně urychlených částic těsně před jejich pohlcením.",
+    "url": "http://arxiv.org/abs/2609.11609v1",
+    "source": "arXiv",
+    "original_title": "Probing the details of relativistic electrons with multifrequency observations of M87 black hole",
+    "published": "2026-09-10T14:28:36+00:00",
+    "inserted_at": "2026-09-11T17:42:53.460053+00:00"
+  },
+  {
+    "id": "2609.11600v1",
+    "title": "Vysvětluje záhadný signál v detektoru LZ urychlená temná hmota?",
+    "summary": "Detektor LZ, zaměřený na přímou detekci temné hmoty, nedávno zaznamenal ojedinělou událost – odraz atomového jádra s neobvykle vysokou energií 248 keV, kde se neočekával žádný šum pozadí. Nová studie ukazuje, že by tento signál mohly mít na svědomí částice temné hmoty urychlené na vysoké rychlosti díky srážkám s energickým kosmickým zářením. Teoretická analýza odhalila, že pokud interakce temné hmoty závisí na její hybnosti, vzniká energetické spektrum s vrcholem přesně u pozorované hodnoty. Proč je to zajímavé: Tento model nejen vysvětluje ojedinělý záhadný signál, ale zároveň otevírá novou cestu k odhalení dosud neznámých mikroskopických vlastností temné hmoty.",
+    "url": "http://arxiv.org/abs/2609.11600v1",
+    "source": "arXiv",
+    "original_title": "Cosmic ray boosted dark matter with momentum dependent interactions can explain the LZ 248 keV event",
+    "published": "2026-09-10T14:23:20+00:00",
+    "inserted_at": "2026-09-11T17:42:53.460053+00:00"
+  },
+  {
+    "id": "2609.11570v1",
+    "title": "Chaos při hroucení vesmíru: Vymaže gravitace informace o minulosti?",
+    "summary": "Podle takzvané BKL hypotézy se prostoročas v blízkosti gravitačních singularit chová nesmírně chaoticky. Obecná teorie relativity však u singularit selhává a slovo přebírá kvantová gravitace. Fyzici se proto zaměřili na otázku, kolik chaosu stihne vzniknout ještě v klasickém režimu – tedy před dosažením Planckovy škály, kde Einsteinovy rovnice stále platí. Pomocí Shannonovy entropie a matematické analýzy modelu Bianchi IX zjistili, že chaos se do dosažení této hranice nestihne plně rozvinout. Klasický gravitační kolaps tak nedokáže zcela vymazat informace o původním stavu vesmíru ani o jeho předchozí fázi v kosmologických modelech odrazu. Proč je to zajímavé: Zjištění naznačuje, že si hroutící se vesmír uchovává paměť na svou minulost, což teoreticky umožňuje zkoumat jeho stav ještě před případným kvantovým odrazem či Velkým třeskem.",
+    "url": "http://arxiv.org/abs/2609.11570v1",
+    "source": "arXiv",
+    "original_title": "How much chaos can be generated by gravitational collapse before reaching the Planck scale?",
+    "published": "2026-09-10T14:04:54+00:00",
+    "inserted_at": "2026-09-11T17:42:53.460053+00:00"
+  },
+  {
     "id": "2609.11914v1",
     "title": "Anomalous Dimensions, Matching, and Phenomenology of Dirac Fermionic Dark Matter Effective Interacti",
     "summary": "We explore a fermionic dark matter (DM) extension of the Standard Model Effective Field Theory (SMEFT) and establish a complete renormalisation-group framework for its phenomenological investigation. We derive the anomalous-dimension matrix of all re…",
