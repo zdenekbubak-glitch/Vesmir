@@ -121,37 +121,46 @@ def fetch_arxiv(existing_ids: set) -> list:
             break
     return new_items
 
-def fetch_rss(existing_ids: set) -> list:
+def fetch_arxiv(existing_ids: set) -> list:
+    client = arxiv.Client(
+        page_size=20,
+        delay_seconds=5.0,      # větší prodleva
+        num_retries=3
+    )
+    search = arxiv.Search(
+        query=ARXIV_QUERY,
+        max_results=25,
+        sort_by=arxiv.SortCriterion.SubmittedDate,
+        sort_order=arxiv.SortOrder.Descending,
+    )
+
     new_items = []
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
 
-    for feed_url in RSS_FEEDS:
-        try:
-            feed = feedparser.parse(feed_url)
-            for entry in feed.entries[:15]:
-                entry_id = entry.get("id") or entry.get("link")
-                if not entry_id or entry_id in existing_ids:
-                    continue
-                published = None
-                if hasattr(entry, "published_parsed") and entry.published_parsed:
-                    published = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
-                elif entry.get("published"):
-                    published = date_parser.parse(entry.published).astimezone(timezone.utc)
+    try:
+        for paper in client.results(search):
+            paper_id = paper.entry_id.split("/abs/")[-1]
+            if paper_id in existing_ids:
+                continue
+            published = paper.published
+            if published.tzinfo is None:
+                published = published.replace(tzinfo=timezone.utc)
+            if published < cutoff:
+                continue
 
-                if published and published < cutoff:
-                    continue
-
-                abstract = entry.get("summary", "")[:800]
-                new_items.append({
-                    "id": entry_id,
-                    "source": "RSS",
-                    "original_title": entry.get("title", "Bez názvu"),
-                    "abstract": abstract,
-                    "url": entry.get("link", ""),
-                    "published": published.isoformat() if published else datetime.now(timezone.utc).isoformat(),
-                })
-        except Exception as e:
-            print(f"RSS chyba {feed_url}: {e}")
+            new_items.append({
+                "id": paper_id,
+                "source": "arXiv",
+                "original_title": paper.title,
+                "abstract": paper.summary.replace("\n", " "),
+                "url": paper.entry_id,
+                "published": published.isoformat(),
+            })
+            if len(new_items) >= MAX_NEW_ITEMS:
+                break
+    except Exception as e:
+        print(f"Varování: arXiv se nepodařilo stáhnout ({e}). Pokračuji jen s RSS.")
+    
     return new_items
 
 def main():
