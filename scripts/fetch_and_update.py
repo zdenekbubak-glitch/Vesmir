@@ -9,21 +9,19 @@ from pathlib import Path
 
 import arxiv
 import feedparser
-import requests
 from google import genai
 from dateutil import parser as date_parser
 
 # Konfigurace
 DATA_FILE = Path("data/news.json")
-MAX_NEW_ITEMS = 8          # maximálně tolik nových příspěvků denně
-LOOKBACK_HOURS = 36        # hledat příspěvky z posledních 36 hodin
-GEMINI_MODEL = "gemini-2.0-flash"  # nebo gemini-2.5-flash / novější
+MAX_NEW_ITEMS = 8
+LOOKBACK_HOURS = 36
+GEMINI_MODEL = "gemini-2.0-flash"
 
-# Klíčová slova a kategorie
 ARXIV_QUERY = (
     '(cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.GA OR cat:gr-qc OR cat:hep-th OR cat:hep-ph) '
     'AND (ti:"dark matter" OR ti:"dark energy" OR ti:"black hole" OR ti:"black holes" '
-    'OR ti:"electron star" OR ti:"electron-capture" OR ti:"quantum field" OR ti:cosmology '
+    'OR ti:"neutron star" OR ti:"quantum field" OR ti:cosmology '
     'OR abs:"dark matter" OR abs:"dark energy" OR abs:"black hole" OR abs:cosmology)'
 )
 
@@ -70,7 +68,6 @@ Požadavky:
             contents=prompt,
         )
         text = response.text.strip()
-        # Odstranění případných ```json
         if text.startswith("```"):
             text = text.split("```")[1]
             if text.startswith("json"):
@@ -88,48 +85,14 @@ Požadavky:
         }
 
 def fetch_arxiv(existing_ids: set) -> list:
-    client = arxiv.Client(page_size=30, delay_seconds=3.0)
-    search = arxiv.Search(
-        query=ARXIV_QUERY,
-        max_results=40,
-        sort_by=arxiv.SortCriterion.SubmittedDate,
-        sort_order=arxiv.SortOrder.Descending,
-    )
-
-    new_items = []
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
-
-    for paper in client.results(search):
-        paper_id = paper.entry_id.split("/abs/")[-1]
-        if paper_id in existing_ids:
-            continue
-        published = paper.published
-        if published.tzinfo is None:
-            published = published.replace(tzinfo=timezone.utc)
-        if published < cutoff:
-            continue
-
-        new_items.append({
-            "id": paper_id,
-            "source": "arXiv",
-            "original_title": paper.title,
-            "abstract": paper.summary.replace("\n", " "),
-            "url": paper.entry_id,
-            "published": published.isoformat(),
-        })
-        if len(new_items) >= MAX_NEW_ITEMS:
-            break
-    return new_items
-
-def fetch_arxiv(existing_ids: set) -> list:
     client = arxiv.Client(
-        page_size=20,
-        delay_seconds=5.0,      # větší prodleva
-        num_retries=3
+        page_size=15,
+        delay_seconds=6.0,
+        num_retries=2
     )
     search = arxiv.Search(
         query=ARXIV_QUERY,
-        max_results=25,
+        max_results=20,
         sort_by=arxiv.SortCriterion.SubmittedDate,
         sort_order=arxiv.SortOrder.Descending,
     )
@@ -160,7 +123,43 @@ def fetch_arxiv(existing_ids: set) -> list:
                 break
     except Exception as e:
         print(f"Varování: arXiv se nepodařilo stáhnout ({e}). Pokračuji jen s RSS.")
-    
+
+    return new_items
+
+def fetch_rss(existing_ids: set) -> list:
+    new_items = []
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
+
+    for feed_url in RSS_FEEDS:
+        try:
+            feed = feedparser.parse(feed_url)
+            for entry in feed.entries[:12]:
+                entry_id = entry.get("id") or entry.get("link")
+                if not entry_id or entry_id in existing_ids:
+                    continue
+                published = None
+                if hasattr(entry, "published_parsed") and entry.published_parsed:
+                    published = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+                elif entry.get("published"):
+                    try:
+                        published = date_parser.parse(entry.published).astimezone(timezone.utc)
+                    except Exception:
+                        published = None
+
+                if published and published < cutoff:
+                    continue
+
+                abstract = entry.get("summary", "")[:800]
+                new_items.append({
+                    "id": entry_id,
+                    "source": "RSS",
+                    "original_title": entry.get("title", "Bez názvu"),
+                    "abstract": abstract,
+                    "url": entry.get("link", ""),
+                    "published": published.isoformat() if published else datetime.now(timezone.utc).isoformat(),
+                })
+        except Exception as e:
+            print(f"RSS chyba {feed_url}: {e}")
     return new_items
 
 def main():
@@ -213,11 +212,10 @@ def main():
             "inserted_at": now,
         }
         new_posts.append(post)
-        time.sleep(1.5)  # ohleduplnost k API
+        time.sleep(1.5)
 
     # 3. Uložit (nové nahoře)
     history = new_posts + history
-    # Volitelně omezit historii na posledních 500 položek
     history = history[:500]
     save_history(history)
     print(f"Přidáno {len(new_posts)} nových příspěvků. Celkem v historii: {len(history)}")
