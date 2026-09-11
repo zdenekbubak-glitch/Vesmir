@@ -1,5 +1,65 @@
 [
   {
+    "id": "2609.11525v1",
+    "title": "Regulární černé díry pod drobnohledem: Odhalí je gravitační vlny a stíny?",
+    "summary": "Klasické černé díry obsahují ve svém středu takzvanou singularitu – bod s nekonečnou hustotou, kde selhávají známé fyzikální zákony. Teoretičtí fyzikové proto navrhují modely regulárních černých děr, které singularitu neobsahují. Nová studie zkoumá rotující a nabité verze dvou takových modelů (ABG a BPR) a srovnává je se standardní Einsteinovou teorií. Vědci analyzovali jejich kvazinormální mody (vibrace), vyzařování i tvar stínů testovatelných Teleskopem horizontu událostí (EHT). Zatímco model BPR je od běžných černých děr téměř nerozeznatelný, model ABG vykazuje při vysoké rotaci a náboji měřitelné odchylky. Proč je to zajímavé: Budoucí přesná pozorování gravitačních vln a stínů černých děr by nám mohla poprvé pomoci potvrdit či vyvrátit existenci černých děr bez fyzikálně problematických singularit.",
+    "url": "http://arxiv.org/abs/2609.11525v1",
+    "source": "arXiv",
+    "original_title": "Signatures of charged rotating regular black holes: quasinormal modes, grey-body factors and shadows",
+    "published": "2026-09-10T13:27:05+00:00",
+    "inserted_at": "2026-09-11T17:59:59.858460+00:00"
+  },
+  {
+    "id": "2609.11511v1",
+    "title": "Záhadné extrémní neutrino: Může za něj výbuch prvotní černé díry?",
+    "summary": "Nedávný záchyt neutrina o rekordní energii 220 PeV detektorem KM3NeT představuje záhadu pro standardní astrofyzikální modely. Vědci proto navrhují, že částice pochází z finálního výbuchu prvotní černé díry vzniklé v raném vesmíru. Zahrnutí rozpínání vesmíru do evoluce černé díry ukazuje, že raná akrece hmoty a kosmická expanze změnily dobu jejího života. Díky tomu mohla přečkat až do dnešní epochy, kdy zaniká intenzivním Hawkingovým vyzařováním. Tento dynamický model přirozeně vysvětluje naměřený tok neutrin bez porušení limitů pro kosmologické pozadí a spojuje dnešní pozorování s poruchami hustoty v nejranějším vesmíru. Proč je to zajímavé: Pozorování extrémních neutrin by mohlo sloužit jako unikátní okno do prvních okamžiků po velkém třesku a pomoci odhalit původ prvotních černých děr.",
+    "url": "http://arxiv.org/abs/2609.11511v1",
+    "source": "arXiv",
+    "original_title": "Cosmological Evolution of Primordial Black Holes: UV/IR Decoupling and the KM3NeT 220 PeV Neutrino Anomaly",
+    "published": "2026-09-10T13:18:16+00:00",
+    "inserted_at": "2026-09-11T17:59:59.858460+00:00"
+  },
+  {
+    "id": "2609.11510v1",
+    "title": "Generating the wide sequence of Diffuse Galaxies with de Broglie waves of Dark Matter",
+    "summary": "Extensive Euclid satellite imaging at low surface brightness has revealed that most nearby galaxies are diffuse-looking spheroids, where the stellar radius increases monotonically over three decades in luminosity. We argue this Diffuse Galaxy sequenc…",
+    "url": "http://arxiv.org/abs/2609.11510v1",
+    "source": "arXiv",
+    "original_title": "Generating the wide sequence of Diffuse Galaxies with de Broglie waves of Dark Matter",
+    "published": "2026-09-10T13:17:36+00:00",
+    "inserted_at": "2026-09-11T17:59:59.858460+00:00"
+  },
+  {
+    "id": "2609.11465v1",
+    "title": "Hvězdné uzly v srdci galaxií: Fosilní svědci z počátku vesmíru",
+    "summary": "Astrofyzici zkoumali pomocí pokročilých kosmologických simulací CIELO centra 54 galaxií a objevili v nich husté hvězdné struktury, takzvané hvězdné uzly. Tyto útvory o velikosti kolem jednoho kiloparsecu leží v samém srdci galaktických výdutí. Analýza ukázala, že uzly vznikly velmi překotně během pouhých dvou miliard let z prvotního plynu přímo na místě, a nikoli pohlcováním jiných galaxií. Jsou výrazně obohaceny o alfa-prvky, což svědčí o bleskové tvorbě hvězd v raných fázích vývoje vesmíru. Většina uzlů má kulovitý tvar a představuje nejstarší dosud zachovanou populaci hvězd v galaxiích. Proč je to zajímavé: Tyto struktury fungují jako jakási vesmírná časová kapsle, která astronomům umožňuje přímo nahlédnout do divokých počátků formování galaktických jader.",
+    "url": "http://arxiv.org/abs/2609.11465v1",
+    "source": "arXiv",
+    "original_title": "The properties of central stellar knots embedded in galactic bulges of CIELO simulations",
+    "published": "2026-09-10T12:35:57+00:00",
+    "inserted_at": "2026-09-11T17:59:59.858460+00:00"
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/09/260910225251.htm",
+    "title": "Fyzici odhalili drobnou chybu v čase: Čas má fundamentální limit",
+    "summary": "Některé nekonvenční kvantové teorie naznačují, že čas v sobě skrývá drobnou, ale absolutní nejistotu. Tato fundamentální neurčitost stanovuje konečný limit pro přesnost, s níž lze čas měřit jakýmikoliv představitelnými hodinami. Ačkoliv je tento jev svými rozměry daleko za hranicemi možností dnešních nejcitlivějších detektorů, má pro teoretickou fyziku obrovský význam. Mohl by totiž poodhalit dosud skryté propojení mezi světem kvantové mechaniky, gravitací a samotnou strukturou časoprostoru. Proč je to zajímavé: Objev této časové nejistoty poskytuje vzácné vodítko k vytvoření teorie kvantové gravitace, která by sjednotila mikrosvět s Einsteinovou teorií relativity.",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260910225251.htm",
+    "source": "RSS",
+    "original_title": "Physicists just found a tiny glitch in time itself",
+    "published": "2026-09-11T05:18:44+00:00",
+    "inserted_at": "2026-09-11T17:59:59.858460+00:00"
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/09/260909231729.htm",
+    "title": "Bleskový zrod Měsíce: Gigantická srážka jej mohla stvořit za pár hodin.",
+    "summary": "Tradiční teorie předpokládá, že Měsíc vznikl postupným shlukováním materiálu z disku trosek po srážce mladé Země s protoplanetou Theia. Nové počítačové simulace však ukazují zcela jiný scénář. Průběh kolize závisel na teplotě a fyzikální pevnosti obou těles. Pokud srážející se světy nechápeme jako pouhé kapaliny, jak se dosud předpokládalo, impakt mohl vytvořit celistvý Měsíc již za pouhých pět hodin. Výzkum tak zpochybňuje dosavadní představy o chování materiálu při obřích kolizích. Proč je to zajímavé: Bleskový scénář dokáže vysvětlit překvapivě shodné chemické složení Země a Měsíce, aniž by vyžadoval dlouhé promíchávání materiálu v disku.",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260909231729.htm",
+    "source": "RSS",
+    "original_title": "The Moon may have formed intact just hours after a giant collision",
+    "published": "2026-09-11T01:40:57+00:00",
+    "inserted_at": "2026-09-11T17:59:59.858460+00:00"
+  },
+  {
     "id": "2609.11747v1",
     "title": "Záhada raného vesmíru: Jak rychle rostly fázové bubliny?",
     "summary": "V raném vesmíru docházelo k fázovým přechodům, při nichž vznikaly a rozpínaly se bubliny nového stavu prostoročasu. Rychlost jejich stěn je klíčová pro vznik gravitačních vln, temné hmoty i přebytku hmoty nad antihmotou. Vědci tuto rychlost dosud většinou jen odhadovali jako volný parametr. Autorům nové studie se však podařilo přesně spočítat dynamiku stěn bublin v rozšířeném Standardním modelu částicové fyziky. Propojili mikroskopické tření částic s makroskopickou reakcí okolního plazmatu a ukázali, že rychlost stěny určuje vyváženost mezi expanzní sílou a odporovým třením. Proč je to zajímavé: Přesný výpočet rychlosti rozpínání bublin umožňuje spolehlivěji předpovídat detekovatelné signály gravitačních vln a pochopit, proč ve vesmíru hmota převládla nad antihmotou.",
