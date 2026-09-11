@@ -16,7 +16,7 @@ from dateutil import parser as date_parser
 DATA_FILE = Path("data/news.json")
 MAX_NEW_ITEMS = 8
 LOOKBACK_HOURS = 36
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-3.6-flash"
 
 ARXIV_QUERY = (
     '(cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.GA OR cat:gr-qc OR cat:hep-th OR cat:hep-ph) '
