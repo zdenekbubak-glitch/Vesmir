@@ -3,11 +3,17 @@ name: Denní kosmologické novinky
 on:
   schedule:
     - cron: '0 9 * * *'
-      timezone: 'Europe/Prague'   # 9:00 středoevropského času
-  workflow_dispatch:              # možnost spustit ručně
+      timezone: 'Europe/Prague'
+  workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   update-news:
@@ -37,3 +43,25 @@ jobs:
           git add data/news.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Automatická aktualizace novinek $(date -u +%Y-%m-%d)"
           git push
+
+  deploy:
+    needs: update-news
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
