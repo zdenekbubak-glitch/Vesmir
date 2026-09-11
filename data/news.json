@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "id": "2609.11914v1",
+    "title": "Anomalous Dimensions, Matching, and Phenomenology of Dirac Fermionic Dark Matter Effective Interacti",
+    "summary": "We explore a fermionic dark matter (DM) extension of the Standard Model Effective Field Theory (SMEFT) and establish a complete renormalisation-group framework for its phenomenological investigation. We derive the anomalous-dimension matrix of all re…",
+    "url": "http://arxiv.org/abs/2609.11914v1",
+    "source": "arXiv",
+    "original_title": "Anomalous Dimensions, Matching, and Phenomenology of Dirac Fermionic Dark Matter Effective Interactions",
+    "published": "2026-09-10T17:57:21+00:00",
+    "inserted_at": "2026-09-11T17:33:26.277543+00:00"
+  },
+  {
+    "id": "2609.11908v1",
+    "title": "Theoretical Aspects of Direct Waves in Kerr Black Holes: Pole-Splitting Method for Ringdown Analysis",
+    "summary": "We formulate the theoretical aspects of direct waves (DWs) in the case of extreme-mass merger. A DW is a source-driven waveform characterized by a complex frequency $ω_{\\rm G}$, which reflects the orbital motion of the particle in the vicinity of the…",
+    "url": "http://arxiv.org/abs/2609.11908v1",
+    "source": "arXiv",
+    "original_title": "Theoretical Aspects of Direct Waves in Kerr Black Holes: Pole-Splitting Method for Ringdown Analysis",
+    "published": "2026-09-10T17:56:30+00:00",
+    "inserted_at": "2026-09-11T17:33:26.277543+00:00"
+  },
+  {
+    "id": "2609.11907v1",
+    "title": "A Multi-Axion Ladder Across Cosmic History: From Inflation, BBN, and Early Dark Energy to Late-Time ",
+    "summary": "What if dark energy is recurrent throughout cosmic history? In this picture, episodes of scalar-field dark energy become less surprising and more natural features of cosmic evolution. We construct a homogeneous multi-axion cosmology with a transient …",
+    "url": "http://arxiv.org/abs/2609.11907v1",
+    "source": "arXiv",
+    "original_title": "A Multi-Axion Ladder Across Cosmic History: From Inflation, BBN, and Early Dark Energy to Late-Time Accelerated Expansion",
+    "published": "2026-09-10T17:56:27+00:00",
+    "inserted_at": "2026-09-11T17:33:26.277543+00:00"
+  },
+  {
+    "id": "2609.11891v1",
+    "title": "Reconstructing Early Primordial Black Hole Domination from Gravitational-Wave Backgrounds",
+    "summary": "Primordial Black Holes (PBHs) with masses below $\\mathcal{O}(10^9)$g occupy an interesting region of parameter space that is largely inaccessible to conventional observations. Despite evaporating before Big Bang Nucleosynthesis (BBN), these PBHs can …",
+    "url": "http://arxiv.org/abs/2609.11891v1",
+    "source": "arXiv",
+    "original_title": "Reconstructing Early Primordial Black Hole Domination from Gravitational-Wave Backgrounds",
+    "published": "2026-09-10T17:50:27+00:00",
+    "inserted_at": "2026-09-11T17:33:26.277543+00:00"
+  },
+  {
+    "id": "2609.11885v1",
+    "title": "Hierarchical Population Inference with Normalizing Flows for Binary Black Holes",
+    "summary": "Low-dimensional parametric mass models are standard in gravitational-wave population inference, but their rigidity can bias the recovered distribution and the conclusions drawn from it. We present a pipeline in which the source-frame binary-black-hol…",
+    "url": "http://arxiv.org/abs/2609.11885v1",
+    "source": "arXiv",
+    "original_title": "Hierarchical Population Inference with Normalizing Flows for Binary Black Holes",
+    "published": "2026-09-10T17:49:31+00:00",
+    "inserted_at": "2026-09-11T17:33:26.277543+00:00"
+  },
+  {
+    "id": "2609.11833v1",
+    "title": "Solar Neutrino Constraints on Inelastic Dark Matter Scattering in Light of Recent LUX-ZEPLIN Observa",
+    "summary": "The LUX-ZEPLIN (LZ) Collaboration recently reported the detection of a single nuclear recoil candidate event with a very high recoil energy. The lack of any corresponding low-energy events motivates models in which dark matter scattering with nuclei …",
+    "url": "http://arxiv.org/abs/2609.11833v1",
+    "source": "arXiv",
+    "original_title": "Solar Neutrino Constraints on Inelastic Dark Matter Scattering in Light of Recent LUX-ZEPLIN Observations",
+    "published": "2026-09-10T17:25:40+00:00",
+    "inserted_at": "2026-09-11T17:33:26.277543+00:00"
+  },
+  {
+    "id": "2609.11819v1",
+    "title": "Universal Structure of Horizon Formation in Generic Binary Black Hole Mergers",
+    "summary": "We derive the local structure of the first common apparent horizon in a generic binary-black-hole merger. This event occurs in the fully nonlinear regime, outside the standard regimes of post-Newtonian inspiral theory and perturbations of a stationar…",
+    "url": "http://arxiv.org/abs/2609.11819v1",
+    "source": "arXiv",
+    "original_title": "Universal Structure of Horizon Formation in Generic Binary Black Hole Mergers",
+    "published": "2026-09-10T17:12:52+00:00",
+    "inserted_at": "2026-09-11T17:33:26.277543+00:00"
+  },
+  {
+    "id": "2609.11750v1",
+    "title": "Might the radiation era extend back to the Big Bang? On dark matter production and the relic gravito",
+    "summary": "Naive estimates based on Einstein gravity with Lagrangian $\\frac{1}{2}M_{pl}^{2}(R-2Λ)$ suggest that, if the radiation era extended back to the Big Bang (i.e., as far back as the classical spacetime background makes sense), this would result in an ov…",
+    "url": "http://arxiv.org/abs/2609.11750v1",
+    "source": "arXiv",
+    "original_title": "Might the radiation era extend back to the Big Bang? On dark matter production and the relic graviton background in quadratic gravity",
+    "published": "2026-09-10T16:06:11+00:00",
+    "inserted_at": "2026-09-11T17:33:26.277543+00:00"
+  }
+]
