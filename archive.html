@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archiv – Kosmologické novinky</title>
+  <style>
+    :root { --bg: #0b0f19; --card: #151b2d; --text: #e8eef7; --accent: #6ea8fe; --muted: #9aa8c7; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.55; }
+    header { background: linear-gradient(135deg, #0f172a, #1e293b); padding: 2rem 1rem; text-align: center; border-bottom: 1px solid #1e293b; }
+    h1 { margin: 0 0 0.4rem; font-size: 1.8rem; }
+    .subtitle { color: var(--muted); font-size: 0.95rem; }
+    nav { margin-top: 1rem; }
+    nav a { color: var(--accent); margin: 0 0.6rem; font-size: 0.95rem; }
+    main { max-width: 820px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+    .section-title { font-size: 1.15rem; color: var(--muted); margin: 2rem 0 0.8rem; border-bottom: 1px solid #1e293b; padding-bottom: 0.4rem; }
+    .year-title { font-size: 1.4rem; margin: 2.2rem 0 0.6rem; color: var(--text); }
+    .post { background: var(--card); border-radius: 12px; padding: 1.25rem 1.4rem; margin-bottom: 1.2rem; border: 1px solid #1e293b; }
+    .post h2 { margin: 0 0 0.5rem; font-size: 1.2rem; }
+    .meta { font-size: 0.85rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .summary { margin: 0 0 0.9rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
+    footer { text-align: center; padding: 1.5rem; color: var(--muted); font-size: 0.85rem; }
+    .toc { background: var(--card); border-radius: 12px; padding: 1.2rem 1.4rem; margin-bottom: 1.5rem; border: 1px solid #1e293b; }
+    .toc h2 { margin: 0 0 0.8rem; font-size: 1.1rem; }
+    .toc-year { margin: 0.8rem 0 0.3rem; font-weight: 600; }
+    .toc-months { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.6rem; }
+    .toc-months a { display: inline-block; padding: 0.3rem 0.7rem; background: #1e293b; border-radius: 6px; font-size: 0.9rem; }
+    .toc-months a:hover { background: #334155; text-decoration: none; }
+    .back-top { text-align: center; margin: 2rem 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Archiv kosmologických novinek</h1>
+    <p class="subtitle">Starší příspěvky podle měsíců a let</p>
+    <nav>
+      <a href="index.html">Aktuální</a>
+      <a href="archive.html">Archiv</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <p class="empty">Načítám archiv…</p>
+  </main>
+
+  <footer>
+    Data z arXiv + RSS · Aktualizace každý den v 9:00
+  </footer>
+
+  <script>
+    const MONTH_NAMES = ['leden','únor','březen','duben','květen','červen','červenec','srpen','září','říjen','listopad','prosinec'];
+
+    function getMonthKey(date) {
+      return date.getFullYear() + '-' + String(date.getMonth() + 1).padStart(2, '0');
+    }
+
+    function monthLabel(key) {
+      const [y, m] = key.split('-').map(Number);
+      return MONTH_NAMES[m - 1] + ' ' + y;
+    }
+
+    async function loadArchive() {
+      const content = document.getElementById('content');
+      try {
+        const res = await fetch('data/news.json?' + Date.now());
+        if (!res.ok) throw new Error('Soubor ještě neexistuje');
+        const items = await res.json();
+
+        if (!items || items.length === 0) {
+          content.innerHTML = '<p class="empty">Archiv je zatím prázdný.</p>';
+          return;
+        }
+
+        const now = new Date();
+        const thisMonth = getMonthKey(now);
+        const prev = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+        const lastMonth = getMonthKey(prev);
+
+        // Do archivu patří vše starší než aktuální + minulý měsíc
+        const older = items.filter(item => {
+          const d = new Date(item.inserted_at || item.published);
+          const key = getMonthKey(d);
+          return key !== thisMonth && key !== lastMonth;
+        });
+
+        if (older.length === 0) {
+          content.innerHTML = `
+            <p class="empty">Zatím žádné starší příspěvky. Archiv se začne plnit po uplynutí dvou měsíců.</p>
+            <p style="text-align:center"><a href="index.html">← Zpět na aktuální novinky</a></p>`;
+          return;
+        }
+
+        // Seskupit podle měsíce
+        const groups = {};
+        older.forEach(item => {
+          const d = new Date(item.inserted_at || item.published);
+          const key = getMonthKey(d);
+          if (!groups[key]) groups[key] = [];
+          groups[key].push(item);
+        });
+
+        const orderedKeys = Object.keys(groups).sort().reverse(); // nejnovější nahoře
+
+        // Rozcestník
+        const byYear = {};
+        orderedKeys.forEach(key => {
+          const year = key.split('-')[0];
+          if (!byYear[year]) byYear[year] = [];
+          byYear[year].push(key);
+        });
+
+        let tocHtml = '<div class="toc"><h2>Rozcestník</h2>';
+        Object.keys(byYear).sort().reverse().forEach(year => {
+          tocHtml += `<div class="toc-year">${year}</div><div class="toc-months">`;
+          byYear[year].forEach(key => {
+            const count = groups[key].length;
+            tocHtml += `<a href="#m-${key}">${monthLabel(key)} (${count})</a>`;
+          });
+          tocHtml += '</div>';
+        });
+        tocHtml += '</div>';
+
+        // Obsah
+        let bodyHtml = '';
+        let currentYear = null;
+        orderedKeys.forEach(key => {
+          const year = key.split('-')[0];
+          if (year !== currentYear) {
+            currentYear = year;
+            bodyHtml += `<h2 class="year-title">${year}</h2>`;
+          }
+          bodyHtml += `<h3 class="section-title" id="m-${key}">${monthLabel(key)}</h3>`;
+          bodyHtml += groups[key].map(item => renderPost(item)).join('');
+        });
+
+        content.innerHTML = tocHtml + bodyHtml + `
+          <div class="back-top"><a href="#top">↑ Nahoru</a> · <a href="index.html">← Aktuální novinky</a></div>`;
+      } catch (e) {
+        content.innerHTML = `<p class="empty">Nepodařilo se načíst data.<br><small>${e.message}</small></p>`;
+      }
+    }
+
+    function renderPost(item) {
+      const inserted = new Date(item.inserted_at).toLocaleString('cs-CZ', { timeZone: 'Europe/Prague' });
+      const published = item.published ? new Date(item.published).toLocaleDateString('cs-CZ') : '';
+      return `
+        <article class="post">
+          <h2>${escapeHtml(item.title)}</h2>
+          <div class="meta">
+            Vloženo: ${inserted} · Zdroj: ${item.source} ${published ? '· Publikováno: ' + published : ''}
+          </div>
+          <p class="summary">${escapeHtml(item.summary)}</p>
+          <a href="${item.url}" target="_blank" rel="noopener">Původní zdroj →</a>
+        </article>`;
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text || '';
+      return div.innerHTML;
+    }
+
+    loadArchive();
+  </script>
+</body>
+</html>
