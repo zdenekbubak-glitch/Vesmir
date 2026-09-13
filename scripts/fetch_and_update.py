@@ -14,20 +14,29 @@ from dateutil import parser as date_parser
 
 # Konfigurace
 DATA_FILE = Path("data/news.json")
-MAX_NEW_ITEMS = 8
-LOOKBACK_HOURS = 36
+MAX_NEW_ITEMS = 10          # bylo 8
+LOOKBACK_HOURS = 60         # bylo 36 – chytí i víkend / pomalejší dny
 GEMINI_MODEL = "gemini-3.6-flash"
 
 ARXIV_QUERY = (
     '(cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.GA OR cat:gr-qc OR cat:hep-th OR cat:hep-ph) '
-    'AND (ti:"dark matter" OR ti:"dark energy" OR ti:"black hole" OR ti:"black holes" '
-    'OR ti:"neutron star" OR ti:"quantum field" OR ti:cosmology '
-    'OR abs:"dark matter" OR abs:"dark energy" OR abs:"black hole" OR abs:cosmology)'
+    'AND ('
+    'ti:"dark matter" OR ti:"dark energy" OR ti:"black hole" OR ti:"black holes" '
+    'OR ti:"neutron star" OR ti:"quantum field" OR ti:cosmology OR ti:inflation '
+    'OR ti:"gravitational wave" OR ti:"gravitational waves" OR ti:"primordial" '
+    'OR ti:"early universe" OR ti:"modified gravity" OR ti:"quantum gravity" '
+    'OR ti:"Hubble tension" OR ti:"structure formation" OR ti:CMB OR ti:"cosmic microwave" '
+    'OR abs:"dark matter" OR abs:"dark energy" OR abs:"black hole" OR abs:cosmology '
+    'OR abs:"gravitational wave" OR abs:inflation OR abs:"primordial black" '
+    'OR abs:"modified gravity" OR abs:"quantum gravity" OR abs:"Hubble tension"'
+    ')'
 )
 
 RSS_FEEDS = [
     "https://www.sciencedaily.com/rss/space_time/cosmology.xml",
     "https://www.skyandtelescope.org/astronomy-news/cosmology/feed/",
+    "https://www.sciencedaily.com/rss/space_time/black_holes.xml",
+    "https://phys.org/rss-feed/space-news/cosmology/",
 ]
 
 def load_history() -> list:
