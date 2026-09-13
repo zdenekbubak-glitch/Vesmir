@@ -99,13 +99,13 @@ Požadavky:
 
 def fetch_arxiv(existing_ids: set) -> list:
     client = arxiv.Client(
-        page_size=15,
-        delay_seconds=6.0,
-        num_retries=2
+        page_size=10,          # bylo 15
+        delay_seconds=10.0,    # bylo 6.0 – šetrnější k arXiv
+        num_retries=3
     )
     search = arxiv.Search(
         query=ARXIV_QUERY,
-        max_results=20,
+        max_results=15,        # bylo 20
         sort_by=arxiv.SortCriterion.SubmittedDate,
         sort_order=arxiv.SortOrder.Descending,
     )
@@ -138,7 +138,7 @@ def fetch_arxiv(existing_ids: set) -> list:
         print(f"Varování: arXiv se nepodařilo stáhnout ({e}). Pokračuji jen s RSS.")
 
     return new_items
-
+    
 def fetch_rss(existing_ids: set) -> list:
     new_items = []
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
@@ -146,10 +146,19 @@ def fetch_rss(existing_ids: set) -> list:
     for feed_url in RSS_FEEDS:
         try:
             feed = feedparser.parse(feed_url)
-            for entry in feed.entries[:12]:
+            for entry in feed.entries[:15]:
                 entry_id = entry.get("id") or entry.get("link")
                 if not entry_id or entry_id in existing_ids:
                     continue
+
+                title = entry.get("title", "")
+                summary = entry.get("summary", "")
+                text = (title + " " + summary).lower()
+
+                # Musí obsahovat aspoň jedno relevantní klíčové slovo
+                if not any(kw in text for kw in RSS_KEYWORDS):
+                    continue
+
                 published = None
                 if hasattr(entry, "published_parsed") and entry.published_parsed:
                     published = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
@@ -162,11 +171,11 @@ def fetch_rss(existing_ids: set) -> list:
                 if published and published < cutoff:
                     continue
 
-                abstract = entry.get("summary", "")[:800]
+                abstract = summary[:800]
                 new_items.append({
                     "id": entry_id,
                     "source": "RSS",
-                    "original_title": entry.get("title", "Bez názvu"),
+                    "original_title": title or "Bez názvu",
                     "abstract": abstract,
                     "url": entry.get("link", ""),
                     "published": published.isoformat() if published else datetime.now(timezone.utc).isoformat(),
@@ -174,7 +183,7 @@ def fetch_rss(existing_ids: set) -> list:
         except Exception as e:
             print(f"RSS chyba {feed_url}: {e}")
     return new_items
-
+    
 def main():
     print("Spouštím denní aktualizaci kosmologických novinek…")
     history = load_history()
