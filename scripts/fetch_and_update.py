@@ -18,7 +18,7 @@ MAX_NEW_ITEMS = 8
 LOOKBACK_HOURS = 60
 GEMINI_MODEL = "gemini-3.6-flash"
 
-# Jednodušší a kratší query = méně 429
+# Kratší query = méně 429 od arXiv
 ARXIV_QUERY = (
     '(cat:astro-ph.CO OR cat:gr-qc OR cat:hep-th OR cat:hep-ph) '
     'AND ('
@@ -34,14 +34,15 @@ RSS_FEEDS = [
     "https://www.skyandtelescope.org/astronomy-news/cosmology/feed/",
 ]
 
-# Klíčová slova pro filtrování RSS (case-insensitive)
 RSS_KEYWORDS = [
     "dark matter", "dark energy", "black hole", "black holes",
     "cosmology", "cosmological", "inflation", "gravitational wave",
     "primordial", "early universe", "quantum gravity", "modified gravity",
     "hubble", "cmb", "cosmic microwave", "neutron star", "singularity",
     "hawking", "event horizon", "big bang", "multiverse", "string theory",
+    "universe", "vesmír",  # širší, ale stále relevantní
 ]
+
 
 def load_history() -> list:
     if DATA_FILE.exists():
@@ -49,13 +50,16 @@ def load_history() -> list:
             return json.load(f)
     return []
 
+
 def save_history(items: list):
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(items, f, ensure_ascii=False, indent=2)
 
+
 def get_existing_ids(history: list) -> set:
     return {item.get("id") for item in history if item.get("id")}
+
 
 def summarize_czech(client, title: str, abstract: str, url: str) -> dict:
     prompt = f"""Jsi odborný popularizátor kosmologie. Napiš krátký článek v češtině pro laickou i odbornou veřejnost.
@@ -76,10 +80,9 @@ Požadavky:
 }}
 """
     try:
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=prompt,
-        )
+        # Chat API – bez varování o AFC
+        chat = client.chats.create(model=GEMINI_MODEL)
+        response = chat.send_message(prompt)
         text = response.text.strip()
         if text.startswith("```"):
             text = text.split("```")[1]
@@ -97,21 +100,26 @@ Požadavky:
             "summary_cs": abstract[:250] + "…",
         }
 
+
 def fetch_arxiv(existing_ids: set) -> list:
+    # Šetrnější nastavení proti HTTP 429
     client = arxiv.Client(
-        page_size=10,          # bylo 15
-        delay_seconds=10.0,    # bylo 6.0 – šetrnější k arXiv
-        num_retries=3
+        page_size=5,
+        delay_seconds=12.0,
+        num_retries=4,
     )
     search = arxiv.Search(
         query=ARXIV_QUERY,
-        max_results=15,        # bylo 20
+        max_results=12,
         sort_by=arxiv.SortCriterion.SubmittedDate,
         sort_order=arxiv.SortOrder.Descending,
     )
 
     new_items = []
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
+
+    # Krátká pauza před prvním požadavkem (GitHub Actions IP často rate-limitované)
+    time.sleep(3)
 
     try:
         for paper in client.results(search):
@@ -138,7 +146,8 @@ def fetch_arxiv(existing_ids: set) -> list:
         print(f"Varování: arXiv se nepodařilo stáhnout ({e}). Pokračuji jen s RSS.")
 
     return new_items
-    
+
+
 def fetch_rss(existing_ids: set) -> list:
     new_items = []
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
@@ -155,7 +164,6 @@ def fetch_rss(existing_ids: set) -> list:
                 summary = entry.get("summary", "")
                 text = (title + " " + summary).lower()
 
-                # Musí obsahovat aspoň jedno relevantní klíčové slovo
                 if not any(kw in text for kw in RSS_KEYWORDS):
                     continue
 
@@ -171,29 +179,27 @@ def fetch_rss(existing_ids: set) -> list:
                 if published and published < cutoff:
                     continue
 
-                abstract = summary[:800]
                 new_items.append({
                     "id": entry_id,
                     "source": "RSS",
                     "original_title": title or "Bez názvu",
-                    "abstract": abstract,
+                    "abstract": summary[:800],
                     "url": entry.get("link", ""),
                     "published": published.isoformat() if published else datetime.now(timezone.utc).isoformat(),
                 })
         except Exception as e:
             print(f"RSS chyba {feed_url}: {e}")
     return new_items
-    
+
+
 def main():
     print("Spouštím denní aktualizaci kosmologických novinek…")
     history = load_history()
     existing_ids = get_existing_ids(history)
 
-    # 1. Stáhnout nové položky
     candidates = fetch_arxiv(existing_ids)
     candidates += fetch_rss(existing_ids)
 
-    # Deduplikace a limit
     seen = set()
     unique = []
     for c in candidates:
@@ -206,7 +212,6 @@ def main():
         print("Žádné nové relevantní položky.")
         return
 
-    # 2. Sumarizace přes Gemini
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("Chybí GEMINI_API_KEY")
@@ -236,11 +241,11 @@ def main():
         new_posts.append(post)
         time.sleep(1.5)
 
-    # 3. Uložit (nové nahoře)
     history = new_posts + history
     history = history[:500]
     save_history(history)
     print(f"Přidáno {len(new_posts)} nových příspěvků. Celkem v historii: {len(history)}")
+
 
 if __name__ == "__main__":
     main()
