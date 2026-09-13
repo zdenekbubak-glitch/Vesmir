@@ -31,6 +31,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Wait before arXiv (reduce 429)
+        run: sleep 30
+
       - name: Run agent
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
