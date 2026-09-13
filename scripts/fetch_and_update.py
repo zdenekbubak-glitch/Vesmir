@@ -14,29 +14,33 @@ from dateutil import parser as date_parser
 
 # Konfigurace
 DATA_FILE = Path("data/news.json")
-MAX_NEW_ITEMS = 10          # bylo 8
-LOOKBACK_HOURS = 60         # bylo 36 – chytí i víkend / pomalejší dny
+MAX_NEW_ITEMS = 8
+LOOKBACK_HOURS = 60
 GEMINI_MODEL = "gemini-3.6-flash"
 
+# Jednodušší a kratší query = méně 429
 ARXIV_QUERY = (
-    '(cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.GA OR cat:gr-qc OR cat:hep-th OR cat:hep-ph) '
+    '(cat:astro-ph.CO OR cat:gr-qc OR cat:hep-th OR cat:hep-ph) '
     'AND ('
-    'ti:"dark matter" OR ti:"dark energy" OR ti:"black hole" OR ti:"black holes" '
-    'OR ti:"neutron star" OR ti:"quantum field" OR ti:cosmology OR ti:inflation '
-    'OR ti:"gravitational wave" OR ti:"gravitational waves" OR ti:"primordial" '
-    'OR ti:"early universe" OR ti:"modified gravity" OR ti:"quantum gravity" '
-    'OR ti:"Hubble tension" OR ti:"structure formation" OR ti:CMB OR ti:"cosmic microwave" '
-    'OR abs:"dark matter" OR abs:"dark energy" OR abs:"black hole" OR abs:cosmology '
-    'OR abs:"gravitational wave" OR abs:inflation OR abs:"primordial black" '
-    'OR abs:"modified gravity" OR abs:"quantum gravity" OR abs:"Hubble tension"'
+    '"dark matter" OR "dark energy" OR "black hole" OR "black holes" '
+    'OR cosmology OR inflation OR "gravitational wave" OR "gravitational waves" '
+    'OR "primordial black" OR "early universe" OR "modified gravity" '
+    'OR "quantum gravity" OR "Hubble tension" OR "structure formation"'
     ')'
 )
 
 RSS_FEEDS = [
     "https://www.sciencedaily.com/rss/space_time/cosmology.xml",
     "https://www.skyandtelescope.org/astronomy-news/cosmology/feed/",
-    "https://www.sciencedaily.com/rss/space_time/black_holes.xml",
-    "https://phys.org/rss-feed/space-news/cosmology/",
+]
+
+# Klíčová slova pro filtrování RSS (case-insensitive)
+RSS_KEYWORDS = [
+    "dark matter", "dark energy", "black hole", "black holes",
+    "cosmology", "cosmological", "inflation", "gravitational wave",
+    "primordial", "early universe", "quantum gravity", "modified gravity",
+    "hubble", "cmb", "cosmic microwave", "neutron star", "singularity",
+    "hawking", "event horizon", "big bang", "multiverse", "string theory",
 ]
 
 def load_history() -> list:
