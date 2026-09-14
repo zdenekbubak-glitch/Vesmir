@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Denní agent pro kosmologické novinky – čeština."""
 
+import re
 import json
 import os
 import time
