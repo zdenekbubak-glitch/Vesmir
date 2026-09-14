@@ -1,5 +1,85 @@
 [
   {
+    "id": "2607.18441",
+    "title": "Odhalí Einsteinův teleskop kosmické struny pomocí gravitačních vln?",
+    "summary": "Kosmické struny představují dosud nepotvrzené topologické poruchy z raného vesmíru. Tyto extrémně husté útvary dokážou ohýbat světlo i gravitaci, čímž fungují jako gravitační čočky. Nová studie zkoumá, zda by chystaný obří detektor Einstein Telescope (ET) dokázal kosmické struny zachytit právě díky ohybu gravitačních vln. Vědci s využitím vlnové optiky a simulací splynutí kompaktních objektů prokázali, že struny zanechávají v průběhu gravitačních vln charakteristické a dobře měřitelné změny. Většina simulovaných událostí spadá do detekčního rozsahu ET, což umožňuje i přesný odhad fyzikálních parametrů strun. Proč je to zajímavé: Detekce kosmických strun by přinesla přímé svědectví o procesech v prvních zlomcích sekundy po velkém třesku a potvrdila novou fyziku za hranicemi Standardního modelu.",
+    "url": "https://arxiv.org/abs/2607.18441",
+    "source": "arXiv",
+    "original_title": "Detection of cosmic strings by gravitational wave lensing. Predictions for Einstein Telescope",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
+  },
+  {
+    "id": "2608.26920",
+    "title": "Bumpy inflation from explosive particle production",
+    "summary": "arXiv:2608.26920v2 Announce Type: replace Abstract: We present a first-principles derivation of an effective inflaton potential with a bumpy feature. We consider the coupling of a spectator field \\chi to the inflaton \\phi such that \\chi is massive en…",
+    "url": "https://arxiv.org/abs/2608.26920",
+    "source": "arXiv",
+    "original_title": "Bumpy inflation from explosive particle production",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
+  },
+  {
+    "id": "2510.17125",
+    "title": "Od hvězd ke vlnám: Jak odhalit mikročočkování gravitačních vln",
+    "summary": "Když silně zakřivené gravitační vlny procházejí galaxiemi, jejich tvar mohou dodatečně ovlivnit jednotlivé hvězdy či jejich pozůstatky. Tento jev, zvaný gravitační mikročočkování, mění fázi i amplitudu signálu. Protože efekt závisí na polohách a hmotnostech tisíců hvězd, je jeho přesný výpočet tradičními metodami prakticky nemožný. Vědci proto navrhli nový přístup využívající pokročilé strojové učení. Ukázali, že v éře detektorů třetí generace bude možné spolehlivě zachytit přibližně 8 % takto deformovaných událostí a propojit je s hustotou hvězdného prostředí. Proč je to zajímavé: Tato metoda neotevírá pouze dveře k detailnímu průzkumu vzdálených hvězdných populací, ale lze ji použít i pro analýzu dalších složitých kosmických signálů, například z fází po splynutí neutronových hvězd.",
+    "url": "https://arxiv.org/abs/2510.17125",
+    "source": "arXiv",
+    "original_title": "From Stars to Waves: Non-deterministic Inference of Microlensed Gravitational Waves",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
+  },
+  {
+    "id": "2601.11704",
+    "title": "Vesmírná lupa odhalila hvězdu Hedorah: První žlutý veleobr v raném vesmíru",
+    "summary": "Díky gravitační čočce v podobě galaktické kupy AS1063 a datům z Vesmírného dalekohledu Jamese Webba se astronomům podařilo nahlédnout do hlubokého vesmíru s nebývalým detailem. Vědci zpřesnili model čočkování a v silně zvětšených obrazech odhalili pozoruhodné objekty. Nejvýznamnějším z nich je kandidát na jednotlivou hvězdu přezdívanou Hedorah. Jde o vůbec prvního žlutého veleobra zachyceného při rudém posuvu z = 3,7, tedy v době, kdy měl vesmír zhruba jen dvě miliardy let. Data navíc odhalila i extrémně vzdálenou galaxii z ještě ranější epochy. Proč je to zajímavé: Pozorování jednotlivých hvězd na tak obrovské vzdálenosti nám umožňuje přímo zkoumat fyzikální vlastnosti a životní cyklus hmotných hvězd v mladém vesmíru.",
+    "url": "https://arxiv.org/abs/2601.11704",
+    "source": "arXiv",
+    "original_title": "Hedorah, the first yellow supergiant Kaiju star candidate at $z=3.7$ revealed by JWST behind AS1063",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
+  },
+  {
+    "id": "2601.18578",
+    "title": "Jak temná hmota utváří plyn ve vesmíru? Odpověď přináší simulace AIDA-TNG",
+    "summary": "Standardní model chladné temné hmoty funguje skvěle, avšak samotné částice se stále nedaří zachytit. Astronomové proto pomocí simulací AIDA-TNG testovali, jak rozložení plynu a neutrálního vodíku ovlivňují alternativní modely, jako je teplá či samovazebná temná hmota. Výsledky ukazují, že rozdíly mezi modely jsou překvapivě malé. Klíčovou roli v utváření plynu totiž hraje zpětná vazba z aktivních galaktických jader, tedy činnost obřích černých děr, která efekty temné hmoty většinou přebíjí. Pouze u nejmasivnějších galaktických kup vede samovazebná temná hmota ke snížení teploty plynu v jejich středu. Proč je to zajímavé: Ukazuje se, že pro odhalení podstaty temné hmoty musíme nejdříve dokonale porozumět vlivu supermasivních černých děr.",
+    "url": "https://arxiv.org/abs/2601.18578",
+    "source": "arXiv",
+    "original_title": "Gas distributions inside and around haloes in the alternative dark matter simulations AIDA-TNG",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
+  },
+  {
+    "id": "2609.12019",
+    "title": "Černé díry v rozpínajícím se vesmíru a jejich skrytá geometrie",
+    "summary": "Sultana-Dyerův časoprostor popisuje teoretický model černé díry umístěné v rozpínajícím se vesmíru. Nová studie zkoumá jeho geometrické vlastnosti pomocí takzvaných Yamabeho solitonů, které popisují vývoj zakřivení časoprostoru. Autoři ukázali, že časový vývoj úzce souvisí s rozložením hmoty a záření. Když však model přizpůsobili zrychlujícímu se rozpínání vesmíru v jeho pozdních fázích, zjistili, že dochází k porušení standardních energetických podmínek. To naznačuje, že dynamika kosmické expanze zásadně ovlivňuje fyzikální chování černých děr. Proč je to zajímavé: Práce propojuje pokročilou diferenciální geometrii s kosmologií a ukazuje, že černé díry v reálném vesmíru mohou vyžadovat exotické formy energie, které neodpovídají běžné hmotě.",
+    "url": "https://arxiv.org/abs/2609.12019",
+    "source": "arXiv",
+    "original_title": "Sultana--Dyer Black Hole Spacetime and $h$-Almost Yamabe Solitons",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
+  },
+  {
+    "id": "2609.12052",
+    "title": "Obří mračna u černých děr: Nový způsob, jak odhalit tajemné částice",
+    "summary": "Rotující černé díry mohou kolem sebe vytvářet obří mračna z extrémně lehkých hypotetických částic. Tento jev, známý jako superradiance, funguje v hustých jádrech galaxií jako efektivní brzdný mechanismus. Mračna odvádějí energii při blízkých Průletech černých děr, čímž výrazně urychlují vznik jejich těsných dvojic a následné srážky. Autoři studie ukazují, že analýzou gravitačních vln ze srážek s výrazně odlišnými hmotnostmi černých děr (s poměrem pod 3:10) v katalogu GWTC-5 lze testovat existenci těchto částic v rozsahu hmotností 4×10⁻¹⁴ až 10⁻¹³ eV. Tato metoda účinně doplňuje dosavadní přístupy založené na přímém měření rotace. Proč je to zajímavé: Výzkum nabízí elegantní způsob, jak z pozorování srážek černých děr získat informace o dosud neobjavených částicích, které by mohly tvořit temnou hmotu.",
+    "url": "https://arxiv.org/abs/2609.12052",
+    "source": "arXiv",
+    "original_title": "Constraining Ultralight Scalars with Black Hole Binary Mergers in Galactic Nuclei",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
+  },
+  {
+    "id": "2609.12058",
+    "title": "Jak se krmí pohybující se černá díra v srdci neutronové hvězdy?",
+    "summary": "Astrofyzici se znovu zaměřili na proces, při němž pohybující se černá díra pohlcuje okolní plyn. Nová studie se věnuje takzvaným „tuhým“ tekutinám s vysokým tlakem, což je prostředí typické pro vnitřek neutronových hvězd. Vědci pomocí počítačových simulací zkoumali, jak rychlost pohybu černé díry a rychlost zvuku v okolí ovlivňují množství pohlcené hmoty a brzdnou sílu, která na černou díru působí. Objevili různé režimy proudění a navrhli jednoduché analytické vzorce, které tyto děje popisují. Výsledky jsou klíčové pro chování prvotních černých děr zachycených neutronovými hvězdami. Proč je to zajímavé: Výzkum pomáhá pochopit, jak primordiální černé díry požírají neutronové hvězdy zevnitř, což představuje možný způsob, jak tyto těžko lapatelné objekty ve vesmíru detekovat.",
+    "url": "https://arxiv.org/abs/2609.12058",
+    "source": "arXiv",
+    "original_title": "Accretion onto a moving black hole for stiff equations of state",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
+  },
+  {
     "id": "2609.13041",
     "title": "Vznikaly první obří černé díry zhroucením temné hmoty?",
     "summary": "Astronomové dlouho řeší záhadu, jak mohly v raném vesmíru tak rychle vyrůst supermasivní černé díry. Nový výzkum naznačuje, že klíčem může být samoreagující temná hmota. Pokud mezi sebou částice temné hmoty častěji interagují, dochází v centrech galaktických hal ke gravitotermálnímu kolapsu. Tento proces dokáže vytvořit hmotné zárodky černých děr, které následným pohlcováním plynu a slučováním galaxií narostou do obřích rozměrů pozorovaných na úsvitu vesmíru. Autoři studie pomocí simulací stanovili přesné kosmologické podmínky, za kterých tento scénář funguje. Proč je to zajímavé: Výzkum neřeší jen původ záhadných raných gigantů, ale nabízí i nový způsob, jak přímo testovat mikrofyzikální podstatu samotné temné hmoty.",
