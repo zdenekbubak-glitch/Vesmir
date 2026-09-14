@@ -48,9 +48,9 @@ jobs:
         run: |
           git config user.name "cosmo-agent"
           git config user.email "agent@users.noreply.github.com"
-          git add data/news.json
+          git add data/news.json assets/cards/daily.jpg
           if git diff --staged --quiet; then
-            echo "Žádné změny v news.json – nic necommitám."
+            echo "Žádné změny – nic necommitám."
           else
             git commit -m "Automatická aktualizace novinek $(date -u +%Y-%m-%d)"
             git push origin HEAD:main
