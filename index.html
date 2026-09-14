@@ -1,5 +1,43 @@
 <!DOCTYPE html>
 <html lang="cs">
+  <!-- Počítání zobrazení bez cookies a identifikace návštěvníků -->
+<script>
+(() => {
+  if (
+    navigator.webdriver ||
+    location.hostname !== "zdenekbubak-glitch.github.io" ||
+    !location.pathname.startsWith("/…/")
+  ) return;
+
+  const body = JSON.stringify({
+    site: "vesmir",
+    id: crypto.randomUUID()
+  });
+
+  async function odeslat() {
+    try {
+      const response = await fetch(
+        "https://ai-robotika-radar.zdenek-bubak.chatgpt.site/…ect",
+        {
+          method: "POST",
+          mode: "cors",
+          credentials: "omit",
+          headers: { "Content-Type": "application/json" },
+          body,
+          keepalive: true
+        }
+      );
+      return response.ok;
+    } catch {
+      return false;
+    }
+  }
+
+  odeslat().then(ok => {
+    if (!ok) setTimeout(odeslat, 1500);
+  });
+})();
+</script>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
