@@ -43,6 +43,12 @@ RSS_KEYWORDS = [
     "universe", "vesmír",  # širší, ale stále relevantní
 ]
 
+ARXIV_RSS_FEEDS = [
+    "https://rss.arxiv.org/rss/astro-ph.CO",
+    "https://rss.arxiv.org/rss/gr-qc",
+    "https://rss.arxiv.org/rss/hep-th",
+    "https://rss.arxiv.org/rss/hep-ph",
+]
 
 def load_history() -> list:
     if DATA_FILE.exists():
@@ -102,11 +108,15 @@ Požadavky:
 
 
 def fetch_arxiv(existing_ids: set) -> list:
-    # Šetrnější nastavení proti HTTP 429
+    """Nejdřív API s retry při 429, při neúspěchu fallback na arXiv RSS."""
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
+    new_items = []
+
+    # --- 1) Pokus přes oficiální API s backoffem ---
     client = arxiv.Client(
         page_size=5,
-        delay_seconds=12.0,
-        num_retries=4,
+        delay_seconds=15.0,
+        num_retries=1,  # retry řešíme sami
     )
     search = arxiv.Search(
         query=ARXIV_QUERY,
@@ -115,38 +125,112 @@ def fetch_arxiv(existing_ids: set) -> list:
         sort_order=arxiv.SortOrder.Descending,
     )
 
-    new_items = []
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
-
-    # Krátká pauza před prvním požadavkem (GitHub Actions IP často rate-limitované)
-    time.sleep(3)
-
-    try:
-        for paper in client.results(search):
-            paper_id = paper.entry_id.split("/abs/")[-1]
-            if paper_id in existing_ids:
-                continue
-            published = paper.published
-            if published.tzinfo is None:
-                published = published.replace(tzinfo=timezone.utc)
-            if published < cutoff:
-                continue
-
-            new_items.append({
-                "id": paper_id,
-                "source": "arXiv",
-                "original_title": paper.title,
-                "abstract": paper.summary.replace("\n", " "),
-                "url": paper.entry_id,
-                "published": published.isoformat(),
-            })
-            if len(new_items) >= MAX_NEW_ITEMS:
+    delays = [5, 45, 90]  # sekundy mezi pokusy
+    api_ok = False
+    for attempt, wait in enumerate(delays, start=1):
+        try:
+            time.sleep(wait)
+            for paper in client.results(search):
+                paper_id = paper.entry_id.split("/abs/")[-1]
+                if paper_id in existing_ids:
+                    continue
+                published = paper.published
+                if published.tzinfo is None:
+                    published = published.replace(tzinfo=timezone.utc)
+                if published < cutoff:
+                    continue
+                new_items.append({
+                    "id": paper_id,
+                    "source": "arXiv",
+                    "original_title": paper.title,
+                    "abstract": paper.summary.replace("\n", " "),
+                    "url": paper.entry_id,
+                    "published": published.isoformat(),
+                })
+                if len(new_items) >= MAX_NEW_ITEMS:
+                    break
+            api_ok = True
+            print(f"arXiv API OK (pokus {attempt}), nalezeno kandidátů: {len(new_items)}")
+            break
+        except Exception as e:
+            err = str(e)
+            print(f"arXiv API pokus {attempt}/{len(delays)} selhal: {err}")
+            if "429" not in err and attempt == len(delays):
                 break
-    except Exception as e:
-        print(f"Varování: arXiv se nepodařilo stáhnout ({e}). Pokračuji jen s RSS.")
+            if attempt < len(delays):
+                print(f"Čekám před dalším pokusem…")
+            continue
 
-    return new_items
+    if api_ok and new_items:
+        return new_items
 
+    # --- 2) Fallback: arXiv RSS (méně rate-limitované) ---
+    print("Přepínám na arXiv RSS fallback…")
+    keywords = [
+        "dark matter", "dark energy", "black hole", "black holes",
+        "cosmology", "inflation", "gravitational wave", "primordial",
+        "early universe", "modified gravity", "quantum gravity",
+        "hubble tension", "structure formation",
+    ]
+
+    for feed_url in ARXIV_RSS_FEEDS:
+        try:
+            feed = feedparser.parse(feed_url)
+            for entry in feed.entries[:25]:
+                # id ve tvaru http://arxiv.org/abs/2609.12345
+                link = entry.get("link") or entry.get("id") or ""
+                paper_id = link.rstrip("/").split("/")[-1]
+                if not paper_id or paper_id in existing_ids:
+                    continue
+
+                title = entry.get("title", "").replace("\n", " ")
+                summary = entry.get("summary", entry.get("description", ""))
+                # RSS často obsahuje HTML – zjednodušeně ořízneme tagy
+                summary = re.sub(r"<[^>]+>", " ", summary)
+                summary = re.sub(r"\s+", " ", summary).strip()
+
+                text = (title + " " + summary).lower()
+                if not any(kw in text for kw in keywords):
+                    continue
+
+                published = None
+                if hasattr(entry, "published_parsed") and entry.published_parsed:
+                    published = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+                elif entry.get("published"):
+                    try:
+                        published = date_parser.parse(entry.published).astimezone(timezone.utc)
+                    except Exception:
+                        published = None
+
+                if published and published < cutoff:
+                    continue
+
+                new_items.append({
+                    "id": paper_id,
+                    "source": "arXiv",
+                    "original_title": title,
+                    "abstract": summary[:1200],
+                    "url": f"https://arxiv.org/abs/{paper_id}",
+                    "published": (published or datetime.now(timezone.utc)).isoformat(),
+                })
+                if len(new_items) >= MAX_NEW_ITEMS:
+                    break
+        except Exception as e:
+            print(f"arXiv RSS chyba {feed_url}: {e}")
+
+        if len(new_items) >= MAX_NEW_ITEMS:
+            break
+
+    # deduplikace
+    seen = set()
+    unique = []
+    for it in new_items:
+        if it["id"] not in seen:
+            seen.add(it["id"])
+            unique.append(it)
+
+    print(f"arXiv celkem kandidátů po fallbacku: {len(unique)}")
+    return unique
 
 def fetch_rss(existing_ids: set) -> list:
     new_items = []
