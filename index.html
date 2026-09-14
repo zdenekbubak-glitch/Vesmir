@@ -6,7 +6,7 @@
   if (
     navigator.webdriver ||
     location.hostname !== "zdenekbubak-glitch.github.io" ||
-    !location.pathname.startsWith("/…/")
+    !location.pathname.startsWith("/Vesmir/")
   ) return;
 
   const body = JSON.stringify({
@@ -17,7 +17,7 @@
   async function odeslat() {
     try {
       const response = await fetch(
-        "https://ai-robotika-radar.zdenek-bubak.chatgpt.site/…ect",
+        "https://ai-robotika-radar.zdenek-bubak.chatgpt.site/api/analytics/collect",
         {
           method: "POST",
           mode: "cors",
