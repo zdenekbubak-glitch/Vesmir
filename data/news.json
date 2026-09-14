@@ -1,5 +1,85 @@
 [
   {
+    "id": "2609.13041",
+    "title": "Vznikaly první obří černé díry zhroucením temné hmoty?",
+    "summary": "Astronomové dlouho řeší záhadu, jak mohly v raném vesmíru tak rychle vyrůst supermasivní černé díry. Nový výzkum naznačuje, že klíčem může být samoreagující temná hmota. Pokud mezi sebou částice temné hmoty častěji interagují, dochází v centrech galaktických hal ke gravitotermálnímu kolapsu. Tento proces dokáže vytvořit hmotné zárodky černých děr, které následným pohlcováním plynu a slučováním galaxií narostou do obřích rozměrů pozorovaných na úsvitu vesmíru. Autoři studie pomocí simulací stanovili přesné kosmologické podmínky, za kterých tento scénář funguje. Proč je to zajímavé: Výzkum neřeší jen původ záhadných raných gigantů, ale nabízí i nový způsob, jak přímo testovat mikrofyzikální podstatu samotné temné hmoty.",
+    "url": "https://arxiv.org/abs/2609.13041",
+    "source": "arXiv",
+    "original_title": "High-redshift supermassive black hole population from core-collapse in self-interacting dark matter halos",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
+  },
+  {
+    "id": "2509.24026",
+    "title": "Měnící se gravitace: Kvantový model řeší záhadu rozpínání vesmíru",
+    "summary": "Současná kosmologie čelí takzvanému Hubbleovu napětí – rozporu v měření rychlosti rozpínání vesmíru. Nová studie navrhuje rozšíření standardního modelu ΛCDM s využitím kvantové teorie pole. V tomto přístupu se kosmologická konstanta i Newtonova gravitační konstanta mírně mění v závislosti na energetické škále v důsledku vlivu masivních kvantových polí. Tento model přidává jediný nový parametr a při konfrontaci s nejnovějšími daty z reliktního záření, baryonových oscilací a supernov výrazně zmírňuje nesrovnalosti v měření rozpínání. Výsledky navíc ukazují na existenci nové fyziky částic pod Planckovou skalou. Proč je to zajímavé: Tento přístup elegantně propojuje fyziku mikrosvěta s vývojem celého vesmíru a naznačuje, že řešení kosmologické krize může pramenit z kvantového chování samotného vakua.",
+    "url": "https://arxiv.org/abs/2509.24026",
+    "source": "arXiv",
+    "original_title": "Renormalization group corrections to $\\Lambda$CDM model and observational consequences for $H_0$ tension",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
+  },
+  {
+    "id": "2512.15964",
+    "title": "DESI přináší revoluci v určování vzdáleností galaxií",
+    "summary": "Měření vzdáleností galaxií je klíčové pro pochopení temné energie a stavby vesmíru. Astronomové z přehlídky KiDS-1000 spoléhají na fotometrický rudý posuv, který odhaduje vzdálenosti z barev galaxií, což vyžaduje přesnou kalibraci. Zde přichází na řadu spektroskopický projekt DESI, který změřil již přes 50 milionů rudých posuvů. Nová studie využila přes 256 tisíc vysoce kvalitních spektroskopických dat z DESI ke kalibraci snímků z KiDS-1000. Výsledky potvrzují celkovou shodu s dosavadními modely, ale zároveň odhalují drobné posuny v průměrných vzdálenostech galaxií. Proč je to zajímavé: Toto zpřesnění odstraňuje klíčové nejistoty při výzkumu temné energie pomocí slabého gravitačního čočkování.",
+    "url": "https://arxiv.org/abs/2512.15964",
+    "source": "arXiv",
+    "original_title": "The Power of DESI for Photometric Redshift Calibration: A Case Study with KiDS-1000",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
+  },
+  {
+    "id": "2602.15104",
+    "title": "ABCMB: Nový Python+JAX kód pro rychlé simulace reliktního záření",
+    "summary": "Astrofyzici představili nový softwarový balíček ABCMB, který slouží k přesnému a rychlému výpočtu výkonového spektra reliktního záření. Kód je napsán v Pythonu s využitím knihovny JAX, což mu umožňuje efektivní běh na grafických kartách a automatickou diferenciaci. ABCMB zahrnuje klíčové fyzikální jevy standardního kosmologického modelu, jako je gravitační čočkování, polarizace záření, masivní neutrina či prvotní nukleosyntéza. Dosahuje výborné shody s etablovaným kódem CLASS, ale díky moderní objektové architektuře usnadňuje přidávání nové fyziky bez zásahu do zdrojových souborů. Poskytování přesných gradientů navíc výrazně zrychluje náročné statistické analýzy. Proč je to zajímavé: ABCMB propojuje moderní nástroje známé ze strojového učení s kosmologií, což vědcům umožní testovat nové fyzikální hypotézy o vesmíru nesrovnatelně rychleji.",
+    "url": "https://arxiv.org/abs/2602.15104",
+    "source": "arXiv",
+    "original_title": "ABCMB: A Python+JAX Package for the Cosmic Microwave Background Power Spectrum",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
+  },
+  {
+    "id": "2604.08506",
+    "title": "Vesmírný šum černých děr: Nejsilnější gravitační vlny přehluší zbytek",
+    "summary": "Astrofyzici zkoumali pozadí gravitačních vln, které napříč vesmírem vytvářejí obíhající dvojice supermasivních černých děr. Nová studie ukazuje, že tento vesmírný šum neodpovídá běžnému gaussovskému rozdělení, ale obsahuje takzvaný těžký chvost. V praxi to znamená, že výslednému signálu nedominují nesčetné slabé zdroje, ale několik nejvýraznějších dvojic. Tento fakt matematicky komplikuje vyhodnocování dat z pulzarových sítí. Autoři však představili elegantní aproximaci, která dovoluje tyto odchylky účinně propojit se stávajícími statistickými modely. Proč je to zajímavé: Objev přináší zásadní metodický nástroj, který vědcům umožní z měření gravitačních vln spolehlivěji rekonstruovat historii slučování obřích černých děr v centrech galaxií.",
+    "url": "https://arxiv.org/abs/2604.08506",
+    "source": "arXiv",
+    "original_title": "The Heavy Tailed Non-Gaussianity of the Supermassive Black Hole Gravitational Wave Background",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
+  },
+  {
+    "id": "2604.27496",
+    "title": "Prvotní černé díry jako temná hmota: Nové výpočty z období inflace",
+    "summary": "Vědci přezkoumali vznik prvotních černých děr během kosmické inflace za přítomnosti rozkmitaných kalibračních polí. Díky přesnějším numerickým výpočtům a pokročilé statistice hustotních odchylek ukázali, že prvotní černé díry s hmotností srovnatelnou s asteroidy mohou plně vysvětlit veškerou temnou hmotu ve vesmíru. Tento teoretický model zůstává spolehlivý i při velmi slabé zpětné vazbě na inflaton. Vznik těchto černých děr navíc nevyhnutelně generuje charakteristické pozadí gravitačních vln. Budoucí vesmírná observatoř LISA tak bude moci tato vlnění změřit a pomoci nám nepřímo odhalit vlastnosti raného vesmíru. Proč je to zajímavé: Studie ukazuje, že záhadu temné hmoty bychom mohli rozluštit pomocí zachycení gravitačních vln z prvních okamžiků vesmíru.",
+    "url": "https://arxiv.org/abs/2604.27496",
+    "source": "arXiv",
+    "original_title": "Revisiting primordial black hole dark matter from axion inflation",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
+  },
+  {
+    "id": "2606.10483",
+    "title": "Kupa galaxií Ďas: Jak gigantická srážka přetváří vesmír",
+    "summary": "Srážky galaktických kup představují ideální přírodní laboratoř pro studium vývoje velkorozměrové struktury vesmíru. Astronomové se v nové studii zaměřili na masivní a složitou kupu MACS0600, přezdívanou Ďas. Pomocí kombinace rentgenových dat z teleskopů XMM-Newton a Chandra, rádiových pozorování ze sítě MeerKAT a optických snímků detailně prozkoumali dynamiku jejího splynutí. Výsledky ukazují výrazně narušenou strukturu mezigalaktického plynu a nepřekrývající se oblasti rádiového a rentgenového záření. V místě nejintenzivnějšího rentgenového jasu se nachází kompaktní chladné jádro obklopené žhavým plynem, což značí přítomnost takzvané studené fronty. Proč je to zajímavé: Tento výzkum pomáhá překonat optická zkreslení a přináší klíčové poznatky o tom, jak vznikají největší struktury ve vesmíru a jak se při srážkách chová temná hmota.",
+    "url": "https://arxiv.org/abs/2606.10483",
+    "source": "arXiv",
+    "original_title": "The dynamics of the Anglerfish cluster",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
+  },
+  {
+    "id": "2607.09199",
+    "title": "Supernovy typu Ia: Přesnost měření vesmíru závisí na věku jejich okolí",
+    "summary": "Supernovy typu Ia slouží v kosmologii jako standardní svíčky pro určování vzdáleností ve vesmíru. S nastupující generací přehlídek oblohy však přesnost měření naráží na systematické chyby spojené s vlastnostmi mateřských galaxií. Nová studie analyzovala 56 supernov a zaměřila se na věk hvězdné populace v jejich bezprostředním okolí do vzdálenosti jednoho kiloparsecu. Ukázalo se, že supernovy v mladším prostředí jsou po kalibraci výrazně slabší než ve starším. Lokální věk hvězd je pro svítivost supernov určujícíjším faktorem než celková hmotnost galaxie. Proč je to zajímavé: Zahrnutí věku hvězdného okolí do kalibrace supernov výrazně sníží systematické chyby a umožní přesnější měření temné energie i rozpínání vesmíru.",
+    "url": "https://arxiv.org/abs/2607.09199",
+    "source": "arXiv",
+    "original_title": "Environmental dependence of Type Ia supernova standardization on the local luminosity-weighted age",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
+  },
+  {
     "id": "2609.12038",
     "title": "Jak vnitřní orientace galaxií zkresluje testy modifikované gravitace?",
     "summary": "Gravitační čočkování je klíčovým nástrojem pro výzkum temné energie a testování alternativních teorií gravitace. Pokročilé metody zkoumající např. strukturu prázdnot či shluky galaxií nabízejí přesnější výsledky než běžné statistiky. Tato studie se zaměřuje na efekt, kdy vnitřní orientace galaxií podléhá okolnímu prostředí, což může výsledná pozorování zkreslit. Pomocí simulací vědci ukázali, jak tento sekundární signál ovlivňuje testy modifikované gravitace u připravovaných velkých přehlídek oblohy. Proč je to zajímavé: Započtení tohoto zkreslení je klíčové pro spolehlivé odhalení, zda ve vesmíru platí Einsteinova teorie relativity, nebo její exotické alternativy.",
