@@ -1,5 +1,85 @@
 [
   {
+    "id": "2609.12038",
+    "title": "Jak vnitřní orientace galaxií zkresluje testy modifikované gravitace?",
+    "summary": "Gravitační čočkování je klíčovým nástrojem pro výzkum temné energie a testování alternativních teorií gravitace. Pokročilé metody zkoumající např. strukturu prázdnot či shluky galaxií nabízejí přesnější výsledky než běžné statistiky. Tato studie se zaměřuje na efekt, kdy vnitřní orientace galaxií podléhá okolnímu prostředí, což může výsledná pozorování zkreslit. Pomocí simulací vědci ukázali, jak tento sekundární signál ovlivňuje testy modifikované gravitace u připravovaných velkých přehlídek oblohy. Proč je to zajímavé: Započtení tohoto zkreslení je klíčové pro spolehlivé odhalení, zda ve vesmíru platí Einsteinova teorie relativity, nebo její exotické alternativy.",
+    "url": "https://arxiv.org/abs/2609.12038",
+    "source": "arXiv",
+    "original_title": "Impact of galaxy intrinsic alignments on non-Gaussian weak lensing statistics for modified gravity",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
+  },
+  {
+    "id": "2609.12053",
+    "title": "Světlé a temné sirény: Klíč k tajemství rozpínání vesmíru",
+    "summary": "Standardní sirény, tedy detekce gravitačních vln z kolizí kompaktních objektů, představují klíčový nástroj pro měření rozpínání vesmíru. Dělí se na „světlé“ (se světelným doprovodem) a „temné“ (bez něj). Odhady četnosti splynutí neutronových hvězd se po nedávných pozorováních snížily, což vyvolalo obavy o přesnost kosmologických měření. Nová studie však ukazuje, že i malý počet světlých sirén hraje zásadní roli: rozbíjí statistickou provázanost mezi Hubbleovou konstantou a hustotou hmoty. Temné sirény zase mohou fungovat samostatně v kombinaci s vnějšími kosmologickými daty. Proč je to zajímavé: Výzkum ukazuje, že k vyřešení fundamentální záhady rychlosti rozpínání vesmíru nám postačí i poměrně malý počet vzácných astrofyzikálních událostí.",
+    "url": "https://arxiv.org/abs/2609.12053",
+    "source": "arXiv",
+    "original_title": "Reconsidering the role of bright and dark gravitational-wave standard sirens for cosmology",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
+  },
+  {
+    "id": "2609.12158",
+    "title": "Jak rozplést překrývající se galaxie na nejhlubších snímcích vesmíru?",
+    "summary": "Nadcházející gigantické přehlídky oblohy, jako je projekt LSST Observatoře Very C. Rubinové, nahlédnou do vesmíru hlouběji než kdy dříve. Extrémní citlivost však přináší problém: snímky vzdálených galaxií se vzájemně překrývají a splývají, což zkresluje měření jejich vlastností. Vědci proto navrhli nový matematický rámec založený na takzvané „entropii splývání“, která přesně kvantifikuje míru nejistoty při identifikaci jednotlivých objektů. Na simulovaných datech ukázali, že vyřazením přibližně 25 % nejvíce překrytých galaxií lze výrazně zpřesnit výzkum gravitačních čoček a rozložení hmoty ve vesmíru. Proč je to zajímavé: Tato metoda elegantně řeší jeden z největších metodických problémů moderní astronomie a zaručuje, že obří datové přehlídky dodají nezkreslené výsledky o temné hmotě a vývoji vesmíru.",
+    "url": "https://arxiv.org/abs/2609.12158",
+    "source": "arXiv",
+    "original_title": "Probabilistic characterization of blending with LSST and application to cluster lensing cosmology",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
+  },
+  {
+    "id": "2609.12867",
+    "title": "Gravitační vlny pátrají po prvotních černých dírách z raného vesmíru",
+    "summary": "Raný vesmír mohl být divokým místem, kde z obřích hustotních výkyvů vznikaly prvotní černé díry. Tento proces za sebou zanechává i charakteristické stochastické pozadí gravitačních vln. Fyzici analyzovali dosud nejrozsáhlejší data z detektorů LIGO, Virgo a KAGRA a hledali stopy dvou modelů kosmické inflace. Ačkoli žádný signál neobjevili, stanovili dosud nejpřísnější limity pro hustotní poruchy v raném vesmíru. Tyto výsledky výrazně omezují množství prvotních černých děr, a to i v případě, že jsou extrémně vzácné nebo již zcela vyprchaly. Proč je to zajímavé: Gravitační vlny se ukazují jako klíčový nástroj k prozkoumání mikroskopického zárodku vesmíru a ověření teorií o jeho nejranějších okamžicích.",
+    "url": "https://arxiv.org/abs/2609.12867",
+    "source": "arXiv",
+    "original_title": "Probing Inflationary Origins of Primordial Black Holes with LIGO--Virgo--KAGRA O1--O4a data",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
+  },
+  {
+    "id": "2609.13140",
+    "title": "Prvotní hélium z LBT: Přesný pohled na raný vesmír bez hypotéz",
+    "summary": "Nová empirická měření množství prvotního hélia z Large Binocular Telescope (LBT) zásadně zpřesňují náš pohled na raný vesmír. Astrofyzikové dosud při analýze reliktního záření spoléhali na teoretické modely prvotní nukleosyntézy. Data z LBT však umožňují určit kosmologické parametry přímo z pozorování, aniž bychom museli tyto teoretické předpoklady vyžadovat. Výsledné znalosti o vývoji vesmíru a kosmické inflaci přitom zůstávají stejně přesné. Tento přístup navíc otevírá dveře k testování exotických forem záření a k řešení současných rozporů v kosmologii, jako je takzvané Hubbleovo napětí. Proč je to zajímavé: Díky přímému měření prvků z doby těsně po Velkém třesku můžeme ověřovat základní kosmologické modely nezávisle na teoretických předpokladech.",
+    "url": "https://arxiv.org/abs/2609.13140",
+    "source": "arXiv",
+    "original_title": "Big Bang For Your Helium Buck",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
+  },
+  {
+    "id": "2609.12044",
+    "title": "Constraining dark matter using 20-year INTEGRAL/IBIS observations I: Primordial black holes",
+    "summary": "arXiv:2609.12044v1 Announce Type: cross Abstract: Primordial black holes (PBHs) in the asteroid-mass window remain a viable dark matter candidate. In the lower part of this mass range, Hawking evaporation produces electrons and positrons that generat…",
+    "url": "https://arxiv.org/abs/2609.12044",
+    "source": "arXiv",
+    "original_title": "Constraining dark matter using 20-year INTEGRAL/IBIS observations I: Primordial black holes",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
+  },
+  {
+    "id": "2609.12061",
+    "title": "Model BAQARO odhaluje tajemství růstu obřích černých děr",
+    "summary": "Supermasivní černé díry v centrech galaxií patří k nejfascinujícím objektům ve vesmíru, jejich přesný způsob růstu však stále zůstává záhadou. Nový semi-empirický model BAQARO využívá kosmologickou simulaci FLAMINGO a propojuje vývoj černých děr s historií jejich mateřských galaktických halo. Model bere v úvahu průměrné trendy i náhodné výkyvy v pohlcování hmoty. Pomocí pokročilé statistiky dokáže přesně reprodukovat pozorované vlastnosti zářivých kvazarů od raného vesmíru až po současnost. Výsledky ukazují, že krmení černých děr odpovídá hromadění studeného plynu, aniž by vyžadovalo přímou závislost na kosmickém čase. Proč je to zajímavé: Model ukazuje, že k pochopení růstu obřích černých děr napříč miliardami let stačí znát lokální zásoby plynu v galaxiích.",
+    "url": "https://arxiv.org/abs/2609.12061",
+    "source": "arXiv",
+    "original_title": "BAQARO: Tracing Stochastic Black Hole Growth Histories and Quasar Lightcurves in a Cosmological Context",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
+  },
+  {
+    "id": "2609.12775",
+    "title": "Prototyp DALI stanovil nový rekord v pátrání po temných fotonech",
+    "summary": "Temná hmota tvoří většinu hmotnosti vesmíru, její podstata je však stále záhadou. Jedním z hypotetických kandidátů jsou takzvané temné fotony, které by se mohly slabě mísit s obyčejným světlem. Vědci analyzovali 36 hodin dat ze zkušebního prototypu haloskopu DALI. Ačkoli nenalezli přímý signál potvrdzující existenci temných fotonů, stanovili v pásmu 6,89 až 6,92 GHz nejpřísnější dosavadní laboratorní limity pro sílu jejich kinetického míšení. Pro hmotnost částic okolo 28,54 mikroelektronvoltů tak výrazně zúžili prostor, kde se tato záhadná hmota může skrývat. Proč je to zajímavé: Tento úspěch potvrzuje vysokou citlivost nového detektoru DALI a ukazuje, že i krátké testovací měření dokáže posunout hranice současného kosmologického výzkumu.",
+    "url": "https://arxiv.org/abs/2609.12775",
+    "source": "arXiv",
+    "original_title": "Constraints on Galactic Dark Photons from a DALI Prototype",
+    "published": "2026-09-14T04:00:00+00:00",
+    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
+  },
+  {
     "id": "https://www.sciencedaily.com/releases/2026/09/260912220041.htm",
     "title": "Jak vlastně funguje vesmír? Fyzikové se neshodnou ani na základních otázkách",
     "summary": "Rozsáhlý celosvětový průzkum mezi fyziky odhalil překvapivou nejednotnost v pohledu na největší záhady kosmologie. Většina vědců se neshodla na standardním kosmologickém modelu, dominantní hypotéze temné hmoty ani na jediné teorii kvantové gravitace. Přesto se objevil jeden výrazný bod shody: celých 68 % dotázaných si myslí, že Velký třesk nemusí představovat absolutní počátek času. Výsledky ukazují, jak dynamický a dosud neuzavřený výzkum vesmíru je. Současná fyzika se potýká s hlubokými neznámými, což otevírá prostor pro nová objevná paradigmata. Proč je to zajímavé: Tento průzkum jasně ukazuje, že moderní kosmologie není uzavřené dogma, ale živé vědecké bojiště, kde i ty nejzákladnější představy o čase a hmotě stále čekají na novou vědeckou revoluci.",
