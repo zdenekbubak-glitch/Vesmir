@@ -1,5 +1,85 @@
 [
   {
+    "id": "2609.15985v1",
+    "title": "Záhada vysoké energie v LUX-ZEPLIN: Nové vodítko k temné hmotě",
+    "summary": "Detektor temné hmoty LUX-ZEPLIN zaznamenal ojedinělý náraz s neobvykle vysokou energií. Vědci analyzovali, jaký typ částic temné hmoty mohl tento signál způsobit. Výzkum ukázal, že běžný elastický rozptyl je málo pravděpodobný, pokud nejde o specifické interakce závislé na spinu jádra. Mnohem lépe data vysvětlují neelastické procesy – buď endotermické, kdy částice potřebuje k odrazu vysokou prahovou energii, nebo exotermické, při nichž částice uvolní svou vnitřní energii do atomu xenonu. Absence dalších signálů při nižších energiích navíc výrazně zužuje možné vlastnosti kandidátů na temnou hmotu. Proč je to zajímavé: I jediná neobvyklá událost v obřím podzemním detektoru dokáže výrazně omezit teoretické modely a navést fyziky k novým scénářům neviditelné hmoty vesmíru.",
+    "url": "http://arxiv.org/abs/2609.15985v1",
+    "source": "arXiv",
+    "original_title": "Inferring dark matter masses and interactions from high recoil energy events in LUX-ZEPLIN",
+    "published": "2026-09-14T17:59:32+00:00",
+    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
+  },
+  {
+    "id": "2609.15970v1",
+    "title": "Kosmologické limity hmotnosti neutrin drží i při změnách v historii vesmíru",
+    "summary": "Vědci zkoumali, zda by teoretické změny v tepelné historii raného vesmíru – například rozpad částic na fotony či temné záření – mohly oslabit kosmologická omezení pro hmotnost neutrin. Analýza nejnovějších dat z reliktního záření a rozložení galaxií však ukazuje, že kosmologické limity jsou neobyčejně robustní. Horní hranice součtu hmotností neutrin zůstává okolo 0,07 eV. Případný pokles hustoty neutrin navíc prohlubuje rozpor mezi kosmologií a pozemními částicovými experimenty. Proč je to zajímavé: Výzkum dokazuje, že přísné kosmologické odhady hmotnosti neutrin nelze snadno zpochybnit úpravami teoretického vývoje vesmíru.",
+    "url": "http://arxiv.org/abs/2609.15970v1",
+    "source": "arXiv",
+    "original_title": "Less isn't more: Cosmological bounds on the neutrino masses are robust to changes in the neutrino abundance",
+    "published": "2026-09-14T17:55:48+00:00",
+    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
+  },
+  {
+    "id": "2609.15969v1",
+    "title": "Kvantová gravitace na testu: Mění se temná energie v čase?",
+    "summary": "Astrofyzici poprvé přímo otestovali předpovědi kvantové gravitace zvané teorie grupového pole na reálných kosmologických datech. Srovnáním modelů s pozorováními vzdálených supernov a baryonských akustických kmitů z přehlídky DESI zjišťovali, zda se temná energie mění v čase. Teorie nabízí různé scénáře vývoje: od stavu téměř nerozeznatelného od klasické kosmologické konstanty až po oscilující temnou energii. Právě oscilační model dokáže vysvětlit lehký výkyv v chování temné energie ve středně vzdáleném vesmíru, který naznačují nejnovější měření. Výzkum ukazuje, jak lze kosmologická data využít k prověřování teorií kvantové gravitace. Proč je to zajímavé: Tento přístup otevírá cestu k testování mikroskopické struktury časoprostoru pomocí pozorování vývoje celého vesmíru.",
+    "url": "http://arxiv.org/abs/2609.15969v1",
+    "source": "arXiv",
+    "original_title": "Constraining quantum-gravity predictions for evolving dark energy",
+    "published": "2026-09-14T17:55:04+00:00",
+    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
+  },
+  {
+    "id": "2609.15967v1",
+    "title": "Obří černé díry na počátku věků mohou být menší, než se zdá",
+    "summary": "Jak mohly v raném vesmíru tak rychle vyrůst supermasivní černé díry? Astronomové zjišťují, že některé z nich mohou být ve skutečnosti podstatně menší, než naznačovalo jejich ultrafialové záření. Příkladem je známá galaxie GN-z11. Pokud se zdejší černá díra krmí extrémní rychlostí (superkritickou akrecí), vnitřní překotný tok plynů se maskuje a vnější část disku vyzařuje světlo, které napodobuje běžný disk. Běžné odhady hmotnosti z ultrafialového spektra tak mohou být až desetinásobně nadsazené a černé díře stačí hmotnost kolem milionu Sluncí. Proč je to zajímavé: Tento efekt výrazně mírní teoretické požadavky na velikost zárodků prvních černých děr a vysvětluje, jak mohly na úsvitu vesmíru tak rychle vyrůst.",
+    "url": "http://arxiv.org/abs/2609.15967v1",
+    "source": "arXiv",
+    "original_title": "A Standard Ultraviolet Continuum Can Hide Supercritical Accretion in GN-z11",
+    "published": "2026-09-14T17:54:11+00:00",
+    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
+  },
+  {
+    "id": "2609.15962v1",
+    "title": "Jak se ohřívají jádra kup galaxií? Pozorování Ophiuchus mění teorie",
+    "summary": "Astrofyzici dlouho řeší, co brání mezigalaktickému plynu v centrálních oblastech kup galaxií před úplným ochlazením. Jedním z možných mechanismů je vedení tepla z horkého okolí. Nový výzkum kupy Ophiuchus s využitím dat z teleskopů Chandra a XRISM však tento předpoklad zpochybňuje. Pokud by teplo proudilo rovnoměrně do všech směrů, brzy by vyhladilo ostrá teplotní rozhraní pozorovaná v plynu. Aby teplo jádro ohřívalo a hranice přitom zůstaly zachovány, musí být jeho šíření silně usměrněno, nejspíše magnetickými poli. Proč je to zajímavé: Výzkum vyvrací představy o běžném vedení tepla jako hlavním zdroji ohřevu kup galaxií a ukazuje, jak klíčovou roli hrají magnetická pole ve vývoji největších struktur vesmíru.",
+    "url": "http://arxiv.org/abs/2609.15962v1",
+    "source": "arXiv",
+    "original_title": "Can Isotropic Thermal Conduction Heat One of the Hottest Cool Cores?",
+    "published": "2026-09-14T17:53:01+00:00",
+    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
+  },
+  {
+    "id": "2609.13363",
+    "title": "Lov na dvojité supermasivní černé díry: SKAO zachytí jejich gravitační vlny",
+    "summary": "Astrofyzici zkoumali, zda známé kandidáty na dvojité supermasivní černé díry vyzařují dostatečně silné gravitační vlny, aby vynikly z celkového vesmírného šumu. S využitím dat z projektu NANOGrav zjistili, že objekty jako 3C 66B nebo Mrk 501 nad tímto pozadím výrazně vyčnívají a představují ideální terče pro přímé pozorování. Chystaná síť radioteleskopů SKAO by v budoucnu měla samostatně rozlišit desítky takových obřích systémů. Tato pozorování nám navíc pomohou rozluštit, jak okolní prostředí ovlivňuje přibližování černých děr před jejich finálním splynutím. Proč je to zajímavé: Získáváme konkrétní terče pro budoucí detekci gravitačních vln, která odhalí tajemství evoluce galaktických jader a chování hmoty v nejextrémnějších podmínkách vesmíru.",
+    "url": "https://arxiv.org/abs/2609.13363",
+    "source": "arXiv",
+    "original_title": "The Loud Tail of the Supermassive Black Hole Binary Population: Multimessenger Candidates and Prospects for SKAO",
+    "published": "2026-09-15T04:00:00+00:00",
+    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
+  },
+  {
+    "id": "2609.13369",
+    "title": "Gravitační vlny jako lupa: Jak odhalit rozlehlé objekty z temné hmoty",
+    "summary": "Astrofyzici čím dál častěji využívají gravitační vlny k pátrání po neviditelných strukturách ve vesmíru, jako jsou solitony či temné hvězdy. Dosavadní studie gravitačního čočkování však většinou předpokládaly, že tyto objekty působí jako bodové zdroje. Nové výpočty ukazují, že rozlehlost temných těles způsobuje charakteristickou difrakci gravitačních vln, která se projevuje změnou jejich tvaru a frekvence. Díky tomu lze i ze současných dat observatoří LIGO-Virgo-KAGRA vyčíst vlastnosti těles o hmotnosti 100 až 100 000 Sluncí, přičemž budoucí detektory hranice citlivosti ještě výrazně posunou. Proč je to zajímavé: Tento přístup mění gravitační vlny v kosmický mikroskop, který dokáže určit nejen hmotnost, ale i skutečné rozměry zcela neviditelných objektů z temné hmoty.",
+    "url": "https://arxiv.org/abs/2609.13369",
+    "source": "arXiv",
+    "original_title": "Diffraction of gravitational waves by extended dark objects",
+    "published": "2026-09-15T04:00:00+00:00",
+    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
+  },
+  {
+    "id": "2609.13821",
+    "title": "Consistent treatment of flavour-specific neutrino self-interactions in cosmology",
+    "summary": "arXiv:2609.13821v1 Announce Type: new Abstract: We study the impact of flavour-specific neutrino self-interactions on the CMB anisotropy spectrum and consistently take into account neutrino mixing. Starting from the neutrino quantum kinetic equations…",
+    "url": "https://arxiv.org/abs/2609.13821",
+    "source": "arXiv",
+    "original_title": "Consistent treatment of flavour-specific neutrino self-interactions in cosmology",
+    "published": "2026-09-15T04:00:00+00:00",
+    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
+  },
+  {
     "id": "2607.18441",
     "title": "Odhalí Einsteinův teleskop kosmické struny pomocí gravitačních vln?",
     "summary": "Kosmické struny představují dosud nepotvrzené topologické poruchy z raného vesmíru. Tyto extrémně husté útvary dokážou ohýbat světlo i gravitaci, čímž fungují jako gravitační čočky. Nová studie zkoumá, zda by chystaný obří detektor Einstein Telescope (ET) dokázal kosmické struny zachytit právě díky ohybu gravitačních vln. Vědci s využitím vlnové optiky a simulací splynutí kompaktních objektů prokázali, že struny zanechávají v průběhu gravitačních vln charakteristické a dobře měřitelné změny. Většina simulovaných událostí spadá do detekčního rozsahu ET, což umožňuje i přesný odhad fyzikálních parametrů strun. Proč je to zajímavé: Detekce kosmických strun by přinesla přímé svědectví o procesech v prvních zlomcích sekundy po velkém třesku a potvrdila novou fyziku za hranicemi Standardního modelu.",
