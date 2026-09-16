@@ -1,5 +1,85 @@
 [
   {
+    "id": "2609.17531v1",
+    "title": "Pátrání po počátku vesmíru: Jak odhalit falešné stopy gravitačních vln?",
+    "summary": "Detekce primordiálních B-módů v reliktním záření představuje svatý grál moderní kosmologie, neboť by potvrdila existenci gravitačních vln z období kosmické inflace. Hlavní překážkou je však kontaminace zářením z naší Mléčné dráhy. I po použití pokročilých čisticích algoritmů mohou v datech zůstat zbytkové signály, které způsobí falešný objev. Nová studie představuje metodu založenou na rozptylových transformacích, jež dokáže v mapách reliktního záření spolehlivě identifikovat negaussovské struktury způsobené galaktickým popředím. Test vyvinutý pro chystaný satelit LiteBIRD dokáže odhalit zkreslení klíčového parametru r s přesností odpovídající citlivosti samotného přístroje. Proč je to zajímavé: Získáme tím spolehlivou pojistku, že případný budoucí objev otisků kosmické inflace bude skutečný, a nikoli jen klamný signál z naší vlastní Galaxie.",
+    "url": "http://arxiv.org/abs/2609.17531v1",
+    "source": "arXiv",
+    "original_title": "$B$-sure. Part II. Scattering transforms as robustness test for tensor-to-scalar ratio detection from CMB observations",
+    "published": "2026-09-15T17:59:31+00:00",
+    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
+  },
+  {
+    "id": "2609.17530v1",
+    "title": "Mionový urychlovač na stopě temné hmoty a záhady neutrin",
+    "summary": "Tzv. skotogenický model nabízí elegantní vysvětlení tří zásadních záhad kosmologie: hmotnosti neutrin, podstaty temné hmoty a převahy hmoty nad antihmotou ve vesmíru. Nová studie ukazuje, že zvýšení interakcí druhé generace částic snižuje energetickou škálu tohoto modelu na přibližně 1 TeV, což umožňuje jeho testování na připravovaném mionovém urychlovači. Klíčovým indikátorem se stává pátrání po tzv. dlouhožijících částicích, které v detektoru zanechávají charakteristické posunuté stopy přeměn. Ačkoli je přímé zachycení jednotlivých fotonů náročné, rekonstrukce těchto rozpadových vrcholů představuje mimořádně slibnou cestu k odhalení nové fyziky. Proč je to zajímavé: Model propojuje mikrosvět neutrin s vývojem celého vesmíru a nabízí konkrétní návod, jak tyto hluboké souvislosti ověřit na nadcházející generaci částicových urychlovačů.",
+    "url": "http://arxiv.org/abs/2609.17530v1",
+    "source": "arXiv",
+    "original_title": "Vanilla Scotogenic Model at the future Muon Collider",
+    "published": "2026-09-15T17:58:07+00:00",
+    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
+  },
+  {
+    "id": "2609.17510v1",
+    "title": "Průlom v Einsteinově gravitaci: Kompletní vzorec pro pohyb N těles",
+    "summary": "Předpovídání pohybu více vzájemně se přitahujících těles v obecné teorii relativity představuje klasickou, ale nesmírně složitou výzvu. Dosavadní teoretický popis v takzvaném druhém post-newtonovském řádu narážel na nevyřešený integrální člen, který znemožňoval získat plně analytický vzorec pro popis celkové energie a dynamiky systému. Autoři nové práce tento integrál analyticky spočítali, čímž získali vůbec první zcela explicitní vyjádření. Správnost výpočtu úspěšně ověřili srovnáním s numerickými modely. Proč je to zajímavé: Tento matematický průlom umožňuje fyzikům elegantně a bez nutnosti zdlouhavých výpočtů přesně modelovat dynamiku složitých vesmírných objektů, jako jsou vícečetné černé díry.",
+    "url": "http://arxiv.org/abs/2609.17510v1",
+    "source": "arXiv",
+    "original_title": "A Fully Analytic Expression for the 2PN N-Body Hamiltonian",
+    "published": "2026-09-15T17:47:05+00:00",
+    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
+  },
+  {
+    "id": "2609.17471v1",
+    "title": "Jak znějí rotující a nabité černé díry v rozpínajícím se vesmíru?",
+    "summary": "Když je černá díra porušena, rozezní se na charakteristických frekvencích nazývaných kvazinormální módy. Teoretičtí fyzici zkoumali tyto „vlastní tóny“ u nejobecnějších černých děr – rotujících, nabitých a zasazených do rozpínajícího se vesmíru s temnou energií. Pomocí pokročilého matematického aparátu zasahujícího do konformní teorie pole odvodili přesné analytické vzorce pro spektrum těchto vibrací. V mezních stavech, jako jsou téměř extrémní černé díry, objevil tým nečekané opravy frekvencí tvořené neceločíselnými mocninami, což zásadně zpřesňuje dosavadní modely. Proč je to zajímavé: Přesné analytické řešení spojuje hlubokou teoretickou matematiku s praktickou gravitací a pomáhá nám lépe rozumět jemným detailům gravitačních vln vycházejících z extrémních vesmírných procesů.",
+    "url": "http://arxiv.org/abs/2609.17471v1",
+    "source": "arXiv",
+    "original_title": "Quasinormal modes of Kerr-Newman-de Sitter black holes from Heun connection formulae",
+    "published": "2026-09-15T17:13:39+00:00",
+    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
+  },
+  {
+    "id": "2609.17462v1",
+    "title": "Symetrie časoprostoru: Nové deformace v rozšířené teorii relativity",
+    "summary": "Obecná teorie relativity skvěle popisuje gravitaci, ale fyzici ji často rozšiřují o takzvaná skalární pole. Tato rozšíření využívají disformální transformace, které představují způsob, jak deformovat časoprostorovou metriku pomocí skalárního pole a jeho derivací vyšších řádů. Nový výzkum se zaměřil na podmínky, za nichž si fundamentální Kleinova-Gordonova rovnice, popisující šíření skalárních částic, zachovává svou formu i po těchto transformacích. Autoři odhalili celé rodiny časoprostorových metrik, které vedou ke stejnému fyzikálnímu chování polí a zároveň vyhovují teoretickým i pozorovacím limitům. Proč je to zajímavé: Tento výsledek poskytuje fyzikům nový matematický nástroj k přesnějšímu testování alternativních teorií gravitace a k výzkumu temné energie bez vzniku fyzikálně nesmyslných stavů.",
+    "url": "http://arxiv.org/abs/2609.17462v1",
+    "source": "arXiv",
+    "original_title": "Symmetry of the Klein-Gordon Equation under Disformal Transformations with Higher-Order Derivatives",
+    "published": "2026-09-15T17:03:03+00:00",
+    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
+  },
+  {
+    "id": "2609.17426v1",
+    "title": "Kosmické zvonění odhaluje skrytou geometrii uvnitř černých děr",
+    "summary": "Astrofyzici objevili nový způsob, jak nahlédnout pod horizont událostí černých děr. Využili k tomu takzvané kvazinormální módy – chvění, kterým černá díra reaguje na poruchy. Ukázali, že vysoké svrchní tóny tohoto spektra v sobě nesou přímý otisk geometrie prostoročasu těsně před samotnou singularitou. Rozborem těchto tónů lze nezávisle určit časové i prostorové parametry vnitřku černé díry a rekonstruovat její strukturu bez nutnosti dodatečných teoretických předpokladů či holografie. Metoda byla úspěšně ověřena na několika teoretických modelech černých děr. Proč je to zajímavé: Výzkum dokazuje, že jemná struktura vnějších vlnových vlastností funguje jako přímá sonda do nejhlubšího vnitřku černých děr, což otevírá nové možnosti pro testování vlastností gravitace.",
+    "url": "http://arxiv.org/abs/2609.17426v1",
+    "source": "arXiv",
+    "original_title": "Channel-Resolved High-Overtone Quasinormal Modes Decode Kasner Scaling inside Black Holes",
+    "published": "2026-09-15T16:41:48+00:00",
+    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
+  },
+  {
+    "id": "2609.17423v1",
+    "title": "The Equivalence Principle in the Dark Sector in light of DESI",
+    "summary": "Recent measurements of the distribution of galaxies by the Dark Energy Spectroscopic Instrument (DESI) are in mild tension with a standard $Λ$-Cold Dark Matter cosmological model inferred from the anisotropies of the Cosmic Microwave Background (CMB)…",
+    "url": "http://arxiv.org/abs/2609.17423v1",
+    "source": "arXiv",
+    "original_title": "The Equivalence Principle in the Dark Sector in light of DESI",
+    "published": "2026-09-15T16:40:19+00:00",
+    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
+  },
+  {
+    "id": "2609.17412v1",
+    "title": "Signál v detektoru LZ a tajný život dvou stavů temné hmoty",
+    "summary": "Nedávný neobvyklý signál v detektoru LUX-ZEPLIN (LZ) podnítil fyziky k vytvoření nového modelu temné hmoty. Ten předpokládá existenci dvou stavů temné hmoty propojených částicí podobnou axionu. Vědci poprvé nasimulovali vývoj obou stavů od raného vesmíru po dnešek. Zjistili, že typ fyzikální interakce určuje, zda vybudzený stav temné hmoty přetrval dodnes. To zásadně ovlivňuje, zda při srážkách v detektorech dochází k pohlcování, nebo uvolňování energie. Tento model lze ověřit na urychlovačích částic i pomocí sezónních výkyvů signálu. Proč je to zajímavé: Výzkum ukazuje, jak raná historie vesmíru přímo určuje chování temné hmoty v dnešních pozemních laboratořích.",
+    "url": "http://arxiv.org/abs/2609.17412v1",
+    "source": "arXiv",
+    "original_title": "Cosmological Constrained Axion-Portal Inelastic Dark Matter for the LZ Event",
+    "published": "2026-09-15T16:37:10+00:00",
+    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
+  },
+  {
     "id": "2609.15985v1",
     "title": "Záhada vysoké energie v LUX-ZEPLIN: Nové vodítko k temné hmotě",
     "summary": "Detektor temné hmoty LUX-ZEPLIN zaznamenal ojedinělý náraz s neobvykle vysokou energií. Vědci analyzovali, jaký typ částic temné hmoty mohl tento signál způsobit. Výzkum ukázal, že běžný elastický rozptyl je málo pravděpodobný, pokud nejde o specifické interakce závislé na spinu jádra. Mnohem lépe data vysvětlují neelastické procesy – buď endotermické, kdy částice potřebuje k odrazu vysokou prahovou energii, nebo exotermické, při nichž částice uvolní svou vnitřní energii do atomu xenonu. Absence dalších signálů při nižších energiích navíc výrazně zužuje možné vlastnosti kandidátů na temnou hmotu. Proč je to zajímavé: I jediná neobvyklá událost v obřím podzemním detektoru dokáže výrazně omezit teoretické modely a navést fyziky k novým scénářům neviditelné hmoty vesmíru.",
