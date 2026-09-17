@@ -1,5 +1,85 @@
 [
   {
+    "id": "2609.18923v1",
+    "title": "Jak Riemann položil základy kosmologie bez jediného vzorce",
+    "summary": "Roku 1854 představil Bernhard Riemann přelomovou přednášku o základech geometrie, která později umožnila vznik obecné relativity. Překvapivě v ní však chyběl matematický aparát. Dlouho se věřilo, že Riemann vzorce vynechal s ohledem na nespecializované profesory v publiku. Nová analýza tento mýtus vyvrací – téže komisi totiž již dříve obhájil práci plnou složitých rovnic. Skutečným důvodem byla radikální novost jeho vizí. Pojmy jako zakřivený prostor, varieta či metrika byly tak nevídané, že pro ně v té době neexistoval odpovídající matematický jazyk a Riemann je musel formulovat převážně slovně. Proč je to zajímavé: Ukazuje to, že vizionářské myšlenky o struktuře vesmíru mohou předběhnout i samotný matematický aparát potřebný k jejich formálnímu popisu.",
+    "url": "http://arxiv.org/abs/2609.18923v1",
+    "source": "arXiv",
+    "original_title": "The suppression thesis in Riemann's Habilitationsvortrag",
+    "published": "2026-09-16T16:59:11+00:00",
+    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
+  },
+  {
+    "id": "2609.18912v1",
+    "title": "Follow-up of SN 2025wny VI: The Rate and Detectable Population of Strongly Lensed SLSNe-I in ZTF",
+    "summary": "The Type I superluminous supernova (SLSN-I) SN 2025wny, multiply imaged by two foreground galaxies at $z_l = 0.375$, is the first confirmed strongly lensed SLSN and the highest-redshift ($z_s = 2.015$) multiply imaged supernova in a galaxy-scale conf…",
+    "url": "http://arxiv.org/abs/2609.18912v1",
+    "source": "arXiv",
+    "original_title": "Follow-up of SN 2025wny VI: The Rate and Detectable Population of Strongly Lensed SLSNe-I in ZTF",
+    "published": "2026-09-16T16:54:36+00:00",
+    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
+  },
+  {
+    "id": "2609.18821v1",
+    "title": "CosmoDyn: a semi-analytic post-processing framework for the dynamical evolution of compact stellar s",
+    "summary": "Although a large number of cosmological simulations are now publicly available, their spatial and mass resolutions remain insufficient to accurately follow the dynamics of compact stellar systems and black holes. A complementary approach is therefore…",
+    "url": "http://arxiv.org/abs/2609.18821v1",
+    "source": "arXiv",
+    "original_title": "CosmoDyn: a semi-analytic post-processing framework for the dynamical evolution of compact stellar systems and black holes in cosmological simulations",
+    "published": "2026-09-16T15:28:30+00:00",
+    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
+  },
+  {
+    "id": "2609.18790v1",
+    "title": "Jak matematická symetrie vysvětluje historii a rozpínání vesmíru",
+    "summary": "Teoretičtí fyzici prozkoumali vlastnosti tzv. k-esence – hypotetického skalárního pole, které slouží k popisu temné energie a zrychleného rozpínání vesmíru. Využili při tom koncept matematických symetrií, které vedou k novým zákonům zachování a umožňují přesně vyřešit kosmologické rovnice. Pomocí analýzy dynamických systémů zmapovali kompletní vývoj vesmíru od jeho nejranějších fází až po dalekou budoucnost. Ukázali, že tento model dokáže přirozeně vysvětlit prvotní kosmickou inflaci, plynulý přechod do éry převládané hmotou i dnešní zrychlené rozpínání. Proč je to zajímavé: Výzkum ukazuje, že jediný elegantní symetrický princip dokáže propojit inflaci v raném vesmíru s působením temné energie bez nutnosti umělých úprav.",
+    "url": "http://arxiv.org/abs/2609.18790v1",
+    "source": "arXiv",
+    "original_title": "Symmetry-Driven $k$-Essence Cosmological Dynamics",
+    "published": "2026-09-16T15:10:27+00:00",
+    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
+  },
+  {
+    "id": "2609.18668v1",
+    "title": "Geometrie částic: Jak mnohostěny počítají kvantové srážky bez integrálů",
+    "summary": "Výpočet kvantových srážek částic v teoretické fyzice tradičně vyžaduje složité integrovaní přes Feynmanovy diagramy. Nový výzkum ukazuje, že tyto výpočty lze výrazně zjednodušit pomocí takzvaného rozptylového aspektu, což je geometrický objekt vycházející z kosmologického polytopu. Vědci popsali tento objekt jako vrstvenou geometrii zachycující kauzální vývoj částic. Díky rozkladu této geometrie na jednodušší struktury lze získat výsledky kvantových amplitud přímo z tvaru mnohostěnů, aniž by bylo nutné provádět náročné integrace. Proč je to zajímavé: Tento přístup obchází extrémně složité výpočty a odhaluje, že základy kvantové fyziky a časoprostorové kauzality lze popsat jako čistou geometrii.",
+    "url": "http://arxiv.org/abs/2609.18668v1",
+    "source": "arXiv",
+    "original_title": "The geometry of multiloop Feynman Integrals from the Scattering Facet",
+    "published": "2026-09-16T13:46:53+00:00",
+    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
+  },
+  {
+    "id": "2609.18664v1",
+    "title": "Matematika optimálního přenosu odhaluje zakřivení časoprostoru",
+    "summary": "Obecná teorie relativity popisuje gravitaci prostřednictvím zakřivení časoprostoru. Nová studie představuje inovativní způsob, jak toto zakřivení kvantifikovat pomocí teorie optimálního transportu, která se původně používala pro efektivní přenos hmoty. Autoři adaptovali koncept takzvané Ollivierovy-Ricciho zakřivenosti pro časoprostorové prostředí. Porovnáváním pravděpodobnostních rozložení na malých prostorových nadplochách pomocí modifikované Wassersteinovy vzdálenosti dokázali přesně rekonstruovat Ricciho tenzor v časovém směru. Tento postup matematicky odráží slavnou Raychaudhuriho rovnici a funguje i pro systémy s proměnnou hustotou. Proč je to zajímavé: Propojení optimalizačních matematických metod s relativistickou geometrií nabízí nové způsoby, jak zkoumat časoprostorové singularity i kvantovou gravitaci.",
+    "url": "http://arxiv.org/abs/2609.18664v1",
+    "source": "arXiv",
+    "original_title": "Timelike Ollivier-Ricci curvature",
+    "published": "2026-09-16T13:42:28+00:00",
+    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
+  },
+  {
+    "id": "2609.18615v1",
+    "title": "Black Hole Shadow and Light Deflection in Generalized Heisenberg-Euler Nonlinear Electrodynamics",
+    "summary": "We study the optical properties of electrically charged black holes sourced by generalized Heisenberg-Euler nonlinear electrodynamics (NLED) in the second-order formalism. Using the exact parametric form of the static spherically symmetric solution, …",
+    "url": "http://arxiv.org/abs/2609.18615v1",
+    "source": "arXiv",
+    "original_title": "Black Hole Shadow and Light Deflection in Generalized Heisenberg-Euler Nonlinear Electrodynamics",
+    "published": "2026-09-16T13:03:43+00:00",
+    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
+  },
+  {
+    "id": "2609.18606v1",
+    "title": "Shadow and Polarized Images of Schwarzschild-MOG Black Hole Illuminated by Thick Accretion Disk",
+    "summary": "Recent EHT polarimetric observations provide a powerful probe of near-horizon physics and modified gravity. We investigate the shadow and polarization images of a static Schwarzschild-MOG black hole illuminated by geometrically thick, optically thin …",
+    "url": "http://arxiv.org/abs/2609.18606v1",
+    "source": "arXiv",
+    "original_title": "Shadow and Polarized Images of Schwarzschild-MOG Black Hole Illuminated by Thick Accretion Disk",
+    "published": "2026-09-16T12:57:30+00:00",
+    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
+  },
+  {
     "id": "2609.17531v1",
     "title": "Pátrání po počátku vesmíru: Jak odhalit falešné stopy gravitačních vln?",
     "summary": "Detekce primordiálních B-módů v reliktním záření představuje svatý grál moderní kosmologie, neboť by potvrdila existenci gravitačních vln z období kosmické inflace. Hlavní překážkou je však kontaminace zářením z naší Mléčné dráhy. I po použití pokročilých čisticích algoritmů mohou v datech zůstat zbytkové signály, které způsobí falešný objev. Nová studie představuje metodu založenou na rozptylových transformacích, jež dokáže v mapách reliktního záření spolehlivě identifikovat negaussovské struktury způsobené galaktickým popředím. Test vyvinutý pro chystaný satelit LiteBIRD dokáže odhalit zkreslení klíčového parametru r s přesností odpovídající citlivosti samotného přístroje. Proč je to zajímavé: Získáme tím spolehlivou pojistku, že případný budoucí objev otisků kosmické inflace bude skutečný, a nikoli jen klamný signál z naší vlastní Galaxie.",
