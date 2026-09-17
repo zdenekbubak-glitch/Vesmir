@@ -1,0 +1,60 @@
+name: Opravit překlady
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Repair untranslated items
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/repair_untranslated.py
+
+      - name: Commit news.json
+        run: |
+          git config user.name "cosmo-agent"
+          git config user.email "agent@users.noreply.github.com"
+          git add data/news.json
+          if git diff --staged --quiet; then
+            echo "Žádné změny."
+          else
+            git commit -m "Oprava nepřeložených novinek"
+            git push origin HEAD:main
+            echo "Push OK."
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
