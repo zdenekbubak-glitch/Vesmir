@@ -1,5 +1,85 @@
 [
   {
+    "id": "2609.20809v1",
+    "title": "Chaos u zrodu vesmíru: Nový pohled na nestabilitu Kasnerova prostoročasu",
+    "summary": "Kasnerovy prostoročasy slouží v obecné relativitě jako modely raného vesmíru, který se v různých směrech rozpíná odlišnou rychlostí. Tato studie matematicky dokazuje, že tyto prostoročasy jsou směrem k Velkému třesku lineárně nestabilní. Klíčovým přínosem je zavedení takzvaných kvazinormálních módů pro Kasnerův prostoročas, což je elegantní koncept převzatý z fyziky černých děr. Autoři ukázali, jak drobné poruchy narůstají a způsobují přechody mezi různými stavy rozpínání bez nutnosti předpokládat jakékoli symetrie. Práce tím poskytuje ucelený popis nestabilit, které vedou k teoreticky předpovězeným chaotickým oscilacím časoprostoru. Proč je to zajímavé: Výzkum přináší klíčový matematický důkaz, že samotný počátek vesmíru byl divoce chaotický a neobyčejně nestabilní.",
+    "url": "http://arxiv.org/abs/2609.20809v1",
+    "source": "arXiv",
+    "original_title": "The linear instability of Kasner spacetimes",
+    "published": "2026-09-17T17:58:33+00:00",
+    "inserted_at": "2026-09-18T07:06:08.751018+00:00"
+  },
+  {
+    "id": "2609.20801v1",
+    "title": "Pátrání po temné hmotě: Gigantické simulace určily hmotnost axionu",
+    "summary": "Vědci s pomocí obřích superpočítačových simulací raného vesmíru přesněji určili hmotnost axionů – hypotetických extrémně lehkých částic, které představují jednoho z hlavních kandidátů na temnou hmotu. Simulace podrobně sledovaly vývoj a zánik sítě kosmických strun po inflaci, z nichž se uvolnilo obrovské množství axionového záření. Pokud temnou hmotu tvoří právě tyto částice, jejich hmotnost v nejjednodušším modelu dosahuje přibližně 17,5 mikroelektronvoltů. Tento konkrétní výpočet odpovídá rezonanční frekvenci 4,2 gigahertzu pro detektory temné hmoty. Proč je to zajímavé: Výzkum nabízí fyzikům konkrétní frekvenční pásmo, na které mají naladit své experimentální detektory, aby temnou hmotu v laboratoři konečně zachytili.",
+    "url": "http://arxiv.org/abs/2609.20801v1",
+    "source": "arXiv",
+    "original_title": "The axion mass in the post-inflationary scenario in a minimal scaling model",
+    "published": "2026-09-17T17:56:12+00:00",
+    "inserted_at": "2026-09-18T07:06:08.751018+00:00"
+  },
+  {
+    "id": "2609.20788v1",
+    "title": "Pohled do nitra kvantové černé díry: Odhalení tajemství singularity",
+    "summary": "Klasická fyzika popisuje střed černé díry jako singularitu – bod s nekonečnou hustotou, kde známé zákony selhávají. Kvantová teorie však naznačuje, že vnitřní struktura černé díry je podstatně složitější. Nový výzkum představuje metodu, jak nahlédnout pod horizont událostí pomocí kvazinormálních módů, tedy charakteristických vibrací časoprostoru. Aplikací této metody na kvantové černé díry v trojrozměrném časoprostoru vědci odhalili zásadní proměnu vnitřního uspořádání ve chvíli, kdy začnou dominovat kvantové efekty. Proč je to zajímavé: Metoda poskytuje konkrétní matematický klíč k testování kvantové gravitace a umožňuje zkoumat dříve nedostupné procesy uvnitř černých děr.",
+    "url": "http://arxiv.org/abs/2609.20788v1",
+    "source": "arXiv",
+    "original_title": "Looking inside a quantum black hole",
+    "published": "2026-09-17T17:53:13+00:00",
+    "inserted_at": "2026-09-18T07:06:08.751018+00:00"
+  },
+  {
+    "id": "2609.20742v1",
+    "title": "Gravitační vlny v prostředí: Když černé díry proplouvají vesmírným plynem",
+    "summary": "Při modelování srážek černých děr se často předpokládá, že se pohybují v úplném vakuu. Ve skutečnosti však tyto kompaktní objekty mohou obíhat uvnitř okolního plynu či plazmatu. Vědci nyní vyvinuli nový teoretický rámec, který využívá metody efektivních teorií pole k popisu gravitační dynamiky v prostředí tekutiny. Pomocí Feynmanových diagramů tak dokáží přesně spočítat efekt dynamického tření, které pohybující se těleso brzdí. Tato metodika představuje klíčový krok k přesnějším předpovědím pro nadcházející generaci detektorů gravitačních vln. Proč je to zajímavé: Propojuje pokročilé nástroje částicové fyziky s astrofyzikou a pomůže odhalit, jak mezigalaktické prostředí mění tvary zachycených gravitačních signálů.",
+    "url": "http://arxiv.org/abs/2609.20742v1",
+    "source": "arXiv",
+    "original_title": "Environmental Effects in Post-Minkowskian Dynamics: Effective Field Theory, Feynman Rules, and Ward Identities for Compact Objects in Relativistic Fluids",
+    "published": "2026-09-17T17:30:35+00:00",
+    "inserted_at": "2026-09-18T07:06:08.751018+00:00"
+  },
+  {
+    "id": "2609.20703v1",
+    "title": "Kvantový most mezi teorií gravitace a raným vesmírem",
+    "summary": "Smyčková kvantová gravitace se snaží popsat strukturu časoprostoru na té nejmenší úrovni, ale její aplikace na celý vesmír bývá výpočetně nesmírně složitá. Vědci proto často používají zjednodušené modely zvané smyčková kvantová kosmologie. Tato nová práce úspěšně propojuje plnou kvantově-gravitační teorii s těmito zjednodušenými kosmologickými modely typu Bianchi I a IX, které popisují neizotropní vesmír. Autoři zavedli speciální kvantové operátory a ukázali, že konkrétní stavové sítě spinů vyhovují všem fyzikálním podmínkám symetrie. Tím vytvořili přímé kvantové přemostění mezi obecnou teorií a kosmologickou praxí. Proč je to zajímavé: Práce přináší přísný teoretický důkaz, že zjednodušené kosmologické modely mají pevný základ v plné teorii kvantové gravitace, což nám přibližuje pochopení samotného počátku vesmíru.",
+    "url": "http://arxiv.org/abs/2609.20703v1",
+    "source": "arXiv",
+    "original_title": "Spin-network states for the Bianchi I and IX cosmological models from quantum constrained symmetries",
+    "published": "2026-09-17T17:04:16+00:00",
+    "inserted_at": "2026-09-18T07:06:08.751018+00:00"
+  },
+  {
+    "id": "2609.20663v1",
+    "title": "Tajemství kvantové entropie při vzniku černých děr",
+    "summary": "Vědci představili nový matematický model, který umožňuje v reálném čase simulovat gravitační kolaps v kvantové teorii pole. Díky speciálnímu způsobu odstranění matematických nekonečen (tzv. ultrafialových divergencí) dokázali přesně vypočítat kvantovou entropii provázanosti. Ukázalo se, že u smršťující se časoprostorové slupky se tato entropie soustředí přímo na jejím povrchu a během vývoje si udržuje přibližně konstantní a konečnou maximální hodnotu. Tento teoretický průlom ukazuje, jak se kvantová informace chová při vzniku extrémně hmotných objektů. Proč je to zajímavé: Práce nabízí elegantní způsob, jak zkoumat hluboké propojení kvantové mechaniky a gravitace bez destruktivního vlivu matoucích matematických nekonečen.",
+    "url": "http://arxiv.org/abs/2609.20663v1",
+    "source": "arXiv",
+    "original_title": "Entropy, area, and the choice of regulator during gravitational collapse",
+    "published": "2026-09-17T16:40:13+00:00",
+    "inserted_at": "2026-09-18T07:06:08.751018+00:00"
+  },
+  {
+    "id": "2609.20626v1",
+    "title": "Dvě černé díry a nahá singularita: Nový pohled na časoprostor",
+    "summary": "Teoretičtí fyzici představili nové souřadnice, které rozšiřují popis teoretického časoprostoru obsahujícího silná magnetická a gravitační pole. Tento nový matematický pohled odhaluje neobvyklý systém složený ze dvou černých děr, které sdílejí společné vnější prostředí s netriviální geometrií, a jedné „nahé“ prstencové singularity – tedy oblasti s nekonečnou hustotou, jež není skrytá pod horizontem událostí. Při zjednodušení na statický stav se tento model elegantně propojuje s již známými fyzikálními řešeními. Proč je to zajímavé: Studium takto extrémních konfigurací pomáhá fyzikům testovat limity Einsteinovy teorie relativity a odhalovat chování časoprostoru v přítomnosti silných elektromagnetických polí.",
+    "url": "http://arxiv.org/abs/2609.20626v1",
+    "source": "arXiv",
+    "original_title": "On the Extended Kerr-Newman-Bertotti-Robinson Spacetime: Two Black Holes and a Naked Singularity in Bertotti-Robinson Universe",
+    "published": "2026-09-17T16:12:29+00:00",
+    "inserted_at": "2026-09-18T07:06:08.751018+00:00"
+  },
+  {
+    "id": "2609.20622v1",
+    "title": "Návrat Palatiniho atraktorů: Nová mapa pro kosmickou inflaci",
+    "summary": "Jak vypadaly první okamžiky vesmíru během takzvané kosmické inflace? Vědci zkoumají modely v rámci Palatiniho formulace gravitace, kde prostoročas a hmota vystupují jako nezávislé proměnné. Nová studie ukazuje, že u takzvaných atraktorů existuje přímé a univerzální mapování mezi teoretickými parametry a pozorovatelnými veličinami. V limitě silné vazby se výrazně potlačuje signál prvotních gravitačních vln, zatímco spektrální index skalárních poruch se posouvá k vyšším hodnotám. Výzkum tak poskytuje elegantní klíč ke sjednocení různorodých scénářů vývoje vesmíru. Proč je to zajímavé: Objev výrazně zjednodušuje testování teoretických modelů inflace a umožňuje jejich přímou konfrontaci s přesnými daty z pozorování reliktního záření.",
+    "url": "http://arxiv.org/abs/2609.20622v1",
+    "source": "arXiv",
+    "original_title": "The return of Palatini inflationary attractors: Universal mapping of observables",
+    "published": "2026-09-17T16:06:51+00:00",
+    "inserted_at": "2026-09-18T07:06:08.751018+00:00"
+  },
+  {
     "id": "2609.18923v1",
     "title": "Jak Riemann položil základy kosmologie bez jediného vzorce",
     "summary": "Roku 1854 představil Bernhard Riemann přelomovou přednášku o základech geometrie, která později umožnila vznik obecné relativity. Překvapivě v ní však chyběl matematický aparát. Dlouho se věřilo, že Riemann vzorce vynechal s ohledem na nespecializované profesory v publiku. Nová analýza tento mýtus vyvrací – téže komisi totiž již dříve obhájil práci plnou složitých rovnic. Skutečným důvodem byla radikální novost jeho vizí. Pojmy jako zakřivený prostor, varieta či metrika byly tak nevídané, že pro ně v té době neexistoval odpovídající matematický jazyk a Riemann je musel formulovat převážně slovně. Proč je to zajímavé: Ukazuje to, že vizionářské myšlenky o struktuře vesmíru mohou předběhnout i samotný matematický aparát potřebný k jejich formálnímu popisu.",
