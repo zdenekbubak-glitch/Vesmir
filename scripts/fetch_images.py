@@ -41,34 +41,65 @@ def save_history(items: list):
         json.dump(items, f, ensure_ascii=False, indent=2)
 
 
-def translate_cs(title: str, caption: str) -> tuple[str, str]:
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        return title, caption[:400]
-    try:
-        from google import genai
-        client = genai.Client(api_key=api_key)
-        chat = client.chats.create(model=GEMINI_MODEL)
-        prompt = f"""Přelož astronomický popisek do češtiny. Vrať POUZE JSON:
+CZECH_WORDS = (
+    "že", "který", "která", "které", "jsou", "bylo", "vesmír", "černá",
+    "hmota", "energie", "výzkum", "studie", "autoři", "zajímavé",
+)
+
+
+def looks_czech_image(title_cs: str, caption_cs: str, original_title: str) -> bool:
+    """Hrubá kontrola, že Gemini opravdu vrátil češtinu, ne originál."""
+    title_cs = (title_cs or "").strip()
+    caption_cs = (caption_cs or "").strip()
+    if len(title_cs) < 3 or len(caption_cs) < 20:
+        return False
+    if title_cs.casefold() == (original_title or "").strip().casefold():
+        return False
+    blob = title_cs + " " + caption_cs
+    if re.search(r"[áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]", blob):
+        return True
+    low = blob.casefold()
+    return sum(1 for w in CZECH_WORDS if w in low) >= 2
+
+
+def translate_cs(client, title: str, caption: str) -> tuple[str, str] | None:
+    """Překlad titulku a popisku přes Gemini se 3 pokusy po 7 s.
+
+    Stejný vzor jako summarize_czech() ve fetch_and_update.py:
+    při neúspěchu vrátí None a snímek se vynechá, aby se do galerie
+    nedostal nechtěně anglický text.
+    """
+    prompt = f"""Přelož astronomický popisek do češtiny. Vrať POUZE JSON:
 {{"title_cs":"...","caption_cs":"..."}}
 Titulek max 80 znaků, popisek 1–3 věty.
 
 Title: {title}
 Caption: {caption[:800]}
 """
-        text = chat.send_message(prompt).text.strip()
-        if text.startswith("```"):
-            text = text.split("```")[1]
-            if text.startswith("json"):
-                text = text[4:]
-        data = json.loads(text)
-        return (
-            data.get("title_cs", title)[:120],
-            data.get("caption_cs", caption)[:500],
-        )
-    except Exception as e:
-        print(f"Překlad obrázku selhal: {e}")
-        return title, caption[:400]
+    last_err = None
+    for attempt in range(1, 4):
+        try:
+            chat = client.chats.create(model=GEMINI_MODEL)
+            text = (chat.send_message(prompt).text or "").strip()
+            if text.startswith("```"):
+                text = text.split("```")[1]
+                if text.startswith("json"):
+                    text = text[4:]
+                text = text.strip()
+            data = json.loads(text)
+            title_cs = (data.get("title_cs") or "").strip()[:120]
+            caption_cs = (data.get("caption_cs") or "").strip()[:500]
+            if not looks_czech_image(title_cs, caption_cs, title):
+                raise ValueError("Odpověď nevypadá jako čeština")
+            return title_cs, caption_cs
+        except Exception as e:
+            last_err = e
+            print(f"Překlad obrázku pokus {attempt}/3 selhal: {e}")
+            if attempt < 3:
+                print("Čekám 7 s před dalším pokusem…")
+                time.sleep(7)
+    print(f"Překlad se nepodařil, snímek vynechávám: {(title or '')[:70]}")
+    return None
 
 
 def fetch_apod() -> list:
@@ -181,12 +212,21 @@ def main():
     candidates = fetch_apod() + fetch_esa()
     new_raw = [c for c in candidates if c["id"] not in existing]
 
+    api_key = os.environ.get("GEMINI_API_KEY")
+    client = None
+    if api_key:
+        from google import genai
+        client = genai.Client(api_key=api_key)
+    else:
+        print("Chybí GEMINI_API_KEY – nové snímky se bez překladu neuloží.")
+
     now = datetime.now(timezone.utc).isoformat()
     new_items = []
     for item in new_raw[:MAX_ITEMS]:
-        title_cs, caption_cs = translate_cs(item["title"], item["caption"])
-        item["title"] = title_cs
-        item["caption"] = caption_cs
+        translated = translate_cs(client, item["title"], item["caption"]) if client else None
+        if not translated:
+            continue
+        item["title"], item["caption"] = translated
         item["inserted_at"] = now
         new_items.append(item)
         print(f"Obrázek: {item['title'][:60]}")
