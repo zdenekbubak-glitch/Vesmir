@@ -62,8 +62,11 @@ def looks_czech_image(title_cs: str, caption_cs: str, original_title: str) -> bo
     return sum(1 for w in CZECH_WORDS if w in low) >= 2
 
 
-def translate_cs(client, title: str, caption: str) -> tuple[str, str] | None:
-    """Překlad titulku a popisku přes Gemini se 3 pokusy po 7 s.
+def translate_cs(client, title: str, caption: str, retry_wait: int = 7) -> tuple[str, str] | None:
+    """Překlad titulku a popisku přes Gemini se 3 pokusy.
+
+    Mezi pokusy čeká retry_wait sekund (pro dávkové opravy volat s delší
+    pauzou, aby se nepřekročil rate limit Gemini).
 
     Stejný vzor jako summarize_czech() ve fetch_and_update.py:
     při neúspěchu vrátí None a snímek se vynechá, aby se do galerie
@@ -96,8 +99,8 @@ Caption: {caption[:800]}
             last_err = e
             print(f"Překlad obrázku pokus {attempt}/3 selhal: {e}")
             if attempt < 3:
-                print("Čekám 7 s před dalším pokusem…")
-                time.sleep(7)
+                print(f"Čekám {retry_wait} s před dalším pokusem…")
+                time.sleep(retry_wait)
     print(f"Překlad se nepodařil, snímek vynechávám: {(title or '')[:70]}")
     return None
 
