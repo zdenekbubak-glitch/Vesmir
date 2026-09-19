@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obrázky – Kosmologické novinky</title>
+  <style>
+    :root { --bg:#0b0f19; --card:#151b2d; --text:#e8eef7; --accent:#6ea8fe; --muted:#9aa8c7; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; line-height: 1.55; }
+    header { background: linear-gradient(135deg,#0f172a,#1e293b); padding: 1.8rem 1rem 1.5rem; text-align: center; border-bottom: 1px solid #1e293b; }
+    .logo-wrapper { display: flex; align-items: center; justify-content: center; gap: .9rem; margin-bottom: .5rem; }
+    .logo-wrapper img { height: 80px; width: 80px; border-radius: 12px; }
+    .logo-text h1 { margin: 0; font-size: 1.7rem; font-weight: 600; }
+    .subtitle { color: var(--muted); font-size: .95rem; margin: .35rem 0 1rem; }
+    nav { margin: .6rem 0 0; }
+    nav a { color: var(--accent); margin: 0 .7rem; }
+    main { max-width: 860px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+    .figure { background: var(--card); border: 1px solid #1e293b; border-radius: 12px; padding: 1rem; margin: 0 0 1.6rem; scroll-margin-top: 1.2rem; }
+    .figure img { width: 100%; height: auto; border-radius: 8px; display: block; background: #0b0f19; }
+    .figure h2 { margin: .9rem 0 .35rem; font-size: 1.2rem; }
+    .meta { font-size: .85rem; color: var(--muted); margin-bottom: .6rem; }
+    .caption { margin: 0 0 .8rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .empty { text-align: center; color: var(--muted); padding: 3rem 1rem; }
+    footer { text-align: center; padding: 1.5rem; color: var(--muted); font-size: .85rem; }
+    @media (max-width: 520px) {
+      .logo-wrapper { flex-direction: column; gap: .45rem; }
+      .logo-wrapper img { height: 64px; width: 64px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-wrapper">
+      <img src="assets/logo-icon-square.png" alt="Kosmologické novinky" width="80" height="80">
+      <div class="logo-text"><h1>Obrázky vesmíru</h1></div>
+    </div>
+    <p class="subtitle">Čerstvé snímky z NASA APOD, Hubble a Webb</p>
+    <nav>
+      <a href="index.html">Aktuální</a>
+      <a href="archive.html">Archiv</a>
+      <a href="images.html">Obrázky</a>
+    </nav>
+  </header>
+  <main id="gallery"><p class="empty">Načítám snímky…</p></main>
+  <footer>NASA APOD · ESA Hubble · ESA Webb · Aktualizace s denním agentem</footer>
+  <script>
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text || '';
+      return div.innerHTML;
+    }
+    async function loadImages() {
+      const gallery = document.getElementById('gallery');
+      try {
+        const res = await fetch('data/images.json?' + Date.now());
+        if (!res.ok) throw new Error('Galerie ještě není naplněná');
+        const items = await res.json();
+        if (!items.length) {
+          gallery.innerHTML = '<p class="empty">Zatím žádné snímky. Přibydou při dalším běhu agenta.</p>';
+          return;
+        }
+        gallery.innerHTML = items.map(item => `
+          <figure class="figure" id="img-${escapeHtml(item.id)}">
+            <img src="${escapeHtml(item.image || item.thumb)}" alt="${escapeHtml(item.title)}" loading="lazy">
+            <h2>${escapeHtml(item.title)}</h2>
+            <div class="meta">${escapeHtml(item.source)} · ${escapeHtml(item.published || '')} · ${escapeHtml(item.credit || '')}</div>
+            <p class="caption">${escapeHtml(item.caption)}</p>
+            <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">Původní zdroj →</a>
+          </figure>`).join('');
+        const hash = decodeURIComponent(location.hash || '');
+        if (hash) {
+          const el = document.querySelector(hash);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      } catch (e) {
+        gallery.innerHTML = `<p class="empty">Snímky se nepodařilo načíst.<br><small>${escapeHtml(e.message)}</small></p>`;
+      }
+    }
+    loadImages();
+  </script>
+</body>
+</html>
