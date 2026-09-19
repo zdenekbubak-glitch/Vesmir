@@ -227,6 +227,19 @@
       font-size: 0.85rem;
       color: var(--muted);
     }
+
+    /* Posuvník panelu obrázků – sladěný s tmavým designem */
+    .thumbs {
+      scrollbar-width: thin;
+      scrollbar-color: #2b3752 transparent;
+    }
+    .thumbs::-webkit-scrollbar { height: 8px; }
+    .thumbs::-webkit-scrollbar-track { background: transparent; }
+    .thumbs::-webkit-scrollbar-thumb {
+      background: #2b3752;
+      border-radius: 4px;
+    }
+    .thumbs::-webkit-scrollbar-thumb:hover { background: var(--accent); }
     
     @media (max-width: 520px) {
       .logo-wrapper { flex-direction: column; gap: 0.45rem; }
