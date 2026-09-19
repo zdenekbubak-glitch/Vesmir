@@ -57,13 +57,15 @@ def main():
     for item in targets:
         title_orig = item.get("title") or ""
         print(f"Opravuji {item.get('id')}: {title_orig[:70]}")
-        result = translate_cs(client, title_orig, item.get("caption") or "")
+        # delší pauzy než u denního běhu – opravy bývají dávka 10+ překladů
+        # a při rychlém tempu narazí na rate limit Gemini (dostupnost per minutu)
+        result = translate_cs(client, title_orig, item.get("caption") or "", retry_wait=20)
         if not result:
             skipped += 1
             continue
         item["title"], item["caption"] = result
         fixed += 1
-        time.sleep(1.5)
+        time.sleep(5)
 
     data_file.parent.mkdir(parents=True, exist_ok=True)
     data_file.write_text(json.dumps(items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
