@@ -1,8 +1,8 @@
 [
   {
     "id": "apod-2026-09-19",
-    "title": "A Zodiacal Night",
-    "caption": "Also known as the false dawn, a luminous band of zodiacal light is captured in this dark night skyscape. The serene view was recorded just before the beginning of astronomical twilight during September's star party at the remote Hanle Dark Sky Reserve, Ladakh, India, planet Earth. At about 4,500 meters altitude, the dark sky reserve presents a haven for hardy stargazing and astrophotography enthus",
+    "title": "Zodiakální noc",
+    "caption": "Na tomto snímku tmavé noční oblohy je zachycen zářivý pás zodiakálního světla, známý také jako falešný úsvit. Tento klidný pohled byl pořízen těsně před začátkem astronomického soumraku během zářijového setkání pozorovatelů oblohy v odlehlé rezervaci tmavé oblohy Hanle v Ladakhu v Indii na planetě Zemi. V nadmořské výšce přibližně 4 500 metrů představuje tato rezervace útočiště pro odhodlané nadšence do pozorování hvězd a astrofotografie.",
     "thumb": "https://apod.nasa.gov/apod/image/2609/2026-09-09ZodiacalLightHSP1024.jpg",
     "image": "https://apod.nasa.gov/apod/image/2609/2026-09-09ZodiacalLightHSP.jpg",
     "source": "NASA APOD",
@@ -13,8 +13,8 @@
   },
   {
     "id": "apod-2026-09-18",
-    "title": "Messier 33: The Triangulum Galaxy",
-    "caption": "The small, northern constellation Triangulum harbors this magnificent face-on spiral galaxy, Messier 33. Its popular names include the Pinwheel Galaxy or just the Triangulum Galaxy. M33 is over 50,000 light-years in diameter, third largest in the Local Group of galaxies after the Andromeda Galaxy (M31), and our own Milky Way. About 3 million light-years from the Milky Way, M33 is itself thought to",
+    "title": "Messier 33: Galaxie v Trojúhelníku",
+    "caption": "Malé severní souhvězdí Trojúhelníku ukrývá tuto nádhernou spirální galaxii Messier 33, která je k nám natočená čelem. Mezi její známá označení patří Galaxie Větrník nebo jednoduše Galaxie v Trojúhelníku. S průměrem přes 50 000 světelných let je po galaxii v Andromedě (M31) a naší Mléčné dráze třetí největší v Místní skupině galaxií, nacházející se asi 3 miliony světelných let od nás.",
     "thumb": "https://apod.nasa.gov/apod/image/2609/m33m14_rasa3NM1024.jpg",
     "image": "https://apod.nasa.gov/apod/image/2609/m33m14_rasa3NM.jpg",
     "source": "NASA APOD",
@@ -37,8 +37,8 @@
   },
   {
     "id": "apod-2026-09-16",
-    "title": "Webb's View of M64",
-    "caption": "Sometimes where Hubble finds darkness, Webb sees light. An example is today’s composite images of Messier 64 (M64), a nearby spiral galaxy of many names. The dark band of dust partially blocking its bright core earned it the moniker “the Black Eye Galaxy.” Webb’s Mid-InfraRed Instrument (MIRI) sees that dust, shown in red, as it absorbs and re-emits light from surrounding newborn stars. These youn",
+    "title": "Webbův pohled na galaxii M64",
+    "caption": "Tam, kde Hubble vidí temnotu, nachází Webb někdy světlo – příkladem jsou tyto složené snímky blízké spirální galaxie Messier 64 (M64). Tmavý prachový pás částečně zakrývající její jasné jádro jí vysloužil přezdívku „Černé oko“. Přístroj MIRI na Webbově teleskopu zobrazuje tento prach červeně, jak pohlcuje a znovu vyzařuje světlo z okolních novorozených hvězd.",
     "thumb": "https://apod.nasa.gov/apod/image/2609/M64_Webb_1024.jpg",
     "image": "https://apod.nasa.gov/apod/image/2609/M64_Webb.jpg",
     "source": "NASA APOD",
@@ -49,8 +49,8 @@
   },
   {
     "id": "apod-2026-09-15",
-    "title": "A Daytime Eclipse: Moon Occults Venus",
-    "caption": "There was something behind the clouds.  Upon close inspection, it was the Moon, which was hard to see yesterday around noon above the small village of Cessy, France.  But soon, it was not only the Moon. As expected, a bright dot suddenly appeared from behind the Moon -- the planet Venus far in the distance.  Captured in the single featured exposure, both appeared to show a crescent phase.  The Moo",
+    "title": "Denní zákryt: Měsíc zakrývá Venuši",
+    "caption": "Za mraky se něco skrývalo – při bližším pohledu to byl Měsíc, který byl včera kolem poledne nad francouzskou vesničkou Cessy jen stěží viditelný. Brzy se však zza Měsíce podle očekávání vynořila jasná tečka, vzdálená planeta Venuše. Na tomto jediném snímku ukazují oba objekty fázi srpku.",
     "thumb": "https://apod.nasa.gov/apod/image/2609/MoonVenus_Mariat_960.jpg",
     "image": "https://apod.nasa.gov/apod/image/2609/MoonVenus_Mariat_1410.jpg",
     "source": "NASA APOD",
@@ -61,8 +61,8 @@
   },
   {
     "id": "apod-2026-09-14",
-    "title": "Where Your Elements Came From",
-    "caption": "The hydrogen in your body and present in every molecule of water came from the Big Bang.  There are no other appreciable sources of hydrogen in the universe.  The carbon in your body was made by nuclear fusion in the interior of stars, as was the oxygen.  Much of the iron in your body was made during supernovas of stars that occurred long ago and far away.  The gold in your jewelry was likely made",
+    "title": "Odkud pocházejí prvky ve vašem těle",
+    "caption": "Vodík ve vašem těle i v molekulách vody pochází z Velkého třesku, který je jeho jediným významným zdrojem ve vesmíru. Uhlík a kyslík vznikly jadernou fúzí v nitru hvězd, zatímco většina železa pochází z dávných výbuchů supernov. Zlato ve vašich špercích pak pravděpodobně vzniklo při srážkách neutronových hvězd.",
     "thumb": "https://apod.nasa.gov/apod/image/2609/ElementOrigins2_svs_1080.jpg",
     "image": "https://apod.nasa.gov/apod/image/2609/ElementOrigins2_svs_6000.jpg",
     "source": "NASA APOD",
@@ -73,8 +73,8 @@
   },
   {
     "id": "apod-2026-09-12",
-    "title": "Apollo 11: Catching Some Sun",
-    "caption": "Bright sunlight glints as long dark shadows mark this image of the surface of the Moon. It was taken on July 20, 1969, by Apollo 11 astronaut Neil Armstrong, the first to walk on the lunar surface. Pictured is the mission's lunar module, the Eagle, and spacesuited lunar module pilot Buzz Aldrin. Aldrin is unfurling a long sheet of foil also known as the Solar Wind Composition Experiment. Exposed f",
+    "title": "Apollo 11: Chytání slunečních paprsků",
+    "caption": "Jasné sluneční světlo a dlouhé tmavé stíny tvoří výrazné prvky tohoto snímku měsíčního povrchu. Pořídil ho 20. července 1969 astronaut mise Apollo 11 Neil Armstrong, první člověk, který vstoupil na povrch Měsíce. Na snímku je zachycen lunární modul Eagle a pilot Buzz Aldrin ve skafandru, který rozvíjí fólii experimentu pro měření složení slunečního větru.",
     "thumb": "https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR1024.jpg",
     "image": "https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg",
     "source": "NASA APOD",
@@ -85,8 +85,8 @@
   },
   {
     "id": "apod-2026-09-11",
-    "title": "M83: The Southern Pinwheel",
-    "caption": "Beautiful and bright spiral galaxy M83 lies some twelve million light-years away, near the southeastern tip of the very long constellation Hydra. Prominent spiral arms traced by dark dust lanes and blue star clusters lend this galaxy its popular name, the Southern Pinwheel.  Still, reddish star forming regions that dot this cosmic pinwheel's spiral arms have suggested another nickname, the Thousan",
+    "title": "M83: Jižní větrník",
+    "caption": "Krásná a jasná spirální galaxie M83 leží přibližně dvanáct milionů světelných let daleko, nedaleko jihovýchodního cípu rozlehlého souhvězdí Hydry. Výrazná spirální ramena lemovaná tmavými prachovými pásy a modrými hvězdokupami dávají této galaxii její populární název Jižní větrník. Načervenalé oblasti tvorby hvězd v jejích ramenou jí však vysloužily i další přezdívku: Galaxie tisíce rubínů.",
     "thumb": "https://apod.nasa.gov/apod/image/2609/M83_Final2_1x1024.jpg",
     "image": "https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg",
     "source": "NASA APOD",
@@ -97,8 +97,8 @@
   },
   {
     "id": "apod-2026-09-10",
-    "title": "LDN 1295: The Giraffe Nebula",
-    "caption": "What does this image look like to you?   Many see a giraffe facing right, with neck stretched high and long legs mid-stride (but some may see a squirrel instead).   The featured image shows LDN 1295, also called the Giraffe Nebula, in the constellation of the mythical queen of Aethiopia (Cassiopeia).   It is an object in the Lynds Catalogue of Dark Nebulas, compiled in 1962 by American astronomer ",
+    "title": "LDN 1295: Mlhovina Žirafa",
+    "caption": "Co vám tento obrázek připomíná? Mnozí v něm vidí žirafu hledící doprava s nataženým krkem a dlouhýma nohama v kroku, i když někdo v něm může spatřit spíše veverku. Snímek zachycuje objekt LDN 1295, nazývaný též mlhovina Žirafa, v souhvězdí bájné etiopské královny Kasiopeji.",
     "thumb": "https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe_1024.jpg",
     "image": "https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg",
     "source": "NASA APOD",
