@@ -491,6 +491,26 @@
       }
     }
 
+    async function loadThumbs() {
+      const strip = document.getElementById('thumbs');
+      const head = document.getElementById('thumbs-head');
+      try {
+        const res = await fetch('data/images.json?' + Date.now());
+        if (!res.ok) return;
+        const items = await res.json();
+        if (!items || !items.length) return;
+        strip.hidden = false;
+        strip.style.display = 'flex';
+        head.style.display = 'flex';
+        strip.innerHTML = items.slice(0, 10).map(item => `
+          <a href="images.html#img-${encodeURIComponent(item.id)}">
+            <img src="${escapeHtml(item.thumb || item.image)}" alt="${escapeHtml(item.title)}" loading="lazy">
+            <span>${escapeHtml(item.title)}</span>
+          </a>`).join('');
+      } catch (e) {}
+    }
+    loadThumbs();
+    
     loadNews();
   </script>
 </body>
