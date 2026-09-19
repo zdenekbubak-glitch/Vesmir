@@ -1,5 +1,55 @@
 [
   {
+    "id": "2609.20619v1",
+    "title": "Nový pohled na gravitaci: Geometrie časoprostoru vzniká až z dynamiky",
+    "summary": "Klasická Einsteinova teorie předpokládá pevně danou geometrii časoprostoru. Nový teoretický model nazvaný IWIST však přichází s elegantní myšlenkou: tvar a vlastnosti časoprostoru nejsou určeny předem, ale vznikají dynamicky přímo z fyzikálních rovnic. Vědci využili takzvanou Weylovu geometrii, která je odolná vůči změnám měřítka. Ukázali, že při přepočtu do klasického Einsteinova popisu se čistě geometrická vlastnost prostoru promění v nový fyzikální stupeň volnosti – pole interpretovatelné jako nová hmota či síla. Model navíc popisuje způsob, jakým se tato symetrie narušuje, což vytváří širší teorii gravitace. Proč je to zajímavé: Výzkum ukazuje, že fyzikální pole a částice mohou vznikat přímo ze samotné geometrie vesmíru, což otevírá nové možnosti pro vysvětlení temné hmoty.",
+    "url": "http://arxiv.org/abs/2609.20619v1",
+    "source": "arXiv",
+    "original_title": "Gravity from Invariant Weyl-Integrable space-time (IWIST)",
+    "published": "2026-09-17T16:03:00+00:00",
+    "inserted_at": "2026-09-19T07:05:21.725945+00:00"
+  },
+  {
+    "id": "2609.20571v1",
+    "title": "Euclid a ohyb světla: Nové algoritmy odhalí tisíce kup galaxií",
+    "summary": "Vesmírný teleskop Euclid zkoumá strukturu vesmíru pomocí efektu slabé gravitační čočky, kdy hmota velkých struktur zakřivuje světlo vzdálených galaxií. Vědci podrobili slepému testu devět různých algoritmů určených k vyhledávání kup galaxií. Vybrali čtyři nejlepší metody využívající odlišné analytické přístupy. Ukázalo se, že kombinací těchto algoritmů se výkon detekce zdvojnásobí a u blízkých hmotných kup dosahuje úspěšnosti přes 70 %. Pro první balík dat z teleskopu Euclid tak vědci očekávají odhalení přibližně 2 500 kup galaxií přímo na základě jejich gravitace. Proč je to zajímavé: Tato metoda umožňuje mapovat temnou hmotu a neviditelné obří struktury vesmíru čistě podle jejich hmotnosti, bez ohledu na to, kolik světla vyzařují.",
+    "url": "http://arxiv.org/abs/2609.20571v1",
+    "source": "arXiv",
+    "original_title": "Euclid: Galaxy cluster detection through the weak lensing effect - algorithm assessment and selection",
+    "published": "2026-09-17T15:30:59+00:00",
+    "inserted_at": "2026-09-19T07:05:21.725945+00:00"
+  },
+  {
+    "id": "2609.20552v1",
+    "title": "Kamenná paměť vesmíru: Minerály odhalují temnou hmotu a neutrina",
+    "summary": "Vědci vyvíjejí převratnou metodu detekce neutrin a temné hmoty pomocí minerálních detektorů. Přírodní i syntetické krystaly dokáží uchovat mikroskopické stopy po srážkách s jádry atomů. Pomocí moderní nanometrové mikroskopie lze tyto stopy přečíst a určit z nich energii i směr přicházejících částic. Zatímco v laboratoři mohou krystaly sloužit k monitorování jaderných reaktorů, staré přírodní minerály fungují jako paleodetektory. Po miliardy let uchovávají informace o astrofyzikálních neutrínech, kosmickém záření a temné hmotě, což umožňuje zkoumat vývoj naší Galaxie. Tato metoda se z teoretického konceptu rychle mění v plnohodnotný experimentální program. Proč je to zajímavé: Minerály nám umožňují nahlédnout do hluboké minulosti vesmíru a číst historii temné hmoty přímo z kamene bez nutnosti stavět obří detektory.",
+    "url": "http://arxiv.org/abs/2609.20552v1",
+    "source": "arXiv",
+    "original_title": "Mineral Detection of Neutrinos and Dark Matter 2026 Proceedings",
+    "published": "2026-09-17T15:18:21+00:00",
+    "inserted_at": "2026-09-19T07:05:21.725945+00:00"
+  },
+  {
+    "id": "2609.20500v1",
+    "title": "Kvantová revoluce v částicové fyzice: Nové simulace i citlivé senzory",
+    "summary": "Rychlý rozvoj kvantových technologií zásadním způsobem proměňuje výzkum základních přírodních zákonů. Pokročilé kvantové počítače brzy umožní simulovat složité dynamické procesy v částicové fyzice, které jsou pro klasické superpočítače prakticky neřešitelné. Kompaktní stolní detektory využívající kvantové jevy navíc dosahují nebývalé citlivosti, což otevírá cestu k detekci ultralehkých částic, gravitačních vln a projevů fyziky za hranicemi Standardního modelu. Propojení kvantových simulací a pokročilé senzoriky tak představuje zcela novou éru fundamentálního výzkumu. Proč je to zajímavé: Tyto technologie umožní objevovat skryté záhady vesmíru a hledat temnou hmotu v běžné laboratoři bez nutnosti stavět stále větší urychlovače.",
+    "url": "http://arxiv.org/abs/2609.20500v1",
+    "source": "arXiv",
+    "original_title": "Particle Physics Driven by Quantum Technology - Quantum Simulations and Quantum Sensing",
+    "published": "2026-09-17T14:47:31+00:00",
+    "inserted_at": "2026-09-19T07:05:21.725945+00:00"
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/09/260917003703.htm",
+    "title": "Záhadné červené tečky z teleskopu JWST jsou superrychle rostoucí černé díry",
+    "summary": "Nové superpočítačové simulace naznačují, že tajuplné „malé červené tečky“, které v raném vesmíru zachytil Vesmírný dalekohled Jamese Webba, představují překvapivě rychle rostoucí černé díry. Podle vědců pomohlo extrémní záření vytvořit neobvykle hmotná „semínka“ černých děr, zatímco okolní hustý plyn jim umožnil růst až desítkykrát rychleji, než je možné v dnešním vesmíru. Výsledné modely se nápadně shodují s reálným pozorováním. Pokud se teorie potvrdí, vysvětlí, jak mohl kosmos stvořit obří černé díry tak krátce po velkém třesku. Proč je to zajímavé: Výzkum odhaluje, že v mladém vesmíru panovaly extrémní podmínky, které umožňovaly hmotným objektům růst nepředstavitelným tempem vymykajícím se dnešním standardům.",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260917003703.htm",
+    "source": "RSS",
+    "original_title": "JWST’s mysterious little red dots may be black holes growing at incredible speeds",
+    "published": "2026-09-17T12:45:48+00:00",
+    "inserted_at": "2026-09-19T07:05:21.725945+00:00"
+  },
+  {
     "id": "2609.20809v1",
     "title": "Chaos u zrodu vesmíru: Nový pohled na nestabilitu Kasnerova prostoročasu",
     "summary": "Kasnerovy prostoročasy slouží v obecné relativitě jako modely raného vesmíru, který se v různých směrech rozpíná odlišnou rychlostí. Tato studie matematicky dokazuje, že tyto prostoročasy jsou směrem k Velkému třesku lineárně nestabilní. Klíčovým přínosem je zavedení takzvaných kvazinormálních módů pro Kasnerův prostoročas, což je elegantní koncept převzatý z fyziky černých děr. Autoři ukázali, jak drobné poruchy narůstají a způsobují přechody mezi různými stavy rozpínání bez nutnosti předpokládat jakékoli symetrie. Práce tím poskytuje ucelený popis nestabilit, které vedou k teoreticky předpovězeným chaotickým oscilacím časoprostoru. Proč je to zajímavé: Výzkum přináší klíčový matematický důkaz, že samotný počátek vesmíru byl divoce chaotický a neobyčejně nestabilní.",
