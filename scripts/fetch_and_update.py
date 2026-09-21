@@ -14,7 +14,7 @@ from dateutil import parser as date_parser
 
 # Konfigurace
 DATA_FILE = Path("data/news.json")
-MAX_NEW_ITEMS = 8
+MAX_NEW_ITEMS = 7
 LOOKBACK_HOURS = 60
 GEMINI_MODEL = "gemini-3.6-flash"
 
@@ -55,6 +55,11 @@ ARXIV_RSS_FEEDS = [
     "https://rss.arxiv.org/rss/hep-ph",
 ]
 
+
+class DailyQuotaExhausted(Exception):
+    """Gemini free tier: denní limit modelu je vyčerpaný."""
+
+
 def load_history() -> list:
     if DATA_FILE.exists():
         with open(DATA_FILE, "r", encoding="utf-8") as f:
@@ -91,6 +96,18 @@ def looks_czech(title_cs: str, summary_cs: str, original_title: str) -> bool:
     return sum(1 for w in czech_words if w in low) >= 2
 
 
+def is_daily_quota_error(err: Exception) -> bool:
+    text = str(err)
+    return (
+        "RESOURCE_EXHAUSTED" in text
+        and (
+            "PerDay" in text
+            or "free_tier_requests" in text
+            or "quotaValue" in text
+        )
+    )
+
+
 def summarize_czech(client, title: str, abstract: str, url: str) -> dict | None:
     prompt = f"""Jsi odborný popularizátor kosmologie. Napiš krátký článek v češtině pro laickou i odbornou veřejnost.
 
@@ -109,8 +126,7 @@ Požadavky:
   "summary_cs": "..."
 }}
 """
-    last_err = None
-    for attempt in range(1, 4):
+    for attempt in range(1, 3):  # max 2 pokusy
         try:
             chat = client.chats.create(model=GEMINI_MODEL)
             response = chat.send_message(prompt)
@@ -126,12 +142,15 @@ Požadavky:
             if not looks_czech(title_cs, summary_cs, title):
                 raise ValueError("Odpověď nevypadá jako čeština")
             return {"title_cs": title_cs, "summary_cs": summary_cs}
+        except DailyQuotaExhausted:
+            raise
         except Exception as e:
-            last_err = e
-            print(f"Sumarizace pokus {attempt}/3 selhal: {e}")
-            if attempt < 3:
-                print("Čekám 7 s před dalším pokusem…")
-                time.sleep(7)
+            print(f"Sumarizace pokus {attempt}/2 selhal: {e}")
+            if is_daily_quota_error(e):
+                raise DailyQuotaExhausted(str(e)) from e
+            if attempt < 2:
+                print("Krátký výpadek – čekám 55 s a zkusím tentýž článek znovu…")
+                time.sleep(55)
     print(f"Překlad se nepodařil, položku vynechávám: {title[:70]}")
     return None
 
@@ -141,11 +160,10 @@ def fetch_arxiv(existing_ids: set) -> list:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
     new_items = []
 
-    # --- 1) Pokus přes oficiální API s backoffem ---
     client = arxiv.Client(
         page_size=5,
         delay_seconds=15.0,
-        num_retries=1,  # retry řešíme sami
+        num_retries=1,
     )
     search = arxiv.Search(
         query=ARXIV_QUERY,
@@ -154,7 +172,7 @@ def fetch_arxiv(existing_ids: set) -> list:
         sort_order=arxiv.SortOrder.Descending,
     )
 
-    delays = [5, 45, 90]  # sekundy mezi pokusy
+    delays = [5, 45, 90]
     api_ok = False
     for attempt, wait in enumerate(delays, start=1):
         try:
@@ -187,13 +205,12 @@ def fetch_arxiv(existing_ids: set) -> list:
             if "429" not in err and attempt == len(delays):
                 break
             if attempt < len(delays):
-                print(f"Čekám před dalším pokusem…")
+                print("Čekám před dalším pokusem…")
             continue
 
     if api_ok and new_items:
         return new_items
 
-    # --- 2) Fallback: arXiv RSS (méně rate-limitované) ---
     print("Přepínám na arXiv RSS fallback…")
     keywords = [
         "dark matter", "dark energy", "black hole", "black holes",
@@ -208,7 +225,6 @@ def fetch_arxiv(existing_ids: set) -> list:
         try:
             feed = feedparser.parse(feed_url)
             for entry in feed.entries[:25]:
-                # id ve tvaru http://arxiv.org/abs/2609.12345
                 link = entry.get("link") or entry.get("id") or ""
                 paper_id = link.rstrip("/").split("/")[-1]
                 if not paper_id or paper_id in existing_ids:
@@ -216,7 +232,6 @@ def fetch_arxiv(existing_ids: set) -> list:
 
                 title = entry.get("title", "").replace("\n", " ")
                 summary = entry.get("summary", entry.get("description", ""))
-                # RSS často obsahuje HTML – zjednodušeně ořízneme tagy
                 summary = re.sub(r"<[^>]+>", " ", summary)
                 summary = re.sub(r"\s+", " ", summary).strip()
 
@@ -252,7 +267,6 @@ def fetch_arxiv(existing_ids: set) -> list:
         if len(new_items) >= MAX_NEW_ITEMS:
             break
 
-    # deduplikace
     seen = set()
     unique = []
     for it in new_items:
@@ -262,6 +276,7 @@ def fetch_arxiv(existing_ids: set) -> list:
 
     print(f"arXiv celkem kandidátů po fallbacku: {len(unique)}")
     return unique
+
 
 def fetch_rss(existing_ids: set) -> list:
     new_items = []
@@ -337,12 +352,16 @@ def main():
     new_posts = []
     for item in unique:
         print(f"Sumarizuji: {item['original_title'][:60]}…")
-        summary = summarize_czech(
-            client,
-            item["original_title"],
-            item["abstract"],
-            item["url"],
-        )
+        try:
+            summary = summarize_czech(
+                client,
+                item["original_title"],
+                item["abstract"],
+                item["url"],
+            )
+        except DailyQuotaExhausted:
+            print("Denní kvóta Gemini je vyčerpaná – další články dnes nepřekládám.")
+            break
         if not summary:
             continue
         post = {
