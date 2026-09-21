@@ -25,10 +25,13 @@ ARXIV_QUERY = (
     '"dark matter" OR "dark energy" OR "black hole" OR "black holes" '
     'OR cosmology OR inflation OR "gravitational wave" OR "gravitational waves" '
     'OR "primordial black" OR "early universe" OR "modified gravity" '
-    'OR "quantum gravity" OR "Hubble tension" OR "structure formation"'
+    'OR "quantum gravity" OR "Hubble tension" OR "structure formation" '
+    'OR quasar OR quasars OR supernova OR supernovae '
+    'OR spacetime OR "space-time" '
+    'OR "Lambda CDM" OR LCDM OR "ΛCDM" '
+    'OR Higgs OR neutrino OR neutrinos OR "quantum field"'
     ')'
 )
-
 RSS_FEEDS = [
     "https://www.sciencedaily.com/rss/space_time/cosmology.xml",
     "https://www.skyandtelescope.org/astronomy-news/cosmology/feed/",
@@ -40,7 +43,9 @@ RSS_KEYWORDS = [
     "primordial", "early universe", "quantum gravity", "modified gravity",
     "hubble", "cmb", "cosmic microwave", "neutron star", "singularity",
     "hawking", "event horizon", "big bang", "multiverse", "string theory",
-    "universe", "vesmír",  # širší, ale stále relevantní
+    "universe", "vesmír",
+    "quasar", "supernova", "spacetime", "space-time",
+    "lambda cdm", "lcdm", "higgs", "neutrino", "quantum field",
 ]
 
 ARXIV_RSS_FEEDS = [
@@ -195,6 +200,8 @@ def fetch_arxiv(existing_ids: set) -> list:
         "cosmology", "inflation", "gravitational wave", "primordial",
         "early universe", "modified gravity", "quantum gravity",
         "hubble tension", "structure formation",
+        "quasar", "supernova", "spacetime", "space-time",
+        "lambda cdm", "lcdm", "higgs", "neutrino", "quantum field",
     ]
 
     for feed_url in ARXIV_RSS_FEEDS:
