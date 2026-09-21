@@ -325,12 +325,17 @@
     function renderPost(item) {
       const inserted = new Date(item.inserted_at).toLocaleString('cs-CZ', { timeZone: 'Europe/Prague' });
       const published = item.published ? new Date(item.published).toLocaleDateString('cs-CZ') : '';
+      const isEn = item.lang === 'en' || item.needs_translation;
+      const note = isEn
+        ? '<p class="lang-note">Anglický originál – český souhrn se nepodařilo vytvořit.</p>'
+        : '';
       return `
         <article class="post">
           <h2>${escapeHtml(item.title)}</h2>
           <div class="meta">
             Vloženo: ${inserted} · Zdroj: ${escapeHtml(item.source)} ${published ? '· Publikováno: ' + published : ''}
           </div>
+          ${note}
           <p class="summary">${escapeHtml(item.summary)}</p>
           <a href="${item.url}" target="_blank" rel="noopener">Původní zdroj →</a>
         </article>`;
