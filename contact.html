@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt – Kosmologické novinky</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card: #151b2d;
+      --text: #e8eef7;
+      --accent: #6ea8fe;
+      --muted: #9aa8c7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      line-height: 1.55;
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      padding: 1.8rem 1rem 1.5rem;
+      text-align: center;
+      border-bottom: 1px solid #1e293b;
+    }
+    .logo-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+    .logo-wrapper img {
+      height: 80px;
+      width: 80px;
+      display: block;
+      border-radius: 12px;
+    }
+    .logo-text h1 {
+      margin: 0;
+      font-size: 1.7rem;
+      font-weight: 600;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0.35rem 0 1rem;
+    }
+    nav { margin: 0.6rem 0 0; }
+    nav a {
+      color: var(--accent);
+      margin: 0 0.7rem;
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+    nav a:hover { text-decoration: underline; }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem 3rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 1.4rem 1.5rem;
+    }
+    .card h2 {
+      margin: 0 0 0.4rem;
+      font-size: 1.25rem;
+    }
+    .intro {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0 0 1.2rem;
+    }
+    label {
+      display: block;
+      font-size: 0.9rem;
+      margin: 0.85rem 0 0.35rem;
+    }
+    .req { color: var(--accent); }
+    input[type="email"],
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 0.6rem 0.8rem;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      background: #0b0f19;
+      color: var(--text);
+      font-size: 0.95rem;
+      font-family: inherit;
+    }
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    textarea { min-height: 160px; resize: vertical; }
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.8rem;
+    }
+    button[type="submit"] {
+      margin-top: 1.15rem;
+      padding: 0.65rem 1.3rem;
+      background: var(--accent);
+      color: #0b0f19;
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+    }
+    button[type="submit"]:hover { filter: brightness(1.12); }
+    .note {
+      margin: 0.9rem 0 0;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .ok {
+      display: none;
+      background: var(--card);
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 1.4rem 1.5rem;
+    }
+    .ok h2 { margin: 0 0 0.5rem; }
+    .honey { position: absolute; left: -9999px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    @media (max-width: 520px) {
+      .logo-wrapper { flex-direction: column; gap: 0.45rem; }
+      .logo-wrapper img { height: 64px; width: 64px; }
+      .row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-wrapper">
+      <img src="assets/logo-icon-square.png" alt="Kosmologické novinky" width="80" height="80">
+      <div class="logo-text"><h1>Kontakt</h1></div>
+    </div>
+    <p class="subtitle">Napište nám k projektu Kosmologické novinky</p>
+    <nav>
+      <a href="index.html">Aktuální</a>
+      <a href="archive.html">Archiv</a>
+      <a href="images.html">Obrázky</a>
+      <a href="contact.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="ok" id="ok">
+      <h2>Zpráva je odeslaná</h2>
+      <p>Děkujeme. Pokud je vše v pořádku, dorazí na kontaktní e-mail.</p>
+      <p><a href="index.html">← Zpět na aktuální novinky</a></p>
+    </div>
+
+    <form
+      class="card"
+      id="contact-form"
+      action="https://formsubmit.co/zbubak@seznam.cz"
+      method="POST"
+    >
+      <h2>Kontaktní formulář</h2>
+      <p class="intro">Pole s hvězdičkou jsou povinná. Odpověď půjde na zadanou e-mailovou adresu.</p>
+
+      <input type="hidden" name="_subject" id="mail-subject" value="Kontaktní formulář Kosmologické novinky">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" id="mail-next" value="">
+      <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+
+      <label for="email">E-mail <span class="req">*</span></label>
+      <input type="email" id="email" name="email" required autocomplete="email" placeholder="tvuj@email.cz">
+
+      <input type="hidden" name="_replyto" id="replyto" value="">
+
+      <div class="row">
+        <div>
+          <label for="jmeno">Jméno</label>
+          <input type="text" id="jmeno" name="jmeno" autocomplete="given-name">
+        </div>
+        <div>
+          <label for="prijmeni">Příjmení</label>
+          <input type="text" id="prijmeni" name="prijmeni" autocomplete="family-name">
+        </div>
+      </div>
+
+      <label for="zprava">Zpráva</label>
+      <textarea id="zprava" name="zprava" placeholder="Napište, s čím můžeme pomoct…"></textarea>
+
+      <button type="submit">Odeslat</button>
+      <p class="note">Odesláním souhlasíte se zpracováním údajů jen kvůli odpovědi na tuto zprávu.</p>
+    </form>
+  </main>
+
+  <footer>Kosmologické novinky · Kontaktní formulář</footer>
+
+  <script>
+    const form = document.getElementById('contact-form');
+    const ok = document.getElementById('ok');
+
+    if (new URLSearchParams(location.search).get('odeslano') === '1') {
+      form.style.display = 'none';
+      ok.style.display = 'block';
+    }
+
+    document.getElementById('mail-next').value =
+      location.origin + location.pathname.replace(/[^/]+$/, 'contact.html') + '?odeslano=1';
+
+    form.addEventListener('submit', () => {
+      const email = document.getElementById('email').value.trim();
+      document.getElementById('replyto').value = email;
+      const when = new Date().toLocaleString('cs-CZ', { timeZone: 'Europe/Prague' });
+      document.getElementById('mail-subject').value =
+        'Kontaktní formulář Kosmologické novinky - ' + when;
+    });
+  </script>
+</body>
+</html>
