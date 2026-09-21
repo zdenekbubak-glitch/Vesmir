@@ -1,5 +1,75 @@
 [
   {
+    "id": "2609.20976",
+    "title": "Jak gravitační vlny a galaxie odhalují vesmírné pravítko",
+    "summary": "Srážky černých děr fungují jako „standardní sirény“, které astronomům umožňují přímo měřit vzdálenosti ve vesmíru. Detektory gravitačních vln třetí generace zaznamenají během deseti let provozu přes sto tisíc velmi přesně lokalizovaných událostí. Tato data lze využít k měření takzvaných baryových akustických oscilací, což je jakési gigantické pravítko zanechané raným vesmírem. Nový výzkum ukazuje, že kombinace gravitačních signálů s klasickými přehlídkami galaxií odhalí toto měřítko s dvakrát vyšší citlivostí a podstatně lepší přesností než samotné gravitační vlny. Proč je to zajímavé: Tato metoda propojuje gravitační a optickou astronomii, což umožní nezávisle ověřit rychlost rozpínání vesmíru a povahu temné energie.",
+    "url": "https://arxiv.org/abs/2609.20976",
+    "source": "arXiv",
+    "original_title": "Comparing the Detectability of the Baryon Acoustic Oscillation through Gravitational-Wave Autocorrelation and Cross-Correlation with Galaxies",
+    "published": "2026-09-21T04:00:00+00:00",
+    "inserted_at": "2026-09-21T07:07:54.817703+00:00"
+  },
+  {
+    "id": "2609.21479",
+    "title": "Temná hmota pod drobnohledem: Co prozradí radiový 21cm signál?",
+    "summary": "Pozorování vodíkového signálu o vlnové délce 21 cm z období úsvitu vesmíru umožňuje zkoumat energii, kterou do okolního prostředí uvolňuje anihilace temné hmoty. Jelikož míra této anihilace závisí na druhé mocnině hustoty temné hmoty, hrají v tomto procesu klíčovou roli drobné struktury – tzv. podhalos. Vědci ve své práci vylepšili simulační nástroje o tyto nerovnoměrné efekty a ukázali, že chystaná pozorování radioteleskopem HERA mohou poskytnout dosud nejpřísnější limity pro hmotnost částic temné hmoty. Pro fotonový kanál překonávají dosavadní omezení z trpasličí galaxie Leo T v oblasti hmotností pod 3 keV a pro elektron-pozitronový kanál stanovují nejsilnější limity v rozmezí 0,1 až 1 GeV. Proč je to zajímavé: Výzkum ukazuje, že 21cm kosmologický signál v kombinaci s přesnými modely vesmírných struktur představuje extrémně citlivý nástroj pro odhalení podstaty neviditelné hmoty vesmíru.",
+    "url": "https://arxiv.org/abs/2609.21479",
+    "source": "arXiv",
+    "original_title": "21-cm Constraints on S-wave Dark Matter Annihilation with Subhalo-enhanced Effects",
+    "published": "2026-09-21T04:00:00+00:00",
+    "inserted_at": "2026-09-21T07:07:54.817703+00:00"
+  },
+  {
+    "id": "2609.21578",
+    "title": "Oscilony a raný vesmír: Simulace opomíjejí klíčové gravitační výkyvy",
+    "summary": "Po skončení kosmické inflace prošel vesmír fází předehřívání, během níž se energie inflatonového pole měnila na hmotu a vznikaly husté struktury zvané oscilony. Dosavadní počítačové simulace tento proces počítají na zjednodušeném, hladce se rozpínajícím pozadí a zanedbávají lokální gravitační výkyvy. Nová studie však ukazuje, že podle obecné relativity tyto gravitační poruchy po skončení inflace prudce zesílí a vyrovnají se nehomogenitám samotného pole. Běžné simulace proto vynechávají zásadní fyzikální efekty, jako je lokální zakřivení či gravitační střih. Proč je to zajímavé: Výzkum odhaluje, že dosavadní představy o zrodu hmoty v raném vesmíru stojí na neúplných modelech, které budou muset vědci od základu přepracovat s ohledem na plnou Einsteinovu gravitaci.",
+    "url": "https://arxiv.org/abs/2609.21578",
+    "source": "arXiv",
+    "original_title": "A note on oscillons: non-negligible metric fluctuations during preheating",
+    "published": "2026-09-21T04:00:00+00:00",
+    "inserted_at": "2026-09-21T07:07:54.817703+00:00"
+  },
+  {
+    "id": "2609.21699",
+    "title": "Gravitační čočky a AI: Jak přesně měřit vesmír i s chybami v datech",
+    "summary": "Nadcházející přehlídka oblohy LSST objeví kolem sta tisíc silných gravitačních čoček. Problémem však je, že mezi těmito snímky bude i obrovské množství falešných poplachů – objektů, které se jako čočky jen tváří. Astronomové proto vyvinuli nový formalismus COSMIC-BEAMS, který využívá neuronové sítě k přesnému určení Einsteinova poloměru s odchylkou do čtyř procent. Tento algoritmus dokáže i z „nečistého“ vzorku dat spolehlivě odvodit klíčové kosmologické parametry popisující temnou hmotu a temnou energii. Proč je to zajímavé: Metoda umožňuje efektivně měřit vlastnosti celého vesmíru z obřích přehlídek oblohy bez nutnosti zdlouhavého a nákladného spektroskopického ověřování každého jednotlivého objektu.",
+    "url": "https://arxiv.org/abs/2609.21699",
+    "source": "arXiv",
+    "original_title": "Lens Modeling and Cosmological Inference from an Impure Sample of Galaxy-Galaxy Strong Lenses",
+    "published": "2026-09-21T04:00:00+00:00",
+    "inserted_at": "2026-09-21T07:07:54.817703+00:00"
+  },
+  {
+    "id": "2609.21784",
+    "title": "Rekordní simulace zpochybňuje staré modely mezigalaktického plynu",
+    "summary": "Astrofyzici využili vysoce výkonný kód Kratos k dosud nejdetailnější mřížkové simulaci teplého a horkého mezigalaktického prostředí (WHIM). Výsledky ukazují, že v této fázi o teplotách 100 tisíc až 10 milionů kelvínů se dnes nachází přibližně 23 % běžné hmoty vesmíru. To je výrazně méně než 40 až 50 %, které ukazovaly starší simulace. Díky extrémnímu prostorovému rozlišení dokázaly nové výpočty zachytit stlačování plynu do vyšších hustot. V nich dochází k intenzivnějšímu radiačnímu chlazení, což plyn efektivně odvádí z teplotního rozsahu WHIM do chladnějších stavů. Zbývající horký plyn přetrvává hlavně v mezigalaktických vláknech a v blízkosti galaktických hal. Proč je to zajímavé: Výzkum odhaluje, že k přesnému mapování chybějící hmoty vesmíru nestačí pouze větší simulovaný objem, ale především schopnost zachytit fyzikální děje na malých měřítkách.",
+    "url": "https://arxiv.org/abs/2609.21784",
+    "source": "arXiv",
+    "original_title": "High Resolution Grid-based Simulations of the Warm-Hot Intergalactic Medium",
+    "published": "2026-09-21T04:00:00+00:00",
+    "inserted_at": "2026-09-21T07:07:54.817703+00:00"
+  },
+  {
+    "id": "2609.21861",
+    "title": "Nový dvousložkový model vesmírného plynu zpřesní mapování vesmíru",
+    "summary": "Astrofyzikální procesy, jako jsou výbuchy supernov nebo činnost obřích černých děr, vytlačují plyn z galaxií do jejich širokého okolí. Tato takzvaná baryonová zpětná vazba značně komplikuje přesné modelování rozložení hmoty ve vesmíru. Vědci proto navrhli nový model, který rozděluje plyn v galaktických halách na dvě složky: hustší vnitřní plyn a rozptýlenou vnější obálku. Vnitřní plyn pozorují v rentgenovém spektru (např. pomocí teleskopu eROSITA), zatímco vnější plyn zachycují přes kinematický Sunjajev-Zeldovičův jev. Spojením obou datových zdrojů prokázali vysokou přesnost a přizpůsobivost nového modelu. Proč je to zajímavé: Lepší pochopení rozložení plynu umožní odstranit hlavní nejistoty v kosmologických měřeních a přesněji zkoumat podstatu temné hmoty a temné energie.",
+    "url": "https://arxiv.org/abs/2609.21861",
+    "source": "arXiv",
+    "original_title": "A two-component profile of baryonic feedback: hydrostatic and diffuse gas",
+    "published": "2026-09-21T04:00:00+00:00",
+    "inserted_at": "2026-09-21T07:07:54.817703+00:00"
+  },
+  {
+    "id": "2609.21912",
+    "title": "Platí Einsteinova gravitace? Napoví vývoj vesmírných struktur",
+    "summary": "Zatímco samotné rozpínání vesmíru nedokáže rozlišit mezi Einsteinovou obecnou relativitou a alternativními teoriemi gravitace, klíčem může být způsob, jakým se v čase shlukuje hmota a rostou velké vesmírné struktury. Vědci podrobili testu tři známé modely modifikované gravitace pomocí aktuálních dat o rychlosti růstu struktur a distribuci hmoty. Výsledky ukázaly, že dnešní data vyhovují všem modelům srovnatelně a statistické ukazatele zatím nedokážou určit vítěze. Výzkumníci proto rekonstruovali efektivní gravitační sílu v průběhu historie vesmíru, což nabízí nový způsob, jak odhalit odchylky od klasické teorie. Proč je to zajímavé: Ukazuje se, že k rozluštění záhady temné energie a gravitace budeme potřebovat přesnější sledování jemných změn gravitační síly napříč kosmickým časem.",
+    "url": "https://arxiv.org/abs/2609.21912",
+    "source": "arXiv",
+    "original_title": "Modified Gravity from growth data: goodness-of-fit and gravitational coupling",
+    "published": "2026-09-21T04:00:00+00:00",
+    "inserted_at": "2026-09-21T07:07:54.817703+00:00"
+  },
+  {
     "id": "2609.20619v1",
     "title": "Nový pohled na gravitaci: Geometrie časoprostoru vzniká až z dynamiky",
     "summary": "Klasická Einsteinova teorie předpokládá pevně danou geometrii časoprostoru. Nový teoretický model nazvaný IWIST však přichází s elegantní myšlenkou: tvar a vlastnosti časoprostoru nejsou určeny předem, ale vznikají dynamicky přímo z fyzikálních rovnic. Vědci využili takzvanou Weylovu geometrii, která je odolná vůči změnám měřítka. Ukázali, že při přepočtu do klasického Einsteinova popisu se čistě geometrická vlastnost prostoru promění v nový fyzikální stupeň volnosti – pole interpretovatelné jako nová hmota či síla. Model navíc popisuje způsob, jakým se tato symetrie narušuje, což vytváří širší teorii gravitace. Proč je to zajímavé: Výzkum ukazuje, že fyzikální pole a částice mohou vznikat přímo ze samotné geometrie vesmíru, což otevírá nové možnosti pro vysvětlení temné hmoty.",
