@@ -151,8 +151,29 @@ Požadavky:
             if attempt < 2:
                 print("Krátký výpadek – čekám 55 s a zkusím tentýž článek znovu…")
                 time.sleep(55)
-    print(f"Překlad se nepodařil, položku vynechávám: {title[:70]}")
+    print(f"Překlad se nepodařil, uložím anglicky: {title[:70]}")
     return None
+
+
+def english_fallback(item: dict, now: str) -> dict:
+    """Článek bez českého překladu – originál + zkrácený abstrakt."""
+    abstract = re.sub(r"\s+", " ", (item.get("abstract") or "")).strip()
+    if len(abstract) > 700:
+        abstract = abstract[:700].rsplit(" ", 1)[0] + "…"
+    if not abstract:
+        abstract = "English abstract was not available."
+    return {
+        "id": item["id"],
+        "title": item["original_title"],
+        "summary": abstract,
+        "url": item["url"],
+        "source": item["source"],
+        "original_title": item["original_title"],
+        "published": item["published"],
+        "inserted_at": now,
+        "lang": "en",
+        "needs_translation": True,
+    }
 
 
 def fetch_arxiv(existing_ids: set) -> list:
@@ -350,7 +371,13 @@ def main():
     now = datetime.now(timezone.utc).isoformat()
 
     new_posts = []
+    skip_translate = False
     for item in unique:
+        if skip_translate:
+            print(f"Ukládám anglicky (kvóta): {item['original_title'][:60]}…")
+            new_posts.append(english_fallback(item, now))
+            continue
+
         print(f"Sumarizuji: {item['original_title'][:60]}…")
         try:
             summary = summarize_czech(
@@ -360,9 +387,12 @@ def main():
                 item["url"],
             )
         except DailyQuotaExhausted:
-            print("Denní kvóta Gemini je vyčerpaná – další články dnes nepřekládám.")
-            break
+            print("Denní kvóta Gemini je vyčerpaná – zbytek uložím anglicky.")
+            new_posts.append(english_fallback(item, now))
+            skip_translate = True
+            continue
         if not summary:
+            new_posts.append(english_fallback(item, now))
             continue
         post = {
             "id": item["id"],
@@ -373,12 +403,14 @@ def main():
             "original_title": item["original_title"],
             "published": item["published"],
             "inserted_at": now,
+            "lang": "cs",
+            "needs_translation": False,
         }
         new_posts.append(post)
         time.sleep(1.5)
 
     if not new_posts:
-        print("Žádný příspěvek se nepodařilo přeložit. Historie beze změny.")
+        print("Žádné nové položky k uložení.")
         return
 
     history = new_posts + history
