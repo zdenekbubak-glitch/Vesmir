@@ -2,7 +2,7 @@ name: Denní kosmologické novinky
 
 on:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '20 9 * * *'
       timezone: 'Europe/Prague'
   workflow_dispatch:
 
