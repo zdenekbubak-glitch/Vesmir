@@ -1,5 +1,77 @@
 [
   {
+    "id": "2609.26594v1",
+    "title": "Umělá inteligence zpřesňuje měření vzdáleností v hlubokém vesmíru",
+    "summary": "Nové kosmologické přehlídky vesmíru vyžadují extrémně přesné určení vzdáleností miliard galaxií pomocí jejich fotometrického rudého posuvu. Dosavadní metody však pro nadcházející projekty nestačí. Vědci proto navrhli čistě datový přístup využívající generativní modely umělé inteligence. Tento model dokáže z šumem zatížených pozorování rekonstruovat reálnou podobu světelných spekter galaxií bez použití předem daných fyzikálních šablon. Při testování dosáhl přesnosti, která s rezervou splňuje přísné požadavky pro nadcházející mapování vesmíru. Proč je to zajímavé: Výzkum ukazuje, že pokročilá umělá inteligence dokáže sama odfiltrovat šum z astronomických dat a zásadně zpřesnit naše poznání temné energie.",
+    "url": "http://arxiv.org/abs/2609.26594v1",
+    "source": "arXiv",
+    "original_title": "Data-driven Galaxy Population Prior for Photometric Redshifts",
+    "published": "2026-09-22T15:35:16+00:00",
+    "inserted_at": "2026-09-23T08:21:39.253839+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.26575v1",
+    "title": "Kvantový pohled na černé díry: Nová geometrie a konec vypařování",
+    "summary": "Fyzici předložili nový způsob kvantování Schwarzschildovy geometrie černých děr s využitím radiálních souřadnic. Tento přístup funguje hladce uvnitř i vně horizontu událostí a popisuje obě oblasti v rámci jediné teorie. Pomocí takzvaných semiklasických stavů autoři ukazují, jak kvantové efekty mění samotnou geometrii časoprostoru. Výsledky naznačují posun polohy horizontu, zvýšení povrchové gravitace a logaritmické korekce Bekensteinovy-Hawkingovy entropie. Důležitým závěrem je možnost existence stavu s minimální energií, který představuje stabilní kvantový pozůstatek černé díry s konečným poloměrem. Proč je to zajímavé: Tento přístup naznačuje, že černé díry se nevypaří zcela, což pomáhá řešit letitý paradox ztráty informací.",
+    "url": "http://arxiv.org/abs/2609.26575v1",
+    "source": "arXiv",
+    "original_title": "Radial quantization of the Schwarzschild geometry: relational observables, evaporation, and remnant state",
+    "published": "2026-09-22T15:24:55+00:00",
+    "inserted_at": "2026-09-23T08:21:39.253839+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.26571v1",
+    "title": "Jak oživit nehybná pole: Nový pohled na kalibrační teorie v teorii strun",
+    "summary": "Teoretičtí fyzici zkoumají matematické nástroje, které pomáhají propojit kvantovou mechaniku s gravitací v rámci teorie strun. Tato práce se zaměřuje na takzvanou indukovanou kalibrační teorii v D1-D5 systému. V tomto prostředí se původně nehybná vektorová pole „oživují“ díky kvantovému vlivu hmotových částic. Autoři předkládají matematicky konzistentní BRST kvantování této teorie a odvozují příslušné propagátory. Dokazují, že fyzikální veličiny nezávisí na volbě kalibrace a celkový aparát dává stabilní výsledky. Tím otevírají cestu k přesným výpočtům v teorii pole. Proč je to zajímavé: Tento postup poskytuje konkrétní matematický nástroj pro zkoumání mikroskopických stavů černých děr a samotné kvantové struktury časoprostoru.",
+    "url": "http://arxiv.org/abs/2609.26571v1",
+    "source": "arXiv",
+    "original_title": "BRST quantization of the induced gauge theory for the Higgs-branch CFT${}_2$",
+    "published": "2026-09-22T15:21:25+00:00",
+    "inserted_at": "2026-09-23T08:21:39.253839+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.26570v1",
+    "title": "Model temné hmoty vysvětluje anomálii v centru Galaxie i v detektoru LZ",
+    "summary": "Astrofyzici navrhli elegantní model temné hmoty, který dokáže jedním tahem vysvětlit dvě odlišná a dlouho diskutovaná pozorování. Model předpokládá existenci částic o hmotnosti 20 až 100 gigaelektronvoltů, které existují ve dvou těsně příbuzných stavech. Anihilace těchto částic přirozeně vytváří přebytek gama záření v centru naší Galaxie, který astronomové pozorují již řadu let. Těžší ze stavů částice navíc v pozemním detektoru uvolňuje energii při exotermickém rozptylu na jádrech xenonu, což přesně odpovídá nedávnému nečekanému signálu v experimentu LZ. Proč je to zajímavé: Teorie dokáže jediným fyzikálním mechanismem elegantně propojit neobvyklé gama záření z hlubokého vesmíru s anomálií v podzemním detektoru na Zemi.",
+    "url": "http://arxiv.org/abs/2609.26570v1",
+    "source": "arXiv",
+    "original_title": "A Simple Dark Matter Model to Explain the LZ Event and Galactic Center Excess",
+    "published": "2026-09-22T15:19:53+00:00",
+    "inserted_at": "2026-09-23T08:21:39.253839+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/09/260922005649.htm",
+    "title": "Kvantové černé díry na LHC? Fyzici vyloučili další úkryt",
+    "summary": "Fyzici zkoumající data z Velkého hadronového urychlovače nenašli žádné důkazy o vzniku mikroskopických kvantových černých děr. Tento výsledek však zásadně zužuje oblasti, kde by se tato exotická fyzika mohla ještě skrývat. Hypotetické černé díry by mohly vznikat při srážkách částic v případě, že existují dodatečné prostorové rozměry. Ty by totiž na extrémně malých vzdálenostech výrazně zesilovaly gravitaci. Objev takového jevu by nabídl klíčová vodítka k vytvoření teorie kvantové gravitace, která by sjednotila mikrosvět s Einsteinovou relativitou. I nulové detekce jsou tedy pro vědu nesmírně cenné. Proč je to zajímavé: Hledání kvantových černých děr nám umožňuje testovat strukturu časoprostoru a ověřovat, zda náš vesmír neobsahuje skryté rozměry.",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260922005649.htm",
+    "source": "RSS",
+    "original_title": "The LHC just ruled out another hiding place for quantum black holes",
+    "published": "2026-09-23T03:32:54+00:00",
+    "inserted_at": "2026-09-23T08:21:39.253839+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.26566v1",
+    "title": "Regular Cosmologies: Three Distinct Routes",
+    "summary": "Regular black holes avoid the central singularity by replacing it with a de Sitter core. We ask what cosmology follows if the same idea is brought to the early universe. Regular metrics define a position-dependent cosmological term, $Λ_{\\rm eff}(r)=8πG ρ_{\\rm MS}(r)$, and there is no unique way to carry it over to the expanding universe. We follow three different prescriptions: a Newtonian one following McCrea and Milne, a running vacuum evaluated at Hubble radius and a quasi-local one based on Misner-Sharp mass. We apply each of them to six regular black hole metrics and explore their consequences. In the Newtonian case the Friedmann equations are solved in closed form for the Hayward…",
+    "url": "http://arxiv.org/abs/2609.26566v1",
+    "source": "arXiv",
+    "original_title": "Regular Cosmologies: Three Distinct Routes",
+    "published": "2026-09-22T15:17:51+00:00",
+    "inserted_at": "2026-09-23T08:21:39.253839+00:00",
+    "lang": "en",
+    "needs_translation": true
+  },
+  {
     "id": "2609.26794v1",
     "title": "The First Blind Survey of Intervening NaI Absorbers: Incidence and Cosmic Evolution with DESI",
     "summary": "We present the first blind statistical survey of intervening NaI absorbers over the last $\\simeq3$~Gyr using quasar spectra from the Dark Energy Spectroscopic Instrument Data Release~1. We identify 3636 NaI D doublets at $0.01\\lesssim z_{\\rm abs}\\lesssim0.27$ along 214,035 quasar sightlines. We quantify the survey selection function through end-to-end injection--recovery tests and estimate the residual contamination from visual inspection. The completeness reaches 50% at a rest-equivalent width of the NaI $\\lambda5891$ line, $W_{5891}\\simeq0.95$ Angstrom, and the catalog-weighted purity is $\\simeq77\\%$. For the fiducial sample with $0.95<W_{5891}<3.5$ Angstrom, we measure the…",
