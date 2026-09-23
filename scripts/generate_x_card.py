@@ -59,11 +59,12 @@ def pick_item(items):
     if not items:
         return None
     today = datetime.now().date().isoformat()
-    for item in items:
-        inserted = (item.get("inserted_at") or "")[:10]
-        if inserted == today:
+    today_items = [i for i in items if (i.get("inserted_at") or "")[:10] == today]
+    pool = today_items or items
+    for item in pool:
+        if item.get("lang") != "en" and not item.get("needs_translation"):
             return item
-    return items[0]
+    return pool[0]
 
 
 def hook_from_summary(summary, max_len=220):
