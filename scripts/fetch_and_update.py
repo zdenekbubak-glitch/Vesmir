@@ -413,6 +413,7 @@ def main():
         print("Žádné nové položky k uložení.")
         return
 
+    new_posts.sort(key=lambda p: 0 if p.get("lang") == "cs" else 1)  
     history = new_posts + history
     history = history[:500]
     save_history(history)
