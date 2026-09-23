@@ -19,14 +19,15 @@ if str(ROOT / "scripts") not in sys.path:
 
 from fetch_and_update import (  # noqa: E402
     DATA_FILE,
-    GEMINI_MODEL,
+    DailyQuotaExhausted,
     looks_czech,
-    save_history,
     summarize_czech,
 )
 
 
 def needs_repair(item: dict) -> bool:
+    if item.get("lang") == "en" or item.get("needs_translation"):
+        return True
     title = item.get("title") or ""
     summary = item.get("summary") or ""
     original = item.get("original_title") or ""
@@ -49,7 +50,7 @@ def fetch_abstract(item: dict) -> str:
             print(f"  arXiv abstrakt se nepovedl ({paper_id}): {e}")
     if len(summary) >= 80:
         return summary
-    return item.get("original_title") or title_or_empty(item)
+    return title_or_empty(item)
 
 
 def title_or_empty(item: dict) -> str:
@@ -57,15 +58,14 @@ def title_or_empty(item: dict) -> str:
 
 
 def main():
-    if not DATA_FILE.exists():
-        # běh z kořene repo i z vesmir-update
+    if DATA_FILE.exists():
+        data_file = DATA_FILE
+    else:
         alt = Path("data/news.json")
         if alt.exists():
             data_file = alt
         else:
             raise SystemExit(f"Nenalezen {DATA_FILE}")
-    else:
-        data_file = DATA_FILE
 
     items = json.loads(data_file.read_text(encoding="utf-8"))
     targets = [it for it in items if needs_repair(it)]
@@ -87,12 +87,19 @@ def main():
         orig = title_or_empty(item)
         print(f"Opravuji {item.get('id')}: {orig[:70]}")
         abstract = fetch_abstract(item)
-        result = summarize_czech(client, orig, abstract, item.get("url") or "")
+        try:
+            result = summarize_czech(client, orig, abstract, item.get("url") or "")
+        except DailyQuotaExhausted:
+            print("Denní kvóta Gemini je vyčerpaná – končím, už přeložené uložím.")
+            skipped += 1
+            break
         if not result:
             skipped += 1
             continue
         item["title"] = result["title_cs"]
         item["summary"] = result["summary_cs"]
+        item["lang"] = "cs"
+        item["needs_translation"] = False
         fixed += 1
         time.sleep(1.5)
 
