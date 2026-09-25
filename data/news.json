@@ -37,39 +37,39 @@
   },
   {
     "id": "2609.30255v1",
-    "title": "A Narrow Neutrino Window for the LZ Event",
-    "summary": "The LUX-ZEPLIN (LZ) experiment has reported an event consistent with a $248$ keV nuclear recoil. Explaining the absence of lower-energy recoil events typically calls for some form of upscattering that kinematically forbids such events. In this work, we present a framework in which the LZ observation has a neutrino origin, with atmospheric neutrinos providing the dominant flux in the required energy range. A scenario in which atmospheric neutrinos upscatter to a heavier neutral state would also produce a large number of neutral-current events in neutrino experiments. In particular, scattering on lighter nuclear targets results in much larger nuclear recoil energies compared to xenon, yet no…",
+    "title": "Záhadný signál v detektoru LZ: Mohou za něj temná hmota a těžká neutrina?",
+    "summary": "Detektor temné hmoty LUX-ZEPLIN (LZ) zachytil neobvyklý odraz jader xenonu s energií 248 keV. Vysvětlit tento signál bez rozporu s ostatními experimenty představuje pro fyziky oříšek. Nová studie navrhuje elegantní dvoukrokový proces: atmosférová neutrina se díky rezonanci s pozadím temné hmoty nejprve promění na nový stav částice N1. Ta následně v LZ při srážce s xenonem přejde na ještě těžší částici N2. Kinematika dovoluje tuto reakci pouze na těžkých jádrech xenonu, zatímco v detektorech s lehčími prvky ke srážkám nedochází, což vysvětluje chybějící signály jinde. Proč je to zajímavé: Model nabízí řešení konkrétní záhady a zároveň propojuje temnou hmotu s novou, dosud neobjevenou přírodní sílou v částicovém světě.",
     "url": "http://arxiv.org/abs/2609.30255v1",
     "source": "arXiv",
     "original_title": "A Narrow Neutrino Window for the LZ Event",
     "published": "2026-09-24T17:59:02+00:00",
     "inserted_at": "2026-09-25T07:29:07.378947+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.30251v1",
-    "title": "Statistics of large-scale structure from the transition probability of Lagrangian trajectories",
-    "summary": "We describe a probabilistic approach to gravitational clustering. Working purely in configuration space, we show that the two-point function can be formulated in terms of a transition probability describing the likely final position of a particle given its initial position. The transition probability is initially sharply peaked and then over time broadens out in a diffusion-like manner. The effect is more pronounced for widely-separated particles (e.g.\\ at the baryon acoustic scale), leading to an effective suppression of the two-point function in what is normally referred to as infrared resummation.",
+    "title": "Pravděpodobnost v kosmologii: Jak gravitace rozmývá vesmírnou síť",
+    "summary": "Astrofyzici představili nový teoretický přístup k popisu toho, jak gravitace utváří velkorozměrovou strukturu vesmíru. Místo složitého sledování přesných trajektorií jednotlivých částic využívají pravděpodobnost přechodu z jejich počátečních do konečných pozic. Tato pravděpodobnost se v čase rozšiřuje podobně jako při difuzi, což znamená, že poloha hmoty se postupně rozostřuje. Tento jev je zvláště silný u objektů od sebe daleko vzdálených, například na škále takzvaných baryonských akustických oscilací, kde přirozeně vysvětluje potlačení měřených signálů. Proč je to zajímavé: Tento intuitivní pravděpodobnostní model výrazně zjednodušuje náročné kosmologické výpočty a pomáhá přesněji interpretovat data z nejnovějších přehlídek galaxií.",
     "url": "http://arxiv.org/abs/2609.30251v1",
     "source": "arXiv",
     "original_title": "Statistics of large-scale structure from the transition probability of Lagrangian trajectories",
     "published": "2026-09-24T17:58:44+00:00",
     "inserted_at": "2026-09-25T07:29:07.378947+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.30206v1",
-    "title": "Topological black holes of Einsteinian cubic gravity and Born-Infeld-type electrodynamics",
-    "summary": "In this paper, we examine the new black holes of Einsteinian cubic gravity within the framework of Born-Infeld-type electrodynamics. Initially, we establish the differential equations of motion that characterize an innovative collection of charged black hole solutions in Einsteinian cubic theory. Next, we compute the thermodynamic quantities of these black holes for the case of vanishing bare cosmological constant. We consider this situation because the model is unitary only for the asymptotically flat solutions that allow horizons with spherical topology. We also present that the first law of thermodynamics is fulfilled for these objects. Finally, we examine how the nonlinearity of…",
+    "title": "Nové černé díry: Spojení kubické gravitace a nelineární elektrodynamiky",
+    "summary": "Teoretičtí fyzici prozkoumali vlastnosti nových nabitých černých děr v rámci Einsteinovy kubické gravitace a nelineární Bornovy-Infeldovy elektrodynamiky. Tento teoretický model zobecňuje obecnou teorii relativity přidáním kubických korekcí zakřivení prostoročasu a zároveň odstraňuje nekonečna v intenzitě elektrického pole. Autory vyvinuté rovnice umožnily spočítat klíčové termodynamické veličiny těchto objektů pro ploský prostoročas a potvrdily platnost prvního termodynamického zákona. Výzkumníci také detailně popsali, jak nelinearita elektrického pole, náboj a síla kubické vazby ovlivňují lokální tepelnou stabilitu černých děr v kanonickém i velkém kanonickém souboru. Proč je to zajímavé: Studium takových teoretických černých děr pomáhá odhalit, jak kvantové korekce gravitace mění chování časoprostoru v extremálních podmínkách.",
     "url": "http://arxiv.org/abs/2609.30206v1",
     "source": "arXiv",
     "original_title": "Topological black holes of Einsteinian cubic gravity and Born-Infeld-type electrodynamics",
     "published": "2026-09-24T17:41:22+00:00",
     "inserted_at": "2026-09-25T07:29:07.378947+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.30170v1",
