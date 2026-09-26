@@ -61,15 +61,15 @@
   },
   {
     "id": "2609.30021v1",
-    "title": "Stability and Formation of Solitonic Boson Stars",
-    "summary": "We extend a previous study of the radial stability of solitonic boson stars by nonlinearly evolving them under aspherical perturbations, and by studying their formation from the collapse of scalar clouds. We focus in particular on models previously identified as radially stable, despite having positive binding energy, which ordinarily suggests that dispersion of all scalar matter is energetically preferred. A mode analysis of our 3+1 evolutions produces no evidence for the presence of a non-radial instability in any radially stable model, including those with positive binding energy. However, we do find evidence that such models do not generically form via gravitational cooling. We also…",
+    "title": "Bosonové hvězdy pod lupou: Jsou stabilní a jak vlastně vznikají?",
+    "summary": "Vědci pomocí pokročilých 3D simulací zkoumali stabilitu a vznik solitonových bosonových hvězd – hypotetických objektů tvořených skalárními částicemi. Ukázalo se, že tyto hvězdy odolávají i nesymetrickým poruchám, a to včetně modelů s kladnou vazebnou energií, u nichž se dříve očekával rozpad. Výzkum však zároveň odhalil, že tyto konkrétní hvězdy nevznikají běžným gravitačním kolapsem skalárních mračen. Místo nich při kolapsu vznikají nová kompaktní tělesa, která dlouhodobě pulzují. Tyto oscilující objekty odpovídají novému typu řešení Einsteinových rovnic. Proč je to zajímavé: Výzkum ukazuje, že exotická hmota může tvořit neznámé pulzující objekty, jež by mohly zanechat detekovatelné stopy v gravitačních vlnách.",
     "url": "http://arxiv.org/abs/2609.30021v1",
     "source": "arXiv",
     "original_title": "Stability and Formation of Solitonic Boson Stars",
     "published": "2026-09-24T15:58:46+00:00",
     "inserted_at": "2026-09-26T07:27:13.935349+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.30240v1",
@@ -145,15 +145,15 @@
   },
   {
     "id": "2609.30170v1",
-    "title": "The third law of black hole thermodynamics and the mass-to-charge ratio of scalar fields",
-    "summary": "Kehle and Unger have recently shown that self-gravitating charged classical scalar fields can collapse to form extremal Reissner-Nordström (eRN) black holes in finite time, thus violating the third law of thermodynamics (TLT). Reall has subsequently proved that the formation of an eRN black hole in gravitational collapse is impossible if the mass-to-charge ratio of the field exceeds unity, $m/e\\geq1$. In the present compact paper we conjecture, using quantum considerations, that the Reall bound is {\\it not} sharp. In particular, we point out that the electric field of a charged system with charge $Q$ will spontaneously polarize the vacuum in the regime $(eQ/\\hbar)^2>(mQ/\\hbar)^2+1/4$,…",
+    "title": "Kvantové jevy zachraňují třetí zákon termodynamiky černých děr",
+    "summary": "Nedávné teoretické výpočty ukázaly, že kolaps nabitých skalárních polí může vytvořit takzvané extrémní černé díry v konečném čase. To přímo porušuje třetí zákon termodynamiky černých děr. Fyzik Harvey Reall proto klasicky odvodil hranici pro poměr hmotnosti a náboje, která by tomuto kolapsu zabránila. Nová studie však ukazuje, že tuto mez lze dále zpřísnit zahrnutím kvantových efektů. Silné elektrické pole v okolí vznikající černé díry totiž polarizuje vakuum a spontánně vytváří páry částic. Tyto vzniklé částice černou díru vybíjejí, čímž ji odklánějí od extrémního stavu a pomáhají udržet platnost termodynamických zákonů. Proč je to zajímavé: Výzkum elegantně ukazují, jak kvantové jevy ve silných polích chrání fundamentální fyzikální zákony vesmíru před jejich porušením na pomezí relativity a kvantové teorie.",
     "url": "http://arxiv.org/abs/2609.30170v1",
     "source": "arXiv",
     "original_title": "The third law of black hole thermodynamics and the mass-to-charge ratio of scalar fields",
     "published": "2026-09-24T17:22:36+00:00",
     "inserted_at": "2026-09-25T07:29:07.378947+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.28457v1",
@@ -205,27 +205,27 @@
   },
   {
     "id": "2609.28458v1",
-    "title": "Differentiable astrophysics at scale: solving and differentiating ODE ensembles on the GPU",
-    "summary": "Astronomers increasingly fit their models with gradient-based methods, such as Hamiltonian Monte Carlo, which need the derivatives of the model with respect to its parameters. In many analyses a prediction requires solving a small system of ordinary differential equations (ODEs) for thousands to millions of parameter sets, and this ensemble of integrations often sets the cost of the analysis. We introduce to the astronomical community GRADSOLVE, a JAX library that moves this computation to graphics processing units (GPUs): it integrates each member of the ensemble in its own GPU thread with its own step size and returns the derivatives with respect to the parameters in the same pass. We…",
+    "title": "Milion simulací vesmíru za sekundu: Grafické karty mění astrofyziku",
+    "summary": "Moderní astronomie vyžaduje simulování milionů teoretických scenářů – například pohybů hvězd v Galaxii, rozpínání vesmíru nebo splynutí černých děr. Nová knihovna GRADSOLVE přenáší tyto výpočty na grafické karty a využívá jejich obrovský paralelní výkon. Každý model počítá v samostatném vlákně a v jediném průchodu dokáže určit jak samotný vývoj systému, tak jeho matematické derivace. Při testech zvládla knihovna zpracovat milion simulací za necelou sekundu, čímž překonala stávající procesorové kódové základny až 1500krát. Proč je to zajímavé: Tento výpočetní skok převádí extrémně náročné statistické analýzy vesmíru z dnů na sekundy, což astronomům umožní rutinně testovat složité kosmologické modely.",
     "url": "http://arxiv.org/abs/2609.28458v1",
     "source": "arXiv",
     "original_title": "Differentiable astrophysics at scale: solving and differentiating ODE ensembles on the GPU",
     "published": "2026-09-23T17:52:39+00:00",
     "inserted_at": "2026-09-24T07:28:52.800162+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.28428v1",
-    "title": "Pulsar magnetospheres in dynamical Chern-Simons gravity: deathline conditions and polar-cap particle acceleration",
-    "summary": "The role of surface gravity in neutron stars (NSs) is considerable in the radiation mechanisms of the surrounding plasma magnetosphere near the star surface, as they are highly magnetized, compact gravitating objects with compactness $M/R \\simeq 0.2$. In this context, they serve as a celestial laboratory for testing gravity theories that dominate the stars' exteriors through plasma magnetospheric radiation. In this paper, we examine how dynamical Chern-Simons (dCS) gravity modifies pulsar electrodynamics in the slow-rotation, weak-coupling regime; the leading-order correction affects only the off-diagonal metric component $g_{tφ}$, while the diagonal components remain as in General…",
+    "title": "Modifikovaná gravitace mění pravidla pro pulsary a jejich záření",
+    "summary": "Neutronové hvězdy představují unikátní přírodní laboratoře pro testování teorií gravitace. Nový výzkum zkoumá pulsary v rámci takzvané dynamické Chern-Simonsovy gravitace, která modifikuje Einsteinovu obecnou relativitu. Autoři ukázali, že magnetické pole pulsaru zůstává nezměněné, ale elektrické pole a hustota náboje se liší. V důsledku toho elektrony v polárních oblastech dosahují vyšších energií na kratší vzdálenosti. Studie zároveň vysvětluje kratší životnost některých pulsarů, protože hranice pro ukončení jejich záření se posouvá. Proč je to zajímavé: Pozorování záření z magnetosfér pulsarů nám umožňuje testovat alternativní teorie gravitace v tak extrémních podmínkách, jaké na Zemi nelze nasimulovat.",
     "url": "http://arxiv.org/abs/2609.28428v1",
     "source": "arXiv",
     "original_title": "Pulsar magnetospheres in dynamical Chern-Simons gravity: deathline conditions and polar-cap particle acceleration",
     "published": "2026-09-23T17:29:15+00:00",
     "inserted_at": "2026-09-24T07:28:52.800162+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.28394v1",
