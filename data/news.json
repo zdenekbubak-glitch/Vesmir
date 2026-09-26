@@ -1,5 +1,77 @@
 [
   {
+    "id": "2609.30118v1",
+    "title": "Průlet černých děr: Jak vypadá gravitační vlna v čase?",
+    "summary": "Fyzikové poprvé detailně vypočítali časový průběh gravitačních vln, které vznikají při blízkém průletu dvou černých děr s extrémně odlišnou hmotností. Zatímco předchozí studie se zaměřovaly především na frekvenční spektra, nový výzkum popisuje evoluci signálu přímo v čase. Výpočet dosahuje mimořádné teoretické přesnosti a úspěšně potvrzuje předchozí modely energetických ztrát při těchto vesmírných setkáních. Výsledky poslouží jako klíčové srovnávací měřítko pro budoucí výpočty a analýzy signálů. Proč je to zajímavé: Tento časový popis umožní přesněji interpretovat data z detektorů gravitačních vln a lépe pochopit chování silné gravitace při extrémních vesmírných setkáních.",
+    "url": "http://arxiv.org/abs/2609.30118v1",
+    "source": "arXiv",
+    "original_title": "Binary black hole scattering in the extreme-mass-ratio limit: time-domain waveform",
+    "published": "2026-09-24T16:55:26+00:00",
+    "inserted_at": "2026-09-26T07:27:13.935349+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.30108v1",
+    "title": "Světelné svazky jako nový nástroj pro testování kosmologie",
+    "summary": "Když světlo ze vzdálených zdrojů putuje vesmírem, svazky fotonů mění svou plochu v závislosti na rozpínání prostoročasu a přítomné hmotě. Tento jev popisuje takzvaný skalár optické expanze. Vědci v nové studii zavedli novou pozorovatelnou veličinu, která spojuje tento skalár s frekvencí světla. Propojením teoretických výpočtů s relativistickými simulacemi prozkoumali její vlastnosti v narušeném vesmíru. Ukázalo se, že tato veličina je mimořádně citlivá na vlastní pohyby vesmírných těles a relativistické gravitační potenciály. Nový teoretický aparát zakládá možnosti pro hlubší ověřování kosmologických pozorování. Proč je to zajímavé: Metoda umožňuje testovat limity standardního kosmologického modelu a odhalovat případné odchylky vedoucí k modifikovaným teoriím gravitace.",
+    "url": "http://arxiv.org/abs/2609.30108v1",
+    "source": "arXiv",
+    "original_title": "The Optical Expansion Scalar in Cosmological Perturbation Theory",
+    "published": "2026-09-24T16:50:08+00:00",
+    "inserted_at": "2026-09-26T07:27:13.935349+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.30095v1",
+    "title": "Kosmologický urychlovač v šumu: Jak náhodná pole mění signály z raného vesmíru",
+    "summary": "Kosmologický urychlovač využívá inflační fázi raného vesmíru k detekci velmi těžkých částic prostřednictvím otisků v reliktním záření. Tato studie zkoumá, jak tyto kvantové signály ovlivňuje přítomnost náhodných polí a bílého šumu. Autoři matematicky dokázali, že stochastické prostředí sice mění amplitudu a fázi pozorovaných signálů, ale ponechává nedotčenou oscilační frekvenci, která přímo odpovídá hmotnosti částic. Časový profil šumu navíc umožňuje potlačení nežádoucích šumových efektů pomocí destruktivní interference. Proč je to zajímavé: Práce dokazuje, že i přes přítomnost přirozeného šumu dokážeme z raného vesmíru spolehlivě přečíst hmotnosti nových částic na nejvyšších energiích.",
+    "url": "http://arxiv.org/abs/2609.30095v1",
+    "source": "arXiv",
+    "original_title": "Quenched Cosmological Collider Physics: Random fields & white noises",
+    "published": "2026-09-24T16:39:19+00:00",
+    "inserted_at": "2026-09-26T07:27:13.935349+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.30093v1",
+    "title": "Jak valení tvarů odhaluje skrytá tajemství gravitace",
+    "summary": "Slavný matematik Élie Cartan ukázal, že zakřivení časoprostoru lze popsat pomocí myšleného valení jednoho geometrického objektu po druhém bez proklouznutí a kroucení. Tento elegantní koncept tvoří základ pokročilých formulací Einsteinovy obecné relativity. Nová studie tento rámec rozšiřuje: pokud se objekt při valení zároveň kroutí nebo mění svůj tvar, přirozeně tím vzniká torze a takzvaná nemetričnost. Autorům se tak daří zasadit alternativní teorie gravitace, jako je teleparalelismus, do jednotného geometrického jazyka. Proč je to zajímavé: Ukazuje se, že gravitaci lze rovnocenně popsat nejen zakřivením časoprostoru, ale i jeho kroucením či pružnou deformací, což otevírá nové cesty k pochopení její fundamentální podstaty.",
+    "url": "http://arxiv.org/abs/2609.30093v1",
+    "source": "arXiv",
+    "original_title": "A Cartan-geometrical perspective on torsion and non-metricity",
+    "published": "2026-09-24T16:39:11+00:00",
+    "inserted_at": "2026-09-26T07:27:13.935349+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/09/260923035922.htm",
+    "title": "Masivní hvězdy vysvětlují nejzáhadnější galaxie z raného vesmíru",
+    "summary": "Pozorování Hubbleova vesmírného dalekohledu v trpasličích galaxiích s nízkým obsahem kovů přinášejí vysvětlení, proč raný vesmír vypadá tak neobvykle na snímcích z Teleskopu Jamese Webba. Astronomové zjistili, že hvězdný vítr u masivních hvězd v tomto prostředí výrazně slábne. Hvězdy si díky tomu udržují mnohem více své hmoty a jejich vývoj probíhá zcela nečekaným způsobem. Výzkumný tým rovněž odhalil značné rozdíly v obsahu železa, které představuje klíčový prvek pro sílu hvězdného větru i průběh výbuchů supernov. Tento objev zásadně mění naše chápaní vývoje prvních generací hvězd a jejich mateřských galaxií.\n\nProč je to zajímavé: Poznatky ukazují, že odlišná fyzika prvních masivních hvězd stojících na počátku vesmíru je klíčem k pochopení záhadných struktur, které dnes pozorujeme v nejvzdálenějším kosmickém prostoru.",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260923035922.htm",
+    "source": "RSS",
+    "original_title": "These massive stars could explain Webb’s strangest galaxies",
+    "published": "2026-09-24T10:42:50+00:00",
+    "inserted_at": "2026-09-26T07:27:13.935349+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.30021v1",
+    "title": "Stability and Formation of Solitonic Boson Stars",
+    "summary": "We extend a previous study of the radial stability of solitonic boson stars by nonlinearly evolving them under aspherical perturbations, and by studying their formation from the collapse of scalar clouds. We focus in particular on models previously identified as radially stable, despite having positive binding energy, which ordinarily suggests that dispersion of all scalar matter is energetically preferred. A mode analysis of our 3+1 evolutions produces no evidence for the presence of a non-radial instability in any radially stable model, including those with positive binding energy. However, we do find evidence that such models do not generically form via gravitational cooling. We also…",
+    "url": "http://arxiv.org/abs/2609.30021v1",
+    "source": "arXiv",
+    "original_title": "Stability and Formation of Solitonic Boson Stars",
+    "published": "2026-09-24T15:58:46+00:00",
+    "inserted_at": "2026-09-26T07:27:13.935349+00:00",
+    "lang": "en",
+    "needs_translation": true
+  },
+  {
     "id": "2609.30240v1",
     "title": "Tajemství vnitřku černých děr: Nová univerzální symetrie",
     "summary": "Spontánní skalárizace nabitých černých děr je proces, při němž se kolem černé díry i v jejím nitru formuje skalární pole. Nový výzkum odhalil novou třídu univerzálního chování v blízkosti centrální singularity. Ukazuje se, že toto dění podléhá dosud skryté škálovací symetrii na takzvaném Cauchyho horizontu. Tato symetrie působí jako fyzikální zesilovač, který i drobné skalární změny na povrchu černé díry výrazně zvětšuje směrem k jejímu středu. Vzniká tak autonomní systém, jehož vlastnosti nezávisejí na konkrétních teoretických detailech daného modelu. Výzkum poskytuje sjednocený pohled na vnější i vnitřní dynamiku černých děr a přináší přesné numerické předpovědi. Proč je to zajímavé: Výzkum ukazuje, že vnitřní struktura černých děr se řídí univerzálními principy, které propojují jejich povrch s hlubokou vnitřní singularitou.",
