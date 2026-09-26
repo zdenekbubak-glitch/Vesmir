@@ -65,7 +65,7 @@
         }
         gallery.innerHTML = items.map(item => `
           <figure class="figure" id="img-${escapeHtml(item.id)}">
-            <img src="${escapeHtml(item.image || item.thumb)}" alt="${escapeHtml(item.title)}" loading="lazy">
+            <img src="\( {escapeHtml(item.image || item.thumb)}" alt=" \){escapeHtml(item.title)}" loading="lazy" onerror="this.onerror=null;this.src='${escapeHtml(item.thumb || item.image)}';">
             <h2>${escapeHtml(item.title)}</h2>
             <div class="meta">${escapeHtml(item.source)} · ${escapeHtml(item.published || '')} · ${escapeHtml(item.credit || '')}</div>
             <p class="caption">${escapeHtml(item.caption)}</p>
