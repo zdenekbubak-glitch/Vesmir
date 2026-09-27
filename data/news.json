@@ -229,15 +229,15 @@
   },
   {
     "id": "2609.28394v1",
-    "title": "Simulating the emission source function in very peripheral relativistic heavy-ion collisions",
-    "summary": "We present a microscopic femtoscopic investigation of the space-time emission source in low-multiplicity (80--90\\% centrality) $\\text{Pb}-\\text{Pb}$ collisions at $\\sqrt{s_{NN}} = 5.02~\\text{TeV}$, using a hybrid transport framework coupling SMASH initial conditions, 3+1D viscous hydrodynamics (vHLLE), and a SMASH hadronic cascade afterburner. Access to the full space-time evolution of the produced particles allows for the direct reconstruction of emission source functions in both the Longitudinally Comoving System and the Pair Rest Frame. We study identical pairs of mesons ($ππ$, $KK$) and baryons ($pp$), as well as cross-species combinations, while explicitly isolating the contributions…",
+    "title": "Letmé srážky jader olova: Simulace ukazují, jak a kde vznikají nové částice",
+    "summary": "Vědci pomocí pokročilého hybridního modelu nasimulovali letmé srážky jader olova při vysokých energiích, k nimž dochází na urychlovači LHC. Tento postup umožnil podrobně zmapovat časoprostorový vývoj zdroje emise vznikajících mezonů a baryonů. Výsledky ukazují, že tradiční Gaussovské modely pro popis zdroje nestačí. Mnohem přesnější je kombinace kompaktního jádra a rozsáhlejšího chvostu, který tvoří rozpady nestabilních rezonancí. Rozměry tohoto jádra navíc vykazují skálování hmotnosti podobně jako při jednodušších srážkách samotných protonů. Proč je to zajímavé: Výzkum přemosťuje propast mezi složitými srážkami těžkých jader a jednoduššími protonovými srážkami, což pomáhá lépe pochopit chování mikroskopické hmoty v extrémních podmínkách raného vesmíru.",
     "url": "http://arxiv.org/abs/2609.28394v1",
     "source": "arXiv",
     "original_title": "Simulating the emission source function in very peripheral relativistic heavy-ion collisions",
     "published": "2026-09-23T17:02:32+00:00",
     "inserted_at": "2026-09-24T07:28:52.800162+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.26594v1",
@@ -349,27 +349,27 @@
   },
   {
     "id": "2609.26754v1",
-    "title": "To USR or not to USR: An effective description of two-field dynamics",
-    "summary": "Single-field models of inflection point inflation experience a phase of ultra-slow roll (USR), leading to amplified curvature perturbations. Recently, Lorenzoni et al. modified the scenario by adding a light spectator field, showing that it ruins USR by setting a floor for the first slow-roll parameter $ε$. Mixing with isocurvature perturbations still amplifies the curvature power spectrum. We offer an alternative point of view, arguing that the inflaton still undergoes effective USR. The spectator lifts the potential by a constant amount, and the inflaton perturbations follow single-field dynamics in the lifted inflection point potential, decoupling from the spectator perturbations. Mode…",
+    "title": "Být či nebýt v ultra-pomalém valení? Nový pohled na kosmickou inflaci",
+    "summary": "Během kosmické inflace, prudkého rozpínání raného vesmíru, mohlo docházet k takzvanému ultra-pomalému valení (USR). V této fázi vznikají výrazné hustotní odchylky, které mohly dát vzniknout například prvotním černým dírám. Nedávné studie naznačovaly, že přítomnost druhého, lehkého pole tuto fázi destruuje. Nový výzkum však ukazuje, že hlavní pole se stále chová efektivně v režimu USR. Druhé pole pouze posouvá potenciální energii a neovlivňuje klíčové vlastnosti poruch tak dramaticky, jak se předpokládalo. Složitý model dvou polí lze díky tomu zjednodušit na efektivní jednopolový popis. Proč je to zajímavé: Tento přístup výrazně zjednodušuje teoretické výpočty a usnadňuje testování modelů raného vesmíru vůči pozorovatelným jevům.",
     "url": "http://arxiv.org/abs/2609.26754v1",
     "source": "arXiv",
     "original_title": "To USR or not to USR: An effective description of two-field dynamics",
     "published": "2026-09-22T17:36:21+00:00",
     "inserted_at": "2026-09-23T07:28:56.852499+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.26724v1",
-    "title": "Quasinormal modes and quantum black hole interiors",
-    "summary": "Quasinormal modes (QNMs) of black hole perturbations in the large overtone limit, namely, asymptotic QNMs, are highly sensitive to a black hole's interior geometry. We probe the singularity structure of a class of exact (2+1)-dimensional quantum black hole solutions to semi-classical gravity by computing their asymptotic QNM spectra. We do this using methods of complex analysis in which the radial coordinate is analytically continued to the complex plane. The leading order QNM frequencies all fit the generic form $ω=(\\text{offset})+n(\\text{gap})$, for overtone number $n$, which we also confirm numerically. Under a general assumption about the global Stokes topology of the complexified…",
+    "title": "Kvantové rezonance odhalují skryté nitro černých děr",
+    "summary": "Černé díry při svém rozechvění vysílají specifické časoprostorové vlny, takzvané kvazinormální módy. Tyto rezonance v sobě nesou klíčové informace o tom, co se děje hluboko pod horizontem událostí, kde klasická Einsteinova obecná relativita naráží na své limity. Vědci v novém výzkumu využili pokročilé matematické metody a zkoumali vlastnosti kvantových černých děr. Zjistili, že z frekvence těchto vibrací lze přesně rekonstruovat strukturu samotné singularity i změny v geometrii časoprostoru. Studie navíc popisuje, jak kvantové efekty mění chování časoprostoru v blízkosti singularity a jak u nabitých černých děr vznikají charakteristické oscilace. Proč je to zajímavé: Výzkum nabízí způsob, jak pomocí časoprostorových vibrací nahlédnout za horizont událostí a testovat kvantovou gravitaci na dálku.",
     "url": "http://arxiv.org/abs/2609.26724v1",
     "source": "arXiv",
     "original_title": "Quasinormal modes and quantum black hole interiors",
     "published": "2026-09-22T17:11:43+00:00",
     "inserted_at": "2026-09-23T07:28:56.852499+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.26698v1",
@@ -385,15 +385,15 @@
   },
   {
     "id": "2609.26611v1",
-    "title": "Dark-matter relay for ultra-high-energy cosmic rays",
-    "summary": "Astrophysical sources of ultra-high-energy cosmic rays (UHECRs) remain unidentified, and no nearby cosmic accelerators are established even for the highest-energy events. In addition, puzzling correlations of a fraction of UHECR flux with distant blazars were found by HiRes and, recently, Telescope Array experiments. Here we propose that dark matter can provide a mechanism to effectively transfer UHECRs from distant sources: dark-matter particles are boosted by UHECRs near the source and pass their momentum to baryons close to the observer. The probability of this relay is not negligible because of the growth of dark-matter-baryon cross section with energy. We demonstrate that the effect is…",
+    "title": "Temná hmota jako vesmírná štafeta pro nejenergetičtější záření",
+    "summary": "Původ ultraenergetického kosmického záření zůstává záhadou. Pozorování ukazují nečekanou souvislost mezi těmito extrémními částicemi a velmi vzdálenými blazary, ačkoliv by záření z takových dálek k Zemi dorazit nemělo. Fyzici nyní přicházejí s novým vysvětlením: roli prostředníka může hrát temná hmota.\n\nPodle této hypotézy záření u vzdáleného zdroje nejprve předá energii částicím temné hmoty. Ty bez překážek proletí vesmírem a teprve v blízkosti Země předají impuls běžným částicím. Tento proces umožňuje růst pravděpodobnosti interakce s rostoucí energií, přičemž model nejlépe odpovídá temné hmotě o hmotnosti okolo 25 MeV.\n\nProč je to zajímavé: Hypotéza nejen řeší záhadu vzdálených zdrojů kosmického záření, ale zároveň nabízí nový způsob, jak ověřit existenci a vlastnosti samotné temné hmoty.",
     "url": "http://arxiv.org/abs/2609.26611v1",
     "source": "arXiv",
     "original_title": "Dark-matter relay for ultra-high-energy cosmic rays",
     "published": "2026-09-22T15:48:01+00:00",
     "inserted_at": "2026-09-23T07:28:56.852499+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.25003v1",
