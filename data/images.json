@@ -1,5 +1,29 @@
 [
   {
+    "id": "apod-2026-09-27",
+    "title": "Andromeda před Photoshopem",
+    "caption": "Jak ve skutečnosti vypadá galaxie v Andromedě? Tento snímek, složený z 223 pětiminutových expozic pořízených v roce 2019 z Portugalska, zachycuje nejbližšího velkého galaktického souseda Mléčné dráhy přes rušnou oblohu s typickými vadami, jako jsou stopy letadel, satelitů, kosmického záření a vadné pixely. Tyto nedokonalosti nebyly odstraněny ve Photoshopu, ale výrazně potlačeny pomocí specializovaných astronomických programů.",
+    "thumb": "https://apod.nasa.gov/apod/image/2609/M31Before_Scherer_960.jpg",
+    "image": "https://apod.nasa.gov/apod/image/2609/M31Before_Scherer_4298.jpg",
+    "source": "NASA APOD",
+    "url": "https://apod.nasa.gov/apod/ap260927.html",
+    "published": "2026-09-27",
+    "credit": "NASA / APOD",
+    "inserted_at": "2026-09-27T07:28:17.095117+00:00"
+  },
+  {
+    "id": "apod-2026-09-25",
+    "title": "Kulová hvězdokupa Omega Centauri",
+    "caption": "Kulová hvězdokupa Omega Centauri (NGC 5139) obsahuje v průměru 150 světelných let přibližně 10 milionů hvězd mnohem starších než Slunce. Ve vzdálenosti 15 000 světelných let jde o největší a nejjasnější z asi 200 známých kulových hvězdokup v halu naší Galaxie. Na rozdíl od běžných hvězdokup obsahuje několik různých hvězdných populací, takže se může jednat o pozůstatek jádra malé galaxie pohlcené Mléčnou dráhou.",
+    "thumb": "https://apod.nasa.gov/apod/image/2609/NGC5139CadenasParra1024.jpg",
+    "image": "https://apod.nasa.gov/apod/image/2609/NGC5139CadenasParra.jpg",
+    "source": "NASA APOD",
+    "url": "https://apod.nasa.gov/apod/ap260925.html",
+    "published": "2026-09-25",
+    "credit": "Javier O. Cadenas Parra",
+    "inserted_at": "2026-09-27T07:28:17.095117+00:00"
+  },
+  {
     "id": "apod-2026-09-26",
     "title": "Zrcadlený meteor a Mléčná dráha",
     "caption": "Dne 15. srpna proťal noční oblohu nad observatoří Roque de los Muchachos na ostrově La Palma tento jasný meteor z roje Perseid. V popředí úchvatné scény s centrem Mléčné dráhy a jejími temnými prachovými mračny se vyjímá 23metrové zrcadlo prototypu teleskopu LST-1. Tento dalekohled sítě Cherenkov Telescope Array Observatory je navržen k detekci extrémně krátkých světelných záblesků v atmosféře.",
