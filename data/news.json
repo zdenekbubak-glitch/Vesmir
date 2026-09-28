@@ -385,27 +385,27 @@
   },
   {
     "id": "2609.26566v1",
-    "title": "Regular Cosmologies: Three Distinct Routes",
-    "summary": "Regular black holes avoid the central singularity by replacing it with a de Sitter core. We ask what cosmology follows if the same idea is brought to the early universe. Regular metrics define a position-dependent cosmological term, $Λ_{\\rm eff}(r)=8πG ρ_{\\rm MS}(r)$, and there is no unique way to carry it over to the expanding universe. We follow three different prescriptions: a Newtonian one following McCrea and Milne, a running vacuum evaluated at Hubble radius and a quasi-local one based on Misner-Sharp mass. We apply each of them to six regular black hole metrics and explore their consequences. In the Newtonian case the Friedmann equations are solved in closed form for the Hayward…",
+    "title": "Vesmír bez singularit: Tři cesty k regulární kosmologii",
+    "summary": "Regulární černé díry řeší problém fyzikálních singularit tím, že své centrum nahrazují de Sitterovým jádrem. Co se však stane, pokud stejný princip aplikujeme na raný vesmír? Vědci prozkoumali tři různé teoretické přístupy k regulární kosmologii. Všechny tři modely popisují vesmír, který začíná inflační fází a postupně přechází v éru hmoty. Ukazuje se však, že tyto modely nedokážou vysvětlit nedávná pozorování projektu DESI, která naznačují existenci takzvané fantomové temné energie. Pro její vznik by totiž jádro muselo mít hustotní slupku, kterou regulární modely nemají. Výzkum navíc ukazuje, že jediná délková škála nemůže současně vysvětlit ranou inflaci i dnešní temnou energii. Proč je to zajímavé: Studium vesmíru bez singularit vymezuje limity teoretických modelů a přímo testuje jejich slučitelnost s nejnovějšími kosmologickými daty.",
     "url": "http://arxiv.org/abs/2609.26566v1",
     "source": "arXiv",
     "original_title": "Regular Cosmologies: Three Distinct Routes",
     "published": "2026-09-22T15:17:51+00:00",
     "inserted_at": "2026-09-23T08:21:39.253839+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.26794v1",
-    "title": "The First Blind Survey of Intervening NaI Absorbers: Incidence and Cosmic Evolution with DESI",
-    "summary": "We present the first blind statistical survey of intervening NaI absorbers over the last $\\simeq3$~Gyr using quasar spectra from the Dark Energy Spectroscopic Instrument Data Release~1. We identify 3636 NaI D doublets at $0.01\\lesssim z_{\\rm abs}\\lesssim0.27$ along 214,035 quasar sightlines. We quantify the survey selection function through end-to-end injection--recovery tests and estimate the residual contamination from visual inspection. The completeness reaches 50% at a rest-equivalent width of the NaI $\\lambda5891$ line, $W_{5891}\\simeq0.95$ Angstrom, and the catalog-weighted purity is $\\simeq77\\%$. For the fiducial sample with $0.95<W_{5891}<3.5$ Angstrom, we measure the…",
+    "title": "DESI mapuje kosmický sodík: Chladného plynu v galaxiích přibývá",
+    "summary": "Mezinárodní tým vědců využil data z přehlídky DESI a uskutečnil první slepý statistický průzkum absorbátorů neutrálního sodíku ve vesmíru za poslední tři miliardy let. Analýzou spektra více než 200 tisíc kvazarů astronomové objevili přes 3 600 těchto struktur, které fungují jako ukazatele hustého a chladného plynu v galaxiích a jejich okolí. Výsledky ukazují, že výskyt sodíku i jeho celková hmotnostní hustota se směrem k současnosti zvýšily více než trojnásobně. To svědčí o postupném růstu rozlohy či počtu chladných plynných obalů galaxií v nedávné kosmické historii. Světlo kvazarů procházející těmito oblastmi je navíc červenější, což potvrzuje přítomnost kosmického prachu. Proč je to zajímavé: Objev nám pomáhá lépe pochopit, jak galaxie v nedávné minulosti hromadily chladný plyn nezbytný pro vznik nových hvězd.",
     "url": "http://arxiv.org/abs/2609.26794v1",
     "source": "arXiv",
     "original_title": "The First Blind Survey of Intervening NaI Absorbers: Incidence and Cosmic Evolution with DESI",
     "published": "2026-09-22T17:59:47+00:00",
     "inserted_at": "2026-09-23T07:28:56.852499+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.26773v1",
@@ -493,15 +493,15 @@
   },
   {
     "id": "2609.24998v1",
-    "title": "Statistical Fluctuations as Primordial Correlators in the CMB: Finite Chemical Potential Thermodynamics",
-    "summary": "Can primordial cosmological correlations originate from statistical fluctuations of an early-universe thermal system? We connect grand-canonical thermodynamics, stochastic transport, and gauge-invariant cosmological perturbations for a charged fluid at finite chemical potential. Energy-charge susceptibilities determine curvature, charge-isocurvature, and cross-correlation amplitudes, while transport sets when each mode leaves equilibrium. For an isolated, adiabatic conformal plasma with conserved charge-to-entropy ratio and power-law diffusion, diffusive freeze-out yields the universal spectrum $\\mathcal P_S(k)\\propto k^3$, with $n_{\\rm iso}=4$, while equal-time local-equilibrium…",
+    "title": "Termální výkyvy raného vesmíru: Jak vznikly zárodky galaxií?",
+    "summary": "Může struktura dnešního vesmíru pocházet z termálních statistických výkyvů v jeho nejranějších fázích? Nová studie ukazuje, že izolované plazma nedokáže vytvořit správné spektrum poruch reliktního mikrovlnného pozadí. Vědci však zjistili, že pokud raný vesmír popíšeme jako otevřený termodynamický systém nehmotných fermionů v kvazi-de Sitterově fázi, fluktuace energie a náboje přirozeně vytvářejí realistické, téměř škálově invariantní spektrum. Model dává předpovědi přesně souhlasící s kosmologickými daty a zahrnuje i specifické stopy v podobě jemných ne-Gaussianit. Proč je to zajímavé: Výzkum ukazuje, že počáteční zárodky galaxií mohly vzniknout z termodynamických fluktuací otevřených systémů, což představuje elegantní doplněk či alternativu k tradičním kvantovým vakuačním poruchám z kosmické inflace.",
     "url": "http://arxiv.org/abs/2609.24998v1",
     "source": "arXiv",
     "original_title": "Statistical Fluctuations as Primordial Correlators in the CMB: Finite Chemical Potential Thermodynamics",
     "published": "2026-09-21T17:59:05+00:00",
     "inserted_at": "2026-09-22T07:28:12.466879+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.24992v1",
@@ -541,15 +541,15 @@
   },
   {
     "id": "2609.24989v1",
-    "title": "Tangled $τ$: Planck CMB Constraints on Flash Reionization",
-    "summary": "Recent cosmological tensions have renewed interest in the role of reionization in parameter inference, and flash reionization has been proposed as a transient high-redshift ionization episode that can increase the Thomson optical depth while remaining compatible with CMB polarization data. In this work, we present the first Markov Chain Monte Carlo analysis of the flash reionization model fit to Planck cosmic microwave background temperature, polarization, and lensing data. We perform this analysis using Planck PR4 data in $Λ$CDM with flash reionization. We find that CMB data allow a wide range for the redshift of the flash, $z_{\\rm flash}$, but with constraints that are tightly correlated…",
+    "title": "Blesková reionizace vesmíru: Co prozrazují nová data z družice Planck?",
+    "summary": "Současné nesrovnalosti v kosmologii vedou vědce k přezkoumání reionizace – období, kdy první hvězdy ionizovaly vesmírný plyn. Nová studie prověřuje hypotézu zábleskové reionizace, což je krátká epizoda ionizace ve velmi raném vesmíru. Autoři poprvé analyzovali tento model pomocí nejnovějších dat reliktního záření z družice Planck. Zjistili, že data záblesk nevylučují a stanovují jasné limity pro jeho sílu. Standardní kosmologické parametry ani celková optická hloubka se však výrazně nemění. Srovnání datových sad navíc ukazuje, jak jemné jsou tyto signály. Proč je to zajímavé: Výzkum přináší klíčový vhled do toho, jak přesně dokážeme z nejstaršího světla rekonstruovat dramatické události z úsvitu vesmíru a ověřit, zda nevysvětlují dnešní kosmologické rozpory.",
     "url": "http://arxiv.org/abs/2609.24989v1",
     "source": "arXiv",
     "original_title": "Tangled $τ$: Planck CMB Constraints on Flash Reionization",
     "published": "2026-09-21T17:57:32+00:00",
     "inserted_at": "2026-09-22T07:28:12.466879+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.24982v1",
