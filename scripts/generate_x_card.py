@@ -15,7 +15,7 @@ LOGO_CANDIDATES = [
     Path("assets/logo-icon-square.jpg"),
     Path("assets/logo-icon.jpg"),
 ]
-SITE_URL = "zdenekbubak-glitch.github.io/Vesmir"
+SITE_URL = "kosmonovinky.cz"
 
 W, H = 1200, 675
 BG = (11, 15, 25)
