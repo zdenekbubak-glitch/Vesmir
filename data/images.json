@@ -1,5 +1,17 @@
 [
   {
+    "id": "apod-2026-09-28",
+    "title": "Kosmické latté: Průměrná barva vesmíru",
+    "caption": "Jakou barvu by měl vesmír, kdybychom rozmazali a smíchali světlo z celé oblohy? Astronomové výpočtem průměrného světla z 200 000 galaxií zjistili, že výsledným odstínem je béžová barva s kódovým označením #FFF8E7, známá jako „kosmické latté“. Tato barva za posledních 10 miliard let výrazně ztrácí modrý nádech, což značí postupný nárůst červenějších hvězd.",
+    "thumb": "https://apod.nasa.gov/apod/image/2609/CosmicLatte_jhu_960_annotated.jpg",
+    "image": "https://apod.nasa.gov/apod/image/2609/CosmicLatte_jhu_960.jpg",
+    "source": "NASA APOD",
+    "url": "https://apod.nasa.gov/apod/ap260928.html",
+    "published": "2026-09-28",
+    "credit": "NASA / APOD",
+    "inserted_at": "2026-09-28T07:35:31.579688+00:00"
+  },
+  {
     "id": "apod-2026-09-27",
     "title": "Andromeda před Photoshopem",
     "caption": "Jak ve skutečnosti vypadá galaxie v Andromedě? Tento snímek, složený z 223 pětiminutových expozic pořízených v roce 2019 z Portugalska, zachycuje nejbližšího velkého galaktického souseda Mléčné dráhy přes rušnou oblohu s typickými vadami, jako jsou stopy letadel, satelitů, kosmického záření a vadné pixely. Tyto nedokonalosti nebyly odstraněny ve Photoshopu, ale výrazně potlačeny pomocí specializovaných astronomických programů.",
