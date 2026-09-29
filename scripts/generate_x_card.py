@@ -2,6 +2,7 @@
 """Vygeneruje denní X kartu z data/news.json. Schválený vzhled 1200x675."""
 import json
 import random
+import re
 from datetime import datetime
 from pathlib import Path
 
@@ -67,19 +68,38 @@ def pick_item(items):
     return pool[0]
 
 
+def _strip_tex(text: str) -> str:
+    text = re.sub(r"\$[^$]*\$", "", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
 def hook_from_summary(summary, max_len=220):
-    text = (summary or "").strip()
+    """Jedna až dvě celé věty. Nikdy neřízne uprostřed věty."""
+    text = _strip_tex((summary or "").strip())
     if "Proč je to zajímavé:" in text:
-        parts = text.split("Proč je to zajímavé:")
-        text = parts[0].strip()
-    first = text.split(". ")
-    if len(first) >= 2:
-        text = first[0].strip() + ". " + first[1].strip()
-        if not text.endswith("."):
-            text += "."
-    if len(text) > max_len:
-        text = text[: max_len - 1].rsplit(" ", 1)[0] + "…"
-    return text
+        text = text.split("Proč je to zajímavé:")[0].strip()
+
+    parts = [p.strip() for p in re.split(r"(?<=[.!?])\s+", text) if p.strip()]
+    if not parts:
+        return ""
+
+    first = parts[0]
+    if not first.endswith((".", "!", "?")):
+        first += "."
+
+    hook = first
+    if len(parts) >= 2:
+        second = parts[1]
+        if not second.endswith((".", "!", "?")):
+            second += "."
+        combined = hook + " " + second
+        if len(combined) <= max_len:
+            hook = combined
+
+    if len(hook) > max_len:
+        hook = first
+    return hook
 
 
 def paste_rounded_logo(img, logo_path, xy, size):
