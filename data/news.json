@@ -1,87 +1,87 @@
 [
   {
     "id": "2609.35771v1",
-    "title": "From Density to Mass: A New Parametrized Framework for Dark Matter Environment Around Black Holes",
-    "summary": "Astrophysical black holes (BHs) are not isolated vacuum objects but are expected to reside within complex environments, such as dark matter (DM) halos and baryonic distributions. Such environments can modify the spacetime geometry surrounding the BH and leave observable imprints on gravitational-wave (GW) signals, including shifts in the quasinormal mode (QNM) spectrum, tidal Love numbers (TLNs), and the inspiral dynamics of extreme-mass-ratio inspirals (EMRIs). We develop a general framework for describing DM-dressed BH spacetimes by parameterizing the geometry directly in terms of the enclosed mass function, rather than the traditional density-based profile. This mass-based formulation is…",
+    "title": "Černé díry v závoji temné hmoty: Nový model pro gravitační vlny",
+    "summary": "Astrofyzikální černé díry nežijí ve vákuu, ale obklopují je hala temné hmoty. Tento materiál jemně zakřivuje prostoročas a zanechává otisky v gravitačních vlnách. Vědci nyní představili nový teoretický rámec, který prostředí kolem černých děr nepopisuje tradiční hustotou, ale funkcí uzavřené hmotnosti. Tento přístup lépe spojuje astrofyzikální modely s přesnými pozorováními. Různé vlastnosti gravitačních vln přitom odhalují odlišné části okolního prostředí: vlastní vibrace černé díry mapují její těsné sousedství, zatímco slapové deformace vypovídají o vzdálenějších strukturách. Proč je to zajímavé: Tento rámec umožní pomocí chystaných detektorů gravitačních vln přímo mapovat neviditelnou temnou hmotu v bezprostředním okolí černých děr.",
     "url": "http://arxiv.org/abs/2609.35771v1",
     "source": "arXiv",
     "original_title": "From Density to Mass: A New Parametrized Framework for Dark Matter Environment Around Black Holes",
     "published": "2026-09-28T17:59:59+00:00",
     "inserted_at": "2026-09-29T07:31:08.914822+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.35757v1",
-    "title": "Can Fingers of God be Resummed?",
-    "summary": "Fingers of God (FoGs), Doppler shifts due to the small-scale virial motions of galaxies, are one of the most significant challenges for analytic models of galaxy clustering in redshift surveys. In the effective field theory approach, the characteristic scale of these shifts introduces a new, large length scale, limiting the reach of the theory. This has motivated many phenomenological models of FoGs in the literature where their effect is approximated by a single damping function of the line-of-sight wavenumber $λ=kμ$, effectively resumming powers of $λ$ due to single-point contractions of small-scale velocities. The goal of this work is to investigate whether such a resummation can be…",
+    "title": "„Boží prsty“ v mapách vesmíru: Lze zpřesnit kosmologické modely?",
+    "summary": "Při mapování vesmíru způsobuje náhodný pohyb galaxií v kupách optické zkreslení známé jako efekt „Božích prstů“, který rozmazává struktury podél zorného paprsku. Fyzikové tento jev v teoretických modelech dosud zjednodušovali pomocí univerzálních tlumicích funkcí. Nová studie však dokazuje, že toto zjednodušení nestačí, protože vliv okolního prostředí vytváří stejně silné korekce. Pro správnou interpretaci dat z moderních přehlídek oblohy, jako je projekt DESI, tak musíme teoretický aparát výrazně rozšířit o nové korekční členy. Proč je to zajímavé: Přesné modelování Božích prstů je nezbytné pro odhalení podstaty temné energie a chování gravitace na kosmologických škálách.",
     "url": "http://arxiv.org/abs/2609.35757v1",
     "source": "arXiv",
     "original_title": "Can Fingers of God be Resummed?",
     "published": "2026-09-28T17:59:06+00:00",
     "inserted_at": "2026-09-29T07:31:08.914822+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.35756v1",
-    "title": "Gauge Backreaction in Standard Model Warm Inflation",
-    "summary": "Standard-Model warm inflation (SMWI) makes QCD the microscopic origin of inflationary dissipation, so the real-time response of the gauge plasma enters the cosmological prediction. We show that a slowly relaxing gauge-helicity response cannot, in general, be absorbed into an effective friction coefficient and must instead remain dynamical. We therefore evolve the quark axial densities and a matched hard-helicity mode, with QCD sphalerons and an effective $2\\leftrightarrow3$ channel generating both charge transfer and correlated stochastic sources in the full perturbation covariance system. The resulting backreaction is substantial but mainly indirect: gauge-helicity screening can reduce the…",
+    "title": "Kvantové tření v raném vesmíru: Jak kvarky mění horkou inflaci",
+    "summary": "Teorie horké inflace popisuje rané rozpínání vesmíru za současného vzniku horké částicové plazmy. Nová studie zkoumá mikroskopický původ tohoto kvantového tření v rámci Standardního modelu, konkrétně v kvantové chromodynamice (QCD). Výpočty ukazují, že reakci plazmy nelze zjednodušit na pouhý statický koeficient tření. Dynamické chování polí a kvantové procesy způsobují silnou zpětnou vazbu, která mění rychlost disipace a posouvá teoretické předpovědi pro otisky inflace v kosmickém mikrovlnném pozadí i gravitačních vlnách.\n\nProč je to zajímavé: Práce propojuje známou částicovou fyziku s kosmologií a ukazuje, jak mikroskopické kvantové procesy přímým způsobem tvarovaly velkorozměrovou strukturu vesmíru.",
     "url": "http://arxiv.org/abs/2609.35756v1",
     "source": "arXiv",
     "original_title": "Gauge Backreaction in Standard Model Warm Inflation",
     "published": "2026-09-28T17:59:03+00:00",
     "inserted_at": "2026-09-29T07:31:08.914822+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.35737v1",
-    "title": "GAIA meets LZ: a high velocity tail-tale sign for dark matter",
-    "summary": "The interpretation of high-energy nuclear recoils in direct-detection experiments can depend sensitively on the high-velocity tail of the galactic dark matter (DM) distribution. The LUX-ZEPLIN (LZ) experiment has recently reported an event, LZ230616, with nuclear recoil energy 248 $\\pm$ 23 (stat) $\\pm$ 23 (sys) keV, while the Gaia mission has provided an unprecedented view of the kinematics and mass distribution of the Milky Way. We bring these two probes together to investigate the inelastic DM interpretation of LZ230616, using a velocity distribution inferred from Gaia-informed galactic model. Compared to the Standard Halo Model, the resulting distribution has a lower escape speed and a…",
+    "title": "Pátrání po temné hmotě: Vesmírná sonda Gaia a detektor LZ spojují síly",
+    "summary": "Přímé detektory temné hmoty, jako je LUX-ZEPLIN (LZ), zaznamenávají vzácné srážky neznámých částic s atomovými jádry. Nedávný neobvykle silný náraz podnítil vědce k propojení těchto dat s přesnou mapou naší Galaxie ze satelitu Gaia. Ukázalo se, že dosavadní modely přeceňovaly rychlost temné hmoty v Mléčné dráze. Nový model vycházející z pozorování Gaia ukazuje, že nejrychlejších částic je méně, ale lokální hustota temné hmoty je vyšší. Tento fakt zásadně mění fyzikální interpretaci pozorovaného signálu u takzvané neelastické temné hmoty, přičemž do hry vstupuje i gravitační vliv sousedního Velkého Magellanova mračna. Proč je to zajímavé: Propojení astrofyzikálního mapování Galaxie s podzemními detektory ukazuje, že k odhalení podstaty temné hmoty nestačí jen stavět citlivější přístroje, ale musíme přesně rozumět i dynamice Mléčné dráhy.",
     "url": "http://arxiv.org/abs/2609.35737v1",
     "source": "arXiv",
     "original_title": "GAIA meets LZ: a high velocity tail-tale sign for dark matter",
     "published": "2026-09-28T17:52:28+00:00",
     "inserted_at": "2026-09-29T07:31:08.914822+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.35723v1",
-    "title": "Empirical determination of the Galactic neutron star--black hole merger rate using StarTrack models",
-    "summary": "The discovery of a pulsar in a binary system with a black hole would provide a unique laboratory for testing general relativity in the strong-field regime and offer vital constraints on massive star evolution. We assess prospects for the detectability of such systems by utilizing the radio pulsar population and survey models within the modeling package PsrPopPy and, as a proof of principle, two evolutionary models with different treatments of common-envelope phases from the stellar population synthesis code StarTrack. For these two models, assuming the radio pulsar beaming model proposed by Tauris and Manchester and accounting for the effects of orbital motion on pulsar detectability, we…",
+    "title": "Lov na pulsar u černé díry: Odhad četnosti splynutí v Galaxii",
+    "summary": "Astrofyzici využili pokročilé počítačové modely vývoje hvězd a simulace rádiových přehlídek k určení horního limitu počtu dvojhvězd složených z neutronové hvězdy a černé díry v Mléčné dráze. Přestože jsme dosud žádný pulsar obíhající kolem černé díry neobjevili, absence těchto detekcí umožňuje stanovit maximální frekvenci jejich srážek na méně než 4,3 události za milion let. Tento odhad výborně odpovídá předpovědím gravitačních detektorů LIGO pro nadcházející pátou pozorovací kampaň. Největší šanci na přímý objev tohoto vzácného systému mají moderní radioteleskopy FAST, MeerKAT a DSA. Proč je to zajímavé: Objev pulsaru kroužícího kolem černé díry by vědcům poskytl dokonalou přírodní laboratoř pro testování Einsteinovy teorie relativity v extrémně silném gravitačním poli.",
     "url": "http://arxiv.org/abs/2609.35723v1",
     "source": "arXiv",
     "original_title": "Empirical determination of the Galactic neutron star--black hole merger rate using StarTrack models",
     "published": "2026-09-28T17:48:31+00:00",
     "inserted_at": "2026-09-29T07:31:08.914822+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.35713v1",
-    "title": "Tide-and-Seek: Anisotropic scale-dependent bias in the Lyman-alpha forest and designer samples",
-    "summary": "Searches for primordial non-Gaussianity are powerful ways of learning new information about the early Universe. Observing primordial signals in the late Universe is challenging as, in general, it is difficult to disentangle the small, primordial signatures from the complex physics that describes the distribution of galaxies and large-scale cosmic structures. We demonstrate that scale-dependent bias from primordial non-Gaussianity with non-trivial directional dependence in the squeezed limit (also known as anisotropic primordial non-Gaussianity) can arise in a much larger class of tracers than previously considered. This is a smoking gun signature of primordial Universe physics that cannot…",
+    "title": "Kosmická schovávačka: Jak najít stopy z počátku vesmíru",
+    "summary": "Hledání otisků z nejstarších fází vesmíru (tzv. primordiální negaussovskosti) je klíčem k pochopení jeho vzniku. Odhalit tyto jemné signály v dnešním složitém vesmíru je však obtížné. Nový výzkum ukazuje, že směrově závislé odchylky v rozložení hmoty – neomylný podpis raného vesmíru – lze pozorovat v širší škále struktur, než se čekalo. Autoři to ověřili na simulacích mezigalaktického plynu a na speciálně vybraných galaktických halách. Metodu již aplikovali na data z přehlídky BOSS DR12. Proč je to zajímavé: Práce přináší nový způsob, jak cíleně navrhovat astronomické vzorky a získat dosud nedostupné informace o nejranějších okamžicích kosmu.",
     "url": "http://arxiv.org/abs/2609.35713v1",
     "source": "arXiv",
     "original_title": "Tide-and-Seek: Anisotropic scale-dependent bias in the Lyman-alpha forest and designer samples",
     "published": "2026-09-28T17:46:17+00:00",
     "inserted_at": "2026-09-29T07:31:08.914822+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.35705v1",
-    "title": "Journey to the Center of a Black Hole",
-    "summary": "An infalling two-point function of a scalar field in a three-dimensional BTZ black hole, with one operator inserted in the exterior and the other inserted along a timelike geodesic, diverges when the infalling insertion point reaches the black hole singularity. In the boundary description, this divergence comes entirely from the exchange of double-twist operators, rather than from the multi-stress-tensor sector that encodes the curvature singularities in higher dimensions. We show that the inclusion of a tower of massive particles with Hagedorn growth gives rise to loop corrections that become important near the singularity, where they trigger a Hagedorn transition that renders the…",
+    "title": "Cesta do nitra černé díry: Kvantový skok u singularity",
+    "summary": "Co se stane, když se vydáme na cestu do samotného středu černé díry? Teoretické výpočty v trojrozměrném modelu černé díry ukazují, že klasický popis selhává přímo u centrální singularity, kde matematika naráží na nekonečno. Nový výzkum však ukazuje, že při přiblížení k tomuto kritickému bodu začínají dominovat kvantové korekce spojené s existencí těžkých částic z teorie strun. Tyto efekty vyvolávají takzvaný Hagedornův přechod, který ruší původní nekonečnou divergenci. Klíčové je, že tyto opravy působí výhradně v blízkosti singularity, zatímco horizont událostí zůstává zcela klidný. Proč je to zajímavé: Studie elegantně potvrzuje princip komplementarity černých děr a ukazuje, jak kvantová fyzika řeší problém nekonečné hustoty v jejich samotném srdci.",
     "url": "http://arxiv.org/abs/2609.35705v1",
     "source": "arXiv",
     "original_title": "Journey to the Center of a Black Hole",
     "published": "2026-09-28T17:43:38+00:00",
     "inserted_at": "2026-09-29T07:31:08.914822+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.30390",
@@ -157,15 +157,15 @@
   },
   {
     "id": "2609.31113",
-    "title": "Observational constraints on scalar-vector-tensor dark energy with phantom-divide crossing",
-    "summary": "arXiv:2609.31113v1 Announce Type: new Abstract: We constrain a scalar-vector-tensor (SVT) dark-energy model in which the vector sector drives the dark-energy equation of state below $-1$ at earlier times, while a canonical scalar field subsequently drives it across $-1$ toward a present-day value above $-1$. We confront the model with DES Year 5 supernovae, DESI DR2 baryon acoustic oscillations, and compressed cosmic microwave background information, and then include Gold-2017 redshift-space-distortion (RSD) measurements to probe structure growth. The background posterior assigns substantial weight to crossing histories and gives a better best fit than the flat $\\Lambda$-cold-dark-matter…",
+    "title": "Překročení fantomové hranice: Nový model temné energie předčí standardní model",
+    "summary": "Standardní kosmologický model předpokládá, že temná energie je neměnná konstanta. Nová studie však prověřila pokročilý skalárně-vektorově-tenzorový model, v němž temná energie v čase dynamicky mění svoje chování. V minulosti rozpínala vesmír agresivněji a překročila takzvanou fantomovou hranici, zatímco dnes její vliv slábne. Vědci model testovali na datových sadách z pozorování supernov, baryonových akustických oscilací a reliktního záření. Výsledky ukazují, že model stabilně popisuje rozpínání vesmíru i růst kosmických struktur a dosahuje lepší shody s pozorováním než standardní teorie. Proč je to zajímavé: Potvrzení dynamického chování temné energie může vyřešit současná napětí v kosmologických měřeních a zásadně změnit náš pohled na budoucnost vesmíru.",
     "url": "https://arxiv.org/abs/2609.31113",
     "source": "arXiv",
     "original_title": "Observational constraints on scalar-vector-tensor dark energy with phantom-divide crossing",
     "published": "2026-09-28T04:00:00+00:00",
     "inserted_at": "2026-09-28T07:31:46.430204+00:00",
-    "lang": "en",
-    "needs_translation": true
+    "lang": "cs",
+    "needs_translation": false
   },
   {
     "id": "2609.30118v1",
