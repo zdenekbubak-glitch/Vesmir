@@ -381,8 +381,9 @@
       return div.innerHTML;
     }
 
-    function mediaSrc(url) {
-      return url || '';
+    function mediaSrc(item) {
+      if (item && item.id) return 'assets/gallery/' + item.id + '.jpg';
+      return item && (item.image || item.thumb) || '';
     }
 
     function renderPost(item) {
@@ -535,10 +536,10 @@
         strip.style.display = 'flex';
         head.style.display = 'flex';
         strip.innerHTML = items.slice(0, 10).map(function (item) {
-          const src = mediaSrc(item.image || item.thumb);
+          const src = mediaSrc(item);
           return (
             '<a href="images.html#img-' + encodeURIComponent(item.id) + '">' +
-            '<img src="' + src + '" alt="' + escapeHtml(item.title) + '" loading="lazy">' +
+            '<img src="' + src + '" alt="" loading="lazy" onerror="this.parentNode.style.display='none'">' +
             '<span>' + escapeHtml(item.title) + '</span></a>'
           );
         }).join('');
