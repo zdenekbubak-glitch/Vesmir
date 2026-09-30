@@ -537,7 +537,7 @@
         strip.style.display = 'flex';
         head.style.display = 'flex';
         strip.innerHTML = items.slice(0, 10).map(function (item) {
-          const src = proxyImage(item.thumb || item.image);
+          const src = proxyImage(item.image || item.thumb);
           return (
             '<a href="images.html#img-' + encodeURIComponent(item.id) + '">' +
             '<img src="' + src + '" alt="' + escapeHtml(item.title) + '" loading="lazy">' +
