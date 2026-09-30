@@ -13,6 +13,9 @@ import feedparser
 import requests
 from dateutil import parser as date_parser
 from PIL import Image
+from urllib3.exceptions import InsecureRequestWarning
+
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 DATA_FILE = Path("data/images.json")
 GALLERY_DIR = Path("assets/gallery")
@@ -115,14 +118,33 @@ def is_remote(url: str) -> bool:
     return (url or "").startswith("http://") or (url or "").startswith("https://")
 
 
+def looks_like_image(data: bytes) -> bool:
+    if not data or len(data) < 24:
+        return False
+    if data[:3] == b"\xff\xd8\xff":
+        return True
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return True
+    if data[:6] in (b"GIF87a", b"GIF89a"):
+        return True
+    if data[:4] == b"RIFF" and data[8:12] == b"WEBP":
+        return True
+    return False
+
+
 def alt_urls(url: str) -> list:
-    out = [url]
-    if "apod.nasa.gov" in url:
+    out = []
+    if url:
+        out.append(url)
+    if url and "apod.nasa.gov" in url:
         out.append(url.replace("https://apod.nasa.gov", "https://www.apod.nasa.gov"))
         out.append(url.replace("https://", "http://", 1))
+    if url and url.startswith("http"):
+        raw = url.split("://", 1)[-1]
+        out.append("https://wsrv.nl/?url=" + requests.utils.quote(raw, safe="") + "&output=jpg")
     seen = []
     for u in out:
-        if u not in seen:
+        if u and u not in seen:
             seen.append(u)
     return seen
 
@@ -132,19 +154,17 @@ def download_bytes(url: str) -> bytes | None:
         return None
     last_err = None
     for candidate in alt_urls(url):
-        for verify in (True, False):
-            try:
-                r = SESSION.get(candidate, timeout=45, verify=verify)
-                r.raise_for_status()
-                if len(r.content) < 800:
-                    last_err = "soubor je moc malý"
-                    continue
-                if not verify:
-                    print(f"Staženo bez ověření certifikátu: {candidate[:80]}")
+        verify = not candidate.startswith("http://") and "apod.nasa.gov" not in candidate
+        try:
+            r = SESSION.get(candidate, timeout=60, verify=verify, allow_redirects=True)
+            r.raise_for_status()
+            if looks_like_image(r.content):
+                print(f"Stažen obrázek ({len(r.content)} B) z {candidate[:90]}")
                 return r.content
-            except Exception as e:
-                last_err = e
-                continue
+            last_err = f"odpověď není obrázek ({r.headers.get('content-type')})"
+        except Exception as e:
+            last_err = e
+            continue
     print(f"Stažení selhalo ({url[:80]}): {last_err}")
     return None
 
