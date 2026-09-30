@@ -16,6 +16,7 @@
     nav { margin: .6rem 0 0; }
     nav a { color: var(--accent); margin: 0 .7rem; }
     main { max-width: 860px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+    .figure.is-pending { display: none; }
     .figure { background: var(--card); border: 1px solid #1e293b; border-radius: 12px; padding: 1rem; margin: 0 0 1.6rem; scroll-margin-top: 1.2rem; }
     .figure img { width: 100%; height: auto; border-radius: 8px; display: block; background: #0b0f19; }
     .figure h2 { margin: .9rem 0 .35rem; font-size: 1.2rem; }
@@ -66,8 +67,8 @@
         gallery.innerHTML = items.map(function (item) {
           const src = item.id ? ('assets/gallery/' + item.id + '.jpg') : (item.image || item.thumb || '');
           return (
-            '<figure class="figure" id="img-' + escapeHtml(item.id) + '">' +
-            '<img src="' + src + '" alt="' + escapeHtml(item.title) + '" loading="lazy" onerror="this.parentNode.style.display='none'">' +
+            '<figure class="figure is-pending" id="img-' + escapeHtml(item.id) + '">' +
+            '<img src="' + src + '" alt="' + escapeHtml(item.title) + '" onload="this.parentNode.classList.remove(\'is-pending\')" onerror="this.parentNode.remove()">' +
             '<h2>' + escapeHtml(item.title) + '</h2>' +
             '<div class="meta">' + escapeHtml(item.source) + ' · ' + escapeHtml(item.published || '') + ' · ' + escapeHtml(item.credit || '') + '</div>' +
             '<p class="caption">' + escapeHtml(item.caption) + '</p>' +

@@ -219,6 +219,7 @@
       display: block;
       background: #0b0f19;
     }
+    .thumbs a.is-pending { display: none; }
     .thumbs span {
       display: block;
       margin-top: 0.3rem;
@@ -393,16 +394,16 @@
       const note = isEn
         ? '<p class="lang-note">Anglický originál – český souhrn se nepodařilo vytvořit.</p>'
         : '';
-      return `
-        <article class="post">
-          <h2>${escapeHtml(item.title)}</h2>
-          <div class="meta">
-            Vloženo: ${inserted} · Zdroj: ${escapeHtml(item.source)} ${published ? '· Publikováno: ' + published : ''}
-          </div>
-          ${note}
-          <p class="summary">${escapeHtml(item.summary)}</p>
-          <a href="${item.url}" target="_blank" rel="noopener">Původní zdroj →</a>
-        </article>`;
+      return (
+        '<article class="post">' +
+        '<h2>' + escapeHtml(item.title) + '</h2>' +
+        '<div class="meta">Vloženo: ' + inserted + ' · Zdroj: ' + escapeHtml(item.source) +
+        (published ? ' · Publikováno: ' + published : '') + '</div>' +
+        note +
+        '<p class="summary">' + escapeHtml(item.summary) + '</p>' +
+        '<a href="' + (item.url || '') + '" target="_blank" rel="noopener">Původní zdroj →</a>' +
+        '</article>'
+      );
     }
 
     function queryFromUrl() {
@@ -437,9 +438,7 @@
         : allRecent;
 
       if (matched.length === 0) {
-        feed.innerHTML = `
-          <p class="empty">Nic se nenašlo pro „${escapeHtml(q)}“.<br>
-          <a href="#" id="clear-empty">Vymazat filtr</a></p>`;
+        feed.innerHTML = '<p class="empty">Nic se nenašlo pro „' + escapeHtml(q) + '“.<br><a href="#" id="clear-empty">Vymazat filtr</a></p>';
         meta.textContent = '0 z ' + allRecent.length;
         const link = document.getElementById('clear-empty');
         if (link) link.addEventListener('click', (e) => {
@@ -461,10 +460,10 @@
       const orderedKeys = Object.keys(groups).sort().reverse();
       let html = '';
       orderedKeys.forEach(key => {
-        html += `<h2 class="section-title">${monthLabel(key)}</h2>`;
+        html += '<h2 class="section-title">' + monthLabel(key) + '</h2>';
         html += groups[key].map(renderPost).join('');
       });
-      html += `<div class="archive-link"><a href="archive.html">Starší příspěvky v archivu →</a></div>`;
+      html += '<div class="archive-link"><a href="archive.html">Starší příspěvky v archivu →</a></div>';
       feed.innerHTML = html;
       meta.textContent = needle
         ? matched.length + ' z ' + allRecent.length
@@ -494,9 +493,7 @@
         });
 
         if (allRecent.length === 0) {
-          feed.innerHTML = `
-            <p class="empty">Žádné novinky za tento a minulý měsíc.</p>
-            <div class="archive-link"><a href="archive.html">Přejít do archivu →</a></div>`;
+          feed.innerHTML = '<p class="empty">Žádné novinky za tento a minulý měsíc.</p><div class="archive-link"><a href="archive.html">Přejít do archivu →</a></div>';
           return;
         }
 
@@ -520,7 +517,7 @@
 
         applyFilter();
       } catch (e) {
-        feed.innerHTML = `<p class="empty">Nepodařilo se načíst data. Zkus obnovit stránku později.<br><small>${escapeHtml(e.message)}</small></p>`;
+        feed.innerHTML = '<p class="empty">Nepodařilo se načíst data. Zkus obnovit stránku později.<br><small>' + escapeHtml(e.message) + '</small></p>';
       }
     }
 
@@ -538,8 +535,8 @@
         strip.innerHTML = items.slice(0, 10).map(function (item) {
           const src = mediaSrc(item);
           return (
-            '<a href="images.html#img-' + encodeURIComponent(item.id) + '">' +
-            '<img src="' + src + '" alt="" loading="lazy" onerror="this.parentNode.style.display='none'">' +
+            '<a class="is-pending" href="images.html#img-' + encodeURIComponent(item.id) + '">' +
+            '<img src="' + src + '" alt="" onload="this.parentNode.classList.remove(\'is-pending\')" onerror="this.parentNode.remove()">' +
             '<span>' + escapeHtml(item.title) + '</span></a>'
           );
         }).join('');
