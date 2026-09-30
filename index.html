@@ -532,7 +532,7 @@
         head.style.display = 'flex';
         strip.innerHTML = items.slice(0, 10).map(item => `
           <a href="images.html#img-${encodeURIComponent(item.id)}">
-            <img src="${escapeHtml(item.thumb || item.image)}" alt="${escapeHtml(item.title)}" loading="lazy">
+            <img src="\( {escapeHtml(item.thumb || item.image)}" alt=" \){escapeHtml(item.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://wsrv.nl/?url='+encodeURIComponent((this.getAttribute('src')||'').replace(/^https?:\\/\\//,''));">
             <span>${escapeHtml(item.title)}</span>
           </a>`).join('');
       } catch (e) {}
