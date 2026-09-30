@@ -105,7 +105,7 @@ Caption: {caption[:800]}
             if attempt < 3:
                 print(f"Čekám {retry_wait} s před dalším pokusem…")
                 time.sleep(retry_wait)
-    print(f"Překlad se nepodařil, snímek vynechávám: {(title or '')[:70]}")
+    print(f"Překlad se nepodařil, uložím anglicky: {(title or '')[:70]}")
     return None
 
 
@@ -339,17 +339,23 @@ def main():
         from google import genai
         client = genai.Client(api_key=api_key)
     else:
-        print("Chybí GEMINI_API_KEY – nové snímky se bez překladu neuloží.")
+        print("Chybí GEMINI_API_KEY – nové snímky uložím anglicky.")
 
     now = datetime.now(timezone.utc).isoformat()
     new_items = []
     for item in new_raw[:MAX_ITEMS]:
+        item["original_title"] = item.get("title") or ""
         translated = translate_cs(client, item["title"], item["caption"]) if client else None
-        if not translated:
-            continue
-        item["title"], item["caption"] = translated
+        if translated:
+            item["title"], item["caption"] = translated
+            item["lang"] = "cs"
+            item["needs_translation"] = False
+        else:
+            item["lang"] = "en"
+            item["needs_translation"] = True
+            print(f"Ukládám anglicky: {item['original_title'][:60]}")
         if not store_local(item):
-            print(f"Snímek se nepodařilo uložit, vynechávám: {item['id']}")
+            print(f"Snímek se nepodařilo stáhnout, vynechávám: {item['id']}")
             continue
         item["inserted_at"] = now
         new_items.append(item)
