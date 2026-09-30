@@ -115,18 +115,38 @@ def is_remote(url: str) -> bool:
     return (url or "").startswith("http://") or (url or "").startswith("https://")
 
 
+def alt_urls(url: str) -> list:
+    out = [url]
+    if "apod.nasa.gov" in url:
+        out.append(url.replace("https://apod.nasa.gov", "https://www.apod.nasa.gov"))
+        out.append(url.replace("https://", "http://", 1))
+    seen = []
+    for u in out:
+        if u not in seen:
+            seen.append(u)
+    return seen
+
+
 def download_bytes(url: str) -> bytes | None:
     if not url:
         return None
-    try:
-        r = SESSION.get(url, timeout=45)
-        r.raise_for_status()
-        if len(r.content) < 800:
-            return None
-        return r.content
-    except Exception as e:
-        print(f"Stažení selhalo ({url[:80]}): {e}")
-        return None
+    last_err = None
+    for candidate in alt_urls(url):
+        for verify in (True, False):
+            try:
+                r = SESSION.get(candidate, timeout=45, verify=verify)
+                r.raise_for_status()
+                if len(r.content) < 800:
+                    last_err = "soubor je moc malý"
+                    continue
+                if not verify:
+                    print(f"Staženo bez ověření certifikátu: {candidate[:80]}")
+                return r.content
+            except Exception as e:
+                last_err = e
+                continue
+    print(f"Stažení selhalo ({url[:80]}): {last_err}")
+    return None
 
 
 def save_resized(item_id: str, raw: bytes) -> str | None:
