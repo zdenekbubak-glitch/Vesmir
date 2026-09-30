@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Denní galerie: NASA APOD + ESA Hubble/Webb."""
+"""Denní galerie: NASA APOD + ESA Hubble/Webb. Snímky se ukládají do assets/gallery/."""
 
+import io
 import json
 import os
 import re
@@ -11,16 +12,26 @@ from pathlib import Path
 import feedparser
 import requests
 from dateutil import parser as date_parser
+from PIL import Image
 
 DATA_FILE = Path("data/images.json")
+GALLERY_DIR = Path("assets/gallery")
 MAX_ITEMS = 16
 APOD_DAYS = 12
+MAX_EDGE = 1200
+JPEG_QUALITY = 82
 GEMINI_MODEL = "gemini-3.6-flash"
 
 ESA_FEEDS = [
     ("ESA Hubble", "https://esahubble.org/images/feed/rss/"),
     ("ESA Webb", "https://esawebb.org/images/feed/rss/"),
 ]
+
+SESSION = requests.Session()
+SESSION.headers.update({
+    "User-Agent": "Kosmonovinky/1.0 (https://kosmonovinky.cz; gallery mirror)",
+    "Accept": "image/*,*/*",
+})
 
 
 def slug(text: str) -> str:
@@ -48,7 +59,6 @@ CZECH_WORDS = (
 
 
 def looks_czech_image(title_cs: str, caption_cs: str, original_title: str) -> bool:
-    """Hrubá kontrola, že Gemini opravdu vrátil češtinu, ne originál."""
     title_cs = (title_cs or "").strip()
     caption_cs = (caption_cs or "").strip()
     if len(title_cs) < 3 or len(caption_cs) < 20:
@@ -63,15 +73,6 @@ def looks_czech_image(title_cs: str, caption_cs: str, original_title: str) -> bo
 
 
 def translate_cs(client, title: str, caption: str, retry_wait: int = 7) -> tuple[str, str] | None:
-    """Překlad titulku a popisku přes Gemini se 3 pokusy.
-
-    Mezi pokusy čeká retry_wait sekund (pro dávkové opravy volat s delší
-    pauzou, aby se nepřekročil rate limit Gemini).
-
-    Stejný vzor jako summarize_czech() ve fetch_and_update.py:
-    při neúspěchu vrátí None a snímek se vynechá, aby se do galerie
-    nedostal nechtěně anglický text.
-    """
     prompt = f"""Přelož astronomický popisek do češtiny. Vrať POUZE JSON:
 {{"title_cs":"...","caption_cs":"..."}}
 Titulek max 80 znaků, popisek 1–3 věty.
@@ -105,13 +106,75 @@ Caption: {caption[:800]}
     return None
 
 
+def local_path_for(item_id: str) -> Path:
+    safe = re.sub(r"[^a-zA-Z0-9._-]+", "-", item_id).strip("-")[:80]
+    return GALLERY_DIR / f"{safe}.jpg"
+
+
+def is_remote(url: str) -> bool:
+    return (url or "").startswith("http://") or (url or "").startswith("https://")
+
+
+def download_bytes(url: str) -> bytes | None:
+    if not url:
+        return None
+    try:
+        r = SESSION.get(url, timeout=45)
+        r.raise_for_status()
+        if len(r.content) < 800:
+            return None
+        return r.content
+    except Exception as e:
+        print(f"Stažení selhalo ({url[:80]}): {e}")
+        return None
+
+
+def save_resized(item_id: str, raw: bytes) -> str | None:
+    try:
+        im = Image.open(io.BytesIO(raw))
+        im = im.convert("RGB")
+        im.thumbnail((MAX_EDGE, MAX_EDGE), Image.Resampling.LANCZOS)
+        GALLERY_DIR.mkdir(parents=True, exist_ok=True)
+        dest = local_path_for(item_id)
+        im.save(dest, "JPEG", quality=JPEG_QUALITY, optimize=True)
+        print(f"Uloženo {dest} ({dest.stat().st_size} B, {im.size[0]}x{im.size[1]})")
+        return dest.as_posix()
+    except Exception as e:
+        print(f"Zpracování snímku selhalo ({item_id}): {e}")
+        return None
+
+
+def store_local(item: dict) -> bool:
+    dest = local_path_for(item["id"])
+    if dest.exists() and dest.stat().st_size > 800:
+        rel = dest.as_posix()
+        item["thumb"] = rel
+        item["image"] = rel
+        return True
+    candidates = []
+    for key in ("image", "thumb"):
+        url = item.get(key)
+        if is_remote(url) and url not in candidates:
+            candidates.append(url)
+    for url in candidates:
+        raw = download_bytes(url)
+        if not raw:
+            continue
+        rel = save_resized(item["id"], raw)
+        if rel:
+            item["thumb"] = rel
+            item["image"] = rel
+            return True
+    return False
+
+
 def fetch_apod() -> list:
     key = os.environ.get("NASA_API_KEY", "DEMO_KEY")
     end = datetime.now(timezone.utc).date()
     start = end - timedelta(days=APOD_DAYS)
     url = "https://api.nasa.gov/planetary/apod"
     try:
-        r = requests.get(
+        r = SESSION.get(
             url,
             params={
                 "api_key": key,
@@ -207,6 +270,21 @@ def fetch_esa() -> list:
     return items
 
 
+def prune_gallery(keep_ids: set):
+    if not GALLERY_DIR.exists():
+        return
+    for path in GALLERY_DIR.glob("*"):
+        if not path.is_file():
+            continue
+        item_id = path.stem
+        if item_id not in keep_ids:
+            try:
+                path.unlink()
+                print(f"Smazán starý soubor {path}")
+            except OSError:
+                pass
+
+
 def main():
     print("Stahuji denní astronomické snímky…")
     history = load_history()
@@ -230,10 +308,21 @@ def main():
         if not translated:
             continue
         item["title"], item["caption"] = translated
+        if not store_local(item):
+            print(f"Snímek se nepodařilo uložit, vynechávám: {item['id']}")
+            continue
         item["inserted_at"] = now
         new_items.append(item)
         print(f"Obrázek: {item['title'][:60]}")
         time.sleep(0.8)
+
+    localized = 0
+    for item in history:
+        if is_remote(item.get("image") or "") or is_remote(item.get("thumb") or ""):
+            if store_local(item):
+                localized += 1
+    if localized:
+        print(f"Do repozitáře doplněno starších snímků: {localized}")
 
     merged = new_items + history
     seen = set()
@@ -244,6 +333,7 @@ def main():
         seen.add(it["id"])
         unique.append(it)
     unique = unique[:80]
+    prune_gallery({it["id"] for it in unique})
     save_history(unique)
     print(f"Přidáno {len(new_items)} snímků. Celkem v galerii: {len(unique)}")
 
