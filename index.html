@@ -381,6 +381,12 @@
       return div.innerHTML;
     }
 
+    function proxyImage(url) {
+      const raw = (url || '').replace(/^https?:\/\//, '');
+      if (!raw) return '';
+      return 'https://wsrv.nl/?url=' + encodeURIComponent(raw);
+    }
+
     function renderPost(item) {
       const inserted = new Date(item.inserted_at).toLocaleString('cs-CZ', { timeZone: 'Europe/Prague' });
       const published = item.published ? new Date(item.published).toLocaleDateString('cs-CZ') : '';
@@ -530,10 +536,14 @@
         strip.hidden = false;
         strip.style.display = 'flex';
         head.style.display = 'flex';
-        strip.innerHTML = items.slice(0, 10).map(item => `
-          <a href="images.html#img-${encodeURIComponent(item.id)}">
-            <img src="https://wsrv.nl/?url=\( {encodeURIComponent((item.thumb || item.image || '').replace(/^https?:\/\//,''))}" alt=" \){escapeHtml(item.title)}" loading="lazy">            <span>${escapeHtml(item.title)}</span>
-          </a>`).join('');
+        strip.innerHTML = items.slice(0, 10).map(function (item) {
+          const src = proxyImage(item.thumb || item.image);
+          return (
+            '<a href="images.html#img-' + encodeURIComponent(item.id) + '">' +
+            '<img src="' + src + '" alt="' + escapeHtml(item.title) + '" loading="lazy">' +
+            '<span>' + escapeHtml(item.title) + '</span></a>'
+          );
+        }).join('');
       } catch (e) {}
     }
     loadThumbs();
