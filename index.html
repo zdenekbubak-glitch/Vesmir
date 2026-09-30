@@ -381,10 +381,8 @@
       return div.innerHTML;
     }
 
-    function proxyImage(url) {
-      const raw = (url || '').replace(/^https?:\/\//, '');
-      if (!raw) return '';
-      return 'https://wsrv.nl/?url=' + encodeURIComponent(raw) + '&w=360&h=240&fit=cover';
+    function mediaSrc(url) {
+      return url || '';
     }
 
     function renderPost(item) {
@@ -537,11 +535,10 @@
         strip.style.display = 'flex';
         head.style.display = 'flex';
         strip.innerHTML = items.slice(0, 10).map(function (item) {
-          const src = proxyImage(item.image || item.thumb);
-          const fb = proxyImage(item.thumb);
+          const src = mediaSrc(item.image || item.thumb);
           return (
             '<a href="images.html#img-' + encodeURIComponent(item.id) + '">' +
-            '<img src="' + src + '" alt="' + escapeHtml(item.title) + '" loading="lazy" data-fb="' + fb + '" onerror="if(this.dataset.fb&&this.src.indexOf(this.dataset.fb)===-1){this.src=this.dataset.fb;}else{this.onerror=null;}">' +
+            '<img src="' + src + '" alt="' + escapeHtml(item.title) + '" loading="lazy">' +
             '<span>' + escapeHtml(item.title) + '</span></a>'
           );
         }).join('');
