@@ -53,6 +53,11 @@
       div.textContent = text || '';
       return div.innerHTML;
     }
+    function proxyImage(url) {
+      const raw = (url || '').replace(/^https?:\/\//, '');
+      if (!raw) return '';
+      return 'https://wsrv.nl/?url=' + encodeURIComponent(raw);
+    }
     async function loadImages() {
       const gallery = document.getElementById('gallery');
       try {
@@ -63,20 +68,25 @@
           gallery.innerHTML = '<p class="empty">Zatím žádné snímky. Přibydou při dalším běhu agenta.</p>';
           return;
         }
-        gallery.innerHTML = items.map(item => `
-          <figure class="figure" id="img-${escapeHtml(item.id)}">
-            <img src="https://wsrv.nl/?url=\( {encodeURIComponent((item.image || item.thumb || '').replace(/^https?:\/\//,''))}" alt=" \){escapeHtml(item.title)}" loading="lazy">            <h2>${escapeHtml(item.title)}</h2>
-            <div class="meta">${escapeHtml(item.source)} · ${escapeHtml(item.published || '')} · ${escapeHtml(item.credit || '')}</div>
-            <p class="caption">${escapeHtml(item.caption)}</p>
-            <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">Původní zdroj →</a>
-          </figure>`).join('');
+        gallery.innerHTML = items.map(function (item) {
+          const src = proxyImage(item.image || item.thumb);
+          return (
+            '<figure class="figure" id="img-' + escapeHtml(item.id) + '">' +
+            '<img src="' + src + '" alt="' + escapeHtml(item.title) + '" loading="lazy">' +
+            '<h2>' + escapeHtml(item.title) + '</h2>' +
+            '<div class="meta">' + escapeHtml(item.source) + ' · ' + escapeHtml(item.published || '') + ' · ' + escapeHtml(item.credit || '') + '</div>' +
+            '<p class="caption">' + escapeHtml(item.caption) + '</p>' +
+            '<a href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener">Původní zdroj →</a>' +
+            '</figure>'
+          );
+        }).join('');
         const hash = decodeURIComponent(location.hash || '');
         if (hash) {
           const el = document.querySelector(hash);
           if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
       } catch (e) {
-        gallery.innerHTML = `<p class="empty">Snímky se nepodařilo načíst.<br><small>${escapeHtml(e.message)}</small></p>`;
+        gallery.innerHTML = '<p class="empty">Snímky se nepodařilo načíst.<br><small>' + escapeHtml(e.message) + '</small></p>';
       }
     }
     loadImages();
