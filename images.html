@@ -64,10 +64,10 @@
           return;
         }
         gallery.innerHTML = items.map(function (item) {
-          const src = item.image || item.thumb || '';
+          const src = item.id ? ('assets/gallery/' + item.id + '.jpg') : (item.image || item.thumb || '');
           return (
             '<figure class="figure" id="img-' + escapeHtml(item.id) + '">' +
-            '<img src="' + src + '" alt="' + escapeHtml(item.title) + '" loading="lazy">' +
+            '<img src="' + src + '" alt="' + escapeHtml(item.title) + '" loading="lazy" onerror="this.parentNode.style.display='none'">' +
             '<h2>' + escapeHtml(item.title) + '</h2>' +
             '<div class="meta">' + escapeHtml(item.source) + ' · ' + escapeHtml(item.published || '') + ' · ' + escapeHtml(item.credit || '') + '</div>' +
             '<p class="caption">' + escapeHtml(item.caption) + '</p>' +
