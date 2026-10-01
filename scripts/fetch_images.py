@@ -219,108 +219,65 @@ def store_local(item: dict) -> bool:
 
 
 
-def scrape_apod_page(date: str) -> dict | None:
-    """Jen stránka daného dne. Úvod APOD se nepoužívá, jinak mají všechny dny stejný snímek."""
-    ymd = date.replace("-", "")
-    short = ymd[2:]
-    pages = [
-        f"https://apod.nasa.gov/apod/ap{short}.html",
-        f"https://science.nasa.gov/apod/ap{short}.html",
-    ]
-    for page in pages:
-        try:
-            r = SESSION.get(page, timeout=30)
-            if r.status_code != 200:
-                continue
-            html = r.text
-        except Exception as e:
-            print(f"APOD stránka selhala {page}: {e}")
-            continue
-        imgs = re.findall(
-            r'https://(?:assets\.science\.nasa\.gov|apod\.nasa\.gov)/[^"\'\s>]+\.(?:jpg|jpeg|png)',
-            html,
-            re.I,
-        )
-        imgs = [u.split("?")[0] for u in imgs if "logo" not in u.lower() and "nasa-logo" not in u.lower()]
-        if not imgs:
-            continue
-        img = imgs[0]
-        title = ""
-        mt = re.search(r"<title>(.*?)</title>", html, re.I | re.S)
-        if mt:
-            title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", mt.group(1))).strip()
-            title = re.sub(r"^APOD:\s*\d{4}\s+\w+\s+\d{1,2}\s*[–-]\s*", "", title)
-            title = title.split("|")[0].strip()
-        if not title or title.lower() in ("nasa science", "apod", "astronomy picture of the day"):
-            continue
-        text = re.sub(r"<[^>]+>", " ", html)
-        text = re.sub(r"\s+", " ", text)
-        cap = ""
-        mc = re.search(r"Explanation:\s*(.{80,900})", text, re.I)
-        if mc:
-            cap = mc.group(1).strip()
-        return {"title": title[:180], "caption": cap[:800], "image": img, "page": page}
-    return None
-
-
 def fetch_apod() -> list:
-    key = os.environ.get("NASA_API_KEY", "DEMO_KEY")
-    end = datetime.now(timezone.utc).date()
-    start = end - timedelta(days=APOD_DAYS)
-    url = "https://api.nasa.gov/planetary/apod"
+    """APOD se přestěhoval. Denní stránky apod.nasa.gov přesměrují na úvod,
+    proto bereme oficiální RSS s vlastní fotkou pro každý den.
+    """
+    feed_url = "https://science.nasa.gov/feed/apod-basic/"
     try:
-        r = SESSION.get(
-            url,
-            params={
-                "api_key": key,
-                "start_date": start.isoformat(),
-                "end_date": end.isoformat(),
-                "thumbs": True,
-            },
-            timeout=30,
-        )
+        r = SESSION.get(feed_url, timeout=40)
         r.raise_for_status()
-        rows = r.json()
-        if isinstance(rows, dict):
-            rows = [rows]
+        text = r.text.replace("&#038;", "&").replace("&", "&")
     except Exception as e:
-        print(f"APOD chyba: {e}")
+        print(f"APOD RSS chyba: {e}")
         return []
 
     items = []
-    for row in reversed(rows):
-        media = row.get("media_type")
-        image = row.get("url")
-        if media == "video":
-            image = row.get("thumbnail_url")
-        if not image:
+    for block in re.findall(r"<item>(.*?)</item>", text, re.S):
+        title = re.sub(r"<!\[CDATA\[|\]\]>", "", re.search(r"<title>(.*?)</title>", block, re.S).group(1)).strip()
+        link_m = re.search(r"<link>(.*?)</link>", block, re.S)
+        link = (link_m.group(1).strip() if link_m else "")
+        img_m = re.search(r"<apod:hdurl>(.*?)</apod:hdurl>", block, re.S)
+        if not img_m:
+            img_m = re.search(r"https://assets\.science\.nasa\.gov/[^<\s]+", block)
+        if not img_m:
+            print(f"APOD bez fotky: {title[:60]}")
             continue
-        date = row.get("date") or end.isoformat()
-        title = row.get("title") or "Astronomy Picture of the Day"
-        caption = row.get("explanation") or ""
-        image_url = row.get("hdurl") or image
-        if title.strip().lower() in ("nasa science", "apod") or "apod/image/" not in (image_url or ""):
-            scraped = scrape_apod_page(date)
-            if scraped and scraped.get("image"):
-                title = scraped["title"] or title
-                caption = scraped["caption"] or caption
-                image_url = scraped["image"]
-                image = image_url
-                print(f"APOD {date} doplněn ze stránky: {image_url[:80]}")
-            else:
-                print(f"APOD {date} bez skutečného snímku, přeskakuji")
-                continue
+        image = img_m.group(1).strip() if img_m.lastindex else img_m.group(0)
+        image = image.split("?")[0]
+        date_m = re.search(r"apod-(\d{4})-([a-z]+)-(\d{1,2})-", link)
+        months = {
+            "january": "01", "february": "02", "march": "03", "april": "04",
+            "may": "05", "june": "06", "july": "07", "august": "08",
+            "september": "09", "october": "10", "november": "11", "december": "12",
+        }
+        if not date_m or date_m.group(2) not in months:
+            print(f"APOD bez data v odkazu: {link[:80]}")
+            continue
+        date = f"{date_m.group(1)}-{months[date_m.group(2)]}-{int(date_m.group(3)):02d}"
+        desc = re.search(r"<description>(.*?)</description>", block, re.S)
+        caption = ""
+        if desc:
+            caption = re.sub(r"<!\[CDATA\[|\]\]>", "", desc.group(1))
+            caption = re.sub(r"<[^>]+>", " ", caption)
+            caption = re.sub(r"\s+", " ", caption).strip()[:800]
+        credit_m = re.search(r"<apod:copyright>(.*?)</apod:copyright>", block, re.S)
+        credit = "NASA / APOD"
+        if credit_m:
+            credit = re.sub(r"<[^>]+>", "", re.sub(r"<!\[CDATA\[|\]\]>", "", credit_m.group(1)))
+            credit = re.sub(r"\s+", " ", credit).strip() or credit
         items.append({
             "id": f"apod-{date}",
             "title": title,
             "caption": caption,
-            "thumb": image_url,
-            "image": image_url,
+            "thumb": image,
+            "image": image,
             "source": "NASA APOD",
-            "url": f"https://apod.nasa.gov/apod/ap{date.replace('-', '')[2:]}.html",
+            "url": link or f"https://science.nasa.gov/apod/",
             "published": date,
-            "credit": row.get("copyright") or "NASA / APOD",
+            "credit": credit[:160],
         })
+        print(f"APOD {date}: {title[:50]} | {image.split('/')[-1][:50]}")
     return items
 
 
@@ -402,10 +359,10 @@ def main():
     candidates = fetch_apod() + fetch_esa()
     bad_ids = {
         item.get("id") for item in history
-        if (item.get("original_title") or "").strip().lower() == "nasa science"
-        or (item.get("title") or "").startswith("Věda NASA")
-        or (item.get("title") or "").startswith("APOD")
+        if item.get("id") in {"apod-2026-09-29", "apod-2026-09-30", "apod-2026-10-01"}
+        or (item.get("original_title") or "").strip().lower() == "nasa science"
         or "Věda NASA" in (item.get("title") or "")
+        or (item.get("title") or "").startswith("APOD")
     }
     new_raw = [c for c in candidates if c["id"] not in existing or c["id"] in bad_ids]
     history = [item for item in history if item.get("id") not in bad_ids]
