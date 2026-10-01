@@ -169,10 +169,20 @@ def download_bytes(url: str) -> bytes | None:
     return None
 
 
+def is_nasa_logo(im: Image.Image) -> bool:
+    w, h = im.size
+    if max(w, h) < 700 and min(w, h) > 0 and abs(w - h) / max(w, h) < 0.25:
+        return True
+    return False
+
+
 def save_resized(item_id: str, raw: bytes) -> str | None:
     try:
         im = Image.open(io.BytesIO(raw))
         im = im.convert("RGB")
+        if is_nasa_logo(im):
+            print(f"Odmítám logo NASA ({item_id}, {im.size[0]}x{im.size[1]})")
+            return None
         im.thumbnail((MAX_EDGE, MAX_EDGE), Image.Resampling.LANCZOS)
         GALLERY_DIR.mkdir(parents=True, exist_ok=True)
         dest = local_path_for(item_id)
@@ -208,6 +218,52 @@ def store_local(item: dict) -> bool:
     return False
 
 
+
+def scrape_apod_page(date: str) -> dict | None:
+    """Nové APOD je na science.nasa.gov, API často vrátí jen logo NASA Science."""
+    ymd = date.replace("-", "")
+    short = ymd[2:]
+    pages = [
+        f"https://apod.nasa.gov/apod/ap{short}.html",
+        f"https://science.nasa.gov/apod/ap{short}.html",
+        "https://science.nasa.gov/apod/",
+    ]
+    for page in pages:
+        try:
+            r = SESSION.get(page, timeout=30)
+            if r.status_code != 200 or "text/html" not in (r.headers.get("content-type") or ""):
+                continue
+            html = r.text
+        except Exception as e:
+            print(f"APOD stránka selhala {page}: {e}")
+            continue
+        img = None
+        m = re.search(r'https://assets\.science\.nasa\.gov/[^"\']+\.(?:jpg|jpeg|png)', html, re.I)
+        if m:
+            img = m.group(0).split("?")[0]
+        if not img:
+            m = re.search(r'https://apod\.nasa\.gov/apod/image/[^"\']+\.(?:jpg|jpeg|png)', html, re.I)
+            if m:
+                img = m.group(0)
+        if not img:
+            continue
+        title = "Astronomy Picture of the Day"
+        mt = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.I | re.S)
+        if mt:
+            title = re.sub(r"<[^>]+>", "", mt.group(1))
+            title = re.sub(r"\s+", " ", title).strip() or title
+        if title.lower() in ("nasa science", "astronomy picture of the day", "apod"):
+            mt = re.search(r"<title>(.*?)</title>", html, re.I | re.S)
+            if mt:
+                title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", mt.group(1))).split("|")[0].strip()
+        cap = ""
+        mc = re.search(r"Explanation:(.{80,1200})", re.sub(r"<[^>]+>", " ", html), re.I)
+        if mc:
+            cap = re.sub(r"\s+", " ", mc.group(1)).strip()[:800]
+        return {"title": title[:180], "caption": cap, "image": img, "page": page}
+    return None
+
+
 def fetch_apod() -> list:
     key = os.environ.get("NASA_API_KEY", "DEMO_KEY")
     end = datetime.now(timezone.utc).date()
@@ -241,12 +297,26 @@ def fetch_apod() -> list:
         if not image:
             continue
         date = row.get("date") or end.isoformat()
+        title = row.get("title") or "Astronomy Picture of the Day"
+        caption = row.get("explanation") or ""
+        image_url = row.get("hdurl") or image
+        if title.strip().lower() in ("nasa science", "apod") or "apod/image/" not in (image_url or ""):
+            scraped = scrape_apod_page(date)
+            if scraped and scraped.get("image"):
+                title = scraped["title"] or title
+                caption = scraped["caption"] or caption
+                image_url = scraped["image"]
+                image = image_url
+                print(f"APOD {date} doplněn ze stránky: {image_url[:80]}")
+            else:
+                print(f"APOD {date} bez skutečného snímku, přeskakuji")
+                continue
         items.append({
             "id": f"apod-{date}",
-            "title": row.get("title") or "Astronomy Picture of the Day",
-            "caption": row.get("explanation") or "",
-            "thumb": image,
-            "image": row.get("hdurl") or image,
+            "title": title,
+            "caption": caption,
+            "thumb": image_url,
+            "image": image_url,
             "source": "NASA APOD",
             "url": f"https://apod.nasa.gov/apod/ap{date.replace('-', '')[2:]}.html",
             "published": date,
@@ -331,7 +401,18 @@ def main():
     existing = {item.get("id") for item in history}
 
     candidates = fetch_apod() + fetch_esa()
-    new_raw = [c for c in candidates if c["id"] not in existing]
+    bad_ids = {
+        item.get("id") for item in history
+        if (item.get("original_title") or "").strip().lower() == "nasa science"
+        or (item.get("title") or "").startswith("Věda NASA")
+    }
+    new_raw = [c for c in candidates if c["id"] not in existing or c["id"] in bad_ids]
+    history = [item for item in history if item.get("id") not in bad_ids]
+    for bid in bad_ids:
+        path = local_path_for(bid)
+        if path.exists():
+            path.unlink()
+            print(f"Mažu logo {path}")
 
     api_key = os.environ.get("GEMINI_API_KEY")
     client = None
