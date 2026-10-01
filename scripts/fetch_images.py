@@ -220,47 +220,46 @@ def store_local(item: dict) -> bool:
 
 
 def scrape_apod_page(date: str) -> dict | None:
-    """Nové APOD je na science.nasa.gov, API často vrátí jen logo NASA Science."""
+    """Jen stránka daného dne. Úvod APOD se nepoužívá, jinak mají všechny dny stejný snímek."""
     ymd = date.replace("-", "")
     short = ymd[2:]
     pages = [
         f"https://apod.nasa.gov/apod/ap{short}.html",
         f"https://science.nasa.gov/apod/ap{short}.html",
-        "https://science.nasa.gov/apod/",
     ]
     for page in pages:
         try:
             r = SESSION.get(page, timeout=30)
-            if r.status_code != 200 or "text/html" not in (r.headers.get("content-type") or ""):
+            if r.status_code != 200:
                 continue
             html = r.text
         except Exception as e:
             print(f"APOD stránka selhala {page}: {e}")
             continue
-        img = None
-        m = re.search(r'https://assets\.science\.nasa\.gov/[^"\']+\.(?:jpg|jpeg|png)', html, re.I)
-        if m:
-            img = m.group(0).split("?")[0]
-        if not img:
-            m = re.search(r'https://apod\.nasa\.gov/apod/image/[^"\']+\.(?:jpg|jpeg|png)', html, re.I)
-            if m:
-                img = m.group(0)
-        if not img:
+        imgs = re.findall(
+            r'https://(?:assets\.science\.nasa\.gov|apod\.nasa\.gov)/[^"\'\s>]+\.(?:jpg|jpeg|png)',
+            html,
+            re.I,
+        )
+        imgs = [u.split("?")[0] for u in imgs if "logo" not in u.lower() and "nasa-logo" not in u.lower()]
+        if not imgs:
             continue
-        title = "Astronomy Picture of the Day"
-        mt = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.I | re.S)
+        img = imgs[0]
+        title = ""
+        mt = re.search(r"<title>(.*?)</title>", html, re.I | re.S)
         if mt:
-            title = re.sub(r"<[^>]+>", "", mt.group(1))
-            title = re.sub(r"\s+", " ", title).strip() or title
-        if title.lower() in ("nasa science", "astronomy picture of the day", "apod"):
-            mt = re.search(r"<title>(.*?)</title>", html, re.I | re.S)
-            if mt:
-                title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", mt.group(1))).split("|")[0].strip()
+            title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", mt.group(1))).strip()
+            title = re.sub(r"^APOD:\s*\d{4}\s+\w+\s+\d{1,2}\s*[–-]\s*", "", title)
+            title = title.split("|")[0].strip()
+        if not title or title.lower() in ("nasa science", "apod", "astronomy picture of the day"):
+            continue
+        text = re.sub(r"<[^>]+>", " ", html)
+        text = re.sub(r"\s+", " ", text)
         cap = ""
-        mc = re.search(r"Explanation:(.{80,1200})", re.sub(r"<[^>]+>", " ", html), re.I)
+        mc = re.search(r"Explanation:\s*(.{80,900})", text, re.I)
         if mc:
-            cap = re.sub(r"\s+", " ", mc.group(1)).strip()[:800]
-        return {"title": title[:180], "caption": cap, "image": img, "page": page}
+            cap = mc.group(1).strip()
+        return {"title": title[:180], "caption": cap[:800], "image": img, "page": page}
     return None
 
 
@@ -405,6 +404,8 @@ def main():
         item.get("id") for item in history
         if (item.get("original_title") or "").strip().lower() == "nasa science"
         or (item.get("title") or "").startswith("Věda NASA")
+        or (item.get("title") or "").startswith("APOD")
+        or "Věda NASA" in (item.get("title") or "")
     }
     new_raw = [c for c in candidates if c["id"] not in existing or c["id"] in bad_ids]
     history = [item for item in history if item.get("id") not in bad_ids]
