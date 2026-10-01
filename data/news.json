@@ -1,5 +1,77 @@
 [
   {
+    "id": "2609.40176v1",
+    "title": "Vidí projekt DESI proměnnou temnou energii, nebo trhlinu v gravitaci?",
+    "summary": "Nejnovější kosmologická data z přehlídky DESI a měření reliktního záření naznačují odchylky od standardního modelu vesmíru. Zatímco většina vědců tyto odchylky přisuzuje proměnné temné energii, nová studie nabízí jiné vysvětlení: kosmickou poruchu v gravitaci. Podle ní je gravitační síla na velkých měřítkách vesmíru přibližně o 0,8 % slabší než Newtonova konstanta měřená lokálně. Tento model s jedním parametrem, inspirovaný Hořavovou gravitací, vysvětluje pozorování se spolehlivostí 3,3 sigma. Navíc dokáže pouze z dat reliktního záření přesně předpovědět vzdálenosti naměřené projektem DESI, v čemž modely temné energie selhávají. Proč je to zajímavé: Místo zavedení záhadné proměnné temné energie by pozorované kosmické anomálie mohl vysvětlit přímo nový pohled na samotnou podstatu gravitace.",
+    "url": "http://arxiv.org/abs/2609.40176v1",
+    "source": "arXiv",
+    "original_title": "Is DESI Seeing Dynamical Dark Energy, or a Cosmic Glitch in Gravity?",
+    "published": "2026-09-30T17:02:51+00:00",
+    "inserted_at": "2026-10-01T10:23:30.932497+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.40166v1",
+    "title": "Rotující černé díry a axiony: Zesílí, nebo potlačí světlo?",
+    "summary": "Rotující černé díry mohou za určitých podmínek fungovat jako obří vesmírné zesilovače světla – tomuto jevu se říká superradiance. Nová studie zkoumá, jak tento proces ovlivňuje přítomnost axionů, hypotetických částic temné hmoty. Vědci plně relativisticky nasimulovali vzájemnou vazbu mezi fotony a axiony a odhalili dva odlišné režimy. Pokud jsou axiony dostatečně energetické, unikají do vesmíru a odnášejí energii, čímž zesilování světla potlačují. Při nižších energiích však zůstávají zachyceny v blízkosti horizontu událostí a tvoří kvazivázané stavy, které mohou fotonové zesílení podle konkrétních podmínek buď posílit, nebo oslabit. Proč je to zajímavé: Studium rozptylu světla u černých děr nabízí elegantní způsob, jak testovat existenci axionů a odhalovat tajemství temné hmoty.",
+    "url": "http://arxiv.org/abs/2609.40166v1",
+    "source": "arXiv",
+    "original_title": "Axion corrections to photon superradiant scattering by Kerr black holes",
+    "published": "2026-09-30T16:58:46+00:00",
+    "inserted_at": "2026-10-01T10:23:30.932497+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.40125v1",
+    "title": "Teleskop CLASS zpřesňuje limity kruhové polarizace reliktního záření",
+    "summary": "Teleskop CLASS zveřejnil dosud nejpřesnější měření kruhové polarizace reliktního záření. Vědci zkombinovali data na frekvencích 90, 150 a 220 GHz s dřívějšími pozorováními a zmapovali vliv zemské atmosféry. Díky tomu zpřesnili horní limity pro kruhovou polarizaci na velkých úhlových škálách až pětinásobně a rozšířili pozorování na menší detaily. Ve spojení s daty ze satelitu Planck navíc stanovili vůbec první omezení pro vzájemný vztah teploty a kruhové polarizace. Naměřený signál zůstává v souladu s nulou. Proč je to zajímavé: Hledání kruhové polarizace představuje lakmusový papírek pro novou fyziku v raném vesmíru, protože standardní kosmologie předpovídá její absenci.",
+    "url": "http://arxiv.org/abs/2609.40125v1",
+    "source": "arXiv",
+    "original_title": "Improved Constraints on Cosmic Microwave Background Circular Polarization with CLASS",
+    "published": "2026-09-30T16:46:30+00:00",
+    "inserted_at": "2026-10-01T10:23:30.932497+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.40068v1",
+    "title": "Definitivní důkaz: Rotující černé díry jsou stabilní v celém rozsahu",
+    "summary": "Kerrova metrika popisuje rotující černé díry, které patří k nejfascinujícím objektům v Einsteinově obecné teorii relativity. Ačkoli vědci dlouho předpokládali, že tyto černé díry jsou stabilní vůči drobným poruchám – například při dopadu gravitačních vln –, matematický důkaz byl po desetiletí neúplný. Dosavadní práce potvrzovaly stabilitu pouze pro pomalu rotující objekty. Nový vědecký průlom tento limit odstraňuje a rozšiřuje důkaz stability na celý podextrémní rozsah rotace. Pomocí pokročilých matematických odhadů vlnových rovnic autoři ukázali, že jakákoli reálná rotující černá díra se po narušení opět zklidní do stabilního stavu. Tím byl úspěšně dokončen jeden z nejvýznamnějších důkazů v moderní matematické fyzice. Proč je to zajímavé: Výsledek definitivně potvrzuje, že Einsteinova teorie relativity předpovídá stabilní a reálně existující rotující černé díry pro všechny fyzikálně přípustné rychlosti otáčení.",
+    "url": "http://arxiv.org/abs/2609.40068v1",
+    "source": "arXiv",
+    "original_title": "Kerr stability in the full subextremal range",
+    "published": "2026-09-30T16:22:55+00:00",
+    "inserted_at": "2026-10-01T10:23:30.932497+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2609.40066v1",
+    "title": "Umělá inteligence zrychluje simulace temné hmoty ve vesmíru",
+    "summary": "Simulace temné hmoty jsou klíčové pro pochopení struktury vesmíru a rozložení galaxií. Detailní počítačové modely, které zachycují i drobné podstruktury (tzv. subhala), jsou však výpočetně nesmírně náročné. Vědci proto vyvinuli novou metodu založenou na strojovém učení, která dokáže tento proces výrazně zrychlit. Algoritmus nejprve pomocí rozhodovacích stromů odhadne, zda dané halo obsahuje menší podstruktury. Následně vyhledá vlastnostmi nejpodobnější halo z detailní simulace a jeho podstruktury do nového modelu přesně přenese. Tato metoda dosahuje vysoké přesnosti s chybou pod 5 % a spolehlivě předpovídá rozmístění i shlukování podstruktur. Proč je to zajímavé: Metoda umožňuje astronomům bleskově vytvářet realistické mapy vesmíru bez nutnosti dlouhých a nákladných výpočtů na superpočítačích.",
+    "url": "http://arxiv.org/abs/2609.40066v1",
+    "source": "arXiv",
+    "original_title": "A machine learning-based method for populating dark matter halos in N-body simulations with substructure",
+    "published": "2026-09-30T16:22:17+00:00",
+    "inserted_at": "2026-10-01T10:23:30.932497+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/09/260928100527.htm",
+    "title": "Výtrysky z černých děr mohou rozhodovat o osudu celých galaxií",
+    "summary": "Supermasivní černé díry v centrech galaxií dokážou ovlivnit vesmírné okolí daleko za viditelnými hranicemi svých mateřských systémů. Zdrojem tohoto vlivu jsou mocné výtrysky hmoty a energie, které zanechávají zářící stopy dlouhé stovky tisíc světelných let. Tyto výtrysky udržují okolní plyn extrémně horký a zabraňují mu v ochlazování a zhroucení zpět do galaxie. Protože chladný plyn představuje základní stavební kámen pro vznik nových hvězd, mohou tyto výtrysky efektivně zastavit hvězdnou porodnost a rozhodnout o tom, zda galaxie zůstane aktivní, nebo utichne. Proč je to zajímavé: Tento mechanismus ukazuje, jak relativně malé centrální objekty dokážou dálkově řídit vývoj a tvorbu hvězd v celých obřích galaxiích.",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260928100527.htm",
+    "source": "RSS",
+    "original_title": "Black hole jets may decide the fate of entire galaxies",
+    "published": "2026-09-30T10:51:59+00:00",
+    "inserted_at": "2026-10-01T10:23:30.932497+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2609.40363v1",
     "title": "Vesmírný úsvit: Teleskop Jamese Webba mapuje reionizaci vesmíru",
     "summary": "Vesmírný teleskop Jamese Webba (JWST) pomáhá astronomům rozluštit období tzv. reionizace, kdy světlo prvních hvězd a galaxií postupně ionizovalo chladný vodíkový plyn vytvořený po Velkém třesku. Měřením záření vodíku (čáry Lyman-alfa) u vzdálených galaxií vědci zjistili, jak se mezigalaktické prostředí měnilo. Porovnání dat s pokročilými počítačovými simulacemi ukázalo, že přibližně 400 milionů let po Velkém třesku byl vesmír z devadesáti procent tvořen neutrálním plynem. S postupujícím časem však vznikající galaxie vytvářely čím dál větší „bubliny“ ionizovaného plynu, až se vesmír stal plně průhledným. Proč je to zajímavé: Poprvé získáváme přesnou časovou osu a detailní pohled na to, jak první galaxie definitivně rozptýlily temnou vodíkovou mlhu a proměnily vesmír do dnešní podoby.",
