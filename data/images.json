@@ -1,8 +1,8 @@
 [
   {
     "id": "apod-2026-10-01",
-    "title": "Sklizňový úplněk a erumpující Etna",
-    "caption": "Tento složený snímek pořízený na Sicílii zachycuje východ Měsíce v úplňku za postupujícího soumraku. V pozadí stoupá popel a plyn ze soptící Etny, zatímco mraky odrážejí barvy protisoumraku a růžový pruh nad obzorem tvoří Venušin pás. Záříjovému úplňku se v některých kulturách na severní polokouli tradičně říká sklizňový.",
+    "title": "Sklizňový úplněk s erupcí sopky Etna",
+    "caption": "Tento pestrobarevný složený snímek ze Sicílie zachycuje východ Měsíce v úplňku, zatímco se na pozadí z erumpující sopky Etna zvedá popel a plyn. Nižší mraky odrážejí barvy protisoumraku spolu s růžovým Venušiným pásem, přičemž Měsíc v úplňku vychází právě při západu Slunce. Záříjovému úplňku se v některých kulturách na severní polokouli tradičně říká sklizňový úplněk.",
     "thumb": "assets/gallery/apod-2026-10-01.jpg",
     "image": "assets/gallery/apod-2026-10-01.jpg",
     "source": "NASA APOD",
@@ -12,12 +12,12 @@
     "original_title": "Harvest Moon with Erupting Mount Etna",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-01T10:43:21.490118+00:00"
+    "inserted_at": "2026-10-02T07:33:43.611906+00:00"
   },
   {
     "id": "apod-2026-09-30",
     "title": "Arp 78: Podivná galaxie v Beranovi",
-    "caption": "Podivná spirální galaxie Arp 78 (známá též jako NGC 772) o průměru 200 000 světelných let se nachází v souhvězdí Berana asi 100 milionů světelných let od Mléčné dráhy. Na tomto detailním snímku vyniká její výrazné vnější spirální rameno s prachovými pásy a mladými modrými hvězdokupami, které je deformováno galaktickými slapovými silami. Za tyto deformace jsou pravděpodobně zodpovědné gravitační interakce s kompaktnější průvodcovskou galaxií NGC 770, jež je patrná přímo pod hlavní spirálou.",
+    "caption": "Podivná spirální galaxie Arp 78, známá též jako NGC 772, leží v souhvězdí Berana ve vzdálenosti zhruba 100 milionů světelných let a v průměru měří 200 000 světelných let. Na tomto detailním portrétu vyniká její výrazné vnější spirální rameno lemované prachovými pásy a mladými modrými hvězdokupami. Za přebujelý tvar tohoto ramene mohou galaktické slapové síly způsobené gravitační interakcí s kompaktnější průvodcovskou galaxií NGC 770, která je patrná přímo pod ní.",
     "thumb": "assets/gallery/apod-2026-09-30.jpg",
     "image": "assets/gallery/apod-2026-09-30.jpg",
     "source": "NASA APOD",
@@ -27,12 +27,12 @@
     "original_title": "Arp 78: Peculiar Galaxy in Aries",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-01T10:43:21.490118+00:00"
+    "inserted_at": "2026-10-02T07:33:43.611906+00:00"
   },
   {
     "id": "apod-2026-09-29",
     "title": "Sh2-188: Mlhovina Kreveta",
-    "caption": "Sh2-188, známá jako mlhovina Kreveta, je svou úhlovou velikostí dosahující asi poloviny průměru Měsíce jednou z největších planetárních mlhovin na noční obloze. Její centrální bílý trpaslík se pohybuje neobvykle rychle mezihvězdným prostorem, čímž vytváří rázovou vlnu, která stlačuje a rozsvěcuje plyn na předním okraji. Tento snímek pořídil amatérský dalekohled v polském Krakově v záření vodíku, síry a kyslíku.",
+    "caption": "Mlhovina Kreveta (Sh2-188) patří k úhlově největším planetárním mlhovinám na obloze a dosahuje přibližně poloviny průměru Měsíce. Její centrální bílý trpaslík se pohybuje neobvykle rychle mezihvězdným prostorem, čímž vytváří rázovou vlnu viditelnou vlevo nahoře, jež připomíná vlnu rozráženou přídí lodi. Tento snímek zachycující záření vodíku, síry a kyslíku pořídil amatérský dalekohled v polském Krakově.",
     "thumb": "assets/gallery/apod-2026-09-29.jpg",
     "image": "assets/gallery/apod-2026-09-29.jpg",
     "source": "NASA APOD",
@@ -42,7 +42,7 @@
     "original_title": "Sh2-188: The Shrimp Nebula",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-01T10:43:21.490118+00:00"
+    "inserted_at": "2026-10-02T07:33:43.611906+00:00"
   },
   {
     "id": "apod-2026-09-13",
