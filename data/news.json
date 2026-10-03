@@ -1,5 +1,65 @@
 [
   {
+    "id": "2610.01991v1",
+    "title": "Temná hmota v neutronových hvězdách: Jak mění jejich strukturu?",
+    "summary": "Vědci zkoumali, jak příměs temné hmoty ovlivňuje chování extrémně husté hmoty uvnitř neutronových hvězd. Pomocí rozkladu anomálie stopy ukázali, že těžká temná hmota plynule mění vlastnosti hvězdné látky. Objevili také univerzální pravidlo škálování: různé kombinace hmotnosti a podílu částic temné hmoty vyvolávají identickou odezvu, pokud má jejich součin stejnou hodnotu. Přítomnost pouhých 0,2 % temné hmoty však látku natolik změkčuje, že snižuje maximální hmotnost hvězdy pod pozorovanou hranici dvou hmotností Slunce. To umožňuje odlišit plynulé účinky temné hmoty od prudkých fázových přechodů na kvarkovou hmotu. Proč je to zajímavé: Neutronové hvězdy slouží jako unikátní vesmírné laboratoře, které umožňují testovat vlastnosti temné hmoty i bez její přímé detekce v pozemských experimentech.",
+    "url": "http://arxiv.org/abs/2610.01991v1",
+    "source": "arXiv",
+    "original_title": "Trace-anomaly decomposition and universal dark matter scaling in compact stars",
+    "published": "2026-10-01T16:27:50+00:00",
+    "inserted_at": "2026-10-03T07:33:10.317972+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.01976v1",
+    "title": "Carrolliánská gravitace: Nový most mezi geometrií a fyzikou polí",
+    "summary": "Teorie relativity popisuje gravitaci jako zakřivení časoprostoru, existují však i rovnocenné popisy pomocí torze či nemetričnosti. Autoři nového výzkumu rozšířili tento koncept takzvané „geometrické trojice“ na Carrolliánskou geometrii, v níž je rychlost světla efektivně nulová. Ukázali, že zakřivení v takovém vesmíru lze dynamicky zaměnit za vlastnosti prostorové a časové torze. Tento přístup vytváří překvapivý teoretický most: geometrii prostoročasu lze přeložit do jazyka negravitačních teorií, například Maxwellova elektromagnetismu, konformní teorie či exotických fraktonů. Proč je to zajímavé? Studie poskytuje teoretický slovník, který umožňuje přeložit komplikované gravitační jevy do známého jazyka elektromagnetismu a fyziky kondenzovaného stavu.",
+    "url": "http://arxiv.org/abs/2610.01976v1",
+    "source": "arXiv",
+    "original_title": "Trinity of Carrollian Gravity: Dynamically Equivalent Formulations of Magnetic Carrollian Gravity",
+    "published": "2026-10-01T16:23:13+00:00",
+    "inserted_at": "2026-10-03T07:33:10.317972+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.01964v1",
+    "title": "Průlom v numerické relativitě: Automatické derivování šetří výpočetní čas",
+    "summary": "Numerická relativita simuluje časoprostor podle Einsteinových rovnic, což je výpočetně nesmírně náročné. Hledání hraničních stavů, jako je kritický kolaps hmoty na pomezí vzniku černé díry, dosud vyžadovalo stovky opakovaných simulací. Vědci nyní ukázali, že využití metody automatického derivování dokáže tento proces dramaticky zrychlit. V dvojdimenzionálním prostoru parametrů se jim podařilo kritická řešení zachytit pomocí pouhých 35 simulací, zatímco běžný postup vyžadoval 270 běhů. Metoda navíc umožňuje přímý výpočet nestabilních módů a lze ji snadno rozšířit na složitější systémy. Proč je to zajímavé: Tato technika otevírá dveře k efektivnějšímu zkoumání nejextrémnějších gravitačních jevů ve vesmíru bez plytvání kapacitou superpočítačů.",
+    "url": "http://arxiv.org/abs/2610.01964v1",
+    "source": "arXiv",
+    "original_title": "Locating critical solutions in numerical relativity using automatic differentiation",
+    "published": "2026-10-01T16:18:09+00:00",
+    "inserted_at": "2026-10-03T07:33:10.317972+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.01865v1",
+    "title": "První GPU simulace temného věku vesmíru zabere jen zlomky sekundy",
+    "summary": "Vědci představili kód hyprfine, první analytickou simulaci globálního 21cm signálu vodíku plně přizpůsobenou pro grafické karty. Tento signál je klíčem k pochopení raného vesmíru v období od temného věku až po epochu reionizace, kdy vznikaly první hvězdy a galaxie. Výpočetní simulace vytvořená v jazyce Python s knihovnou JAX dokáže spočítat vývoj průměrné teploty vesmírného vodíku v závislosti na kosmologických parametrech za méně než sekundu. Díky efektivní paralelizaci na GPU a diferencovatelnosti kódu se výrazně zjednoduší zpracování astronomických pozorování. Proč je to zajímavé: Extrémní rychlost simulace umožní vědcům v reálném čase testovat různé teoretické modely a přesněji interpretovat data z chystaných obřích radioteleskopů.",
+    "url": "http://arxiv.org/abs/2610.01865v1",
+    "source": "arXiv",
+    "original_title": "hyprfine: simulating the 21-cm signal from the Dark Ages through to the Epoch of Reionization on a GPU",
+    "published": "2026-10-01T15:26:09+00:00",
+    "inserted_at": "2026-10-03T07:33:10.317972+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.01836v1",
+    "title": "Trojúhelníky galaxií z DESI odhalují přesnější vlastnosti temné hmoty",
+    "summary": "Astrofyzici využili první data z přehlídky DESI k dosud nejdetailnějšímu rozboru velkorozměrové struktury vesmíru. Vedle standardního výkonového spektra, které měří vzdálenosti mezi dvojicemi galaxií, poprvé v takovém rozsahu zapojili i takzvané bispektrum. To zkoumá uspořádání galaxií do trojúhelníků a zachycuje složitý nelineární gravitační vývoj. Analýza svítivých červených galaxií a kvazarů ukázala, že bispektrum zpřesňuje určení hustoty temné hmoty a amplitudy hustotních fluktuací až o pětinu. Tento přístup pomáhá prolomit nejistoty, které samotné dvojbodové měření nedokáže rozlišit. Proč je to zajímavé: Využití vyšších statistik uspořádání galaxií umožňuje získat z kosmologických přehlídek podstatně přesnější informace o temné hmotě a energii i bez nutnosti získávat další pozorování.",
+    "url": "http://arxiv.org/abs/2610.01836v1",
+    "source": "arXiv",
+    "original_title": "Cosmological inference from a joint DESI DR1 full-shape power spectrum and bispectrum analysis",
+    "published": "2026-10-01T15:07:29+00:00",
+    "inserted_at": "2026-10-03T07:33:10.317972+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2610.02168v1",
     "title": "Zrození dětského vesmíru: Holografie a kvantová oprava chyb",
     "summary": "Teoretičtí fyzici rozšířili modely holografické kosmologie a ukázali, jak propojením tří a více paralelních časoprostorů – jako stránek v otevřené knize – vzniká v jejich středu samostatný, uzavřený „dětský vesmír“. Pomocí pokročilého modelu tenzorových sítí autoři popsali, jak se kvantová informace z tohoto vnitrozemí otiskuje do vnějších hranic. Výzkum odhalil, že tato relace funguje jako efektivní kvantový kód pro opravu chyb: k plné rekonstrukci stavu dětského vesmíru stačí získat data z libovolných dvou ze tří hraničních světů. Proč je to zajímavé: Výzkum naznačuje, že samotná architektura časoprostoru a vznik vesmírů mohou stát na stejných matematických základech jako kvantové počítače odolné vůči chybám.",

@@ -1,8 +1,38 @@
 [
   {
+    "id": "apod-2026-10-03",
+    "title": "Selfie na hřebeni Vera Rubin",
+    "caption": "Během 1943. marsovského dne (23. ledna 2018) pořizovalo vozítko Curiosity toto selfie u jižního okraje hřebene Vera Rubin. Mozaikové panoráma se skládá ze 61 snímků z kamery MAHLI, ze kterých bylo digitálně odstraněno rameno s přístrojem, a je doplněno pozadím zachyceným kamerou Mastcam během solu 1903. Na vrcholu stěžně vozítka zakrývá pouzdro laserového přístroje ChemCam vzdálený, pět kilometrů vysoký vrchol hory Mount Sharp.",
+    "thumb": "assets/gallery/apod-2026-10-03.jpg",
+    "image": "assets/gallery/apod-2026-10-03.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
+    "published": "2026-10-03",
+    "credit": "Image Credit: NASA, JPL-Caltech, MSSS - Panorama: Andrew Bodrov",
+    "original_title": "Selfie at Vera Rubin Ridge",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-10-03T07:34:31.486920+00:00"
+  },
+  {
+    "id": "apod-2026-10-02",
+    "title": "Kompletní Sharplessův katalog: 313 mlhovin",
+    "caption": "Tento snímek zachycuje celý Sharplessův katalog oblastí H II čítající 313 objektů, mezi nimiž najdete známé mlhoviny jako Orlí, Srdce či Orion. Kromě oblasti ionizovaného vodíku katalog obsahuje i planetární mlhoviny (Medúza) nebo pozůstatky po supernovách (Špagetová mlhovina). Astrofotograf Bing Xin objekty zachytil z temných oblastí Číny a Vnitřního Mongolska, přičemž fotografování jednoho objektu trvalo 2 až 6 hodin.",
+    "thumb": "assets/gallery/apod-2026-10-02.jpg",
+    "image": "assets/gallery/apod-2026-10-02.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+    "published": "2026-10-02",
+    "credit": "Bing Xin",
+    "original_title": "The Complete Sharpless Catalog: 313 Nebulas",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-10-03T07:34:31.486920+00:00"
+  },
+  {
     "id": "apod-2026-10-01",
-    "title": "Sklizňový úplněk s erupcí sopky Etna",
-    "caption": "Tento pestrobarevný složený snímek ze Sicílie zachycuje východ Měsíce v úplňku, zatímco se na pozadí z erumpující sopky Etna zvedá popel a plyn. Nižší mraky odrážejí barvy protisoumraku spolu s růžovým Venušiným pásem, přičemž Měsíc v úplňku vychází právě při západu Slunce. Záříjovému úplňku se v některých kulturách na severní polokouli tradičně říká sklizňový úplněk.",
+    "title": "Sklizňový úplněk nad soptící Etnou",
+    "caption": "Tento složený snímek zachycuje východ zářijového úplňku, v některých kulturách nazývaného sklizňový, nedaleko sicilského města Nicosia. Nižší mraky odrážejí barvy protisoumraku včetně růžového Venušina pásu, zatímco výše v pozadí stoupá popel a plyn ze soptící Etny. Při úplňku jsou Měsíc a Slunce na obloze v opozici, takže Měsíc vychází přesně ve chvíli, kdy Slunce zapadá.",
     "thumb": "assets/gallery/apod-2026-10-01.jpg",
     "image": "assets/gallery/apod-2026-10-01.jpg",
     "source": "NASA APOD",
@@ -12,12 +42,12 @@
     "original_title": "Harvest Moon with Erupting Mount Etna",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-02T07:33:43.611906+00:00"
+    "inserted_at": "2026-10-03T07:34:31.486920+00:00"
   },
   {
     "id": "apod-2026-09-30",
-    "title": "Arp 78: Podivná galaxie v Beranovi",
-    "caption": "Podivná spirální galaxie Arp 78, známá též jako NGC 772, leží v souhvězdí Berana ve vzdálenosti zhruba 100 milionů světelných let a v průměru měří 200 000 světelných let. Na tomto detailním portrétu vyniká její výrazné vnější spirální rameno lemované prachovými pásy a mladými modrými hvězdokupami. Za přebujelý tvar tohoto ramene mohou galaktické slapové síly způsobené gravitační interakcí s kompaktnější průvodcovskou galaxií NGC 770, která je patrná přímo pod ní.",
+    "title": "Arp 78: Peculiární galaxie v souhvězdí Berana",
+    "caption": "Peculiární spirální galaxie Arp 78, známá také jako NGC 772, leží asi 100 milionů světelných let daleko v souhvězdí Berana a dosahuje průměru 200 000 světelných let. Na tomto detailním snímku vyniká její dominantní vnější spirální rameno protkané prachovými pásy a mladými modrými hvězdokupami, které bylo vybudzeno galaktickými slapovými silami. Za tyto deformace jsou pravděpodobně zodpovědné interakce s jejím nejjasnějším průvodcem, kompaktnější galaxií NGC 770 viditelnou přímo pod hlavní spirál",
     "thumb": "assets/gallery/apod-2026-09-30.jpg",
     "image": "assets/gallery/apod-2026-09-30.jpg",
     "source": "NASA APOD",
@@ -27,12 +57,12 @@
     "original_title": "Arp 78: Peculiar Galaxy in Aries",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-02T07:33:43.611906+00:00"
+    "inserted_at": "2026-10-03T07:34:31.486920+00:00"
   },
   {
     "id": "apod-2026-09-29",
     "title": "Sh2-188: Mlhovina Kreveta",
-    "caption": "Mlhovina Kreveta (Sh2-188) patří k úhlově největším planetárním mlhovinám na obloze a dosahuje přibližně poloviny průměru Měsíce. Její centrální bílý trpaslík se pohybuje neobvykle rychle mezihvězdným prostorem, čímž vytváří rázovou vlnu viditelnou vlevo nahoře, jež připomíná vlnu rozráženou přídí lodi. Tento snímek zachycující záření vodíku, síry a kyslíku pořídil amatérský dalekohled v polském Krakově.",
+    "caption": "Sh2-188 (mlhovina Kreveta) patří díky úhlové velikosti dosahující přibližně poloviny průměru Měsíce k největším planetárním mlhovinám na noční obloze. Její centrální bílý trpaslík se pohybuje mezihvězdným prostorem neobvykle rychle a vytváří rázovou vlnu podobnou brázdě za lodí, v níž stlačený plyn vlevo nahoře jasně září. Tento snímek zachycující světlo vodíku, síry a kyslíku pořídil amatérský teleskop v polském Krakově.",
     "thumb": "assets/gallery/apod-2026-09-29.jpg",
     "image": "assets/gallery/apod-2026-09-29.jpg",
     "source": "NASA APOD",
@@ -42,7 +72,7 @@
     "original_title": "Sh2-188: The Shrimp Nebula",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-02T07:33:43.611906+00:00"
+    "inserted_at": "2026-10-03T07:34:31.486920+00:00"
   },
   {
     "id": "apod-2026-09-13",
