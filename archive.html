@@ -59,7 +59,7 @@
       font-size: 0.95rem;
     }
     .signup-box {
-      max-width: 440px;
+      max-width: 560px;
       margin: 0 auto;
       background: rgba(21, 27, 45, 0.75);
       border: 1px solid #1e293b;
@@ -68,7 +68,12 @@
     }
     .signup-box p {
       margin: 0 0 0.65rem;
-      font-size: 0.9rem;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    .signup-note {
+      margin: 0.55rem 0 0;
+      font-size: 0.78rem;
       color: var(--muted);
     }
     .signup-form {
@@ -261,16 +266,17 @@
     </nav>
     
     <div class="signup-box">
-      <p>Chceš dostávat týdenní přehled novinek emailem?</p>
+      <p>Jednou týdně ti přijde souhrn: tři věty, co se v kosmologii změnilo, a odkaz na článek.</p>
       <form
         action="https://buttondown.com/api/emails/embed-subscribe/zdenek"
         method="post"
         class="embeddable-buttondown-form signup-form"
       >
-        <label for="bd-email">Enter your email</label>
-        <input type="email" name="email" id="bd-email" placeholder="tvuj@email.cz" required />
-        <input type="submit" value="Odebírat" />
+        <label for="bd-email-archive">E-mail pro týdenní souhrn</label>
+        <input type="email" name="email" id="bd-email-archive" placeholder="tvuj@email.cz" required />
+        <input type="submit" value="Chci týdenní souhrn" />
       </form>
+      <p class="signup-note">Žádný denní spam. Jeden e-mail týdně, odhlášení v patičce mailu.</p>
     </div>
   </header>
 
@@ -289,7 +295,7 @@
   </main>
 
   <footer>
-    Data z arXiv + RSS · Aktualizace každý den do 9:30 · Historie se uchovává
+    Web se aktualizuje každý den do 9:30 · Souhrn e-mailem jednou týdně · Data z arXiv + RSS
   </footer>
 
   <script>
