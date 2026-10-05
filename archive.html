@@ -114,7 +114,7 @@
       margin: 0 auto;
       padding: 1.5rem 1rem 3rem;
     }
-    .filter-bar { display: none; margin: 0 0 1.1rem; }
+    .filter-bar { display: block; margin: 0 0 1.1rem; }
     .filter-row {
       display: flex;
       align-items: center;
@@ -277,7 +277,7 @@
   </header>
 
   <main>
-    <div class="filter-bar" id="filter-bar" hidden>
+    <div class="filter-bar" id="filter-bar">
       <div class="filter-row">
         <label for="news-filter" style="position:absolute;left:-9999px">Hledat v archivu</label>
         <input type="search" id="news-filter" placeholder="Hledat v archivu…" autocomplete="off" spellcheck="false">
@@ -359,6 +359,26 @@
     }
 
     let allOlder = [];
+
+    function wireFilter() {
+      const bar = document.getElementById('filter-bar');
+      const input = document.getElementById('news-filter');
+      const clearBtn = document.getElementById('filter-clear');
+      bar.hidden = false;
+      bar.style.display = 'block';
+      input.value = queryFromUrl();
+
+      let timer = null;
+      input.addEventListener('input', () => {
+        clearTimeout(timer);
+        timer = setTimeout(applyFilter, 150);
+      });
+      clearBtn.addEventListener('click', () => {
+        input.value = '';
+        applyFilter();
+        input.focus();
+      });
+    }
 
     function applyFilter() {
       const input = document.getElementById('news-filter');
@@ -442,6 +462,9 @@
 
         if (!items || items.length === 0) {
           content.innerHTML = '<p class="empty">Archiv je zatím prázdný.</p>';
+          wireFilter();
+          if (queryFromUrl()) applyFilter();
+          else document.getElementById('filter-meta').textContent = '0 v archivu';
           return;
         }
 
@@ -459,27 +482,13 @@
           content.innerHTML = `
             <p class="empty">Zatím žádné starší příspěvky. Archiv se začne plnit po uplynutí dvou měsíců.</p>
             <p style="text-align:center"><a href="index.html">← Zpět na aktuální novinky</a></p>`;
+          wireFilter();
+          if (queryFromUrl()) applyFilter();
+          else document.getElementById('filter-meta').textContent = '0 v archivu';
           return;
         }
 
-        const bar = document.getElementById('filter-bar');
-        const input = document.getElementById('news-filter');
-        const clearBtn = document.getElementById('filter-clear');
-        bar.hidden = false;
-        bar.style.display = 'block';
-        input.value = queryFromUrl();
-
-        let timer = null;
-        input.addEventListener('input', () => {
-          clearTimeout(timer);
-          timer = setTimeout(applyFilter, 150);
-        });
-        clearBtn.addEventListener('click', () => {
-          input.value = '';
-          applyFilter();
-          input.focus();
-        });
-
+        wireFilter();
         applyFilter();
       } catch (e) {
         content.innerHTML = `<p class="empty">Nepodařilo se načíst data.<br><small>${escapeHtml(e.message)}</small></p>`;
