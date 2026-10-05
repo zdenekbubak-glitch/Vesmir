@@ -59,7 +59,7 @@
       font-size: 0.95rem;
     }
     .signup-box {
-      max-width: 560px;
+      max-width: 720px;
       margin: 0 auto;
       background: rgba(21, 27, 45, 0.75);
       border: 1px solid #1e293b;
@@ -70,6 +70,7 @@
       margin: 0 0 0.65rem;
       font-size: 0.95rem;
       color: var(--muted);
+      white-space: nowrap;
     }
     .signup-form {
       display: flex;
@@ -203,6 +204,7 @@
       .logo-wrapper { flex-direction: column; gap: 0.45rem; }
       .logo-wrapper img { height: 64px; width: 64px; }
       .logo-text h1 { font-size: 1.45rem; }
+      .signup-box p { white-space: normal; }
     }
   </style>
   <script>
@@ -261,7 +263,7 @@
     </nav>
     
     <div class="signup-box">
-      <p>Týdenní výběr editora: čtyři až pět nejzajímavějších příspěvků v plném znění, jak jsou na webu.</p>
+      <p>Týdenní výběr editora: čtyři až pět nejzajímavějších příspěvků v plném znění.</p>
       <form
         action="https://buttondown.com/api/emails/embed-subscribe/zdenek"
         method="post"
