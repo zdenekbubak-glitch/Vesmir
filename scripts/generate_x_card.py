@@ -26,6 +26,12 @@ ACCENT = (110, 168, 254)
 BORDER = (30, 41, 59)
 LOGO_SIZE = 88
 
+BODY_SIZE = 26
+BODY_LEADING = 38
+BODY_MAX_WIDTH = W - 120
+FOOTER_Y = H - 92
+BODY_BOTTOM = FOOTER_Y - 28
+
 
 def load_font(size, bold=False):
     candidates = [
@@ -74,32 +80,27 @@ def _strip_tex(text: str) -> str:
     return text.strip()
 
 
-def hook_from_summary(summary, max_len=220):
-    """Jedna až dvě celé věty. Nikdy neřízne uprostřed věty."""
+def body_text(summary: str) -> str:
+    """Celé shrnutí bez závěrečné věty „Proč je to zajímavé“."""
     text = _strip_tex((summary or "").strip())
     if "Proč je to zajímavé:" in text:
         text = text.split("Proč je to zajímavé:")[0].strip()
+    return text
 
-    parts = [p.strip() for p in re.split(r"(?<=[.!?])\s+", text) if p.strip()]
-    if not parts:
-        return ""
 
-    first = parts[0]
-    if not first.endswith((".", "!", "?")):
-        first += "."
+def fit_body(text, font, draw, max_lines):
+    """Vyplní daný počet řádků. Když se text nevejde celý, končí třemi tečkami."""
+    lines = wrap(text, font, BODY_MAX_WIDTH, draw)
+    if len(lines) <= max_lines:
+        return lines
 
-    hook = first
-    if len(parts) >= 2:
-        second = parts[1]
-        if not second.endswith((".", "!", "?")):
-            second += "."
-        combined = hook + " " + second
-        if len(combined) <= max_len:
-            hook = combined
-
-    if len(hook) > max_len:
-        hook = first
-    return hook
+    lines = lines[:max_lines]
+    last = lines[-1].rstrip(" .,;:")
+    ellipsis = "..."
+    while last and draw.textlength(last + ellipsis, font=font) > BODY_MAX_WIDTH:
+        last = last.rsplit(" ", 1)[0]
+    lines[-1] = (last + ellipsis) if last else ellipsis
+    return lines
 
 
 def paste_rounded_logo(img, logo_path, xy, size):
@@ -144,7 +145,7 @@ def generate(item=None, out_path=OUT_PATH):
 
     font_brand = load_font(30)
     font_title = load_font(36, bold=True)
-    font_body = load_font(26)
+    font_body = load_font(BODY_SIZE)
     font_footer = load_font(24)
 
     draw.text((160, 70), "Kosmologické novinky", font=font_brand, fill=MUTED)
@@ -156,14 +157,15 @@ def generate(item=None, out_path=OUT_PATH):
         draw.text((56, y), line, font=font_title, fill=TEXT)
         y += 48
 
-    hook = hook_from_summary(item.get("summary", ""))
-    hook_lines = wrap(hook, font_body, W - 120, draw)[:4]
-    y = 292
+    body_y = y + 18
+    max_lines = max(1, (BODY_BOTTOM - body_y) // BODY_LEADING)
+    hook = body_text(item.get("summary", ""))
+    hook_lines = fit_body(hook, font_body, draw, max_lines)
     for line in hook_lines:
-        draw.text((56, y), line, font=font_body, fill=MUTED)
-        y += 40
+        draw.text((56, body_y), line, font=font_body, fill=MUTED)
+        body_y += BODY_LEADING
 
-    draw.text((56, H - 92), "Celé shrnutí  ->  " + SITE_URL, font=font_footer, fill=ACCENT)
+    draw.text((56, FOOTER_Y), "Celé shrnutí  ->  " + SITE_URL, font=font_footer, fill=ACCENT)
 
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -172,6 +174,7 @@ def generate(item=None, out_path=OUT_PATH):
         img.save(PREVIEW_PATH, quality=92)
     print(f"Karta uložena: {out_path}")
     print(f"Titulek: {title}")
+    print(f"Řádků textu: {len(hook_lines)} / {max_lines}")
     return img
 
 
