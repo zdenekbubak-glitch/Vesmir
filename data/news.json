@@ -1,5 +1,65 @@
 [
   {
+    "id": "2610.12308v1",
+    "title": "Uvnitř černé skříňky: Jak neuronové sítě hledají gravitační vlny",
+    "summary": "Vědci stále častěji využívají metody strojového učení založené na simulacích (SBI) k řešení složitých výzev při analýze dat z detektorů gravitačních vln. Tyto algoritmy dokáží výrazně zlepšit detekci anizotropií v pozadí gravitačních vln měřeném pomocí sítí pulsarů (PTA). Ačkoli neuronové sítě dosahují vynikajících výsledků, jejich vnitřní fungování často připomíná neprůhlednou černou skříňku. Autorský tým v této práci využívá jednoduchý názorný model pulsarové sítě k pedagogickému vysvětlení toho, jak se umělá inteligence z dat učí a za jakých konkrétních podmínek dokáže překonat klasické statistické metody detekce.\nProč je to zajímavé: Studie stahuje závoj tajemna z využití pokročilé AI v astrofyzice a ukazuje, jak lze díky pochopení logiky neuronových sítí dosáhnout spolehlivějšího objevování skrytých struktur časoprostoru.",
+    "url": "http://arxiv.org/abs/2610.12308v1",
+    "source": "arXiv",
+    "original_title": "Opening the Black Box: What Neural Networks Learn from Pulsar Timing Array Data",
+    "published": "2026-10-08T16:57:33+00:00",
+    "inserted_at": "2026-10-09T09:44:50.080136+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.12284v1",
+    "title": "Zrození bublin v raném vesmíru: Přesnější pohled na fázové přechody",
+    "summary": "V raném vesmíru docházelo k fázovým přechodům, při nichž se prostorem šířily bubliny nové fáze časoprostoru. Fyzikové v nové studii zkoumali, jak přesně tyto bubliny vznikají během takzvaných silně podchlazených přechodů. Zaměřili se na vliv operátorů vyšších dimenzí v efektivní teorii pole, jež zachycují složité kvantové a tepelné opravy. Pomocí nových matematických postupů spočítali rychlost tvorby bublin i klíčové vlastnosti přechodu. Ukázalo se, že tyto komplexní teoretické opravy ovlivňují samotnou rychlost vzniku bublin jen minimálně. Práce navíc jasně vymezila, kdy je dosavadní vysokoteplotní teorie spolehlivá. Proč je to zajímavé: Tento výsledek zjednodušuje teoretické předpovědi pro budoucí detektory gravitačních vln, které by mohly stopy po těchto prastarých kosmických bublinách zachytit.",
+    "url": "http://arxiv.org/abs/2610.12284v1",
+    "source": "arXiv",
+    "original_title": "Bubble nucleation with thermal higher-dimensional operators",
+    "published": "2026-10-08T16:40:41+00:00",
+    "inserted_at": "2026-10-09T09:44:50.080136+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.12262v1",
+    "title": "Černé díry jako tekutiny: Symetrie horizontu a kvantový chaos",
+    "summary": "Teoretická fyzika využívá princip holografie, díky němuž lze složitou gravitaci černých děr popsat pomocí zákonů hydrodynamiky jako proudění exotické tekutiny. Tato studie ukazuje, že geometrické symetrie existující v těsné blízkosti horizontu událostí se přímo promítají do rovnic řídících toto hydrodynamické proudění. Autoři ověřili tento matematický aparát na modelech gravitace v nižších dimenzích (JT a AdS₃) a dokázali, že zachování hraničních podmínek na horizontu vede k novému typu symetrií. Tyto symetrie přesně odpovídají teoretickým předpovědím pro systémy s takzvaným maximálním kvantovým chaosem. Proč je to zajímavé: Výzkum staví elegantní most mezi geometrií černých děr a teoretickou fyzikou tekutin, což přináší hlubší vhled do toho, jak černé díry extrémně rychle rozptylují kvantové informace.",
+    "url": "http://arxiv.org/abs/2610.12262v1",
+    "source": "arXiv",
+    "original_title": "Horizon symmetries of exact hydrodynamic actions",
+    "published": "2026-10-08T16:29:41+00:00",
+    "inserted_at": "2026-10-09T09:44:50.080136+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.12259v1",
+    "title": "Jak lépe mapovat vesmír? Model BOLTS zpřesňuje vztah galaxií a temné hmoty",
+    "summary": "Astrofyzici představili nový matematický model BOLTS, který zpřesňuje náš pohled na to, jak galaxie kopírují rozložení temné hmoty ve vesmíru. Na rozdíl od tradičních deterministických modelů přistupuje k tomuto vztahu jako k náhodnému poli, čímž už od základu započítává složité lokální i vzdálené interakce. Model byl úspěšně ověřen na hydrodynamických simulacích FLAMINGO, kde bez jakéhokoli dolaďování dokázal přesně předpovědět i pokročilé trojbodové korelace galaxií. BOLTS tak představuje klíčový nástroj pro přímé modelování celých map oblohy, který výrazně zpřesní analýzu obrovského množství dat z chystaných přehlídek vesmíru pomocí teleskopů Euclid, Rubin LSST a Roman. Proč je to zajímavé: Metoda umožňuje testovat kosmologické teorie přímo na kompletních snímcích oblohy s dosud nedosažitelnou přesností.",
+    "url": "http://arxiv.org/abs/2610.12259v1",
+    "source": "arXiv",
+    "original_title": "An analytical model for non-local stochastic field-level galaxy bias on the sphere",
+    "published": "2026-10-08T16:28:52+00:00",
+    "inserted_at": "2026-10-09T09:44:50.080136+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.12225v1",
+    "title": "Kvantová fyzika v pěti dimenzích: Hranice asymptotické bezpečnosti",
+    "summary": "Může kvantová teorie pole fungovat i ve více než čtyřech dimenzích? Teorie asymptotické bezpečnosti naznačuje, že ano, pokud fyzikální interakce dosáhnou při vysokých energiích stabilního bodu. Nový výzkum zkoumá kalibrační teorie v pěti dimenzích pomocí pokročilých vícesmyčkových výpočtů. Autoři mapují hranice, kde teorie zůstává matematicky konzistentní. Zjistili, že při započtení tří smyček dochází ke splynutí a zániku fixních bodů, což vymezuje povolené vlastnosti částic pro stavbu pětidimenzionálních modelů. Čtyřsmyčkový výpočet však ukazuje, že stabilní bod může přetrvat, což otevírá další otázky o chování teorií ve vyšších řádech. Proč je to zajímavé: Tento výzkum pomáhá určovat, zda extra dimenze mohou nabídnout matematicky smysluplný základ pro fyzikální modely mikrosvěta a kvantové gravitace.",
+    "url": "http://arxiv.org/abs/2610.12225v1",
+    "source": "arXiv",
+    "original_title": "Asymptotic Safety in Gauge Theories beyond Four Dimensions: Perturbative Tests and Fixed-Point Mergers",
+    "published": "2026-10-08T16:11:54+00:00",
+    "inserted_at": "2026-10-09T09:44:50.080136+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2610.12443v1",
     "title": "Záhada v detektoru LUX-ZEPLIN: Nové vysvětlení temné hmoty",
     "summary": "Detektor temné hmoty LUX-ZEPLIN (LZ) zachytil neobvyklý energetický signál o hodnotě 248 keV. Tento přebytek událostí naznačuje neelastický rozptyl, při němž se částice temné hmoty při srážce s atomovým jádrem přemění na svůj o něco těžší stav. Fyzici v nové studii navrhují teoretické vysvětlení rozšířením Standardního modelu o novou kalibrační symetrii a dvě skalární pole. Tento mechanismus přirozeně vysvětluje potřebný hmotnostní rozdíl částic temné hmoty a výborně odpovídá pozorovaným datům, aniž by porušoval jiné částicové a kosmologické limity. Model zároveň nabízí konkrétní předpovědi, které bude možné testovat v budoucích experimentech. Proč je to zajímavé: Neobvyklý signál v LZ může být prvním hmatatelným vodítkem k odhalení zcela nových sil a částic, které tvoří většinu hmoty ve vesmíru.",
