@@ -1,8 +1,8 @@
 [
   {
     "id": "apod-2026-10-01",
-    "title": "Sklizňový úplněk s erumpující Etnou",
-    "caption": "Tento složený snímek pořízený na Sicílii zachycuje východ sklizňového úplňku, zatímco se v pozadí k obloze zvedá popel a plyn z erumpující sopky Etny. Nižší mraky odrážejí barvy protisoumraku a růžový pruh níže nad obzorem se nazývá Venušin pás. Při úplňku jsou Měsíc a Slunce na obloze v opozici, takže Měsíc vychází přesně během západu Slunce.",
+    "title": "Sklizňový úplněk nad soptící Etnou",
+    "caption": "Tento pestrobarevný složený snímek pořízený na Sicílii zachycuje východ Měsíce v úplňku, zatímco obloha tmavne a ze sopky Etna v pozadí stoupá popel a plyn. Nižší mraky odrážejí barvy protisoumraku a růžový pruh nad obzorem se nazývá Venušin pás. Záříjový úplněk je v některých kulturách na severní polokouli známý jako sklizňový úplněk.",
     "thumb": "assets/gallery/apod-2026-10-01.jpg",
     "image": "assets/gallery/apod-2026-10-01.jpg",
     "source": "NASA APOD",
@@ -12,12 +12,12 @@
     "original_title": "Harvest Moon with Erupting Mount Etna",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-09T09:46:18.284570+00:00"
+    "inserted_at": "2026-10-09T10:38:15.405182+00:00"
   },
   {
     "id": "apod-2026-09-30",
-    "title": "Arp 78: Podivná galaxie v souhvězdí Berana",
-    "caption": "Podivná spirální galaxie Arp 78, známá také jako NGC 772, leží přibližně 100 milionů světelných let daleko v souhvězdí Berana a dosahuje obřího průměru 200 000 světelných let. Na tomto detailním snímku vyniká její výrazné vnější spirální rameno protkané prachovými pásy a mladými modrými hvězdokupami, které je deformováno galaktickými slapovými silami. Za tuto změnu tvaru je pravděpodobně zodpovědná gravitační interakce s kompaktnější sousední galaxií NGC 770, jež se nachází přímo pod ní.",
+    "title": "Arp 78: Podivuhodná galaxie v Beranovi",
+    "caption": "Podivuhodná spirální galaxie Arp 78, známá také jako NGC 772, se nachází v souhvězdí Berana přibližně 100 milionů světelných let od nás a její průměr dosahuje 200 000 světelných let. Na tomto detailním snímku vyniká její výrazné vnější spirální rameno lemované prachovými pásy a mladými modrými hvězdokupami. Zvětšený tvar ramene má pravděpodobně na svědomí gravitační interakce s kompaktnější průvodcovskou galaxií NGC 770, která leží přímo pod hlavní spirálou.",
     "thumb": "assets/gallery/apod-2026-09-30.jpg",
     "image": "assets/gallery/apod-2026-09-30.jpg",
     "source": "NASA APOD",
@@ -27,12 +27,12 @@
     "original_title": "Arp 78: Peculiar Galaxy in Aries",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-09T09:46:18.284570+00:00"
+    "inserted_at": "2026-10-09T10:38:15.405182+00:00"
   },
   {
     "id": "apod-2026-09-29",
     "title": "Sh2-188: Mlhovina Kreveta",
-    "caption": "Planetární mlhovina Sh2-188, známá jako Kreveta, patří díky úhlové velikosti dosahující poloviny průměru Měsíce k největším na noční obloze. Její centrální bílý trpaslík se mezihvězdným prostorem pohybuje neobvykle rychle a vytváří rázovou vlnu připomínající loď rozrážející vodu, která stlačuje a rozsvěcuje plyn na jejím předním okraji. Tento snímek zachycující záření vodíku, síry a kyslíku pořídil amatérský teleskop z polského Krakova.",
+    "caption": "Mlhovina Sh2-188 (Kreveta) patří k úhlově největším planetárním mlhovinám na obloze a její jádro v podobě bílého trpaslíka se mezihvězdným prostorem pohybuje neobvykle rychle. Tento rychlý pohyb vytváří rázovou vlnu připomínající brázdu za lodí, jež stlačuje a rozjasňuje plyn na náběžné hraně. Snímek pořízený amatérským dalekohledem v Krakově zachycuje světlo vodíku, síry a kyslíku v přibližně reálných barvách.",
     "thumb": "assets/gallery/apod-2026-09-29.jpg",
     "image": "assets/gallery/apod-2026-09-29.jpg",
     "source": "NASA APOD",
@@ -42,7 +42,7 @@
     "original_title": "Sh2-188: The Shrimp Nebula",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-09T09:46:18.284570+00:00"
+    "inserted_at": "2026-10-09T10:38:15.405182+00:00"
   },
   {
     "id": "apod-2026-10-09",
