@@ -1,8 +1,23 @@
 [
   {
+    "id": "apod-2026-10-10",
+    "title": "Odvrácená strana Měsíce",
+    "caption": "V důsledku vázané rotace ukazuje Měsíc obyvatelům Země stále jen přivrácenou stranu, z oběžné dráhy je však dobře patrná i strana odvrácená. Tato ostrá mozaika ze širokoúhlé kamery sondy Lunar Reconnaissance Orbiter zachycuje právě odvrácenou stranu Měsíce v rozlišení až 100 metrů na pixel. Její drsný a krátery posetý povrch se od přivrácené strany s tmavými moři výrazně liší, což je pravděpodobně způsobeno silnější měsíční kůrou.",
+    "thumb": "assets/gallery/apod-2026-10-10.jpg",
+    "image": "assets/gallery/apod-2026-10-10.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/",
+    "published": "2026-10-10",
+    "credit": "NASA / GSFC / Arizona State Univ. / Lunar Reconnaissance Orbiter",
+    "original_title": "Lunar Farside",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-10-10T07:31:41.650542+00:00"
+  },
+  {
     "id": "apod-2026-10-01",
-    "title": "Sklizňový úplněk s erupcí Etny",
-    "caption": "Tento složený snímek pořízený na Sicílii zachycuje východ záříjového sklízňového úplňku nad městem Nicosia v momentě, kdy Slunce zapadá a obloha potemňuje. Nižší mraky odrážejí barvy protisoumraku s charakteristickým růžovým Venušiným pásem, zatímco výše v pozadí stoupá popel a plyn ze soptící Etny.",
+    "title": "Sklizňový úplněk a soptící Etna",
+    "caption": "Tento složený snímek zachycuje východ sklizňového úplňku nad sicilským městem Nicosia na pozadí plynu a popela stoupajícího ze soptící Etny. Nižší mraky odrážejí barvy protisoumraku, zatímco růžový pruh v dolní části oblohy se nazývá Venušin pás. Zářijový úplněk se v některých kulturách na severní polokouli tradičně označuje jako sklizňový.",
     "thumb": "assets/gallery/apod-2026-10-01.jpg",
     "image": "assets/gallery/apod-2026-10-01.jpg",
     "source": "NASA APOD",
@@ -12,12 +27,12 @@
     "original_title": "Harvest Moon with Erupting Mount Etna",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-09T11:21:14.736475+00:00"
+    "inserted_at": "2026-10-10T07:31:41.650542+00:00"
   },
   {
     "id": "apod-2026-09-30",
-    "title": "Arp 78: Pekuliární galaxie v souvězdí Berana",
-    "caption": "Pekuliární spirální galaxie Arp 78 (známá též jako NGC 772) se nachází přibližně 100 milionů světelných let daleko v souvězdí Berana a napříč měří úctyhodných 200 000 světelných let. Na tomto detailním portrétu vyniká její výrazné vnější spirální rameno protkané prachovými pásy a mladými modrými hvězdokupami, které je deformováno galaktickými slapovými silami. Za to jsou velmi pravděpodobně zodpovědné gravitační interakce s kompaktnější průvodcovskou galaxií NGC 770, jež je vidět přímo pod ní.",
+    "title": "Arp 78: Peculiární galaxie v souhvězdí Berana",
+    "caption": "Peculiární spirální galaxie Arp 78 (známá též jako NGC 772) se nachází v souhvězdí Berana přibližně 100 milionů světelných let od nás a napříč měří přes 200 000 světelných let. Na tomto detailním snímku vyniká její dominantní vnější spirální rameno protkané prachovými pásy a modrými hvězdokupami, které deformují galaktické slapové síly. Za tuto výraznou strukturu jsou pravděpodobně zodpovědné gravitační interakce s kompaktnější průvodcovskou galaxií NGC 770, ležící přímo pod ní.",
     "thumb": "assets/gallery/apod-2026-09-30.jpg",
     "image": "assets/gallery/apod-2026-09-30.jpg",
     "source": "NASA APOD",
@@ -27,12 +42,12 @@
     "original_title": "Arp 78: Peculiar Galaxy in Aries",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-09T11:21:14.736475+00:00"
+    "inserted_at": "2026-10-10T07:31:41.650542+00:00"
   },
   {
     "id": "apod-2026-09-29",
     "title": "Sh2-188: Mlhovina Kreveta",
-    "caption": "Mlhovina Kreveta (Sh2-188) patří svou úhlovou velikostí, jež dosahuje zhruba poloviny průměru Měsíce, k největším planetárním mlhovinám na noční obloze. Její centrální bílý trpaslík se mezihvězdným prostorem pohybuje neobvykle rychle a vytváří rázovou vlnu podobnou přídním vlnám lodi, která stlačuje a zjasňuje plyn na jejím předním okraji. Tento snímek zachycující záření vodíku, síry a kyslíku pořídil amatérský dalekohled v polském Krakově.",
+    "caption": "Planetární mlhovina Sh2-188, nazývaná Kreveta, patří svou úhlovou velikostí k těm větším na noční obloze a dosahuje přibližně poloviny průměru Měsíce. Její centrální bílý trpaslík se mezihvězdným prostorem pohybuje neobvykle rychle, čímž na předním okraji stlačuje plyn a vytváří rázovou vlnu připomínající brázdu za lodí. Tento snímek pořízený amatérským dalekohledem v polském Krakově ve světle vodíku, síry a kyslíku přibližuje skutečné barvy mlhoviny.",
     "thumb": "assets/gallery/apod-2026-09-29.jpg",
     "image": "assets/gallery/apod-2026-09-29.jpg",
     "source": "NASA APOD",
@@ -42,7 +57,7 @@
     "original_title": "Sh2-188: The Shrimp Nebula",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-09T11:21:14.736475+00:00"
+    "inserted_at": "2026-10-10T07:31:41.650542+00:00"
   },
   {
     "id": "apod-2026-10-09",
