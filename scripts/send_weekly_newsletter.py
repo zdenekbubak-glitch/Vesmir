@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pondělní výběr 5 článků a koncept newsletteru v Buttondownu.
+"""Pondělní výběr 5 článků a odeslání newsletteru v Buttondownu.
 
 Okno: úterý 0:00 až pondělí 10:00, čas Praha.
 Secrets: BUTTONDOWN_API_KEY, GEMINI_API_KEY
@@ -19,8 +19,8 @@ PRAGUE = ZoneInfo("Europe/Prague")
 GEMINI_MODEL = "gemini-3.6-flash"
 BUTTONDOWN_URL = "https://api.buttondown.com/v1/emails"
 PICK = 5
-# draft = jen koncept. Až bude výběr sedět, změň na "about".
-EMAIL_STATUS = "draft"
+# about_to_send = okamžité odeslání odběratelům. draft = jen koncept.
+EMAIL_STATUS = "about_to_send"
 
 
 def week_window(now: datetime) -> tuple[datetime, datetime]:
@@ -156,14 +156,18 @@ def main():
         print(f"- {item.get('title')}")
     response = requests.post(
         BUTTONDOWN_URL,
-        headers={"Authorization": f"Token {button_key}", "Content-Type": "application/json"},
+        headers={
+            "Authorization": f"Token {button_key}",
+            "Content-Type": "application/json",
+            "X-Buttondown-Live-Dangerously": "true",
+        },
         json={"subject": subject, "body": body, "status": EMAIL_STATUS},
         timeout=60,
     )
     if response.status_code >= 300:
         raise SystemExit(f"Buttondown {response.status_code}: {response.text[:500]}")
     email_id = response.json().get("id")
-    print(f"Uloženo jako {EMAIL_STATUS}: {email_id}")
+    print(f"Odesláno jako {EMAIL_STATUS}: {email_id}")
 
 
 if __name__ == "__main__":
