@@ -64,6 +64,90 @@ jobs:
             echo "Push OK."
           fi
 
+      - name: Post daily card to X via Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python3 << 'EOF'
+          import json, os, datetime, requests
+          from pathlib import Path
+
+          api_key = os.environ.get("BUFFER_API_KEY")
+          if not api_key:
+              print("Chybí BUFFER_API_KEY")
+              exit(0)
+
+          news_path = Path("data/news.json")
+          if not news_path.exists():
+              print("news.json nenalezen")
+              exit(0)
+
+          items = json.loads(news_path.read_text())
+          today = datetime.date.today().isoformat()
+          today_items = [i for i in items if (i.get("inserted_at") or "")[:10] == today]
+          if not today_items:
+              print("Dnes žádná nová položka – kartu neposílám.")
+              exit(0)
+
+          # Preferuj český text
+          item = next((i for i in today_items if i.get("lang") == "cs"), today_items[0])
+          title = (item.get("title") or "").strip()
+          summary = (item.get("summary") or "").strip()
+          if "Proč je to zajímavé:" in summary:
+              summary = summary.split("Proč je to zajímavé:")[0].strip()
+          # Zkrať souhrn na rozumnou délku pro tweet
+          if len(summary) > 180:
+              summary = summary[:177].rsplit(" ", 1)[0] + "…"
+
+          main_text = f"{title}\n\n{summary}" if summary else title
+          card_url = f"https://raw.githubusercontent.com/zdenekbubak-glitch/Vesmir/main/assets/cards/daily.jpg?v={today}"
+
+          mutation = """
+          mutation CreateThread($input: CreatePostInput!) {
+            createPost(input: $input) {
+              ... on PostActionSuccess { post { id status } }
+              ... on MutationError { message }
+            }
+          }
+          """
+          variables = {
+            "input": {
+              "channelId": "6acb6eaa778b240e2fd5fb5d",
+              "schedulingType": "automatic",
+              "mode": "shareNow",
+              "text": main_text,
+              "assets": [{
+                "image": {
+                  "url": card_url,
+                  "altText": "Denní karta Kosmonovinky"
+                }
+              }],
+              "metadata": {
+                "twitter": {
+                  "thread": [
+                    {"text": main_text},
+                    {"text": "https://kosmonovinky.cz"}
+                  ]
+                }
+              }
+            }
+          }
+          headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+          }
+          r = requests.post("https://api.buffer.com", json={"query": mutation, "variables": variables}, headers=headers, timeout=30)
+          try:
+            data = r.json()
+            result = data.get("data", {}).get("createPost", {})
+            if "message" in result:
+              print(f"Buffer chyba: {result['message']}")
+            else:
+              print(f"Post odeslán: {result.get('post', {}).get('id')}")
+          except Exception as e:
+            print(f"Odpověď Bufferu: {r.text[:500]} | chyba: {e}")
+          EOF
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
