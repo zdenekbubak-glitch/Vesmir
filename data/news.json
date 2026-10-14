@@ -1,5 +1,65 @@
 [
   {
+    "id": "2610.18703v1",
+    "title": "Obří leptonové urychlovače: Nový pohled na vzácné rozpady Higgsova bosonu",
+    "summary": "Vědci zkoumali potenciál budoucích leptonových urychlovačů s vysokou energií v řádu několika TeV pro výzkum fyziky částic. Zaměřili se na procesy, při nichž vznikají dva až tři bosony současně. Tyto reakce umožňují velmi přesně testovat vzácné rozpady Higgsova bosonu na fotony a Z bosony. Pomocí efektivních teorií pole ukázali, že vysoké energie výrazně zesilují citlivost těchto měření, a to zejména u procesů se třemi bosony. Výsledné limity na novou fyziku tak překonávají očekávané možnosti rozšiřovaného urychlovače HL-LHC i plánovaného kruhového urychlovače FCC-ee. V nejvyšších energiích mohou dokonce soupeřit s navrhovaným obřím hadronovým urychlovačem FCC-hh. Proč je to zajímavé: Tento výzkum ukazuje, že vysokoenergetické leptonové urychlovače mohou nabízet srovnatelné či lepší výsledky při hledání nové fyziky než výrazně větší hadronové stroje.",
+    "url": "http://arxiv.org/abs/2610.18703v1",
+    "source": "arXiv",
+    "original_title": "Multiboson production at multi-TeV lepton colliders as complementary probes to rare Higgs decays",
+    "published": "2026-10-13T16:52:11+00:00",
+    "inserted_at": "2026-10-14T12:53:58.060722+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.18671v1",
+    "title": "Tajemství neutrin z černých děr: Jaké prvky galaxie urychlují?",
+    "summary": "Vysokoenergetická neutrina ze Seyfertových galaxií nám doplňují obrázek o urychlování částic v horkých korónách okolo supermasivních černých děr. Dosud však nebylo jasné, jaká atomová jádra se v těchto extrémních podmínkách vlastně urychlují. Nový výzkum využívá kombinaci pozorování neutrin a gama záření k modelování reakcí částic u galaxií NGC 1068 a NGC 7469. Ukazuje se, že složení urychlovaných částic mění celkovou energetickou bilanci zdroje. Zatímco u NGC 1068 vyhovuje datům nejlépe směs s převahou hélia, u NGC 7469 mohou hrát větší roli i těžší prvky. Proč je to zajímavé: Propojení neutrinové a gama astronomie nám poprvé umožňuje určit složení hmoty přímo v srdci aktivních galaktických jader.",
+    "url": "http://arxiv.org/abs/2610.18671v1",
+    "source": "arXiv",
+    "original_title": "Multimessenger Constraints on Nuclear Acceleration in Neutrino-Emitting Seyfert Coronae",
+    "published": "2026-10-13T16:29:36+00:00",
+    "inserted_at": "2026-10-14T12:53:58.060722+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.18633v1",
+    "title": "Co září v galaktických jádrech? Jak poznat černou díru trhající hvězdu",
+    "summary": "Centra galaxií skrývají supermasivní černé díry, kolem kterých dochází k dramatickým událostem. Mezi ně patří slapová roztrhání hvězd (TDE), záblesky aktivních galaktických jader i běžné výbuchy supernov. S nástupem obřích přehlídek oblohy, jako je chystaná observatoř LSST, bude nemožné spektroskopicky ověřovat všechny zachycené jevy. Astronomové proto v rámci projektu ePESSTO+ vyvinuli a testovali automatický filtr využívající data z přehlídky ZTF. Získali 476 kandidátů, z nichž 202 spektroskopicky klasifikovali. Ukázalo se, že rychlost zjasnění a charakteristická barva dokážou spolehlivě odlišit roztrhání hvězdy černou dírou od běžných supernov i bez náročné spektroskopie. Proč je to zajímavé: Metoda umožňuje efektivně objevovat vzácné vesmírné katastrofy v záplavě dat nadcházející éry průzkumu vesmíru.",
+    "url": "http://arxiv.org/abs/2610.18633v1",
+    "source": "arXiv",
+    "original_title": "The ePESSTO+ census of ZTF nuclear transients. I. What flares in galactic nuclei?",
+    "published": "2026-10-13T16:07:15+00:00",
+    "inserted_at": "2026-10-14T12:53:58.060722+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.18591v1",
+    "title": "Černé struny a díry: Kvantový pohled na extrémní časoprostor",
+    "summary": "Teoretická fyzika usiluje o pochopení kvantové podstaty gravitace. Tato studie využívá pokročilý aparát strunové teorie k přesnému matematickému popisu černých děr a jejich vícerozměrných analogů, zvaných černé struny. Autoři zkoumají kvantové spektrum těchto objektů a zaměřují se na jejich chování v extrémních podmínkách, kdy se teplota systému blíží k absolutní nule. Výpočty ukazují, jak mikroskopické stavy strun vytvářejí známou časoprostorovou geometrii a jak ovlivňují termodynamické vlastnosti nízkodimenzionálních černých děr. Proč je to zajímavé: Výzkum přináší vzácný exaktní náhled na to, jak základní kvantové objekty vytvářejí samotnou strukturu časoprostoru a jak mikroskopické strunové stavy přímo určují termodynamiku černých děr při teplotách blízkých absolutní nule.",
+    "url": "http://arxiv.org/abs/2610.18591v1",
+    "source": "arXiv",
+    "original_title": "Black Strings and Black Holes: Worldsheet Spectra and Near-Extremal Limits",
+    "published": "2026-10-13T15:50:29+00:00",
+    "inserted_at": "2026-10-14T12:53:58.060722+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.18586v1",
+    "title": "Matematika kosmické inflace: Přesné řešení rovnic raného vesmíru",
+    "summary": "Raná fáze překotného rozpínání vesmíru, známá jako kosmická inflace, se ve fyzice popisuje pomocí Kleinových–Gordonových rovnic. Tyto složité diferenciální rovnice se běžně řeší pouze přibližně pomocí počítačových simulací, protože hledání přesných matematických vzorců bývá extrémně obtížné. Autoři nové studie však dokázali najít elegantní analytické řešení pro systém dvou vzájemně propojených polí v aproximaci takzvaných malých výchylek. Ukázali, že chování těchto polí lze přesně vyjádřit pomocí Kummerových hypergeometrických funkcí, a své výsledky ověřili numerickými výpočty. Proč je to zajímavé: Přesná matematická řešení dávají vědcům přímý fyzikální vhled a umožňují snáze testovat teoretické modely vzniku vesmíru bez výhradní závislosti na náročných počítačových simulacích.",
+    "url": "http://arxiv.org/abs/2610.18586v1",
+    "source": "arXiv",
+    "original_title": "Hypergeometric solutions to coupled Klein-Gordon equations in cosmology with small-field excursions",
+    "published": "2026-10-13T15:48:02+00:00",
+    "inserted_at": "2026-10-14T12:53:58.060722+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2610.18833v1",
     "title": "Eliptické dráhy a pravá tvář černých děr: Výzva pro nové detektory",
     "summary": "Astrofyzici připravují metody pro detektory gravitačních vln třetí generace, jako jsou Einstein Telescope a Cosmic Explorer. Tyto přístroje umožní testovat Kerrovu hypotézu popisující vlastnosti rotujících černých děr prostřednictvím deformací vyvolaných jejich rotací. Dosavadní testy spoléhaly na kruhové dráhy, avšak reálné srážky mohou probíhat po drahách eliptických. Nový teoretický model ukazuje, že evropský Einstein Telescope díky zachycení nízkých frekvencí určí vlastnosti objektů až dvakrát přesněji než americký Cosmic Explorer. Bez započtení elipticity by navíc vědci mohli tyto signály zcela přehlédnout. Proč je to zajímavé: Tento výzkum otvírá cestu k ověření, zda jsou pozorované objekty skutečně Einsteinem předpovězené černé díry, nebo dosud neznámá exotická tělesa.",
