@@ -359,8 +359,7 @@ def main():
     candidates = fetch_apod() + fetch_esa()
     bad_ids = {
         item.get("id") for item in history
-        if item.get("id") in {"apod-2026-09-29", "apod-2026-09-30", "apod-2026-10-01"}
-        or (item.get("original_title") or "").strip().lower() == "nasa science"
+        if (item.get("original_title") or "").strip().lower() == "nasa science"
         or "Věda NASA" in (item.get("title") or "")
         or (item.get("title") or "").startswith("APOD")
     }
