@@ -1,9 +1,6 @@
 name: Denní kosmologické novinky
 
 on:
-  schedule:
-    - cron: '20 9 * * *'
-      timezone: 'Europe/Prague'
   workflow_dispatch:
 
 permissions:
@@ -137,15 +134,21 @@ jobs:
             "Content-Type": "application/json"
           }
           r = requests.post("https://api.buffer.com", json={"query": mutation, "variables": variables}, headers=headers, timeout=30)
+          print(f"Buffer HTTP {r.status_code}")
+          print(f"Buffer odpověď: {r.text[:1000]}")
           try:
             data = r.json()
+            errors = data.get("errors")
+            if errors:
+              print(f"GraphQL errors: {errors}")
             result = data.get("data", {}).get("createPost", {})
             if "message" in result:
               print(f"Buffer chyba: {result['message']}")
             else:
-              print(f"Post odeslán: {result.get('post', {}).get('id')}")
+              post_id = result.get("post", {}).get("id") if result.get("post") else None
+              print(f"Post odeslán: {post_id}")
           except Exception as e:
-            print(f"Odpověď Bufferu: {r.text[:500]} | chyba: {e}")
+            print(f"Nelze parsovat odpověď: {e}")
           EOF
 
       - name: Setup Pages
