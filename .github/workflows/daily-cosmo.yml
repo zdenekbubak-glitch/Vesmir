@@ -169,3 +169,97 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Post daily card to Facebook via Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python3 << 'EOF'
+          import json, os, datetime, requests
+          from pathlib import Path
+
+          api_key = os.environ.get("BUFFER_API_KEY")
+          if not api_key:
+              print("Chybí BUFFER_API_KEY")
+              raise SystemExit("Nelze odeslat příspěvek na Facebook.")
+
+          news_path = Path("data/news.json")
+          if not news_path.exists():
+              print("news.json nenalezen")
+              exit(0)
+
+          items = json.loads(news_path.read_text())
+          today = datetime.date.today().isoformat()
+          today_items = [i for i in items if (i.get("inserted_at") or "")[:10] == today]
+          if not today_items:
+              print("Dnes žádná nová položka – kartu neposílám.")
+              exit(0)
+
+          # Preferuj český text
+          item = next((i for i in today_items if i.get("lang") == "cs"), today_items[0])
+          title = (item.get("title") or "").strip()
+          summary = (item.get("summary") or "").strip()
+          if "Proč je to zajímavé:" in summary:
+              summary = summary.split("Proč je to zajímavé:")[0].strip()
+          # Zkrať souhrn na rozumnou délku pro tweet
+          if len(summary) > 180:
+              summary = summary[:177].rsplit(" ", 1)[0] + "…"
+
+          main_text = f"{title}\n\n{summary}" if summary else title
+          # jsDelivr CDN – Buffer spolehlivěji stahuje než raw.githubusercontent.com
+          card_url = "https://cdn.jsdelivr.net/gh/zdenekbubak-glitch/Vesmir@main/assets/cards/daily.jpg"
+          print(f"Card URL: {card_url}")
+
+          mutation = """
+          mutation CreateThread($input: CreatePostInput!) {
+            createPost(input: $input) {
+              ... on PostActionSuccess { 
+                post { 
+                  id 
+                  status 
+                  assets { id mimeType source }
+                } 
+              }
+              ... on MutationError { message }
+            }
+          }
+          """
+          variables = {
+            "input": {
+              "channelId": "6ad13365778b240e2f1e1c2b",
+              "schedulingType": "automatic",
+              "mode": "shareNow",
+              "text": main_text + "\n\nhttps://kosmonovinky.cz",
+              "assets": [{
+                "image": {
+                  "url": card_url
+                }
+              }]
+
+            }
+          }
+          headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+          }
+          r = requests.post("https://api.buffer.com", json={"query": mutation, "variables": variables}, headers=headers, timeout=30)
+          print(f"Buffer HTTP {r.status_code}")
+          print(f"Buffer odpověď: {r.text[:1000]}")
+          r.raise_for_status()
+          try:
+            data = r.json()
+            errors = data.get("errors")
+            if errors:
+              raise RuntimeError(f"GraphQL errors: {errors}")
+            result = data.get("data", {}).get("createPost", {})
+            if "message" in result:
+              raise RuntimeError(f"Buffer chyba: {result['message']}")
+            else:
+              post_id = result.get("post", {}).get("id") if result.get("post") else None
+              if not post_id:
+                  raise RuntimeError("Buffer nevrátil ID příspěvku.")
+              print(f"Post odeslán: {post_id}")
+          except Exception as e:
+            raise RuntimeError(f"Odeslání na Facebook selhalo: {e}") from e
+          EOF
+
