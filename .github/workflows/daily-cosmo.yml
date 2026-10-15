@@ -97,8 +97,8 @@ jobs:
               summary = summary[:177].rsplit(" ", 1)[0] + "…"
 
           main_text = f"{title}\n\n{summary}" if summary else title
-          # Čistá URL bez query, Buffer někdy odmítá parametry
-          card_url = "https://raw.githubusercontent.com/zdenekbubak-glitch/Vesmir/main/assets/cards/daily.jpg"
+          # jsDelivr CDN – Buffer spolehlivěji stahuje než raw.githubusercontent.com
+          card_url = "https://cdn.jsdelivr.net/gh/zdenekbubak-glitch/Vesmir@main/assets/cards/daily.jpg"
           print(f"Card URL: {card_url}")
 
           mutation = """
