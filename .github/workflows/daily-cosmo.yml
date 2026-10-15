@@ -97,12 +97,20 @@ jobs:
               summary = summary[:177].rsplit(" ", 1)[0] + "…"
 
           main_text = f"{title}\n\n{summary}" if summary else title
-          card_url = f"https://raw.githubusercontent.com/zdenekbubak-glitch/Vesmir/main/assets/cards/daily.jpg?v={today}"
+          # Čistá URL bez query, Buffer někdy odmítá parametry
+          card_url = "https://raw.githubusercontent.com/zdenekbubak-glitch/Vesmir/main/assets/cards/daily.jpg"
+          print(f"Card URL: {card_url}")
 
           mutation = """
           mutation CreateThread($input: CreatePostInput!) {
             createPost(input: $input) {
-              ... on PostActionSuccess { post { id status } }
+              ... on PostActionSuccess { 
+                post { 
+                  id 
+                  status 
+                  assets { id mimeType source }
+                } 
+              }
               ... on MutationError { message }
             }
           }
