@@ -1,5 +1,20 @@
 [
   {
+    "id": "apod-2026-10-15",
+    "title": "Mléčná dráha nad Manhattanem",
+    "caption": "Městská světla v „Městě, které nikdy nespí“ obvykle hvězdy přezáří, přesto se astrofotografovi podařilo zachytit Mléčnou dráhu pomocí filtru propouštějícího pouze blízké infračervené světlo. Tento postup účinně odfiltroval většinu světelného znečištění z moderních LED svítidel a zářivek, vůči nimž jsou hvězdy v infračervené oblasti spektra stále jasné. Snímek tak připomíná, že všichni žijeme pod stejnou oblohou a astronomie nám pomáhá lépe pochopit naše místo ve Vesmíru.",
+    "thumb": "assets/gallery/apod-2026-10-15.jpg",
+    "image": "assets/gallery/apod-2026-10-15.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-15-the-milky-way-over-manhattan/",
+    "published": "2026-10-15",
+    "credit": "Jason Kurth, Ty Buckley",
+    "original_title": "The Milky Way over Manhattan",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-10-15T07:23:45.981780+00:00"
+  },
+  {
     "id": "apod-2026-10-14",
     "title": "Mars a Jesličky pod polární září",
     "caption": "Na tomto snímku ze švédského Lansjärvu se planeta Mars setkává s otevřenou hvězdokupou Jesličky (M44) přímo pod závěsem polární záře. Tuto barevnou nebeskou show vyvolaly energetické částice ze sluneční erupce, které nabudily molekuly v zemské atmosféře. Shodou okolností se Mars na obloze nacházel nejblíže k centru Jesliček právě v době tohoto úkazu.",
