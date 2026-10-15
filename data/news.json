@@ -1,5 +1,65 @@
 [
   {
+    "id": "2610.20500v1",
+    "title": "Průlom v popisu černých děr: Jak rozpletit rovnice v rozpínavém vesmíru",
+    "summary": "Popis chování gravitačních a elektromagnetických vln v okolí složitých černých děr představuje v teoretické fyzice obrovskou výzvu. Nový výzkum úspěšně rozšiřuje matematickou metodu separace proměnných na takzvané Kerr-Newmanovy-de Sitterovy černé díry. Tyto objekty rotují, mají elektrický náboj a nacházejí se ve vesmíru s temnou energií (s kladnou kosmologickou konstantou). Autory navržená algebraická transformace umožňuje rozplést dosud propojené parciální diferenciální rovnice na jednodušší soustavy obyčejných rovnic pro úhlovou a radiální část. Metoda funguje nezávisle na frekvenci vln a správně nastavuje okrajové podmínky na horizontech událostí i kosmologických horizontech. Proč je to zajímavé: Tento matematický průlom dokazuje, že přesný popis poruch černých děr je možný i v reálném, zrychleně se rozpínajícím vesmíru, což otevírá dveře k detailnějšímu studiu jejich stability a kvazinormálních módů.",
+    "url": "http://arxiv.org/abs/2610.20500v1",
+    "source": "arXiv",
+    "original_title": "Separation of variables for coupled radiative perturbations of Kerr-Newman-de Sitter black holes",
+    "published": "2026-10-14T17:08:37+00:00",
+    "inserted_at": "2026-10-15T08:15:33.228196+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.20469v1",
+    "title": "Zákaz nahých singularit: Pokrok v důkazu kosmické cenzury u černých děr",
+    "summary": "Astrofyzici a matematici dlouhodobě řeší hypotézu slabé kosmické cenzury, která tvrdí, že gravitační singularity jsou vždy bezpečně skryty pod horizontem událostí černých děr. Nová studie přináší zásadní matematický průlom pro Einstein-Maxwellův systém s nabitým skalárním polem, který popisuje časoprostor v okolí nabitých černých děr. Autoři namísto tradičních omezujících podmínek pro poměr hmotnosti a poloměru využili přístup pracující s konečným Dopplerovým modrým posunem. Pomocí komplexní matematické analýzy dokázali takzvaný princip rozšíření, čímž zkompletovali teoretický důkaz kosmické cenzury pro tento model. Proč je to zajímavé: Výzkum posiluje přesvědčení, že vesmír neobsahuje nebezpečné „nahé“ singularity a fyzikální zákony tak zůstávají pro vnějšího pozorovatele plně předvídatelné.",
+    "url": "http://arxiv.org/abs/2610.20469v1",
+    "source": "arXiv",
+    "original_title": "An extension principle for Einstein-Maxwell-charged scalar field system with finite Doppler exponent",
+    "published": "2026-10-14T16:48:40+00:00",
+    "inserted_at": "2026-10-15T08:15:33.228196+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.20468v1",
+    "title": "Přelom v Einsteinově teorii: Nový limit zabraňuje zhroucení časoprostoru",
+    "summary": "Vědci výrazně posunuli naše chápání toho, jak se v Einsteinově obecné teorii relativity tvoří singularity. Při gravitačním kolapsu skalárního pole hrozí vznik bodu s nekonečnou hustotou. Tento výzkum navazuje na slavné práce Demetriose Christodouloua a dokazuje, že pokud poměr hmotnosti a poloměru nepřekročí přesný matematický limit 3/8 (tedy 37,5 %), časoprostor se v centru nezhroutí do singularity, ale lze jej hladce rozšířit. Autoři toho dosáhli pomocí nových škálově kritických odhadů a pokročilých matematických identit. Proč je to zajímavé: Výsledek přináší vůbec první konkrétní číselný limit, který přesně určuje, kdy časoprostor ještě odolá vzniku černé díry.",
+    "url": "http://arxiv.org/abs/2610.20468v1",
+    "source": "arXiv",
+    "original_title": "A Scale-Critical $μ<\\frac38$ Extension Principle for Spherically Symmetric Einstein-Scalar Field System",
+    "published": "2026-10-14T16:48:28+00:00",
+    "inserted_at": "2026-10-15T08:15:33.228196+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.20467v1",
+    "title": "Nová metoda rozplétá propletené signály z raného vesmíru",
+    "summary": "Mapování intenzity spektrálních čar (LIM) nabízí unikátní pohled do vzdáleného vesmíru. Zkoumání milimetrových vlnových délek však naráží na zásadní problém: signály různých prvků a molekul se překrývají a splývají s jasným pozadím. Vědci nyní vyvinuli novou metodu, která tento šum účinně rozplétá. Propojením dat z mapování LIM s přehledy galaxií, jako je projekt LSST, dokázali odseparovat jednotlivé spektrální čáry uhlíku a oxidu uhelnatého pro různé fáze vývoje vesmíru. Přidání galaktických dat zpřesnilo měření v oblastech překryvu až čtyřnásobně, a dokonce pomohlo vyčistit data i z hlubšího vesmíru odstraněním rušivých popředí. Proč je to zajímavé: Tato metoda ukazuje, jak chytrým propojením různých astronomických přehledů získat z budoucích teleskopů podstatně detailnější obraz kosmu i bez stavby dražších přístrojů.",
+    "url": "http://arxiv.org/abs/2610.20467v1",
+    "source": "arXiv",
+    "original_title": "Joint Line Intensity Recovery from Multi-Tracer Cross-Correlations",
+    "published": "2026-10-14T16:48:10+00:00",
+    "inserted_at": "2026-10-15T08:15:33.228196+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.20452v1",
+    "title": "Gravitační vlny z průletu černých děr: Fyzici získali přelomové rovnice",
+    "summary": "Při blízkém průletu dvou černých děr dochází k zakřivení časoprostoru a vyzařování gravitačních vln. Vědci nyní vůbec poprvé analyticky spočítali přesný tvar těchto vln přímo v časové oblasti. Využili k tomu pokročilé matematické techniky převzaté z částicové fyziky, jako jsou kvantové smyčkové integrály. Ukázalo se, že popis v čase je překvapivě elegantní a obsahuje pouze logaritmické výrazy místo složitých speciálních funkcí. Tento výsledek výrazně zpřesní modely sloužící k dešifrování signálů ze srážek černých děr zachycených observatořemi LIGO a Virgo. Proč je to zajímavé: Výzkum elegantně propojuje kvantovou teorii pole s astrofyzikou a otevírá cestu k novému standardu přesnosti v detekci gravitačních vln.",
+    "url": "http://arxiv.org/abs/2610.20452v1",
+    "source": "arXiv",
+    "original_title": "Analytical Time-Domain Waveforms for Black-Hole Scattering in the Post-Minkowskian Expansion",
+    "published": "2026-10-14T16:36:14+00:00",
+    "inserted_at": "2026-10-15T08:15:33.228196+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2610.20594v1",
     "title": "Kosmická detektivka: Jak odhalit trojité systémy černých děr",
     "summary": "Když se v kosmu srazí dvě černé díry, vzniklý objekt může zůstat v gravitačním objetí třetí černé díry a následně s ní splynout. Tyto postupné srážky v hierarchických trojitých systémech zanechávají v časoprostoru unikátní otisk. Vědci v nové studii představili efektivní metodu, která dokáže z vlastností naměřených gravitačních vln rekonstruovat původní oběžnou dráhu celého trojitého systému. Stačí jim k tomu hmotnosti černých děr, časový odstup mezi srážkami a tvar jejich dráhy. Metoda je výpočetně nenáročná a již úspěšně prošla testem na reálných kandidátech z detektorů LIGO a Virgo. Proč je to zajímavé: Tento nový nástroj vědcům umožňuje rozluštit minulost černých děr a odhalit, jak v hustých oblastech vesmíru vznikají ti největší gravitační giganti.",
