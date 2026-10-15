@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 import requests
 
 PRAGUE = ZoneInfo("Europe/Prague")
-LINKEDIN_CHANNEL = "6acba1b1778b240e2fd7e2c9"
+LINKEDIN_CHANNEL = "6ad0f03b778b240e2f1a14ba"
 MAX_CHARS = 2900
 
 
