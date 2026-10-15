@@ -114,7 +114,7 @@ def buffer_create_post(api_key: str, text: str, as_draft: bool = False) -> dict 
         "input": {
             "channelId": BUFFER_X_CHANNEL_ID,
             "schedulingType": "automatic",
-            "mode": "addToQueue" if not as_draft else "addToQueue",
+            "mode": "shareNow" if not as_draft else "addToQueue",
             "text": text,
             "saveToDraft": as_draft,
         }
