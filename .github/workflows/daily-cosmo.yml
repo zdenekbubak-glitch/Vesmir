@@ -115,8 +115,7 @@ jobs:
               "text": main_text,
               "assets": [{
                 "image": {
-                  "url": card_url,
-                  "altText": "Denní karta Kosmonovinky"
+                  "url": card_url
                 }
               }],
               "metadata": {
