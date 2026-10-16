@@ -54,13 +54,17 @@ CSS = """
     .logo-text h1 { margin: 0; font-size: 1.8rem; font-weight: 600; letter-spacing: -.02em; }
     .subtitle { color: var(--muted); margin: .3rem 0 1rem; font-size: .95rem; }
     nav a { color: var(--accent); margin: 0 .7rem; font-size: .95rem; }
-    .signup-box { max-width: 640px; margin: 1rem auto 0; background: rgba(21,27,45,.75); border: 1px solid #1e293b; border-radius: 10px; padding: .9rem 1.1rem; }
-    .signup-box p { margin: 0 0 .6rem; font-size: .9rem; color: var(--muted); }
-    .signup-form { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
-    .signup-form label { position: absolute; left: -9999px; }
-    .signup-form input[type=email] { flex: 1; min-width: 200px; padding: .55rem .85rem; border: 1px solid #334155; border-radius: 6px; background: var(--bg); color: var(--text); font-size: .95rem; }
+    .signup-box { max-width: 720px; margin: 0 auto; background: rgba(21,27,45,.75); border: 1px solid #1e293b; border-radius: 10px; padding: .95rem 1.15rem; }
+    .signup-box p { margin: 0 0 .65rem; font-size: .95rem; color: var(--muted); white-space: nowrap; }
+    .signup-form { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; align-items: center; }
+    .signup-form label { display: none; }
+    .signup-form input[type=email] { flex: 1; min-width: 200px; padding: .55rem .85rem; border: 1px solid #334155; border-radius: 6px; background: #0b0f19; color: var(--text); font-size: .95rem; }
+    .signup-form input[type=email]::placeholder { color: #64748b; }
     .signup-form input[type=submit] { padding: .55rem 1.15rem; background: var(--accent); color: #0b0f19; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: .95rem; }
-    main { max-width: 780px; margin: 0 auto; padding: 1.4rem 1rem 3rem; }
+    .signup-form input[type=submit]:hover { filter: brightness(1.12); }
+    .signup-form p { width: 100%; margin: .5rem 0 0; font-size: .75rem; color: var(--muted); }
+    .signup-form p a { color: var(--muted); text-decoration: underline; }
+    main { max-width: 820px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
     .breadcrumbs { font-size: .85rem; color: var(--muted); margin-bottom: 1.2rem; }
     .breadcrumbs a { color: var(--accent); }
     .post { background: var(--card); border: 1px solid #1e293b; border-radius: 12px; padding: 1.4rem 1.5rem; margin-bottom: 1.2rem; }
@@ -93,7 +97,9 @@ CSS = """
     .theme-card .count { color: var(--muted); font-size: .85rem; }
     .back { margin-top: 1.5rem; font-size: .9rem; }
     .back a { color: var(--accent); }
-    .search-box { width: 100%; padding: .6rem .9rem; margin: .6rem 0 1.2rem; border: 1px solid #334155; border-radius: 8px; background: var(--bg); color: var(--text); font-size: 1rem; }
+    .search-box { width: 100%; padding: .35rem .85rem; margin: .6rem 0 1.2rem; border: 1px solid #1e293b; border-radius: 10px; background: var(--card); color: var(--text); font-size: .95rem; outline: none; }
+    .search-box:focus { border-color: var(--accent); }
+    .search-box::placeholder { color: #64748b; }
 """
 
 COUNTER_JS = """
