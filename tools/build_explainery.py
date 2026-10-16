@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-# Generátor evergreen explainerů pro kosmonovinky.cz
+# Generátor Kosmopedie – evergreen vysvětlovaček pro kosmonovinky.cz
 # Čte data/explainery.json (a data/news.json pro prolinkování), vygeneruje:
-#   - explainery/<slug>.html      … jedna stránka každého explaineru
-#   - explainery/index.html       … přehled všech explainerů (seskupený podle rubriky)
-#   - doplní URL explainerů do sitemap.xml
+#   - kosmopedie/<slug>.html      … jedna stránka každého explaineru
+#   - kosmopedie/index.html       … přehled všech explainerů (seskupený podle rubriky)
+#   - doplní URL do sitemap.xml
 #
 # Spouští se ZA build_static.py (ten už vygeneruje sitemap.xml, který tento
 # script jen rozšíří). Využívá funkce z build_static.py — proto běží z kořene
-# repozitáře:
+# repozitáře a hledá build_static.py jak v rootu, tak v tools/:
 #
 #   python3 tools/build_explainery.py --site-dir . --out . --base https://kosmonovinky.cz
 import argparse
@@ -16,7 +16,10 @@ import re
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+_here = Path(__file__).resolve().parent
+for _p in (_here, _here.parent):
+    if str(_p) not in sys.path:
+        sys.path.insert(0, str(_p))
 from build_static import (FALLBACK_THEME, THEME_LABEL, esc, fmt_date, fmt_iso_date,
                           page_head, FOOT, slugify, classify)
 
@@ -89,13 +92,13 @@ def main():
         ex['_slug'] = s
 
     slugs = {ex['_slug'] for ex in explainery}
-    (out / 'explainery').mkdir(parents=True, exist_ok=True)
+    (out / 'kosmopedie').mkdir(parents=True, exist_ok=True)
     urls = []
 
     for ex in explainery:
         theme = ex.get('theme') or FALLBACK_THEME[0]
         theme_label = THEME_LABEL.get(theme, FALLBACK_THEME[1])
-        url = f"{base}/explainery/{ex['_slug']}.html"
+        url = f"{base}/kosmopedie/{ex['_slug']}.html"
         description = ex.get('description') or ex.get('perex', '')[:158]
 
         sec_html = ''
@@ -128,9 +131,9 @@ def main():
             items = []
             for r in rel_ex:
                 title = next(e['title'] for e in explainery if e['_slug'] == r)
-                items.append(f'          <li><a href="/explainery/{r}.html">{esc(title)}</a></li>')
+                items.append(f'          <li><a href="/kosmopedie/{r}.html">{esc(title)}</a></li>')
             rel_ex_html = ('    <section class="related">\n'
-                           '      <h2>Související explainery</h2>\n'
+                           '      <h2>Související z Kosmopedie</h2>\n'
                            '      <ul>\n' + '\n'.join(items) +
                            '\n      </ul>\n    </section>\n')
 
@@ -147,22 +150,22 @@ def main():
             'mainEntityOfPage': url,
             'image': f'{base}/assets/logo-icon-square.png',
         }
-        page = page_head(f"{ex['title']} - Explainery - Kosmologické novinky", description, url,
+        page = page_head(f"{ex['title']} - Kosmopedie - Kosmologické novinky", description, url,
                          og_image=f'{base}/assets/logo-icon-square.png', jsonld=jsonld)
         page = page.replace('</style>', WHY_CSS + '</style>')
-        page += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › <a href=\"/explainery/\">Explainery</a> › <a href=\"/temata/{theme}.html\">{esc(theme_label)}</a></p>\n"
+        page += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › <a href=\"/kosmopedie/\">Kosmopedie</a> › <a href=\"/temata/{theme}.html\">{esc(theme_label)}</a></p>\n"
                  f"    <article class=\"post\">\n"
                  f"      <div class=\"theme-badge\"><a href=\"/temata/{theme}.html\">{esc(theme_label)}</a></div>\n"
                  f"      <h1>{esc(ex['title'])}</h1>\n"
-                 f"      <p class=\"meta\">Evergreen explainer · Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))}</p>\n"
+                 f"      <p class=\"meta\">Kosmopedie · Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))}</p>\n"
                  f"      <p class=\"explainer-perex\">{esc(ex.get('perex'))}</p>\n"
                  + sec_html + why_html + rel_html + rel_ex_html +
                  '    </article>\n'
-                 '    <p class=\"back\"><a href=\"/explainery/\">← Všechny explainery</a> · <a href=\"/temata/\">Rubriky</a></p>\n')
+                 '    <p class=\"back\"><a href=\"/kosmopedie/\">← Celá Kosmopedie</a> · <a href=\"/temata/\">Rubriky</a></p>\n')
         page += FOOT
-        (out / 'explainery' / f"{ex['_slug']}.html").write_text(page, encoding='utf-8')
+        (out / 'kosmopedie' / f"{ex['_slug']}.html").write_text(page, encoding='utf-8')
         urls.append((url, fmt_iso_date(ex.get('updated') or ex.get('published'))))
-        print(f"  explainery/{ex['_slug']}.html")
+        print(f"  kosmopedie/{ex['_slug']}.html")
 
     # přehled všech explainerů
     groups = {}
@@ -173,21 +176,21 @@ def main():
         label = THEME_LABEL.get(theme, FALLBACK_THEME[1])
         list_html += f'    <h2 class=\"section-title\">{esc(label)}</h2>\n'
         for ex in groups[theme]:
-            list_html += (f"    <article class=\"item\"><h2><a href=\"/explainery/{ex['_slug']}.html\">{esc(ex['title'])}</a></h2>"
+            list_html += (f"    <article class=\"item\"><h2><a href=\"/kosmopedie/{ex['_slug']}.html\">{esc(ex['title'])}</a></h2>"
                           f"<p class=\"meta\">Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))} · "
                           f"<a href=\"/temata/{theme}.html\">{esc(label)}</a></p>"
                           f"<p class=\"summary\">{esc(ex.get('perex'))}</p></article>\n")
-    idx = page_head('Explainery - evergreen vysvětlení kosmologie - Kosmologické novinky',
-                    'Vysvětlovačky kosmologie v češtině: temná hmota, černé díry, gravitační vlny, reliktní záření, neutronové hvězdy a další. Evergreen obsah, který doplňuje aktuální novinky.',
-                    f'{base}/explainery/')
-    idx += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › Explainery</p>\n"
-            f"    <h1 class=\"section-title\" style=\"font-size:1.4rem;color:var(--text)\">Explainery ({len(explainery)})</h1>\n"
-            '    <p class=\"summary\">Stálá vysvětlení základních pojmů kosmologie. Každý explainer doplňuje rubriku novinek na stejné téma.</p>\n'
+    idx = page_head('Kosmopedie - slovník pojmů kosmologie - Kosmologické novinky',
+                    'Kosmopedie: vysvětlení pojmů kosmologie v češtině. Temná hmota, černé díry, gravitační vlny, reliktní záření, neutronové hvězdy a další - jednoduše a trvale.',
+                    f'{base}/kosmopedie/')
+    idx += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › Kosmopedie</p>\n"
+            f"    <h1 class=\"section-title\" style=\"font-size:1.4rem;color:var(--text)\">Kosmopedie <span class=\"meta\">({len(explainery)} významů)</span></h1>\n"
+            '    <p class=\"summary\">Stálá vysvětlení základních pojmů kosmologie. Každý význam doplňuje rubriku novinek na stejné téma.</p>\n'
             + list_html)
     idx += FOOT
-    (out / 'explainery' / 'index.html').write_text(idx, encoding='utf-8')
+    (out / 'kosmopedie' / 'index.html').write_text(idx, encoding='utf-8')
     latest = max(ex.get('updated') or ex.get('published') or '2026-01-01' for ex in explainery)
-    urls.append((f'{base}/explainery/', fmt_iso_date(latest)))
+    urls.append((f'{base}/kosmopedie/', fmt_iso_date(latest)))
 
     # doplnění sitemap.xml
     sm_path = out / 'sitemap.xml'
