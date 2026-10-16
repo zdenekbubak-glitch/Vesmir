@@ -46,13 +46,13 @@ FALLBACK_THEME = ("ostatni", "Další témata")
 CSS = """
     :root { --bg: #0b0f19; --card: #151b2d; --text: #e8eef7; --accent: #6ea8fe; --muted: #9aa8c7; }
     * { box-sizing: border-box; }
-    body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; line-height: 1.6; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; line-height: 1.55; }
     header { background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1.8rem 1rem 1.5rem; text-align: center; border-bottom: 1px solid #1e293b; }
     header a { color: inherit; text-decoration: none; }
-    .logo-wrapper { display: flex; align-items: center; justify-content: center; gap: .9rem; margin-bottom: .4rem; }
-    .logo-wrapper img { height: 72px; width: 72px; border-radius: 12px; }
-    .logo-text h1 { margin: 0; font-size: 1.8rem; font-weight: 600; letter-spacing: -.02em; }
-    .subtitle { color: var(--muted); margin: .3rem 0 1rem; font-size: .95rem; }
+    .logo-wrapper { display: flex; align-items: center; justify-content: center; gap: .9rem; margin-bottom: .5rem; }
+    .logo-wrapper img { height: 80px; width: 80px; display: block; border-radius: 12px; }
+    .logo-text h1 { margin: 0; font-size: 2rem; font-weight: 600; letter-spacing: -.02em; }
+    .subtitle { color: var(--muted); margin: .35rem 0 1rem; font-size: .95rem; }
     nav { margin: .6rem 0 1.2rem; }
     nav a { color: var(--accent); margin: 0 .7rem; font-size: .95rem; }
     .signup-box { max-width: 720px; margin: 0 auto; background: rgba(21,27,45,.75); border: 1px solid #1e293b; border-radius: 10px; padding: .95rem 1.15rem; }
@@ -101,6 +101,12 @@ CSS = """
     .search-box { width: 100%; padding: .35rem .85rem; margin: .6rem 0 1.2rem; border: 1px solid #1e293b; border-radius: 10px; background: var(--card); color: var(--text); font-size: .95rem; outline: none; }
     .search-box:focus { border-color: var(--accent); }
     .search-box::placeholder { color: #64748b; }
+    @media (max-width: 520px) {
+      .logo-wrapper { flex-direction: column; gap: 0.45rem; }
+      .logo-wrapper img { height: 64px; width: 64px; }
+      .logo-text h1 { font-size: 1.45rem; }
+      .signup-box p { white-space: normal; }
+    }
 """
 
 COUNTER_JS = """
@@ -230,7 +236,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
 <body>
   <header>
     <div class="logo-wrapper">
-      <img src="/assets/logo-icon-square.png" alt="Kosmologické novinky" width="72" height="72">
+      <img src="/assets/logo-icon-square.png" alt="Kosmologické novinky" width="80" height="80">
       <div class="logo-text"><a href="/"><h1>Kosmologické novinky</h1></a></div>
     </div>
     <p class="subtitle">Česky o kosmologii: temná hmota, černé díry, galaxie, reliktní záření, gravitační vlny, neutronové hvězdy a další.</p>
