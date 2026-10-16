@@ -3,7 +3,7 @@
 Generátor statických SEO stránek pro kosmonovinky.cz
 Čte data/news.json a data/images.json, vygeneruje:
   - clanky/<slug>.html        … jedna stránka každé novinky (indexovatelné pro Google)
-  - clanky/index.html         … přehled všech novinek
+  - clanky/index.html         … přehled všech novinek (s fulltextovým hledáním)
   - temata/<rubrika>.html     … tematické přehledy (černé díry, temná hmota, …)
   - obrazky/<slug>.html       … stránky obrázků galerie
   - sitemap.xml, robots.txt, feed.xml (Atom)
@@ -20,6 +20,8 @@ from pathlib import Path
 
 MESICE_GEN = ["ledna", "února", "března", "dubna", "května", "června", "července",
               "srpna", "září", "října", "listopadu", "prosince"]
+MESICE_NOM = ["leden", "únor", "březen", "duben", "květen", "červen", "červenec",
+              "srpen", "září", "říjen", "listopad", "prosinec"]
 
 THEMES = [
     ("cerne-diry",       "Černé díry",        ["černá díra", "černé díry", "černé diře", "černou díru", "black hole", "singularity", "singularit"]),
@@ -91,6 +93,7 @@ CSS = """
     .theme-card .count { color: var(--muted); font-size: .85rem; }
     .back { margin-top: 1.5rem; font-size: .9rem; }
     .back a { color: var(--accent); }
+    .search-box { width: 100%; padding: .6rem .9rem; margin: .6rem 0 1.2rem; border: 1px solid #334155; border-radius: 8px; background: var(--bg); color: var(--text); font-size: 1rem; }
 """
 
 COUNTER_JS = """
@@ -106,6 +109,27 @@ COUNTER_JS = """
     } catch { return false; }
   }
   odeslat().then(ok => { if (!ok) setTimeout(odeslat, 1500); });
+})();
+"""
+
+SEARCH_JS = """
+(function () {
+  const box = document.getElementById('clanky-search');
+  if (!box) return;
+  box.addEventListener('input', function () {
+    const q = this.value.toLowerCase();
+    document.querySelectorAll('article.item').forEach(function (a) {
+      a.style.display = a.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+    document.querySelectorAll('h2.section-title').forEach(function (h) {
+      let el = h.nextElementSibling, any = false;
+      while (el && el.tagName !== 'H2') {
+        if (el.tagName === 'ARTICLE' && el.style.display !== 'none') any = true;
+        el = el.nextElementSibling;
+      }
+      h.style.display = any ? '' : 'none';
+    });
+  });
 })();
 """
 
@@ -208,6 +232,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
       <a href="/archive.html">Archiv</a>
       <a href="/clanky/">Články</a>
       <a href="/temata/">Rubriky</a>
+      <a href="/kosmopedie/">Kosmopedie</a>
       <a href="/images.html">Obrázky</a>
       <a href="/contact.html">Kontakt</a>
     </nav>
@@ -331,7 +356,7 @@ def main():
     list_html = ""
     for key in sorted(groups, reverse=True):
         dt = parse_dt(groups[key][0].get("inserted_at"))
-        label = f"{MESICE_GEN[dt.month - 1]} {dt.year}" if dt else key
+        label = f"{MESICE_NOM[dt.month - 1]} {dt.year}" if dt else key
         list_html += f'    <h2 class="section-title">{esc(label)}</h2>\n'
         for item in groups[key]:
             list_html += (f'    <article class="item"><h2><a href="/{item["_path"]}">{esc(item.get("title"))}</a></h2>'
@@ -342,7 +367,9 @@ def main():
                     f"{base}/clanky/")
     idx += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › Všechny články</p>
     <h1 class="section-title" style="font-size:1.4rem;color:var(--text)">Všechny články ({len(news)})</h1>
-{list_html}'''
+    <input type="search" id="clanky-search" class="search-box" placeholder="Hledat v článcích…" aria-label="Hledat v článcích">
+{list_html}    <script>{SEARCH_JS}</script>
+'''
     idx += FOOT
     (out / "clanky" / "index.html").write_text(idx, encoding="utf-8")
     urls.append((f"{base}/clanky/", fmt_iso_date(news[0].get("inserted_at") if news else None)))
