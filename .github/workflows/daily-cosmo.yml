@@ -234,8 +234,11 @@ jobs:
                 "image": {
                   "url": card_url
                 }
-              }]
-
+              
+              }],
+              "metadata": {
+                "facebook": {"type": "post"}
+              }
             }
           }
           headers = {
