@@ -47,12 +47,13 @@ CSS = """
     :root { --bg: #0b0f19; --card: #151b2d; --text: #e8eef7; --accent: #6ea8fe; --muted: #9aa8c7; }
     * { box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; line-height: 1.6; }
-    header { background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1.6rem 1rem 1.4rem; text-align: center; border-bottom: 1px solid #1e293b; }
+    header { background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1.8rem 1rem 1.5rem; text-align: center; border-bottom: 1px solid #1e293b; }
     header a { color: inherit; text-decoration: none; }
     .logo-wrapper { display: flex; align-items: center; justify-content: center; gap: .9rem; margin-bottom: .4rem; }
     .logo-wrapper img { height: 72px; width: 72px; border-radius: 12px; }
     .logo-text h1 { margin: 0; font-size: 1.8rem; font-weight: 600; letter-spacing: -.02em; }
     .subtitle { color: var(--muted); margin: .3rem 0 1rem; font-size: .95rem; }
+    nav { margin: .6rem 0 1.2rem; }
     nav a { color: var(--accent); margin: 0 .7rem; font-size: .95rem; }
     .signup-box { max-width: 720px; margin: 0 auto; background: rgba(21,27,45,.75); border: 1px solid #1e293b; border-radius: 10px; padding: .95rem 1.15rem; }
     .signup-box p { margin: 0 0 .65rem; font-size: .95rem; color: var(--muted); white-space: nowrap; }
