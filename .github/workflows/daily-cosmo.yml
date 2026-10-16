@@ -129,7 +129,10 @@ jobs:
               "metadata": {
                 "twitter": {
                   "thread": [
-                    {"text": main_text},
+                                        {
+                      "text": main_text,
+                      "assets": [{"image": {"url": card_url}}]
+                    },
                     {"text": "https://kosmonovinky.cz"}
                   ]
                 }
