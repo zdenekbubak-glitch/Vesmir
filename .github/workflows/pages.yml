@@ -27,6 +27,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Generate SEO pages
+        run: python3 build_static.py --site-dir . --out . --base https://kosmonovinky.cz
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
