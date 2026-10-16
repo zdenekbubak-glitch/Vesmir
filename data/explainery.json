@@ -1,0 +1,111 @@
+[
+  {
+    "id": "exp-001",
+    "title": "Co je temná hmota?",
+    "theme": "temna-hmota",
+    "description": "Temná hmota tvoří 85 % hmoty vesmíru, ale nikdy jsme ji neviděli. Co víme, jak ji hledáme a proč je tak důležitá?",
+    "published": "2026-10-17",
+    "updated": "2026-10-17",
+    "perex": "Vesmír, který vidíme — hvězdy, galaxie, mlhoviny — je jen špička ledovce. Zhruba 85 % veškeré hmoty tvoří substance, která neemituje ani neabsorbuje světlo: temná hmota. Nevíme, z čeho je, ale víme, že tam je.",
+    "sections": [
+      {
+        "heading": "Záhada, která je starší než my",
+        "body": "Podezření na existenci neviditelné hmoty se objevilo už ve 30. letech 20. století, když astronom Fritz Zwicky pozoroval galaktickou kupu Coma. Galaxie v kupě se pohybovaly příliš rychle — rychleji, než jak by je viditelná hmota mohla držet pohromadě. Zwicky došel k závěru, že kupa musí obsahovat obrovské množství neviditelné „temné\" hmoty. Jeho kolegové mu příliš nevěřili. Trvalo dalších čtyřicet let, než se podobný problém objevil u rotace jednotlivých galaxií a temná hmota vstoupila do hlavního proudu vědy."
+      },
+      {
+        "heading": "Jak víme, že existuje?",
+        "body": "Temnou hmotu nevidíme, ale její gravitace mění to, co vidíme. Dnes máme tři nezávislé důkazy:\n\n- **Rotace galaxií.** Hvězdy na okrajích spirálních galaxií se točí příliš rychle. Podle viditelné hmoty by měly rotovat pomaleji; při měřených rychlostech by galaxie měly rozletět. Dodatečná gravitace neviditelné hmoty je drží pohromadě — jako neviditelný lep, který obaluje viditelnou galaxii do velké „galaktické slupky\".\n- **Gravitační čočky.** Světlo vzdálených galaxií procházející kolem hmotných kup se zakřivuje podle hmotnosti, která mu stojí v cestě. Množství zakřivení systematicky překračuje množství viditelné hmoty. Chybějící gravitace patří temné hmotě — a u čoček můžeme dokonce mapovat, kde přesně se nachází.\n- **Reliktní záření.** Mřížka teplotních fluktuací v reliktním záření (světle z mládí vesmíru) odpovídá modelu, kde tvoří temná hmota asi 85 % veškeré hmoty. Tři nezávislé metody, tři nezávislé výsledky — shodují se do jednotek procent."
+      },
+      {
+        "heading": "Co temná hmota není",
+        "body": "Než astronomové dospěli k dnešnímu obrazu, prošli si seznam možností. Temná hmota není prostě hodně tmavý plyn — ten bychom viděli v infračerveném záření. Nejsou to mrtvé hvězdy a neutronové hvězdy — těch je příliš málo a vyskytují se příliš řídce. Nejsou to ani volně putující planety. Přesné měření reliktního záření tato vysvětlení vyloučila. Temná hmota je něco fundamentálně jiného — pravděpodobně dosud neobjevená částice, která interaguje jen velmi slabě s běžnou hmotou a se světlem. Procházela by námi a my bychom to nepoznali."
+      },
+      {
+        "heading": "Kolik jí vlastně je?",
+        "body": "Kosmologické měření dnes říkají: asi 27 % vesmíru tvoří temná hmota, 5 % běžná (barionová) hmota a zbývajících zhruba 68 % temná energie. Slovy: z každého kilogramu hmoty ve vesmíru je 850 gramů temných. A ze všech forem energie je temná hmota „jen\" druhá nejrozšířenější — předčí ji právě záhadná temná energie."
+      },
+      {
+        "heading": "Jak ji hledáme?",
+        "body": "Vědci zkouší tři přístupy najednou:\n\n1. **Výroba** — v urychlovači LHC u Ženevy se pokoušíme temnou hmotu vytvořit srážkami protonů. Pokud by vznikla, poznáme ji jako „chybějící energii\" v detektoru.\n2. **Přímá detekce** — hluboko pod zemí (v laboratořích jako XENONnT v Itálii nebo LUX-ZEPLIN v USA) čekáme, až částice temné hmoty proletí skrz krystaly a nechá po sobě stopu. Zatím bez úspěchu, ale citlivost se každou generací detektorů zvedá řádově.\n3. **Astrofyzika** — hledáme produkty případné anihilace temných částic ve vysokoenergetickém gama záření ve středu galaxie či v halo temné hmoty."
+      }
+    ],
+    "why_box": "Každý atom ve vašem těle je minorita. Bez temné hmoty by galaxie jako naše nevznikly tak, jak je známe — gravitace temné hmoty totiž sloužila jako jakási „lepicí kostra\", na níž se v raném vesmíru zachytávaly obyčejné plyny, které pak tvořily hvězdy. Bez temné hmoty by pravděpodobně nevznikly hvězdy včas, v potřebném množství — a nic by se nemohlo dívat na noční oblohu.",
+    "related_explainery": [
+      "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty",
+      "jak-vime-ze-temna-hmota-existuje"
+    ]
+  },
+  {
+    "id": "exp-002",
+    "title": "Co jsou gravitační vlny?",
+    "theme": "gravitacni-vlny",
+    "description": "Gravitační vlny sítí prostoročas a doputují k nám z nejextrémnějších událostí vesmíru. Kdy byly poprvé detekovány a co nám říkají?",
+    "published": "2026-10-17",
+    "updated": "2026-10-17",
+    "perex": "Když se srazí dvě černé díry, zachvěje se samotný prostor a čas. Toto chvění — gravitační vlna — urazí miliardy světelných let a odečteme ho přístroji schopnými zaznamenat pohyb tisíckrát menší než průměr protonu.",
+    "sections": [
+      {
+        "heading": "Einsteinovo tajemství z roku 1916",
+        "body": "Gravitační vlny předpověděl Albert Einstein krátce po formulaci obecné teorie relativity. V jeho obraze gravitace není tažnou silou na dálku, ale zakřivením samotného prostoročasu. Hmotné objekty „prohlubují\" prostor kolem sebe — a když zrychlují, vytvářejí ve struktuře prostoru vlny. Přesněji: zrychlené hmotné objekty vyzařují vlnění prostoročasu, podobně jako kámen hozený do hladiny rybníka. Čím hmotnější a rychlejší pohyb, tím silnější vlny."
+      },
+      {
+        "heading": "Proč je nešlo změřit sto let",
+        "body": "Gravitační vlny procházejí hmotou takřka nezastaveny, ale jsou směšně slabé — projdou-li kolem, protáhne se prostor o zlomek rozměru protonu. Einstein sám pochyboval, že je někdy změříme. Teprve v září 2015 detekovala americká observatoř LIGO vlny ze srážky dvou černých děr ve vzdálenosti 1,3 miliardy světelných let. Oznámení v únoru 2016 bylo světovou událostí; o rok později dostali průkopníci detekce Nobelovu cenu. Dodnes bylo potvrzeno více než sto detekcí."
+      },
+      {
+        "heading": "Jak detektor vlastně funguje?",
+        "body": "Základ je překvapivě jednoduchý: laserový interferometr. Laser se rozdělí na dva paprsky, které projdou kilometr dlouhými vakuovými trubkami pod úhlem 90 stupňů, odrazí se zrcadly a vrátí se zpět. Pokud projde gravitační vlna, jedna trubka se mikroskopicky protáhne a druhá zkrátí — světelné paprsky se rozzáří v mírně jinou chvíli. Na citlivosti věci pracuje i evropský detektor Virgo v Itálii a od 30. let přibude kosmická sestava LISA."
+      },
+      {
+        "heading": "Co gravitační vlny odhalují",
+        "body": "- **Černé díry, které nevidíme.** Vlny nesou informaci o hmotnosti a spinu srážejících se objektů — čísla, která žádný teleskop nezměří. Z katalogu srážek už známe černé díry, o nichž bychom jinak nevěděli.\n- **Srazky neutronových hvězd.** V srpnu 2017 detekce vlny GW170817 doprovázená gama zábleskem a později optickým zábleskem potvrdila, že těžké prvky — zlato, platina, uran — vznikají při srážkách neutronových hvězd. Hodně prvků ve vašem těle vzniklo při takové události.\n- **Ranný vesmír.** Reliktní záření nám ukazuje vesmír starý 380 000 let. Gravitační vlny by mohly ukázat dál — teoreticky až k éře inflace, zlomky vteřiny po Velkém třesku."
+      },
+      {
+        "heading": "Další kapitola: LISA",
+        "body": "Evropská mise LISA (plánovaná na 30. léta 21. století) umístí tři sondy do prostoru v uspořádání trojúhelníku o straně 2,5 milionu kilometrů. Vzájemné vzdálenosti sond budou měřeny laserovými paprsky s mikrometrovou přesností na miliardy kilometrů. Citlivost vzroste natolik, že budeme „slyšet\" supermasivní černé díry v centrech galaxií, jejich slučování a interakce s hvězdami a plynem kolem nich — věci, které pozemské detektory nezachytí nikdy."
+      }
+    ],
+    "why_box": "Záblesky gravitačních vln jsou doslova nejsilnějšími událostmi ve vesmíru — uvolněná energie srážky dvou černých děr krátce předstihne svítivost všech hvězd všech galaxií dohromady — a my je „slyšíme\" v laboratořích na Zemi. Astronomie už není jen o světle; máme nový smysl.",
+    "related_explainery": [
+      "co-je-horizont-udalosti",
+      "co-je-neutronova-hvezda"
+    ]
+  },
+  {
+    "id": "exp-003",
+    "title": "Co se stane, když spadnete do černé díry?",
+    "theme": "cerne-diry",
+    "description": "Pád do černé díry je nejextrémnější cestou ve vesmíru. Co uvidíte, co pocítíte — a proč vám nikdo nebude moct pomoct?",
+    "published": "2026-10-17",
+    "updated": "2026-10-17",
+    "perex": "Překročíte horizont událostí a cesta je jednosměrná. Pro vás jako pádujícího se pád trvá několik hodin; pro pozorovatele zvenčí se váš pád protáhne do nekonečna. Černá díra si podmaňuje nejen hmotu, ale i čas.",
+    "sections": [
+      {
+        "heading": "Nejdřív: co černá díra vlastně je",
+        "body": "Černá díra je oblast prostoročasu, kde je gravitace tak silná, že z ní neunikne ani světlo — a proto ani žádná informace. Vzniká zhroucením velmi hmotné hvězdy: když dojde jaderné palivo, zářivý tlak v nitru hvězdy už neudrží její hmotu proti vlastní gravitaci. Hvězda se pod vlastní vahou zhroutí a vše, co zbyde, se zhrne za horizont událostí. Supermasivní černé díry v centrech galaxií — miliony až miliardy hmotností Slunce — vznikly buď zhroucením obřích plynných oblaků, nebo postupným slučováním menších černých děr v průběhu miliard let."
+      },
+      {
+        "heading": "Cesta dovnitř: co uvidíte vy",
+        "body": "Pokud byste klesali do dostatečně velké černé díry (supermasivní, miliony hmotností Slunce), první část cesty by byla překvapivě nudná:\n\n- **Táhání gravitací (spagetizace).** Rozdíl gravitační síly mezi vaší hlavou a chodidly je na začátku nepatrný, blízko centra vás ale rozdílné síly doslova natáhnou jako špagetu. U supermasivní černé díry byste horizont překročili dřív, než spagetizace nastala — u malé černé díry by vás roztrhala už před horizontem.\n- **Obraz vesmíru se stáčí.** Světlo z okolních hvězd se kolem černé díry ohýbá — uvidíte oblohu zkreslenou do jasného prstence. Černá díra se zahalí do světla vesmíru, které za sebou nechává.\n- **Čas.** Sám pociťujete čas normálně. Ale vůči vzdáleným pozorovatelům se váš čas zpomaluje — podle relativistické fyziky to plynule následuje z gravitace."
+      },
+      {
+        "heading": "Co uvidí pozorovatel zvenčí",
+        "body": "Pro přítele, který by z bezpečné vzdálenosti přihlížel, se váš pád nikdy neskončí. S každou další vteřinou svítíte slaběji a ruději, pohyb se zpomaluje, až vás pohltí tma horizontu. Matematicky řečeno: váš obraz se „zamrazí\" na horizontu. V praxi se však záblesk stane neviditelným během zlomku vteřiny — zamrzlý obraz nikdo neodfotí."
+      },
+      {
+        "heading": "Je východisko?",
+        "body": "Ve vysoce spekulativních scénářích teoretické fyziky — bílé díry, červí díry — se o nich píše sci-fi. Fyzikálně ověřitelná odpověď je jednoduchá: nic z horizontu neunikne a nic, co dovnitř vstoupilo, se nevrátí. Ani světlo, ani signál, ani vy. Jedinou „dírkou\" v pravidlech je Hawkingovo záření — neuvěřitelně slabé vyzáření způsobené kvantovými efekty u horizontu. Z pádla by vám ale žádný příběh nezachránilo: Hawkingovo záření nese žádnou informaci o tom, kdo dovnitř vstoupil."
+      },
+      {
+        "heading": "Co se stane s vašimi informacemi?",
+        "body": "Zde se fyzika dostává k největšímu sporu současnosti. Kvantová mechanika říká, že informace nemůže být zničena; obecná teorie relativity říká, že za horizontem informace zmizí navždy. Tento spor — tzv. informační paradox černých děr — stále nemá definitivní řešení a je jedním z hlavních problémů, na němž se dnes pracuje v kvantové gravitaci. Možná informace zůstane na horizontu v podobě kvantového „filmového pásu\". Možná unikne s Hawkingovým zářením. Vědci to zatím nevědí — a právě to činí černé díry nejzajímavějšími laboratořemi fyziky."
+      }
+    ],
+    "why_box": "Černé díry nejsou „vysavače vesmíru\", jak je kreslí filmy — bez překročení horizontu vás nepohltí. Jsou koncentrovaná gravitace, která testuje naši intuici o čase a prostoru. A supermasivní černá díra čeká i v centru naší vlastní galaxie, ve vzdálenosti 27 000 světelných let, s hmotností čtyř milionů Sluncí.",
+    "related_explainery": [
+      "co-je-horizont-udalosti",
+      "mohou-cerne-diry-vymirat-hawkingovo-zareni",
+      "co-jsou-gravitacni-vlny"
+    ]
+  }
+]
