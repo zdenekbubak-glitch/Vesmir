@@ -29,7 +29,7 @@ jobs:
 
       - name: Generate SEO pages
         run: |
-          python3 build_static.py --site-dir . --out . --base https://kosmonovinky.cz
+          python3 tools/build_static.py --site-dir . --out . --base https://kosmonovinky.cz
           python3 tools/build_explainery.py --site-dir . --out . --base https://kosmonovinky.cz
 
       - name: Upload artifact
