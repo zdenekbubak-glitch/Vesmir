@@ -95,7 +95,8 @@ def score_relevance(client, posts: list) -> list:
 (černé díry, temná hmota/energie, gravitační vlny, neutronové hvězdy, reliktní záření,
 Hubbleovo napětí, inflace vesmíru, kvantová gravitace)?
 Metaforické použití („černá díra peněz“, politika, inflace ekonomická, vtipy) = NE.
-Odpověz pouze JSON: {{"relevant": true/false, "reason": "krátké zdůvodnění", "score": 0-10}}
+Odpověz pouze JSON: {{"relevant": true/false, "reason": "krátké zdůvodnění", "score": 0-10,
+"comment": "1-2 krátké české věty, přirozený komentář ke sdílení na X jako web Kosmonovinky; bez slov 'příspěvek', 'tento text', 'autor'; max 200 znaků"}}
 
 Příspěvek:
 {p['text'][:500]}
@@ -112,6 +113,7 @@ Příspěvek:
             p["relevant"] = bool(data.get("relevant"))
             p["score"] = int(data.get("score", 0))
             p["reason"] = data.get("reason", "")
+            p["comment"] = str(data.get("comment", "") or "").strip()
         except Exception as e:
             print(f"Skórování selhalo pro {p['id']}: {e}")
             p["relevant"] = False
@@ -122,6 +124,32 @@ Příspěvek:
     scored.sort(key=lambda x: x["score"], reverse=True)
     print(f"Relevantních po filtrování: {len(scored)}")
     return scored
+
+
+def make_comment(p: dict) -> str:
+    """Vrátí čistý citátový komentář (max ~220 znaků, celé věty)."""
+    c = (p.get("comment") or "").strip()
+    # odstraň meta-úvody, kdyby se přesto objevily
+    for pre in ("Příspěvek", "Tento příspěvek", "Tento text", "Zajímavý pohled", "Jde o příspěvek", "Jde o"):
+        if c.startswith(pre):
+            c = c[len(pre):].lstrip(" :–-")
+            break
+    c = c.strip()
+    if not c:
+        # fallback: první věta z původního textu
+        t = re.sub(r"\s+", " ", p.get("text", "")).strip()
+        m = re.split(r"(?<=[.!?…])\s", t)
+        c = (m[0] if m else t)[:160].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+    if len(c) > 220:
+        cut = c[:220]
+        dot = max(cut.rfind(". "), cut.rfind("! "), cut.rfind("? "))
+        if dot > 60:
+            c = cut[:dot + 1]
+        else:
+            c = cut.rsplit(" ", 1)[0].rstrip(",;:") + "…"
+    if c and c[-1] not in ".!?…":
+        c += "."
+    return c
 
 
 def buffer_create_post(api_key: str, text: str, as_draft: bool = False) -> dict | None:
@@ -201,20 +229,14 @@ def main():
     drafts = relevant[2:7]
 
     for p in auto:
-        comment = (
-            f"Zajímavý pohled na {p['reason'][:80] if p.get('reason') else 'téma'}. "
-            f"Více česky na kosmonovinky.cz"
-        )
-        text = f"{comment}\n\n{p['url']}"
+        comment = make_comment(p)
+        text = f"{comment}\n\nPřehledně česky: kosmonovinky.cz"
         buffer_create_post(buffer_key, text, as_draft=False)
         time.sleep(1)
 
     for p in drafts:
-        comment = (
-            f"Možná relevantní: {p['text'][:100].replace(chr(10), ' ')}… "
-            f"(skóre {p.get('score', 0)})"
-        )
-        text = f"{comment}\n\n{p['url']}"
+        comment = make_comment(p)
+        text = f"{comment}\n\n{p['url']}\n(návrh k posouzení, skóre {p.get('score', 0)})"
         buffer_create_post(buffer_key, text, as_draft=True)
         time.sleep(1)
 
