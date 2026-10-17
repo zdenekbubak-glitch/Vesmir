@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   quote:
@@ -28,3 +28,11 @@ jobs:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: python scripts/quote_x_posts.py
+
+      - name: Uložit stav použitých příspěvků
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/quote_x_used.json
+          git diff --cached --quiet || git commit -m "Quote X: aktualizace stavu použitých příspěvků"
+          git push
