@@ -107,5 +107,138 @@
       "mohou-cerne-diry-vymirat-hawkingovo-zareni",
       "co-jsou-gravitacni-vlny"
     ]
+  },
+  {
+    "id": "exp-004",
+    "title": "Co je temná energie a jak se liší od temné hmoty?",
+    "theme": "temna-energie",
+    "description": "Temná energie tvoří 68 % vesmíru a zrychluje jeho rozpínání. Co přesně je, proč existuje a jak se liší od temné hmoty?",
+    "published": "2026-10-17",
+    "updated": "2026-10-17",
+    "perex": "Vesmír se rozpíná stále rychleji — za zrychlením stojí temná energie, záhadná síla naplňující prázdný prostor. Tvoří 68 % vesmíru a rozhoduje o jeho osudu, přitom nevíme, co doopravdy je.",
+    "sections": [
+      {
+        "heading": "Dva druhy temna",
+        "body": "Když astronomové sečetli hmotu ve vesmíru, vyšlo jim něco zvláštního: neviditelná temná hmota tvoří většinu hmoty, ale přesto jen asi 27 % celkového obsahu vesmíru. Zbylých zhruba 68 % tvoří něco ještě záhadnějšího — temná energie. Nejedná se o hmotu vůbec, ale o energii naplňující samotný prostor, která určuje, jak rychle se vesmír rozpíná."
+      },
+      {
+        "heading": "Jak víme, že existuje?",
+        "body": "Věděli jsme to překvapivě dlouho, aniž bychom rozuměli proč. Srovnáváním vzdáleností galaxií v 90. letech 20. století dva nezávislé týmy pozorování supernov typu Ia objevily, že vzdálené galaxie se vzdalují rychleji, než by odpovídalo zpomalování od gravitace. Vesmír se rozpíná zrychleně. Je, jako by stůl, po němž se valí kulička, najednou začal sám nabývat rychlost."
+      },
+      {
+        "heading": "Měření z více stran",
+        "body": "Kromě supernov typu Ia máme dnes dvě další nezávislé metody, které temnou energii potvrzují: mřížku teplotních fluktuací v reliktním záření a uspořádání galaxií do velkých pěn a vláken. Všechny tři metody — zcela nezávislé — dávají shodný výsledek: vesmír obsahuje zhruba 68 % temné energie, 27 % temné hmoty a jen 5 % obyčejné hmoty. Evropská družice Euclid, vypuštěná v roce 2023, má tuto otázku proměřit s dosud nevídanou přesností a možná i rozhodnout mezi konkurenčními vysvětleními."
+      },
+      {
+        "heading": "Co by temná energie mohla být?",
+        "body": "Fyzikové připravují tři hlavní odpovědi. První je kosmologická konstanta — energie prázdného prostoru, která prostě je, jako stálý tlak vakua; tu předpověděl už Einstein, ač ji později odvolal. Druhá je kvintesence — dynamické pole, které se v čase mění a mohlo v minulosti působit jinak. Třetí možnost je nejjednodušší popisem a nejrevolučnější důsledky: že Einsteinova rovnice gravitace neplatí na kosmologických vzdálenostech přesně a vesmír se rozpíná jinak, než si myslíme. Rozdíl mezi těmito scénáři se měří právě přesností mapování vesmíru — proto je Euclid tak důležitý."
+      },
+      {
+        "heading": "Co temná energie umí",
+        "body": "Temná energie funguje opačně než gravitace. Zatímco gravitace přitahuje a zpomaluje, temná energie působí jako jakási antigravitace — ne na jednotlivé galaxie, ale na prostor samotný. Každý metr krychlový vesmíru obsahuje trochu této energie a protože přibývá nový prostor, přibývá i energie, která rozpínání ještě urychluje. Je to pozitivní zpětná vazba: čím větší vesmír, tím rychlejší rozpínání."
+      },
+      {
+        "heading": "Jak se liší od temné hmoty?",
+        "body": "I když se jmenují podobně, jde o dvě zcela odlišné věci. Temná hmota se chová jako hmota — gravituje, shlukuje se kolem galaxií a drží je pohromadě. Temná energie je energie prázdného prostoru a působí na obrovských vzdálenostech mezi galaxiemi. Zjednodušeně: temná hmota řídí, jak se ve vesmíru tvoří struktura, temná energie určuje, jak rychle se celý vesmír rozpíná a jaký bude jeho osud."
+      },
+      {
+        "heading": "Co bude dál?",
+        "body": "Budoucnost vesmíru závisí právě na temné energii. Zrychlené rozpínání znamená, že vzdálené galaxie se od nás vzdalují čím dál rychleji — jednou budou mizet za horizontem, který už nebude možné překročit ani světlem. Mlhoviny hvězd se vypnou, galaxie osamí a vesmír skončí chladný, temný a prázdný. Vědci ale stále nevědí, co temná energie doopravdy je — ať už jde o kvantovou energii vakua, o nové pole ve vesmíru, nebo o tom, že obecná teorie relativity potřebuje na velkých vzdálenostech opravit."
+      }
+    ],
+    "why_box": "Osud vesmíru — zda se jednou zhroutí, zmrzne, nebo se roztrhá — je v rukou něčeho, co nikdy nebylo přímým pozorováním spatřeno. Každá teorie, která ji vysvětlí, zároveň přepíše naše chápání gravitace i kvantové fyziky.",
+    "related_explainery": [
+      "co-je-temna-hmota",
+      "co-je-reliktni-zareni"
+    ]
+  },
+  {
+    "id": "exp-005",
+    "title": "Co je černá díra a jak vzniká?",
+    "theme": "cerne-diry",
+    "description": "Černá díra je oblast, z níž neunikne ani světlo. Jak vzniká zhroucením hvězdy, kolik druhů existuje a jak ji vůbec pozorujeme?",
+    "published": "2026-10-17",
+    "updated": "2026-10-17",
+    "perex": "Černá díra je místo, kde gravitace zvítězila nad vším ostatním — oblast, z níž neunikne ani světlo. Nejznámější vznikají zhroucením umírajících hvězd, ty největší ale číhají v srdcích galaxií.",
+    "sections": [
+      {
+        "heading": "Co je to černá díra?",
+        "body": "Černá díra je místo, kde gravitace zvítězila nad vším ostatním — oblast prostoročasu tak silně zakřivená, že z ní neunikne ani světlo. Není to „díra\" ve smyslu otvoru do něčeho; je to spíš konec cesty. Hranice této oblasti se nazývá horizont událostí a vše, co ho překročí, se už ven nedostane."
+      },
+      {
+        "heading": "Kolik druhů černých děr existuje?",
+        "body": "Astronomové rozlišují několik druhů podle hmotnosti. Černé díry hvězdné vznikají zhroucením velkých hvězd a mají řádově několik až desítky hmotností Slunce. Supermasivní černé díry v centrech galaxií váží miliony až miliardy Sluncí. Mezi nimi se hledají i střední černé díry, vzniklé pravděpodobně slučováním menších, a hypotetické primordiální černé díry, které mohly vzniknout už v raném vesmíru."
+      },
+      {
+        "heading": "Zrození z hvězdy",
+        "body": "Hvězdná černá díra se rodí dramaticky. Když velká hvězda spotřebuje své jaderné palivo, už ji neudržuje zářivý tlak vnitřku. Hvězda se zhroutí — nejdřív vrstvami, pak v jediném okamžiku, když jádro zkolabuje pod vlastní vahou. Při této kolapsi nastane výbuch supernovy, který vrstvy hvězdy odhodí do vesmíru, a to, co zbyde, se zhrne za horizont událostí. Z hvězdy o desítkách Sluncí zbude objekt o průměru jen několika kilometrů."
+      },
+      {
+        "heading": "Jak černé díry pozorujeme?",
+        "body": "Černou díru nikdy neuvidíme přímo, ale její přítomnost prozradí okolí. Nejčistší důkaz přinesl souhvězdí Střelce: hvězdy v centru Mléčné dráhy obíhají po vypočítaných drahách kolem neviditelného bodu o hmotnosti milionů Sluncí — nic jiného než černá díra to být nemůže. Gravitační vlny z LIGO a Virga nám ukázaly srážky černých děr v jiných galaxiích, a síť teleskopů Event Horizon Telescope pořídila v roce 2019 první snímek stínu černé díry v galaxii M87. Tři zcela odlišné metody, tři zcela odlišné důkazy."
+      },
+      {
+        "heading": "Kolik jich kolem nás je?",
+        "body": "Černé díry jsou běžnější, než by se zdálo. V samotné Mléčné dráze odhadují astronomové kolem sta milionů černých děr hvězdné hmotnosti — pozůstatků dávno zaniklých hvězd. Ty, které vidíme, většinou patří k dvojhvězdám: sami jsou neviditelné, ale hry poloha a rychlost jejich průvodce prozradí, že tam něco těžkého je. Zatím nejbližší známá černá díra leží v souhvězdí Draka, zhruba 1600 světelných let od nás — na měřítka vesmíru to je doslova sousedství."
+      },
+      {
+        "heading": "Kdo černé díry objevil?",
+        "body": "Idea černých děr je starší, než se zdá. Už v roce 1783 anglický učenec John Michell vypočetl, že z dostatečně husté hvězdy by nemohlo uniknout ani světlo — nazval ji „tmavou hvězdou\". Matematicky černé díry předpověděla Einsteinova obecná teorie relativity, když ji o rok po jejím zveřejnění vyřešil Karl Schwarzschild. Po desetiletí je ale fyzikové považovali za matematickou zvláštnost, ne za reálné objekty — obávali se, že vesmír by se sám zhroutil, kdyby existovaly. Slovo „černá díra\" se vžilo až v roce 1967 díky Johnu Wheelerovi."
+      },
+      {
+        "heading": "Supermasivní černé díry — jiná cesta",
+        "body": "Supermasivní černé díry vznikly jinak — jejich počátky jsou jedním z největších otevřených problémů kosmologie. Buď se zrodily už z obřích plynů v prvních vesmírech, nebo vznikly slučováním menších černých děr po generace. Pozorujeme je nepřímo: hvězdy kolem středu galaxie obíhají něco neviditelného ohromné hmotnosti, a občas se do černé díry zakousne plyn, který před spadnutím zahřejí na miliony stupňů a zazáří jako rentgenová signatura."
+      }
+    ],
+    "why_box": "Černé díry nejsou kosmické vysavače, jak je kreslí filmy — bez překročení horizontu vás nepohltí. Jsou především extrémní laboratoře gravitace: právě v nich bychom mohli najít první jiskřičky kvantové gravitace, teorie, která sjednotí obecnou teorii relativity s kvantovou mechanikou. A jedna čeká i v centru naší galaxie, 27 000 světelných let od nás.",
+    "related_explainery": [
+      "co-je-horizont-udalosti",
+      "co-se-stane-kdyz-spadnete-do-cerne-diry"
+    ]
+  },
+  {
+    "id": "exp-006",
+    "title": "Co je horizont událostí?",
+    "theme": "cerne-diry",
+    "description": "Horizont událostí je hranice, za níž nevede návrat. Proč černá díra černá je, jak velký horizont je a proč zmítá fyzikou dodnes?",
+    "published": "2026-10-17",
+    "updated": "2026-10-17",
+    "perex": "Horizont událostí je neviditelná hranice kolem černé díry — místo, kde končí všechny cesty ven. Není z čeho vytvořen, a přesto je neprostupnější než jakákoli zeď ve vesmíru.",
+    "sections": [
+      {
+        "heading": "Hranice bez návratu",
+        "body": "Horizont událostí je nejzajímavější hranice ve vesmíru: není z ničeho vyroben, nemá hmotu, nedá se osahat — a přesto je neprostupnější než jakákoliv zeď. Jde o hranici oblasti, z níž není možné uniknout. Překročíte-li ho, všechny možné dráhy — včetně světla — vedou ke středu černé díry."
+      },
+      {
+        "heading": "Proč je černá díra černá?",
+        "body": "Proto vypadá černá díra černě. Světlo z hvězd a plynů, které k černé díře dopadá, se sice ohýbá a krouží kolem ní, ale jakmile překročí horizont, už se ven nevrátí. Zvenčí vidíme jen tmu ohraničenou světlem, které se zastavilo těsně před ní. První skutečný snímek černé díry z roku 2019 (M87*) ukázal přesně toto: zářící prstenec materiálu kolem dokonalé temné skvrny."
+      },
+      {
+        "heading": "Jak velký horizont je?",
+        "body": "Velikost horizontu závisí jen na hmotnosti černé díry. U černé díry o hmotnosti Slunce by měl průměr zhruba 6 kilometrů. U supermasivní černé díry v centru Mléčné dráhy, která váží čtyři miliony Sluncí, jde o kruh o průměru zhruba 24 milionů kilometrů — pořád menší než oběžná dráha Merkuru. Hranice je z hlediska vesmíru úzká; problém je, že za ní cesta jednosměrně končí."
+      },
+      {
+        "heading": "Hawkingovo záření",
+        "body": "Kvantová mechanika horizontu přidává ještě jednu vrstvu podivnosti. Stephen Hawking v roce 1974 ukázal, že černá díra díky kvantovým jevům u horizontu velmi slabě září — a tím pomalu ztrácí hmotu. Čím menší černá díra, tím intenzivněji „vře\"; ta hvězdné velikosti by vypařováním přežila déle než současný věk vesmíru, takže to není způsob, jak černé díry z vesmíru mizí dnes. Hawkingovo záření ale naznačuje, že horizont není absolutně černý — a že kvantová gravitace nakonec přijde na to, co se s informací za horizontem děje."
+      },
+      {
+        "heading": "Dá se horizontu vyhnout?",
+        "body": "Dá se horizontu nějak vyhnout? Fyzika říká ne. Představte si nejvýkonnější raketu — cokoliv, co překročí horizont, se k němu už nemůže vrátit zpátky, i kdyby mělo neomezený tah a neomezené palivo. Důvod je geometrický: uvnitř horizontu se směr „ke středu\" stává směrem „do budoucnosti\". Je to jako se ptát, jestli se můžete vyhnout zítřku — horizont neudržuje nic svou silou, jen předznamenává, kam už čas povede jediným možným směrem."
+      },
+      {
+        "heading": "Horizonty i jinde ve vesmíru",
+        "body": "Černé díry nejsou jediné horizonty ve vesmíru. Kosmologie má svůj vlastní horizont událostí: věci, které jsou od nás příliš daleko, se vzdalují rychleji než světlo, takže jejich světlo k nám nikdy nedoputuje — jsou za kosmologickým horizontem navždy mimo náš dosah. Aby se vesmír nekousal sám do sebe, existuje i horizont částic — hranice vzdálenosti, odkud světlo od Velkého třesku stihlo k nám doputovat. Horizonty tak nejsou zvláštností černých děr, ale obecným důsledkem struktury prostoročasu."
+      },
+      {
+        "heading": "Horizont není pevná hranice",
+        "body": "Horizont není pevná, neměnná věc. Černá díra, která polkne hvězdu nebo plyn, zvětší svůj horizont. Podle obecné teorie relativity se při pádu do černé díry horizont chová zvláštně: pro padajícího pozorovatele ho překročí bez okolků, pro vzdáleného přihlížejícího se obraz padajícího „zamrazí\" na hranici a postupně zhasne. Obě skutečnosti jsou pravdivé zároveň — černá díra nere-spektuje naši intuici současnosti."
+      }
+    ],
+    "why_box": "Horizont událostí je příčinou největšího paradoxu současné fyziky. Kvantová mechanika tvrdí, že informace nikdy nezaniká; obecná teorie relativity tvrdí, že za horizontem mizí navždy. Kdy se tyto dva popisy srazí právě na hranici černé díry — a který má pravdu — se fyzikové snaží zjistit právě teď.",
+    "related_explainery": [
+      "co-je-cerna-dira-a-jak-vznika",
+      "co-se-stane-kdyz-spadnete-do-cerne-diry",
+      "mohou-cerne-diry-vymirat-hawkingovo-zareni"
+    ]
   }
 ]
