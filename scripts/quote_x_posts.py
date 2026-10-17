@@ -3,8 +3,10 @@
 
 import json
 import os
+import re
 import time
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 import requests
 
@@ -159,11 +161,13 @@ def make_comment(p: dict) -> str:
     """Vrátí čistý citátový komentář (max ~220 znaků, celé věty)."""
     c = (p.get("comment") or "").strip()
     # odstraň meta-úvody, kdyby se přesto objevily
-    for pre in ("Příspěvek", "Tento příspěvek", "Tento text", "Zajímavý pohled", "Jde o příspěvek", "Jde o"):
+    for pre in ("Příspěvek popisuje", "Příspěvek se zabývá", "Tento příspěvek", "Tento text", "Zajímavý pohled", "Jde o příspěvek", "Příspěvek", "Jde o"):
         if c.startswith(pre):
             c = c[len(pre):].lstrip(" :–-")
             break
     c = c.strip()
+    if c:
+        c = c[0].upper() + c[1:]
     if not c:
         # fallback: první věta z původního textu
         t = re.sub(r"\s+", " ", p.get("text", "")).strip()
