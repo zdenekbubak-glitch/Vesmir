@@ -242,9 +242,8 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
     </div>
     <p class="subtitle">Česky o kosmologii: temná hmota, černé díry, galaxie, reliktní záření, gravitační vlny, neutronové hvězdy a další.</p>
     <nav>
-      <a href="/index.html">Aktuální</a>
-      <a href="/archive.html">Archiv</a>
-      <a href="/clanky/">Články</a>
+      <a href="/index.html">Novinky</a>
+      <a href="/clanky/">Přehled článků</a>
       <a href="/temata/">Rubriky</a>
       <a href="/kosmopedie/">Kosmopedie</a>
       <a href="/images.html">Obrázky</a>
@@ -356,7 +355,7 @@ def main():
 {lang_note}      <p class="source-link"><a href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní studie / článek ({esc(item.get("source"))}) →</a></p>
 {rel_html}    </article>
 {SIGNUP_FORM.replace('class="signup-box"', 'class="signup-box" style="margin-top:1.5rem"')}
-    <p class="back"><a href="/clanky/">← Všechny články</a> · <a href="/temata/">Rubriky</a> · <a href="/archive.html">Archiv</a></p>
+        <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>
 '''
         page += FOOT
         (out / item["_path"]).write_text(page, encoding="utf-8")
@@ -377,11 +376,11 @@ def main():
             list_html += (f'    <article class="item"><h2><a href="/{item["_path"]}">{esc(item.get("title"))}</a></h2>'
                           f'<p class="meta">{fmt_date(item.get("published"))} · {esc(item.get("source"))} · '
                           f'<a href="/temata/{item["_theme"]}.html">{esc(THEME_LABEL.get(item["_theme"], FALLBACK_THEME[1]))}</a></p></article>\n')
-    idx = page_head("Všechny články – Kosmologické novinky",
+    idx = page_head("Přehled článků – Kosmologické novinky",
                     "Kompletní přehled českých souhrnů kosmologických studií a novinek: temná hmota, černé díry, gravitační vlny, galaxie a další.",
                     f"{base}/clanky/")
-    idx += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › Všechny články</p>
-    <h1 class="section-title" style="font-size:1.4rem;color:var(--text)">Všechny články ({len(news)})</h1>
+    idx += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › Přehled článků</p>
+    <h1 class="section-title" style="font-size:1.4rem;color:var(--text)">Přehled článků ({len(news)})</h1>
     <input type="search" id="clanky-search" class="search-box" placeholder="Hledat v článcích…" aria-label="Hledat v článcích">
 {list_html}    <script>{SEARCH_JS}</script>
 '''
