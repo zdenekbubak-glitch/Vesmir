@@ -68,7 +68,7 @@ def search_x(bearer: str, hours: int = 36) -> list:
         return []
     strategies = [
         (f"({KEYWORDS}) lang:cs -is:retweet -is:reply", hours, "primární"),
-        (f"({KEYWORDS_BROAD}) lang:cs -is:retweet min_faves:2", 72, "záložní"),
+        (f"({KEYWORDS_BROAD}) lang:cs -is:retweet -is:reply", 72, "záložní"),
     ]
     posts = []
     for query, window, label in strategies:
