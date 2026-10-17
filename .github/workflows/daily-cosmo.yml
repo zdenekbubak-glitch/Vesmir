@@ -161,6 +161,11 @@ jobs:
             print(f"Nelze parsovat odpověď: {e}")
           EOF
 
+      - name: Generate SEO pages
+        run: |
+          python3 tools/build_static.py --site-dir . --out . --base https://kosmonovinky.cz
+          python3 tools/build_explainery.py --site-dir . --out . --base https://kosmonovinky.cz
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -268,4 +273,3 @@ jobs:
           except Exception as e:
             raise RuntimeError(f"Odeslání na Facebook selhalo: {e}") from e
           EOF
-
