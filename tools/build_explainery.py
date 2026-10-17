@@ -36,6 +36,9 @@ def render_body(text):
     # řádky začínající '- ' nebo 'N. ' (1. 2. 3.) se sloučí do <ul>.
     out, ul = [], []
 
+    def md(text):
+        return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', esc(text))
+
     def flush():
         if ul:
             out.append('<ul>' + ''.join(ul) + '</ul>')
@@ -45,13 +48,13 @@ def render_body(text):
         line = raw.rstrip()
         m = re.match(r'^(-|\d+\.)\s+(.*)$', line)
         if m:
-            ul.append(f'<li>{esc(m.group(2))}</li>')
+            ul.append(f'<li>{md(m.group(2))}</li>')
             continue
         if not line.strip():
             flush()
             continue
         flush()
-        out.append(f'<p>{esc(line.strip())}</p>')
+        out.append(f'<p>{md(line.strip())}</p>')
     flush()
     return '\n'.join(out)
 
