@@ -1,5 +1,20 @@
 [
   {
+    "id": "apod-2026-10-17",
+    "title": "3D pohled na kometu 67P",
+    "caption": "Nasaďte si červenomodré brýle a prohlédněte si členité dvoulaločnaté jádro komety 67P/Čurjumov-Gerasimenko na 3D anaglyfu, který v červenci 2015 pořídila sonda Rosetta ze vzdálenosti 184 kilometrů. Z aktivního povrchu komety v blízkosti jejího přísluní prýští početné trysky, přičemž větší lalok o průměru přibližně 4 kilometry spojuje s menším, 2,5kilometrovým lalokem úzký krk. Úspěšná mise sondy Rosetta skončila v září 2016 jejím řízeným dopadem na povrch komety.",
+    "thumb": "assets/gallery/apod-2026-10-17.jpg",
+    "image": "assets/gallery/apod-2026-10-17.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
+    "published": "2026-10-17",
+    "credit": "ESA , Rosetta , MPS , OSIRIS - Stereo Anaglyph: Philippe Lamy and The Team",
+    "original_title": "3D 67P",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-10-17T07:23:15.077841+00:00"
+  },
+  {
     "id": "apod-2026-10-15",
     "title": "Mléčná dráha nad Manhattanem",
     "caption": "Městská světla v „Městě, které nikdy nespí“ obvykle hvězdy přezáří, přesto se astrofotografovi podařilo zachytit Mléčnou dráhu pomocí filtru propouštějícího pouze blízké infračervené světlo. Tento postup účinně odfiltroval většinu světelného znečištění z moderních LED svítidel a zářivek, vůči nimž jsou hvězdy v infračervené oblasti spektra stále jasné. Snímek tak připomíná, že všichni žijeme pod stejnou oblohou a astronomie nám pomáhá lépe pochopit naše místo ve Vesmíru.",

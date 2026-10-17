@@ -1,5 +1,65 @@
 [
   {
+    "id": "2610.22097v1",
+    "title": "Kvantové provázání gravitací: Jaké jsou reálné limity experimentů?",
+    "summary": "Testy kvantové povahy gravitace zkoumají, zda lze dvě hmotná tělesa provázat pouze jejich vzájemnou gravitační interakcí. Teoretické modely však často zjednodušeně předpokládají bodové částice. Nová studie popisuje reálnější scénář s vlnovými balíčky konečné šířky, které podléhají dekoherenci a zbytkovým elektrostatickým silám. Autoři ukazují, že pro prakticky využitelné kvantové provázání – například pro kvantovou teleportaci – existují jen velmi úzké podmínky. Širší vlnové balíčky či vnější rušení gravitační signál silně potlačují, přičemž i nepatrné elektrostatické síly mohou gravitační efekt zcela vyrušit. Práce tak stanovuje konkrétní tolerance pro přípravu budoucích laboratoří. Proč je to zajímavé: Studie dává fyzikům přesný návod, jak vynechat rušivé vlivy a připravit experiment, který by mohly poprvé v historii dokázat kvantovou povahu gravitace.",
+    "url": "http://arxiv.org/abs/2610.22097v1",
+    "source": "arXiv",
+    "original_title": "Operational Limits of Gravity-Mediated Entanglement",
+    "published": "2026-10-15T15:45:52+00:00",
+    "inserted_at": "2026-10-17T07:22:01.261151+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.22096v1",
+    "title": "Nový pohled na černé díry: Bayesovský průlom v měření jejich hmotnosti",
+    "summary": "Aktivní galaktická jádra ukrývají supermasivní černé díry, jejichž hmotnost vědci určují měřením časového zpoždění světla – takzvaným mapováním ozvěny. Rozsáhlé astronomické přehlídky však trpí šumem a mezerami v pozorování, což snižuje přesnost dosavadních výsledků. Vědci proto vyvinuli nový Bayesovský statistický model, který dokáže souběžně vyhodnocovat časová zpoždění i vlastnosti celých populací galaxií. Tento přístup plně zohledňuje nejistoty v datech a zůstává stabilní i u velkých vzorků. Aplikace na data z přehlídky OzDES zvýšila počet spolehlivě určených hmotností černých děr z původních 24 na téměř 300. Proč je to zajímavé: Nová metoda zásadně zvyšuje výtěžnost astronomických pozorování a umožňuje přesněji zkoumat vývoj supermasivních černých děr i ze starších či méně kvalitních datových sad.",
+    "url": "http://arxiv.org/abs/2610.22096v1",
+    "source": "arXiv",
+    "original_title": "The Radius-Luminosity Relationship for Active Galactic Nuclei with Hierarchical Bayesian Reverberation Mapping",
+    "published": "2026-10-15T15:45:24+00:00",
+    "inserted_at": "2026-10-17T07:22:01.261151+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.22045v1",
+    "title": "Neutrina a Einstein: Experiment DUNE hledá trhliny v principu ekvivalence",
+    "summary": "Chystaný experiment DUNE slouží nejen k výzkumu neutrinových oscilací, ale i k testování fundamentálních zákonů fyziky, jako je Einsteinův princip ekvivalence. Teoretická studie se zaměřila na porovnání citlivosti detektoru při využití neutrinových paprsků o různé energii. Výsledky ukazují, že nízkoenergetická konfigurace svazku poskytuje výrazně přísnější limity pro případné porušení principu ekvivalence než verze se střední energií. Klíčové parametry dokáže omezit až na úroveň řádu 10⁻²⁴. Výzkum prokazuje, že optimalizace energie paprsku a oddělené měření neutrin a antineutrin jsou zásadní pro odhalení jemných efektů přesahujících Standardní model. Proč je to zajímavé: Testování principu ekvivalence na takto lehkých částicích představuje unikátní způsob, jak hledat stopy kvantové gravitace.",
+    "url": "http://arxiv.org/abs/2610.22045v1",
+    "source": "arXiv",
+    "original_title": "DUNE Beam-Energy Dependence of Sensitivity to the Violation of the Equivalence Principle",
+    "published": "2026-10-15T15:15:32+00:00",
+    "inserted_at": "2026-10-17T07:22:01.261151+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.22042v1",
+    "title": "Kvantová gravitace bez pevného prostoročasu: Nový algebraický pohled",
+    "summary": "Jedním z hlavních cílů kvantové gravitace je popsat vesmír bez nutnosti předpokládat předem daný prostoročasový fond – tedy dosáhnout takzvané nezávislosti na pozadí. Nová studie zkoumá algebraický přístup, který propojuje fyzikální pozorovatelné veličiny s dráhou pozorovatele. Díky tomuto „gravitačnímu provázání“ lze popis fyziky oddělit od konkrétního prostoročasu na úrovni abstraktní algebry. Různé stavy této algebry pak odpovídají různým časoprostorovým pozadím. Autoři kriticky hodnotí dosavadní definice a zavádějí nové pojmy nezávislosti na pozadí přímo namířené na semiklasické teorie. Proč je to zajímavé: Tento koncept nabízí přísnější matematická kritéria pro posouzení, zda naše teorie gravitace dokážou fungovat bez berličky pevně zadaného časoprostoru.",
+    "url": "http://arxiv.org/abs/2610.22042v1",
+    "source": "arXiv",
+    "original_title": "On Algebraic Background-Independence",
+    "published": "2026-10-15T15:14:18+00:00",
+    "inserted_at": "2026-10-17T07:22:01.261151+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.21992v1",
+    "title": "Krize v kosmologii: Může za nesrovnalosti pohyb vodíku v raném vesmíru?",
+    "summary": "Současná kosmologie čelí takzvanému napětí, kdy různé metody měření základních parametrů vesmíru poskytují odlišné výsledky. Nová studie navrhuje řešení spočívající v úpravě modelu rekombinace vodíku v raném vesmíru. Autoři zjistili, že interakce fotonů Lyman-alfa s pohybujícími se atomy vodíku způsobuje dodatečnou korekci rudého posuvu. Tento efekt ovlivňuje rychlost úniku fotonů a tím i interpretaci dat z reliktního záření. Zahrnutí této korekce vede k vyšší hodnotě Hubbleovy konstanty a nižší hustotě hmoty, což výrazně zmírňuje rozpor mezi různými pozorováními. Proč je to zajímavé: Nepatrná zpřesňující korekce atomové fyziky v raném vesmíru může vyřešit současnou krizi kosmologie bez nutnosti zavádět exotické teoretické částice.",
+    "url": "http://arxiv.org/abs/2610.21992v1",
+    "source": "arXiv",
+    "original_title": "Modified hydrogen recombination rate due to non-Hubble redshift effects",
+    "published": "2026-10-15T14:40:13+00:00",
+    "inserted_at": "2026-10-17T07:22:01.261151+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2610.22326v1",
     "title": "Srážky singularit na Riemannových plochách a geometrické bubliny",
     "summary": "Studium vlastností komplexních prostorů a fyzikálních polí často naráží na přítomnost singularit – bodů, kde běžné matematické rovnice selhávají. Tento výzkum se zaměřuje na takzvané opery se zdánlivými singularitami na Riemannových plochách. Autoři popisují matematický proces, při kterém se dvě singularity k sobě přiblíží, srazí a zcela zmizí. Tento zánik způsobuje přechod mezi různými vrstvami geometrického prostoru a vytváří efekt známý jako izomonodromické bublání, při němž dochází k lokální změně geometrické struktury. Výsledky tak elegantně propojují teorii diferenciálních rovnic s pokročilou geometrickou chirurgií a teorií Higgsových svazků. Proč je to zajímavé: Studium vzniku a zániku singularit odhaluje skryté vlastnosti geometrických prostorů, jež tvoří matematický základ moderní kvantové fyziky.",
