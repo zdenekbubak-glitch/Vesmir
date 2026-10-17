@@ -381,6 +381,7 @@ def main():
                     f"{base}/clanky/")
     idx += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › Přehled článků</p>
     <h1 class="section-title" style="font-size:1.4rem;color:var(--text)">Přehled článků ({len(news)})</h1>
+    <p class="summary">Všechny články přehledně po měsících, nejnovější nahoře. Kliknutím na titulek otevřete celý text — výběr zúží fulltextové hledání níže.</p>
     <input type="search" id="clanky-search" class="search-box" placeholder="Hledat v článcích…" aria-label="Hledat v článcích">
 {list_html}    <script>{SEARCH_JS}</script>
 '''
