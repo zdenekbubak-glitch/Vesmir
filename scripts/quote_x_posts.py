@@ -28,6 +28,9 @@ KEYWORDS_BROAD = (
     '"kosmický" OR astronaut OR "nová studie" OR "vědci objevili"'
 )
 
+# Vlastní účty webu – jejich posty se nikdy necitují
+EXCLUDED_USERNAMES = {"zdenekbubak"}
+
 def _run_query(bearer: str, query: str, hours: int) -> list:
     """Jedno volání X search; vrátí normalizované posty nebo []."""
     url = "https://api.x.com/2/tweets/search/recent"
@@ -69,8 +72,8 @@ def search_x(bearer: str, hours: int = 36) -> list:
         print("Chybí X_BEARER_TOKEN – vyhledávání přeskočeno.")
         return []
     strategies = [
-        (f"({KEYWORDS}) lang:cs -is:retweet -is:reply", hours, "primární"),
-        (f"({KEYWORDS_BROAD}) lang:cs -is:retweet -is:reply", 72, "záložní"),
+        (f"({KEYWORDS}) lang:cs -is:retweet -is:reply -from:ZdenekBubak", hours, "primární"),
+        (f"({KEYWORDS_BROAD}) lang:cs -is:retweet -is:reply -from:ZdenekBubak", 72, "záložní"),
     ]
     posts = []
     for query, window, label in strategies:
@@ -79,6 +82,7 @@ def search_x(bearer: str, hours: int = 36) -> list:
         except Exception as e:
             print(f"X search selhal ({label}): {e}")
             continue
+        posts = [p for p in posts if p["username"].lower() not in EXCLUDED_USERNAMES]
         print(f"X search ({label}): {len(posts)} kandidátů")
         if posts:
             break
