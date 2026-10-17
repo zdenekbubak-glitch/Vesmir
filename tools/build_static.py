@@ -148,7 +148,7 @@ SEARCH_JS = """
 
 SIGNUP_FORM = """
     <div class="signup-box">
-      <p>Týdenní výběr editora: čtyři až pět nejzajímavějších příspěvků v plném znění.</p>
+      <p>Týdenní výběr editora: pět nejzajímavějších článků v plném znění.</p>
       <form action="https://buttondown.com/api/emails/embed-subscribe/zdenek" method="post" class="embeddable-buttondown-form signup-form">
         <label for="bd-email">E-mail pro týdenní výběr</label>
         <input type="email" name="email" id="bd-email" placeholder="tvuj@email.cz" required />
