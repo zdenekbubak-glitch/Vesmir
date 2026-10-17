@@ -225,6 +225,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(description)}">
   <link rel="canonical" href="{esc(canonical)}">
+  <link rel="alternate" type="application/atom+xml" title="Kosmologické novinky – Atom feed" href="/feed.xml">
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
   <meta property="og:url" content="{esc(canonical)}">
@@ -248,6 +249,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
       <a href="/kosmopedie/">Kosmopedie</a>
       <a href="/images.html">Obrázky</a>
       <a href="/contact.html">Kontakt</a>
+      <a href="/feed.xml" style="color:#f0b429">RSS</a>
     </nav>
 {SIGNUP_FORM}  </header>
   <main>
