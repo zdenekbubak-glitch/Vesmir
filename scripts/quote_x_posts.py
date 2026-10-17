@@ -82,7 +82,18 @@ def search_x(bearer: str, hours: int = 36) -> list:
             break
     if not posts:
         print("::warning::X search nenašel žádné kandidáty – do Bufferu se dnes nic nepřidalo")
-    return posts
+        return posts
+    used = load_used()
+    fresh = [p for p in posts if p["id"] not in used]
+    skipped = len(posts) - len(fresh)
+    if skipped:
+        print(f"Přeskočeno {skipped} již použitých příspěvků")
+    if posts:
+        used.update(p["id"] for p in posts)
+        save_used(used)
+    if not fresh:
+        print("::warning::Všichni nalezení kandidáti už byli použiti – nic nového k odeslání")
+    return fresh
 
 
 def score_relevance(client, posts: list) -> list:
@@ -124,6 +135,24 @@ Příspěvek:
     scored.sort(key=lambda x: x["score"], reverse=True)
     print(f"Relevantních po filtrování: {len(scored)}")
     return scored
+
+
+STATE_DIR = Path("state")
+STATE_FILE = STATE_DIR / "quote_x_used.json"
+
+
+def load_used() -> set:
+    if STATE_FILE.exists():
+        try:
+            return set(json.loads(STATE_FILE.read_text(encoding="utf-8")))
+        except Exception:
+            return set()
+    return set()
+
+
+def save_used(used: set) -> None:
+    STATE_DIR.mkdir(exist_ok=True)
+    STATE_FILE.write_text(json.dumps(sorted(used), ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def make_comment(p: dict) -> str:
