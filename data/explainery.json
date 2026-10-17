@@ -50,7 +50,7 @@
    },
    {
     "heading": "Proč je nešlo změřit sto let",
-    "body": "Gravitační vlny procházejí hmotou takřka nezastaveny, ale jsou směšně slabé — projdou-li kolem, protáhne se prostor o zlomek rozměru protonu. Einstein sám pochyboval, že je někdy změříme. Teprve v září 2015 detekovala americká observatoř LIGO vlny ze srážky dvou černých děr ve vzdálenosti 1,3 miliardy světelných let. Oznámení v únoru 2016 bylo světovou událostí; o rok později dostali průkopníci detekce Nobelovu cenu. Dodnes bylo potvrzeno více než sto detekcí."
+    "body": "Gravitační vlny procházejí hmotou takřka nezastaveny, ale jsou nepředstavitelně slabé — projdou-li kolem, protáhne se prostor o zlomek rozměru protonu. Einstein sám pochyboval, že je někdy změříme. Teprve v září 2015 detekovala americká observatoř LIGO vlny ze srážky dvou černých děr ve vzdálenosti 1,3 miliardy světelných let. Oznámení v únoru 2016 bylo světovou událostí; o rok později dostali průkopníci detekce Nobelovu cenu. Do současnosti (r. 2026) byly potvrzeny již stovky detekcí."
    },
    {
     "heading": "Jak detektor vlastně funguje?",
@@ -58,14 +58,14 @@
    },
    {
     "heading": "Co gravitační vlny odhalují",
-    "body": "- **Černé díry, které nevidíme.** Vlny nesou informaci o hmotnosti a spinu srážejících se objektů — čísla, která žádný teleskop nezměří. Z katalogu srážek už známe černé díry, o nichž bychom jinak nevěděli.\n- **Srazky neutronových hvězd.** V srpnu 2017 detekce vlny GW170817 doprovázená gama zábleskem a později optickým zábleskem potvrdila, že těžké prvky — zlato, platina, uran — vznikají při srážkách neutronových hvězd. Hodně prvků ve vašem těle vzniklo při takové události.\n- **Ranný vesmír.** Reliktní záření nám ukazuje vesmír starý 380 000 let. Gravitační vlny by mohly ukázat dál — teoreticky až k éře inflace, zlomky vteřiny po Velkém třesku."
+    "body": "- **Černé díry, které nevidíme.** Vlny nesou informaci o hmotnosti a spinu srážejících se objektů — čísla, která žádný teleskop nezměří. Z katalogu srážek už známe černé díry, o nichž bychom jinak nevěděli.\n- **Srážky neutronových hvězd.** V srpnu 2017 detekce vlny GW170817 doprovázená gama zábleskem a později optickým zábleskem potvrdila, že těžké prvky — zlato, platina, uran — vznikají při srážkách neutronových hvězd. Hodně prvků ve vašem těle vzniklo při takové události.\n- **Ranný vesmír.** Reliktní záření nám ukazuje vesmír starý 380 000 let. Gravitační vlny by mohly ukázat dál — teoreticky až k éře inflace, zlomky vteřiny po Velkém třesku."
    },
    {
     "heading": "Další kapitola: LISA",
     "body": "Evropská mise LISA (plánovaná na 30. léta 21. století) umístí tři sondy do prostoru v uspořádání trojúhelníku o straně 2,5 milionu kilometrů. Vzájemné vzdálenosti sond budou měřeny laserovými paprsky s mikrometrovou přesností na miliardy kilometrů. Citlivost vzroste natolik, že budeme „slyšet\" supermasivní černé díry v centrech galaxií, jejich slučování a interakce s hvězdami a plynem kolem nich — věci, které pozemské detektory nezachytí nikdy."
    }
   ],
-  "why_box": "Záblesky gravitačních vln jsou doslova nejsilnějšími událostmi ve vesmíru — uvolněná energie srážky dvou černých děr krátce předstihne svítivost všech hvězd všech galaxií dohromady — a my je „slyšíme\" v laboratořích na Zemi. Astronomie už není jen o světle; máme nový smysl.",
+  "why_box": "Gravitační vlny navazují doslova na nejsilnější události ve vesmíru — uvolněná energie srážky dvou černých děr krátce předstihne svítivost všech hvězd všech galaxií dohromady — a my je „slyšíme\" v laboratořích na Zemi. Astronomie už není jen o světle; máme nový smysl.",
   "related_explainery": [
    "co-je-horizont-udalosti",
    "co-je-neutronova-hvezda"
