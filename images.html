@@ -47,12 +47,31 @@
     body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; line-height: 1.55; }
     header { background: linear-gradient(135deg,#0f172a,#1e293b); padding: 1.8rem 1rem 1.5rem; text-align: center; border-bottom: 1px solid #1e293b; }
     .logo-wrapper { display: flex; align-items: center; justify-content: center; gap: .9rem; margin-bottom: .5rem; }
-    .logo-wrapper img { height: 80px; width: 80px; border-radius: 12px; }
-    .logo-text h1 { margin: 0; font-size: 1.7rem; font-weight: 600; }
+    .logo-wrapper img { height: 80px; width: 80px; display: block; border-radius: 12px; }
+    .logo-text h1 { margin: 0; font-size: 2rem; font-weight: 600; letter-spacing: -0.02em; }
     .subtitle { color: var(--muted); font-size: .95rem; margin: .35rem 0 1rem; }
-    nav { margin: .6rem 0 0; }
-    nav a { color: var(--accent); margin: 0 .7rem; }
+    nav { margin: .6rem 0 1.2rem; }
+    nav a { color: var(--accent); margin: 0 .7rem; font-size: .95rem; }
     main { max-width: 860px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+    .signup-box { max-width: 720px; margin: 0 auto; background: rgba(21,27,45,.75); border: 1px solid #1e293b; border-radius: 10px; padding: .95rem 1.15rem; }
+    .signup-box p { margin: 0 0 .65rem; font-size: .95rem; color: var(--muted); white-space: nowrap; }
+    .signup-form { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; align-items: center; }
+    .signup-form label { display: none; }
+    .signup-form input[type="email"] { flex: 1; min-width: 200px; padding: .55rem .85rem; border: 1px solid #334155; border-radius: 6px; background: #0b0f19; color: var(--text); font-size: .95rem; }
+    .signup-form input[type="email"]::placeholder { color: #64748b; }
+    .signup-form input[type="submit"] { padding: .55rem 1.15rem; background: var(--accent); color: #0b0f19; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: .95rem; }
+    .signup-form input[type="submit"]:hover { filter: brightness(1.12); }
+    .signup-form p { width: 100%; margin: .5rem 0 0; font-size: .75rem; color: var(--muted); }
+    .signup-form p a { color: var(--muted); text-decoration: underline; }
+    .filter-bar { display: none; margin: 0 0 1.1rem; }
+    .filter-row { display: flex; align-items: center; gap: .45rem; background: var(--card); border: 1px solid #1e293b; border-radius: 10px; padding: .35rem .45rem .35rem .85rem; }
+    .filter-row:focus-within { border-color: var(--accent); }
+    .filter-row input[type="search"] { flex: 1; min-width: 0; border: none; background: transparent; color: var(--text); font-size: .95rem; padding: .45rem 0; outline: none; }
+    .filter-row input[type="search"]::placeholder { color: #64748b; }
+    .filter-row input[type="search"]::-webkit-search-cancel-button { display: none; }
+    .filter-clear { display: none; border: none; background: transparent; color: var(--muted); cursor: pointer; font-size: 1.15rem; line-height: 1; padding: .25rem .45rem; border-radius: 6px; }
+    .filter-clear:hover { color: var(--text); background: #1e293b; }
+    .filter-meta { margin: .4rem 0 0; font-size: .8rem; color: var(--muted); min-height: 1.1em; }
     .figure.is-pending { display: none; }
     .figure { background: var(--card); border: 1px solid #1e293b; border-radius: 12px; padding: 1rem; margin: 0 0 1.6rem; scroll-margin-top: 1.2rem; }
     .figure img { width: 100%; height: auto; border-radius: 8px; display: block; background: #0b0f19; }
@@ -66,6 +85,8 @@
     @media (max-width: 520px) {
       .logo-wrapper { flex-direction: column; gap: .45rem; }
       .logo-wrapper img { height: 64px; width: 64px; }
+      .logo-text h1 { font-size: 1.45rem; }
+      .signup-box p { white-space: normal; }
     }
   </style>
 </head>
@@ -85,8 +106,26 @@
      <a href="/images.html">Obrázky</a>
      <a href="/contact.html">Kontakt</a>
     </nav>
+    <div class="signup-box">
+      <p>Týdenní výběr editora: čtyři až pět nejzajímavějších příspěvků v plném znění.</p>
+      <form action="https://buttondown.com/api/emails/embed-subscribe/zdenek" method="post" class="embeddable-buttondown-form signup-form">
+        <label for="bd-email-images">E-mail pro týdenní výběr</label>
+        <input type="email" name="email" id="bd-email-images" placeholder="tvuj@email.cz" required />
+        <input type="submit" value="Odebírat" />
+      </form>
+    </div>
   </header>
-  <main id="gallery"><p class="empty">Načítám snímky…</p></main>
+  <main>
+    <div class="filter-bar" id="img-filter-bar">
+      <div class="filter-row">
+        <label for="img-filter" style="position:absolute;left:-9999px">Hledat v obrázcích</label>
+        <input type="search" id="img-filter" placeholder="Hledat v obrázcích…" autocomplete="off" spellcheck="false">
+        <button type="button" class="filter-clear" id="img-filter-clear" aria-label="Vymazat filtr">×</button>
+      </div>
+      <p class="filter-meta" id="img-filter-meta"></p>
+    </div>
+    <div id="gallery"><p class="empty">Načítám snímky…</p></div>
+  </main>
   <footer>NASA APOD · ESA Hubble · ESA Webb · Aktualizace s denním agentem</footer>
   <script>
     function escapeHtml(text) {
@@ -116,6 +155,28 @@
             '</figure>'
           );
         }).join('');
+        document.getElementById('img-filter-bar').style.display = 'block';
+        const input = document.getElementById('img-filter');
+        const clearBtn = document.getElementById('img-filter-clear');
+        const meta = document.getElementById('img-filter-meta');
+        function applyImgFilter() {
+          const q = (input.value || '').trim().toLowerCase();
+          clearBtn.style.display = q ? 'inline-flex' : 'none';
+          let visible = 0, total = 0;
+          document.querySelectorAll('#gallery .figure').forEach(function (f) {
+            total++;
+            const hit = f.textContent.toLowerCase().includes(q);
+            f.style.display = hit ? '' : 'none';
+            if (hit) visible++;
+          });
+          meta.textContent = total ? (visible + ' z ' + total) : '';
+        }
+        input.addEventListener('input', applyImgFilter);
+        clearBtn.addEventListener('click', function () {
+          input.value = '';
+          applyImgFilter();
+          input.focus();
+        });
         const hash = decodeURIComponent(location.hash || '');
         if (hash) {
           const el = document.querySelector(hash);

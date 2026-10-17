@@ -78,15 +78,16 @@
     }
     .logo-text h1 {
       margin: 0;
-      font-size: 1.7rem;
+      font-size: 2rem;
       font-weight: 600;
+      letter-spacing: -0.02em;
     }
     .subtitle {
       color: var(--muted);
       font-size: 0.95rem;
       margin: 0.35rem 0 1rem;
     }
-    nav { margin: 0.6rem 0 0; }
+    nav { margin: 0.6rem 0 1.2rem; }
     nav a {
       color: var(--accent);
       margin: 0 0.7rem;
@@ -99,6 +100,16 @@
       margin: 0 auto;
       padding: 1.5rem 1rem 3rem;
     }
+    .signup-box { max-width: 720px; margin: 0 auto; background: rgba(21,27,45,.75); border: 1px solid #1e293b; border-radius: 10px; padding: .95rem 1.15rem; }
+    .signup-box p { margin: 0 0 .65rem; font-size: .95rem; color: var(--muted); white-space: nowrap; }
+    .signup-form { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; align-items: center; }
+    .signup-form label { display: none; }
+    .signup-form input[type="email"] { flex: 1; min-width: 200px; padding: .55rem .85rem; border: 1px solid #334155; border-radius: 6px; background: #0b0f19; color: var(--text); font-size: .95rem; }
+    .signup-form input[type="email"]::placeholder { color: #64748b; }
+    .signup-form input[type="submit"] { padding: .55rem 1.15rem; background: var(--accent); color: #0b0f19; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: .95rem; }
+    .signup-form input[type="submit"]:hover { filter: brightness(1.12); }
+    .signup-form p { width: 100%; margin: .5rem 0 0; font-size: .75rem; color: var(--muted); }
+    .signup-form p a { color: var(--muted); text-decoration: underline; }
     .card {
       background: var(--card);
       border: 1px solid #1e293b;
@@ -180,6 +191,8 @@
     @media (max-width: 520px) {
       .logo-wrapper { flex-direction: column; gap: 0.45rem; }
       .logo-wrapper img { height: 64px; width: 64px; }
+      .logo-text h1 { font-size: 1.45rem; }
+      .signup-box p { white-space: normal; }
       .row { grid-template-columns: 1fr; }
     }
   </style>
@@ -200,6 +213,14 @@
       <a href="/images.html">Obrázky</a>
       <a href="/contact.html">Kontakt</a>
     </nav>
+    <div class="signup-box">
+      <p>Týdenní výběr editora: čtyři až pět nejzajímavějších příspěvků v plném znění.</p>
+      <form action="https://buttondown.com/api/emails/embed-subscribe/zdenek" method="post" class="embeddable-buttondown-form signup-form">
+        <label for="bd-email-contact">E-mail pro týdenní výběr</label>
+        <input type="email" name="email" id="bd-email-contact" placeholder="tvuj@email.cz" required />
+        <input type="submit" value="Odebírat" />
+      </form>
+    </div>
   </header>
 
   <main>
