@@ -18,28 +18,28 @@ KEYWORDS = (
     '"Hubbleovo napětí" OR kosmologie OR "kvantová gravitace"'
 )
 
-def search_x(bearer: str, hours: int = 36) -> list:
-    """Hledá recent posty na X (last 7 days max)."""
-    if not bearer:
-        print("Chybí X_BEARER_TOKEN – vyhledávání přeskočeno.")
-        return []
-    query = f"({KEYWORDS}) lang:cs -is:retweet -is:reply"
+# Záložní, širší dotaz – použije se, když primární nic nenajde (např. víkend)
+KEYWORDS_BROAD = (
+    '"vesmír" OR "vesmíru" OR "vesmírný" OR galaxie OR "galaxií" OR "galaxiích" OR '
+    '"černá díra" OR "černé díry" OR "temná hmota" OR kosmologie OR '
+    '"James Webb" OR JWST OR Euclid OR "Hubbleův" OR "Hubbleovo" OR teleskop OR '
+    '"kosmický" OR astronaut OR "nová studie" OR "vědci objevili"'
+)
+
+def _run_query(bearer: str, query: str, hours: int) -> list:
+    """Jedno volání X search; vrátí normalizované posty nebo []."""
     url = "https://api.x.com/2/tweets/search/recent"
     params = {
         "query": query,
-        "max_results": 15,
+        "max_results": 30,
         "tweet.fields": "created_at,public_metrics,author_id,text",
         "expansions": "author_id",
         "user.fields": "username,name",
     }
     headers = {"Authorization": f"Bearer {bearer}"}
-    try:
-        r = requests.get(url, params=params, headers=headers, timeout=30)
-        r.raise_for_status()
-        data = r.json()
-    except Exception as e:
-        print(f"X search selhal: {e}")
-        return []
+    r = requests.get(url, params=params, headers=headers, timeout=30)
+    r.raise_for_status()
+    data = r.json()
     users = {u["id"]: u for u in data.get("includes", {}).get("users", [])}
     posts = []
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
@@ -57,7 +57,31 @@ def search_x(bearer: str, hours: int = 36) -> list:
             "url": f"https://x.com/{author.get('username','')}/status/{t['id']}",
             "likes": t.get("public_metrics", {}).get("like_count", 0),
         })
-    print(f"X search: {len(posts)} kandidátů")
+    return posts
+
+
+def search_x(bearer: str, hours: int = 36) -> list:
+    """Hledá recent posty na X (last 7 days max). Primární přesný dotaz,
+    při prázdném výsledku záložní širší dotaz (72 h, min. 2 lajky)."""
+    if not bearer:
+        print("Chybí X_BEARER_TOKEN – vyhledávání přeskočeno.")
+        return []
+    strategies = [
+        (f"({KEYWORDS}) lang:cs -is:retweet -is:reply", hours, "primární"),
+        (f"({KEYWORDS_BROAD}) lang:cs -is:retweet min_faves:2", 72, "záložní"),
+    ]
+    posts = []
+    for query, window, label in strategies:
+        try:
+            posts = _run_query(bearer, query, window)
+        except Exception as e:
+            print(f"X search selhal ({label}): {e}")
+            continue
+        print(f"X search ({label}): {len(posts)} kandidátů")
+        if posts:
+            break
+    if not posts:
+        print("::warning::X search nenašel žádné kandidáty – do Bufferu se dnes nic nepřidalo")
     return posts
 
 
@@ -199,3 +223,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
