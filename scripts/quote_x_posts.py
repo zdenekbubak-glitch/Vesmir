@@ -173,8 +173,8 @@ def make_comment(p: dict) -> str:
         t = re.sub(r"\s+", " ", p.get("text", "")).strip()
         m = re.split(r"(?<=[.!?…])\s", t)
         c = (m[0] if m else t)[:160].rsplit(" ", 1)[0].rstrip(",;:") + "…"
-    if len(c) > 220:
-        cut = c[:220]
+    if len(c) > 195:
+        cut = c[:195]
         dot = max(cut.rfind(". "), cut.rfind("! "), cut.rfind("? "))
         if dot > 60:
             c = cut[:dot + 1]
@@ -269,7 +269,7 @@ def main():
 
     for p in drafts:
         comment = make_comment(p)
-        text = f"{comment}\n\n{p['url']}\n(návrh k posouzení, skóre {p.get('score', 0)})"
+        text = f"{comment}\n\n{p['url']}\n(k posouzení, skóre {p.get('score', 0)})"
         buffer_create_post(buffer_key, text, as_draft=True)
         time.sleep(1)
 
