@@ -354,7 +354,6 @@ def main():
       <p class="summary">{esc(summary)}</p>
 {lang_note}      <p class="source-link"><a href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní studie / článek ({esc(item.get("source"))}) →</a></p>
 {rel_html}    </article>
-{SIGNUP_FORM.replace('class="signup-box"', 'class="signup-box" style="margin-top:1.5rem"')}
         <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>
 '''
         page += FOOT
