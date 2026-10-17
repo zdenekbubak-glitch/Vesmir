@@ -351,5 +351,116 @@
    "co-je-reliktni-zareni",
    "co-je-cerna-dira-a-jak-vznika"
   ]
+ },
+ {
+  "id": "exp-010",
+  "title": "Jak víme, že temná hmota existuje?",
+  "theme": "temna-hmota",
+  "description": "Žádný teleskop temnou hmotu nezachytil — přesto o ní vědci nepochybují. Tři nezávislé důkazy, od rotace galaxií po srážku kup, a proč alternativy selhaly.",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Temnou hmotu nikdo nikdy neviděl, nezachytil v detektoru ani necítil. Přesto astronomové o její existenci prakticky nepochybují — protože o ní svědčí tři naprosto nezávislé druhy pozorování, které se shodují do jednotek procent. Posledním hřebíčkem do rakve alternativ je srážka dvou galaktických kup, kde se viditelná hmota a gravitace prostě rozcházejí.",
+  "sections": [
+   {
+    "heading": "Od Zwického k Rubinové: osmdesát let pochybností",
+    "body": "Podezření se objevilo v roce 1933, když Fritz Zwicky měřil rychlosti galaxií v kupě Coma. Galaxie se pohybovaly tak rychle, že by kupa měla dávno rozletět — kdyby ji držela jen viditelná hmota. Zwicky spočítal, že chybí zhruba desetkrát více hmoty, než kolik svítilo. Jeho kolegové ho považovali za excentrika. Rozhodující obrat přišel v 70. letech: astronomka Vera Rubin systematicky měřila rotaci desítek spirálních galaxií a zjistila, že hvězdy na okrajích rotují stejně rychle jako ty vnitřní. Podle zákona gravitace a podle množství viditelné hmoty by měly rotovat čím dál pomaleji. Rubin došla k neoblíbenému závěru: galaxie jsou obalené obrem neviditelné hmoty. Věda se nakonec přiklonila na její stranu."
+   },
+   {
+    "heading": "Rotace galaxií: rychleji, než dovoluje zákon",
+    "body": "Detail je důležitý. U planet ve Sluneční soustavě platí: čím dál od středu, tím pomaleji obíhají. Je to přímý důsledek gravitace koncentrované ve středu. U spirálních galaxií to překvapivě neplatí — od jádra ke kraji rotace zhruba neklesá, na okrajích dokonce mírně roste. Aby Newtonovy zákony platily a galaxie se nerozpadla, musí být hmota rozprostřená daleko za viditelný disk, do vzdáleností desetinásobku průměru galaxie. Tuto temnou halu nevidíme v žádné části spektra. Alternativní vysvětlení zní: zákon gravitace neplatí na velkých vzdálenostech. Tato teorie (MOND) rotaci galaxií popíše — ale selhává všude jinde."
+   },
+   {
+    "heading": "Gravitační čočky a srážka kup: důkaz přímý",
+    "body": "Druhý důkaz je nezávislý na rotaci: gravitační čočky. Světlo vzdálených galaxií procházející kolem hmotné kupy se zakřivuje podle hmotnosti v popředí. Čím víc hmoty, tím víc zakřivení. Astronomové dokážou zmapovat, kde hmota je — a výsledek systematicky ukazuje více hmoty, než kolik svítí. Zlomový okamžik přišel v roce 2006 se srážkou kup v souhvězdí Soulového řetězu (tzv. Bullet Cluster). Při srážce se viditelný plyn podle rentgenu zpomalil a zůstal uprostřed, zatímco většina hmotnosti podle čočkování prolétla dál s galaxiemi. Viditelná hmota a gravitace se prostě fyzicky rozdělily — to žádná modifikace gravitace nevysvětlí, zatímco temná hmota ano."
+   },
+   {
+    "heading": "Otisk v reliktním záření",
+    "body": "Třetí důkaz pochází z opačného konce vesmíru: z reliktního záření, světla z doby před 13,8 miliardami let. Teplotní fluktuace na této fotce mládí vesmíru mají přesně takovou velikost, jakou předpovídá model s temnou hmotou — a nesedí s modelem bez ní. Kosmologické měření z něj čte složení vesmíru: 5 % běžné hmoty, 27 % temné hmoty. Když pak stejné číslo dosadíte do výpočtu rotace galaxií a čoček, vychází totéž. Tři zcela nezávislé metody, tři zcela nezávislé datové sady — a shoda do jednotek procent. Ve vědě lepší důkaz neexistuje."
+   },
+   {
+    "heading": "Proč nejde jen o špatné zákony gravitace",
+    "body": "Alternativa MOND (modifikovaná newtonská dynamika) rotaci galaxií popíše bez temné hmoty — a na tom její úspěchy končí. Při srážce kup Bullet Cluster MOND selhává, protože gravitace se tam nerozděluje od hmoty. S fluktuacemi v reliktním záření se vyrovnat nedokáže. A predikuje zvláštní chování, která se nepozorují. Temná hmota zatím obstála ve všech testech — jen ji zatím nikdo nedokázal chytit v laboratoři. Ale důkazy o její existenci jsou dnes stejně silné jako důkazy o existenci exoplanet před érou teleskopů: nepřímé, opakované a vzájemně se potvrzující."
+   }
+  ],
+  "why_box": "Temná hmota je vědecký unikát: vědci o ní vědí všechno — kolik jí je, kde je, jak se chová — kromě toho, co to vlastně je. Je to jako znát přesnou hmotnost, chování a stopu zvířete z jeho stop, aniž byste ho viděli. A přesto právě tohle neviditelné zvíře drží pohromadě každou galaxii včetně té vaší. Bez něj by hvězdy vaší galaxie dávno rozletěly do tmy.",
+  "related_explainery": [
+   "co-je-temna-hmota",
+   "co-je-reliktni-zareni",
+   "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty"
+  ]
+ },
+ {
+  "id": "exp-011",
+  "title": "Mohou černé díry vymírat? Hawkingovo záření",
+  "theme": "cerne-diry",
+  "description": "Stephen Hawking přišel na to, že černé díry nejsou zcela černé — slabě září a pomalu se vypařují. Jak je to možné, kolik to trvá a kam zmizí informace.",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "V roce 1974 Stephen Hawking ukázal něco, co nikdo nečekal: černé díry nejsou zcela černé. Kvantová fyzika jim dovoluje velmi slabě zářit — a tím ztrácet hmotu. Černá díra se tak postupně vypařuje. Pro hvězdnou černou díru to trvá déle než věk vesmíru, ale princip mění vše: černé díry nejsou věčné.",
+  "sections": [
+   {
+    "heading": "Paradox: nic neunikne, přesto něco uniká",
+    "body": "Z klasické fyziky plyne, že z černé díry neunikne nic — ani světlo, proto je černá. Ale Hawking zkombinoval obecnou teorii relativity s kvantovou mechanikou a došel k opačnému závěru: černá díra musí zářit, a to čím dál tím víc, čím je menší. Odborníci tomu zprvu nevěřili — teorie samotná předpovídala, že černá díra, definovaná jako objekt, z něhož neuniká nic, něco vyzáří. Ukázalo se ale, že při spojení obou teorií je to nevyhnutelné. Hawkingovo záření patří mezi nejvýznamnější objevy teoretické fyziky druhé poloviny 20. století — a stále čeká na přímé pozorování."
+   },
+   {
+    "heading": "Jak záření vzniká",
+    "body": "Vysvětlení vychází z kvantové nejistoty: vakuum vesmíru není prázdné, ale neustále v něm vznikají páry virtuálních částic — částice a antočástice, které se okamžitě znovu anihilují. U horizontu událostí se může stát, že jedna z dvojice za horizont spadne a druhá unikne. Pro vnějšího pozorovatele pak vypadá, jako by černá díra emitovala částici — jako by slabě zářila. Druhý pohled: energie unikající částice se musí někde vzít. Bere se z hmotnosti černé díry. Každý odlet jedné částice znamená, že černá díra o kousek zhubne. Vypařování následuje ze zákonitosti, ne ze shody náhod."
+   },
+   {
+    "heading": "Výparník nesmírné trpělivosti",
+    "body": "Hawkingova teorie má paradoxní vlastnost: čím hmotnější černá díra, tím chladněji září. Supermasivní černá díra v centru galaxie má teplotu zlomku kelvinu — méně než reliktní záření, kterým je obklopena, takže do ní proudí více energie, než kolik vyzáří. Vypařovat se začne až poté, co vesmír dostatečně vychladne. Výpočty říkají, že vypařování hvězdné černé díry trvá zhruba 10^67 let — to je číslo s 67 nulami, miliardkrát déle než stáří vesmíru. Vymírání černých děr je tedy teoretický proces, který nikdo nikdy neuvidí. Poslední okamžiky by ovšem byly impozantní: teplota roste, záření sílí a malá černá díra skončí explozí — posledním výkřikem hmoty, která se vrací vesmíru."
+   },
+   {
+    "heading": "Kam zmizí informace?",
+    "body": "Hawkingovo záření otevřelo největší paradox teoretické fyziky, tzv. informační paradox černých děr. Podle kvantové mechaniky informace nikdy nezaniká — jen se přeměňuje. Ale pokud se černá díra vypaří do čistého, neinformovaného záření, informace o tom, co do ní spadlo, navždy zmizí. To kvantová fyzika zakazuje. Hawking dlouho trval na tom, že informace mizí — a vsadil se o to s fyzikem Johnem Preskillem (sázka: baseballová encyklopedie). V roce 2004 sázku prohrál: přiznal, že informace uniká se zářením, byť v zakódované podobě. Přesný mechanismus je předmětem výzkumu dodnes — paradox nebyl vyřešen, jen zúžen."
+   },
+   {
+    "heading": "Kde by se dalo hledat",
+    "body": "Hawkingovo záření bylo potvrzeno jen nepřímo — v laboratorních analogiích (například v proudění tekutin napodobujících horizont událostí) a v jevu podobném zeslabování akustických vln u supersonického proudění. Přímé pozorování u skutečné černé díry zatím neexistuje: záření je příliš slabé pro naše detektory. Pozornost budí mikroskopické černé díry — hypotetické zbytky z raného vesmíru, které by se mohly vypařovat právě teď a v signálu detektorů by zářily jako charakteristické spršky částic. Kdyby některý detektor něco takového zachytil, znamenalo by to Nobelovu cenu — a konec života jedné mikroskopické černé díry."
+   }
+  ],
+  "why_box": "Hawkingovo záření je jedním z mála míst, kde se potkávají dvě největší teorie fyziky — gravitace a kvantová mechanika — a ukazuje, že spolu zatím nefungují. Právě v tomto rozporu se skrývá fyzika 21. století: teorie kvantové gravitace. Černá díra, kterou nikdy neuvidíte, vám tak ukazuje hranici lidského poznání. A paradox, který vznikl, když si Hawking vsadil encyklopedii, dosud nikdo neuzavřel.",
+  "related_explainery": [
+   "co-je-cerna-dira-a-jak-vznika",
+   "co-je-horizont-udalosti",
+   "co-se-stane-kdyz-spadnete-do-cerne-diry"
+  ]
+ },
+ {
+  "id": "exp-012",
+  "title": "Co zatím gravitační vlny odhalily?",
+  "theme": "gravitacni-vlny",
+  "description": "Od první detekce v roce 2015 ohlásili vědci přes sto srážek černých děr. Co gravitační vlny zatím prozradily a co stále hledají?",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Gravitační vlny byly detekovány poprvé v září 2015 a od té doby astronomové ohlásili přes sto událostí. Ukázaly srážky černých děr, které nikdy nebylo možné pozorovat světlem, doprovodily srážku neutronových hvězd zábleskem v celém elektromagnetickém spektru a objevily populaci černých děr, kterou teorie předtím neznala.",
+  "sections": [
+   {
+    "heading": "Z prvního signálu ke katalogu událostí",
+    "body": "14. září 2015 zachytila observatoř LIGO v USA signál s označením GW150914 — chvění prostoru-času způsobené srážkou dvou černých děr vzdálených 1,3 miliardy světelných let. Šlo o první přímou detekci gravitačních vln, jejichž existenci předpověděl Einstein přesně před sto lety. Objevu se říká objev století a v roce 2017 mu byla udělena Nobelova cena. Od té doby se detektory zlepšily, přidal se evropský detektor Virgo a japonský KAGRA — a katalog detekovaných událostí přesáhl sto položek. Z futuristické predikce se stal rutinní astronomický nástroj."
+   },
+   {
+    "heading": "Černé díry, které světlo nevidí",
+    "body": "Nejčastějšími zdroji gravitačních vln jsou srážky černých děr. Přibližují se k sobě, krouží kolem sebe stále rychleji a nakonec splynou v jedinou — přičemž do prostoru vyzařují energii několika hmotností Slunce v podobě gravitačních vln. Tyto srážky se dějí v úplné tmě: žádný teleskop je nevidí, protože černé díry světlo neemitují. Gravitační vlny jsou jediným způsobem, jak je pozorovat. Detekce odhalily populaci černých děr s hmotnostmi, které teorie hvězdného vývoje předtím nepředpovídaly — například černé díry kolem 30 hmotností Slunce a víc, vzniklé patrně z prvních hvězd vesmíru. Vesmír tak ukazuje, že je ještě nečekanější, než si mysleli."
+   },
+   {
+    "heading": "Srážka neutronových hvězd: multi-messenger astronomy",
+    "body": "17. srpna 2017 detekovaly LIGO a Virgo srážku dvou neutronových hvězd (událost GW170817) — a tentokrát šlo o něco, co šlo pozorovat i světlem. Během několika hodin zamířily k události desítky teleskopů na Zemi i na oběžné dráze. V následujících dnech a týdnech byl zaznamenán signál v gama paprscích, rentgenu, ultrafialovém, viditelném, infračerveném i rádiovém pásmu. Poprvé v historii byla pozorována jedna a tatáž událost dvěma zcela odlišnými způsoby: gravitačními vlnami i světlem. Výsledek potvrdil, že srážky neutronových hvězd jsou hlavní továrnou na těžké prvky — zlato, platina i uran ve vesmíru vznikají právě zde."
+   },
+   {
+    "heading": "Co zatím nenašly",
+    "body": "Gravitační vlny zatím neodhalily několik očekávaných zdrojů. Nenašly se vlny od samostatných rotujících neutronových hvězd — jsou příliš slabé pro současné detektory, i když by měly existovat. Nepodařilo se zachytit vlny od kosmických strun, hypotetických jednorozměrných defektů raného vesmíru, jejichž detekce by potvrdila teorie velké sjednocení. A dosud nikdo nezachytil stochastické pozadí gravitačních vln — jemné šumění způsobené součtem všech událostí v historii vesmíru, které by mohlo nést stopy z éry velkého třesku. Nález každého z těchto signálů by znamenal revoluci v ještě větším měřítku, než byla samotná první detekce."
+   },
+   {
+    "heading": "Další detektory na obzoru",
+    "body": "Současná generace detektorů (LIGO, Virgo, KAGRA) je citlivá na vlny s frekvencemi kolem 100 Hz — tedy na srážky zhruba hvězdných hmotností. Příští generace půjde dál: vesmírná družice LISA, jejíž start je plánován na polovinu 30. let, otevře pásmo nízkých frekvencí a odhalí srážky supermasivních černých děr v centrech galaxií. Pozemní nástupci Einstein Telescope a Cosmic Explorer zvýší citlivost desetinásobně a umožní sledovat celý vesmír téměř od velkého třesku. A pulsarová časovaná pole — přesné měření časování pulsarů — hledají pomalé vlny od supermasivních černých děr a pravděpodobně je brzy najdou. Každé nové pásmo otevírá vesmír z jiného úhlu — stejně jako dalekohledy před čtyřmi staletími."
+   }
+  ],
+  "why_box": "Před rokem 2015 člověk pozoroval vesmír výhradně světlem — jediným z pěti smyslů. Gravitační vlny přidaly druhý smysl: sluch. Poprvé slyšíme vesmír, nejen ho vidíme. A podobně jako u ucha i zde platí, že zvuk odhaluje věci, které světlo neukáže: srážky v naprosté tmě, pohyb hmoty, která nic neemituje. Každý zaznamenaný signál je nová zpráva z míst, kam světlo nikdy nevstoupilo.",
+  "related_explainery": [
+   "co-jsou-gravitacni-vlny",
+   "co-je-neutronova-hvezda",
+   "mohou-cerne-diry-vymirat-hawkingovo-zareni"
+  ]
  }
 ]
