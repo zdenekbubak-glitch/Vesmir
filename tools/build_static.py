@@ -347,7 +347,9 @@ def main():
             f'{item.get("title")} – Kosmologické novinky', description, url,
             og_image=f"{base}/assets/logo-icon-square.png", jsonld=jsonld,
         )
-        page += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › <a href="/temata/">Rubriky</a> › <a href="/temata/{theme_slug}.html">{esc(theme_label)}</a></p>
+        title_txt = esc(item.get("title"))
+        crumb_title = title_txt if len(title_txt) <= 45 else title_txt[:45].rstrip() + "…"
+        page += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › <a href="/temata/">Rubriky</a> › <a href="/temata/{theme_slug}.html">{esc(theme_label)}</a> › {crumb_title}</p>
     <article class="post">
       <div class="theme-badge"><a href="/temata/{theme_slug}.html">{esc(theme_label)}</a></div>
       <h1>{esc(item.get("title"))}</h1>
