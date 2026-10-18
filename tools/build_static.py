@@ -48,6 +48,7 @@ CSS = """
     * { box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; line-height: 1.55; }
     header { background: linear-gradient(135deg, #0f172a, #1e293b); padding: 1.8rem 1rem 1.5rem; text-align: center; border-bottom: 1px solid #1e293b; }
+    a { color: var(--accent); text-decoration: none; }
     header a { color: inherit; text-decoration: none; }
     .logo-wrapper { display: flex; align-items: center; justify-content: center; gap: .9rem; margin-bottom: .5rem; }
     .logo-wrapper img { height: 80px; width: 80px; display: block; border-radius: 12px; }
