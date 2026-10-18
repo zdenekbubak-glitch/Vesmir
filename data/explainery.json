@@ -1,600 +1,711 @@
 [
-  {
-    "id": "exp-001",
-    "title": "Co je temná hmota?",
-    "theme": "temna-hmota",
-    "description": "Temná hmota tvoří 85 % hmoty vesmíru, ale nikdy jsme ji neviděli. Co víme, jak ji hledáme a proč je tak důležitá?",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Vesmír, který vidíme — hvězdy, galaxie, mlhoviny — je jen špička ledovce. Zhruba 85 % veškeré hmoty tvoří substance, která neemituje ani neabsorbuje světlo: temná hmota. Nevíme, z čeho je, ale víme, že tam je.",
-    "sections": [
-      {
-        "heading": "Záhada, která je starší než my",
-        "body": "Podezření na existenci neviditelné hmoty se objevilo už ve 30. letech 20. století, když astronom Fritz Zwicky pozoroval galaktickou kupu Coma. Galaxie v kupě se pohybovaly příliš rychle — rychleji, než jak by je viditelná hmota mohla držet pohromadě. Zwicky došel k závěru, že kupa musí obsahovat obrovské množství neviditelné „temné\" hmoty. Jeho kolegové mu příliš nevěřili. Trvalo dalších čtyřicet let, než se podobný problém objevil u rotace jednotlivých galaxií a temná hmota vstoupila do hlavního proudu vědy."
-      },
-      {
-        "heading": "Jak víme, že existuje?",
-        "body": "Temnou hmotu nevidíme, ale její gravitace mění to, co vidíme. Dnes máme tři nezávislé důkazy:\n\n- **Rotace galaxií.** Hvězdy na okrajích spirálních galaxií se točí příliš rychle. Podle viditelné hmoty by měly rotovat pomaleji; při měřených rychlostech by galaxie měly rozletět. Dodatečná gravitace neviditelné hmoty je drží pohromadě — jako neviditelný lep, který obaluje viditelnou galaxii do velké „galaktické slupky\".\n- **Gravitační čočky.** Světlo vzdálených galaxií procházející kolem hmotných kup se zakřivuje podle hmotnosti, která mu stojí v cestě. Množství zakřivení systematicky překračuje množství viditelné hmoty. Chybějící gravitace patří temné hmotě — a u čoček můžeme dokonce mapovat, kde přesně se nachází.\n- **Reliktní záření.** Mřížka teplotních fluktuací v reliktním záření (světle z mládí vesmíru) odpovídá modelu, kde tvoří temná hmota asi 85 % veškeré hmoty. Tři nezávislé metody, tři nezávislé výsledky — shodují se do jednotek procent."
-      },
-      {
-        "heading": "Co temná hmota není",
-        "body": "Než astronomové dospěli k dnešnímu obrazu, prošli si seznam možností. Temná hmota není prostě hodně tmavý plyn — ten bychom viděli v infračerveném záření. Nejsou to mrtvé hvězdy a neutronové hvězdy — těch je příliš málo a vyskytují se příliš řídce. Nejsou to ani volně putující planety. Přesné měření reliktního záření tato vysvětlení vyloučila. Temná hmota je něco fundamentálně jiného — pravděpodobně dosud neobjevená částice, která interaguje jen velmi slabě s běžnou hmotou a se světlem. Procházela by námi a my bychom to nepoznali."
-      },
-      {
-        "heading": "Kolik jí vlastně je?",
-        "body": "Kosmologické měření dnes říkají: asi 27 % vesmíru tvoří temná hmota, 5 % běžná (barionová) hmota a zbývajících zhruba 68 % temná energie. Slovy: z každého kilogramu hmoty ve vesmíru je 850 gramů temných. A ze všech forem energie je temná hmota „jen\" druhá nejrozšířenější — předčí ji právě záhadná temná energie."
-      },
-      {
-        "heading": "Jak ji hledáme?",
-        "body": "Vědci zkouší tři přístupy najednou:\n\n1. **Výroba** — v urychlovači LHC u Ženevy se pokoušíme temnou hmotu vytvořit srážkami protonů. Pokud by vznikla, poznáme ji jako „chybějící energii\" v detektoru.\n2. **Přímá detekce** — hluboko pod zemí (v laboratořích jako XENONnT v Itálii nebo LUX-ZEPLIN v USA) čekáme, až částice temné hmoty proletí skrz krystaly a nechá po sobě stopu. Zatím bez úspěchu, ale citlivost se každou generací detektorů zvedá řádově.\n3. **Astrofyzika** — hledáme produkty případné anihilace temných částic ve vysokoenergetickém gama záření ve středu galaxie či v halo temné hmoty."
-      }
-    ],
-    "why_box": "Každý atom ve vašem těle je minorita. Bez temné hmoty by galaxie jako naše nevznikly tak, jak je známe — gravitace temné hmoty totiž sloužila jako jakási „lepicí kostra\", na níž se v raném vesmíru zachytávaly obyčejné plyny, které pak tvořily hvězdy. Bez temné hmoty by pravděpodobně nevznikly hvězdy včas, v potřebném množství — a nic by se nemohlo dívat na noční oblohu.",
-    "related_explainery": [
-      "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty",
-      "jak-vime-ze-temna-hmota-existuje"
-    ]
-  },
-  {
-    "id": "exp-002",
-    "title": "Co jsou gravitační vlny?",
-    "theme": "gravitacni-vlny",
-    "description": "Gravitační vlny sítí prostoročas a doputují k nám z nejextrémnějších událostí vesmíru. Kdy byly poprvé detekovány a co nám říkají?",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Když se srazí dvě černé díry, zachvěje se samotný prostor a čas. Toto chvění — gravitační vlna — urazí miliardy světelných let a odečteme ho přístroji schopnými zaznamenat pohyb tisíckrát menší než průměr protonu.",
-    "sections": [
-      {
-        "heading": "Einsteinovo tajemství z roku 1916",
-        "body": "Gravitační vlny předpověděl Albert Einstein krátce po formulaci obecné teorie relativity. V jeho obraze gravitace není tažnou silou na dálku, ale zakřivením samotného prostoročasu. Hmotné objekty „prohlubují\" prostor kolem sebe — a když zrychlují, vytvářejí ve struktuře prostoru vlny. Přesněji: zrychlené hmotné objekty vyzařují vlnění prostoročasu, podobně jako kámen hozený do hladiny rybníka. Čím hmotnější a rychlejší pohyb, tím silnější vlny."
-      },
-      {
-        "heading": "Proč je nešlo změřit sto let",
-        "body": "Gravitační vlny procházejí hmotou takřka nezastaveny, ale jsou nepředstavitelně slabé — projdou-li kolem, protáhne se prostor o zlomek rozměru protonu. Einstein sám pochyboval, že je někdy změříme. Teprve v září 2015 detekovala americká observatoř LIGO vlny ze srážky dvou černých děr ve vzdálenosti 1,3 miliardy světelných let. Oznámení v únoru 2016 bylo světovou událostí; o rok později dostali průkopníci detekce Nobelovu cenu. Do současnosti (r. 2026) byly potvrzeny již stovky detekcí."
-      },
-      {
-        "heading": "Jak detektor vlastně funguje?",
-        "body": "Základ je překvapivě jednoduchý: laserový interferometr. Laser se rozdělí na dva paprsky, které projdou kilometr dlouhými vakuovými trubkami pod úhlem 90 stupňů, odrazí se zrcadly a vrátí se zpět. Pokud projde gravitační vlna, jedna trubka se mikroskopicky protáhne a druhá zkrátí — světelné paprsky se rozzáří v mírně jinou chvíli. Na citlivosti věci pracuje i evropský detektor Virgo v Itálii a od 30. let přibude kosmická sestava LISA."
-      },
-      {
-        "heading": "Co gravitační vlny odhalují",
-        "body": "- **Černé díry, které nevidíme.** Vlny nesou informaci o hmotnosti a spinu srážejících se objektů — čísla, která žádný teleskop nezměří. Z katalogu srážek už známe černé díry, o nichž bychom jinak nevěděli.\n- **Srážky neutronových hvězd.** V srpnu 2017 detekce vlny GW170817 doprovázená gama zábleskem a později optickým zábleskem potvrdila, že těžké prvky — zlato, platina, uran — vznikají při srážkách neutronových hvězd. Hodně prvků ve vašem těle vzniklo při takové události.\n- **Ranný vesmír.** Reliktní záření nám ukazuje vesmír starý 380 000 let. Gravitační vlny by mohly ukázat dál — teoreticky až k éře inflace, zlomky vteřiny po Velkém třesku."
-      },
-      {
-        "heading": "Další kapitola: LISA",
-        "body": "Evropská mise LISA (plánovaná na 30. léta 21. století) umístí tři sondy do prostoru v uspořádání trojúhelníku o straně 2,5 milionu kilometrů. Vzájemné vzdálenosti sond budou měřeny laserovými paprsky s mikrometrovou přesností na miliardy kilometrů. Citlivost vzroste natolik, že budeme „slyšet\" supermasivní černé díry v centrech galaxií, jejich slučování a interakce s hvězdami a plynem kolem nich — věci, které pozemské detektory nezachytí nikdy."
-      }
-    ],
-    "why_box": "Gravitační vlny navazují doslova na nejsilnější události ve vesmíru — uvolněná energie srážky dvou černých děr krátce předstihne svítivost všech hvězd všech galaxií dohromady — a my je „slyšíme\" v laboratořích na Zemi. Astronomie už není jen o světle; máme nový smysl.",
-    "related_explainery": [
-      "co-je-horizont-udalosti",
-      "co-je-neutronova-hvezda"
-    ]
-  },
-  {
-    "id": "exp-003",
-    "title": "Co se stane, když spadnete do černé díry?",
-    "theme": "cerne-diry",
-    "description": "Pád do černé díry je nejextrémnější cestou ve vesmíru. Co uvidíte, co pocítíte — a proč vám nikdo nebude moct pomoct?",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Překročíte horizont událostí a cesta je jednosměrná. Pro vás jako pádujícího se pád trvá několik hodin; pro pozorovatele zvenčí se váš pád protáhne do nekonečna. Černá díra si podmaňuje nejen hmotu, ale i čas.",
-    "sections": [
-      {
-        "heading": "Nejdřív: co černá díra vlastně je",
-        "body": "Černá díra je oblast prostoročasu, kde je gravitace tak silná, že z ní neunikne ani světlo — a proto ani žádná informace. Vzniká zhroucením velmi hmotné hvězdy: když dojde jaderné palivo, zářivý tlak v nitru hvězdy už neudrží její hmotu proti vlastní gravitaci. Hvězda se pod vlastní vahou zhroutí a vše, co zbyde, se zhrne za horizont událostí. Supermasivní černé díry v centrech galaxií — miliony až miliardy hmotností Slunce — vznikly buď zhroucením obřích plynných oblaků, nebo postupným slučováním menších černých děr v průběhu miliard let."
-      },
-      {
-        "heading": "Cesta dovnitř: co uvidíte vy",
-        "body": "Pokud byste klesali do dostatečně velké černé díry (supermasivní, miliony hmotností Slunce), první část cesty by byla překvapivě nudná:\n\n- **Táhání gravitací (spagetizace).** Rozdíl gravitační síly mezi vaší hlavou a chodidly je na začátku nepatrný, blízko centra vás ale rozdílné síly doslova natáhnou jako špagetu. U supermasivní černé díry byste horizont překročili dřív, než spagetizace nastala — u malé černé díry by vás roztrhala už před horizontem.\n- **Obraz vesmíru se stáčí.** Světlo z okolních hvězd se kolem černé díry ohýbá — uvidíte oblohu zkreslenou do jasného prstence. Černá díra se zahalí do světla vesmíru, které za sebou nechává.\n- **Čas.** Sám pociťujete čas normálně. Ale vůči vzdáleným pozorovatelům se váš čas zpomaluje — podle relativistické fyziky to plynule následuje z gravitace."
-      },
-      {
-        "heading": "Co uvidí pozorovatel zvenčí",
-        "body": "Pro přítele, který by z bezpečné vzdálenosti přihlížel, se váš pád nikdy neskončí. S každou další vteřinou svítíte slaběji a ruději, pohyb se zpomaluje, až vás pohltí tma horizontu. Matematicky řečeno: váš obraz se „zamrazí\" na horizontu. V praxi se však záblesk stane neviditelným během zlomku vteřiny — zamrzlý obraz nikdo neodfotí."
-      },
-      {
-        "heading": "Je východisko?",
-        "body": "Ve vysoce spekulativních scénářích teoretické fyziky — bílé díry, červí díry — se o nich píše sci-fi. Fyzikálně ověřitelná odpověď je jednoduchá: nic z horizontu neunikne a nic, co dovnitř vstoupilo, se nevrátí. Ani světlo, ani signál, ani vy. Jedinou „dírkou\" v pravidlech je Hawkingovo záření — neuvěřitelně slabé vyzáření způsobené kvantovými efekty u horizontu. Z pádla by vám ale žádný příběh nezachránilo: Hawkingovo záření nese žádnou informaci o tom, kdo dovnitř vstoupil."
-      },
-      {
-        "heading": "Co se stane s vašimi informacemi?",
-        "body": "Zde se fyzika dostává k největšímu sporu současnosti. Kvantová mechanika říká, že informace nemůže být zničena; obecná teorie relativity říká, že za horizontem informace zmizí navždy. Tento spor — tzv. informační paradox černých děr — stále nemá definitivní řešení a je jedním z hlavních problémů, na němž se dnes pracuje v kvantové gravitaci. Možná informace zůstane na horizontu v podobě kvantového „filmového pásu\". Možná unikne s Hawkingovým zářením. Vědci to zatím nevědí — a právě to činí černé díry nejzajímavějšími laboratořemi fyziky."
-      }
-    ],
-    "why_box": "Černé díry nejsou „vysavače vesmíru\", jak je kreslí filmy — bez překročení horizontu vás nepohltí. Jsou koncentrovaná gravitace, která testuje naši intuici o čase a prostoru. A supermasivní černá díra čeká i v centru naší vlastní galaxie, ve vzdálenosti 27 000 světelných let, s hmotností čtyř milionů Sluncí.",
-    "related_explainery": [
-      "co-je-horizont-udalosti",
-      "mohou-cerne-diry-vymirat-hawkingovo-zareni",
-      "co-jsou-gravitacni-vlny"
-    ]
-  },
-  {
-    "id": "exp-004",
-    "title": "Co je temná energie a jak se liší od temné hmoty?",
-    "theme": "temna-energie",
-    "description": "Temná energie tvoří 68 % vesmíru a zrychluje jeho rozpínání. Co přesně je, proč existuje a jak se liší od temné hmoty?",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Vesmír se rozpíná stále rychleji — za zrychlením stojí temná energie, záhadná síla naplňující prázdný prostor. Tvoří 68 % vesmíru a rozhoduje o jeho osudu, přitom nevíme, co doopravdy je.",
-    "sections": [
-      {
-        "heading": "Dva druhy temna",
-        "body": "Když astronomové sečetli hmotu ve vesmíru, vyšlo jim něco zvláštního: neviditelná temná hmota tvoří většinu hmoty, ale přesto jen asi 27 % celkového obsahu vesmíru. Zbylých zhruba 68 % tvoří něco ještě záhadnějšího — temná energie. Nejedná se o hmotu vůbec, ale o energii naplňující samotný prostor, která určuje, jak rychle se vesmír rozpíná."
-      },
-      {
-        "heading": "Jak víme, že existuje?",
-        "body": "Věděli jsme to překvapivě dlouho, aniž bychom rozuměli proč. Srovnáváním vzdáleností galaxií v 90. letech 20. století dva nezávislé týmy pozorování supernov typu Ia objevily, že vzdálené galaxie se vzdalují rychleji, než by odpovídalo zpomalování od gravitace. Vesmír se rozpíná zrychleně. Je, jako by stůl, po němž se valí kulička, najednou začal sám nabývat rychlost."
-      },
-      {
-        "heading": "Měření z více stran",
-        "body": "Kromě supernov typu Ia máme dnes dvě další nezávislé metody, které temnou energii potvrzují: mřížku teplotních fluktuací v reliktním záření a uspořádání galaxií do velkých pěn a vláken. Všechny tři metody — zcela nezávislé — dávají shodný výsledek: vesmír obsahuje zhruba 68 % temné energie, 27 % temné hmoty a jen 5 % obyčejné hmoty. Evropská družice Euclid, vypuštěná v roce 2023, má tuto otázku proměřit s dosud nevídanou přesností a možná i rozhodnout mezi konkurenčními vysvětleními."
-      },
-      {
-        "heading": "Co by temná energie mohla být?",
-        "body": "Fyzikové připravují tři hlavní odpovědi. První je kosmologická konstanta — energie prázdného prostoru, která prostě je, jako stálý tlak vakua; tu předpověděl už Einstein, ač ji později odvolal. Druhá je kvintesence — dynamické pole, které se v čase mění a mohlo v minulosti působit jinak. Třetí možnost je nejjednodušší popisem a nejrevolučnější důsledky: že Einsteinova rovnice gravitace neplatí na kosmologických vzdálenostech přesně a vesmír se rozpíná jinak, než si myslíme. Rozdíl mezi těmito scénáři se měří právě přesností mapování vesmíru — proto je Euclid tak důležitý."
-      },
-      {
-        "heading": "Co temná energie umí",
-        "body": "Temná energie funguje opačně než gravitace. Zatímco gravitace přitahuje a zpomaluje, temná energie působí jako jakási antigravitace — ne na jednotlivé galaxie, ale na prostor samotný. Každý metr krychlový vesmíru obsahuje trochu této energie a protože přibývá nový prostor, přibývá i energie, která rozpínání ještě urychluje. Je to pozitivní zpětná vazba: čím větší vesmír, tím rychlejší rozpínání."
-      },
-      {
-        "heading": "Jak se liší od temné hmoty?",
-        "body": "I když se jmenují podobně, jde o dvě zcela odlišné věci. Temná hmota se chová jako hmota — gravituje, shlukuje se kolem galaxií a drží je pohromadě. Temná energie je energie prázdného prostoru a působí na obrovských vzdálenostech mezi galaxiemi. Zjednodušeně: temná hmota řídí, jak se ve vesmíru tvoří struktura, temná energie určuje, jak rychle se celý vesmír rozpíná a jaký bude jeho osud."
-      },
-      {
-        "heading": "Co bude dál?",
-        "body": "Budoucnost vesmíru závisí právě na temné energii. Zrychlené rozpínání znamená, že vzdálené galaxie se od nás vzdalují čím dál rychleji — jednou budou mizet za horizontem, který už nebude možné překročit ani světlem. Mlhoviny hvězd se vypnou, galaxie osamí a vesmír skončí chladný, temný a prázdný. Vědci ale stále nevědí, co temná energie doopravdy je — ať už jde o kvantovou energii vakua, o nové pole ve vesmíru, nebo o tom, že obecná teorie relativity potřebuje na velkých vzdálenostech opravit."
-      }
-    ],
-    "why_box": "Osud vesmíru — zda se jednou zhroutí, zmrzne, nebo se roztrhá — je v rukou něčeho, co nikdy nebylo přímým pozorováním spatřeno. Každá teorie, která ji vysvětlí, zároveň přepíše naše chápání gravitace i kvantové fyziky.",
-    "related_explainery": [
-      "co-je-temna-hmota",
-      "co-je-reliktni-zareni"
-    ]
-  },
-  {
-    "id": "exp-005",
-    "title": "Co je černá díra a jak vzniká?",
-    "theme": "cerne-diry",
-    "description": "Černá díra je oblast, z níž neunikne ani světlo. Jak vzniká zhroucením hvězdy, kolik druhů existuje a jak ji vůbec pozorujeme?",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Černá díra je místo, kde gravitace zvítězila nad vším ostatním — oblast, z níž neunikne ani světlo. Nejznámější vznikají zhroucením umírajících hvězd, ty největší ale číhají v srdcích galaxií.",
-    "sections": [
-      {
-        "heading": "Co je to černá díra?",
-        "body": "Černá díra je místo, kde gravitace zvítězila nad vším ostatním — oblast prostoročasu tak silně zakřivená, že z ní neunikne ani světlo. Není to „díra\" ve smyslu otvoru do něčeho; je to spíš konec cesty. Hranice této oblasti se nazývá horizont událostí a vše, co ho překročí, se už ven nedostane."
-      },
-      {
-        "heading": "Kolik druhů černých děr existuje?",
-        "body": "Astronomové rozlišují několik druhů podle hmotnosti. Černé díry hvězdné vznikají zhroucením velkých hvězd a mají řádově několik až desítky hmotností Slunce. Supermasivní černé díry v centrech galaxií váží miliony až miliardy Sluncí. Mezi nimi se hledají i střední černé díry, vzniklé pravděpodobně slučováním menších, a hypotetické primordiální černé díry, které mohly vzniknout už v raném vesmíru."
-      },
-      {
-        "heading": "Zrození z hvězdy",
-        "body": "Hvězdná černá díra se rodí dramaticky. Když velká hvězda spotřebuje své jaderné palivo, už ji neudržuje zářivý tlak vnitřku. Hvězda se zhroutí — nejdřív vrstvami, pak v jediném okamžiku, když jádro zkolabuje pod vlastní vahou. Při této kolapsi nastane výbuch supernovy, který vrstvy hvězdy odhodí do vesmíru, a to, co zbyde, se zhrne za horizont událostí. Z hvězdy o desítkách Sluncí zbude objekt o průměru jen několika kilometrů."
-      },
-      {
-        "heading": "Jak černé díry pozorujeme?",
-        "body": "Černou díru nikdy neuvidíme přímo, ale její přítomnost prozradí okolí. Nejčistší důkaz přinesl souhvězdí Střelce: hvězdy v centru Mléčné dráhy obíhají po vypočítaných drahách kolem neviditelného bodu o hmotnosti milionů Sluncí — nic jiného než černá díra to být nemůže. Gravitační vlny z LIGO a Virga nám ukázaly srážky černých děr v jiných galaxiích, a síť teleskopů Event Horizon Telescope pořídila v roce 2019 první snímek stínu černé díry v galaxii M87. Tři zcela odlišné metody, tři zcela odlišné důkazy."
-      },
-      {
-        "heading": "Kolik jich kolem nás je?",
-        "body": "Černé díry jsou běžnější, než by se zdálo. V samotné Mléčné dráze odhadují astronomové kolem sta milionů černých děr hvězdné hmotnosti — pozůstatků dávno zaniklých hvězd. Ty, které vidíme, většinou patří k dvojhvězdám: sami jsou neviditelné, ale hry poloha a rychlost jejich průvodce prozradí, že tam něco těžkého je. Zatím nejbližší známá černá díra leží v souhvězdí Draka, zhruba 1600 světelných let od nás — na měřítka vesmíru to je doslova sousedství."
-      },
-      {
-        "heading": "Kdo černé díry objevil?",
-        "body": "Idea černých děr je starší, než se zdá. Už v roce 1783 anglický učenec John Michell vypočetl, že z dostatečně husté hvězdy by nemohlo uniknout ani světlo — nazval ji „tmavou hvězdou\". Matematicky černé díry předpověděla Einsteinova obecná teorie relativity, když ji o rok po jejím zveřejnění vyřešil Karl Schwarzschild. Po desetiletí je ale fyzikové považovali za matematickou zvláštnost, ne za reálné objekty — obávali se, že vesmír by se sám zhroutil, kdyby existovaly. Slovo „černá díra\" se vžilo až v roce 1967 díky Johnu Wheelerovi."
-      },
-      {
-        "heading": "Supermasivní černé díry — jiná cesta",
-        "body": "Supermasivní černé díry vznikly jinak — jejich počátky jsou jedním z největších otevřených problémů kosmologie. Buď se zrodily už z obřích plynů v prvních vesmírech, nebo vznikly slučováním menších černých děr po generace. Pozorujeme je nepřímo: hvězdy kolem středu galaxie obíhají něco neviditelného ohromné hmotnosti, a občas se do černé díry zakousne plyn, který před spadnutím zahřejí na miliony stupňů a zazáří jako rentgenová signatura."
-      }
-    ],
-    "why_box": "Černé díry nejsou kosmické vysavače, jak je kreslí filmy — bez překročení horizontu vás nepohltí. Jsou především extrémní laboratoře gravitace: právě v nich bychom mohli najít první jiskřičky kvantové gravitace, teorie, která sjednotí obecnou teorii relativity s kvantovou mechanikou. A jedna čeká i v centru naší galaxie, 27 000 světelných let od nás.",
-    "related_explainery": [
-      "co-je-horizont-udalosti",
-      "co-se-stane-kdyz-spadnete-do-cerne-diry"
-    ]
-  },
-  {
-    "id": "exp-006",
-    "title": "Co je horizont událostí?",
-    "theme": "cerne-diry",
-    "description": "Horizont událostí je hranice, za níž nevede návrat. Proč černá díra černá je, jak velký horizont je a proč zmítá fyzikou dodnes?",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Horizont událostí je neviditelná hranice kolem černé díry — místo, kde končí všechny cesty ven. Není z čeho vytvořen, a přesto je neprostupnější než jakákoli zeď ve vesmíru.",
-    "sections": [
-      {
-        "heading": "Hranice bez návratu",
-        "body": "Horizont událostí je nejzajímavější hranice ve vesmíru: není z ničeho vyroben, nemá hmotu, nedá se osahat — a přesto je neprostupnější než jakákoliv zeď. Jde o hranici oblasti, z níž není možné uniknout. Překročíte-li ho, všechny možné dráhy — včetně světla — vedou ke středu černé díry."
-      },
-      {
-        "heading": "Proč je černá díra černá?",
-        "body": "Proto vypadá černá díra černě. Světlo z hvězd a plynů, které k černé díře dopadá, se sice ohýbá a krouží kolem ní, ale jakmile překročí horizont, už se ven nevrátí. Zvenčí vidíme jen tmu ohraničenou světlem, které se zastavilo těsně před ní. První skutečný snímek černé díry z roku 2019 (M87*) ukázal přesně toto: zářící prstenec materiálu kolem dokonalé temné skvrny."
-      },
-      {
-        "heading": "Jak velký horizont je?",
-        "body": "Velikost horizontu závisí jen na hmotnosti černé díry. U černé díry o hmotnosti Slunce by měl průměr zhruba 6 kilometrů. U supermasivní černé díry v centru Mléčné dráhy, která váží čtyři miliony Sluncí, jde o kruh o průměru zhruba 24 milionů kilometrů — pořád menší než oběžná dráha Merkuru. Hranice je z hlediska vesmíru úzká; problém je, že za ní cesta jednosměrně končí."
-      },
-      {
-        "heading": "Hawkingovo záření",
-        "body": "Kvantová mechanika horizontu přidává ještě jednu vrstvu podivnosti. Stephen Hawking v roce 1974 ukázal, že černá díra díky kvantovým jevům u horizontu velmi slabě září — a tím pomalu ztrácí hmotu. Čím menší černá díra, tím intenzivněji „vře\"; ta hvězdné velikosti by vypařováním přežila déle než současný věk vesmíru, takže to není způsob, jak černé díry z vesmíru mizí dnes. Hawkingovo záření ale naznačuje, že horizont není absolutně černý — a že kvantová gravitace nakonec přijde na to, co se s informací za horizontem děje."
-      },
-      {
-        "heading": "Dá se horizontu vyhnout?",
-        "body": "Dá se horizontu nějak vyhnout? Fyzika říká ne. Představte si nejvýkonnější raketu — cokoliv, co překročí horizont, se k němu už nemůže vrátit zpátky, i kdyby mělo neomezený tah a neomezené palivo. Důvod je geometrický: uvnitř horizontu se směr „ke středu\" stává směrem „do budoucnosti\". Je to jako se ptát, jestli se můžete vyhnout zítřku — horizont neudržuje nic svou silou, jen předznamenává, kam už čas povede jediným možným směrem."
-      },
-      {
-        "heading": "Horizonty i jinde ve vesmíru",
-        "body": "Černé díry nejsou jediné horizonty ve vesmíru. Kosmologie má svůj vlastní horizont událostí: věci, které jsou od nás příliš daleko, se vzdalují rychleji než světlo, takže jejich světlo k nám nikdy nedoputuje — jsou za kosmologickým horizontem navždy mimo náš dosah. Aby se vesmír nekousal sám do sebe, existuje i horizont částic — hranice vzdálenosti, odkud světlo od Velkého třesku stihlo k nám doputovat. Horizonty tak nejsou zvláštností černých děr, ale obecným důsledkem struktury prostoročasu."
-      },
-      {
-        "heading": "Horizont není pevná hranice",
-        "body": "Horizont není pevná, neměnná věc. Černá díra, která polkne hvězdu nebo plyn, zvětší svůj horizont. Podle obecné teorie relativity se při pádu do černé díry horizont chová zvláštně: pro padajícího pozorovatele ho překročí bez okolků, pro vzdáleného přihlížejícího se obraz padajícího „zamrazí\" na hranici a postupně zhasne. Obě skutečnosti jsou pravdivé zároveň — černá díra nere-spektuje naši intuici současnosti."
-      }
-    ],
-    "why_box": "Horizont událostí je příčinou největšího paradoxu současné fyziky. Kvantová mechanika tvrdí, že informace nikdy nezaniká; obecná teorie relativity tvrdí, že za horizontem mizí navždy. Kdy se tyto dva popisy srazí právě na hranici černé díry — a který má pravdu — se fyzikové snaží zjistit právě teď.",
-    "related_explainery": [
-      "co-je-cerna-dira-a-jak-vznika",
-      "co-se-stane-kdyz-spadnete-do-cerne-diry",
-      "mohou-cerne-diry-vymirat-hawkingovo-zareni"
-    ]
-  },
-  {
-    "id": "exp-007",
-    "title": "Co je reliktní záření?",
-    "theme": "relictni-zareni",
-    "description": "Reliktní záření je nejstarší světlo vesmíru — fotka jeho mládí. Jak vzniklo, proč je mikrovlnné a co nám říká o věku a složení vesmíru?",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Reliktní záření je nejstarší světlo ve vesmíru — záře, která vznikla asi 380 tisíc let po velkém třesku, kdy se vesmír poprvé stal průhledným. Díky rozpínání vesmíru se z původně žhavého viditelného světla natáhlo na chladné mikrovlnné záření o teplotě −270,4 °C, které na Zemi dopadá ze všech stran. Je to doslova fotka mládí vesmíru.",
-    "sections": [
-      {
-        "heading": "Světlo starší než jakákoliv hvězda",
-        "body": "Když se podíváte na noční oblohu, vidíte světlo hvězd a galaxií — všechny jsou mladší než zhruba 13 miliard let. Ale mikrovlnné záření o teplotě 2,7 kelvinu, které dopadá na celou Zemi naprosto rovnoměrně ze všech směrů, je starší o řád. Vzniklo ve chvíli, kdy ve vesmíru ještě nebyly žádné hvězdy, žádné galaxie, žádné atomy. Objevili ho náhodou v roce 1965 Arno Penzias a Robert Wilson při kalibraci komunikační antény — jako nepřekonatelný šum, který nešel odstranit žádným čištěním. A právě ten šum změnil kosmologii: byl to pozdrav z prvních okamžiků vesmíru."
-      },
-      {
-        "heading": "Konec éry mlhy",
-        "body": "Krátce po velkém třesku byl vesmír žhavý, hustý a zcela neprůhledný. Světlo (fotony) neustále naráželo na volné elektrony a nemohlo se šířit volně — jako když se světlo odráží v husté mlze. Asi 380 tisíc let po počátku se vesmír natolik rozpjal a vychladl, že elektrony a protony konečně splynuly do neutrálních atomů vodíku. V ten okamínek vesmír zprůhledněl a fotony se vydaly na cestu vesmírem. Ty, které zamířily směrem k nám, dorazily na Zemi právě teď — po cestě trvající téměř 13,8 miliardy let."
-      },
-      {
-        "heading": "Proč je mikrovlnné, když začínalo jako viditelné světlo",
-        "body": "Původně bylo reliktní záření žhavé, oranžové světlo o teplotě zhruba 3 000 °C. Ale mezitím se vesmír rozpjal zhruba tisíckrát — a rozpínání prostoru vlnové délky fotonů fyzicky protáhlo. Je to stejný jev jako u sirény odjíždějící sanitky: zvuk se „natáhne\" do hlubšího tónu, jenže u světla se posouvá barva. Z viditelného světla se stalo infračervené a nakonec mikrovlnné záření, z 3 000 °C zbývá −270,4 °C. Astronomům to umožňuje přesně změřit, jak rychle se vesmír rozpíná — a protože tohle záření má ve vesmíru nejdelší cestu, nese informace o celé historii expanze."
-      },
-      {
-        "heading": "Fotka mládí vesmíru",
-        "body": "Kdyby bylo reliktní záření dokonale hladké, byla by to nuda — a nevznikli bychom. Na jeho neuvěřitelně rovnoměrném pozadí jsou totiž drobné teplotní fluktuace, řádově jedna setina procenta. Právě ty jsou zásadní: jsou to semínka, kolem nichž se gravitací v následujících stovkách milionů let nabalovala hmota a vznikaly první galaxie. Družice COBE (1992) tyto nerovnosti poprvé změřila, WMAP (2003) je zmapovala podrobně a Planck (2013) dodal dnešní přesnost. Díky nim máme snímek vesmíru ve věku 380 tisíc let — nejstarší fotografii, jakou lidstvo kdy pořídilo."
-      },
-      {
-        "heading": "Co nám říká o vesmíru",
-        "body": "Reliktní záření je nejpřesnější měřicí přístroj kosmologie. Jeho analýza říká: vesmír je plochý, je mu 13,8 miliardy let a skládá se z 5 % běžné hmoty, 27 % temné hmoty a 68 % temné energie. Je to také nejsilnější potvrzení velkého třesku — žádný jiný model nedokáže vysvětlit, proč má pozadí vesmíru přesně 2,7 kelvinu a proč je jeho struktura taková, jaká je. Vědci dnes pracují na mapování polarizace reliktního záření, která by mohla odhalit stopy gravitačních vln z éry kosmické inflace — z okamžiků těsně po zrodu vesmíru."
-      }
-    ],
-    "why_box": "Reliktní záření je nejuniverzálnější vědecký úkaz na světě: dopadá na každý metr čtvereční Země, na každý střechu i na každou anténu. Když jste kdysi přelaďovali televizi a narazili na šum na nezatunelovaném kanálu, asi jedno procento toho šumu byly fotony reliktního záření — částice světla starší než Slunce. Nikdo jiný na světě nemůže říct, že má doma přijímač, který zachytává světlo z prvních okamžiků vesmíru. Vy ano.",
-    "related_explainery": [
-      "co-je-temna-hmota",
-      "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty",
-      "co-je-velky-tresk"
-    ]
-  },
-  {
-    "id": "exp-008",
-    "title": "Co je neutronová hvězda?",
-    "theme": "neutronove-hvezdy",
-    "description": "Neutronová hvězda: zbytek po supernově o velikosti města a hmotnosti Slunce. Proč je nejhustější hmotou vesmíru, jak pulsuje a proč se z některých stanou černé díry?",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Neutronová hvězda je zbytek jádra umírající hmotné hvězdy — koule o průměru zhruba 20 kilometrů, do níž je vmáčknuta hmotnost větší než hmotnost Slunce. Je to nejhustější hmota ve vesmíru: jedna čajová lžička jejího materiálu by na Zemi vážila přes miliardu tun.",
-    "sections": [
-      {
-        "heading": "Zbytek po hvězdném výbuchu",
-        "body": "Když hmotná hvězda vyčerpá své jaderné palivo, její jádro se už nedokáže udržet vlastní gravitací a prudce se zhroutí. Vnější vrstvy hvězdy vyletí do vesmíru jako supernova — na několik týdnů zjasní víc než celá galaxie. Ale jádro zůstane: zhroutí se z velikosti Země na kouli o průměru asi 20 kilometrů, velikosti malého města. Tuto možnost teoreticky předpověděli už v roce 1934 Walter Baade a Fritz Zwicky — desetiletí předtím, než byla potvrzena pozorováním. V roce 1967 pak Jocelyn Bell Burnellová objevila záhadné pravidelné radiové signály, které nakonec vysvětlily právě neutronové hvězdy."
-      },
-      {
-        "heading": "Nejhustější hmota, jakou známe",
-        "body": "Hustota neutronové hvězdy je neuvěřitelná: odpovídá hustotě atomového jádra. Jedna čajová lžička materiálu z jejího vnitřku by vážila přes miliardu tun — víc než všechny lidské stavby dohromady. Gravitace na povrchu je stovky miliardkrát silnější než na Zemi; pokud byste z výšky jednoho metru upustili kladívko, dopadlo by rychlostí blízkou rychlosti světla. Čas tam běží měřitelně pomaleji podle obecné teorie relativity — hodiny na povrchu neutronové hvězdy by zašly o sekundy za hodiny na Zemi. Fyzikové proto říkají, že neutronové hvězdy jsou laboratoře extrémní fyziky, jaké nelze vytvořit na Zemi."
-      },
-      {
-        "heading": "Co ji drží pohromadě",
-        "body": "Když se jádro zhroutí, elektrony a protony se sloučí v neutrony — odtud název. Tlak degenerovaného neutronového plynu, kvantově mechanický efekt, který brání částicím zcela splývat, se postaví na odpor gravitaci a hvězda se ustálí. Toto rovnovážné řešení ale existuje jen do určité hmotnosti. Podobně jako bílého trpaslíka (jehož maximální hmotnost určil Subrahmanyan Chandrasekhar — 1,4 hmotnosti Slunce), i neutronovou hvězdu gravitace při překročení limitu rozdrtí. Kde přesně tato hranice leží, dnes nevíme přesně; odhady se pohybují kolem 2–2,5 hmotnosti Slunce. Nad ní už žádná známá síla nezabrání kolapsu do černé díry."
-      },
-      {
-        "heading": "Majáky vesmíru: pulsary",
-        "body": "Mnoho neutronových hvězd rotuje řádově jednou za sekundu až milisekundu — zůstatek rychlé rotace původní hvězdy, zachované zmenšením jako když krasobruslařka přitáhne ruce. Mají také extrémní magnetická pole, která urychlují částice a vytvářejí úzké paprsky radiového záření. Pokud se paprsek šťastnou náhodou opakovaně opírá o Zemi, vidíme pravidelný blik — pulsar. Perioda pulsarů je tak stabilní, že se měří v nanosekundách a předčí přesnost atomových hodin. Dvojhvězda s pulsanem PSR B1913+16 (Hulseova–Taylorova) umožnila v 70. letech první nepřímý důkaz gravitačních vln — Nobelova cena 1993."
-      },
-      {
-        "heading": "Extrémní příbuzní a kosmické srážky",
-        "body": "Neutronové hvězdy mají ještě divočejší příbuzné. Magnetary mají magnetická pole bilionkrát silnější než zemská — jejich erupce dokážou zhasnout radiový signál z celé galaxie. A když se dvě neutronové hvězdy srazí, nastane kilonova: exploze, při níž se zrodí velké množství těžkých prvků — zlata, platiny, uranu. V roce 2017 astronomové poprvé pozorovali srážku neutronových hvězd dvojím způsobem současně: gravitačními vlnami (GW170817) a světlem. Výpočty ukazují, že většina těžkých prvků ve vesmíru — včetně zlata ve vašich špercích — pochází právě z těchto srážek."
-      }
-    ],
-    "why_box": "Neutronová hvězda je jediný objekt ve vesmíru, kde se můžete dotknout hmoty, která existuje stabilně jen díky své hustotě — hmoty složené téměř výhradně z neutronů, bez atomů, bez chemie. A když nosíte zlatý šperk, nosíte na sobě důkaz kosmické srážky: zlato nevzniklo ve hvězdách běžným hořením, ale v chaosu srážky dvou neutronových hvězd, z níž část materiálu dopadla na Zemi ještě před vznikem Sluneční soustavy.",
-    "related_explainery": [
-      "co-je-cerna-dira-a-jak-vznika",
-      "co-jsou-gravitacni-vlny",
-      "co-se-stane-kdyz-spadnete-do-cerne-diry"
-    ]
-  },
-  {
-    "id": "exp-009",
-    "title": "Proč mají galaxie spirální ramena?",
-    "theme": "galaxie",
-    "description": "Spirální ramena galaxií nejsou pevné útvary, ale vlny hustoty. Proč se nezamotají, kde v nich rodí hvězdy a proč mají spirálu jen některé galaxie?",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Spirální ramena nejsou pevné útvary, které by se točily s galaxií — byla by totiž dávno zamotaná dovnitř jako cukrová vata. Jsou to hustotní vlny v rotujícím disku galaxie: oblasti, kde se mírně hromadí plyn a prach, rodí se v nich nové hvězdy, a právě ty mladé jasné hvězdy ramena rozsvěcují.",
-    "sections": [
-      {
-        "heading": "Záhada, která trápila astronomy desetiletí",
-        "body": "Spirální galaxie patří k nejkrásnějším objektům na obloze — Mléčná dráha a Andromeda mezi ně patří. Ale představte si jejich ramena jako pevné struktury: vnitřní části galaktického disku rotují rychleji než vnější, takže by se ramena během několika stovek milionů let měla zamotat kolem středu a zcela zmizet. Galaxie ale rotují miliardy let a ramena stále mají. Tohoto rozporu — zvanému winding problem — si astronomové nevšimli hned; spirální strukturu galaxií identifikovali až ve 20. letech 20. století, když Edwin Hubble roztřídil galaxie do své slavné „tuningové vidlice\". Vysvětlení přišlo o desetiletí později a bylo překvapivě jednoduché."
-      },
-      {
-        "heading": "Ramena jsou vlny, ne stavby",
-        "body": "Spirální ramena nejsou chomáče hvězd, které by společně obíhaly kolem středu galaxie. Jsou to hustotní vlny — oblasti disku, kde je o pár procent hustší plyn, prach a hvězdy, podobně jako zhuštěná doprava na dálnici. Klíčový rozdíl: hvězdy a plyn vlny neprovázejí, ale protínají. Objeví se v ní, chvíli v ní zůstanou, a pak ji opustí, jako když auto projíždí dopravní zácpou. Samotná vlna se přitom pohybuje po disku pomaleji než hvězdy. Proto se ramena nezamotají — není to materiál, ale vzorec, přechodná koncentrace v rotujícím disku. Podobný efekt můžete vidět na stadionu: \"mexická vlna\" obíhá tribunou, ale diváci zůstávají na svých místech."
-      },
-      {
-        "heading": "Kde se hustotní vlny berou",
-        "body": "Hustotní vlny v galaktickém disku mají několik zdrojů, které se vzájemně posilují. Základní mechanismus je gravitační: mírné zhuštění přitáhne okolní hmotu, která se zhustí ještě víc. Tomu pomáhá středová příčka galaxie (bar) — protáhlá hvězdná struktura u jádra, která rotuje pomaleji než disk a svou gravitací ve hvězdném disku „šťouchá\" do vln. A pak je tu zpětná vazba od samotných hvězd: ve vlnových hřbetech se zhušťuje plyn, rodí se v nich hmotné hvězdy, ty intenzivně září a nakonec vybuchnou jako supernovy. Výbuchy zahřejou okolní plyn a v disku rozproudí nové zhuštění — vlna se udržuje sama. Spirální ramena jsou tak nejenom následek, ale i motor zrodu hvězd."
-      },
-      {
-        "heading": "Proč ramena září a proč zanikají",
-        "body": "Ve vlnových hřbetech se sbírá molekulový plyn a prach, takže tam vznikají hvězdy řádově častěji než jinde v disku. Rodí se tam velké, horké, jasně modré hvězdy — které jsou zářivější než miliony běžných hvězd dohromady. Právě ony dodávají ramenům charakteristické modré světlo a činí je viditelnými. Ale jsou krátkověké: žijí jen pár desítek milionů let. Když zemřou, rameno v daném místě ztmavne — a proto pozorujeme i tzv. přízračná ramena, která jsou vidět jen na infračervených snímcích mladých hvězd. Ramena se tedy objevují a zanikají, přetvářejí se; galaxie si je neustále „překresluje\". Někteří astronomové dokonce pomocí ramen určují, kdy v minulosti galaxie prošla poslední vlnou zrodu hvězd."
-      },
-      {
-        "heading": "Proč nemá spirálu každá galaxie",
-        "body": "Spirální ramena potřebují ke vzniku tenký rotující disk s dostatečným množstvím plynu. A ten nemá každá galaxie. Eliptické galaxie — obří koule z miliard hvězd — jsou výsledkem srážek a slévání galaxií, při nichž se disk zničil; dnes v nich téměř nerodí nové hvězdy. Nepravidelné galaxie jako Magellanova mračna mají plynu dost, ale gravitační vlivy větších sousedů jejich disky rozbily. Spirální struktura je tak známkou klidného životního období galaxie. Naše Mléčná dráha je spirální galaxie se čtyřmi hlavními rameny, pojmenovanými Perseus, Místní bublina (v níž ležíme), Sagittarius (rameno Střelce) a Scutum–Centaurus (rameno Štítu Kentaura). Hvězdná mapa naší galaxie se právě proto neustále přepisuje."
-      }
-    ],
-    "why_box": "Bez spirálních ramen by hvězdy vznikaly mnohem řidčeji a pomaleji — vlny v disku totiž koncentrují plyn do míst, kde se může zhroutit a zrodit nová hvězda. A jedna taková vlna se před 4,6 miliardami let prohnala i oblakem, z nějž vznikla Sluneční soustava. Zrod Slunce i Země tedy pravděpodobně iniciovalo jedno z našich galaktických ramen. Když se dnes podíváte na fotografii spirální galaxie, díváte se na typ struktury, bez níž bychom tu nebyli.",
-    "related_explainery": [
-      "co-je-temna-hmota",
-      "co-je-reliktni-zareni",
-      "co-je-cerna-dira-a-jak-vznika"
-    ]
-  },
-  {
-    "id": "exp-010",
-    "title": "Jak víme, že temná hmota existuje?",
-    "theme": "temna-hmota",
-    "description": "Žádný teleskop temnou hmotu nezachytil — přesto o ní vědci nepochybují. Tři nezávislé důkazy, od rotace galaxií po srážku kup, a proč alternativy selhaly.",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Temnou hmotu nikdo nikdy neviděl, nezachytil v detektoru ani necítil. Přesto astronomové o její existenci prakticky nepochybují — protože o ní svědčí tři naprosto nezávislé druhy pozorování, které se shodují do jednotek procent. Posledním hřebíčkem do rakve alternativ je srážka dvou galaktických kup, kde se viditelná hmota a gravitace prostě rozcházejí.",
-    "sections": [
-      {
-        "heading": "Od Zwického k Rubinové: osmdesát let pochybností",
-        "body": "Podezření se objevilo v roce 1933, když Fritz Zwicky měřil rychlosti galaxií v kupě Coma. Galaxie se pohybovaly tak rychle, že by kupa měla dávno rozletět — kdyby ji držela jen viditelná hmota. Zwicky spočítal, že chybí zhruba desetkrát více hmoty, než kolik svítilo. Jeho kolegové ho považovali za excentrika. Rozhodující obrat přišel v 70. letech: astronomka Vera Rubin systematicky měřila rotaci desítek spirálních galaxií a zjistila, že hvězdy na okrajích rotují stejně rychle jako ty vnitřní. Podle zákona gravitace a podle množství viditelné hmoty by měly rotovat čím dál pomaleji. Rubin došla k neoblíbenému závěru: galaxie jsou obalené obrem neviditelné hmoty. Věda se nakonec přiklonila na její stranu."
-      },
-      {
-        "heading": "Rotace galaxií: rychleji, než dovoluje zákon",
-        "body": "Detail je důležitý. U planet ve Sluneční soustavě platí: čím dál od středu, tím pomaleji obíhají. Je to přímý důsledek gravitace koncentrované ve středu. U spirálních galaxií to překvapivě neplatí — od jádra ke kraji rotace zhruba neklesá, na okrajích dokonce mírně roste. Aby Newtonovy zákony platily a galaxie se nerozpadla, musí být hmota rozprostřená daleko za viditelný disk, do vzdáleností desetinásobku průměru galaxie. Tuto temnou halu nevidíme v žádné části spektra. Alternativní vysvětlení zní: zákon gravitace neplatí na velkých vzdálenostech. Tato teorie (MOND) rotaci galaxií popíše — ale selhává všude jinde."
-      },
-      {
-        "heading": "Gravitační čočky a srážka kup: důkaz přímý",
-        "body": "Druhý důkaz je nezávislý na rotaci: gravitační čočky. Světlo vzdálených galaxií procházející kolem hmotné kupy se zakřivuje podle hmotnosti v popředí. Čím víc hmoty, tím víc zakřivení. Astronomové dokážou zmapovat, kde hmota je — a výsledek systematicky ukazuje více hmoty, než kolik svítí. Zlomový okamžik přišel v roce 2006 se srážkou kup v souhvězdí Soulového řetězu (tzv. Bullet Cluster). Při srážce se viditelný plyn podle rentgenu zpomalil a zůstal uprostřed, zatímco většina hmotnosti podle čočkování prolétla dál s galaxiemi. Viditelná hmota a gravitace se prostě fyzicky rozdělily — to žádná modifikace gravitace nevysvětlí, zatímco temná hmota ano."
-      },
-      {
-        "heading": "Otisk v reliktním záření",
-        "body": "Třetí důkaz pochází z opačného konce vesmíru: z reliktního záření, světla z doby před 13,8 miliardami let. Teplotní fluktuace na této fotce mládí vesmíru mají přesně takovou velikost, jakou předpovídá model s temnou hmotou — a nesedí s modelem bez ní. Kosmologické měření z něj čte složení vesmíru: 5 % běžné hmoty, 27 % temné hmoty. Když pak stejné číslo dosadíte do výpočtu rotace galaxií a čoček, vychází totéž. Tři zcela nezávislé metody, tři zcela nezávislé datové sady — a shoda do jednotek procent. Ve vědě lepší důkaz neexistuje."
-      },
-      {
-        "heading": "Proč nejde jen o špatné zákony gravitace",
-        "body": "Alternativa MOND (modifikovaná newtonská dynamika) rotaci galaxií popíše bez temné hmoty — a na tom její úspěchy končí. Při srážce kup Bullet Cluster MOND selhává, protože gravitace se tam nerozděluje od hmoty. S fluktuacemi v reliktním záření se vyrovnat nedokáže. A predikuje zvláštní chování, která se nepozorují. Temná hmota zatím obstála ve všech testech — jen ji zatím nikdo nedokázal chytit v laboratoři. Ale důkazy o její existenci jsou dnes stejně silné jako důkazy o existenci exoplanet před érou teleskopů: nepřímé, opakované a vzájemně se potvrzující."
-      }
-    ],
-    "why_box": "Temná hmota je vědecký unikát: vědci o ní vědí všechno — kolik jí je, kde je, jak se chová — kromě toho, co to vlastně je. Je to jako znát přesnou hmotnost, chování a stopu zvířete z jeho stop, aniž byste ho viděli. A přesto právě tohle neviditelné zvíře drží pohromadě každou galaxii včetně té vaší. Bez něj by hvězdy vaší galaxie dávno rozletěly do tmy.",
-    "related_explainery": [
-      "co-je-temna-hmota",
-      "co-je-reliktni-zareni",
-      "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty"
-    ]
-  },
-  {
-    "id": "exp-011",
-    "title": "Mohou černé díry vymírat? Hawkingovo záření",
-    "theme": "cerne-diry",
-    "description": "Stephen Hawking přišel na to, že černé díry nejsou zcela černé — slabě září a pomalu se vypařují. Jak je to možné, kolik to trvá a kam zmizí informace.",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "V roce 1974 Stephen Hawking ukázal něco, co nikdo nečekal: černé díry nejsou zcela černé. Kvantová fyzika jim dovoluje velmi slabě zářit — a tím ztrácet hmotu. Černá díra se tak postupně vypařuje. Pro hvězdnou černou díru to trvá déle než věk vesmíru, ale princip mění vše: černé díry nejsou věčné.",
-    "sections": [
-      {
-        "heading": "Paradox: nic neunikne, přesto něco uniká",
-        "body": "Z klasické fyziky plyne, že z černé díry neunikne nic — ani světlo, proto je černá. Ale Hawking zkombinoval obecnou teorii relativity s kvantovou mechanikou a došel k opačnému závěru: černá díra musí zářit, a to čím dál tím víc, čím je menší. Odborníci tomu zprvu nevěřili — teorie samotná předpovídala, že černá díra, definovaná jako objekt, z něhož neuniká nic, něco vyzáří. Ukázalo se ale, že při spojení obou teorií je to nevyhnutelné. Hawkingovo záření patří mezi nejvýznamnější objevy teoretické fyziky druhé poloviny 20. století — a stále čeká na přímé pozorování."
-      },
-      {
-        "heading": "Jak záření vzniká",
-        "body": "Vysvětlení vychází z kvantové nejistoty: vakuum vesmíru není prázdné, ale neustále v něm vznikají páry virtuálních částic — částice a antočástice, které se okamžitě znovu anihilují. U horizontu událostí se může stát, že jedna z dvojice za horizont spadne a druhá unikne. Pro vnějšího pozorovatele pak vypadá, jako by černá díra emitovala částici — jako by slabě zářila. Druhý pohled: energie unikající částice se musí někde vzít. Bere se z hmotnosti černé díry. Každý odlet jedné částice znamená, že černá díra o kousek zhubne. Vypařování následuje ze zákonitosti, ne ze shody náhod."
-      },
-      {
-        "heading": "Výparník nesmírné trpělivosti",
-        "body": "Hawkingova teorie má paradoxní vlastnost: čím hmotnější černá díra, tím chladněji září. Supermasivní černá díra v centru galaxie má teplotu zlomku kelvinu — méně než reliktní záření, kterým je obklopena, takže do ní proudí více energie, než kolik vyzáří. Vypařovat se začne až poté, co vesmír dostatečně vychladne. Výpočty říkají, že vypařování hvězdné černé díry trvá zhruba 10^67 let — to je číslo s 67 nulami, miliardkrát déle než stáří vesmíru. Vymírání černých děr je tedy teoretický proces, který nikdo nikdy neuvidí. Poslední okamžiky by ovšem byly impozantní: teplota roste, záření sílí a malá černá díra skončí explozí — posledním výkřikem hmoty, která se vrací vesmíru."
-      },
-      {
-        "heading": "Kam zmizí informace?",
-        "body": "Hawkingovo záření otevřelo největší paradox teoretické fyziky, tzv. informační paradox černých děr. Podle kvantové mechaniky informace nikdy nezaniká — jen se přeměňuje. Ale pokud se černá díra vypaří do čistého, neinformovaného záření, informace o tom, co do ní spadlo, navždy zmizí. To kvantová fyzika zakazuje. Hawking dlouho trval na tom, že informace mizí — a vsadil se o to s fyzikem Johnem Preskillem (sázka: baseballová encyklopedie). V roce 2004 sázku prohrál: přiznal, že informace uniká se zářením, byť v zakódované podobě. Přesný mechanismus je předmětem výzkumu dodnes — paradox nebyl vyřešen, jen zúžen."
-      },
-      {
-        "heading": "Kde by se dalo hledat",
-        "body": "Hawkingovo záření bylo potvrzeno jen nepřímo — v laboratorních analogiích (například v proudění tekutin napodobujících horizont událostí) a v jevu podobném zeslabování akustických vln u supersonického proudění. Přímé pozorování u skutečné černé díry zatím neexistuje: záření je příliš slabé pro naše detektory. Pozornost budí mikroskopické černé díry — hypotetické zbytky z raného vesmíru, které by se mohly vypařovat právě teď a v signálu detektorů by zářily jako charakteristické spršky částic. Kdyby některý detektor něco takového zachytil, znamenalo by to Nobelovu cenu — a konec života jedné mikroskopické černé díry."
-      }
-    ],
-    "why_box": "Hawkingovo záření je jedním z mála míst, kde se potkávají dvě největší teorie fyziky — gravitace a kvantová mechanika — a ukazuje, že spolu zatím nefungují. Právě v tomto rozporu se skrývá fyzika 21. století: teorie kvantové gravitace. Černá díra, kterou nikdy neuvidíte, vám tak ukazuje hranici lidského poznání. A paradox, který vznikl, když si Hawking vsadil encyklopedii, dosud nikdo neuzavřel.",
-    "related_explainery": [
-      "co-je-cerna-dira-a-jak-vznika",
-      "co-je-horizont-udalosti",
-      "co-se-stane-kdyz-spadnete-do-cerne-diry"
-    ]
-  },
-  {
-    "id": "exp-012",
-    "title": "Co zatím gravitační vlny odhalily?",
-    "theme": "gravitacni-vlny",
-    "description": "Od první detekce v roce 2015 ohlásili vědci přes sto srážek černých děr. Co gravitační vlny zatím prozradily a co stále hledají?",
-    "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Gravitační vlny byly detekovány poprvé v září 2015 a od té doby astronomové ohlásili přes sto událostí. Ukázaly srážky černých děr, které nikdy nebylo možné pozorovat světlem, doprovodily srážku neutronových hvězd zábleskem v celém elektromagnetickém spektru a objevily populaci černých děr, kterou teorie předtím neznala.",
-    "sections": [
-      {
-        "heading": "Z prvního signálu ke katalogu událostí",
-        "body": "14. září 2015 zachytila observatoř LIGO v USA signál s označením GW150914 — chvění prostoru-času způsobené srážkou dvou černých děr vzdálených 1,3 miliardy světelných let. Šlo o první přímou detekci gravitačních vln, jejichž existenci předpověděl Einstein přesně před sto lety. Objevu se říká objev století a v roce 2017 mu byla udělena Nobelova cena. Od té doby se detektory zlepšily, přidal se evropský detektor Virgo a japonský KAGRA — a katalog detekovaných událostí přesáhl sto položek. Z futuristické predikce se stal rutinní astronomický nástroj."
-      },
-      {
-        "heading": "Černé díry, které světlo nevidí",
-        "body": "Nejčastějšími zdroji gravitačních vln jsou srážky černých děr. Přibližují se k sobě, krouží kolem sebe stále rychleji a nakonec splynou v jedinou — přičemž do prostoru vyzařují energii několika hmotností Slunce v podobě gravitačních vln. Tyto srážky se dějí v úplné tmě: žádný teleskop je nevidí, protože černé díry světlo neemitují. Gravitační vlny jsou jediným způsobem, jak je pozorovat. Detekce odhalily populaci černých děr s hmotnostmi, které teorie hvězdného vývoje předtím nepředpovídaly — například černé díry kolem 30 hmotností Slunce a víc, vzniklé patrně z prvních hvězd vesmíru. Vesmír tak ukazuje, že je ještě nečekanější, než si mysleli."
-      },
-      {
-        "heading": "Srážka neutronových hvězd: multi-messenger astronomy",
-        "body": "17. srpna 2017 detekovaly LIGO a Virgo srážku dvou neutronových hvězd (událost GW170817) — a tentokrát šlo o něco, co šlo pozorovat i světlem. Během několika hodin zamířily k události desítky teleskopů na Zemi i na oběžné dráze. V následujících dnech a týdnech byl zaznamenán signál v gama paprscích, rentgenu, ultrafialovém, viditelném, infračerveném i rádiovém pásmu. Poprvé v historii byla pozorována jedna a tatáž událost dvěma zcela odlišnými způsoby: gravitačními vlnami i světlem. Výsledek potvrdil, že srážky neutronových hvězd jsou hlavní továrnou na těžké prvky — zlato, platina i uran ve vesmíru vznikají právě zde."
-      },
-      {
-        "heading": "Co zatím nenašly",
-        "body": "Gravitační vlny zatím neodhalily několik očekávaných zdrojů. Nenašly se vlny od samostatných rotujících neutronových hvězd — jsou příliš slabé pro současné detektory, i když by měly existovat. Nepodařilo se zachytit vlny od kosmických strun, hypotetických jednorozměrných defektů raného vesmíru, jejichž detekce by potvrdila teorie velké sjednocení. A dosud nikdo nezachytil stochastické pozadí gravitačních vln — jemné šumění způsobené součtem všech událostí v historii vesmíru, které by mohlo nést stopy z éry velkého třesku. Nález každého z těchto signálů by znamenal revoluci v ještě větším měřítku, než byla samotná první detekce."
-      },
-      {
-        "heading": "Další detektory na obzoru",
-        "body": "Současná generace detektorů (LIGO, Virgo, KAGRA) je citlivá na vlny s frekvencemi kolem 100 Hz — tedy na srážky zhruba hvězdných hmotností. Příští generace půjde dál: vesmírná družice LISA, jejíž start je plánován na polovinu 30. let, otevře pásmo nízkých frekvencí a odhalí srážky supermasivních černých děr v centrech galaxií. Pozemní nástupci Einstein Telescope a Cosmic Explorer zvýší citlivost desetinásobně a umožní sledovat celý vesmír téměř od velkého třesku. A pulsarová časovaná pole — přesné měření časování pulsarů — hledají pomalé vlny od supermasivních černých děr a pravděpodobně je brzy najdou. Každé nové pásmo otevírá vesmír z jiného úhlu — stejně jako dalekohledy před čtyřmi staletími."
-      }
-    ],
-    "why_box": "Před rokem 2015 člověk pozoroval vesmír výhradně světlem — jediným z pěti smyslů. Gravitační vlny přidaly druhý smysl: sluch. Poprvé slyšíme vesmír, nejen ho vidíme. A podobně jako u ucha i zde platí, že zvuk odhaluje věci, které světlo neukáže: srážky v naprosté tmě, pohyb hmoty, která nic neemituje. Každý zaznamenaný signál je nová zpráva z míst, kam světlo nikdy nevstoupilo.",
-    "related_explainery": [
-      "co-jsou-gravitacni-vlny",
-      "co-je-neutronova-hvezda",
-      "mohou-cerne-diry-vymirat-hawkingovo-zareni"
-    ]
-  },
-  {
-    "id": "exp-013",
-    "title": "Co nám říká mapa reliktního záření?",
-    "theme": "relictni-zareni",
-    "description": "Mapa reliktního záření je nejstarší fotografie vesmíru. Co se z jejích skvrn dá odečíst o věku, složení a osudu vesmíru?",
-    "published": "2026-10-18",
-    "updated": "2026-10-18",
-    "perex": "Reliktní záření nese jemné teplotní skvrny — zbytky zárodků galaxií z doby, kdy byl vesmír starý 380 000 let. Z jejich vzoru lze odečíst věk, složení i geometrii celého vesmíru.",
-    "sections": [
-      {
-        "heading": "Fotografie z dětství vesmíru",
-        "body": "Mapa reliktního záření je nejstarší fotografie vesmíru, jakou máme — snímek světla z doby, kdy byl vesmír starý pouhých 380 000 let. Zdánlivě jde o mozaiku nepatrných teplotních rozdílů, ve skutečnosti jde o zakódovaný záznam všech základních vlastností vesmíru: jeho věku, složení, geometrie i budoucnosti. Kosmologové proto říkají, že v těchto teplotních fluktuacích je napsáno „dětství\" vesmíru."
-      },
-      {
-        "heading": "Kdy se světlo osvobodilo",
-        "body": "Po Velkém třesku byl vesmír žhavý, hustý a neprůhledný — světlo se neustále sráželo s částicemi volných elektronů a nemohlo volně cestovat. Teprve když se vesmír dostatečně roztáhl a ochladil, elektrony a jádra se spojily do atomů (tzv. rekombinace), světlo se osvobodilo. Toto světlo k nám doputovalo po 13,8 miliardy let z každého směru najednou a dnes ho pozorujeme jako reliktní záření s teplotou −270,4 °C."
-      },
-      {
-        "heading": "Skvrny jsou zárodky galaxií",
-        "body": "Když astronomové tuto mapu proměřili, objevili v ní jemnou strukturu: teplejší a chladnější skvrny o velikosti necelého stupně. Ty nejsou náhodné. Chladnější místa odpovídají místům, kde bylo v raném vesmíru o něco hustší — gravitační semínka, z nichž časem vyrostly galaxie a galaktické kupy. Teplejší místa byla naopak řidší. Mapa reliktního záření je tedy doslova katalogem zárodků všech budoucích struktur ve vesmíru."
-      },
-      {
-        "heading": "Od náhodného objevu k přesné mapě",
-        "body": "První stopu reliktního záření objevil náhodou v roce 1965 dvojice radioastronomů Arno Penzias a Robert Wilson — původně hledali zdroj rušení antény a místo toho našli signál z počátku vesmíru. Systematicky mapu proměřila série družic: COBE v roce 1992 poprvé zachytila skvrny, WMAP je zmapovala přesněji a evropský Planck v roce 2013 dodal dnešní standard s přesností, jakou žádný pozemský teleskop nepřekoná. Nadšenci si mohou mapu prohlédnout na stránkách ESA — je to detailnější obrázek, než jaký pořídil kterýkoli teleskop hvězdné oblohy."
-      },
-      {
-        "heading": "Co všechno lze z mapy odečíst",
-        "body": "Z velikosti a rozložení skvrn lze odečíst klíčová čísla kosmologie. Z úhlu, pod nýmž jsou skvrny největší, vyplývá, že vesmír je geometricky plochý. Z jejich intenzit vyplývá složení: 5 % obyčejné hmoty, 27 % temné hmoty a 68 % temné energie. A z celkového vzoru vyplývá, že vesmír je 13,8 miliardy let starý — s přesností na méně než jedno procento. Žádný jiný kosmologický nástroj nedává tolik čísel najednou."
-      },
-      {
-        "heading": "Polarizace a stopa inflace",
-        "body": "Měření mapy pokračuje. Současné pozemské observatoře v Chile a na jižním pólu studují polarizaci reliktního záření — uspořádání světelných vln, které by mohlo nést stopu gravitačních vln z éry inflace, zlomků vteřiny po Velkém třesku. Nová generace přístrojů (Simons Observatory, plánované CMB-S4) zvýší citlivost desetkrát. Kdyby se stopa inflace našla, byl by to druhý nejvýznamnější důkaz po samotném reliktním záření — a zase by pocházel z té samé mapy."
-      },
-      {
-        "heading": "Stopy temné hmoty",
-        "body": "Jednu věc mapa neukazuje: temnou hmotu přímo. Ta neinteraguje se světlem, takže v ní „nezáří\". Ale její stopu vidíme nepřímo — právě v tom, jak silně jsou skvrny vyjádřené. Bez temné hmoty by ve vesmíru nebylo dost gravitačního „lepidla\" na to, aby z fluktuací něco vyrostlo; skvrny by byly slabší a galaxie by vznikaly příliš pozdě. Mapa reliktního záření tak temnou hmotu potvrzuje, i když ji nikdy přímo neuvidíme."
-      }
-    ],
-    "why_box": "Když se podíváte na mapu reliktního záření, díváte se na světlo, které vzniklo, když neexistoval žádný hvězdný prach, žádná Země, žádné Slunce. Každá galaxie, každá hvězda, každý atom ve vašem těle pochází z jednoho z těch skvrn. Vědci to říkají stručně: jsme způsobem, jakým vesmír poznává sám sebe — a mapa reliktního záření je jeho nejstarší fotografie.",
-    "related_explainery": [
-      "co-je-reliktni-zareni",
-      "co-je-temna-hmota",
-      "jak-vime-ze-temna-hmota-existuje"
-    ]
-  },
-  {
-    "id": "exp-014",
-    "title": "Co jsou magnetary a pulsary?",
-    "theme": "neutronove-hvezdy",
-    "description": "Pulsary jsou kosmické hodiny s přesností atomových hodin, magnetary mají nejsilnější magnetická pole ve vesmíru. Co jsou zač?",
-    "published": "2026-10-18",
-    "updated": "2026-10-18",
-    "perex": "Pulsary a magnetary jsou dvě tváře neutronových hvězd: rotující majáky s přesností hodin a magnetické příšery s poli bilionkrát silnějšími než pozemská. Oba vznikají smrtí hvězd.",
-    "sections": [
-      {
-        "heading": "Dva extrémy jedné hvězdy",
-        "body": "Pulsary a magnetary jsou dvě nejextrémnější podoby neutronových hvězd. Pulsar je rotující neutronová hvězda, která svítí jako maják — záblesk magnetického pole a záření k nám dopadá v přesných intervalech, někdy s přesností atomových hodin. Magnetar je ještě divočejší: neutronová hvězda s magnetickým polem tak silným, že by na Zemi zničilo kreditní kartu na vzdálenost tisíců kilometrů."
-      },
-      {
-        "heading": "Zrození neutronové hvězdy",
-        "body": "Neutronová hvězda vzniká zhroucením velké hvězdy — jádro se zhroutí do průměru asi 20 kilometrů, tak hustého, že jedna čajová lžička jeho hmoty váží miliardy tun. Většina neutronových hvězd se narodí s rotací a silným magnetickým polem. Když se hvězda zhroutí, zachová si většinu své rotace (podobně jako krasobruslařka přitáhnou paže), takže se může točit i stokrát za sekundu."
-      },
-      {
-        "heading": "Pulsar — maják vesmíru",
-        "body": "Pulsar je přesný hodinový stroj vesmíru. Má dvě magnetické „koruny\" u pólů; rotací se tyto směry střídavě obrací k Zemi a my vidíme pravidelný záblesk — pulz. Některé pulsary rotují s přesností lepší než atomové hodiny a po desetiletích se jejich rytmus téměř nezmění. Astronomové je používají k testování obecné teorie relativity a k hledání gravitačních vln: když gravitační vlna projde mezi námi a pulsarem, na okamžik naruší jeho tikot."
-      },
-      {
-        "heading": "Magnetar — nejsilnější magnet",
-        "body": "Magnetar je pulsar, který se při narození zrotoval pomaleji a získal magnetické pole bilionkrát silnější než pozemské. Toto pole je tak silné, že samo určuje chování hvězdy: deformuje její povrch, způsobuje obří erupce rentgenového záření a občas celkové „zjevení\" — záblesk, který v sekundě vyzáří tolik energie, jako Slunce za desetitisíce let. V Mléčné dráze známe asi dvacet magnetarů; jsou to nejsilnější magnety ve vesmíru."
-      },
-      {
-        "heading": "Záhada původu pole",
-        "body": "Největší nezodpovězenou otázkou je původ samotného pole. Proč mají některé neutronové hvězdy pole bilionkrát silnější než Slunce? Teorie nabízejí dva scénáře: buď se pole zformovalo už při kolapsu hvězdy a zesílilo uvnitř díky turbulenci (dynamo), nebo se krátce po zrození hvězdy v jejím nitru rozpadly částice zvané axiony a energie se proměnila v magnetismus. Pátrání po správné odpovědi probíhá — a každý nový magnetar, který astronomové pozorují, přináší vodítka."
-      },
-      {
-        "heading": "Jak magnetara poznáme",
-        "body": "Magnetary odhalujeme až podle jejich chování. Normální pulsar tiká pravidelně; magnetar pulsy nepravidelné a často slabé, občas ale vysílá obří záblesky. Nejsilnější zaznamenaný — erupce magnetaru SGR 1806-20 v roce 2004 — zasáhl Zemi přes půl galaxie a po dobu deseti vteřin narušila ionosféru silněji než Slunce. I kdybychom magnetar nikdy neviděli přímo, jeho záblesky prozradí, co se uvnitř děje: pole se trhá, povrch praská, koruny se zhroutí."
-      },
-      {
-        "heading": "Hranice nejsou ostré",
-        "body": "Hranice mezi oběma typy není ostrá — pozorujeme i přechodné formy, a neutronové hvězdy se časem mění. Rychle rotující pulsar pomaluje a jeho magnetické pole slábne; některé z nich se mohou později projevit jako magnetary. A když se dvě neutronové hvězdy srazí, výsledkem je ještě divočejší událost — srážka, která generuje gravitační vlny a zároveň vytváří polovinu prvků těžších než železo, včetně zlata ve vašem prstenu."
-      }
-    ],
-    "why_box": "Pulsary jsou tak přesné, že slouží jako kosmické hodiny — když jeden „zmešká\" o zlomek milisekundy, víme, že mezi námi a ním prolétla gravitační vlna, nebo že v mezihvězdném prostoru něco světlo zpomalilo. Magnetary zase ukazují, jak fyzika chová v extrémech, které si na Zemi nikdy nenapodobíme. Obojí vzniklo ze smrti hvězdy — a přitom slouží k tomu, abychom vesmír lépe pochopili.",
-    "related_explainery": [
-      "co-je-neutronova-hvezda",
-      "co-jsou-gravitacni-vlny",
-      "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty"
-    ]
-  },
-  {
-    "id": "exp-015",
-    "title": "Co jsou exoplanety a jak se hledají?",
-    "theme": "exoplanety",
-    "description": "Exoplanet známe přes 5000, ale jen před 30 lety to byla vědecká fikce. Jak je objevujeme a jak blízko jsme k nálezu života?",
-    "published": "2026-10-18",
-    "updated": "2026-10-18",
-    "perex": "Exoplaneta je planeta u jiné hvězdy než Slunce. První byla potvrzena v roce 1992; dnes jich známe tisíce a Mléčná dráha jich pravděpodobně obsahuje miliardy.",
-    "sections": [
-      {
-        "heading": "Z fikce k faktu",
-        "body": "Exoplaneta je planeta, která obíhá jinou hvězdu než Slunce. Do roku 1992 o nich nevěděli nic konkrétního — byly vědeckou fikcí. Dnes známe přes pět tisíc exoplanet a odhady říkají, že jen v Mléčné dráze jich jsou miliardy. Naše Sluneční soustava už není vzorem; je jednou z nespočetných."
-      },
-      {
-        "heading": "Jak exoplanety hledáme",
-        "body": "Hlavní metoda se jmenuje tranzit: když planeta projde před hvězdou, hvězda na okamžik ztmavne — o zlomek procenta, ale citlivé teleskopy to zachytí. Z periodicity ztmavnutí zjistíme oběžnou dobu, z hloubky zatmění velikost planety. Druhá metoda měří „kolébání\" hvězdy — její pohyb dopředu a dozadu, který způsobuje gravitace planety; z něj vyčteme hmotnost. Další metody zahrnují přímé focení (vzácné, náročné) nebo gravitační mikročočky."
-      },
-      {
-        "heading": "Divoká rozmanitost světů",
-        "body": "Mezi objevenými exoplanetami je ohromná rozmanitost. Horké jupiterky — plynné obři těsně u svých hvězd, kde rok trvá jeden den. Superzemě — kamenné planety větší než Země, jaké nemáme ve Sluneční soustavě. Lava planety — kamenné světy tak blízko hvězdě, že jejich povrch taje. A v roce 2016 jsme poprvé změřili atmosféru exoplanety kolem podobného Slunci hvězdy; od té doby jich známe desítky."
-      },
-      {
-        "heading": "Světy na hraně fantazie",
-        "body": "Mezi exoplanetami najdeme i světy bez hvězdy — opuštěné planety vyhozené ze svých soustav gravitačním chaosem, putující temnotou samy. Oceánské planety s globálním mořem desítky kilometrů hlubokým. „Oční planety\" tidálně uzamčené u červeného trpaslíka, kde jedna polovina věčně hoří a druhá mrzne, s obyvatelným pásmem u terminátoru. A planety u dvojhvězd, kde by západ Sluncí zářil dvěma hvězdami najednou — sci-fi, která je dnes katalogovým číslem."
-      },
-      {
-        "heading": "Hledáme život",
-        "body": "Největší otázka zní: je někde život? Klíčová je obyvatelná zóna — oblast kolem hvězdy, kde planeta s atmosférou může udržet kapalnou vodu. Známe několik desítek planet v této zóně. Teleskop Jamese Webba zkoumá jejich atmosféry a hledí chemické stopy — vodní páru, oxid uhličitý, metan — které by mohly naznačovat biologické procesy. Zatím žádný jasný důkaz neexistuje, ale první kandidáti už jsou na stole."
-      },
-      {
-        "heading": "Kdo a čím hledá",
-        "body": "Hlavními lovci exoplanet byly družice Kepler (2009–2018), která objevila tisíce planet tranzitní metodou u jednoho malého úseku oblohy, a její pokračovatel TESS, která skenuje téměř celou oblohu. Teleskop Jamese Webba nyní studuje atmosféry těch nejzajímavějších a připravuje půdu pro příští generaci pozemských obrů (Extremely Large Telescope), které budou schopné vidět podobné planety přímo. Tempo objevů se zrychluje — nová exoplaneta přibývá průměrně každý druhý den."
-      },
-      {
-        "heading": "Jak exoplanety vznikají",
-        "body": "Exoplanety vznikají spolu se hvězdou z kolapsujícího plynného mraku. Prach a plyn se v něm slepí do kamenů, kameny do jader planet, jádra přitahují plyn — nebo také ne; výsledek závisí na tom, kde v protoplanetárním disku se planeta rodí. Blízko hvězdy vznikají kamenné planety, dál plynní obři. Naše Sluneční soustava se zformovala před 4,6 miliardami let; ostatní hvězdy jsou různě staré — takže exoplanety pozorujeme ve všech fázích vývoje, od novorozených po mrtvé."
-      }
-    ],
-    "why_box": "Před třiceti lety jsme nevěděli, jestli jsme ve vesmíru sami, dokonce ani jestli jsou planety obvyklé. Dnes víme, že planety jsou běžnější než hvězdy. Otázka, jestli někde dech, oceán nebo mikrobiální skvrna čeká na své objevení, zůstává otevřená — a každá nová exoplaneta v obyvatelné zóně ji posouvá blíž.",
-    "related_explainery": [
-      "co-je-vesmirne-teleskopy",
-      "co-je-neutronova-hvezda"
-    ]
-  }
+ {
+  "id": "exp-001",
+  "title": "Co je temná hmota?",
+  "theme": "temna-hmota",
+  "description": "Temná hmota tvoří 85 % hmoty vesmíru, ale nikdy jsme ji neviděli. Co víme, jak ji hledáme a proč je tak důležitá?",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Vesmír, který vidíme — hvězdy, galaxie, mlhoviny — je jen špička ledovce. Zhruba 85 % veškeré hmoty tvoří substance, která neemituje ani neabsorbuje světlo: temná hmota. Nevíme, z čeho je, ale víme, že tam je.",
+  "sections": [
+   {
+    "heading": "Záhada, která je starší než my",
+    "body": "Podezření na existenci neviditelné hmoty se objevilo už ve 30. letech 20. století, když astronom Fritz Zwicky pozoroval galaktickou kupu Coma. Galaxie v kupě se pohybovaly příliš rychle — rychleji, než jak by je viditelná hmota mohla držet pohromadě. Zwicky došel k závěru, že kupa musí obsahovat obrovské množství neviditelné „temné\" hmoty. Jeho kolegové mu příliš nevěřili. Trvalo dalších čtyřicet let, než se podobný problém objevil u rotace jednotlivých galaxií a temná hmota vstoupila do hlavního proudu vědy."
+   },
+   {
+    "heading": "Jak víme, že existuje?",
+    "body": "Temnou hmotu nevidíme, ale její gravitace mění to, co vidíme. Dnes máme tři nezávislé důkazy:\n\n- **Rotace galaxií.** Hvězdy na okrajích spirálních galaxií se točí příliš rychle. Podle viditelné hmoty by měly rotovat pomaleji; při měřených rychlostech by galaxie měly rozletět. Dodatečná gravitace neviditelné hmoty je drží pohromadě — jako neviditelný lep, který obaluje viditelnou galaxii do velké „galaktické slupky\".\n- **Gravitační čočky.** Světlo vzdálených galaxií procházející kolem hmotných kup se zakřivuje podle hmotnosti, která mu stojí v cestě. Množství zakřivení systematicky překračuje množství viditelné hmoty. Chybějící gravitace patří temné hmotě — a u čoček můžeme dokonce mapovat, kde přesně se nachází.\n- **Reliktní záření.** Mřížka teplotních fluktuací v reliktním záření (světle z mládí vesmíru) odpovídá modelu, kde tvoří temná hmota asi 85 % veškeré hmoty. Tři nezávislé metody, tři nezávislé výsledky — shodují se do jednotek procent."
+   },
+   {
+    "heading": "Co temná hmota není",
+    "body": "Než astronomové dospěli k dnešnímu obrazu, prošli si seznam možností. Temná hmota není prostě hodně tmavý plyn — ten bychom viděli v infračerveném záření. Nejsou to mrtvé hvězdy a neutronové hvězdy — těch je příliš málo a vyskytují se příliš řídce. Nejsou to ani volně putující planety. Přesné měření reliktního záření tato vysvětlení vyloučila. Temná hmota je něco fundamentálně jiného — pravděpodobně dosud neobjevená částice, která interaguje jen velmi slabě s běžnou hmotou a se světlem. Procházela by námi a my bychom to nepoznali."
+   },
+   {
+    "heading": "Kolik jí vlastně je?",
+    "body": "Kosmologické měření dnes říkají: asi 27 % vesmíru tvoří temná hmota, 5 % běžná (barionová) hmota a zbývajících zhruba 68 % temná energie. Slovy: z každého kilogramu hmoty ve vesmíru je 850 gramů temných. A ze všech forem energie je temná hmota „jen\" druhá nejrozšířenější — předčí ji právě záhadná temná energie."
+   },
+   {
+    "heading": "Jak ji hledáme?",
+    "body": "Vědci zkouší tři přístupy najednou:\n\n1. **Výroba** — v urychlovači LHC u Ženevy se pokoušíme temnou hmotu vytvořit srážkami protonů. Pokud by vznikla, poznáme ji jako „chybějící energii\" v detektoru.\n2. **Přímá detekce** — hluboko pod zemí (v laboratořích jako XENONnT v Itálii nebo LUX-ZEPLIN v USA) čekáme, až částice temné hmoty proletí skrz krystaly a nechá po sobě stopu. Zatím bez úspěchu, ale citlivost se každou generací detektorů zvedá řádově.\n3. **Astrofyzika** — hledáme produkty případné anihilace temných částic ve vysokoenergetickém gama záření ve středu galaxie či v halo temné hmoty."
+   }
+  ],
+  "why_box": "Každý atom ve vašem těle je minorita. Bez temné hmoty by galaxie jako naše nevznikly tak, jak je známe — gravitace temné hmoty totiž sloužila jako jakási „lepicí kostra\", na níž se v raném vesmíru zachytávaly obyčejné plyny, které pak tvořily hvězdy. Bez temné hmoty by pravděpodobně nevznikly hvězdy včas, v potřebném množství — a nic by se nemohlo dívat na noční oblohu.",
+  "related_explainery": [
+   "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty",
+   "jak-vime-ze-temna-hmota-existuje"
+  ]
+ },
+ {
+  "id": "exp-002",
+  "title": "Co jsou gravitační vlny?",
+  "theme": "gravitacni-vlny",
+  "description": "Gravitační vlny sítí prostoročas a doputují k nám z nejextrémnějších událostí vesmíru. Kdy byly poprvé detekovány a co nám říkají?",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Když se srazí dvě černé díry, zachvěje se samotný prostor a čas. Toto chvění — gravitační vlna — urazí miliardy světelných let a odečteme ho přístroji schopnými zaznamenat pohyb tisíckrát menší než průměr protonu.",
+  "sections": [
+   {
+    "heading": "Einsteinovo tajemství z roku 1916",
+    "body": "Gravitační vlny předpověděl Albert Einstein krátce po formulaci obecné teorie relativity. V jeho obraze gravitace není tažnou silou na dálku, ale zakřivením samotného prostoročasu. Hmotné objekty „prohlubují\" prostor kolem sebe — a když zrychlují, vytvářejí ve struktuře prostoru vlny. Přesněji: zrychlené hmotné objekty vyzařují vlnění prostoročasu, podobně jako kámen hozený do hladiny rybníka. Čím hmotnější a rychlejší pohyb, tím silnější vlny."
+   },
+   {
+    "heading": "Proč je nešlo změřit sto let",
+    "body": "Gravitační vlny procházejí hmotou takřka nezastaveny, ale jsou nepředstavitelně slabé — projdou-li kolem, protáhne se prostor o zlomek rozměru protonu. Einstein sám pochyboval, že je někdy změříme. Teprve v září 2015 detekovala americká observatoř LIGO vlny ze srážky dvou černých děr ve vzdálenosti 1,3 miliardy světelných let. Oznámení v únoru 2016 bylo světovou událostí; o rok později dostali průkopníci detekce Nobelovu cenu. Do současnosti (r. 2026) byly potvrzeny již stovky detekcí."
+   },
+   {
+    "heading": "Jak detektor vlastně funguje?",
+    "body": "Základ je překvapivě jednoduchý: laserový interferometr. Laser se rozdělí na dva paprsky, které projdou kilometr dlouhými vakuovými trubkami pod úhlem 90 stupňů, odrazí se zrcadly a vrátí se zpět. Pokud projde gravitační vlna, jedna trubka se mikroskopicky protáhne a druhá zkrátí — světelné paprsky se rozzáří v mírně jinou chvíli. Na citlivosti věci pracuje i evropský detektor Virgo v Itálii a od 30. let přibude kosmická sestava LISA."
+   },
+   {
+    "heading": "Co gravitační vlny odhalují",
+    "body": "- **Černé díry, které nevidíme.** Vlny nesou informaci o hmotnosti a spinu srážejících se objektů — čísla, která žádný teleskop nezměří. Z katalogu srážek už známe černé díry, o nichž bychom jinak nevěděli.\n- **Srážky neutronových hvězd.** V srpnu 2017 detekce vlny GW170817 doprovázená gama zábleskem a později optickým zábleskem potvrdila, že těžké prvky — zlato, platina, uran — vznikají při srážkách neutronových hvězd. Hodně prvků ve vašem těle vzniklo při takové události.\n- **Ranný vesmír.** Reliktní záření nám ukazuje vesmír starý 380 000 let. Gravitační vlny by mohly ukázat dál — teoreticky až k éře inflace, zlomky vteřiny po Velkém třesku."
+   },
+   {
+    "heading": "Další kapitola: LISA",
+    "body": "Evropská mise LISA (plánovaná na 30. léta 21. století) umístí tři sondy do prostoru v uspořádání trojúhelníku o straně 2,5 milionu kilometrů. Vzájemné vzdálenosti sond budou měřeny laserovými paprsky s mikrometrovou přesností na miliardy kilometrů. Citlivost vzroste natolik, že budeme „slyšet\" supermasivní černé díry v centrech galaxií, jejich slučování a interakce s hvězdami a plynem kolem nich — věci, které pozemské detektory nezachytí nikdy."
+   }
+  ],
+  "why_box": "Gravitační vlny navazují doslova na nejsilnější události ve vesmíru — uvolněná energie srážky dvou černých děr krátce předstihne svítivost všech hvězd všech galaxií dohromady — a my je „slyšíme\" v laboratořích na Zemi. Astronomie už není jen o světle; máme nový smysl.",
+  "related_explainery": [
+   "co-je-horizont-udalosti",
+   "co-je-neutronova-hvezda"
+  ]
+ },
+ {
+  "id": "exp-003",
+  "title": "Co se stane, když spadnete do černé díry?",
+  "theme": "cerne-diry",
+  "description": "Pád do černé díry je nejextrémnější cestou ve vesmíru. Co uvidíte, co pocítíte — a proč vám nikdo nebude moct pomoct?",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Překročíte horizont událostí a cesta je jednosměrná. Pro vás jako pádujícího se pád trvá několik hodin; pro pozorovatele zvenčí se váš pád protáhne do nekonečna. Černá díra si podmaňuje nejen hmotu, ale i čas.",
+  "sections": [
+   {
+    "heading": "Nejdřív: co černá díra vlastně je",
+    "body": "Černá díra je oblast prostoročasu, kde je gravitace tak silná, že z ní neunikne ani světlo — a proto ani žádná informace. Vzniká zhroucením velmi hmotné hvězdy: když dojde jaderné palivo, zářivý tlak v nitru hvězdy už neudrží její hmotu proti vlastní gravitaci. Hvězda se pod vlastní vahou zhroutí a vše, co zbyde, se zhrne za horizont událostí. Supermasivní černé díry v centrech galaxií — miliony až miliardy hmotností Slunce — vznikly buď zhroucením obřích plynných oblaků, nebo postupným slučováním menších černých děr v průběhu miliard let."
+   },
+   {
+    "heading": "Cesta dovnitř: co uvidíte vy",
+    "body": "Pokud byste klesali do dostatečně velké černé díry (supermasivní, miliony hmotností Slunce), první část cesty by byla překvapivě nudná:\n\n- **Táhání gravitací (spagetizace).** Rozdíl gravitační síly mezi vaší hlavou a chodidly je na začátku nepatrný, blízko centra vás ale rozdílné síly doslova natáhnou jako špagetu. U supermasivní černé díry byste horizont překročili dřív, než spagetizace nastala — u malé černé díry by vás roztrhala už před horizontem.\n- **Obraz vesmíru se stáčí.** Světlo z okolních hvězd se kolem černé díry ohýbá — uvidíte oblohu zkreslenou do jasného prstence. Černá díra se zahalí do světla vesmíru, které za sebou nechává.\n- **Čas.** Sám pociťujete čas normálně. Ale vůči vzdáleným pozorovatelům se váš čas zpomaluje — podle relativistické fyziky to plynule následuje z gravitace."
+   },
+   {
+    "heading": "Co uvidí pozorovatel zvenčí",
+    "body": "Pro přítele, který by z bezpečné vzdálenosti přihlížel, se váš pád nikdy neskončí. S každou další vteřinou svítíte slaběji a ruději, pohyb se zpomaluje, až vás pohltí tma horizontu. Matematicky řečeno: váš obraz se „zamrazí\" na horizontu. V praxi se však záblesk stane neviditelným během zlomku vteřiny — zamrzlý obraz nikdo neodfotí."
+   },
+   {
+    "heading": "Je východisko?",
+    "body": "Ve vysoce spekulativních scénářích teoretické fyziky — bílé díry, červí díry — se o nich píše sci-fi. Fyzikálně ověřitelná odpověď je jednoduchá: nic z horizontu neunikne a nic, co dovnitř vstoupilo, se nevrátí. Ani světlo, ani signál, ani vy. Jedinou „dírkou\" v pravidlech je Hawkingovo záření — neuvěřitelně slabé vyzáření způsobené kvantovými efekty u horizontu. Z pádla by vám ale žádný příběh nezachránilo: Hawkingovo záření nese žádnou informaci o tom, kdo dovnitř vstoupil."
+   },
+   {
+    "heading": "Co se stane s vašimi informacemi?",
+    "body": "Zde se fyzika dostává k největšímu sporu současnosti. Kvantová mechanika říká, že informace nemůže být zničena; obecná teorie relativity říká, že za horizontem informace zmizí navždy. Tento spor — tzv. informační paradox černých děr — stále nemá definitivní řešení a je jedním z hlavních problémů, na němž se dnes pracuje v kvantové gravitaci. Možná informace zůstane na horizontu v podobě kvantového „filmového pásu\". Možná unikne s Hawkingovým zářením. Vědci to zatím nevědí — a právě to činí černé díry nejzajímavějšími laboratořemi fyziky."
+   }
+  ],
+  "why_box": "Černé díry nejsou „vysavače vesmíru\", jak je kreslí filmy — bez překročení horizontu vás nepohltí. Jsou koncentrovaná gravitace, která testuje naši intuici o čase a prostoru. A supermasivní černá díra čeká i v centru naší vlastní galaxie, ve vzdálenosti 27 000 světelných let, s hmotností čtyř milionů Sluncí.",
+  "related_explainery": [
+   "co-je-horizont-udalosti",
+   "mohou-cerne-diry-vymirat-hawkingovo-zareni",
+   "co-jsou-gravitacni-vlny"
+  ]
+ },
+ {
+  "id": "exp-004",
+  "title": "Co je temná energie a jak se liší od temné hmoty?",
+  "theme": "temna-energie",
+  "description": "Temná energie tvoří 68 % vesmíru a zrychluje jeho rozpínání. Co přesně je, proč existuje a jak se liší od temné hmoty?",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Vesmír se rozpíná stále rychleji — za zrychlením stojí temná energie, záhadná síla naplňující prázdný prostor. Tvoří 68 % vesmíru a rozhoduje o jeho osudu, přitom nevíme, co doopravdy je.",
+  "sections": [
+   {
+    "heading": "Dva druhy temna",
+    "body": "Když astronomové sečetli hmotu ve vesmíru, vyšlo jim něco zvláštního: neviditelná temná hmota tvoří většinu hmoty, ale přesto jen asi 27 % celkového obsahu vesmíru. Zbylých zhruba 68 % tvoří něco ještě záhadnějšího — temná energie. Nejedná se o hmotu vůbec, ale o energii naplňující samotný prostor, která určuje, jak rychle se vesmír rozpíná."
+   },
+   {
+    "heading": "Jak víme, že existuje?",
+    "body": "Věděli jsme to překvapivě dlouho, aniž bychom rozuměli proč. Srovnáváním vzdáleností galaxií v 90. letech 20. století dva nezávislé týmy pozorování supernov typu Ia objevily, že vzdálené galaxie se vzdalují rychleji, než by odpovídalo zpomalování od gravitace. Vesmír se rozpíná zrychleně. Je, jako by stůl, po němž se valí kulička, najednou začal sám nabývat rychlost."
+   },
+   {
+    "heading": "Měření z více stran",
+    "body": "Kromě supernov typu Ia máme dnes dvě další nezávislé metody, které temnou energii potvrzují: mřížku teplotních fluktuací v reliktním záření a uspořádání galaxií do velkých pěn a vláken. Všechny tři metody — zcela nezávislé — dávají shodný výsledek: vesmír obsahuje zhruba 68 % temné energie, 27 % temné hmoty a jen 5 % obyčejné hmoty. Evropská družice Euclid, vypuštěná v roce 2023, má tuto otázku proměřit s dosud nevídanou přesností a možná i rozhodnout mezi konkurenčními vysvětleními."
+   },
+   {
+    "heading": "Co by temná energie mohla být?",
+    "body": "Fyzikové připravují tři hlavní odpovědi. První je kosmologická konstanta — energie prázdného prostoru, která prostě je, jako stálý tlak vakua; tu předpověděl už Einstein, ač ji později odvolal. Druhá je kvintesence — dynamické pole, které se v čase mění a mohlo v minulosti působit jinak. Třetí možnost je nejjednodušší popisem a nejrevolučnější důsledky: že Einsteinova rovnice gravitace neplatí na kosmologických vzdálenostech přesně a vesmír se rozpíná jinak, než si myslíme. Rozdíl mezi těmito scénáři se měří právě přesností mapování vesmíru — proto je Euclid tak důležitý."
+   },
+   {
+    "heading": "Co temná energie umí",
+    "body": "Temná energie funguje opačně než gravitace. Zatímco gravitace přitahuje a zpomaluje, temná energie působí jako jakási antigravitace — ne na jednotlivé galaxie, ale na prostor samotný. Každý metr krychlový vesmíru obsahuje trochu této energie a protože přibývá nový prostor, přibývá i energie, která rozpínání ještě urychluje. Je to pozitivní zpětná vazba: čím větší vesmír, tím rychlejší rozpínání."
+   },
+   {
+    "heading": "Jak se liší od temné hmoty?",
+    "body": "I když se jmenují podobně, jde o dvě zcela odlišné věci. Temná hmota se chová jako hmota — gravituje, shlukuje se kolem galaxií a drží je pohromadě. Temná energie je energie prázdného prostoru a působí na obrovských vzdálenostech mezi galaxiemi. Zjednodušeně: temná hmota řídí, jak se ve vesmíru tvoří struktura, temná energie určuje, jak rychle se celý vesmír rozpíná a jaký bude jeho osud."
+   },
+   {
+    "heading": "Co bude dál?",
+    "body": "Budoucnost vesmíru závisí právě na temné energii. Zrychlené rozpínání znamená, že vzdálené galaxie se od nás vzdalují čím dál rychleji — jednou budou mizet za horizontem, který už nebude možné překročit ani světlem. Mlhoviny hvězd se vypnou, galaxie osamí a vesmír skončí chladný, temný a prázdný. Vědci ale stále nevědí, co temná energie doopravdy je — ať už jde o kvantovou energii vakua, o nové pole ve vesmíru, nebo o tom, že obecná teorie relativity potřebuje na velkých vzdálenostech opravit."
+   }
+  ],
+  "why_box": "Osud vesmíru — zda se jednou zhroutí, zmrzne, nebo se roztrhá — je v rukou něčeho, co nikdy nebylo přímým pozorováním spatřeno. Každá teorie, která ji vysvětlí, zároveň přepíše naše chápání gravitace i kvantové fyziky.",
+  "related_explainery": [
+   "co-je-temna-hmota",
+   "co-je-reliktni-zareni"
+  ]
+ },
+ {
+  "id": "exp-005",
+  "title": "Co je černá díra a jak vzniká?",
+  "theme": "cerne-diry",
+  "description": "Černá díra je oblast, z níž neunikne ani světlo. Jak vzniká zhroucením hvězdy, kolik druhů existuje a jak ji vůbec pozorujeme?",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Černá díra je místo, kde gravitace zvítězila nad vším ostatním — oblast, z níž neunikne ani světlo. Nejznámější vznikají zhroucením umírajících hvězd, ty největší ale číhají v srdcích galaxií.",
+  "sections": [
+   {
+    "heading": "Co je to černá díra?",
+    "body": "Černá díra je místo, kde gravitace zvítězila nad vším ostatním — oblast prostoročasu tak silně zakřivená, že z ní neunikne ani světlo. Není to „díra\" ve smyslu otvoru do něčeho; je to spíš konec cesty. Hranice této oblasti se nazývá horizont událostí a vše, co ho překročí, se už ven nedostane."
+   },
+   {
+    "heading": "Kolik druhů černých děr existuje?",
+    "body": "Astronomové rozlišují několik druhů podle hmotnosti. Černé díry hvězdné vznikají zhroucením velkých hvězd a mají řádově několik až desítky hmotností Slunce. Supermasivní černé díry v centrech galaxií váží miliony až miliardy Sluncí. Mezi nimi se hledají i střední černé díry, vzniklé pravděpodobně slučováním menších, a hypotetické primordiální černé díry, které mohly vzniknout už v raném vesmíru."
+   },
+   {
+    "heading": "Zrození z hvězdy",
+    "body": "Hvězdná černá díra se rodí dramaticky. Když velká hvězda spotřebuje své jaderné palivo, už ji neudržuje zářivý tlak vnitřku. Hvězda se zhroutí — nejdřív vrstvami, pak v jediném okamžiku, když jádro zkolabuje pod vlastní vahou. Při této kolapsi nastane výbuch supernovy, který vrstvy hvězdy odhodí do vesmíru, a to, co zbyde, se zhrne za horizont událostí. Z hvězdy o desítkách Sluncí zbude objekt o průměru jen několika kilometrů."
+   },
+   {
+    "heading": "Jak černé díry pozorujeme?",
+    "body": "Černou díru nikdy neuvidíme přímo, ale její přítomnost prozradí okolí. Nejčistší důkaz přinesl souhvězdí Střelce: hvězdy v centru Mléčné dráhy obíhají po vypočítaných drahách kolem neviditelného bodu o hmotnosti milionů Sluncí — nic jiného než černá díra to být nemůže. Gravitační vlny z LIGO a Virga nám ukázaly srážky černých děr v jiných galaxiích, a síť teleskopů Event Horizon Telescope pořídila v roce 2019 první snímek stínu černé díry v galaxii M87. Tři zcela odlišné metody, tři zcela odlišné důkazy."
+   },
+   {
+    "heading": "Kolik jich kolem nás je?",
+    "body": "Černé díry jsou běžnější, než by se zdálo. V samotné Mléčné dráze odhadují astronomové kolem sta milionů černých děr hvězdné hmotnosti — pozůstatků dávno zaniklých hvězd. Ty, které vidíme, většinou patří k dvojhvězdám: sami jsou neviditelné, ale hry poloha a rychlost jejich průvodce prozradí, že tam něco těžkého je. Zatím nejbližší známá černá díra leží v souhvězdí Draka, zhruba 1600 světelných let od nás — na měřítka vesmíru to je doslova sousedství."
+   },
+   {
+    "heading": "Kdo černé díry objevil?",
+    "body": "Idea černých děr je starší, než se zdá. Už v roce 1783 anglický učenec John Michell vypočetl, že z dostatečně husté hvězdy by nemohlo uniknout ani světlo — nazval ji „tmavou hvězdou\". Matematicky černé díry předpověděla Einsteinova obecná teorie relativity, když ji o rok po jejím zveřejnění vyřešil Karl Schwarzschild. Po desetiletí je ale fyzikové považovali za matematickou zvláštnost, ne za reálné objekty — obávali se, že vesmír by se sám zhroutil, kdyby existovaly. Slovo „černá díra\" se vžilo až v roce 1967 díky Johnu Wheelerovi."
+   },
+   {
+    "heading": "Supermasivní černé díry — jiná cesta",
+    "body": "Supermasivní černé díry vznikly jinak — jejich počátky jsou jedním z největších otevřených problémů kosmologie. Buď se zrodily už z obřích plynů v prvních vesmírech, nebo vznikly slučováním menších černých děr po generace. Pozorujeme je nepřímo: hvězdy kolem středu galaxie obíhají něco neviditelného ohromné hmotnosti, a občas se do černé díry zakousne plyn, který před spadnutím zahřejí na miliony stupňů a zazáří jako rentgenová signatura."
+   }
+  ],
+  "why_box": "Černé díry nejsou kosmické vysavače, jak je kreslí filmy — bez překročení horizontu vás nepohltí. Jsou především extrémní laboratoře gravitace: právě v nich bychom mohli najít první jiskřičky kvantové gravitace, teorie, která sjednotí obecnou teorii relativity s kvantovou mechanikou. A jedna čeká i v centru naší galaxie, 27 000 světelných let od nás.",
+  "related_explainery": [
+   "co-je-horizont-udalosti",
+   "co-se-stane-kdyz-spadnete-do-cerne-diry"
+  ]
+ },
+ {
+  "id": "exp-006",
+  "title": "Co je horizont událostí?",
+  "theme": "cerne-diry",
+  "description": "Horizont událostí je hranice, za níž nevede návrat. Proč černá díra černá je, jak velký horizont je a proč zmítá fyzikou dodnes?",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Horizont událostí je neviditelná hranice kolem černé díry — místo, kde končí všechny cesty ven. Není z čeho vytvořen, a přesto je neprostupnější než jakákoli zeď ve vesmíru.",
+  "sections": [
+   {
+    "heading": "Hranice bez návratu",
+    "body": "Horizont událostí je nejzajímavější hranice ve vesmíru: není z ničeho vyroben, nemá hmotu, nedá se osahat — a přesto je neprostupnější než jakákoliv zeď. Jde o hranici oblasti, z níž není možné uniknout. Překročíte-li ho, všechny možné dráhy — včetně světla — vedou ke středu černé díry."
+   },
+   {
+    "heading": "Proč je černá díra černá?",
+    "body": "Proto vypadá černá díra černě. Světlo z hvězd a plynů, které k černé díře dopadá, se sice ohýbá a krouží kolem ní, ale jakmile překročí horizont, už se ven nevrátí. Zvenčí vidíme jen tmu ohraničenou světlem, které se zastavilo těsně před ní. První skutečný snímek černé díry z roku 2019 (M87*) ukázal přesně toto: zářící prstenec materiálu kolem dokonalé temné skvrny."
+   },
+   {
+    "heading": "Jak velký horizont je?",
+    "body": "Velikost horizontu závisí jen na hmotnosti černé díry. U černé díry o hmotnosti Slunce by měl průměr zhruba 6 kilometrů. U supermasivní černé díry v centru Mléčné dráhy, která váží čtyři miliony Sluncí, jde o kruh o průměru zhruba 24 milionů kilometrů — pořád menší než oběžná dráha Merkuru. Hranice je z hlediska vesmíru úzká; problém je, že za ní cesta jednosměrně končí."
+   },
+   {
+    "heading": "Hawkingovo záření",
+    "body": "Kvantová mechanika horizontu přidává ještě jednu vrstvu podivnosti. Stephen Hawking v roce 1974 ukázal, že černá díra díky kvantovým jevům u horizontu velmi slabě září — a tím pomalu ztrácí hmotu. Čím menší černá díra, tím intenzivněji „vře\"; ta hvězdné velikosti by vypařováním přežila déle než současný věk vesmíru, takže to není způsob, jak černé díry z vesmíru mizí dnes. Hawkingovo záření ale naznačuje, že horizont není absolutně černý — a že kvantová gravitace nakonec přijde na to, co se s informací za horizontem děje."
+   },
+   {
+    "heading": "Dá se horizontu vyhnout?",
+    "body": "Dá se horizontu nějak vyhnout? Fyzika říká ne. Představte si nejvýkonnější raketu — cokoliv, co překročí horizont, se k němu už nemůže vrátit zpátky, i kdyby mělo neomezený tah a neomezené palivo. Důvod je geometrický: uvnitř horizontu se směr „ke středu\" stává směrem „do budoucnosti\". Je to jako se ptát, jestli se můžete vyhnout zítřku — horizont neudržuje nic svou silou, jen předznamenává, kam už čas povede jediným možným směrem."
+   },
+   {
+    "heading": "Horizonty i jinde ve vesmíru",
+    "body": "Černé díry nejsou jediné horizonty ve vesmíru. Kosmologie má svůj vlastní horizont událostí: věci, které jsou od nás příliš daleko, se vzdalují rychleji než světlo, takže jejich světlo k nám nikdy nedoputuje — jsou za kosmologickým horizontem navždy mimo náš dosah. Aby se vesmír nekousal sám do sebe, existuje i horizont částic — hranice vzdálenosti, odkud světlo od Velkého třesku stihlo k nám doputovat. Horizonty tak nejsou zvláštností černých děr, ale obecným důsledkem struktury prostoročasu."
+   },
+   {
+    "heading": "Horizont není pevná hranice",
+    "body": "Horizont není pevná, neměnná věc. Černá díra, která polkne hvězdu nebo plyn, zvětší svůj horizont. Podle obecné teorie relativity se při pádu do černé díry horizont chová zvláštně: pro padajícího pozorovatele ho překročí bez okolků, pro vzdáleného přihlížejícího se obraz padajícího „zamrazí\" na hranici a postupně zhasne. Obě skutečnosti jsou pravdivé zároveň — černá díra nere-spektuje naši intuici současnosti."
+   }
+  ],
+  "why_box": "Horizont událostí je příčinou největšího paradoxu současné fyziky. Kvantová mechanika tvrdí, že informace nikdy nezaniká; obecná teorie relativity tvrdí, že za horizontem mizí navždy. Kdy se tyto dva popisy srazí právě na hranici černé díry — a který má pravdu — se fyzikové snaží zjistit právě teď.",
+  "related_explainery": [
+   "co-je-cerna-dira-a-jak-vznika",
+   "co-se-stane-kdyz-spadnete-do-cerne-diry",
+   "mohou-cerne-diry-vymirat-hawkingovo-zareni"
+  ]
+ },
+ {
+  "id": "exp-007",
+  "title": "Co je reliktní záření?",
+  "theme": "relictni-zareni",
+  "description": "Reliktní záření je nejstarší světlo vesmíru — fotka jeho mládí. Jak vzniklo, proč je mikrovlnné a co nám říká o věku a složení vesmíru?",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Reliktní záření je nejstarší světlo ve vesmíru — záře, která vznikla asi 380 tisíc let po velkém třesku, kdy se vesmír poprvé stal průhledným. Díky rozpínání vesmíru se z původně žhavého viditelného světla natáhlo na chladné mikrovlnné záření o teplotě −270,4 °C, které na Zemi dopadá ze všech stran. Je to doslova fotka mládí vesmíru.",
+  "sections": [
+   {
+    "heading": "Světlo starší než jakákoliv hvězda",
+    "body": "Když se podíváte na noční oblohu, vidíte světlo hvězd a galaxií — všechny jsou mladší než zhruba 13 miliard let. Ale mikrovlnné záření o teplotě 2,7 kelvinu, které dopadá na celou Zemi naprosto rovnoměrně ze všech směrů, je starší o řád. Vzniklo ve chvíli, kdy ve vesmíru ještě nebyly žádné hvězdy, žádné galaxie, žádné atomy. Objevili ho náhodou v roce 1965 Arno Penzias a Robert Wilson při kalibraci komunikační antény — jako nepřekonatelný šum, který nešel odstranit žádným čištěním. A právě ten šum změnil kosmologii: byl to pozdrav z prvních okamžiků vesmíru."
+   },
+   {
+    "heading": "Konec éry mlhy",
+    "body": "Krátce po velkém třesku byl vesmír žhavý, hustý a zcela neprůhledný. Světlo (fotony) neustále naráželo na volné elektrony a nemohlo se šířit volně — jako když se světlo odráží v husté mlze. Asi 380 tisíc let po počátku se vesmír natolik rozpjal a vychladl, že elektrony a protony konečně splynuly do neutrálních atomů vodíku. V ten okamínek vesmír zprůhledněl a fotony se vydaly na cestu vesmírem. Ty, které zamířily směrem k nám, dorazily na Zemi právě teď — po cestě trvající téměř 13,8 miliardy let."
+   },
+   {
+    "heading": "Proč je mikrovlnné, když začínalo jako viditelné světlo",
+    "body": "Původně bylo reliktní záření žhavé, oranžové světlo o teplotě zhruba 3 000 °C. Ale mezitím se vesmír rozpjal zhruba tisíckrát — a rozpínání prostoru vlnové délky fotonů fyzicky protáhlo. Je to stejný jev jako u sirény odjíždějící sanitky: zvuk se „natáhne\" do hlubšího tónu, jenže u světla se posouvá barva. Z viditelného světla se stalo infračervené a nakonec mikrovlnné záření, z 3 000 °C zbývá −270,4 °C. Astronomům to umožňuje přesně změřit, jak rychle se vesmír rozpíná — a protože tohle záření má ve vesmíru nejdelší cestu, nese informace o celé historii expanze."
+   },
+   {
+    "heading": "Fotka mládí vesmíru",
+    "body": "Kdyby bylo reliktní záření dokonale hladké, byla by to nuda — a nevznikli bychom. Na jeho neuvěřitelně rovnoměrném pozadí jsou totiž drobné teplotní fluktuace, řádově jedna setina procenta. Právě ty jsou zásadní: jsou to semínka, kolem nichž se gravitací v následujících stovkách milionů let nabalovala hmota a vznikaly první galaxie. Družice COBE (1992) tyto nerovnosti poprvé změřila, WMAP (2003) je zmapovala podrobně a Planck (2013) dodal dnešní přesnost. Díky nim máme snímek vesmíru ve věku 380 tisíc let — nejstarší fotografii, jakou lidstvo kdy pořídilo."
+   },
+   {
+    "heading": "Co nám říká o vesmíru",
+    "body": "Reliktní záření je nejpřesnější měřicí přístroj kosmologie. Jeho analýza říká: vesmír je plochý, je mu 13,8 miliardy let a skládá se z 5 % běžné hmoty, 27 % temné hmoty a 68 % temné energie. Je to také nejsilnější potvrzení velkého třesku — žádný jiný model nedokáže vysvětlit, proč má pozadí vesmíru přesně 2,7 kelvinu a proč je jeho struktura taková, jaká je. Vědci dnes pracují na mapování polarizace reliktního záření, která by mohla odhalit stopy gravitačních vln z éry kosmické inflace — z okamžiků těsně po zrodu vesmíru."
+   }
+  ],
+  "why_box": "Reliktní záření je nejuniverzálnější vědecký úkaz na světě: dopadá na každý metr čtvereční Země, na každý střechu i na každou anténu. Když jste kdysi přelaďovali televizi a narazili na šum na nezatunelovaném kanálu, asi jedno procento toho šumu byly fotony reliktního záření — částice světla starší než Slunce. Nikdo jiný na světě nemůže říct, že má doma přijímač, který zachytává světlo z prvních okamžiků vesmíru. Vy ano.",
+  "related_explainery": [
+   "co-je-temna-hmota",
+   "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty",
+   "co-je-velky-tresk"
+  ]
+ },
+ {
+  "id": "exp-008",
+  "title": "Co je neutronová hvězda?",
+  "theme": "neutronove-hvezdy",
+  "description": "Neutronová hvězda: zbytek po supernově o velikosti města a hmotnosti Slunce. Proč je nejhustější hmotou vesmíru, jak pulsuje a proč se z některých stanou černé díry?",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Neutronová hvězda je zbytek jádra umírající hmotné hvězdy — koule o průměru zhruba 20 kilometrů, do níž je vmáčknuta hmotnost větší než hmotnost Slunce. Je to nejhustější hmota ve vesmíru: jedna čajová lžička jejího materiálu by na Zemi vážila přes miliardu tun.",
+  "sections": [
+   {
+    "heading": "Zbytek po hvězdném výbuchu",
+    "body": "Když hmotná hvězda vyčerpá své jaderné palivo, její jádro se už nedokáže udržet vlastní gravitací a prudce se zhroutí. Vnější vrstvy hvězdy vyletí do vesmíru jako supernova — na několik týdnů zjasní víc než celá galaxie. Ale jádro zůstane: zhroutí se z velikosti Země na kouli o průměru asi 20 kilometrů, velikosti malého města. Tuto možnost teoreticky předpověděli už v roce 1934 Walter Baade a Fritz Zwicky — desetiletí předtím, než byla potvrzena pozorováním. V roce 1967 pak Jocelyn Bell Burnellová objevila záhadné pravidelné radiové signály, které nakonec vysvětlily právě neutronové hvězdy."
+   },
+   {
+    "heading": "Nejhustější hmota, jakou známe",
+    "body": "Hustota neutronové hvězdy je neuvěřitelná: odpovídá hustotě atomového jádra. Jedna čajová lžička materiálu z jejího vnitřku by vážila přes miliardu tun — víc než všechny lidské stavby dohromady. Gravitace na povrchu je stovky miliardkrát silnější než na Zemi; pokud byste z výšky jednoho metru upustili kladívko, dopadlo by rychlostí blízkou rychlosti světla. Čas tam běží měřitelně pomaleji podle obecné teorie relativity — hodiny na povrchu neutronové hvězdy by zašly o sekundy za hodiny na Zemi. Fyzikové proto říkají, že neutronové hvězdy jsou laboratoře extrémní fyziky, jaké nelze vytvořit na Zemi."
+   },
+   {
+    "heading": "Co ji drží pohromadě",
+    "body": "Když se jádro zhroutí, elektrony a protony se sloučí v neutrony — odtud název. Tlak degenerovaného neutronového plynu, kvantově mechanický efekt, který brání částicím zcela splývat, se postaví na odpor gravitaci a hvězda se ustálí. Toto rovnovážné řešení ale existuje jen do určité hmotnosti. Podobně jako bílého trpaslíka (jehož maximální hmotnost určil Subrahmanyan Chandrasekhar — 1,4 hmotnosti Slunce), i neutronovou hvězdu gravitace při překročení limitu rozdrtí. Kde přesně tato hranice leží, dnes nevíme přesně; odhady se pohybují kolem 2–2,5 hmotnosti Slunce. Nad ní už žádná známá síla nezabrání kolapsu do černé díry."
+   },
+   {
+    "heading": "Majáky vesmíru: pulsary",
+    "body": "Mnoho neutronových hvězd rotuje řádově jednou za sekundu až milisekundu — zůstatek rychlé rotace původní hvězdy, zachované zmenšením jako když krasobruslařka přitáhne ruce. Mají také extrémní magnetická pole, která urychlují částice a vytvářejí úzké paprsky radiového záření. Pokud se paprsek šťastnou náhodou opakovaně opírá o Zemi, vidíme pravidelný blik — pulsar. Perioda pulsarů je tak stabilní, že se měří v nanosekundách a předčí přesnost atomových hodin. Dvojhvězda s pulsanem PSR B1913+16 (Hulseova–Taylorova) umožnila v 70. letech první nepřímý důkaz gravitačních vln — Nobelova cena 1993."
+   },
+   {
+    "heading": "Extrémní příbuzní a kosmické srážky",
+    "body": "Neutronové hvězdy mají ještě divočejší příbuzné. Magnetary mají magnetická pole bilionkrát silnější než zemská — jejich erupce dokážou zhasnout radiový signál z celé galaxie. A když se dvě neutronové hvězdy srazí, nastane kilonova: exploze, při níž se zrodí velké množství těžkých prvků — zlata, platiny, uranu. V roce 2017 astronomové poprvé pozorovali srážku neutronových hvězd dvojím způsobem současně: gravitačními vlnami (GW170817) a světlem. Výpočty ukazují, že většina těžkých prvků ve vesmíru — včetně zlata ve vašich špercích — pochází právě z těchto srážek."
+   }
+  ],
+  "why_box": "Neutronová hvězda je jediný objekt ve vesmíru, kde se můžete dotknout hmoty, která existuje stabilně jen díky své hustotě — hmoty složené téměř výhradně z neutronů, bez atomů, bez chemie. A když nosíte zlatý šperk, nosíte na sobě důkaz kosmické srážky: zlato nevzniklo ve hvězdách běžným hořením, ale v chaosu srážky dvou neutronových hvězd, z níž část materiálu dopadla na Zemi ještě před vznikem Sluneční soustavy.",
+  "related_explainery": [
+   "co-je-cerna-dira-a-jak-vznika",
+   "co-jsou-gravitacni-vlny",
+   "co-se-stane-kdyz-spadnete-do-cerne-diry"
+  ]
+ },
+ {
+  "id": "exp-009",
+  "title": "Proč mají galaxie spirální ramena?",
+  "theme": "galaxie",
+  "description": "Spirální ramena galaxií nejsou pevné útvary, ale vlny hustoty. Proč se nezamotají, kde v nich rodí hvězdy a proč mají spirálu jen některé galaxie?",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Spirální ramena nejsou pevné útvary, které by se točily s galaxií — byla by totiž dávno zamotaná dovnitř jako cukrová vata. Jsou to hustotní vlny v rotujícím disku galaxie: oblasti, kde se mírně hromadí plyn a prach, rodí se v nich nové hvězdy, a právě ty mladé jasné hvězdy ramena rozsvěcují.",
+  "sections": [
+   {
+    "heading": "Záhada, která trápila astronomy desetiletí",
+    "body": "Spirální galaxie patří k nejkrásnějším objektům na obloze — Mléčná dráha a Andromeda mezi ně patří. Ale představte si jejich ramena jako pevné struktury: vnitřní části galaktického disku rotují rychleji než vnější, takže by se ramena během několika stovek milionů let měla zamotat kolem středu a zcela zmizet. Galaxie ale rotují miliardy let a ramena stále mají. Tohoto rozporu — zvanému winding problem — si astronomové nevšimli hned; spirální strukturu galaxií identifikovali až ve 20. letech 20. století, když Edwin Hubble roztřídil galaxie do své slavné „tuningové vidlice\". Vysvětlení přišlo o desetiletí později a bylo překvapivě jednoduché."
+   },
+   {
+    "heading": "Ramena jsou vlny, ne stavby",
+    "body": "Spirální ramena nejsou chomáče hvězd, které by společně obíhaly kolem středu galaxie. Jsou to hustotní vlny — oblasti disku, kde je o pár procent hustší plyn, prach a hvězdy, podobně jako zhuštěná doprava na dálnici. Klíčový rozdíl: hvězdy a plyn vlny neprovázejí, ale protínají. Objeví se v ní, chvíli v ní zůstanou, a pak ji opustí, jako když auto projíždí dopravní zácpou. Samotná vlna se přitom pohybuje po disku pomaleji než hvězdy. Proto se ramena nezamotají — není to materiál, ale vzorec, přechodná koncentrace v rotujícím disku. Podobný efekt můžete vidět na stadionu: \"mexická vlna\" obíhá tribunou, ale diváci zůstávají na svých místech."
+   },
+   {
+    "heading": "Kde se hustotní vlny berou",
+    "body": "Hustotní vlny v galaktickém disku mají několik zdrojů, které se vzájemně posilují. Základní mechanismus je gravitační: mírné zhuštění přitáhne okolní hmotu, která se zhustí ještě víc. Tomu pomáhá středová příčka galaxie (bar) — protáhlá hvězdná struktura u jádra, která rotuje pomaleji než disk a svou gravitací ve hvězdném disku „šťouchá\" do vln. A pak je tu zpětná vazba od samotných hvězd: ve vlnových hřbetech se zhušťuje plyn, rodí se v nich hmotné hvězdy, ty intenzivně září a nakonec vybuchnou jako supernovy. Výbuchy zahřejou okolní plyn a v disku rozproudí nové zhuštění — vlna se udržuje sama. Spirální ramena jsou tak nejenom následek, ale i motor zrodu hvězd."
+   },
+   {
+    "heading": "Proč ramena září a proč zanikají",
+    "body": "Ve vlnových hřbetech se sbírá molekulový plyn a prach, takže tam vznikají hvězdy řádově častěji než jinde v disku. Rodí se tam velké, horké, jasně modré hvězdy — které jsou zářivější než miliony běžných hvězd dohromady. Právě ony dodávají ramenům charakteristické modré světlo a činí je viditelnými. Ale jsou krátkověké: žijí jen pár desítek milionů let. Když zemřou, rameno v daném místě ztmavne — a proto pozorujeme i tzv. přízračná ramena, která jsou vidět jen na infračervených snímcích mladých hvězd. Ramena se tedy objevují a zanikají, přetvářejí se; galaxie si je neustále „překresluje\". Někteří astronomové dokonce pomocí ramen určují, kdy v minulosti galaxie prošla poslední vlnou zrodu hvězd."
+   },
+   {
+    "heading": "Proč nemá spirálu každá galaxie",
+    "body": "Spirální ramena potřebují ke vzniku tenký rotující disk s dostatečným množstvím plynu. A ten nemá každá galaxie. Eliptické galaxie — obří koule z miliard hvězd — jsou výsledkem srážek a slévání galaxií, při nichž se disk zničil; dnes v nich téměř nerodí nové hvězdy. Nepravidelné galaxie jako Magellanova mračna mají plynu dost, ale gravitační vlivy větších sousedů jejich disky rozbily. Spirální struktura je tak známkou klidného životního období galaxie. Naše Mléčná dráha je spirální galaxie se čtyřmi hlavními rameny, pojmenovanými Perseus, Místní bublina (v níž ležíme), Sagittarius (rameno Střelce) a Scutum–Centaurus (rameno Štítu Kentaura). Hvězdná mapa naší galaxie se právě proto neustále přepisuje."
+   }
+  ],
+  "why_box": "Bez spirálních ramen by hvězdy vznikaly mnohem řidčeji a pomaleji — vlny v disku totiž koncentrují plyn do míst, kde se může zhroutit a zrodit nová hvězda. A jedna taková vlna se před 4,6 miliardami let prohnala i oblakem, z nějž vznikla Sluneční soustava. Zrod Slunce i Země tedy pravděpodobně iniciovalo jedno z našich galaktických ramen. Když se dnes podíváte na fotografii spirální galaxie, díváte se na typ struktury, bez níž bychom tu nebyli.",
+  "related_explainery": [
+   "co-je-temna-hmota",
+   "co-je-reliktni-zareni",
+   "co-je-cerna-dira-a-jak-vznika"
+  ]
+ },
+ {
+  "id": "exp-010",
+  "title": "Jak víme, že temná hmota existuje?",
+  "theme": "temna-hmota",
+  "description": "Žádný teleskop temnou hmotu nezachytil — přesto o ní vědci nepochybují. Tři nezávislé důkazy, od rotace galaxií po srážku kup, a proč alternativy selhaly.",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Temnou hmotu nikdo nikdy neviděl, nezachytil v detektoru ani necítil. Přesto astronomové o její existenci prakticky nepochybují — protože o ní svědčí tři naprosto nezávislé druhy pozorování, které se shodují do jednotek procent. Posledním hřebíčkem do rakve alternativ je srážka dvou galaktických kup, kde se viditelná hmota a gravitace prostě rozcházejí.",
+  "sections": [
+   {
+    "heading": "Od Zwického k Rubinové: osmdesát let pochybností",
+    "body": "Podezření se objevilo v roce 1933, když Fritz Zwicky měřil rychlosti galaxií v kupě Coma. Galaxie se pohybovaly tak rychle, že by kupa měla dávno rozletět — kdyby ji držela jen viditelná hmota. Zwicky spočítal, že chybí zhruba desetkrát více hmoty, než kolik svítilo. Jeho kolegové ho považovali za excentrika. Rozhodující obrat přišel v 70. letech: astronomka Vera Rubin systematicky měřila rotaci desítek spirálních galaxií a zjistila, že hvězdy na okrajích rotují stejně rychle jako ty vnitřní. Podle zákona gravitace a podle množství viditelné hmoty by měly rotovat čím dál pomaleji. Rubin došla k neoblíbenému závěru: galaxie jsou obalené obrem neviditelné hmoty. Věda se nakonec přiklonila na její stranu."
+   },
+   {
+    "heading": "Rotace galaxií: rychleji, než dovoluje zákon",
+    "body": "Detail je důležitý. U planet ve Sluneční soustavě platí: čím dál od středu, tím pomaleji obíhají. Je to přímý důsledek gravitace koncentrované ve středu. U spirálních galaxií to překvapivě neplatí — od jádra ke kraji rotace zhruba neklesá, na okrajích dokonce mírně roste. Aby Newtonovy zákony platily a galaxie se nerozpadla, musí být hmota rozprostřená daleko za viditelný disk, do vzdáleností desetinásobku průměru galaxie. Tuto temnou halu nevidíme v žádné části spektra. Alternativní vysvětlení zní: zákon gravitace neplatí na velkých vzdálenostech. Tato teorie (MOND) rotaci galaxií popíše — ale selhává všude jinde."
+   },
+   {
+    "heading": "Gravitační čočky a srážka kup: důkaz přímý",
+    "body": "Druhý důkaz je nezávislý na rotaci: gravitační čočky. Světlo vzdálených galaxií procházející kolem hmotné kupy se zakřivuje podle hmotnosti v popředí. Čím víc hmoty, tím víc zakřivení. Astronomové dokážou zmapovat, kde hmota je — a výsledek systematicky ukazuje více hmoty, než kolik svítí. Zlomový okamžik přišel v roce 2006 se srážkou kup v souhvězdí Soulového řetězu (tzv. Bullet Cluster). Při srážce se viditelný plyn podle rentgenu zpomalil a zůstal uprostřed, zatímco většina hmotnosti podle čočkování prolétla dál s galaxiemi. Viditelná hmota a gravitace se prostě fyzicky rozdělily — to žádná modifikace gravitace nevysvětlí, zatímco temná hmota ano."
+   },
+   {
+    "heading": "Otisk v reliktním záření",
+    "body": "Třetí důkaz pochází z opačného konce vesmíru: z reliktního záření, světla z doby před 13,8 miliardami let. Teplotní fluktuace na této fotce mládí vesmíru mají přesně takovou velikost, jakou předpovídá model s temnou hmotou — a nesedí s modelem bez ní. Kosmologické měření z něj čte složení vesmíru: 5 % běžné hmoty, 27 % temné hmoty. Když pak stejné číslo dosadíte do výpočtu rotace galaxií a čoček, vychází totéž. Tři zcela nezávislé metody, tři zcela nezávislé datové sady — a shoda do jednotek procent. Ve vědě lepší důkaz neexistuje."
+   },
+   {
+    "heading": "Proč nejde jen o špatné zákony gravitace",
+    "body": "Alternativa MOND (modifikovaná newtonská dynamika) rotaci galaxií popíše bez temné hmoty — a na tom její úspěchy končí. Při srážce kup Bullet Cluster MOND selhává, protože gravitace se tam nerozděluje od hmoty. S fluktuacemi v reliktním záření se vyrovnat nedokáže. A predikuje zvláštní chování, která se nepozorují. Temná hmota zatím obstála ve všech testech — jen ji zatím nikdo nedokázal chytit v laboratoři. Ale důkazy o její existenci jsou dnes stejně silné jako důkazy o existenci exoplanet před érou teleskopů: nepřímé, opakované a vzájemně se potvrzující."
+   }
+  ],
+  "why_box": "Temná hmota je vědecký unikát: vědci o ní vědí všechno — kolik jí je, kde je, jak se chová — kromě toho, co to vlastně je. Je to jako znát přesnou hmotnost, chování a stopu zvířete z jeho stop, aniž byste ho viděli. A přesto právě tohle neviditelné zvíře drží pohromadě každou galaxii včetně té vaší. Bez něj by hvězdy vaší galaxie dávno rozletěly do tmy.",
+  "related_explainery": [
+   "co-je-temna-hmota",
+   "co-je-reliktni-zareni",
+   "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty"
+  ]
+ },
+ {
+  "id": "exp-011",
+  "title": "Mohou černé díry vymírat? Hawkingovo záření",
+  "theme": "cerne-diry",
+  "description": "Stephen Hawking přišel na to, že černé díry nejsou zcela černé — slabě září a pomalu se vypařují. Jak je to možné, kolik to trvá a kam zmizí informace.",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "V roce 1974 Stephen Hawking ukázal něco, co nikdo nečekal: černé díry nejsou zcela černé. Kvantová fyzika jim dovoluje velmi slabě zářit — a tím ztrácet hmotu. Černá díra se tak postupně vypařuje. Pro hvězdnou černou díru to trvá déle než věk vesmíru, ale princip mění vše: černé díry nejsou věčné.",
+  "sections": [
+   {
+    "heading": "Paradox: nic neunikne, přesto něco uniká",
+    "body": "Z klasické fyziky plyne, že z černé díry neunikne nic — ani světlo, proto je černá. Ale Hawking zkombinoval obecnou teorii relativity s kvantovou mechanikou a došel k opačnému závěru: černá díra musí zářit, a to čím dál tím víc, čím je menší. Odborníci tomu zprvu nevěřili — teorie samotná předpovídala, že černá díra, definovaná jako objekt, z něhož neuniká nic, něco vyzáří. Ukázalo se ale, že při spojení obou teorií je to nevyhnutelné. Hawkingovo záření patří mezi nejvýznamnější objevy teoretické fyziky druhé poloviny 20. století — a stále čeká na přímé pozorování."
+   },
+   {
+    "heading": "Jak záření vzniká",
+    "body": "Vysvětlení vychází z kvantové nejistoty: vakuum vesmíru není prázdné, ale neustále v něm vznikají páry virtuálních částic — částice a antočástice, které se okamžitě znovu anihilují. U horizontu událostí se může stát, že jedna z dvojice za horizont spadne a druhá unikne. Pro vnějšího pozorovatele pak vypadá, jako by černá díra emitovala částici — jako by slabě zářila. Druhý pohled: energie unikající částice se musí někde vzít. Bere se z hmotnosti černé díry. Každý odlet jedné částice znamená, že černá díra o kousek zhubne. Vypařování následuje ze zákonitosti, ne ze shody náhod."
+   },
+   {
+    "heading": "Výparník nesmírné trpělivosti",
+    "body": "Hawkingova teorie má paradoxní vlastnost: čím hmotnější černá díra, tím chladněji září. Supermasivní černá díra v centru galaxie má teplotu zlomku kelvinu — méně než reliktní záření, kterým je obklopena, takže do ní proudí více energie, než kolik vyzáří. Vypařovat se začne až poté, co vesmír dostatečně vychladne. Výpočty říkají, že vypařování hvězdné černé díry trvá zhruba 10^67 let — to je číslo s 67 nulami, miliardkrát déle než stáří vesmíru. Vymírání černých děr je tedy teoretický proces, který nikdo nikdy neuvidí. Poslední okamžiky by ovšem byly impozantní: teplota roste, záření sílí a malá černá díra skončí explozí — posledním výkřikem hmoty, která se vrací vesmíru."
+   },
+   {
+    "heading": "Kam zmizí informace?",
+    "body": "Hawkingovo záření otevřelo největší paradox teoretické fyziky, tzv. informační paradox černých děr. Podle kvantové mechaniky informace nikdy nezaniká — jen se přeměňuje. Ale pokud se černá díra vypaří do čistého, neinformovaného záření, informace o tom, co do ní spadlo, navždy zmizí. To kvantová fyzika zakazuje. Hawking dlouho trval na tom, že informace mizí — a vsadil se o to s fyzikem Johnem Preskillem (sázka: baseballová encyklopedie). V roce 2004 sázku prohrál: přiznal, že informace uniká se zářením, byť v zakódované podobě. Přesný mechanismus je předmětem výzkumu dodnes — paradox nebyl vyřešen, jen zúžen."
+   },
+   {
+    "heading": "Kde by se dalo hledat",
+    "body": "Hawkingovo záření bylo potvrzeno jen nepřímo — v laboratorních analogiích (například v proudění tekutin napodobujících horizont událostí) a v jevu podobném zeslabování akustických vln u supersonického proudění. Přímé pozorování u skutečné černé díry zatím neexistuje: záření je příliš slabé pro naše detektory. Pozornost budí mikroskopické černé díry — hypotetické zbytky z raného vesmíru, které by se mohly vypařovat právě teď a v signálu detektorů by zářily jako charakteristické spršky částic. Kdyby některý detektor něco takového zachytil, znamenalo by to Nobelovu cenu — a konec života jedné mikroskopické černé díry."
+   }
+  ],
+  "why_box": "Hawkingovo záření je jedním z mála míst, kde se potkávají dvě největší teorie fyziky — gravitace a kvantová mechanika — a ukazuje, že spolu zatím nefungují. Právě v tomto rozporu se skrývá fyzika 21. století: teorie kvantové gravitace. Černá díra, kterou nikdy neuvidíte, vám tak ukazuje hranici lidského poznání. A paradox, který vznikl, když si Hawking vsadil encyklopedii, dosud nikdo neuzavřel.",
+  "related_explainery": [
+   "co-je-cerna-dira-a-jak-vznika",
+   "co-je-horizont-udalosti",
+   "co-se-stane-kdyz-spadnete-do-cerne-diry"
+  ]
+ },
+ {
+  "id": "exp-012",
+  "title": "Co zatím gravitační vlny odhalily?",
+  "theme": "gravitacni-vlny",
+  "description": "Od první detekce v roce 2015 ohlásili vědci přes sto srážek černých děr. Co gravitační vlny zatím prozradily a co stále hledají?",
+  "published": "2026-10-17",
+  "updated": "2026-10-17",
+  "perex": "Gravitační vlny byly detekovány poprvé v září 2015 a od té doby astronomové ohlásili přes sto událostí. Ukázaly srážky černých děr, které nikdy nebylo možné pozorovat světlem, doprovodily srážku neutronových hvězd zábleskem v celém elektromagnetickém spektru a objevily populaci černých děr, kterou teorie předtím neznala.",
+  "sections": [
+   {
+    "heading": "Z prvního signálu ke katalogu událostí",
+    "body": "14. září 2015 zachytila observatoř LIGO v USA signál s označením GW150914 — chvění prostoru-času způsobené srážkou dvou černých děr vzdálených 1,3 miliardy světelných let. Šlo o první přímou detekci gravitačních vln, jejichž existenci předpověděl Einstein přesně před sto lety. Objevu se říká objev století a v roce 2017 mu byla udělena Nobelova cena. Od té doby se detektory zlepšily, přidal se evropský detektor Virgo a japonský KAGRA — a katalog detekovaných událostí přesáhl sto položek. Z futuristické predikce se stal rutinní astronomický nástroj."
+   },
+   {
+    "heading": "Černé díry, které světlo nevidí",
+    "body": "Nejčastějšími zdroji gravitačních vln jsou srážky černých děr. Přibližují se k sobě, krouží kolem sebe stále rychleji a nakonec splynou v jedinou — přičemž do prostoru vyzařují energii několika hmotností Slunce v podobě gravitačních vln. Tyto srážky se dějí v úplné tmě: žádný teleskop je nevidí, protože černé díry světlo neemitují. Gravitační vlny jsou jediným způsobem, jak je pozorovat. Detekce odhalily populaci černých děr s hmotnostmi, které teorie hvězdného vývoje předtím nepředpovídaly — například černé díry kolem 30 hmotností Slunce a víc, vzniklé patrně z prvních hvězd vesmíru. Vesmír tak ukazuje, že je ještě nečekanější, než si mysleli."
+   },
+   {
+    "heading": "Srážka neutronových hvězd: multi-messenger astronomy",
+    "body": "17. srpna 2017 detekovaly LIGO a Virgo srážku dvou neutronových hvězd (událost GW170817) — a tentokrát šlo o něco, co šlo pozorovat i světlem. Během několika hodin zamířily k události desítky teleskopů na Zemi i na oběžné dráze. V následujících dnech a týdnech byl zaznamenán signál v gama paprscích, rentgenu, ultrafialovém, viditelném, infračerveném i rádiovém pásmu. Poprvé v historii byla pozorována jedna a tatáž událost dvěma zcela odlišnými způsoby: gravitačními vlnami i světlem. Výsledek potvrdil, že srážky neutronových hvězd jsou hlavní továrnou na těžké prvky — zlato, platina i uran ve vesmíru vznikají právě zde."
+   },
+   {
+    "heading": "Co zatím nenašly",
+    "body": "Gravitační vlny zatím neodhalily několik očekávaných zdrojů. Nenašly se vlny od samostatných rotujících neutronových hvězd — jsou příliš slabé pro současné detektory, i když by měly existovat. Nepodařilo se zachytit vlny od kosmických strun, hypotetických jednorozměrných defektů raného vesmíru, jejichž detekce by potvrdila teorie velké sjednocení. A dosud nikdo nezachytil stochastické pozadí gravitačních vln — jemné šumění způsobené součtem všech událostí v historii vesmíru, které by mohlo nést stopy z éry velkého třesku. Nález každého z těchto signálů by znamenal revoluci v ještě větším měřítku, než byla samotná první detekce."
+   },
+   {
+    "heading": "Další detektory na obzoru",
+    "body": "Současná generace detektorů (LIGO, Virgo, KAGRA) je citlivá na vlny s frekvencemi kolem 100 Hz — tedy na srážky zhruba hvězdných hmotností. Příští generace půjde dál: vesmírná družice LISA, jejíž start je plánován na polovinu 30. let, otevře pásmo nízkých frekvencí a odhalí srážky supermasivních černých děr v centrech galaxií. Pozemní nástupci Einstein Telescope a Cosmic Explorer zvýší citlivost desetinásobně a umožní sledovat celý vesmír téměř od velkého třesku. A pulsarová časovaná pole — přesné měření časování pulsarů — hledají pomalé vlny od supermasivních černých děr a pravděpodobně je brzy najdou. Každé nové pásmo otevírá vesmír z jiného úhlu — stejně jako dalekohledy před čtyřmi staletími."
+   }
+  ],
+  "why_box": "Před rokem 2015 člověk pozoroval vesmír výhradně světlem — jediným z pěti smyslů. Gravitační vlny přidaly druhý smysl: sluch. Poprvé slyšíme vesmír, nejen ho vidíme. A podobně jako u ucha i zde platí, že zvuk odhaluje věci, které světlo neukáže: srážky v naprosté tmě, pohyb hmoty, která nic neemituje. Každý zaznamenaný signál je nová zpráva z míst, kam světlo nikdy nevstoupilo.",
+  "related_explainery": [
+   "co-jsou-gravitacni-vlny",
+   "co-je-neutronova-hvezda",
+   "mohou-cerne-diry-vymirat-hawkingovo-zareni"
+  ]
+ },
+ {
+  "id": "exp-013",
+  "title": "Co nám říká mapa reliktního záření?",
+  "theme": "relictni-zareni",
+  "description": "Mapa reliktního záření je nejstarší fotografie vesmíru. Co se z jejích skvrn dá odečíst o věku, složení a osudu vesmíru?",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Reliktní záření nese jemné teplotní skvrny — zbytky zárodků galaxií z doby, kdy byl vesmír starý 380 000 let. Z jejich vzoru lze odečíst věk, složení i geometrii celého vesmíru.",
+  "sections": [
+   {
+    "heading": "Fotografie z dětství vesmíru",
+    "body": "Mapa reliktního záření je nejstarší fotografie vesmíru, jakou máme — snímek světla z doby, kdy byl vesmír starý pouhých 380 000 let. Zdánlivě jde o mozaiku nepatrných teplotních rozdílů, ve skutečnosti jde o zakódovaný záznam všech základních vlastností vesmíru: jeho věku, složení, geometrie i budoucnosti. Kosmologové proto říkají, že v těchto teplotních fluktuacích je napsáno „dětství\" vesmíru."
+   },
+   {
+    "heading": "Kdy se světlo osvobodilo",
+    "body": "Po Velkém třesku byl vesmír žhavý, hustý a neprůhledný — světlo se neustále sráželo s částicemi volných elektronů a nemohlo volně cestovat. Teprve když se vesmír dostatečně roztáhl a ochladil, elektrony a jádra se spojily do atomů (tzv. rekombinace), světlo se osvobodilo. Toto světlo k nám doputovalo po 13,8 miliardy let z každého směru najednou a dnes ho pozorujeme jako reliktní záření s teplotou −270,4 °C."
+   },
+   {
+    "heading": "Skvrny jsou zárodky galaxií",
+    "body": "Když astronomové tuto mapu proměřili, objevili v ní jemnou strukturu: teplejší a chladnější skvrny o velikosti necelého stupně. Ty nejsou náhodné. Chladnější místa odpovídají místům, kde bylo v raném vesmíru o něco hustší — gravitační semínka, z nichž časem vyrostly galaxie a galaktické kupy. Teplejší místa byla naopak řidší. Mapa reliktního záření je tedy doslova katalogem zárodků všech budoucích struktur ve vesmíru."
+   },
+   {
+    "heading": "Od náhodného objevu k přesné mapě",
+    "body": "První stopu reliktního záření objevil náhodou v roce 1965 dvojice radioastronomů Arno Penzias a Robert Wilson — původně hledali zdroj rušení antény a místo toho našli signál z počátku vesmíru. Systematicky mapu proměřila série družic: COBE v roce 1992 poprvé zachytila skvrny, WMAP je zmapovala přesněji a evropský Planck v roce 2013 dodal dnešní standard s přesností, jakou žádný pozemský teleskop nepřekoná. Nadšenci si mohou mapu prohlédnout na stránkách ESA — je to detailnější obrázek, než jaký pořídil kterýkoli teleskop hvězdné oblohy."
+   },
+   {
+    "heading": "Co všechno lze z mapy odečíst",
+    "body": "Z velikosti a rozložení skvrn lze odečíst klíčová čísla kosmologie. Z úhlu, pod nýmž jsou skvrny největší, vyplývá, že vesmír je geometricky plochý. Z jejich intenzit vyplývá složení: 5 % obyčejné hmoty, 27 % temné hmoty a 68 % temné energie. A z celkového vzoru vyplývá, že vesmír je 13,8 miliardy let starý — s přesností na méně než jedno procento. Žádný jiný kosmologický nástroj nedává tolik čísel najednou."
+   },
+   {
+    "heading": "Polarizace a stopa inflace",
+    "body": "Měření mapy pokračuje. Současné pozemské observatoře v Chile a na jižním pólu studují polarizaci reliktního záření — uspořádání světelných vln, které by mohlo nést stopu gravitačních vln z éry inflace, zlomků vteřiny po Velkém třesku. Nová generace přístrojů (Simons Observatory, plánované CMB-S4) zvýší citlivost desetkrát. Kdyby se stopa inflace našla, byl by to druhý nejvýznamnější důkaz po samotném reliktním záření — a zase by pocházel z té samé mapy."
+   },
+   {
+    "heading": "Stopy temné hmoty",
+    "body": "Jednu věc mapa neukazuje: temnou hmotu přímo. Ta neinteraguje se světlem, takže v ní „nezáří\". Ale její stopu vidíme nepřímo — právě v tom, jak silně jsou skvrny vyjádřené. Bez temné hmoty by ve vesmíru nebylo dost gravitačního „lepidla\" na to, aby z fluktuací něco vyrostlo; skvrny by byly slabší a galaxie by vznikaly příliš pozdě. Mapa reliktního záření tak temnou hmotu potvrzuje, i když ji nikdy přímo neuvidíme."
+   }
+  ],
+  "why_box": "Když se podíváte na mapu reliktního záření, díváte se na světlo, které vzniklo, když neexistoval žádný hvězdný prach, žádná Země, žádné Slunce. Každá galaxie, každá hvězda, každý atom ve vašem těle pochází z jednoho z těch skvrn. Vědci to říkají stručně: jsme způsobem, jakým vesmír poznává sám sebe — a mapa reliktního záření je jeho nejstarší fotografie.",
+  "related_explainery": [
+   "co-je-reliktni-zareni",
+   "co-je-temna-hmota",
+   "jak-vime-ze-temna-hmota-existuje"
+  ]
+ },
+ {
+  "id": "exp-014",
+  "title": "Co jsou magnetary a pulsary?",
+  "theme": "neutronove-hvezdy",
+  "description": "Pulsary jsou kosmické hodiny s přesností atomových hodin, magnetary mají nejsilnější magnetická pole ve vesmíru. Co jsou zač?",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Pulsary a magnetary jsou dvě tváře neutronových hvězd: rotující majáky s přesností hodin a magnetické příšery s poli bilionkrát silnějšími než pozemská. Oba vznikají smrtí hvězd.",
+  "sections": [
+   {
+    "heading": "Dva extrémy jedné hvězdy",
+    "body": "Pulsary a magnetary jsou dvě nejextrémnější podoby neutronových hvězd. Pulsar je rotující neutronová hvězda, která svítí jako maják — záblesk magnetického pole a záření k nám dopadá v přesných intervalech, někdy s přesností atomových hodin. Magnetar je ještě divočejší: neutronová hvězda s magnetickým polem tak silným, že by na Zemi zničilo kreditní kartu na vzdálenost tisíců kilometrů."
+   },
+   {
+    "heading": "Zrození neutronové hvězdy",
+    "body": "Neutronová hvězda vzniká zhroucením velké hvězdy — jádro se zhroutí do průměru asi 20 kilometrů, tak hustého, že jedna čajová lžička jeho hmoty váží miliardy tun. Většina neutronových hvězd se narodí s rotací a silným magnetickým polem. Když se hvězda zhroutí, zachová si většinu své rotace (podobně jako krasobruslařka přitáhnou paže), takže se může točit i stokrát za sekundu."
+   },
+   {
+    "heading": "Pulsar — maják vesmíru",
+    "body": "Pulsar je přesný hodinový stroj vesmíru. Má dvě magnetické „koruny\" u pólů; rotací se tyto směry střídavě obrací k Zemi a my vidíme pravidelný záblesk — pulz. Některé pulsary rotují s přesností lepší než atomové hodiny a po desetiletích se jejich rytmus téměř nezmění. Astronomové je používají k testování obecné teorie relativity a k hledání gravitačních vln: když gravitační vlna projde mezi námi a pulsarem, na okamžik naruší jeho tikot."
+   },
+   {
+    "heading": "Magnetar — nejsilnější magnet",
+    "body": "Magnetar je pulsar, který se při narození zrotoval pomaleji a získal magnetické pole bilionkrát silnější než pozemské. Toto pole je tak silné, že samo určuje chování hvězdy: deformuje její povrch, způsobuje obří erupce rentgenového záření a občas celkové „zjevení\" — záblesk, který v sekundě vyzáří tolik energie, jako Slunce za desetitisíce let. V Mléčné dráze známe asi dvacet magnetarů; jsou to nejsilnější magnety ve vesmíru."
+   },
+   {
+    "heading": "Záhada původu pole",
+    "body": "Největší nezodpovězenou otázkou je původ samotného pole. Proč mají některé neutronové hvězdy pole bilionkrát silnější než Slunce? Teorie nabízejí dva scénáře: buď se pole zformovalo už při kolapsu hvězdy a zesílilo uvnitř díky turbulenci (dynamo), nebo se krátce po zrození hvězdy v jejím nitru rozpadly částice zvané axiony a energie se proměnila v magnetismus. Pátrání po správné odpovědi probíhá — a každý nový magnetar, který astronomové pozorují, přináší vodítka."
+   },
+   {
+    "heading": "Jak magnetara poznáme",
+    "body": "Magnetary odhalujeme až podle jejich chování. Normální pulsar tiká pravidelně; magnetar pulsy nepravidelné a často slabé, občas ale vysílá obří záblesky. Nejsilnější zaznamenaný — erupce magnetaru SGR 1806-20 v roce 2004 — zasáhl Zemi přes půl galaxie a po dobu deseti vteřin narušila ionosféru silněji než Slunce. I kdybychom magnetar nikdy neviděli přímo, jeho záblesky prozradí, co se uvnitř děje: pole se trhá, povrch praská, koruny se zhroutí."
+   },
+   {
+    "heading": "Hranice nejsou ostré",
+    "body": "Hranice mezi oběma typy není ostrá — pozorujeme i přechodné formy, a neutronové hvězdy se časem mění. Rychle rotující pulsar pomaluje a jeho magnetické pole slábne; některé z nich se mohou později projevit jako magnetary. A když se dvě neutronové hvězdy srazí, výsledkem je ještě divočejší událost — srážka, která generuje gravitační vlny a zároveň vytváří polovinu prvků těžších než železo, včetně zlata ve vašem prstenu."
+   }
+  ],
+  "why_box": "Pulsary jsou tak přesné, že slouží jako kosmické hodiny — když jeden „zmešká\" o zlomek milisekundy, víme, že mezi námi a ním prolétla gravitační vlna, nebo že v mezihvězdném prostoru něco světlo zpomalilo. Magnetary zase ukazují, jak fyzika chová v extrémech, které si na Zemi nikdy nenapodobíme. Obojí vzniklo ze smrti hvězdy — a přitom slouží k tomu, abychom vesmír lépe pochopili.",
+  "related_explainery": [
+   "co-je-neutronova-hvezda",
+   "co-jsou-gravitacni-vlny",
+   "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty"
+  ]
+ },
+ {
+  "id": "exp-015",
+  "title": "Co jsou exoplanety a jak se hledají?",
+  "theme": "exoplanety",
+  "description": "Exoplanet známe přes 5000, ale jen před 30 lety to byla vědecká fikce. Jak je objevujeme a jak blízko jsme k nálezu života?",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Exoplaneta je planeta u jiné hvězdy než Slunce. První byla potvrzena v roce 1992; dnes jich známe tisíce a Mléčná dráha jich pravděpodobně obsahuje miliardy.",
+  "sections": [
+   {
+    "heading": "Z fikce k faktu",
+    "body": "Exoplaneta je planeta, která obíhá jinou hvězdu než Slunce. Do roku 1992 o nich nevěděli nic konkrétního — byly vědeckou fikcí. Dnes známe přes pět tisíc exoplanet a odhady říkají, že jen v Mléčné dráze jich jsou miliardy. Naše Sluneční soustava už není vzorem; je jednou z nespočetných."
+   },
+   {
+    "heading": "Jak exoplanety hledáme",
+    "body": "Hlavní metoda se jmenuje tranzit: když planeta projde před hvězdou, hvězda na okamžik ztmavne — o zlomek procenta, ale citlivé teleskopy to zachytí. Z periodicity ztmavnutí zjistíme oběžnou dobu, z hloubky zatmění velikost planety. Druhá metoda měří „kolébání\" hvězdy — její pohyb dopředu a dozadu, který způsobuje gravitace planety; z něj vyčteme hmotnost. Další metody zahrnují přímé focení (vzácné, náročné) nebo gravitační mikročočky."
+   },
+   {
+    "heading": "Divoká rozmanitost světů",
+    "body": "Mezi objevenými exoplanetami je ohromná rozmanitost. Horké jupiterky — plynné obři těsně u svých hvězd, kde rok trvá jeden den. Superzemě — kamenné planety větší než Země, jaké nemáme ve Sluneční soustavě. Lava planety — kamenné světy tak blízko hvězdě, že jejich povrch taje. A v roce 2016 jsme poprvé změřili atmosféru exoplanety kolem podobného Slunci hvězdy; od té doby jich známe desítky."
+   },
+   {
+    "heading": "Světy na hraně fantazie",
+    "body": "Mezi exoplanetami najdeme i světy bez hvězdy — opuštěné planety vyhozené ze svých soustav gravitačním chaosem, putující temnotou samy. Oceánské planety s globálním mořem desítky kilometrů hlubokým. „Oční planety\" tidálně uzamčené u červeného trpaslíka, kde jedna polovina věčně hoří a druhá mrzne, s obyvatelným pásmem u terminátoru. A planety u dvojhvězd, kde by západ Sluncí zářil dvěma hvězdami najednou — sci-fi, která je dnes katalogovým číslem."
+   },
+   {
+    "heading": "Hledáme život",
+    "body": "Největší otázka zní: je někde život? Klíčová je obyvatelná zóna — oblast kolem hvězdy, kde planeta s atmosférou může udržet kapalnou vodu. Známe několik desítek planet v této zóně. Teleskop Jamese Webba zkoumá jejich atmosféry a hledí chemické stopy — vodní páru, oxid uhličitý, metan — které by mohly naznačovat biologické procesy. Zatím žádný jasný důkaz neexistuje, ale první kandidáti už jsou na stole."
+   },
+   {
+    "heading": "Kdo a čím hledá",
+    "body": "Hlavními lovci exoplanet byly družice Kepler (2009–2018), která objevila tisíce planet tranzitní metodou u jednoho malého úseku oblohy, a její pokračovatel TESS, která skenuje téměř celou oblohu. Teleskop Jamese Webba nyní studuje atmosféry těch nejzajímavějších a připravuje půdu pro příští generaci pozemských obrů (Extremely Large Telescope), které budou schopné vidět podobné planety přímo. Tempo objevů se zrychluje — nová exoplaneta přibývá průměrně každý druhý den."
+   },
+   {
+    "heading": "Jak exoplanety vznikají",
+    "body": "Exoplanety vznikají spolu se hvězdou z kolapsujícího plynného mraku. Prach a plyn se v něm slepí do kamenů, kameny do jader planet, jádra přitahují plyn — nebo také ne; výsledek závisí na tom, kde v protoplanetárním disku se planeta rodí. Blízko hvězdy vznikají kamenné planety, dál plynní obři. Naše Sluneční soustava se zformovala před 4,6 miliardami let; ostatní hvězdy jsou různě staré — takže exoplanety pozorujeme ve všech fázích vývoje, od novorozených po mrtvé."
+   }
+  ],
+  "why_box": "Před třiceti lety jsme nevěděli, jestli jsme ve vesmíru sami, dokonce ani jestli jsou planety obvyklé. Dnes víme, že planety jsou běžnější než hvězdy. Otázka, jestli někde dech, oceán nebo mikrobiální skvrna čeká na své objevení, zůstává otevřená — a každá nová exoplaneta v obyvatelné zóně ji posouvá blíž.",
+  "related_explainery": [
+   "co-je-vesmirne-teleskopy",
+   "co-je-neutronova-hvezda"
+  ]
+ },
+ {
+  "id": "exp-016",
+  "title": "Čím by temná hmota mohla být?",
+  "theme": "temna-hmota",
+  "description": "WIMP, axion, sterilní neutrino nebo černé díry z raného vesmíru? Přehled kandidátů na temnou hmotu a proč se zatím nenašel ani jeden.",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Vědci vědí, že temná hmota existuje a jak se chová – ale z čeho se skládá, po čtyřiceti letech intenzivního hledání stále neví. V současnosti jsou ve hře čtyři hlavní kandidáti: částice WIMP, axion, sterilní neutrino a primordiální černé díry. Každý z nich má své přednosti i svou Achillovu patu.",
+  "sections": [
+   {
+    "heading": "Proč je hledání tak těžké",
+    "body": "Temná hmota neinteraguje se světlem a zdá se, že interaguje jen velmi slabě i s běžnou hmotou. To je zároveň její definice a prokletí: právě ta slabá interakce umožnila, aby temná hmota zůstala neviditelná, ale zároveň znemožňuje, abychom ji chytili v laboratoři. Představte si, že hledáte něco, co projde vaší rukou jako duch – a jediný důkaz máte v tom, že se hvězdy točí rychleji, než by měly. Fyzikové proto útočí ze dvou stran: detektory hluboko pod zemí čekají na srážku temné částice s atomem a urychlovače se ji snaží vyrobit. Zatím obojí vrátilo prázdné výsledky – a každý neúspěch možnosti zužuje."
+   },
+   {
+    "heading": "WIMP: favorit, který se neukázal",
+    "body": "Nejpopulárnější kandidát se jmenuje WIMP (slabě interagující masivní částice). Je elegantní z teoretického hlediska: předpovídá ho supersymetrie, rozšíření Standardního modelu, podle něhož má každá částice těžšího superpartnera. Nejjasnější WIMP-kandidáti byly neutralino. Detektory jako XENONnT, LUX-ZEPLIN nebo příspěvky v experimentech CRESST hledají záblesk, který by WIMP způsobil v atomovém jádře. Citlivost detektorů se za posledních dvacet let zlepšila stonásobně – a WIMP se stále neukázal. Experimentátoři teď vstupují do éry neutrinového pozadí, kdy je signál temné hmoty zastíněn běžnými neutriny. WIMP není mrtvý, ale jeho životní prostor se rychle zmenšuje."
+   },
+   {
+    "heading": "Axion: částice, která opravuje teorii",
+    "body": "Druhý favorit je axion, extrémně lehká částice předpovězená už v roce 1977 k vyřešení záhady, proč neutron nemá měřitelný elektrický dipólový moment. Axiony by vznikly v raném vesmíru ve správném množství a chovaly by se přesně tak, jak pozorujeme u temné hmoty. Jejich hledání je unikátní: protože by se axiony v silném magnetickém poli mohly proměňovat na fotony, experimenty jako ADMX používají rezonanční dutiny uvnitř supravodivých magnetů – doslova poslouchají hvízdání vesmíru. V posledních letech axion získává na popularitě právě proto, že WIMP zklamal. Fyzici dokonce zvažují, že Slunce by mohlo být zdrojem axionů, které půjde detekovat na Zemi."
+   },
+   {
+    "heading": "Primordiální černé díry: temná hmota bez částic",
+    "body": "Třetí možnost zní jako zlehčování, ale není: temnou hmotu by mohly tvořit černé díry – konkrétně primordiální černé díry vzniklé v prvních zlomcích sekundy po velkém třesku. Ty by byly odlišné od hvězdných černých děr: mnohem menší a částečně by se vypařovaly. Část by jich přežila dodnes a jejich gravitační působení by přesně odpovídalo temné hmotě. Tato myšlenka zažila renesanci po detekci srážek černých děr gravitačními vlnami – ukázalo se, že vesmír černé díry produkuje ochotněji, než se čekalo. Hledají se jako mikročočky v datech hvězdných přehlídek nebo jako krátké záblesky gama paprsků při vypařování."
+   },
+   {
+    "heading": "Kde jsme a kam dál",
+    "body": "Čtvrtým kandidátem jsou sterilní neutrina, těžší verze neutrin, které by temnou hmotu tvořily jen zčásti, v kombinaci s jinými kandidáty. Reálně je čím dál pravděpodobnější, že temná hmota nemá jedinou podobu. Příští dekáda přinese rozhodující experimenty: LHC bude hledat slabé stopy po supersymetrii, nová generace axionových experimentů dosáhne citlivosti teoretických predikcí a teleskopy Euclid a Vera Rubin Observatory zmapují rozložení temné hmoty s dosud nebývalou přesností. Anebo se stane to nejzajímavější: přijde objev, na který dnešní teorie nepomyslely. Historie fyziky ukazuje, že když něco dlouho hledáte a nenacházíte, často hledáte správně – jen tomu říkáte špatně."
+   }
+  ],
+  "why_box": "Temná hmota je jedna z mála velkých vědeckých otázek, u které i soukromá osoba může mít doma přístroj hledající odpověď: axionové detektory jsou kompaktní a mnohem levnější než urychlovače. Ale i bez laboratoře je v tom krása – vesmír, který vidíte, tvoří jen pět procent skutečnosti. Zbytek je otevřená otázka a právě vy žijete v době, kdy se na ni možná odpovídá.",
+  "related_explainery": [
+   "jak-vime-ze-temna-hmota-existuje",
+   "co-je-temna-hmota",
+   "co-je-velky-tresk"
+  ]
+ },
+ {
+  "id": "exp-017",
+  "title": "Co je velký třesk?",
+  "theme": "velky-tresk",
+  "description": "Co je velký třesk: model vzniku vesmíru před 13,8 miliardami let. Tři nezávislé důkazy, co velký třesk není a jaké otázky zůstávají otevřené.",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Velký třesk je vědecký model vzniku vesmíru: před zhruba 13,8 miliardami let byl vesmír nesmírně horký a hustý a od té doby se rozpíná. Nebyl to výbuch do prázdna – prostor samotný se zvětšoval. Model předpověděl reliktní záření, které bylo v roce 1965 skutečně objeveno, a dnes je základem veškeré kosmologie.",
+  "sections": [
+   {
+    "heading": "Jak nápad vznikl",
+    "body": "Na počátku 20. století se zdálo, že vesmír je statický a nekonečný. Zlom přinesl Edwin Hubble, který v roce 1929 změřil, že galaxie se od nás vzdalují – a čím jsou dál, tím rychleji. Přišel na to pozorováním rudého posuvu světla, které se u vzdalujících se objektů posouvá k červeným vlnovým délkám. Pokud se vesmír rozpíná dnes, musel být v minulosti hustší a teplejší – a v určitém okamžiku neuvěřitelně horký a hustý. Opačným převíjením času došel belgický kněz a fyzik Georges Lemaître k myšlence, že vesmír vzešel z prvotního atomu, jediného bodu. Tehdy to znělo jako teologie. Dnes je to nejlépe ověřený model vesmíru, jaký máme."
+   },
+   {
+    "heading": "Co velký třesk není",
+    "body": "Nejčastější mýtus říká, že velký třesk byl explozí uprostřed prázdna, z níž se hmota rozletěla do dálky. Ale vesmír není uvnitř ničeho – prostor sám je to, co se rozpíná. Galaxie se od sebe vzdalují ne proto, že by letěly, ale protože mezi nimi přibývá prostor – jako když kyne kynuté těsto: každý rozinek se vzdaluje od každého jiného, žádná rozinka se nikam nehrne. Podobně velký třesk nevznikl v čase – čas samotný se zrodil společně s vesmírem. Ptát se, co bylo před velkým třeskem, je jako ptát se, co je na severu severního pólu: otázka ztrácí smysl, protože používá kategorie, které tam neexistují."
+   },
+   {
+    "heading": "Tři důkazy, které nelze vyvrátit",
+    "body": "Model velkého třesku stojí na třech nezávislých oporách. První je rozpínání vesmíru samotné, změřené Hubblem a dnes potvrzené s přesností na procenta. Druhý je reliktní záření – slabé mikrovlnné pozadí, které zbylo z doby, kdy byl vesmír 380 tisíc let starý. Jeho teplota 2,7 kelvinu byla předpovězena dřív, než bylo záření objeveno. Třetí je zastoupení lehkých prvků: velký třesk přesně předpovídá, kolik vodíku, helia a lithia mělo vzniknout v prvních minutách – a měření souhlasí do desetiny procenta. Tři nezávislé důkazy, tři různé metody, stejný výsledek. Ve fyzice lepší zadostiučinění model nenajde."
+   },
+   {
+    "heading": "Co se stalo v prvních minutách",
+    "body": "První okamžiky byly bouřlivé. V prvních zlomcích sekundy se vesmír zvětšil exponenciálně rychle – období zvané inflace, které vysvětluje, proč je dnešní vesmír tak rovnoměrný. Pak nastalo zhruba tři minuty trvající období primordiální nukleosyntézy: z protonů a neutronů vznikla jádra helia a stopy lithia. Následovala éra, kdy vesmír svítil jako žhavá mlha – světlo nemohlo uniknout, protože naráželo na volné elektrony. Teprve po 380 tisících letech se elektrony spojily s jádry do atomů, vesmír zprůhledněl a světlo se vydalo na cestu – jako reliktní záření, které registrujeme dodnes. Z galaxií, hvězd a lidí se vesmír vytvářel ještě miliardy let."
+   },
+   {
+    "heading": "Otázky, které zůstaly otevřené",
+    "body": "Velký třesk je triumfem vědy, ale ne řekl poslední slovo. Nevíme, co způsobilo inflaci, co bylo před ní – nebo jestli to slovo vůbec dává smysl. Neznáme povahu temné hmoty, která struktury vesmíru zformovala, ani temné energie, která expanzi zrychluje. Může existovat jeden vesmír, nebo nekonečně mnoho – každý se svými fyzikálními zákony. Tyto otázky dnes nejintenzivněji probírají kosmologové. Zajímavé je, že na žádnou z nich nepotřebujete víru – potřebujete jen teleskopy, detektory a poctivé počítání. Vesmír přišel z horkého hustého počátku, ale kam směřuje, je příběh teprve v polovině."
+   }
+  ],
+  "why_box": "Velký třesk je myšlenka, která člověka postaví před fakt neintuitivní: celý vesmír, každý atom ve vašem těle, každá hvězda, kterou jste kdy viděli, byly v jediném okamžiku stisnuty do prostoru menšího než zrnko písku. Vy jste zrozen z tohoto počátku – vodík ve vaší vodě vznikl ve chvílích po velkém třesku a těžší prvky ve hvězdách. Když se podíváte na reliktní záření v šumu staré televize, díváte se na světlo, které bylo na cestě předtím, než vznikla Země. To není metafora, to je měřitelný fakt.",
+  "related_explainery": [
+   "co-je-reliktni-zareni",
+   "co-nam-rika-mapa-reliktniho-zareni",
+   "jak-vime-ze-temna-hmota-existuje"
+  ]
+ },
+ {
+  "id": "exp-018",
+  "title": "Co je supermasivní černá díra v centru galaxie?",
+  "theme": "temna-dira-v-centru",
+  "description": "Supermasivní černá díra v centru galaxie: hmotnost miliard Sluncí, první fotografie z roku 2019 a jak ovlivňuje osud galaxií i hvězdného tvoření.",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Téměř každá velká galaxie má ve středu supermasivní černou díru o hmotnosti milionů až miliard Sluncí. Naše Mléčná dráha není výjimkou: její střed ovládá Sagittarius A* o hmotnosti čtyř milionů Sluncí. Tyto černé díry vznikly zvláštně brzy a ovlivňují osud celých galaxií – včetně toho, zda v nich mohou vzniknout hvězdy a planety.",
+  "sections": [
+   {
+    "heading": "Jak velké jsou a kde žijou",
+    "body": "Supermasivní černé díry jsou šupinově větší než jejich hvězdné příbuzní. Zatímco hvězdná černá díra vzniklá z kolapsu hvězdy má hmotnost několika Sluncí, supermasivní exempláře dosahují hmotností milionů až desítek miliard Sluncí. Přitom jejich průměr je menší než Sluneční soustava – Sagittarius A* by se vešla do dráhy planety Merkur. Žijí v centrech galaxií: když astronomové poprvé změřili rychlosti hvězd v jádrech galaxií, zjistili, že se točí kolem něčeho obrovského a neviditelného. Dnes víme, že supermasivní černé díry existují téměř v každé galaxii s výrazným jádrem. Vznik galaxie a vznik její centrální černé díry jsou zřejmě svázané procesy."
+   },
+   {
+    "heading": "Jak se dají pozorovat, když jsou černé",
+    "body": "Černá díra sama žádné světlo nevydává, ale její gravitace ovlivňuje okolí dramaticky. Hvězdy v její blízkosti krouží ohromnou rychlostí – u Sagittarius A* bylo sledováno několik hvězd po celá desetiletí a jejich dráhy přesně vymezují hmotnost černé díry. Když se k černé díře přiblíží plyn a prach, vytvoří se kolem ní rotující disk – akreční disk – který se žhaví na miliony stupňů a září v rentgenovém pásmu. Někdy je tento proces tak prudký, že galaxie září jako kvasar – jasnější objekt vesmíru, který přehluší všechny hvězdy galaxie dohromady. Právě výbuchy aktivních galaxií v raném vesmíru daly astronomům první důkaz, že supermasivní černé díry existují, ještě předtím, než byly přímo detekovány."
+   },
+   {
+    "heading": "První fotografie černé díry",
+    "body": "10. dubna 2019 představilo spojení teleskopů Event Horizon Telescope první fotografii černé díry – supermasivní černé díry v centru galaxie M87 o hmotnosti 6,5 miliardy Sluncí. Šlo o technický husarský kousek: osm radioteleskopů na čtyřech kontinentech bylo synchronizováno do jediného virtuálního teleskopu velikosti Země. Výsledkem byla rozmazaná oranžová kobliha – žhavý plyn obklopující černou díru, s tmavým stínem uprostřed. Přesně to, co předpovídala obecná teorie relativity o generaci dřív. V roce 2022 tým zveřejnil snímek Sagittarius A*, naší vlastní centrální černé díry. Fotky se dají porovnat, studovat jejich dynamiku a testovat fyziku v extrémním gravitačním poli."
+   },
+   {
+    "heading": "Ovlivňují osud galaxií – a možná i naší existence",
+    "body": "Supermasivní černé díry nejsou pasivními obyvateli galaxií – jsou jejich regulátory. Když se černá díra přestane živit, její výbuchy a výtrysky materiálu dokážou zahnat plyn z galaxie a zastavit zrod nových hvězd. Galaxie s velmi aktivní černou dírou tak často přestávají růst. Náš vesmír je proto možná takový, jaký je, právě díky těmto regulátorům: bez nich by galaxie produkovaly hvězdy rychleji a spotřebovaly by plyn dřív, než by vznikly hvězdy dlouho žijící a slunné jako naše. Je to i zásadní pro pochopení našeho místa: Sagittarius A* je tichá, přestala se živit před miliony let, a proto může naše galaxie klidně tvořit hvězdy – mezi nimi Slunce, a tedy i nás."
+   },
+   {
+    "heading": "Záhada jejich vzniku",
+    "body": "Největší záhadou je, jak supermasivní černé díry vůbec vznikly – a jak mohly být tak brzy hotové. Pozorujeme je už v galaxiích, které existovaly jen několik set milionů let po velkém třesku. Na vybudování takové hmotnosti obvyklou cestou – zvolna, srážkami hvězd a dalších černých děr – nebylo dost času. Fyzikové proto přemýšlejí o přímém kolapsu obřích plyných oblaků v raném vesmíru, o supermasivních hvězdách, nebo o sebeduálních genezích. Každá možnost znamená něco jiného o podmínkách raného vesmíru. Vesmírný teleskop Jamese Webba právě pozoruje galaxie z této éry a přináší data, která teorie pomalu, ale jistě zužují. Odpověď se blíží."
+   }
+  ],
+  "why_box": "Sagittarius A* ve středu Mléčné dráhy je vzdálena 26 tisíc světelných let – světlo z jejího okolí k nám letí 26 tisíc let, a přitom je to nejbližší supermasivní černá díra. Právě její pozorování získalo v roce 2020 Nobelovu cenu. Když se podíváte na souhvězdí Střelce, díváte se směrem k obří černé díře, která drží pohromadě vaši galaxii – a o které astronomové ještě před třiceti letech pochybovali, že existuje.",
+  "related_explainery": [
+   "co-je-cerna-dira-a-jak-vznika",
+   "proc-maji-galaxie-spiralni-ramena",
+   "co-je-temna-hmota"
+  ]
+ }
 ]
