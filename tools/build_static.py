@@ -98,6 +98,8 @@ CSS = """
     .theme-card a { color: var(--accent); font-weight: 600; text-decoration: none; }
     .theme-card .count { color: var(--muted); font-size: .85rem; }
     .back { margin-top: 1.5rem; font-size: .9rem; }
+    .post-nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; font-size: .95rem; }
+    .post-nav .next { margin-left: auto; }
     .back a { color: var(--accent); }
     .search-box { width: 100%; padding: .35rem .85rem; margin: .6rem 0 1.2rem; border: 1px solid #1e293b; border-radius: 10px; background: var(--card); color: var(--text); font-size: .95rem; outline: none; }
     .search-box:focus { border-color: var(--accent); }
@@ -330,6 +332,12 @@ def main():
         lang_note = ""
         if item.get("lang") != "cs":
             lang_note = '<p class="lang-note">Anglický originál – český souhrn se nepodařilo vytvořit.</p>'
+        nav_parts = []
+        if i > 0:
+            nav_parts.append(f'<a class="prev" href="/{news[i-1]["_path"]}">← Novější článek</a>')
+        if i + 1 < len(news):
+            nav_parts.append(f'<a class="next" href="/{news[i+1]["_path"]}">Starší článek →</a>')
+        nav_html = '<nav class="post-nav">' + ''.join(nav_parts) + '</nav>' if nav_parts else ""
         jsonld = {
             "@context": "https://schema.org",
             "@type": "NewsArticle",
@@ -356,7 +364,7 @@ def main():
       <p class="meta">Publikováno: {fmt_date(item.get("published"))} · Zdroj: {esc(item.get("source"))}</p>
       <p class="summary">{esc(summary)}</p>
 {lang_note}      <a href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
-{rel_html}    </article>
+{nav_html}{rel_html}    </article>
         <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>
 '''
         page += FOOT
