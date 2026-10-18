@@ -707,5 +707,227 @@
    "proc-maji-galaxie-spiralni-ramena",
    "co-je-temna-hmota"
   ]
+ },
+ {
+  "id": "exp-019",
+  "title": "Co by se stalo bez temné hmoty?",
+  "theme": "temna-hmota",
+  "description": "Bez temné hmoty by vesmír zůstal rovnoměrnou polévkou bez galaxií, hvězd a lidí. Proč je temná hmota neviditelným lešením vesmíru a co ukazují simulace.",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Bez temné hmoty by vesmír zůstal rovnoměrnou, neprůhlednou polévkou – žádné galaxie, žádné hvězdy, žádné planety a žádní lidé. Temná hmota funguje jako neviditelné lešení: kolem jejích hustších míst se nabalovala běžná hmota, vznikly první hvězdy a nakonec i my. Že tomu tak je, dnes vědci dokazují počítačovými simulacemi, které vesmír bez temné hmoty nedokážou vytvořit.",
+  "sections": [
+   {
+    "heading": "Vesmír bez semínek",
+    "body": "Po velkém třesku nebyl vesmír úplně hladký – v reliktním záření jsou vidět drobné teplotní nerovnosti. Ale samy o sobě by nestačily. Plyn (běžná hmota) byl v raném vesmíru pevně svázán se světlem a nemohl se nikam hrnout – teprve po rekombinaci se vydal na vlastní cestu, a to s hustotními rozdíly řádově setiny procenta. Gravitace tak slabých nerovností sama nezachytila dostatečně rychle – vesmír se mezitím rozpínal a rozmazával je. Chyběl rám. Právě ten poskytla temná hmota: neinteraguje se světlem, takže nerovnosti v jejím rozložení zůstaly větší a začaly růst už dávno před rekombinací. Když se ponechal vesmír bez temné hmoty, simulace ukazují, že hustoty v běžné hmotě nestačí k tomu, aby se z nich v rozumném čase zhroutila galaxie."
+   },
+   {
+    "heading": "Žádné galaxie, žádné hvězdy",
+    "body": "Hvězdy vznikají, když se oblak plynu zhroutí pod vlastní hmotností. Ale k tomu potřebuje být oblak dostatečně hmotný a chladný – a právě to bez temných hal zajištěné není. Galaxie potřebují gravitační studnu, která plyn udrží pohromadě a přitáhne další; bez ní by se plyn v rozpínajícím se vesmíru prostě rozptýlil. První hvězdy by vznikly později, řidčeji a v menších kusech. Místo desítek miliard galaxií by vesmír obsahoval spíš obrovská řídká oblaka rozptýleného plynu s několika hvězdami. Slova galaxie bychom vlastně nepotřebovali – nebylo by co katalogizovat."
+   },
+   {
+    "heading": "I kdyby hvězdy vznikly, byl by to jiný svět",
+    "body": "Představme si, že by některé hvězdy přesto vznikly. Bez galaxií jako gravitačních domovů by se však pohybovaly volně vesmírem, obklopené temnotou. Vzácné hvězdné systémy by neměly stabilní prostředí pro vznik planet – planety vznikají z protoplanetárních disků kolem hvězd v klidných prostředích galaktických disků. A i kdyby planety existovaly, těžké prvky by jich bylo málo: zlato, železo a uhlík vznikají především v hustém prostředí galaxií, kde se hmotné hvězdy rodí a umírají. Vesmír bez temné hmoty by byl světem osamělých hvězd bez planet, bez chemie a bez svědků."
+   },
+   {
+    "heading": "Ještě horší: vesmír by se nedržel pohromadě",
+    "body": "Současné kupy galaxií jsou ohromené struktury – tisíce galaxií svázaných gravitací. Bez temné hmoty by však nevznikly: kupa galaxií je v podstatě obrovská temná halos, v níž viditelné galaxie tvoří jen špičku ledovce. Měření ukazují, že v kupách je temné hmoty zhruba osmkrát víc než běžné hmoty. Bez ní by galaxie kupami nebyly – rozpínání vesmíru by je před desítkami miliard let roztrhalo. Podobně by dopadly i jednotlivé galaxie: současné rotace ukazují, že viditelná hmota tvoří jen malou část hmotnosti; bez temné hmoty by se spirální disky rozpadly. Slovy jednoho astrofyzika: vesmír bez temné hmoty by byl jako stavba bez cementu – zdi existují, ale držet se nebudou."
+   },
+   {
+    "heading": "Proč je to důkaz, ne spekulace",
+    "body": "Tohle není jen filosofie. Současné superpočítačové simulace (například IllustrisTNG nebo EAGLE) dokážou z počátečních podmínek vesmíru vypěstovat přesně takový vesmír, jaký vidíme – galaxie, kupy, vlákna – ale jen tehdy, když do simulace zahrneme temnou hmotu. Pokud ji vynecháme, vznikne něco úplně jiného, co s realitou nesouhlasí. Navíc každá další generace simulací potvrzuje totéž: temná hmota není ozdobná hypotéza, ale nezbytná součást receptu. Odpověď na otázku, co by se stalo bez temné hmoty, proto zní: nic z toho, co známe. A to je silný důvod věřit, že tu je – drží vesmír pohromadě doslova od první chvíle."
+   }
+  ],
+  "why_box": "Žijete v příběhu, který by bez temné hmoty vůbec nezačal. Váš domov – planeta – by nevznikl, protože by nevznikla hvězda Slunce, a ta by nevznikla, protože by neexistovala galaxie, která by ji zformovala. Temná hmota je neviditelné lešení, které bylo potřebné jen chvíli na začátku – a pak už ho šlo odstranit. Ale odstranit ho nejde: tvoří většinu hmotnosti vesmíru a drží pohromadě i vaši galaxii. Podívejte se večer na hvězdy – a uvědomte si, že je tam drží něco, co nikdo nikdy neviděl.",
+  "related_explainery": [
+   "jak-vime-ze-temna-hmota-existuje",
+   "co-je-temna-hmota",
+   "cim-by-temna-hmota-mohla-byt"
+  ]
+ },
+ {
+  "id": "exp-020",
+  "title": "Jak se měří gravitační vlny?",
+  "theme": "gravitacni-vlny",
+  "description": "Gravitační vlny deformují prostor o méně než tisícinu protonu. Laserové interferometry, pulsarová časovaná pole a vesmírná LISA – jak se měří nejslabší signály vesmíru.",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Gravitační vlny mění vzdálenosti o méně než tisícinu průměru atomového jádra – a přesto je dnes dokážeme detekovat. Současné interferometry měří změny v miliontinách miliardtiny metru, pulsarová pole poslouchají vesmír desítky let a připravovaná vesmírná observatoř LISA položí do prostoru trojúhelník o hraně 2,5 milionu kilometrů. Přesnost měření gravitačních vln patří k největším technickým triumfům lidstva.",
+  "sections": [
+   {
+    "heading": "Problém: zlomek protonu",
+    "body": "Gravitační vlny jsou neuvěřitelně slabé. Když procházejí Zemí, zkomíhají prostorem – natáhnou ho v jednom směru a stlačí ve druhém. Změna délky je řádově jedna tisícina průměru atomového jádra na vzdálenosti čtyř kilometrů. Představte si, že měříte vzdálenost Prahy–Brno s přesností na tloušťku lidského vlasu – a pak si představte, že je přesnější tisíckrát. To je důvod, proč Einstein sám pochyboval, že budou gravitační vlny někdy pozorovatelné. První detekce v roce 2015 byla proto překvapením i pro samotné experimentátory: o přelomovém signálu se dozvěděli dřív, než si stihli zjistit, zda nejde o testovací vložení signálu do dat."
+   },
+   {
+    "heading": "Laserové interferometry na Zemi",
+    "body": "Klíčem jsou interferometry: dvě kolmé ramen o délce 3–4 km, v nichž laserová paprska obíhají zrcadly. Když gravitační vlna projde, jedno rameno se prodlouží a druhé zkrátí – a světelné vlny se začnou rušit. Detektory LIGO (dvě observatoře v USA), Virgo (Itálie) a KAGRA (Japonsko) musí být citlivější než cokoli předtím: zrcadla o hmotnosti 40 kg visí na vláknech, celý systém je ve vakuu lepším než ve vesmíru a každé zrcadlo je izolováno proti otřesům – od zemětřesení přes projíždějící nákladní auto až po vlny na oceánu. Detekce dvou a více observatoří současně je klíčová: jen tak lze potvrdit, že signál přišel z vesmíru a ne od zemského zdroje šumu."
+   },
+   {
+    "heading": "Pulsary: hodiny, které poslouchají vesmír",
+    "body": "Druhá metoda nepotřebuje laser vůbec. Pulsary – rotující neutronové hvězdy – vydávají paprsky radiového záření s periodicitou srovnatelnou s atomovými hodinami. Vědci desítky let přesně měří časování stovek pulsarů v Mléčné dráze. Když gravitační vlna projde mezi pulsarem a Zemí, mírně naruší časování – a to se projeví jako společná, souhlasná odchylka ve všech pulsarech najednou. V roce 2023 konsorcí NANOGrav, EPTA a PPTA ohlásila první důkaz tohoto společného signálu – pravděpodobně pozadí gravitačních vln od supermasivních černých děr v centrech galaxií. Jde o nejdelší pozorování v dějinách astronomie: pulsarová pole sbírají data přes 20 let."
+   },
+   {
+    "heading": "Do vesmíru: LISA a další",
+    "body": "Zemské detektory mají limit: podmínky na povrchu planety nedovolují měnit delší základy než několik kilometrů. Vesmírná observatoř LISA (plánovaný start 2035) tento limit překoná: trojice družic na oběžné dráze kolem Slunce vzdálených 2,5 milionu kilometrů od sebe bude měnit polohy volně letících zrcadel pomocí laserů. Citlivost na frekvence kolem milihertzů otevře úplně nové zdroje: srážky supermasivních černých děr, bílé trpaslíky ve spirále, a možná i exotické objekty, jako jsou kosmické struny. LISA byla v roce 2024 schválena jako mise Evropské vesmírné agentury a její předchůdkyně LISA Pathfinder už ověřila, že technologie funguje."
+   },
+   {
+    "heading": "Budoucnost měření",
+    "body": "Další generace pozemních detektorů se připravuje: Einstein Telescope v Evropě a Cosmic Explorer v USA zvýší citlivost desetinásobně a umožní sledovat srážky černých děr až k okraji pozorovatelného vesmíru. Do hry vstupuje i atomová interferometrie – technika, která by mohla detekovat gravitační vlny pomocí chování chladných atomů. Vzniká nová věda: astronomie gravitačních vln, která je nezávislá na světle. Každá nová generace přístrojů přinesla v minulosti objevy, které si nikdo nedovedl představit – včetně samotné existence gravitačních vln. Další dekády ukážou, co slyšíme potom."
+   }
+  ],
+  "why_box": "Detektor LIGO měří posun zrcadla o méně než tisícinu průměru protonu – a přesto zachytil srážku dvou černých děr 1,3 miliardy světelných let vzdálenou. Představte si, že byste ze Země zaslechli šepot na Měsíci a rozeznali v něm slova. To je úroveň, na které dnes vesmír posloucháme. A teprve začínáme: vesmírná LISA odhalí zdroje, které si dnes neumíme ani představit. Zítra v 9:50 běží další ranní kontrola – a vesmír mezitím znovu promluví.",
+  "related_explainery": [
+   "co-jsou-gravitacni-vlny",
+   "co-zatim-gravitacni-vlny-odhalily",
+   "co-je-neutronova-hvezda"
+  ]
+ },
+ {
+  "id": "exp-021",
+  "title": "Jak se fotografovalo reliktní záření?",
+  "theme": "relictni-zareni",
+  "description": "Od Gamowovy předpovědi přes náhodný objev v roce 1965 až po družice COBE, WMAP a Planck. Příběh tří generací observatoří, které fotografovaly mládí vesmíru.",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Reliktní záření bylo předpovězeno teoretiky, objeveno náhodou a postupně zmapováno třemi generacemi vesmírných observatoří – COBE, WMAP a Planck. Každá přinesla přesnější fotku mládí vesmíru a každá změnila kosmologii. Cesta od prvního šumu v anténě k mapám s milionem pixelů trvala šedesát let a je jedním z nejkrásnějších příběhů vědy 20. století.",
+  "sections": [
+   {
+    "heading": "Předpověď před objevem",
+    "body": "Idea, že vesmír musí být obalen slabým pozadím starého světla, vznikla už v padesátých letech 20. století. George Gamow a jeho spolupracovníci Ralph Alpher a Robert Herman vypočítali, že raný vesmír musel být horký a že zbytkové záření by dnes mělo teplotu kolem 5 kelvinů. Tehdy je nikdo nebral vážně. V roce 1964 si však fyzici na Princetonu Robert Dicke a Jim Peebles znovu uvědomili, že velký třesk předpovídá detekovatelné mikrovlnné pozadí, a začali stavět přijímač. Netušili, že je předbehli o pár kilometrů – v Bellových laboratořích v New Jersey už totéž záření dva roky registrovala komunikační anténa, aniž by kdokoli tušil, co má před sebou."
+   },
+   {
+    "heading": "Náhodný objev v roce 1965",
+    "body": "Arno Penzias a Robert Wilson pracovali pro Bell Labs na kalibraci velké rohovité antény pro satelitní komunikaci. Zkoušeli odstranit veškerý šum, ale jeden signál zůstával: slabé mikrovlnné záření ze všech směrů, bez ohledu na to, kam anténu natočili. Kontrolovali spoje, vyčistili anténu – šum zůstal. Teprve návštěva Princetonu je přivedla na stopu: Dicke a Peebles právě hledali reliktní záření. Penzias a Wilson změřili teplotu 3,5 kelvinu, publikovali objev a v roce 1978 dostali Nobelovu cenu. Největší vědecký objev dekady přišel z průmyslové antény, která měla sloužit k telefonování."
+   },
+   {
+    "heading": "COBE: první fotka, 1992",
+    "body": "Po objevu následovaly desítky let měření z balónů, raket a pozemských stanic. Definitivní obrat přinesla družice COBE (Cosmic Background Explorer), kterou NASA vypustila v roce 1989. Dva roky sbírala data a výsledkem byla historická tisková konference v roce 1992: tým George Smoota ukázal první mapu teplotních fluktuací reliktního záření. Rozdíly byly řádově stotisícinové, ale stačily k tomu, aby se z nich zrodily galaxie. Noviny psaly o fotografii počátku vesmíru. COBE také potvrdila, že spektrum záření odpovídá dokonalému černému tělesu – velký třesk neměl konkurenci."
+   },
+   {
+    "heading": "WMAP: když přesnost stoupá",
+    "body": "V roce 2001 odstartovala družice WMAP, umístěná v gravitačním bodě L2, 1,5 milionu kilometrů od Země, kde je rušení od Země, Měsíce a Slunce minimalizováno. Devět let sbírala data v pěti frekvenčních pásmech. Výsledky z roku 2003 zpřesnily parametry vesmíru na několik procent: stáří 13,7 miliardy let, složení zhruba pět procent běžné hmoty, čtvrtina temné hmoty a zbytek temná energie. WMAP také detekovala polarizaci reliktního záření – důkaz, že se první fotony ještě před volným letem rozptýlily. Bylo to poprvé, kdy lidstvo měřilo vesmír jako celek s přesností inženýrského přístroje."
+   },
+   {
+    "heading": "Planck: konečná mapa, 2013",
+    "body": "Evropská družice Planck odstartovala v roce 2009 a pracovala do roku 2013. Její detektory byly chlazeny na desetinu stupně nad absolutní nulou a rozlišovaly devíti obloukové minuty – třikrát ostřeji než WMAP. Výsledná mapa dodnes tvoří základ kosmologie. Planck zpřesnil stáří vesmíru na 13,8 miliardy let a potvrdil standardní model s přesností, která překvapila i samotné vědce. Zároveň přinesl drobné záhady: statisticky významné anomálie, jako je hemisférická asymetrie nebo chladná skvrna. Ty mohou být náhodou – nebo prvním náznakem, že za horizontem číhá něco, co neznáme."
+   }
+  ],
+  "why_box": "Každá generace observatoří přinesla přesnější obraz – a každá byla postavena na zklamáních té předchozí. COBE vznikl, protože pozemská měření byla příliš hrubá; WMAP proto, že COBE byl málo citlivý; Planck proto, že WMAP nezodpověděl vše. Je to příběh o tom, jak věda funguje: největší objevy přicházejí z nejmenších nerovností. Fluktuace, které COBE těsně zachytila, určily, kde dnes žijeme. A další generace přístrojů už se připravuje.",
+  "related_explainery": [
+   "co-je-reliktni-zareni",
+   "co-nam-rika-mapa-reliktniho-zareni",
+   "co-je-velky-tresk"
+  ]
+ },
+ {
+  "id": "exp-022",
+  "title": "Jak vznikly těžké prvky ve vesmíru?",
+  "theme": "neutronove-hvezdy",
+  "description": "Zlato ve vašem prstenu vzniklo ve srážce neutronových hvězd. Kde se berou těžké prvky, proč fúze stačí jen do železa a jaký byl objev kilonovy.",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Vodík a helium ve vašem těle vznikly ve chvílích po velkém třesku, uhlík a kyslík v nitru hvězd. Ale zlato, platina nebo uran? Ty vznikají jen tam, kde je neutronů víc než atomů – při výbuchu supernovy a hlavně při srážce neutronových hvězd. Teoretici to tušili desetiletí, ale přímý důkaz přišel až v roce 2017, kdy se srážku dvou neutronových hvězd podařilo pozorovat gravitačními vlnami i světlem současně.",
+  "sections": [
+   {
+    "heading": "Z čeho jsme",
+    "body": "Lidské tělo je složeno z prvků, které vznikly v různých dobách a místech vesmíru. Vodík vznikl přibližně tři minuty po velkém třesku, helium o něco později. Uhlík, kyslík a dusík vznikly v nitrech hvězd, které před miliardami let shořely nebo explodovaly jako supernovy a svůj materiál rozptýlily do vesmíru. To vědci věděli přesně. Ale prvky těžší než železo – zlato, platina, rtuť, uran – se v hvězdách běžnou fúzí vyrobit nedají, protože fúze prvků těžších než železo spotřebovává energii místo toho, aby ji uvolňovala. Jejich vznik zůstával záhadou, kterou fyzikové označovali za jednu z posledních velkých otázek astrofyziky: kde se vzal r-proces?"
+   },
+   {
+    "heading": "Fúze stačí jen do železa",
+    "body": "Hvězdy jsou fúzní reaktory. V jádru Slunce se spojují jádra vodíku na helium a uvolňuje se energie, která nás zahřívá. Ve hmotnějších hvězdách fúze pokračuje dál – helium na uhlík, uhlík na kyslík, až po železo. Tam fúze končí. Železo je nejstabilnější prvek a jeho další slučování už neuvolňuje energii, ale spotřebovává ji. Hvězda pak nedokáže udržet rovnováhu, kolabuje a exploduje jako supernova. I při tomto výbuchu vzniká jen malé množství těžkých prvků – zdaleka ne tolik, kolik ve vesmíru vidíme. Někde musí existovat efektivnější továrna."
+   },
+   {
+    "heading": "Záhada r-procesu",
+    "body": "Vědci tušili, že odpověď spočívá v rychlém záchytu neutronů (r-proces): když je kolem atomového jádra náhle mnoho neutronů, jádro je začne pohlcovat dříve, než se stihnou rozpadnout, a posouvá se tak po periodické tabulce k těžkým prvkům. K tomu ale potřebujete prostředí s obrovskou hustotou neutronů. Supernovy byly dlouho hlavním podezřelým, ale výpočty ukazovaly, že by jich vznikalo příliš málo. Dalším kandidátem byly srážky neutronových hvězd – nejhustějších objektů ve vesmíru. Při srážce dvou takových hvězd se uvolňuje obrovské množství neutronů a materiál se houpá v silném gravitačním poli. Ideální podmínky pro r-proces. Chyběl jen důkaz."
+   },
+   {
+    "heading": "Kilonova: továrna na zlato",
+    "body": "17. srpna 2017 detekovaly observatoře LIGO a Virgo srážku dvou neutronových hvězd (událost GW170817). Během hodin zamířily desítky teleskopů k události a v následujících dnech pozorovaly záblesk v celém elektromagnetickém spektru. Výsledek potvrdil, co teoretici předpovídali: srážka neutronových hvězd produkuje obrovské množství těžkých prvků – včetně zlata, platiny a uranu. Odhadovalo se, že při této jediné srážce vzniklo zlato o hmotnosti několika desítek Zemí. Spektroskopie ukázala přímé stopy po těchto prvcích. Záhada r-procesu byla vyřešena – alespoň z větší části. Dnes vědci věří, že většina zlata ve vesmíru pochází právě z těchto srážek."
+   },
+   {
+    "heading": "Ještě zbývá dořešit",
+    "body": "I když kilonovy jsou hlavním zdrojem, nejsou jediným. Nejtěžší prvky – některé izotopy uranu a plutonia – možná vznikají i při specifických typech supernov, kde rotace hvězdy vytváří silné magnetické pole, které urychluje r-proces. A objevy pokračují: další srážky neutronových hvězd přinášejí stále přesnější data o tom, kolik kterých prvků vzniká. Příští generace gravitačních observatoří odhalí tyto srážky pravidelně a každá přinese nové informace. Chemie vesmíru je stále otevřená kniha – a my čteme teprve první kapitoly."
+   }
+  ],
+  "why_box": "Zlato ve vašem prstenu vzniklo ve srážce dvou neutronových hvězd – nejhustějších objektů vesmíru – před miliardami let. Část materiálu z této srážky se dostala do oblaku, z nějž vznikla Sluneční soustava, a jeden z těch atomů skončil právě ve vašem šperku. Podívejte se na něj: je to důkaz kosmické události, kterou nikdo nikdy neviděl přímo, ale jejíž stopy nosíme na sobě. Nejvzácnější kov na Zemi je vlastně produktem nejextrémnějších fyzikálních dějů ve vesmíru.",
+  "related_explainery": [
+   "co-je-neutronova-hvezda",
+   "co-zatim-gravitacni-vlny-odhalily",
+   "co-jsou-gravitacni-vlny"
+  ]
+ },
+ {
+  "id": "exp-023",
+  "title": "Jak vznikají galaxie?",
+  "theme": "galaxie",
+  "description": "Galaxie rostou jako kapky deště: kolem hustších míst temné hmoty se nabaluje plyn, vznikají hvězdy a malé galaxie se slévají do velkých. Včetně Mléčné dráhy.",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Galaxie nevznikly naráz – rostly jako kapky deště: kolem mírně hustších míst temné hmoty se postupně nabaloval plyn, vznikaly hvězdy a malé galaxie se slévaly do větších. Náš domov, Mléčná dráha, je výsledkem miliard let takového růstu a jeho stavba pokračuje dodnes – za čtyři miliardy let se sloučí s galaxií Andromeda.",
+  "sections": [
+   {
+    "heading": "Ze zrnka temné hmoty",
+    "body": "Po rekombinaci, kdy se vesmír stal průhledným, byly drobné hustotní nerovnosti v temné hmotě už patrné. Tam, kde byla temná hmota o něco hustší, působila gravitace silněji a přitahovala okolní temnou hmotu. Za stovky milionů let vznikly první temné hmotné halos – obrovské, neviditelné studny, do nichž začal z okolí padat plyn. Tento proces probíhal hierarchicky: nejdřív vznikly malé halos o hmotnosti milionů Sluncí, ty se postupně slévaly do větších a větších. Výpočty ukazují, že dnešní obří galaxie vznikly z tisíců menších předchůdců. Vznik galaxie je vlastně příběhem o tom, jak gravitace z chaosu vytvoří řád."
+   },
+   {
+    "heading": "Sběrači plynu",
+    "body": "Temná hmota sama galaxii nevytvoří – potřebuje plyn, z nějž vzniknou hvězdy. Když plyn padal do temných hal, zahříval se a svítil. Jádra galaxií vznikla tam, kde se plyn usadil nejrychleji a nejefektivněji. V raném vesmíru byl plyn chladný a hustý, takže galaxie vznikaly rychle – první už existovaly jen několik set milionů let po velkém třesku. Klíčovým okamžikem bylo zformování prvních hvězd: jejich světlo a výbuchy začaly ohřívat a ionizovat okolní plyn, což zbrzdilo další kolaps a regulovalo růst galaxií. Bez těchto výbuchů by galaxie spotřebovaly plyn příliš rychle a vyhořely by."
+   },
+   {
+    "heading": "Malé se slévají, velké rostou",
+    "body": "Hierarchický model předpovídá, že velké galaxie rostou především slučováním menších. Důkazy vidíme všude: trpasličí galaxie, které obíhají kolem velkých a jsou jejich stavebními kameny; proudy hvězd rozpoutané slučováním; galaxie s více jádry – známkou nedávné srážky. Naše Mléčná dráha právě teď konzumuje trpasličí galaxie: proudy hvězd z rozebrané trpasličí galaxie Sagittarius jsou vidět i pouhým okem tmavé oblohy jako pás přes celou oblohu. Galaxie rostou kanibalismem – a tento proces nikdy nekončí."
+   },
+   {
+    "heading": "Role centrální černé díry",
+    "body": "Každá velká galaxie má ve středu supermasivní černou díru a její přítomnost ovlivňuje, jak galaxie roste. Když černá díra aktivně přijímá materiál, vydává obrovské množství energie – v podobě záření, výtrysků a výbuchů. Ty dokážou odhánět plyn z galaxie a zastavit zrod nových hvězd. Galaxie s velmi aktivní černou dírou proto často přestávají růst. Tato zpětná vazba je jedním z klíčů k pochopení, proč existují velké galaxie s málo hvězdami a malé galaxie s hodně hvězdami. Bez regulace by velké galaxie spotřebovaly veškerý plyn a byly mnohem jasnější, než jaké pozorujeme."
+   },
+   {
+    "heading": "Co ještě nevíme",
+    "body": "Přestože hierarchický model funguje, mnoho otázek zůstává otevřených. Nevíme přesně, jak rychle vznikaly první galaxie – data z teleskopu Jamese Webba ukazují, že některé první galaxie jsou větší a zralejší, než modely předpovídaly. Nevíme, proč některé galaxie zastavily růst a jiné pokračují. A nevíme, jak přesně vznikly supermasivní černé díry v jejich centrech. Vznik galaxií je živou oblastí výzkumu: každý nový teleskop, každá nová simulace přináší data, která nás nutí revidovat modely. To je ale dobré znamení – vesmír je složitější, než si umíme představit."
+   }
+  ],
+  "why_box": "Mléčná dráha není dokončená stavba – je to galaxie v procesu. Právě teď se její hvězdný disk ohýbá srážkou s trpasličí galaxií Sagittarius a za čtyři miliardy let se sloučí s Andromedou. Když se díváte na noční oblohu, díváte se na dílo, které ještě není hotovo. A to je vzrušující: žijeme uvnitř stavby, která trvá miliardy let, a můžeme pozorovat, jak vzniká.",
+  "related_explainery": [
+   "proc-maji-galaxie-spiralni-ramena",
+   "co-je-temna-hmota",
+   "co-je-supermasivni-cerna-dira-v-centru-galaxie"
+  ]
+ },
+ {
+  "id": "exp-024",
+  "title": "Co se stane, když se galaxie srazí?",
+  "theme": "galaxie",
+  "description": "Hvězdy se při srážce galaxií téměř nikdy nesrazí, ale galaxie se promění k nepoznání. Včetně budoucí srážky Mléčné dráhy s Andromedou.",
+  "published": "2026-10-18",
+  "updated": "2026-10-18",
+  "perex": "Když se galaxie srazí, hvězdy se téměř nikdy nesrazí – mezihvězdné vzdálenosti jsou příliš velké. Přesto srážka promění obě galaxie k nepoznání: plynné disky se zmačkají, pruhy hvězd se rozpoutají do vesmíru a centrální černé díry se nakonec sloučí. Náš domov čeká totéž – za čtyři miliardy let se Mléčná dráha srazí s galaxií Andromeda.",
+  "sections": [
+   {
+    "heading": "Hvězdy se téměř nikdy nesrazí",
+    "body": "Když si představíme srážku galaxií, vybavíme si obvykle obraz chaosu a výbuchů. Skutečnost je překvapivě poklidná. Hvězdy v galaxii jsou od sebe tak daleko, že se při srážce dvou galaxií téměř nikdy nesrazí. Pokud bychom žili v jedné z takových galaxií, mnohé bychom nepoznali – obloha by se sice měnila, ale pravděpodobnost, že by naše Sluneční soustava byla zasažena jinou hvězdou, je menší než jedna ku miliardám. Co se skutečně srazí, je plyn a prach – a právě ten určuje, jak srážka vypadá. Zmačkané molekulární oblaky se zhroutí a vznikne vlna zrodu nových hvězd."
+   },
+   {
+    "heading": "Fáze srážky",
+    "body": "Srážka galaxií trvá stovky milionů let a probíhá ve fázích. Nejdřív se galaxie přibližují a její gravitační působení začne deformovat vnější části – vznikají proudy hvězd, které vypadají jako ocasy a mosty. Poté proletí kolem sebe a její gravitační působení vytrhne další materiál. Nakonec se vzájemně zaklesnou a začnou se točit kolem společného těžiště. Plyn a prach se během toho srážejí, zahřívají a září – srážka galaxií je často doprovázena explozí zrodu hvězd. Konečným výsledkem je většinou eliptická galaxie nebo velká spirála s aktivním jádrem."
+   },
+   {
+    "heading": "Černé díry se slévají",
+    "body": "V centru každé velké galaxie číhá supermasivní černá díra. Když se galaxie srazí, černé díry se postupně přibližují a konečně splynou. Toto sloučení je jedním z nejprudších dějů ve vesmíru – uvolňuje energii v podobě gravitačních vln a posílá sloučenou černou díru na rázovou vlnu vesmírem. Vědci simulují tyto srážky počítačovými modely a výsledky ukazují, že sloučení černých děr může trvat miliony let a odehrává se v několika fázích. Přímé důkazy zatím chybí, ale připravovaná vesmírná observatoř LISA by mohla detekovat gravitační vlny ze srážek supermasivních černých děr."
+   },
+   {
+    "heading": "Naše budoucnost: Mléčná dráha × Andromeda",
+    "body": "Naše galaxie se právě teď vzdaluje od Andromedy rychlostí zhruba 110 kilometrů za sekundu. Ale gravitace je táhne zpátky – a výpočty ukazují, že se za přibližně čtyři miliardy let srazí. Modelování budoucí srážky ukazuje, že výsledek bude jediná velká eliptická galaxie. Na Sluneční soustavu to pravděpodobně dopadne jen kosmeticky – obloha se promění v ohromující podívanou, kdy galaxie Andromeda bude vypadat větší než Mléčná dráha. Vědci dokonce spočítali, že Slunce má šanci přežít a bude obíhat kolem výsledné galaxie. Život na Zemi ale tehdy už pravděpodobně nebude existovat – Slunce se stane červeným obrem dřív, než srážka nastane."
+   },
+   {
+    "heading": "Proč je to důležité",
+    "body": "Srážky galaxií nejsou jen kosmická kuriozita – jsou hlavním způsobem, jakým galaxie rostou a vyvíjejí se. Většina velkých galaxií, které vidíme dnes, vznikla sloučováním menších. Srážky aktivují zrod hvězd, živí supermasivní černé díry a mění tvar galaxií. Některé z nejjasnějších objektů vesmíru – tzv. ultrajasné infračervené galaxie – jsou vlastně galaxie v průběhu srážky, jejichž jas září prach ohřátý explozí zrodu hvězd. Bez srážek by dnešní vesmír vypadal úplně jinak – a my bychom tu pravděpodobně nebyli."
+   }
+  ],
+  "why_box": "Představte si, že se podíváte na noční oblohu za čtyři miliardy let. Místo Mléčné dráhy uvidíte obří galaxii Andromedu, která zaplní celý pohled – a vaše Sluneční soustava bude její součástí. Srážka galaxií, která tehdy nastane, je největší událostí v budoucím životě naší galaxie. Vědci již dnes přesně modelují, jak proběhne. A vy máte jedinečnou možnost: dozvědět se o ní předem.",
+  "related_explainery": [
+   "jak-vznikaji-galaxie",
+   "proc-maji-galaxie-spiralni-ramena",
+   "co-je-supermasivni-cerna-dira-v-centru-galaxie"
+  ]
  }
 ]
