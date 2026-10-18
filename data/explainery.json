@@ -433,15 +433,15 @@
   "description": "Od první detekce v roce 2015 ohlásili vědci přes sto srážek černých děr. Co gravitační vlny zatím prozradily a co stále hledají?",
   "published": "2026-10-17",
   "updated": "2026-10-17",
-  "perex": "Gravitační vlny byly detekovány poprvé v září 2015 a od té doby astronomové ohlásili přes sto událostí. Ukázaly srážky černých děr, které nikdy nebylo možné pozorovat světlem, doprovodily srážku neutronových hvězd zábleskem v celém elektromagnetickém spektru a objevily populaci černých děr, kterou teorie předtím neznala.",
+  "perex": "Gravitační vlny byly detekovány poprvé v září 2015 a od té doby astronomové ohlásili přes sto událostí. Ukázaly srážky černých děr, které nikdy nebylo možné opticky pozorovat, doprovodily srážku neutronových hvězd zábleskem v celém elektromagnetickém spektru a objevily populaci černých děr, kterou teorie předtím neznala.",
   "sections": [
    {
     "heading": "Z prvního signálu ke katalogu událostí",
     "body": "14. září 2015 zachytila observatoř LIGO v USA signál s označením GW150914 — chvění prostoru-času způsobené srážkou dvou černých děr vzdálených 1,3 miliardy světelných let. Šlo o první přímou detekci gravitačních vln, jejichž existenci předpověděl Einstein přesně před sto lety. Objevu se říká objev století a v roce 2017 mu byla udělena Nobelova cena. Od té doby se detektory zlepšily, přidal se evropský detektor Virgo a japonský KAGRA — a katalog detekovaných událostí přesáhl sto položek. Z futuristické predikce se stal rutinní astronomický nástroj."
    },
    {
-    "heading": "Černé díry, které světlo nevidí",
-    "body": "Nejčastějšími zdroji gravitačních vln jsou srážky černých děr. Přibližují se k sobě, krouží kolem sebe stále rychleji a nakonec splynou v jedinou — přičemž do prostoru vyzařují energii několika hmotností Slunce v podobě gravitačních vln. Tyto srážky se dějí v úplné tmě: žádný teleskop je nevidí, protože černé díry světlo neemitují. Gravitační vlny jsou jediným způsobem, jak je pozorovat. Detekce odhalily populaci černých děr s hmotnostmi, které teorie hvězdného vývoje předtím nepředpovídaly — například černé díry kolem 30 hmotností Slunce a víc, vzniklé patrně z prvních hvězd vesmíru. Vesmír tak ukazuje, že je ještě nečekanější, než si mysleli."
+    "heading": "Černé díry, které světlo nevyzařují",
+    "body": "Nejčastějšími zdroji gravitačních vln jsou srážky černých děr. Přibližují se k sobě, krouží kolem sebe stále rychleji a nakonec splynou v jedinou — přičemž do prostoru vyzařují energii několika hmotností Slunce v podobě gravitačních vln. Tyto srážky se dějí v úplné tmě: žádný teleskop je nevidí, protože černé díry světlo neemitují. Gravitační vlny jsou jediným způsobem, jak je pozorovat. Detekce odhalily populaci černých děr s hmotnostmi, které teorie hvězdného vývoje předtím nepředpovídaly — například černé díry kolem 30 hmotností Slunce a víc, vzniklé patrně z prvních hvězd vesmíru. Vesmír tak dokazuje, že je mnohem záhadnější, než dokáže naše představivost pojmout."
    },
    {
     "heading": "Srážka neutronových hvězd: multi-messenger astronomy",
@@ -449,14 +449,14 @@
    },
    {
     "heading": "Co zatím nenašly",
-    "body": "Gravitační vlny zatím neodhalily několik očekávaných zdrojů. Nenašly se vlny od samostatných rotujících neutronových hvězd — jsou příliš slabé pro současné detektory, i když by měly existovat. Nepodařilo se zachytit vlny od kosmických strun, hypotetických jednorozměrných defektů raného vesmíru, jejichž detekce by potvrdila teorie velké sjednocení. A dosud nikdo nezachytil stochastické pozadí gravitačních vln — jemné šumění způsobené součtem všech událostí v historii vesmíru, které by mohlo nést stopy z éry velkého třesku. Nález každého z těchto signálů by znamenal revoluci v ještě větším měřítku, než byla samotná první detekce."
+    "body": "Gravitační vlny zatím neodhalily několik očekávaných zdrojů. Nenašly se vlny od samostatných rotujících neutronových hvězd — jsou příliš slabé pro současné detektory, i když by měly existovat. Nepodařilo se zachytit vlny z kosmických strun — hypotetických jednorozměrných defektů raného vesmíru, jejichž detekce by potvrdila teorii velkého sjednocení. A dosud nikdo nezachytil stochastické pozadí gravitačních vln — jemné šumění způsobené součtem všech událostí v historii vesmíru, které by mohlo nést stopy z éry velkého třesku. Nález každého z těchto signálů by znamenal revoluci v ještě větším měřítku, než byla samotná první detekce."
    },
    {
     "heading": "Další detektory na obzoru",
     "body": "Současná generace detektorů (LIGO, Virgo, KAGRA) je citlivá na vlny s frekvencemi kolem 100 Hz — tedy na srážky zhruba hvězdných hmotností. Příští generace půjde dál: vesmírná družice LISA, jejíž start je plánován na polovinu 30. let, otevře pásmo nízkých frekvencí a odhalí srážky supermasivních černých děr v centrech galaxií. Pozemní nástupci Einstein Telescope a Cosmic Explorer zvýší citlivost desetinásobně a umožní sledovat celý vesmír téměř od velkého třesku. A pulsarová časovaná pole — přesné měření časování pulsarů — hledají pomalé vlny od supermasivních černých děr a pravděpodobně je brzy najdou. Každé nové pásmo otevírá vesmír z jiného úhlu — stejně jako dalekohledy před čtyřmi staletími."
    }
   ],
-  "why_box": "Před rokem 2015 člověk pozoroval vesmír výhradně světlem — jediným z pěti smyslů. Gravitační vlny přidaly druhý smysl: sluch. Poprvé slyšíme vesmír, nejen ho vidíme. A podobně jako u ucha i zde platí, že zvuk odhaluje věci, které světlo neukáže: srážky v naprosté tmě, pohyb hmoty, která nic neemituje. Každý zaznamenaný signál je nová zpráva z míst, kam světlo nikdy nevstoupilo.",
+  "why_box": "Před rokem 2015 člověk pozoroval vesmír výhradně pomocí světla — astronomie tedy měla k dispozici pouze jeden „smysl\", ekvivalent lidského zraku. Gravitační vlny přidaly druhý smysl: sluch. Poprvé slyšíme vesmír, nejen ho vidíme. A podobně jako u ucha i zde platí, že zvuk odhaluje věci, které světlo neukáže: srážky v naprosté tmě, pohyb hmoty, která nic neemituje. Každý zaznamenaný signál je nová zpráva z míst, kam světlo nikdy nevstoupilo.",
   "related_explainery": [
    "co-jsou-gravitacni-vlny",
    "co-je-neutronova-hvezda",
