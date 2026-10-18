@@ -65,6 +65,7 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: |
+          export CARD_SHA=$(git rev-parse HEAD)
           python3 << 'EOF'
           import json, os, datetime, requests
           from pathlib import Path
@@ -98,7 +99,7 @@ jobs:
 
           main_text = f"{title}\n\n{summary}" if summary else title
           # jsDelivr CDN – Buffer spolehlivěji stahuje než raw.githubusercontent.com
-          card_url = "https://cdn.jsdelivr.net/gh/zdenekbubak-glitch/Vesmir@main/assets/cards/daily.jpg"
+          card_url = f"https://cdn.jsdelivr.net/gh/zdenekbubak-glitch/Vesmir@{os.environ.get('CARD_SHA', 'main')}/assets/cards/daily.jpg"
           print(f"Card URL: {card_url}")
 
           mutation = """
@@ -182,6 +183,7 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: |
+          export CARD_SHA=$(git rev-parse HEAD)
           python3 << 'EOF'
           import json, os, datetime, requests
           from pathlib import Path
@@ -215,7 +217,7 @@ jobs:
 
           main_text = f"{title}\n\n{summary}" if summary else title
           # jsDelivr CDN – Buffer spolehlivěji stahuje než raw.githubusercontent.com
-          card_url = "https://cdn.jsdelivr.net/gh/zdenekbubak-glitch/Vesmir@main/assets/cards/daily.jpg"
+          card_url = f"https://cdn.jsdelivr.net/gh/zdenekbubak-glitch/Vesmir@{os.environ.get('CARD_SHA', 'main')}/assets/cards/daily.jpg"
           print(f"Card URL: {card_url}")
 
           mutation = """
