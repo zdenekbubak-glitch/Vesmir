@@ -248,7 +248,7 @@
   "description": "Reliktní záření je nejstarší světlo vesmíru — fotka jeho mládí. Jak vzniklo, proč je mikrovlnné a co nám říká o věku a složení vesmíru?",
   "published": "2026-10-17",
   "updated": "2026-10-17",
-  "perex": "Reliktní záření je nejstarší světlo ve vesmíru — záře, která vznikla asi 380 tisíc let po velkém třesku, kdy se vesmír poprvé stal průhledným. Díky rozpínání vesmíru se z původně žhavého viditelného světla natáhlo na chladné mikrovlnné záření o teplotě −270,4 °C, které na Zemi dopadá ze všech stran. Je to doslova fotka mládí vesmíru.",
+  "perex": "Reliktní záření je nejstarší světlo ve vesmíru – záře, která vznikla asi 380 tisíc let po velkém třesku, kdy se vesmír poprvé stal průhledným. Vlivem rozpínání vesmíru se toto původně žhavé viditelné světlo natáhlo do podoby chladného mikrovlnného záření o teplotě −270,4 °C, které k Zemi přichází ze všech stran. Je to doslova fotka vesmírného mládí.",
   "sections": [
    {
     "heading": "Světlo starší než jakákoliv hvězda",
@@ -256,11 +256,11 @@
    },
    {
     "heading": "Konec éry mlhy",
-    "body": "Krátce po velkém třesku byl vesmír žhavý, hustý a zcela neprůhledný. Světlo (fotony) neustále naráželo na volné elektrony a nemohlo se šířit volně — jako když se světlo odráží v husté mlze. Asi 380 tisíc let po počátku se vesmír natolik rozpjal a vychladl, že elektrony a protony konečně splynuly do neutrálních atomů vodíku. V ten okamínek vesmír zprůhledněl a fotony se vydaly na cestu vesmírem. Ty, které zamířily směrem k nám, dorazily na Zemi právě teď — po cestě trvající téměř 13,8 miliardy let."
+    "body": "Krátce po velkém třesku byl vesmír žhavý, hustý a zcela neprůhledný. Světlo (fotony) neustále naráželo na volné elektrony a nemohlo se šířit volně — jako když se světlo odráží v husté mlze. Asi 380 tisíc let po počátku se vesmír natolik rozepjal a vychladl, že elektrony a protony konečně splynuly do neutrálních atomů vodíku. V ten okamžik vesmír zprůhledněl a fotony se vydaly na cestu vesmírem. Ty, které zamířily směrem k nám, dorazily na Zemi právě teď — po cestě trvající téměř 13,8 miliardy let."
    },
    {
     "heading": "Proč je mikrovlnné, když začínalo jako viditelné světlo",
-    "body": "Původně bylo reliktní záření žhavé, oranžové světlo o teplotě zhruba 3 000 °C. Ale mezitím se vesmír rozpjal zhruba tisíckrát — a rozpínání prostoru vlnové délky fotonů fyzicky protáhlo. Je to stejný jev jako u sirény odjíždějící sanitky: zvuk se „natáhne\" do hlubšího tónu, jenže u světla se posouvá barva. Z viditelného světla se stalo infračervené a nakonec mikrovlnné záření, z 3 000 °C zbývá −270,4 °C. Astronomům to umožňuje přesně změřit, jak rychle se vesmír rozpíná — a protože tohle záření má ve vesmíru nejdelší cestu, nese informace o celé historii expanze."
+    "body": "Původně bylo reliktní záření žhavé, oranžové světlo o teplotě zhruba 3 000 °C. Ale mezitím se vesmír rozepjal zhruba tisíckrát — a rozpínání prostoru vlnové délky fotonů fyzicky protáhlo. Je to stejný jev jako u sirény odjíždějící sanitky: zvuk se „natáhne\" do hlubšího tónu, jenže u světla se posouvá barva. Z viditelného světla se stalo infračervené a nakonec mikrovlnné záření, z 3 000 °C zbývá −270,4 °C. Astronomům to umožňuje přesně změřit, jak rychle se vesmír rozpíná — a protože tohle záření má ve vesmíru nejdelší cestu, nese informace o celé historii expanze."
    },
    {
     "heading": "Fotka mládí vesmíru",
@@ -271,7 +271,7 @@
     "body": "Reliktní záření je nejpřesnější měřicí přístroj kosmologie. Jeho analýza říká: vesmír je plochý, je mu 13,8 miliardy let a skládá se z 5 % běžné hmoty, 27 % temné hmoty a 68 % temné energie. Je to také nejsilnější potvrzení velkého třesku — žádný jiný model nedokáže vysvětlit, proč má pozadí vesmíru přesně 2,7 kelvinu a proč je jeho struktura taková, jaká je. Vědci dnes pracují na mapování polarizace reliktního záření, která by mohla odhalit stopy gravitačních vln z éry kosmické inflace — z okamžiků těsně po zrodu vesmíru."
    }
   ],
-  "why_box": "Reliktní záření je nejuniverzálnější vědecký úkaz na světě: dopadá na každý metr čtvereční Země, na každý střechu i na každou anténu. Když jste kdysi přelaďovali televizi a narazili na šum na nezatunelovaném kanálu, asi jedno procento toho šumu byly fotony reliktního záření — částice světla starší než Slunce. Nikdo jiný na světě nemůže říct, že má doma přijímač, který zachytává světlo z prvních okamžiků vesmíru. Vy ano.",
+  "why_box": "Reliktní záření je nejuniverzálnější vědecký úkaz na světě: dopadá na každý metr čtvereční Země, na každou střechu i na každou anténu. Když jste kdysi přelaďovali televizi a narazili na šum na nenaladěném kanálu, asi jedno procento zrnění tvořily fotony reliktního záření – částice světla starší než Slunce. Málokdo si uvědomuje, že měl doma přijímač, který zachytával světlo z prvních okamžiků vesmíru. Vy ano.",
   "related_explainery": [
    "co-je-temna-hmota",
    "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty",
