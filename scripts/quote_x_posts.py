@@ -267,7 +267,7 @@ def main():
 
     for p in auto:
         comment = make_comment(p)
-        text = f"{comment}\n\nPřehledně česky: kosmonovinky.cz"
+        text = f"{comment}\n\nPřehledně česky: kosmonovinky.cz\n\n{p['url']}"
         buffer_create_post(buffer_key, text, as_draft=False)
         time.sleep(1)
 
