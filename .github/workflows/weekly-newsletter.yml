@@ -1,9 +1,6 @@
 name: Týdenní newsletter
 
 on:
-  schedule:
-    - cron: '0 10 * * 1'
-      timezone: 'Europe/Prague'
   workflow_dispatch:
 
 permissions:
