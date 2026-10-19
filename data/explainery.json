@@ -359,7 +359,7 @@
   "description": "Žádný teleskop temnou hmotu nezachytil — přesto o ní vědci nepochybují. Tři nezávislé důkazy, od rotace galaxií po srážku kup, a proč alternativy selhaly.",
   "published": "2026-10-17",
   "updated": "2026-10-17",
-  "perex": "Temnou hmotu nikdo nikdy neviděl, nezachytil v detektoru ani necítil. Přesto astronomové o její existenci prakticky nepochybují — protože o ní svědčí tři naprosto nezávislé druhy pozorování, které se shodují do jednotek procent. Posledním hřebíčkem do rakve alternativ je srážka dvou galaktických kup, kde se viditelná hmota a gravitace prostě rozcházejí.",
+  "perex": "Temnou hmotu nikdo nikdy neviděl, nezachytil v detektoru ani neucítil. Přesto o její existenci astronomové prakticky nepochybují. Svědčí pro ni totiž tři naprosto nezávislé typy pozorování, které se ve svých výsledcích shodují s přesností na jednotky procent. Definitivním potvrzením – a pomyslným hřebíčkem do rakve alternativních teorií – se stala srážka dvou galaktických kup. Při ní se od sebe viditelná hmota a zdroj gravitace zcela jasně oddělily.",
   "sections": [
    {
     "heading": "Od Zwického k Rubinové: osmdesát let pochybností",
@@ -367,11 +367,11 @@
    },
    {
     "heading": "Rotace galaxií: rychleji, než dovoluje zákon",
-    "body": "Detail je důležitý. U planet ve Sluneční soustavě platí: čím dál od středu, tím pomaleji obíhají. Je to přímý důsledek gravitace koncentrované ve středu. U spirálních galaxií to překvapivě neplatí — od jádra ke kraji rotace zhruba neklesá, na okrajích dokonce mírně roste. Aby Newtonovy zákony platily a galaxie se nerozpadla, musí být hmota rozprostřená daleko za viditelný disk, do vzdáleností desetinásobku průměru galaxie. Tuto temnou halu nevidíme v žádné části spektra. Alternativní vysvětlení zní: zákon gravitace neplatí na velkých vzdálenostech. Tato teorie (MOND) rotaci galaxií popíše — ale selhává všude jinde."
+    "body": "Detail je důležitý. U planet ve Sluneční soustavě platí: čím dál od středu, tím pomaleji obíhají. Je to přímý důsledek gravitace koncentrované ve středu. U spirálních galaxií to překvapivě neplatí — od jádra ke kraji rotace zhruba neklesá, na okrajích dokonce mírně roste. Aby Newtonovy zákony platily a galaxie se nerozpadly, musí být jejich hmota rozprostřena daleko za hranice viditelného disku – až do vzdálenosti desetinásobku jeho průměru. Toto takzvané temné halo však nedokážeme zachytit v žádné části elektromagnetického spektra. Alternativní vysvětlení nabízí teorie MOND, podle níž gravitační zákon na velké vzdálenosti neplatí. Ta sice rotaci galaxií popsat dokáže, ale ve všech ostatních měřítkách selhává."
    },
    {
     "heading": "Gravitační čočky a srážka kup: důkaz přímý",
-    "body": "Druhý důkaz je nezávislý na rotaci: gravitační čočky. Světlo vzdálených galaxií procházející kolem hmotné kupy se zakřivuje podle hmotnosti v popředí. Čím víc hmoty, tím víc zakřivení. Astronomové dokážou zmapovat, kde hmota je — a výsledek systematicky ukazuje více hmoty, než kolik svítí. Zlomový okamžik přišel v roce 2006 se srážkou kup v souhvězdí Soulového řetězu (tzv. Bullet Cluster). Při srážce se viditelný plyn podle rentgenu zpomalil a zůstal uprostřed, zatímco většina hmotnosti podle čočkování prolétla dál s galaxiemi. Viditelná hmota a gravitace se prostě fyzicky rozdělily — to žádná modifikace gravitace nevysvětlí, zatímco temná hmota ano."
+    "body": "Druhý důkaz je nezávislý na rotaci: gravitační čočky. Světlo vzdálených galaxií procházející kolem hmotné kupy se zakřivuje podle hmotnosti v popředí. Čím víc hmoty, tím víc zakřivení. Astronomové dokážou zmapovat, kde hmota je — a výsledek systematicky ukazuje více hmoty, než kolik svítí. Zásadní průlom nastal v roce 2006. Tehdy astronomové nasnímali kolizi kup galaxií v souhvězdí Lodního kýlu (tzv. Bullet Cluster), která poskytla první přímý důkaz o existenci temné hmoty. Při srážce se viditelný plyn podle rentgenu zpomalil a zůstal uprostřed, zatímco většina hmotnosti podle čočkování prolétla dál s galaxiemi. Viditelná hmota a gravitace se prostě fyzicky rozdělily — to žádná modifikace gravitace nevysvětlí, zatímco temná hmota ano."
    },
    {
     "heading": "Otisk v reliktním záření",
