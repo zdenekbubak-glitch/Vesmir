@@ -470,7 +470,7 @@
   "description": "Mapa reliktního záření je nejstarší fotografie vesmíru. Co se z jejích skvrn dá odečíst o věku, složení a osudu vesmíru?",
   "published": "2026-10-18",
   "updated": "2026-10-18",
-  "perex": "Reliktní záření nese jemné teplotní skvrny — zbytky zárodků galaxií z doby, kdy byl vesmír starý 380 000 let. Z jejich vzoru lze odečíst věk, složení i geometrii celého vesmíru.",
+  "perex": "Reliktní záření nese jemné teplotní skvrny — otisk zárodků galaxií z doby, kdy byl vesmír starý 380 000 let. Z jejich vzoru lze odečíst věk, složení i geometrii celého vesmíru.",
   "sections": [
    {
     "heading": "Fotografie z dětství vesmíru",
@@ -501,7 +501,7 @@
     "body": "Jednu věc mapa neukazuje: temnou hmotu přímo. Ta neinteraguje se světlem, takže v ní „nezáří\". Ale její stopu vidíme nepřímo — právě v tom, jak silně jsou skvrny vyjádřené. Bez temné hmoty by ve vesmíru nebylo dost gravitačního „lepidla\" na to, aby z fluktuací něco vyrostlo; skvrny by byly slabší a galaxie by vznikaly příliš pozdě. Mapa reliktního záření tak temnou hmotu potvrzuje, i když ji nikdy přímo neuvidíme."
    }
   ],
-  "why_box": "Když se podíváte na mapu reliktního záření, díváte se na světlo, které vzniklo, když neexistoval žádný hvězdný prach, žádná Země, žádné Slunce. Každá galaxie, každá hvězda, každý atom ve vašem těle pochází z jednoho z těch skvrn. Vědci to říkají stručně: jsme způsobem, jakým vesmír poznává sám sebe — a mapa reliktního záření je jeho nejstarší fotografie.",
+  "why_box": "Když se podíváte na mapu reliktního záření, díváte se na světlo, které vzniklo, když neexistoval žádný hvězdný prach, žádná Země, žádné Slunce. Každá galaxie, každá hvězda, každý atom ve vašem těle pochází z jedné z těchto skvrn. Vědci to říkají stručně: jsme způsobem, jakým vesmír poznává sám sebe — a mapa reliktního záření je jeho nejstarší fotografie.",
   "related_explainery": [
    "co-je-reliktni-zareni",
    "co-je-temna-hmota",
