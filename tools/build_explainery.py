@@ -15,7 +15,7 @@ import json
 import re
 import sys
 from pathlib import Path
-from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema
+from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url
 
 _here = Path(__file__).resolve().parent
 for _p in (_here, _here.parent):
@@ -143,7 +143,7 @@ def main():
                            '\n      </ul>\n    </section>\n')
 
         article_image = lookup_image(ex, "explainery", image_library)
-        article_image_url = (base + "/assets/article-images/" + article_image["id"] + ".jpg") if article_image else None
+        article_image_url = image_url(article_image, base)
         jsonld = {
             '@context': 'https://schema.org',
             '@type': 'Article',
@@ -212,5 +212,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 

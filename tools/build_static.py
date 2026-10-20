@@ -18,7 +18,7 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
-from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema
+from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url
 
 MESICE_GEN = ["ledna", "února", "března", "dubna", "května", "června", "července",
               "srpna", "září", "října", "listopadu", "prosince"]
@@ -411,7 +411,7 @@ def main():
             nav_parts.append(f'<a class="next" href="/{news[i+1]["_path"]}">Starší článek →</a>')
         nav_html = '<nav class="post-nav">' + ''.join(nav_parts) + '</nav>' if nav_parts else ""
         article_image = lookup_image(item, "news", image_library)
-        article_image_url = (base + "/assets/article-images/" + article_image["id"] + ".jpg") if article_image else None
+        article_image_url = image_url(article_image, base)
         jsonld = {
             "@context": "https://schema.org",
             "@type": "NewsArticle",
@@ -613,5 +613,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 

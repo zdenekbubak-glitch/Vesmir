@@ -16,7 +16,7 @@ VERSION = 1
 RULES = [
  ('relictni-zareni', ['reliktn', 'mikrovln', 'cmb', 'cosmic microwave']),
  ('temna-hmota', ['temna hmot', 'temne hmot', 'dark matter', 'axion', 'wimp']),
- ('temna-energie', ['temna energi', 'temne energi', 'dark energy', 'hubble tension', 'hubbleovo napeti', 'rozpinani', 'rozpinav']),
+ ('temna-energie', ['temna energi', 'temne energi', 'dark energy', 'hubble tension', 'hubbleovo napeti', 'hubblovo napeti', 'rozpinani', 'rozpinav']),
  ('gravitacni-vlny', ['gravitacni vln', 'gravitational wave', 'ligo', 'virgo', 'kilonov']),
  ('neutronove-hvezdy', ['neutronov', 'pulsar', 'pulzar', 'magnetar']),
  ('exoplanety', ['exoplan', 'planet', 'obyvateln', 'habitabil', 'proxima']),
@@ -75,8 +75,12 @@ def make_asset(entry, folder):
         with Image.open(io.BytesIO(data)) as original:
             original=ImageOps.exif_transpose(original).convert('RGB')
             # Preserve whole scientific image; fit on a dark canvas instead of cutting data.
-            pic=ImageOps.contain(original,(1200,530),Image.Resampling.LANCZOS)
-            im=Image.new('RGB',(1200,630),'#080e1b');im.paste(pic,((1200-pic.width)//2,(530-pic.height)//2))
+            if entry.get('layout') == 'landscape':
+                pic=ImageOps.fit(original,(1200,530),Image.Resampling.LANCZOS,centering=tuple(entry.get('centering',[0.5,0.5])))
+                im=Image.new('RGB',(1200,630),'#080e1b');im.paste(pic,(0,0))
+            else:
+                pic=ImageOps.contain(original,(1200,530),Image.Resampling.LANCZOS)
+                im=Image.new('RGB',(1200,630),'#080e1b');im.paste(pic,((1200-pic.width)//2,(530-pic.height)//2))
     d=ImageDraw.Draw(im)
     d.rectangle((0,530,1200,630),fill='#080e1b')
     if not entry.get('generated'):
@@ -88,7 +92,7 @@ def make_asset(entry, folder):
     lines=textwrap.wrap(entry['credit'],width=100)
     if len(lines)>2: raise ValueError('Credit too long for readable overlay: '+entry['id'])
     for n,line in enumerate(lines): d.text((22,539+n*23),line,font=font(19),fill='#e3e9f3')
-    label=('ESO '+entry['id']+' | ' if not entry.get('generated') else '')+entry['license']+' | Zmenšeno, doplněn rámeček a kredit'
+    label=(entry.get('source_id',entry['id'])+' | ' if not entry.get('generated') else '')+entry['license']+' | '+entry.get('modifications','Zmenšeno, doplněn rámeček a kredit')
     d.text((22,601),label,font=font(16),fill='#aebed4')
     tmp=path.with_suffix('.tmp')
     im.save(tmp,'JPEG',quality=90,optimize=True);tmp.replace(path)
@@ -158,6 +162,7 @@ def prepare(site, download=True):
     cache=read_json(site/'data/article_image_assignments.json',{})
     by_id={e['id']:e for e in available};counts={i:0 for i in by_id}
     known_ids={e['id'] for e in catalog}
+    full_catalog={e['id']:e for e in catalog}
     for image_id in cache.values():
         if image_id in counts: counts[image_id]+=1
     for collection,file in [('news','news.json'),('explainery','explainery.json')]:
@@ -167,10 +172,15 @@ def prepare(site, download=True):
         previous=[]
         for item in items:
             key=key_for(item,collection)
-            if cache.get(key) in known_ids:
+            old=full_catalog.get(cache.get(key),{})
+            words=old.get('match_keywords',[])
+            allowed=not words or any(w in norm(item.get('title','')+' '+item.get('original_title','')) for w in words)
+            if cache.get(key) in known_ids and allowed:
                 previous.append(cache[key]);continue
             topic=topic_for(item)
-            choices=[e for e in available if e['topic']==topic]
+            title=norm(item.get('title','')+' '+item.get('original_title',''))
+            exact=[e for e in available if e.get('match_keywords') and any(w in title for w in e['match_keywords'])]
+            choices=exact or [e for e in available if e['topic']==topic and not e.get('match_keywords')]
             if not choices: choices=[e for e in available if e['topic']=='ostatni']
             if not choices: continue
             def rank(e):
@@ -187,22 +197,26 @@ def lookup(item,collection,library):
     assignments,catalog=library
     return catalog.get(assignments.get(key_for(item,collection)))
 
+def image_url(entry,base=''):
+    if not entry:return None
+    return base+'/assets/article-images/'+entry['id']+'.jpg'+('?v='+str(entry['revision']) if entry.get('revision') else '')
+
 def figure(entry):
     from html import escape as esc
     if not entry:return ''
     links=' '.join('<a href="'+esc(a['url'],quote=True)+'" rel="noopener">'+esc(a['text'])+'</a>'
                    for a in entry.get('credit_links',[]) if a.get('url','').startswith(('https://','http://')))
-    return ('<figure class="article-image"><img src="/assets/article-images/'+esc(entry['id'])+'.jpg" '
+    return ('<figure class="article-image"><img src="'+esc(image_url(entry),quote=True)+'" '
             'alt="'+esc(entry['alt'],quote=True)+'" width="1200" height="630" style="width:100%;height:auto;border-radius:10px">'
             '<figcaption style="font-size:.85rem;color:var(--muted)">'+esc(entry['caption'])+'<br>© / kredit: '+esc(entry['credit'])+
             ' · <a href="'+esc(entry['source'],quote=True)+'">Zdroj</a> · '+links+
             ' · <a href="'+esc(entry['license_url'],quote=True)+'">'+esc(entry['license'])+'</a>'
-            ' · Úpravy: zmenšení, rámeček a kredit.</figcaption></figure>\n')
+            ' · Úpravy: '+esc(entry.get('modifications','zmenšení, rámeček a kredit'))+'.</figcaption></figure>\n')
 
 def image_schema(entry,base):
     if not entry:return None
-    return {'@type':'ImageObject','url':base+'/assets/article-images/'+entry['id']+'.jpg',
-            'contentUrl':base+'/assets/article-images/'+entry['id']+'.jpg',
+    return {'@type':'ImageObject','url':image_url(entry,base),
+            'contentUrl':image_url(entry,base),
             'caption':entry['caption'],'creditText':entry['credit'],'license':entry['license_url'],
             'acquireLicensePage':entry['source'],'width':1200,'height':630}
 
@@ -214,3 +228,4 @@ def main():
     print(f'OK: {len(lib)} obrázků, {len(cache)} trvalých přiřazení. Zpracován archiv i nové články.')
 
 if __name__=='__main__':main()
+
