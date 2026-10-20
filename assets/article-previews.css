@@ -1,0 +1,32 @@
+/* One layout for the home page, archive, article lists and Kosmopedie. */
+.article-teaser {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 144px;
+  gap: .7rem 1rem;
+  align-items: start;
+  margin: .75rem 0 1rem;
+}
+.article-teaser > .summary { grid-column: 1; grid-row: 1; margin: 0; min-width: 0; }
+.article-preview { display: contents; }
+.article-preview > a { grid-column: 2; grid-row: 1; display: block; }
+.article-preview img {
+  display: block; width: 144px; height: 144px; max-width: 100%;
+  border-radius: 8px; background: #0b1424;
+}
+.article-preview figcaption {
+  grid-column: 1 / -1;
+  margin: 0; font-size: 12px; line-height: 1.5; color: var(--muted, #afbed4);
+  overflow-wrap: anywhere;
+}
+.article-preview figcaption a { text-decoration: underline; }
+.post h2 a { color: inherit; }
+.post h2 a:hover { color: var(--accent, #76c8ff); }
+@media (max-width: 520px) {
+  .article-teaser { display: flow-root; }
+  .article-preview { display: block; float: right; width: 120px; margin: 0 0 .7rem .7rem; }
+  .article-preview img { width: 120px; height: 120px; }
+  .article-preview figcaption { margin-top: .4rem; }
+}
+@media (max-width: 340px) {
+  .article-preview { float: none; margin: 0 0 .7rem; }
+}
