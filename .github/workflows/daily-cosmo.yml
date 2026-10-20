@@ -47,12 +47,15 @@ jobs:
           NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
         run: python scripts/fetch_images.py
 
+      - name: Prepare thematic article images
+        run: python3 tools/assign_article_images.py --site-dir .
+
       - name: Commit and push
         run: |
           git config user.name "cosmo-agent"
           git config user.email "agent@users.noreply.github.com"
           mkdir -p assets/gallery
-          git add data/news.json data/images.json assets/cards/daily.jpg assets/gallery
+          git add data/news.json data/images.json data/article_image_assignments.json assets/cards/daily.jpg assets/gallery assets/article-images
           if git diff --staged --quiet; then
             echo "Žádné změny – nic necommitám."
           else
@@ -275,3 +278,4 @@ jobs:
           except Exception as e:
             raise RuntimeError(f"Odeslání na Facebook selhalo: {e}") from e
           EOF
+
