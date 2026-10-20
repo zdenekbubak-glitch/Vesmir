@@ -1,5 +1,20 @@
 [
   {
+    "id": "apod-2026-10-20",
+    "title": "Rok slunečních skvrn",
+    "caption": "Tento neobvyklý jev zachycený v italském Presenzanu vypadá jako obrácená duha se Sluncem zdánlivě svítícím zepředu pod kopci. Ve skutečnosti však jde o protisoumrakové paprsky, které prošly mezerami v mracích u zapadajícího Slunce napříč celou oblohou a sbíhají se na opačné straně. Protože klasická duha vyžaduje odraz světla od dešťových kapek za zády pozorovatele, vytvářejí tyto paprsky pouze působivou iluzi Slunce v popředí.",
+    "thumb": "assets/gallery/apod-2026-10-20.jpg",
+    "image": "assets/gallery/apod-2026-10-20.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/",
+    "published": "2026-10-20",
+    "credit": "Aurelia Degli Esposti",
+    "original_title": "A Year of Sunspots",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-10-20T07:23:37.048615+00:00"
+  },
+  {
     "id": "apod-2026-10-19",
     "title": "Houslový klíč: Neobvyklý rentgenově horký rádiový zdroj",
     "caption": "Rádiová struktura „Houslový klíč“ se rozprostírá přes 2 miliony světelných let a připomíná známý hudební symbol, ve viditelném světle je však skryta za naší Mléčnou dráhou. Pozorování rentgenových observatoří Chandra a eROSITA vedla k hypotéze, že tamní oblak nabitých částic původně vyvrhla supermasivní černá díra a později jej znovu aktivovala rázová vlna vzniklá srážkou dvou galaktických kup.",
