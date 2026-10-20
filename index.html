@@ -8,6 +8,20 @@
   <meta name="google-site-verification" content="DX-3laafUZtuLB63ajLtUZgtNG8RJpOiS3PdjqmO5Zo" />
   <title>Kosmologické novinky</title>
   <meta name="description" content="Česky o kosmologii: temná hmota, černé díry, galaxie, reliktní záření, gravitační vlny, neutronové hvězdy a další. Týdenní výběr editora, pět nejzajímavějších článků v plném znění.">
+  <link rel="canonical" href="https://kosmonovinky.cz/">
+  <meta property="og:title" content="Kosmologické novinky">
+  <meta property="og:description" content="Česky a srozumitelně o kosmologii, černých dírách, temné hmotě a výzkumu vesmíru.">
+  <meta property="og:url" content="https://kosmonovinky.cz/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kosmologické novinky">
+  <meta property="og:locale" content="cs_CZ">
+  <meta property="og:image" content="https://kosmonovinky.cz/assets/logo-icon-square.png">
+  <meta property="og:image:alt" content="Kosmologické novinky – logo webu">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Kosmologické novinky">
+  <meta name="twitter:description" content="Česky a srozumitelně o kosmologii, černých dírách, temné hmotě a výzkumu vesmíru.">
+  <meta name="twitter:image" content="https://kosmonovinky.cz/assets/logo-icon-square.png">
+  <meta name="twitter:image:alt" content="Kosmologické novinky – logo webu">
   <style>
     :root {
       --bg: #0b0f19;
@@ -544,7 +558,7 @@
           const src = mediaSrc(item);
           return (
             '<a class="is-pending" href="images.html#img-' + encodeURIComponent(item.id) + '">' +
-            '<img src="' + src + '" alt="" onload="this.parentNode.classList.remove(\'is-pending\')" onerror="this.parentNode.remove()">' +
+            '<img src="' + src + '" alt="' + escapeHtml(item.alt || item.title || item.original_title || 'Astronomický snímek') + '" onload="this.parentNode.classList.remove(\'is-pending\')" onerror="this.parentNode.remove()">' +
             '<span>' + escapeHtml(item.title) + '</span></a>'
           );
         }).join('');
@@ -556,3 +570,4 @@
   </script>
 </body>
 </html>
+

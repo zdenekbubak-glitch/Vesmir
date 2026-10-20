@@ -42,6 +42,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="alternate" type="application/atom+xml" title="Kosmologické novinky – Atom feed" href="/feed.xml">
   <title>Obrázky – Kosmologické novinky</title>
+  <link rel="canonical" href="https://kosmonovinky.cz/images.html">
+  <meta name="description" content="Astronomické snímky z NASA APOD, Hubble a Webb s českými popisky.">
+  <meta property="og:title" content="Obrázky vesmíru – Kosmologické novinky">
+  <meta property="og:description" content="Astronomické snímky z NASA APOD, Hubble a Webb s českými popisky.">
+  <meta property="og:url" content="https://kosmonovinky.cz/images.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kosmologické novinky">
+  <meta property="og:locale" content="cs_CZ">
+  <meta property="og:image" content="https://kosmonovinky.cz/assets/logo-icon-square.png">
+  <meta property="og:image:alt" content="Kosmologické novinky – logo webu">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Obrázky vesmíru – Kosmologické novinky">
+  <meta name="twitter:description" content="Astronomické snímky z NASA APOD, Hubble a Webb s českými popisky.">
+  <meta name="twitter:image" content="https://kosmonovinky.cz/assets/logo-icon-square.png">
+  <meta name="twitter:image:alt" content="Kosmologické novinky – logo webu">
   <style>
     :root { --bg:#0b0f19; --card:#151b2d; --text:#e8eef7; --accent:#6ea8fe; --muted:#9aa8c7; }
     * { box-sizing: border-box; }
@@ -148,7 +163,7 @@
           const src = item.id ? ('assets/gallery/' + item.id + '.jpg') : (item.image || item.thumb || '');
           return (
             '<figure class="figure is-pending" id="img-' + escapeHtml(item.id) + '">' +
-            '<img src="' + src + '" alt="' + escapeHtml(item.title) + '" onload="this.parentNode.classList.remove(\'is-pending\')" onerror="this.parentNode.remove()">' +
+            '<img src="' + src + '" alt="' + escapeHtml(item.alt || item.title || item.original_title || 'Astronomický snímek') + '" onload="this.parentNode.classList.remove(\'is-pending\')" onerror="this.parentNode.remove()">' +
             '<h2>' + escapeHtml(item.title) + '</h2>' +
             '<div class="meta">' + escapeHtml(item.source) + ' · ' + escapeHtml(item.published || '') + ' · ' + escapeHtml(item.credit || '') + '</div>' +
             '<p class="caption">' + escapeHtml(item.caption) + '</p>' +
@@ -191,3 +206,4 @@
   </script>
 </body>
 </html>
+
