@@ -7,10 +7,10 @@
   <link rel="alternate" type="application/atom+xml" title="Kosmologické novinky – Atom feed" href="/feed.xml">
   <meta name="google-site-verification" content="DX-3laafUZtuLB63ajLtUZgtNG8RJpOiS3PdjqmO5Zo" />
   <title>Kosmologické novinky</title>
-  <meta name="description" content="Česky o kosmologii: temná hmota, černé díry, galaxie, reliktní záření, gravitační vlny, neutronové hvězdy a další. Týdenní výběr editora, pět nejzajímavějších článků v plném znění.">
+  <meta name="description" content="Kosmologické novinky česky: temná hmota, černé díry, galaxie a nejnovější výzkum vesmíru. Srozumitelné souhrny studií, Kosmopedie a týdenní newsletter.">
   <link rel="canonical" href="https://kosmonovinky.cz/">
   <meta property="og:title" content="Kosmologické novinky">
-  <meta property="og:description" content="Česky a srozumitelně o kosmologii, černých dírách, temné hmotě a výzkumu vesmíru.">
+  <meta property="og:description" content="Kosmologické novinky česky: temná hmota, černé díry, galaxie a nejnovější výzkum vesmíru. Srozumitelné souhrny studií, Kosmopedie a týdenní newsletter.">
   <meta property="og:url" content="https://kosmonovinky.cz/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Kosmologické novinky">
@@ -19,7 +19,7 @@
   <meta property="og:image:alt" content="Kosmologické novinky – logo webu">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Kosmologické novinky">
-  <meta name="twitter:description" content="Česky a srozumitelně o kosmologii, černých dírách, temné hmotě a výzkumu vesmíru.">
+  <meta name="twitter:description" content="Kosmologické novinky česky: temná hmota, černé díry, galaxie a nejnovější výzkum vesmíru. Srozumitelné souhrny studií, Kosmopedie a týdenní newsletter.">
   <meta name="twitter:image" content="https://kosmonovinky.cz/assets/logo-icon-square.png">
   <meta name="twitter:image:alt" content="Kosmologické novinky – logo webu">
   <style>
@@ -313,6 +313,8 @@
   });
 })();
 </script>
+  <link rel="stylesheet" href="/assets/article-previews.css">
+  <script src="/assets/article-previews.js"></script>
 </head>
 <body>
   <header>
@@ -410,6 +412,7 @@
     }
 
     function renderPost(item) {
+      const preview = ArticlePreviews.get(item);
       const inserted = new Date(item.inserted_at).toLocaleString('cs-CZ', { timeZone: 'Europe/Prague' });
       const published = item.published ? new Date(item.published).toLocaleDateString('cs-CZ') : '';
       const isEn = item.lang === 'en' || item.needs_translation;
@@ -418,11 +421,11 @@
         : '';
       return (
         '<article class="post">' +
-        '<h2>' + escapeHtml(item.title) + '</h2>' +
+        '<h2><a href="' + escapeHtml(preview.href) + '">' + escapeHtml(item.title) + '</a></h2>' +
         '<div class="meta">Vloženo: ' + inserted + ' · Zdroj: ' + escapeHtml(item.source) +
         (published ? ' · Publikováno: ' + published : '') + '</div>' +
         note +
-        '<p class="summary">' + escapeHtml(item.summary) + '</p>' +
+        '<div class="article-teaser">' + preview.html + '<p class="summary">' + escapeHtml(item.summary) + '</p></div>' +
         '<a href="' + (item.url || '') + '" target="_blank" rel="noopener">Původní zdroj →</a>' +
         '</article>'
       );
@@ -498,6 +501,7 @@
         const res = await fetch('data/news.json?' + Date.now());
         if (!res.ok) throw new Error('Soubor ještě neexistuje');
         const items = await res.json();
+        await ArticlePreviews.ready;
 
         if (!items || items.length === 0) {
           feed.innerHTML = '<p class="empty">Zatím žádné novinky. Agent je přidá při příštím běhu.</p>';

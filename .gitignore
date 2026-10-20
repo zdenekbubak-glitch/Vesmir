@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+assets/article-images/sources/*.render.json
+assets/article-images/sources/*.download

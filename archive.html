@@ -245,6 +245,8 @@
   });
 })();
 </script>
+  <link rel="stylesheet" href="/assets/article-previews.css">
+  <script src="/assets/article-previews.js"></script>
 </head>
 <body id="top">
   <header>
@@ -329,6 +331,7 @@
     }
 
     function renderPost(item) {
+      const preview = ArticlePreviews.get(item);
       const inserted = new Date(item.inserted_at).toLocaleString('cs-CZ', { timeZone: 'Europe/Prague' });
       const published = item.published ? new Date(item.published).toLocaleDateString('cs-CZ') : '';
       const isEn = item.lang === 'en' || item.needs_translation;
@@ -337,12 +340,12 @@
         : '';
       return `
         <article class="post">
-          <h2>${escapeHtml(item.title)}</h2>
+          <h2><a href="${escapeHtml(preview.href)}">${escapeHtml(item.title)}</a></h2>
           <div class="meta">
             Vloženo: ${inserted} · Zdroj: ${escapeHtml(item.source)} ${published ? '· Publikováno: ' + published : ''}
           </div>
           ${note}
-          <p class="summary">${escapeHtml(item.summary)}</p>
+          <div class="article-teaser">${preview.html}<p class="summary">${escapeHtml(item.summary)}</p></div>
           <a href="${item.url}" target="_blank" rel="noopener">Původní zdroj →</a>
         </article>`;
     }
@@ -463,6 +466,7 @@
         const res = await fetch('data/news.json?' + Date.now());
         if (!res.ok) throw new Error('Soubor ještě neexistuje');
         const items = await res.json();
+        await ArticlePreviews.ready;
 
         if (!items || items.length === 0) {
           content.innerHTML = '<p class="empty">Archiv je zatím prázdný.</p>';
