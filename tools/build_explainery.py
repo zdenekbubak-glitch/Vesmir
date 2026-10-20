@@ -15,6 +15,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema
 
 _here = Path(__file__).resolve().parent
 for _p in (_here, _here.parent):
@@ -74,6 +75,7 @@ def main():
         print('explainery.json nenalezen - přeskakuji.')
         return
     explainery = json.loads(expl_path.read_text(encoding='utf-8'))
+    image_library = prepare_images(site, download=False)
 
     # novinky pro sekci Související novinky (stejná logika rubrik jako build_static)
     news = json.loads((site / 'data' / 'news.json').read_text(encoding='utf-8'))
@@ -140,6 +142,8 @@ def main():
                            '      <ul>\n' + '\n'.join(items) +
                            '\n      </ul>\n    </section>\n')
 
+        article_image = lookup_image(ex, "explainery", image_library)
+        article_image_url = (base + "/assets/article-images/" + article_image["id"] + ".jpg") if article_image else None
         jsonld = {
             '@context': 'https://schema.org',
             '@type': 'Article',
@@ -151,10 +155,10 @@ def main():
             'author': {'@type': 'Organization', 'name': 'Kosmologické novinky'},
             'publisher': {'@type': 'Organization', 'name': 'Kosmologické novinky'},
             'mainEntityOfPage': url,
-            'image': f'{base}/assets/logo-icon-square.png',
+            'image': image_schema(article_image, base),
         }
         page = page_head(f"{ex['title']} - Kosmopedie - Kosmologické novinky", description, url,
-                         og_image=f'{base}/assets/logo-icon-square.png', jsonld=jsonld)
+                         og_image=article_image_url, jsonld=jsonld)
         page = page.replace('</style>', WHY_CSS + '</style>')
         page += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › <a href=\"/kosmopedie/\">Kosmopedie</a> › {esc(ex['title'])}</p>\n"
                  f"    <article class=\"post\">\n"
@@ -162,7 +166,7 @@ def main():
                  f"      <h1>{esc(ex['title'])}</h1>\n"
                  f"      <p class=\"meta\">Kosmopedie · Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))}</p>\n"
                  f"      <p class=\"explainer-perex\">{esc(ex.get('perex'))}</p>\n"
-                 + sec_html + why_html + rel_html + rel_ex_html +
+                 + image_figure(article_image) + sec_html + why_html + rel_html + rel_ex_html +
                  '    </article>\n'
                  '    <p class=\"back\"><a href=\"/kosmopedie/\">← Celá Kosmopedie</a> · <a href=\"/temata/\">Rubriky</a></p>\n')
         page += FOOT
@@ -208,4 +212,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 

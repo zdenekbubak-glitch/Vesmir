@@ -18,6 +18,7 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
+from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema
 
 MESICE_GEN = ["ledna", "února", "března", "dubna", "května", "června", "července",
               "srpna", "září", "října", "listopadu", "prosince"]
@@ -257,7 +258,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
     card = 'summary_large_image' if has_content_image else 'summary'
     article = bool(jsonld and jsonld.get('@type') in ('Article', 'NewsArticle'))
     og_type = 'article' if article else 'website'
-    share_alt = (jsonld.get('name') or title) if has_content_image and jsonld else 'Kosmologické novinky – logo webu'
+    share_alt = ((jsonld.get('image') or {}).get('caption') if isinstance(jsonld.get('image'), dict) else None) or (jsonld.get('name') or title) if has_content_image and jsonld else 'Kosmologické novinky – logo webu'
     og = (f'<meta property="og:image" content="{esc(share_image)}">\n  '
           f'<meta property="og:image:alt" content="{esc(share_alt)}">\n  '
           '<meta property="og:locale" content="cs_CZ">\n  '
@@ -346,6 +347,7 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
 
     news = json.loads((site / "data" / "news.json").read_text(encoding="utf-8"))
+    image_library = prepare_images(site, download=False)
     images = []
     img_path = site / "data" / "images.json"
     if img_path.exists():
@@ -408,6 +410,8 @@ def main():
         if i + 1 < len(news):
             nav_parts.append(f'<a class="next" href="/{news[i+1]["_path"]}">Starší článek →</a>')
         nav_html = '<nav class="post-nav">' + ''.join(nav_parts) + '</nav>' if nav_parts else ""
+        article_image = lookup_image(item, "news", image_library)
+        article_image_url = (base + "/assets/article-images/" + article_image["id"] + ".jpg") if article_image else None
         jsonld = {
             "@context": "https://schema.org",
             "@type": "NewsArticle",
@@ -419,11 +423,11 @@ def main():
             "author": {"@type": "Organization", "name": item.get("source") or "Kosmologické novinky"},
             "publisher": {"@type": "Organization", "name": "Kosmologické novinky"},
             "mainEntityOfPage": url,
-            "image": f"{base}/assets/logo-icon-square.png",
+            "image": image_schema(article_image, base),
         }
         page = page_head(
             f'{item.get("title")} – Kosmologické novinky', description, url,
-            og_image=f"{base}/assets/logo-icon-square.png", jsonld=jsonld,
+            og_image=article_image_url, jsonld=jsonld,
         )
         title_txt = esc(item.get("title"))
         crumb_title = title_txt if len(title_txt) <= 45 else title_txt[:45].rstrip() + "…"
@@ -432,6 +436,7 @@ def main():
       <div class="theme-badge"><a href="/temata/{theme_slug}.html">{esc(theme_label)}</a></div>
       <h1>{esc(item.get("title"))}</h1>
       <p class="meta">Publikováno: {fmt_date(item.get("published"))} · Zdroj: {esc(item.get("source"))}</p>
+      {image_figure(article_image)}
       <p class="summary">{esc(summary)}</p>
 {lang_note}      <a href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
 {nav_html}{rel_html}    </article>
@@ -608,4 +613,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
