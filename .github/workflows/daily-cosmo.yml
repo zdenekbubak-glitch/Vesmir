@@ -55,7 +55,7 @@ jobs:
           git config user.name "cosmo-agent"
           git config user.email "agent@users.noreply.github.com"
           mkdir -p assets/gallery
-          git add data/news.json data/images.json data/article_image_assignments.json assets/cards/daily.jpg assets/gallery assets/article-images
+          git add data/news.json data/images.json data/article_image_assignments.json data/article_image_previews.json assets/cards/daily.jpg assets/gallery assets/article-images
           if git diff --staged --quiet; then
             echo "Žádné změny – nic necommitám."
           else
