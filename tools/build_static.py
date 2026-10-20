@@ -17,6 +17,7 @@ import sys
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urljoin, urlsplit
 
 MESICE_GEN = ["ledna", "února", "března", "dubna", "května", "června", "července",
               "srpna", "září", "října", "listopadu", "prosince"]
@@ -213,13 +214,82 @@ def classify(item):
     return FALLBACK_THEME[0]
 
 
+def absolute_url(base, value):
+    """Preserve remote HTTPS image URLs; resolve local paths once."""
+    value = str(value or '').strip()
+    result = urljoin(base.rstrip('/') + '/', value)
+    return result if urlsplit(result).scheme in ('http', 'https') else ''
+
+
+def image_alt(item):
+    """Use editorial alt text when present; otherwise the existing image title."""
+    return re.sub(r'\s+', ' ', str(item.get('alt') or item.get('title') or
+                                   item.get('original_title') or 'Astronomický snímek')).strip()
+
+
+def breadcrumb_data(canonical, title):
+    parsed = urlsplit(canonical)
+    base = f'{parsed.scheme}://{parsed.netloc}'
+    parts = parsed.path.strip('/').split('/')
+    labels = {'clanky': 'Přehled článků', 'temata': 'Rubriky',
+              'obrazky': 'Obrázky', 'kosmopedie': 'Kosmopedie'}
+    label = title.split(' – ')[0].split(' - Kosmopedie')[0]
+    entries = [('Hlavní stránka', base + '/')]
+    section = parts[0]
+    if section in labels:
+        entries.append((labels[section], base + '/' + section + '/'))
+        if len(parts) > 1 and parts[-1] != 'index.html':
+            entries.append((label, canonical))
+    elif parsed.path not in ('/', '/index.html'):
+        entries.append((label, canonical))
+    if len(entries) < 2:
+        return None
+    return {'@type': 'BreadcrumbList', 'itemListElement': [
+        {'@type': 'ListItem', 'position': i, 'name': name, 'item': url}
+        for i, (name, url) in enumerate(entries, 1)]}
+
+
 def page_head(title, description, canonical, og_image=None, jsonld=None):
-    og = ""
-    if og_image:
-        og = f'<meta property="og:image" content="{esc(og_image)}">\n  '
-    ld = ""
+    base = canonical.split('/', 3)[:3]
+    base = '/'.join(base)
+    has_content_image = bool(og_image and not og_image.endswith('/assets/logo-icon-square.png'))
+    share_image = absolute_url(base, og_image or '/assets/logo-icon-square.png')
+    card = 'summary_large_image' if has_content_image else 'summary'
+    article = bool(jsonld and jsonld.get('@type') in ('Article', 'NewsArticle'))
+    og_type = 'article' if article else 'website'
+    share_alt = (jsonld.get('name') or title) if has_content_image and jsonld else 'Kosmologické novinky – logo webu'
+    og = (f'<meta property="og:image" content="{esc(share_image)}">\n  '
+          f'<meta property="og:image:alt" content="{esc(share_alt)}">\n  '
+          '<meta property="og:locale" content="cs_CZ">\n  '
+          f'<meta name="twitter:card" content="{card}">\n  '
+          f'<meta name="twitter:title" content="{esc(title)}">\n  '
+          f'<meta name="twitter:description" content="{esc(description)}">\n  '
+          f'<meta name="twitter:image" content="{esc(share_image)}">\n  '
+          f'<meta name="twitter:image:alt" content="{esc(share_alt)}">\n  ')
+    nodes = []
     if jsonld:
-        ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>\n  '
+        node = {k: v for k, v in jsonld.items() if k != '@context' and v not in (None, '')}
+        if article:
+            # A brand logo is not a picture of the subject of the article.
+            if node.get('image') == base + '/assets/logo-icon-square.png':
+                node.pop('image')
+            node['url'] = canonical
+            node['author'] = {'@type': 'Organization', 'name': 'Kosmologické novinky', 'url': base + '/'}
+            node['publisher'] = {'@type': 'Organization', 'name': 'Kosmologické novinky',
+                                 'url': base + '/', 'logo': {'@type': 'ImageObject', 'url': base + '/assets/logo-icon-square.png'}}
+            for key, tag in [('datePublished', 'article:published_time'), ('dateModified', 'article:modified_time')]:
+                if node.get(key):
+                    og += f'<meta property="{tag}" content="{esc(node[key])}">\n  '
+        nodes.append(node)
+    breadcrumb = breadcrumb_data(canonical, title)
+    if breadcrumb:
+        nodes.append(breadcrumb)
+    ld = ''
+    if nodes:
+        graph = {'@context': 'https://schema.org', '@graph': nodes}
+        # Prevent source text containing </script> from breaking out of JSON-LD.
+        encoded = json.dumps(graph, ensure_ascii=False).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
+        ld = f'<script type="application/ld+json">{encoded}</script>\n  '
     return f"""<!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -232,7 +302,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
   <meta property="og:url" content="{esc(canonical)}">
-  <meta property="og:type" content="article">
+  <meta property="og:type" content="{og_type}">
   <meta property="og:site_name" content="Kosmologické novinky">
   {og}<style>{CSS}</style>
   <script>{COUNTER_JS}</script>
@@ -441,7 +511,7 @@ def main():
             url = f"{base}/{img['_path']}"
             caption = img.get("caption") or img.get("title")
             description = truncate(caption)
-            img_url = f"{base}/{img.get('image') or img.get('thumb')}"
+            img_url = absolute_url(base, img.get("image") or img.get("thumb"))
             jsonld = {
                 "@context": "https://schema.org",
                 "@type": "ImageObject",
@@ -458,7 +528,7 @@ def main():
       <h1>{esc(img.get("title"))}</h1>
       <p class="meta">Zdroj: {esc(img.get("source"))} · {fmt_date(img.get("published"))}{" · Autor snímku: " + esc(img.get("credit")) if img.get("credit") else ""}</p>
       <figure>
-        <img src="/{esc(img.get('image') or img.get('thumb'))}" alt="{esc(img.get('title'))}" loading="lazy">
+        <img src="{esc(img_url)}" alt="{esc(image_alt(img))}" loading="lazy">
         <figcaption>{esc(caption)}</figcaption>
       </figure>
       <p class="source-link"><a href="{esc(img.get("url"))}" target="_blank" rel="noopener">Původní zdroj snímku →</a></p>
@@ -538,3 +608,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

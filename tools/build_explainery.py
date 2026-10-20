@@ -156,7 +156,7 @@ def main():
         page = page_head(f"{ex['title']} - Kosmopedie - Kosmologické novinky", description, url,
                          og_image=f'{base}/assets/logo-icon-square.png', jsonld=jsonld)
         page = page.replace('</style>', WHY_CSS + '</style>')
-        page += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › <a href=\"/kosmopedie/\">Kosmopedie</a> › <a href=\"/temata/{theme}.html\">{esc(theme_label)}</a></p>\n"
+        page += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › <a href=\"/kosmopedie/\">Kosmopedie</a> › {esc(ex['title'])}</p>\n"
                  f"    <article class=\"post\">\n"
                  f"      <div class=\"theme-badge\"><a href=\"/temata/{theme}.html\">{esc(theme_label)}</a></div>\n"
                  f"      <h1>{esc(ex['title'])}</h1>\n"
@@ -208,3 +208,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
