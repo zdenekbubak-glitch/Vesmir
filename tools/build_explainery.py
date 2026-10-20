@@ -194,7 +194,7 @@ def main():
                     f'{base}/kosmopedie/')
     idx += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › Kosmopedie</p>\n"
             f"    <h1 class=\"section-title\" style=\"font-size:1.4rem;color:var(--text)\">Kosmopedie <span class=\"meta\">({len(explainery)} významů)</span></h1>\n"
-            '    <p class=\"summary\">Vysvětlení základních pojmů kosmologie. Každý význam doplňuje rubriku novinek na stejné téma.</p>\n'
+            '    <p class=\"summary\">Vysvětlení základních pojmů kosmologie. Každý význam doplňuje rubriku novinek na stejné téma. Kliknutím na název hesla nebo obrázek otevřete celé vysvětlení.</p>\n'
             + list_html)
     idx += FOOT
     (out / 'kosmopedie' / 'index.html').write_text(idx, encoding='utf-8')
@@ -214,6 +214,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 
