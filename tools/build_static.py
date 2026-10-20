@@ -203,6 +203,28 @@ def truncate(text, limit=158):
     return cut.rstrip(" ,.;:") + "…"
 
 
+def article_perex(item, limit=280):
+    """Short teaser for listings only; never modifies the full detail text."""
+    text = str(item.get('perex') or item.get('summary') or item.get('original_title') or item.get('title') or '')
+    text = re.split(r'\s*Proč\s+je\s+to\s+zajímavé\s*:', text, maxsplit=1, flags=re.IGNORECASE)[0]
+    text = re.sub(r'\s+', ' ', text).strip()
+    parts = re.split(r'(?<=[.!?])\s+(?=[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ])', text)
+    result = ''
+    for sentence in parts[:2]:
+        candidate = (result + ' ' + sentence).strip()
+        if len(candidate) > limit:
+            break
+        result = candidate
+    if result:
+        return result
+    if len(text) <= limit:
+        return text
+    clipped = text[:limit - 1]
+    if ' ' in clipped:
+        clipped = clipped.rsplit(' ', 1)[0]
+    return clipped.rstrip(' ,;:–-') + '…'
+
+
 def id_digits(item_id):
     return re.sub(r"[^0-9]", "", str(item_id))[:12] or "0"
 
@@ -464,7 +486,7 @@ def main():
                           f'<a href="/temata/{item["_theme"]}.html">{esc(THEME_LABEL.get(item["_theme"], FALLBACK_THEME[1]))}</a></p>'
                           f'<div class="article-teaser">'
                           + thumbnail(lookup_image(item,"news",image_library),'/'+item['_path'])
-                          + f'<p class="summary">{esc(item.get("summary"))}</p></div></article>\n')
+                          + f'<p class="summary">{esc(article_perex(item))}</p></div><a href="/{item["_path"]}">Číst celý článek →</a></article>\n')
     idx = page_head("Přehled článků – Kosmologické novinky",
                     "Kompletní přehled českých souhrnů kosmologických studií a novinek: temná hmota, černé díry, gravitační vlny, galaxie a další.",
                     f"{base}/clanky/")
@@ -491,7 +513,7 @@ def main():
                         f'<p class="meta">{fmt_date(it.get("published"))} · {esc(it.get("source"))}</p>'
                         f'<div class="article-teaser">'
                         + thumbnail(lookup_image(it,"news",image_library),'/'+it['_path'])
-                        + f'<p class="summary">{esc(it.get("summary"))}</p></div></article>\n' for it in items)
+                        + f'<p class="summary">{esc(article_perex(it))}</p></div><a href="/{it["_path"]}">Číst celý článek →</a></article>\n' for it in items)
         desc = f"Novinky a souhrny studií z oblasti: {label}. České vysvětlení nejnovějších poznatků kosmologie."
         page = page_head(f"{label} – rubrika – Kosmologické novinky", desc, url,
                          og_image=f"{base}/assets/logo-icon-square.png")
@@ -620,6 +642,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
