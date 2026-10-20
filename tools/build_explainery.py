@@ -15,7 +15,7 @@ import json
 import re
 import sys
 from pathlib import Path
-from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url
+from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url, thumbnail
 
 _here = Path(__file__).resolve().parent
 for _p in (_here, _here.parent):
@@ -186,7 +186,9 @@ def main():
             list_html += (f"    <article class=\"item\"><h2><a href=\"/kosmopedie/{ex['_slug']}.html\">{esc(ex['title'])}</a></h2>"
                           f"<p class=\"meta\">Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))} · "
                           f"<a href=\"/temata/{theme}.html\">{esc(label)}</a></p>"
-                          f"<p class=\"summary\">{esc(ex.get('perex'))}</p></article>\n")
+                          f"<div class=\"article-teaser\">"
+                          + thumbnail(lookup_image(ex,'explainery',image_library),'/kosmopedie/'+ex['_slug']+'.html')
+                          + f"<p class=\"summary\">{esc(ex.get('perex'))}</p></div></article>\n")
     idx = page_head('Kosmopedie - slovník pojmů kosmologie - Kosmologické novinky',
                     'Kosmopedie: vysvětlení pojmů kosmologie v češtině. Temná hmota, černé díry, gravitační vlny, reliktní záření, neutronové hvězdy a další - jednoduše a trvale.',
                     f'{base}/kosmopedie/')

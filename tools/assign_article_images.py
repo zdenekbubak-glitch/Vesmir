@@ -4,15 +4,12 @@ Only Python standard library + Pillow. Never changes source articles or their da
 """
 import argparse
 import hashlib
-import io
 import json
 import re
-import textwrap
 import unicodedata
-import urllib.request
 from pathlib import Path
 
-VERSION = 1
+VERSION = 2
 RULES = [
  ('relictni-zareni', ['reliktn', 'mikrovln', 'cmb', 'cosmic microwave']),
  ('temna-hmota', ['temna hmot', 'temne hmot', 'dark matter', 'axion', 'wimp']),
@@ -36,6 +33,7 @@ def norm(s):
     return ''.join(c for c in unicodedata.normalize('NFKD',str(s).lower()) if not unicodedata.combining(c))
 
 def topic_for(item):
+    if item.get('theme') in dict(RULES): return item['theme']
     title = norm(item.get('title','')+' '+item.get('original_title',''))
     for topic, words in RULES:
         if any(w in title for w in words): return topic
@@ -59,97 +57,53 @@ def font(size):
         if Path(p).exists(): return ImageFont.truetype(p,size)
     return ImageFont.load_default(size=size)
 
-def make_asset(entry, folder):
-    from PIL import Image, ImageOps, ImageDraw
-    path = folder / (entry['id']+'.jpg')
-    if path.exists():
-        with Image.open(path) as check: check.verify()
-        return
-    if entry.get('generated'):
-        im = draw_schematic(entry)
-    else:
-        req=urllib.request.Request(entry['download'],headers={'User-Agent':'Kosmonovinky-image-library/1.0'})
-        with urllib.request.urlopen(req,timeout=45) as response:
-            data=response.read(25*1024*1024+1)
-        if len(data)>25*1024*1024: raise ValueError('Image larger than 25 MB')
-        with Image.open(io.BytesIO(data)) as original:
-            original=ImageOps.exif_transpose(original).convert('RGB')
-            # Preserve whole scientific image; fit on a dark canvas instead of cutting data.
-            if entry.get('layout') == 'landscape':
-                pic=ImageOps.fit(original,(1200,530),Image.Resampling.LANCZOS,centering=tuple(entry.get('centering',[0.5,0.5])))
-                im=Image.new('RGB',(1200,630),'#080e1b');im.paste(pic,(0,0))
-            else:
-                pic=ImageOps.contain(original,(1200,530),Image.Resampling.LANCZOS)
-                im=Image.new('RGB',(1200,630),'#080e1b');im.paste(pic,((1200-pic.width)//2,(530-pic.height)//2))
-    d=ImageDraw.Draw(im)
-    d.rectangle((0,530,1200,630),fill='#080e1b')
-    if not entry.get('generated'):
-        label='TEMATICKÝ OBRÁZEK · '+entry['kind']
-        box=d.textbbox((0,0),label,font=font(18))
-        d.rectangle((15,12,40+box[2],46),fill='#080e1b')
-        d.text((24,18),label,font=font(18),fill='#e3e9f3')
-    # All derived previews retain the full credit, source ID, license and alteration notice.
-    lines=textwrap.wrap(entry['credit'],width=100)
-    if len(lines)>2: raise ValueError('Credit too long for readable overlay: '+entry['id'])
-    for n,line in enumerate(lines): d.text((22,539+n*23),line,font=font(19),fill='#e3e9f3')
-    label=(entry.get('source_id',entry['id'])+' | ' if not entry.get('generated') else '')+entry['license']+' | '+entry.get('modifications','Zmenšeno, doplněn rámeček a kredit')
-    d.text((22,601),label,font=font(16),fill='#aebed4')
-    tmp=path.with_suffix('.tmp')
-    im.save(tmp,'JPEG',quality=90,optimize=True);tmp.replace(path)
+def source_identity(entry):
+    # Raw pixel hashes also catch files downloaded under different names/URLs.
+    return entry.get('source_family') or entry.get('source_pixel_sha256') or entry.get('source_sha256') or entry.get('source_id') or entry.get('source') or entry['id']
 
-def draw_schematic(entry):
-    """Own mathematical diagrams, explicitly labelled; never pretend to be observation data."""
-    from PIL import Image,ImageDraw
-    import math,random
-    im=Image.new('RGB',(1200,630),'#0a1120');d=ImageDraw.Draw(im)
-    rng=random.Random(entry['id']); t=entry['topic'];v=entry.get('variant',0)
-    colors=['#67b8f7','#ca99f9','#62dccc']
-    if t=='relictni-zareni':
-        # Qualitative anisotropy mosaic, no real CMB data or fabricated scale.
-        for x in range(170,1030,12):
-            for y in range(110,450,12):
-                if ((x-600)/430)**2+((y-280)/170)**2<1:
-                    c=rng.choice(['#265e98','#5799c0','#d4ba85','#b67151','#783b45'])
-                    d.rectangle((x,y,x+12,y+12),fill=c)
-    elif t in ('gravitacni-vlny','gravimetrie-testy'):
-        for row in range(5):
-            pts=[(x,145+row*60+math.sin(x/75+row+v)*24) for x in range(90,1110,3)]
-            d.line(pts,fill=colors[row%3],width=3)
-    elif t in ('temna-energie','velky-tresk'):
-        for row in range(7):
-            pts=[(x,280+(row-3)*(12+((x-100)/1000)**(1.5+v*.4)*62)) for x in range(100,1100,5)]
-            d.line(pts,fill=colors[row%3],width=3)
-        for x in range(200,1100,180):
-            r=5+(x-100)//80;d.ellipse((x-r,280-r,x+r,280+r),outline='#e8ce97',width=3)
-    elif t=='temna-hmota':
-        d.ellipse((330,100,870,460),outline='#527eb5',width=3)
-        for n in range(180):
-            a=rng.random()*math.tau;r=rng.random()**0.5*240
-            x=600+math.cos(a)*r;y=280+math.sin(a)*r*.6
-            d.ellipse((x-2,y-2,x+2,y+2),fill='#8acdf6')
-        d.ellipse((530,235,670,325),outline='#e8ce97',width=4)
-    elif t=='multivesmir':
-        for n in range(16):
-            x=rng.randint(130,1070);y=rng.randint(125,430);r=rng.randint(20,65)
-            d.ellipse((x-r,y-r,x+r,y+r),outline=colors[n%3],width=3)
-    else:
-        for x in range(120,1120,65):d.line((x,130,x,445),fill='#2d4b6c',width=2)
-        for y in range(130,446,45):d.line((120,y,1095,y),fill='#2d4b6c',width=2)
-        for n in range(40):
-            x=rng.randrange(120,1095,65);y=rng.randrange(130,446,45)
-            d.ellipse((x-5,y-5,x+5,y+5),fill=colors[n%3])
-    d.text((30,25),'Kosmologické novinky · '+entry['title'],font=font(25),fill='#e7eef8')
-    d.text((30,487),'TEMATICKÉ SCHÉMA · nikoli snímek ani naměřená data',font=font(20),fill='#aebed4')
-    return im
 
-def prepare(site, download=True):
+SUBTOPICS = {
+ 'detectors': ['detektor','lux','zeplin',' lz','primou detek','primo hled','mineral'],
+ 'axions': ['axion','aksion','dali','temny foton','temnych foton'],
+ 'indirect': ['fermi','anihil','gama','gamma','integral'],
+ 'particles': ['detektor','lux','zeplin',' lz','wimp','axion','aksion','castic','foton','neutralin','rozptyl','mineral'],
+ 'lensing': ['cock','lensing'],
+ 'rotation': ['rotac','otacen','rotuj','rotation'],
+ 'clusters': ['kup','cluster'],
+ 'structure': ['halo','simul','map','struktur','sit','pavucin'],
+ 'expansion': ['rozpin','hubble','hubbl','napeti','sireny'],
+ 'supernova': ['supernov','refsdal'],
+ 'field': ['kvintes','fantom','pole','holograf','energii','energie'],
+}
+
+
+def subtopic_for(item):
+    text = norm(item.get('title','')+' '+item.get('original_title',''))
+    for tag, words in SUBTOPICS.items():
+        if any(w in text for w in words): return tag
+    return 'general'
+
+
+def candidates_for(item, available):
+    topic=topic_for(item); text=norm(item.get('title','')+' '+item.get('original_title',''))
+    pool=[e for e in available if topic in e.get('topics',[e['topic']]) and not e.get('alias_of')]
+    exact=[e for e in pool if e.get('match_keywords') and any(norm(w) in text for w in e['match_keywords'])]
+    subtopic=subtopic_for(item)
+    specific=[e for e in pool if subtopic != 'general' and subtopic in e.get('subtopics',[])]
+    general=[e for e in pool if 'general' in e.get('subtopics',['general']) and not e.get('match_keywords')]
+    return exact or specific or general or [e for e in available if e['topic']=='ostatni' and not e.get('alias_of')]
+
+
+def prepare(site, download=True, reassign=False):
     site=Path(site);catalog=read_json(site/'data/article_image_catalog.json',[])
     if not catalog: raise ValueError('Chybí data/article_image_catalog.json')
     folder=site/'assets/article-images';folder.mkdir(parents=True,exist_ok=True)
     available=[]
     def prepare_entry(e):
         try:
-            if download: make_asset(e,folder)
+            if download:
+                from article_image_assets import make_asset as render_asset
+                render_asset(e,folder)
             if (folder/(e['id']+'.jpg')).is_file(): return e
         except Exception as err: print('Obrázek přeskočen:',e['id'],err,flush=True)
     if download:
@@ -160,38 +114,64 @@ def prepare(site, download=True):
         available=[e for e in catalog if (folder/(e['id']+'.jpg')).is_file()]
     if not available: raise RuntimeError('Žádný dostupný tematický obrázek')
     cache=read_json(site/'data/article_image_assignments.json',{})
-    by_id={e['id']:e for e in available};counts={i:0 for i in by_id}
-    known_ids={e['id'] for e in catalog}
-    full_catalog={e['id']:e for e in catalog}
-    for image_id in cache.values():
-        if image_id in counts: counts[image_id]+=1
+    if reassign: cache={}
+    by_id={e['id']:e for e in available}
+    missing=set(cache.values())-set(by_id)
+    if missing: raise RuntimeError('Uložené obrázky nejsou dostupné; přiřazení nebylo změněno: '+', '.join(sorted(missing)))
+    records=[]
     for collection,file in [('news','news.json'),('explainery','explainery.json')]:
-        items=read_json(site/'data'/file,[])
-        # Oldest first so adding fresh news cannot reshuffle previous assignments.
-        items.sort(key=lambda e:(e.get('inserted_at') or e.get('published') or '',key_for(e,collection)))
-        previous=[]
-        for item in items:
-            key=key_for(item,collection)
-            old=full_catalog.get(cache.get(key),{})
-            words=old.get('match_keywords',[])
-            allowed=not words or any(w in norm(item.get('title','')+' '+item.get('original_title','')) for w in words)
-            if cache.get(key) in known_ids and allowed:
-                previous.append(cache[key]);continue
-            topic=topic_for(item)
-            title=norm(item.get('title','')+' '+item.get('original_title',''))
-            exact=[e for e in available if e.get('match_keywords') and any(w in title for w in e['match_keywords'])]
-            choices=exact or [e for e in available if e['topic']==topic and not e.get('match_keywords')]
-            if not choices: choices=[e for e in available if e['topic']=='ostatni']
-            if not choices: continue
-            def rank(e):
-                tie=hashlib.sha256((key+e['id']).encode()).hexdigest()
-                return (e['id'] in previous[-3:],counts[e['id']],tie)
-            e=min(choices,key=rank);cache[key]=e['id'];counts[e['id']]+=1;previous.append(e['id'])
+        records.extend((item,collection) for item in read_json(site/'data'/file,[]))
+    records.sort(key=lambda r:(r[0].get('inserted_at') or r[0].get('published') or '',key_for(*r)))
+    history={};last_used={}
+    for step,(item,collection) in enumerate(records):
+        key=key_for(item,collection);topic=topic_for(item)
+        previous=history.setdefault(topic,[])
+        if cache.get(key) in by_id:
+            chosen=by_id[cache[key]]
+        else:
+            choices=candidates_for(item,available)
+            if not choices: raise ValueError('Chybí vhodný obrázek: '+str(item.get('title')))
+            recent=set(previous[-5:])
+            fresh=[e for e in choices if source_identity(e) not in recent]
+            choices=fresh or choices
+            chosen=min(choices,key=lambda e:(last_used.get(source_identity(e),-1), hashlib.sha256((key+e['id']).encode()).hexdigest()))
+            cache[key]=chosen['id']
+        identity=source_identity(chosen)
+        previous.append(identity);last_used[identity]=step
     target=site/'data/article_image_assignments.json'
     content=json.dumps(cache,ensure_ascii=False,indent=2,sort_keys=True)+'\n'
     if not target.exists() or target.read_text(encoding='utf-8')!=content:
         tmp=target.with_suffix('.tmp');tmp.write_text(content,encoding='utf-8');tmp.replace(target)
+    export_previews(site,cache,by_id)
     return cache,by_id
+
+
+def thumbnail(entry, href):
+    from html import escape as esc
+    if not entry or not entry.get('thumbnail'): return ''
+    links=' '.join('<a href="'+esc(a['url'],quote=True)+'">'+esc(a['text'])+'</a>' for a in entry.get('credit_links',[]) if a.get('url','').startswith(('https://','http://')))
+    return ('<figure class="article-preview"><a href="'+esc(href,quote=True)+'" aria-label="Otevřít článek: '+esc(entry['title'],quote=True)+'">'
+            '<img src="/'+esc(entry['thumbnail'],quote=True)+'" alt="'+esc(entry['alt'],quote=True)+'" width="288" height="288" loading="lazy" decoding="async"></a>'
+            '<figcaption>Tematický obrázek · '+esc(entry['kind'])+' · '+esc(entry['credit'])+' '+links+' · '
+            '<a href="'+esc(entry['source'],quote=True)+'">Zdroj</a> · '
+            '<a href="'+esc(entry['license_url'],quote=True)+'">'+esc(entry['license'])+'</a> · '+esc(entry.get('thumbnail_modifications','zmenšení'))+'</figcaption></figure>')
+
+
+def export_previews(site, assignments, catalog):
+    from build_static import slugify, id_digits
+    items=read_json(site/'data/news.json',[])
+    items.sort(key=lambda x:x.get('inserted_at') or '',reverse=True)
+    used=set();manifest={}
+    for item in items:
+        stem=slugify(item.get('title','clanek'))+'-'+id_digits(item.get('id'));slug=stem;n=2
+        while slug in used: slug=stem+'-'+str(n);n+=1
+        used.add(slug)
+        entry=catalog.get(assignments.get(key_for(item,'news')))
+        identity=str(item.get('id') or item.get('url') or item.get('title') or '')
+        href='/clanky/'+slug+'.html'
+        manifest[identity]={'href':href,'html':thumbnail(entry,href)}
+    target=site/'data/article_image_previews.json'
+    target.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 def lookup(item,collection,library):
     assignments,catalog=library
@@ -224,7 +204,8 @@ def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--site-dir',default='.')
     ap.add_argument('--offline',action='store_true',help='Pouze již stažené obrázky; žádná síť')
-    args=ap.parse_args();cache,lib=prepare(args.site_dir,not args.offline)
+    ap.add_argument('--reassign',action='store_true',help='Výslovné jednorázové přerozdělení celého archivu')
+    args=ap.parse_args();cache,lib=prepare(args.site_dir,not args.offline,args.reassign)
     print(f'OK: {len(lib)} obrázků, {len(cache)} trvalých přiřazení. Zpracován archiv i nové články.')
 
 if __name__=='__main__':main()

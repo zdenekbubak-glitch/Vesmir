@@ -18,7 +18,7 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
-from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url
+from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url, thumbnail
 
 MESICE_GEN = ["ledna", "února", "března", "dubna", "května", "června", "července",
               "srpna", "září", "října", "listopadu", "prosince"]
@@ -306,6 +306,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
   <meta property="og:type" content="{og_type}">
   <meta property="og:site_name" content="Kosmologické novinky">
   {og}<style>{CSS}</style>
+  <link rel="stylesheet" href="/assets/article-previews.css">
   <script>{COUNTER_JS}</script>
   {ld}</head>
 <body>
@@ -460,7 +461,10 @@ def main():
         for item in groups[key]:
             list_html += (f'    <article class="item"><h2><a href="/{item["_path"]}">{esc(item.get("title"))}</a></h2>'
                           f'<p class="meta">{fmt_date(item.get("published"))} · {esc(item.get("source"))} · '
-                          f'<a href="/temata/{item["_theme"]}.html">{esc(THEME_LABEL.get(item["_theme"], FALLBACK_THEME[1]))}</a></p></article>\n')
+                          f'<a href="/temata/{item["_theme"]}.html">{esc(THEME_LABEL.get(item["_theme"], FALLBACK_THEME[1]))}</a></p>'
+                          f'<div class="article-teaser">'
+                          + thumbnail(lookup_image(item,"news",image_library),'/'+item['_path'])
+                          + f'<p class="summary">{esc(item.get("summary"))}</p></div></article>\n')
     idx = page_head("Přehled článků – Kosmologické novinky",
                     "Kompletní přehled českých souhrnů kosmologických studií a novinek: temná hmota, černé díry, gravitační vlny, galaxie a další.",
                     f"{base}/clanky/")
@@ -484,7 +488,10 @@ def main():
             continue
         url = f"{base}/temata/{slug}.html"
         cards = "".join(f'    <article class="item"><h2><a href="/{it["_path"]}">{esc(it.get("title"))}</a></h2>'
-                        f'<p class="meta">{fmt_date(it.get("published"))} · {esc(it.get("source"))}</p></article>\n' for it in items)
+                        f'<p class="meta">{fmt_date(it.get("published"))} · {esc(it.get("source"))}</p>'
+                        f'<div class="article-teaser">'
+                        + thumbnail(lookup_image(it,"news",image_library),'/'+it['_path'])
+                        + f'<p class="summary">{esc(it.get("summary"))}</p></div></article>\n' for it in items)
         desc = f"Novinky a souhrny studií z oblasti: {label}. České vysvětlení nejnovějších poznatků kosmologie."
         page = page_head(f"{label} – rubrika – Kosmologické novinky", desc, url,
                          og_image=f"{base}/assets/logo-icon-square.png")
