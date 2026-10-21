@@ -197,6 +197,7 @@
       .row { grid-template-columns: 1fr; }
     }
   </style>
+  <link rel="stylesheet" href="/assets/navigation.css">
 </head>
 <body>
   <header>
@@ -205,13 +206,13 @@
       <div class="logo-text"><h1>Kontakt</h1></div>
     </div>
     <p class="subtitle">Napište nám k projektu Kosmologické novinky</p>
-    <nav>
+    <nav aria-label="Hlavní navigace">
       <a href="/index.html">Novinky</a>
       <a href="/clanky/">Přehled článků</a>
       <a href="/temata/">Rubriky</a>
       <a href="/kosmopedie/">Kosmopedie</a>
       <a href="/images.html">Obrázky</a>
-      <a href="/contact.html">Kontakt</a>
+      <a href="/contact.html" aria-current="page">Kontakt</a>
       <a href="/feed.xml" style="color:#f0b429">RSS</a>
     </nav>
     <div class="signup-box">
@@ -294,3 +295,4 @@
   </script>
 </body>
 </html>
+
