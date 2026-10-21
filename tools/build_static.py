@@ -10,6 +10,7 @@ Generátor statických SEO stránek pro kosmonovinky.cz
 Použití: python3 tools/build_static.py --site-dir . --out _site --base https://kosmonovinky.cz
 """
 import argparse
+import editorial
 import html
 import json
 import re
@@ -255,7 +256,7 @@ def breadcrumb_data(canonical, title):
     base = f'{parsed.scheme}://{parsed.netloc}'
     parts = parsed.path.strip('/').split('/')
     labels = {'clanky': 'Přehled článků', 'temata': 'Rubriky',
-              'obrazky': 'Obrázky', 'kosmopedie': 'Kosmopedie'}
+              'obrazky': 'Obrázky', 'kosmopedie': 'Kosmopedie', 'pohledem-editora': 'Pohledem editora'}
     label = title.split(' – ')[0].split(' - Kosmopedie')[0]
     entries = [('Hlavní stránka', base + '/')]
     section = parts[0]
@@ -283,6 +284,8 @@ def navigation_html(canonical):
     elif path == '/images.html' or path.startswith('/obrazky/'):
         active = '/images.html'
         exact = path == '/images.html'
+    elif path.startswith('/pohledem-editora/'):
+        active, exact = '/clanky/', False
     elif path == '/contact.html':
         active, exact = '/contact.html', True
     else:
@@ -329,7 +332,8 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
             if node.get('image') == base + '/assets/logo-icon-square.png':
                 node.pop('image')
             node['url'] = canonical
-            node['author'] = {'@type': 'Organization', 'name': 'Kosmologické novinky', 'url': base + '/'}
+            if (node.get('author') or {}).get('@type') != 'Person':
+                node['author'] = {'@type': 'Organization', 'name': 'Kosmologické novinky', 'url': base + '/'}
             node['publisher'] = {'@type': 'Organization', 'name': 'Kosmologické novinky',
                                  'url': base + '/', 'logo': {'@type': 'ImageObject', 'url': base + '/assets/logo-icon-square.png'}}
             for key, tag in [('datePublished', 'article:published_time'), ('dateModified', 'article:modified_time')]:
@@ -428,7 +432,7 @@ def main():
     for item in news:
         by_theme.setdefault(item["_theme"], []).append(item)
 
-    urls = []  # (loc, lastmod) pro sitemap
+    editor_posts, urls = editorial.build(site, out, base, image_library, page_head, FOOT, fmt_date)
 
     # ---- stránky novinek ----
     (out / "clanky").mkdir(exist_ok=True)
@@ -496,16 +500,19 @@ def main():
 
     # ---- přehled všech článků ----
     groups = {}
-    for item in news:
+    for item in sorted(news + editor_posts, key=lambda x: x.get("inserted_at") or x.get("published") or "", reverse=True):
         dt = parse_dt(item.get("inserted_at") or item.get("published"))
         key = f"{dt.year}-{dt.month:02d}" if dt else "0000-00"
         groups.setdefault(key, []).append(item)
     list_html = ""
     for key in sorted(groups, reverse=True):
-        dt = parse_dt(groups[key][0].get("inserted_at"))
+        dt = parse_dt(groups[key][0].get("inserted_at") or groups[key][0].get("published"))
         label = f"{MESICE_NOM[dt.month - 1]} {dt.year}" if dt else key
         list_html += f'    <h2 class="section-title">{esc(label)}</h2>\n'
         for item in groups[key]:
+            if "body" in item:
+                list_html += editorial.card(item, fmt_date)
+                continue
             list_html += (f'    <article class="item"><h2><a href="/{item["_path"]}">{esc(item.get("title"))}</a></h2>'
                           f'<p class="meta">{fmt_date(item.get("published"))} · {esc(item.get("source"))} · '
                           f'<a href="/temata/{item["_theme"]}.html">{esc(THEME_LABEL.get(item["_theme"], FALLBACK_THEME[1]))}</a></p>'
@@ -515,10 +522,11 @@ def main():
     idx = page_head("Přehled článků – Kosmologické novinky",
                     "Kompletní přehled českých souhrnů kosmologických studií a novinek: temná hmota, černé díry, gravitační vlny, galaxie a další.",
                     f"{base}/clanky/")
+    editor_archive_link = '<p><a href="/pohledem-editora/">Pohledem editora — všechny komentáře Zdeňka Bubáka →</a></p>\n' if editor_posts else ""
     idx += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › Přehled článků</p>
-    <h1 class="section-title" style="font-size:1.4rem;color:var(--text)">Přehled článků ({len(news)})</h1>
+    <h1 class="section-title" style="font-size:1.4rem;color:var(--text)">Přehled článků ({len(news) + len(editor_posts)})</h1>
     <p class="summary">Všechny články přehledně po měsících, nejnovější nahoře. Kliknutím na titulek otevřete celý text — výběr zúží fulltextové hledání níže.</p>
-    <input type="search" id="clanky-search" class="search-box" placeholder="Hledat v článcích…" aria-label="Hledat v článcích">
+{editor_archive_link}    <input type="search" id="clanky-search" class="search-box" placeholder="Hledat v článcích…" aria-label="Hledat v článcích">
 {list_html}    <script>{SEARCH_JS}</script>
 '''
     idx += FOOT
@@ -667,6 +675,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
