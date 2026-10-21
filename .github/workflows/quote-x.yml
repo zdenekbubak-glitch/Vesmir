@@ -6,6 +6,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: quote-x-posts
+  cancel-in-progress: false
+
 jobs:
   quote:
     runs-on: ubuntu-latest
@@ -30,9 +34,12 @@ jobs:
         run: python scripts/quote_x_posts.py
 
       - name: Uložit stav použitých příspěvků
+        if: ${{ always() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ ! -f state/quote_x_used.json ]; then exit 0; fi
           git add state/quote_x_used.json
           git diff --cached --quiet || git commit -m "Quote X: aktualizace stavu použitých příspěvků"
           git push
+
