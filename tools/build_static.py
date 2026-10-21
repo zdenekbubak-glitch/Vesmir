@@ -272,6 +272,38 @@ def breadcrumb_data(canonical, title):
         for i, (name, url) in enumerate(entries, 1)]}
 
 
+def navigation_html(canonical):
+    """Derive the active section from this page's canonical path, not click history."""
+    path = urlsplit(canonical).path
+    active = None
+    exact = False
+    if path in ('/', '/index.html', '/archive.html'):
+        active = '/index.html'
+        exact = path != '/archive.html'
+    elif path == '/images.html' or path.startswith('/obrazky/'):
+        active = '/images.html'
+        exact = path == '/images.html'
+    elif path == '/contact.html':
+        active, exact = '/contact.html', True
+    else:
+        for section in ('clanky', 'temata', 'kosmopedie'):
+            prefix = '/' + section + '/'
+            if path.rstrip('/') == '/' + section or path.startswith(prefix):
+                active = prefix
+                exact = path in (prefix, prefix + 'index.html', '/' + section)
+                break
+    links = [('/index.html', 'Novinky'), ('/clanky/', 'Přehled článků'),
+             ('/temata/', 'Rubriky'), ('/kosmopedie/', 'Kosmopedie'),
+             ('/images.html', 'Obrázky'), ('/contact.html', 'Kontakt'), ('/feed.xml', 'RSS')]
+    rows = ['    <nav aria-label="Hlavní navigace">']
+    for href, label in links:
+        current = (' aria-current="' + ('page' if exact else 'location') + '"') if href == active else ''
+        style = ' style="color:#f0b429"' if href == '/feed.xml' else ''
+        rows.append(f'      <a href="{href}"{current}{style}>{label}</a>')
+    rows.append('    </nav>')
+    return '\n'.join(rows)
+
+
 def page_head(title, description, canonical, og_image=None, jsonld=None):
     base = canonical.split('/', 3)[:3]
     base = '/'.join(base)
@@ -329,6 +361,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
   <meta property="og:site_name" content="Kosmologické novinky">
   {og}<style>{CSS}</style>
   <link rel="stylesheet" href="/assets/article-previews.css">
+  <link rel="stylesheet" href="/assets/navigation.css">
   <script>{COUNTER_JS}</script>
   {ld}</head>
 <body>
@@ -338,15 +371,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
       <div class="logo-text"><a href="/"><h1>Kosmologické novinky</h1></a></div>
     </div>
     <p class="subtitle">Česky o kosmologii: temná hmota, černé díry, galaxie, reliktní záření, gravitační vlny, neutronové hvězdy a další.</p>
-    <nav>
-      <a href="/index.html">Novinky</a>
-      <a href="/clanky/">Přehled článků</a>
-      <a href="/temata/">Rubriky</a>
-      <a href="/kosmopedie/">Kosmopedie</a>
-      <a href="/images.html">Obrázky</a>
-      <a href="/contact.html">Kontakt</a>
-      <a href="/feed.xml" style="color:#f0b429">RSS</a>
-    </nav>
+{navigation_html(canonical)}
 {SIGNUP_FORM}  </header>
   <main>
 """
@@ -642,6 +667,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
