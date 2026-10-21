@@ -5,6 +5,8 @@ import json
 import os
 import re
 import time
+import unicodedata
+from urllib.parse import urlsplit
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -67,45 +69,44 @@ def _run_query(bearer: str, query: str, hours: int) -> list:
 
 def search_x(bearer: str, hours: int = 36) -> list:
     """Hledá recent posty na X (last 7 days max). Primární přesný dotaz,
-    při prázdném výsledku záložní širší dotaz (72 h, min. 2 lajky)."""
+    při prázdném výsledku záložní širší dotaz (72 h)."""
     if not bearer:
-        print("Chybí X_BEARER_TOKEN – vyhledávání přeskočeno.")
-        return []
+        raise RuntimeError("Chybí X_BEARER_TOKEN")
     strategies = [
         (f"({KEYWORDS}) lang:cs -is:retweet -is:reply -from:ZdenekBubak", hours, "primární"),
         (f"({KEYWORDS_BROAD}) lang:cs -is:retweet -is:reply -from:ZdenekBubak", 72, "záložní"),
     ]
     posts = []
+    used = load_used()
+    reviewed = load_state()["reviewed"]
+    search_errors = []
     for query, window, label in strategies:
         try:
             posts = _run_query(bearer, query, window)
         except Exception as e:
             print(f"X search selhal ({label}): {e}")
+            search_errors.append(label)
             continue
         posts = [p for p in posts if p["username"].lower() not in EXCLUDED_USERNAMES]
         print(f"X search ({label}): {len(posts)} kandidátů")
-        if posts:
-            break
+        fresh = [p for p in posts if p["id"] not in used and not recently_rejected(reviewed.get(p["id"]))]
+        print(f"Nových k posouzení ({label}): {len(fresh)}")
+        if fresh:
+            return fresh
+    if search_errors:
+        raise RuntimeError("Vyhledávání X selhalo: " + ", ".join(search_errors))
     if not posts:
         print("::warning::X search nenašel žádné kandidáty – do Bufferu se dnes nic nepřidalo")
         return posts
-    used = load_used()
-    fresh = [p for p in posts if p["id"] not in used]
-    skipped = len(posts) - len(fresh)
-    if skipped:
-        print(f"Přeskočeno {skipped} již použitých příspěvků")
-    if posts:
-        used.update(p["id"] for p in posts)
-        save_used(used)
-    if not fresh:
-        print("::warning::Všichni nalezení kandidáti už byli použiti – nic nového k odeslání")
-    return fresh
+    return []
 
 
 def score_relevance(client, posts: list) -> list:
     """Gemini vyhodnotí vědeckou relevanci. Vrátí seřazený seznam s score."""
-    if not client or not posts:
-        return posts
+    if not client:
+        raise RuntimeError("Chybí funkční Gemini klient; bez hodnocení se nic nepublikuje.")
+    if not posts:
+        return []
     scored = []
     for p in posts:
         prompt = f"""Je tento český příspěvek na X vědecky relevantní pro kosmologii
@@ -127,12 +128,16 @@ Příspěvek:
                     text = text[4:]
                 text = text.strip()
             data = json.loads(text)
-            p["relevant"] = bool(data.get("relevant"))
-            p["score"] = int(data.get("score", 0))
+            if not isinstance(data.get("relevant"), bool):
+                raise ValueError("relevant musí být boolean")
+            p["evaluated"] = True
+            p["relevant"] = data["relevant"]
+            p["score"] = max(0, min(10, int(data.get("score", 0))))
             p["reason"] = data.get("reason", "")
             p["comment"] = str(data.get("comment", "") or "").strip()
         except Exception as e:
             print(f"Skórování selhalo pro {p['id']}: {e}")
+            p["evaluated"] = False
             p["relevant"] = False
             p["score"] = 0
         if p["relevant"] and p["score"] >= 5:
@@ -147,18 +152,35 @@ STATE_DIR = Path("state")
 STATE_FILE = STATE_DIR / "quote_x_used.json"
 
 
-def load_used() -> set:
-    if STATE_FILE.exists():
-        try:
-            return set(json.loads(STATE_FILE.read_text(encoding="utf-8")))
-        except Exception:
-            return set()
-    return set()
+def load_state():
+    if not STATE_FILE.exists():
+        return {"version": 2, "used": [], "reviewed": {}}
+    data = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    # Old IDs may already have been posted: retain all to avoid duplicates.
+    if isinstance(data, list):
+        return {"version": 2, "used": data, "reviewed": {}}
+    if not isinstance(data, dict) or not isinstance(data.get("used"), list) or not isinstance(data.get("reviewed"), dict):
+        raise ValueError("Neplatný stav quote_x_used.json; nelze bezpečně zabránit duplicitám")
+    return data
 
 
-def save_used(used: set) -> None:
-    STATE_DIR.mkdir(exist_ok=True)
-    STATE_FILE.write_text(json.dumps(sorted(used), ensure_ascii=False, indent=1), encoding="utf-8")
+def load_used():
+    return set(load_state()["used"])
+
+
+def save_state(state):
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    tmp = STATE_FILE.with_suffix(".tmp")
+    tmp.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp.replace(STATE_FILE)
+
+
+def recently_rejected(record):
+    if not record or record.get("relevant"):
+        return False
+    when = datetime.fromisoformat(record["at"])
+    return datetime.now(timezone.utc) - when < timedelta(hours=24)
+
 
 
 def make_comment(p: dict) -> str:
@@ -212,25 +234,135 @@ def buffer_create_post(api_key: str, text: str, as_draft: bool = False) -> dict 
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
     }
+    r = requests.post(
+        "https://api.buffer.com", json={"query": mutation, "variables": variables},
+        headers=headers, timeout=30,
+    )
+    r.raise_for_status()
+    data = r.json()
+    if data.get("errors"):
+        raise RuntimeError("Buffer GraphQL: " + json.dumps(data["errors"], ensure_ascii=False))
+    result = (data.get("data") or {}).get("createPost") or {}
+    if result.get("message"):
+        raise RuntimeError("Buffer: " + str(result["message"]))
+    post = result.get("post") or {}
+    if not post.get("id"):
+        raise RuntimeError("Buffer nevrátil ID příspěvku")
+    # Retain a confirmed ID even if the returned status needs manual inspection.
+    post["_status_ok"] = not as_draft or str(post.get("status", "")).lower() == "draft"
+    print(f"Buffer: potvrzen {post['id']} (draft={as_draft}, status={post.get('status')})")
+    return post
+
+
+URL_RE = re.compile(r"https?://[^\s<>]+")
+BASE_URL = "https://kosmonovinky.cz"
+
+
+def weighted_length(text):
+    """Conservative twitter-text v3 weights; joined emoji may be overcounted."""
+    text = unicodedata.normalize("NFC", text)
+    total = 0
+    pos = 0
+    for match in URL_RE.finditer(text):
+        total += sum(char_weight(c) for c in text[pos:match.start()]) + 23
+        pos = match.end()
+    return total + sum(char_weight(c) for c in text[pos:])
+
+
+def char_weight(c):
+    n = ord(c)
+    return 1 if n <= 4351 or 8192 <= n <= 8205 or 8208 <= n <= 8223 or 8242 <= n <= 8247 else 2
+
+
+def compose_post(post, article_url=None, as_draft=False):
+    comment = unicodedata.normalize("NFC", make_comment(post))
+    comment = URL_RE.sub("", comment).strip()
+    # Preserve both links; shorten only the generated commentary.
+    suffix = "\n\nPřehledně česky: " + (article_url or BASE_URL + "/") + "\n\n" + post["url"]
+    if as_draft:
+        suffix += f"\n(k posouzení, skóre {post.get('score', 0)})"
+    while comment and (weighted_length(comment) > 180 or weighted_length(comment + suffix) > 275):
+        comment = comment.rstrip(".… ")
+        comment = (comment.rsplit(" ", 1)[0] if " " in comment else comment[:-1]).rstrip(",;:") + "…"
+    text = comment + suffix
+    if not comment or weighted_length(text) > 280:
+        raise ValueError("Příspěvek se nevejde do limitu X")
+    return text
+
+
+def normalized(text):
+    return ''.join(c for c in unicodedata.normalize('NFKD', text.lower()) if not unicodedata.combining(c))
+
+
+STOP = set("tento tato teto tak ktere ktery ktera jsou bude bylo byla jako proto vice velmi jeho jejich mezi nebo take podle nove novy nova novych novou vedci studie vesmir vesmiru vyzkum ukazuje mohl muze mohou prave dalsi prvni pomoci proti vubec jeste tedy kdyz vsechny neznam znam".split())
+
+
+def tokens(text):
+    # Short Czech stems tolerate common inflections without additional dependencies.
+    return {w[:6] for w in re.findall(r"[a-z0-9]+", normalized(URL_RE.sub('', text))) if len(w) >= 4 and w not in STOP}
+
+
+def related_article(post, site=Path('.')):
+    """Use exact published paths from the preview manifest; never invent a slug."""
     try:
-        r = requests.post(
-            "https://api.buffer.com",
-            json={"query": mutation, "variables": variables},
-            headers=headers,
-            timeout=30,
-        )
-        r.raise_for_status()
-        data = r.json()
-        result = data.get("data", {}).get("createPost", {})
-        if "message" in result:
-            print(f"Buffer chyba: {result['message']}")
-            return None
-        post = result.get("post", {})
-        print(f"Buffer: vytvořen {post.get('id')} (draft={as_draft})")
-        return post
-    except Exception as e:
-        print(f"Buffer create selhal: {e}")
+        news = json.loads((site/'data/news.json').read_text(encoding='utf-8'))
+        manifest = json.loads((site/'data/article_image_previews.json').read_text(encoding='utf-8'))
+    except (OSError, ValueError) as exc:
+        print(f"::warning::Výběr článku nedostupný: {exc}; použiji hlavní stránku")
         return None
+    query = tokens(post['text']); ranked = []
+    for item in news:
+        identity = str(item.get('id') or item.get('url') or item.get('title') or '')
+        href = (manifest.get(identity) or {}).get('href', '')
+        if not re.fullmatch(r'/clanky/[a-z0-9-]+\.html', href):
+            continue
+        title = tokens(item.get('title') or '')
+        body = tokens((item.get('summary') or '')[:1200])
+        overlap = query & (title | body)
+        score = 3 * len(query & title) + len(query & body)
+        if len(overlap) >= 3 and score >= 7:
+            ranked.append((score, item.get('inserted_at') or '', href, item.get('title')))
+    for score, _, href, title in sorted(ranked, reverse=True)[:3]:
+        url = BASE_URL + href
+        try:
+            response = requests.get(url, timeout=20)
+            if response.status_code == 200 and urlsplit(response.url).netloc == 'kosmonovinky.cz':
+                print(f"Související článek ({score}): {title} → {url}")
+                return url
+        except requests.RequestException:
+            pass
+    print("Nenalezen dostatečně související a dostupný článek; použiji hlavní stránku")
+    return None
+
+
+def process_posts(relevant, buffer_key, state):
+    """At most two immediate quotes, then five drafts; success means a returned ID."""
+    auto = relevant[:2]; drafts = relevant[2:7]
+    counts = {"auto": 0, "drafts": 0, "failed": 0}
+    for as_draft, selected in ((False, auto), (True, drafts)):
+        for post in selected:
+            try:
+                text = compose_post(post, related_article(post), as_draft)
+                print(f"Odesílám {post['id']} (draft={as_draft}, délka={weighted_length(text)})")
+                created = buffer_create_post(buffer_key, text, as_draft)
+                state['used'] = sorted(set(state['used']) | {post['id']})
+                state['reviewed'][post['id']] = {"at": datetime.now(timezone.utc).isoformat(),
+                    "relevant": True, "score": post.get('score'), "buffer_id": created['id'],
+                    "kind": 'draft' if as_draft else 'quote', "status": created.get('status')}
+                save_state(state)
+                if not created['_status_ok']:
+                    raise RuntimeError(f"ID {created['id']} vzniklo, ale stav není draft; zkontrolujte Buffer (automaticky neopakuji)")
+                counts['drafts' if as_draft else 'auto'] += 1
+            except Exception as exc:
+                counts['failed'] += 1
+                print(f"::error::Příspěvek {post['id']}: {exc}")
+            time.sleep(1)
+    print(f"Hotovo. Potvrzené citace: {counts['auto']}, potvrzené drafty: {counts['drafts']}, chyby: {counts['failed']}")
+    if not drafts:
+        print(f"Drafty se nevytvářely: relevantních kandidátů {len(relevant)}, první dva mají přednost pro citaci.")
+    if counts['failed']:
+        raise RuntimeError("Část požadavků na Buffer selhala; viz chyby výše. Potvrzené položky jsou uložené ve stavu.")
+    return counts
 
 
 def main():
@@ -240,8 +372,7 @@ def main():
     gemini_key = os.environ.get("GEMINI_API_KEY", "")
 
     if not buffer_key:
-        print("Chybí BUFFER_API_KEY – končím.")
-        return
+        raise RuntimeError("Chybí BUFFER_API_KEY")
 
     posts = search_x(x_bearer)
     if not posts:
@@ -257,29 +388,27 @@ def main():
             print(f"Gemini client: {e}")
 
     relevant = score_relevance(client, posts)
+    state = load_state()
+    for post in posts:
+        if post.get('evaluated'):
+            state['reviewed'][post['id']] = {"at": datetime.now(timezone.utc).isoformat(),
+                "relevant": post.get('relevant', False) and post.get('score', 0) >= 5,
+                "score": post.get('score', 0)}
+    save_state(state)
+    errors = [p for p in posts if not p.get('evaluated')]
     if not relevant:
+        if errors:
+            raise RuntimeError("Hodnocení kandidátů selhalo; neúspěšná hodnocení se mohou opakovat")
         print("Žádné dostatečně relevantní příspěvky.")
         return
 
-    # 1–2 nejlepší do fronty, zbytek (max 5) jako drafty
-    auto = relevant[:2]
-    drafts = relevant[2:7]
-
-    for p in auto:
-        comment = make_comment(p)
-        text = f"{comment}\n\nPřehledně česky: kosmonovinky.cz\n\n{p['url']}"
-        buffer_create_post(buffer_key, text, as_draft=False)
-        time.sleep(1)
-
-    for p in drafts:
-        comment = make_comment(p)
-        text = f"{comment}\n\n{p['url']}\n(k posouzení, skóre {p.get('score', 0)})"
-        buffer_create_post(buffer_key, text, as_draft=True)
-        time.sleep(1)
-
-    print(f"Hotovo. Automaticky: {len(auto)}, drafty: {len(drafts)}")
+    state = load_state()
+    process_posts(relevant, buffer_key, state)
+    if errors:
+        raise RuntimeError(f"U {len(errors)} kandidátů selhalo hodnocení; potvrzené položky jsou uložené.")
 
 
 if __name__ == "__main__":
     main()
+
 
