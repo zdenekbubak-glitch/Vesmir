@@ -1,0 +1,16 @@
+/* Shared primary navigation on static pages and generated details. */
+header nav[aria-label="Hlavní navigace"] a:hover,
+header nav[aria-label="Hlavní navigace"] a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: .2em;
+  text-decoration-thickness: 1px;
+}
+header nav[aria-label="Hlavní navigace"] a[aria-current] {
+  color: var(--text, #e8eef7);
+  font-weight: 700;
+}
+header nav[aria-label="Hlavní navigace"] a:focus-visible {
+  outline: 2px solid var(--accent, #6ea8fe);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
