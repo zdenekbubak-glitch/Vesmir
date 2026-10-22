@@ -323,6 +323,35 @@ def explainer_links_html(item, catalog):
             '      <ul>\n' + links + '\n      </ul>\n    </section>\n')
 
 
+
+def write_home_explainer_links(news, catalog, out):
+    """Reuse detail-page selection for the lightweight homepage links."""
+    labels = [
+        'Temná hmota', 'Gravitační vlny', 'Pád do černé díry', 'Temná energie',
+        'Černé díry', 'Horizont událostí', 'Reliktní záření', 'Neutronové hvězdy',
+        'Spirální ramena', 'Důkazy temné hmoty', 'Hawkingovo záření',
+        'Objevy gravitačních vln', 'Mapa reliktního záření', 'Magnetary a pulsary',
+        'Exoplanety', 'Částice temné hmoty', 'Velký třesk', 'Supermasivní černé díry',
+        'Vesmír bez temné hmoty', 'Měření gravitačních vln', 'Snímkování reliktního záření',
+        'Vznik těžkých prvků', 'Vznik galaxií', 'Srážky galaxií',
+    ]
+    short = {f'exp-{i:03d}': label for i, label in enumerate(labels, 1)}
+    links = {}
+    for item in news:
+        if not item.get('id'):
+            continue
+        entries = related_explainers(item, catalog)
+        if entries:
+            links[str(item['id'])] = [
+                {'href': '/kosmopedie/' + entry['_slug'] + '.html',
+                 'title': entry['title'], 'label': short.get(entry.get('id'), entry['title'])}
+                for entry in entries]
+    folder = Path(out) / 'data'
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / 'kosmopedie_links.json').write_text(
+        json.dumps(links, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+
 def absolute_url(base, value):
     """Preserve remote HTTPS image URLs; resolve local paths once."""
     value = str(value or '').strip()
@@ -500,6 +529,7 @@ def main():
 
     news = json.loads((site / "data" / "news.json").read_text(encoding="utf-8"))
     kosmopedie = explainer_catalog(site)
+    write_home_explainer_links(news, kosmopedie, out)
     image_library = prepare_images(site, download=False)
     images = []
     img_path = site / "data" / "images.json"
@@ -777,6 +807,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
