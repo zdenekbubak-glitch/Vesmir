@@ -279,3 +279,9 @@ jobs:
             raise RuntimeError(f"Odeslání na Facebook selhalo: {e}") from e
           EOF
 
+      - name: Post daily card to Bluesky directly
+        env:
+          BLUESKY_HANDLE: zdenekbubak.bsky.social
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+        run: python scripts/post_bluesky.py
+

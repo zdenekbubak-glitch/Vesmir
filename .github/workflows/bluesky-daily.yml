@@ -1,0 +1,36 @@
+name: Bluesky – samostatné odeslání denní karty
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: 'Opravdu zveřejnit na Bluesky (vypnuto = pouze náhled v logu)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bluesky-daily-manual
+  cancel-in-progress: false
+
+jobs:
+  bluesky:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install image dependency
+        run: pip install 'pillow>=10.0.0'
+      - name: Preview only
+        if: ${{ !inputs.publish }}
+        run: python scripts/post_bluesky.py --dry-run
+      - name: Publish to Bluesky only
+        if: ${{ inputs.publish }}
+        env:
+          BLUESKY_HANDLE: zdenekbubak.bsky.social
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+        run: python scripts/post_bluesky.py
