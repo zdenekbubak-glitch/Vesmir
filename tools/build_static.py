@@ -454,7 +454,7 @@ def main():
     </section>
 '''
         lang_note = ""
-        if item.get("lang") != "cs":
+        if item.get("lang") == "en" or item.get("needs_translation"):
             lang_note = '<p class="lang-note">Anglický originál – český souhrn se nepodařilo vytvořit.</p>'
         nav_parts = []
         if i > 0:
@@ -675,6 +675,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
