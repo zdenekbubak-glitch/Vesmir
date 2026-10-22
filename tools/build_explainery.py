@@ -25,7 +25,7 @@ for _p in (_here.parent, _here):
         sys.path.remove(str(_p))
     sys.path.insert(0, str(_p))
 from build_static import (FALLBACK_THEME, THEME_LABEL, esc, fmt_date, fmt_iso_date,
-                          page_head, FOOT, slugify, classify)
+                          page_head, FOOT, slugify, classify, explainer_catalog)
 
 WHY_CSS = '''
     .why-box { background: #1a2438; border-left: 3px solid var(--accent); border-radius: 8px; padding: .9rem 1.1rem; margin: 1.3rem 0; }
@@ -77,7 +77,7 @@ def main():
     if not expl_path.exists():
         print('explainery.json nenalezen - přeskakuji.')
         return
-    explainery = json.loads(expl_path.read_text(encoding='utf-8'))
+    explainery = explainer_catalog(site)
     image_library = prepare_images(site, download=False)
 
     # novinky pro sekci Související novinky (stejná logika rubrik jako build_static)
@@ -88,16 +88,6 @@ def main():
     by_theme = {}
     for item in news:
         by_theme.setdefault(item['_theme'], []).append(item)
-
-    used = set()
-    for ex in explainery:
-        s = slugify(ex['title'])
-        n = 2
-        while s in used:
-            s = f"{slugify(ex['title'])}-{n}"
-            n += 1
-        used.add(s)
-        ex['_slug'] = s
 
     slugs = {ex['_slug'] for ex in explainery}
     (out / 'kosmopedie').mkdir(parents=True, exist_ok=True)
@@ -217,6 +207,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 

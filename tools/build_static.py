@@ -238,6 +238,91 @@ def classify(item):
     return FALLBACK_THEME[0]
 
 
+# Explicit topic patterns prevent arbitrary links based on shared generic words.
+# Keys refer to stable IDs in data/explainery.json; unknown entries are omitted.
+EXPLAINER_PATTERNS = {
+    'exp-001': r'temn\w* hmot\w*|dark matter|\baxion\w*|\bwimps?\b',
+    'exp-002': r'gravitacn\w* vln\w*|gravitational wave',
+    'exp-003': r'spad\w* do cern\w* dir\w*|pad\w* do cern\w* dir\w*|spagetifik\w*',
+    'exp-004': r'temn\w* energi\w*|dark energy|kosmologick\w* konstant\w*',
+    'exp-005': r'cern\w* dir\w*|black holes?',
+    'exp-006': r'horizont\w* udalost\w*|event horizons?',
+    'exp-007': r'reliktn\w* zaren\w*|\bcmb\b|cosmic microwave background',
+    'exp-008': r'neutronov\w* hvezd\w*|neutron stars?',
+    'exp-009': r'spiraln\w* ramen\w*|spiral arms?',
+    'exp-010': r'rotacn\w* kriv\w*|rotation curves?|dukaz\w* temn\w* hmot\w*',
+    'exp-011': r'hawking\w*|vypar\w* cern\w* dir\w*|black hole evaporation',
+    'exp-012': r'\bgw\d{6}\b|detek\w* gravitacn\w* vln\w*|gravitational.wave event',
+    'exp-013': r'anizotrop\w*|map\w* reliktn\w* zaren\w*|cmb anisotrop\w*',
+    'exp-014': r'\bmagnetar\w*|\bpul[sz]ar\w*',
+    'exp-015': r'\bexoplanet\w*',
+    'exp-016': r'\baxion\w*|\bwimps?\b|kandidat\w* temn\w* hmot\w*|dark matter candidates?',
+    'exp-017': r'velk\w* tresk\w*|big bang|kosmick\w* inflac\w*|cosmic inflation',
+    'exp-018': r'supermasiv\w*|supermassive|\bsgr a|\bm87\b',
+    'exp-019': r'bez temn\w* hmot\w*|without dark matter|dark.matter.free',
+    'exp-020': r'\bligo\b|\bvirgo\b|\bkagra\b|\blisa\b|interferometr\w*',
+    'exp-021': r'\bcobe\b|\bwmap\b|planck\w* (?:druzic\w*|satelit\w*|observator\w*)',
+    'exp-022': r'kilonov\w*|r.proces\w*|nukleosyntez\w*|nucleosynthesis|tezk\w* prvk\w*',
+    'exp-023': r'vznik\w* galaxi\w*|formov\w* galaxi\w*|galaxy formation|galaxi\w* rost\w*',
+    'exp-024': r'sraz\w* galaxi\w*|splyv\w* galaxi\w*|sluc\w* galaxi\w*|galaxy (?:collisions?|mergers?)',
+}
+
+
+def explainer_catalog(site):
+    """Use the exact same slug allocation as the Kosmopedie generator."""
+    path = Path(site) / 'data' / 'explainery.json'
+    if not path.exists():
+        return []
+    entries = json.loads(path.read_text(encoding='utf-8'))
+    used = set()
+    for entry in entries:
+        root = slugify(entry['title'])
+        slug, number = root, 2
+        while slug in used:
+            slug = f'{root}-{number}'
+            number += 1
+        used.add(slug)
+        entry['_slug'] = slug
+    return entries
+
+
+def topic_text(value):
+    text = unicodedata.normalize('NFKD', str(value or '').lower())
+    return ''.join(c for c in text if not unicodedata.combining(c))
+
+
+def related_explainers(item, catalog, limit=2):
+    title = topic_text(item.get('title'))
+    body = topic_text(' '.join(str(item.get(k) or '') for k in ('summary', 'original_title')))
+    ranked = []
+    for entry in catalog:
+        pattern = EXPLAINER_PATTERNS.get(entry.get('id'))
+        if not pattern:
+            continue
+        title_hit = bool(re.search(pattern, title))
+        body_hit = bool(re.search(pattern, body))
+        if not (title_hit or body_hit):
+            continue
+        # Prefer a specific concept from the headline over incidental body mentions.
+        basic = entry['id'] in ('exp-001', 'exp-002', 'exp-005', 'exp-007', 'exp-008')
+        score = 10 * title_hit + 2 * body_hit + (0 if basic else 1)
+        ranked.append((-score, entry['id'], entry))
+    return [entry for _, _, entry in sorted(ranked, key=lambda r: (r[0], r[1]))[:limit]]
+
+
+def explainer_links_html(item, catalog):
+    entries = related_explainers(item, catalog)
+    if not entries:
+        return ''
+    links = '\n'.join(
+        f'        <li><a href="/kosmopedie/{esc(entry["_slug"])}.html">{esc(entry["title"])}</a></li>'
+        for entry in entries)
+    return ('    <section class="related kosmopedie-context">\n'
+            '      <h2>Pro pochopení souvislostí</h2>\n'
+            '      <p>Související pojmy srozumitelně vysvětluje Kosmopedie:</p>\n'
+            '      <ul>\n' + links + '\n      </ul>\n    </section>\n')
+
+
 def absolute_url(base, value):
     """Preserve remote HTTPS image URLs; resolve local paths once."""
     value = str(value or '').strip()
@@ -414,6 +499,7 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
 
     news = json.loads((site / "data" / "news.json").read_text(encoding="utf-8"))
+    kosmopedie = explainer_catalog(site)
     image_library = prepare_images(site, download=False)
     images = []
     img_path = site / "data" / "images.json"
@@ -468,6 +554,7 @@ def main():
       </ul>
     </section>
 '''
+        context_html = explainer_links_html(item, kosmopedie)
         lang_note = ""
         if item.get("lang") == "en" or item.get("needs_translation"):
             lang_note = '<p class="lang-note">Anglický originál – český souhrn se nepodařilo vytvořit.</p>'
@@ -506,7 +593,7 @@ def main():
       {image_figure(article_image)}
       <p class="summary">{esc(summary)}</p>
 {lang_note}      <a href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
-{nav_html}{rel_html}    </article>
+{context_html}{nav_html}{rel_html}    </article>
         <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>
 '''
         page += FOOT
@@ -690,6 +777,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
