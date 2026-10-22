@@ -319,7 +319,6 @@
 })();
 </script>
   <link rel="stylesheet" href="/assets/article-previews.css">
-  <script src="/assets/article-previews.js"></script>
   <link rel="stylesheet" href="/assets/navigation.css">
 </head>
 <body>
@@ -377,7 +376,9 @@
     <!-- EDITORIAL:END -->
 
     <div id="feed">
-      <p class="empty">Načítám historii…</p>
+      <!-- NEWS:START -->
+      <p class="empty"><a href="/clanky/">Přehled všech článků →</a></p>
+      <!-- NEWS:END -->
     </div>
   </main>
 
@@ -420,56 +421,6 @@
       return item && (item.image || item.thumb) || '';
     }
 
-    let kosmopedieLinks = {};
-
-    async function loadKosmopedieLinks() {
-      try {
-        const response = await fetch('data/kosmopedie_links.json');
-        if (!response.ok) return;
-        const links = await response.json();
-        if (links && typeof links === 'object' && !Array.isArray(links)) kosmopedieLinks = links;
-      } catch (e) { /* The news feed remains available if the optional links fail. */ }
-    }
-
-    function renderKosmopedieLinks(item) {
-      const entries = kosmopedieLinks[String(item.id)];
-      if (!Array.isArray(entries)) return '';
-      const seen = new Set();
-      const links = entries.filter(entry => {
-        if (!entry || typeof entry.href !== 'string' ||
-            !/^\/kosmopedie\/[a-z0-9-]+\.html$/.test(entry.href) ||
-            typeof entry.label !== 'string' || !entry.label.trim() || seen.has(entry.href)) return false;
-        seen.add(entry.href);
-        return true;
-      }).slice(0, 2).map(entry =>
-        '<a href="' + escapeHtml(entry.href) + '">' +
-        escapeHtml(entry.label) + '</a>');
-      return links.length
-        ? '<p class="kosmopedie-inline">Pojmy v Kosmopedii: ' + links.join(' · ') + '</p>'
-        : '';
-    }
-
-    function renderPost(item) {
-      const preview = ArticlePreviews.get(item);
-      const inserted = new Date(item.inserted_at).toLocaleString('cs-CZ', { timeZone: 'Europe/Prague' });
-      const published = item.published ? new Date(item.published).toLocaleDateString('cs-CZ') : '';
-      const isEn = item.lang === 'en' || item.needs_translation;
-      const note = isEn
-        ? '<p class="lang-note">Anglický originál – český souhrn se nepodařilo vytvořit.</p>'
-        : '';
-      return (
-        '<article class="post">' +
-        '<h2><a href="' + escapeHtml(preview.href) + '">' + escapeHtml(item.title) + '</a></h2>' +
-        '<div class="meta">Vloženo: ' + inserted + ' · Zdroj: ' + escapeHtml(item.source) +
-        (published ? ' · Publikováno: ' + published : '') + '</div>' +
-        note +
-        '<div class="article-teaser">' + preview.html + '<p class="summary">' + escapeHtml(item.summary) + '</p></div>' +
-        renderKosmopedieLinks(item) +
-        '<a href="' + (item.url || '') + '" target="_blank" rel="noopener">Původní zdroj →</a>' +
-        '</article>'
-      );
-    }
-
     function queryFromUrl() {
       try {
         return new URLSearchParams(location.search).get('q') || '';
@@ -485,105 +436,43 @@
       history.replaceState(null, '', url);
     }
 
-    let allRecent = [];
-
-    function applyFilter() {
+    function initNewsFilter() {
+      const feed = document.getElementById('feed');
+      const cards = Array.from(feed.querySelectorAll('article.post'));
+      if (!cards.length) return;
+      const bar = document.getElementById('filter-bar');
       const input = document.getElementById('news-filter');
       const clearBtn = document.getElementById('filter-clear');
       const meta = document.getElementById('filter-meta');
-      const feed = document.getElementById('feed');
-      const q = (input.value || '').trim();
-      const needle = fold(q);
-      clearBtn.style.display = q ? 'inline-flex' : 'none';
-      writeQuery(q);
-
-      const matched = needle
-        ? allRecent.filter(item => itemText(item).includes(needle))
-        : allRecent;
-
-      if (matched.length === 0) {
-        feed.innerHTML = '<p class="empty">Nic se nenašlo pro „' + escapeHtml(q) + '“.<br><a href="#" id="clear-empty">Vymazat filtr</a></p>';
-        meta.textContent = '0 z ' + allRecent.length;
-        const link = document.getElementById('clear-empty');
-        if (link) link.addEventListener('click', (e) => {
-          e.preventDefault();
-          input.value = '';
-          applyFilter();
-          input.focus();
+      const empty = document.getElementById('news-no-match');
+      const searchable = cards.map(card => ({card, text: fold(
+        Array.from(card.querySelectorAll('h2, .summary, .meta')).map(el => el.textContent).join(' '))}));
+      function applyFilter() {
+        const q = input.value.trim();
+        const needle = fold(q);
+        let count = 0;
+        searchable.forEach(({card, text}) => {
+          card.hidden = Boolean(needle && !text.includes(needle));
+          if (!card.hidden) count++;
         });
-        return;
+        feed.querySelectorAll('.news-month').forEach(group => {
+          group.hidden = !Array.from(group.querySelectorAll('article.post')).some(card => !card.hidden);
+        });
+        if (empty) empty.hidden = count !== 0;
+        clearBtn.style.display = q ? 'inline-flex' : 'none';
+        meta.textContent = needle ? count + ' z ' + cards.length : cards.length + ' novinek';
+        try { writeQuery(q); } catch (e) { /* Filtering also works without history access. */ }
       }
-
-      const groups = {};
-      matched.forEach(item => {
-        const d = new Date(item.inserted_at || item.published);
-        const key = getMonthKey(d);
-        if (!groups[key]) groups[key] = [];
-        groups[key].push(item);
-      });
-      const orderedKeys = Object.keys(groups).sort().reverse();
-      let html = '';
-      orderedKeys.forEach(key => {
-        html += '<h2 class="section-title">' + monthLabel(key) + '</h2>';
-        html += groups[key].map(renderPost).join('');
-      });
-      html += '<div class="archive-link"><a href="archive.html">Starší příspěvky v archivu →</a></div>';
-      feed.innerHTML = html;
-      meta.textContent = needle
-        ? matched.length + ' z ' + allRecent.length
-        : allRecent.length + (allRecent.length === 1 ? ' novinka' : ' novinek');
-    }
-
-    async function loadNews() {
-      const feed = document.getElementById('feed');
-      try {
-        const res = await fetch('data/news.json?' + Date.now());
-        if (!res.ok) throw new Error('Soubor ještě neexistuje');
-        const items = await res.json();
-        await Promise.all([ArticlePreviews.ready, loadKosmopedieLinks()]);
-
-        if (!items || items.length === 0) {
-          feed.innerHTML = '<p class="empty">Zatím žádné novinky. Agent je přidá při příštím běhu.</p>';
-          return;
-        }
-
-        const now = new Date();
-        const thisMonth = getMonthKey(now);
-        const lastMonth = getMonthKey(new Date(now.getFullYear(), now.getMonth() - 1, 1));
-
-        allRecent = items.filter(item => {
-          const d = new Date(item.inserted_at || item.published);
-          const key = getMonthKey(d);
-          return key === thisMonth || key === lastMonth;
-        });
-
-        if (allRecent.length === 0) {
-          feed.innerHTML = '<p class="empty">Žádné novinky za tento a minulý měsíc.</p><div class="archive-link"><a href="archive.html">Přejít do archivu →</a></div>';
-          return;
-        }
-
-        const bar = document.getElementById('filter-bar');
-        const input = document.getElementById('news-filter');
-        const clearBtn = document.getElementById('filter-clear');
-        bar.hidden = false;
-        bar.style.display = 'block';
-        input.value = queryFromUrl();
-
-        let timer = null;
-        input.addEventListener('input', () => {
-          clearTimeout(timer);
-          timer = setTimeout(applyFilter, 150);
-        });
-        clearBtn.addEventListener('click', () => {
-          input.value = '';
-          applyFilter();
-          input.focus();
-        });
-
-        applyFilter();
-      } catch (e) {
-        feed.innerHTML = '<p class="empty">Nepodařilo se načíst data. Zkus obnovit stránku později.<br><small>' + escapeHtml(e.message) + '</small></p>';
-      }
+      function clear() { input.value = ''; applyFilter(); input.focus(); }
+      bar.hidden = false;
+      bar.style.display = 'block';
+      input.value = queryFromUrl();
+      let timer;
+      input.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(applyFilter, 150); });
+      clearBtn.addEventListener('click', clear);
+      const clearEmpty = document.getElementById('clear-empty');
+      if (clearEmpty) clearEmpty.addEventListener('click', clear);
+      applyFilter();
     }
 
     async function loadThumbs() {
@@ -609,10 +498,11 @@
     }
     loadThumbs();
     
-    loadNews();
+    initNewsFilter();
   </script>
 </body>
 </html>
+
 
 
 
