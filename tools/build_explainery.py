@@ -25,7 +25,7 @@ for _p in (_here.parent, _here):
         sys.path.remove(str(_p))
     sys.path.insert(0, str(_p))
 from build_static import (FALLBACK_THEME, THEME_LABEL, esc, fmt_date, fmt_iso_date,
-                          page_head, FOOT, slugify, classify, explainer_catalog)
+                          page_head, FOOT, slugify, classify, explainer_catalog, NEWSLETTER_CTA)
 
 WHY_CSS = '''
     .why-box { background: #1a2438; border-left: 3px solid var(--accent); border-radius: 8px; padding: .9rem 1.1rem; margin: 1.3rem 0; }
@@ -159,7 +159,7 @@ def main():
                  f"      <h1>{esc(ex['title'])}</h1>\n"
                  f"      <p class=\"meta\">Kosmopedie · Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))}</p>\n"
                  f"      <p class=\"explainer-perex\">{esc(ex.get('perex'))}</p>\n"
-                 + image_figure(article_image) + sec_html + why_html + rel_html + rel_ex_html +
+                 + image_figure(article_image) + sec_html + why_html + rel_html + rel_ex_html + NEWSLETTER_CTA +
                  '    </article>\n'
                  '    <p class=\"back\"><a href=\"/kosmopedie/\">← Celá Kosmopedie</a> · <a href=\"/temata/\">Rubriky</a></p>\n')
         page += FOOT
@@ -207,6 +207,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 

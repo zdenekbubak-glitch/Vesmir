@@ -7,9 +7,13 @@ Secrets: BUTTONDOWN_API_KEY, GEMINI_API_KEY
 
 import json
 import os
+import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
+from newsletter_content import build_email
 
 import requests
 from google import genai
@@ -105,28 +109,6 @@ def pick_ids(client, items: list[dict]) -> list[str]:
     return chosen[:PICK]
 
 
-def build_email(items: list[dict], start: datetime, end: datetime) -> tuple[str, str]:
-    subject = (
-        f"Kosmologické novinky: {czech_date(start)} – {czech_date(end)} {end.year}"
-    )
-    parts = [
-        "Týdenní výběr pěti příspěvků, které se za uplynulý týden objevily na kosmonovinky.cz.",
-        "",
-    ]
-    for index, item in enumerate(items, start=1):
-        url = item.get("url") or "https://kosmonovinky.cz"
-        parts.extend([
-            f"## {index}. {item.get('title')}",
-            "",
-            item.get("summary") or "",
-            "",
-            f"[Celý zdroj]({url})",
-            "",
-        ])
-    parts.append("Další příspěvky: [kosmonovinky.cz](https://kosmonovinky.cz)")
-    return subject, "\n".join(parts)
-
-
 def main():
     button_key = os.environ.get("BUTTONDOWN_API_KEY")
     gemini_key = os.environ.get("GEMINI_API_KEY")
@@ -172,3 +154,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

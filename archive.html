@@ -73,7 +73,7 @@
       margin: 0 0 0.65rem;
       font-size: 0.95rem;
       color: var(--muted);
-      white-space: nowrap;
+      white-space: normal;
     }
     .signup-form {
       display: flex;
@@ -272,7 +272,8 @@
     </nav>
     
     <div class="signup-box">
-      <p>Týdenní výběr editora e-mailem: pět nejzajímavějších článků v plném znění.</p>
+      <p>Každý týden 5 nejzajímavějších objevů a poznatků o vesmíru do e-mailu.</p>
+      <p style="font-size:.82rem;margin:-.25rem 0 .65rem">Česky, srozumitelně a s odkazy do Kosmopedie.</p>
       <form
         action="https://buttondown.com/api/emails/embed-subscribe/zdenek"
         method="post"
@@ -282,6 +283,7 @@
         <input type="email" name="email" id="bd-email-archive" placeholder="tvuj@email.cz" required />
         <input type="submit" value="Odebírat" />
       </form>
+    <p class="newsletter-preview-link" style="margin:.55rem 0 0;font-size:.82rem;white-space:normal"><a href="/newsletter/">Ukázka newsletteru →</a></p>
     </div>
   </header>
 
@@ -510,6 +512,7 @@
   </script>
 </body>
 </html>
+
 
 
 

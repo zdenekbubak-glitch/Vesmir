@@ -11,6 +11,7 @@ Použití: python3 tools/build_static.py --site-dir . --out _site --base https:/
 """
 import argparse
 import editorial
+from newsletter_content import build_email as newsletter_email
 import html
 import json
 import re
@@ -61,7 +62,7 @@ CSS = """
     nav { margin: .6rem 0 1.2rem; }
     nav a { color: var(--accent); margin: 0 .7rem; font-size: .95rem; }
     .signup-box { max-width: 720px; margin: 0 auto; background: rgba(21,27,45,.75); border: 1px solid #1e293b; border-radius: 10px; padding: .95rem 1.15rem; }
-    .signup-box p { margin: 0 0 .65rem; font-size: .95rem; color: var(--muted); white-space: nowrap; }
+    .signup-box p { margin: 0 0 .65rem; font-size: .95rem; color: var(--muted); white-space: normal; }
     .signup-form { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; align-items: center; }
     .signup-form label { display: none; }
     .signup-form input[type=email] { flex: 1; min-width: 200px; padding: .55rem .85rem; border: 1px solid #334155; border-radius: 6px; background: #0b0f19; color: var(--text); font-size: .95rem; }
@@ -79,6 +80,7 @@ CSS = """
     .post h1 { font-size: 1.45rem; line-height: 1.3; margin: 0 0 .9rem; }
     .post h2 { font-size: 1.15rem; margin: 1.2rem 0 .5rem; }
     .summary { margin: 0 0 1rem; }
+    .newsletter-cta { margin: 1.4rem 0 0; padding-top: .8rem; border-top: 1px solid #1e293b; font-size: .88rem; color: var(--muted); }
     .lang-note { font-size: .85rem; color: #f0b429; }
     .source-link { display: inline-block; margin-top: .4rem; }
     .related { margin-top: 1.4rem; border-top: 1px solid #1e293b; padding-top: 1rem; }
@@ -153,14 +155,33 @@ SEARCH_JS = """
 })();
 """
 
+NEWSLETTER_CTA = ('<p class="newsletter-cta">Zaujalo vás téma? '
+                  '<a href="#bd-email" data-newsletter-focus>Přihlaste se k týdennímu výběru e-mailem ↑</a></p>')
+
+NEWSLETTER_FOCUS_JS = """
+document.addEventListener('click', function (event) {
+  const link = event.target.closest && event.target.closest('[data-newsletter-focus]');
+  if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  const field = document.getElementById('bd-email');
+  if (!field) return;
+  event.preventDefault();
+  field.focus({ preventScroll: true });
+  const box = field.closest('.signup-box') || field;
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  box.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'center' });
+});
+"""
+
 SIGNUP_FORM = """
     <div class="signup-box">
-      <p>Týdenní výběr editora e-mailem: pět nejzajímavějších článků v plném znění.</p>
+      <p>Každý týden 5 nejzajímavějších objevů a poznatků o vesmíru do e-mailu.</p>
+      <p style="font-size:.82rem;margin:-.25rem 0 .65rem">Česky, srozumitelně a s odkazy do Kosmopedie.</p>
       <form action="https://buttondown.com/api/emails/embed-subscribe/zdenek" method="post" class="embeddable-buttondown-form signup-form">
         <label for="bd-email">E-mail pro týdenní výběr</label>
         <input type="email" name="email" id="bd-email" placeholder="tvuj@email.cz" required />
         <input type="submit" value="Odebírat" />
       </form>
+    <p class="newsletter-preview-link" style="margin:.55rem 0 0;font-size:.82rem;white-space:normal"><a href="/newsletter/">Ukázka newsletteru →</a></p>
     </div>
 """
 
@@ -564,6 +585,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
   <link rel="stylesheet" href="/assets/article-previews.css">
   <link rel="stylesheet" href="/assets/navigation.css">
   <script>{COUNTER_JS}</script>
+  <script>{NEWSLETTER_FOCUS_JS}</script>
   {ld}</head>
 <body>
   <header>
@@ -582,6 +604,53 @@ FOOT = """  </main>
 </body>
 </html>
 """
+
+
+
+def build_newsletter_example(out, base, news):
+    """Illustrative message, not an archive or proof of a sent newsletter."""
+    pool = [item for item in news if item.get('lang') == 'cs' and item.get('title') and item.get('summary')]
+    if not pool:
+        pool = [item for item in news if item.get('title') and item.get('summary')
+                and item.get('lang') != 'en' and not item.get('needs_translation')]
+    # Pick different topics deterministically for a representative example.
+    selected, themes = [], set()
+    for item in pool:
+        theme = classify(item)
+        if theme in themes:
+            continue
+        selected.append(item); themes.add(theme)
+        if len(selected) == 5:
+            break
+    for item in pool:
+        if len(selected) == 5:
+            break
+        if item not in selected:
+            selected.append(item)
+    folder = Path(out) / 'newsletter'
+    folder.mkdir(parents=True, exist_ok=True)
+    url = base + '/newsletter/'
+    page = page_head('Ukázka newsletteru – Kosmologické novinky',
+                     'Podívejte se, jak může vypadat týdenní e-mail s českými souhrny novinek o vesmíru a odkazy do Kosmopedie.', url)
+    page += ('<p class="breadcrumbs"><a href="/">Hlavní stránka</a> › Ukázka newsletteru</p>'
+             '<article class="post"><h1>Takto může vypadat váš týdenní výběr</h1>'
+             '<p class="summary">Ilustrační ukázka obsahu newsletteru. Nejde o archiv již odeslaného vydání; '
+             'výběr se při aktualizaci webu může změnit. Vzhled e-mailu se může podle poštovní aplikace lišit.</p>')
+    if selected:
+        stamps = [parse_dt(item.get('inserted_at') or item.get('published')) for item in selected]
+        dates = [stamp.date() for stamp in stamps if stamp]
+        if dates:
+            subject, body = newsletter_email(selected, min(dates), max(dates))
+            page += '<p class="meta">Ukázkový předmět: ' + esc(subject) + '</p>'
+            page += editorial.markdown(body)
+        else:
+            page += '<p>Ukázku připravujeme.</p>'
+    else:
+        page += '<p>Ukázku připravujeme.</p>'
+    page += ('</article><p class="back"><a href="#bd-email">Chci dostávat týdenní výběr e-mailem ↑</a>'
+             ' · <a href="/">Zpět na novinky</a></p>' + FOOT)
+    (folder / 'index.html').write_text(page, encoding='utf-8')
+    return (url, max(dates).isoformat() if selected and dates else datetime.now(timezone.utc).date().isoformat())
 
 
 def main():
@@ -631,9 +700,10 @@ def main():
     for item in news:
         by_theme.setdefault(item["_theme"], []).append(item)
 
-    editor_posts, urls = editorial.build(site, out, base, image_library, page_head, FOOT, fmt_date)
+    editor_posts, urls = editorial.build(site, out, base, image_library, page_head, FOOT, fmt_date, article_footer=NEWSLETTER_CTA)
 
     build_home_news(site, out, news, image_library, home_links)
+    urls.append(build_newsletter_example(out, base, news))
 
     # ---- stránky novinek ----
     (out / "clanky").mkdir(exist_ok=True)
@@ -693,7 +763,7 @@ def main():
       {image_figure(article_image)}
       <p class="summary">{esc(summary)}</p>
 {lang_note}      <a href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
-{context_html}{nav_html}{rel_html}    </article>
+{context_html}{nav_html}{rel_html}{NEWSLETTER_CTA}    </article>
         <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>
 '''
         page += FOOT
@@ -877,6 +947,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
