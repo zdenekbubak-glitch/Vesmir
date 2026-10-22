@@ -154,7 +154,7 @@ SEARCH_JS = """
 
 SIGNUP_FORM = """
     <div class="signup-box">
-      <p>Týdenní výběr editora: pět nejzajímavějších článků v plném znění.</p>
+      <p>Týdenní výběr editora e-mailem: pět nejzajímavějších článků v plném znění.</p>
       <form action="https://buttondown.com/api/emails/embed-subscribe/zdenek" method="post" class="embeddable-buttondown-form signup-form">
         <label for="bd-email">E-mail pro týdenní výběr</label>
         <input type="email" name="email" id="bd-email" placeholder="tvuj@email.cz" required />
@@ -690,6 +690,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
