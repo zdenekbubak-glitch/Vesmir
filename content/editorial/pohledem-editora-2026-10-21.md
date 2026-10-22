@@ -51,6 +51,11 @@ Ještě víc mě zajímá, zda se podaří objasnit, co tvoří temnou hmotu. Ne
 
 Na kosmologii mě totiž nepřitahují jen odpovědi, ale i to, jak se postupně učíme klást přesnější otázky.
 
+## Pro pochopení souvislostí
+
+- [Co je temná hmota?](https://kosmonovinky.cz/kosmopedie/co-je-temna-hmota.html)
+- [Co jsou gravitační vlny?](https://kosmonovinky.cz/kosmopedie/co-jsou-gravitacni-vlny.html)
+
 ## Zdroje a související čtení
 
 - [LIGO: Co jsou gravitační vlny — předpověď a cesta k pozorování](https://www.ligo.caltech.edu/MIT/page/what-are-gw)
