@@ -192,6 +192,9 @@
     .post h2 { margin: 0 0 0.5rem; font-size: 1.25rem; }
     .meta { font-size: 0.85rem; color: var(--muted); margin-bottom: 0.8rem; }
     .summary { margin: 0 0 0.9rem; }
+    .kosmopedie-inline { margin: .15rem 0 .7rem; font-size: .82rem; line-height: 1.5; color: var(--muted); }
+    .kosmopedie-inline a { text-decoration: none; }
+    .kosmopedie-inline a:hover { text-decoration: underline; }
     .lang-note {
       margin: 0 0 0.8rem;
       padding: 0.45rem 0.7rem;
@@ -417,6 +420,35 @@
       return item && (item.image || item.thumb) || '';
     }
 
+    let kosmopedieLinks = {};
+
+    async function loadKosmopedieLinks() {
+      try {
+        const response = await fetch('data/kosmopedie_links.json');
+        if (!response.ok) return;
+        const links = await response.json();
+        if (links && typeof links === 'object' && !Array.isArray(links)) kosmopedieLinks = links;
+      } catch (e) { /* The news feed remains available if the optional links fail. */ }
+    }
+
+    function renderKosmopedieLinks(item) {
+      const entries = kosmopedieLinks[String(item.id)];
+      if (!Array.isArray(entries)) return '';
+      const seen = new Set();
+      const links = entries.filter(entry => {
+        if (!entry || typeof entry.href !== 'string' ||
+            !/^\/kosmopedie\/[a-z0-9-]+\.html$/.test(entry.href) ||
+            typeof entry.label !== 'string' || !entry.label.trim() || seen.has(entry.href)) return false;
+        seen.add(entry.href);
+        return true;
+      }).slice(0, 2).map(entry =>
+        '<a href="' + escapeHtml(entry.href) + '">' +
+        escapeHtml(entry.label) + '</a>');
+      return links.length
+        ? '<p class="kosmopedie-inline">Pojmy v Kosmopedii: ' + links.join(' · ') + '</p>'
+        : '';
+    }
+
     function renderPost(item) {
       const preview = ArticlePreviews.get(item);
       const inserted = new Date(item.inserted_at).toLocaleString('cs-CZ', { timeZone: 'Europe/Prague' });
@@ -432,6 +464,7 @@
         (published ? ' · Publikováno: ' + published : '') + '</div>' +
         note +
         '<div class="article-teaser">' + preview.html + '<p class="summary">' + escapeHtml(item.summary) + '</p></div>' +
+        renderKosmopedieLinks(item) +
         '<a href="' + (item.url || '') + '" target="_blank" rel="noopener">Původní zdroj →</a>' +
         '</article>'
       );
@@ -507,7 +540,7 @@
         const res = await fetch('data/news.json?' + Date.now());
         if (!res.ok) throw new Error('Soubor ještě neexistuje');
         const items = await res.json();
-        await ArticlePreviews.ready;
+        await Promise.all([ArticlePreviews.ready, loadKosmopedieLinks()]);
 
         if (!items || items.length === 0) {
           feed.innerHTML = '<p class="empty">Zatím žádné novinky. Agent je přidá při příštím běhu.</p>';
@@ -580,6 +613,7 @@
   </script>
 </body>
 </html>
+
 
 
 
