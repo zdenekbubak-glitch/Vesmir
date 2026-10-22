@@ -82,7 +82,7 @@ CSS = """
     .summary { margin: 0 0 1rem; }
     .newsletter-cta { margin: 1.4rem 0 0; padding-top: .8rem; border-top: 1px solid #1e293b; font-size: .88rem; color: var(--muted); }
     .lang-note { font-size: .85rem; color: #f0b429; }
-    .post a.original-source { font-size: .82rem; line-height: 1.5; color: var(--muted); text-decoration: none; }
+    .post a.original-source { font-size: .82rem; line-height: 1.5; color: var(--accent); text-decoration: none; }
     .post a.original-source:hover, .post a.original-source:focus-visible { text-decoration: underline; }
     .source-link { display: inline-block; margin-top: .4rem; }
     .related { margin-top: 1.4rem; border-top: 1px solid #1e293b; padding-top: 1rem; }
@@ -949,6 +949,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
