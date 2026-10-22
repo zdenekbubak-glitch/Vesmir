@@ -82,6 +82,8 @@ CSS = """
     .summary { margin: 0 0 1rem; }
     .newsletter-cta { margin: 1.4rem 0 0; padding-top: .8rem; border-top: 1px solid #1e293b; font-size: .88rem; color: var(--muted); }
     .lang-note { font-size: .85rem; color: #f0b429; }
+    .post a.original-source { font-size: .82rem; line-height: 1.5; color: var(--muted); text-decoration: none; }
+    .post a.original-source:hover, .post a.original-source:focus-visible { text-decoration: underline; }
     .source-link { display: inline-block; margin-top: .4rem; }
     .related { margin-top: 1.4rem; border-top: 1px solid #1e293b; padding-top: 1rem; }
     .related ul { margin: .5rem 0 0; padding-left: 1.2rem; }
@@ -418,7 +420,7 @@ def build_home_news(site, out, news, library, links, now=None):
                 anchors = ' · '.join(f'<a href="{esc(e["href"])}">{esc(e["label"])}</a>' for e in terms)
                 context = f'<p class="kosmopedie-inline">Pojmy v Kosmopedii: {anchors}</p>'
             source = str(item.get('url') or '')
-            source_link = (f'<a href="{esc(source)}" target="_blank" rel="noopener">Původní zdroj →</a>'
+            source_link = (f'<a class="original-source" href="{esc(source)}" target="_blank" rel="noopener">Původní zdroj →</a>'
                            if urlsplit(source).scheme in ('http', 'https') else '')
             cards.append(
                 '<article class="post">'
@@ -762,7 +764,7 @@ def main():
       <p class="meta">Publikováno: {fmt_date(item.get("published"))} · Zdroj: {esc(item.get("source"))}</p>
       {image_figure(article_image)}
       <p class="summary">{esc(summary)}</p>
-{lang_note}      <a href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
+{lang_note}      <a class="original-source" href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
 {context_html}{nav_html}{rel_html}{NEWSLETTER_CTA}    </article>
         <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>
 '''
@@ -947,6 +949,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
