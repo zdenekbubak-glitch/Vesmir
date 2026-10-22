@@ -18,9 +18,12 @@ from pathlib import Path
 from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url, thumbnail
 
 _here = Path(__file__).resolve().parent
-for _p in (_here, _here.parent):
-    if str(_p) not in sys.path:
-        sys.path.insert(0, str(_p))
+# Always prefer the shared template beside this generator (tools/build_static.py).
+# A legacy copy in the repository root must not override the current template.
+for _p in (_here.parent, _here):
+    if str(_p) in sys.path:
+        sys.path.remove(str(_p))
+    sys.path.insert(0, str(_p))
 from build_static import (FALLBACK_THEME, THEME_LABEL, esc, fmt_date, fmt_iso_date,
                           page_head, FOOT, slugify, classify)
 
@@ -214,6 +217,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 
