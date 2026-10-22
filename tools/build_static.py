@@ -17,6 +17,7 @@ import re
 import sys
 import unicodedata
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url, thumbnail
@@ -350,6 +351,73 @@ def write_home_explainer_links(news, catalog, out):
     folder.mkdir(parents=True, exist_ok=True)
     (folder / 'kosmopedie_links.json').write_text(
         json.dumps(links, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    return links
+
+
+
+def build_home_news(site, out, news, library, links, now=None):
+    """Render identical news HTML for all visitors; JS only filters existing cards."""
+    template = Path(out) / 'index.html'
+    if not template.exists():
+        template = Path(site) / 'index.html'
+    if not template.exists():
+        return
+    page = template.read_text(encoding='utf-8')
+    start, end = '<!-- NEWS:START -->', '<!-- NEWS:END -->'
+    if page.count(start) != 1 or page.count(end) != 1:
+        raise ValueError('index.html: chybí jednoznačné značky NEWS:START a NEWS:END')
+    tz = ZoneInfo('Europe/Prague')
+    now = (now or datetime.now(tz)).astimezone(tz)
+    current = now.year * 12 + now.month
+    groups = {}
+    for item in news:
+        dt = parse_dt(item.get('inserted_at') or item.get('published'))
+        if not dt:
+            continue
+        dt = dt.replace(tzinfo=timezone.utc) if dt.tzinfo is None else dt
+        local = dt.astimezone(tz)
+        if local.year * 12 + local.month not in (current, current - 1):
+            continue
+        groups.setdefault((local.year, local.month), []).append((item, local))
+    blocks = []
+    for (year, month), items in sorted(groups.items(), reverse=True):
+        cards = []
+        for item, inserted in items:
+            href = '/' + item['_path']
+            published = fmt_date(item.get('published'))
+            meta = (f'Vloženo: {inserted.day}. {inserted.month}. {inserted.year} '
+                    f'{inserted:%H:%M:%S} · Zdroj: {esc(item.get("source"))}')
+            if published:
+                meta += ' · Publikováno: ' + esc(published)
+            note = ('<p class="lang-note">Anglický originál – český souhrn se nepodařilo vytvořit.</p>'
+                    if item.get('lang') == 'en' or item.get('needs_translation') else '')
+            terms = links.get(str(item.get('id')), [])
+            context = ''
+            if terms:
+                anchors = ' · '.join(f'<a href="{esc(e["href"])}">{esc(e["label"])}</a>' for e in terms)
+                context = f'<p class="kosmopedie-inline">Pojmy v Kosmopedii: {anchors}</p>'
+            source = str(item.get('url') or '')
+            source_link = (f'<a href="{esc(source)}" target="_blank" rel="noopener">Původní zdroj →</a>'
+                           if urlsplit(source).scheme in ('http', 'https') else '')
+            cards.append(
+                '<article class="post">'
+                f'<h2><a href="{esc(href)}">{esc(item.get("title"))}</a></h2>'
+                f'<div class="meta">{meta}</div>' + note + '<div class="article-teaser">'
+                + thumbnail(lookup_image(item, 'news', library), href)
+                + f'<p class="summary">{esc(item.get("summary"))}</p></div>'
+                + context + source_link + '</article>')
+        blocks.append('<section class="news-month">'
+                      f'<h2 class="section-title">{MESICE_NOM[month - 1]} {year}</h2>'
+                      + '\n'.join(cards) + '</section>')
+    if not blocks:
+        blocks.append('<p class="empty">Žádné novinky za tento a minulý měsíc.</p>')
+    blocks.append('<p class="empty" id="news-no-match" hidden>Nic se nenašlo. '
+                  '<button type="button" id="clear-empty">Vymazat filtr</button></p>')
+    blocks.append('<div class="archive-link"><a href="archive.html">Starší příspěvky v archivu →</a></div>')
+    rendered = '\n'.join(blocks)
+    page = re.sub(re.escape(start) + '.*?' + re.escape(end),
+                  lambda _: start + '\n' + rendered + '\n' + end, page, flags=re.S)
+    (Path(out) / 'index.html').write_text(page, encoding='utf-8')
 
 
 def absolute_url(base, value):
@@ -529,7 +597,7 @@ def main():
 
     news = json.loads((site / "data" / "news.json").read_text(encoding="utf-8"))
     kosmopedie = explainer_catalog(site)
-    write_home_explainer_links(news, kosmopedie, out)
+    home_links = write_home_explainer_links(news, kosmopedie, out)
     image_library = prepare_images(site, download=False)
     images = []
     img_path = site / "data" / "images.json"
@@ -564,6 +632,8 @@ def main():
         by_theme.setdefault(item["_theme"], []).append(item)
 
     editor_posts, urls = editorial.build(site, out, base, image_library, page_head, FOOT, fmt_date)
+
+    build_home_news(site, out, news, image_library, home_links)
 
     # ---- stránky novinek ----
     (out / "clanky").mkdir(exist_ok=True)
@@ -807,6 +877,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
