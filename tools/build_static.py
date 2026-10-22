@@ -55,7 +55,7 @@ CSS = """
     header a { color: inherit; text-decoration: none; }
     .logo-wrapper { display: flex; align-items: center; justify-content: center; gap: .9rem; margin-bottom: .5rem; }
     .logo-wrapper img { height: 80px; width: 80px; display: block; border-radius: 12px; }
-    .logo-text h1 { margin: 0; font-size: 2rem; font-weight: 600; letter-spacing: -.02em; }
+    .logo-text .site-name { margin: 0; font-size: 2rem; font-weight: 600; letter-spacing: -.02em; }
     .subtitle { color: var(--muted); margin: .35rem 0 1rem; font-size: .95rem; }
     nav { margin: .6rem 0 1.2rem; }
     nav a { color: var(--accent); margin: 0 .7rem; font-size: .95rem; }
@@ -110,7 +110,7 @@ CSS = """
     @media (max-width: 520px) {
       .logo-wrapper { flex-direction: column; gap: 0.45rem; }
       .logo-wrapper img { height: 64px; width: 64px; }
-      .logo-text h1 { font-size: 1.45rem; }
+      .logo-text .site-name { font-size: 1.45rem; }
       .signup-box p { white-space: normal; }
     }
 """
@@ -307,6 +307,21 @@ def navigation_html(canonical):
     return '\n'.join(rows)
 
 
+def search_title(title, limit=65):
+    """Keep the HTML title concise; full headings and social titles stay intact."""
+    text = " ".join(str(title or "").split())
+    if len(text) <= limit:
+        return text
+    # Drop repeated branding before shortening the subject of the page.
+    text = re.sub(r"\s+[–—-]\s+Kosmologické novinky$", "", text)
+    if len(text) <= limit:
+        return text
+    cut = text[:limit - 1]
+    if " " in cut:
+        cut = cut.rsplit(" ", 1)[0]
+    return cut.rstrip(" ,;:–—-") + "…"
+
+
 def page_head(title, description, canonical, og_image=None, jsonld=None):
     base = canonical.split('/', 3)[:3]
     base = '/'.join(base)
@@ -354,7 +369,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{esc(title)}</title>
+  <title>{esc(search_title(title))}</title>
   <meta name="description" content="{esc(description)}">
   <link rel="canonical" href="{esc(canonical)}">
   <link rel="alternate" type="application/atom+xml" title="Kosmologické novinky – Atom feed" href="/feed.xml">
@@ -372,7 +387,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
   <header>
     <div class="logo-wrapper">
       <img src="/assets/logo-icon-square.png" alt="Kosmologické novinky" width="80" height="80">
-      <div class="logo-text"><a href="/"><h1>Kosmologické novinky</h1></a></div>
+      <div class="logo-text"><a href="/"><div class="site-name">Kosmologické novinky</div></a></div>
     </div>
     <p class="subtitle">Česky o kosmologii: temná hmota, černé díry, galaxie, reliktní záření, gravitační vlny, neutronové hvězdy a další.</p>
 {navigation_html(canonical)}
@@ -623,7 +638,7 @@ def main():
         if p.exists():
             import os
             lm = fmt_iso_date(datetime.fromtimestamp(os.path.getmtime(p), tz=timezone.utc).isoformat())
-        urls.append((f"{base}/{path}", lm))
+        urls.append((base + "/" if path == "index.html" else f"{base}/{path}", lm))
 
     # ---- robots.txt ----
     (out / "robots.txt").write_text(
@@ -675,6 +690,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
