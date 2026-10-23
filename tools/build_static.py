@@ -121,19 +121,7 @@ CSS = """
 """
 
 COUNTER_JS = """
-(function () {
-  const body = JSON.stringify({ site: "vesmir", id: crypto.randomUUID() });
-  async function odeslat() {
-    try {
-      const response = await fetch("https://ai-robotika-radar.zdenek-bubak.chatgpt.site/api/analytics/collect", {
-        method: "POST", mode: "cors", credentials: "omit",
-        headers: { "Content-Type": "application/json" }, body, keepalive: true
-      });
-      return response.ok;
-    } catch { return false; }
-  }
-  odeslat().then(ok => { if (!ok) setTimeout(odeslat, 1500); });
-})();
+// Counter is loaded from the shared file; see page_head.
 """
 
 SEARCH_JS = """
@@ -586,6 +574,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
   {og}<style>{CSS}</style>
   <link rel="stylesheet" href="/assets/article-previews.css">
   <link rel="stylesheet" href="/assets/navigation.css">
+  <script defer src="/assets/analytics.js"></script>
   <script>{COUNTER_JS}</script>
   <script>{NEWSLETTER_FOCUS_JS}</script>
   {ld}</head>
