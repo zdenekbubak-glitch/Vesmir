@@ -702,7 +702,7 @@ def main():
     for item in news:
         by_theme.setdefault(item["_theme"], []).append(item)
 
-    editor_posts, urls = editorial.build(site, out, base, image_library, page_head, FOOT, fmt_date, article_footer=NEWSLETTER_CTA)
+    editor_posts, urls = editorial.build(site, out, base, image_library, page_head, FOOT, fmt_date, article_footer=NEWSLETTER_CTA, description_formatter=truncate)
 
     build_home_news(site, out, news, image_library, home_links)
     urls.append(build_newsletter_example(out, base, news))
@@ -949,18 +949,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

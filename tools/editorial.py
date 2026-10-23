@@ -83,7 +83,7 @@ def card(post, fmt_date, home=False):
             + thumbnail(post['image_entry'],href) + f'<p class="summary">{perex}</p></div>'
             f'<a href="{href}">Přečíst komentář →</a></article>')
 
-def build(site, out, base, library, page_head, foot, fmt_date, article_footer=""):
+def build(site, out, base, library, page_head, foot, fmt_date, article_footer="", description_formatter=None):
     posts = load_posts(site, library)
     folder = out / 'pohledem-editora'; folder.mkdir(exist_ok=True)
     # This directory is owned by this generator; remove withdrawn comments too.
@@ -91,10 +91,11 @@ def build(site, out, base, library, page_head, foot, fmt_date, article_footer=""
     urls = []
     for post in posts:
         url = base + post['href']; entry = post['image_entry']
-        schema = {'@type':'Article','headline':post['title'],'description':post['perex'],
+        description = description_formatter(post['perex']) if description_formatter else post['perex']
+        schema = {'@type':'Article','headline':post['title'],'description':description,
                   'datePublished':post['date'],'inLanguage':'cs','mainEntityOfPage':url,
                   'author':{'@type':'Person','name':'Zdeněk Bubák'},'image':image_schema(entry,base)}
-        page = page_head(post['title']+' – Pohledem editora – Kosmologické novinky',post['perex'],url,image_url(entry,base),schema)
+        page = page_head(post['title']+' – Pohledem editora – Kosmologické novinky',description,url,image_url(entry,base),schema)
         page += ('<p class="breadcrumbs"><a href="/">Hlavní stránka</a> › <a href="/pohledem-editora/">Pohledem editora</a></p>'
                  '<article class="post"><p class="theme-badge">Pohledem editora</p>'
                  f'<h1>{escape(post["title"])}</h1><p class="meta">Zdeněk Bubák · {fmt_date(post["date"])}</p>'
@@ -117,4 +118,3 @@ def build(site, out, base, library, page_head, foot, fmt_date, article_footer=""
         homepage = re.sub(re.escape(START)+'.*?'+re.escape(END),lambda m:START+'\n'+teaser+'\n'+END,homepage,flags=re.S)
         (out/'index.html').write_text(homepage,encoding='utf-8')
     return posts, urls
-
