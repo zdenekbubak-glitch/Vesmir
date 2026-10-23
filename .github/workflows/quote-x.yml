@@ -37,3 +37,6 @@ jobs:
         if: ${{ always() }}
         run: python scripts/save_quote_state.py
 
+      - name: Uložit výsledky odeslání pro statistiky
+        if: ${{ always() }}
+        run: python scripts/save_social_posts.py

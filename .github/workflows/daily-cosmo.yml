@@ -71,6 +71,7 @@ jobs:
           export CARD_SHA=$(git rev-parse HEAD)
           python3 << 'EOF'
           import json, os, datetime, requests
+          from scripts.social_tracking import post_key, tracked_url, receipt
           from pathlib import Path
 
           api_key = os.environ.get("BUFFER_API_KEY")
@@ -137,7 +138,7 @@ jobs:
                       "text": main_text,
                       "assets": [{"image": {"url": card_url}}]
                     },
-                    {"text": "https://kosmonovinky.cz"}
+                    {"text": tracked_url("https://kosmonovinky.cz/", "x", "daily", post_key("x", "daily", today))}
                   ]
                 }
               }
@@ -160,6 +161,8 @@ jobs:
               print(f"Buffer chyba: {result['message']}")
             else:
               post_id = result.get("post", {}).get("id") if result.get("post") else None
+              if post_id:
+                  receipt("x", "daily", post_key("x","daily",today), title, post_id, result.get("post", {}).get("status"))
               print(f"Post odeslán: {post_id}")
           except Exception as e:
             print(f"Nelze parsovat odpověď: {e}")
@@ -189,6 +192,7 @@ jobs:
           export CARD_SHA=$(git rev-parse HEAD)
           python3 << 'EOF'
           import json, os, datetime, requests
+          from scripts.social_tracking import post_key, tracked_url, receipt
           from pathlib import Path
 
           api_key = os.environ.get("BUFFER_API_KEY")
@@ -242,7 +246,7 @@ jobs:
               "channelId": "6ad13365778b240e2f1e1c2b",
               "schedulingType": "automatic",
               "mode": "shareNow",
-              "text": main_text + "\n\nhttps://kosmonovinky.cz",
+              "text": main_text + "\n\n" + tracked_url("https://kosmonovinky.cz/", "facebook", "daily", post_key("facebook","daily",today)),
               "assets": [{
                 "image": {
                   "url": card_url
@@ -274,6 +278,7 @@ jobs:
               post_id = result.get("post", {}).get("id") if result.get("post") else None
               if not post_id:
                   raise RuntimeError("Buffer nevrátil ID příspěvku.")
+              receipt("facebook", "daily", post_key("facebook","daily",today), title, post_id, result.get("post", {}).get("status"))
               print(f"Post odeslán: {post_id}")
           except Exception as e:
             raise RuntimeError(f"Odeslání na Facebook selhalo: {e}") from e
@@ -285,3 +290,6 @@ jobs:
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
         run: python scripts/post_bluesky.py
 
+      - name: Uložit výsledky odeslání pro statistiky
+        if: ${{ always() }}
+        run: python scripts/save_social_posts.py

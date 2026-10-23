@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   post-linkedin:
@@ -26,3 +26,7 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: python scripts/send_weekly_linkedin.py
+
+      - name: Uložit výsledky odeslání pro statistiky
+        if: ${{ always() }}
+        run: python scripts/save_social_posts.py

@@ -9,7 +9,7 @@ on:
         default: false
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: bluesky-daily-manual
@@ -34,3 +34,7 @@ jobs:
           BLUESKY_HANDLE: zdenekbubak.bsky.social
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
         run: python scripts/post_bluesky.py
+
+      - name: Uložit výsledky odeslání pro statistiky
+        if: ${{ always() }}
+        run: python scripts/save_social_posts.py
