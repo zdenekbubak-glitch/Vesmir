@@ -13,6 +13,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
+from social_tracking import post_key, tracked_url, receipt
 
 NEWS = Path("data/news.json")
 CARD = Path("assets/cards/daily.jpg")
@@ -146,9 +147,11 @@ def main():
         raise SystemExit(f"API nevrátilo id příspěvku: {response.text[:400]}")
     print(f"Příspěvek: https://x.com/ZdenekBubak/status/{post_id}")
 
-    reply = create_post(token, SITE, reply_to=post_id)
+    key = post_key("x", "daily", str(datetime.now(ZoneInfo("Europe/Prague")).date()))
+    reply = create_post(token, tracked_url(SITE,"x","daily",key), reply_to=post_id)
     if reply.status_code >= 300:
         raise SystemExit(f"Odpověď selhala {reply.status_code}: {reply.text[:500]}")
+    receipt("x","daily",key,item.get("title",""),post_id,"published")
     reply_id = reply.json().get("data", {}).get("id")
     print(f"Odpověď: https://x.com/ZdenekBubak/status/{reply_id}")
 

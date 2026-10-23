@@ -8,6 +8,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
+from social_tracking import post_key, tracked_url, receipt
 
 PRAGUE = ZoneInfo("Europe/Prague")
 LINKEDIN_CHANNEL = "6ad0f03b778b240e2f1a14ba"
@@ -79,10 +80,14 @@ def main():
         lines.append(summary)
         lines.append("")
 
-    lines.append("Další příspěvky: https://kosmonovinky.cz")
+    key = post_key("linkedin", "weekly", str(end.date()))
+    link = tracked_url("https://kosmonovinky.cz/", "linkedin", "weekly", key)
+    lines.append("Další příspěvky: " + link)
     text = "\n".join(lines).strip()
     if len(text) > MAX_CHARS:
-        text = text[:MAX_CHARS - 3] + "…"
+        suffix = "\n\nDalší příspěvky: " + link
+        body = "\n".join(lines[:-1]).strip()
+        text = body[:MAX_CHARS-len(suffix)-1].rsplit(" ",1)[0] + "…" + suffix
     print(f"Délka textu: {len(text)}")
 
     mutation = """
@@ -116,6 +121,9 @@ def main():
         if "message" in result:
             print(f"Buffer chyba: {result['message']}")
         else:
+            post = result.get("post") or {}
+            if post.get("id"):
+                receipt("linkedin", "weekly", key, header, post["id"], post.get("status"))
             print(f"Post odeslán: {result.get('post', {}).get('id')}")
     except Exception as e:
         print(f"Chyba parsování: {e}")

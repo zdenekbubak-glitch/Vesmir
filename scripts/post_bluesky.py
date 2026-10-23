@@ -16,6 +16,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
 
+from social_tracking import post_key, tracked_url, receipt
+
 SITE_URL = 'https://kosmonovinky.cz'
 COLLECTION = 'app.bsky.feed.post'
 MAX_IMAGE_BYTES = 1_000_000  # Conservative limit, also accepted by older PDS versions.
@@ -49,7 +51,7 @@ def compose(item):
     start = len(text[:-len(SITE_URL)].encode('utf-8'))
     facets = [{
         'index': {'byteStart': start, 'byteEnd': len(text.encode('utf-8'))},
-        'features': [{'$type': 'app.bsky.richtext.facet#link', 'uri': SITE_URL}],
+        'features': [{'$type': 'app.bsky.richtext.facet#link', 'uri': tracked_url(SITE_URL, 'bluesky', 'daily', post_key('bluesky', 'daily', datetime.now(timezone.utc).date().isoformat()))}],
     }]
     return text, facets
 
@@ -150,6 +152,7 @@ def publish(item, card, day, handle, password):
     key = daily_key(day)
     if get_existing(pds, token, did, key):
         print(f'Bluesky: denní příspěvek {day} už existuje, znovu jej neposílám.')
+        receipt('bluesky', 'daily', post_key('bluesky','daily',day), item.get('title',''), f'at://{did}/{COLLECTION}/{key}', 'published')
         return
     data, width, height = prepare_image(card)
     uploaded = api(pds, 'com.atproto.repo.uploadBlob', token=token, data=data)
@@ -177,6 +180,7 @@ def publish(item, card, day, handle, password):
         if not get_existing(pds, token, did, key):
             raise
         print('Bluesky: příspěvek byl ověřen na serveru po nejednoznačné odpovědi.')
+    receipt('bluesky', 'daily', post_key('bluesky','daily',day), item.get('title',''), f'at://{did}/{COLLECTION}/{key}', 'published')
     print(f'Bluesky: https://bsky.app/profile/{did}/post/{key}')
 
 

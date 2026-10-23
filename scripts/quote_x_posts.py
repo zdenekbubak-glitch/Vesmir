@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from social_tracking import post_key, tracked_url, receipt
 """Denní vyhledávání českých příspěvků o kosmologii na X a příprava quote postů / draftů v Bufferu."""
 
 import json
@@ -278,7 +279,7 @@ def compose_post(post, article_url=None, as_draft=False):
     comment = unicodedata.normalize("NFC", make_comment(post))
     comment = URL_RE.sub("", comment).strip()
     # Preserve both links; shorten only the generated commentary.
-    suffix = "\n\nPřehledně česky: " + (article_url or BASE_URL + "/") + "\n\n" + post["url"]
+    suffix = "\n\nPřehledně česky: " + tracked_url(article_url or BASE_URL + "/", "x", "reply" if as_draft else "quote", post_key("x", "reply" if as_draft else "quote", post["id"])) + "\n\n" + post["url"]
     if as_draft:
         suffix += f"\n(k posouzení, skóre {post.get('score', 0)})"
     while comment and (weighted_length(comment) > 180 or weighted_length(comment + suffix) > 275):
@@ -345,6 +346,7 @@ def process_posts(relevant, buffer_key, state):
                 text = compose_post(post, related_article(post), as_draft)
                 print(f"Odesílám {post['id']} (draft={as_draft}, délka={weighted_length(text)})")
                 created = buffer_create_post(buffer_key, text, as_draft)
+                receipt('x', 'reply' if as_draft else 'quote', post_key('x','reply' if as_draft else 'quote',post['id']), post.get('text',''), created['id'], created.get('status'))
                 state['used'] = sorted(set(state['used']) | {post['id']})
                 state['reviewed'][post['id']] = {"at": datetime.now(timezone.utc).isoformat(),
                     "relevant": True, "score": post.get('score'), "buffer_id": created['id'],
@@ -410,5 +412,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
