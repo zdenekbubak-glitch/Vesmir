@@ -13,6 +13,7 @@ import argparse
 import editorial
 from newsletter_content import build_email as newsletter_email
 import html
+from html.parser import HTMLParser
 import json
 import re
 import sys
@@ -110,6 +111,10 @@ CSS = """
     .post-nav .next { margin-left: auto; }
     .back a { color: var(--accent); }
     .search-box { width: 100%; padding: .35rem .85rem; margin: .6rem 0 1.2rem; border: 1px solid #1e293b; border-radius: 10px; background: var(--card); color: var(--text); font-size: .95rem; outline: none; }
+    article.item[hidden], h2.section-title[hidden] { display: none !important; }
+    .search-excerpt { margin: .6rem 0; padding-left: .8rem; border-left: 2px solid var(--accent); font-size: .9rem; color: var(--muted); }
+    .search-status { font-size: .85rem; color: var(--muted); margin: 0 0 1rem; }
+    article.item mark { background: #f6d365; color: #141a26; border-radius: 2px; padding: 0 .06em; }
     .search-box:focus { border-color: var(--accent); }
     .search-box::placeholder { color: #64748b; }
     @media (max-width: 520px) {
@@ -124,26 +129,7 @@ COUNTER_JS = """
 // Counter is loaded from the shared file; see page_head.
 """
 
-SEARCH_JS = """
-(function () {
-  const box = document.getElementById('clanky-search');
-  if (!box) return;
-  box.addEventListener('input', function () {
-    const q = this.value.toLowerCase();
-    document.querySelectorAll('article.item').forEach(function (a) {
-      a.style.display = a.textContent.toLowerCase().includes(q) ? '' : 'none';
-    });
-    document.querySelectorAll('h2.section-title').forEach(function (h) {
-      let el = h.nextElementSibling, any = false;
-      while (el && el.tagName !== 'H2') {
-        if (el.tagName === 'ARTICLE' && el.style.display !== 'none') any = true;
-        el = el.nextElementSibling;
-      }
-      h.style.display = any ? '' : 'none';
-    });
-  });
-})();
-"""
+
 
 NEWSLETTER_CTA = ('<p class="newsletter-cta">Zaujalo vás téma? '
                   '<a href="#bd-email" data-newsletter-focus>Přihlaste se k týdennímu výběru e-mailem ↑</a></p>')
@@ -214,6 +200,30 @@ def truncate(text, limit=158):
         return text
     cut = text[:limit].rsplit(" ", 1)[0]
     return cut.rstrip(" ,.;:") + "…"
+
+
+class SearchTextParser(HTMLParser):
+    """Visible editorial body only; do not index navigation or HTML attributes."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+        self.ignored = 0
+    def handle_starttag(self, tag, attrs):
+        if tag in ('script', 'style'): self.ignored += 1
+        elif tag in ('p', 'li', 'h2', 'h3', 'blockquote', 'br'): self.parts.append(' ')
+    def handle_endtag(self, tag):
+        if tag in ('script', 'style'): self.ignored = max(0, self.ignored - 1)
+        elif tag in ('p', 'li', 'h2', 'h3', 'blockquote'): self.parts.append(' ')
+    def handle_data(self, data):
+        if not self.ignored: self.parts.append(data)
+
+
+def search_body(item):
+    if 'body' in item:
+        parser = SearchTextParser()
+        parser.feed(item['body'])
+        return ' '.join(''.join(parser.parts).split())
+    return ' '.join(str(item.get('summary') or item.get('original_title') or item.get('title') or '').split())
 
 
 def article_perex(item, limit=280):
@@ -761,6 +771,13 @@ def main():
         (out / item["_path"]).write_text(page, encoding="utf-8")
         urls.append((url, fmt_iso_date(item.get("inserted_at") or item.get("published"))))
 
+    # Index only published entries selected by the existing generators.
+    search_entries = [dict(href=item['href'] if 'body' in item else '/' + item['_path'],
+                           text=search_body(item)) for item in news + editor_posts]
+    (out / 'data').mkdir(parents=True, exist_ok=True)
+    (out / 'data' / 'article-search.json').write_text(
+        json.dumps(search_entries, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+
     # ---- přehled všech článků ----
     groups = {}
     for item in sorted(news + editor_posts, key=lambda x: x.get("inserted_at") or x.get("published") or "", reverse=True):
@@ -790,7 +807,8 @@ def main():
     <h1 class="section-title" style="font-size:1.4rem;color:var(--text)">Přehled článků ({len(news) + len(editor_posts)})</h1>
     <p class="summary">Všechny články přehledně po měsících, nejnovější nahoře. Kliknutím na titulek otevřete celý text — výběr zúží fulltextové hledání níže.</p>
 {editor_archive_link}    <input type="search" id="clanky-search" class="search-box" placeholder="Hledat v článcích…" aria-label="Hledat v článcích">
-{list_html}    <script>{SEARCH_JS}</script>
+    <p id="clanky-search-status" class="search-status" role="status" aria-live="polite"></p>
+{list_html}    <script defer src="/assets/article-search.js"></script>
 '''
     idx += FOOT
     (out / "clanky" / "index.html").write_text(idx, encoding="utf-8")
