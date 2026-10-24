@@ -32,7 +32,43 @@ def diagram(entry):
     def node(x,y,label,c=blue):
         d.rounded_rectangle((x-110,y-40,x+110,y+40),radius=15,outline=c,width=3)
         text(x-100,y-14,label,c,21)
-    if kind=='rotation':
+    if kind=='standard-model':
+        def card(x,y,symbol,name,color,width=170):
+            d.rounded_rectangle((x,y,x+width,y+75),radius=10,fill='#152137',outline=color,width=3)
+            if symbol.startswith('ν'):
+                text(x+14,y+5,'ν',color,28);text(x+32,y+22,symbol[1:],color,17)
+            else:
+                text(x+14,y+5,symbol,color,28)
+            text(x+14,y+44,name,white,20)
+        for i,label in enumerate(('I. generace','II. generace','III. generace')):
+            x=145+i*190;text(x,100,label,muted,20)
+        text(145,72,'Částice hmoty: fermiony',white,22)
+        text(775,90,'Bosony a jejich role',white,22)
+        text(40,172,'Kvarky',violet,20);text(40,390,'Leptony',blue,20)
+        text(40,468,'neutrina',muted,17)
+        rows=[(145,[('u','up'),('c','charm'),('t','top')],violet),
+              (235,[('d','down'),('s','strange'),('b','bottom')],violet),
+              (345,[('e','elektron'),('μ','mion'),('τ','tauon')],blue),
+              (435,[('νe','elektronové'),('νμ','mionové'),('ντ','tauonové')],blue)]
+        for y,particles,color in rows:
+            for i,(symbol,name) in enumerate(particles):card(145+i*190,y,symbol,name,color)
+        card(775,145,'γ — foton','elektromagnetická interakce',gold,380)
+        card(775,235,'g — gluon','silná interakce',gold,380)
+        card(775,345,'W⁺, W⁻, Z','slabá interakce',gold,380)
+        card(775,435,'H — Higgsův boson','Higgsovo pole a hmotnost','#91d9b5',380)
+        text(145,533,'Gravitace není součástí standardního modelu.',white,23)
+    elif kind=='collider':
+        d.ellipse((270,130,930,500),outline=blue,width=5)
+        d.ellipse((290,150,910,480),outline=gold,width=5)
+        arrow(470,137,640,137,blue);arrow(560,475,730,475,gold)
+        circle(930,315,20,violet)
+        arrow(950,300,1045,230,violet);arrow(950,330,1045,400,violet)
+        text(355,270,'Dva protiběžné svazky',white,26)
+        text(365,320,'protonů nebo těžkých iontů',muted,22)
+        text(75,85,'magnety: vedení a zaostření svazků',blue,22)
+        text(850,170,'srážka',violet,22);text(930,440,'produkty srážky',violet,22)
+        text(75,525,'Princip urychlovače; rozměry, dráhy a počet míst srážek nejsou v měřítku.',size=21)
+    elif kind=='rotation':
         axes(xlabel='poloměr',ylabel='oběžná rychlost')
         curve(lambda x:.75*(1-math.exp(-10*x)))
         curve(lambda x:.7*(1-math.exp(-18*x))/math.sqrt(1+5*x),gold)

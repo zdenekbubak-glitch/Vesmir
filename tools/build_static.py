@@ -299,6 +299,11 @@ EXPLAINER_PATTERNS = {
     'exp-027': r'\b(?:λ|lambda)[ -]?cdm\b|\blcdm\b|standard\w* kosmolog\w* model\w*',
     'exp-028': r'\bteleskop\w*|\bdalekohled\w*|\bobservator\w*|\bjwst\b|james webb|\balma\b|\bvlt\b',
     'exp-029': r'standard\w* model\w* castic\w*|standard model of particle|\bkvark\w*|\bquark\w*|\blepton\w*|higgs\w*',
+    'exp-030': r'hubble\w* (?:vesmirn\w* )?(?:teleskop\w*|dalekohled\w*)|hubble space telescope|\bhst\b',
+    'exp-031': r'webb\w*|\bjwst\b',
+    'exp-032': r'\bvlt\b|\bvlti\b|\bparanal\w*|\bgravity\b',
+    'exp-033': r'\balma\b|\bchajnantor\w*',
+    'exp-034': r'\blhc\b|\bcern\b|\batlas\b|\bcms\b|\balice\b|urychlovac\w*|hadron collider',
 }
 
 
@@ -685,6 +690,9 @@ def main():
     img_path = site / "data" / "images.json"
     if img_path.exists():
         images = json.loads(img_path.read_text(encoding="utf-8"))
+    permanent_images = site / 'data' / 'kosmopedie_images.json'
+    if permanent_images.exists():
+        images = list({img['id']: img for img in images + json.loads(permanent_images.read_text(encoding='utf-8'))}.values())
     news.sort(key=lambda x: x.get("inserted_at") or "", reverse=True)
 
     used_slugs = set()
@@ -881,6 +889,12 @@ def main():
                 "datePublished": img.get("published"),
                 "creditText": img.get("credit"),
             }
+            catalog_image = image_library[1].get(img.get('catalog_image_id'))
+            license_html = ''
+            if catalog_image:
+                jsonld.update(image_schema(catalog_image, base))
+                license_html = (f'<p class="source-link">Licence: <a href="{esc(catalog_image["license_url"])}">'
+                                f'{esc(catalog_image["license"])}</a> · {esc(catalog_image["modifications"])}</p>')
             page = page_head(f'{img.get("title")} – Obrázek – Kosmologické novinky', description, url,
                              og_image=img_url, jsonld=jsonld)
             page += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › <a href="/images.html">Galerie</a> › {esc(img.get("title"))}</p>
@@ -892,6 +906,7 @@ def main():
         <figcaption>{esc(caption)}</figcaption>
       </figure>
       <p class="source-link"><a class="original-source" href="{esc(img.get("url"))}" target="_blank" rel="noopener">Původní zdroj snímku →</a></p>
+{license_html}
     </article>
 '''
             page += FOOT

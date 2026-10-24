@@ -121,21 +121,27 @@
     async function loadImages() {
       const gallery = document.getElementById('gallery');
       try {
-        const res = await fetch('data/images.json?' + Date.now());
+        const [res, extraRes] = await Promise.all([
+          fetch('data/images.json?' + Date.now()),
+          fetch('data/kosmopedie_images.json?' + Date.now())
+        ]);
         if (!res.ok) throw new Error('Galerie ještě není naplněná');
-        const items = await res.json();
+        const extra = extraRes.ok ? await extraRes.json() : [];
+        const items = Array.from(new Map((await res.json()).concat(extra).map(item => [item.id, item])).values())
+          .sort((a, b) => (b.published || '').localeCompare(a.published || ''));
         if (!items.length) {
           gallery.innerHTML = '<p class="empty">Zatím žádné snímky. Přibydou při dalším běhu agenta.</p>';
           return;
         }
         gallery.innerHTML = items.map(function (item) {
-          const src = item.id ? ('assets/gallery/' + item.id + '.jpg') : (item.image || item.thumb || '');
+          const src = item.image || item.thumb || (item.id ? ('assets/gallery/' + item.id + '.jpg') : '');
           return (
             '<figure class="figure is-pending" id="img-' + escapeHtml(item.id) + '">' +
             '<img src="' + src + '" alt="' + escapeHtml(item.alt || item.title || item.original_title || 'Astronomický snímek') + '" onload="this.parentNode.classList.remove(\'is-pending\')" onerror="this.parentNode.remove()">' +
             '<h2>' + escapeHtml(item.title) + '</h2>' +
             '<div class="meta">' + escapeHtml(item.source) + ' · ' + escapeHtml(item.published || '') + ' · ' + escapeHtml(item.credit || '') + '</div>' +
             '<p class="caption">' + escapeHtml(item.caption) + '</p>' +
+            (item.license_url ? '<p class="meta">Licence: <a href="' + escapeHtml(item.license_url) + '">' + escapeHtml(item.license) + '</a> · ' + escapeHtml(item.modifications || '') + '</p>' : '') +
             '<a href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener">Původní zdroj →</a>' +
             '</figure>'
           );

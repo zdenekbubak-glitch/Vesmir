@@ -1031,7 +1031,7 @@
    },
    {
     "heading": "Víc než dvě neznámé složky",
-    "body": "Model obsahuje také běžnou hmotu, záření a neutriny. Opírá se o obecnou teorii relativity a předpoklad, že vesmír je na dostatečně velkých měřítkách přibližně stejnorodý a ve všech směrech podobný. Běžná základní verze navíc předpokládá prostorovou plochost.\n\nNejde o mapu každé jednotlivé galaxie. Je to rámec pro popis celkového rozpínání a růstu nerovnoměrností, z nichž vznikly galaxie a kosmická síť. Vznik hvězd a působení černých děr vyžadují další astrofyzikální modelování."
+    "body": "Model obsahuje také běžnou hmotu, záření a neutrina. Opírá se o obecnou teorii relativity a předpoklad, že vesmír je na dostatečně velkých měřítkách přibližně stejnorodý a ve všech směrech podobný. Běžná základní verze navíc předpokládá prostorovou plochost.\n\nNejde o mapu každé jednotlivé galaxie. Je to rámec pro popis celkového rozpínání a růstu nerovnoměrností, z nichž vznikly galaxie a kosmická síť. Vznik hvězd a působení černých děr vyžadují další astrofyzikální modelování."
    },
    {
     "heading": "Co se s pozorováním shoduje",
@@ -1096,7 +1096,9 @@
   "related_explainery": [
    "co-je-reliktni-zareni",
    "jak-se-fotografovalo-reliktni-zareni",
-   "co-je-hubbleova-konstanta"
+   "co-je-hubbleova-konstanta",
+   "co-umi-hubbleuv-vesmirny-dalekohled",
+   "co-umi-webbuv-vesmirny-dalekohled"
   ]
  },
  {
@@ -1136,6 +1138,216 @@
   "why_box": "Zprávy o „částici mimo standardní model“ míří na konkrétní, velmi dobře otestovanou teorii. Zajímavá odchylka ještě není objevem nové částice. Pokud se ale nezávisle potvrdí, může propojit výsledky pozemských experimentů s otázkami o složení a historii vesmíru.",
   "related_explainery": [
    "co-znamena-model-cdm",
+   "z-ceho-by-mohla-byt-temna-hmota",
+   "co-je-velky-tresk",
+   "co-je-lhc-a-jak-souvisi-s-kosmologii"
+  ]
+ },
+ {
+  "id": "exp-030",
+  "title": "Co umí Hubbleův vesmírný dalekohled?",
+  "theme": "vesmirne-teleskopy",
+  "description": "Hubbleův dalekohled měří světlo hvězd, galaxií i atmosfér planet. Kde obíhá, čím přispěl ke kosmologii a proč ho Webb plně nenahrazuje?",
+  "published": "2026-10-24",
+  "updated": "2026-10-24",
+  "perex": "Hubbleův vesmírný dalekohled známe hlavně díky snímkům mlhovin a vzdálených galaxií. Jeho význam ale spočívá také v přesném měření jasnosti, polohy a spektra objektů. Pomohl zpřesnit měřítko vesmíru a sledovat, jak se galaxie v čase měnily.",
+  "sections": [
+   {
+    "heading": "Kde se nachází a jak je velký",
+    "body": "Hubble je společný projekt NASA a ESA. Do vesmíru odstartoval v roce 1990 a obíhá Zemi na nízké oběžné dráze. Jeho hlavní zrcadlo má průměr **2,4 metru**. Není tedy největším astronomickým zrcadlem, ale pracuje nad vrstvami atmosféry, které pozemská pozorování zkreslují nebo část záření pohlcují.\n\nTo je podstatné zejména pro ultrafialovou astronomii. Hubble pozoruje také ve viditelném světle a části blízkého infračerveného oboru. Jednotlivé přístroje mají různé rozsahy a možnosti; dalekohled nevidí všechny druhy záření."
+   },
+   {
+    "heading": "Co skutečně měří",
+    "body": "Kamera zaznamenává, kolik světla přichází z různých míst oblohy. Opakovaná pozorování umožňují sledovat proměny jasnosti nebo pohyb. Spektrograf navíc rozkládá světlo podle vlnových délek a pomáhá určit například chemické složení či rychlost pohybu.\n\nBarevný obrázek často vzniká spojením několika expozic přes různé filtry. Barvy mohou odpovídat viditelnému světlu, ale mohou také přehledně odlišovat vybrané vlnové délky. Nejde proto automaticky o pohled, který by vidělo lidské oko."
+   },
+   {
+    "heading": "Jak přispěl k měření rozpínání",
+    "body": "Jedním z důležitých úkolů byla pozorování cefeid, tedy hvězd s pravidelnými změnami jasnosti. Jejich vlastnosti pomáhají určit vzdálenosti galaxií a navázat další stupně žebříku kosmických vzdáleností. Tím Hubble přispěl k určování Hubbleovy konstanty.\n\nPodílel se také na výzkumu vzdálených supernov, důležitém pro zjištění zrychleného rozpínání vesmíru. Tento objev byl výsledkem práce více týmů a přístrojů, včetně pozemských dalekohledů. Nebylo by přesné připsat ho samotnému Hubbleovu teleskopu."
+   },
+   {
+    "heading": "Co ukázaly hluboké snímky",
+    "body": "Dlouhé expozice malých částí oblohy zachytily velké množství slabých galaxií v různých vzdálenostech. Protože světlo potřebuje čas na cestu, vidíme ty vzdálenější v dřívějších etapách jejich vývoje.\n\nTakové přehlídky pomáhají zkoumat, jak se měnily tvary galaxií a tvorba hvězd. Každý snímek má ovšem hranici citlivosti: objekty, které na něm nevidíme, nemusejí chybět ve vesmíru. Mohou být příliš slabé nebo vyzařovat hlavně mimo pozorovaný obor."
+   },
+   {
+    "heading": "Proč není jen předchůdcem Webbu",
+    "body": "Webb má větší zrcadlo a zaměřuje se především na infračervené záření. Hubble má jiné přednosti, zejména přístup k ultrafialovému oboru. Srovnání „starý versus nový“ proto nevystihuje jejich vědecké role.\n\nUžitečná je kombinace obou přístrojů a pozemských observatoří. Různé části spektra i opakovaná pozorování umožňují kontrolovat výklady. Hubble přitom nepozoruje samotný okamžik velkého třesku ani neurčuje vlastnosti vzdálených objektů bez následné analýzy."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[NASA: O Hubbleově dalekohledu](https://science.nasa.gov/mission/hubble/overview/about-hubble/)\n\n[NASA: Vědecké výsledky Hubbleova dalekohledu](https://science.nasa.gov/mission/hubble/science/)\n\n[NASA: Hubble a Webb – rozdíly mezi dalekohledy](https://science.nasa.gov/mission/hubble/observatory/hubble-vs-webb/)"
+   }
+  ],
+  "why_box": "Když narazíte na Hubbleův snímek, zkuste se podívat také na jeho popis: v jakém záření vznikl, co barvy znázorňují a co bylo skutečně změřeno. I známý obrázek tak může nabídnout víc než jen krásný pohled do vesmíru.",
+  "related_explainery": [
+   "co-umi-webbuv-vesmirny-dalekohled",
+   "co-je-hubbleova-konstanta",
+   "proc-pozorujeme-vesmir-ze-zeme-i-z-kosmu"
+  ]
+ },
+ {
+  "id": "exp-031",
+  "title": "Co umí Webbův vesmírný dalekohled?",
+  "theme": "vesmirne-teleskopy",
+  "description": "Webb zkoumá rané galaxie, prachová mračna i atmosféry exoplanet. Proč pozoruje v infračerveném oboru a co z jeho výsledků můžeme vyčíst?",
+  "published": "2026-10-24",
+  "updated": "2026-10-24",
+  "perex": "Webbův dalekohled sleduje vesmír především v infračerveném záření. Zachycuje světlo dávných galaxií i slabé stopy molekul v atmosférách planet. Není ale přístrojem, který by jediným snímkem rozhodl všechny otázky o vzniku kosmu nebo o životě mimo Zemi.",
+  "sections": [
+   {
+    "heading": "Kde Webb pracuje",
+    "body": "James Webb Space Telescope, zkráceně **JWST**, je projekt NASA, ESA a Kanadské kosmické agentury. Odstartoval 25. prosince 2021. Jeho hlavní zrcadlo má přibližně **6,5 metru** a skládá se z 18 segmentů.\n\nNa rozdíl od Hubbleova dalekohledu neobíhá těsně kolem Země. Pohybuje se kolem Slunce v okolí druhého libračního bodu soustavy Slunce–Země, označovaného L2, přibližně 1,5 milionu kilometrů od Země. Není nehybně zaparkovaný přímo v tomto bodě."
+   },
+   {
+    "heading": "Proč potřebuje infračervené záření a chlad",
+    "body": "Světlo vzdálených galaxií se při rozpínání vesmíru posouvá k delším vlnovým délkám. Část záření, které bylo vyzářeno jako ultrafialové či viditelné světlo, k nám proto dorazí v infračerveném oboru. Webb tak pomáhá zkoumat mladé galaxie v raném vesmíru.\n\nInfračervené záření je důležité také pro studium prachu a některých molekul. Samotný teplý dalekohled by ale v tomto oboru rušil měření vlastním zářením. Rozměrný vícevrstvý sluneční štít proto odděluje chladnou pozorovací část od tepla Slunce, Země a Měsíce."
+   },
+   {
+    "heading": "Co změří kamera a co spektrum",
+    "body": "Kamera ukáže rozložení jasnosti na obloze. Spektrograf rozloží světlo podle vlnových délek a dovolí hledat charakteristické stopy atomů či molekul, určit rudý posuv nebo zkoumat pohyb plynu.\n\nRozdíl je podstatný u vzdálených galaxií. Objekt může podle barev vypadat jako velmi raná galaxie, ale jiný typ zdroje jej někdy dokáže napodobit. Spektrum proto může původní odhad vzdálenosti potvrdit, zpřesnit nebo změnit. Samotná červená barva není jednoznačným měřením stáří."
+   },
+   {
+    "heading": "Konkrétní příklad: atmosféra WASP-39 b",
+    "body": "V roce 2022 Webb získal přesvědčivý spektrální důkaz oxidu uhličitého v atmosféře exoplanety WASP-39 b. Při přechodu planety před hvězdou prošla část hvězdného světla její atmosférou. Molekuly v ní pohltily vybrané vlnové délky a zanechaly ve spektru rozpoznatelnou stopu.\n\nJde o horkou plynnou obří planetu. Zjištění oxidu uhličitého zde není důkazem života; pomáhá především zkoumat chemické složení atmosféry a vznik planet. Webb tedy nepořídil detailní fotografii jejího povrchu."
+   },
+   {
+    "heading": "Co znamenají překvapivě jasné rané galaxie",
+    "body": "Pozorování raných galaxií pomáhají ověřovat, jak rychle vznikaly hvězdy a jak rostly galaxie či jejich centrální černé díry. Nečekaně jasný objekt ale nemusí mít automaticky nečekaně velkou hmotnost. Odhad závisí například na hvězdné populaci, prachu a případném záření aktivního jádra.\n\nTakové výsledky jsou důležitou zkouškou modelů vzniku galaxií. K závěru, že vyvracejí celý kosmologický model nebo velký třesk, by bylo potřeba mnohem víc než několik neobvyklých objektů."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[NASA: Základní údaje o Webbu](https://science.nasa.gov/mission/webb/fact-sheet/)\n\n[ESA/Webb: Otázky a odpovědi](https://esawebb.org/about/faq/)\n\n[NASA: Oxid uhličitý v atmosféře WASP-39 b, výsledek z roku 2022](https://science.nasa.gov/missions/webb/nasas-webb-detects-carbon-dioxide-in-exoplanet-atmosphere/)"
+   }
+  ],
+  "why_box": "U nové zprávy z Webbu se vyplatí rozlišovat snímek, spektrální měření a výklad výsledku pomocí modelu. Všechny tři kroky jsou cenné, ale každý odpovídá na jinou otázku a každý má svou nejistotu.",
+  "related_explainery": [
+   "co-umi-hubbleuv-vesmirny-dalekohled",
+   "co-je-alma-a-co-vidi-v-chladnem-vesmiru",
+   "proc-pozorujeme-vesmir-ze-zeme-i-z-kosmu"
+  ]
+ },
+ {
+  "id": "exp-032",
+  "title": "Co je VLT a jak zkoumá vesmír?",
+  "theme": "vesmirne-teleskopy",
+  "description": "Čtyři velké dalekohledy VLT v Chile studují hvězdy, galaxie i okolí černých děr. Jak fungují a co přineslo sledování hvězdy S2?",
+  "published": "2026-10-24",
+  "updated": "2026-10-24",
+  "perex": "Zkratka VLT znamená Very Large Telescope. Nejde o jediný dalekohled ani o kosmickou sondu, ale o soustavu pozemních teleskopů na observatoři Paranal v Chile. Jejich přístroje dokážou nejen zobrazit vzdálené objekty, ale i přesně měřit jejich světlo a pohyb.",
+  "sections": [
+   {
+    "heading": "Čtyři velká zrcadla na Paranalu",
+    "body": "VLT provozuje Evropská jižní observatoř, známá jako ESO. Na hoře Cerro Paranal v chilské poušti Atacama stojí čtyři hlavní dalekohledy se zrcadly o průměru **8,2 metru**. Doplňují je čtyři pohyblivé pomocné teleskopy se zrcadly o průměru 1,8 metru.\n\nMísto bylo vybráno kvůli dobrým pozorovacím podmínkám. Suchý vzduch a vysoká poloha pomáhají, atmosféra ale nezmizí. Podle přístroje VLT pozoruje v různých částech optického a infračerveného oboru."
+   },
+   {
+    "heading": "Jak překonává chvění atmosféry",
+    "body": "Turbulence vzduchu neustále mění cestu světla a rozmazává obraz. Adaptivní optika měří vzniklé zkreslení a rychlými změnami tvaru zrcadla část těchto poruch koriguje. Není to pouhé dodatečné doostření fotografie.\n\nV určitých oborech a za vhodných podmínek tak pozemský dalekohled dosahuje velmi jemných detailů. Výsledek ale závisí na vlnové délce, jasnosti cíle i použitém systému. Tvrdit, že je jeden přístroj vždy ostřejší než jiný, proto nedává smysl."
+   },
+   {
+    "heading": "Kdy spolu dalekohledy spolupracují",
+    "body": "Hlavní teleskopy mohou pracovat samostatně. Při interferometrii se světlo z více dalekohledů přesně kombinuje. Tato sestava se označuje **VLTI** a dovoluje rozlišit velmi malé úhlové struktury.\n\nVzdálenost mezi dalekohledy zde pomáhá určit jemnost rozlišení. Nevzniká však plně vyplněné zrcadlo velikosti celé soustavy ani stejně citlivý přístroj, jakým by takové obří zrcadlo bylo. Interferometrie vyžaduje zvláštní přístroje, vhodné cíle a pečlivé zpracování."
+   },
+   {
+    "heading": "Konkrétní příklad: hvězda u Sagittarius A*",
+    "body": "Dlouhodobé sledování hvězd u středu Mléčné dráhy poskytlo silné důkazy o přítomnosti supermasivní černé díry. Významnou roli při tom hrály přístroje ESO i nezávislá pozorování jiných týmů.\n\nU hvězdy S2 se v roce 2018 pomocí přístrojů VLT a VLTI podařilo změřit relativistický posun spektrálních čar při jejím průchodu poblíž Sagittarius A*. Pozorování odpovídalo předpovědi obecné relativity. Nešlo o fotografii horizontu událostí: měřilo se světlo a pohyb hvězdy v okolním gravitačním poli."
+   },
+   {
+    "heading": "Jak souvisí s kosmologií",
+    "body": "Spektra vzdálených galaxií dovolují měřit rudý posuv, chemické složení a vlastnosti jejich hvězd či plynu. To pomáhá zkoumat, jak galaxie vznikaly a vyvíjely se. VLT může také doplňovat snímky z kosmických observatoří podrobnější spektroskopií.\n\nVazba na kosmologii tedy nespočívá jen ve snaze dohlédnout co nejdál. Přesné testy gravitace a porozumění galaxiím jsou důležité i pro správný výklad měření celého vesmíru. Ani z jednoho kvalitního spektra však nelze vyčíst všechny vlastnosti objektu bez dalších předpokladů."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[ESO: Soustava VLT](https://www.eso.org/public/teles-instr/paranal-observatory/vlt/)\n\n[ESO: Relativistický posun světla hvězdy S2, výsledek z roku 2018](https://www.eso.org/public/news/eso1825/)\n\n[ESO: Výzkum středu Mléčné dráhy a Nobelova cena 2020](https://www.eso.org/public/news/eso2017/)"
+   }
+  ],
+  "why_box": "Když zpráva z VLT mluví o černé díře, nemusí jít o její snímek. Může vycházet z pohybu hvězdy nebo ze spektrálních čar. Právě tato méně nápadná měření často poskytují nejsilnější podklady pro fyzikální závěr.",
+  "related_explainery": [
+   "co-je-supermasivni-cerna-dira-v-centru-galaxie",
+   "proc-pozorujeme-vesmir-ze-zeme-i-z-kosmu",
+   "co-je-alma-a-co-vidi-v-chladnem-vesmiru"
+  ]
+ },
+ {
+  "id": "exp-033",
+  "title": "Co je ALMA a co vidí v chladném vesmíru?",
+  "theme": "vesmirne-teleskopy",
+  "description": "ALMA spojuje antény vysoko v Chile a měří milimetrové záření. Co odhaluje v prachu, plynu a discích, v nichž vznikají planety?",
+  "published": "2026-10-24",
+  "updated": "2026-10-24",
+  "perex": "ALMA nevypadá jako běžný dalekohled. Tvoří ji soustava antén na náhorní plošině v Chile, které společně zachycují milimetrové a submilimetrové záření. Díky tomu zkoumá i chladný plyn a prach, které ve viditelném světle snadno přehlédneme.",
+  "sections": [
+   {
+    "heading": "Kde stojí a proč právě tam",
+    "body": "Název **ALMA** znamená Atacama Large Millimeter/submillimeter Array. Soustava má 66 antén a nachází se na plošině Chajnantor v severním Chile, přibližně **5 000 metrů nad mořem**. Provoz vznikl mezinárodní spoluprací Evropy, Severní Ameriky a východní Asie s Chile.\n\nVysoká a velmi suchá lokalita není jen zajímavostí. Vodní pára v atmosféře pohlcuje část záření, které ALMA potřebuje měřit. Čím méně jí stojí v cestě, tím příznivější mohou být podmínky pozorování. Ani zde ale nejsou všechny noci a všechna pásma stejně dostupné."
+   },
+   {
+    "heading": "Proč používá tolik antén",
+    "body": "ALMA kombinuje signály více antén metodou interferometrie. Z jejich vzájemného porovnání lze rekonstruovat rozložení záření na obloze. Antény lze rozmístit do různých sestav, v nejrozsáhlejší až na vzdálenosti přibližně 16 kilometrů.\n\nVětší rozestupy umožňují rozlišit jemnější struktury, ale nejsou automaticky nejlepší pro každý cíl. Pro rozsáhlé slabé objekty jsou důležité i kratší vzdálenosti mezi anténami a doplňující měření. Výsledek je rekonstrukcí z naměřených signálů, nikoli fotografií pořízenou jedním objektivem."
+   },
+   {
+    "heading": "Co nám říká plyn a prach",
+    "body": "Prach vyzařuje tepelné záření a molekuly v plynu mají charakteristické spektrální čáry. Měřením jejich poloh, intenzit a profilů lze zkoumat složení, teplotu i pohyb materiálu. Důležité jsou například molekuly oxidu uhelnatého, které pomáhají sledovat molekulární plyn.\n\nALMA proto doplňuje optické a infračervené teleskopy. Oblast, která ve viditelném světle působí temně kvůli prachu, může být v jejím pozorovacím oboru výrazná. „Temný“ na běžném snímku tedy neznamená „bez hmoty“."
+   },
+   {
+    "heading": "Konkrétní příklad: prstence kolem HL Tauri",
+    "body": "V roce 2014 ALMA zveřejnila mimořádně podrobný obraz disku kolem mladé hvězdy HL Tauri. Ukázal soustavu jasných prstenců oddělených mezerami. Pozorování pomohlo změnit představy o tom, jak brzy mohou v mladých discích vznikat složité struktury.\n\nJednou z možností je působení vznikajících planet. **Samotná mezera ale není automatickým potvrzením planety.** Rozložení prachu ovlivňují i další procesy a správný výklad vyžaduje další měření a modelování. Snímek ukazuje záření materiálu v disku, nikoli detailní portréty nově vzniklých planet."
+   },
+   {
+    "heading": "Od planet k vývoji galaxií",
+    "body": "ALMA měří plyn a prach také ve vzdálených galaxiích. Tyto složky souvisejí s tvorbou hvězd a s tím, jak galaxie získávají a spotřebovávají svůj materiál. Spektrální čáry navíc pomáhají určovat jejich rudé posuvy a pohyb plynu.\n\nSrovnání s optickými a infračervenými daty dovoluje sestavit úplnější obraz galaxií v různých obdobích kosmické historie. ALMA tím přispívá ke kosmologii, přestože není univerzálním přístrojem na měření všech složek vesmíru a přímo nefotografuje temnou hmotu."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[ESO: Observatoř ALMA](https://www.eso.org/public/teles-instr/alma/)\n\n[ESO: Antény soustavy ALMA](https://www.eso.org/public/teles-instr/alma/antennas/)\n\n[ESO: Disk kolem HL Tauri, pozorování z roku 2014](https://www.eso.org/public/news/eso1436/)"
+   }
+  ],
+  "why_box": "Barevný prstenec na snímku z ALMA nemusí být viditelným světlem ani oběžnou dráhou konkrétní planety. Popisek a měřené spektrální pásmo pomohou poznat, zda se díváte na rozložení prachu, záření molekul nebo například mapu rychlostí plynu.",
+  "related_explainery": [
+   "co-jsou-exoplanety-a-jak-se-hledaji",
+   "jak-vznikaji-galaxie",
+   "co-umi-webbuv-vesmirny-dalekohled"
+  ]
+ },
+ {
+  "id": "exp-034",
+  "title": "Co je LHC a jak souvisí s kosmologií?",
+  "theme": "castice-a-zakladni-sily",
+  "description": "LHC sráží protony a těžké ionty. Jak funguje, co objevily jeho detektory a jak pomáhá zkoumat raný vesmír a hledat temnou hmotu?",
+  "published": "2026-10-24",
+  "updated": "2026-10-24",
+  "perex": "Ve vesmíru sledujeme přírodní děje na obrovských vzdálenostech. V urychlovači LHC naopak připravujeme srážky částic v laboratoři. Oba přístupy se doplňují: vlastnosti nejmenších stavebních prvků hmoty ovlivnily také vývoj raného vesmíru.",
+  "sections": [
+   {
+    "heading": "Co znamená zkratka LHC",
+    "body": "**Large Hadron Collider**, česky Velký hadronový urychlovač, je součástí laboratoře CERN u Ženevy. Jeho kruhový tunel měří přibližně **27 kilometrů** a vede pod francouzsko-švýcarskou hranicí. Poprvé byl spuštěn v roce 2008.\n\nUrychluje především protony, ale také svazky těžkých iontů. Proton je hadron: složená částice obsahující kvarky a gluony. LHC tedy není přístroj, který by urychloval celé atomy s elektronovými obaly, ani obří dalekohled namířený do vesmíru."
+   },
+   {
+    "heading": "Jak částice získají energii",
+    "body": "Elektrická pole v urychlovacích dutinách dodávají nabitým částicím energii. Magnety svazky ohýbají a zaostřují, aby obíhaly v úzkých trubicích s velmi dobrým vakuem. Dva svazky putují opačnými směry a ve vybraných místech se srážejí.\n\nRychlost částic už je velmi blízká rychlosti světla. Další přísun energie proto neznamená úměrné zvýšení rychlosti. Vysoká energie srážek umožňuje vznik dalších částic, které pak mohou velmi rychle zaniknout nebo se přeměnit."
+   },
+   {
+    "heading": "Urychlovač není totéž co detektor",
+    "body": "LHC připravuje svazky a srážky. Okolní detektory zaznamenávají vzniklé částice, jejich dráhy a uloženou energii. Mezi hlavní experimenty patří ATLAS, CMS, ALICE a LHCb; jejich konstrukce a zaměření se liší.\n\nZ těchto stop vědci rekonstruují průběh událostí a porovnávají velké soubory dat s předpověďmi. Krátce žijící částici často nepozorují přímo. Její přítomnost odvozují z vlastností produktů rozpadu a z opakujícího se statistického přebytku nad očekávaným pozadím."
+   },
+   {
+    "heading": "Co přinesl objev Higgsova bosonu",
+    "body": "V roce 2012 experimenty ATLAS a CMS oznámily objev nové částice, jejíž následně změřené vlastnosti odpovídají Higgsovu bosonu. Výsledek podpořil mechanismus, kterým v rámci standardního modelu získávají hmotnost například kvarky, nabité leptony a bosony W a Z.\n\nNeznamená to, že jsme tím vysvětlili všechnu hmotnost nebo objevili temnou hmotu. Většina hmotnosti protonů a neutronů souvisí s energií jejich silně interagujících složek. Higgsův boson také sám o sobě není vysvětlením temné energie."
+   },
+   {
+    "heading": "Jak zkoumá raný vesmír",
+    "body": "Při srážkách těžkých iontů vzniká na velmi krátkou dobu extrémně horká a hustá hmota, v níž se kvarky a gluony chovají jinak než uvnitř jednotlivých protonů a neutronů. Studium tohoto **kvark-gluonového plazmatu**, zejména experimentem ALICE, pomáhá porozumět podmínkám raného vesmíru.\n\nNevzniká tím nový vesmír ani celý velký třesk. Laboratoř umožňuje prověřovat určité fyzikální procesy v malém objemu; kosmologický vývoj zahrnuje navíc rozpínání, gravitaci a mnohem delší historii."
+   },
+   {
+    "heading": "Může objevit temnou hmotu?",
+    "body": "Pokud existují vhodné nové částice, mohla by je energie srážek umožnit vytvořit. Částice slabě interagující s detektorem by mohla uniknout a projevit se nerovnováhou měřené příčné hybnosti.\n\nPodobnou stopu ale mohou zanechat i známá neutrina nebo nepřesnosti měření. Samotná chybějící hybnost proto není důkazem temné hmoty. A ani případná nová neviditelná částice by bez dalších údajů automaticky nebyla potvrzenou složkou galaktických hal."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[CERN: Velký hadronový urychlovač LHC](https://home.cern/science/accelerators/large-hadron-collider)\n\n[CERN: Higgsův boson](https://home.cern/science/physics/higgs-boson)\n\n[CERN: Experiment ALICE a kvark-gluonové plazma](https://home.cern/science/experiments/alice/)\n\n[CERN: Hledání temné hmoty](https://home.cern/science/physics/dark-matter)"
+   }
+  ],
+  "why_box": "U zprávy o „nové částici z CERN“ je dobré rozlišovat předběžný přebytek v datech, statisticky přesvědčivý objev a následné určení vlastností částice. Teprve další měření ukážou, zda a jak výsledek souvisí s otázkami kosmologie.",
+  "related_explainery": [
+   "co-je-standardni-model-casticove-fyziky",
    "z-ceho-by-mohla-byt-temna-hmota",
    "co-je-velky-tresk"
   ]
