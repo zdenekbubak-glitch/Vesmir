@@ -86,6 +86,13 @@ CSS = """
     .post a.original-source { font-size: .82rem; line-height: 1.5; color: var(--accent); text-decoration: none; }
     .post a.original-source:hover, .post a.original-source:focus-visible { text-decoration: underline; }
     .source-link { display: inline-block; margin-top: .4rem; }
+    .post .source-link { display: block; margin: .6rem 0 0; font-size: .82rem; line-height: 1.5; }
+    .post .article-sources { margin: 1rem 0; font-size: .82rem; line-height: 1.5; color: var(--muted); }
+    .post .article-sources h2, .post .article-sources h3 { margin: 0 0 .35rem; font-size: .9rem; line-height: 1.5; color: var(--muted); }
+    .post .article-sources p { margin: .2rem 0; }
+    .post .article-sources ul, .post .article-sources ol { margin: .2rem 0; padding-left: 1.2rem; }
+    .post .article-sources li { margin: .15rem 0; }
+    .post .article-sources a { overflow-wrap: anywhere; }
     .related { margin-top: 1.4rem; border-top: 1px solid #1e293b; padding-top: 1rem; }
     .related ul { margin: .5rem 0 0; padding-left: 1.2rem; }
     .related li { margin-bottom: .35rem; }
@@ -884,7 +891,7 @@ def main():
         <img src="{esc(img_url)}" alt="{esc(image_alt(img))}" loading="lazy">
         <figcaption>{esc(caption)}</figcaption>
       </figure>
-      <p class="source-link"><a href="{esc(img.get("url"))}" target="_blank" rel="noopener">Původní zdroj snímku →</a></p>
+      <p class="source-link"><a class="original-source" href="{esc(img.get("url"))}" target="_blank" rel="noopener">Původní zdroj snímku →</a></p>
     </article>
 '''
             page += FOOT

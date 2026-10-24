@@ -23,12 +23,19 @@ def inline(text):
 
 def markdown(body):
     blocks = []
+    sources_level = 0
     for block in re.split(r'\n\s*\n', body.strip()):
         lines = block.splitlines()
         if not lines: continue
         heading = re.fullmatch(r'(#{2,3})\s+(.+)', block)
         if heading:
             level = len(heading[1])
+            if sources_level and level <= sources_level:
+                blocks.append('</section>')
+                sources_level = 0
+            if heading[2].strip().casefold().startswith('zdroje'):
+                blocks.append('<section class="article-sources">')
+                sources_level = level
             blocks.append(f'<h{level}>{inline(heading[2])}</h{level}>')
         elif all(line.startswith('- ') for line in lines):
             blocks.append('<ul>' + ''.join('<li>' + inline(line[2:]) + '</li>' for line in lines) + '</ul>')
@@ -36,6 +43,8 @@ def markdown(body):
             blocks.append('<blockquote>' + inline(' '.join(line[2:] for line in lines)) + '</blockquote>')
         else:
             blocks.append('<p>' + inline(' '.join(lines)) + '</p>')
+    if sources_level:
+        blocks.append('</section>')
     return '\n'.join(blocks)
 
 def load_posts(site, library):

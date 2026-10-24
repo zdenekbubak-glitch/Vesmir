@@ -117,7 +117,10 @@ def main():
 
         sec_html = ''
         for sec in ex.get('sections', []):
-            sec_html += f"      <h2>{esc(sec.get('heading'))}</h2>\n{render_body(sec.get('body'))}\n"
+            section = f"      <h2>{esc(sec.get('heading'))}</h2>\n{render_body(sec.get('body'))}\n"
+            if str(sec.get('heading') or '').strip().casefold().startswith('zdroje'):
+                section = '<section class="article-sources">\n' + section + '</section>\n'
+            sec_html += section
 
         why_html = ''
         if ex.get('why_box'):
