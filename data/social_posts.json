@@ -1,0 +1,32 @@
+[
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_fe6225c1ad164429bd7e",
+    "title": "Kvantová gravitace rozostřuje prostoročasové singularity",
+    "platform_id": "6adc5d1a8b3d437ddca7c36f",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-24T07:24:13.123196+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_fe6225c1ad164429bd7e",
+    "title": "Kvantová gravitace rozostřuje prostoročasové singularity",
+    "platform_id": "6adc5d28e4be8a4d86475563",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-24T07:24:28.825400+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_fe6225c1ad164429bd7e",
+    "title": "Kvantová gravitace rozostřuje prostoročasové singularity",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mylf5mik22ep",
+    "status": "published",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-24T07:24:30.792947+00:00"
+  }
+]
