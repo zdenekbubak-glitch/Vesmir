@@ -1370,11 +1370,11 @@
    },
    {
     "heading": "Jak číst spektrální graf",
-    "body": "Na vodorovné ose bývá vlnová délka, například v nanometrech nebo mikrometrech. Svislá osa obvykle vyjadřuje množství záření. Široký průběh tvoří pozadí neboli kontinuum, do kterého mohou být vloženy úzké nebo širší spektrální útvary.\n\nV grafu intenzity proti vlnové délce se emisní čára projeví jako vrchol a absorpční jako pokles. Vždy je ale potřeba přečíst osy. Pokud svislá osa ukazuje množství zablokovaného světla, například při průchodu planety před hvězdou, může naopak vrchol představovat silnější absorpci."
+    "body": "Na vodorovné ose bývá vlnová délka, například v nanometrech nebo mikrometrech. Svislá osa obvykle vyjadřuje množství záření. Široký průběh tvoří pozadí neboli kontinuum, do kterého mohou být vloženy úzké nebo širší spektrální útvary.\n\nV grafu intenzity proti vlnové délce se emisní čára projeví jako vrchol a absorpční jako pokles. Proč tyto čáry vznikají a jak souvisejí s elektrony v atomech, názorně vysvětluje heslo [Co jsou absorpční a emisní čáry?](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html).\n\nVždy je potřeba přečíst osy. Pokud svislá osa ukazuje množství zablokovaného světla, například při průchodu planety před hvězdou, může naopak vrchol představovat silnější absorpci."
    },
    {
     "heading": "Co je ve světle zapsáno",
-    "body": "Polohy a vzájemné uspořádání čar pomáhají rozpoznat atomy, ionty a molekuly. Jejich intenzity a šířky nesou další informace, například o teplotě, hustotě nebo pohybu plynu. Posun známých čar zase umožňuje měřit rudý či modrý posuv.\n\nTyto vlastnosti se ovlivňují. Hlubší absorpční čára nemusí automaticky znamenat větší množství prvku a široká čára nemusí mít jedinou příčinu. Fyzikální parametry se proto často určují společným porovnáním více čar a celého průběhu spektra s modelem."
+    "body": "Spektrum může poskytnout několik různých druhů informací. Soustava čar pomáhá rozpoznat látky, jejich tvary a intenzity vypovídají o fyzikálních podmínkách a posun jejich poloh umožňuje zkoumat pohyb nebo rozpínání vesmíru.\n\nJak se z rozpoznaných stop určuje přítomnost a množství látek, rozebírá heslo [Jak ze světla poznáme chemické složení vesmíru?](https://kosmonovinky.cz/kosmopedie/jak-ze-svetla-pozname-chemicke-slozeni-vesmiru.html). Přesné porovnání poloh čar s laboratoří pak ukazuje [výklad rudého posuvu](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html)."
    },
    {
     "heading": "Proč nestačí světlo jen rozdělit",
@@ -1403,34 +1403,42 @@
   "description": "Proč má světelné spektrum tmavé čáry a jasné vrcholy? Absorpce a emise ukazují, jak atomy a molekuly přijímají a vyzařují energii.",
   "published": "2026-10-25",
   "updated": "2026-10-25",
-  "perex": "Ve spektru hvězdy nebo mlhoviny často nenajdeme hladkou duhu. Na některých vlnových délkách světlo chybí, na jiných je ho naopak více. Tyto absorpční a emisní čáry jsou měřitelným projevem kvantových vlastností hmoty.",
+  "perex": "Světlo hvězdy obsahuje mnoho vlnových délek. Atomy a molekuly z něj ale mohou některé vybrat a pohltit. Právě to propojuje dění v elektronovém obalu atomu s tmavými čarami, které změří dalekohled. Při vyzařování naopak vznikají jasné emisní čáry.",
   "sections": [
    {
-    "heading": "Energie není pro atom libovolná",
-    "body": "Elektrony vázané v atomu mohou mít jen určité energetické stavy. Pokud atom pohltí vhodný foton, může přejít do stavu s vyšší energií. Při přechodu do nižšího stavu může foton vyzářit. Jeho energie odpovídá rozdílu mezi oběma stavy.\n\nEnergie fotonu souvisí s vlnovou délkou: kratší vlnová délka znamená vyšší energii. Proto přechod mezi konkrétními stavy zanechá stopu na určité vlnové délce. Elektron si přitom nepředstavujeme jako drobnou planetu, která přeskakuje mezi klasickými oběžnými drahami."
+    "heading": "Představme si energetické schody",
+    "body": "Elektrony v obalu atomu mohou být jen v určitých povolených energetických stavech. Pro představu je můžeme přirovnat ke schodům: elektron může stát na jednom nebo druhém schodu, ale nemůže si vybrat libovolnou výšku mezi nimi. Nejde přitom o skutečné schodiště ani o klasické oběžné dráhy uvnitř atomu.\n\nAby elektron přešel na vyšší energetickou hladinu, musí získat energii. Tu mu může dodat **foton**, tedy jednotlivé kvantum světla. Pro přechod mezi dvěma konkrétními hladinami musí energie pohlceného fotonu odpovídat jejich rozdílu. Obrazně: foton zaplatí právě tolik energie, kolik stojí výstup na příslušný schod."
    },
    {
-    "heading": "Jak vzniká absorpční čára",
-    "body": "Představme si jasný zdroj s přibližně spojitým spektrem a před ním plyn. Atomy či molekuly mohou pohltit část fotonů na vybraných vlnových délkách. Ve světle přicházejícím naším směrem pak na těchto místech naměříme pokles.\n\nTak vznikají například četné čáry ve spektru Slunce, když záření prochází jeho vnějšími vrstvami. Pohlcená energie se neztratí: může být znovu vyzářena, přerozdělena mezi jiné přechody nebo předána srážkami. Do původního úzkého směru pozorování se ale nemusí vrátit stejný počet fotonů."
+    "heading": "Proč různé prvky vybírají jiné barvy",
+    "body": "Energie fotonu souvisí s vlnovou délkou světla. Ve viditelném oboru ji vnímáme jako barvu: kratší vlnové délky mají vyšší energii než delší. Určitý rozdíl mezi hladinami proto odpovídá určité vlnové délce.\n\nVodík má jiné uspořádání energetických hladin než sodík nebo helium. Jejich elektrony proto pro jednotlivé přechody potřebují jiné energie a pohlcují jiné soustavy vlnových délek. **Každý atom má více možných přechodů, a tedy více čar.** Právě jejich kombinace tvoří rozpoznatelný spektrální vzor. Jedna čára se může s čárou jiné látky překrývat, celá soustava je mnohem lepším vodítkem."
    },
    {
-    "heading": "Jak vzniká emisní čára",
-    "body": "Pokud pozorujeme plyn, jehož atomy či ionty byly vybuzeny zářením nebo srážkami, můžeme zaznamenat přebytek světla na vlnových délkách jejich přechodů. Ve spektrálním grafu pak vzniknou vrcholy. Takto září například ionizovaný plyn v mlhovinách a galaxiích.\n\nStejný přechod má za stejných klidových podmínek stejnou charakteristickou vlnovou délku při absorpci i emisi. Neznamená to ovšem, že skutečná emisní a absorpční spektra různých prostředí budou vždy přesnými převrácenými kopiemi. Záleží na tom, které stavy jsou obsazené a jak záření prostředím prochází."
+    "heading": "Jak elektronový přechod vytvoří tmavou čáru",
+    "body": "Představme si světlo jasné hvězdy, které prochází plynem. Některé fotony mají energii vhodnou k přechodu elektronů v přítomných atomech na vyšší hladinu. Atomy je pohltí a tyto fotony pak chybějí ve světle pokračujícím naším směrem.\n\nDalekohled zachytí výsledné světlo a spektrograf je rozloží podle vlnových délek. Tam, kde plyn část světla pohltil, naměříme méně záření. V barevném proužku spektra se to může projevit jako tmavá čára; v grafu intenzity jako pokles. **Čára tedy ukazuje, na jaké vlnové délce se ze světla část fotonů odebrala.** Nemusí být úplně černá."
    },
    {
-    "heading": "Proč má jeden prvek více čar",
-    "body": "Atom má více možných přechodů, a tedy i více spektrálních čar. Jejich soustava je mnohem spolehlivějším poznávacím znakem než jediná čára. Ionizace, tedy odebrání nebo přidání elektronů, navíc mění energetické uspořádání a tím i spektrum.\n\nU molekul se přidávají změny rotačních a vibračních stavů. Mnoho blízkých přechodů proto může vytvořit širší absorpční či emisní pás. Ne každá látka tak ve všech podmínkách zanechá několik dokonale oddělených úzkých čar."
+    "heading": "Příklad krok za krokem: atmosféra exoplanety",
+    "body": "1. Planeta přechází před svou hvězdou. Malá část hvězdného světla cestou k nám projde okrajovou vrstvou její atmosféry.\n2. Pokud je v této vrstvě například atomární sodík, jeho atomy mohou pohltit fotony odpovídající konkrétním přechodům elektronů na vyšší hladinu. Ve vhodných podmínkách tak do světla přidají sodíkovou absorpční stopu.\n3. Astronomové porovnají světlo během přechodu s měřením mimo přechod. Hledají, na kterých vlnových délkách planeta se svou atmosférou zablokovala o trochu více světla.\n4. Nalezenou soustavu stop porovnají s laboratorně známými přechody. Pokud odpovídá sodíku a obstojí další kontroly, získají podklad pro jeho přítomnost v atmosféře.\n\nTakto Hubbleův dalekohled v roce 2001 pomohl odhalit sodík v atmosféře planety HD 209458 b. Nestačí však okamžitě přiřadit každou tmavou čáru planetě: vlastní čáry má i hvězda a měření ovlivňuje přístroj, případně atmosféra Země. Jak se různé typy grafů čtou, vysvětluje [úvod do spektroskopie](https://kosmonovinky.cz/kosmopedie/co-je-spektroskopie-a-co-nam-rika-svetlo.html)."
    },
    {
-    "heading": "Co vypovídá tvar čáry",
-    "body": "Pohybující se částice mohou čáru rozšířit tepelným Dopplerovým jevem. Přispět mohou i tlak, rotace objektu, proudění plynu nebo omezené rozlišení přístroje. Tvar čáry proto obsahuje informace, ale jeho výklad vyžaduje rozlišení těchto vlivů.\n\nAbsorpce i emise se také mohou posunout k delším nebo kratším vlnovým délkám. Tím se dostáváme k rudému a modrému posuvu: nerozpoznáváme pouze druh čáry, ale porovnáváme i její polohu s laboratorním měřením."
+    "heading": "A odkud se vezme jasná emisní čára?",
+    "body": "Elektron na vyšší energetické hladině může přejít zpět na nižší a atom při tom vyzáří foton. Při přímém návratu mezi stejnými dvěma hladinami odpovídá energie fotonu stejnému rozdílu jako při absorpci, a tedy i stejné klidové vlnové délce.\n\nPokud k nám ze zářícího plynu přichází na této vlnové délce více světla než z okolního spektra, vidíme **emisní čáru**: jasný proužek nebo vrchol v grafu. Pohlcená energie se přitom nemusí vrátit přímo k nám. Světlo může být vyzářeno jiným směrem, přes několik přechodů, nebo se energie předá srážkami. Absorpční čára proto nezmizí jen proto, že plyn také vyzařuje."
+   },
+   {
+    "heading": "U vody a dalších molekul je možností více",
+    "body": "Voda není chemický prvek, ale molekula. Vedle elektronových přechodů mohou její spektrální stopy souviset také se změnami vibrací a rotace molekuly. Mnoho blízkých přechodů pak vytváří charakteristické pásy, často v infračerveném oboru.\n\nZákladní postup zůstává podobný: změříme, které vlnové délky byly pohlceny nebo vyzářeny, a porovnáme je s laboratorními vzory. Ne každá látka se tedy projeví jen několika úzkými černými čarami ve viditelné duze."
+   },
+   {
+    "heading": "Od čar ke složení a vzdálenostem",
+    "body": "Jak z celé soustavy čar poznat konkrétní látku a proč síla čáry nestačí k určení jejího množství, vysvětluje heslo [Jak ze světla poznáme chemické složení vesmíru?](https://kosmonovinky.cz/kosmopedie/jak-ze-svetla-pozname-chemicke-slozeni-vesmiru.html).\n\nPokud známé čáry najdeme na jiných vlnových délkách než v laboratoři, získáme další informaci. Postup a jednoduchý výpočet ukazuje heslo [Co je rudý posuv a jak se měří?](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html)."
    },
    {
     "heading": "Zdroje a další čtení",
-    "body": "[NASA: Jak fungují absorpční a emisní spektra](https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/)\n\n[ESA: Spektra hvězd a jejich fyzikální význam](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Spectroscopy)\n\n[NASA: Co prozradí šířky a posuny čar](https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-beyond-temperature-and-composition/)"
+    "body": "[NASA: Jak fungují absorpční a emisní spektra](https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/)\n\n[ESA: Spektra hvězd a jejich fyzikální význam](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Spectroscopy)\n\n[NASA: Detekce sodíku v atmosféře HD 209458 b v roce 2001](https://science.nasa.gov/missions/hubble/hubble-makes-first-direct-measurements-of-atmosphere-on-world-around-another-star/)\n\n[NASA: Co prozradí šířky a posuny čar](https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-beyond-temperature-and-composition/)"
    }
   ],
-  "why_box": "Tmavá čára nemusí označovat tmavý objekt a jasný vrchol nemusí být novou hvězdou. Jde o změnu množství záření na konkrétních vlnových délkách. Jejich soustava pomáhá spojit světlo vzdálených objektů s fyzikou ověřovanou v laboratoři.",
+  "why_box": "Spojení je jednoduché: rozdíl energetických hladin určí energii fotonu, jeho energie určí vlnovou délku a na ní pak změříme spektrální stopu. Porovnáním více takových stop s laboratoří můžeme poznávat látky ve vzdálených objektech, aniž bychom z nich přivezli vzorek.",
   "related_explainery": [
    "co-je-spektroskopie-a-co-nam-rika-svetlo",
    "jak-ze-svetla-pozname-chemicke-slozeni-vesmiru",
@@ -1448,7 +1456,7 @@
   "sections": [
    {
     "heading": "Laboratoř poskytne srovnávací vzor",
-    "body": "Atomy, ionty a molekuly mají charakteristické soustavy spektrálních čar nebo pásů. Jejich klidové vlnové délky a další vlastnosti vědci měří v laboratořích a ukládají do odborných databází. Astronom pak nehádá složení pouze podle celkové barvy objektu.\n\nVe spektru hledá odpovídající uspořádání více stop. Nejprve je přitom potřeba zohlednit rudý či modrý posuv, rozlišení přístroje a další vlivy. Správná identifikace má vysvětlit soubor pozorování, nikoli jen jeden vhodně umístěný vrchol."
+    "body": "Proč mají různé prvky jiné spektrální stopy a jak přechod elektronu vytvoří čáru, vysvětluje heslo [Co jsou absorpční a emisní čáry?](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html). Tady navážeme tím, jak se tyto stopy používají při určování chemického složení.\n\nKlidové vlnové délky a další vlastnosti přechodů vědci měří v laboratořích a ukládají do odborných databází. Ve světle vzdáleného objektu pak hledají odpovídající soustavu čar nebo pásů. Při porovnávání musí zohlednit rozlišení přístroje, [rudý či modrý posuv](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html) a další vlivy. Správná identifikace má vysvětlit soubor pozorování, nikoli jen jeden vhodně umístěný vrchol."
    },
    {
     "heading": "Přítomnost prvku není totéž co jeho množství",
@@ -1493,11 +1501,11 @@
    },
    {
     "heading": "Jak se změří z absorpčních čar",
-    "body": "Nejprve změříme, na kterých vlnových délkách nastávají poklesy ve spektru. Potom hledáme shodu s laboratorní soustavou čar. V jednoduchém ilustračním příkladu mají tři klidové čáry polohy 400, 500 a 600 nm, zatímco pozorované leží na 440, 550 a 660 nm.\n\nPro každou vyjde stejný poměr pozorované a klidové vlnové délky: 1,1. Z toho dostaneme **z = 0,1**. Souhlas více čar posiluje správnost identifikace. Jediný pokles může být zaměněn za jinou čáru, poruchu detektoru nebo absorpci v atmosféře Země."
+    "body": "Nejprve změříme, na kterých vlnových délkách nastávají poklesy ve spektru. Fyzikální vznik těchto poklesů vysvětluje heslo [Co jsou absorpční a emisní čáry?](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html). Pro měření posuvu potřebujeme rozpoznat jejich laboratorní vzor.\n\nV jednoduchém ilustračním příkladu mají tři klidové čáry polohy 400, 500 a 600 nm, zatímco pozorované leží na 440, 550 a 660 nm. Pro každou vyjde stejný poměr pozorované a klidové vlnové délky: 1,1. Z toho dostaneme **z = 0,1**. Souhlas více čar posiluje správnost identifikace. Jediný pokles může být zaměněn za jinou čáru, poruchu detektoru nebo absorpci v atmosféře Země."
    },
    {
     "heading": "Proč nejde o posun o stejný počet nanometrů",
-    "body": "V příkladu se jednotlivé čáry posunuly o 40, 50 a 60 nm. Stejný je jejich **poměr**, nikoli absolutní rozdíl. Celá soustava se na běžné lineární ose vlnových délek protáhne. Právě to je důležité při porovnávání spekter.\n\nPro emisní čáry funguje výpočet stejně; místo poklesů hledáme vrcholy. Přesné analýzy mohou porovnávat celé spektrum se vzory a využít i jeho širší strukturu. Součástí práce je kalibrace přístroje a podle požadované přesnosti také oprava na pohyb pozorovatele."
+    "body": "V příkladu se jednotlivé čáry posunuly o 40, 50 a 60 nm. Stejný je jejich **poměr**, nikoli absolutní rozdíl. Celá soustava se na běžné lineární ose vlnových délek protáhne. Právě to je důležité při porovnávání spekter.\n\nPro emisní čáry funguje výpočet stejně; místo poklesů hledáme vrcholy. Přesné analýzy mohou porovnávat celé spektrum se vzory a využít i jeho širší strukturu. Součástí práce je kalibrace přístroje a podle požadované přesnosti také oprava na pohyb pozorovatele.\n\nDalší hodnoty a skutečná pozorování najdete v navazujícím hesle [Jak velký je rudý posuv? Příklady a výpočty](https://kosmonovinky.cz/kosmopedie/jak-velky-je-rudy-posuv-priklady-a-vypocty.html)."
    },
    {
     "heading": "Tři různé příčiny",
@@ -1530,7 +1538,7 @@
   "sections": [
    {
     "heading": "Nejdřív jednoduché pravidlo",
-    "body": "Použijeme vztah **λ pozorovaná = λ klidová × (1 + z)**. Pro výpočty zvolíme vodíkovou čáru Hα s klidovou vlnovou délkou přibližně **656,46 nm ve vakuu**. Často uváděná hodnota kolem 656,3 nm odpovídá zaokrouhlené hodnotě ve vzduchu. Při přesné práci se tyto konvence nesmějí míchat.\n\nNásledující čísla nejsou pozorování konkrétních galaxií. Ukazují pouze, kde by se tato čára nacházela při zvoleném posuvu."
+    "body": "Na [vysvětlení měření rudého posuvu](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html) zde navážeme konkrétními čísly. Pro výpočty stačí vztah **λ pozorovaná = λ klidová × (1 + z)**.\n\nZvolíme vodíkovou čáru Hα s klidovou vlnovou délkou přibližně **656,46 nm ve vakuu**. Často uváděná hodnota kolem 656,3 nm odpovídá zaokrouhlené hodnotě ve vzduchu. Při přesné práci se tyto konvence nesmějí míchat.\n\nNásledující čísla nejsou pozorování konkrétních galaxií. Ukazují pouze, kde by se tato čára nacházela při zvoleném posuvu."
    },
    {
     "heading": "Kam se posune čára Hα",
