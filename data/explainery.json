@@ -929,5 +929,211 @@
    "proc-maji-galaxie-spiralni-ramena",
    "co-je-supermasivni-cerna-dira-v-centru-galaxie"
   ]
+ },
+ {
+  "id": "exp-025",
+  "title": "Co je Hubbleova konstanta?",
+  "theme": "rozpinani-a-modely-vesmiru",
+  "description": "Co vyjadřuje Hubbleova konstanta, jak se měří a proč její jednotka obsahuje kilometry, sekundy i megaparseky?",
+  "published": "2026-10-24",
+  "updated": "2026-10-24",
+  "perex": "Čím vzdálenější galaxii pozorujeme, tím rychleji se od nás v průměru vzdaluje. Hubbleova konstanta popisuje dnešní tempo rozpínání vesmíru. Její hodnota ale není jen číslem do tabulky: pomáhá určit vzdálenosti i historii kosmu.",
+  "sections": [
+   {
+    "heading": "Co se vlastně rozpíná?",
+    "body": "Na velkých vzdálenostech roste prostor mezi galaxiemi, které nejsou pevně gravitačně svázané. Nejde o výbuch z jediného místa do prázdného okolí. Pozorovatelé v různých galaxiích by viděli podobný obraz: vzdálenější galaxie od nich v průměru ustupují rychleji.\n\nRozpínání přitom nezvětšuje každou věc ve vesmíru. Atomy, lidé, Sluneční soustava ani gravitačně vázané galaxie se s ním jednoduše nenatahují. Na těchto měřítkách převládají jiné vazby nebo místní gravitace."
+   },
+   {
+    "heading": "Jak číst zvláštní jednotku",
+    "body": "Hubbleovu konstantu označujeme **H₀**. Pro poměrně blízké galaxie platí přibližný vztah **v = H₀ × d**: rychlost vzdalování odpovídá vzdálenosti vynásobené Hubbleovou konstantou.\n\nJednotka km/s/Mpc znamená kilometry za sekundu na megaparsek. Jeden megaparsek představuje přibližně 3,26 milionu světelných let. Kdyby H₀ byla 70 km/s/Mpc, odpovídala by vzdálenosti 100 megaparseků rychlost asi 7 000 km/s. Je to ilustrační příklad, nikoli prohlášení, že právě 70 je definitivně správná hodnota.\n\nJednotlivé galaxie mají také vlastní pohyb. Blízká galaxie se proto může i přibližovat. Pro velmi vzdálené objekty už jednoduchý vztah nestačí: musíme zohlednit vývoj rozpínání během cesty jejich světla."
+   },
+   {
+    "heading": "Jak se číslo měří",
+    "body": "Ze spektra galaxie zjistíme její rudý posuv. Pro určení H₀ potřebujeme také vzdálenost. Ta bývá obtížnější částí měření. Astronomové postupně navazují například geometricky změřené vzdálenosti, proměnné hvězdy cefeidy a supernovy typu Ia. Tomuto postupu se říká žebřík kosmických vzdáleností.\n\nJinou cestou je reliktní záření. Jeho drobné nerovnoměrnosti porovnáme s kosmologickým modelem a odvodíme, jaká dnešní hodnota H₀ jim odpovídá. To je důležitý rozdíl: nejde o přímé měření rychlosti dnešních galaxií. Existují i další přístupy, například gravitační čočky a gravitační vlny."
+   },
+   {
+    "heading": "Proč konstanta nemusí být stálá v čase",
+    "body": "Název může mást. Obecně se tempo rozpínání označuje H(t) a během historie vesmíru se mění. Dolní index nula u H₀ znamená jeho dnešní hodnotu.\n\nPřevrácená hodnota H₀ dává užitečné časové měřítko, ale sama o sobě není přesným stářím vesmíru. K tomu potřebujeme vědět, jak se rozpínání vyvíjelo. Stejně tak H₀ sama neříká, zda se rozpínání zrychluje."
+   },
+   {
+    "heading": "Proč se o ní tolik píše",
+    "body": "Různé přesné metody nedávají vždy shodný výsledek. Nejznámější rozpor mezi některými měřeními vzdáleností a odhadem z reliktního záření se nazývá Hubbleovo napětí. Příčinou mohou být dosud nerozpoznané chyby nebo neúplnost modelu. Rozhodnout musí další nezávislé kontroly."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[NASA: Hubbleova konstanta a Hubbleovo napětí](https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/)\n\n[ESA: Měření Hubbleovy konstanty](https://www.esa.int/ESA_Multimedia/Images/2018/07/Measurements_of_the_Hubble_constant)"
+   }
+  ],
+  "why_box": "Když článek uvádí novou hodnotu Hubbleovy konstanty, stojí za to se ptát: jak byla změřena, s jakou nejistotou a za jakých předpokladů? Teprve tyto informace ukážou, zda jde o zpřesnění známého výsledku, nebo o skutečnou výzvu pro naše chápání vesmíru.",
+  "related_explainery": [
+   "co-je-hubbleovo-napeti",
+   "co-znamena-model-cdm",
+   "co-je-velky-tresk"
+  ]
+ },
+ {
+  "id": "exp-026",
+  "title": "Co je Hubbleovo napětí?",
+  "theme": "rozpinani-a-modely-vesmiru",
+  "description": "Dva způsoby určování dnešního rozpínání vesmíru se rozcházejí. Co je Hubbleovo napětí a proč zatím neznamená důkaz nové fyziky?",
+  "published": "2026-10-24",
+  "updated": "2026-10-24",
+  "perex": "Jak rychle se dnes rozpíná vesmír? Zní to jako otázka s jedinou odpovědí. Některá přesná měření ale vedou k vyšší hodnotě než výpočet založený na reliktním záření. Tomuto nesouladu říkáme Hubbleovo napětí.",
+  "sections": [
+   {
+    "heading": "Dvě cesty k dnešnímu rozpínání",
+    "body": "První cesta vychází z měření vzdáleností a rudých posuvů galaxií. Žebřík kosmických vzdáleností propojuje blízké objekty s dalekými pomocí několika navazujících měřítek. Každý stupeň je potřeba pečlivě zkalibrovat.\n\nDruhá cesta využívá reliktní záření, které vzniklo přibližně 380 000 let po velkém třesku. Jeho strukturu porovnáme s modelem vývoje vesmíru, obvykle ΛCDM, a vypočítáme odpovídající dnešní hodnotu Hubbleovy konstanty.\n\n**Neporovnáváme tedy přímo rychlost rozpínání kdysi a dnes. Obě cesty určují dnešní H₀**, jen využívají jiné informace a předpoklady."
+   },
+   {
+    "heading": "Jak velký je rozdíl?",
+    "body": "Pro představu o měřítku problému: analýza dat mise Planck z roku 2018 dává v základním modelu ΛCDM přibližně 67,4 km/s/Mpc. Některé výsledky žebříku vzdáleností vycházejí okolo 73 km/s/Mpc. Nejde o dvě konečné hodnoty platné navždy; výsledky a jejich nejistoty se zpřesňují.\n\nRozdíl několika jednotek by sám o sobě nebyl překvapivý, kdyby měření byla nepřesná. Napětí vzniká proto, že nejistoty některých analýz jsou podstatně menší než jejich vzájemný rozestup. U každého tvrzení o závažnosti rozporu je proto potřeba uvést konkrétní studie a jejich předpoklady."
+   },
+   {
+    "heading": "Nemůže jít jen o chybu?",
+    "body": "Může. Astronomové proto kontrolují například vliv prachu, překrývání hvězd v hustých oblastech, kalibraci přístrojů a výběr pozorovaných objektů. Chyba nemusí znamenat špatně provedenou práci: může jít o velmi jemný efekt, který se projeví až při mimořádné přesnosti.\n\nZároveň nelze automaticky prohlásit, že jedna metoda je správná a druhá chybná. I odhad z reliktního záření závisí na fyzikálním modelu. Pokud v něm něco důležitého chybí, může být výsledná hodnota velmi přesná, a přesto posunutá."
+   },
+   {
+    "heading": "Je to důkaz nové fyziky?",
+    "body": "Zatím ne. Zkoumají se například změny fyziky raného vesmíru, vlastností temné energie nebo dalších složek kosmu. Každý návrh ale musí vysvětlit také reliktní záření, rozložení galaxií a další měření. Posunout jediné číslo správným směrem nestačí.\n\nAni několik metod s podobným výsledkem nemusí představovat zcela nezávislé potvrzení. Mohou sdílet kalibrační data nebo předpoklady. Právě proto jsou cenné odlišné postupy: například měření s gravitačními čočkami nebo takzvanými standardními sirénami, tedy vhodnými zdroji gravitačních vln."
+   },
+   {
+    "heading": "Co by pomohlo rozhodnout",
+    "body": "Nejvíc pomůže kombinace přesnějších měření a nezávislých kontrol. Pokud se rozpor po odstranění chyb zmenší, bude to úspěch měření. Pokud přetrvá a stejný problém ukážou další postupy, bude silnější důvod hledat jeho příčinu v modelu. Obojí nás posune dál."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[NASA: Hubbleova konstanta a Hubbleovo napětí](https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/)\n\n[ESA: Planck a kosmologický model (výsledky z roku 2018)](https://www.esa.int/Science_Exploration/Space_Science/Planck/From_an_almost_perfect_Universe_to_the_best_of_both_worlds)"
+   }
+  ],
+  "why_box": "Výraz „krize kosmologie“ může znít jako konec všeho, co víme. Hubbleovo napětí je přesněji vymezený problém: některé postupy určování H₀ se neshodují tak dobře, jak by podle svých nejistot měly. Právě takové rozpory mohou pomoci odhalit chybu i novou fyziku.",
+  "related_explainery": [
+   "co-je-hubbleova-konstanta",
+   "co-znamena-model-cdm",
+   "co-je-reliktni-zareni"
+  ]
+ },
+ {
+  "id": "exp-027",
+  "title": "Co znamená model ΛCDM?",
+  "theme": "rozpinani-a-modely-vesmiru",
+  "description": "Co znamenají písmena ΛCDM, proč model potřebuje temnou hmotu a temnou energii a které otázky zatím nechává otevřené?",
+  "published": "2026-10-24",
+  "updated": "2026-10-24",
+  "perex": "ΛCDM je zkratka pro nejpoužívanější základní model vývoje vesmíru. Spojuje rozpínání kosmu, běžnou hmotu, chladnou temnou hmotu a temnou energii v podobě kosmologické konstanty. Mnoho pozorování vysvětluje společně, ale odpověď na všechno nemá.",
+  "sections": [
+   {
+    "heading": "Co znamenají jednotlivá písmena",
+    "body": "**Λ**, čteno lambda, označuje kosmologickou konstantu v Einsteinových rovnicích gravitace. V tomto modelu představuje temnou energii: složku s konstantní hustotou energie, která souvisí se zrychleným rozpínáním vesmíru. Samotná zkratka neříká, jaká je její mikroskopická podstata.\n\n**CDM** pochází z anglického cold dark matter, tedy chladná temná hmota. „Chladná“ zde znamená, že se její částice v období důležitém pro vznik kosmických struktur pohybovaly pomalu ve srovnání s rychlostí světla. Nejde jednoduše o teplotu, kterou bychom změřili běžným teploměrem."
+   },
+   {
+    "heading": "Víc než dvě neznámé složky",
+    "body": "Model obsahuje také běžnou hmotu, záření a neutriny. Opírá se o obecnou teorii relativity a předpoklad, že vesmír je na dostatečně velkých měřítkách přibližně stejnorodý a ve všech směrech podobný. Běžná základní verze navíc předpokládá prostorovou plochost.\n\nNejde o mapu každé jednotlivé galaxie. Je to rámec pro popis celkového rozpínání a růstu nerovnoměrností, z nichž vznikly galaxie a kosmická síť. Vznik hvězd a působení černých děr vyžadují další astrofyzikální modelování."
+   },
+   {
+    "heading": "Co se s pozorováním shoduje",
+    "body": "Velkou předností ΛCDM je, že jedním souborem parametrů dokáže popsat více různých pozorování. Patří k nim struktura reliktního záření, velkorozměrové rozložení galaxií i vztah mezi vzdáleností a rudým posuvem supernov.\n\nZ analýz v tomto rámci vychází přibližně 5 % běžné hmoty, 27 % temné hmoty a 68 % temné energie v dnešní celkové energetické bilanci. Jsou to zaokrouhlené hodnoty závislé na použité analýze, nikoli stejné poměry po celou historii vesmíru. Záření mělo v raných dobách mnohem větší význam."
+   },
+   {
+    "heading": "Co zůstává otevřené",
+    "body": "Stále neznáme částicovou podstatu temné hmoty ani hlubší vysvětlení kosmologické konstanty. Významnou zkouškou je také Hubbleovo napětí. Výsledky některých měření se s předpovědí základního modelu rozcházejí.\n\nJe důležité rozlišovat nevysvětlenou podstatu složky a konkrétní neshodu předpovědi s daty. To, že zatím nevíme, z čeho je temná hmota, samo o sobě nevyvrací pozorování jejích gravitačních účinků. Naopak skutečný a opakovaně potvrzený rozpor s daty by mohl vyžadovat úpravu modelu."
+   },
+   {
+    "heading": "Proč se zkoumají alternativy",
+    "body": "Vědci prověřují například proměnlivou temnou energii, jiné vlastnosti temné hmoty nebo změny gravitační teorie. Alternativa musí projít stejnými testy jako ΛCDM a navíc vysvětlit, proč přidané předpoklady potřebujeme.\n\nModel proto není nedotknutelnou pravdou ani pouhou libovolnou představou. Je to společný výchozí bod, jehož předpovědi lze porovnávat s měřením a postupně zpřesňovat nebo nahrazovat."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[Planck Collaboration: Kosmologické parametry, výsledky Planck 2018](https://doi.org/10.1051/0004-6361/201833910)\n\n[ESA: Co ukázaly výsledky mise Planck](https://www.esa.int/Science_Exploration/Space_Science/Planck/From_an_almost_perfect_Universe_to_the_best_of_both_worlds)"
+   }
+  ],
+  "why_box": "Když se píše, že nový objev „zpochybňuje model vesmíru“, ptejte se, kterou jeho předpověď zpochybňuje a jak silná jsou data. Jeden neobvyklý objekt ani jedna odlišná hodnota automaticky neznamenají, že je celý model chybný.",
+  "related_explainery": [
+   "co-je-hubbleova-konstanta",
+   "co-je-hubbleovo-napeti",
+   "co-je-temna-hmota",
+   "co-je-temna-energie-a-jak-se-lisi-od-temne"
+  ]
+ },
+ {
+  "id": "exp-028",
+  "title": "Proč pozorujeme vesmír ze Země i z kosmu?",
+  "theme": "vesmirne-teleskopy",
+  "description": "Proč některé teleskopy stojí na horách a jiné létají ve vesmíru? Rozhoduje atmosféra, druh záření i otázka, kterou chceme zkoumat.",
+  "published": "2026-10-24",
+  "updated": "2026-10-24",
+  "perex": "Kosmický dalekohled není automaticky lepší než pozemský. Každé umístění má své výhody a omezení. Důležité je, jaké záření chceme zachytit, jak slabý objekt hledáme a jak podrobně ho potřebujeme rozlišit.",
+  "sections": [
+   {
+    "heading": "Obloha má více podob",
+    "body": "Viditelné světlo tvoří jen malou část elektromagnetického spektra. Vesmír zkoumáme také v rádiovém, infračerveném, ultrafialovém, rentgenovém a gama záření. Každá oblast ukazuje jiné fyzikální děje.\n\nStudený prach může být výrazný v infračerveném oboru, velmi horký plyn v rentgenovém a některé procesy v okolí černých děr i v rádiovém. Jediný snímek proto obvykle nevypráví celý příběh. Kombinace různých pozorování pomáhá odlišit možná vysvětlení."
+   },
+   {
+    "heading": "Atmosféra chrání, ale také překáží",
+    "body": "Zemská atmosféra propouští viditelné světlo, část infračerveného a široká rádiová pásma. Velkou část jiného záření pohltí. Právě proto potřebujeme pro řadu ultrafialových a rentgenových měření přístroje nad atmosférou.\n\nPozemská pozorování navíc ovlivňují mraky, vodní pára, světelné znečištění a turbulence vzduchu. Proto observatoře často stojí vysoko v suchých oblastech. V infračerveném oboru může vadit i vlastní tepelné záření okolí a přístroje."
+   },
+   {
+    "heading": "Co umějí pozemské observatoře",
+    "body": "Na Zemi můžeme budovat velmi velká zrcadla, přístroje opravovat a měnit jejich vybavení. Adaptivní optika průběžně koriguje část zkreslení způsobeného atmosférou. Soustavy radioteleskopů zase spojují signály z více antén a dosahují jemného úhlového rozlišení.\n\nPříkladem jsou dalekohledy VLT na observatoři Paranal v Chile. Soustava ALMA na náhorní plošině Chajnantor pozoruje milimetrové a submilimetrové záření, v němž lze zkoumat například chladný plyn a prach. Pozemská astronomie tak není jen levnější náhradou kosmických misí."
+   },
+   {
+    "heading": "Co získáme ve vesmíru",
+    "body": "Nad atmosférou odpadají mraky a atmosférické chvění obrazu. Otevřou se také obory záření, které ze Země běžně nepozorujeme. Cena za tuto výhodu zahrnuje náročný start, omezení hmotnosti i obtížné opravy. Ani kosmický přístroj není bez rušivých vlivů a technických omezení.\n\nHubbleův dalekohled pozoruje v ultrafialové, viditelné a části blízké infračervené oblasti. Webbův dalekohled se zaměřuje na infračervené záření. Mise Planck měřila mikrovlnnou oblohu a pomohla zmapovat reliktní záření. Nejde o tři zaměnitelné fotoaparáty, ale o odlišné vědecké nástroje."
+   },
+   {
+    "heading": "Teleskop není jen výrobna obrázků",
+    "body": "Astronomové měří také jas a jeho změny, polohy objektů nebo spektra. Rozklad světla podle vlnových délek pomáhá určit chemické složení, teplotu, pohyb či rudý posuv. Z těchto měření pak vznikají závěry o hvězdách, galaxiích i rozpínání vesmíru.\n\nAť pozorujeme ze Země, nebo z kosmu, světlo k nám potřebuje čas. Vzdálené objekty proto vidíme v minulosti. Umístění teleskopu tuto vlastnost neodstraňuje; rozhoduje především o tom, jakou informaci dokážeme zachytit."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[NASA: Observatoře v různých oblastech spektra](https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum_observatories1.html)\n\n[ESO: Very Large Telescope](https://www.eso.org/public/teles-instr/paranal-observatory/vlt/)\n\n[ESO: Observatoř ALMA](https://www.eso.org/public/teles-instr/alma/)"
+   }
+  ],
+  "why_box": "U zprávy o novém objevu napoví název přístroje a druh pozorovaného záření, co vědci skutečně změřili. Barevný obrázek může být přehledným zobrazením neviditelného záření, nikoli pohledem, který bychom na stejném místě viděli vlastníma očima.",
+  "related_explainery": [
+   "co-je-reliktni-zareni",
+   "jak-se-fotografovalo-reliktni-zareni",
+   "co-je-hubbleova-konstanta"
+  ]
+ },
+ {
+  "id": "exp-029",
+  "title": "Co je standardní model částicové fyziky?",
+  "theme": "castice-a-zakladni-sily",
+  "description": "Kvarky, leptony, částice přenášející síly a Higgsův boson: co vysvětluje standardní model částic a proč nestačí na celý vesmír?",
+  "published": "2026-10-24",
+  "updated": "2026-10-24",
+  "perex": "Z čeho je hmota a jak spolu její nejmenší známé stavební prvky působí? Standardní model částicové fyziky spojuje naše znalosti elementárních částic a tří základních interakcí. Je mimořádně úspěšný, ale gravitaci ani temnou hmotu nevysvětluje.",
+  "sections": [
+   {
+    "heading": "Od atomů k elementárním částicím",
+    "body": "Atom má elektronový obal a jádro složené z protonů a neutronů. Elektron podle dnešních poznatků nemá známou vnitřní strukturu, protony a neutrony ji mají: jsou složeny z kvarků a gluonů.\n\nStandardní model rozlišuje šest druhů kvarků a šest leptonů. Mezi leptony patří elektron, mion, tau a tři druhy neutrin. Částice mají také své antičástice. Běžná hmota kolem nás vystačí převážně s elektrony a kvarky up a down, z nichž jsou složeny protony a neutrony. Těžší příbuzné studujeme například v urychlovačích a kosmickém záření."
+   },
+   {
+    "heading": "Tři interakce ze čtyř",
+    "body": "**Elektromagnetickou interakci** zprostředkovávají fotony. Souvisí mimo jiné se světlem, elektrickými a magnetickými jevy i s vazbou elektronů v atomech.\n\n**Silnou interakci** mezi kvarky zprostředkovávají gluony. Její zbytkový projev pomáhá vázat protony a neutrony v atomových jádrech.\n\n**Slabou interakci** zprostředkovávají bosony W a Z. Uplatňuje se například při některých radioaktivních přeměnách a v dějích důležitých pro fungování hvězd.\n\n**Gravitace do standardního modelu zahrnuta není.** Pro popis vesmíru na velkých měřítkách používáme obecnou teorii relativity. Spojení gravitace s kvantovým popisem zůstává otevřeným úkolem."
+   },
+   {
+    "heading": "Kde je v tom Higgsův boson?",
+    "body": "Higgsův boson souvisí s Higgsovým polem. Interakce s tímto polem dává v rámci modelu hmotnost například kvarkům, nabitým leptonům a bosonům W a Z. Objev částice odpovídající Higgsovu bosonu v CERN v roce 2012 byl zásadním potvrzením této části teorie.\n\nNení ale přesné říkat, že Higgsův mechanismus přímo vysvětluje veškerou hmotnost běžné hmoty. Většina hmotnosti protonů a neutronů souvisí s energií silné interakce a pohybem jejich složek. Také vysvětlení hmotností neutrin vyžaduje rozšíření minimální podoby standardního modelu."
+   },
+   {
+    "heading": "Jak to souvisí s kosmologií",
+    "body": "Raný vesmír byl mnohem hustší a teplejší než dnešní. Částicové reakce ovlivňovaly jeho složení a další vývoj. Abychom porozuměli například vzniku lehkých jader, potřebujeme znát vlastnosti částic i rychlosti jejich reakcí.\n\nUrychlovače umožňují studovat některé z těchto procesů v kontrolovaných podmínkách. Nevytvářejí však celý velký třesk ani nový vesmír. Zkoumají krátkodobé srážky na velmi malém prostoru a poskytují údaje, které kosmologické výpočty potřebují."
+   },
+   {
+    "heading": "Co model zatím neřeší",
+    "body": "Standardní model nenabízí potvrzenou částici, která by vysvětlovala kosmologickou temnou hmotu. Nevysvětluje ani temnou energii a sám neposkytuje uspokojivou odpověď na převahu hmoty nad antihmotou ve vesmíru.\n\nJeho úspěchy tím nezanikají. Znamená to, že má své meze. Nová teorie bude muset vysvětlit otevřené otázky a současně zachovat přesně ověřené výsledky. Standardní model částic a kosmologický model ΛCDM přitom nejsou totéž: první popisuje částice a interakce, druhý celkový vývoj vesmíru."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[CERN: Standardní model](https://home.cern/science/physics/standard-model)\n\n[DOE: Co vysvětluje standardní model částicové fyziky](https://www.energy.gov/science/doe-explainsthe-standard-model-particle-physics)\n\n[CERN: Higgsův boson](https://home.cern/science/physics/higgs-boson)"
+   }
+  ],
+  "why_box": "Zprávy o „částici mimo standardní model“ míří na konkrétní, velmi dobře otestovanou teorii. Zajímavá odchylka ještě není objevem nové částice. Pokud se ale nezávisle potvrdí, může propojit výsledky pozemských experimentů s otázkami o složení a historii vesmíru.",
+  "related_explainery": [
+   "co-znamena-model-cdm",
+   "z-ceho-by-mohla-byt-temna-hmota",
+   "co-je-velky-tresk"
+  ]
  }
 ]

@@ -35,7 +35,7 @@ THEMES = [
     ("gravitacni-vlny",  "Gravitační vlny",   ["gravitacní vln", "gravitational wave", "ligo", "virgo", "kilonov"]),
     ("exoplanety",       "Exoplanety",        ["exoplanet", "exoplaneta", "tranzitní", "habitabilní"]),
     ("galaxie",          "Galaxie",           ["galaxi", "galaxy", "mléčná dráha", "milky way", "andromed", "halo galaxi"]),
-    ("vesmirne-teleskopy", "Vesmírné teleskopy", ["jwst", "james webb", "hubble", "euclid", "teleskop", "observatoř", "observatory", "kamera", "přístroj", "detektor"]),
+    ("vesmirne-teleskopy", "Teleskopy a observatoře", ["jwst", "james webb", "hubble", "euclid", "teleskop", "observatoř", "observatory", "kamera", "přístroj", "detektor"]),
     ("relictni-zareni",  "Reliktní záření",   ["reliktn", "cmb", "kosmické mikrovlnné"]),
     ("neutronove-hvezdy", "Neutronové hvězdy", ["neutronov", "magnetar", "pulsar", "pulzar"]),
     ("velky-tresk",      "Velký třesk",       ["velký třesk", "big bang", "rekombinac", "inflac", "reionizac", "prvotní vesmír", "raný vesmír", "raného vesmíru"]),
@@ -287,6 +287,11 @@ EXPLAINER_PATTERNS = {
     'exp-022': r'kilonov\w*|r.proces\w*|nukleosyntez\w*|nucleosynthesis|tezk\w* prvk\w*',
     'exp-023': r'vznik\w* galaxi\w*|formov\w* galaxi\w*|galaxy formation|galaxi\w* rost\w*',
     'exp-024': r'sraz\w* galaxi\w*|splyv\w* galaxi\w*|sluc\w* galaxi\w*|galaxy (?:collisions?|mergers?)',
+    'exp-025': r'hubble\w* konstant\w*|hubble constant|\bh0\b|\bh₀\b',
+    'exp-026': r'hubble\w* napeti|hubble tension',
+    'exp-027': r'\b(?:λ|lambda)[ -]?cdm\b|\blcdm\b|standard\w* kosmolog\w* model\w*',
+    'exp-028': r'\bteleskop\w*|\bdalekohled\w*|\bobservator\w*|\bjwst\b|james webb|\balma\b|\bvlt\b',
+    'exp-029': r'standard\w* model\w* castic\w*|standard model of particle|\bkvark\w*|\bquark\w*|\blepton\w*|higgs\w*',
 }
 
 

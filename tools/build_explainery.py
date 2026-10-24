@@ -27,6 +27,19 @@ for _p in (_here.parent, _here):
 from build_static import (FALLBACK_THEME, THEME_LABEL, esc, fmt_date, fmt_iso_date,
                           page_head, FOOT, slugify, classify, explainer_catalog, NEWSLETTER_CTA)
 
+# Kosmopedie may introduce a subject before it has its own news category.
+KOSMOPEDIE_THEMES = {
+    'rozpinani-a-modely-vesmiru': 'Rozpínání a modely vesmíru',
+    'castice-a-zakladni-sily': 'Částice a základní síly',
+}
+THEME_LABEL = {**THEME_LABEL, **KOSMOPEDIE_THEMES}
+
+
+def theme_href(theme):
+    if theme in KOSMOPEDIE_THEMES:
+        return '/kosmopedie/#' + theme
+    return '/temata/' + theme + '.html'
+
 WHY_CSS = '''
     .why-box { background: #1a2438; border-left: 3px solid var(--accent); border-radius: 8px; padding: .9rem 1.1rem; margin: 1.3rem 0; }
     .why-box h2 { margin-top: 0; }
@@ -41,7 +54,10 @@ def render_body(text):
     out, ul = [], []
 
     def md(text):
-        return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', esc(text))
+        text = esc(text)
+        text = re.sub(r'\[([^\[\]]+)\]\((https://[^\s<>]+)\)',
+                      r'<a href="\2">\1</a>', text)
+        return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
 
     def flush():
         if ul:
@@ -155,7 +171,7 @@ def main():
         page = page.replace('</style>', WHY_CSS + '</style>')
         page += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › <a href=\"/kosmopedie/\">Kosmopedie</a> › {esc(ex['title'])}</p>\n"
                  f"    <article class=\"post\">\n"
-                 f"      <div class=\"theme-badge\"><a href=\"/temata/{theme}.html\">{esc(theme_label)}</a></div>\n"
+                 f"      <div class=\"theme-badge\"><a href=\"{theme_href(theme)}\">{esc(theme_label)}</a></div>\n"
                  f"      <h1>{esc(ex['title'])}</h1>\n"
                  f"      <p class=\"meta\">Kosmopedie · Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))}</p>\n"
                  f"      <p class=\"explainer-perex\">{esc(ex.get('perex'))}</p>\n"
@@ -174,11 +190,11 @@ def main():
     list_html = ''
     for theme in sorted(groups, key=lambda t: THEME_LABEL.get(t, FALLBACK_THEME[1])):
         label = THEME_LABEL.get(theme, FALLBACK_THEME[1])
-        list_html += f'    <h2 class=\"section-title\">{esc(label)}</h2>\n'
+        list_html += f'    <h2 class=\"section-title\" id=\"{esc(theme)}\">{esc(label)}</h2>\n'
         for ex in groups[theme]:
             list_html += (f"    <article class=\"item\"><h2><a href=\"/kosmopedie/{ex['_slug']}.html\">{esc(ex['title'])}</a></h2>"
                           f"<p class=\"meta\">Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))} · "
-                          f"<a href=\"/temata/{theme}.html\">{esc(label)}</a></p>"
+                          f"<a href=\"{theme_href(theme)}\">{esc(label)}</a></p>"
                           f"<div class=\"article-teaser\">"
                           + thumbnail(lookup_image(ex,'explainery',image_library),'/kosmopedie/'+ex['_slug']+'.html')
                           + f"<p class=\"summary\">{esc(ex.get('perex'))}</p></div></article>\n")
