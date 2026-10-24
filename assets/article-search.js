@@ -45,7 +45,11 @@
   const status = document.getElementById('clanky-search-status');
   const cards = Array.from(document.querySelectorAll('article.item')).map(card => {
     const link = card.querySelector('h2 a');
-    return {card, href: link ? new URL(link.href, location.href).pathname : '', original: card.innerHTML, visible: normalized(card.textContent).text};
+    // Search article content only; image credits, licenses and navigation are not content.
+    const lead = ['h2', '.summary'].map(selector => {
+      const el = card.querySelector(selector); return el ? el.textContent : '';
+    });
+    return {card, href: link ? new URL(link.href, location.href).pathname : '', original: card.innerHTML, visible: lead.map(value => normalized(value).text)};
   });
   let index = null, pending = null, generation = 0, timer;
   function reset() { cards.forEach(r => {r.card.innerHTML = r.original; r.card.hidden = false;}); }
@@ -81,12 +85,12 @@
   function filter(needle, full) {
     let count = 0;
     cards.forEach(r => {
-      const text = full ? index.get(r.href) || '' : '', inCard = r.visible.includes(needle);
+      const text = full ? index.get(r.href) || '' : '', inCard = r.visible.some(value => value.includes(needle));
       const match = inCard || normalized(text).text.includes(needle);
       r.card.hidden = !match; if (!match) return; count++;
       const title = r.card.querySelector('h2'), perex = r.card.querySelector('.summary');
       const inLead = [title, perex].some(el => el && normalized(el.textContent).text.includes(needle));
-      [title, perex, r.card.querySelector('.meta')].filter(Boolean).forEach(el => highlight(el, needle));
+      [title, perex].filter(Boolean).forEach(el => highlight(el, needle));
       if (full && !inLead && normalized(text).text.includes(needle)) {
         const p = document.createElement('p'); p.className = 'search-excerpt'; p.textContent = excerpt(text, needle); highlight(p, needle);
         const teaser = r.card.querySelector('.article-teaser'); (teaser || perex || title).after(p);
@@ -98,3 +102,4 @@
   box.addEventListener('keydown', e => {if (e.key === 'Escape') {box.value = ''; clearTimeout(timer); apply();}});
   if (box.value.trim()) apply();
 })();
+
