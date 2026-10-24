@@ -195,10 +195,24 @@ def figure(entry):
 
 def image_schema(entry,base):
     if not entry:return None
-    return {'@type':'ImageObject','url':image_url(entry,base),
-            'contentUrl':image_url(entry,base),
-            'caption':entry['caption'],'creditText':entry['credit'],'license':entry['license_url'],
-            'acquireLicensePage':entry['source'],'width':1200,'height':630}
+    result = {'@type':'ImageObject','url':image_url(entry,base),
+              'contentUrl':image_url(entry,base),
+              'caption':entry['caption'],'creditText':entry['credit'],'license':entry['license_url'],
+              'acquireLicensePage':entry['source'],'width':1200,'height':630}
+    # Use explicit rights metadata where known. A credit line alone does not
+    # establish either authorship or ownership of a third-party image.
+    creator = entry.get('creator')
+    copyright_notice = entry.get('copyrightNotice')
+    if entry.get('generated') is True and str(entry.get('source_id','')).startswith('own-diagram:'):
+        creator = creator or {'@type':'Organization','name':'Kosmologické novinky',
+                              'url':base.rstrip('/') + '/'}
+        copyright_notice = copyright_notice or 'Kosmologické novinky'
+    if creator:
+        result['creator'] = creator
+    if copyright_notice:
+        result['copyrightNotice'] = copyright_notice
+    return result
+
 
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
@@ -209,4 +223,5 @@ def main():
     print(f'OK: {len(lib)} obrázků, {len(cache)} trvalých přiřazení. Zpracován archiv i nové články.')
 
 if __name__=='__main__':main()
+
 
