@@ -1531,10 +1531,10 @@
   "id": "exp-039",
   "title": "Jak velký je rudý posuv? Příklady a výpočty",
   "theme": "svetlo-a-mereni-vesmiru",
-  "description": "Co znamená z = 0,1, 1 nebo 6? Početní příklady doplňují skutečná spektra kvasaru 3C 273, vzdáleného plynu a galaxie JADES-GS-z14-0.",
+  "description": "Jak souvisí rudý posuv se vzdáleností? Výpočty posunu čar, doba cesty světla a dnešní vzdálenosti doplněné skutečnými měřeními.",
   "published": "2026-10-25",
   "updated": "2026-10-25",
-  "perex": "Číslo rudého posuvu se snadno zapamatuje, ale jeho význam lépe ukáže konkrétní vlnová délka. Podívejme se, kam by se posunula vodíková čára, a potom na několik skutečných měření. Ilustrační výpočty a naměřené výsledky přitom oddělíme.",
+  "perex": "Číslo rudého posuvu ukazuje prodloužení vlnové délky světla. Pomocí kosmologického modelu z něj můžeme odhadnout také vzdálenost a dobu, po kterou světlo cestovalo. Podívejme se na konkrétní výpočty i skutečná měření.",
   "sections": [
    {
     "heading": "Nejdřív jednoduché pravidlo",
@@ -1545,8 +1545,16 @@
     "body": "- **z = 0,01:** přibližně 663,02 nm. Vlnová délka je o 1 % delší a stále leží ve viditelné červené oblasti.\n- **z = 0,1:** přibližně 722,11 nm. Prodloužení činí 10 %; čára je na rozhraní velmi hluboké červené a blízkého infračerveného oboru podle zvolené konvence.\n- **z = 1:** přibližně 1 312,92 nm, tedy 1,313 μm. Vlnová délka se zdvojnásobila.\n- **z = 6:** přibližně 4 595,22 nm, tedy 4,595 μm. Vlnová délka je sedminásobná, nikoli šestinásobná.\n\nHranice mezi viditelným a infračerveným oborem je orientační, nikoli ostrý fyzikální předěl. Příklady ukazují, proč ke studiu vzdálených galaxií potřebujeme přístroje citlivé na dlouhé vlnové délky."
    },
    {
+    "heading": "Jak z rudého posuvu získáme vzdálenost",
+    "body": "U vzdálených galaxií souvisí kosmologický rudý posuv s rozpínáním vesmíru během cesty světla. Čím větší je z, tím více se jeho vlnová délka od vyzáření prodloužila. Pro převod na vzdálenost ale potřebujeme vědět, jak se vesmír v průběhu času rozpínal.\n\nPředstavme si tedy model jako popis historie rozpínání. Zadáme do něj naměřené z a získáme odpovídající dobu cesty světla a vzdálenost. Protože se vesmír rozpíná, musíme rozlišovat dva údaje:\n\n- **Doba cesty světla:** jak dlouho k nám zachycené světlo putovalo. Když řekneme, že galaxii vidíme před osmi miliardami let, mluvíme o této době.\n- **Dnešní vzdálenost:** jak daleko je od nás v modelu odpovídající místo nyní. Během cesty světla se prostor dál rozpínal, a proto je tato vzdálenost u vzdálených galaxií větší než pouhý součin rychlosti světla a doby jeho cesty.\n\nDnešní vzdálenost tedy nevyčteme přímo ze snímku. Je to modelový odhad; galaxii samotnou stále pozorujeme v minulosti. Výchozí představu o použitém modelu nabízí heslo [Co znamená model ΛCDM?](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html)."
+   },
+   {
+    "heading": "Stejné posuvy převedené na vzdálenosti",
+    "body": "Pro orientaci použijeme plochý model ΛCDM s Hubbleovou konstantou H₀ = 67,4 km/s/Mpc, dnešním podílem hmoty 31,5 % a temné energie 68,5 %. Malý příspěvek záření zde zanedbáme. Výsledky jsou zaokrouhlené modelové výpočty, nikoli samostatná měření vzdáleností.\n\n- **z = 0,01:** světlo putovalo asi **144 milionů let**; dnešní vzdálenost je přibližně **145 milionů světelných let**.\n- **z = 0,1:** světlo putovalo asi **1,35 miliardy let**; dnešní vzdálenost je přibližně **1,42 miliardy světelných let**.\n- **z = 1:** světlo putovalo asi **7,95 miliardy let**; dnešní vzdálenost je přibližně **11,1 miliardy světelných let**.\n- **z = 6:** světlo putovalo asi **12,87 miliardy let**; dnešní vzdálenost je přibližně **27,5 miliardy světelných let**.\n\nNapříklad při z = 1 tedy vidíme galaxii takovou, jaká byla téměř před osmi miliardami let. Údaj o dnešních 11,1 miliardy světelných let vyjadřuje, jak daleko je příslušné místo po následném rozpínání prostoru.\n\nČísla předpokládají, že posuv je kosmologický. Zejména u blízkých galaxií může výsledek výrazně ovlivnit jejich vlastní pohyb. Jiné parametry modelu také povedou k poněkud jiným vzdálenostem; z nelze obecně násobit jedinou konstantou a dostat správnou vzdálenost pro všechny galaxie."
+   },
+   {
     "heading": "Skutečné měření: kvasar 3C 273",
-    "body": "Pozorování projektu Virtual Telescope z roku 2013 ukazuje, jak jde použít i jednoduchá spektroskopie. Vodíková emisní čára Hα byla v jeho spektru určena přibližně na 760,2 nm místo referenčních 656,3 nm. Čára Hβ ležela kolem 563,1 nm místo 486,1 nm. Z obou vychází přibližně **z = 0,158**.\n\nZde uvádíme zaokrouhlené hodnoty z konkrétního měření, které používá obvyklé optické referenční vlnové délky ve vzduchu. Výpočet je potřeba provést s odpovídajícími referencemi. Jsou to **emisní čáry kvasaru**, nikoli příklad absorpce."
+    "body": "Pozorování projektu Virtual Telescope z roku 2013 ukazuje, jak jde použít i jednoduchá spektroskopie. Vodíková emisní čára Hα byla v jeho spektru určena přibližně na 760,2 nm místo referenčních 656,3 nm. Čára Hβ ležela kolem 563,1 nm místo 486,1 nm. Z obou vychází přibližně **z = 0,158**.\n\nZde uvádíme zaokrouhlené hodnoty z konkrétního měření, které používá obvyklé optické referenční vlnové délky ve vzduchu. Výpočet je potřeba provést s odpovídajícími referencemi. Jsou to **emisní čáry kvasaru**, nikoli příklad absorpce.\n\nVe stejném modelu jako výše odpovídá z ≈ 0,158 době cesty světla přibližně **2,05 miliardy let** a dnešní vzdálenosti kolem **2,20 miliardy světelných let**."
    },
    {
     "heading": "Skutečná absorpce: uhlík v plynu před kvasarem",
@@ -1554,18 +1562,19 @@
    },
    {
     "heading": "Skutečná emise: kyslík v JADES-GS-z14-0",
-    "body": "Analýza publikovaná v roce 2025 využila měření soustavou ALMA a odvodila **z = 14,1796 ± 0,0007** z emisní čáry dvakrát ionizovaného kyslíku [O III]. Její klidová vlnová délka je přibližně 88,36 μm, zatímco měřená frekvence kolem 223,524 GHz odpovídá přibližně 1,341 mm.\n\nVlnová délka se tedy prodloužila asi 15,18krát. Není to údaj o rychlosti rovné čtrnáctinásobku rychlosti světla. Je to kosmologický posuv světla. Starší odhad kolem z = 14,32 z Webbu měl větší nejistotu; přesnější určení pomocí čáry není totéž co nová poloha galaxie."
+    "body": "Analýza publikovaná v roce 2025 využila měření soustavou ALMA a odvodila **z = 14,1796 ± 0,0007** z emisní čáry dvakrát ionizovaného kyslíku [O III]. Její klidová vlnová délka je přibližně 88,36 μm, zatímco měřená frekvence kolem 223,524 GHz odpovídá přibližně 1,341 mm.\n\nVlnová délka se tedy prodloužila asi 15,18krát. Není to údaj o rychlosti rovné čtrnáctinásobku rychlosti světla. Je to kosmologický posuv světla. Starší odhad kolem z = 14,32 z Webbu měl větší nejistotu; přesnější určení pomocí čáry není totéž co nová poloha galaxie.\n\nPro z ≈ 14,18 vychází v našem modelu doba cesty světla asi **13,50 miliardy let** a dnešní vzdálenost přibližně **33,7 miliardy světelných let**. Právě zde je rozdíl mezi oběma údaji velmi výrazný."
    },
    {
     "heading": "Zdroje a další čtení",
-    "body": "[NASA NTRS: Klidová čára Hα kolem 656,46 nm](https://ntrs.nasa.gov/citations/20050153814)\n\n[Gianluca Masi, Virtual Telescope: Měření spektra 3C 273 v roce 2013](https://www.virtualtelescope.eu/2013/02/14/quasar-3c-273-a-low-res-spectrum-and-redshift/)\n\n[Ryan-Weber a spoluautoři: Absorpce C IV při z = 5,7238](https://arxiv.org/abs/astro-ph/0607029)\n\n[Carniani a spoluautoři: Měření kyslíkové čáry v JADES-GS-z14-0](https://doi.org/10.1051/0004-6361/202452451)"
+    "body": "[NASA NTRS: Klidová čára Hα kolem 656,46 nm](https://ntrs.nasa.gov/citations/20050153814)\n\n[Gianluca Masi, Virtual Telescope: Měření spektra 3C 273 v roce 2013](https://www.virtualtelescope.eu/2013/02/14/quasar-3c-273-a-low-res-spectrum-and-redshift/)\n\n[Ryan-Weber a spoluautoři: Absorpce C IV při z = 5,7238](https://arxiv.org/abs/astro-ph/0607029)\n\n[Carniani a spoluautoři: Měření kyslíkové čáry v JADES-GS-z14-0](https://doi.org/10.1051/0004-6361/202452451)\n\n[David W. Hogg: Vzdálenosti a doba cesty světla v kosmologii](https://arxiv.org/abs/astro-ph/9905116)\n\n[Planck Collaboration: Kosmologické parametry výsledků Planck 2018](https://arxiv.org/abs/1807.06209)"
    }
   ],
-  "why_box": "Z hodnoty z si snadno představíte prodloužení vlnové délky: vždy ji násobíte číslem 1 + z. Pro představu o vzdálenosti ale potřebujete další krok a kosmologický model. A ještě předtím je potřeba vědět, kterému objektu nebo plynu naměřená čára patří.",
+  "why_box": "U zprávy o vzdálené galaxii si všimněte, zda uvádí dobu cesty světla, nebo dnešní vzdálenost. Například světlo putující téměř osm miliard let může v uvedeném modelu přicházet z místa vzdáleného dnes přes jedenáct miliard světelných let. Rozdíl vzniká rozpínáním vesmíru během jeho cesty.",
   "related_explainery": [
    "co-je-rudy-posuv-a-jak-se-meri",
    "co-je-alma-a-co-vidi-v-chladnem-vesmiru",
-   "co-je-hubbleovo-napeti"
+   "co-je-hubbleovo-napeti",
+   "co-znamena-model-cdm"
   ]
  }
 ]
