@@ -1,5 +1,77 @@
 [
   {
+    "id": "2610.31610v1",
+    "title": "Kvantová gravitace rozostřuje prostoročasové singularity",
+    "summary": "V rámci holografie, která propojuje kvantovou teorii pole s gravitací, mohou světelné paprsky v klasickém prostoročase obíhat kolem černých děr a vytvářet ostré matematické singularity. Nová studie však ukazuje, že po započtení reálných kvantově-gravitačních efektů tyto singularity mizí. Pomocí pokročilého matematického aparátu a příkladu srážky dvou rázových vln v Anti-de Sitterově prostoročase autoři dokázali, že kvantová teorie pole na hranici žádná taková nekonečna neobsahuje. Ostrá matematická špička se vyhlazuje v důsledku přirozené kvantové „neostrosti“ samotného prostoročasu. Proč je to zajímavé: Tento výsledek ukazuje, jak kvantová gravitace odstraňuje patologická nekonečna klasické obecné relativity a otevírá cestu k hlubšímu pochopení mikroskopické struktury černých děr.",
+    "url": "http://arxiv.org/abs/2610.31610v1",
+    "source": "arXiv",
+    "original_title": "Quantum gravity on the bulk cone",
+    "published": "2026-10-22T17:39:05+00:00",
+    "inserted_at": "2026-10-24T07:21:59.204887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.31577v1",
+    "title": "Nabité prstence u černých děr: Když plyn tvoří vlastní magnetické pole",
+    "summary": "Astrofyzikové zkoumali chování nabitého plynu, který krouží kolem černé díry v podobě koblížkovitého prstence (torusu). Dosavadní modely často pomíjely magnetické pole, které si tento plyn vytváří sám svým pohybem. Autoři studovali situaci, kdy se vnější magnetické pole černé díry kombinuje s vlastním polem rotujícího prstence. Pomocí matematických výpočtů zjistili, že samotné vlastní pole plynu ke stabilnímu prstenci nestačí. Když se však spojí s vnějším polem, dochází k překvapivému jevu: slabé vlastní pole prstenec rozšiřuje, zatímco silnější ho stlačuje. Výzkum ukazuje, jak vlastní magnetismus hmoty mění tvar a stabilitu těchto útvarů. Proč je to zajímavé: Výsledky ukazují, že i zdánlivě zanedbatelné vlastní magnetické pole prstence výrazně ovlivňuje strukturu a chování akrečních disků v okolí černých děr.",
+    "url": "http://arxiv.org/abs/2610.31577v1",
+    "source": "arXiv",
+    "original_title": "Charged fluid tori with an approximate magnetic self-field around magnetized Schwarzschild black holes: A semi-analytic approach",
+    "published": "2026-10-22T17:15:14+00:00",
+    "inserted_at": "2026-10-24T07:21:59.204887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.31536v1",
+    "title": "Kvantová gravitace a černé díry: Jak testovat teorii všeho",
+    "summary": "Tato práce zkoumá, jak se kvantové vlastnosti gravitace projevují v chování extrémně hustých objektů ve vesmíru. Autor analyzuje dva hlavní teoretické přístupy: kvadrátní gravitaci a asymptotickou bezpečnost. Pomocí studia drobných poruch v prostoročase ukazuje, jak tyto modely mění vlastnosti rezonančních kmitů černých děr, jejich optických stínů a Hawkingova záření. Práce popisuje existenci exotických objektů bez horizontu událostí i regulární černé díry s pomalejším odpařováním, což vrhá nové světlo na prvotní černé díry jako potenciální temnou hmotu. Proč je to zajímavé: Výzkum nabízí konkrétní způsob, jak propojit abstraktní teorie kvantové gravitace s reálnými astronomickými pozorováními.",
+    "url": "http://arxiv.org/abs/2610.31536v1",
+    "source": "arXiv",
+    "original_title": "Perturbations and phenomenology of compact objects in quantum gravity theories",
+    "published": "2026-10-22T16:46:01+00:00",
+    "inserted_at": "2026-10-24T07:21:59.204887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.31534v1",
+    "title": "Zpívající černé díry a testování exotických geometrií časoprostoru",
+    "summary": "Astrofyzici zkoumali teoretický model nabíjeného Simpsonova–Visserova časoprostoru, který popisuje exotické černé díry či červí díry bez centrální singularity. K jeho testování využili vysokofrekvenční kvaziperiodické oscilace (QPO), což jsou rytmické změny záření vyvolané pohybem hmoty v těsné blízkosti černých děr GRO J1655-40 a XTE J1550-564. Výsledky ukázaly, že zavedení teoretických parametrů časoprostoru sice výrazně zlepšuje shodu s reálnými pozorováními oproti nerotujícímu Schwarzschildovu modelu, ale neznamená to objevení nového náboje či kosmologické konstanty. Tyto teoretické deformace totiž v datové analýze pouze zástupně imitují rotaci černé díry, kterou původní model neobsahoval. Proč je to zajímavé: Výzkum odhaluje, jak snadno lze běžnou rotaci objektu zaměnit za projevy exotické fyziky, což je zásadní poznatek pro přesnou interpretaci dat z budoucích rentgenových družic.",
+    "url": "http://arxiv.org/abs/2610.31534v1",
+    "source": "arXiv",
+    "original_title": "Testing charged Simpson-Visser-AdS spacetimes with twin-peak QPOs",
+    "published": "2026-10-22T16:42:58+00:00",
+    "inserted_at": "2026-10-24T07:21:59.204887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2610.31473v1",
+    "title": "Pohyb v gravitačních vlnách: Chaos a skryté rezonance",
+    "summary": "Einsteinovy-Rosenovy stojaté gravitační vlny vytvářejí v časoprostoru nečekaně složité prostředí. Nejnovější výzkum ukazuje, že pohyb hmotných testovacích částic v tomto rámci podléhá chaotické dynamice, v níž dominují takzvané heteroklinické sítě. Použitím pokročilých matematických metod, jako je Melnikovova funkce aplikovaná na Poincaréovy mapy, se podařilo dokázat, že vnitřní struktura tohoto systému je výrazně bohatší, než se dříve předpokládalo. Sledováním plynulé změny parametrů řešení výzkum odhaluje vývoj těchto chaotických struktur i rozmanité bifurkační jevy, včetně zdvojování periody. Proč je to zajímavé: Odhalení deterministického chaosu v přesných řešeních Einsteinových rovnic ukazuje, že i samotné časoprostorové vlnění dokáže extrémně složitým způsobem ovlivňovat pohyb hmoty ve vesmíru.",
+    "url": "http://arxiv.org/abs/2610.31473v1",
+    "source": "arXiv",
+    "original_title": "Chaotic dynamics and resonances in Einstein-Rosen standing wave spacetimes",
+    "published": "2026-10-22T16:01:07+00:00",
+    "inserted_at": "2026-10-24T07:21:59.204887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
+    "title": "Téměř 3 000 vybuchujících hvězd mění naše chápání temné energie",
+    "summary": "Rozsáhlá analýza 2 884 vybuchujících hvězd přinesla zásadní odhalení: temná energie, záhadná síla zodpovědná za zrychlující se rozpínání vesmíru, se možná v průběhu času mění. Dosud většina kosmologických modelů počítala s tím, že hustota temné energie zůstává konstantní. Nová pozorování však naznačují, že její působení není v čase neměnné, což zpochybňuje jeden z hlavních pilířů moderní kosmologie. Pokud se tyto výsledky potvrdí, budou vědci muset přehodnotit dosavadní představy o vývoji, struktuře i konečném osudu našeho vesmíru. Proč je to zajímavé: Objev proměnlivé temné energie by znamenal konec standardního kosmologického modelu a vynutil si zásadní revizi základních fyzikálních zákonů.",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
+    "source": "RSS",
+    "original_title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
+    "published": "2026-10-23T02:54:41+00:00",
+    "inserted_at": "2026-10-24T07:21:59.204887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2610.31666v1",
     "title": "Urychlená temná hmota: Obří detektory hledají stopy po srážkách s uhlíkem",
     "summary": "Lehkou temnou hmotu mohou částice kosmického záření urychlit na vysoké energie, což umožňuje její přímou detekci v obřích neutrinových detektorech. Nová studie zkoumá srážky takto urychlené temné hmoty s jádry uhlíku v kapalném scintilátoru, při nichž dochází k vyražení neutronu. Tento děj vytváří unikátní dvojitý signál: okamžitou odezvu ze srážky a zpožděný záblesk gama záření po zachycení neutronu s odstupem okolo 210 mikrosekund. Data odpovídající expozici 100 kilotun za rok umožní prozkoumat zcela nové parametry temné hmoty, které dosavadní hledání srážek s volnými protony nepokryla. Určení směru příletu z dráhy neutronu citlivost zásadně nezvýšilo kvůli velkému úhlu rozptylu. Proč je to zajímavé: Tato metoda dovoluje využít již existující a plánované obří neutrinové detektory jako vysoce citlivé lovce temné hmoty, aniž by bylo nutné stavět nová drahá zařízení.",
