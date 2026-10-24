@@ -4315,5 +4315,220 @@
       "https://home.cern/science/physics/standard-model",
       "https://www.energy.gov/science/doe-explainsthe-standard-model-particle-physics"
     ]
+  },
+  {
+    "topic": "vesmirne-teleskopy",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "vesmirne-teleskopy",
+      "svetlo-a-mereni-vesmiru"
+    ],
+    "id": "schema-spektroskopie-cesta-svetla",
+    "title": "Od světla ke spektru",
+    "diagram": "spectroscopy-path",
+    "source_id": "own-diagram:spectroscopy-path",
+    "source_family": "own-diagram:spectroscopy-path",
+    "alt": "Od světla ke spektru – vlastní názorné schéma",
+    "caption": "Zjednodušený princip spektrografu: světlo projde vstupní štěrbinou, rozloží se podle vlnové délky a dopadne na detektor. Jde o vlastní schéma, nikoli konstrukční plán konkrétního přístroje.",
+    "thumbnail": "assets/article-images/thumbs/schema-spektroskopie-cesta-svetla.webp",
+    "source_master": "assets/article-images/sources/schema-spektroskopie-cesta-svetla.jpg",
+    "match_keywords": [
+      "spektroskop",
+      "spectroscop",
+      "spektrograf"
+    ],
+    "reference_urls": [
+      "https://esawebb.org/about/general/spectroscopy-with-webb/",
+      "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
+    ]
+  },
+  {
+    "topic": "vesmirne-teleskopy",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "vesmirne-teleskopy",
+      "svetlo-a-mereni-vesmiru"
+    ],
+    "id": "schema-spektralni-cary",
+    "title": "Emisní a absorpční čáry",
+    "diagram": "spectral-lines",
+    "source_id": "own-diagram:spectral-lines",
+    "source_family": "own-diagram:spectral-lines",
+    "alt": "Emisní a absorpční čáry – vlastní názorné schéma",
+    "caption": "Dva samostatné modelové průběhy relativního signálu ukazují emisní vrcholy a absorpční poklesy na stejných klidových vlnových délkách. Použity jsou smyšlené přechody 430, 510 a 630 nm, nikoli spektrum skutečného prvku ani naměřená data.",
+    "thumbnail": "assets/article-images/thumbs/schema-spektralni-cary.webp",
+    "source_master": "assets/article-images/sources/schema-spektralni-cary.jpg",
+    "match_keywords": [
+      "emisní čár",
+      "absorpční čár",
+      "spektrální čár",
+      "emission line",
+      "absorption line"
+    ],
+    "reference_urls": [
+      "https://esawebb.org/about/general/spectroscopy-with-webb/",
+      "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
+    ]
+  },
+  {
+    "topic": "vesmirne-teleskopy",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "vesmirne-teleskopy",
+      "svetlo-a-mereni-vesmiru"
+    ],
+    "id": "schema-spektralni-otisky",
+    "title": "Porovnávání spektrálních stop",
+    "diagram": "spectral-fingerprints",
+    "source_id": "own-diagram:spectral-fingerprints",
+    "source_family": "own-diagram:spectral-fingerprints",
+    "alt": "Porovnávání spektrálních stop – vlastní názorné schéma",
+    "caption": "Vlastní schéma porovnání poloh spektrálních stop smyšlených vzorků A a B s jejich kombinací. Nejde o skutečné prvky, reálné spektrum ani vyjádření množství jednotlivých látek.",
+    "thumbnail": "assets/article-images/thumbs/schema-spektralni-otisky.webp",
+    "source_master": "assets/article-images/sources/schema-spektralni-otisky.jpg",
+    "match_keywords": [
+      "chemické složení",
+      "chemical composition",
+      "metalicit"
+    ],
+    "reference_urls": [
+      "https://esawebb.org/about/general/spectroscopy-with-webb/",
+      "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
+    ]
+  },
+  {
+    "topic": "vesmirne-teleskopy",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "vesmirne-teleskopy",
+      "svetlo-a-mereni-vesmiru"
+    ],
+    "id": "schema-rudy-posuv-cary",
+    "title": "Jak změříme rudý posuv",
+    "diagram": "redshift-lines",
+    "source_id": "own-diagram:redshift-lines",
+    "source_family": "own-diagram:redshift-lines",
+    "alt": "Jak změříme rudý posuv – vlastní názorné schéma",
+    "caption": "Vlastní početní ilustrace z = 0,1: modelové absorpční čáry 400, 500 a 600 nm se objeví na 440, 550 a 660 nm. Všechny vlnové délky se násobí 1,1; jejich rozdíly v nanometrech stejné nejsou. Nejde o naměřené spektrum.",
+    "thumbnail": "assets/article-images/thumbs/schema-rudy-posuv-cary.webp",
+    "source_master": "assets/article-images/sources/schema-rudy-posuv-cary.jpg",
+    "match_keywords": [
+      "rudý posuv",
+      "redshift"
+    ],
+    "reference_urls": [
+      "https://esawebb.org/about/general/spectroscopy-with-webb/",
+      "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
+    ]
+  },
+  {
+    "topic": "vesmirne-teleskopy",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "vesmirne-teleskopy",
+      "svetlo-a-mereni-vesmiru"
+    ],
+    "id": "schema-rudy-posuv-priklady",
+    "title": "Rudý posuv na konkrétních číslech",
+    "diagram": "redshift-examples",
+    "source_id": "own-diagram:redshift-examples",
+    "source_family": "own-diagram:redshift-examples",
+    "alt": "Rudý posuv na konkrétních číslech – vlastní názorné schéma",
+    "caption": "Početní příklady posunu čáry Hα s klidovou vlnovou délkou ve vakuu 656,46 nm. Hodnoty jsou vypočtené ze vztahu λ pozorovaná = λ klidová × (1 + z); nejde o pozorování konkrétních galaxií. Rozhraní červené a infračervené oblasti je orientační.",
+    "thumbnail": "assets/article-images/thumbs/schema-rudy-posuv-priklady.webp",
+    "source_master": "assets/article-images/sources/schema-rudy-posuv-priklady.jpg",
+    "match_keywords": [
+      "JADES-GS-z14-0",
+      "3C 273"
+    ],
+    "reference_urls": [
+      "https://esawebb.org/about/general/spectroscopy-with-webb/",
+      "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
+    ]
   }
 ]

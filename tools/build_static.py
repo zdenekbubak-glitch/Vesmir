@@ -304,6 +304,11 @@ EXPLAINER_PATTERNS = {
     'exp-032': r'\bvlt\b|\bvlti\b|\bparanal\w*|\bgravity\b',
     'exp-033': r'\balma\b|\bchajnantor\w*',
     'exp-034': r'\blhc\b|\bcern\b|\batlas\b|\bcms\b|\balice\b|urychlovac\w*|hadron collider',
+    'exp-035': r'\bspektroskop\w*|\bspektrograf\w*|\bspectroscop\w*|\bspectrograph\w*',
+    'exp-036': r'absorpc\w* car\w*|emisn\w* car\w*|spektral\w* car\w*|absorption lines?|emission lines?',
+    'exp-037': r'chemick\w* slozen\w*|chemical composition|\bmetalic\w*|metallicity|molekul\w*.*atmosfer\w*',
+    'exp-038': r'rud\w* posuv\w*|modr\w* posuv\w*|\bredshift\w*|\bblueshift\w*',
+    'exp-039': r'jades.gs.z14.0|3c.?273|j1030.0524',
 }
 
 

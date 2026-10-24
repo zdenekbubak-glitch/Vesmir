@@ -32,7 +32,78 @@ def diagram(entry):
     def node(x,y,label,c=blue):
         d.rounded_rectangle((x-110,y-40,x+110,y+40),radius=15,outline=c,width=3)
         text(x-100,y-14,label,c,21)
-    if kind=='standard-model':
+    if kind=='spectroscopy-path':
+        circle(110,300,40,gold);text(45,175,'světlo zdroje',gold,23)
+        arrow(155,300,265,300,gold);node(380,300,'vstupní štěrbina')
+        arrow(495,300,610,300,gold)
+        d.polygon([(620,225),(620,375),(735,300)],outline=blue,width=4)
+        text(550,430,'hranol / mřížka',blue,23)
+        for i,color in enumerate(('#beadff','#76c8ff','#91d9b5','#ffd287','#ff8794')):
+            yy=200+i*50;line([(735,300),(1010,yy)],color,4)
+            d.rectangle((1010,yy-18,1060,yy+18),fill=color)
+        text(940,475,'detektor',white,23)
+        text(360,115,'Oddělení světla podle vlnové délky',white,27)
+        text(170,520,'Výstup: množství záření na jednotlivých vlnových délkách',size=25)
+    elif kind=='spectral-lines':
+        x0,x1=280,1080
+        def xx(w):return x0+(w-400)/300*(x1-x0)
+        wavelengths=(430,510,630)
+        text(55,195,'Emise',gold,27);text(55,385,'Absorpce',blue,27)
+        for baseline,sign,color in ((280,-1,gold),(375,1,blue)):
+            line([(x0,baseline),(x1,baseline)],'#304e70',2)
+            points=[]
+            for i in range(801):
+                w=400+i*300/800;v=sum(math.exp(-.5*((w-c)/3.5)**2) for c in wavelengths)
+                points.append((x0+i,baseline+sign*85*v))
+            line(points,color,4)
+        for w in wavelengths:line([(xx(w),160),(xx(w),490)],'#304e70',1)
+        arrow(x0,515,x1+25,515,muted)
+        for w in range(400,701,50):
+            line([(xx(w),510),(xx(w),522)],muted,2);text(xx(w)-21,530,str(w),muted,20)
+        text(710,88,'stejné modelové přechody',white,23)
+        text(70,100,'Relativní signál; dva oddělené průběhy',muted,21)
+        text(1140,530,'nm',muted,20)
+    elif kind=='spectral-fingerprints':
+        x0,x1=330,1090
+        sets=[('Vzorek A',(0.12,0.43,0.83),blue),('Vzorek B',(0.25,0.65),gold),
+              ('Zdroj A + B',(0.12,0.25,0.43,0.65,0.83),white)]
+        for i,(label,positions,color) in enumerate(sets):
+            y=185+i*120;text(65,y+5,label,color,24)
+            d.rectangle((x0,y,x1,y+50),fill='#243750')
+            for pos in positions:
+                x=x0+pos*(x1-x0);line([(x,y),(x,y+50)],color,6)
+        arrow(x0,515,x1+25,515,muted);text(810,530,'vlnová délka',muted,21)
+        text(65,100,'Porovnáváme soustavu stop, ne pouze jednu čáru.',white,25)
+        text(65,485,'Smyšlené vzorky A a B; nejde o spektra skutečných prvků.',muted,21)
+    elif kind=='redshift-lines':
+        x0,x1=280,1080
+        def xx(w):return x0+(w-350)/350*(x1-x0)
+        text(45,182,'Laboratoř',white,24);text(45,362,'Pozorování',white,24)
+        for y,values in ((190,(400,500,600)),(370,(440,550,660))):
+            d.rectangle((x0,y,x1,y+45),fill='#76a1c9')
+            for w in values:
+                line([(xx(w),y),(xx(w),y+45)],'#080e1b',6)
+                text(xx(w)-25,y-35,str(w),'#ecf4ff',23)
+        for w,delta in ((400,40),(500,50),(600,60)):
+            arrow(xx(w),245,xx(w*1.1),325,gold)
+            text((xx(w)+xx(w*1.1))/2-20,275,'+'+str(delta),gold,20)
+        arrow(x0,485,x1+25,485,muted)
+        for w in range(350,701,50):
+            line([(xx(w),480),(xx(w),491)],muted,2);text(xx(w)-20,500,str(w),muted,20)
+        text(1140,500,'nm',muted,20)
+        text(280,95,'z = 0,1: všechny vlnové délky × 1,1',white,27)
+        text(280,540,'Rozdíly v nm jsou různé; poměr je stejný.',muted,22)
+    elif kind=='redshift-examples':
+        for x,label in ((100,'z'),(300,'násobek 1 + z'),(600,'pozorovaná λ'),(920,'oblast')):
+            text(x,105,label,muted,23)
+        rows=[('0','1','656,46 nm','červená'),('0,01','1,01','663,02 nm','červená'),
+              ('0,1','1,1','722,11 nm','červená / IR'),('1','2','1 312,92 nm','infračervená'),
+              ('6','7','4 595,22 nm','infračervená')]
+        for i,row in enumerate(rows):
+            y=175+i*66;line([(80,y+48),(1130,y+48)],'#304e70',2)
+            for x,label in zip((100,300,600,920),row):text(x,y,label,white if x!=300 else gold,24)
+        text(90,525,'Výpočet pro Hα: klidová vlnová délka ve vakuu 656,46 nm.',muted,23)
+    elif kind=='standard-model':
         def card(x,y,symbol,name,color,width=170):
             d.rounded_rectangle((x,y,x+width,y+75),radius=10,fill='#152137',outline=color,width=3)
             if symbol.startswith('ν'):

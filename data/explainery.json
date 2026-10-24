@@ -1064,7 +1064,7 @@
   "theme": "vesmirne-teleskopy",
   "description": "Proč některé teleskopy stojí na horách a jiné létají ve vesmíru? Rozhoduje atmosféra, druh záření i otázka, kterou chceme zkoumat.",
   "published": "2026-10-24",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "perex": "Kosmický dalekohled není automaticky lepší než pozemský. Každé umístění má své výhody a omezení. Důležité je, jaké záření chceme zachytit, jak slabý objekt hledáme a jak podrobně ho potřebujeme rozlišit.",
   "sections": [
    {
@@ -1098,7 +1098,8 @@
    "jak-se-fotografovalo-reliktni-zareni",
    "co-je-hubbleova-konstanta",
    "co-umi-hubbleuv-vesmirny-dalekohled",
-   "co-umi-webbuv-vesmirny-dalekohled"
+   "co-umi-webbuv-vesmirny-dalekohled",
+   "co-je-spektroskopie-a-co-nam-rika-svetlo"
   ]
  },
  {
@@ -1190,7 +1191,7 @@
   "theme": "vesmirne-teleskopy",
   "description": "Webb zkoumá rané galaxie, prachová mračna i atmosféry exoplanet. Proč pozoruje v infračerveném oboru a co z jeho výsledků můžeme vyčíst?",
   "published": "2026-10-24",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "perex": "Webbův dalekohled sleduje vesmír především v infračerveném záření. Zachycuje světlo dávných galaxií i slabé stopy molekul v atmosférách planet. Není ale přístrojem, který by jediným snímkem rozhodl všechny otázky o vzniku kosmu nebo o životě mimo Zemi.",
   "sections": [
    {
@@ -1222,7 +1223,8 @@
   "related_explainery": [
    "co-umi-hubbleuv-vesmirny-dalekohled",
    "co-je-alma-a-co-vidi-v-chladnem-vesmiru",
-   "proc-pozorujeme-vesmir-ze-zeme-i-z-kosmu"
+   "proc-pozorujeme-vesmir-ze-zeme-i-z-kosmu",
+   "jak-ze-svetla-pozname-chemicke-slozeni-vesmiru"
   ]
  },
  {
@@ -1272,7 +1274,7 @@
   "theme": "vesmirne-teleskopy",
   "description": "ALMA spojuje antény vysoko v Chile a měří milimetrové záření. Co odhaluje v prachu, plynu a discích, v nichž vznikají planety?",
   "published": "2026-10-24",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "perex": "ALMA nevypadá jako běžný dalekohled. Tvoří ji soustava antén na náhorní plošině v Chile, které společně zachycují milimetrové a submilimetrové záření. Díky tomu zkoumá i chladný plyn a prach, které ve viditelném světle snadno přehlédneme.",
   "sections": [
    {
@@ -1304,7 +1306,8 @@
   "related_explainery": [
    "co-jsou-exoplanety-a-jak-se-hledaji",
    "jak-vznikaji-galaxie",
-   "co-umi-webbuv-vesmirny-dalekohled"
+   "co-umi-webbuv-vesmirny-dalekohled",
+   "jak-velky-je-rudy-posuv-priklady-a-vypocty"
   ]
  },
  {
@@ -1350,6 +1353,211 @@
    "co-je-standardni-model-casticove-fyziky",
    "z-ceho-by-mohla-byt-temna-hmota",
    "co-je-velky-tresk"
+  ]
+ },
+ {
+  "id": "exp-035",
+  "title": "Co je spektroskopie a co nám říká světlo?",
+  "theme": "svetlo-a-mereni-vesmiru",
+  "description": "Spektroskopie rozkládá světlo podle vlnových délek. Jak ze spektra zjišťujeme složení, teplotu a pohyb hvězd i galaxií?",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Fotografie ukáže, jak objekt vypadá. Spektrum pomáhá odhalit, z čeho je, jaké podmínky v něm panují a jak se pohybuje. Spektroskopie je proto jedním z nejdůležitějších nástrojů astronomie, přestože její výsledky často vypadají jen jako nenápadný graf.",
+  "sections": [
+   {
+    "heading": "Od světla k měření",
+    "body": "Světlo obsahuje mnoho vlnových délek. Ve viditelné oblasti je vnímáme jako různé barvy, ale stejný princip funguje i v ultrafialovém, infračerveném nebo rádiovém oboru. Spektroskopie zkoumá, jak se vlastnosti záření mění s vlnovou délkou či frekvencí.\n\nSpektrograf může pomocí hranolu nebo difrakční mřížky světlo rozložit a zaznamenat na detektor. Z naměřeného signálu pak získáme spektrum. Nejde o zjišťování složení podle jedné výsledné barvy celého objektu."
+   },
+   {
+    "heading": "Jak číst spektrální graf",
+    "body": "Na vodorovné ose bývá vlnová délka, například v nanometrech nebo mikrometrech. Svislá osa obvykle vyjadřuje množství záření. Široký průběh tvoří pozadí neboli kontinuum, do kterého mohou být vloženy úzké nebo širší spektrální útvary.\n\nV grafu intenzity proti vlnové délce se emisní čára projeví jako vrchol a absorpční jako pokles. Vždy je ale potřeba přečíst osy. Pokud svislá osa ukazuje množství zablokovaného světla, například při průchodu planety před hvězdou, může naopak vrchol představovat silnější absorpci."
+   },
+   {
+    "heading": "Co je ve světle zapsáno",
+    "body": "Polohy a vzájemné uspořádání čar pomáhají rozpoznat atomy, ionty a molekuly. Jejich intenzity a šířky nesou další informace, například o teplotě, hustotě nebo pohybu plynu. Posun známých čar zase umožňuje měřit rudý či modrý posuv.\n\nTyto vlastnosti se ovlivňují. Hlubší absorpční čára nemusí automaticky znamenat větší množství prvku a široká čára nemusí mít jedinou příčinu. Fyzikální parametry se proto často určují společným porovnáním více čar a celého průběhu spektra s modelem."
+   },
+   {
+    "heading": "Proč nestačí světlo jen rozdělit",
+    "body": "Detektor neměří všechny vlnové délky stejně účinně. Pozorování může ovlivnit vlastní záření oblohy, atmosférická absorpce, šum i vlastnosti přístroje. Astronomové proto kalibrují vlnové délky a citlivost a odhadují nejistoty.\n\nDůležité je také spektrální rozlišení: dvě blízké čáry se v málo podrobném spektru mohou slít do jedné. Naopak velmi podrobné měření vyžaduje dostatek světla. Slabý objekt proto nemusí poskytnout stejně kvalitní spektrum jako jasná hvězda, i když jej na snímku vidíme."
+   },
+   {
+    "heading": "Jeden objekt, více způsobů pozorování",
+    "body": "Hubble, Webb, VLT i ALMA pořizují různá spektrální měření, ale ne ve stejných oborech a stejnými přístroji. Zatímco optické spektrum může ukázat hvězdy a ionizovaný plyn, milimetrové čáry pomáhají sledovat chladný plyn a jeho pohyb.\n\nSnímek a spektrum proto nejsou soupeři. Fotografie pomůže vybrat cíl a zkoumat jeho tvar; spektroskopie poskytne podrobnější fyzikální údaje. Některé přístroje navíc získávají spektrum pro mnoho míst objektu a propojují oba přístupy."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[NASA: Úvod do spektroskopie](https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-introduction/)\n\n[ESA/Webb: Jak pracuje spektroskopie](https://esawebb.org/about/general/spectroscopy-with-webb/)\n\n[NASA: Typy spekter a význam jejich os](https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-types-of-spectra-and-spectroscopy/)"
+   }
+  ],
+  "why_box": "Když novinka tvrdí, že vědci našli v galaxii kyslík nebo v atmosféře planety vodu, právě spektrum bývá hlavním podkladem. Stojí za to se ptát, jaký spektrální útvar byl změřen a jak přesvědčivě jej lze přiřadit dané látce.",
+  "related_explainery": [
+   "co-jsou-absorpcni-a-emisni-cary",
+   "jak-ze-svetla-pozname-chemicke-slozeni-vesmiru",
+   "proc-pozorujeme-vesmir-ze-zeme-i-z-kosmu"
+  ]
+ },
+ {
+  "id": "exp-036",
+  "title": "Co jsou absorpční a emisní čáry?",
+  "theme": "svetlo-a-mereni-vesmiru",
+  "description": "Proč má světelné spektrum tmavé čáry a jasné vrcholy? Absorpce a emise ukazují, jak atomy a molekuly přijímají a vyzařují energii.",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Ve spektru hvězdy nebo mlhoviny často nenajdeme hladkou duhu. Na některých vlnových délkách světlo chybí, na jiných je ho naopak více. Tyto absorpční a emisní čáry jsou měřitelným projevem kvantových vlastností hmoty.",
+  "sections": [
+   {
+    "heading": "Energie není pro atom libovolná",
+    "body": "Elektrony vázané v atomu mohou mít jen určité energetické stavy. Pokud atom pohltí vhodný foton, může přejít do stavu s vyšší energií. Při přechodu do nižšího stavu může foton vyzářit. Jeho energie odpovídá rozdílu mezi oběma stavy.\n\nEnergie fotonu souvisí s vlnovou délkou: kratší vlnová délka znamená vyšší energii. Proto přechod mezi konkrétními stavy zanechá stopu na určité vlnové délce. Elektron si přitom nepředstavujeme jako drobnou planetu, která přeskakuje mezi klasickými oběžnými drahami."
+   },
+   {
+    "heading": "Jak vzniká absorpční čára",
+    "body": "Představme si jasný zdroj s přibližně spojitým spektrem a před ním plyn. Atomy či molekuly mohou pohltit část fotonů na vybraných vlnových délkách. Ve světle přicházejícím naším směrem pak na těchto místech naměříme pokles.\n\nTak vznikají například četné čáry ve spektru Slunce, když záření prochází jeho vnějšími vrstvami. Pohlcená energie se neztratí: může být znovu vyzářena, přerozdělena mezi jiné přechody nebo předána srážkami. Do původního úzkého směru pozorování se ale nemusí vrátit stejný počet fotonů."
+   },
+   {
+    "heading": "Jak vzniká emisní čára",
+    "body": "Pokud pozorujeme plyn, jehož atomy či ionty byly vybuzeny zářením nebo srážkami, můžeme zaznamenat přebytek světla na vlnových délkách jejich přechodů. Ve spektrálním grafu pak vzniknou vrcholy. Takto září například ionizovaný plyn v mlhovinách a galaxiích.\n\nStejný přechod má za stejných klidových podmínek stejnou charakteristickou vlnovou délku při absorpci i emisi. Neznamená to ovšem, že skutečná emisní a absorpční spektra různých prostředí budou vždy přesnými převrácenými kopiemi. Záleží na tom, které stavy jsou obsazené a jak záření prostředím prochází."
+   },
+   {
+    "heading": "Proč má jeden prvek více čar",
+    "body": "Atom má více možných přechodů, a tedy i více spektrálních čar. Jejich soustava je mnohem spolehlivějším poznávacím znakem než jediná čára. Ionizace, tedy odebrání nebo přidání elektronů, navíc mění energetické uspořádání a tím i spektrum.\n\nU molekul se přidávají změny rotačních a vibračních stavů. Mnoho blízkých přechodů proto může vytvořit širší absorpční či emisní pás. Ne každá látka tak ve všech podmínkách zanechá několik dokonale oddělených úzkých čar."
+   },
+   {
+    "heading": "Co vypovídá tvar čáry",
+    "body": "Pohybující se částice mohou čáru rozšířit tepelným Dopplerovým jevem. Přispět mohou i tlak, rotace objektu, proudění plynu nebo omezené rozlišení přístroje. Tvar čáry proto obsahuje informace, ale jeho výklad vyžaduje rozlišení těchto vlivů.\n\nAbsorpce i emise se také mohou posunout k delším nebo kratším vlnovým délkám. Tím se dostáváme k rudému a modrému posuvu: nerozpoznáváme pouze druh čáry, ale porovnáváme i její polohu s laboratorním měřením."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[NASA: Jak fungují absorpční a emisní spektra](https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/)\n\n[ESA: Spektra hvězd a jejich fyzikální význam](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Spectroscopy)\n\n[NASA: Co prozradí šířky a posuny čar](https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-beyond-temperature-and-composition/)"
+   }
+  ],
+  "why_box": "Tmavá čára nemusí označovat tmavý objekt a jasný vrchol nemusí být novou hvězdou. Jde o změnu množství záření na konkrétních vlnových délkách. Jejich soustava pomáhá spojit světlo vzdálených objektů s fyzikou ověřovanou v laboratoři.",
+  "related_explainery": [
+   "co-je-spektroskopie-a-co-nam-rika-svetlo",
+   "jak-ze-svetla-pozname-chemicke-slozeni-vesmiru",
+   "co-je-rudy-posuv-a-jak-se-meri"
+  ]
+ },
+ {
+  "id": "exp-037",
+  "title": "Jak ze světla poznáme chemické složení vesmíru?",
+  "theme": "svetlo-a-mereni-vesmiru",
+  "description": "Jak astronomové poznají vodík, kyslík nebo molekuly ve vzdálených objektech? Spektrální stopy porovnávají s laboratorními daty.",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Ze vzdálené hvězdy si obvykle nemůžeme přivézt vzorek. Přesto dokážeme zjistit přítomnost mnoha prvků a molekul. Využíváme jejich spektrální stopy a porovnáváme je s laboratorními měřeními i modely prostředí, odkud záření přichází.",
+  "sections": [
+   {
+    "heading": "Laboratoř poskytne srovnávací vzor",
+    "body": "Atomy, ionty a molekuly mají charakteristické soustavy spektrálních čar nebo pásů. Jejich klidové vlnové délky a další vlastnosti vědci měří v laboratořích a ukládají do odborných databází. Astronom pak nehádá složení pouze podle celkové barvy objektu.\n\nVe spektru hledá odpovídající uspořádání více stop. Nejprve je přitom potřeba zohlednit rudý či modrý posuv, rozlišení přístroje a další vlivy. Správná identifikace má vysvětlit soubor pozorování, nikoli jen jeden vhodně umístěný vrchol."
+   },
+   {
+    "heading": "Přítomnost prvku není totéž co jeho množství",
+    "body": "Silná čára může znamenat, že určitého prvku vidíme hodně, ale také že má pro daný přechod vhodnou teplotu nebo ionizační stav. Některé čáry se mohou nasytit: další přidání látky už jejich hloubku nezmění jednoduše úměrně.\n\nPro odhad zastoupení prvků je proto potřeba model vzniku záření. U hvězd se posuzuje například teplota a vlastnosti atmosféry, u plynného mračna hustota a zdroj buzení. Seznam nalezených prvků není automaticky úplným chemickým rozborem celého objektu."
+   },
+   {
+    "heading": "Konkrétní příklad: led před vzdálenou hvězdou",
+    "body": "V roce 2023 zveřejnil tým programu Ice Age výsledky pozorování chladného mračna Chameleon I pomocí Webbu. Zkoumal, jak světlo hvězd za mračnem pohlcují ledové složky na prachových zrnech. Porovnání infračervených absorpčních pásů s laboratorními daty odhalilo například vodní led, amoniak, metan a metanol.\n\nNešlo o odebraný vzorek ani o fotografii jednotlivých molekul. Měřenou informací byly poklesy ve spektru procházejícího světla. Přítomnost organické molekuly sama o sobě také není důkazem života; podobné látky mohou vznikat nebiologickými procesy."
+   },
+   {
+    "heading": "Čí složení vlastně měříme?",
+    "body": "Ve světle vzdáleného objektu mohou být smíchané stopy několika prostředí. Některé čáry vzniknou v jeho hvězdách nebo plynu, jiné v mračnu mezi objektem a námi. Pozemská pozorování navíc ovlivňuje atmosféra Země.\n\nVědci proto oddělují jednotlivé příspěvky podle poloh čar, jejich tvaru a dalších dat. Absorpce v popředí nepopisuje automaticky složení vzdáleného zdroje. Stejně tak plyn v atmosféře planety nemusí vypovídat o složení jejího hlubokého nitra."
+   },
+   {
+    "heading": "Proč je složení důležité pro kosmologii",
+    "body": "Vodík a většina helia mají původ v raném vesmíru. Hvězdy a další procesy pak vytvářely a rozptylovaly těžší prvky. Spektra galaxií z různých období pomáhají sledovat, jak se jejich prostředí chemicky obohacovalo.\n\nZjištění kyslíku v rané galaxii je proto informací o předchozí činnosti hvězd, nikoli automatickým porušením kosmologického modelu. Abychom porovnali měření s teorií, musíme znát také nejistoty, podmínky zářícího plynu a možné alternativy výkladu."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[NIST: Databáze atomových spekter](https://www.nist.gov/pml/atomic-spectra-database)\n\n[ESA: Spektroskopie a chemické vlastnosti hvězd](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Spectroscopy)\n\n[ESA/Webb: Chemie ledů v mračnu Chameleon I, výsledek z roku 2023](https://esawebb.org/news/weic2303/)\n\n[ESO: Kyslík v galaxii JADES-GS-z14-0, výsledek z roku 2025](https://www.eso.org/public/news/eso2507/)"
+   }
+  ],
+  "why_box": "Při zprávě o objevu vody nebo organických molekul se ptejte, zda šlo o přímou spektrální identifikaci, odhad množství, nebo jen předběžnou možnost. Všechny tyto závěry mohou být zajímavé, ale nemají stejnou sílu.",
+  "related_explainery": [
+   "co-jsou-absorpcni-a-emisni-cary",
+   "co-je-rudy-posuv-a-jak-se-meri",
+   "co-umi-webbuv-vesmirny-dalekohled"
+  ]
+ },
+ {
+  "id": "exp-038",
+  "title": "Co je rudý posuv a jak se měří?",
+  "theme": "svetlo-a-mereni-vesmiru",
+  "description": "Jak určit rudý posuv z absorpčních a emisních čar? Vysvětlení vztahu pro z, porovnání více čar a rozdílu mezi posuvem a vzdáleností.",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Když známou spektrální čáru najdeme na delší vlnové délce než v laboratoři, mluvíme o rudém posuvu. Je to přesně měřitelná změna světla. Teprve její fyzikální výklad nám řekne, zda souvisí s pohybem, gravitací nebo rozpínáním vesmíru.",
+  "sections": [
+   {
+    "heading": "Co znamená číslo z",
+    "body": "Rudý posuv označujeme **z** a definujeme vztahem **z = (λ pozorovaná − λ klidová) / λ klidová**. Symbol λ označuje vlnovou délku. Stejný vztah lze přepsat jako **λ pozorovaná = λ klidová × (1 + z)**.\n\nČíslo z nemá jednotku. Hodnota z = 0,1 znamená prodloužení vlnové délky o 10 %, z = 1 její zdvojnásobení. Neznamená to samo o sobě rychlost 10 % nebo 100 % rychlosti světla. Pokud je z záporné, jde o posuv k kratším vlnovým délkám, označovaný jako modrý."
+   },
+   {
+    "heading": "Jak se změří z absorpčních čar",
+    "body": "Nejprve změříme, na kterých vlnových délkách nastávají poklesy ve spektru. Potom hledáme shodu s laboratorní soustavou čar. V jednoduchém ilustračním příkladu mají tři klidové čáry polohy 400, 500 a 600 nm, zatímco pozorované leží na 440, 550 a 660 nm.\n\nPro každou vyjde stejný poměr pozorované a klidové vlnové délky: 1,1. Z toho dostaneme **z = 0,1**. Souhlas více čar posiluje správnost identifikace. Jediný pokles může být zaměněn za jinou čáru, poruchu detektoru nebo absorpci v atmosféře Země."
+   },
+   {
+    "heading": "Proč nejde o posun o stejný počet nanometrů",
+    "body": "V příkladu se jednotlivé čáry posunuly o 40, 50 a 60 nm. Stejný je jejich **poměr**, nikoli absolutní rozdíl. Celá soustava se na běžné lineární ose vlnových délek protáhne. Právě to je důležité při porovnávání spekter.\n\nPro emisní čáry funguje výpočet stejně; místo poklesů hledáme vrcholy. Přesné analýzy mohou porovnávat celé spektrum se vzory a využít i jeho širší strukturu. Součástí práce je kalibrace přístroje a podle požadované přesnosti také oprava na pohyb pozorovatele."
+   },
+   {
+    "heading": "Tři různé příčiny",
+    "body": "**Dopplerův posuv** souvisí s relativním pohybem zdroje a pozorovatele. **Gravitační posuv** vzniká při šíření světla mezi místy s rozdílnými gravitačními podmínkami. **Kosmologický posuv** souvisí s rozpínáním vesmíru během cesty světla.\n\nV reálném měření se tyto vlivy mohou kombinovat. U blízkých galaxií může vlastní pohyb výrazně ovlivnit výsledek. U velmi vzdálených galaxií je pro celkový posuv zásadní kosmologické rozpínání. „Rudý“ přitom neznamená, že se světlo musí nacházet ve viditelné červené barvě: může se posunout například z infračerveného do milimetrového oboru."
+   },
+   {
+    "heading": "Co z naměřeného z ještě nevíme",
+    "body": "Samotná hodnota z není vzdálenost v kilometrech ani přesné stáří objektu. Převod na kosmologickou vzdálenost nebo dobu, kterou světlo cestovalo, vyžaduje model vývoje vesmíru a jeho parametry. Přibližný vztah v ≈ c × z používáme jen při malých posuvech a za vhodných podmínek.\n\nPozor také na původ čar: absorpce v plynu před kvasarem měří posuv tohoto plynu, nikoli automaticky kvasaru. Proto musí identifikace spektrálních útvarů předcházet výpočtu vzdálenosti."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[NASA: Kosmologický rudý posuv](https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-cosmological-redshift/)\n\n[NASA: Pohyb a posuny spektrálních čar](https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-beyond-temperature-and-composition/)\n\n[NASA: Slovník pojmů – druhy rudého posuvu](https://science.nasa.gov/universe/glossary/)"
+   }
+  ],
+  "why_box": "U titulku o vzdálené galaxii je užitečné hledat, zda je její posuv potvrzen spektroskopicky, nebo zatím odhadnut z měření přes barevné filtry. Obojí má své použití, ale konkrétní spektrální čáry mohou původní odhad zásadně zpřesnit.",
+  "related_explainery": [
+   "jak-velky-je-rudy-posuv-priklady-a-vypocty",
+   "co-jsou-absorpcni-a-emisni-cary",
+   "co-je-hubbleova-konstanta"
+  ]
+ },
+ {
+  "id": "exp-039",
+  "title": "Jak velký je rudý posuv? Příklady a výpočty",
+  "theme": "svetlo-a-mereni-vesmiru",
+  "description": "Co znamená z = 0,1, 1 nebo 6? Početní příklady doplňují skutečná spektra kvasaru 3C 273, vzdáleného plynu a galaxie JADES-GS-z14-0.",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Číslo rudého posuvu se snadno zapamatuje, ale jeho význam lépe ukáže konkrétní vlnová délka. Podívejme se, kam by se posunula vodíková čára, a potom na několik skutečných měření. Ilustrační výpočty a naměřené výsledky přitom oddělíme.",
+  "sections": [
+   {
+    "heading": "Nejdřív jednoduché pravidlo",
+    "body": "Použijeme vztah **λ pozorovaná = λ klidová × (1 + z)**. Pro výpočty zvolíme vodíkovou čáru Hα s klidovou vlnovou délkou přibližně **656,46 nm ve vakuu**. Často uváděná hodnota kolem 656,3 nm odpovídá zaokrouhlené hodnotě ve vzduchu. Při přesné práci se tyto konvence nesmějí míchat.\n\nNásledující čísla nejsou pozorování konkrétních galaxií. Ukazují pouze, kde by se tato čára nacházela při zvoleném posuvu."
+   },
+   {
+    "heading": "Kam se posune čára Hα",
+    "body": "- **z = 0,01:** přibližně 663,02 nm. Vlnová délka je o 1 % delší a stále leží ve viditelné červené oblasti.\n- **z = 0,1:** přibližně 722,11 nm. Prodloužení činí 10 %; čára je na rozhraní velmi hluboké červené a blízkého infračerveného oboru podle zvolené konvence.\n- **z = 1:** přibližně 1 312,92 nm, tedy 1,313 μm. Vlnová délka se zdvojnásobila.\n- **z = 6:** přibližně 4 595,22 nm, tedy 4,595 μm. Vlnová délka je sedminásobná, nikoli šestinásobná.\n\nHranice mezi viditelným a infračerveným oborem je orientační, nikoli ostrý fyzikální předěl. Příklady ukazují, proč ke studiu vzdálených galaxií potřebujeme přístroje citlivé na dlouhé vlnové délky."
+   },
+   {
+    "heading": "Skutečné měření: kvasar 3C 273",
+    "body": "Pozorování projektu Virtual Telescope z roku 2013 ukazuje, jak jde použít i jednoduchá spektroskopie. Vodíková emisní čára Hα byla v jeho spektru určena přibližně na 760,2 nm místo referenčních 656,3 nm. Čára Hβ ležela kolem 563,1 nm místo 486,1 nm. Z obou vychází přibližně **z = 0,158**.\n\nZde uvádíme zaokrouhlené hodnoty z konkrétního měření, které používá obvyklé optické referenční vlnové délky ve vzduchu. Výpočet je potřeba provést s odpovídajícími referencemi. Jsou to **emisní čáry kvasaru**, nikoli příklad absorpce."
+   },
+   {
+    "heading": "Skutečná absorpce: uhlík v plynu před kvasarem",
+    "body": "Studie Ryan-Weberové a spoluautorů z roku 2006 popsala dvojici absorpčních čar trojnásobně ionizovaného uhlíku C IV v plynu před kvasarem SDSS J1030+0524. Plyn měl **z = 5,7238**, zatímco posuv samotného kvasaru byl v práci uveden jako 6,28.\n\nKlidové ultrafialové čáry kolem 154,8 a 155,1 nm se tak objevují přibližně u 1,041 a 1,043 μm, v blízkém infračerveném oboru. Obě mají společný násobek 1 + z = 6,7238. Příklad ukazuje, proč absorpční čáry mohou vypovídat o látce na cestě světla, nikoli jen o jeho zdroji."
+   },
+   {
+    "heading": "Skutečná emise: kyslík v JADES-GS-z14-0",
+    "body": "Analýza publikovaná v roce 2025 využila měření soustavou ALMA a odvodila **z = 14,1796 ± 0,0007** z emisní čáry dvakrát ionizovaného kyslíku [O III]. Její klidová vlnová délka je přibližně 88,36 μm, zatímco měřená frekvence kolem 223,524 GHz odpovídá přibližně 1,341 mm.\n\nVlnová délka se tedy prodloužila asi 15,18krát. Není to údaj o rychlosti rovné čtrnáctinásobku rychlosti světla. Je to kosmologický posuv světla. Starší odhad kolem z = 14,32 z Webbu měl větší nejistotu; přesnější určení pomocí čáry není totéž co nová poloha galaxie."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "[NASA NTRS: Klidová čára Hα kolem 656,46 nm](https://ntrs.nasa.gov/citations/20050153814)\n\n[Gianluca Masi, Virtual Telescope: Měření spektra 3C 273 v roce 2013](https://www.virtualtelescope.eu/2013/02/14/quasar-3c-273-a-low-res-spectrum-and-redshift/)\n\n[Ryan-Weber a spoluautoři: Absorpce C IV při z = 5,7238](https://arxiv.org/abs/astro-ph/0607029)\n\n[Carniani a spoluautoři: Měření kyslíkové čáry v JADES-GS-z14-0](https://doi.org/10.1051/0004-6361/202452451)"
+   }
+  ],
+  "why_box": "Z hodnoty z si snadno představíte prodloužení vlnové délky: vždy ji násobíte číslem 1 + z. Pro představu o vzdálenosti ale potřebujete další krok a kosmologický model. A ještě předtím je potřeba vědět, kterému objektu nebo plynu naměřená čára patří.",
+  "related_explainery": [
+   "co-je-rudy-posuv-a-jak-se-meri",
+   "co-je-alma-a-co-vidi-v-chladnem-vesmiru",
+   "co-je-hubbleovo-napeti"
   ]
  }
 ]
