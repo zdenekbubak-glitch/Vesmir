@@ -4796,5 +4796,48 @@
     "reference_urls": [
       "https://www.feynmanlectures.caltech.edu/III_01.html"
     ]
+  },
+  {
+    "topic": "kvantova-gravitace",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kvantova-gravitace",
+      "kvantovy-svet"
+    ],
+    "id": "schema-superpozice-a-smes",
+    "title": "Stejných 50 : 50, ale jiný stav",
+    "diagram": "superposition-versus-mixture",
+    "source_id": "own-diagram:superposition-versus-mixture",
+    "source_family": "own-diagram:superposition-versus-mixture",
+    "alt": "Srovnání superpozice a náhodné směsi: při přímém měření obě dávají 50 : 50, po stejné operaci H dávají 100 : 0 a 50 : 50.",
+    "caption": "Teoretické pravděpodobnosti pro vyváženou superpozici (|0⟩ + |1⟩)/√2 a náhodnou směs stavů 0 a 1. Přímé měření v bázi 0/1 dává v obou případech 50 : 50. Stejná Hadamardova operace H před tímto měřením dává u zvolené superpozice 100 % pro 0, u směsi zůstává 50 : 50. Sloupce představují alternativní postupy na nově připravených soustavách, nikoli dvě měření téhož qubitu po sobě. Nejde o naměřená data.",
+    "thumbnail": "assets/article-images/thumbs/schema-superpozice-a-smes.webp",
+    "source_master": "assets/article-images/sources/schema-superpozice-a-smes.jpg",
+    "match_keywords": [
+      "náhodná směs",
+      "Hadamardova operace",
+      "quantum mixture"
+    ],
+    "reference_urls": [
+      "https://quantum.cloud.ibm.com/learning/en/modules/quantum-mechanics/superposition-with-qiskit",
+      "https://quantum.cloud.ibm.com/learning/en/courses/general-formulation-of-quantum-information/density-matrices/introduction"
+    ]
   }
 ]

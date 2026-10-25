@@ -304,5 +304,23 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma"
+  },
+  {
+    "id": "kosmopedie-schema-superpozice-a-smes",
+    "title": "Stejných 50 : 50, ale jiný stav",
+    "caption": "Teoretické pravděpodobnosti pro vyváženou superpozici (|0⟩ + |1⟩)/√2 a náhodnou směs stavů 0 a 1. Přímé měření v bázi 0/1 dává v obou případech 50 : 50. Stejná Hadamardova operace H před tímto měřením dává u zvolené superpozice 100 % pro 0, u směsi zůstává 50 : 50. Sloupce představují alternativní postupy na nově připravených soustavách, nikoli dvě měření téhož qubitu po sobě. Nejde o naměřená data.",
+    "image": "assets/article-images/schema-superpozice-a-smes.jpg",
+    "thumb": "assets/article-images/thumbs/schema-superpozice-a-smes.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/kosmopedie/co-je-superpozice-a-co-se-deje-pri-mereni.html",
+    "published": "2026-10-25",
+    "inserted_at": "2026-10-25",
+    "credit": "Kosmologické novinky",
+    "lang": "cs",
+    "needs_translation": false,
+    "catalog_image_id": "schema-superpozice-a-smes",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma"
   }
 ]

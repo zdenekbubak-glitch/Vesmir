@@ -32,7 +32,25 @@ def diagram(entry):
     def node(x,y,label,c=blue):
         d.rounded_rectangle((x-110,y-40,x+110,y+40),radius=15,outline=c,width=3)
         text(x-100,y-14,label,c,21)
-    if kind=='electron-interference-hits':
+    if kind=='superposition-versus-mixture':
+        text(55,88,'Dva různé testy na nově připravených soustavách',white,25)
+        text(355,140,'Přímé měření',muted,25)
+        text(785,140,'Operace H + měření',muted,25)
+        line([(320,180),(320,515)],'#304e70',2)
+        line([(725,180),(725,515)],'#304e70',2)
+        line([(50,355),(1140,355)],'#304e70',2)
+        for baseline,label,color,probs in ((305,'Superpozice',blue,(50,50,100,0)),
+                                           (490,'Náhodná směs',violet,(50,50,50,50))):
+            text(55,baseline-80,label,color,28)
+            text(55,baseline-37,'možností 0 a 1',muted,21)
+            for x,value,state in zip((410,555,850,995),probs,('0','1','0','1')):
+                top=baseline-value
+                if value:d.rectangle((x,top,x+70,baseline),fill=color)
+                else:line([(x,baseline),(x+70,baseline)],color,3)
+                text(x-1,top-35,str(value)+' %',white,24)
+                text(x+27,baseline+8,state,muted,23)
+        text(55,535,'H je v obou řádcích stejná operace; přímé měření jí nepředchází.',muted,22)
+    elif kind=='electron-interference-hits':
         import random
         rng=random.Random(42140)
         text(55,92,'Jednotlivé elektrony zachytíme jako bodové zásahy.',white,25)
