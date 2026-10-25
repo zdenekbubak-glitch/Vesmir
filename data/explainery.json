@@ -1976,7 +1976,7 @@
    },
    {
     "heading": "Proč většinu hmotnosti protonu vysvětlujeme jinak",
-    "body": "Proton je složená částice: jeho vnitřní stav tvoří kvarky a gluonové pole silného působení. Prostý součet klidových hmotností jeho tří valenčních kvarků je mnohem menší než hmotnost celého protonu. **Většina hmotnosti protonu souvisí s energií kvarků a gluonového pole v jeho vnitřním kvantovém stavu.**\n\nV atomových jádrech je soustředěna většina hmotnosti běžných předmětů. Proto je pro naši vlastní hmotnost tak důležitá právě fyzika silného působení. Higgsovo pole je zásadní součást vysvětlení, ale není jediným zdrojem hmotnosti všeho kolem nás.",
+    "body": "Proton je složená částice, jejíž vnitřní stav tvoří kvarky a gluonové pole silného působení. Prostý součet klidových hmotností jeho tří valenčních kvarků je mnohem menší než hmotnost celého protonu. **Do hmotnosti protonu se totiž započítává také energie uvnitř něj.**\n\nSilné působení udržuje kvarky v nepatrném prostoru. Kvarky mají pohybovou energii a energii nese také gluonové pole, jehož prostřednictvím spolu interagují. Tato vnitřní energie zůstává přítomná, i když proton jako celek stojí. Podle Einsteinova vztahu **E₀ = m × c²** odpovídá celkové energii protonu v klidu jeho hmotnost.\n\n**Většinu hmotnosti protonu tak tvoří příspěvek vnitřní energie kvarků a gluonového pole.** Higgsovo pole souvisí s vlastními klidovými hmotnostmi kvarků; k vysvětlení hmotnosti celého protonu však potřebujeme i silné působení.\n\nV atomových jádrech je soustředěna většina hmotnosti běžných předmětů. Proto je pro naši vlastní hmotnost tak důležitá právě fyzika silného působení.",
     "image_id": "schema-hmotnost-elektron-proton"
    },
    {
@@ -1985,7 +1985,7 @@
    },
    {
     "heading": "Zdroje a další čtení",
-    "body": "- [CERN: Higgsovo pole a jeho kvantum](https://home.cern/science/physics/higgs-boson/what/)\n- [Fermilab: které částice získávají hmotnost z Higgsova pole](https://news.fnal.gov/2018/06/who-gets-their-mass-from-the-higgs/)\n- [CERN: Higgsův mechanismus a původ hmotnosti běžné hmoty](https://repository.cern/records/g9287-8t069)\n- [ATLAS: objev Higgsova bosonu](https://atlas.cern/Discover/Physics/Higgs)"
+    "body": "- [CERN: Higgsovo pole a jeho kvantum](https://home.cern/science/physics/higgs-boson/what/)\n- [Fermilab: které částice získávají hmotnost z Higgsova pole](https://news.fnal.gov/2018/06/who-gets-their-mass-from-the-higgs/)\n- [CERN: Higgsův mechanismus a původ hmotnosti běžné hmoty](https://repository.cern/records/g9287-8t069)\n- [ATLAS: objev Higgsova bosonu](https://atlas.cern/Discover/Physics/Higgs)\n- [CERN, 2025: energie gluonového pole a hmotnost protonu](https://home.cern/other-99/)"
    }
   ],
   "why_box": "Higgsovo pole souvisí s hmotnostmi mnoha elementárních částic; Higgsův boson je jeho kvantem. Většinu hmotnosti protonů a neutronů však vysvětluje energie jejich vnitřního stavu se silným působením.",
