@@ -118,8 +118,17 @@ def main():
         description = ex.get('description') or ex.get('perex', '')[:158]
 
         sec_html = ''
+        section_images = []
         for sec in ex.get('sections', []):
             section = f"      <h2>{esc(sec.get('heading'))}</h2>\n{render_body(sec.get('body'))}\n"
+            # Editorial placement: an optional catalog ID belongs to this exact
+            # section, independently of automatic selection of the lead image.
+            if sec.get('image_id'):
+                section_image = image_library[1].get(sec['image_id'])
+                if section_image is None:
+                    raise ValueError(f"{ex['id']}: nedostupný obrázek oddílu {sec['image_id']}")
+                section += image_figure(section_image).replace('<img ', '<img loading="lazy" decoding="async" ', 1)
+                section_images.append(section_image)
             if str(sec.get('heading') or '').strip().casefold().startswith('zdroje'):
                 section = '<section class="article-sources">\n' + section + '</section>\n'
             sec_html += section
@@ -158,6 +167,11 @@ def main():
 
         article_image = lookup_image(ex, "explainery", image_library)
         article_image_url = image_url(article_image, base)
+        article_images = [article_image] if article_image else []
+        for section_image in section_images:
+            if not any(image['id'] == section_image['id'] for image in article_images):
+                article_images.append(section_image)
+        image_metadata = [image_schema(image, base) for image in article_images]
         jsonld = {
             '@context': 'https://schema.org',
             '@type': 'Article',
@@ -169,7 +183,7 @@ def main():
             'author': {'@type': 'Organization', 'name': 'Kosmologické novinky'},
             'publisher': {'@type': 'Organization', 'name': 'Kosmologické novinky'},
             'mainEntityOfPage': url,
-            'image': image_schema(article_image, base),
+            'image': image_metadata if section_images else image_schema(article_image, base),
         }
         page = page_head(f"{ex['title']} - Kosmopedie - Kosmologické novinky", description, url,
                          og_image=article_image_url, jsonld=jsonld)

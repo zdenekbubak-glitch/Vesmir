@@ -32,7 +32,27 @@ def diagram(entry):
     def node(x,y,label,c=blue):
         d.rounded_rectangle((x-110,y-40,x+110,y+40),radius=15,outline=c,width=3)
         text(x-100,y-14,label,c,21)
-    if kind=='quantum-levels':
+    if kind=='electron-interference-hits':
+        import random
+        rng=random.Random(42140)
+        text(55,92,'Jednotlivé elektrony zachytíme jako bodové zásahy.',white,25)
+        text(55,130,'Po mnoha opakováních se ukážou pásy s různou četností zásahů.',muted,23)
+        for x0,count,label in ((70,100,'100 zásahů'),(660,8000,'8 000 zásahů')):
+            x1=x0+460;y0,y1=235,465
+            text(x0+125,185,label,gold,27)
+            d.rectangle((x0,y0,x1,y1),fill='#050a12',outline='#304e70',width=2)
+            for _ in range(count):
+                # Far-field coherent equal double slit with Gaussian envelope.
+                # Rejection sampling gives identical distributions in both panels.
+                while True:
+                    t=rng.uniform(-1,1)
+                    density=math.exp(-2*t*t)*math.cos(4*math.pi*t)**2
+                    if rng.random()<density:break
+                x=x0+3+(t+1)*.5*(x1-x0-6);y=rng.uniform(y0+3,y1-3)
+                d.ellipse((x-.8,y-.8,x+.8,y+.8),fill=blue)
+            text(x0+55,480,'poloha zásahu na detektoru',muted,22)
+        text(70,530,'Simulace ideálního modelu; nejde o fotografii ani naměřená data.',muted,22)
+    elif kind=='quantum-levels':
         text(60,95,'Modelové energetické hladiny atomu',white,25)
         arrow(100,490,100,155,muted);text(45,510,'energie',muted,22)
         for y,label in ((450,'nižší hladina'),(300,'vyšší hladina'),(190,'další hladina')):

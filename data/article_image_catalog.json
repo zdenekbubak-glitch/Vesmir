@@ -4754,5 +4754,47 @@
       "https://www.nist.gov/blogs/taking-measure/quantum-leap-forward-how-tiny-particles-can-bring-us-exciting-new-tech",
       "https://quantum.cloud.ibm.com/learning/en/courses/general-formulation-of-quantum-information/density-matrices/introduction"
     ]
+  },
+  {
+    "topic": "kvantova-gravitace",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kvantova-gravitace",
+      "kvantovy-svet"
+    ],
+    "id": "schema-dvojsterbina-zasahy",
+    "title": "Jak vznikají interferenční pásy",
+    "diagram": "electron-interference-hits",
+    "source_id": "own-diagram:electron-interference-hits",
+    "source_family": "own-diagram:electron-interference-hits",
+    "alt": "Dvojštěrbinový pokus: vlevo 100 simulovaných bodových zásahů, vpravo 8 000 zásahů tvořících svislé interferenční pásy.",
+    "caption": "Simulované zásahy jednotlivých elektronů v ideálním dvojštěrbinovém pokusu. Oba panely používají stejné pravděpodobnostní rozdělení; vpravo je pouze více zásahů. Model má Gaussovu obálku a interferenční člen cos², takže po mnoha opakováních vyniknou svislé pásy. Nejde o fotografii skutečného experimentu, naměřená data ani o přesné rozměry přístroje.",
+    "thumbnail": "assets/article-images/thumbs/schema-dvojsterbina-zasahy.webp",
+    "source_master": "assets/article-images/sources/schema-dvojsterbina-zasahy.jpg",
+    "match_keywords": [
+      "dvojštěrbina",
+      "double slit",
+      "interference elektronů"
+    ],
+    "reference_urls": [
+      "https://www.feynmanlectures.caltech.edu/III_01.html"
+    ]
   }
 ]

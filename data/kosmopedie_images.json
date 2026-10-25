@@ -286,5 +286,23 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma"
+  },
+  {
+    "id": "kosmopedie-schema-dvojsterbina-zasahy",
+    "title": "Jak vznikají interferenční pásy",
+    "caption": "Simulované zásahy jednotlivých elektronů v ideálním dvojštěrbinovém pokusu. Oba panely používají stejné pravděpodobnostní rozdělení; vpravo je pouze více zásahů. Model má Gaussovu obálku a interferenční člen cos², takže po mnoha opakováních vyniknou svislé pásy. Nejde o fotografii skutečného experimentu, naměřená data ani o přesné rozměry přístroje.",
+    "image": "assets/article-images/schema-dvojsterbina-zasahy.jpg",
+    "thumb": "assets/article-images/thumbs/schema-dvojsterbina-zasahy.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/kosmopedie/co-je-kvantova-mechanika.html",
+    "published": "2026-10-25",
+    "inserted_at": "2026-10-25",
+    "credit": "Kosmologické novinky",
+    "lang": "cs",
+    "needs_translation": false,
+    "catalog_image_id": "schema-dvojsterbina-zasahy",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma"
   }
 ]
