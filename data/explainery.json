@@ -5,7 +5,7 @@
   "theme": "temna-hmota",
   "description": "Temná hmota tvoří 85 % hmoty vesmíru, ale nikdy jsme ji neviděli. Co víme, jak ji hledáme a proč je tak důležitá?",
   "published": "2026-10-17",
-  "updated": "2026-10-17",
+  "updated": "2026-10-25",
   "perex": "Vesmír, který vidíme — hvězdy, galaxie, mlhoviny — je jen špička ledovce. Zhruba 85 % veškeré hmoty tvoří substance, která neemituje ani neabsorbuje světlo: temná hmota. Nevíme, z čeho je, ale víme, že tam je.",
   "sections": [
    {
@@ -14,7 +14,8 @@
    },
    {
     "heading": "Jak víme, že existuje?",
-    "body": "Temnou hmotu nevidíme, ale její gravitace mění to, co vidíme. Dnes máme tři nezávislé důkazy:\n\n- **Rotace galaxií.** Hvězdy na okrajích spirálních galaxií se točí příliš rychle. Podle viditelné hmoty by měly rotovat pomaleji; při měřených rychlostech by galaxie měly rozletět. Dodatečná gravitace neviditelné hmoty je drží pohromadě — jako neviditelný lep, který obaluje viditelnou galaxii do velké „galaktické slupky\".\n- **Gravitační čočky.** Světlo vzdálených galaxií procházející kolem hmotných kup se zakřivuje podle hmotnosti, která mu stojí v cestě. Množství zakřivení systematicky překračuje množství viditelné hmoty. Chybějící gravitace patří temné hmotě — a u čoček můžeme dokonce mapovat, kde přesně se nachází.\n- **Reliktní záření.** Mřížka teplotních fluktuací v reliktním záření (světle z mládí vesmíru) odpovídá modelu, kde tvoří temná hmota asi 85 % veškeré hmoty. Tři nezávislé metody, tři nezávislé výsledky — shodují se do jednotek procent."
+    "body": "Temnou hmotu nevidíme, ale její gravitace mění to, co vidíme. Dnes máme tři nezávislé důkazy:\n\n- **Rotace galaxií.** Hvězdy na okrajích spirálních galaxií se točí příliš rychle. Podle viditelné hmoty by měly rotovat pomaleji; při měřených rychlostech by galaxie měly rozletět. Dodatečná gravitace neviditelné hmoty je drží pohromadě — jako neviditelný lep, který obaluje viditelnou galaxii do velké „galaktické slupky\".\n- **Gravitační čočky.** Světlo vzdálených galaxií procházející kolem hmotných kup se zakřivuje podle hmotnosti, která mu stojí v cestě. Množství zakřivení systematicky překračuje množství viditelné hmoty. Chybějící gravitace patří temné hmotě — a u čoček můžeme dokonce mapovat, kde přesně se nachází.\n- **Reliktní záření.** Mřížka teplotních fluktuací v reliktním záření (světle z mládí vesmíru) odpovídá modelu, kde tvoří temná hmota asi 85 % veškeré hmoty. Tři nezávislé metody, tři nezávislé výsledky — shodují se do jednotek procent.",
+    "image_id": "schema-temna-hmota-2"
    },
    {
     "heading": "Co temná hmota není",
@@ -41,7 +42,7 @@
   "theme": "gravitacni-vlny",
   "description": "Gravitační vlny sítí prostoročas a doputují k nám z nejextrémnějších událostí vesmíru. Kdy byly poprvé detekovány a co nám říkají?",
   "published": "2026-10-17",
-  "updated": "2026-10-17",
+  "updated": "2026-10-25",
   "perex": "Když se srazí dvě černé díry, zachvěje se samotný prostor a čas. Toto chvění — gravitační vlna — urazí miliardy světelných let a odečteme ho přístroji schopnými zaznamenat pohyb tisíckrát menší než průměr protonu.",
   "sections": [
    {
@@ -50,7 +51,8 @@
    },
    {
     "heading": "Proč je nešlo změřit sto let",
-    "body": "Gravitační vlny procházejí hmotou takřka nezastaveny, ale jsou nepředstavitelně slabé — projdou-li kolem, protáhne se prostor o zlomek rozměru protonu. Einstein sám pochyboval, že je někdy změříme. Teprve v září 2015 detekovala americká observatoř LIGO vlny ze srážky dvou černých děr ve vzdálenosti 1,3 miliardy světelných let. Oznámení v únoru 2016 bylo světovou událostí; o rok později dostali průkopníci detekce Nobelovu cenu. Do současnosti (r. 2026) byly potvrzeny již stovky detekcí."
+    "body": "Gravitační vlny procházejí hmotou takřka nezastaveny, ale jsou nepředstavitelně slabé — projdou-li kolem, protáhne se prostor o zlomek rozměru protonu. Einstein sám pochyboval, že je někdy změříme. Teprve v září 2015 detekovala americká observatoř LIGO vlny ze srážky dvou černých děr ve vzdálenosti 1,3 miliardy světelných let. Oznámení v únoru 2016 bylo světovou událostí; o rok později dostali průkopníci detekce Nobelovu cenu. Do současnosti (r. 2026) byly potvrzeny již stovky detekcí.",
+    "image_id": "schema-vlna-protazeni"
    },
    {
     "heading": "Jak detektor vlastně funguje?",
@@ -114,7 +116,7 @@
   "theme": "temna-energie",
   "description": "Temná energie tvoří 68 % vesmíru a zrychluje jeho rozpínání. Co přesně je, proč existuje a jak se liší od temné hmoty?",
   "published": "2026-10-17",
-  "updated": "2026-10-17",
+  "updated": "2026-10-25",
   "perex": "Vesmír se rozpíná stále rychleji — za zrychlením stojí temná energie, záhadná síla naplňující prázdný prostor. Tvoří 68 % vesmíru a rozhoduje o jeho osudu, přitom nevíme, co doopravdy je.",
   "sections": [
    {
@@ -139,7 +141,8 @@
    },
    {
     "heading": "Jak se liší od temné hmoty?",
-    "body": "I když se jmenují podobně, jde o dvě zcela odlišné věci. Temná hmota se chová jako hmota — gravituje, shlukuje se kolem galaxií a drží je pohromadě. Temná energie je energie prázdného prostoru a působí na obrovských vzdálenostech mezi galaxiemi. Zjednodušeně: temná hmota řídí, jak se ve vesmíru tvoří struktura, temná energie určuje, jak rychle se celý vesmír rozpíná a jaký bude jeho osud."
+    "body": "I když se jmenují podobně, jde o dvě zcela odlišné věci. Temná hmota se chová jako hmota — gravituje, shlukuje se kolem galaxií a drží je pohromadě. Temná energie je energie prázdného prostoru a působí na obrovských vzdálenostech mezi galaxiemi. Zjednodušeně: temná hmota řídí, jak se ve vesmíru tvoří struktura, temná energie určuje, jak rychle se celý vesmír rozpíná a jaký bude jeho osud.",
+    "image_id": "schema-temna-hmota-vs-energie"
    },
    {
     "heading": "Co bude dál?",
@@ -158,7 +161,7 @@
   "theme": "cerne-diry",
   "description": "Černá díra je oblast, z níž neunikne ani světlo. Jak vzniká zhroucením hvězdy, kolik druhů existuje a jak ji vůbec pozorujeme?",
   "published": "2026-10-17",
-  "updated": "2026-10-17",
+  "updated": "2026-10-25",
   "perex": "Černá díra je místo, kde gravitace zvítězila nad vším ostatním — oblast, z níž neunikne ani světlo. Nejznámější vznikají zhroucením umírajících hvězd, ty největší ale číhají v srdcích galaxií.",
   "sections": [
    {
@@ -171,7 +174,8 @@
    },
    {
     "heading": "Zrození z hvězdy",
-    "body": "Hvězdná černá díra se rodí dramaticky. Když velká hvězda spotřebuje své jaderné palivo, už ji neudržuje zářivý tlak vnitřku. Hvězda se zhroutí — nejdřív vrstvami, pak v jediném okamžiku, když jádro zkolabuje pod vlastní vahou. Při tomto kolapsu nastane výbuch supernovy, který vnější vrstvy hvězdy odhodí do vesmíru. To, co zbyde, se propadne za horizont událostí. Z hvězdy o hmotnosti desítek Sluncí tak zbude objekt o průměru jen několika kilometrů."
+    "body": "Hvězdná černá díra se rodí dramaticky. Když velká hvězda spotřebuje své jaderné palivo, už ji neudržuje zářivý tlak vnitřku. Hvězda se zhroutí — nejdřív vrstvami, pak v jediném okamžiku, když jádro zkolabuje pod vlastní vahou. Při tomto kolapsu nastane výbuch supernovy, který vnější vrstvy hvězdy odhodí do vesmíru. To, co zbyde, se propadne za horizont událostí. Z hvězdy o hmotnosti desítek Sluncí tak zbude objekt o průměru jen několika kilometrů.",
+    "image_id": "schema-cerne-diry-collapse"
    },
    {
     "heading": "Jak černé díry pozorujeme?",
@@ -247,7 +251,7 @@
   "theme": "relictni-zareni",
   "description": "Reliktní záření je nejstarší světlo vesmíru — fotka jeho mládí. Jak vzniklo, proč je mikrovlnné a co nám říká o věku a složení vesmíru?",
   "published": "2026-10-17",
-  "updated": "2026-10-17",
+  "updated": "2026-10-25",
   "perex": "Reliktní záření je nejstarší světlo ve vesmíru – záře, která vznikla asi 380 tisíc let po velkém třesku, kdy se vesmír poprvé stal průhledným. Vlivem rozpínání vesmíru se toto původně žhavé viditelné světlo natáhlo do podoby chladného mikrovlnného záření o teplotě −270,4 °C, které k Zemi přichází ze všech stran. Je to doslova fotka vesmírného mládí.",
   "sections": [
    {
@@ -256,7 +260,8 @@
    },
    {
     "heading": "Konec éry mlhy",
-    "body": "Krátce po velkém třesku byl vesmír žhavý, hustý a zcela neprůhledný. Světlo (fotony) neustále naráželo na volné elektrony a nemohlo se šířit volně — jako když se světlo odráží v husté mlze. Asi 380 tisíc let po počátku se vesmír natolik rozepjal a vychladl, že elektrony a protony konečně splynuly do neutrálních atomů vodíku. V ten okamžik vesmír zprůhledněl a fotony se vydaly na cestu vesmírem. Ty, které zamířily směrem k nám, dorazily na Zemi právě teď — po cestě trvající téměř 13,8 miliardy let."
+    "body": "Krátce po velkém třesku byl vesmír žhavý, hustý a zcela neprůhledný. Světlo (fotony) neustále naráželo na volné elektrony a nemohlo se šířit volně — jako když se světlo odráží v husté mlze. Asi 380 tisíc let po počátku se vesmír natolik rozepjal a vychladl, že elektrony a protony konečně splynuly do neutrálních atomů vodíku. V ten okamžik vesmír zprůhledněl a fotony se vydaly na cestu vesmírem. Ty, které zamířily směrem k nám, dorazily na Zemi právě teď — po cestě trvající téměř 13,8 miliardy let.",
+    "image_id": "schema-relictni-zareni-recombination"
    },
    {
     "heading": "Proč je mikrovlnné, když začínalo jako viditelné světlo",
@@ -284,7 +289,7 @@
   "theme": "neutronove-hvezdy",
   "description": "Neutronová hvězda: zbytek po supernově o velikosti města a hmotnosti Slunce. Proč je nejhustější hmotou vesmíru, jak pulsuje a proč se z některých stanou černé díry?",
   "published": "2026-10-17",
-  "updated": "2026-10-17",
+  "updated": "2026-10-25",
   "perex": "Neutronová hvězda je zbytek jádra umírající hmotné hvězdy — koule o průměru zhruba 20 kilometrů, do níž je vmáčknuta hmotnost větší než hmotnost Slunce. Je to nejhustější hmota ve vesmíru: jedna čajová lžička jejího materiálu by na Zemi vážila přes miliardu tun.",
   "sections": [
    {
@@ -301,7 +306,8 @@
    },
    {
     "heading": "Majáky vesmíru: pulsary",
-    "body": "Mnoho neutronových hvězd rotuje řádově jednou za sekundu až milisekundu — zůstatek rychlé rotace původní hvězdy, zachované zmenšením jako když krasobruslařka přitáhne ruce. Mají také extrémní magnetická pole, která urychlují částice a vytvářejí úzké paprsky radiového záření. Pokud paprsek šťastnou náhodou směřuje k Zemi, vidíme jej jako blikající majík — pulsar. Perioda pulsarů je tak stabilní, že se měří v nanosekundách a předčí přesnost atomových hodin. Dvojhvězda s pulsanem PSR B1913+16 (Hulseova–Taylorova) umožnila v 70. letech první nepřímý důkaz gravitačních vln — Nobelova cena 1993."
+    "body": "Mnoho neutronových hvězd rotuje řádově jednou za sekundu až milisekundu — zůstatek rychlé rotace původní hvězdy, zachované zmenšením jako když krasobruslařka přitáhne ruce. Mají také extrémní magnetická pole, která urychlují částice a vytvářejí úzké paprsky radiového záření. Pokud paprsek šťastnou náhodou směřuje k Zemi, vidíme jej jako blikající majík — pulsar. Perioda pulsarů je tak stabilní, že se měří v nanosekundách a předčí přesnost atomových hodin. Dvojhvězda s pulsanem PSR B1913+16 (Hulseova–Taylorova) umožnila v 70. letech první nepřímý důkaz gravitačních vln — Nobelova cena 1993.",
+    "image_id": "schema-neutronove-hvezdy-pulsar"
    },
    {
     "heading": "Extrémní příbuzní a kosmické srážky",
@@ -321,7 +327,7 @@
   "theme": "galaxie",
   "description": "Spirální ramena galaxií nejsou pevné útvary, ale vlny hustoty. Proč se nezamotají, kde v nich rodí hvězdy a proč mají spirálu jen některé galaxie?",
   "published": "2026-10-17",
-  "updated": "2026-10-17",
+  "updated": "2026-10-25",
   "perex": "Spirální ramena nejsou pevné útvary, které by se točily s galaxií — byla by totiž dávno zamotaná dovnitř jako cukrová vata. Jsou to hustotní vlny v rotujícím disku galaxie: oblasti, kde se mírně hromadí plyn a prach, rodí se v nich nové hvězdy, a právě ty mladé jasné hvězdy ramena rozsvěcují.",
   "sections": [
    {
@@ -330,7 +336,8 @@
    },
    {
     "heading": "Ramena jsou vlny, ne stavby",
-    "body": "Spirální ramena nejsou chomáče hvězd, které by společně obíhaly kolem středu galaxie. Jsou to hustotní vlny — oblasti disku, kde je o pár procent hustší plyn, prach a hvězdy, podobně jako zhuštěná doprava na dálnici. Klíčový rozdíl: hvězdy a plyn vlny neprovázejí, ale protínají. Objeví se v ní, chvíli v ní zůstanou, a pak ji opustí, jako když auto projíždí dopravní zácpou. Samotná vlna se přitom pohybuje po disku pomaleji než hvězdy. Proto se ramena nezamotají — není to materiál, ale vzorec, přechodná koncentrace v rotujícím disku. Podobný efekt můžete vidět na stadionu: \"mexická vlna\" obíhá tribunou, ale diváci zůstávají na svých místech."
+    "body": "Spirální ramena nejsou chomáče hvězd, které by společně obíhaly kolem středu galaxie. Jsou to hustotní vlny — oblasti disku, kde je o pár procent hustší plyn, prach a hvězdy, podobně jako zhuštěná doprava na dálnici. Klíčový rozdíl: hvězdy a plyn vlny neprovázejí, ale protínají. Objeví se v ní, chvíli v ní zůstanou, a pak ji opustí, jako když auto projíždí dopravní zácpou. Samotná vlna se přitom pohybuje po disku pomaleji než hvězdy. Proto se ramena nezamotají — není to materiál, ale vzorec, přechodná koncentrace v rotujícím disku. Podobný efekt můžete vidět na stadionu: \"mexická vlna\" obíhá tribunou, ale diváci zůstávají na svých místech.",
+    "image_id": "schema-ramena-hustotni-vlna"
    },
    {
     "heading": "Kde se hustotní vlny berou",
@@ -358,7 +365,7 @@
   "theme": "temna-hmota",
   "description": "Žádný teleskop temnou hmotu nezachytil — přesto o ní vědci nepochybují. Tři nezávislé důkazy, od rotace galaxií po srážku kup, a proč alternativy selhaly.",
   "published": "2026-10-17",
-  "updated": "2026-10-17",
+  "updated": "2026-10-25",
   "perex": "Temnou hmotu nikdo nikdy neviděl, nezachytil v detektoru ani neucítil. Přesto o její existenci astronomové prakticky nepochybují. Svědčí pro ni totiž tři naprosto nezávislé typy pozorování, které se ve svých výsledcích shodují s přesností na jednotky procent. Definitivním potvrzením – a pomyslným hřebíčkem do rakve alternativních teorií – se stala srážka dvou galaktických kup. Při ní se od sebe viditelná hmota a zdroj gravitace zcela jasně oddělily.",
   "sections": [
    {
@@ -371,7 +378,8 @@
    },
    {
     "heading": "Gravitační čočky a srážka kup: důkaz přímý",
-    "body": "Druhý důkaz je nezávislý na rotaci: gravitační čočky. Světlo vzdálených galaxií procházející kolem hmotné kupy se zakřivuje podle hmotnosti v popředí. Čím víc hmoty, tím víc zakřivení. Astronomové dokážou zmapovat, kde hmota je — a výsledek systematicky ukazuje více hmoty, než kolik svítí. Zásadní průlom nastal v roce 2006. Tehdy astronomové nasnímali kolizi kup galaxií v souhvězdí Lodního kýlu (tzv. Bullet Cluster), která poskytla první přímý důkaz o existenci temné hmoty. Při srážce se viditelný plyn podle rentgenu zpomalil a zůstal uprostřed, zatímco většina hmotnosti podle čočkování prolétla dál s galaxiemi. Viditelná hmota a gravitace se prostě fyzicky rozdělily — to žádná modifikace gravitace nevysvětlí, zatímco temná hmota ano."
+    "body": "Druhý důkaz je nezávislý na rotaci: gravitační čočky. Světlo vzdálených galaxií procházející kolem hmotné kupy se zakřivuje podle hmotnosti v popředí. Čím víc hmoty, tím víc zakřivení. Astronomové dokážou zmapovat, kde hmota je — a výsledek systematicky ukazuje více hmoty, než kolik svítí. Zásadní průlom nastal v roce 2006. Tehdy astronomové nasnímali kolizi kup galaxií v souhvězdí Lodního kýlu (tzv. Bullet Cluster), která poskytla první přímý důkaz o existenci temné hmoty. Při srážce se viditelný plyn podle rentgenu zpomalil a zůstal uprostřed, zatímco většina hmotnosti podle čočkování prolétla dál s galaxiemi. Viditelná hmota a gravitace se prostě fyzicky rozdělily — to žádná modifikace gravitace nevysvětlí, zatímco temná hmota ano.",
+    "image_id": "schema-kupy-plyn-a-hmota"
    },
    {
     "heading": "Otisk v reliktním záření",
@@ -432,7 +440,7 @@
   "theme": "gravitacni-vlny",
   "description": "Od první detekce v roce 2015 ohlásili vědci přes sto srážek černých děr. Co gravitační vlny zatím prozradily a co stále hledají?",
   "published": "2026-10-17",
-  "updated": "2026-10-17",
+  "updated": "2026-10-25",
   "perex": "Gravitační vlny byly detekovány poprvé v září 2015 a od té doby astronomové ohlásili přes sto událostí. Ukázaly srážky černých děr, které nikdy nebylo možné opticky pozorovat, doprovodily srážku neutronových hvězd zábleskem v celém elektromagnetickém spektru a objevily populaci černých děr, kterou teorie předtím neznala.",
   "sections": [
    {
@@ -445,7 +453,8 @@
    },
    {
     "heading": "Srážka neutronových hvězd: multi-messenger astronomy",
-    "body": "17. srpna 2017 detekovaly LIGO a Virgo srážku dvou neutronových hvězd (událost GW170817) — a tentokrát šlo o něco, co šlo pozorovat i světlem. Během několika hodin zamířily k události desítky teleskopů na Zemi i na oběžné dráze. V následujících dnech a týdnech byl zaznamenán signál v gama paprscích, rentgenu, ultrafialovém, viditelném, infračerveném i rádiovém pásmu. Poprvé v historii byla pozorována jedna a tatáž událost dvěma zcela odlišnými způsoby: gravitačními vlnami i světlem. Výsledek potvrdil, že srážky neutronových hvězd jsou hlavní továrnou na těžké prvky — zlato, platina i uran ve vesmíru vznikají právě zde."
+    "body": "17. srpna 2017 detekovaly LIGO a Virgo srážku dvou neutronových hvězd (událost GW170817) — a tentokrát šlo o něco, co šlo pozorovat i světlem. Během několika hodin zamířily k události desítky teleskopů na Zemi i na oběžné dráze. V následujících dnech a týdnech byl zaznamenán signál v gama paprscích, rentgenu, ultrafialovém, viditelném, infračerveném i rádiovém pásmu. Poprvé v historii byla pozorována jedna a tatáž událost dvěma zcela odlišnými způsoby: gravitačními vlnami i světlem. Výsledek potvrdil, že srážky neutronových hvězd jsou hlavní továrnou na těžké prvky — zlato, platina i uran ve vesmíru vznikají právě zde.",
+    "image_id": "schema-gw170817-signaly"
    },
    {
     "heading": "Co zatím nenašly",
@@ -469,7 +478,7 @@
   "theme": "relictni-zareni",
   "description": "Mapa reliktního záření je nejstarší fotografie vesmíru. Co se z jejích skvrn dá odečíst o věku, složení a osudu vesmíru?",
   "published": "2026-10-18",
-  "updated": "2026-10-18",
+  "updated": "2026-10-25",
   "perex": "Reliktní záření nese jemné teplotní skvrny — otisk zárodků galaxií z doby, kdy byl vesmír starý 380 000 let. Z jejich vzoru lze odečíst věk, složení i geometrii celého vesmíru.",
   "sections": [
    {
@@ -490,7 +499,8 @@
    },
    {
     "heading": "Co všechno lze z mapy odečíst",
-    "body": "Z velikosti a rozložení skvrn lze odečíst klíčová čísla kosmologie. Z úhlu, pod nýmž jsou skvrny největší, vyplývá, že vesmír je geometricky plochý. Z jejich intenzit vyplývá složení: 5 % obyčejné hmoty, 27 % temné hmoty a 68 % temné energie. A z celkového vzoru vyplývá, že vesmír je 13,8 miliardy let starý — s přesností na méně než jedno procento. Žádný jiný kosmologický nástroj nedává tolik čísel najednou."
+    "body": "Z velikosti a rozložení skvrn lze odečíst klíčová čísla kosmologie. Z úhlu, pod nýmž jsou skvrny největší, vyplývá, že vesmír je geometricky plochý. Z jejich intenzit vyplývá složení: 5 % obyčejné hmoty, 27 % temné hmoty a 68 % temné energie. A z celkového vzoru vyplývá, že vesmír je 13,8 miliardy let starý — s přesností na méně než jedno procento. Žádný jiný kosmologický nástroj nedává tolik čísel najednou.",
+    "image_id": "schema-slozeni-vesmiru"
    },
    {
     "heading": "Polarizace a stopa inflace",
@@ -559,7 +569,7 @@
   "theme": "exoplanety",
   "description": "Exoplanet známe přes 5000, ale jen před 30 lety to byla vědecká fikce. Jak je objevujeme a jak blízko jsme k nálezu života?",
   "published": "2026-10-18",
-  "updated": "2026-10-18",
+  "updated": "2026-10-25",
   "perex": "Exoplaneta je planeta u jiné hvězdy než Slunce. První byla potvrzena v roce 1992; dnes jich známe tisíce a Mléčná dráha jich pravděpodobně obsahuje miliardy.",
   "sections": [
    {
@@ -568,7 +578,8 @@
    },
    {
     "heading": "Jak exoplanety hledáme",
-    "body": "Hlavní metoda se jmenuje tranzit: když planeta projde před hvězdou, hvězda na okamžik ztmavne — o zlomek procenta, ale citlivé teleskopy to zachytí. Z periodicity ztmavnutí zjistíme oběžnou dobu, z hloubky zatmění velikost planety. Druhá metoda měří „kolébání\" hvězdy — její pohyb dopředu a dozadu, který způsobuje gravitace planety; z něj vyčteme hmotnost. Další metody zahrnují přímé focení (vzácné, náročné) nebo gravitační mikročočky."
+    "body": "Hlavní metoda se jmenuje tranzit: když planeta projde před hvězdou, hvězda na okamžik ztmavne — o zlomek procenta, ale citlivé teleskopy to zachytí. Z periodicity ztmavnutí zjistíme oběžnou dobu, z hloubky zatmění velikost planety. Druhá metoda měří „kolébání\" hvězdy — její pohyb dopředu a dozadu, který způsobuje gravitace planety; z něj vyčteme hmotnost. Další metody zahrnují přímé focení (vzácné, náročné) nebo gravitační mikročočky.",
+    "image_id": "schema-tranzit-planety"
    },
    {
     "heading": "Divoká rozmanitost světů",
@@ -603,7 +614,7 @@
   "theme": "temna-hmota",
   "description": "WIMP, axion, sterilní neutrino nebo černé díry z raného vesmíru? Přehled kandidátů na temnou hmotu a proč se zatím nenašel ani jeden.",
   "published": "2026-10-18",
-  "updated": "2026-10-18",
+  "updated": "2026-10-25",
   "perex": "Vědci vědí, že temná hmota existuje a jak se chová – ale z čeho se skládá, po čtyřiceti letech intenzivního hledání stále neví. V současnosti jsou ve hře čtyři hlavní kandidáti: částice WIMP, axion, sterilní neutrino a primordiální černé díry. Každý z nich má své přednosti i svou Achillovu patu.",
   "sections": [
    {
@@ -616,7 +627,8 @@
    },
    {
     "heading": "Axion: částice, která opravuje teorii",
-    "body": "Druhý favorit je axion, extrémně lehká částice předpovězená už v roce 1977 k vyřešení záhady, proč neutron nemá měřitelný elektrický dipólový moment. Axiony vznikly v raném vesmíru s hustotou, která přesně odpovídá pozorovaným projevům temné hmoty. Metoda jejich detekce je specifická: vzhledem k tomu, že v silném magnetickém poli dochází k přeměně axionů na fotony, využívají experimenty typu ADMX mikrovlnné rezonanční dutiny umístěné v supravodivých magnetech. V současnosti zájem o axionové modely roste, a to především kvůli absenci pozitivních výsledků při detekci kandidátů WIMP. Teoretické modely navíc připouštějí, že intenzivním zdrojem axionů může být Slunce, což umožňuje jejich registraci pozemskými přístroji."
+    "body": "Druhý favorit je axion, extrémně lehká částice předpovězená už v roce 1977 k vyřešení záhady, proč neutron nemá měřitelný elektrický dipólový moment. Axiony vznikly v raném vesmíru s hustotou, která přesně odpovídá pozorovaným projevům temné hmoty. Metoda jejich detekce je specifická: vzhledem k tomu, že v silném magnetickém poli dochází k přeměně axionů na fotony, využívají experimenty typu ADMX mikrovlnné rezonanční dutiny umístěné v supravodivých magnetech. V současnosti zájem o axionové modely roste, a to především kvůli absenci pozitivních výsledků při detekci kandidátů WIMP. Teoretické modely navíc připouštějí, že intenzivním zdrojem axionů může být Slunce, což umožňuje jejich registraci pozemskými přístroji.",
+    "image_id": "schema-temna-hmota-axion"
    },
    {
     "heading": "Primordiální černé díry: temná hmota bez částic",
@@ -640,7 +652,7 @@
   "theme": "velky-tresk",
   "description": "Co je velký třesk: model vzniku vesmíru před 13,8 miliardami let. Tři nezávislé důkazy, co velký třesk není a jaké otázky zůstávají otevřené.",
   "published": "2026-10-18",
-  "updated": "2026-10-18",
+  "updated": "2026-10-25",
   "perex": "Velký třesk je vědecký model vzniku vesmíru: před zhruba 13,8 miliardami let byl vesmír nesmírně horký a hustý a od té doby se rozpíná. Nebyl to výbuch do prázdna – prostor samotný se zvětšoval. Model předpověděl reliktní záření, které bylo v roce 1965 skutečně objeveno, a dnes je základem veškeré kosmologie.",
   "sections": [
    {
@@ -657,7 +669,8 @@
    },
    {
     "heading": "Co se stalo v prvních minutách",
-    "body": "První okamžiky byly bouřlivé. V prvních zlomcích sekundy se vesmír zvětšil exponenciálně rychle – období zvané inflace, které vysvětluje, proč je dnešní vesmír tak rovnoměrný. Pak nastalo zhruba tři minuty trvající období primordiální nukleosyntézy: z protonů a neutronů vznikla jádra helia a stopy lithia. Následovala éra, kdy vesmír svítil jako žhavá mlha – světlo nemohlo uniknout, protože naráželo na volné elektrony. Teprve po 380 tisících letech se elektrony spojily s jádry do atomů, vesmír zprůhledněl a světlo se vydalo na cestu – jako reliktní záření, které registrujeme dodnes. Na vznik galaxií, hvězd a nakonec i nás, lidí, si však vesmír musel počkat ještě další miliardy let."
+    "body": "První okamžiky byly bouřlivé. V prvních zlomcích sekundy se vesmír zvětšil exponenciálně rychle – období zvané inflace, které vysvětluje, proč je dnešní vesmír tak rovnoměrný. Pak nastalo zhruba tři minuty trvající období primordiální nukleosyntézy: z protonů a neutronů vznikla jádra helia a stopy lithia. Následovala éra, kdy vesmír svítil jako žhavá mlha – světlo nemohlo uniknout, protože naráželo na volné elektrony. Teprve po 380 tisících letech se elektrony spojily s jádry do atomů, vesmír zprůhledněl a světlo se vydalo na cestu – jako reliktní záření, které registrujeme dodnes. Na vznik galaxií, hvězd a nakonec i nás, lidí, si však vesmír musel počkat ještě další miliardy let.",
+    "image_id": "schema-velky-tresk-1"
    },
    {
     "heading": "Otázky, které zůstaly otevřené",
@@ -677,7 +690,7 @@
   "theme": "temna-dira-v-centru",
   "description": "Supermasivní černá díra v centru galaxie: hmotnost miliard Sluncí, první fotografie z roku 2019 a jak ovlivňuje osud galaxií i hvězdného tvoření.",
   "published": "2026-10-18",
-  "updated": "2026-10-18",
+  "updated": "2026-10-25",
   "perex": "Téměř každá velká galaxie má ve středu supermasivní černou díru o hmotnosti milionů až miliard Sluncí. Naše Mléčná dráha není výjimkou: její střed ovládá Sagittarius A* o hmotnosti čtyř milionů Sluncí. Tyto černé díry vznikly zvláštně brzy a ovlivňují osud celých galaxií – včetně toho, zda v nich mohou vzniknout hvězdy a planety.",
   "sections": [
    {
@@ -686,7 +699,8 @@
    },
    {
     "heading": "Jak se dají pozorovat, když jsou černé",
-    "body": "Černá díra sama žádné světlo nevydává, ale její gravitace ovlivňuje okolí dramaticky. Hvězdy v její blízkosti krouží ohromnou rychlostí – u Sagittarius A* bylo sledováno několik hvězd po celá desetiletí a jejich dráhy přesně vymezují hmotnost černé díry. Když se k černé díře přiblíží plyn a prach, vytvoří se kolem ní rotující disk – akreční disk – který se žhaví na miliony stupňů a září v rentgenovém pásmu. Někdy je tento proces tak prudký, že galaxie září jako kvasar – jasnější objekt vesmíru, který přehluší všechny hvězdy galaxie dohromady. Právě výbuchy aktivních galaxií v raném vesmíru daly astronomům první důkaz, že supermasivní černé díry existují, ještě předtím, než byly přímo detekovány."
+    "body": "Černá díra sama žádné světlo nevydává, ale její gravitace ovlivňuje okolí dramaticky. Hvězdy v její blízkosti krouží ohromnou rychlostí – u Sagittarius A* bylo sledováno několik hvězd po celá desetiletí a jejich dráhy přesně vymezují hmotnost černé díry. Když se k černé díře přiblíží plyn a prach, vytvoří se kolem ní rotující disk – akreční disk – který se žhaví na miliony stupňů a září v rentgenovém pásmu. Někdy je tento proces tak prudký, že galaxie září jako kvasar – jasnější objekt vesmíru, který přehluší všechny hvězdy galaxie dohromady. Právě výbuchy aktivních galaxií v raném vesmíru daly astronomům první důkaz, že supermasivní černé díry existují, ještě předtím, než byly přímo detekovány.",
+    "image_id": "schema-hvezda-centralni-hmotnost"
    },
    {
     "heading": "První fotografie černé díry",
@@ -751,7 +765,7 @@
   "theme": "gravitacni-vlny",
   "description": "Gravitační vlny deformují prostor o méně než tisícinu protonu. Laserové interferometry, pulsarová časovaná pole a vesmírná LISA – jak se měří nejslabší signály vesmíru.",
   "published": "2026-10-18",
-  "updated": "2026-10-18",
+  "updated": "2026-10-25",
   "perex": "Gravitační vlny mění vzdálenosti o méně než tisícinu průměru atomového jádra – a přesto je dnes dokážeme detekovat. Současné interferometry měří změny v miliontinách miliardtiny metru, pulsarová pole poslouchají vesmír desítky let a připravovaná vesmírná observatoř LISA položí do prostoru trojúhelník o hraně 2,5 milionu kilometrů. Přesnost měření gravitačních vln patří k největším technickým triumfům lidstva.",
   "sections": [
    {
@@ -760,7 +774,8 @@
    },
    {
     "heading": "Laserové interferometry na Zemi",
-    "body": "Klíčem jsou interferometry: dvě kolmé ramen o délce 3–4 km, v nichž laserové paprsky obíhají zrcadly. Když gravitační vlna projde, jedno rameno se prodlouží a druhé zkrátí – a světelné vlny se začnou rušit. Detektory LIGO (dvě observatoře v USA), Virgo (Itálie) a KAGRA (Japonsko) musí být citlivější než cokoli předtím: zrcadla o hmotnosti 40 kg visí na vláknech, celý systém je ve vakuu lepším než ve vesmíru a každé zrcadlo je izolováno proti otřesům – od zemětřesení přes projíždějící nákladní auto až po vlny v oceánu. Detekce dvou a více observatoří současně je klíčová: jen tak lze potvrdit, že signál přišel z vesmíru a ne od zemského zdroje šumu."
+    "body": "Klíčem jsou interferometry: dvě kolmé ramen o délce 3–4 km, v nichž laserové paprsky obíhají zrcadly. Když gravitační vlna projde, jedno rameno se prodlouží a druhé zkrátí – a světelné vlny se začnou rušit. Detektory LIGO (dvě observatoře v USA), Virgo (Itálie) a KAGRA (Japonsko) musí být citlivější než cokoli předtím: zrcadla o hmotnosti 40 kg visí na vláknech, celý systém je ve vakuu lepším než ve vesmíru a každé zrcadlo je izolováno proti otřesům – od zemětřesení přes projíždějící nákladní auto až po vlny v oceánu. Detekce dvou a více observatoří současně je klíčová: jen tak lze potvrdit, že signál přišel z vesmíru a ne od zemského zdroje šumu.",
+    "image_id": "schema-interferometr-mereni"
    },
    {
     "heading": "Pulsary: hodiny, které poslouchají vesmír",
@@ -825,7 +840,7 @@
   "theme": "neutronove-hvezdy",
   "description": "Zlato ve vašem prstenu vzniklo ve srážce neutronových hvězd. Kde se berou těžké prvky, proč fúze stačí jen do železa a jaký byl objev kilonovy.",
   "published": "2026-10-18",
-  "updated": "2026-10-18",
+  "updated": "2026-10-25",
   "perex": "Vodík a helium ve vašem těle vznikly ve chvílích po velkém třesku, uhlík a kyslík v nitru hvězd. Ale zlato, platina nebo uran? Ty vznikají jen tam, kde je neutronů víc než atomů – při výbuchu supernovy a hlavně při srážce neutronových hvězd. Teoretici to tušili desetiletí, ale přímý důkaz přišel až v roce 2017, kdy se srážku dvou neutronových hvězd podařilo pozorovat gravitačními vlnami i světlem současně.",
   "sections": [
    {
@@ -838,7 +853,8 @@
    },
    {
     "heading": "Záhada r-procesu",
-    "body": "Vědci tušili, že odpověď spočívá v rychlém záchytu neutronů (r-proces): když je kolem atomového jádra náhle mnoho neutronů, jádro je začne pohlcovat dříve, než se stihnou rozpadnout, a posouvá se tak po periodické tabulce k těžkým prvkům. K tomu ale potřebujete prostředí s obrovskou hustotou neutronů. Supernovy byly dlouho hlavním podezřelým, ale výpočty ukazovaly, že by jich vznikalo příliš málo. Dalším kandidátem byly srážky neutronových hvězd – nejhustějších objektů ve vesmíru. Při srážce dvou takových hvězd se uvolňuje obrovské množství neutronů a materiál se houpá v silném gravitačním poli. Ideální podmínky pro r-proces. Chyběl jen důkaz."
+    "body": "Vědci tušili, že odpověď spočívá v rychlém záchytu neutronů (r-proces): když je kolem atomového jádra náhle mnoho neutronů, jádro je začne pohlcovat dříve, než se stihnou rozpadnout, a posouvá se tak po periodické tabulce k těžkým prvkům. K tomu ale potřebujete prostředí s obrovskou hustotou neutronů. Supernovy byly dlouho hlavním podezřelým, ale výpočty ukazovaly, že by jich vznikalo příliš málo. Dalším kandidátem byly srážky neutronových hvězd – nejhustějších objektů ve vesmíru. Při srážce dvou takových hvězd se uvolňuje obrovské množství neutronů a materiál se houpá v silném gravitačním poli. Ideální podmínky pro r-proces. Chyběl jen důkaz.",
+    "image_id": "schema-neutrony-a-prvky"
    },
    {
     "heading": "Kilonova: továrna na zlato",
@@ -899,12 +915,13 @@
   "theme": "galaxie",
   "description": "Hvězdy se při srážce galaxií téměř nikdy nesrazí, ale galaxie se promění k nepoznání. Včetně budoucí srážky Mléčné dráhy s Andromedou.",
   "published": "2026-10-18",
-  "updated": "2026-10-18",
+  "updated": "2026-10-25",
   "perex": "Když se galaxie srazí, hvězdy se téměř nikdy nesrazí – mezihvězdné vzdálenosti jsou příliš velké. Přesto srážka promění obě galaxie k nepoznání: plynné disky se zmačkají, pruhy hvězd se rozvinou do vesmíru a centrální černé díry se nakonec sloučí. Náš domov čeká totéž – za čtyři miliardy let se Mléčná dráha srazí s galaxií Andromeda.",
   "sections": [
    {
     "heading": "Hvězdy se téměř nikdy nesrazí",
-    "body": "Když si představíme srážku galaxií, vybavíme si obvykle obraz chaosu a výbuchů. Skutečnost je překvapivě poklidná. Hvězdy v galaxii jsou od sebe tak daleko, že se při srážce dvou galaxií téměř nikdy nesrazí. Pokud bychom žili v jedné z takových galaxií, mnohé bychom nepoznali – obloha by se sice měnila, ale pravděpodobnost, že by naše Sluneční soustava byla zasažena jinou hvězdou, je menší než jedna ku miliardám. Co se skutečně srazí, je plyn a prach – a právě ten určuje, jak srážka vypadá. Zmačkané molekulární oblaky se zhroutí a vznikne vlna zrodu nových hvězd."
+    "body": "Když si představíme srážku galaxií, vybavíme si obvykle obraz chaosu a výbuchů. Skutečnost je překvapivě poklidná. Hvězdy v galaxii jsou od sebe tak daleko, že se při srážce dvou galaxií téměř nikdy nesrazí. Pokud bychom žili v jedné z takových galaxií, mnohé bychom nepoznali – obloha by se sice měnila, ale pravděpodobnost, že by naše Sluneční soustava byla zasažena jinou hvězdou, je menší než jedna ku miliardám. Co se skutečně srazí, je plyn a prach – a právě ten určuje, jak srážka vypadá. Zmačkané molekulární oblaky se zhroutí a vznikne vlna zrodu nových hvězd.",
+    "image_id": "schema-srazka-galaxii-slozky"
    },
    {
     "heading": "Fáze srážky",
@@ -981,12 +998,13 @@
   "theme": "rozpinani-a-modely-vesmiru",
   "description": "Dva způsoby určování dnešního rozpínání vesmíru se rozcházejí. Co je Hubbleovo napětí a proč zatím neznamená důkaz nové fyziky?",
   "published": "2026-10-24",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "perex": "Jak rychle se dnes rozpíná vesmír? Zní to jako otázka s jedinou odpovědí. Některá přesná měření ale vedou k vyšší hodnotě než výpočet založený na reliktním záření. Tomuto nesouladu říkáme Hubbleovo napětí.",
   "sections": [
    {
     "heading": "Dvě cesty k dnešnímu rozpínání",
-    "body": "První cesta vychází z měření vzdáleností a rudých posuvů galaxií. Žebřík kosmických vzdáleností propojuje blízké objekty s dalekými pomocí několika navazujících měřítek. Každý stupeň je potřeba pečlivě zkalibrovat.\n\nDruhá cesta využívá reliktní záření, které vzniklo přibližně 380 000 let po velkém třesku. Jeho strukturu porovnáme s modelem vývoje vesmíru, obvykle ΛCDM, a vypočítáme odpovídající dnešní hodnotu Hubbleovy konstanty.\n\n**Neporovnáváme tedy přímo rychlost rozpínání kdysi a dnes. Obě cesty určují dnešní H₀**, jen využívají jiné informace a předpoklady."
+    "body": "První cesta vychází z měření vzdáleností a rudých posuvů galaxií. Žebřík kosmických vzdáleností propojuje blízké objekty s dalekými pomocí několika navazujících měřítek. Každý stupeň je potřeba pečlivě zkalibrovat.\n\nDruhá cesta využívá reliktní záření, které vzniklo přibližně 380 000 let po velkém třesku. Jeho strukturu porovnáme s modelem vývoje vesmíru, obvykle ΛCDM, a vypočítáme odpovídající dnešní hodnotu Hubbleovy konstanty.\n\n**Neporovnáváme tedy přímo rychlost rozpínání kdysi a dnes. Obě cesty určují dnešní H₀**, jen využívají jiné informace a předpoklady.",
+    "image_id": "schema-hubble-dve-cesty"
    },
    {
     "heading": "Jak velký je rozdíl?",
@@ -1022,7 +1040,7 @@
   "theme": "rozpinani-a-modely-vesmiru",
   "description": "Co znamenají písmena ΛCDM, proč model potřebuje temnou hmotu a temnou energii a které otázky zatím nechává otevřené?",
   "published": "2026-10-24",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "perex": "ΛCDM je zkratka pro nejpoužívanější základní model vývoje vesmíru. Spojuje rozpínání kosmu, běžnou hmotu, chladnou temnou hmotu a temnou energii v podobě kosmologické konstanty. Mnoho pozorování vysvětluje společně, ale odpověď na všechno nemá.",
   "sections": [
    {
@@ -1035,7 +1053,8 @@
    },
    {
     "heading": "Co se s pozorováním shoduje",
-    "body": "Velkou předností ΛCDM je, že jedním souborem parametrů dokáže popsat více různých pozorování. Patří k nim struktura reliktního záření, velkorozměrové rozložení galaxií i vztah mezi vzdáleností a rudým posuvem supernov.\n\nZ analýz v tomto rámci vychází přibližně 5 % běžné hmoty, 27 % temné hmoty a 68 % temné energie v dnešní celkové energetické bilanci. Jsou to zaokrouhlené hodnoty závislé na použité analýze, nikoli stejné poměry po celou historii vesmíru. Záření mělo v raných dobách mnohem větší význam."
+    "body": "Velkou předností ΛCDM je, že jedním souborem parametrů dokáže popsat více různých pozorování. Patří k nim struktura reliktního záření, velkorozměrové rozložení galaxií i vztah mezi vzdáleností a rudým posuvem supernov.\n\nZ analýz v tomto rámci vychází přibližně 5 % běžné hmoty, 27 % temné hmoty a 68 % temné energie v dnešní celkové energetické bilanci. Jsou to zaokrouhlené hodnoty závislé na použité analýze, nikoli stejné poměry po celou historii vesmíru. Záření mělo v raných dobách mnohem větší význam.",
+    "image_id": "schema-slozeni-vesmiru"
    },
    {
     "heading": "Co zůstává otevřené",
@@ -1073,7 +1092,8 @@
    },
    {
     "heading": "Atmosféra chrání, ale také překáží",
-    "body": "Zemská atmosféra propouští viditelné světlo, část infračerveného a široká rádiová pásma. Velkou část jiného záření pohltí. Právě proto potřebujeme pro řadu ultrafialových a rentgenových měření přístroje nad atmosférou.\n\nPozemská pozorování navíc ovlivňují mraky, vodní pára, světelné znečištění a turbulence vzduchu. Proto observatoře často stojí vysoko v suchých oblastech. V infračerveném oboru může vadit i vlastní tepelné záření okolí a přístroje."
+    "body": "Zemská atmosféra propouští viditelné světlo, část infračerveného a široká rádiová pásma. Velkou část jiného záření pohltí. Právě proto potřebujeme pro řadu ultrafialových a rentgenových měření přístroje nad atmosférou.\n\nPozemská pozorování navíc ovlivňují mraky, vodní pára, světelné znečištění a turbulence vzduchu. Proto observatoře často stojí vysoko v suchých oblastech. V infračerveném oboru může vadit i vlastní tepelné záření okolí a přístroje.",
+    "image_id": "schema-atmosfericka-okna"
    },
    {
     "heading": "Co umějí pozemské observatoře",
@@ -1196,7 +1216,8 @@
   "sections": [
    {
     "heading": "Kde Webb pracuje",
-    "body": "James Webb Space Telescope, zkráceně **JWST**, je projekt NASA, ESA a Kanadské kosmické agentury. Odstartoval 25. prosince 2021. Jeho hlavní zrcadlo má přibližně **6,5 metru** a skládá se z 18 segmentů.\n\nNa rozdíl od Hubbleova dalekohledu neobíhá těsně kolem Země. Pohybuje se kolem Slunce v okolí druhého libračního bodu soustavy Slunce–Země, označovaného L2, přibližně 1,5 milionu kilometrů od Země. Není nehybně zaparkovaný přímo v tomto bodě."
+    "body": "James Webb Space Telescope, zkráceně **JWST**, je projekt NASA, ESA a Kanadské kosmické agentury. Odstartoval 25. prosince 2021. Jeho hlavní zrcadlo má přibližně **6,5 metru** a skládá se z 18 segmentů.\n\nNa rozdíl od Hubbleova dalekohledu neobíhá těsně kolem Země. Pohybuje se kolem Slunce v okolí druhého libračního bodu soustavy Slunce–Země, označovaného L2, přibližně 1,5 milionu kilometrů od Země. Není nehybně zaparkovaný přímo v tomto bodě.",
+    "image_id": "schema-webb-okoli-l2"
    },
    {
     "heading": "Proč potřebuje infračervené záření a chlad",
@@ -1233,7 +1254,7 @@
   "theme": "vesmirne-teleskopy",
   "description": "Čtyři velké dalekohledy VLT v Chile studují hvězdy, galaxie i okolí černých děr. Jak fungují a co přineslo sledování hvězdy S2?",
   "published": "2026-10-24",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "perex": "Zkratka VLT znamená Very Large Telescope. Nejde o jediný dalekohled ani o kosmickou sondu, ale o soustavu pozemních teleskopů na observatoři Paranal v Chile. Jejich přístroje dokážou nejen zobrazit vzdálené objekty, ale i přesně měřit jejich světlo a pohyb.",
   "sections": [
    {
@@ -1246,7 +1267,8 @@
    },
    {
     "heading": "Kdy spolu dalekohledy spolupracují",
-    "body": "Hlavní teleskopy mohou pracovat samostatně. Při interferometrii se světlo z více dalekohledů přesně kombinuje. Tato sestava se označuje **VLTI** a dovoluje rozlišit velmi malé úhlové struktury.\n\nVzdálenost mezi dalekohledy zde pomáhá určit jemnost rozlišení. Nevzniká však plně vyplněné zrcadlo velikosti celé soustavy ani stejně citlivý přístroj, jakým by takové obří zrcadlo bylo. Interferometrie vyžaduje zvláštní přístroje, vhodné cíle a pečlivé zpracování."
+    "body": "Hlavní teleskopy mohou pracovat samostatně. Při interferometrii se světlo z více dalekohledů přesně kombinuje. Tato sestava se označuje **VLTI** a dovoluje rozlišit velmi malé úhlové struktury.\n\nVzdálenost mezi dalekohledy zde pomáhá určit jemnost rozlišení. Nevzniká však plně vyplněné zrcadlo velikosti celé soustavy ani stejně citlivý přístroj, jakým by takové obří zrcadlo bylo. Interferometrie vyžaduje zvláštní přístroje, vhodné cíle a pečlivé zpracování.",
+    "image_id": "schema-interferometrie-zakladny"
    },
    {
     "heading": "Konkrétní příklad: hvězda u Sagittarius A*",
@@ -1283,7 +1305,8 @@
    },
    {
     "heading": "Proč používá tolik antén",
-    "body": "ALMA kombinuje signály více antén metodou interferometrie. Z jejich vzájemného porovnání lze rekonstruovat rozložení záření na obloze. Antény lze rozmístit do různých sestav, v nejrozsáhlejší až na vzdálenosti přibližně 16 kilometrů.\n\nVětší rozestupy umožňují rozlišit jemnější struktury, ale nejsou automaticky nejlepší pro každý cíl. Pro rozsáhlé slabé objekty jsou důležité i kratší vzdálenosti mezi anténami a doplňující měření. Výsledek je rekonstrukcí z naměřených signálů, nikoli fotografií pořízenou jedním objektivem."
+    "body": "ALMA kombinuje signály více antén metodou interferometrie. Z jejich vzájemného porovnání lze rekonstruovat rozložení záření na obloze. Antény lze rozmístit do různých sestav, v nejrozsáhlejší až na vzdálenosti přibližně 16 kilometrů.\n\nVětší rozestupy umožňují rozlišit jemnější struktury, ale nejsou automaticky nejlepší pro každý cíl. Pro rozsáhlé slabé objekty jsou důležité i kratší vzdálenosti mezi anténami a doplňující měření. Výsledek je rekonstrukcí z naměřených signálů, nikoli fotografií pořízenou jedním objektivem.",
+    "image_id": "schema-interferometrie-zakladny"
    },
    {
     "heading": "Co nám říká plyn a prach",
@@ -1316,7 +1339,7 @@
   "theme": "castice-a-zakladni-sily",
   "description": "LHC sráží protony a těžké ionty. Jak funguje, co objevily jeho detektory a jak pomáhá zkoumat raný vesmír a hledat temnou hmotu?",
   "published": "2026-10-24",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "perex": "Ve vesmíru sledujeme přírodní děje na obrovských vzdálenostech. V urychlovači LHC naopak připravujeme srážky částic v laboratoři. Oba přístupy se doplňují: vlastnosti nejmenších stavebních prvků hmoty ovlivnily také vývoj raného vesmíru.",
   "sections": [
    {
@@ -1329,7 +1352,8 @@
    },
    {
     "heading": "Urychlovač není totéž co detektor",
-    "body": "LHC připravuje svazky a srážky. Okolní detektory zaznamenávají vzniklé částice, jejich dráhy a uloženou energii. Mezi hlavní experimenty patří ATLAS, CMS, ALICE a LHCb; jejich konstrukce a zaměření se liší.\n\nZ těchto stop vědci rekonstruují průběh událostí a porovnávají velké soubory dat s předpověďmi. Krátce žijící částici často nepozorují přímo. Její přítomnost odvozují z vlastností produktů rozpadu a z opakujícího se statistického přebytku nad očekávaným pozadím."
+    "body": "LHC připravuje svazky a srážky. Okolní detektory zaznamenávají vzniklé částice, jejich dráhy a uloženou energii. Mezi hlavní experimenty patří ATLAS, CMS, ALICE a LHCb; jejich konstrukce a zaměření se liší.\n\nZ těchto stop vědci rekonstruují průběh událostí a porovnávají velké soubory dat s předpověďmi. Krátce žijící částici často nepozorují přímo. Její přítomnost odvozují z vlastností produktů rozpadu a z opakujícího se statistického přebytku nad očekávaným pozadím.",
+    "image_id": "schema-detektor-vrstvy"
    },
    {
     "heading": "Co přinesl objev Higgsova bosonu",
@@ -1370,7 +1394,8 @@
    },
    {
     "heading": "Jak číst spektrální graf",
-    "body": "Na vodorovné ose bývá vlnová délka, například v nanometrech nebo mikrometrech. Svislá osa obvykle vyjadřuje množství záření. Široký průběh tvoří pozadí neboli kontinuum, do kterého mohou být vloženy úzké nebo širší spektrální útvary.\n\nV grafu intenzity proti vlnové délce se emisní čára projeví jako vrchol a absorpční jako pokles. Proč tyto čáry vznikají a jak souvisejí s elektrony v atomech, názorně vysvětluje heslo [Co jsou absorpční a emisní čáry?](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html).\n\nVždy je potřeba přečíst osy. Pokud svislá osa ukazuje množství zablokovaného světla, například při průchodu planety před hvězdou, může naopak vrchol představovat silnější absorpci."
+    "body": "Na vodorovné ose bývá vlnová délka, například v nanometrech nebo mikrometrech. Svislá osa obvykle vyjadřuje množství záření. Široký průběh tvoří pozadí neboli kontinuum, do kterého mohou být vloženy úzké nebo širší spektrální útvary.\n\nV grafu intenzity proti vlnové délce se emisní čára projeví jako vrchol a absorpční jako pokles. Proč tyto čáry vznikají a jak souvisejí s elektrony v atomech, názorně vysvětluje heslo [Co jsou absorpční a emisní čáry?](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html).\n\nVždy je potřeba přečíst osy. Pokud svislá osa ukazuje množství zablokovaného světla, například při průchodu planety před hvězdou, může naopak vrchol představovat silnější absorpci.",
+    "image_id": "schema-jak-cist-spektrum"
    },
    {
     "heading": "Co je ve světle zapsáno",
@@ -1407,7 +1432,8 @@
   "sections": [
    {
     "heading": "Představme si energetické schody",
-    "body": "Elektrony v obalu atomu mohou být jen v určitých povolených energetických stavech. Pro představu je můžeme přirovnat ke schodům: elektron může stát na jednom nebo druhém schodu, ale nemůže si vybrat libovolnou výšku mezi nimi. Nejde přitom o skutečné schodiště ani o klasické oběžné dráhy uvnitř atomu.\n\nAby elektron přešel na vyšší energetickou hladinu, musí získat energii. Tu mu může dodat **foton**, tedy jednotlivé kvantum světla. Pro přechod mezi dvěma konkrétními hladinami musí energie pohlceného fotonu odpovídat jejich rozdílu. Obrazně: foton zaplatí právě tolik energie, kolik stojí výstup na příslušný schod."
+    "body": "Elektrony v obalu atomu mohou být jen v určitých povolených energetických stavech. Pro představu je můžeme přirovnat ke schodům: elektron může stát na jednom nebo druhém schodu, ale nemůže si vybrat libovolnou výšku mezi nimi. Nejde přitom o skutečné schodiště ani o klasické oběžné dráhy uvnitř atomu.\n\nAby elektron přešel na vyšší energetickou hladinu, musí získat energii. Tu mu může dodat **foton**, tedy jednotlivé kvantum světla. Pro přechod mezi dvěma konkrétními hladinami musí energie pohlceného fotonu odpovídat jejich rozdílu. Obrazně: foton zaplatí právě tolik energie, kolik stojí výstup na příslušný schod.",
+    "image_id": "schema-kvantove-hladiny"
    },
    {
     "heading": "Proč různé prvky vybírají jiné barvy",
@@ -1550,7 +1576,8 @@
    },
    {
     "heading": "Stejné posuvy převedené na vzdálenosti",
-    "body": "Pro orientaci použijeme plochý model ΛCDM s Hubbleovou konstantou H₀ = 67,4 km/s/Mpc, dnešním podílem hmoty 31,5 % a temné energie 68,5 %. Malý příspěvek záření zde zanedbáme. Výsledky jsou zaokrouhlené modelové výpočty, nikoli samostatná měření vzdáleností.\n\n- **z = 0,01:** světlo putovalo asi **144 milionů let**; dnešní vzdálenost je přibližně **145 milionů světelných let**.\n- **z = 0,1:** světlo putovalo asi **1,35 miliardy let**; dnešní vzdálenost je přibližně **1,42 miliardy světelných let**.\n- **z = 1:** světlo putovalo asi **7,95 miliardy let**; dnešní vzdálenost je přibližně **11,1 miliardy světelných let**.\n- **z = 6:** světlo putovalo asi **12,87 miliardy let**; dnešní vzdálenost je přibližně **27,5 miliardy světelných let**.\n\nNapříklad při z = 1 tedy vidíme galaxii takovou, jaká byla téměř před osmi miliardami let. Údaj o dnešních 11,1 miliardy světelných let vyjadřuje, jak daleko je příslušné místo po následném rozpínání prostoru.\n\nČísla předpokládají, že posuv je kosmologický. Zejména u blízkých galaxií může výsledek výrazně ovlivnit jejich vlastní pohyb. Jiné parametry modelu také povedou k poněkud jiným vzdálenostem; z nelze obecně násobit jedinou konstantou a dostat správnou vzdálenost pro všechny galaxie."
+    "body": "Pro orientaci použijeme plochý model ΛCDM s Hubbleovou konstantou H₀ = 67,4 km/s/Mpc, dnešním podílem hmoty 31,5 % a temné energie 68,5 %. Malý příspěvek záření zde zanedbáme. Výsledky jsou zaokrouhlené modelové výpočty, nikoli samostatná měření vzdáleností.\n\n- **z = 0,01:** světlo putovalo asi **144 milionů let**; dnešní vzdálenost je přibližně **145 milionů světelných let**.\n- **z = 0,1:** světlo putovalo asi **1,35 miliardy let**; dnešní vzdálenost je přibližně **1,42 miliardy světelných let**.\n- **z = 1:** světlo putovalo asi **7,95 miliardy let**; dnešní vzdálenost je přibližně **11,1 miliardy světelných let**.\n- **z = 6:** světlo putovalo asi **12,87 miliardy let**; dnešní vzdálenost je přibližně **27,5 miliardy světelných let**.\n\nNapříklad při z = 1 tedy vidíme galaxii takovou, jaká byla téměř před osmi miliardami let. Údaj o dnešních 11,1 miliardy světelných let vyjadřuje, jak daleko je příslušné místo po následném rozpínání prostoru.\n\nČísla předpokládají, že posuv je kosmologický. Zejména u blízkých galaxií může výsledek výrazně ovlivnit jejich vlastní pohyb. Jiné parametry modelu také povedou k poněkud jiným vzdálenostem; z nelze obecně násobit jedinou konstantou a dostat správnou vzdálenost pro všechny galaxie.",
+    "image_id": "schema-posuv-cas-vzdalenost"
    },
    {
     "heading": "Skutečné měření: kvasar 3C 273",
@@ -1644,7 +1671,8 @@
    },
    {
     "heading": "Elektronový obal není oběžná dráha",
-    "body": "U elektronu v atomu popisuje orbital prostorové rozložení stavu. Z |ψ|² zjistíme hustotu pravděpodobnosti, s jakou by měření zachytilo elektron v různých oblastech kolem jádra. Známé obrázky orbitalů často vyznačují oblast obsahující například 90 % této pravděpodobnosti.\n\nNejde o tvrdý obal, za kterým elektron určitě není, ani o záznam obíhání po skryté planetární dráze. Pokud chceme zjistit, jak elektron v atomu mění energii a proč při tom vznikají určité barvy světla, navazuje [výklad spektrálních čar](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html)."
+    "body": "U elektronu v atomu popisuje orbital prostorové rozložení stavu. Z |ψ|² zjistíme hustotu pravděpodobnosti, s jakou by měření zachytilo elektron v různých oblastech kolem jádra. Známé obrázky orbitalů často vyznačují oblast obsahující například 90 % této pravděpodobnosti.\n\nNejde o tvrdý obal, za kterým elektron určitě není, ani o záznam obíhání po skryté planetární dráze. Pokud chceme zjistit, jak elektron v atomu mění energii a proč při tom vznikají určité barvy světla, navazuje [výklad spektrálních čar](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html).",
+    "image_id": "schema-orbital-pravdepodobnost"
    },
    {
     "heading": "Co tento popis umí a kde zjednodušujeme",
@@ -1721,7 +1749,8 @@
    },
    {
     "heading": "Analogie: dlouhý tón a krátké klepnutí",
-    "body": "Dlouhý čistý tón má dobře vymezenou frekvenci, ale není přesně lokalizovaný v čase. Krátké klepnutí je časově ostré, zato obsahuje širší směs frekvencí. Jde o analogii skládání vln, ne o úplný popis elektronu.\n\nPodobně vzniká prostorově úzký kvantový vlnový balík skládáním širšího rozsahu vlnových délek. Ty u částice souvisejí s hybností. Když tedy sestavíme stav s úzkým rozložením polohy, rozložením hybnosti nemůžeme libovolně šetřit. Na tento vlnový pohled navazuje heslo o [vlnové funkci](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html)."
+    "body": "Dlouhý čistý tón má dobře vymezenou frekvenci, ale není přesně lokalizovaný v čase. Krátké klepnutí je časově ostré, zato obsahuje širší směs frekvencí. Jde o analogii skládání vln, ne o úplný popis elektronu.\n\nPodobně vzniká prostorově úzký kvantový vlnový balík skládáním širšího rozsahu vlnových délek. Ty u částice souvisejí s hybností. Když tedy sestavíme stav s úzkým rozložením polohy, rozložením hybnosti nemůžeme libovolně šetřit. Na tento vlnový pohled navazuje heslo o [vlnové funkci](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).",
+    "image_id": "schema-ton-a-klep"
    },
    {
     "heading": "Co přesně znamená známý vztah",
@@ -1770,7 +1799,8 @@
    },
    {
     "heading": "Souvislost výsledků a odeslání zprávy",
-    "body": "Pro odeslání zprávy bychom museli zvolit, zda druhá strana obdrží například 0, nebo 1. Výsledek vlastního měření je však náhodný. Vzdálený pozorovatel proto ve svém přístroji vidí náhodnou řadu výsledků, ze které žádnou zprávu nepřečte.\n\nAby oba pozorovatelé souvislost ověřili, musí své záznamy porovnat běžným komunikačním kanálem. Ten je omezen rychlostí světla; v našem myšlenkovém příkladu by zpráva cestovala milion let. **Společný kvantový stav a přenos čitelné zprávy jsou dvě různé věci.**\n\nProvázání dnes využíváme při vývoji kvantových sítí, některých výpočetních postupů a citlivých měřicích metod. Na jeho základní stavební kameny navazují témata o [superpozici a měření](https://kosmonovinky.cz/kosmopedie/co-je-superpozice-a-co-se-deje-pri-mereni.html) a [vlnové funkci](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html)."
+    "body": "Pro odeslání zprávy bychom museli zvolit, zda druhá strana obdrží například 0, nebo 1. Výsledek vlastního měření je však náhodný. Vzdálený pozorovatel proto ve svém přístroji vidí náhodnou řadu výsledků, ze které žádnou zprávu nepřečte.\n\nAby oba pozorovatelé souvislost ověřili, musí své záznamy porovnat běžným komunikačním kanálem. Ten je omezen rychlostí světla; v našem myšlenkovém příkladu by zpráva cestovala milion let. **Společný kvantový stav a přenos čitelné zprávy jsou dvě různé věci.**\n\nProvázání dnes využíváme při vývoji kvantových sítí, některých výpočetních postupů a citlivých měřicích metod. Na jeho základní stavební kameny navazují témata o [superpozici a měření](https://kosmonovinky.cz/kosmopedie/co-je-superpozice-a-co-se-deje-pri-mereni.html) a [vlnové funkci](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).",
+    "image_id": "schema-provazani-vzdalenost"
    },
    {
     "heading": "Zdroje a další čtení",

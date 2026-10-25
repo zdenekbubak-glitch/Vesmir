@@ -85,6 +85,8 @@ def subtopic_for(item):
 
 
 def candidates_for(item, available):
+    # Section diagrams are selected explicitly by the editor, never as a lead image.
+    available=[e for e in available if not e.get('manual_only')]
     topic=topic_for(item); text=norm(item.get('title','')+' '+item.get('original_title',''))
     pool=[e for e in available if topic in e.get('topics',[e['topic']]) and not e.get('alias_of')]
     exact=[e for e in pool if e.get('match_keywords') and any(norm(w) in text for w in e['match_keywords'])]

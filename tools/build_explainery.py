@@ -47,6 +47,7 @@ WHY_CSS = '''
     .why-box h2 { margin-top: 0; }
     .why-box p { margin: 0; }
     .explainer-perex { font-size: 1.06rem; color: #c9d6ec; }
+    .section-image-link { display: block; cursor: zoom-in; }
 '''
 
 
@@ -79,6 +80,17 @@ def render_body(text):
         out.append(f'<p>{md(line.strip())}</p>')
     flush()
     return '\n'.join(out)
+
+
+def section_image_figure(entry):
+    """The original-size asset stays accessible when a teaching chart is small on mobile."""
+    href = esc(image_url(entry))
+    attrs = f'href="{href}" target="_blank" rel="noopener"'
+    link = f'<a class="section-image-link" {attrs} aria-label="Zvětšit obrázek: {esc(entry["title"])}">'
+    figure = image_figure(entry).replace('<img ', link + '<img loading="lazy" decoding="async" ', 1)
+    figure = figure.replace('<figcaption', '</a><figcaption', 1)
+    return re.sub(r'(<figcaption\b[^>]*>)',
+                  lambda m: m.group(1) + f'<a {attrs}>Zvětšit obrázek</a><br>', figure, count=1)
 
 
 def main():
@@ -127,7 +139,7 @@ def main():
                 section_image = image_library[1].get(sec['image_id'])
                 if section_image is None:
                     raise ValueError(f"{ex['id']}: nedostupný obrázek oddílu {sec['image_id']}")
-                section += image_figure(section_image).replace('<img ', '<img loading="lazy" decoding="async" ', 1)
+                section += section_image_figure(section_image)
                 section_images.append(section_image)
             if str(sec.get('heading') or '').strip().casefold().startswith('zdroje'):
                 section = '<section class="article-sources">\n' + section + '</section>\n'

@@ -15,6 +15,9 @@ def font(size):
 
 def diagram(entry):
     """Different physical concepts, not random seeds/crops of one illustration."""
+    if str(entry.get('diagram', '')).startswith('edu-'):
+        from kosmopedie_diagrams import diagram as teaching_diagram
+        return teaching_diagram(entry)
     im=Image.new('RGB',(1200,630),'#0b1424');d=ImageDraw.Draw(im)
     blue='#76c8ff';gold='#ffd287';violet='#beadff';muted='#afbed4';white='#ecf4ff'
     kind=entry['diagram'];title=entry['title']
