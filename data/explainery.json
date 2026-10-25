@@ -1866,22 +1866,26 @@
   "id": "exp-046",
   "title": "Jak souvisejí částice a kvantová pole?",
   "theme": "kvantovy-svet",
-  "description": "Elektron a foton nejsou malé kuličky z téže látky. Jak je popisují kvantová pole a proč mají všechny elektrony stejné základní vlastnosti?",
+  "description": "Co se u pole „vlní“ a jak s tím souvisejí částice? Kvantová pole, jejich vzbuzení a rozdíl mezi počtem fotonů a energií jednoho fotonu.",
   "published": "2026-10-25",
   "updated": "2026-10-25",
   "perex": "Naše běžná zkušenost nám při představě elementárních částic příliš nepomáhá. Současná fyzika je popisuje jako excitace neboli vzbuzení kvantových polí. Elektron, foton nebo Higgsův boson přitom náleží k různým polím.",
   "sections": [
    {
-    "heading": "Pole: údaj v každém místě",
-    "body": "Na mapě teplot přiřadíme každému místu určitou teplotu. U magnetu zase můžeme zkoumat, jak velké magnetické pole působí v různých místech a jakým směrem ukazuje. **Pole je způsob, jak popsat fyzikální veličinu napříč prostorem a časem.**\n\nTeplotní mapa je pomůcka k představě slova pole. Kvantová pole částic jsou základnější fyzikální objekty a jejich matematický popis je složitější než mapa jediného čísla."
+    "heading": "Pole: fyzikální veličiny v prostoru",
+    "body": "Na mapě teplot přiřadíme každému místu určitou teplotu. U magnetu zase můžeme zkoumat, jak silné magnetické pole působí v různých místech a kterým směrem ukazuje. **Pole umožňuje popsat fyzikální veličiny napříč prostorem a časem.**\n\nTeplotní mapa pomáhá pochopit tento způsob popisu. Kvantová pole částic jsou však základními objekty teorie, jejichž vlastnosti a vzájemné působení určují chování mikrosvěta."
    },
    {
-    "heading": "Částice jako kvantum pole",
-    "body": "U vodní hladiny umíme vyvolat vlnu. Podobně může i pole přejít do stavu s vyšší energií. V kvantové teorii mají jednotlivé způsoby jeho kmitání povolené přírůstky energie; těm odpovídají **kvanta**, která zachycujeme jako částice.\n\nFoton je kvantem elektromagnetického pole. Elektrony a pozitrony popisuje elektronové pole, Higgsův boson Higgsovo pole. Vodní vlna zde pomáhá představit si změnu stavu pole; například elektronové pole nemá podobu skutečně zvlněné kapaliny."
+    "heading": "Co se tedy u pole vlní?",
+    "body": "U vodní vlny se mění výška hladiny: jednotlivé části vody kmitají a vlna se šíří dál. U pole může prostorem postupovat změna jeho fyzikálních veličin. **U světelné vlny se například mění velikost a směr elektrického a magnetického pole.** K přenosu energie tak postačuje samotné elektromagnetické pole, i v prostoru bez látky.\n\nTo je názorný popis světla jako elektromagnetické vlny. U elektronového pole potřebujeme obecnější kvantový popis jeho stavu. Slovem „vlna“ zde vyjadřujeme vlnové vlastnosti tohoto popisu, například možnost interference; nejde o výšku nějakého skrytého povrchu."
+   },
+   {
+    "heading": "Jak do toho vstupují částice",
+    "body": "Kvantová pravidla určují, jak může pole přijímat a předávat energii. Jednotlivým kvantovým vzbuzením odpovídají částice. **Foton je kvantem elektromagnetického pole, elektron excitací elektronového pole.** Totéž elektronové pole popisuje i pozitrony, tedy antičástice elektronů. Higgsův boson je kvantem Higgsova pole.\n\nDetektor zaznamenává jednotlivé události, například pohlcení fotonu. Vlnové vlastnosti a takové jednotlivé záchyty spolu patří ke kvantovému popisu; názorný příklad najdeme v tématu o [kvantové mechanice](https://kosmonovinky.cz/kosmopedie/co-je-kvantova-mechanika.html)."
    },
    {
     "heading": "Proč jsou všechny elektrony stejné",
-    "body": "Elektron v našem těle a elektron ve vzdálené galaxii mají stejný elektrický náboj a stejnou klidovou hmotnost. V teorii jde o částice téhož druhu, popsané stejným elektronovým polem. Tyto základní vlastnosti proto nejsou individuální výbavou každého elektronu.\n\nJednotlivé elektrony přitom mohou mít různé energie, hybnosti nebo různě připravené stavy spinu. Podobně jsou všechny fotony kvanty stejného pole, ale mohou nést různé množství energie."
+    "body": "Elektron v našem těle a elektron ve vzdálené galaxii mají stejný elektrický náboj a stejnou klidovou hmotnost. V teorii jde o částice téhož druhu, popsané stejným elektronovým polem. Základní vlastnosti tak vyplývají ze společného fyzikálního popisu.\n\nJednotlivé elektrony přitom mohou mít různé energie, hybnosti nebo různě připravené stavy spinu. Také fotony mohou nést různé množství energie, přestože patří ke stejnému poli."
    },
    {
     "heading": "Více fotonů, nebo energetičtější fotony?",
@@ -1889,14 +1893,14 @@
    },
    {
     "heading": "A kam patří vlnová funkce?",
-    "body": "[Vlnová funkce](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html) popisuje kvantový stav a umožňuje spočítat pravděpodobnosti výsledků měření. Není totožná s elektronovým nebo elektromagnetickým polem. I stav kvantového pole se řídí kvantovými pravidly a detektor zachycuje jednotlivé události.\n\nZákladní vztah si tak můžeme shrnout: pole určuje, jaký druh částice popisujeme, zatímco stav říká, co o připravené soustavě můžeme předpovědět. Na výpočty reakcí mezi různými poli navazuje [kvantová teorie pole](https://kosmonovinky.cz/kosmopedie/co-je-kvantova-teorie-pole.html)."
+    "body": "[Vlnová funkce](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html) je způsob, jak popsat kvantový stav soustavy a spočítat pravděpodobnosti výsledků měření. Například u jednoho elektronu nám umožňuje předpovědět rozdělení jeho možných poloh nebo hybností. Není totožná se samotným elektronovým polem.\n\nRozlišujeme tedy **druh pole**, který souvisí s druhem částice, a **konkrétní kvantový stav**, který určuje předpovědi pro připravenou soustavu. Jak počítáme vzájemné působení polí a přeměny částic, vysvětluje [kvantová teorie pole](https://kosmonovinky.cz/kosmopedie/co-je-kvantova-teorie-pole.html)."
    },
    {
     "heading": "Zdroje a další čtení",
-    "body": "- [David Tong: kvantování polí a částice](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf)\n- [David Tong: elektronové pole, částice a antičástice](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft5.pdf)\n- [CERN: pole a jejich kvanta](https://home.cern/science/physics/higgs-boson/what/)\n- [Penn State: energie fotonu, frekvence a vlnová délka](https://courses.ems.psu.edu/meteo300/node/682)"
+    "body": "- [David Tong: kvantování polí a částice](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf)\n- [David Tong: elektronové pole, částice a antičástice](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft5.pdf)\n- [CERN: pole a jejich kvanta](https://home.cern/science/physics/higgs-boson/what/)\n- [Penn State: energie fotonu, frekvence a vlnová délka](https://courses.ems.psu.edu/meteo300/node/682)\n- [Perimeter Institute, 2025: kvantová pole a jejich vzbuzení](https://perimeterinstitute.ca/news/25-years-quantum-fields-and-strings)\n- [Caltech: elektromagnetické vlny a jejich šíření ve vakuu](https://www.feynmanlectures.caltech.edu/II_20.html)"
    }
   ],
-  "why_box": "Foton, elektron a Higgsův boson patří k různým kvantovým polím. Částice stejného druhu mají stejné základní vlastnosti, ale jejich energie a kvantové stavy se mohou lišit.",
+  "why_box": "Pole a jeho vzbuzení patří ke společnému fyzikálnímu popisu: například elektron je excitací elektronového pole. Vlnění označuje vlnové vlastnosti pole a jeho stavu, nikoli pohyb skryté látkové hladiny. Částice stejného druhu mají stejné základní vlastnosti, ale jejich konkrétní stavy a energie se mohou lišit.",
   "related_explainery": [
    "co-je-kvantova-teorie-pole",
    "co-je-vlnova-funkce-a-co-nam-rika-o-castici",
