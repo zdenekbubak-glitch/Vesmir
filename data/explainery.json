@@ -1826,7 +1826,7 @@
   "sections": [
    {
     "heading": "Základ současného popisu mikrosvěta",
-    "body": "Z čeho se skládá hmota a jak na sebe její nejmenší složky působí? **Kvantová teorie pole** nabízí společný jazyk pro hledání odpovědí. Vychází z polí, která popisujeme v prostoru a čase. Elektron, foton nebo kvark představují kvanta příslušných polí. Podrobněji tento vztah vysvětluje [téma o částicích a polích](https://kosmonovinky.cz/kosmopedie/jak-souviseji-castice-a-kvantova-pole.html).\n\nNa tomto základě stojí [standardní model částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html), náš současný popis známých elementárních částic a elektromagnetického, slabého a silného působení. Označení **QFT** je zkratkou anglického quantum field theory."
+    "body": "Z čeho se skládá hmota a jak na sebe její nejmenší složky působí? **Kvantová teorie pole** nabízí společný jazyk pro hledání odpovědí. Vychází z polí, která popisujeme v prostoru a čase.\n\n**Elementární částice je kvantovou excitací neboli vzbuzením příslušného pole.** Pole se nachází ve stavu s vyšší energií než ve vakuu a takové vzbuzení se při měření projevuje jako částice. Foton je například kvantem elektromagnetického pole, elektron excitací elektronového pole. Podrobněji tento vztah vysvětluje [téma o částicích a polích](https://kosmonovinky.cz/kosmopedie/jak-souviseji-castice-a-kvantova-pole.html).\n\nNa tomto základě stojí [standardní model částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html), náš současný popis známých elementárních částic a elektromagnetického, slabého a silného působení. Označení **QFT** je zkratkou anglického quantum field theory."
    },
    {
     "heading": "Tři stavební kameny",
