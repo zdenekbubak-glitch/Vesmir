@@ -32,7 +32,58 @@ def diagram(entry):
     def node(x,y,label,c=blue):
         d.rounded_rectangle((x-110,y-40,x+110,y+40),radius=15,outline=c,width=3)
         text(x-100,y-14,label,c,21)
-    if kind=='spectroscopy-path':
+    if kind=='quantum-levels':
+        text(60,95,'Modelové energetické hladiny atomu',white,25)
+        arrow(100,490,100,155,muted);text(45,510,'energie',muted,22)
+        for y,label in ((450,'nižší hladina'),(300,'vyšší hladina'),(190,'další hladina')):
+            line([(160,y),(650,y)],blue,4);text(690,y-15,label,white,24)
+        circle(230,450,12,gold);arrow(300,428,300,315,gold)
+        text(335,355,'pohlcení fotonu',gold,24)
+        arrow(550,320,550,430,violet);text(565,390,'emise',violet,23)
+        text(160,140,'Přechod vyžaduje energii odpovídající rozdílu hladin.',muted,22)
+        text(160,520,'Schody v energii; nejde o oběžné dráhy elektronu.',muted,23)
+    elif kind=='quantum-probability':
+        text(65,95,'Jeden pokus: jeden zásah. Mnoho pokusů: rozdělení výsledků.',white,25)
+        arrow(160,465,1080,465,muted)
+        for i,(prob,label) in enumerate(((10,'oblast A'),(40,'oblast B'),(40,'oblast C'),(10,'oblast D'))):
+            x=220+i*210;y=465-prob*6
+            d.rounded_rectangle((x,y,x+125,465),radius=8,fill=blue if prob==40 else violet)
+            text(x+22,y-42,str(prob)+' %',gold,27);text(x+2,480,label,white,23)
+        text(165,160,'Pravděpodobnost nálezu v celé oblasti',muted,22)
+        text(165,530,'Ilustrační model: 10 % + 40 % + 40 % + 10 % = 100 %',muted,23)
+    elif kind=='quantum-interference':
+        for y,headline,c,p0,p1 in ((230,'Bez rozlišitelného záznamu cesty',blue,'100 %','0 %'),
+                                  (425,'Se spolehlivým záznamem cesty',violet,'50 %','50 %')):
+            text(55,y-110,headline,white,25)
+            circle(100,y,12,gold);arrow(120,y,200,y,gold)
+            for dy in (-42,42):line([(200,y),(280,y+dy),(440,y+dy),(520,y)],c,3)
+            if y==425:
+                for dy in (-42,42):d.rectangle((343,y+dy-14,372,y+dy+14),outline=gold,width=3)
+            arrow(520,y,640,y,c);text(245,y-10,'dvě cesty',muted,20)
+            text(690,y-50,'výstup 0: '+p0,c,27);text(690,y+15,'výstup 1: '+p1,c,27)
+        text(65,525,'Ideální vyvážený interferometr; nahoře vhodně sladěná fáze.',muted,22)
+    elif kind=='quantum-uncertainty':
+        text(85,95,'Rozdělení polohy x',white,26);text(665,95,'Rozdělení hybnosti pₓ',white,26)
+        for y,sx,sp,color,label in ((285,28,90,blue,'užší poloha → širší hybnost'),
+                                   (465,70,36,gold,'širší poloha → užší hybnost')):
+            for center,sigma in ((300,sx),(875,sp)):
+                line([(center-205,y),(center+205,y)],muted,2)
+                line([(center-200+i,y-2400/sigma*math.exp(-.5*((i-200)/sigma)**2)) for i in range(401)],color,4)
+            text(75,y+15,label,color,21)
+        text(415,160,'Δx · Δpₓ ≥ ħ/2',gold,30)
+        text(85,535,'Dva modelové stavy; stejné osy v každém sloupci, bez číselné stupnice.',muted,21)
+    elif kind=='quantum-entanglement':
+        text(70,95,'Příklad provázané dvojice: měření v jedné společné bázi',white,25)
+        circle(600,190,28,gold);arrow(560,190,280,190,blue);arrow(640,190,920,190,violet)
+        text(165,225,'Alice',blue,26);text(890,225,'Bob',violet,26)
+        text(490,232,'zdroj dvojic',muted,21)
+        for y,a,b,prob in ((310,'0','0','50 %'),(380,'1','1','50 %')):
+            text(185,y,a,blue,32);text(915,y,b,violet,32)
+            text(490,y,prob,white,29)
+            line([(240,y+20),(455,y+20)],'#304e70',2);line([(610,y+20),(880,y+20)],'#304e70',2)
+        text(75,460,'Samotná shoda výsledků ještě provázání neprokazuje.',gold,26)
+        text(75,505,'Rozdíl od předem dané dohody odhalí další vhodná nastavení měření.',muted,22)
+    elif kind=='spectroscopy-path':
         circle(110,300,40,gold);text(45,175,'světlo zdroje',gold,23)
         arrow(155,300,265,300,gold);node(380,300,'vstupní štěrbina')
         arrow(495,300,610,300,gold)

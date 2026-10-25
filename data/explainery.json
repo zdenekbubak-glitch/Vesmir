@@ -1576,5 +1576,215 @@
    "co-je-hubbleovo-napeti",
    "co-znamena-model-cdm"
   ]
+ },
+ {
+  "id": "exp-040",
+  "title": "Co je kvantová mechanika?",
+  "theme": "kvantovy-svet",
+  "description": "Jak funguje svět atomů a světla? Kvantová mechanika vysvětluje energetické hladiny, interferenci i to, proč měření předpovídá pomocí pravděpodobností.",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Elektron není malá planeta a světlo není jen obyčejná vlna. Kvantová mechanika popisuje jejich chování pravidly, která v běžném životě snadno přehlédneme. Bez nich bychom ale nerozuměli atomům ani světlu hvězd.",
+  "sections": [
+   {
+    "heading": "Proč nestačí zmenšit běžný svět",
+    "body": "U míčku dokážeme z jeho polohy, rychlosti a působících sil předpovídat další pohyb. Mohlo by se zdát, že atom stačí popsat podobně: jádro uprostřed a kolem něj obíhající elektrony. Jenže taková představa nevysvětluje stabilitu atomů ani přesné barvy světla, které atomy vydávají.\n\n**Kvantová mechanika je teorie chování hmoty a záření, jejíž zvláštnosti vynikají zejména na úrovni atomů a částic.** Není omezena ostrou hranicí velikosti: kvantové jevy se mohou projevit i ve větších soustavách, například v supravodičích. Pro běžné předměty však často vystačíme s klasickým přiblížením."
+   },
+   {
+    "heading": "Co znamená slovo kvantový",
+    "body": "Představme si schodiště: stát lze na jednotlivých schodech, ne v libovolné výšce mezi nimi. Podobně má elektron vázaný v atomu jen určité dovolené energie. Schody jsou ovšem pouze pomůcka pro energii, nikoli skutečné dráhy v prostoru.\n\nPři přechodu mezi dvěma hladinami může atom pohltit nebo vyzářit foton s energií odpovídající jejich rozdílu. Tak vzniká vazba mezi kvantovou fyzikou a [absorpčními a emisními čarami](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html).\n\nNeznamená to, že každá veličina může mít za všech okolností jen oddělené hodnoty. Například energie volného elektronu se v běžném popisu může měnit spojitě. Záleží na soustavě a jejích podmínkách."
+   },
+   {
+    "heading": "Jednotlivé zásahy, společně interferenční obrazec",
+    "body": "Pošleme elektrony na překážku se dvěma úzkými štěrbinami a za ni umístíme detektor. Každý zachycený elektron vytvoří jeden místní zásah. Když elektrony vysíláme jednotlivě a experiment mnohokrát opakujeme, může se postupně objevit obrazec střídajících se pásů s vyšším a nižším počtem zásahů.\n\nTakový výsledek nevysvětlí pouhé sčítání pravděpodobností dvou klasických cest. V kvantovém výpočtu se mohou příspěvky možností zesilovat nebo rušit: nastává **interference**. Funguje to tehdy, když uspořádání zachovává soudržnost těchto možností a nezanechává rozlišitelnou informaci o cestě. Podrobnosti rozebírá heslo o [superpozici a měření](https://kosmonovinky.cz/kosmopedie/co-je-superpozice-a-co-se-deje-pri-mereni.html)."
+   },
+   {
+    "heading": "Pravděpodobnost má přesná pravidla",
+    "body": "Teorie obvykle neurčí přesné místo příštího zásahu. Určí však rozdělení pravděpodobností, které lze ověřovat velkým počtem stejně připravených pokusů. Očekávaný podíl zásahů v určité oblasti se pak porovnává s výsledkem experimentu.\n\nVýchozím popisem jednoduché izolované soustavy je [vlnová funkce](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html). Není to povolení říkat o částicích cokoli. Výpočty musí dát konkrétní výsledky a odpovídat měřením."
+   },
+   {
+    "heading": "Proč to patří na web o vesmíru",
+    "body": "Z kvantové fyziky vychází porozumění spektrům hvězd, vlastnostem hmoty i reakcím v jejich nitrech. Pro částice při vysokých energiích používáme její relativistické rozšíření, teorii kvantového pole; na té stojí [standardní model částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html).\n\nV inflačních modelech raného vesmíru mohou kvantové fluktuace polí vytvořit zárodky pozdějších rozdílů hustoty. To je modelové vysvětlení vzniku struktur, nikoli přímý snímek prvotních kvantových dějů. Samotná úspěšnost kvantové mechaniky také neznamená, že už máme hotovou a experimentálně potvrzenou teorii kvantové gravitace."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [NIST: pět základních kvantových pojmů](https://www.nist.gov/blogs/taking-measure/5-concepts-can-help-you-understand-quantum-mechanics-and-technology-without)\n- [Caltech: kvantové chování a dvojštěrbina](https://www.feynmanlectures.caltech.edu/III_01.html)\n- [MIT: úvod do superpozice](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec01/)\n- [NASA: historie vesmíru a inflace](https://science.nasa.gov/universe/overview/)\n- [A. Guth: kvantové fluktuace v kosmologii](https://arxiv.org/abs/1312.7340)"
+   }
+  ],
+  "why_box": "Kvantová mechanika spojuje chování částic s měřitelnými výsledky: vysvětluje například, proč atomy pohlcují jen určité barvy světla a proč se při mnoha jednotlivých zásazích může objevit interferenční obrazec.",
+  "related_explainery": [
+   "co-je-vlnova-funkce-a-co-nam-rika-o-castici",
+   "co-je-superpozice-a-co-se-deje-pri-mereni",
+   "co-rika-heisenberguv-princip-neurcitosti",
+   "co-jsou-absorpcni-a-emisni-cary",
+   "co-je-standardni-model-casticove-fyziky"
+  ]
+ },
+ {
+  "id": "exp-041",
+  "title": "Co je vlnová funkce a co nám říká o částici?",
+  "theme": "kvantovy-svet",
+  "description": "Vlnová funkce není oblak rozmazané hmoty. Jak z ní získáme pravděpodobnost nálezu částice a proč záleží i na fázi?",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Kde najdeme elektron? Kvantová mechanika často odpovídá mapou pravděpodobností. Vlnová funkce ale obsahuje víc než jen tuto mapu: umožňuje také spočítat, jak se jednotlivé možnosti navzájem ovlivní.",
+  "sections": [
+   {
+    "heading": "Mapa možných výsledků",
+    "body": "Představme si dlouhou řadu malých detektorů, které mají zjistit polohu jednoho elektronu. Pokus vždy začneme stejnou přípravou a zaznamenáme, který detektor elektron zachytil. Po mnoha opakováních některá místa získají více zásahů, jiná méně.\n\n**Vlnová funkce**, značená řeckým písmenem ψ (psí), je matematický popis kvantového stavu. Pro jednoduchý případ jedné částice dovoluje přiřadit různým polohám takzvané amplitudy pravděpodobnosti. Z nich vypočítáme očekávané rozložení zásahů."
+   },
+   {
+    "heading": "Jak se z amplitudy stane pravděpodobnost",
+    "body": "Pro polohu platí Bornovo pravidlo: **hustota pravděpodobnosti = |ψ|²**. Svislé čáry znamenají velikost amplitudy; ta může být obecně komplexním číslem. Abychom získali pravděpodobnost nálezu v určité oblasti, musíme příspěvky přes celou tuto oblast sečíst, přesněji integrovat. Samotná výška grafu tedy není pravděpodobnost v jednom bodě.\n\nNázorný početní příklad: rozdělme detektor na čtyři oblasti. Model předpovídá pravděpodobnosti **10 %, 40 %, 40 % a 10 %**. Při tisíci stejně připravených pokusech očekáváme přibližně 100, 400, 400 a 100 zásahů. Skutečné počty budou náhodně kolísat. V jednom pokusu však zaznamenáme pouze jeden výsledek, ne čtyři části elektronu.\n\nSoučet pravděpodobností všech navzájem se vylučujících možností musí být 100 %. Tomu odpovídá normalizace vlnové funkce."
+   },
+   {
+    "heading": "Proč nestačí samotná procenta",
+    "body": "Dvě různě připravené soustavy mohou mít stejné pravděpodobnosti pro měření polohy, a přesto se později vyvíjet jinak. Vlnová funkce totiž obsahuje také informaci o **fázi**. Lze si ji přibližně představit jako sladění dvou vln: setkají se jejich vrcholy, nebo vrchol jedné s prohlubní druhé?\n\nPři skládání možností se nejprve kombinují amplitudy. Teprve potom se počítají pravděpodobnosti. Díky tomu se příspěvky mohou zesílit i vyrušit. Příklady tohoto rozdílu najdete v hesle [Co je superpozice a co se děje při měření?](https://kosmonovinky.cz/kosmopedie/co-je-superpozice-a-co-se-deje-pri-mereni.html). Analogie s vlnami na vodě pomáhá se skládáním, ale neznamená, že elektron je vodní vlna."
+   },
+   {
+    "heading": "Elektronový obal není oběžná dráha",
+    "body": "U elektronu v atomu popisuje orbital prostorové rozložení stavu. Z |ψ|² zjistíme hustotu pravděpodobnosti, s jakou by měření zachytilo elektron v různých oblastech kolem jádra. Známé obrázky orbitalů často vyznačují oblast obsahující například 90 % této pravděpodobnosti.\n\nNejde o tvrdý obal, za kterým elektron určitě není, ani o záznam obíhání po skryté planetární dráze. Pokud chceme zjistit, jak elektron v atomu mění energii a proč při tom vznikají určité barvy světla, navazuje [výklad spektrálních čar](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html)."
+   },
+   {
+    "heading": "Co tento popis umí a kde zjednodušujeme",
+    "body": "Pro izolovanou nerelativistickou soustavu určuje časový vývoj vlnové funkce Schrödingerova rovnice. Z počátečního stavu tak počítáme pravděpodobnosti budoucích měření. U více částic závisí společná vlnová funkce na souřadnicích všech z nich; není to prostý oblak každé částice zvlášť.\n\nJedna vlnová funkce navíc nestačí pro každý praktický stav. Například část větší provázané soustavy nebo statistickou směs popisujeme obecněji maticí hustoty. Pro první představu stačí pamatovat si rozdíl: **vlnová funkce je popis stavu, mapa pravděpodobností je jeden z výsledků, které z něj získáme**."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [MIT: vlnová funkce](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec03/)\n- [Caltech: amplitudy pravděpodobnosti](https://www.feynmanlectures.caltech.edu/III_03.html)\n- [Caltech: vztah vlnového a částicového pohledu](https://www.feynmanlectures.caltech.edu/III_02.html)\n- [IBM: proč potřebujeme také matice hustoty](https://quantum.cloud.ibm.com/learning/en/courses/general-formulation-of-quantum-information/density-matrices/introduction)"
+   }
+  ],
+  "why_box": "Pravděpodobnost říká, jak často se určitý výsledek objeví v mnoha stejně připravených pokusech. Vlnová funkce navíc uchovává fázi, bez níž bychom nedokázali vysvětlit interferenci.",
+  "related_explainery": [
+   "co-je-kvantova-mechanika",
+   "co-je-superpozice-a-co-se-deje-pri-mereni",
+   "co-rika-heisenberguv-princip-neurcitosti",
+   "co-jsou-absorpcni-a-emisni-cary"
+  ]
+ },
+ {
+  "id": "exp-042",
+  "title": "Co je superpozice a co se děje při měření?",
+  "theme": "kvantovy-svet",
+  "description": "Jak se liší kvantová superpozice od neznámého výsledku hodu mincí? Dvě cesty, interference, měření a ztráta koherence srozumitelně.",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Superpozice se často zkracuje na tvrzení, že částice je na dvou místech současně. Přesnější představu nabídne pokus, v němž se možnosti mohou spojit a navzájem zesílit nebo vyrušit. Měření pak záleží na tom, jakou otázku soustavě položíme.",
+  "sections": [
+   {
+    "heading": "Dvě možnosti mohou tvořit jeden stav",
+    "body": "Uvažujme kvantovou soustavu se dvěma rozlišitelnými výsledky určitého měření, označenými **0 a 1**. Může jít například o dvě energetické hladiny vhodně řízeného atomu. Taková dvoustavová soustava může sloužit jako qubit, kvantový protějšek bitu.\n\nSuperpozice znamená, že její stav je kombinací těchto dvou možností s určitými amplitudami a vzájemnou fází. **Neznamená to, že jedno měření ukáže současně nulu i jedničku.** Pro vhodnou vyváženou superpozici dostaneme při tomto měření 0 nebo 1, každý výsledek s pravděpodobností 50 %."
+   },
+   {
+    "heading": "Proč nestačí mince pod kelímkem",
+    "body": "Skrytou minci můžeme před odhalením popsat jako neznámou hlavu nebo orel. To je obyčejná neznalost už hotového výsledku. U superpozice je navíc zachována možnost interference. Samotný seznam procent ji tedy plně nepopisuje; podrobněji to vysvětluje [vlnová funkce](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).\n\nNázorný rozdíl nabídne ideální optický pokus: foton pošleme do děliče svazku, který umožní dvě cesty, a ty zrcadly znovu přivedeme k druhému děliči. Když jsou cesty nerozlišitelné a správně fázově sladěné, mohou se amplitudy u jednoho výstupu vyrušit a u druhého zesílit. V ideálním uspořádání pak foton zachytí vždy stejný výstupní detektor.\n\nPouhý náhodný výběr jedné ze dvou cest by při jinak stejném vyváženém uspořádání takový výsledek nedal. Právě opětovné spojení možností odhalí rozdíl mezi soudržnou superpozicí a směsí."
+   },
+   {
+    "heading": "Co udělá měření cesty",
+    "body": "Jestliže do cest vložíme zařízení, které zanechá spolehlivě rozlišitelný záznam o průchodu, původní interference při sledování samotných výstupních zásahů zanikne. Nejde o to, zda se člověk na záznam podívá. Rozhodující je fyzická interakce a vznik informace o cestě.\n\nV ideálním vyváženém příkladu nyní očekáváme na výstupech přibližně půl na půl. Částečně rozlišitelný záznam může kontrast interference snížit jen částečně. Skutečné výsledky ovlivňuje také kvalita a nastavení přístrojů."
+   },
+   {
+    "heading": "Měření vždy odpovídá na určitou otázku",
+    "body": "Tentýž stav může být superpozicí vzhledem k jednomu měření, zatímco jiné vhodně zvolené měření má jistý výsledek. U qubitu záleží na tom, zda rozlišujeme původní stavy 0 a 1, nebo jejich jiné kombinace. Proto má smysl ptát se: **superpozice kterých stavů a vzhledem k jakému měření?**\n\nVe standardním výpočtu po ideálním měření přiřadíme soustavě stav odpovídající zaznamenanému výsledku. Tomuto kroku se často říká kolaps. Jak přesně chápat vznik jediného výsledku v celkovém popisu světa, řeší různé interpretace kvantové mechaniky."
+   },
+   {
+    "heading": "Proč takto běžně nevidíme stůl",
+    "body": "Velké předměty neustále interagují se vzduchem, světlem a okolím. Informace o jejich různých možných stavech se rozptyluje do prostředí a interference mezi těmito možnostmi se pro místní pozorování rychle potlačuje. Tento proces nazýváme **dekoherence**.\n\nDekoherence vysvětluje, proč se obtížně pozoruje interference velkých předmětů. Sama však bez další interpretace neodpovídá na všechny otázky o jediném výsledku měření. Kvantové počítače proto potřebují pečlivě omezovat nežádoucí interakce a chyby; superpozice sama o sobě nezaručuje rychlé řešení každé úlohy."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [IBM: superpozice a význam fáze](https://quantum.cloud.ibm.com/learning/en/modules/quantum-mechanics/superposition-with-qiskit)\n- [IBM: měření v různých bázích](https://quantum.cloud.ibm.com/learning/en/courses/use-a-qc-today/quantum-mechanics-basics)\n- [Caltech: interference a rozlišitelné výsledky](https://www.feynmanlectures.caltech.edu/III_03.html)\n- [IBM: kvantový šum a dekoherence](https://quantum.cloud.ibm.com/learning/en/courses/tools-for-quantum-advantage/noise-and-errors)\n- [MIT: úvod do superpozice](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec01/)"
+   }
+  ],
+  "why_box": "Superpozici nepoznáme jen podle náhodného výsledku. Její podstatnou vlastností je možnost interference, pokud se zachová vzájemná fáze a nevznikne rozlišitelný záznam o jednotlivých možnostech.",
+  "related_explainery": [
+   "co-je-kvantova-mechanika",
+   "co-je-vlnova-funkce-a-co-nam-rika-o-castici",
+   "co-je-kvantove-provazani",
+   "co-rika-heisenberguv-princip-neurcitosti"
+  ]
+ },
+ {
+  "id": "exp-043",
+  "title": "Co říká Heisenbergův princip neurčitosti?",
+  "theme": "kvantovy-svet",
+  "description": "Poloha a hybnost nemohou mít současně libovolně úzká rozdělení. Princip neurčitosti vysvětlený pomocí vlnového balíku i číselného příkladu.",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Heisenbergův princip neurčitosti není jen povzdech nad nepřesným přístrojem. Popisuje omezení samotných kvantových stavů: čím těsněji vymezíme polohu částice, tím větší musí být alespoň určitý rozptyl její hybnosti.",
+  "sections": [
+   {
+    "heading": "Dvě veličiny, které nejdou libovolně zostřit",
+    "body": "Poloha říká, kde částici zachytíme. **Hybnost** vyjadřuje její pohyb; při rychlostech výrazně menších než rychlost světla je součinem hmotnosti a rychlosti. U polohy a hybnosti ve stejném směru nelze připravit kvantový stav, v němž by obě veličiny měly libovolně úzká rozdělení.\n\nNejde pouze o poškození částice při pozorování. Vztah platí pro statistiku výsledků i u ideálních měření stejně připravených soustav. Na jedné skupině mnoha stejně připravených elektronů změříme polohu, na jiné hybnost a porovnáme rozptyly výsledků."
+   },
+   {
+    "heading": "Pomůže dlouhý tón a krátké klepnutí",
+    "body": "Dlouhý čistý tón má dobře vymezenou frekvenci, ale není přesně lokalizovaný v čase. Krátké klepnutí je časově ostré, zato obsahuje širší směs frekvencí. Jde o analogii skládání vln, ne o úplný popis elektronu.\n\nPodobně vzniká prostorově úzký kvantový vlnový balík skládáním širšího rozsahu vlnových délek. Ty u částice souvisejí s hybností. Když tedy sestavíme stav s úzkým rozložením polohy, rozložením hybnosti nemůžeme libovolně šetřit. Na tento vlnový pohled navazuje heslo o [vlnové funkci](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html)."
+   },
+   {
+    "heading": "Co přesně znamená známý vztah",
+    "body": "**Δx × Δpₓ ≥ ħ / 2**\n\nΔx je směrodatná odchylka rozdělení polohy, Δpₓ směrodatná odchylka rozdělení hybnosti v témže směru. Směrodatná odchylka vyjadřuje šířku rozdělení kolem průměru. Není to zaručený interval, v němž musí ležet každý výsledek. Symbol ħ označuje redukovanou Planckovu konstantu, přibližně 1,055 × 10⁻³⁴ J·s.\n\nNerovnost říká, jak malý může být součin těchto šířek. Neříká, že se vždy rovná dolní mezi: mnohé stavy mají součin větší."
+   },
+   {
+    "heading": "Příklad: elektron a míček",
+    "body": "Uvažujme elektron s **Δx = 0,1 nanometru**, což je měřítko atomu. Ze vztahu vyjde nejmenší možná Δpₓ přibližně **5,27 × 10⁻²⁵ kg·m/s**. Při použití hmotnosti elektronu to odpovídá směrodatné odchylce složky rychlosti alespoň **580 000 m/s**. Není to vypočtená oběžná rychlost elektronu, ale dolní mez rozptylu výsledků pro takto lokalizovaný stav.\n\nPro srovnání vezměme předmět o hmotnosti **0,1 kg** se stejnou šířkou rozdělení polohy. Odpovídající dolní mez rozptylu rychlosti je jen asi **5,3 × 10⁻²⁴ m/s**. Běžné vlivy prostředí jsou nesrovnatelně větší. To pomáhá pochopit, proč u míčku obvykle kvantovou neurčitost neřešíme."
+   },
+   {
+    "heading": "Co si z principu nevyvozovat",
+    "body": "Princip neurčitosti neříká, že všechno je neurčité nebo že nelze přesně měřit vůbec nic. Týká se určitých dvojic veličin; například samotná poloha může mít velmi úzké rozdělení, pokud přijmeme odpovídající šířku hybnosti.\n\nAni nejistota energie a času není univerzální povolení na chvíli porušovat zákon zachování energie. Má různé přesně vymezené podoby, například vztah mezi dobou života excitovaného stavu a šířkou spektrální čáry. Jak takové čáry vznikají, vysvětluje [samostatné heslo](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html)."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [MIT: střední hodnoty, hybnost a neurčitost](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec04/)\n- [Caltech: vlnové balíky a princip neurčitosti](https://www.feynmanlectures.caltech.edu/III_02.html)\n- [P. Busch, T. Heinonen, P. Lahti: podoby principu neurčitosti](https://arxiv.org/abs/quant-ph/0609185)\n- [NIST: základní pojmy kvantové mechaniky](https://www.nist.gov/blogs/taking-measure/5-concepts-can-help-you-understand-quantum-mechanics-and-technology-without)"
+   }
+  ],
+  "why_box": "Neurčitost polohy a hybnosti není jen vada přístroje. Jde o mez šířek rozdělení výsledků v daném stavu. U elektronu se výrazně projeví, u běžného míčku je její dolní mez zanedbatelná.",
+  "related_explainery": [
+   "co-je-kvantova-mechanika",
+   "co-je-vlnova-funkce-a-co-nam-rika-o-castici",
+   "co-jsou-absorpcni-a-emisni-cary"
+  ]
+ },
+ {
+  "id": "exp-044",
+  "title": "Co je kvantové provázání?",
+  "theme": "kvantovy-svet",
+  "description": "Provázané částice mají společný kvantový stav. Jak se to pozná, co ukázaly Bellovy testy a proč tím nejde posílat zprávy rychleji než světlo?",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Dvě částice mohou tvořit společný kvantový stav, i když se od sebe vzdálí. Jejich výsledky pak vykazují zvláštní souvislosti. Provázání je experimentálně ověřený jev, nikoli návod k okamžitému přenosu zpráv.",
+  "sections": [
+   {
+    "heading": "Společný stav, ne dvě nezávislé kartičky",
+    "body": "**Kvantové provázání** znamená, že společný stav soustav nelze popsat jako dva samostatné nezávislé stavy ani jako obyčejnou statistickou směs takových dvojic. Nejjednodušší příklady tvoří dvojice fotonů nebo qubitů. Provázané mohou být i více než dvě soustavy.\n\nZačněme snadnou, ale neúplnou představou: do dvou obálek vložíme červenou a modrou kartičku a obálky pošleme různým lidem. Otevření jedné okamžitě prozradí obsah druhé. Na tom není nic kvantového; barvy byly předem hotové. Provázání se od takové připravené dohody odlišuje výsledky při různých volbách měření."
+   },
+   {
+    "heading": "Konkrétní příklad s výsledky 0 a 1",
+    "body": "Připravme ideální dvojici qubitů ve stavu, který je vyváženou soudržnou kombinací možností **00 a 11**. Při měření obou qubitů v odpovídající bázi dostaneme společně 00 s pravděpodobností 50 % nebo 11 s pravděpodobností 50 %. Každý účastník sám vidí náhodnou řadu nul a jedniček; po spárování záznamů se výsledky shodují.\n\nSamotná tato shoda ještě provázání nedokazuje: stejně by dopadly i dvojice předem připravených shodných bitů. Rozdíl se ukáže teprve dalšími vhodně zvolenými měřeními. V jiném provázaném stavu mohou být výsledky naopak opačné. Slovo provázání tedy neznamená, že obě částice musí vždy ukazovat totéž."
+   },
+   {
+    "heading": "Co zkoušejí Bellovy testy",
+    "body": "Při testech s fotony si lze měřicí zařízení představit jako analyzátory polarizace, tedy směru kmitání světelného pole. Na každé straně se volí z různých nastavení a potom se porovnává statistika mnoha zaznamenaných dvojic.\n\nJohn Bell odvodil meze korelací pro určitou širokou třídu místních modelů se skrytými proměnnými. V takových modelech výsledky závisí na společných příčinách a místním nastavení, nikoli na vzdálené volbě; důležitý je také předpoklad nezávislosti těchto voleb na skrytých proměnných. Kvantové předpovědi mohou Bellovy nerovnosti porušit a experimenty takové porušení skutečně pozorují.\n\nVýsledek vylučuje tuto kombinaci předpokladů, **ne každou myslitelnou teorii se skrytými proměnnými**. Za průkopnické experimenty s provázanými fotony získali Alain Aspect, John Clauser a Anton Zeilinger Nobelovu cenu za fyziku v roce 2022."
+   },
+   {
+    "heading": "Proč nelze odeslat okamžitou zprávu",
+    "body": "Představme si, že chce Alice změnou měření poslat Bobovi nulu nebo jedničku. Nemůže však ovládat náhodný výsledek na své straně tak, aby tím Bobovi vytvořila čitelnou zprávu. Bobovy místní výsledky samy neprozradí, jaké měření Alice zvolila.\n\nSouvislost odhalí až porovnáním obou záznamů běžným komunikačním kanálem. Ten podléhá omezení rychlostí světla. Ani kvantová teleportace tento požadavek neobchází: přenáší kvantový stav pomocí provázání a klasické zprávy, nikoli člověka nebo částici okamžitě na dálku."
+   },
+   {
+    "heading": "K čemu je provázání užitečné",
+    "body": "Provázání je prostředek pro některé kvantové výpočty, komunikační protokoly i přesná měření. Je ale citlivé na nežádoucí interakce s okolím. Neznamená, že každá dvojice částic je užitečně provázaná nebo že libovolné vzdálené předměty spolu takto komunikují.\n\nPro první orientaci pomůže rozlišovat tři pojmy: [vlnová funkce](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html) popisuje stav, [superpozice](https://kosmonovinky.cz/kosmopedie/co-je-superpozice-a-co-se-deje-pri-mereni.html) skládá možnosti vzhledem ke zvolenému měření a provázání se týká společného stavu více soustav. Patří do stejné teorie, ale každý z nich odpovídá na jinou otázku."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [Nobelova cena 2022: vysvětlení Bellových experimentů](https://www.nobelprize.org/prizes/physics/2022/popular-information/)\n- [NIST: Bellův test s provázanými fotony](https://www.nist.gov/publications/bell-violation-using-entangled-photons-without-fair-sampling-assumption)\n- [IBM: společné stavy a Bellovy dvojice](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/multiple-systems/quantum-information)\n- [NIST: provázání a omezení přenosu zpráv](https://www.nist.gov/blogs/taking-measure/quantum-leap-forward-how-tiny-particles-can-bring-us-exciting-new-tech)\n- [IBM: redukovaný stav a nemožnost nadsvětelné komunikace](https://quantum.cloud.ibm.com/learning/en/courses/general-formulation-of-quantum-information/density-matrices/introduction)"
+   }
+  ],
+  "why_box": "Provázání se projevuje ve společné statistice vhodných měření. Pouhá shoda dvou výsledků ho neprokazuje a náhodný výsledek na jedné straně nelze použít jako ovladatelnou nadsvětelnou zprávu.",
+  "related_explainery": [
+   "co-je-kvantova-mechanika",
+   "co-je-superpozice-a-co-se-deje-pri-mereni",
+   "co-je-vlnova-funkce-a-co-nam-rika-o-castici",
+   "co-je-standardni-model-casticove-fyziky"
+  ]
  }
 ]

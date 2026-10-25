@@ -29,6 +29,7 @@ from build_static import (FALLBACK_THEME, THEME_LABEL, esc, fmt_date, fmt_iso_da
 
 # Kosmopedie may introduce a subject before it has its own news category.
 KOSMOPEDIE_THEMES = {
+    'kvantovy-svet': 'Kvantový svět',
     'svetlo-a-mereni-vesmiru': 'Světlo a měření vesmíru',
     'rozpinani-a-modely-vesmiru': 'Rozpínání a modely vesmíru',
     'castice-a-zakladni-sily': 'Částice a základní síly',

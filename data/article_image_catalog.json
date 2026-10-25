@@ -4530,5 +4530,229 @@
       "https://esawebb.org/about/general/spectroscopy-with-webb/",
       "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
     ]
+  },
+  {
+    "topic": "kvantova-gravitace",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kvantova-gravitace",
+      "kvantovy-svet"
+    ],
+    "id": "schema-kvantove-hladiny",
+    "title": "Kvantové hladiny a světlo",
+    "diagram": "quantum-levels",
+    "source_id": "own-diagram:quantum-levels",
+    "source_family": "own-diagram:quantum-levels",
+    "alt": "Kvantové hladiny a světlo – vlastní názorné schéma",
+    "caption": "Modelové energetické hladiny vázaného elektronu a přechody s pohlcením nebo emisí fotonu. Energie fotonu odpovídá rozdílu hladin. Rozestupy jsou pouze názorné, nejde o spektrum konkrétního atomu ani o jeho prostorové dráhy.",
+    "thumbnail": "assets/article-images/thumbs/schema-kvantove-hladiny.webp",
+    "source_master": "assets/article-images/sources/schema-kvantove-hladiny.jpg",
+    "match_keywords": [
+      "kvantová mechanika",
+      "quantum mechanics"
+    ],
+    "reference_urls": [
+      "https://www.nist.gov/blogs/taking-measure/5-concepts-can-help-you-understand-quantum-mechanics-and-technology-without",
+      "https://www.feynmanlectures.caltech.edu/III_01.html",
+      "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec01/",
+      "https://science.nasa.gov/universe/overview/",
+      "https://arxiv.org/abs/1312.7340"
+    ]
+  },
+  {
+    "topic": "kvantova-gravitace",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kvantova-gravitace",
+      "kvantovy-svet"
+    ],
+    "id": "schema-kvantova-pravdepodobnost",
+    "title": "Kde zachytíme elektron?",
+    "diagram": "quantum-probability",
+    "source_id": "own-diagram:quantum-probability",
+    "source_family": "own-diagram:quantum-probability",
+    "alt": "Kde zachytíme elektron? – vlastní názorné schéma",
+    "caption": "Vlastní početní příklad pravděpodobnosti nálezu jednoho elektronu ve čtyřech nepřekrývajících se oblastech detektoru. Sloupce ukazují pravděpodobnosti celých oblastí, nikoli hustotu v jednotlivých bodech. Nejde o naměřené počty zásahů.",
+    "thumbnail": "assets/article-images/thumbs/schema-kvantova-pravdepodobnost.webp",
+    "source_master": "assets/article-images/sources/schema-kvantova-pravdepodobnost.jpg",
+    "match_keywords": [
+      "vlnová funkce",
+      "wavefunction"
+    ],
+    "reference_urls": [
+      "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec03/",
+      "https://www.feynmanlectures.caltech.edu/III_03.html",
+      "https://www.feynmanlectures.caltech.edu/III_02.html",
+      "https://quantum.cloud.ibm.com/learning/en/courses/general-formulation-of-quantum-information/density-matrices/introduction"
+    ]
+  },
+  {
+    "topic": "kvantova-gravitace",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kvantova-gravitace",
+      "kvantovy-svet"
+    ],
+    "id": "schema-superpozice-interference",
+    "title": "Superpozice, interference a měření",
+    "diagram": "quantum-interference",
+    "source_id": "own-diagram:quantum-interference",
+    "source_family": "own-diagram:quantum-interference",
+    "alt": "Superpozice, interference a měření – vlastní názorné schéma",
+    "caption": "Schematické srovnání ideálního vyváženého dvoucestného interferometru. Bez záznamu cesty a při vhodném nastavení fáze končí foton vždy na jednom výstupu. Spolehlivá informace o cestě potlačí interferenci a dá pravděpodobnosti výstupů 50 % a 50 %. Nejde o konstrukční výkres optické sestavy.",
+    "thumbnail": "assets/article-images/thumbs/schema-superpozice-interference.webp",
+    "source_master": "assets/article-images/sources/schema-superpozice-interference.jpg",
+    "match_keywords": [
+      "superpozice",
+      "dekoherence",
+      "superposition"
+    ],
+    "reference_urls": [
+      "https://quantum.cloud.ibm.com/learning/en/modules/quantum-mechanics/superposition-with-qiskit",
+      "https://quantum.cloud.ibm.com/learning/en/courses/use-a-qc-today/quantum-mechanics-basics",
+      "https://www.feynmanlectures.caltech.edu/III_03.html",
+      "https://quantum.cloud.ibm.com/learning/en/courses/tools-for-quantum-advantage/noise-and-errors",
+      "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec01/"
+    ]
+  },
+  {
+    "topic": "kvantova-gravitace",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kvantova-gravitace",
+      "kvantovy-svet"
+    ],
+    "id": "schema-kvantova-neurcitost",
+    "title": "Poloha a hybnost: kvantová neurčitost",
+    "diagram": "quantum-uncertainty",
+    "source_id": "own-diagram:quantum-uncertainty",
+    "source_family": "own-diagram:quantum-uncertainty",
+    "alt": "Poloha a hybnost: kvantová neurčitost – vlastní názorné schéma",
+    "caption": "Dvě modelové dvojice Gaussových rozdělení polohy a hybnosti. Užšímu rozdělení polohy odpovídá širší rozdělení hybnosti a naopak. Osy mají v každém sloupci stejné měřítko; stupnice jsou bez jednotek a křivky nejsou naměřená data. Šířky obou dvojic mají stejný součin.",
+    "thumbnail": "assets/article-images/thumbs/schema-kvantova-neurcitost.webp",
+    "source_master": "assets/article-images/sources/schema-kvantova-neurcitost.jpg",
+    "match_keywords": [
+      "princip neurčitosti",
+      "Heisenberg"
+    ],
+    "reference_urls": [
+      "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec04/",
+      "https://www.feynmanlectures.caltech.edu/III_02.html",
+      "https://arxiv.org/abs/quant-ph/0609185",
+      "https://www.nist.gov/blogs/taking-measure/5-concepts-can-help-you-understand-quantum-mechanics-and-technology-without"
+    ]
+  },
+  {
+    "topic": "kvantova-gravitace",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kvantova-gravitace",
+      "kvantovy-svet"
+    ],
+    "id": "schema-kvantove-provazani",
+    "title": "Provázání: společné výsledky měření",
+    "diagram": "quantum-entanglement",
+    "source_id": "own-diagram:quantum-entanglement",
+    "source_family": "own-diagram:quantum-entanglement",
+    "alt": "Provázání: společné výsledky měření – vlastní názorné schéma",
+    "caption": "Ideální provázaná dvojice ve vyvážené soudržné kombinaci 00 a 11: při měření v zobrazené bázi mají oba společné výsledky pravděpodobnost 50 %. Tato jediná báze sama provázání neprokazuje; k odlišení od obyčejné statistické směsi jsou potřeba další vhodně zvolená měření.",
+    "thumbnail": "assets/article-images/thumbs/schema-kvantove-provazani.webp",
+    "source_master": "assets/article-images/sources/schema-kvantove-provazani.jpg",
+    "match_keywords": [
+      "kvantové provázání",
+      "entanglement"
+    ],
+    "reference_urls": [
+      "https://www.nobelprize.org/prizes/physics/2022/popular-information/",
+      "https://www.nist.gov/publications/bell-violation-using-entangled-photons-without-fair-sampling-assumption",
+      "https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/multiple-systems/quantum-information",
+      "https://www.nist.gov/blogs/taking-measure/quantum-leap-forward-how-tiny-particles-can-bring-us-exciting-new-tech",
+      "https://quantum.cloud.ibm.com/learning/en/courses/general-formulation-of-quantum-information/density-matrices/introduction"
+    ]
   }
 ]

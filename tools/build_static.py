@@ -309,6 +309,11 @@ EXPLAINER_PATTERNS = {
     'exp-037': r'chemick\w* slozen\w*|chemical composition|\bmetalic\w*|metallicity|molekul\w*.*atmosfer\w*',
     'exp-038': r'rud\w* posuv\w*|modr\w* posuv\w*|\bredshift\w*|\bblueshift\w*',
     'exp-039': r'jades.gs.z14.0|3c.?273|j1030.0524',
+    'exp-040': r'kvantov\w* mechanik\w*|quantum mechanics',
+    'exp-041': r'vlnov\w* funkc\w*|wave.?function\w*|pravdepodobnostn\w* amplitud\w*',
+    'exp-042': r'\bsuperpozic\w*|\bsuperposition\w*|\bdekoherenc\w*|\bdecoherence\w*',
+    'exp-043': r'\bheisenberg\w*|princip\w* neurcitost\w*|uncertainty principle',
+    'exp-044': r'kvantov\w* provazan\w*|\bentangle\w*|bellov\w* nerovnost\w*',
 }
 
 
