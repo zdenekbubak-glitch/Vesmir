@@ -114,7 +114,7 @@ CSS = """
     .theme-card a { color: var(--accent); font-weight: 600; text-decoration: none; }
     .theme-card .count { color: var(--muted); font-size: .85rem; }
     .back { margin-top: 1.5rem; font-size: .9rem; }
-    .post-nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; font-size: .95rem; }
+    .post-nav { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid #1e293b; padding-top: 1rem; margin-top: 1.5rem; font-size: .95rem; }
     .post-nav .next { margin-left: auto; }
     .back a { color: var(--accent); }
     .search-box { width: 100%; padding: .35rem .85rem; margin: .6rem 0 1.2rem; border: 1px solid #1e293b; border-radius: 10px; background: var(--card); color: var(--text); font-size: .95rem; outline: none; }
@@ -799,7 +799,7 @@ def main():
       {image_figure(article_image)}
       <p class="summary">{esc(summary)}</p>
 {lang_note}      <a class="original-source" href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
-{context_html}{nav_html}{rel_html}{NEWSLETTER_CTA}    </article>
+{context_html}{rel_html}{NEWSLETTER_CTA}{nav_html}    </article>
         <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>
 '''
         page += FOOT
