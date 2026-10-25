@@ -1819,38 +1819,42 @@
   "id": "exp-045",
   "title": "Co je kvantová teorie pole?",
   "theme": "kvantovy-svet",
-  "description": "Jak fyzika popisuje vznik, zánik a vzájemné působení částic? Kvantová teorie pole propojuje kvantová pravidla se speciální relativitou.",
+  "description": "Kvantová teorie pole je základem současného popisu částic a jejich působení. Jak souvisí s atomy, vlastnostmi materiálů a raným vesmírem?",
   "published": "2026-10-25",
   "updated": "2026-10-25",
-  "perex": "V atomu často vystačíme s popisem několika částic. Při srážce v urychlovači ale mohou vzniknout úplně jiné částice, než které do ní vstoupily. Kvantová teorie pole poskytuje pravidla, podle nichž takové děje počítáme.",
+  "perex": "Kvantová teorie pole tvoří základ současného fyzikálního popisu elementárních částic a jejich vzájemného působení. Hmotu i záření popisuje prostřednictvím kvantových polí, jejichž jednotlivá kvanta pozorujeme jako částice. Pomáhá vysvětlovat děje v atomech, vlastnosti materiálů i vývoj raného vesmíru.",
   "sections": [
    {
-    "heading": "Když se počet částic může měnit",
-    "body": "Představme si elektron a jeho antičástici, **pozitron**. Mají stejnou hmotnost, ale opačný elektrický náboj. Při setkání mohou zaniknout a vzniknou například dva fotony, tedy částice světla. Výchozí i výsledná sestava vypadá jinak; zákony zachování přitom platí dál.\n\nBěžný úvod do kvantové mechaniky často sleduje jednu částici ve zvoleném prostředí, například elektron v atomu. Pro reakce s proměnlivým počtem částic potřebujeme obecnější popis. Právě ten nabízí kvantová teorie pole, zkráceně **QFT** z anglického quantum field theory."
+    "heading": "Základ současného popisu mikrosvěta",
+    "body": "Z čeho se skládá hmota a jak na sebe její nejmenší složky působí? **Kvantová teorie pole** nabízí společný jazyk pro hledání odpovědí. Vychází z polí, která popisujeme v prostoru a čase. Elektron, foton nebo kvark představují kvanta příslušných polí. Podrobněji tento vztah vysvětluje [téma o částicích a polích](https://kosmonovinky.cz/kosmopedie/jak-souviseji-castice-a-kvantova-pole.html).\n\nNa tomto základě stojí [standardní model částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html), náš současný popis známých elementárních částic a elektromagnetického, slabého a silného působení. Označení **QFT** je zkratkou anglického quantum field theory."
    },
    {
     "heading": "Tři stavební kameny",
-    "body": "**Pole** popisují fyzikální veličiny v prostoru a čase. **Kvantová pravidla** určují možné stavy a pravděpodobnosti výsledků měření. **Speciální relativita** zajišťuje soulad s pravidly prostoru a času při vysokých rychlostech, včetně omezení přenosu signálů rychlostí světla.\n\nSpojením těchto myšlenek získáme jazyk, v němž jsou částice kvanty příslušných polí. Pole mohou mezi sebou předávat energii a umožňovat vznik a zánik částic. Co přesně si pod tím představit, vysvětluje [navazující téma o částicích a polích](https://kosmonovinky.cz/kosmopedie/jak-souviseji-castice-a-kvantova-pole.html)."
+    "body": "**Pole** umožňují popsat fyzikální veličiny napříč prostorem a časem. **Kvantová pravidla** určují možné stavy soustavy a pravděpodobnosti výsledků měření. V relativistické podobě se k nim přidává **speciální relativita**, takže popis zůstává použitelný i při rychlostech blízkých rychlosti světla.\n\nVýsledkem je rámec, v němž můžeme popisovat vlastnosti částic, jejich vzájemné působení i vznik a zánik částic. Jednotlivé konkrétní teorie určují, která pole uvažujeme a jak spolu interagují."
    },
    {
-    "heading": "Příklad: dvě částice se změní ve světlo",
-    "body": "Vraťme se k reakci **elektron + pozitron → dva fotony**. Celkový elektrický náboj byl před reakcí nulový a zůstane nulový. Energie obou fotonů dohromady odpovídá celkové počáteční energii včetně klidové energie částic. Zachovává se také hybnost.\n\nPokud má dvojice před reakcí nulovou celkovou hybnost, dva vzniklé fotony odletí opačnými směry se stejnými energiemi. Schéma níže ukazuje právě tento případ. QFT navíc umožní spočítat, s jakou pravděpodobností reakce proběhne a jak závisí na podmínkách pokusu.",
+    "heading": "Od atomů a materiálů k ranému vesmíru",
+    "body": "Kvantová elektrodynamika, jedna z konkrétních kvantových teorií pole, popisuje elektromagnetické působení včetně vztahu světla a nabitých částic. Umožňuje například velmi přesně počítat drobné posuny energetických hladin v atomech. Změny těchto hladin můžeme ověřovat pomocí [spektrálních čar](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html).\n\nMetody kvantové teorie pole se používají také při studiu **materiálů**: například supravodivosti nebo společného chování velkého množství elektronů. Zde pole mohou popisovat i kolektivní projevy mnoha částic, podobně jako zvuková vlna zachycuje společný pohyb atomů.\n\nV **raném vesmíru** zase pomáhají počítat přeměny částic a vývoj horké látky při rozpínání a ochlazování. Pro řadu běžných atomových a chemických úloh přitom postačuje jednodušší popis pomocí kvantové mechaniky."
+   },
+   {
+    "heading": "Jeden názorný příklad: dvě částice se změní ve světlo",
+    "body": "Elektron a jeho antičástice, **pozitron**, mají stejnou hmotnost, ale opačný elektrický náboj. Při setkání se mohou přeměnit ve dva fotony, tedy částice světla: **elektron + pozitron → dva fotony**. Kvantová teorie pole umožňuje spočítat pravděpodobnost této reakce a vlastnosti vzniklého záření.\n\nZachovává se celková energie, hybnost i elektrický náboj. Pokud má dvojice před reakcí nulovou celkovou hybnost, vzniklé dva fotony odletí opačnými směry se stejnými energiemi. Jejich součet zahrnuje i původní klidovou energii elektronu a pozitronu. Obrázek níže ukazuje tento konkrétní případ.",
     "image_id": "schema-anihilace-dva-fotony"
    },
    {
-    "heading": "Od výpočtu k detektoru",
-    "body": "Fyzici si při výpočtech pomáhají **Feynmanovými diagramy**. Jejich čáry a uzly označují matematické příspěvky k dané reakci; nejde o fotografie skutečných drah částic. Výsledek výpočtu lze porovnat například s počtem a energiemi částic zaznamenaných detektorem.\n\nNa tomto základě stojí [standardní model částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html). Jeho jednotlivé teorie popisují elektromagnetické, slabé a silné působení. Zkoumá je mimo jiné [urychlovač LHC](https://kosmonovinky.cz/kosmopedie/co-je-lhc-a-jak-souvisi-s-kosmologii.html)."
+    "heading": "Jak porovnáváme teorii se skutečností",
+    "body": "Předpovědi ověřujeme například přesným měřením vlastností elektronu a atomových spekter nebo porovnáním produktů částicových reakcí s výpočtem. Různé pokusy tak prověřují různé stránky téhož fyzikálního základu.\n\nSrážky na [urychlovači LHC](https://kosmonovinky.cz/kosmopedie/co-je-lhc-a-jak-souvisi-s-kosmologii.html) jsou jedním z těchto testů. Umožňují soustředit velkou energii do malého prostoru, vytvářet těžké částice a zkoumat, zda jejich vlastnosti odpovídají předpovědím standardního modelu."
    },
    {
-    "heading": "Proč to zajímá kosmology",
-    "body": "V raném horkém vesmíru probíhaly srážky, vznik částic i jejich přeměny neustále. Teorie pole pomáhá počítat, jak rychle takové reakce probíhaly, a tím i to, jak se měnilo složení vesmíru.\n\nSamotná QFT však není jednou hotovou teorií všech přírodních zákonů. Je to rámec pro tvorbu konkrétních teorií. Začlenění gravitace v nejextrémnějších podmínkách zůstává samostatnou otevřenou otázkou."
+    "heading": "Co stále zůstává otevřené",
+    "body": "Kvantová teorie pole patří k nejúspěšnějším základům současné fyziky. Je to však **rámec pro konkrétní teorie**, nikoli jedna dokončená odpověď na všechny otázky o přírodě. Standardní model například neurčuje, co tvoří temnou hmotu.\n\nÚplný a experimentálně potvrzený popis kvantových vlastností gravitace v nejextrémnějších podmínkách také dosud chybí. Na tuto otázku navazuje [téma o kvantové gravitaci](https://kosmonovinky.cz/kosmopedie/co-je-kvantova-gravitace-a-proc-ji-hledame.html)."
    },
    {
     "heading": "Zdroje a další čtení",
-    "body": "- [David Tong, Cambridge: úvod do klasických a kvantových polí](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft1.pdf)\n- [David Tong: interakce, reakce a Feynmanovy diagramy](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft3.pdf)\n- [CERN: kvantová pole a Higgsův boson](https://home.cern/science/physics/higgs-boson/what/)\n- [MIT, Hong Liu: proč potřebujeme kvantovou teorii pole](https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture03_2023feb13_mp4/)"
+    "body": "- [MFF UK, přednášky 2025: kvantová pole a jejich experimentální ověřování](https://utf.mff.cuni.cz/popularizace/PMF/Pmf25.htm)\n- [Perimeter Institute, 2025: současný význam kvantové teorie pole](https://perimeterinstitute.ca/news/25-years-quantum-fields-and-strings)\n- [Max Planck Institute of Quantum Optics, 2026: ověřování standardního modelu pomocí atomu vodíku](https://www.mpq.mpg.de/7234081/sub-part-per-trillion-test-of-the-standard-model-with-atomic-hydrogen)\n- [J. He, W.-T. Lin a J. A. Sauls, 2025: teorie pole při studiu supravodičů](https://repository.lsu.edu/physics_astronomy_pubs/7204/)\n- [CERN: kvantová pole a Higgsův boson](https://home.cern/science/physics/higgs-boson/what/)"
    }
   ],
-  "why_box": "Kvantová teorie pole umožňuje počítat i děje, při nichž částice vznikají a zanikají. Počet částic se může změnit, energie, hybnost a elektrický náboj se při popsané reakci zachovávají.",
+  "why_box": "Kvantová teorie pole tvoří základ současného popisu elementárních částic a jejich vzájemného působení. Její využití sahá od přesných výpočtů v atomech přes vlastnosti materiálů až po raný vesmír. Urychlovače představují jeden ze způsobů, jak její předpovědi ověřujeme.",
   "related_explainery": [
    "jak-souviseji-castice-a-kvantova-pole",
    "co-je-standardni-model-casticove-fyziky",
