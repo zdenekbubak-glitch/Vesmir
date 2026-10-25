@@ -1911,27 +1911,31 @@
   "id": "exp-047",
   "title": "Co je kvantové vakuum?",
   "theme": "kvantovy-svet",
-  "description": "Prázdný prostor není totéž co fyzikální nic. Co znamená nejnižší energetický stav polí a co nám skutečně ukazuje Casimirův jev?",
+  "description": "Co lze skutečně měřit v kvantovém vakuu? Rozptyl výsledků, význam obrázku a Casimirova síla mezi blízkými vodivými povrchy.",
   "published": "2026-10-25",
   "updated": "2026-10-25",
-  "perex": "Odčerpejme z nádoby plyn a odstiňme přicházející záření. Přiblížíme se vakuu, ale neodstraníme samotná kvantová pole. Jejich nejnižší energetický stav má vlastnosti, které se od běžné představy naprosté prázdnoty liší.",
+  "perex": "I prostor bez plynu a světla má fyzikální vlastnosti. Kvantové vakuum označuje nejnižší energetický stav polí za daných podmínek. Citlivé experimenty umožňují zkoumat jejich kvantové kolísání i síly, které vznikají mezi blízkými povrchy.",
   "sections": [
    {
     "heading": "Prázdno má stále svůj fyzikální stav",
-    "body": "V laboratoři znamená vakuum především prostor s velmi malým množstvím plynu. **Kvantové vakuum je nejnižší energetický stav polí za daných podmínek.** V jednoduchém popisu volného pole neobsahuje žádné jeho částice. Samotné pole však zůstává součástí fyzikálního popisu.\n\nPředstavme si divadelní sál s návštěvníky. **Sál představuje pole, návštěvníci částice**. Když všichni odejdou, sál zůstane stát — prázdné divadlo nepřestává existovat. Podobně odstraněním částic z určité oblasti prostoru nezmizí samotná kvantová pole. Jejich nejnižší energetický stav za daných podmínek označujeme jako **kvantové vakuum**."
+    "body": "V laboratoři znamená vakuum především prostor s velmi malým množstvím plynu. V kvantovém popisu se navíc ptáme, v jakém stavu se v této oblasti nacházejí fyzikální pole.\n\nPředstavme si divadelní sál s návštěvníky. **Sál představuje pole, návštěvníci částice**. Když všichni odejdou, sál zůstane stát — prázdné divadlo nepřestává existovat. Podobně odstraněním částic z určité oblasti prostoru nezmizí samotná kvantová pole. Jejich nejnižší energetický stav za daných podmínek označujeme jako **kvantové vakuum**. V jednoduchém popisu volného pole v tomto stavu nejsou žádné jeho částice."
    },
    {
-    "heading": "Nejnižší energie a rozptyl výsledků",
-    "body": "Pro jednoduchý model si představme **kvantový oscilátor**, tedy kvantovou obdobu pružiny se závažím. Ani v nejnižším energetickém stavu nemají jeho poloha a hybnost současně přesně nulový rozptyl. Platí [princip neurčitosti](https://kosmonovinky.cz/kosmopedie/co-rika-heisenberguv-princip-neurcitosti.html).\n\nPodobně mají i vhodné měřené veličiny kvantového pole ve vakuu nenulové rozptyly. Mluvíme o **vakuových fluktuacích**. Tento pojem označuje kvantové vlastnosti stavu; nepotřebujeme si je představovat jako drobné kuličky, které se neustále rodí a zase mizí. Obrázek nahoře ukazuje modelový oscilátor, nikoli průběh skutečného pole v čase."
+    "heading": "Co ukazuje obrázek nahoře",
+    "body": "Představme si velmi malé závaží na pružině, které se řídí kvantovými pravidly. Takové soustavě říkáme **kvantový oscilátor**. Připravíme ji v nejnižším energetickém stavu a změříme polohu závaží. Potom soustavu znovu připravíme stejně a měření mnohokrát zopakujeme.\n\n**Výsledkem budou různé polohy rozložené kolem rovnovážného bodu.** Právě jejich rozdělení znázorňuje obrázek. Vodorovná osa ukazuje možné polohy, výška křivky vyjadřuje hustotu pravděpodobnosti: kde je křivka vyšší, tam závaží častěji zachytíme v malém okolí dané polohy.\n\nŠířka křivky tedy vyjadřuje rozptyl výsledků opakovaných měření, nikoli pohyb závaží v čase. Nenulový rozptyl zůstává i v základním stavu a souvisí s [principem neurčitosti](https://kosmonovinky.cz/kosmopedie/co-rika-heisenberguv-princip-neurcitosti.html)."
    },
    {
-    "heading": "Co se děje mezi blízkými deskami",
-    "body": "Dvě vodivé, elektricky neutrální desky velmi blízko sebe mohou přitahovat měřitelnou silou. To je jeden z příkladů **Casimirova jevu**. Výsledek závisí na vzdálenosti, geometrii, teplotě a vlastnostech materiálu.\n\nDesky mění podmínky elektromagnetického pole. Sílu lze počítat pomocí změny energie soustavy, ale také prostřednictvím kvantových interakcí nábojů a proudů v materiálech. Samotné měření proto nedokazuje doslovný obraz „částic vyskakujících z ničeho“. Zkoumáme konkrétní fyzikální působení mezi tělesy.",
+    "heading": "Co měříme u samotného pole",
+    "body": "U elektromagnetického vakua zkoumáme místo polohy závaží například **elektrické pole**. I bez přítomných fotonů mají vhodně zvolená měření jeho elektrické složky nenulový kvantový rozptyl. Tento projev nazýváme **vakuovými fluktuacemi**.\n\nV citlivých optických experimentech vědci používají krátké laserové pulzy jako sondy. Interakce s polem ovlivní jejich polarizaci, tedy orientaci elektrického kmitání světla. Z mnoha měření lze určit kvantové kolísání pole i souvislosti mezi výsledky na různých místech a v různých časech. Tepelné záření a šum přístrojů je přitom třeba oddělit od hledaného příspěvku vakua."
+   },
+   {
+    "heading": "Co konkrétně měříme mezi blízkými povrchy",
+    "body": "Dvě blízké vodivé, elektricky neutrální desky mohou být přitahovány **Casimirovou silou**. Obrázek níže ukazuje směr tohoto působení. V experimentu sledujeme mechanický účinek: například drobnou deformaci pružného závěsu nebo změnu frekvence jeho kmitání. Měřením při různých vzdálenostech zjistíme, jak se působení mění.\n\nVodivé povrchy ovlivňují možné způsoby kmitání elektromagnetického pole. Pole a náboje v materiálu spolu interagují, a **energie celé soustavy proto závisí na vzdálenosti povrchů**. V jednoduchém případě dvou rovnoběžných vodivých desek se při jejich přibližování snižuje, což se projevuje přitažlivou silou.\n\nNaměřenou sílu porovnáváme s kvantovým výpočtem. Pro přesnou shodu je třeba zohlednit také materiál, tvar povrchů a teplotu.",
     "image_id": "schema-casimirovy-desky"
    },
    {
-    "heading": "Odkud se vezme energie skutečných částic",
-    "body": "V populárních vysvětleních se někdy říká, že si vakuum na chvíli půjčuje energii. Takové přirovnání snadno zavádí. **Princip neurčitosti není povolení porušit zákon zachování energie.**\n\nPokud experiment vytváří skutečné částice například působením proměnného vnějšího pole, musí jejich energie pocházet ze zdroje, který podmínky mění. Také Casimirova přitažlivost neposkytuje nevyčerpatelnou energii: chceme-li desky opět oddálit a pokus zopakovat, musíme vykonat práci."
+    "heading": "Odkud se vezme energie vznikajících částic",
+    "body": "Vhodnou změnou vnějších podmínek můžeme vyvolat také vznik skutečných fotonů. **Jejich energii dodává zařízení, které podmínky mění.** Příkladem je dynamický Casimirův jev: při rychlé změně podmínek elektromagnetického pole přechází část dodané energie do vzniklého záření.\n\nTaké při přiblížení přitahujících se desek se může uvolnit energie. Abychom je však znovu oddálili a pokus zopakovali, musíme vykonat práci. Energetická bilance zahrnuje celý cyklus."
    },
    {
     "heading": "Souvisí vakuum s temnou energií?",
@@ -1939,10 +1943,10 @@
    },
    {
     "heading": "Zdroje a další čtení",
-    "body": "- [David Tong: kvantový oscilátor, vakuum a energie pole](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf)\n- [R. L. Jaffe: Casimirův jev a kvantové vakuum](https://arxiv.org/abs/hep-th/0503158)\n- [NASA: temná energie a možnost energie vakua](https://science.nasa.gov/dark-energy/)\n- [C. M. Wilson a kol.: vznik fotonů při dynamickém Casimirově jevu](https://arxiv.org/abs/1105.4714)"
+    "body": "- [David Tong: kvantový oscilátor, vakuum a energie pole](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf)\n- [R. L. Jaffe: Casimirův jev a kvantové vakuum](https://arxiv.org/abs/hep-th/0503158)\n- [NASA: temná energie a možnost energie vakua](https://science.nasa.gov/dark-energy/)\n- [C. M. Wilson a kol.: vznik fotonů při dynamickém Casimirově jevu](https://arxiv.org/abs/1105.4714)\n- [ETH Zürich, 2026: měření vakuových fluktuací pomocí laserových pulzů](https://www.research-collection.ethz.ch/entities/publication/f6f357cb-24a4-4ab0-9190-0e4dcbc2bb7f)\n- [Výzkumný projekt ANR: měření Casimirovy síly pomocí pružného nosníku](https://anr.fr/Project-ANR-20-CE30-0008)"
    }
   ],
-  "why_box": "Kvantové vakuum je fyzikální stav polí s nejnižší energií za zvolených podmínek. Má kvantové rozptyly, ale není zásobárnou energie, kterou bychom mohli čerpat bez omezení.",
+  "why_box": "Kvantové vakuum je nejnižší energetický stav polí za daných podmínek. Jeho vlastnosti zkoumáme prostřednictvím kvantového rozptylu a souvislostí mezi výsledky optických měření. U Casimirova jevu měříme mechanickou sílu mezi povrchy a její závislost na vzdálenosti.",
   "related_explainery": [
    "jak-souviseji-castice-a-kvantova-pole",
    "co-rika-heisenberguv-princip-neurcitosti",
