@@ -1814,5 +1814,215 @@
    "co-je-vlnova-funkce-a-co-nam-rika-o-castici",
    "co-je-standardni-model-casticove-fyziky"
   ]
+ },
+ {
+  "id": "exp-045",
+  "title": "Co je kvantová teorie pole?",
+  "theme": "kvantovy-svet",
+  "description": "Jak fyzika popisuje vznik, zánik a vzájemné působení částic? Kvantová teorie pole propojuje kvantová pravidla se speciální relativitou.",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "V atomu často vystačíme s popisem několika částic. Při srážce v urychlovači ale mohou vzniknout úplně jiné částice, než které do ní vstoupily. Kvantová teorie pole poskytuje pravidla, podle nichž takové děje počítáme.",
+  "sections": [
+   {
+    "heading": "Když se počet částic může měnit",
+    "body": "Představme si elektron a jeho antičástici, **pozitron**. Mají stejnou hmotnost, ale opačný elektrický náboj. Při setkání mohou zaniknout a vzniknou například dva fotony, tedy částice světla. Výchozí i výsledná sestava vypadá jinak; zákony zachování přitom platí dál.\n\nBěžný úvod do kvantové mechaniky často sleduje jednu částici ve zvoleném prostředí, například elektron v atomu. Pro reakce s proměnlivým počtem částic potřebujeme obecnější popis. Právě ten nabízí kvantová teorie pole, zkráceně **QFT** z anglického quantum field theory."
+   },
+   {
+    "heading": "Tři stavební kameny",
+    "body": "**Pole** popisují fyzikální veličiny v prostoru a čase. **Kvantová pravidla** určují možné stavy a pravděpodobnosti výsledků měření. **Speciální relativita** zajišťuje soulad s pravidly prostoru a času při vysokých rychlostech, včetně omezení přenosu signálů rychlostí světla.\n\nSpojením těchto myšlenek získáme jazyk, v němž jsou částice kvanty příslušných polí. Pole mohou mezi sebou předávat energii a umožňovat vznik a zánik částic. Co přesně si pod tím představit, vysvětluje [navazující téma o částicích a polích](https://kosmonovinky.cz/kosmopedie/jak-souviseji-castice-a-kvantova-pole.html)."
+   },
+   {
+    "heading": "Příklad: dvě částice se změní ve světlo",
+    "body": "Vraťme se k reakci **elektron + pozitron → dva fotony**. Celkový elektrický náboj byl před reakcí nulový a zůstane nulový. Energie obou fotonů dohromady odpovídá celkové počáteční energii včetně klidové energie částic. Zachovává se také hybnost.\n\nPokud má dvojice před reakcí nulovou celkovou hybnost, dva vzniklé fotony odletí opačnými směry se stejnými energiemi. Schéma níže ukazuje právě tento případ. QFT navíc umožní spočítat, s jakou pravděpodobností reakce proběhne a jak závisí na podmínkách pokusu.",
+    "image_id": "schema-anihilace-dva-fotony"
+   },
+   {
+    "heading": "Od výpočtu k detektoru",
+    "body": "Fyzici si při výpočtech pomáhají **Feynmanovými diagramy**. Jejich čáry a uzly označují matematické příspěvky k dané reakci; nejde o fotografie skutečných drah částic. Výsledek výpočtu lze porovnat například s počtem a energiemi částic zaznamenaných detektorem.\n\nNa tomto základě stojí [standardní model částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html). Jeho jednotlivé teorie popisují elektromagnetické, slabé a silné působení. Zkoumá je mimo jiné [urychlovač LHC](https://kosmonovinky.cz/kosmopedie/co-je-lhc-a-jak-souvisi-s-kosmologii.html)."
+   },
+   {
+    "heading": "Proč to zajímá kosmology",
+    "body": "V raném horkém vesmíru probíhaly srážky, vznik částic i jejich přeměny neustále. Teorie pole pomáhá počítat, jak rychle takové reakce probíhaly, a tím i to, jak se měnilo složení vesmíru.\n\nSamotná QFT však není jednou hotovou teorií všech přírodních zákonů. Je to rámec pro tvorbu konkrétních teorií. Začlenění gravitace v nejextrémnějších podmínkách zůstává samostatnou otevřenou otázkou."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [David Tong, Cambridge: úvod do klasických a kvantových polí](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft1.pdf)\n- [David Tong: interakce, reakce a Feynmanovy diagramy](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft3.pdf)\n- [CERN: kvantová pole a Higgsův boson](https://home.cern/science/physics/higgs-boson/what/)\n- [MIT, Hong Liu: proč potřebujeme kvantovou teorii pole](https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture03_2023feb13_mp4/)"
+   }
+  ],
+  "why_box": "Kvantová teorie pole umožňuje počítat i děje, při nichž částice vznikají a zanikají. Počet částic se může změnit, energie, hybnost a elektrický náboj se při popsané reakci zachovávají.",
+  "related_explainery": [
+   "jak-souviseji-castice-a-kvantova-pole",
+   "co-je-standardni-model-casticove-fyziky",
+   "co-je-kvantove-vakuum",
+   "co-je-kvantova-gravitace-a-proc-ji-hledame"
+  ]
+ },
+ {
+  "id": "exp-046",
+  "title": "Jak souvisejí částice a kvantová pole?",
+  "theme": "kvantovy-svet",
+  "description": "Elektron a foton nejsou malé kuličky z téže látky. Jak je popisují kvantová pole a proč mají všechny elektrony stejné základní vlastnosti?",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Částice si snadno představíme jako drobné kuličky. Současná fyzika ale začíná u polí, která existují v prostoru. Elektron, foton nebo Higgsův boson jsou různé projevy různých kvantových polí.",
+  "sections": [
+   {
+    "heading": "Pole: údaj v každém místě",
+    "body": "Na mapě teplot přiřadíme každému místu určitou teplotu. U magnetu zase můžeme zkoumat, jak velké magnetické pole působí v různých místech a jakým směrem ukazuje. **Pole je způsob, jak popsat fyzikální veličinu napříč prostorem a časem.**\n\nTeplotní mapa je pomůcka k představě slova pole. Kvantová pole částic jsou základnější fyzikální objekty a jejich matematický popis je složitější než mapa jediného čísla."
+   },
+   {
+    "heading": "Částice jako kvantum pole",
+    "body": "U vodní hladiny umíme vyvolat vlnu. Podobně může i pole přejít do stavu s vyšší energií. V kvantové teorii mají jednotlivé způsoby jeho kmitání povolené přírůstky energie; těm odpovídají **kvanta**, která zachycujeme jako částice.\n\nFoton je kvantem elektromagnetického pole. Elektrony a pozitrony popisuje elektronové pole, Higgsův boson Higgsovo pole. Vodní vlna zde pomáhá představit si změnu stavu pole; například elektronové pole nemá podobu skutečně zvlněné kapaliny."
+   },
+   {
+    "heading": "Proč jsou všechny elektrony stejné",
+    "body": "Elektron v našem těle a elektron ve vzdálené galaxii mají stejný elektrický náboj a stejnou klidovou hmotnost. V teorii jde o částice téhož druhu, popsané stejným elektronovým polem. Tyto základní vlastnosti proto nejsou individuální výbavou každého elektronu.\n\nJednotlivé elektrony přitom mohou mít různé energie, hybnosti nebo různě připravené stavy spinu. Podobně jsou všechny fotony kvanty stejného pole, ale mohou nést různé množství energie."
+   },
+   {
+    "heading": "Více fotonů, nebo energetičtější fotony?",
+    "body": "Energie jednoho fotonu závisí na frekvenci světla: **E = h × f**, kde h je Planckova konstanta a f frekvence. Foton modrého světla má vyšší energii než foton červeného světla.\n\nKdyž zesílíme stejně barevný laser, obvykle zvýšíme především počet fotonů přicházejících za sekundu. Když změníme barvu k vyšší frekvenci, zvýšíme energii každého fotonu. **Počet částic a energie jedné částice jsou tedy dvě různé věci.** Vztah energie a barvy je důležitý i pro [spektrální čáry](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html)."
+   },
+   {
+    "heading": "A kam patří vlnová funkce?",
+    "body": "[Vlnová funkce](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html) popisuje kvantový stav a umožňuje spočítat pravděpodobnosti výsledků měření. Není totožná s elektronovým nebo elektromagnetickým polem. I stav kvantového pole se řídí kvantovými pravidly a detektor zachycuje jednotlivé události.\n\nZákladní vztah si tak můžeme shrnout: pole určuje, jaký druh částice popisujeme, zatímco stav říká, co o připravené soustavě můžeme předpovědět. Na výpočty reakcí mezi různými poli navazuje [kvantová teorie pole](https://kosmonovinky.cz/kosmopedie/co-je-kvantova-teorie-pole.html)."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [David Tong: kvantování polí a částice](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf)\n- [David Tong: elektronové pole, částice a antičástice](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft5.pdf)\n- [CERN: pole a jejich kvanta](https://home.cern/science/physics/higgs-boson/what/)\n- [Penn State: energie fotonu, frekvence a vlnová délka](https://courses.ems.psu.edu/meteo300/node/682)"
+   }
+  ],
+  "why_box": "Foton, elektron a Higgsův boson patří k různým kvantovým polím. Částice stejného druhu mají stejné základní vlastnosti, ale jejich energie a kvantové stavy se mohou lišit.",
+  "related_explainery": [
+   "co-je-kvantova-teorie-pole",
+   "co-je-vlnova-funkce-a-co-nam-rika-o-castici",
+   "co-je-higgsovo-pole-a-jak-souvisi-s-hmotnosti"
+  ]
+ },
+ {
+  "id": "exp-047",
+  "title": "Co je kvantové vakuum?",
+  "theme": "kvantovy-svet",
+  "description": "Prázdný prostor není totéž co fyzikální nic. Co znamená nejnižší energetický stav polí a co nám skutečně ukazuje Casimirův jev?",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Odčerpejme z nádoby plyn a odstiňme přicházející záření. Přiblížíme se vakuu, ale neodstraníme samotná kvantová pole. Jejich nejnižší energetický stav má vlastnosti, které se od běžné představy naprosté prázdnoty liší.",
+  "sections": [
+   {
+    "heading": "Prázdno má stále svůj fyzikální stav",
+    "body": "V laboratoři znamená vakuum především prostor s velmi malým množstvím plynu. **Kvantové vakuum je nejnižší energetický stav polí za daných podmínek.** V jednoduchém popisu volného pole neobsahuje žádné jeho částice. Samotné pole však zůstává součástí fyzikálního popisu.\n\nJe to podobné rozdílu mezi sálem bez návštěvníků a neexistujícím sálem: odstranění částic ještě neodstraní to, čím je popisujeme. Jde pouze o pomůcku k rozlišení dvou pojmů."
+   },
+   {
+    "heading": "Nejnižší energie a rozptyl výsledků",
+    "body": "Pro jednoduchý model si představme **kvantový oscilátor**, tedy kvantovou obdobu pružiny se závažím. Ani v nejnižším energetickém stavu nemají jeho poloha a hybnost současně přesně nulový rozptyl. Platí [princip neurčitosti](https://kosmonovinky.cz/kosmopedie/co-rika-heisenberguv-princip-neurcitosti.html).\n\nPodobně mají i vhodné měřené veličiny kvantového pole ve vakuu nenulové rozptyly. Mluvíme o **vakuových fluktuacích**. Tento pojem označuje kvantové vlastnosti stavu; nepotřebujeme si je představovat jako drobné kuličky, které se neustále rodí a zase mizí. Obrázek nahoře ukazuje modelový oscilátor, nikoli průběh skutečného pole v čase."
+   },
+   {
+    "heading": "Co se děje mezi blízkými deskami",
+    "body": "Dvě vodivé, elektricky neutrální desky velmi blízko sebe mohou přitahovat měřitelnou silou. To je jeden z příkladů **Casimirova jevu**. Výsledek závisí na vzdálenosti, geometrii, teplotě a vlastnostech materiálu.\n\nDesky mění podmínky elektromagnetického pole. Sílu lze počítat pomocí změny energie soustavy, ale také prostřednictvím kvantových interakcí nábojů a proudů v materiálech. Samotné měření proto nedokazuje doslovný obraz „částic vyskakujících z ničeho“. Zkoumáme konkrétní fyzikální působení mezi tělesy.",
+    "image_id": "schema-casimirovy-desky"
+   },
+   {
+    "heading": "Odkud se vezme energie skutečných částic",
+    "body": "V populárních vysvětleních se někdy říká, že si vakuum na chvíli půjčuje energii. Takové přirovnání snadno zavádí. **Princip neurčitosti není povolení porušit zákon zachování energie.**\n\nPokud experiment vytváří skutečné částice například působením proměnného vnějšího pole, musí jejich energie pocházet ze zdroje, který podmínky mění. Také Casimirova přitažlivost neposkytuje nevyčerpatelnou energii: chceme-li desky opět oddálit a pokus zopakovat, musíme vykonat práci."
+   },
+   {
+    "heading": "Souvisí vakuum s temnou energií?",
+    "body": "Energie vakua je jednou z možností, o nichž fyzici uvažují při vysvětlování [temné energie](https://kosmonovinky.cz/kosmopedie/co-je-temna-energie-a-jak-se-lisi-od-temne.html). V nejjednodušším kosmologickém popisu se stálá hustota takové energie projevuje jako kosmologická konstanta.\n\nPropojit kvantové výpočty s pozorovanou hodnotou je však dosud nevyřešený problém. Existence kvantového vakua sama o sobě nedává hotovou odpověď na otázku, proč se rozpínání vesmíru zrychluje."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [David Tong: kvantový oscilátor, vakuum a energie pole](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf)\n- [R. L. Jaffe: Casimirův jev a kvantové vakuum](https://arxiv.org/abs/hep-th/0503158)\n- [NASA: temná energie a možnost energie vakua](https://science.nasa.gov/dark-energy/)\n- [C. M. Wilson a kol.: vznik fotonů při dynamickém Casimirově jevu](https://arxiv.org/abs/1105.4714)"
+   }
+  ],
+  "why_box": "Kvantové vakuum je fyzikální stav polí s nejnižší energií za zvolených podmínek. Má kvantové rozptyly, ale není zásobárnou energie, kterou bychom mohli čerpat bez omezení.",
+  "related_explainery": [
+   "jak-souviseji-castice-a-kvantova-pole",
+   "co-rika-heisenberguv-princip-neurcitosti",
+   "co-je-temna-energie-a-jak-se-lisi-od-temne"
+  ]
+ },
+ {
+  "id": "exp-048",
+  "title": "Co je Higgsovo pole a jak souvisí s hmotností?",
+  "theme": "kvantovy-svet",
+  "description": "Higgsovo pole, Higgsův boson a původ hmotnosti: co mechanismus vysvětluje a proč většina hmotnosti protonu pochází z jiného zdroje?",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Higgsovo pole souvisí s tím, proč mají elektron, kvarky nebo částice W a Z klidovou hmotnost. Higgsův boson je jeho kvantem. Pro pochopení hmotnosti běžných předmětů však potřebujeme přidat i silné působení uvnitř protonů a neutronů.",
+  "sections": [
+   {
+    "heading": "Pole, které přetrvává i ve vakuu",
+    "body": "U mnoha polí si nejnižší energetický stav přirozeně spojujeme s nulovou průměrnou hodnotou. **Higgsovo pole má ve svém dnešním vakuovém stavu nenulovou hodnotu.** Jde o vlastnost přítomnou v celém prostoru, i když právě nevytváříme Higgsovy bosony.\n\nNěkterá částicová pole s tímto polem interagují. V [standardním modelu](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html) se díky tomu v jejich rovnicích objevuje klidová hmotnost. U elektronů a kvarků platí: čím silněji jejich pole s Higgsovým polem interaguje, tím větší je jejich hmotnost."
+   },
+   {
+    "heading": "Hmotnost není brzdění o prostředí",
+    "body": "Hmotnost vyjadřuje mimo jiné to, jak těžké je změnit pohyb tělesa působením síly. Částice s klidovou hmotností má také klidovou energii **E₀ = m × c²**, kde c označuje rychlost světla.\n\nHiggsovo pole si proto raději nepředstavujme jako hustý med, v němž se částice pohybem zpomalují. Volný elektron kvůli Higgsovu poli průběžně neztrácí energii třením. Hmotnost je vlastnost jeho fyzikálního popisu, nikoli následek odporu prostředí."
+   },
+   {
+    "heading": "Kterým částicím dává hmotnost",
+    "body": "Higgsův mechanismus vysvětluje nenulové hmotnosti částic **W a Z**, které zprostředkovávají slabé působení. Souvisí také s hmotnostmi nabitých leptonů, například elektronu, a kvarků. Foton a gluony mají nulovou klidovou hmotnost.\n\nU neutrin víme, že mají nenulové hmotnosti, ale jejich původ přesahuje původní minimální standardní model. Nelze proto jednoduše říci, že Higgsovo pole už vysvětlilo hmotnosti úplně všech částic."
+   },
+   {
+    "heading": "Proč většinu hmotnosti protonu vysvětlujeme jinak",
+    "body": "Proton je složená částice: jeho vnitřní stav tvoří kvarky a gluonové pole silného působení. Prostý součet klidových hmotností jeho tří valenčních kvarků je mnohem menší než hmotnost celého protonu. **Většina hmotnosti protonu souvisí s energií kvarků a gluonového pole v jeho vnitřním kvantovém stavu.**\n\nV atomových jádrech je soustředěna většina hmotnosti běžných předmětů. Proto je pro naši vlastní hmotnost tak důležitá právě fyzika silného působení. Higgsovo pole je zásadní součást vysvětlení, ale není jediným zdrojem hmotnosti všeho kolem nás.",
+    "image_id": "schema-hmotnost-elektron-proton"
+   },
+   {
+    "heading": "Co objevili vědci v roce 2012",
+    "body": "Experimenty **ATLAS a CMS** na [LHC](https://kosmonovinky.cz/kosmopedie/co-je-lhc-a-jak-souvisi-s-kosmologii.html) oznámily 4. července 2012 objev nové částice odpovídající Higgsovu bosonu, s hmotností kolem **125 GeV/c²**. GeV je jednotka energie; dělením c² ji zde převádíme na jednotku hmotnosti.\n\nBoson vzniká při vhodných srážkách a rychle se rozpadá. Detektory zachytí produkty rozpadu, z jejichž energií a dalších vlastností vědci původní částici rozpoznávají. Objev tak ověřil předpověď spojenou s Higgsovým polem; boson je jeho kvantovou excitací, tedy stavem s přidanou energií."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [CERN: Higgsovo pole a jeho kvantum](https://home.cern/science/physics/higgs-boson/what/)\n- [Fermilab: které částice získávají hmotnost z Higgsova pole](https://news.fnal.gov/2018/06/who-gets-their-mass-from-the-higgs/)\n- [CERN: Higgsův mechanismus a původ hmotnosti běžné hmoty](https://repository.cern/records/g9287-8t069)\n- [ATLAS: objev Higgsova bosonu](https://atlas.cern/Discover/Physics/Higgs)"
+   }
+  ],
+  "why_box": "Higgsovo pole souvisí s hmotnostmi mnoha elementárních částic; Higgsův boson je jeho kvantem. Většinu hmotnosti protonů a neutronů však vysvětluje energie jejich vnitřního stavu se silným působením.",
+  "related_explainery": [
+   "jak-souviseji-castice-a-kvantova-pole",
+   "co-je-standardni-model-casticove-fyziky",
+   "co-je-lhc-a-jak-souvisi-s-kosmologii"
+  ]
+ },
+ {
+  "id": "exp-049",
+  "title": "Co je kvantová gravitace a proč ji hledáme?",
+  "theme": "kvantovy-svet",
+  "description": "Jak spojit kvantová pravidla s gravitací a proměnlivým prostoročasem? Co už umíme počítat a co zůstává otevřené u černých děr a počátku vesmíru?",
+  "published": "2026-10-25",
+  "updated": "2026-10-25",
+  "perex": "Gravitaci velmi dobře popisuje obecná relativita, částice zase kvantová fyzika. V nejextrémnějších podmínkách potřebujeme obě současně. Kvantová gravitace je označení pro hledaný společný popis, jehož úplnou a experimentálně potvrzenou podobu dosud nemáme.",
+  "sections": [
+   {
+    "heading": "Dva úspěšné pohledy na tentýž svět",
+    "body": "**Obecná relativita** popisuje gravitaci prostřednictvím geometrie prostoročasu. Hmota a energie tuto geometrii ovlivňují a geometrie zase určuje pohyb těles i světla. Tak počítáme například ohyb světla u Slunce nebo [gravitační vlny](https://kosmonovinky.cz/kosmopedie/co-jsou-gravitacni-vlny.html).\n\n**Kvantová fyzika** popisuje stavy částic a polí, jejich pravděpodobnosti a měření. V mnoha výpočtech [kvantové teorie pole](https://kosmonovinky.cz/kosmopedie/co-je-kvantova-teorie-pole.html) je geometrie prostoru a času předem zadaná. Právě její vlastní kvantové chování představuje další krok."
+   },
+   {
+    "heading": "Co když se má kvantově chovat i prostor a čas?",
+    "body": "Pro analogii si představme divadelní hru: částice jsou herci a prostoročas je jeviště. V běžném výpočtu polí známe tvar jeviště. Obecná relativita ale říká, že i ono se podle dění proměňuje.\n\nChceme-li postupovat důsledně kvantově, potřebujeme popsat i možné kvantové stavy samotné geometrie a jejich vztah k hmotě. **Nestačí vždy jen přidat další částici do jinak neměnného prostoru.** Jeviště je zde pouze přirovnání; skutečný prostoročas má tři prostorové a jednu časovou dimenzi."
+   },
+   {
+    "heading": "Kde očekáváme, že bude spojení důležité",
+    "body": "Výrazné kvantové projevy gravitace očekáváme zejména při snaze popsat nejranější fáze vesmíru nebo krajní podmínky uvnitř [černých děr](https://kosmonovinky.cz/kosmopedie/co-je-cerna-dira-a-jak-vznika.html). Klasický výpočet tam může dojít k singularitě, například k neomezenému růstu některých veličin. To je důvod hledat úplnější teorii.\n\nSamotná velká hmotnost nebo existence [horizontu událostí](https://kosmonovinky.cz/kosmopedie/co-je-horizont-udalosti.html) ještě nezaručuje, že budou místní kvantové opravy geometrie velké. Rozhodující jsou také měřítko děje a zakřivení prostoročasu."
+   },
+   {
+    "heading": "Co už jde počítat a kde je hranice",
+    "body": "Gravitaci umíme při dostatečně nízkých energiích zpracovat jako **efektivní kvantovou teorii**. To znamená teorii použitelnou v určitém rozsahu podmínek; umožňuje počítat drobné kvantové opravy, aniž známe úplný popis při libovolně vysokých energiích.\n\nV takovém přiblížení vystupuje **graviton**, hypotetické kvantum gravitačního pole. Jednotlivý graviton jsme dosud nezachytili. Pozorování gravitačních vln potvrzuje předpovědi obecné relativity, samo však neprokazuje jednotlivá gravitační kvanta."
+   },
+   {
+    "heading": "Jaké cesty fyzici zkoumají",
+    "body": "Mezi směry výzkumu patří **teorie strun**, která nahrazuje základní bodové objekty jednorozměrnými strunami, a **smyčková kvantová gravitace**, která se zaměřuje na kvantové vlastnosti geometrie. Existují i další přístupy.\n\nKaždý má své výsledky i otevřené otázky. Žádný zatím nemáme experimentálně potvrzený jako úplný popis kvantové gravitace. Rozhodující bude předpověď, kterou lze spolehlivě odlišit od ostatních možností a ověřit měřením."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [Einstein Online, Max Planck Institute: geometrie a kvantová gravitace](https://www.einstein-online.info/en/spotlight/background_independence/)\n- [J. F. Donoghue: gravitace jako efektivní kvantová teorie](https://arxiv.org/abs/gr-qc/9405057)\n- [A. Ashtekar, M. Reuter a C. Rovelli: cesty od relativity ke kvantové gravitaci](https://arxiv.org/abs/1408.4336)"
+   }
+  ],
+  "why_box": "Kvantová gravitace má společně popsat kvantové jevy i dynamickou geometrii prostoročasu. Pro nízké energie už existuje účinný výpočetní postup; úplný ověřený popis extrémních podmínek stále hledáme.",
+  "related_explainery": [
+   "co-je-kvantova-teorie-pole",
+   "co-je-kvantova-mechanika",
+   "co-je-horizont-udalosti",
+   "co-je-velky-tresk"
+  ]
  }
 ]

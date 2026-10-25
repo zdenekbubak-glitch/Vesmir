@@ -64,6 +64,9 @@ class Canvas:
 
 
 def diagram(entry):
+    if entry['diagram'].startswith('edu-b5-'):
+        from kosmopedie_batch5_diagrams import diagram as batch5_diagram
+        return batch5_diagram(entry)
     c = Canvas(entry['title']); k = entry['diagram']
     if k == 'edu-gw-stretch':
         c.text(65, 90, 'Průchod vlny střídavě mění vzdálenosti volně se pohybujících částic.', WHITE, 24)

@@ -314,6 +314,11 @@ EXPLAINER_PATTERNS = {
     'exp-042': r'\bsuperpozic\w*|\bsuperposition\w*|\bdekoherenc\w*|\bdecoherence\w*',
     'exp-043': r'\bheisenberg\w*|princip\w* neurcitost\w*|uncertainty principle',
     'exp-044': r'kvantov\w* provazan\w*|\bentangle\w*|bellov\w* nerovnost\w*',
+    'exp-045': r'kvantov\w* teori\w* pol\w*|quantum field theor\w*|\bqft\b',
+    'exp-046': r'kvantov\w* pol\w*|quantum fields?|elektronov\w* pol\w*',
+    'exp-047': r'kvantov\w* vaku\w*|quantum vacuum|vakuov\w* fluktuac\w*|casimir\w*',
+    'exp-048': r'higgs\w*|brout.englert',
+    'exp-049': r'kvantov\w* gravitac\w*|quantum gravity|\bgraviton\w*|smyckov\w* gravitac\w*|string theor\w*',
 }
 
 

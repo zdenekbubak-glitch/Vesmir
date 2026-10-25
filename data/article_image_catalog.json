@@ -5743,5 +5743,349 @@
       "https://www.nist.gov/blogs/taking-measure/quantum-leap-forward-how-tiny-particles-can-bring-us-exciting-new-tech"
     ],
     "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft1.pdf"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch5_diagrams.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-kvantova-teorie-pole",
+    "title": "Kvantová teorie pole: tři stavební kameny",
+    "diagram": "edu-b5-qft",
+    "source_id": "own-diagram:edu-b5-qft",
+    "source_family": "own-diagram:edu-b5-qft",
+    "alt": "Kvantová teorie pole: tři stavební kameny – vlastní vysvětlující schéma",
+    "caption": "Pole, kvantová pravidla a speciální relativita tvoří společný rámec pro výpočet částicových dějů.",
+    "thumbnail": "assets/article-images/thumbs/schema-kvantova-teorie-pole.webp",
+    "source_master": "assets/article-images/sources/schema-kvantova-teorie-pole.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft1.pdf"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft3.pdf"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch5_diagrams.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-anihilace-dva-fotony",
+    "title": "Elektron a pozitron: přeměna ve dva fotony",
+    "diagram": "edu-b5-annihilation",
+    "source_id": "own-diagram:edu-b5-annihilation",
+    "source_family": "own-diagram:edu-b5-annihilation",
+    "alt": "Elektron a pozitron: přeměna ve dva fotony – vlastní vysvětlující schéma",
+    "caption": "Příklad reakce elektron–pozitron na dva fotony při nulové celkové počáteční hybnosti. Fotony mají stejné energie a opačné směry. Zachovává se celková energie, hybnost i elektrický náboj. Schéma neznázorňuje skutečné dráhy ani Feynmanův diagram.",
+    "thumbnail": "assets/article-images/thumbs/schema-anihilace-dva-fotony.webp",
+    "source_master": "assets/article-images/sources/schema-anihilace-dva-fotony.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft3.pdf"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft5.pdf"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch5_diagrams.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-castice-a-pole",
+    "title": "Kvantová pole a jejich částice",
+    "diagram": "edu-b5-fields",
+    "source_id": "own-diagram:edu-b5-fields",
+    "source_family": "own-diagram:edu-b5-fields",
+    "alt": "Kvantová pole a jejich částice – vlastní vysvětlující schéma",
+    "caption": "Elektromagnetické pole popisuje fotony, elektronové pole elektrony a pozitrony, Higgsovo pole Higgsovy bosony. Přehled je pojmový, nezobrazuje tvar polí.",
+    "thumbnail": "assets/article-images/thumbs/schema-castice-a-pole.webp",
+    "source_master": "assets/article-images/sources/schema-castice-a-pole.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft5.pdf"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch5_diagrams.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-kvantove-vakuum-oscilator",
+    "title": "Kvantové vakuum: rozptyl v základním stavu",
+    "diagram": "edu-b5-vacuum",
+    "source_id": "own-diagram:edu-b5-vacuum",
+    "source_family": "own-diagram:edu-b5-vacuum",
+    "alt": "Kvantové vakuum: rozptyl v základním stavu – vlastní vysvětlující schéma",
+    "caption": "Model kvantového harmonického oscilátoru v základním stavu. Křivka znázorňuje Gaussovo rozdělení polohy s nenulovou šířkou, bez číselné stupnice; nejde o časový průběh pole ani zobrazení reálných částic ve vakuu.",
+    "thumbnail": "assets/article-images/thumbs/schema-kvantove-vakuum-oscilator.webp",
+    "source_master": "assets/article-images/sources/schema-kvantove-vakuum-oscilator.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://arxiv.org/abs/hep-th/0503158"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch5_diagrams.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-casimirovy-desky",
+    "title": "Casimirův jev: síla mezi blízkými deskami",
+    "diagram": "edu-b5-casimir",
+    "source_id": "own-diagram:edu-b5-casimir",
+    "source_family": "own-diagram:edu-b5-casimir",
+    "alt": "Casimirův jev: síla mezi blízkými deskami – vlastní vysvětlující schéma",
+    "caption": "Názorný příklad přitažlivé Casimirovy síly mezi dvěma blízkými vodivými deskami. Síla závisí na materiálu, vzdálenosti, geometrii i teplotě. Rozměry a síly nejsou v měřítku; obrázek nepředstavuje vakuum jako oblak skutečných částic.",
+    "thumbnail": "assets/article-images/thumbs/schema-casimirovy-desky.webp",
+    "source_master": "assets/article-images/sources/schema-casimirovy-desky.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://arxiv.org/abs/hep-th/0503158"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://home.cern/science/physics/higgs-boson/what/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch5_diagrams.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-higgsovo-pole-a-boson",
+    "title": "Higgsovo pole a Higgsův boson",
+    "diagram": "edu-b5-higgs",
+    "source_id": "own-diagram:edu-b5-higgs",
+    "source_family": "own-diagram:edu-b5-higgs",
+    "alt": "Higgsovo pole a Higgsův boson – vlastní vysvětlující schéma",
+    "caption": "Rozlišení nenulové vakuové hodnoty Higgsova pole a Higgsova bosonu jako kvantové excitace. Čáry jsou pouze názorné symboly, nikoli naměřený průběh ani skutečný tvar pole nebo částice.",
+    "thumbnail": "assets/article-images/thumbs/schema-higgsovo-pole-a-boson.webp",
+    "source_master": "assets/article-images/sources/schema-higgsovo-pole-a-boson.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://home.cern/science/physics/higgs-boson/what/"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://repository.cern/records/g9287-8t069"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch5_diagrams.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-hmotnost-elektron-proton",
+    "title": "Hmotnost elektronu a hmotnost protonu",
+    "diagram": "edu-b5-mass",
+    "source_id": "own-diagram:edu-b5-mass",
+    "source_family": "own-diagram:edu-b5-mass",
+    "alt": "Hmotnost elektronu a hmotnost protonu – vlastní vysvětlující schéma",
+    "caption": "Elektronová hmotnost souvisí s vazbou na Higgsovo pole. Většina hmotnosti protonu souvisí s energií jeho vnitřního stavu kvarků a gluonového pole. Značky u, u, d označují valenční kvarky, nikoli úplný vnitřní obsah protonu; obrázek neudává procentní podíly.",
+    "thumbnail": "assets/article-images/thumbs/schema-hmotnost-elektron-proton.webp",
+    "source_master": "assets/article-images/sources/schema-hmotnost-elektron-proton.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://repository.cern/records/g9287-8t069"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://www.einstein-online.info/en/spotlight/background_independence/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch5_diagrams.py.",
+    "verified_on": "2026-10-25",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-kvantova-gravitace",
+    "title": "Kvantová gravitace: společný popis",
+    "diagram": "edu-b5-gravity",
+    "source_id": "own-diagram:edu-b5-gravity",
+    "source_family": "own-diagram:edu-b5-gravity",
+    "alt": "Kvantová gravitace: společný popis – vlastní vysvětlující schéma",
+    "caption": "Pojmový přehled potřeby spojit dynamickou geometrii obecné relativity s kvantovými stavy a pravidly měření. Úplný experimentálně ověřený popis extrémních podmínek zůstává otevřenou otázkou.",
+    "thumbnail": "assets/article-images/thumbs/schema-kvantova-gravitace.webp",
+    "source_master": "assets/article-images/sources/schema-kvantova-gravitace.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://www.einstein-online.info/en/spotlight/background_independence/"
+    ],
+    "manual_only": true
   }
 ]
