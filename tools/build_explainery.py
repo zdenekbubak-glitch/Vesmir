@@ -3,6 +3,7 @@
 # Čte data/explainery.json (a data/news.json pro prolinkování), vygeneruje:
 #   - kosmopedie/<slug>.html      … jedna stránka každého explaineru
 #   - kosmopedie/index.html       … přehled všech explainerů (seskupený podle rubriky)
+#   - data/kosmopedie-search.json … vlastní výklad, bez kreditů a bibliografie
 #   - doplní URL do sitemap.xml
 #
 # Spouští se ZA build_static.py (ten už vygeneruje sitemap.xml, který tento
@@ -14,6 +15,7 @@ import argparse
 import json
 import re
 import sys
+from html.parser import HTMLParser
 from pathlib import Path
 from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url, thumbnail
 
@@ -48,6 +50,17 @@ WHY_CSS = '''
     .why-box p { margin: 0; }
     .explainer-perex { font-size: 1.06rem; color: #c9d6ec; }
     .section-image-link { display: block; cursor: zoom-in; }
+    .explainer-group[hidden] { display: none; }
+    .post mark { background: #f6d365; color: #141a26; border-radius: 2px; padding: 0 .06em; }
+    .topic-paging { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; border-top: 1px solid #1e293b; padding-top: 1rem; margin-top: 1.2rem; }
+    .topic-paging a { min-width: 0; text-decoration: none; overflow-wrap: anywhere; }
+    .topic-paging a:hover, .topic-paging a:focus-visible { text-decoration: underline; }
+    .topic-paging .meta { display: block; font-size: .85rem; margin-bottom: .2rem; }
+    .topic-next { grid-column: 2; text-align: right; }
+    @media (max-width: 640px) {
+      .topic-paging { grid-template-columns: minmax(0, 1fr); gap: .85rem; }
+      .topic-next { grid-column: auto; text-align: left; }
+    }
 '''
 
 
@@ -82,6 +95,65 @@ def render_body(text):
     return '\n'.join(out)
 
 
+class SearchBlocks(HTMLParser):
+    """Keep words in links/bold, but not their URLs or markup. One paragraph per unit."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.blocks = []
+        self.current = None
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ('p', 'li'):
+            self.current = []
+
+    def handle_data(self, value):
+        if self.current is not None:
+            self.current.append(value)
+
+    def handle_endtag(self, tag):
+        if tag in ('p', 'li') and self.current is not None:
+            value = ' '.join(''.join(self.current).split())
+            if value:
+                self.blocks.append(value)
+            self.current = None
+
+
+def is_sources(section):
+    return str(section.get('heading') or '').strip().casefold().startswith('zdroje')
+
+
+def searchable_body(value):
+    return re.sub(r'<(p|li)>', r'<\1 data-search-block>', render_body(value))
+
+
+def search_record(entry):
+    blocks = []
+    for section in entry.get('sections', []):
+        if is_sources(section):
+            continue
+        if section.get('heading'):
+            blocks.append(section['heading'])
+        parser = SearchBlocks()
+        parser.feed(render_body(section.get('body')))
+        blocks.extend(parser.blocks)
+    parser = SearchBlocks()
+    parser.feed(render_body(entry.get('why_box', '')))
+    blocks.extend(parser.blocks)
+    return {'href': '/kosmopedie/' + entry['_slug'] + '.html', 'blocks': blocks}
+
+
+def paging(previous, following):
+    links = []
+    for entry, rel, label, css in ((previous, 'prev', '← Předchozí téma', 'topic-prev'),
+                                  (following, 'next', 'Následující téma →', 'topic-next')):
+        if entry:
+            links.append(f'<a class="{css}" rel="{rel}" data-topic-neighbour '
+                         f'href="/kosmopedie/{esc(entry["_slug"])}.html">'
+                         f'<span class="meta">{label}</span><span>{esc(entry["title"])}</span></a>')
+    return ('<nav class="topic-paging" aria-label="Procházení témat Kosmopedie">' +
+            ''.join(links) + '</nav>\n') if links else ''
+
+
 def section_image_figure(entry):
     """The original-size asset stays accessible when a teaching chart is small on mobile."""
     href = esc(image_url(entry))
@@ -109,6 +181,18 @@ def main():
         return
     explainery = explainer_catalog(site)
     image_library = prepare_images(site, download=False)
+    groups = {}
+    for ex in explainery:
+        groups.setdefault(ex.get('theme') or FALLBACK_THEME[0], []).append(ex)
+    group_order = sorted(groups, key=lambda t: THEME_LABEL.get(t, FALLBACK_THEME[1]))
+    ordered = [ex for theme in group_order for ex in groups[theme]]
+    neighbours = {ex['_slug']: (ordered[i-1] if i else None,
+                               ordered[i+1] if i+1 < len(ordered) else None)
+                  for i, ex in enumerate(ordered)}
+    (out / 'data').mkdir(parents=True, exist_ok=True)
+    (out / 'data' / 'kosmopedie-search.json').write_text(
+        json.dumps([search_record(ex) for ex in ordered], ensure_ascii=False, separators=(',', ':')),
+        encoding='utf-8')
 
     # novinky pro sekci Související novinky (stejná logika rubrik jako build_static)
     news = json.loads((site / 'data' / 'news.json').read_text(encoding='utf-8'))
@@ -132,7 +216,10 @@ def main():
         sec_html = ''
         section_images = []
         for sec in ex.get('sections', []):
-            section = f"      <h2>{esc(sec.get('heading'))}</h2>\n{render_body(sec.get('body'))}\n"
+            sources = is_sources(sec)
+            attribute = '' if sources else ' data-search-block'
+            section = f"      <h2{attribute}>{esc(sec.get('heading'))}</h2>\n"
+            section += (render_body(sec.get('body')) if sources else searchable_body(sec.get('body'))) + '\n'
             # Editorial placement: an optional catalog ID belongs to this exact
             # section, independently of automatic selection of the lead image.
             if sec.get('image_id'):
@@ -141,7 +228,7 @@ def main():
                     raise ValueError(f"{ex['id']}: nedostupný obrázek oddílu {sec['image_id']}")
                 section += section_image_figure(section_image)
                 section_images.append(section_image)
-            if str(sec.get('heading') or '').strip().casefold().startswith('zdroje'):
+            if sources:
                 section = '<section class="article-sources">\n' + section + '</section>\n'
             sec_html += section
 
@@ -149,7 +236,7 @@ def main():
         if ex.get('why_box'):
             why_html = ('      <div class="why-box">\n'
                         '        <h2>Proč je to zajímavé právě pro vás?</h2>\n'
-                        + render_body(ex['why_box']) +
+                        + searchable_body(ex['why_box']) +
                         '\n      </div>\n')
 
         related_news = by_theme.get(theme, [])[:3]
@@ -200,27 +287,28 @@ def main():
         page = page_head(f"{ex['title']} - Kosmopedie - Kosmologické novinky", description, url,
                          og_image=article_image_url, jsonld=jsonld)
         page = page.replace('</style>', WHY_CSS + '</style>')
-        page += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › <a href=\"/kosmopedie/\">Kosmopedie</a> › {esc(ex['title'])}</p>\n"
+        page += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › <a data-search-back href=\"/kosmopedie/\">Kosmopedie</a> › {esc(ex['title'])}</p>\n"
                  f"    <article class=\"post\">\n"
                  f"      <div class=\"theme-badge\"><a href=\"{theme_href(theme)}\">{esc(theme_label)}</a></div>\n"
-                 f"      <h1>{esc(ex['title'])}</h1>\n"
+                 f"      <h1 data-search-block>{esc(ex['title'])}</h1>\n"
                  f"      <p class=\"meta\">Kosmopedie · Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))}</p>\n"
-                 f"      <p class=\"explainer-perex\">{esc(ex.get('perex'))}</p>\n"
+                 f"      <p class=\"explainer-perex\" data-search-block>{esc(ex.get('perex'))}</p>\n"
+                 '      <p id="kosmopedie-detail-search-status" class="search-status" role="status" hidden></p>\n'
                  + image_figure(article_image) + sec_html + why_html + rel_html + rel_ex_html + NEWSLETTER_CTA +
+                 paging(*neighbours[ex['_slug']]) +
                  '    </article>\n'
-                 '    <p class=\"back\"><a href=\"/kosmopedie/\">← Celá Kosmopedie</a> · <a href=\"/temata/\">Rubriky</a></p>\n')
+                 '    <p class=\"back\"><a data-search-back href=\"/kosmopedie/\">← Celá Kosmopedie</a> · <a href=\"/temata/\">Rubriky</a></p>\n'
+                 '    <script defer src="/assets/kosmopedie-search.js"></script>\n')
         page += FOOT
         (out / 'kosmopedie' / f"{ex['_slug']}.html").write_text(page, encoding='utf-8')
         urls.append((url, fmt_iso_date(ex.get('updated') or ex.get('published'))))
         print(f"  kosmopedie/{ex['_slug']}.html")
 
     # přehled všech explainerů
-    groups = {}
-    for ex in explainery:
-        groups.setdefault(ex.get('theme') or FALLBACK_THEME[0], []).append(ex)
     list_html = ''
-    for theme in sorted(groups, key=lambda t: THEME_LABEL.get(t, FALLBACK_THEME[1])):
+    for theme in group_order:
         label = THEME_LABEL.get(theme, FALLBACK_THEME[1])
+        list_html += f'    <section class="explainer-group" aria-labelledby="{esc(theme)}">\n'
         list_html += f'    <h2 class=\"section-title\" id=\"{esc(theme)}\">{esc(label)}</h2>\n'
         for ex in groups[theme]:
             list_html += (f"    <article class=\"item\"><h2><a href=\"/kosmopedie/{ex['_slug']}.html\">{esc(ex['title'])}</a></h2>"
@@ -229,13 +317,18 @@ def main():
                           f"<div class=\"article-teaser\">"
                           + thumbnail(lookup_image(ex,'explainery',image_library),'/kosmopedie/'+ex['_slug']+'.html')
                           + f"<p class=\"summary\">{esc(ex.get('perex'))}</p></div></article>\n")
+        list_html += '    </section>\n'
     idx = page_head('Kosmopedie - slovník pojmů kosmologie - Kosmologické novinky',
                     'Kosmopedie: vysvětlení pojmů kosmologie v češtině. Temná hmota, černé díry, gravitační vlny, reliktní záření, neutronové hvězdy a další - jednoduše a trvale.',
                     f'{base}/kosmopedie/')
+    idx = idx.replace('</style>', WHY_CSS + '</style>')
     idx += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › Kosmopedie</p>\n"
-            f"    <h1 class=\"section-title\" style=\"font-size:1.4rem;color:var(--text)\">Kosmopedie <span class=\"meta\">({len(explainery)} významů)</span></h1>\n"
-            '    <p class=\"summary\">Vysvětlení základních pojmů kosmologie. Každý význam doplňuje rubriku novinek na stejné téma. Kliknutím na název hesla nebo obrázek otevřete celé vysvětlení.</p>\n'
-            + list_html)
+            f"    <h1 class=\"section-title\" style=\"font-size:1.4rem;color:var(--text)\">Kosmopedie <span class=\"meta\">({len(explainery)} témat)</span></h1>\n"
+            '    <p class=\"summary\">Vysvětlení základních pojmů kosmologie. Kliknutím na název tématu nebo obrázek otevřete celý výklad. Hledání prochází názvy, perexy i celé texty.</p>\n'
+            '    <input type="search" id="kosmopedie-search" class="search-box" placeholder="Hledat v Kosmopedii…" aria-label="Hledat v Kosmopedii" maxlength="200" aria-controls="kosmopedie-topics">\n'
+            '    <p id="kosmopedie-search-status" class="search-status" role="status" aria-live="polite"></p>\n'
+            '    <div id="kosmopedie-topics">\n' + list_html + '    </div>\n'
+            '    <script defer src="/assets/kosmopedie-search.js"></script>\n')
     idx += FOOT
     (out / 'kosmopedie' / 'index.html').write_text(idx, encoding='utf-8')
     latest = max(ex.get('updated') or ex.get('published') or '2026-01-01' for ex in explainery)
