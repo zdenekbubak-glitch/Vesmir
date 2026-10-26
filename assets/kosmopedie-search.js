@@ -99,11 +99,62 @@
   });
   let index = null, pending = null, generation = 0, timer;
 
+  // Group navigation uses real anchor URLs; without JavaScript the full list remains readable.
+  const groupGrid = document.getElementById('kosmopedie-groups');
+  const topicList = document.getElementById('kosmopedie-topics');
+  const groupBack = document.getElementById('kosmopedie-group-back');
+  const sections = Array.from(document.querySelectorAll('.explainer-group'));
+  function selectedGroup() {
+    let hash;
+    try { hash = decodeURIComponent(location.hash.slice(1)); } catch { return ''; }
+    return sections.some(g => g.dataset.topicGroupSection === hash) ? hash : '';
+  }
   function groups() {
-    document.querySelectorAll('.explainer-group').forEach(group => {
-      group.hidden = !Array.from(group.querySelectorAll('article.item')).some(card => !card.hidden);
+    const searching = Boolean(box.value.trim()), selected = selectedGroup();
+    const all = new URL(location.href).searchParams.get('view') === 'all';
+    const showCards = !searching && !selected && !all;
+    if (groupGrid) groupGrid.hidden = !showCards;
+    if (topicList) topicList.hidden = showCards;
+    if (groupBack) groupBack.hidden = !selected || searching;
+    sections.forEach(group => {
+      const matches = Array.from(group.querySelectorAll('article.item')).some(card => !card.hidden);
+      group.hidden = !matches || (!searching && selected && group.dataset.topicGroupSection !== selected);
+    });
+    document.querySelectorAll('[data-collection-view]').forEach(link => {
+      const current = link.dataset.collectionView === ((searching || (!selected && all)) ? 'all' : 'groups');
+      if (current) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current');
     });
   }
+  function navigate(event, mode, hash = '') {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    const url = new URL(location.href);
+    url.searchParams.delete('q'); url.hash = hash;
+    if (mode === 'all') url.searchParams.set('view', 'all'); else url.searchParams.delete('view');
+    history.pushState(null, '', url.pathname + url.search + url.hash);
+    box.value = ''; clearTimeout(timer); apply();
+    if (hash) {
+      const heading = document.getElementById(hash);
+      if (heading) { heading.tabIndex = -1; heading.focus({preventScroll: true}); heading.scrollIntoView({block: 'start'}); }
+    } else {
+      // The clicked control may have disappeared together with its card grid.
+      const heading = document.getElementById('kosmopedie-groups-heading');
+      if (mode === 'groups' && heading) { heading.tabIndex = -1; heading.focus({preventScroll: true}); }
+    }
+  }
+  document.querySelectorAll('[data-collection-view]').forEach(link => {
+    link.addEventListener('click', event => navigate(event, link.dataset.collectionView));
+  });
+  document.querySelectorAll('#kosmopedie-groups a[data-topic-group]').forEach(link => {
+    link.addEventListener('click', event => navigate(event, 'groups', link.dataset.topicGroup));
+  });
+  if (topicList) topicList.addEventListener('click', event => {
+    const link = event.target.closest('a[data-topic-group]');
+    if (link) navigate(event, 'groups', link.dataset.topicGroup);
+  });
+  document.querySelectorAll('[data-show-groups]').forEach(link => {
+    link.addEventListener('click', event => navigate(event, 'groups'));
+  });
   function reset() { cards.forEach(r => { r.card.innerHTML = r.original; r.card.hidden = false; }); }
   function load() {
     if (!pending) pending = fetch('/data/kosmopedie-search.json', {cache: 'no-cache'}).then(async response => {
@@ -135,6 +186,7 @@
     const version = ++generation, q = box.value.slice(0, 200).trim(), needle = normalized(q).text;
     reset(); history.replaceState(null, '', setQuery(new URL(location.href), q));
     if (!needle) { groups(); status.textContent = ''; return; }
+    groups();
     status.textContent = 'Načítám hledání v celých textech…';
     try { if (!index) await load(); } catch {
       if (version !== generation) return;
@@ -153,5 +205,6 @@
   });
   window.addEventListener('popstate', () => { box.value = query(); clearTimeout(timer); apply(); });
   box.value = query() || box.value.slice(0, 200);
-  if (box.value.trim()) apply();
+  window.addEventListener('hashchange', () => { clearTimeout(timer); apply(); });
+  apply();
 })();

@@ -49,6 +49,25 @@ THEMES = [
 THEME_LABEL = {s: l for s, l, _ in THEMES}
 FALLBACK_THEME = ("ostatni", "Další témata")
 
+# Shared navigation between subject cards and the complete content list.
+def collection_switch(kind, current):
+    if kind == 'kosmopedie':
+        links = [('groups', '/kosmopedie/', 'Okruhy'),
+                 ('all', '/kosmopedie/?view=all', 'Všechna témata')]
+    else:
+        links = [('groups', '/temata/', 'Rubriky'),
+                 ('all', '/clanky/', 'Všechny články')]
+    icons = {
+        'groups': '<svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><rect x="2" y="2" width="6" height="6" rx="1"/><rect x="12" y="2" width="6" height="6" rx="1"/><rect x="2" y="12" width="6" height="6" rx="1"/><rect x="12" y="12" width="6" height="6" rx="1"/></svg>',
+        'all': '<svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 4h14M3 10h14M3 16h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+    }
+    html = '<nav class="collection-switch" aria-label="Zobrazení přehledu">'
+    for key, href, label in links:
+        active = ' aria-current="page"' if key == current else ''
+        html += f'<a data-collection-view="{key}" href="{href}"{active}>{icons[key]}<span>{label}</span></a>'
+    return html + '</nav>\n'
+
+
 CSS = """
     :root { --bg: #0b0f19; --card: #151b2d; --text: #e8eef7; --accent: #6ea8fe; --muted: #9aa8c7; }
     * { box-sizing: border-box; }
@@ -109,6 +128,19 @@ CSS = """
     figure { margin: 0 0 1rem; }
     figure img { width: 100%; border-radius: 10px; }
     figcaption { font-size: .85rem; color: var(--muted); margin-top: .5rem; }
+    [hidden] { display: none !important; }
+    .collection-switch { display: flex; flex-wrap: wrap; gap: .45rem; margin: 1rem 0; }
+    .collection-switch a { display: inline-flex; align-items: center; gap: .5rem; padding: .5rem .8rem; border: 1px solid #334155; border-radius: 9px; color: var(--muted); text-decoration: none; font-size: .92rem; }
+    .collection-switch a[aria-current="page"] { color: var(--text); border-color: var(--accent); background: var(--card); }
+    .collection-switch a:hover { color: var(--accent); border-color: var(--accent); }
+    .collection-switch svg { width: 1.1rem; height: 1.1rem; flex: 0 0 auto; fill: currentColor; }
+    .collection-switch a:focus-visible, .topic-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    .topic-card { display: block; background: var(--card); border: 1px solid #1e293b; border-radius: 10px; padding: 1rem 1.2rem; color: var(--text); text-decoration: none; }
+    .topic-card:hover { border-color: var(--accent); text-decoration: none; }
+    .topic-card h3 { margin: 0 0 .55rem; color: var(--accent); font-size: 1.05rem; }
+    .topic-card .summary { font-size: .92rem; margin: 0 0 .65rem; }
+    .topic-card .count { color: var(--muted); font-size: .85rem; margin: 0; }
+    .collection-heading { color: var(--muted); font-size: 1.05rem; margin: 1rem 0; }
     .theme-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: .9rem; }
     .theme-card { background: var(--card); border: 1px solid #1e293b; border-radius: 10px; padding: 1rem 1.2rem; }
     .theme-card a { color: var(--accent); font-weight: 600; text-decoration: none; }
@@ -846,7 +878,7 @@ def main():
     idx += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › Přehled článků</p>
     <h1 class="section-title" style="font-size:1.4rem;color:var(--text)">Přehled článků ({len(news) + len(editor_posts)})</h1>
     <p class="summary">Všechny články přehledně po měsících, nejnovější nahoře. Kliknutím na titulek otevřete celý text — výběr zúží fulltextové hledání níže.</p>
-{editor_archive_link}    <input type="search" id="clanky-search" class="search-box" placeholder="Hledat v článcích…" aria-label="Hledat v článcích">
+{collection_switch('articles', 'all')}{editor_archive_link}    <input type="search" id="clanky-search" class="search-box" placeholder="Hledat v článcích…" aria-label="Hledat v článcích">
     <p id="clanky-search-status" class="search-status" role="status" aria-live="polite"></p>
 {list_html}    <script defer src="/assets/article-search.js"></script>
 '''
@@ -879,11 +911,13 @@ def main():
         urls.append((url, fmt_iso_date(items[0].get("inserted_at"))))
         theme_cards += (f'    <div class="theme-card"><a href="/temata/{slug}.html">{esc(label)}</a>'
                         f'<p class="count">{len(items)} článků</p></div>\n')
-    tidx = page_head("Rubriky – Kosmologické novinky",
+    tidx = page_head("Rubriky článků – Kosmologické novinky",
                      "Tematické rubriky kosmologických novinek: černé díry, temná hmota, gravitační vlny, exoplanety, galaxie a další.",
                      f"{base}/temata/")
-    tidx += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › Rubriky</p>
-    <h1 class="section-title" style="font-size:1.4rem;color:var(--text)">Rubriky</h1>
+    tidx += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › Rubriky článků</p>
+    <h1 class="section-title" style="font-size:1.4rem;color:var(--text)">Rubriky článků</h1>
+    <p class="summary">Vyberte si rubriku, nebo přejděte na přehled všech článků.</p>
+    {collection_switch('articles', 'groups')}
     <div class="theme-grid">
 {theme_cards}    </div>
 '''

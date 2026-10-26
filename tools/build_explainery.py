@@ -27,7 +27,7 @@ for _p in (_here.parent, _here):
         sys.path.remove(str(_p))
     sys.path.insert(0, str(_p))
 from build_static import (FALLBACK_THEME, THEME_LABEL, esc, fmt_date, fmt_iso_date,
-                          page_head, FOOT, slugify, classify, explainer_catalog, NEWSLETTER_CTA)
+                          page_head, FOOT, slugify, classify, explainer_catalog, NEWSLETTER_CTA, collection_switch)
 
 # Kosmopedie may introduce a subject before it has its own news category.
 KOSMOPEDIE_THEMES = {
@@ -37,6 +37,29 @@ KOSMOPEDIE_THEMES = {
     'castice-a-zakladni-sily': 'Částice a základní síly',
 }
 THEME_LABEL = {**THEME_LABEL, **KOSMOPEDIE_THEMES}
+
+GROUP_DESCRIPTIONS = {
+    'cerne-diry': 'Vznik černých děr, horizont událostí a jejich neobvyklé vlastnosti.',
+    'temna-dira-v-centru': 'Obří černé díry v srdcích galaxií a jejich okolí.',
+    'temna-hmota': 'Důkazy neviditelné hmoty a hledání jejího složení.',
+    'temna-energie': 'Co stojí za zrychleným rozpínáním vesmíru?',
+    'gravitacni-vlny': 'Vlnění prostoročasu, jeho měření a objevy.',
+    'exoplanety': 'Planety u jiných hvězd a způsoby jejich hledání.',
+    'galaxie': 'Jak galaxie vznikají, vyvíjejí se a vzájemně ovlivňují.',
+    'vesmirne-teleskopy': 'Dalekohledy na Zemi i v kosmu a jejich možnosti.',
+    'relictni-zareni': 'Nejstarší pozorovatelné světlo a jeho zpráva o vesmíru.',
+    'neutronove-hvezdy': 'Husté pozůstatky hvězd, pulsary a magnetary.',
+    'velky-tresk': 'Horký počátek vesmíru a jeho další vývoj.',
+    'kvantovy-svet': 'Kvantová pravidla, částice, pole a měření.',
+    'svetlo-a-mereni-vesmiru': 'Spektra, chemické složení a rudý posuv.',
+    'rozpinani-a-modely-vesmiru': 'Rozpínání, model ΛCDM a jeho alternativy.',
+    'castice-a-zakladni-sily': 'Stavební prvky hmoty, interakce a urychlovače.',
+}
+
+
+def topic_count(n):
+    return f'{n} téma' if n == 1 else f'{n} témata' if n < 5 else f'{n} témat'
+
 
 
 def theme_href(theme):
@@ -298,7 +321,7 @@ def main():
                  paging(*neighbours[ex['_slug']]) +
                  '    </article>\n'
                  '    <p class=\"back\"><a data-search-back href=\"/kosmopedie/\">← Celá Kosmopedie</a> · <a href=\"/temata/\">Rubriky</a></p>\n'
-                 '    <script defer src="/assets/kosmopedie-search.js"></script>\n')
+                 '    <script defer src="/assets/kosmopedie-search.js?v=2"></script>\n')
         page += FOOT
         (out / 'kosmopedie' / f"{ex['_slug']}.html").write_text(page, encoding='utf-8')
         urls.append((url, fmt_iso_date(ex.get('updated') or ex.get('published'))))
@@ -306,14 +329,19 @@ def main():
 
     # přehled všech explainerů
     list_html = ''
+    group_cards = ''
     for theme in group_order:
         label = THEME_LABEL.get(theme, FALLBACK_THEME[1])
-        list_html += f'    <section class="explainer-group" aria-labelledby="{esc(theme)}">\n'
+        description = GROUP_DESCRIPTIONS.get(theme, 'Srozumitelná vysvětlení a souvislosti z této oblasti.')
+        group_cards += (f'<a class="topic-card" href="#{esc(theme)}" data-topic-group="{esc(theme)}">'
+                        f'<h3>{esc(label)}</h3><p class="summary">{esc(description)}</p>'
+                        f'<p class="count">{topic_count(len(groups[theme]))}</p></a>\n')
+        list_html += f'    <section class="explainer-group" data-topic-group-section="{esc(theme)}" aria-labelledby="{esc(theme)}">\n'
         list_html += f'    <h2 class=\"section-title\" id=\"{esc(theme)}\">{esc(label)}</h2>\n'
         for ex in groups[theme]:
             list_html += (f"    <article class=\"item\"><h2><a href=\"/kosmopedie/{ex['_slug']}.html\">{esc(ex['title'])}</a></h2>"
                           f"<p class=\"meta\">Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))} · "
-                          f"<a href=\"{theme_href(theme)}\">{esc(label)}</a></p>"
+                          f"<a href=\"#{esc(theme)}\" data-topic-group=\"{esc(theme)}\">{esc(label)}</a></p>"
                           f"<div class=\"article-teaser\">"
                           + thumbnail(lookup_image(ex,'explainery',image_library),'/kosmopedie/'+ex['_slug']+'.html')
                           + f"<p class=\"summary\">{esc(ex.get('perex'))}</p></div></article>\n")
@@ -324,11 +352,14 @@ def main():
     idx = idx.replace('</style>', WHY_CSS + '</style>')
     idx += (f"    <p class=\"breadcrumbs\"><a href=\"/\">Hlavní stránka</a> › Kosmopedie</p>\n"
             f"    <h1 class=\"section-title\" style=\"font-size:1.4rem;color:var(--text)\">Kosmopedie <span class=\"meta\">({len(explainery)} témat)</span></h1>\n"
-            '    <p class=\"summary\">Vysvětlení základních pojmů kosmologie. Kliknutím na název tématu nebo obrázek otevřete celý výklad. Hledání prochází názvy, perexy i celé texty.</p>\n'
+            '    <p class=\"summary\">Vyberte si okruh nebo procházejte všechna témata. Hledání prochází názvy, perexy i celé texty napříč Kosmopedií.</p>\n'
+            + collection_switch('kosmopedie', 'groups') +
             '    <input type="search" id="kosmopedie-search" class="search-box" placeholder="Hledat v Kosmopedii…" aria-label="Hledat v Kosmopedii" maxlength="200" aria-controls="kosmopedie-topics">\n'
             '    <p id="kosmopedie-search-status" class="search-status" role="status" aria-live="polite"></p>\n'
+            '<section id="kosmopedie-groups" aria-labelledby="kosmopedie-groups-heading"><h2 class="collection-heading" id="kosmopedie-groups-heading">Okruhy Kosmopedie</h2><div class="theme-grid">' + group_cards + '</div></section>\n'
+            '<p id="kosmopedie-group-back" hidden><a href="/kosmopedie/" data-show-groups>← Všechny okruhy Kosmopedie</a></p>\n'
             '    <div id="kosmopedie-topics">\n' + list_html + '    </div>\n'
-            '    <script defer src="/assets/kosmopedie-search.js"></script>\n')
+            '    <script defer src="/assets/kosmopedie-search.js?v=2"></script>\n')
     idx += FOOT
     (out / 'kosmopedie' / 'index.html').write_text(idx, encoding='utf-8')
     latest = max(ex.get('updated') or ex.get('published') or '2026-01-01' for ex in explainery)
@@ -347,10 +378,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
