@@ -16,7 +16,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "zmenšení, doplnění rámečku a kreditu",
-    "gallery_type": "snimek"
+    "gallery_type": "snimek",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-weic2204a",
@@ -35,7 +36,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "zmenšení, doplnění rámečku a kreditu",
-    "gallery_type": "ilustrace"
+    "gallery_type": "ilustrace",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-vlt-platform-at-dusk",
@@ -54,7 +56,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "výřez, zmenšení a kredit",
-    "gallery_type": "snimek"
+    "gallery_type": "snimek",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-malin-dsc0027",
@@ -73,7 +76,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "zmenšení, doplnění rámečku a kreditu",
-    "gallery_type": "snimek"
+    "gallery_type": "snimek",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-lhc-collider",
@@ -92,7 +96,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-standardni-model",
@@ -111,7 +116,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-spektroskopie-cesta-svetla",
@@ -130,7 +136,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-spektralni-cary",
@@ -149,7 +156,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-spektralni-otisky",
@@ -168,7 +176,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-rudy-posuv-cary",
@@ -187,7 +196,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-rudy-posuv-priklady",
@@ -206,7 +216,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-kvantove-hladiny",
@@ -225,7 +236,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-kvantova-pravdepodobnost",
@@ -244,7 +256,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-superpozice-interference",
@@ -263,7 +276,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-kvantova-neurcitost",
@@ -282,7 +296,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-kvantove-provazani",
@@ -301,7 +316,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-dvojsterbina-zasahy",
@@ -320,7 +336,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-superpozice-a-smes",
@@ -339,7 +356,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-temna-hmota-2",
@@ -358,7 +376,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-vlna-protazeni",
@@ -377,7 +396,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-temna-hmota-vs-energie",
@@ -396,7 +416,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-cerne-diry-collapse",
@@ -415,7 +436,12 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": [
+      "černá díra",
+      "černé díry",
+      "black hole"
+    ]
   },
   {
     "id": "kosmopedie-schema-relictni-zareni-recombination",
@@ -434,7 +460,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-neutronove-hvezdy-pulsar",
@@ -453,7 +480,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-ramena-hustotni-vlna",
@@ -472,7 +500,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-kupy-plyn-a-hmota",
@@ -491,7 +520,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-gw170817-signaly",
@@ -510,7 +540,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-slozeni-vesmiru",
@@ -529,7 +560,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-tranzit-planety",
@@ -548,7 +580,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-temna-hmota-axion",
@@ -567,7 +600,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-velky-tresk-1",
@@ -586,7 +620,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-hvezda-centralni-hmotnost",
@@ -605,7 +640,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-interferometr-mereni",
@@ -624,7 +660,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-neutrony-a-prvky",
@@ -643,7 +680,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-srazka-galaxii-slozky",
@@ -662,7 +700,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-hubble-dve-cesty",
@@ -681,7 +720,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-atmosfericka-okna",
@@ -700,7 +740,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-webb-okoli-l2",
@@ -719,7 +760,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-interferometrie-zakladny",
@@ -738,7 +780,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-detektor-vrstvy",
@@ -757,7 +800,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-jak-cist-spektrum",
@@ -776,7 +820,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-posuv-cas-vzdalenost",
@@ -795,7 +840,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-orbital-pravdepodobnost",
@@ -814,7 +860,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-ton-a-klep",
@@ -833,7 +880,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-provazani-vzdalenost",
@@ -852,7 +900,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-kvantova-teorie-pole",
@@ -871,7 +920,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-anihilace-dva-fotony",
@@ -890,7 +940,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-castice-a-pole",
@@ -909,7 +960,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-kvantove-vakuum-oscilator",
@@ -928,7 +980,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-casimirovy-desky",
@@ -947,7 +1000,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-higgsovo-pole-a-boson",
@@ -966,7 +1020,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-hmotnost-elektron-proton",
@@ -985,7 +1040,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-kvantova-gravitace",
@@ -1004,7 +1060,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-rozsireni-lcdm",
@@ -1023,7 +1080,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-temna-energie-vyvoj",
@@ -1042,7 +1100,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-temna-energie-hustota-priklad",
@@ -1061,7 +1120,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-testovani-modifikovane-gravitace",
@@ -1080,7 +1140,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-temna-hmota-nebo-mond",
@@ -1099,7 +1160,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-testy-temne-hmoty",
@@ -1118,7 +1180,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-porovnavani-kosmologickych-modelu",
@@ -1137,7 +1200,8 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
   },
   {
     "id": "kosmopedie-schema-modely-prolozeni-a-predpoved",
@@ -1156,6 +1220,626 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "modifications": "vlastní schéma",
-    "gallery_type": "schema"
+    "gallery_type": "schema",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-eso0525a",
+    "catalog_image_id": "eso0525a",
+    "title": "Galaxie NGC 4565 viděná z boku",
+    "caption": "Tematický obrázek: Galaxie NGC 4565 viděná z boku (snímek). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso0525a.jpg",
+    "thumb": "assets/article-images/thumbs/eso0525a.webp",
+    "source": "ESO",
+    "url": "https://www.eso.org/public/images/eso0525a/",
+    "credit": "ESO",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "výřez, zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-eso0931a",
+    "catalog_image_id": "eso0931a",
+    "title": "Galaxie NGC 4945",
+    "caption": "Tematický obrázek: Galaxie NGC 4945 (snímek). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso0931a.jpg",
+    "thumb": "assets/article-images/thumbs/eso0931a.webp",
+    "source": "ESO",
+    "url": "https://www.eso.org/public/images/eso0931a/",
+    "credit": "ESO",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "výřez, zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-eso1217a",
+    "catalog_image_id": "eso1217a",
+    "title": "Halo temné hmoty kolem Mléčné dráhy",
+    "caption": "Tematický obrázek: Halo temné hmoty kolem Mléčné dráhy (umělecká představa). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso1217a.jpg",
+    "thumb": "assets/article-images/thumbs/eso1217a.webp",
+    "source": "ESO/L. Calçada",
+    "url": "https://www.eso.org/public/images/eso1217a/",
+    "credit": "ESO/L. Calçada",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "ilustrace",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-eso1514a",
+    "catalog_image_id": "eso1514a",
+    "title": "Kupa galaxií Abell 3827",
+    "caption": "Tematický obrázek: Kupa galaxií Abell 3827 (snímek). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso1514a.jpg",
+    "thumb": "assets/article-images/thumbs/eso1514a.webp",
+    "source": "ESO",
+    "url": "https://www.eso.org/public/images/eso1514a/",
+    "credit": "ESO",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "výřez, zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-eso1524a",
+    "catalog_image_id": "eso1524a",
+    "title": "Galaxie CR7 v raném vesmíru",
+    "caption": "Tematický obrázek: Galaxie CR7 v raném vesmíru (umělecká představa). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso1524a.jpg",
+    "thumb": "assets/article-images/thumbs/eso1524a.webp",
+    "source": "ESO/M. Kornmesser",
+    "url": "https://www.eso.org/public/images/eso1524a/",
+    "credit": "ESO/M. Kornmesser",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "ilustrace",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-eso1538a",
+    "catalog_image_id": "eso1538a",
+    "title": "Exoplaneta LHS 1140 b",
+    "caption": "Tematický obrázek: Exoplaneta LHS 1140 b (umělecká představa). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso1538a.jpg",
+    "thumb": "assets/article-images/thumbs/eso1538a.webp",
+    "source": "ESO/spaceengine.org",
+    "url": "https://www.eso.org/public/images/eso1712a/",
+    "credit": "ESO/spaceengine.org",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "ilustrace",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-eso1642b",
+    "catalog_image_id": "eso1642b",
+    "title": "Mapa rozložení temné hmoty z přehlídky KiDS",
+    "caption": "Tematický obrázek: Mapa rozložení temné hmoty z přehlídky KiDS (mapa odvozená z pozorování). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso1642b.jpg",
+    "thumb": "assets/article-images/thumbs/eso1642b.webp",
+    "source": "Kilo-Degree Survey Collaboration/H. Hildebrandt & B. Giblin/ESO",
+    "url": "https://www.eso.org/public/images/eso1642b/",
+    "credit": "Kilo-Degree Survey Collaboration/H. Hildebrandt & B. Giblin/ESO",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_type_label": "Mapa odvozená z pozorování",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-eso1733a",
+    "catalog_image_id": "eso1733a",
+    "title": "Srážka neutronových hvězd",
+    "caption": "Tematický obrázek: Srážka neutronových hvězd (umělecká představa). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso1733a.jpg",
+    "thumb": "assets/article-images/thumbs/eso1733a.webp",
+    "source": "ESO/L. Calçada/M. Kornmesser",
+    "url": "https://www.eso.org/public/images/eso1733a/",
+    "credit": "ESO/L. Calçada/M. Kornmesser",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "ilustrace",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-eso1907a",
+    "catalog_image_id": "eso1907a",
+    "title": "Stín černé díry M87*",
+    "caption": "Tematický obrázek: Stín černé díry M87* (snímek). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso1907a.jpg",
+    "thumb": "assets/article-images/thumbs/eso1907a.webp",
+    "source": "EHT Collaboration",
+    "url": "https://www.eso.org/public/images/eso1907a/",
+    "credit": "EHT Collaboration",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_keywords": [
+      "černá díra",
+      "černé díry",
+      "black hole"
+    ]
+  },
+  {
+    "id": "kosmopedie-eso1917a",
+    "catalog_image_id": "eso1917a",
+    "title": "Vznik stroncia při srážce neutronových hvězd",
+    "caption": "Tematický obrázek: Vznik stroncia při srážce neutronových hvězd (umělecká představa). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso1917a.jpg",
+    "thumb": "assets/article-images/thumbs/eso1917a.webp",
+    "source": "ESO/L. Calçada/M. Kornmesser",
+    "url": "https://www.eso.org/public/images/eso1917a/",
+    "credit": "ESO/L. Calçada/M. Kornmesser",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "ilustrace",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-eso2105a",
+    "catalog_image_id": "eso2105a",
+    "title": "M87* v polarizovaném světle",
+    "caption": "Tematický obrázek: M87* v polarizovaném světle (snímek). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso2105a.jpg",
+    "thumb": "assets/article-images/thumbs/eso2105a.webp",
+    "source": "EHT Collaboration",
+    "url": "https://www.eso.org/public/images/eso2105a/",
+    "credit": "EHT Collaboration",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_keywords": [
+      "černá díra",
+      "černé díry",
+      "black hole"
+    ]
+  },
+  {
+    "id": "kosmopedie-eso2117a",
+    "catalog_image_id": "eso2117a",
+    "title": "Galaxie NGC 7727 se dvěma supermasivními černými dírami",
+    "caption": "Tematický obrázek: Galaxie NGC 7727 se dvěma supermasivními černými dírami (kompozitní snímek). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso2117a.jpg",
+    "thumb": "assets/article-images/thumbs/eso2117a.webp",
+    "source": "ESO/Voggel et al.; ESO/VST ATLAS team. Acknowledgement: Durham University/CASU/WFAU",
+    "url": "https://www.eso.org/public/images/eso2117a/",
+    "credit": "ESO/Voggel et al.; ESO/VST ATLAS team. Acknowledgement: Durham University/CASU/WFAU",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_type_label": "Kompozitní snímek",
+    "gallery_keywords": [
+      "černá díra",
+      "černé díry",
+      "black hole"
+    ]
+  },
+  {
+    "id": "kosmopedie-eso2208-eht-mwa",
+    "catalog_image_id": "eso2208-eht-mwa",
+    "title": "Stín černé díry Sagittarius A*",
+    "caption": "Tematický obrázek: Stín černé díry Sagittarius A* (snímek). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso2208-eht-mwa.jpg",
+    "thumb": "assets/article-images/thumbs/eso2208-eht-mwa.webp",
+    "source": "EHT Collaboration",
+    "url": "https://www.eso.org/public/images/eso2208-eht-mwa/",
+    "credit": "EHT Collaboration",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_keywords": [
+      "černá díra",
+      "černé díry",
+      "black hole"
+    ]
+  },
+  {
+    "id": "kosmopedie-eso2210a",
+    "catalog_image_id": "eso2210a",
+    "title": "Hvězdná černá díra a její okolí",
+    "caption": "Tematický obrázek: Hvězdná černá díra a její okolí (umělecká představa). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso2210a.jpg",
+    "thumb": "assets/article-images/thumbs/eso2210a.webp",
+    "source": "ESO/L. Calçada",
+    "url": "https://www.eso.org/public/images/eso2210a/",
+    "credit": "ESO/L. Calçada",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "ilustrace",
+    "gallery_keywords": [
+      "černá díra",
+      "černé díry",
+      "black hole"
+    ]
+  },
+  {
+    "id": "kosmopedie-eso2305a",
+    "catalog_image_id": "eso2305a",
+    "title": "Černá díra M87 a počátek výtrysku",
+    "caption": "Tematický obrázek: Černá díra M87 a počátek výtrysku (kompozitní snímek). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso2305a.jpg",
+    "thumb": "assets/article-images/thumbs/eso2305a.webp",
+    "source": "R.-S. Lu (SHAO), E. Ros (MPIfR), S. Dagnello (NRAO/AUI/NSF)",
+    "url": "https://www.eso.org/public/images/eso2305a/",
+    "credit": "R.-S. Lu (SHAO), E. Ros (MPIfR), S. Dagnello (NRAO/AUI/NSF)",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_type_label": "Kompozitní snímek",
+    "gallery_keywords": [
+      "černá díra",
+      "černé díry",
+      "black hole"
+    ]
+  },
+  {
+    "id": "kosmopedie-eso2406a",
+    "catalog_image_id": "eso2406a",
+    "title": "Sagittarius A* v polarizovaném světle",
+    "caption": "Tematický obrázek: Sagittarius A* v polarizovaném světle (snímek). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/eso2406a.jpg",
+    "thumb": "assets/article-images/thumbs/eso2406a.webp",
+    "source": "EHT Collaboration",
+    "url": "https://www.eso.org/public/images/eso2406a/",
+    "credit": "EHT Collaboration",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_keywords": [
+      "černá díra",
+      "černé díry",
+      "black hole"
+    ]
+  },
+  {
+    "id": "kosmopedie-potw2102a",
+    "catalog_image_id": "potw2102a",
+    "title": "Hvězdotvorný prstenec kolem jádra NGC 1097",
+    "caption": "Tematický obrázek: Hvězdotvorný prstenec kolem jádra NGC 1097 (snímek). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/potw2102a.jpg",
+    "thumb": "assets/article-images/thumbs/potw2102a.webp",
+    "source": "ESO/TIMER survey",
+    "url": "https://www.eso.org/public/images/potw2102a/",
+    "credit": "ESO/TIMER survey",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_keywords": [
+      "černá díra",
+      "černé díry",
+      "black hole"
+    ]
+  },
+  {
+    "id": "kosmopedie-potw2504a",
+    "catalog_image_id": "potw2504a",
+    "title": "Svítící plyn v kosmickém vlákně",
+    "caption": "Tematický obrázek: Svítící plyn v kosmickém vlákně (snímek). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "image": "assets/article-images/potw2504a.jpg",
+    "thumb": "assets/article-images/thumbs/potw2504a.webp",
+    "source": "ESO/D. Tornotti et al./Hubble: M. Revalski, P. Francis et al.",
+    "url": "https://www.eso.org/public/images/potw2504a/",
+    "credit": "ESO/D. Tornotti et al./Hubble: M. Revalski, P. Francis et al.",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "výřez, zmenšení a kredit",
+    "gallery_type": "snimek",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-schema-cerne-diry-horizon",
+    "catalog_image_id": "schema-cerne-diry-horizon",
+    "title": "Horizont událostí černé díry",
+    "caption": "Horizont událostí černé díry: vlastní kvalitativní schéma, nikoli pozorování ani numerická simulace.",
+    "image": "assets/article-images/schema-cerne-diry-horizon.jpg",
+    "thumb": "assets/article-images/thumbs/schema-cerne-diry-horizon.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": [
+      "černá díra",
+      "černé díry",
+      "black hole"
+    ]
+  },
+  {
+    "id": "kosmopedie-schema-gravitacni-vlny-1",
+    "catalog_image_id": "schema-gravitacni-vlny-1",
+    "title": "Dvojice kompaktních objektů",
+    "caption": "Dvojice kompaktních objektů: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "image": "assets/article-images/schema-gravitacni-vlny-1.jpg",
+    "thumb": "assets/article-images/thumbs/schema-gravitacni-vlny-1.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-schema-gravitacni-vlny-2",
+    "catalog_image_id": "schema-gravitacni-vlny-2",
+    "title": "Signál před splynutím",
+    "caption": "Signál před splynutím: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "image": "assets/article-images/schema-gravitacni-vlny-2.jpg",
+    "thumb": "assets/article-images/thumbs/schema-gravitacni-vlny-2.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-schema-gravitacni-vlny-spectrum",
+    "catalog_image_id": "schema-gravitacni-vlny-spectrum",
+    "title": "Spektrum stochastického pozadí",
+    "caption": "Spektrum stochastického pozadí: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "image": "assets/article-images/schema-gravitacni-vlny-spectrum.jpg",
+    "thumb": "assets/article-images/thumbs/schema-gravitacni-vlny-spectrum.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-schema-relictni-zareni-1",
+    "catalog_image_id": "schema-relictni-zareni-1",
+    "title": "Teplotní odchylky reliktního záření",
+    "caption": "Teplotní odchylky reliktního záření: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "image": "assets/article-images/schema-relictni-zareni-1.jpg",
+    "thumb": "assets/article-images/thumbs/schema-relictni-zareni-1.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-schema-relictni-zareni-acoustic",
+    "catalog_image_id": "schema-relictni-zareni-acoustic",
+    "title": "Akustické vrcholy CMB",
+    "caption": "Akustické vrcholy CMB: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "image": "assets/article-images/schema-relictni-zareni-acoustic.jpg",
+    "thumb": "assets/article-images/thumbs/schema-relictni-zareni-acoustic.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-schema-temna-energie-2",
+    "catalog_image_id": "schema-temna-energie-2",
+    "title": "Hubbleův vztah",
+    "caption": "Hubbleův vztah: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "image": "assets/article-images/schema-temna-energie-2.jpg",
+    "thumb": "assets/article-images/thumbs/schema-temna-energie-2.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-schema-temna-energie-density",
+    "catalog_image_id": "schema-temna-energie-density",
+    "title": "Jak řídnou složky vesmíru",
+    "caption": "Jak řídnou složky vesmíru: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "image": "assets/article-images/schema-temna-energie-density.jpg",
+    "thumb": "assets/article-images/thumbs/schema-temna-energie-density.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-schema-temna-energie-equation-state",
+    "catalog_image_id": "schema-temna-energie-equation-state",
+    "title": "Stavová rovnice temné energie",
+    "caption": "Stavová rovnice temné energie: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "image": "assets/article-images/schema-temna-energie-equation-state.jpg",
+    "thumb": "assets/article-images/thumbs/schema-temna-energie-equation-state.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-schema-temna-energie-ladder",
+    "catalog_image_id": "schema-temna-energie-ladder",
+    "title": "Žebřík kosmických vzdáleností",
+    "caption": "Žebřík kosmických vzdáleností: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "image": "assets/article-images/schema-temna-energie-ladder.jpg",
+    "thumb": "assets/article-images/thumbs/schema-temna-energie-ladder.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": []
+  },
+  {
+    "id": "kosmopedie-schema-velky-tresk-2",
+    "catalog_image_id": "schema-velky-tresk-2",
+    "title": "Kosmická inflace",
+    "caption": "Kosmická inflace: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "image": "assets/article-images/schema-velky-tresk-2.jpg",
+    "thumb": "assets/article-images/thumbs/schema-velky-tresk-2.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": []
   }
 ]

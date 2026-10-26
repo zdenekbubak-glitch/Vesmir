@@ -90,7 +90,7 @@
       const detail = safeUrl(meta.detail);
       if (detail) { const a = anchor('', detail); a.append(image); figure.append(a); } else figure.append(image);
       const h = node('h2'); if (detail) h.append(anchor(item.title || '', detail)); else h.textContent = item.title || ''; figure.append(h);
-      if (branch === 'temata') figure.append(node('span', labels[kind] || 'Typ dosud nezařazen', 'image-type'));
+      if (branch === 'temata') figure.append(node('span', item.gallery_type_label || labels[kind] || 'Typ dosud nezařazen', 'image-type'));
       figure.append(node('div', [item.source, item.published, item.credit].filter(Boolean).join(' · '), 'meta'));
       figure.append(node('p', item.caption || '', 'caption'));
       if (item.license_url && safeUrl(item.license_url)) {
@@ -103,7 +103,7 @@
         figure.append(anchor(branch === 'temata' && new URL(source).pathname.startsWith('/kosmopedie/') ? 'Výklad v Kosmopedii →' : 'Původní zdroj →', source, true));
       }
       gallery.append(figure);
-      records.push({figure, kind, refs, text: fold([item.title, item.original_title, item.caption, item.credit, item.source, ...refs.map(r => r.title)].join(' '))});
+      records.push({figure, kind, refs, text: fold([item.title, item.original_title, item.caption, item.credit, item.source, ...(item.gallery_keywords || []), ...refs.map(r => r.title)].join(' '))});
     }
     const empty = node('p', 'Žádný obrázek neodpovídá zvoleným filtrům.', 'empty'); empty.id = 'gallery-empty'; empty.hidden = true; gallery.append(empty);
   }

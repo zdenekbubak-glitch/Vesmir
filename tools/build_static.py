@@ -464,6 +464,42 @@ def write_home_explainer_links(news, catalog, out):
 
 
 
+def complete_topic_gallery(curated, explainery, library, catalog):
+    """Include every actual Kosmopedie image, preserving curated metadata and IDs."""
+    result = [dict(item) for item in curated]
+    known = {item.get('catalog_image_id') for item in result}
+    used = set()
+    for ex in explainery:
+        entry = lookup_image(ex, 'explainery', library)
+        if entry:
+            used.add(entry['id'])
+        used.update(sec['image_id'] for sec in ex.get('sections', []) if sec.get('image_id'))
+    kinds = {'snímek': 'snimek', 'kompozitní snímek': 'snimek', 'mapa odvozená z pozorování': 'snimek',
+             'výtvarná představa': 'ilustrace', 'umělecká představa': 'ilustrace', 'ilustrace': 'ilustrace', 'vlastní schéma': 'schema'}
+    for image_id in sorted(used - known):
+        e = catalog.get(image_id)
+        if not e:
+            raise ValueError('Obrázek Kosmopedie chybí v katalogu: ' + image_id)
+        result.append({'id': 'kosmopedie-' + image_id, 'catalog_image_id': image_id,
+                       'title': e['title'], 'caption': e.get('caption', ''),
+                       'image': 'assets/article-images/' + image_id + '.jpg', 'thumb': e.get('thumbnail', ''),
+                       'source': e.get('credit', ''), 'url': e.get('source', ''), 'credit': e.get('credit', ''),
+                       'published': e.get('verified_on', ''), 'inserted_at': e.get('verified_on', ''),
+                       'lang': 'cs', 'needs_translation': False, 'license': e.get('license', ''),
+                       'license_url': e.get('license_url', ''), 'modifications': e.get('modifications', '')})
+    for item in result:
+        e = catalog.get(item.get('catalog_image_id'), {})
+        item.setdefault('gallery_type', kinds.get(e.get('kind'), ''))
+        if e.get('kind') in ('kompozitní snímek', 'mapa odvozená z pozorování'):
+            item.setdefault('gallery_type_label', 'Kompozitní snímek' if e['kind'] == 'kompozitní snímek' else 'Mapa odvozená z pozorování')
+        words = list(item.get('gallery_keywords', []))
+        text = topic_text(' '.join([e.get('title', ''), e.get('topic', ''), *e.get('topics', [])]))
+        if 'cern' in text and ('dir' in text or 'der' in text) or 'm87' in text or 'sagittarius' in text:
+            words += ['černá díra', 'černé díry', 'black hole']
+        item['gallery_keywords'] = list(dict.fromkeys(words))
+    return result
+
+
 def write_gallery_context(site, out, images, news, explainery, library, editor_posts):
     """Describe only curated gallery entries; never import the entire image catalogue."""
     catalog = {e['id']: e for e in json.loads((Path(site) / 'data/article_image_catalog.json').read_text(encoding='utf-8'))}
@@ -803,7 +839,12 @@ def main():
         images = json.loads(img_path.read_text(encoding="utf-8"))
     permanent_images = site / 'data' / 'kosmopedie_images.json'
     if permanent_images.exists():
-        images = list({img['id']: img for img in images + json.loads(permanent_images.read_text(encoding='utf-8'))}.values())
+        catalog = {e['id']: e for e in json.loads((site / 'data/article_image_catalog.json').read_text(encoding='utf-8'))}
+        curated = json.loads(permanent_images.read_text(encoding='utf-8'))
+        curated = complete_topic_gallery(curated, kosmopedie, image_library, catalog)
+        (out / 'data').mkdir(parents=True, exist_ok=True)
+        (out / 'data' / 'kosmopedie_images.json').write_text(json.dumps(curated, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        images = list({img['id']: img for img in images + curated}.values())
     news.sort(key=lambda x: x.get("inserted_at") or "", reverse=True)
 
     used_slugs = set()
