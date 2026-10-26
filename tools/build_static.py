@@ -182,7 +182,7 @@ def feedback_link(title, canonical_url):
     params = urlencode({'subject': 'Připomínka k příspěvku: ' + title, 'body': body}, quote_via=quote)
     href = 'mailto:redakce@kosmonovinky.cz?' + params
     return ('<p class="feedback-link">Našli jste chybu nebo nepřesnost? '
-            f'<a href="{esc(href)}">Napište redakci.</a> '
+            f'<a href="{esc(href)}" target="_blank" rel="noopener noreferrer">Napište redakci.</a> '
             '<span class="feedback-email">(redakce@kosmonovinky.cz)</span></p>')
 
 
