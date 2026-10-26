@@ -64,6 +64,9 @@ class Canvas:
 
 
 def diagram(entry):
+    if entry['diagram'].startswith('edu-b7-'):
+        from kosmopedie_batch7_diagrams import diagram as batch7_diagram
+        return batch7_diagram(entry)
     if entry['diagram'].startswith('edu-b6-'):
         from kosmopedie_batch6_diagrams import diagram as batch6_diagram
         return batch6_diagram(entry)

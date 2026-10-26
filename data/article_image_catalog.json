@@ -6449,5 +6449,357 @@
       "https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/"
     ],
     "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://articles.adsabs.harvard.edu/pdf/1912HarCi.173....1L"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma pod CC BY 4.0. Zdrojový kód tools/kosmopedie_batch7_diagrams.py; nejde o převzatý obrázek, historický portrét ani záznam původních měření.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-lide-objevy-milniky",
+    "title": "Čtyři kroky k dnešní kosmologii",
+    "diagram": "edu-b7-timeline",
+    "source_id": "own-diagram:edu-b7-timeline",
+    "source_family": "own-diagram:edu-b7-timeline",
+    "alt": "Čtyři kroky k dnešní kosmologii – vlastní vysvětlující schéma",
+    "caption": "Vybrané milníky propojují metodu měření vzdáleností, teorii rozpínání, pozorování galaxií a rotační křivky. Jde o výběr návazností, nikoli úplnou historii nebo připsání objevů jediným lidem.",
+    "thumbnail": "assets/article-images/thumbs/schema-lide-objevy-milniky.webp",
+    "source_master": "assets/article-images/sources/schema-lide-objevy-milniky.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://articles.adsabs.harvard.edu/pdf/1912HarCi.173....1L",
+      "https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/",
+      "https://web.physics.rutgers.edu/grad/690/Rubin-Ford-1970.pdf"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://articles.adsabs.harvard.edu/pdf/1912HarCi.173....1L"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma pod CC BY 4.0. Zdrojový kód tools/kosmopedie_batch7_diagrams.py; nejde o převzatý obrázek, historický portrét ani záznam původních měření.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-leavitt-vzdalenost",
+    "title": "Od proměn cefeidy ke vzdálenosti",
+    "diagram": "edu-b7-distance",
+    "source_id": "own-diagram:edu-b7-distance",
+    "source_family": "own-diagram:edu-b7-distance",
+    "alt": "Od proměn cefeidy ke vzdálenosti – vlastní vysvětlující schéma",
+    "caption": "Tři kroky měření vzdálenosti pomocí cefeidy. Vztah periody a svítivosti vyžaduje kalibraci navázanou na jiné metody a opravy vlivu prachu a dalších vlastností.",
+    "thumbnail": "assets/article-images/thumbs/schema-leavitt-vzdalenost.webp",
+    "source_master": "assets/article-images/sources/schema-leavitt-vzdalenost.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://articles.adsabs.harvard.edu/pdf/1912HarCi.173....1L",
+      "https://www.jb.man.ac.uk/~tob/litmus-leavitt.html",
+      "https://cosmology.carnegiescience.edu/timeline/1912.html"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://academic.oup.com/mnras/article/91/5/490/985169"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma pod CC BY 4.0. Zdrojový kód tools/kosmopedie_batch7_diagrams.py; nejde o převzatý obrázek, historický portrét ani záznam původních měření.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-lemaitre-rozpinani",
+    "title": "Rozpínání jako změna vzdáleností",
+    "diagram": "edu-b7-lemaitre",
+    "source_id": "own-diagram:edu-b7-lemaitre",
+    "source_family": "own-diagram:edu-b7-lemaitre",
+    "alt": "Rozpínání jako změna vzdáleností – vlastní vysvětlující schéma",
+    "caption": "Dvě fáze rovnoměrného zvětšování vzdáleností mezi třemi značkami. Žádná značka není vyvoleným středem. Pás je jednorozměrná analogie, nikoli kresba tvaru vesmíru.",
+    "thumbnail": "assets/article-images/thumbs/schema-lemaitre-rozpinani.webp",
+    "source_master": "assets/article-images/sources/schema-lemaitre-rozpinani.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://academic.oup.com/mnras/article/91/5/490/985169",
+      "https://www.aps.org/apsnews/2026/05/lemaitre-proposes-universe-beginning",
+      "https://www.pas.va/en/publications/acta/acta24pas/hertog.html"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma pod CC BY 4.0. Zdrojový kód tools/kosmopedie_batch7_diagrams.py; nejde o převzatý obrázek, historický portrét ani záznam původních měření.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-hubble-vztah",
+    "title": "Vzdálenost a vzdalování galaxií",
+    "diagram": "edu-b7-hubble",
+    "source_id": "own-diagram:edu-b7-hubble",
+    "source_family": "own-diagram:edu-b7-hubble",
+    "alt": "Vzdálenost a vzdalování galaxií – vlastní vysvětlující schéma",
+    "caption": "Smyšlené body ilustrují celkový trend a rozptyl jednotlivých měření. Nejde o reprodukci Hubbleových původních dat ani současné určení Hubbleovy konstanty.",
+    "thumbnail": "assets/article-images/thumbs/schema-hubble-vztah.webp",
+    "source_master": "assets/article-images/sources/schema-hubble-vztah.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/",
+      "https://science.nasa.gov/missions/hubble/hubble-completes-eight-year-effort-to-measure-expanding-universe/",
+      "https://iauarchive.eso.org/news/pressreleases/detail/iau1812/"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://web.physics.rutgers.edu/grad/690/Rubin-Ford-1970.pdf"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma pod CC BY 4.0. Zdrojový kód tools/kosmopedie_batch7_diagrams.py; nejde o převzatý obrázek, historický portrét ani záznam původních měření.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-rubin-rotace-halo",
+    "title": "Co naznačují vysoké rychlosti na okraji galaxie",
+    "diagram": "edu-b7-rotation",
+    "source_id": "own-diagram:edu-b7-rotation",
+    "source_family": "own-diagram:edu-b7-rotation",
+    "alt": "Co naznačují vysoké rychlosti na okraji galaxie – vlastní vysvětlující schéma",
+    "caption": "Dva modelové průběhy oběžné rychlosti: hmotnost převážně v centrální oblasti a rozlehlé hmotné halo. Graf nemá číselné osy a nereprodukuje původní pozorování Rubinové a Forda.",
+    "thumbnail": "assets/article-images/thumbs/schema-rubin-rotace-halo.webp",
+    "source_master": "assets/article-images/sources/schema-rubin-rotace-halo.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://web.physics.rutgers.edu/grad/690/Rubin-Ford-1970.pdf",
+      "https://carnegiescience.edu/news/vera-rubin-opening-doors-dark-matter-and-women-stem"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": false,
+    "kind": "snímek",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Neznámý fotograf; historický snímek, Wikimedia Commons / Library of Congress",
+    "source": "https://commons.wikimedia.org/wiki/File:Henrietta_Swan_Leavitt.jpg",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "rights_note": "Skutečný historický obrazový podklad; podmínky a původ doloženy zdrojovou stránkou. Úpravy: zmenšení, doplnění rámečku a kreditu, bez změny obličeje.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "portrait",
+    "thumbnail_fit": "contain",
+    "modifications": "zmenšení dodaného portrétu na šířku 900 px, doplnění rámečku a kreditu",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "portret-henrietta-leavitt",
+    "title": "Henrietta Swan Leavittová",
+    "alt": "Henrietta Swan Leavittová – historická podobizna",
+    "caption": "Historický portrét Henrietty Swan Leavittové, přibližně z roku 1898. Autor snímku není znám.",
+    "thumbnail": "assets/article-images/thumbs/portret-henrietta-leavitt.webp",
+    "source_master": "assets/article-images/sources/portret-henrietta-leavitt.jpg",
+    "match_keywords": [],
+    "manual_only": true,
+    "download": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Henrietta_Swan_Leavitt.jpg"
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": false,
+    "kind": "snímek",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Neznámý fotograf; Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Lemaitre-1.jpg",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "rights_note": "Skutečný historický obrazový podklad; podmínky a původ doloženy zdrojovou stránkou. Úpravy: zmenšení, doplnění rámečku a kreditu, bez změny obličeje.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "portrait",
+    "thumbnail_fit": "contain",
+    "modifications": "zmenšení, doplnění rámečku a kreditu",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "portret-georges-lemaitre",
+    "title": "Georges Lemaître",
+    "alt": "Georges Lemaître – historická podobizna",
+    "caption": "Georges Lemaître jako mladý duchovní na historické fotografii z počátku dvacátých let 20. století.",
+    "thumbnail": "assets/article-images/thumbs/portret-georges-lemaitre.webp",
+    "source_master": "assets/article-images/sources/portret-georges-lemaitre.jpg",
+    "match_keywords": [],
+    "manual_only": true,
+    "download": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Lemaitre-1.jpg"
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": false,
+    "kind": "fotografická koláž",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "NASA & ESA",
+    "source": "https://esahubble.org/images/ann1527a/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Skutečný historický obrazový podklad; podmínky a původ doloženy zdrojovou stránkou. Úpravy: zmenšení, doplnění rámečku a kreditu, bez změny obličeje.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "portrait",
+    "thumbnail_fit": "contain",
+    "modifications": "zmenšení, doplnění rámečku a kreditu",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "portret-edwin-hubble",
+    "title": "Edwin Hubble",
+    "alt": "Edwin Hubble – historická podobizna",
+    "caption": "Podobizna Edwina Hubblea ve zveřejněném záběru z dokumentu Hubblecast 89. Zdroj ESA/Hubble jej označuje jako dokumentární obrazový materiál (Artwork); nejde o nově vytvořený portrét.",
+    "thumbnail": "assets/article-images/thumbs/portret-edwin-hubble.webp",
+    "source_master": "assets/article-images/sources/portret-edwin-hubble.jpg",
+    "match_keywords": [],
+    "manual_only": true,
+    "download": "https://cdn.esahubble.org/archives/images/large/ann1527a.jpg"
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": false,
+    "kind": "snímek",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "AIP Emilio Segrè Visual Archives, AIP Gallery of Member Society Presidents",
+    "source": "https://commons.wikimedia.org/wiki/File:Vera_Rubin_AIP.jpg",
+    "license": "Použití s uvedením kreditu AIP",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Vera_Rubin_AIP.jpg",
+    "rights_url": "https://commons.wikimedia.org/wiki/File:Vera_Rubin_AIP.jpg",
+    "rights_note": "Skutečný historický obrazový podklad; podmínky a původ doloženy zdrojovou stránkou. Úpravy: zmenšení, doplnění rámečku a kreditu, bez změny obličeje.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "portrait",
+    "thumbnail_fit": "contain",
+    "modifications": "zmenšení, doplnění rámečku a kreditu",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "portret-vera-rubin",
+    "title": "Vera Rubinová",
+    "alt": "Vera Rubinová – historická podobizna",
+    "caption": "Fotografický portrét Very Rubinové z archivu American Institute of Physics. Datum snímku není uvedeno.",
+    "thumbnail": "assets/article-images/thumbs/portret-vera-rubin.webp",
+    "source_master": "assets/article-images/sources/portret-vera-rubin.jpg",
+    "match_keywords": [],
+    "manual_only": true,
+    "download": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Vera_Rubin_AIP.jpg"
   }
 ]

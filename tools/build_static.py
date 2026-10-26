@@ -375,6 +375,11 @@ EXPLAINER_PATTERNS = {
     'exp-052': r'modifikovan\w* gravitac\w*|modified gravity|scalar.tensor|skalarne.tenzor\w*|f\(r\)',
     'exp-053': r'\bmond\b|modifikovan\w* newton\w*|modified newtonian|bez temn\w* hmot\w*',
     'exp-054': r'bayes\w*|porovnavan\w* (?:kosmologick\w* )?model\w*|model selection|systematick\w* (?:chyb\w*|nejistot\w*)',
+    'exp-055': r'histori\w* kosmologi\w*|history of cosmology',
+    'exp-056': r'leavitt\w*|cefeid\w*|cepheid\w*',
+    'exp-057': r'lemaitre\w*|prvotni atom|primeval atom',
+    'exp-058': r'edwin hubble|hubble.{0,12}1929|slipher\w*|humason\w*',
+    'exp-059': r'vera rubin\w*|rubinov\w*|kent ford',
 }
 
 

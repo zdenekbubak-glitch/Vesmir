@@ -31,6 +31,7 @@ from build_static import (FALLBACK_THEME, THEME_LABEL, esc, fmt_date, fmt_iso_da
 
 # Kosmopedie may introduce a subject before it has its own news category.
 KOSMOPEDIE_THEMES = {
+    'lide-a-objevy': 'Lidé a objevy',
     'kvantovy-svet': 'Kvantový svět',
     'svetlo-a-mereni-vesmiru': 'Světlo a měření vesmíru',
     'rozpinani-a-modely-vesmiru': 'Rozpínání a modely vesmíru',
@@ -39,6 +40,7 @@ KOSMOPEDIE_THEMES = {
 THEME_LABEL = {**THEME_LABEL, **KOSMOPEDIE_THEMES}
 
 GROUP_DESCRIPTIONS = {
+    'lide-a-objevy': 'Lidé, měření a myšlenky, které proměnily kosmologii.',
     'cerne-diry': 'Vznik černých děr, horizont událostí a jejich neobvyklé vlastnosti.',
     'temna-dira-v-centru': 'Obří černé díry v srdcích galaxií a jejich okolí.',
     'temna-hmota': 'Důkazy neviditelné hmoty a hledání jejího složení.',

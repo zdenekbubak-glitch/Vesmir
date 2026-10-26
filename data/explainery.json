@@ -2257,5 +2257,219 @@
    "muze-se-temna-energie-menit-v-case",
    "co-je-modifikovana-gravitace"
   ]
+ },
+ {
+  "id": "exp-055",
+  "title": "Kdo změnil náš pohled na vesmír?",
+  "theme": "lide-a-objevy",
+  "description": "Jak na sebe navázaly objevy Leavittové, Lemaîtra, Hubblea a Rubinové? Přehled důkazů, spolupráce a změn našeho obrazu vesmíru.",
+  "published": "2026-10-26",
+  "updated": "2026-10-26",
+  "perex": "Poznání vesmíru vznikalo postupným spojováním měření, nových přístrojů a fyzikálních teorií. Čtyři příběhy ukazují, jak jsme získali měřítko vzdáleností, rozpoznali rozpínání a našli důvody uvažovat o neviditelné hmotě. Za známými jmény přitom stojí práce mnoha dalších lidí.",
+  "sections": [
+   {
+    "heading": "Nejdřív potřebujeme vědět, jak daleko hledíme",
+    "body": "Slabá hvězda může být málo svítivá, nebo velmi vzdálená. Bez rozlišení těchto možností těžko určíme velikost galaxie či celého pozorovatelného vesmíru. **Henrietta Leavittová** našla u pravidelně proměnných hvězd vztah mezi dobou jejich proměn a svítivostí. Po doplnění kalibrace se z něj stala metoda měření vzdáleností.\n\nJejí objev umožnil dalším astronomům porovnávat soustavy, které dosavadními metodami ležely příliš daleko. Podrobnosti vysvětluje [téma o Leavittové](https://kosmonovinky.cz/kosmopedie/jak-henrietta-leavittova-pomohla-zmerit-vesmir.html)."
+   },
+   {
+    "heading": "Když rovnice připustí proměnlivý vesmír",
+    "body": "Obecná relativita dovoluje modely, v nichž se velké vzdálenosti s časem mění. **Alexandr Friedmann** popsal dynamická řešení už ve dvacátých letech 20. století. **Georges Lemaître** v roce 1927 nezávisle spojil rozpínající se model s dostupnými údaji o vzdálenostech a rudých posuvech galaxií.\n\nPřinesl tak více než matematickou možnost: ukázal, jak ji vztáhnout k pozorovanému vesmíru. Jeho pozdější úvaha o hustém počátku byla jedním z kroků směrem k dnešnímu obrazu [velkého třesku](https://kosmonovinky.cz/kosmopedie/co-je-velky-tresk.html)."
+   },
+   {
+    "heading": "Vzdálenosti a spektra se potkají",
+    "body": "**Edwin Hubble** využil cefeidy k doložení, že Andromeda leží daleko za hranicemi Mléčné dráhy. V roce 1929 zveřejnil vztah mezi vzdálenostmi galaxií a jejich radiálními rychlostmi odvozenými ze spekter.\n\nVelkou část potřebných spektrálních měření předtím provedl **Vesto Slipher**. K pozdějšímu rozšíření pozorování přispěl **Milton Humason**. Objev rozpínání proto nelze přesně vystihnout jako výsledek jediného pozorovatele v jediném roce."
+   },
+   {
+    "heading": "Pohyb odhalí něco, co nesvítí",
+    "body": "**Vera Rubinová, Kent Ford a další spolupracovníci** měřili pohyb látky v galaxiích. Řada rotačních křivek ukázala vysoké oběžné rychlosti i daleko od jasných středů. V obvyklém gravitačním popisu to vyžadovalo více hmoty, než kolik vysvětlovaly hvězdy a plyn.\n\nDřívější upozornění na chybějící hmotu, například od **Fritze Zwickyho** při studiu kup galaxií, tím získala důležitou další oporu. Na tématu temné hmoty se podíleli také radioastronomové sledující plyn ve vnějších částech galaxií."
+   },
+   {
+    "heading": "Proč příběh nekončí jménem objevitele",
+    "body": "Vztah cefeid bylo třeba přesněji kalibrovat, vzdálenosti galaxií opravovat a rotační křivky ověřovat různými přístroji. Kosmologii proměnila také měření reliktního záření a zrychleného rozpínání, k nimž se mohou vrátit další osobnostní témata.\n\n**Rozhodující je návaznost důkazů:** jak měření vzniklo, kdo přinesl metodu a zda závěr obstál při dalších zkouškách. Jména pomáhají vyprávět příběh; fyzikální vysvětlení stojí na měřitelných souvislostech."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [Leavittová: původní práce z roku 1912](https://articles.adsabs.harvard.edu/pdf/1912HarCi.173....1L)\n- [Hubble: původní práce z roku 1929](https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/)\n- [Rubinová a Ford: měření Andromedy z roku 1970](https://web.physics.rutgers.edu/grad/690/Rubin-Ford-1970.pdf)"
+   }
+  ],
+  "why_box": "Objevy v kosmologii na sebe navazují. Metody, přístroje a nezávislá ověření jsou stejně důležité jako známá jména jejich průkopníků.",
+  "related_explainery": [
+   "jak-henrietta-leavittova-pomohla-zmerit-vesmir",
+   "jak-georges-lemaitre-propojil-rozpinani-s-pocatkem-vesmiru",
+   "co-edwin-hubble-zjistil-o-galaxiich-a-rozpinani",
+   "co-vera-rubinova-zjistila-o-temne-hmote"
+  ]
+ },
+ {
+  "id": "exp-056",
+  "title": "Jak Henrietta Leavittová pomohla změřit vesmír?",
+  "theme": "lide-a-objevy",
+  "description": "Pravidelné proměny cefeid umožňují určit jejich svítivost. Jak Leavittová objevila tento vztah a proč je potřeba ještě kalibrace vzdáleností?",
+  "published": "2026-10-26",
+  "updated": "2026-10-26",
+  "perex": "Henrietta Swan Leavittová (1868–1921) objevila pravidelnost, která umožnila měřit vzdálenosti daleko za hranicemi našeho hvězdného okolí. U cefeid souvisí doba změn jasnosti s jejich skutečnou svítivostí. Z pravidelně proměnné hvězdy se tak může stát ukazatel vzdálenosti.",
+  "sections": [
+   {
+    "heading": "Co hledala na fotografických deskách",
+    "body": "Leavittová pracovala na Harvardově observatoři v týmu žen, které vyhodnocovaly astronomické fotografické desky. Porovnávala jasnosti hvězd na snímcích pořízených v různých časech a určovala proměnné hvězdy. Výsledky závisely na pečlivém měření i na práci pozorovatelů a fotografického archivu.\n\nZvlášť důležité byly **cefeidy v Malém Magellanově oblaku**, sousední galaxii. Tyto hvězdy se pravidelně rozpínají a smršťují a mění přitom jasnost. Doba jednoho úplného cyklu se nazývá **perioda**."
+   },
+   {
+    "heading": "Výhoda hvězd přibližně ve stejné vzdálenosti",
+    "body": "Když porovnáváme náhodné hvězdy na obloze, různé vzdálenosti nám zakrývají vztah mezi jejich vlastnostmi. Cefeidy v jedné vzdálené galaxii jsou však vůči nám přibližně stejně daleko. Rozdíly v jejich pozorované jasnosti proto převážně odrážejí rozdíly ve skutečném světelném výkonu.\n\nLeavittová si všimla, že **cefeidy s delší periodou jsou svítivější**. Vztah naznačila v roce 1908 a podrobněji doložila na 25 hvězdách v roce 1912. Nejde tedy o to, že každá cefeida svítí stejně: právě perioda nám pomáhá rozdíly určit."
+   },
+   {
+    "heading": "Jak z periody získáme vzdálenost",
+    "body": "Postup má tři kroky. Nejprve změříme periodu. Z kalibrovaného vztahu odvodíme, jak velký světelný výkon hvězda vydává. Potom ho porovnáme s tím, kolik světla přichází k nám.\n\nPro stejně svítivé zdroje platí jednoduchá pomůcka: **ve dvojnásobné vzdálenosti zachytíme čtvrtinu světelného toku**. V praxi astronomové opravují také vliv prachu, složení hvězdy a překrývání obrazu se sousedními hvězdami. Schéma níže odděluje vlastní objev vztahu od jeho použití.",
+    "image_id": "schema-leavitt-vzdalenost"
+   },
+   {
+    "heading": "Proč nestačil samotný objev vztahu",
+    "body": "Leavittová získala souvislost mezi periodou a svítivostí, ale pro vzdálenost v konkrétních jednotkách bylo třeba zjistit její **kalibraci**: jaká skutečná svítivost odpovídá dané periodě. K tomu potřebujeme cefeidy, jejichž vzdálenosti známe jinou metodou.\n\nNa této práci pokračovali další astronomové; zásadní je například geometrické měření blízkých hvězd pomocí paralaxy. Objev tedy poskytl nový stupeň kosmického žebříku vzdáleností, na který musela navázat další měření."
+   },
+   {
+    "heading": "Co z její práce používáme dnes",
+    "body": "Cefeidy pomohly Hubbleovi určit vzdálenosti galaxií a dodnes jsou důležitou součástí některých měření [Hubbleovy konstanty](https://kosmonovinky.cz/kosmopedie/co-je-hubbleova-konstanta.html). Současné přístroje vztah zpřesňují, ale základní myšlenka zůstává.\n\nPráce z roku 1912 vyšla pod podpisem ředitele Edwarda Pickeringa a výslovně uvedla, že výsledky připravila Leavittová. Při hodnocení objevu proto rozlišujeme autorství měření a výkladu, vedení observatoře a pozdější kalibraci metody."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [Leavittová: Periods of 25 Variable Stars in the Small Magellanic Cloud, 1912](https://articles.adsabs.harvard.edu/pdf/1912HarCi.173....1L)\n- [Jodrell Bank: vznik a význam vztahu perioda–svítivost](https://www.jb.man.ac.uk/~tob/litmus-leavitt.html)\n- [Carnegie: klíč k měření vzdáleností](https://cosmology.carnegiescience.edu/timeline/1912.html)"
+   }
+  ],
+  "why_box": "Leavittová objevila vztah mezi periodou a svítivostí cefeid. Teprve jeho kalibrace a porovnání se světlem zachyceným na Zemi umožní určit vzdálenost.",
+  "related_explainery": [
+   "co-edwin-hubble-zjistil-o-galaxiich-a-rozpinani",
+   "co-je-hubbleova-konstanta",
+   "co-je-hubbleovo-napeti",
+   "kdo-zmenil-nas-pohled-na-vesmir"
+  ]
+ },
+ {
+  "id": "exp-057",
+  "title": "Jak Georges Lemaître propojil rozpínání s počátkem vesmíru?",
+  "theme": "lide-a-objevy",
+  "description": "Lemaître spojil obecnou relativitu s měřením galaxií. Jak se jeho návrh rozpínání a prvotního atomu liší od dnešního modelu velkého třesku?",
+  "published": "2026-10-26",
+  "updated": "2026-10-26",
+  "perex": "Georges Lemaître (1894–1966), belgický fyzik a katolický kněz, spojil v roce 1927 rozpínající se model vesmíru s astronomickými měřeními. Později navrhl také představu velmi hustého počátečního stavu. Jeho práce pomohla změnit vesmír z neměnné kulisy v soustavu s vlastním vývojem.",
+  "sections": [
+   {
+    "heading": "Vesmír se v rovnicích může vyvíjet",
+    "body": "Obecná relativita popisuje vztah mezi hmotou, energií a geometrií prostoročasu. Při předpokladu stejnorodého vesmíru lze hledat řešení, v nichž se s časem mění vzdálenosti mezi oblastmi unášenými kosmickým rozpínáním.\n\n**Alexandr Friedmann** nalezl dynamická řešení už v letech 1922 a 1924. Lemaître k rozpínajícímu se řešení došel nezávisle a navíc se ptal, zda může odpovídat skutečným pozorováním galaxií."
+   },
+   {
+    "heading": "Co přidal v roce 1927",
+    "body": "Lemaître spojil teoretický popis s tehdejšími odhady vzdáleností a radiálních rychlostí galaxií, odvozenými z jejich spekter. K podkladům patřila práce Hubblea a Slipherova měření. Vyvodil přibližnou úměrnost mezi vzdáleností a rychlostí vzdalování a odhadl rychlost rozpínání.\n\nTehdejší číselné odhady byly zatížené velkými chybami vzdáleností. Podstatný byl **společný výklad rovnic a měření**: pozorované rudé posuvy mohly být projevem rozpínajícího se vesmíru."
+   },
+   {
+    "heading": "Co znamená rozpínání bez středu",
+    "body": "Představme si značky na rovnoměrně natahovaném pásu. Vzdálenosti mezi značkami rostou a vzdálenější značka se od zvoleného místa vzdaluje rychleji. Zvolíme-li jinou značku, platí stejný vztah.\n\nPás je jen pomůcka pro změnu vzdáleností. Ve vesmíru se mění prostorová měřítka; model nepotřebuje určit naši galaxii jako střed. Galaxie a další gravitačně vázané soustavy přitom nemusí růst spolu s kosmickým měřítkem.",
+    "image_id": "schema-lemaitre-rozpinani"
+   },
+   {
+    "heading": "Od rozpínání k prvotnímu atomu",
+    "body": "V roce 1931 Lemaître navrhl, že vývoj mohl začít velmi hustým stavem, který označoval jako **prvotní atom**. Šlo o odvážnou fyzikální hypotézu, nikoli o hotový současný model.\n\nDnešní [velký třesk](https://kosmonovinky.cz/kosmopedie/co-je-velky-tresk.html) popisuje raný horký a hustý vesmír a jeho další rozpínání a ochlazování. Konkrétní Lemaîtrova představa prvotního atomu není jeho doslovnou součástí. Jak přesně popsat úplně nejranější podmínky, stále zkoumáme."
+   },
+   {
+    "heading": "Jak jeho myšlenky získaly oporu",
+    "body": "Lemaîtrova práce z roku 1927 zpočátku nevzbudila velkou pozornost. K jejímu rozšíření přispěl Arthur Eddington; anglický překlad vyšel roku 1931. Mezitím Hubble a Humason rozšiřovali pozorování vztahu mezi vzdáleností a rudým posuvem.\n\nPozdější nález reliktního záření a měření množství lehkých prvků podpořily horkou ranou fázi vesmíru. Tyto důkazy přibyly díky práci dalších týmů. Neověřují každou historickou představu o počátku, ale umožňují testovat konkrétní předpovědi dnešních modelů."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [Lemaître: anglický překlad práce o rozpínajícím se vesmíru, 1931](https://academic.oup.com/mnras/article/91/5/490/985169)\n- [APS, 2026: vznik návrhu prvotního atomu](https://www.aps.org/apsnews/2026/05/lemaitre-proposes-universe-beginning)\n- [Thomas Hertog: Lemaîtrův přínos a dochované historické doklady](https://www.pas.va/en/publications/acta/acta24pas/hertog.html)"
+   }
+  ],
+  "why_box": "Lemaître propojil rozpínající se řešení obecné relativity s pozorováním galaxií. Jeho hypotéza prvotního atomu byla historickým krokem, nikoli úplnou dnešní teorií raného vesmíru.",
+  "related_explainery": [
+   "co-edwin-hubble-zjistil-o-galaxiich-a-rozpinani",
+   "co-je-velky-tresk",
+   "co-je-hubbleova-konstanta",
+   "co-je-reliktni-zareni"
+  ]
+ },
+ {
+  "id": "exp-058",
+  "title": "Co Edwin Hubble zjistil o galaxiích a rozpínání?",
+  "theme": "lide-a-objevy",
+  "description": "Jak cefeidy ukázaly, že Andromeda je jiná galaxie, a co přinesl vztah vzdálenosti a rudého posuvu? Hubble, Slipher a Humason v souvislostech.",
+  "published": "2026-10-26",
+  "updated": "2026-10-26",
+  "perex": "Edwin Hubble (1889–1953) pomohl doložit, že Mléčná dráha není jedinou galaxií, a zveřejnil zásadní pozorovací vztah mezi vzdálenostmi galaxií a jejich vzdalováním. Jeho výsledky využívaly cefeidy i spektrální měření dalších astronomů. Přesné vzdálenosti se přitom ještě dlouho opravovaly.",
+  "sections": [
+   {
+    "heading": "Když byly galaxie ještě mlhovinami",
+    "body": "Na začátku 20. století nebylo u řady slabých mlhavých objektů jasné, zda leží uvnitř Mléčné dráhy, nebo představují samostatné hvězdné soustavy. Rozhodnutí potřebovalo spolehlivou vzdálenost.\n\nHubble na observatoři Mount Wilson používal **Hookerův dalekohled s průměrem zrcadla přibližně 2,5 metru**. Na fotografických deskách Andromedy rozpoznal v roce 1923 proměnnou hvězdu typu cefeidy. Navazující pozorování a další cefeidy umožnily vypočítat vzdálenost."
+   },
+   {
+    "heading": "Proč byla cefeida tak důležitá",
+    "body": "Díky vztahu [objevenému Leavittovou](https://kosmonovinky.cz/kosmopedie/jak-henrietta-leavittova-pomohla-zmerit-vesmir.html) lze z periody proměn odhadnout svítivost cefeidy. Porovnáním se zachyceným světelným tokem dostaneme vzdálenost.\n\nHubbleův tehdejší odhad Andromedy byl menší než dnešní, ale stále ukazoval, že objekt leží daleko za rozměry naší galaxie. **Změna měřítka byla zásadní:** alespoň některé spirální mlhoviny jsou samostatné galaxie plné hvězd."
+   },
+   {
+    "heading": "Vztah zveřejněný v roce 1929",
+    "body": "Hubble porovnal odhady vzdáleností galaxií s jejich radiálními rychlostmi odvozenými ze spektrálních posuvů. V souboru vynikl trend: vzdálenější galaxie se v průměru vzdalují rychleji. Pro blízký vesmír jej dnes zapisujeme přibližně **v = H₀ × d**.\n\nJednotlivé galaxie mají také vlastní pohyby způsobené okolní gravitací. Proto nemusí každá přesně ležet na stejné přímce a blízká Andromeda se k nám dokonce přibližuje. Širší vztah popisuje [téma o Hubbleově konstantě](https://kosmonovinky.cz/kosmopedie/co-je-hubbleova-konstanta.html).",
+    "image_id": "schema-hubble-vztah"
+   },
+   {
+    "heading": "Čí práce se ve výsledku spojila",
+    "body": "Spektrální měření **Vesta Sliphera** byla hlavním zdrojem rychlostí pro mnoho tehdejších galaxií. **Milton Humason** později získával spektra slabších a vzdálenějších objektů a s Hubbleem rozšiřoval pozorovací základ.\n\n**Georges Lemaître** spojil rozpínající se model s dostupnými vzdálenostmi a posuvy už roku 1927. Pro vztah se proto používá označení **Hubbleův–Lemaîtrův zákon**. Rozlišujeme tím teoretický výklad a různé příspěvky k pozorovacím důkazům."
+   },
+   {
+    "heading": "Co se muselo později opravit",
+    "body": "Hubbleovy hodnoty vzdáleností byly podhodnocené a jeho odhad rychlosti rozpínání vycházel mnohem vyšší než dnešní. Zpřesňování typů cefeid, kalibrace a rozpoznávání hvězd postupně změnilo číselné měřítko.\n\n**Základní vztah obstál, jeho přesné číselné určení se zlepšovalo.** Dnešní spor o hodnotu H₀ už stojí na mnohem přesnějších metodách. Srovnání historického objevu se současným [Hubbleovým napětím](https://kosmonovinky.cz/kosmopedie/co-je-hubbleovo-napeti.html) ukazuje, proč je důležité oddělit existenci jevu od přesnosti jeho měření."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [Hubble: původní práce o vzdálenosti a radiální rychlosti, 1929](https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/)\n- [NASA: historická návaznost měření rozpínání](https://science.nasa.gov/missions/hubble/hubble-completes-eight-year-effort-to-measure-expanding-universe/)\n- [IAU: označení Hubbleův–Lemaîtrův zákon](https://iauarchive.eso.org/news/pressreleases/detail/iau1812/)"
+   }
+  ],
+  "why_box": "Hubble pomohl prokázat mimogalaktickou povahu Andromedy a pozorovací vztah vzdálenosti a vzdalování. Výsledek navazoval na Leavittovou, Sliphera, Lemaîtra i další spolupracovníky.",
+  "related_explainery": [
+   "jak-henrietta-leavittova-pomohla-zmerit-vesmir",
+   "jak-georges-lemaitre-propojil-rozpinani-s-pocatkem-vesmiru",
+   "co-je-hubbleova-konstanta",
+   "co-je-rudy-posuv-a-jak-se-meri"
+  ]
+ },
+ {
+  "id": "exp-059",
+  "title": "Co Vera Rubinová zjistila o temné hmotě?",
+  "theme": "lide-a-objevy",
+  "description": "Rubinová, Ford a spolupracovníci měřili rotaci galaxií. Proč vysoké rychlosti na jejich okrajích podpořily temnou hmotu a co zůstává otevřené?",
+  "published": "2026-10-26",
+  "updated": "2026-10-26",
+  "perex": "Vera Rubinová (1928–2016) se spolupracovníky ukázala, že látka ve vnějších částech mnoha galaxií obíhá překvapivě rychle. Ve standardním gravitačním popisu tato měření vyžadovala více hmoty, než kolik připadalo na pozorované hvězdy a plyn. Stala se jednou z hlavních opor výzkumu temné hmoty.",
+  "sections": [
+   {
+    "heading": "Co znamená změřit rotaci galaxie",
+    "body": "Galaxii na obloze obvykle nesledujeme tak dlouho, abychom viděli hvězdu dokončit oběh. Místo toho změříme **spektrální čáry** různých oblastí galaxie. Jejich posuny ukazují pohyb směrem k nám nebo od nás.\n\nZ rozdílu mezi oběma stranami galaxie, se zohledněním jejího sklonu, lze odvodit rychlost oběhu v různých vzdálenostech od středu. Graf těchto rychlostí se nazývá **rotační křivka**. Podrobnosti světelného měření vysvětluje [spektroskopie](https://kosmonovinky.cz/kosmopedie/co-je-spektroskopie-a-co-nam-rika-svetlo.html)."
+   },
+   {
+    "heading": "Proč byl důležitý Kent Ford",
+    "body": "Rubinová pracovala v Carnegieho instituci s **Kentem Fordem**, který vyvíjel citlivé spektrografické přístroje. Jejich technika umožnila získávat použitelné spektrum i ze slabších oblastí galaxií.\n\nV roce **1970** publikovali měření oblastí ionizovaného plynu v Andromedě. V dalších letech Rubinová, Ford, Norbert Thonnard a další rozšířili výzkum na větší soubory spirálních galaxií. Síla výsledku rostla díky opakování u různých objektů, ne pouze jednomu neobvyklému grafu."
+   },
+   {
+    "heading": "Jaká otázka vznikla na okraji galaxie",
+    "body": "Kdyby většina hmotnosti byla soustředěna uvnitř určité oblasti, čekali bychom dostatečně daleko za ní pokles oběžné rychlosti. Podobně planety dál od Slunce obíhají pomaleji. Galaxie je složitější než planetární soustava, ale vztah mezi pohybem a rozložením hmoty lze vypočítat.\n\n**V mnoha galaxiích však rychlosti zůstávaly vysoké i ve vzdálených oblastech.** Při použití obvyklých gravitačních zákonů z toho vyplývá, že významná část hmoty sahá dál než jasná hvězdná oblast. Názorné schéma níže porovnává dva případy, nikoli původní naměřená data.",
+    "image_id": "schema-rubin-rotace-halo"
+   },
+   {
+    "heading": "Rubinová nebyla jediným počátkem příběhu",
+    "body": "Už Fritz Zwicky ve třicátých letech upozorňoval na chybějící hmotu v kupě galaxií Coma. Pohyb galaxií v kupě a oběh látky uvnitř jedné galaxie jsou dva různé testy. Radioastronomická měření vodíku později sledovala rotaci také daleko za jasnými hvězdnými disky.\n\nRubinové práce proto představuje zásadní část souboru důkazů, nikoli jediné první upozornění ani přímé zachycení částice temné hmoty."
+   },
+   {
+    "heading": "Co jsme zjistili a co stále hledáme",
+    "body": "Rotační křivky ukazují vztah mezi pozorovaným pohybem a potřebným gravitačním působením. Dnes je porovnáváme i s [čočkováním a dalšími důkazy](https://kosmonovinky.cz/kosmopedie/jak-vime-ze-temna-hmota-existuje.html). Fyzikální složení temné hmoty zůstává otevřené.\n\nExistují také [alternativní gravitační popisy](https://kosmonovinky.cz/kosmopedie/lze-vysvetlit-pozorovani-bez-temne-hmoty.html), které mají úspěchy u některých vlastností galaxií. Každý však musí obstát i u kup a kosmologických dat. Přínos Rubinové spočívá právě v měřeních, která každé takové vysvětlení musí respektovat."
+   },
+   {
+    "heading": "Zdroje a další čtení",
+    "body": "- [Rubinová a Ford: původní spektroskopická studie Andromedy, 1970](https://web.physics.rutgers.edu/grad/690/Rubin-Ford-1970.pdf)\n- [Carnegie: Rubinová, Ford a další spolupracovníci](https://carnegiescience.edu/news/vera-rubin-opening-doors-dark-matter-and-women-stem)"
+   }
+  ],
+  "why_box": "Rubinová, Ford a další získali důležité důkazy z rotace galaxií. Tato měření omezují fyzikální vysvětlení, ale sama neurčují, jakou částicí by temná hmota měla být.",
+  "related_explainery": [
+   "co-je-temna-hmota",
+   "jak-vime-ze-temna-hmota-existuje",
+   "lze-vysvetlit-pozorovani-bez-temne-hmoty",
+   "co-je-spektroskopie-a-co-nam-rika-svetlo"
+  ]
  }
 ]
