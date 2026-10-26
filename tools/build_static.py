@@ -351,7 +351,10 @@ EXPLAINER_PATTERNS = {
     'exp-047': r'kvantov\w* vaku\w*|quantum vacuum|vakuov\w* fluktuac\w*|casimir\w*',
     'exp-048': r'higgs\w*|brout.englert',
     'exp-049': r'kvantov\w* gravitac\w*|quantum gravity|\bgraviton\w*|smyckov\w* gravitac\w*|string theor\w*',
-    'exp-050': r'rozsireni\w* (?:model\w*|lcdm)|extended cosmolog\w*|early dark energy',
+    'exp-050': (r'rozsir\w* (?:standardn\w* |zakladn\w* )?(?:kosmologick\w* model\w*|(?:model\w* )?(?:lambda|λ|l)[ -]?cdm)'
+        r'|extended cosmolog\w*|beyond [λl]?cdm|early dark energy|ran\w* temn\w* energi\w*'
+        r'|\b(?:sidm|wdm)\b|self[ -]?interact\w* dark matter|warm dark matter'
+        r'|(?:sebeinterag\w*|samointerag\w*|vzajemne interag\w*|tepl\w*) temn\w* hmot\w*'),
     'exp-051': r'promenliv\w* temn\w* energi\w*|dynamick\w* temn\w* energi\w*|evolving dark energy|dynamical dark energy|kvintesenc\w*|quintessence|w0wa',
     'exp-052': r'modifikovan\w* gravitac\w*|modified gravity|scalar.tensor|skalarne.tenzor\w*|f\(r\)',
     'exp-053': r'\bmond\b|modifikovan\w* newton\w*|modified newtonian|bez temn\w* hmot\w*',
