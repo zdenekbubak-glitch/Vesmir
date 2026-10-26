@@ -6087,5 +6087,367 @@
       "https://www.einstein-online.info/en/spotlight/background_independence/"
     ],
     "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch6_diagrams.py.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-rozsireni-lcdm",
+    "title": "Rozšíření kosmologického modelu",
+    "diagram": "edu-b6-extensions",
+    "source_id": "own-diagram:edu-b6-extensions",
+    "source_family": "own-diagram:edu-b6-extensions",
+    "alt": "Rozšíření kosmologického modelu – vlastní vysvětlující schéma",
+    "caption": "Přehled možností rozšíření podle složení vesmíru, geometrie a gravitačních pravidel. Nejde o pořadí pravděpodobnosti ani o výsledky měření.",
+    "thumbnail": "assets/article-images/thumbs/schema-rozsireni-lcdm.webp",
+    "source_master": "assets/article-images/sources/schema-rozsireni-lcdm.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html",
+      "https://arxiv.org/abs/2512.09748",
+      "https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://www.desi.lbl.gov/2025/03/19/more-than-a-hint-of-evolving-dark-energy-new-results-and-data-from-desi/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch6_diagrams.py.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-temna-energie-vyvoj",
+    "title": "Dvě možnosti vývoje temné energie",
+    "diagram": "edu-b6-energy",
+    "source_id": "own-diagram:edu-b6-energy",
+    "source_family": "own-diagram:edu-b6-energy",
+    "alt": "Dvě možnosti vývoje temné energie – vlastní vysvětlující schéma",
+    "caption": "Pojmové srovnání stálé hustoty kosmologické konstanty a příkladu proměnlivé složky. Křivky jsou ilustrativní, nemají číselné osy a nepředstavují naměřený průběh.",
+    "thumbnail": "assets/article-images/thumbs/schema-temna-energie-vyvoj.webp",
+    "source_master": "assets/article-images/sources/schema-temna-energie-vyvoj.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://www.desi.lbl.gov/2025/03/19/more-than-a-hint-of-evolving-dark-energy-new-results-and-data-from-desi/",
+      "https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/",
+      "https://arxiv.org/abs/2512.09748"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://www.desi.lbl.gov/2025/03/19/more-than-a-hint-of-evolving-dark-energy-new-results-and-data-from-desi/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch6_diagrams.py.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-temna-energie-hustota-priklad",
+    "title": "Jak se mění hustota energie při rozpínání",
+    "diagram": "edu-b6-density",
+    "source_id": "own-diagram:edu-b6-density",
+    "source_family": "own-diagram:edu-b6-density",
+    "alt": "Jak se mění hustota energie při rozpínání – vlastní vysvětlující schéma",
+    "caption": "Výpočet relativní hustoty samostatně se vyvíjející složky pro stálé w: při zdvojnásobení měřítka zůstává pro w = −1 hustota stejná, pro w = −0,8 klesne přibližně na 66 %. Zvolené příklady nejsou měřením temné energie.",
+    "thumbnail": "assets/article-images/thumbs/schema-temna-energie-hustota-priklad.webp",
+    "source_master": "assets/article-images/sources/schema-temna-energie-hustota-priklad.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://www.desi.lbl.gov/2025/03/19/more-than-a-hint-of-evolving-dark-energy-new-results-and-data-from-desi/",
+      "https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/",
+      "https://arxiv.org/abs/2512.09748"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/The_dark_Universe"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch6_diagrams.py.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-testovani-modifikovane-gravitace",
+    "title": "Gravitace: pohyb hmoty a ohyb světla",
+    "diagram": "edu-b6-gravity",
+    "source_id": "own-diagram:edu-b6-gravity",
+    "source_family": "own-diagram:edu-b6-gravity",
+    "alt": "Gravitace: pohyb hmoty a ohyb světla – vlastní vysvětlující schéma",
+    "caption": "Dva doplňující se testy gravitačních pravidel na téže kosmické struktuře. Konkrétní model musí předpovědět pohyb hmoty i gravitační čočkování.",
+    "thumbnail": "assets/article-images/thumbs/schema-testovani-modifikovane-gravitace.webp",
+    "source_master": "assets/article-images/sources/schema-testovani-modifikovane-gravitace.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://www.esa.int/Science_Exploration/Space_Science/Euclid/The_dark_Universe",
+      "https://arxiv.org/abs/2512.09748",
+      "https://arxiv.org/abs/1504.04623"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.201101"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch6_diagrams.py.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-temna-hmota-nebo-mond",
+    "title": "Temná hmota, nebo změna gravitačních pravidel?",
+    "diagram": "edu-b6-mond",
+    "source_id": "own-diagram:edu-b6-mond",
+    "source_family": "own-diagram:edu-b6-mond",
+    "alt": "Temná hmota, nebo změna gravitačních pravidel? – vlastní vysvětlující schéma",
+    "caption": "Dvě strategie popisu gravitačních účinků v galaxiích: přidání neviditelné složky a úprava gravitačního vztahu. Geometrie halo je pouze názorná; srovnání nevyjadřuje rovnocennou úspěšnost v celé kosmologii.",
+    "thumbnail": "assets/article-images/thumbs/schema-temna-hmota-nebo-mond.webp",
+    "source_master": "assets/article-images/sources/schema-temna-hmota-nebo-mond.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.201101",
+      "https://journals.aps.org/prd/abstract/10.1103/dccw-srks",
+      "https://arxiv.org/abs/1112.3960",
+      "https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.201101"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch6_diagrams.py.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-testy-temne-hmoty",
+    "title": "Tři měřítka zkoušky temné hmoty",
+    "diagram": "edu-b6-tests",
+    "source_id": "own-diagram:edu-b6-tests",
+    "source_family": "own-diagram:edu-b6-tests",
+    "alt": "Tři měřítka zkoušky temné hmoty – vlastní vysvětlující schéma",
+    "caption": "Přehled souborů pozorování, které musí společně vysvětlit temná hmota nebo její alternativa. Diagram nepřiřazuje jednotlivým modelům skóre.",
+    "thumbnail": "assets/article-images/thumbs/schema-testy-temne-hmoty.webp",
+    "source_master": "assets/article-images/sources/schema-testy-temne-hmoty.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.201101",
+      "https://journals.aps.org/prd/abstract/10.1103/dccw-srks",
+      "https://arxiv.org/abs/1112.3960",
+      "https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://arxiv.org/abs/0803.4089"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch6_diagrams.py.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-porovnavani-kosmologickych-modelu",
+    "title": "Jak porovnáváme kosmologické modely",
+    "diagram": "edu-b6-comparison",
+    "source_id": "own-diagram:edu-b6-comparison",
+    "source_family": "own-diagram:edu-b6-comparison",
+    "alt": "Jak porovnáváme kosmologické modely – vlastní vysvětlující schéma",
+    "caption": "Tři kroky posuzování modelu: konkrétní předpověď, nejistoty a ověření v dalších datech. Hodnocení zahrnuje také volnost parametrů.",
+    "thumbnail": "assets/article-images/thumbs/schema-porovnavani-kosmologickych-modelu.webp",
+    "source_master": "assets/article-images/sources/schema-porovnavani-kosmologickych-modelu.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://arxiv.org/abs/0803.4089",
+      "https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html",
+      "https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/"
+    ],
+    "manual_only": true
+  },
+  {
+    "topic": "kosmopedie-doplnky",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://arxiv.org/abs/0803.4089"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/kosmopedie_batch6_diagrams.py.",
+    "verified_on": "2026-10-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "id": "schema-modely-prolozeni-a-predpoved",
+    "title": "Dobré proložení nemusí být dobrou předpovědí",
+    "diagram": "edu-b6-overfit",
+    "source_id": "own-diagram:edu-b6-overfit",
+    "source_family": "own-diagram:edu-b6-overfit",
+    "alt": "Dobré proložení nemusí být dobrou předpovědí – vlastní vysvětlující schéma",
+    "caption": "Smyšlené bílé body a dvě ilustrativní křivky. Žlutá prochází všemi čtyřmi body, ale míjí další nezávislé měření označené zeleným kruhem. Modrá vystihuje trend. Nejde o skutečná data ani výsledek statistického testu.",
+    "thumbnail": "assets/article-images/thumbs/schema-modely-prolozeni-a-predpoved.webp",
+    "source_master": "assets/article-images/sources/schema-modely-prolozeni-a-predpoved.jpg",
+    "match_keywords": [],
+    "reference_urls": [
+      "https://arxiv.org/abs/0803.4089",
+      "https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html",
+      "https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/"
+    ],
+    "manual_only": true
   }
 ]

@@ -319,6 +319,11 @@ EXPLAINER_PATTERNS = {
     'exp-047': r'kvantov\w* vaku\w*|quantum vacuum|vakuov\w* fluktuac\w*|casimir\w*',
     'exp-048': r'higgs\w*|brout.englert',
     'exp-049': r'kvantov\w* gravitac\w*|quantum gravity|\bgraviton\w*|smyckov\w* gravitac\w*|string theor\w*',
+    'exp-050': r'rozsireni\w* (?:model\w*|lcdm)|extended cosmolog\w*|early dark energy',
+    'exp-051': r'promenliv\w* temn\w* energi\w*|dynamick\w* temn\w* energi\w*|evolving dark energy|dynamical dark energy|kvintesenc\w*|quintessence|w0wa',
+    'exp-052': r'modifikovan\w* gravitac\w*|modified gravity|scalar.tensor|skalarne.tenzor\w*|f\(r\)',
+    'exp-053': r'\bmond\b|modifikovan\w* newton\w*|modified newtonian|bez temn\w* hmot\w*',
+    'exp-054': r'bayes\w*|porovnavan\w* (?:kosmologick\w* )?model\w*|model selection|systematick\w* (?:chyb\w*|nejistot\w*)',
 }
 
 
