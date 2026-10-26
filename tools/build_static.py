@@ -464,6 +464,46 @@ def write_home_explainer_links(news, catalog, out):
 
 
 
+def write_gallery_context(site, out, images, news, explainery, library, editor_posts):
+    """Describe only curated gallery entries; never import the entire image catalogue."""
+    catalog = {e['id']: e for e in json.loads((Path(site) / 'data/article_image_catalog.json').read_text(encoding='utf-8'))}
+    by_catalog = {}
+    context = {}
+    kinds = {'snímek': 'snimek', 'výtvarná představa': 'ilustrace', 'ilustrace': 'ilustrace', 'vlastní schéma': 'schema'}
+    for image in images:
+        key = image.get('catalog_image_id')
+        entry = catalog.get(key, {})
+        item = {'detail': '/' + image['_path'], 'related': [],
+                'type': image.get('gallery_type') or kinds.get(entry.get('kind'), ''),
+                'source_url': entry.get('source', '') if key else image.get('url', '')}
+        context[str(image['id'])] = item
+        if key:
+            by_catalog.setdefault(key, []).append(item)
+
+    def attach(image_id, kind, title, href):
+        for item in by_catalog.get(image_id, []):
+            if not any(r['href'] == href for r in item['related']):
+                item['related'].append({'kind': kind, 'title': title, 'href': href})
+
+    for ex in explainery:
+        entry = lookup_image(ex, 'explainery', library)
+        ids = [entry['id']] if entry else []
+        ids += [sec['image_id'] for sec in ex.get('sections', []) if sec.get('image_id')]
+        for image_id in ids:
+            attach(image_id, 'kosmopedie', ex['title'], '/kosmopedie/' + ex['_slug'] + '.html')
+    for item in news:
+        entry = lookup_image(item, 'news', library)
+        if entry:
+            attach(entry['id'], 'clanky', item['title'], '/' + item['_path'])
+    for post in editor_posts:
+        entry = post.get('image_entry')
+        if entry:
+            attach(entry['id'], 'clanky', post['title'], post['href'])
+    folder = Path(out) / 'data'
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / 'gallery-context.json').write_text(json.dumps(context, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+
+
 def build_home_news(site, out, news, library, links, now=None):
     """Render identical news HTML for all visitors; JS only filters existing cards."""
     template = Path(out) / 'index.html'
@@ -794,6 +834,7 @@ def main():
 
     editor_posts, urls = editorial.build(site, out, base, image_library, page_head, FOOT, fmt_date, article_footer=NEWSLETTER_CTA, description_formatter=truncate, feedback_renderer=feedback_link)
 
+    write_gallery_context(site, out, images, news, kosmopedie, image_library, editor_posts)
     build_home_news(site, out, news, image_library, home_links)
     urls.append(build_newsletter_example(out, base, news))
 

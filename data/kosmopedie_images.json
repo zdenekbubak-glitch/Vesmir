@@ -15,7 +15,8 @@
     "catalog_image_id": "heic0908c",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "zmenšení, doplnění rámečku a kreditu"
+    "modifications": "zmenšení, doplnění rámečku a kreditu",
+    "gallery_type": "snimek"
   },
   {
     "id": "kosmopedie-weic2204a",
@@ -33,7 +34,8 @@
     "catalog_image_id": "weic2204a",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "zmenšení, doplnění rámečku a kreditu"
+    "modifications": "zmenšení, doplnění rámečku a kreditu",
+    "gallery_type": "ilustrace"
   },
   {
     "id": "kosmopedie-vlt-platform-at-dusk",
@@ -51,7 +53,8 @@
     "catalog_image_id": "vlt-platform-at-dusk",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "výřez, zmenšení a kredit"
+    "modifications": "výřez, zmenšení a kredit",
+    "gallery_type": "snimek"
   },
   {
     "id": "kosmopedie-malin-dsc0027",
@@ -69,7 +72,8 @@
     "catalog_image_id": "malin-dsc0027",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "zmenšení, doplnění rámečku a kreditu"
+    "modifications": "zmenšení, doplnění rámečku a kreditu",
+    "gallery_type": "snimek"
   },
   {
     "id": "kosmopedie-schema-lhc-collider",
@@ -87,7 +91,8 @@
     "catalog_image_id": "schema-lhc-collider",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-standardni-model",
@@ -105,7 +110,8 @@
     "catalog_image_id": "schema-standardni-model",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-spektroskopie-cesta-svetla",
@@ -123,7 +129,8 @@
     "catalog_image_id": "schema-spektroskopie-cesta-svetla",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-spektralni-cary",
@@ -141,7 +148,8 @@
     "catalog_image_id": "schema-spektralni-cary",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-spektralni-otisky",
@@ -159,7 +167,8 @@
     "catalog_image_id": "schema-spektralni-otisky",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-rudy-posuv-cary",
@@ -177,7 +186,8 @@
     "catalog_image_id": "schema-rudy-posuv-cary",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-rudy-posuv-priklady",
@@ -195,7 +205,8 @@
     "catalog_image_id": "schema-rudy-posuv-priklady",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-kvantove-hladiny",
@@ -213,7 +224,8 @@
     "catalog_image_id": "schema-kvantove-hladiny",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-kvantova-pravdepodobnost",
@@ -231,7 +243,8 @@
     "catalog_image_id": "schema-kvantova-pravdepodobnost",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-superpozice-interference",
@@ -249,7 +262,8 @@
     "catalog_image_id": "schema-superpozice-interference",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-kvantova-neurcitost",
@@ -267,7 +281,8 @@
     "catalog_image_id": "schema-kvantova-neurcitost",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-kvantove-provazani",
@@ -285,7 +300,8 @@
     "catalog_image_id": "schema-kvantove-provazani",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-dvojsterbina-zasahy",
@@ -303,7 +319,8 @@
     "catalog_image_id": "schema-dvojsterbina-zasahy",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-superpozice-a-smes",
@@ -321,7 +338,8 @@
     "catalog_image_id": "schema-superpozice-a-smes",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-temna-hmota-2",
@@ -339,7 +357,8 @@
     "catalog_image_id": "schema-temna-hmota-2",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-vlna-protazeni",
@@ -357,7 +376,8 @@
     "catalog_image_id": "schema-vlna-protazeni",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-temna-hmota-vs-energie",
@@ -375,7 +395,8 @@
     "catalog_image_id": "schema-temna-hmota-vs-energie",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-cerne-diry-collapse",
@@ -393,7 +414,8 @@
     "catalog_image_id": "schema-cerne-diry-collapse",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-relictni-zareni-recombination",
@@ -411,7 +433,8 @@
     "catalog_image_id": "schema-relictni-zareni-recombination",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-neutronove-hvezdy-pulsar",
@@ -429,7 +452,8 @@
     "catalog_image_id": "schema-neutronove-hvezdy-pulsar",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-ramena-hustotni-vlna",
@@ -447,7 +471,8 @@
     "catalog_image_id": "schema-ramena-hustotni-vlna",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-kupy-plyn-a-hmota",
@@ -465,7 +490,8 @@
     "catalog_image_id": "schema-kupy-plyn-a-hmota",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-gw170817-signaly",
@@ -483,7 +509,8 @@
     "catalog_image_id": "schema-gw170817-signaly",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-slozeni-vesmiru",
@@ -501,7 +528,8 @@
     "catalog_image_id": "schema-slozeni-vesmiru",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-tranzit-planety",
@@ -519,7 +547,8 @@
     "catalog_image_id": "schema-tranzit-planety",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-temna-hmota-axion",
@@ -537,7 +566,8 @@
     "catalog_image_id": "schema-temna-hmota-axion",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-velky-tresk-1",
@@ -555,7 +585,8 @@
     "catalog_image_id": "schema-velky-tresk-1",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-hvezda-centralni-hmotnost",
@@ -573,7 +604,8 @@
     "catalog_image_id": "schema-hvezda-centralni-hmotnost",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-interferometr-mereni",
@@ -591,7 +623,8 @@
     "catalog_image_id": "schema-interferometr-mereni",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-neutrony-a-prvky",
@@ -609,7 +642,8 @@
     "catalog_image_id": "schema-neutrony-a-prvky",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-srazka-galaxii-slozky",
@@ -627,7 +661,8 @@
     "catalog_image_id": "schema-srazka-galaxii-slozky",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-hubble-dve-cesty",
@@ -645,7 +680,8 @@
     "catalog_image_id": "schema-hubble-dve-cesty",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-atmosfericka-okna",
@@ -663,7 +699,8 @@
     "catalog_image_id": "schema-atmosfericka-okna",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-webb-okoli-l2",
@@ -681,7 +718,8 @@
     "catalog_image_id": "schema-webb-okoli-l2",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-interferometrie-zakladny",
@@ -699,7 +737,8 @@
     "catalog_image_id": "schema-interferometrie-zakladny",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-detektor-vrstvy",
@@ -717,7 +756,8 @@
     "catalog_image_id": "schema-detektor-vrstvy",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-jak-cist-spektrum",
@@ -735,7 +775,8 @@
     "catalog_image_id": "schema-jak-cist-spektrum",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-posuv-cas-vzdalenost",
@@ -753,7 +794,8 @@
     "catalog_image_id": "schema-posuv-cas-vzdalenost",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-orbital-pravdepodobnost",
@@ -771,7 +813,8 @@
     "catalog_image_id": "schema-orbital-pravdepodobnost",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-ton-a-klep",
@@ -789,7 +832,8 @@
     "catalog_image_id": "schema-ton-a-klep",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-provazani-vzdalenost",
@@ -807,7 +851,8 @@
     "catalog_image_id": "schema-provazani-vzdalenost",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-kvantova-teorie-pole",
@@ -825,7 +870,8 @@
     "catalog_image_id": "schema-kvantova-teorie-pole",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-anihilace-dva-fotony",
@@ -843,7 +889,8 @@
     "catalog_image_id": "schema-anihilace-dva-fotony",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-castice-a-pole",
@@ -861,7 +908,8 @@
     "catalog_image_id": "schema-castice-a-pole",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-kvantove-vakuum-oscilator",
@@ -879,7 +927,8 @@
     "catalog_image_id": "schema-kvantove-vakuum-oscilator",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-casimirovy-desky",
@@ -897,7 +946,8 @@
     "catalog_image_id": "schema-casimirovy-desky",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-higgsovo-pole-a-boson",
@@ -915,7 +965,8 @@
     "catalog_image_id": "schema-higgsovo-pole-a-boson",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-hmotnost-elektron-proton",
@@ -933,7 +984,8 @@
     "catalog_image_id": "schema-hmotnost-elektron-proton",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-kvantova-gravitace",
@@ -951,7 +1003,8 @@
     "catalog_image_id": "schema-kvantova-gravitace",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-rozsireni-lcdm",
@@ -969,7 +1022,8 @@
     "catalog_image_id": "schema-rozsireni-lcdm",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-temna-energie-vyvoj",
@@ -987,7 +1041,8 @@
     "catalog_image_id": "schema-temna-energie-vyvoj",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-temna-energie-hustota-priklad",
@@ -1005,7 +1060,8 @@
     "catalog_image_id": "schema-temna-energie-hustota-priklad",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-testovani-modifikovane-gravitace",
@@ -1023,7 +1079,8 @@
     "catalog_image_id": "schema-testovani-modifikovane-gravitace",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-temna-hmota-nebo-mond",
@@ -1041,7 +1098,8 @@
     "catalog_image_id": "schema-temna-hmota-nebo-mond",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-testy-temne-hmoty",
@@ -1059,7 +1117,8 @@
     "catalog_image_id": "schema-testy-temne-hmoty",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-porovnavani-kosmologickych-modelu",
@@ -1077,7 +1136,8 @@
     "catalog_image_id": "schema-porovnavani-kosmologickych-modelu",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   },
   {
     "id": "kosmopedie-schema-modely-prolozeni-a-predpoved",
@@ -1095,6 +1155,7 @@
     "catalog_image_id": "schema-modely-prolozeni-a-predpoved",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "modifications": "vlastní schéma"
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema"
   }
 ]
