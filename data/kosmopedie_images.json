@@ -1081,8 +1081,8 @@
   },
   {
     "id": "kosmopedie-schema-modely-prolozeni-a-predpoved",
-    "title": "Dobré proložení nemusí být dobrou předpovědí",
-    "caption": "Smyšlené bílé body a dvě ilustrativní křivky. Žlutá prochází všemi čtyřmi body, ale míjí další nezávislé měření označené zeleným kruhem. Modrá vystihuje trend. Nejde o skutečná data ani výsledek statistického testu.",
+    "title": "Přesnější shoda ještě nezaručuje dobrou předpověď",
+    "caption": "Smyšlené bílé body představují čtyři měření. Žlutá křivka prochází všemi čtyřmi body, ale míjí další nezávislé měření označené zeleným kruhem. Jednoduchá modrá přímka vystihuje celkový trend a je blízko i novému bodu. Jde o názornou ilustraci, nikoli skutečná kosmologická data nebo výsledek statistického testu.",
     "image": "assets/article-images/schema-modely-prolozeni-a-predpoved.jpg",
     "thumb": "assets/article-images/thumbs/schema-modely-prolozeni-a-predpoved.webp",
     "source": "Kosmologické novinky",

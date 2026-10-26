@@ -2048,11 +2048,11 @@
   "sections": [
    {
     "heading": "Co vlastně v modelu měníme",
-    "body": "Představme si model jako recept se seznamem přísad a pravidly přípravy. V kosmologii jsou přísadami běžná a temná hmota, záření a temná energie; pravidla zahrnují gravitaci a vývoj rozpínání. Zadané počáteční podmínky pak určují, jak se rodí struktury.\n\nZákladní plochý [model ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html) používá obecnou relativitu, studenou temnou hmotu a kosmologickou konstantu Λ. Jeho běžná šestiparametrová podoba dovoluje měnit například hustoty hmoty a vlastnosti počátečních nerovnoměrností. **Rozšíření přidává novou volnost nebo mění některé fyzikální pravidlo.**"
+    "body": "Představme si model jako recept se seznamem přísad a pravidly přípravy. V kosmologii jsou přísadami běžná a temná hmota, záření a temná energie; pravidla zahrnují gravitaci a vývoj rozpínání. Zadané počáteční podmínky pak určují, jak se rodí struktury.\n\nZákladní plochý [model ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html) používá obecnou relativitu, studenou temnou hmotu a kosmologickou konstantu Λ. Jeho běžná podoba má šest základních parametrů — číselných hodnot, které určujeme porovnáním předpovědí s pozorováním. Popisují například hustoty běžné a temné hmoty nebo velikost počátečních nerovnoměrností, z nichž později vyrostly galaxie. **Při rozšíření dovolíme měnit také vlastnost, kterou základní model považuje za pevně danou: například připustíme, že se hustota temné energie v čase vyvíjí. Jiná rozšíření mění samotná fyzikální pravidla, například způsob, jakým popisujeme gravitaci.**"
    },
    {
     "heading": "Jedna odchylka, několik možných vysvětlení",
-    "body": "Příkladem je [Hubbleovo napětí](https://kosmonovinky.cz/kosmopedie/co-je-hubbleovo-napeti.html): některé metody odvozují rozdílné hodnoty dnešní rychlosti rozpínání. Jedna cesta hledá dosud nerozpoznané nejistoty měření. Jiná zkoumá novou fyziku.\n\nNapříklad přídavná složka energie v raném vesmíru může změnit velikost zvukového měřítka, podle něhož vyhodnocujeme pozorování. Pak se může změnit i odvozená Hubbleova konstanta. Taková úprava ale zároveň ovlivní mapu reliktního záření nebo růst galaxií, takže ji lze kontrolovat z více stran."
+    "body": "Příkladem je [Hubbleovo napětí](https://kosmonovinky.cz/kosmopedie/co-je-hubbleovo-napeti.html): některé metody odvozují rozdílné hodnoty dnešní rychlosti rozpínání. Jedna cesta hledá dosud nerozpoznané nejistoty měření. Jiná zkoumá novou fyziku.\n\nV raném vesmíru se horkou směsí látky a záření šířily zvukové vlny — střídavé stlačování a rozpínání této směsi. Vzdálenost, kterou stihly urazit do doby, než se světlo začalo volně šířit vesmírem, zanechala charakteristický otisk v reliktním záření. Slouží nám jako **kosmické pravítko**.\n\nPřídavná složka energie by mohla urychlit tehdejší rozpínání. Zvukové vlny by do tohoto okamžiku měly méně času a výsledné pravítko by bylo kratší. Když jeho vypočtenou délku porovnáme s velikostí jeho otisku na obloze, změní se odvozené vzdálenosti, a tím může vyjít i jiná Hubbleova konstanta. Taková úprava ale ovlivní také další vlastnosti reliktního záření a vývoj galaxií, takže ji můžeme ověřovat více způsoby."
    },
    {
     "heading": "Které možnosti se zkoumají",
@@ -2064,7 +2064,7 @@
    },
    {
     "heading": "Jak poznáme užitečné rozšíření",
-    "body": "Fyzici porovnají předpovědi s několika soubory dat a vyhodnotí nejistoty i počet nových parametrů. Sledují také, zda se výsledek zachová při změně použitých pozorování a postupů jejich zpracování.\n\n**Zatím nemáme jediné všeobecně přijaté rozšíření, které by ΛCDM nahradilo v celém jeho rozsahu.** Jednotlivé směry zkoumají různé otázky. Jak je posuzovat společně, vysvětluje [téma o porovnávání modelů s měřením](https://kosmonovinky.cz/kosmopedie/jak-pozname-ktery-model-vesmiru-odpovida-merenim.html)."
+    "body": "Fyzici porovnají předpovědi s několika soubory dat a vyhodnotí nejistoty i počet nových parametrů. Vědci také ověřují, zda ke stejnému závěru dospějí i s jiným souborem pozorování nebo jiným způsobem zpracování dat. Pokud například nový model vychází lépe jen u jedné skupiny supernov, ale u jiné už ne, je potřeba zjistit proč. Rozdíl může souviset s vlastnostmi pozorovaných objektů či metodou měření, nikoli s novou fyzikou.\n\n**Zatím nemáme jediné všeobecně přijaté rozšíření, které by ΛCDM nahradilo v celém jeho rozsahu.** Jednotlivé směry zkoumají různé otázky. Jak je posuzovat společně, vysvětluje [téma o porovnávání modelů s měřením](https://kosmonovinky.cz/kosmopedie/jak-pozname-ktery-model-vesmiru-odpovida-merenim.html)."
    },
    {
     "heading": "Zdroje a další čtení",
@@ -2086,7 +2086,7 @@
   "description": "Kosmologická konstanta má stálou hustotu energie. Co kdyby se temná energie vyvíjela? Jak to měříme a co naznačují výsledky DESI?",
   "published": "2026-10-26",
   "updated": "2026-10-26",
-  "perex": "Zrychlené rozpínání vesmíru lze v nejjednodušším modelu popsat kosmologickou konstantou. Fyzici ale zkoumají také možnost, že se temná energie v průběhu dějin mění. Rozdíl hledají v historii rozpínání a růstu kosmických struktur.",
+  "perex": "Zrychlené rozpínání vesmíru lze v nejjednodušším modelu popsat kosmologickou konstantou. Fyzici ale zkoumají také možnost, že se temná energie během vývoje vesmíru mění. Rozdíl hledají v historii rozpínání a růstu kosmických struktur.",
   "sections": [
    {
     "heading": "Co je u kosmologické konstanty stálé",
@@ -2153,7 +2153,7 @@
    },
    {
     "heading": "Kde jsme dnes",
-    "body": "Modifikovaná gravitace nabízí konkrétní testovatelné možnosti a některé její varianty už data výrazně omezují. Dosud však nemáme potvrzenou alternativu, která by v celém rozsahu nahradila obecnou relativitu a úspěchy standardního kosmologického modelu.\n\nVelké přehlídky porovnávají historii rozpínání s tím, jak rychle se shlukovala hmota. Právě jejich společný popis je náročnější a užitečnější zkouškou než shoda s jedinou křivkou."
+    "body": "Modifikovaná gravitace nabízí konkrétní testovatelné možnosti a některé její varianty už data výrazně omezují. Dosud však nemáme potvrzenou alternativu, která by v celém rozsahu nahradila obecnou relativitu a úspěchy standardního kosmologického modelu.\n\nRozsáhlá pozorování milionů galaxií umožňují vědcům zkoumat, jak se vesmír rozpínal a jak se v něm hmota postupně shlukovala do galaxií a jejich kup. Nová gravitační teorie musí dokázat vysvětlit oba tyto procesy současně. To je důkladnější zkouška než shoda pouze s jedním druhem měření."
    },
    {
     "heading": "Zdroje a další čtení",
@@ -2175,7 +2175,7 @@
   "description": "MOND vysvětluje řadu rotačních křivek galaxií. Dokáže ale nahradit temnou hmotu také v kupách galaxií a při popisu celého vesmíru?",
   "published": "2026-10-26",
   "updated": "2026-10-26",
-  "perex": "Rychlosti hvězd a galaxií ukazují silnější gravitační působení, než čekáme od pozorované běžné látky. Standardní vysvětlení přidává temnou hmotu. Alternativní přístupy zkoumají, zda bychom alespoň část těchto jevů mohli popsat změnou gravitačních pravidel.",
+  "perex": "Hvězdy na okrajích mnoha galaxií i galaxie uvnitř galaktických kup se pohybují rychleji, než dokážeme vysvětlit gravitací pozorované běžné látky při použití obvyklých gravitačních zákonů. Standardní vysvětlení přidává temnou hmotu. Alternativní přístupy zkoumají, zda bychom alespoň část těchto jevů mohli popsat změnou gravitačních pravidel.",
   "sections": [
    {
     "heading": "Dva způsoby, jak rozumět stejnému pohybu",
@@ -2203,7 +2203,7 @@
     "body": "- [McGaugh, Lelli a Schombert: vztah mezi zrychlením a běžnou hmotou](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.201101)\n- [Famaey, Pizzuti a Saltas, 2025: zbývající chybějící hmota v kupách v MOND](https://journals.aps.org/prd/abstract/10.1103/dccw-srks)\n- [Famaey a McGaugh: možnosti a meze MOND](https://arxiv.org/abs/1112.3960)\n- [Planck: kosmologická měření a model ΛCDM](https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html)"
    }
   ],
-  "why_box": "MOND má pozoruhodné úspěchy u pohybů v galaxiích. Nahradit temnou hmotu v celé kosmologii ale vyžaduje zároveň zvládnout kupy, čočkování, reliktní záření i vývoj struktur.",
+  "why_box": "MOND má pozoruhodné úspěchy u pohybů v galaxiích. Nahradit temnou hmotu v celé kosmologii ale vyžaduje zároveň zvládnout kupy galaxií, čočkování, reliktní záření i vývoj struktur.",
   "related_explainery": [
    "co-je-modifikovana-gravitace",
    "jak-vime-ze-temna-hmota-existuje",
@@ -2229,13 +2229,13 @@
     "body": "Přístroj přímo zaznamená například světelný tok, spektrum nebo tvar obrazu galaxie. Vzdálenost či hustotu temné energie z těchto signálů teprve odvozujeme. Mezi detektorem a závěrem stojí kalibrace, model zdroje i kosmologické předpoklady.\n\nProto údaj [Hubbleovy konstanty](https://kosmonovinky.cz/kosmopedie/co-je-hubbleova-konstanta.html) odvozený z reliktního záření vždy patří k určitému modelu. Změníme-li předpoklady, může se posunout výsledek nebo rozšířit jeho nejistota. Samotná mapa oblohy přitom zůstane stejná."
    },
    {
-    "heading": "Proč nestačí lepší proložení",
-    "body": "Představme si několik bodů grafu. Přímka může vystihnout celkový trend; velmi ohebná křivka může projít každým bodem, včetně náhodných výkyvů. **Více nastavitelných parametrů obvykle umožní lepší shodu s použitými daty**, ale nemusí přinést lepší předpověď.\n\nPři porovnávání modelů proto statistické metody zohledňují také jejich volnost. Bayesovské porovnání například posuzuje shodu napříč předem vymezeným rozsahem parametrů. Záleží tak i na tom, jaký rozsah byl fyzikálně zdůvodněn. Obrázek níže ukazuje princip na smyšlených bodech.",
+    "heading": "Proč nestačí těsnější shoda s naměřenými body",
+    "body": "Představme si graf, v němž každý bod představuje jedno měření. Hledáme čáru nebo křivku, která vystihne vztah mezi měřenými veličinami. Přímka může dobře zachytit celkový trend. Složitější křivku lze přizpůsobit tak, aby procházela každým bodem — tím ale může kopírovat i náhodné chyby měření. U dalších pozorování pak může předpovídat hůře než jednoduchá přímka.\n\nPři porovnávání modelů proto statistické metody zohledňují také jejich volnost. Bayesovské porovnání například posuzuje shodu napříč předem vymezeným rozsahem parametrů. Záleží tak i na tom, jaký rozsah byl fyzikálně zdůvodněn. Obrázek níže ukazuje princip na smyšlených bodech.",
     "image_id": "schema-modely-prolozeni-a-predpoved"
    },
    {
     "heading": "Náhodná chyba a systematický posun",
-    "body": "**Statistická nejistota** souvisí například s konečným počtem pozorovaných objektů. Více kvalitních dat ji zpravidla zmenší. **Systematická nejistota** může vzniknout třeba chybnou kalibrací, výběrem objektů nebo nepřesným modelem prachu. Pouhé přidávání stejně měřených objektů ji nemusí odstranit.\n\nKdyž vyjde odchylka o několik sigma, vyjadřuje to její velikost vzhledem k vyhodnocené nejistotě v daném testu. Samo toto číslo neříká pravděpodobnost pravdivosti celé teorie a nezahrnuje chyby, o kterých zatím nevíme."
+    "body": "**Statistická nejistota** souvisí například s konečným počtem pozorovaných objektů. Více kvalitních dat ji zpravidla zmenší. **Systematická nejistota** může vzniknout třeba chybnou kalibrací, výběrem objektů nebo nepřesným modelem prachu. Pouhé přidávání stejně měřených objektů ji nemusí odstranit.\n\nAbychom posoudili rozdíl mezi měřením a předpovědí, porovnáváme ho s vyhodnocenou nejistotou. Její velikost se často vyjadřuje pomocí **směrodatné odchylky, označované řeckým písmenem sigma (σ)**. Pokud například nejistotě jednoho sigma odpovídají dvě jednotky a naměřená hodnota se od předpovědi liší o šest jednotek, jde o rozdíl **tří sigma**.\n\nČím více sigma rozdíl představuje, tím obtížněji jej lze za předpokladů daného testu vysvětlit náhodným kolísáním. Stále ale musíme prověřit kalibraci přístrojů a další možné zdroje chyb. Počet sigma sám o sobě neudává pravděpodobnost, že je celá teorie správná nebo chybná."
    },
    {
     "heading": "Různá data jako společná zkouška",
@@ -2243,14 +2243,14 @@
    },
    {
     "heading": "Kdy už uvažovat o nové fyzice",
-    "body": "Přesvědčivý případ vzniká tehdy, když odchylka přetrvá při kontrolách měření, objeví se v nezávislých datech a nový model vysvětlí celek lépe při přijatelné složitosti. Další sílu mu dodá úspěšná nová předpověď.\n\nTakto je třeba číst i zprávy o [proměnlivé temné energii](https://kosmonovinky.cz/kosmopedie/muze-se-temna-energie-menit-v-case.html) nebo alternativní gravitaci: jako porovnání konkrétních modelů a dat s jasně uvedenými podmínkami. **Dobrý model nejen popisuje to, co už známe, ale obstojí i v další zkoušce.**"
+    "body": "O nové fyzice má smysl vážně uvažovat, pokud měření opakovaně ukazuje něco jiného, než předpovídá dosavadní model, a rozdíl se nepodaří vysvětlit chybou přístrojů nebo zpracování. Důležité je, aby podobný nesoulad našla i další pozorování — například jiným přístrojem a jinou metodou, která nesdílí stejné možné zdroje chyb. Takové výsledky poskytují nezávislé ověření.\n\nNový model by měl vysvětlit tento nesoulad a zároveň zachovat shodu s ostatními měřeními. Pokud bychom však pro každé pozorování museli přidat zvláštní nastavitelnou hodnotu, mohli bychom model přizpůsobit téměř čemukoli. Cennější je vysvětlení, které pomocí několika společných pravidel popíše mnoho různých pozorování.\n\n**Zvlášť silnou zkouškou je úspěšná předpověď:** nový model předem určí, co má ukázat další měření, a pozorování to následně potvrdí. Pak máme větší důvěru, že model zachycuje skutečné chování přírody.\n\nTakto je třeba číst i zprávy o [proměnlivé temné energii](https://kosmonovinky.cz/kosmopedie/muze-se-temna-energie-menit-v-case.html) nebo alternativní gravitaci: jako porovnání konkrétních modelů a dat s jasně uvedenými podmínkami."
    },
    {
     "heading": "Zdroje a další čtení",
     "body": "- [Roberto Trotta: statistické odvozování a porovnávání modelů](https://arxiv.org/abs/0803.4089)\n- [Planck: odvozené parametry a závislost na modelu](https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html)\n- [DESI, červenec 2026: více měření a soupeřící předpovědi](https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/)"
    }
   ],
-  "why_box": "Kosmologický model hodnotíme podle společné shody s různými daty, správného zacházení s nejistotami a schopnosti předpovídat. Lepší proložení jediného souboru ještě samo o sobě nerozhoduje.",
+  "why_box": "Kosmologický model hodnotíme podle společné shody s různými daty, správného zacházení s nejistotami a schopnosti předpovídat. To, že model přesněji odpovídá jedné skupině měření, ještě neznamená, že lépe popisuje vesmír. Musí obstát také při porovnání s dalšími pozorováními.",
   "related_explainery": [
    "jak-rozsirujeme-standardni-kosmologicky-model-cdm",
    "co-je-hubbleovo-napeti",
