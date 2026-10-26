@@ -78,5 +78,15 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-10-26T09:01:28.028304+00:00"
+  },
+  {
+    "source": "linkedin",
+    "kind": "weekly",
+    "key": "linkedin_weekly_bf044a2c29d5517b9488",
+    "title": "Týdenní výběr Kosmologických novinek: 20. října – 26. října 2026",
+    "platform_id": "6adf1a4c09d08323588636e9",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-26T09:15:57.998385+00:00"
   }
 ]
