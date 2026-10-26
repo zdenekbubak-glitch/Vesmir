@@ -38,5 +38,35 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-10-25T09:01:15.367390+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_bf044a2c29d5517b9488",
+    "title": "Kupy galaxií z přehlídky KiDS-1000 testují model vesmíru",
+    "platform_id": "6adf0e483163d936550a4e50",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-26T08:24:43.053664+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_bf044a2c29d5517b9488",
+    "title": "Kupy galaxií z přehlídky KiDS-1000 testují model vesmíru",
+    "platform_id": "6adf0e5609f30424bdd901da",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-26T08:24:58.085702+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_bf044a2c29d5517b9488",
+    "title": "Kupy galaxií z přehlídky KiDS-1000 testují model vesmíru",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3myqg3hg222ep",
+    "status": "published",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-26T08:25:02.952764+00:00"
   }
 ]
