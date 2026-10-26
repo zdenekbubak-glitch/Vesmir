@@ -92,7 +92,7 @@ def card(post, fmt_date, home=False):
             + thumbnail(post['image_entry'],href) + f'<p class="summary">{perex}</p></div>'
             f'<a href="{href}">Přečíst komentář →</a></article>')
 
-def build(site, out, base, library, page_head, foot, fmt_date, article_footer="", description_formatter=None):
+def build(site, out, base, library, page_head, foot, fmt_date, article_footer="", description_formatter=None, feedback_renderer=None):
     posts = load_posts(site, library)
     folder = out / 'pohledem-editora'; folder.mkdir(exist_ok=True)
     # This directory is owned by this generator; remove withdrawn comments too.
@@ -109,6 +109,7 @@ def build(site, out, base, library, page_head, foot, fmt_date, article_footer=""
                  '<article class="post"><p class="theme-badge">Pohledem editora</p>'
                  f'<h1>{escape(post["title"])}</h1><p class="meta">Zdeněk Bubák · {fmt_date(post["date"])}</p>'
                  f'<p class="summary"><strong>{escape(post["perex"])}</strong></p>'+figure(entry)+post['body']+article_footer+
+                 (feedback_renderer(post['title'], url) if feedback_renderer else '')+
                  '</article><p class="back"><a href="/pohledem-editora/">← Všechny komentáře</a> · <a href="/clanky/">Přehled článků</a></p>'+foot)
         (folder/(post['slug']+'.html')).write_text(page,encoding='utf-8')
         urls.append((url,post['date']))

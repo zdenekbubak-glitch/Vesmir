@@ -21,7 +21,7 @@ import unicodedata
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import urljoin, urlsplit, urlencode, quote
 from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url, thumbnail
 
 MESICE_GEN = ["ledna", "února", "března", "dubna", "května", "června", "července",
@@ -141,6 +141,10 @@ CSS = """
     .topic-card .summary { font-size: .92rem; margin: 0 0 .65rem; }
     .topic-card .count { color: var(--muted); font-size: .85rem; margin: 0; }
     .collection-heading { color: var(--muted); font-size: 1.05rem; margin: 1rem 0; }
+    .feedback-link { margin: 1rem 0; font-size: .85rem; line-height: 1.6; color: var(--muted); }
+    .feedback-link a { text-decoration: none; }
+    .feedback-link a:hover, .feedback-link a:focus-visible { text-decoration: underline; }
+    .feedback-email { overflow-wrap: anywhere; }
     .theme-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: .9rem; }
     .theme-card { background: var(--card); border: 1px solid #1e293b; border-radius: 10px; padding: 1rem 1.2rem; }
     .theme-card a { color: var(--accent); font-weight: 600; text-decoration: none; }
@@ -168,6 +172,18 @@ COUNTER_JS = """
 // Counter is loaded from the shared file; see page_head.
 """
 
+
+
+def feedback_link(title, canonical_url):
+    """Private editorial feedback; creating this link never sends a message."""
+    title = ' '.join(str(title or '').split())
+    body = (f'Příspěvek: {title}\r\nOdkaz: {canonical_url}\r\n\r\n'
+            'Popište prosím chybu nebo nepřesnost:\r\n')
+    params = urlencode({'subject': 'Připomínka k příspěvku: ' + title, 'body': body}, quote_via=quote)
+    href = 'mailto:redakce@kosmonovinky.cz?' + params
+    return ('<p class="feedback-link">Našli jste chybu nebo nepřesnost? '
+            f'<a href="{esc(href)}">Napište redakci.</a> '
+            '<span class="feedback-email">(redakce@kosmonovinky.cz)</span></p>')
 
 
 NEWSLETTER_CTA = ('<p class="newsletter-cta">Zaujalo vás téma? '
@@ -776,7 +792,7 @@ def main():
     for item in news:
         by_theme.setdefault(item["_theme"], []).append(item)
 
-    editor_posts, urls = editorial.build(site, out, base, image_library, page_head, FOOT, fmt_date, article_footer=NEWSLETTER_CTA, description_formatter=truncate)
+    editor_posts, urls = editorial.build(site, out, base, image_library, page_head, FOOT, fmt_date, article_footer=NEWSLETTER_CTA, description_formatter=truncate, feedback_renderer=feedback_link)
 
     build_home_news(site, out, news, image_library, home_links)
     urls.append(build_newsletter_example(out, base, news))
@@ -839,7 +855,7 @@ def main():
       {image_figure(article_image)}
       <p class="summary">{esc(summary)}</p>
 {lang_note}      <a class="original-source" href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
-{context_html}{rel_html}{NEWSLETTER_CTA}{nav_html}    </article>
+{context_html}{rel_html}{NEWSLETTER_CTA}{feedback_link(item.get('title'), url)}{nav_html}    </article>
         <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>
 '''
         page += FOOT

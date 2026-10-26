@@ -27,7 +27,7 @@ for _p in (_here.parent, _here):
         sys.path.remove(str(_p))
     sys.path.insert(0, str(_p))
 from build_static import (FALLBACK_THEME, THEME_LABEL, esc, fmt_date, fmt_iso_date,
-                          page_head, FOOT, slugify, classify, explainer_catalog, NEWSLETTER_CTA, collection_switch)
+                          page_head, FOOT, slugify, classify, explainer_catalog, NEWSLETTER_CTA, collection_switch, feedback_link)
 
 # Kosmopedie may introduce a subject before it has its own news category.
 KOSMOPEDIE_THEMES = {
@@ -317,7 +317,7 @@ def main():
                  f"      <p class=\"meta\">Kosmopedie · Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))}</p>\n"
                  f"      <p class=\"explainer-perex\" data-search-block>{esc(ex.get('perex'))}</p>\n"
                  '      <p id="kosmopedie-detail-search-status" class="search-status" role="status" hidden></p>\n'
-                 + image_figure(article_image) + sec_html + why_html + rel_html + rel_ex_html + NEWSLETTER_CTA +
+                 + image_figure(article_image) + sec_html + why_html + rel_html + rel_ex_html + NEWSLETTER_CTA + feedback_link(ex['title'], url) +
                  paging(*neighbours[ex['_slug']]) +
                  '    </article>\n'
                  '    <p class=\"back\"><a data-search-back href=\"/kosmopedie/\">← Celá Kosmopedie</a> · <a href=\"/temata/\">Rubriky</a></p>\n'
