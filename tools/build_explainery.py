@@ -251,6 +251,8 @@ def main():
     for item in news:
         by_theme.setdefault(item['_theme'], []).append(item)
 
+    news_by_id = {str(item.get('id')): item for item in news}
+
     slugs = {ex['_slug'] for ex in explainery}
     (out / 'kosmopedie').mkdir(parents=True, exist_ok=True)
     urls = []
@@ -287,7 +289,16 @@ def main():
                         + searchable_body(ex['why_box']) +
                         '\n      </div>\n')
 
-        related_news = by_theme.get(theme, [])[:3]
+        # An explicit editorial selection uses the same footer as automatic news.
+        # Topics without it retain their existing category-based selection.
+        if 'related_news' in ex:
+            related_news = []
+            for identity in ex['related_news']:
+                if str(identity) not in news_by_id:
+                    raise ValueError(f"{ex['id']}: nedostupná související novinka {identity}")
+                related_news.append(news_by_id[str(identity)])
+        else:
+            related_news = by_theme.get(theme, [])[:3]
         rel_html = ''
         if related_news:
             rows = []
@@ -299,6 +310,11 @@ def main():
                         '      <h2>Související novinky</h2>\n'
                         '      <ul>\n' + '\n'.join(rows) +
                         '\n      </ul>\n    </section>\n')
+
+        if related_news and ex.get('related_news_note'):
+            # Keep the editorial explanation with its links, outside the article body.
+            note_html = render_body(ex['related_news_note'])
+            rel_html = rel_html.replace('    </section>\n', note_html + '\n    </section>\n', 1)
 
         rel_ex = [r for r in ex.get('related_explainery', []) if r in slugs]
         rel_ex_html = ''

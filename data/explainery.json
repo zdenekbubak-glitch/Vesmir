@@ -2510,10 +2510,6 @@
       "body": "Model ΛCDM dokáže dobře popsat naměřený vzor teplotních rozdílů a polarizace reliktního záření. Pokud pomocí tohoto modelu z dat Plancku odvodíme dnešní rychlost rozpínání vesmíru, vyjde nižší hodnota než při jejím určování z měření vzdáleností a rudých posuvů galaxií v bližším vesmíru. Tento rozpor označujeme jako [Hubbleovo napětí](https://kosmonovinky.cz/kosmopedie/co-je-hubbleovo-napeti.html). Samotná data Plancku nerozhodují, zda za rozdílem stojí dosud neodhalená chyba některého měření, nebo zda potřebujeme upravit kosmologický model.\n\nVýsledky Plancku proto vědci porovnávají s pozorováními, která zkoumají vesmír jiným způsobem. Planck měřil reliktní záření, které nese informace především o raném vesmíru. [DESI](https://kosmonovinky.cz/kosmopedie/co-je-desi-a-jak-mapuje-rozpinani-vesmiru.html) naproti tomu zjišťuje polohy a rudé posuvy galaxií a z jejich rozložení pomáhá určit historii rozpínání. [Euclid](https://kosmonovinky.cz/kosmopedie/co-zkouma-kosmicky-dalekohled-euclid.html) navíc měří drobné deformace obrazů galaxií způsobené gravitací hmoty mezi nimi a námi. Vědci pak ověřují, zda jeden kosmologický model dokáže současně vysvětlit všechny tyto různé soubory měření."
     },
     {
-      "heading": "Související články z Kosmonovinek",
-      "body": "- [Blesková reionizace vesmíru: Co prozrazují nová data z družice Planck?](https://kosmonovinky.cz/clanky/bleskova-reionizace-vesmiru-co-prozrazuji-nova-data-z-druzice-planck-2609249891.html)\n- [Jak z otáčení světla vesmíru poznat temnou energii, hmotu či neutrina?](https://kosmonovinky.cz/clanky/jak-z-otaceni-svetla-vesmiru-poznat-temnou-energii-hmotu-ci-261002667.html)\n\nJde o zprávy o konkrétních výzkumných studiích; jejich návrhy a interpretace je třeba odlišovat od samotných měření družice."
-    },
-    {
       "heading": "Zdroje a další čtení",
       "body": "- [ESA: přehled mise, přístroje a místo pozorování](https://www.esa.int/Science_Exploration/Space_Science/Planck_overview)\n- [NASA/IPAC: frekvenční pásma a veřejná data Plancku](https://irsa.ipac.caltech.edu/Missions/planck.html)\n- [ESA: hlavní vědecké výsledky Plancku](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights)\n- [Planck Collaboration: přehled výsledků a kosmologického odkazu mise, 2018](https://arxiv.org/abs/1807.06205)"
     }
@@ -2525,7 +2521,12 @@
     "co-znamena-model-cdm",
     "co-je-hubbleovo-napeti",
     "co-je-desi-a-jak-mapuje-rozpinani-vesmiru"
-  ]
+  ],
+  "related_news": [
+    "2609.24989v1",
+    "2610.02667"
+  ],
+  "related_news_note": "Jde o zprávy o konkrétních výzkumných studiích; jejich návrhy a interpretace je třeba odlišovat od samotných měření družice."
 },
 {
   "id": "exp-061",
@@ -2557,10 +2558,6 @@
       "body": "Snímky kupy Perseus ukazují, kolik galaxií dokáže Euclid zachytit v jediném poli. Samotné jejich množství však ještě neurčuje vlastnosti temné energie. Je nutné znát výběr objektů, správně měřit tvary a odhadovat posuvy.\n\nNapříklad optika přístroje mění podobu bodového zdroje a může napodobit část slabého čočkování. Vědci proto pečlivě kalibrují obrazy hvězd a opravují vliv přístroje. Euclid a [DESI](https://kosmonovinky.cz/kosmopedie/co-je-desi-a-jak-mapuje-rozpinani-vesmiru.html) se doplňují: první klade velký důraz na obrazová měření a slabé čočkování, druhý na rozsáhlou přesnou spektroskopii."
     },
     {
-      "heading": "Související články z Kosmonovinek",
-      "body": "- [Euclid a ohyb světla: Nové algoritmy odhalí tisíce kup galaxií](https://kosmonovinky.cz/clanky/euclid-a-ohyb-svetla-nove-algoritmy-odhali-tisice-kup-galaxii-2609205711.html)\n- [Silné gravitační čočky jako klíč k záhadám temného vesmíru](https://kosmonovinky.cz/clanky/silne-gravitacni-cocky-jako-klic-k-zahadam-temneho-vesmiru-261019598.html)\n\nPrvní článek se týká zpracování dat Euclidu, druhý jiné, silnější podoby gravitačního čočkování. Silné oblouky a slabé statistické deformace jsou příbuzné jevy, ale vyhodnocují se odlišně."
-    },
-    {
       "heading": "Zdroje a další čtení",
       "body": "- [Euclid NASA Science Center: cíle mise, start a dvě hlavní kosmologické metody](https://euclid.caltech.edu/page/about-the-mission)\n- [ESA: přístroje VIS a NISP](https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_s_instruments)\n- [Euclid Consortium: měření tvarů galaxií přístrojem VIS](https://www.euclid-ec.org/public/mission/vis/)\n- [Euclid Consortium: fotometrie a spektroskopie NISP](https://www.euclid-ec.org/public/mission/nisp/)\n- [Euclid Collaboration: odborný přehled celé mise](https://doi.org/10.1051/0004-6361/202450810)"
     }
@@ -2572,7 +2569,12 @@
     "jak-vime-ze-temna-hmota-existuje",
     "muze-se-temna-energie-menit-v-case",
     "co-je-desi-a-jak-mapuje-rozpinani-vesmiru"
-  ]
+  ],
+  "related_news": [
+    "2609.20571v1",
+    "2610.19598"
+  ],
+  "related_news_note": "První článek se týká zpracování dat Euclidu, druhý jiné, silnější podoby gravitačního čočkování. Silné oblouky a slabé statistické deformace jsou příbuzné jevy, ale vyhodnocují se odlišně."
 },
 {
   "id": "exp-062",
@@ -2605,10 +2607,6 @@
       "body": "Přímo měří světlo zdrojů. Vlastnosti [temné energie](https://kosmonovinky.cz/kosmopedie/co-je-temna-energie-a-jak-se-lisi-od-temne.html) se odvozují z toho, jak modely popisují historii rozpínání a růst struktur. DESI také využívá další informace o shlukování, nejen BAO.\n\nKombinace některých výsledků s reliktním zářením a supernovami naznačily, že by se temná energie mohla měnit v čase. **Není to totéž jako potvrzený objev proměnlivé temné energie.** Síla závěru závisí na kombinaci dat, předpokladech modelu i kontrole systematických chyb. Proto je důležité porovnávání s nezávislými měřeními, například z [Euclidu](https://kosmonovinky.cz/kosmopedie/co-zkouma-kosmicky-dalekohled-euclid.html)."
     },
     {
-      "heading": "Související články z Kosmonovinek",
-      "body": "- [Temná energie v pohybu: Provázaná kvintesence vysvětluje nová data z DESI](https://kosmonovinky.cz/clanky/temna-energie-v-pohybu-provazana-kvintesence-vysvetluje-nova-data-z-261023497.html)\n- [Vidí DESI temnou energii, nebo poruchu v samotné gravitaci?](https://kosmonovinky.cz/clanky/vidi-desi-temnou-energii-nebo-poruchu-v-samotne-gravitaci-260940176.html)\n\nTyto články rozebírají konkrétní interpretace dat a teoretické modely. Pomáhají sledovat diskusi, ale nenahrazují souhrn výsledků celé spolupráce DESI."
-    },
-    {
       "heading": "Zdroje a další čtení",
       "body": "- [DESI: umístění a historie Mayallova dalekohledu](https://www.desi.lbl.gov/telescope/)\n- [DESI: 5 000 vláken a soustava spektrografů](https://www.desi.lbl.gov/instrument/)\n- [DESI Collaboration: BAO a kontrola modelových nejistot](https://academic.oup.com/mnras/article/534/1/544/7750629)\n- [DESI: výsledky a náznaky proměnlivé temné energie, březen 2025](https://www.desi.lbl.gov/2025/03/19/more-than-a-hint-of-evolving-dark-energy-new-results-and-data-from-desi/)"
     }
@@ -2620,7 +2618,12 @@
     "co-je-hubbleova-konstanta",
     "muze-se-temna-energie-menit-v-case",
     "jak-pozname-ktery-model-vesmiru-odpovida-merenim"
-  ]
+  ],
+  "related_news": [
+    "2610.23497",
+    "2609.40176"
+  ],
+  "related_news_note": "Tyto články rozebírají konkrétní interpretace dat a teoretické modely. Pomáhají sledovat diskusi, ale nenahrazují souhrn výsledků celé spolupráce DESI."
 },
 {
   "id": "exp-063",
@@ -2652,10 +2655,6 @@
       "body": "Vysokoenergetická neutrina z kosmu pomáhají hledat místa, kde se urychlují částice na mimořádné energie. Jejich směr nemění magnetická pole tak jako u elektricky nabitých částic. Proto lze neutrinové události porovnávat s pozorováním světla a dalšími posly.\n\nNeutrina ze supernov zase nesou informace o kolabujícím jádru hvězdy. Měření vlastností neutrin doplňuje kosmologické odhady jejich vlivu na vznik struktur. **IceCube ani Super-Kamiokande však přímo nemapují reliktní neutrinové pozadí z raného vesmíru**: jeho dnešní energie jsou pro tyto observatoře příliš nízké. Neutrinové měření a [mapa reliktního světla](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html) jsou odlišné druhy pozorování."
     },
     {
-      "heading": "Související články z Kosmonovinek",
-      "body": "- [Tajemství neutrin z černých děr: Jaké prvky galaxie urychlují?](https://kosmonovinky.cz/clanky/tajemstvi-neutrin-z-cernych-der-jake-prvky-galaxie-urychluji-2610186711.html)\n- [Neutrina a Einstein: Experiment DUNE hledá trhliny v principu ekvivalence](https://kosmonovinky.cz/clanky/neutrina-a-einstein-experiment-dune-hleda-trhliny-v-principu-ekvivalence-2610220451.html)\n\nPrvní článek navazuje na astrofyzikální zdroje. Druhý představuje jiný přístup: neutrinový experiment DUNE se svazkem z urychlovače. Není součástí IceCube ani Super-Kamiokande."
-    },
-    {
       "heading": "Zdroje a další čtení",
       "body": "- [IceCube: detektor, hloubka senzorů a rekonstrukce událostí](https://icecube.wisc.edu/science/icecube/)\n- [IceCube: přehled výzkumu astrofyzikálních neutrin a jejich vlastností](https://icecube.wisc.edu/science/research/)\n- [Super-Kamiokande: umístění, vodní nádrž a cíle experimentu](https://www-sk.icrr.u-tokyo.ac.jp/en/sk/about/outline/)\n- [ICRR: neutrinová a astročásticová výzkumná zařízení](https://www-rccn.icrr.u-tokyo.ac.jp/taxo_rp/neutrino-and-astroparticle-division/)"
     }
@@ -2667,7 +2666,12 @@
     "co-je-neutronova-hvezda",
     "co-je-standardni-model-casticove-fyziky",
     "jak-experimenty-hledaji-castice-temne-hmoty"
-  ]
+  ],
+  "related_news": [
+    "2610.18671v1",
+    "2610.22045v1"
+  ],
+  "related_news_note": "První článek navazuje na astrofyzikální zdroje. Druhý představuje jiný přístup: neutrinový experiment DUNE se svazkem z urychlovače. Není součástí IceCube ani Super-Kamiokande."
 },
 {
   "id": "exp-064",
@@ -2704,10 +2708,6 @@
       "body": "Jiná hmotnost nebo jiný způsob interakce může vyžadovat odlišný přístroj. Například **ADMX** na Washingtonské univerzitě v Seattlu používá laditelnou mikrovlnnou dutinu v silném magnetickém poli. Hledá možnou přeměnu hypotetických axionů na elektromagnetický signál, nikoli stejný typ jaderného zpětného rázu jako xenonové komory.\n\nPřímé detektory, [gravitační mapování Euclidu](https://kosmonovinky.cz/kosmopedie/co-zkouma-kosmicky-dalekohled-euclid.html) a hledání nových částic na urychlovačích proto zkoušejí různé části problému. Přehled kandidátů nabízí [samostatné téma](https://kosmonovinky.cz/kosmopedie/z-ceho-by-mohla-byt-temna-hmota.html)."
     },
     {
-      "heading": "Související články z Kosmonovinek",
-      "body": "- [Záhadný signál v detektoru LUX-ZEPLIN: Stopy neobvyklé temné hmoty?](https://kosmonovinky.cz/clanky/zahadny-signal-v-detektoru-lux-zeplin-stopy-neobvykle-temne-hmoty-261012443.html)\n- [Neutrinová mlha neelastické temné hmoty: Překážka, která může zmizet](https://kosmonovinky.cz/clanky/neutrinova-mlha-neelasticke-temne-hmoty-prekazka-ktera-muze-zmizet-2610357891.html)\n\nOba texty představují konkrétní výzkumné interpretace. Zejména titulky o stopách temné hmoty je třeba číst spolu s uvedenou statistickou nejistotou a předpoklady modelu."
-    },
-    {
       "heading": "Zdroje a další čtení",
       "body": "- [LZ: princip xenonového detektoru a dva signály](https://lz.lbl.gov/detector/)\n- [LZ: podzemní laboratoř a ochrana před rušením](https://lz.lbl.gov/laboratory/)\n- [Curyšská univerzita, spolupráce XENON: rekonstrukce interakcí v XENONnT](https://www.physik.uzh.ch/en/groups/baudis/Research/XENON.html)\n- [LZ Collaboration: oznámení analýzy neobvyklé události, 1. září 2026](https://lz.lbl.gov/)\n- [XENON Collaboration: publikované výsledky hledání WIMPů a datové limity](https://github.com/XENONnT/wimp_data_release)\n- [University of Washington: umístění a zázemí experimentu ADMX](https://depts.washington.edu/admx/Documents/Data-Management-Plan_25jun15.pdf)\n- [Fermilab: laditelná dutina a princip axionového experimentu ADMX](https://inspirehep.net/files/0302654d7c35180aafe6afc1ccdf10f2)"
     }
@@ -2719,7 +2719,12 @@
     "z-ceho-by-mohla-byt-temna-hmota",
     "co-je-lhc-a-jak-souvisi-s-kosmologii",
     "jak-funguji-detektory-neutrin-a-co-nam-odhaluji"
-  ]
+  ],
+  "related_news": [
+    "2610.12443",
+    "2610.35789v1"
+  ],
+  "related_news_note": "Oba texty představují konkrétní výzkumné interpretace. Zejména titulky o stopách temné hmoty je třeba číst spolu s uvedenou statistickou nejistotou a předpoklady modelu."
 },
 {
   "id": "exp-065",
@@ -2755,10 +2760,6 @@
       "body": "**CERN je evropská laboratoř částicové fyziky u Ženevy**, kde mezinárodní týmy využívají společnou soustavu urychlovačů a dalších zařízení. [LHC](https://kosmonovinky.cz/kosmopedie/co-je-lhc-a-jak-souvisi-s-kosmologii.html) připravuje vysokoenergetické srážky; jednotlivé experimenty ale sledují různé otázky.\n\n- **ATLAS a CMS** měří mnoho různých produktů srážek. Zkoumají vlastnosti Higgsova bosonu, přesnost předpovědí standardního modelu a možné nové částice.\n- **ALICE** se zaměřuje na extrémně horkou hmotu vznikající zejména při srážkách těžkých iontů. Zkoumá **kvark-gluonové plazma**, stav, v němž kvarky a gluony nejsou vázány uvnitř jednotlivých protonů a neutronů. Pomáhá tak porozumět podmínkám raného vesmíru.\n- **LHCb** podrobně sleduje rozpady částic obsahujících těžké kvarky a porovnává chování částic a antičástic. Přispívá k výzkumu rozdílů souvisejících s převahou hmoty ve vesmíru.\n\nDalší experimenty využívají jiné části urychlovací soustavy: výše uvedený **NA62** studuje vzácné rozpady kaonů, zatímco **ALPHA** využívá zpomalené antiprotony k výrobě a měření antivodíku. Její postup popisuje [téma o antiatomech](https://kosmonovinky.cz/kosmopedie/jak-zkoumame-antiatomy-a-prevahu-hmoty-nad-antihmotou.html). CERN tak ukazuje, jak se doplňují vysoké energie, přesná rozpadová měření a výzkum velmi pomalých částic."
     },
     {
-      "heading": "Související články z Kosmonovinek",
-      "body": "- [Obří leptonové urychlovače: Nový pohled na vzácné rozpady Higgsova bosonu](https://kosmonovinky.cz/clanky/obri-leptonove-urychlovace-novy-pohled-na-vzacne-rozpady-higgsova-bosonu-2610187031.html)\n- [Mionový urychlovač na stopě temné hmoty a záhady neutrin](https://kosmonovinky.cz/clanky/mionovy-urychlovac-na-stope-temne-hmoty-a-zahady-neutrin-2609175301.html)\n\nOba články se týkají možností budoucích zařízení a konkrétních teoretických scénářů. Jejich předpovědi citlivosti jsou plány a výpočty, nikoli již uskutečněné objevy."
-    },
-    {
       "heading": "Zdroje a další čtení",
       "body": "- [Belle II: přesná měření a fyzikální cíle](https://www.belle2.de/en/belle-2-experiment/physics)\n- [KEK: Belle II a SuperKEKB, přehled zařízení](https://www2.kek.jp/proffice/Pamphlets/IPNS/BELLEII_E.pdf)\n- [J-PARC: urychlovací řetězec a jeho využití](https://www.j-parc.jp/c/en/facilities/accelerators/rcs.html)\n- [T2K: jak vzniká svazek a proč putuje do Kamioky](https://t2k-experiment.org/t2k/)\n- [CERN: experimenty s pevným terčem včetně NA62](https://home.web.cern.ch/science/experiments/)\n- [CERN: ALICE a výzkum kvark-gluonového plazmatu](https://home.cern/science/experiments/alice/)\n- [CERN: LHCb a rozdíly mezi hmotou a antihmotou](https://home.cern/science/experiments/lhcb/)"
     }
@@ -2770,7 +2771,12 @@
     "jak-ze-signalu-detektoru-pozname-castici-a-objev",
     "jak-zkoumame-antiatomy-a-prevahu-hmoty-nad-antihmotou",
     "proc-neutrina-meni-svuj-druh"
-  ]
+  ],
+  "related_news": [
+    "2610.18703v1",
+    "2609.17530v1"
+  ],
+  "related_news_note": "Oba články se týkají možností budoucích zařízení a konkrétních teoretických scénářů. Jejich předpovědi citlivosti jsou plány a výpočty, nikoli již uskutečněné objevy."
 },
 {
   "id": "exp-066",
@@ -2811,10 +2817,6 @@
       "body": "Týmy prověřují kalibraci, volbu událostí, simulace i výsledky v nezávislých datech. Silnou oporu poskytuje shoda více způsobů rozpadu nebo různých experimentů. Po objevu navíc následuje měření vlastností: zda má částice očekávanou hmotnost, dobu života a způsoby interakce.\n\nPodobně se postupuje i mimo srážeče. V [podzemních detektorech temné hmoty](https://kosmonovinky.cz/kosmopedie/jak-experimenty-hledaji-castice-temne-hmoty.html) musí být neobvyklá událost porovnána s radioaktivitou a dalšími pozadími. Nalezení události, její fyzikální interpretace a potvrzený objev jsou postupné kroky."
     },
     {
-      "heading": "Související články z Kosmonovinek",
-      "body": "- [Lov na neviditelné: Hluboké učení odhaluje temnou hmotu](https://kosmonovinky.cz/clanky/lov-na-neviditelne-hluboke-uceni-odhaluje-temnou-hmotu-2609116921.html)\n- [Záhadný signál v detektoru LUX-ZEPLIN: Stopy neobvyklé temné hmoty?](https://kosmonovinky.cz/clanky/zahadny-signal-v-detektoru-lux-zeplin-stopy-neobvykle-temne-hmoty-261012443.html)\n\nPrvní studie ukazuje možnosti výběru událostí pomocí strojového učení. Druhá nabízí interpretaci neobvyklé události; samotná existence takové interpretace ještě neprokazuje novou částici."
-    },
-    {
       "heading": "Zdroje a další čtení",
       "body": "- [CMS: jak jednotlivé části detektoru měří částice](https://cms.cern/detector)\n- [CERN: postup od návrhu experimentu k objevu](https://home.cern/science/physics/12-steps-idea-discovery/)\n- [CERN: hledání Higgsova bosonu a hmotnostní přebytek](https://home.web.cern.ch/science/physics/higgs-boson/how/)\n- [ATLAS: statistická významnost a pojem sigma](https://atlas-public.web.cern.ch/glossary/standard-deviation)\n- [CERN: objev v roce 2012 a následné ověřování vlastností Higgsova bosonu](https://home.cern/science/physics/higgs-boson/)"
     }
@@ -2826,7 +2828,12 @@
     "co-je-higgsovo-pole-a-jak-souvisi-s-hmotnosti",
     "jak-experimenty-hledaji-castice-temne-hmoty",
     "jak-pozname-ktery-model-vesmiru-odpovida-merenim"
-  ]
+  ],
+  "related_news": [
+    "2609.11692v1",
+    "2610.12443"
+  ],
+  "related_news_note": "První studie ukazuje možnosti výběru událostí pomocí strojového učení. Druhá nabízí interpretaci neobvyklé události; samotná existence takové interpretace ještě neprokazuje novou částici."
 },
 {
   "id": "exp-067",
@@ -2858,10 +2865,6 @@
       "body": "V pozorovaném vesmíru převažuje běžná hmota. Při vysvětlování této nerovnováhy potřebujeme zjistit, jak mohl v raném vesmíru vzniknout přebytek hmoty nad antihmotou. Shoda atomových spekter ani pád antivodíku samy neurčují rychlosti a četnosti reakcí, které tehdy nerovnováhu vytvořily.\n\nJiný druh testu porovnává rozpady částic a antičástic. S tím souvisí **CP symetrie**. Písmeno **C** označuje záměnu částic za jejich antičástice a **P** obrácení všech prostorových směrů, které si lze představit jako zrcadlové převrácení děje. Kdyby CP symetrie platila, původní rozpad částice a takto převrácený rozpad její antičástice by probíhaly se stejnou pravděpodobností. U některých rozpadů ale měříme rozdíl — tomu říkáme **porušení CP symetrie**. Tyto rozdíly zkoumají například Belle II a LHCb. Dosud známé projevy však samy neposkytují dostatečné vysvětlení pozorované převahy hmoty ve vesmíru.\n\nJedním z možných vysvětlení je **leptogeneze**. Podle její často zkoumané podoby existovala v raném vesmíru velmi těžká neutrina, která zatím neznáme z pozorování. Při jejich rozpadech mohlo vznikat o něco více leptonů — částic ze stejné skupiny jako elektron — než jejich antičástic, nebo naopak. Další reakce v tehdejším horkém vesmíru mohly část této nerovnováhy převést na převahu hmoty, z níž později vznikly atomy. **Zatím však není potvrzeno, že právě takto převaha hmoty skutečně vznikla.**"
     },
     {
-      "heading": "Související články z Kosmonovinek",
-      "body": "- [Původ hmoty ve vesmíru: Leptogeneze bez nutnosti jemného ladění](https://kosmonovinky.cz/clanky/puvod-hmoty-ve-vesmiru-leptogeneze-bez-nutnosti-jemneho-ladeni-2609249901.html)\n- [Dirac nebo Majorana? Kosmický „flip-flop“ vysvětluje převahu hmoty](https://kosmonovinky.cz/clanky/dirac-nebo-majorana-kosmicky-flip-flop-vysvetluje-prevahu-hmoty-261010688.html)\n\nTyto studie rozvíjejí možné mechanismy vzniku nerovnováhy v raném vesmíru. Jejich předpoklady je třeba odlišovat od přímo naměřených vlastností laboratorních antiatomů."
-    },
-    {
       "heading": "Zdroje a další čtení",
       "body": "- [CERN: výroba a uvěznění antivodíku v ALPHA](https://home.cern/science/experiments/alpha)\n- [CERN: první měření optického spektra antivodíku](https://home.cern/alpha-experiment-observes-the-light-spectrum-of-antimatter-for-the-first-time/)\n- [ALPHA Collaboration: gravitační měření antivodíku, Nature 2023](https://doi.org/10.1038/s41586-023-06527-1)\n- [CERN: antihmota a problém jejího nedostatku ve vesmíru](https://home.cern/science/physics/antimatter/)\n- [Belle II: rozpadové procesy a rozdíly mezi hmotou a antihmotou](https://belle2.jp/)\n- [T2K: CP symetrie, neutrina a souvislost s převahou hmoty](https://t2k-experiment.org/neutrinos/faq/)"
     }
@@ -2873,7 +2876,12 @@
     "co-jsou-absorpcni-a-emisni-cary",
     "proc-pouzivame-ruzne-druhy-urychlovacu-castic",
     "proc-neutrina-meni-svuj-druh"
-  ]
+  ],
+  "related_news": [
+    "2609.24990v1",
+    "2610.10688"
+  ],
+  "related_news_note": "Tyto studie rozvíjejí možné mechanismy vzniku nerovnováhy v raném vesmíru. Jejich předpoklady je třeba odlišovat od přímo naměřených vlastností laboratorních antiatomů."
 },
 {
   "id": "exp-068",
@@ -2905,10 +2913,6 @@
       "body": "Oscilace prokazují, že hmotnostní stavy nejsou všechny stejně těžké a že alespoň některá neutrina mají nenulovou hmotnost. Oscilace nám prozradí, o kolik se liší druhé mocniny hmotností neutrinových stavů. Samotné jednotlivé hmotnosti z toho ale určit nedokážeme: stejný rozdíl druhých mocnin mohou dát různé dvojice hodnot. Proto potřebujeme také jiné druhy měření, například experiment KATRIN popsaný níže.\n\nJinou cestou jde **KATRIN v Karlsruhe**: zkoumá rozdělení energií elektronů při radioaktivním rozpadu tritia, těžšího izotopu vodíku. Hmotnost neutrina se projevuje jemnou změnou na konci tohoto rozdělení. Kosmologie zase zkoumá společný vliv neutrin na vznik struktur. Vzájemné porovnání pomáhá ověřovat modely; různé metody mají různé předpoklady. Samotné oscilace také neříkají, zda je neutrino svou vlastní antičásticí."
     },
     {
-      "heading": "Související články z Kosmonovinek",
-      "body": "- [Hmotnost neutrin a zrcadlová symetrie vesmíru: Majorana nebo Dirac?](https://kosmonovinky.cz/clanky/hmotnost-neutrin-a-zrcadlova-symetrie-vesmiru-majorana-nebo-dirac-2610316581.html)\n- [Jak hmota mění chování neutrin: Nový skalární MSW efekt](https://kosmonovinky.cz/clanky/jak-hmota-meni-chovani-neutrin-novy-skalarni-msw-efekt-2610021071.html)\n\nPrvní text řeší možné mechanismy hmotnosti neutrin. Druhý zkoumá navržené interakce při průchodu látkou; jde o rozšíření běžného popisu, nikoli nutnou podmínku samotné existence oscilací."
-    },
-    {
       "heading": "Zdroje a další čtení",
       "body": "- [Fermilab: druhy neutrin a hmotnostní stavy](https://neutrinos.fnal.gov/types/masses/)\n- [T2K: oscilace, úbytek a výskyt druhů, role blízkých detektorů](https://t2k-experiment.org/neutrinos/faq/)\n- [T2K: konkrétní uspořádání experimentu](https://t2k-experiment.org/t2k/)\n- [Fermilab: co zatím víme o hmotnosti neutrin](https://neutrinos.fnal.gov/mysteries/mass/)\n- [KIT: princip přímého hmotnostního měření KATRIN](https://www.katrin.kit.edu/79.php)"
     }
@@ -2920,7 +2924,12 @@
     "co-je-superpozice-a-co-se-deje-pri-mereni",
     "proc-pouzivame-ruzne-druhy-urychlovacu-castic",
     "jak-zkoumame-antiatomy-a-prevahu-hmoty-nad-antihmotou"
-  ]
+  ],
+  "related_news": [
+    "2610.31658v1",
+    "2610.02107v1"
+  ],
+  "related_news_note": "První text řeší možné mechanismy hmotnosti neutrin. Druhý zkoumá navržené interakce při průchodu látkou; jde o rozšíření běžného popisu, nikoli nutnou podmínku samotné existence oscilací."
 },
 {
   "id": "exp-069",
@@ -2952,10 +2961,6 @@
       "body": "Rekonstrukce určí směr, ze kterého částice dorazila k Zemi. Během cesty se však nabitá částice odchyluje v kosmických magnetických polích. Její poslední směr proto nemusí být přímou spojnicí s místem vzniku. Velikost odchýlení závisí mimo jiné na energii a náboji.\n\nVědci porovnávají velké soubory směrů s rozložením možných zdrojů a kombinují částicová data s fotony i [kosmickými neutriny](https://kosmonovinky.cz/kosmopedie/jak-funguji-detektory-neutrin-a-co-nam-odhaluji.html). Tyto různé informace pomáhají sestavit obraz dějů, při nichž vznikají nejenergetičtější částice vesmíru."
     },
     {
-      "heading": "Související články z Kosmonovinek",
-      "body": "- [Tajemství neutrin z černých děr: Jaké prvky galaxie urychlují?](https://kosmonovinky.cz/clanky/tajemstvi-neutrin-z-cernych-der-jake-prvky-galaxie-urychluji-2610186711.html)\n- [Lovci vesmírných neutrin získávají nový a přesný matematický nástroj](https://kosmonovinky.cz/clanky/lovci-vesmirnych-neutrin-ziskavaji-novy-a-presny-matematicky-nastroj-2609401881.html)\n\nPrvní studie propojuje urychlování částic s neutrinovým a gama pozorováním aktivních galaxií. Druhá se týká rekonstrukce mionů u neutrinových observatoří. Nejsou to přímá měření celé atmosférické spršky, ale související způsoby zkoumání energetických částic."
-    },
-    {
       "heading": "Zdroje a další čtení",
       "body": "- [NASA: složení kosmického záření a odchylování magnetickými poli](https://imagine.gsfc.nasa.gov/science/toolbox/cosmic_rays1.html)\n- [CERN: kosmické částice, piony a miony v atmosféře](https://home.web.cern.ch/science/physics/cosmic-rays-particles-outer-space/)\n- [NOAA: jednotlivé složky atmosférických částicových spršek](https://www.ncei.noaa.gov/products/space-weather/legacy-data/cosmic-ray)\n- [Pierre Auger Observatory: povrchová a fluorescenční měření](https://www.auger.org/observatory/)\n- [Pierre Auger Observatory: jak z průchodů částic rekonstruujeme spršku](https://auger.org/outreach/cosmic-rays/detection)"
     }
@@ -2967,6 +2972,11 @@
     "proc-pouzivame-ruzne-druhy-urychlovacu-castic",
     "jak-ze-signalu-detektoru-pozname-castici-a-objev",
     "co-je-neutronova-hvezda"
-  ]
+  ],
+  "related_news": [
+    "2610.18671v1",
+    "2609.40188v1"
+  ],
+  "related_news_note": "První studie propojuje urychlování částic s neutrinovým a gama pozorováním aktivních galaxií. Druhá se týká rekonstrukce mionů u neutrinových observatoří. Nejsou to přímá měření celé atmosférické spršky, ale související způsoby zkoumání energetických částic."
 }
 ]
