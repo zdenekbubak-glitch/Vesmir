@@ -2479,5 +2479,246 @@
    "lze-vysvetlit-pozorovani-bez-temne-hmoty",
    "co-je-spektroskopie-a-co-nam-rika-svetlo"
   ]
- }
+ },
+{
+  "id": "exp-060",
+  "title": "Co změřila družice Planck?",
+  "theme": "vesmirne-teleskopy",
+  "description": "Planck mapoval nejstarší pozorovatelné světlo. Kde pracoval, jak odděloval záření Galaxie a co jeho data říkají o stáří a složení vesmíru?",
+  "published": "2026-10-27",
+  "updated": "2026-10-27",
+  "perex": "Planck byl evropský kosmický přístroj pro měření mikrovlnného záření celé oblohy. Jeho mapy drobných teplotních rozdílů a polarizace reliktního záření patří k základním podkladům moderní kosmologie. Stáří ani složení vesmíru však přístroj neodečetl přímo: vědci je odvozují porovnáváním dat s fyzikálními modely.",
+  "sections": [
+    {
+      "heading": "Kde Planck pracoval a proč tak daleko od Země",
+      "body": "Družice Evropské kosmické agentury ESA odstartovala **14. května 2009**. Pozorovala z okolí bodu **L2 soustavy Slunce–Země**, přibližně 1,5 milionu kilometrů od Země směrem od Slunce. Nešlo o přistání na pevném bodě: družice kolem jeho okolí obíhala.\n\nTaková poloha usnadňovala odstínění Slunce, Země a Měsíce a udržování stálých tepelných podmínek. Pro mikrovlnné detektory je vlastní teplo přístroje rušivým signálem. Proto měla mise také mimořádně účinné chlazení. Vědecká pozorování skončila v roce **2013**; analýza a využívání dat pokračují."
+    },
+    {
+      "heading": "Co skutečně zachytily detektory",
+      "body": "Dvojice přístrojů LFI a HFI měřila záření v **devíti frekvenčních pásmech od 30 do 857 GHz**. Skenováním oblohy vznikaly záznamy intenzity z různých směrů; část detektorů rozlišovala také polarizaci, tedy orientaci kmitání elektromagnetického pole.\n\nHlavním cílem bylo [reliktní záření](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html), světlo uvolněné v době, kdy se vesmír stal průhledným, asi 380 tisíc let po velkém třesku. Dnes je rozpínáním protažené do mikrovln. Planck tedy nefotografoval okamžik vzniku vesmíru ani hvězdy z této doby."
+    },
+    {
+      "heading": "Proč nestačí vyfotografovat oblohu jednou barvou",
+      "body": "Před vzdáleným pozadím leží naše Galaxie. Její prach, plyn i další zdroje také vyzařují. Jediná mikrovlnná mapa proto obsahuje směs různých příspěvků.\n\n**Různé zdroje mění jas s frekvencí odlišně.** Porovnání více pásem umožňuje odhadnout jejich podíl a sestavit mapu reliktního záření. Některé oblasti se při přesné analýze zakrývají, protože v nich zůstává příliš mnoho rušivého záření. Výsledná mapa je zpracovaný vědecký produkt, nikoli obyčejná barevná fotografie."
+    },
+    {
+      "heading": "Jak z mapy získáme stáří a složení vesmíru",
+      "body": "Vědci zjišťují, jak výrazné jsou teplotní rozdíly na různě velkých úhlových měřítkách. Jejich charakteristický vzor závisí na podmínkách raného vesmíru a na tom, jak se světlo šířilo až k nám.\n\nPředpovědi [modelu ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html) se pak porovnávají s daty. V tomto rámci vychází stáří vesmíru přibližně **13,8 miliardy let** a odhady podílů běžné hmoty, temné hmoty a temné energie. Změníme-li předpoklady modelu, mohou se změnit i odvozené hodnoty. Planck také umožnil rekonstruovat gravitační čočkování reliktního záření, tedy jeho drobné deformace hmotou na cestě."
+    },
+    {
+      "heading": "Co Planck nerozhodl sám",
+      "body": "Model ΛCDM dokáže dobře popsat naměřený vzor teplotních rozdílů a polarizace reliktního záření. Pokud pomocí tohoto modelu z dat Plancku odvodíme dnešní rychlost rozpínání vesmíru, vyjde nižší hodnota než při jejím určování z měření vzdáleností a rudých posuvů galaxií v bližším vesmíru. Tento rozpor označujeme jako [Hubbleovo napětí](https://kosmonovinky.cz/kosmopedie/co-je-hubbleovo-napeti.html). Samotná data Plancku nerozhodují, zda za rozdílem stojí dosud neodhalená chyba některého měření, nebo zda potřebujeme upravit kosmologický model.\n\nVýsledky Plancku proto vědci porovnávají s pozorováními, která zkoumají vesmír jiným způsobem. Planck měřil reliktní záření, které nese informace především o raném vesmíru. [DESI](https://kosmonovinky.cz/kosmopedie/co-je-desi-a-jak-mapuje-rozpinani-vesmiru.html) naproti tomu zjišťuje polohy a rudé posuvy galaxií a z jejich rozložení pomáhá určit historii rozpínání. [Euclid](https://kosmonovinky.cz/kosmopedie/co-zkouma-kosmicky-dalekohled-euclid.html) navíc měří drobné deformace obrazů galaxií způsobené gravitací hmoty mezi nimi a námi. Vědci pak ověřují, zda jeden kosmologický model dokáže současně vysvětlit všechny tyto různé soubory měření."
+    },
+    {
+      "heading": "Související články z Kosmonovinek",
+      "body": "- [Blesková reionizace vesmíru: Co prozrazují nová data z družice Planck?](https://kosmonovinky.cz/clanky/bleskova-reionizace-vesmiru-co-prozrazuji-nova-data-z-druzice-planck-2609249891.html)\n- [Jak z otáčení světla vesmíru poznat temnou energii, hmotu či neutrina?](https://kosmonovinky.cz/clanky/jak-z-otaceni-svetla-vesmiru-poznat-temnou-energii-hmotu-ci-261002667.html)\n\nJde o zprávy o konkrétních výzkumných studiích; jejich návrhy a interpretace je třeba odlišovat od samotných měření družice."
+    },
+    {
+      "heading": "Zdroje a další čtení",
+      "body": "- [ESA: přehled mise, přístroje a místo pozorování](https://www.esa.int/Science_Exploration/Space_Science/Planck_overview)\n- [NASA/IPAC: frekvenční pásma a veřejná data Plancku](https://irsa.ipac.caltech.edu/Missions/planck.html)\n- [ESA: hlavní vědecké výsledky Plancku](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights)\n- [Planck Collaboration: přehled výsledků a kosmologického odkazu mise, 2018](https://arxiv.org/abs/1807.06205)"
+    }
+  ],
+  "why_box": "Když se dočtete, že Planck určil stáří nebo složení vesmíru, můžete rozlišit dvě věci: přesně změřenou mapu záření a parametry, které z ní odvozujeme za určitých fyzikálních předpokladů.",
+  "related_explainery": [
+    "co-je-reliktni-zareni",
+    "co-nam-rika-mapa-reliktniho-zareni",
+    "co-znamena-model-cdm",
+    "co-je-hubbleovo-napeti",
+    "co-je-desi-a-jak-mapuje-rozpinani-vesmiru"
+  ]
+},
+{
+  "id": "exp-061",
+  "title": "Co zkoumá kosmický dalekohled Euclid?",
+  "theme": "vesmirne-teleskopy",
+  "description": "Euclid měří tvary, jas a spektra galaxií. Jak z okolí L2 mapuje rozložení hmoty a pomáhá zkoumat temnou energii i gravitaci?",
+  "published": "2026-10-27",
+  "updated": "2026-10-27",
+  "perex": "Euclid je kosmická observatoř ESA navržená pro rozsáhlé mapování galaxií. Pomocí jejich tvarů a rozložení zkoumá, jak se ve vesmíru shlukuje hmota a jak se vesmír rozpíná. Temnou hmotu ani temnou energii přímo nefotografuje: sleduje jejich možné účinky na světlo a vývoj kosmických struktur.",
+  "sections": [
+    {
+      "heading": "Kde je Euclid a jaký má úkol",
+      "body": "Euclid odstartoval **1. července 2023** a pracuje v okolí bodu **L2 soustavy Slunce–Země**, asi 1,5 milionu kilometrů od Země směrem od Slunce. Stabilní prostředí a pozorování bez zemské atmosféry pomáhají přesně měřit slabé a vzdálené galaxie.\n\nJeho dalekohled má hlavní zrcadlo o průměru **1,2 metru**. Zásadní je široké zorné pole: mise nevybírá jen několik působivých objektů, ale opakovaným snímkováním skládá rozsáhlou přehlídku oblohy. Teprve porovnáním tvarů velkého množství galaxií lze odhalit drobné společné deformace jejich obrazů, které způsobuje gravitace hmoty na cestě světla k nám."
+    },
+    {
+      "heading": "Dva přístroje, dva doplňující se druhy měření",
+      "body": "**VIS** pořizuje ostré snímky ve viditelné a nejbližší infračervené části spektra. Vědci z nich určují polohy, jas a především tvary galaxií.\n\n**NISP** pracuje v blízkém infračerveném oboru. Měří jas přes několik filtrů a také rozkládá světlo na spektrum. U vhodných zdrojů tak získává spektrální čáry a jejich [rudý posuv](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html). Pro další galaxie se posuv odhaduje z barev, spolu s doplňujícími pozemními daty. Tyto odhady jsou méně přesné než dobře změřené jednotlivé spektrum."
+    },
+    {
+      "heading": "Proč kosmology zajímá nepatrně protažená galaxie",
+      "body": "Světlo se při průchodu kolem hmoty ohýbá. Mezi vzdálenou galaxií a námi se tím může její obraz nepatrně protáhnout či pootočit. Tomu se říká **slabé gravitační čočkování**.\n\nU jedné galaxie nevíme, jaký tvar měla původně. U velkého množství galaxií však hledáme společný, statisticky sladěný vzor deformací. Z něj lze rekonstruovat rozložení gravitačně působící hmoty podél zorných směrů. Výsledek zahrnuje běžnou i temnou hmotu; oddělení jejich podílů vyžaduje další údaje a modelování."
+    },
+    {
+      "heading": "Jak rozložení galaxií souvisí s temnou energií",
+      "body": "Gravitace podporuje růst struktur, zatímco historie rozpínání ovlivňuje čas a podmínky, které k růstu mají. Euclid proto porovnává shlukování galaxií a čočkování v různých vzdálenostech, a tím i v různých obdobích vesmíru.\n\nPoloha na obloze a rudý posuv pomáhají sestavit trojrozměrný popis galaktické sítě. Jeho statistické vlastnosti umožňují testovat [ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html), [proměnlivou temnou energii](https://kosmonovinky.cz/kosmopedie/muze-se-temna-energie-menit-v-case.html) nebo některé [alternativní popisy gravitace](https://kosmonovinky.cz/kosmopedie/co-je-modifikovana-gravitace.html). K přesným vzdálenostem a fyzikálním závěrům se přitom přechází přes kosmologický model."
+    },
+    {
+      "heading": "Pěkný obrázek není sám o sobě kosmologický výsledek",
+      "body": "Snímky kupy Perseus ukazují, kolik galaxií dokáže Euclid zachytit v jediném poli. Samotné jejich množství však ještě neurčuje vlastnosti temné energie. Je nutné znát výběr objektů, správně měřit tvary a odhadovat posuvy.\n\nNapříklad optika přístroje mění podobu bodového zdroje a může napodobit část slabého čočkování. Vědci proto pečlivě kalibrují obrazy hvězd a opravují vliv přístroje. Euclid a [DESI](https://kosmonovinky.cz/kosmopedie/co-je-desi-a-jak-mapuje-rozpinani-vesmiru.html) se doplňují: první klade velký důraz na obrazová měření a slabé čočkování, druhý na rozsáhlou přesnou spektroskopii."
+    },
+    {
+      "heading": "Související články z Kosmonovinek",
+      "body": "- [Euclid a ohyb světla: Nové algoritmy odhalí tisíce kup galaxií](https://kosmonovinky.cz/clanky/euclid-a-ohyb-svetla-nove-algoritmy-odhali-tisice-kup-galaxii-2609205711.html)\n- [Silné gravitační čočky jako klíč k záhadám temného vesmíru](https://kosmonovinky.cz/clanky/silne-gravitacni-cocky-jako-klic-k-zahadam-temneho-vesmiru-261019598.html)\n\nPrvní článek se týká zpracování dat Euclidu, druhý jiné, silnější podoby gravitačního čočkování. Silné oblouky a slabé statistické deformace jsou příbuzné jevy, ale vyhodnocují se odlišně."
+    },
+    {
+      "heading": "Zdroje a další čtení",
+      "body": "- [Euclid NASA Science Center: cíle mise, start a dvě hlavní kosmologické metody](https://euclid.caltech.edu/page/about-the-mission)\n- [ESA: přístroje VIS a NISP](https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_s_instruments)\n- [Euclid Consortium: měření tvarů galaxií přístrojem VIS](https://www.euclid-ec.org/public/mission/vis/)\n- [Euclid Consortium: fotometrie a spektroskopie NISP](https://www.euclid-ec.org/public/mission/nisp/)\n- [Euclid Collaboration: odborný přehled celé mise](https://doi.org/10.1051/0004-6361/202450810)"
+    }
+  ],
+  "why_box": "Euclid ukazuje, proč mohou být důležitější miliony nenápadných galaxií než jediná mimořádná fotografie. Malé změny tvarů a velké vzory jejich rozložení společně testují působení gravitace a vývoj vesmíru.",
+  "related_explainery": [
+    "proc-pozorujeme-vesmir-ze-zeme-i-z-kosmu",
+    "co-je-rudy-posuv-a-jak-se-meri",
+    "jak-vime-ze-temna-hmota-existuje",
+    "muze-se-temna-energie-menit-v-case",
+    "co-je-desi-a-jak-mapuje-rozpinani-vesmiru"
+  ]
+},
+{
+  "id": "exp-062",
+  "title": "Co je DESI a jak mapuje rozpínání vesmíru?",
+  "theme": "vesmirne-teleskopy",
+  "description": "DESI na Kitt Peaku měří spektra tisíců galaxií současně. Jak z rudých posuvů a charakteristických rozestupů galaxií zkoumá historii rozpínání?",
+  "published": "2026-10-27",
+  "updated": "2026-10-27",
+  "perex": "DESI je spektroskopický přístroj na čtyřmetrovém Mayallově dalekohledu v Arizoně. S pomocí tisíců optických vláken zaznamenává světlo galaxií a kvasarů. Z jejich spekter a poloh skládá trojrozměrnou mapu, jejíž statistické vzory pomáhají měřit historii rozpínání vesmíru.",
+  "sections": [
+    {
+      "heading": "Kde DESI pracuje",
+      "body": "Zkratka znamená **Dark Energy Spectroscopic Instrument**. Přístroj je instalován na **Mayallově čtyřmetrovém dalekohledu** observatoře Kitt Peak v Arizoně, na území národa Tohono O’odham. DESI tedy není družice ani nově postavený dalekohled: je to soustava přístrojů, která využívá existující velké zrcadlo.\n\nNa oblohu se dívá přes zemskou atmosféru. Hlavním cílem nejsou velmi detailní obrazy jednotlivých galaxií, ale získání spekter obrovského počtu objektů. Pozemní umístění umožňuje obsluhovat rozsáhlou a technicky náročnou spektroskopickou aparaturu."
+    },
+    {
+      "heading": "Jak může sledovat tisíce objektů najednou",
+      "body": "V ohniskové rovině je **5 000 roboticky polohovaných optických vláken**. Každé lze nasměrovat na vybraný bod obrazu oblohy. Světlo vláknem doputuje do spektrografu, který je rozdělí podle vlnové délky.\n\nDetektory zaznamenají, kolik světla přichází v jednotlivých částech spektra. Po dokončení pozorování se polohy vláken přenastaví pro další pole. Výsledkem není 5 000 nezávislých fotografií, ale velké množství spekter s informacemi o vybraných zdrojích. Princip rozkladu světla vysvětluje [téma o spektroskopii](https://kosmonovinky.cz/kosmopedie/co-je-spektroskopie-a-co-nam-rika-svetlo.html)."
+    },
+    {
+      "heading": "Od spektrální čáry ke třetímu rozměru mapy",
+      "body": "Známé [emisní a absorpční čáry](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html) mají laboratorně změřené vlnové délky. Posun jejich vzoru ve spektru vzdálené galaxie dovolí určit rudý posuv. Na následujícím schématu je jen princip tohoto porovnání, nikoli konkrétní spektrum DESI.\n\nDva směrové údaje určují polohu na obloze; rudý posuv přidává informaci související s hloubkou. Rudý posuv ale sám o sobě neudává vzdálenost. Vyjadřuje, v jakém poměru se změnila vlnová délka světla. Abychom z něj odvodili vzdálenost například ve světelných letech, potřebujeme model rozpínání vesmíru a musíme zohlednit také vlastní pohyb galaxie.",
+      "image_id": "schema-rudy-posuv-cary"
+    },
+    {
+      "heading": "Jak v rozložení galaxií poznáme stopy dávných zvukových vln",
+      "body": "V raném vesmíru se v horké směsi běžné látky a záření šířily zvukové vlny. Jejich otisk zůstal v pozdějším rozložení hmoty. Označujeme jej jako **baryonové akustické oscilace, BAO**.\n\nKdyž vědci porovnají vzdálenosti mezi velkým množstvím dvojic galaxií, zjistí, že určitý rozestup se vyskytuje o něco častěji než jiné blízké hodnoty. Jde o pozůstatek zvukových vln z raného vesmíru. Tento charakteristický rozestup se projeví až při vyhodnocení rozsáhlého souboru galaxií; jednotlivé sousední galaxie mohou být od sebe vzdálené velmi různě.\n\nVědci zjišťují, pod jakým úhlem tento charakteristický rozestup vidíme na obloze a jakému rozdílu rudých posuvů odpovídá ve směru pohledu. Porovnáním výsledků pro různé části vesmíru zkoumají vzdálenosti a rychlost rozpínání v různých obdobích jeho vývoje.\n\nAbychom určili, jaké skutečné vzdálenosti tento charakteristický rozestup odpovídá, počítáme, jak daleko se zvukové vlny mohly v raném vesmíru rozšířit, než jejich otisk zůstal zachován v rozložení hmoty. Výpočet vychází z tehdejšího složení vesmíru a průběhu jeho rozpínání."
+    },
+    {
+      "heading": "Změřil DESI přímo temnou energii?",
+      "body": "Přímo měří světlo zdrojů. Vlastnosti [temné energie](https://kosmonovinky.cz/kosmopedie/co-je-temna-energie-a-jak-se-lisi-od-temne.html) se odvozují z toho, jak modely popisují historii rozpínání a růst struktur. DESI také využívá další informace o shlukování, nejen BAO.\n\nKombinace některých výsledků s reliktním zářením a supernovami naznačily, že by se temná energie mohla měnit v čase. **Není to totéž jako potvrzený objev proměnlivé temné energie.** Síla závěru závisí na kombinaci dat, předpokladech modelu i kontrole systematických chyb. Proto je důležité porovnávání s nezávislými měřeními, například z [Euclidu](https://kosmonovinky.cz/kosmopedie/co-zkouma-kosmicky-dalekohled-euclid.html)."
+    },
+    {
+      "heading": "Související články z Kosmonovinek",
+      "body": "- [Temná energie v pohybu: Provázaná kvintesence vysvětluje nová data z DESI](https://kosmonovinky.cz/clanky/temna-energie-v-pohybu-provazana-kvintesence-vysvetluje-nova-data-z-261023497.html)\n- [Vidí DESI temnou energii, nebo poruchu v samotné gravitaci?](https://kosmonovinky.cz/clanky/vidi-desi-temnou-energii-nebo-poruchu-v-samotne-gravitaci-260940176.html)\n\nTyto články rozebírají konkrétní interpretace dat a teoretické modely. Pomáhají sledovat diskusi, ale nenahrazují souhrn výsledků celé spolupráce DESI."
+    },
+    {
+      "heading": "Zdroje a další čtení",
+      "body": "- [DESI: umístění a historie Mayallova dalekohledu](https://www.desi.lbl.gov/telescope/)\n- [DESI: 5 000 vláken a soustava spektrografů](https://www.desi.lbl.gov/instrument/)\n- [DESI Collaboration: BAO a kontrola modelových nejistot](https://academic.oup.com/mnras/article/534/1/544/7750629)\n- [DESI: výsledky a náznaky proměnlivé temné energie, březen 2025](https://www.desi.lbl.gov/2025/03/19/more-than-a-hint-of-evolving-dark-energy-new-results-and-data-from-desi/)"
+    }
+  ],
+  "why_box": "Trojrozměrná mapa vesmíru není jen obrázek. DESI převádí velké množství měření světla na statistické testy rozpínání. Při zprávách o nové temné energii je dobré sledovat, která data a které předpoklady k závěru vedly.",
+  "related_explainery": [
+    "co-je-spektroskopie-a-co-nam-rika-svetlo",
+    "co-je-rudy-posuv-a-jak-se-meri",
+    "co-je-hubbleova-konstanta",
+    "muze-se-temna-energie-menit-v-case",
+    "jak-pozname-ktery-model-vesmiru-odpovida-merenim"
+  ]
+},
+{
+  "id": "exp-063",
+  "title": "Jak fungují detektory neutrin a co nám odhalují?",
+  "theme": "vesmirne-teleskopy",
+  "description": "IceCube v antarktickém ledu a Super-Kamiokande v japonském podzemí hledají záblesky po vzácných interakcích neutrin. Co z nich poznáme?",
+  "published": "2026-10-27",
+  "updated": "2026-10-27",
+  "perex": "Neutrinové observatoře nesbírají světlo vzdálené hvězdy do zrcadla. Čekají, až neutrino vzácně zareaguje s látkou a vzniklé částice zanechají měřitelnou stopu. Led v Antarktidě nebo velká nádrž vody v japonském podzemí se tak stávají součástí vědeckého přístroje.",
+  "sections": [
+    {
+      "heading": "Proč musí mít neutrinová observatoř tak velký objem",
+      "body": "Neutrina jsou elektricky neutrální částice, které s běžnou látkou reagují velmi málo. Většina jich prolétne Zemí bez pozorovatelné události. K zachycení vzácných interakcí proto potřebujeme velké množství vhodné látky a citlivé senzory.\n\nV tomto tématu sledujeme dvě konkrétní observatoře: **IceCube** a **Super-Kamiokande**. Pracují s různými energiemi a zdroji neutrin, takže se jejich výsledky doplňují. Podrobné vlastnosti neutrin a změny jejich druhu tvoří samostatné téma; zde se zaměříme na zařízení a jejich signály."
+    },
+    {
+      "heading": "IceCube: přístroj hluboko v antarktickém ledu",
+      "body": "**IceCube** leží u stanice Amundsen–Scott na jižním pólu. Základní pole optických senzorů je rozmístěno zhruba mezi hloubkami **1 450 a 2 450 metrů** v objemu přibližně kubického kilometru ledu. Fotografie povrchové budovy proto ukazuje jen provozní zázemí, nikoli samotný citlivý objem.\n\nNeutrino může zareagovat v ledu nebo v okolní hmotě a vytvořit elektricky nabité částice. Vzniklé elektricky nabité částice mohou vydávat **Čerenkovovo světlo**. Je to záření vznikající při průletu nabité částice průhlednou látkou rychleji, než se v ní šíří světlo — podobně jako nadzvukové letadlo vytváří rázovou vlnu ve vzduchu. Ve vodě nebo ledu se světlo šíří pomaleji než ve vakuu, takže částice může tuto místní rychlost překonat, aniž by porušila mezní rychlost světla ve vakuu."
+    },
+    {
+      "heading": "Co se dozvíme z časů jednotlivých záblesků",
+      "body": "Senzory zaznamenají množství světla i čas jeho příchodu. Z prostorového a časového vzoru se rekonstruuje událost: někdy protáhlá stopa, jindy spíše kompaktní sprška částic. Množství a rozložení světla pomáhá odhadnout energii události.\n\nObtížné je odlišit kosmická neutrina od neutrin a mionů vznikajících v zemské atmosféře. Pomáhá geometrie události, její energie, výběr počátečního bodu i směr průletu.\n\nJednotlivý senzor zachytí jen světelný signál. Teprve spojením údajů z mnoha senzorů — zejména časů příchodu a množství zachyceného světla — vědci rekonstruují průběh události a odhadnou, ze kterého směru neutrino přiletělo. Tento směr pak porovnávají s polohami možných zdrojů na obloze a s pozorováními dalších observatoří. Určit konkrétní zdroj však není vždy možné: záleží na přesnosti určení směru i na dalších dostupných důkazech."
+    },
+    {
+      "heading": "Super-Kamiokande: světelné stopy v japonské vodní nádrži",
+      "body": "**Super-Kamiokande** je v dole Kamioka u města Hida v Japonsku, přibližně **1 000 metrů pod povrchem**. Jeho velká nádrž obsahuje asi **50 tisíc tun vody** a na stěnách jsou světelné senzory. Skalní nadloží omezuje rušení kosmickým zářením.\n\nTaké zde se zaznamenává Čerenkovovo světlo druhotných nabitých částic. Pozorují se mimo jiné neutrina ze Slunce, zemské atmosféry a urychlovačových svazků. Měření atmosférických neutrin sehrála zásadní roli při průkazu jejich oscilací, tedy změn mezi neutrinovými druhy. Zařízení může zachytit i neutrinový záblesk blízkého výbuchu supernovy."
+    },
+    {
+      "heading": "Které otázky o vesmíru tyto observatoře řeší",
+      "body": "Vysokoenergetická neutrina z kosmu pomáhají hledat místa, kde se urychlují částice na mimořádné energie. Jejich směr nemění magnetická pole tak jako u elektricky nabitých částic. Proto lze neutrinové události porovnávat s pozorováním světla a dalšími posly.\n\nNeutrina ze supernov zase nesou informace o kolabujícím jádru hvězdy. Měření vlastností neutrin doplňuje kosmologické odhady jejich vlivu na vznik struktur. **IceCube ani Super-Kamiokande však přímo nemapují reliktní neutrinové pozadí z raného vesmíru**: jeho dnešní energie jsou pro tyto observatoře příliš nízké. Neutrinové měření a [mapa reliktního světla](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html) jsou odlišné druhy pozorování."
+    },
+    {
+      "heading": "Související články z Kosmonovinek",
+      "body": "- [Tajemství neutrin z černých děr: Jaké prvky galaxie urychlují?](https://kosmonovinky.cz/clanky/tajemstvi-neutrin-z-cernych-der-jake-prvky-galaxie-urychluji-2610186711.html)\n- [Neutrina a Einstein: Experiment DUNE hledá trhliny v principu ekvivalence](https://kosmonovinky.cz/clanky/neutrina-a-einstein-experiment-dune-hleda-trhliny-v-principu-ekvivalence-2610220451.html)\n\nPrvní článek navazuje na astrofyzikální zdroje. Druhý představuje jiný přístup: neutrinový experiment DUNE se svazkem z urychlovače. Není součástí IceCube ani Super-Kamiokande."
+    },
+    {
+      "heading": "Zdroje a další čtení",
+      "body": "- [IceCube: detektor, hloubka senzorů a rekonstrukce událostí](https://icecube.wisc.edu/science/icecube/)\n- [IceCube: přehled výzkumu astrofyzikálních neutrin a jejich vlastností](https://icecube.wisc.edu/science/research/)\n- [Super-Kamiokande: umístění, vodní nádrž a cíle experimentu](https://www-sk.icrr.u-tokyo.ac.jp/en/sk/about/outline/)\n- [ICRR: neutrinová a astročásticová výzkumná zařízení](https://www-rccn.icrr.u-tokyo.ac.jp/taxo_rp/neutrino-and-astroparticle-division/)"
+    }
+  ],
+  "why_box": "Pozorování vesmíru nemusí znamenat fotografii. Neutrinová observatoř převádí vzácnou interakci částice na záblesky a z nich teprve skládá informace o zdroji. Každý krok má své měřitelné možnosti i omezení.",
+  "related_explainery": [
+    "proc-pozorujeme-vesmir-ze-zeme-i-z-kosmu",
+    "co-zatim-gravitacni-vlny-odhalily",
+    "co-je-neutronova-hvezda",
+    "co-je-standardni-model-casticove-fyziky",
+    "jak-experimenty-hledaji-castice-temne-hmoty"
+  ]
+},
+{
+  "id": "exp-064",
+  "title": "Jak experimenty hledají částice temné hmoty?",
+  "theme": "vesmirne-teleskopy",
+  "description": "LZ a XENONnT čekají na vzácné interakce v kapalném xenonu. Kde pracují, jak vznikají dva světelné signály a co znamená nenalezený signál?",
+  "published": "2026-10-27",
+  "updated": "2026-10-27",
+  "perex": "Gravitační účinky temné hmoty zkoumáme na galaxiích i v kosmologických mapách. Podzemní experimenty se ptají na něco jiného: může některá její částice přímo předat energii látce v detektoru? LZ a XENONnT kvůli tomu provozují mimořádně čisté a citlivé xenonové aparatury.",
+  "sections": [
+    {
+      "heading": "Dvě podzemní laboratoře, společný cíl",
+      "body": "**LUX-ZEPLIN, zkráceně LZ**, pracuje v Sanford Underground Research Facility v Jižní Dakotě v USA, přibližně **1,5 kilometru pod zemí**. **XENONnT** je v laboratoři Gran Sasso v Itálii, chráněné horninou pohoří nad podzemními sály. Nejde o dva názvy stejného experimentu.\n\nOba využívají velké množství kapalného xenonu a očekávají případné vzácné předání energie. Jedním z hledaných kandidátů jsou **WIMPy**, hypotetické hmotné částice s velmi slabým působením na běžnou látku. Není však předem jisté, že právě ony tvoří [temnou hmotu](https://kosmonovinky.cz/kosmopedie/co-je-temna-hmota.html)."
+    },
+    {
+      "heading": "Co by se v xenonu mohlo odehrát",
+      "body": "Pokud by hledaná částice zareagovala s xenonovým jádrem, mohla by je uvést do pohybu a předat mu malé množství energie. Vznikne světelný záblesk a uvolní se také elektrony. Vědci však ve skutečnosti nejdříve zaznamenají tyto signály, nikoli jmenovku původní částice.\n\nPodobné události mohou vytvářet i známé zdroje záření. Proto experiment musí předem vědět, jak reaguje na různé typy interakcí, jaká má pozadí a ve které části dat je dostatečně citlivý. K tomu slouží kalibrační měření a simulace."
+    },
+    {
+      "heading": "Proč má jeden zásah dva signály",
+      "body": "V dvoufázové komoře je kapalný xenon a nad ním plynný xenon. První krátký světelný záblesk vzniká přímo při interakci. Elektrické pole mezitím vede uvolněné elektrony vzhůru. Po vytažení do plynu vytvoří druhý světelný signál.\n\nZ časového odstupu lze určit hloubku události; rozložení světla mezi senzory pomáhá určit její polohu v dalších dvou směrech. Poměr signálů a další vlastnosti umožňují statisticky rozlišovat různé druhy interakcí. Následující schéma znázorňuje princip, **ne skutečně naměřený signál temné hmoty**.",
+      "image_id": "schema-temna-hmota-dual-signal"
+    },
+    {
+      "heading": "Proč nestačí schovat přístroj pod zem",
+      "body": "Hornina potlačuje velkou část kosmického záření, ale neodstraní přirozenou radioaktivitu materiálů ani všechny pronikající částice. Detektory proto používají další stínění, velmi čisté materiály, čištění xenonu a pomocné systémy označující rušivé události.\n\nZvlášť užitečná je přesná poloha zásahu: část událostí poblíž stěn lze vyřadit a sledovat lépe odstíněný vnitřní objem. Neutrina mohou sama vyvolávat vzácné interakce a s rostoucí citlivostí se stávají skutečným fyzikálním pozadím. Nejde o technickou poruchu, kterou jednoduše vypneme."
+    },
+    {
+      "heading": "Je nenalezený signál neúspěch?",
+      "body": "Pokud by částice s určitou hmotností a pravděpodobností interakce měly v detektoru vytvořit rozpoznatelný signál, ale měření jej neukáže, lze takovou možnost s určitou statistickou jistotou vyloučit. **Částice s jinými vlastnostmi však mohou zůstat nezachycené — například proto, že předávají příliš málo energie nebo reagují s látkou ještě vzácněji.** Nenalezený signál proto omezuje některé kandidáty na temnou hmotu, nikoli její existenci jako celek.\n\nTaké zajímavá jednotlivá událost ještě není potvrzeným objevem. Například LZ v září 2026 popsal neobvyklou událost ve zvláštní analýze vysokoenergetických zpětných rázů; spolupráce uvádí globální statistickou významnost 2,6 sigma. To nestačí k potvrzení temné hmoty a vyžaduje další data i prověrky pozadí. Podrobnosti konkrétní analýzy nelze automaticky vztáhnout na všechny výsledky LZ."
+    },
+    {
+      "heading": "Proč neexistuje jediný univerzální lovec temné hmoty",
+      "body": "Jiná hmotnost nebo jiný způsob interakce může vyžadovat odlišný přístroj. Například **ADMX** na Washingtonské univerzitě v Seattlu používá laditelnou mikrovlnnou dutinu v silném magnetickém poli. Hledá možnou přeměnu hypotetických axionů na elektromagnetický signál, nikoli stejný typ jaderného zpětného rázu jako xenonové komory.\n\nPřímé detektory, [gravitační mapování Euclidu](https://kosmonovinky.cz/kosmopedie/co-zkouma-kosmicky-dalekohled-euclid.html) a hledání nových částic na urychlovačích proto zkoušejí různé části problému. Přehled kandidátů nabízí [samostatné téma](https://kosmonovinky.cz/kosmopedie/z-ceho-by-mohla-byt-temna-hmota.html)."
+    },
+    {
+      "heading": "Související články z Kosmonovinek",
+      "body": "- [Záhadný signál v detektoru LUX-ZEPLIN: Stopy neobvyklé temné hmoty?](https://kosmonovinky.cz/clanky/zahadny-signal-v-detektoru-lux-zeplin-stopy-neobvykle-temne-hmoty-261012443.html)\n- [Neutrinová mlha neelastické temné hmoty: Překážka, která může zmizet](https://kosmonovinky.cz/clanky/neutrinova-mlha-neelasticke-temne-hmoty-prekazka-ktera-muze-zmizet-2610357891.html)\n\nOba texty představují konkrétní výzkumné interpretace. Zejména titulky o stopách temné hmoty je třeba číst spolu s uvedenou statistickou nejistotou a předpoklady modelu."
+    },
+    {
+      "heading": "Zdroje a další čtení",
+      "body": "- [LZ: princip xenonového detektoru a dva signály](https://lz.lbl.gov/detector/)\n- [LZ: podzemní laboratoř a ochrana před rušením](https://lz.lbl.gov/laboratory/)\n- [Curyšská univerzita, spolupráce XENON: rekonstrukce interakcí v XENONnT](https://www.physik.uzh.ch/en/groups/baudis/Research/XENON.html)\n- [LZ Collaboration: oznámení analýzy neobvyklé události, 1. září 2026](https://lz.lbl.gov/)\n- [XENON Collaboration: publikované výsledky hledání WIMPů a datové limity](https://github.com/XENONnT/wimp_data_release)\n- [University of Washington: umístění a zázemí experimentu ADMX](https://depts.washington.edu/admx/Documents/Data-Management-Plan_25jun15.pdf)\n- [Fermilab: laditelná dutina a princip axionového experimentu ADMX](https://inspirehep.net/files/0302654d7c35180aafe6afc1ccdf10f2)"
+    }
+  ],
+  "why_box": "Podzemní experimenty mohou výrazně zúžit možnosti, i když částici neobjeví. Při čtení zpráv pomáhá rozlišovat zachycenou událost, její možné vysvětlení a skutečně potvrzený objev.",
+  "related_explainery": [
+    "co-je-temna-hmota",
+    "jak-vime-ze-temna-hmota-existuje",
+    "z-ceho-by-mohla-byt-temna-hmota",
+    "co-je-lhc-a-jak-souvisi-s-kosmologii",
+    "jak-funguji-detektory-neutrin-a-co-nam-odhaluji"
+  ]
+}
 ]

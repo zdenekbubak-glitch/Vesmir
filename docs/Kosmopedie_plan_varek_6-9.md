@@ -1,6 +1,6 @@
 # Kosmopedie – plán várek 6–9
 
-Aktualizováno 26. 10. 2026. Čísla označují publikační várky, nikoli názvy rubrik na webu.
+Aktualizováno 27. 10. 2026. Čísla označují publikační várky, nikoli názvy rubrik na webu.
 
 ## 6. Jaké modely vesmíru zkoumáme
 
@@ -8,11 +8,11 @@ Dokončeno, nasazeno a autorem zkontrolováno; připomínky souhrnně zapracová
 
 ## 7. Lidé a objevy, které změnily kosmologii
 
-Připraveno k nasazení; čeká na kontrolu autora. Pět témat exp-055 až exp-059: úvodní přehled, Henrietta Leavittová, Georges Lemaître, Edwin Hubble a Vera Rubinová. Zahrnout spolupracovníky, návaznosti, co se skutečně měřilo a co později obstálo či vyžadovalo opravu. Nový okruh na webu: Lidé a objevy. Po nasazení celkem 59 témat.
+Nasazeno a autorem používáno. Pět témat exp-055 až exp-059: úvodní přehled, Henrietta Leavittová, Georges Lemaître, Edwin Hubble a Vera Rubinová. Zahrnout spolupracovníky, návaznosti, co se skutečně měřilo a co později obstálo či vyžadovalo opravu. Nový okruh na webu: Lidé a objevy. Po nasazení celkem 59 témat.
 
 ## 8. Další observatoře a experimenty
 
-Plánováno: například Planck, Euclid, DESI, detektory neutrin a experimenty hledající temnou hmotu. Kde jsou, co skutečně měří a které kosmologické otázky pomáhají řešit. Konečný počet a názvy témat dosud nestanoveny.
+Autorem zkontrolováno, schválené připomínky zapracovány; připraveno k nasazení: pět témat exp-060 až exp-064 – Planck, Euclid, DESI, neutrinové observatoře IceCube a Super-Kamiokande a hledání částic temné hmoty (LZ, XENONnT, doplňkově ADMX). Popsáno umístění, skutečně měřené signály, odvozování kosmologických výsledků a jejich omezení. Doplněny primární zdroje, existující články a související hesla. Čtyři nové obrazové zdroje; druhý obrázek u DESI a xenonové detekce. Po nasazení celkem 64 témat. Zařazeno do stávajícího okruhu Teleskopy a observatoře.
 
 ## 9. Částice jako poslové vesmíru a jejich zkoumání
 
