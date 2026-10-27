@@ -1,5 +1,20 @@
 [
   {
+    "id": "apod-2026-10-27",
+    "title": "Noční svítící oblaky nad Švédskem",
+    "caption": "Neobvyklé noční svítící oblaky, známé také jako polární mezosférická mračna, se nacházejí tak vysoko v atmosféře, že zůstávají osvětleny Sluncem zpod obzoru i dlouho po setmění na zemi. Na snímku ze začátku srpna je zachycena síť těchto modravých mraků nad zeleným polem nedaleko švédského města Linköping.",
+    "thumb": "assets/gallery/apod-2026-10-27.jpg",
+    "image": "assets/gallery/apod-2026-10-27.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
+    "published": "2026-10-27",
+    "credit": "V. Höfer, D. Večerník &amp; B. Večerníková",
+    "original_title": "Noctilucent Clouds over Sweden",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-10-27T08:24:20.320396+00:00"
+  },
+  {
     "id": "apod-2026-10-25",
     "title": "Temná hmota v simulovaném vesmíru",
     "caption": "Gravitace neviditelné temné hmoty je hlavním vysvětlením rychlé rotace galaxií, silného ohybu světla gravitačními čočkami i rozložení viditelné hmoty ve vesmíru. Tento snímek z podrobné počítačové simulace zobrazuje složitá vlákna temné hmoty (černě) rozprostřená jako pavučiny, zatímco vzácnější shluky běžné baryonové hmoty jsou znázorněny oranžově.",
