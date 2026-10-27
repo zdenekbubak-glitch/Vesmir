@@ -15,6 +15,7 @@ import argparse
 import json
 import re
 import sys
+import unicodedata
 from html.parser import HTMLParser
 from pathlib import Path
 from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url, thumbnail
@@ -87,6 +88,28 @@ WHY_CSS = '''
       .topic-next { grid-column: auto; text-align: left; }
     }
 '''
+
+
+def czech_sort_key(value):
+    """České řazení názvů nezávislé na locale operačního systému."""
+    text = unicodedata.normalize('NFC', str(value)).casefold()
+    alphabet = 'a b c č d e f g h ch i j k l m n o p q r ř s š t u v w x y z ž'.split()
+    ranks = {letter: index + 100 for index, letter in enumerate(alphabet)}
+    primary, secondary = [], []
+    i = 0
+    while i < len(text):
+        if text[i:i + 2] == 'ch':
+            primary.append(ranks['ch'])
+            secondary.append(())
+            i += 2
+            continue
+        char = text[i]
+        decomposed = unicodedata.normalize('NFD', char)
+        base = decomposed[0]
+        primary.append(ranks.get(char, ranks.get(base, ord(base) + 1000)))
+        secondary.append(tuple(ord(mark) for mark in decomposed[1:]))
+        i += 1
+    return tuple(primary), tuple(secondary), text
 
 
 def render_body(text):
@@ -209,7 +232,7 @@ def main():
     groups = {}
     for ex in explainery:
         groups.setdefault(ex.get('theme') or FALLBACK_THEME[0], []).append(ex)
-    group_order = sorted(groups, key=lambda t: THEME_LABEL.get(t, FALLBACK_THEME[1]))
+    group_order = sorted(groups, key=lambda t: czech_sort_key(THEME_LABEL.get(t, FALLBACK_THEME[1])))
     ordered = [ex for theme in group_order for ex in groups[theme]]
     neighbours = {ex['_slug']: (ordered[i-1] if i else None,
                                ordered[i+1] if i+1 < len(ordered) else None)
