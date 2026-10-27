@@ -11,15 +11,15 @@ image: auto
 
 Při výběru novinek pro tento web mě většinou nejdříve zaujme titulek. Vědci přišli s novým pohledem na vznik temné hmoty nebo na raný vesmír, zúžili okruh možných vysvětlení tajemných červených teček z počátku vesmíru nebo přišli na nový způsob, jak hledat temnou hmotu. Takové zprávy si chci přečíst. Kdo by nebyl zvědavý?
 
-Při podrobnějším čtení zprávy následující pod titulkem si člověk uvědomí, že slovo „objev“ může pokaždé znamenat něco jiného. Autoři mohli něco skutečně naměřit. Mohli také odvodit nový vztah, zpřesnit výpočet nebo ukázat, co by se dělo za určitých podmínek. I když vše, co jsem zmínil může být důležité, máme vždy jitotu, že žádný z objevů nám nikdy nedá úplnou a konečnou odpověď na otázku, jak vesmír funguje.
+Při podrobnějším čtení zprávy následující pod titulkem si člověk uvědomí, že slovo „objev“ může pokaždé znamenat něco jiného. Autoři mohli něco skutečně naměřit. Mohli také odvodit nový vztah, zpřesnit výpočet nebo ukázat, co by se dělo za určitých podmínek. I když vše, co jsem zmínil, může být důležité, máme vždy jistotu, že žádný z objevů nám nikdy nedá úplnou a konečnou odpověď na otázku, jak vesmír funguje.
 
-V minulém komentáři jsem psal o tom, jak mě fascinuje propojení matematiky s vesmírem. Tentokrát bych se chtěl věnovat momentu, kdy se výsledek výzkumu promění ve zprávu pro nás ostatní. Právě při pohledu na zveřejněné výsledky z vnějšku se může snadno ztratit rozdíl mezi tím, co už je dobře podloženo pozorováním a měřením, a tím, co se zatím jeví jako slibná možnost. A na to bychom si měli jako zprostředkovatelé informací dávat na našem webu pozor.
+V minulém komentáři jsem psal o tom, jak mě fascinuje propojení matematiky s vesmírem. Tentokrát bych se chtěl věnovat momentu, kdy se výsledek výzkumu promění ve zprávu pro nás ostatní. Právě při pohledu na zveřejněné výsledky zvenčí se může snadno ztratit rozdíl mezi tím, co už je dobře podloženo pozorováním a měřením, a tím, co se zatím jeví jako slibná možnost. A na to bychom si měli jako zprostředkovatelé informací dávat na našem webu pozor.
 
 ## Výpočet, simulace a pozorování
 
-Když fyzik namodeluje nový výsledek, může tím ukázat souvislost, kterou dosud nikdo neobjevil. Toto je skutečný pokrok. Otázkou ovšem zůstává, nakolik předpoklady modelu odpovídají realitě.
+Když fyzik pomocí výpočtu odhalí dosud neznámou souvislost, může tím významně posunout poznání. Otázkou ovšem zůstává, nakolik předpoklady použitého modelu odpovídají realitě.
 
-Podobně je to s jakoukoliv počítačovou simulací. Počítač nám umožní sledovat děje, které nemůžeme jednoduše pozorovat. Výsledek ale závisí na fyzikálním popisu, počátečních podmínkách i zvolených zjednodušeních. Přesvědčivá animace vzniku galaxie sama o sobě neznamená, že galaxie ve vesmíru vznikala přesně takto. Potřebujeme porovnání s pozorováním a kontrolu, zda výsledek neníovlivněn nějakou početní chybou nebo zvoleným zjednodušením.
+Podobně je to s jakoukoliv počítačovou simulací. Počítač nám umožní sledovat děje, které nemůžeme jednoduše pozorovat. Výsledek ale závisí na fyzikálním popisu, počátečních podmínkách i zvolených zjednodušeních. Přesvědčivá animace vzniku galaxie sama o sobě neznamená, že galaxie ve vesmíru vznikala přesně takto. Potřebujeme porovnání s pozorováním a kontrolu, zda výsledek není ovlivněn nějakou početní chybou nebo zvoleným zjednodušením.
 
 Ani měření se neobejde bez dalšího výkladu. Přístroj zaznamená signál a vědci musí rozlišit, co pochází ze zkoumaného jevu, co z okolního prostředí a co ze samotného zařízení. Zvažují nejistoty i jiná možná vysvětlení.
 
@@ -29,7 +29,7 @@ Ani měření se neobejde bez dalšího výkladu. Přístroj zaznamená signál 
 
 Zaujal mě článek [Otisk tajemné singularity uvnitř černé díry v holografii](https://kosmonovinky.cz/clanky/otisk-tajemne-singularity-uvnitr-cerne-diry-v-holografii-2610301341.html). Už samotná představa, že bychom mohli získat informace o nitru černé díry, je fascinující.
 
-Původní studie ale nepředstavuje pozorování signálu z nitra skutečné astronomické černé díry. Jde o teoretický výpočet v rámci holografické duality AdS/CFT. Autoři zkoumají idealizovaný nabitý objekt zvaný černá membrána a nacházejí matematickou souvislost mezi určitými veličinami kvantové teorie a popisem jeho singularity. To je zajímavé samo o sobě. Když si však pod takovou zprávou představím teleskop, který právě nahlédl za horizont událostí, dostal jsem se už mimo realitu, tj. tam, kam nás daná práce nedovedla.
+Původní studie ale nepředstavuje pozorování signálu z nitra skutečné astronomické černé díry. Jde o teoretický výpočet v rámci holografické duality AdS/CFT. Autoři zkoumají idealizovaný nabitý objekt zvaný černá membrána a nacházejí matematickou souvislost mezi určitými veličinami kvantové teorie a popisem jeho singularity. To je zajímavé samo o sobě. KKdyž si však pod takovou zprávou představím teleskop, který právě nahlédl za horizont událostí, přisuzuji studii něco, co neukázala.
 
 Jiný charakter má novinka [Jak zrychlit simulace gravitačních vln bez ztráty přesnosti](https://kosmonovinky.cz/clanky/jak-zrychlit-simulace-gravitacnich-vln-bez-ztraty-presnosti-2610300641.html). Tady přínos spočívá v rychlejším počítání modelových průběhů signálů při zachování velmi dobré shody s referenčním výpočtem. Taková shoda ovšem sama o sobě neznamená, že model úplně vystihuje realitu.
 
@@ -37,9 +37,9 @@ Nejde o novou detekci gravitačních vln. Přesto může být takový pokrok vel
 
 ## Jak bych chtěl o vědě psát
 
-Nechtěl bych, aby opatrnější vyjadřování ubralo zprávám o vesmíru na jejich přitažlivosti. Pro mě je zajímavé i to, že někdo našel úplně novou možnost jak ověřit již jednou objevené souvislosti. Nebo že se podařilo vyloučit představu, která dosud vypadala nadějně.
+Nechtěl bych, aby opatrnější vyjadřování ubralo zprávám o vesmíru na jejich přitažlivosti. Pro mě je zajímavé i to, že někdo našel úplně novou možnost, jak ověřit již jednou objevené souvislosti. Nebo že se podařilo vyloučit představu, která dosud vypadala nadějně.
 
-Při čtení si proto chci víc všímat několika věcí: co autoři opravdu udělali, na jakých předpokladech výsledek stojí, s čím jej porovnávali a co by mohlo jejich závěr změnit. Důležité je také rozlišit zveřejněný preprint, tedy veřejně dostupný rukopis, od práce, která prošla odborným recenzním řízením. Ani recenze nezaručuje neochvějnou pravdu; poskytuje však další příležitost výsledek kriticky prověřit.
+Při čtení si proto chci víc všímat několika věcí: co autoři opravdu udělali, na jakých předpokladech výsledek stojí, s čím jej porovnávali a co by mohlo jejich závěr změnit. Důležité je také zjistit, zda už práce prošla odborným recenzním řízením, nebo je zatím dostupná pouze jako preprint — veřejně zveřejněný rukopis. Ale ani recenze nezaručuje neochvějnou pravdu; poskytuje však další příležitost výsledek kriticky prověřit.
 
 Stejné otázky bych chtěl promítat i do našeho webu. Když půjde o teoretický návrh, měli bychom to říct. Když jde o simulaci, neměl by ze souhrnu čtenář nabýt dojmu, že jde o přímé pozorování. A když měření přinese pouze náznak, neměli bychom z něj udělat jistotu.
 
