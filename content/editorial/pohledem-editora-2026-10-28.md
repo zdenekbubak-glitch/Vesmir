@@ -11,7 +11,7 @@ image: auto
 
 Při výběru novinek pro tento web mě většinou nejdříve zaujme titulek. Vědci přišli s novým pohledem na vznik temné hmoty nebo na raný vesmír, zúžili okruh možných vysvětlení tajemných červených teček z počátku vesmíru nebo přišli na nový způsob, jak hledat temnou hmotu. Takové zprávy si chci přečíst. Kdo by nebyl zvědavý?
 
-Při podrobnějším čtení zprávy následující pod titulkem si člověk uvědomí, že slovo „objev“ může pokaždé znamenat něco jiného. Autoři mohli něco skutečně naměřit. Mohli také odvodit nový vztah, zpřesnit výpočet nebo ukázat, co by se dělo za určitých podmínek. I když vše, co jsem zmínil, může být důležité, máme vždy jistotu, že žádný z objevů nám nikdy nedá úplnou a konečnou odpověď na otázku, jak vesmír funguje.
+Při podrobnějším čtení zprávy následující pod titulkem si člověk uvědomí, že slovo „objev“ může pokaždé znamenat něco jiného. Autoři mohli něco skutečně naměřit. Mohli také odvodit nový vztah, zpřesnit výpočet nebo ukázat, co by se dělo za určitých podmínek. Všechny tyto výsledky mohou být důležité. Pro pochopení zprávy ale záleží na tom, který z těchto kroků se skutečně podařil.
 
 V minulém komentáři jsem psal o tom, jak mě fascinuje propojení matematiky s vesmírem. Tentokrát bych se chtěl věnovat momentu, kdy se výsledek výzkumu promění ve zprávu pro nás ostatní. Právě při pohledu na zveřejněné výsledky zvenčí se může snadno ztratit rozdíl mezi tím, co už je dobře podloženo pozorováním a měřením, a tím, co se zatím jeví jako slibná možnost. A na to bychom si měli jako zprostředkovatelé informací dávat na našem webu pozor.
 
