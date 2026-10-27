@@ -29,7 +29,7 @@ Ani měření se neobejde bez dalšího výkladu. Přístroj zaznamená signál 
 
 Zaujal mě článek [Otisk tajemné singularity uvnitř černé díry v holografii](https://kosmonovinky.cz/clanky/otisk-tajemne-singularity-uvnitr-cerne-diry-v-holografii-2610301341.html). Už samotná představa, že bychom mohli získat informace o nitru černé díry, je fascinující.
 
-Původní studie ale nepředstavuje pozorování signálu z nitra skutečné astronomické černé díry. Jde o teoretický výpočet v rámci holografické duality AdS/CFT. Autoři zkoumají idealizovaný nabitý objekt zvaný černá membrána a nacházejí matematickou souvislost mezi určitými veličinami kvantové teorie a popisem jeho singularity. To je zajímavé samo o sobě. KKdyž si však pod takovou zprávou představím teleskop, který právě nahlédl za horizont událostí, přisuzuji studii něco, co neukázala.
+Původní studie ale nepředstavuje pozorování signálu z nitra skutečné astronomické černé díry. Jde o teoretický výpočet v rámci holografické duality AdS/CFT. Autoři zkoumají idealizovaný nabitý objekt zvaný černá membrána a nacházejí matematickou souvislost mezi určitými veličinami kvantové teorie a popisem jeho singularity. To je zajímavé samo o sobě. Když si však pod takovou zprávou představím teleskop, který právě nahlédl za horizont událostí, přisuzuji studii něco, co neukázala.
 
 Jiný charakter má novinka [Jak zrychlit simulace gravitačních vln bez ztráty přesnosti](https://kosmonovinky.cz/clanky/jak-zrychlit-simulace-gravitacnich-vln-bez-ztraty-presnosti-2610300641.html). Tady přínos spočívá v rychlejším počítání modelových průběhů signálů při zachování velmi dobré shody s referenčním výpočtem. Taková shoda ovšem sama o sobě neznamená, že model úplně vystihuje realitu.
 
