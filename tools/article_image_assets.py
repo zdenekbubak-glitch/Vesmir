@@ -15,6 +15,9 @@ def font(size):
 
 def diagram(entry):
     """Different physical concepts, not random seeds/crops of one illustration."""
+    if str(entry.get('diagram', '')).startswith('particle-'):
+        from particle_diagrams import diagram as particle_diagram
+        return particle_diagram(entry)
     if str(entry.get('diagram', '')).startswith('edu-'):
         from kosmopedie_diagrams import diagram as teaching_diagram
         return teaching_diagram(entry)

@@ -380,6 +380,11 @@ EXPLAINER_PATTERNS = {
     'exp-057': r'lemaitre\w*|prvotni atom|primeval atom',
     'exp-058': r'edwin hubble|hubble.{0,12}1929|slipher\w*|humason\w*',
     'exp-059': r'vera rubin\w*|rubinov\w*|kent ford',
+    'exp-065': r'superkekb|belle\s*ii|j[ -]?parc|(?:leptonov\w*|mionov\w*|casticov\w*) urychlovac\w*|urychlovac\w* castic\w*|collider\w*|fixed[ -]target',
+    'exp-066': r'identifikac\w* castic\w*|particle identification|statistick\w* vyznam\w*|\bsigma\b|nov\w* castic\w*|new particle',
+    'exp-067': r'antihmot\w*|antimatter|antiatom\w*|antivodik\w*|antihydrogen|leptogenez\w*|leptogenesis',
+    'exp-068': r'neutrin\w* oscil\w*|neutrino oscillation\w*|oscil\w* neutrin\w*|hmotnost\w* neutrin\w*|neutrino mass\w*|\bmsw\b',
+    'exp-069': r'kosmick\w* zaren\w*|cosmic rays?|casticov\w* sprsk\w*|air showers?|pierre auger',
 }
 
 

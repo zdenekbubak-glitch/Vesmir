@@ -12,11 +12,11 @@ Nasazeno a autorem používáno. Pět témat exp-055 až exp-059: úvodní přeh
 
 ## 8. Další observatoře a experimenty
 
-Autorem zkontrolováno, schválené připomínky zapracovány; připraveno k nasazení: pět témat exp-060 až exp-064 – Planck, Euclid, DESI, neutrinové observatoře IceCube a Super-Kamiokande a hledání částic temné hmoty (LZ, XENONnT, doplňkově ADMX). Popsáno umístění, skutečně měřené signály, odvozování kosmologických výsledků a jejich omezení. Doplněny primární zdroje, existující články a související hesla. Čtyři nové obrazové zdroje; druhý obrázek u DESI a xenonové detekce. Po nasazení celkem 64 témat. Zařazeno do stávajícího okruhu Teleskopy a observatoře.
+Nasazeno a autorem potvrzeno: pět témat exp-060 až exp-064 – Planck, Euclid, DESI, neutrinové observatoře IceCube a Super-Kamiokande a hledání částic temné hmoty (LZ, XENONnT, doplňkově ADMX). Popsáno umístění, skutečně měřené signály, odvozování kosmologických výsledků a jejich omezení. Doplněny primární zdroje, existující články a související témata. Čtyři nové obrazové zdroje; druhý obrázek u DESI a xenonové detekce. Po nasazení celkem 64 témat. Zařazeno do stávajícího okruhu Teleskopy a observatoře.
 
 ## 9. Částice jako poslové vesmíru a jejich zkoumání
 
-Schválený doplněk plánu. Zaměření: jiné urychlovače a odlišné úkoly než u již popsaného LHC; jak ze signálů detektoru poznáme částici a objev; antihmota a antiatomy, převaha hmoty; neutrina a oscilace; kosmické záření a spršky. Neopakovat již vysvětlené částicové základy a anihilaci. V osmé várce konkrétní zařízení, v deváté obecné částicové principy a jejich význam; propojit odkazy.
+Autorem zkontrolováno, schválené připomínky zapracovány; připraveno k nasazení: pět nových témat exp-065 až exp-069 ve stávajícím okruhu Částice a základní síly. Celkem po nasazení 69 témat. Zaměření: jiné urychlovače a odlišné úkoly než u již popsaného LHC; jak ze signálů detektoru poznáme částici a objev; antihmota a antiatomy, převaha hmoty; neutrina a oscilace; kosmické záření a spršky. Neopakovat již vysvětlené částicové základy a anihilaci. V osmé várce konkrétní zařízení, v deváté obecné částicové principy a jejich význam; propojit odkazy.
 
 ## Pravidla pokračování
 
