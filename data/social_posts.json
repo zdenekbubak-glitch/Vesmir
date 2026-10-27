@@ -88,5 +88,35 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-10-26T09:15:57.998385+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_7491dd33aafb5e7c3e75",
+    "title": "Termodynamika černých děr padla: Matematikové vyvrátili třetí zákon",
+    "platform_id": "6ae05fd36996ea86c4ebf0a7",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-27T08:24:54.128245+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_7491dd33aafb5e7c3e75",
+    "title": "Termodynamika černých děr padla: Matematikové vyvrátili třetí zákon",
+    "platform_id": "6ae05fe3a03b8a09edbe66bd",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-27T08:25:10.219920+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_7491dd33aafb5e7c3e75",
+    "title": "Termodynamika černých děr padla: Matematikové vyvrátili třetí zákon",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3myswkeus22ep",
+    "status": "published",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-27T08:25:12.297300+00:00"
   }
 ]
