@@ -2,7 +2,8 @@
 """Daily Bluesky post, using the existing local card. No Buffer or extra state commit.
 
 One deterministic AT Protocol TID per UTC day prevents duplicates on reruns,
-including concurrent runs or a lost createRecord response. --dry-run uses no API.
+including concurrent runs or a lost createRecord response. Publication is confirmed
+only after a public AppView read. --dry-run uses no API.
 """
 import argparse
 from datetime import datetime, timezone
@@ -10,6 +11,7 @@ from io import BytesIO
 import json
 import os
 from pathlib import Path
+import time
 import re
 import unicodedata
 from urllib.error import HTTPError, URLError
@@ -20,6 +22,9 @@ from social_tracking import post_key, tracked_url, receipt
 
 SITE_URL = 'https://kosmonovinky.cz'
 COLLECTION = 'app.bsky.feed.post'
+PUBLIC_APPVIEW = 'https://public.api.bsky.app'
+VISIBILITY_ATTEMPTS = 3
+VISIBILITY_RETRY_SECONDS = 15
 MAX_IMAGE_BYTES = 1_000_000  # Conservative limit, also accepted by older PDS versions.
 
 
@@ -94,7 +99,7 @@ class ApiError(RuntimeError):
         super().__init__(f'Bluesky {method}: HTTP {status}, {code}')
 
 
-def api(base, method, *, token=None, payload=None, data=None, params=None):
+def api(base, method, *, token=None, payload=None, data=None, params=None, timeout=45):
     url = base.rstrip('/') + '/xrpc/' + method
     if params:
         url += '?' + urlencode(params)
@@ -108,7 +113,7 @@ def api(base, method, *, token=None, payload=None, data=None, params=None):
         headers['Content-Type'] = 'image/jpeg'
     request = Request(url, data=data, headers=headers)
     try:
-        with urlopen(request, timeout=45) as response:
+        with urlopen(request, timeout=timeout) as response:
             return json.loads(response.read())
     except HTTPError as exc:
         # Never print raw responses, tokens, authentication payloads or headers.
@@ -132,6 +137,50 @@ def get_existing(pds, token, did, key):
         raise
 
 
+def public_visibility(uri):
+    """Read only: distinguish an absent post from an unavailable public API."""
+    absent = False
+    for attempt in range(VISIBILITY_ATTEMPTS):
+        try:
+            response = api(PUBLIC_APPVIEW, 'app.bsky.feed.getPosts',
+                           params={'uris': uri}, timeout=15)
+            posts = response.get('posts') if isinstance(response, dict) else None
+            if isinstance(posts, list):
+                if any(isinstance(post, dict) and post.get('uri') == uri for post in posts):
+                    return 'visible'
+                absent = True
+        except RuntimeError:
+            # api() sanitizes errors; never log headers, tokens or raw responses.
+            pass
+        if attempt + 1 < VISIBILITY_ATTEMPTS:
+            time.sleep(VISIBILITY_RETRY_SECONDS)
+    return 'not_visible' if absent else 'unverified'
+
+
+def confirm_publication(item, day, did, key):
+    """Call only after the record has been confirmed on the account's PDS."""
+    uri = f'at://{did}/{COLLECTION}/{key}'
+    link = f'https://bsky.app/profile/{did}/post/{key}'
+    print(f'Bluesky: příspěvek je uložen na serveru účtu: {link}')
+    visibility = public_visibility(uri)
+    status = {'visible': 'published', 'not_visible': 'stored_pending_visibility',
+              'unverified': 'stored_visibility_unverified'}[visibility]
+    receipt('bluesky', 'daily', post_key('bluesky', 'daily', day),
+            item.get('title', ''), uri, status)
+    if visibility == 'visible':
+        print('Bluesky: příspěvek je uložen a jeho veřejná dostupnost je ověřena.')
+        return
+    if visibility == 'not_visible':
+        message = ('Bluesky: příspěvek je uložen, ale veřejné rozhraní jej zatím '
+                   'nevrací ani po opakované kontrole. Nevytvářím duplicitu.')
+    else:
+        message = ('Bluesky: příspěvek je uložen, ale dostupnost ve veřejném '
+                   'rozhraní se nepodařilo ověřit. Nevytvářím duplicitu.')
+    if os.environ.get('GITHUB_ACTIONS') == 'true':
+        print('::warning::' + message)
+    raise RuntimeError(message)
+
+
 def publish(item, card, day, handle, password):
     session = api('https://bsky.social', 'com.atproto.server.createSession',
                   payload={'identifier': handle, 'password': password})
@@ -152,7 +201,7 @@ def publish(item, card, day, handle, password):
     key = daily_key(day)
     if get_existing(pds, token, did, key):
         print(f'Bluesky: denní příspěvek {day} už existuje, znovu jej neposílám.')
-        receipt('bluesky', 'daily', post_key('bluesky','daily',day), item.get('title',''), f'at://{did}/{COLLECTION}/{key}', 'published')
+        confirm_publication(item, day, did, key)
         return
     data, width, height = prepare_image(card)
     uploaded = api(pds, 'com.atproto.repo.uploadBlob', token=token, data=data)
@@ -180,8 +229,7 @@ def publish(item, card, day, handle, password):
         if not get_existing(pds, token, did, key):
             raise
         print('Bluesky: příspěvek byl ověřen na serveru po nejednoznačné odpovědi.')
-    receipt('bluesky', 'daily', post_key('bluesky','daily',day), item.get('title',''), f'at://{did}/{COLLECTION}/{key}', 'published')
-    print(f'Bluesky: https://bsky.app/profile/{did}/post/{key}')
+    confirm_publication(item, day, did, key)
 
 
 def main():

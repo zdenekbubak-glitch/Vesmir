@@ -8,6 +8,16 @@ from social_tracking import SPOOL
 def git(*args, cwd=None):
     return subprocess.run(['git', *args], cwd=cwd, check=True, capture_output=True, text=True).stdout.strip()
 
+def should_replace_receipt(old, row):
+    if not old:
+        return True
+    # A PDS write used to be marked published even without an AppView check.
+    # For Bluesky daily posts keep the latest visibility result, including pending.
+    if row.get('source') == 'bluesky' and row.get('kind') == 'daily':
+        return row.get('recorded_at', '') >= old.get('recorded_at', '')
+    return old['status'] not in ('published', 'sent', 'posted')
+
+
 def main():
     if not SPOOL.exists():
         print('Žádná nová potvrzení ze sítí.'); return
@@ -26,7 +36,7 @@ def main():
                 merged = {r['key']: r for r in previous}
                 for row in incoming:
                     old = merged.get(row['key'])
-                    if not old or old['status'] not in ('published', 'sent', 'posted'):
+                    if should_replace_receipt(old, row):
                         merged[row['key']] = row
                 path.parent.mkdir(exist_ok=True)
                 path.write_text(json.dumps(sorted(merged.values(), key=lambda r:r['recorded_at']), ensure_ascii=False, indent=2)+'\n')
