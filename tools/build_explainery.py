@@ -42,7 +42,7 @@ THEME_LABEL = {**THEME_LABEL, **KOSMOPEDIE_THEMES}
 
 GROUP_DESCRIPTIONS = {
     'lide-a-objevy': 'Lidé, měření a myšlenky, které proměnily kosmologii.',
-    'cerne-diry': 'Vznik černých děr, horizont událostí a jejich neobvyklé vlastnosti.',
+    'cerne-diry': 'Hvězdné i supermasivní černé díry, horizont událostí a jejich vlastnosti.',
     'temna-dira-v-centru': 'Obří černé díry v srdcích galaxií a jejich okolí.',
     'temna-hmota': 'Důkazy neviditelné hmoty a hledání jejího složení.',
     'temna-energie': 'Co stojí za zrychleným rozpínáním vesmíru?',
@@ -213,6 +213,32 @@ def section_image_figure(entry):
                   lambda m: m.group(1) + f'<a {attrs}>Zvětšit obrázek</a><br>', figure, count=1)
 
 
+# Approximate historical sequence of the contributions covered by each profile.
+# The overview introduces the group. Equal-year profiles keep their editorial order;
+# this is a reading sequence, not a claim of priority between discovery teams.
+PEOPLE_HISTORY = {
+    'exp-055': 0,     # introductory overview
+    'exp-056': 1908,  # Leavitt: 1908/1912 period-luminosity work
+    'exp-070': 1915,  # Einstein: general relativity, cosmology in 1917
+    'exp-071': 1922,  # Friedmann: evolving models, 1922/1924
+    'exp-058': 1924,  # Hubble: other galaxies; expansion relation in 1929
+    'exp-057': 1927,  # Lemaitre: expansion; primordial-atom proposal in 1931
+    'exp-077': 1933,  # Zwicky: Coma missing mass
+    'exp-075': 1965,  # Penzias and Wilson: microwave background
+    'exp-076': 1965,  # Peebles: interpretation and subsequent physical cosmology
+    'exp-059': 1970,  # Rubin and collaborators: rotation studies, 1970s
+    'exp-072': 1998,  # Perlmutter: late-1990s acceleration discovery
+    'exp-073': 1998,  # Schmidt: same discovery epoch
+    'exp-074': 1998,  # Riess: same discovery epoch
+}
+
+
+def order_group(theme, entries):
+    if theme == 'lide-a-objevy':
+        return sorted(entries, key=lambda ex: PEOPLE_HISTORY.get(ex.get('id'), 9999))
+    return entries
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--site-dir', default='.')
@@ -232,6 +258,7 @@ def main():
     groups = {}
     for ex in explainery:
         groups.setdefault(ex.get('theme') or FALLBACK_THEME[0], []).append(ex)
+    groups = {theme: order_group(theme, entries) for theme, entries in groups.items()}
     group_order = sorted(groups, key=lambda t: czech_sort_key(THEME_LABEL.get(t, FALLBACK_THEME[1])))
     ordered = [ex for theme in group_order for ex in groups[theme]]
     neighbours = {ex['_slug']: (ordered[i-1] if i else None,
@@ -362,7 +389,7 @@ def main():
                  paging(*neighbours[ex['_slug']]) +
                  '    </article>\n'
                  '    <p class=\"back\"><a data-search-back href=\"/kosmopedie/\">← Celá Kosmopedie</a> · <a href=\"/temata/\">Rubriky</a></p>\n'
-                 '    <script defer src="/assets/kosmopedie-search.js?v=2"></script>\n')
+                 '    <script defer src="/assets/kosmopedie-search.js?v=3"></script>\n')
         page += FOOT
         (out / 'kosmopedie' / f"{ex['_slug']}.html").write_text(page, encoding='utf-8')
         urls.append((url, fmt_iso_date(ex.get('updated') or ex.get('published'))))
@@ -378,6 +405,8 @@ def main():
                         f'<h3>{esc(label)}</h3><p class="summary">{esc(description)}</p>'
                         f'<p class="count">{topic_count(len(groups[theme]))}</p></a>\n')
         list_html += f'    <section class="explainer-group" data-topic-group-section="{esc(theme)}" aria-labelledby="{esc(theme)}">\n'
+        if theme == 'cerne-diry':
+            list_html += '    <span id="temna-dira-v-centru" aria-hidden="true"></span>\n'
         list_html += f'    <h2 class=\"section-title\" id=\"{esc(theme)}\">{esc(label)}</h2>\n'
         for ex in groups[theme]:
             list_html += (f"    <article class=\"item\"><h2><a href=\"/kosmopedie/{ex['_slug']}.html\">{esc(ex['title'])}</a></h2>"
@@ -400,7 +429,7 @@ def main():
             '<section id="kosmopedie-groups" aria-labelledby="kosmopedie-groups-heading"><h2 class="collection-heading" id="kosmopedie-groups-heading">Okruhy Kosmopedie</h2><div class="theme-grid">' + group_cards + '</div></section>\n'
             '<p id="kosmopedie-group-back" hidden><a href="/kosmopedie/" data-show-groups>← Všechny okruhy Kosmopedie</a></p>\n'
             '    <div id="kosmopedie-topics">\n' + list_html + '    </div>\n'
-            '    <script defer src="/assets/kosmopedie-search.js?v=2"></script>\n')
+            '    <script defer src="/assets/kosmopedie-search.js?v=3"></script>\n')
     idx += FOOT
     (out / 'kosmopedie' / 'index.html').write_text(idx, encoding='utf-8')
     latest = max(ex.get('updated') or ex.get('published') or '2026-01-01' for ex in explainery)

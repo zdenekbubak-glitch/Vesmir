@@ -107,6 +107,7 @@
   function selectedGroup() {
     let hash;
     try { hash = decodeURIComponent(location.hash.slice(1)); } catch { return ''; }
+    if (hash === 'temna-dira-v-centru') hash = 'cerne-diry';
     return sections.some(g => g.dataset.topicGroupSection === hash) ? hash : '';
   }
   function groups() {

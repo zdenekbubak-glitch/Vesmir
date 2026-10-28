@@ -7377,5 +7377,349 @@
       "manual"
     ],
     "match_keywords": []
+  },
+  {
+    "id": "schema-prostorova-krivost",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://arxiv.org/abs/1807.06209"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené výukové schéma v tools/cosmology_diagrams.py; kvalitativní znázornění.",
+    "verified_on": "2026-10-28",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "edu-b11-geometry",
+    "source_id": "own-diagram:schema-prostorova-krivost",
+    "source_family": "own-diagram:schema-prostorova-krivost",
+    "title": "Jakou geometrii může mít prostor?",
+    "alt": "Tři dvojrozměrné analogie kladné, nulové a záporné prostorové křivosti.",
+    "caption": "Dvourozměrné analogie tří geometrií. Celkové propojení prostoru popisuje topologie.",
+    "thumbnail": "assets/article-images/thumbs/schema-prostorova-krivost.webp",
+    "source_master": "assets/article-images/sources/schema-prostorova-krivost.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://arxiv.org/abs/1807.06209"
+    ]
+  },
+  {
+    "id": "schema-budoucnost-vesmiru",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://science.nasa.gov/dark-energy/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené výukové schéma v tools/cosmology_diagrams.py; kvalitativní znázornění.",
+    "verified_on": "2026-10-28",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "edu-b11-fate",
+    "source_id": "own-diagram:schema-budoucnost-vesmiru",
+    "source_family": "own-diagram:schema-budoucnost-vesmiru",
+    "title": "Možné scénáře budoucnosti vesmíru",
+    "alt": "Tři schematické průběhy prostorového měřítka pro Big Freeze, Big Crunch a Big Rip.",
+    "caption": "Podmíněné scénáře vývoje prostorového měřítka. Křivky jsou názorné, bez časové stupnice.",
+    "thumbnail": "assets/article-images/thumbs/schema-budoucnost-vesmiru.webp",
+    "source_master": "assets/article-images/sources/schema-budoucnost-vesmiru.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://science.nasa.gov/dark-energy/"
+    ]
+  },
+  {
+    "id": "schema-jak-merime-zrychlovani",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://arxiv.org/abs/astro-ph/9805201"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené výukové schéma v tools/cosmology_diagrams.py; kvalitativní znázornění.",
+    "verified_on": "2026-10-28",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "edu-b11-acceleration",
+    "source_id": "own-diagram:schema-jak-merime-zrychlovani",
+    "source_family": "own-diagram:schema-jak-merime-zrychlovani",
+    "title": "Co znamená zrychlování rozpínání?",
+    "alt": "Vzdálenost dvou bodů ve stejných časových odstupech při stálých a rostoucích přírůstcích.",
+    "caption": "Stejné časové odstupy ukazují rozdíl mezi stálými a rostoucími přírůstky vzdálenosti.",
+    "thumbnail": "assets/article-images/thumbs/schema-jak-merime-zrychlovani.webp",
+    "source_master": "assets/article-images/sources/schema-jak-merime-zrychlovani.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://arxiv.org/abs/astro-ph/9805201"
+    ]
+  },
+  {
+    "id": "schema-kosmicka-inflace",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://arxiv.org/abs/1807.06211"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené výukové schéma v tools/cosmology_diagrams.py; kvalitativní znázornění.",
+    "verified_on": "2026-10-28",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "edu-b11-inflation",
+    "source_id": "own-diagram:schema-kosmicka-inflace",
+    "source_family": "own-diagram:schema-kosmicka-inflace",
+    "title": "Od inflace k pozdějším strukturám",
+    "alt": "Rychlý růst prostorového měřítka, horká fáze a pozdější stopy počátečních nerovností.",
+    "caption": "Inflační scénář propojuje rychlé rozpínání s následnou horkou fází a vznikem zárodků struktur.",
+    "thumbnail": "assets/article-images/thumbs/schema-kosmicka-inflace.webp",
+    "source_master": "assets/article-images/sources/schema-kosmicka-inflace.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://arxiv.org/abs/1807.06211"
+    ]
+  },
+  {
+    "id": "schema-prvotni-nukleosynteza",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené výukové schéma v tools/cosmology_diagrams.py; kvalitativní znázornění.",
+    "verified_on": "2026-10-28",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "edu-b11-bbn",
+    "source_id": "own-diagram:schema-prvotni-nukleosynteza",
+    "source_family": "own-diagram:schema-prvotni-nukleosynteza",
+    "title": "Jak vznikala první lehká jádra?",
+    "alt": "Proton a neutron vytvoří deuterium, další reakce vedou k heliu.",
+    "caption": "Zjednodušený sled vzniku lehkých jader v prvních minutách vesmíru.",
+    "thumbnail": "assets/article-images/thumbs/schema-prvotni-nukleosynteza.webp",
+    "source_master": "assets/article-images/sources/schema-prvotni-nukleosynteza.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf"
+    ]
+  },
+  {
+    "id": "schema-atmosfera-exoplanety",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené výukové schéma v tools/cosmology_diagrams.py; kvalitativní znázornění.",
+    "verified_on": "2026-10-28",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "edu-b11-atmosphere",
+    "source_id": "own-diagram:schema-atmosfera-exoplanety",
+    "source_family": "own-diagram:schema-atmosfera-exoplanety",
+    "title": "Jak čteme atmosféru exoplanety?",
+    "alt": "Světlo hvězdy prochází okrajem atmosféry planety a v jeho spektru se projeví molekuly.",
+    "caption": "Při přechodu planety část světla prochází její atmosférou. Molekuly zanechávají ve spektru charakteristické stopy.",
+    "thumbnail": "assets/article-images/thumbs/schema-atmosfera-exoplanety.webp",
+    "source_master": "assets/article-images/sources/schema-atmosfera-exoplanety.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/"
+    ]
+  },
+  {
+    "id": "schema-obyvatelna-zona",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://science.nasa.gov/exoplanets/habitable-zone/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené výukové schéma v tools/cosmology_diagrams.py; kvalitativní znázornění.",
+    "verified_on": "2026-10-28",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "edu-b11-habitable",
+    "source_id": "own-diagram:schema-obyvatelna-zona",
+    "source_family": "own-diagram:schema-obyvatelna-zona",
+    "title": "Kde leží obyvatelná zóna?",
+    "alt": "Méně a více zářivá hvězda mají obyvatelnou zónu v různých vzdálenostech.",
+    "caption": "Poloha obyvatelné zóny závisí na zářivosti hvězdy. Podmínky na planetě dále ovlivňují atmosféra a její vývoj.",
+    "thumbnail": "assets/article-images/thumbs/schema-obyvatelna-zona.webp",
+    "source_master": "assets/article-images/sources/schema-obyvatelna-zona.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://science.nasa.gov/exoplanets/habitable-zone/"
+    ]
+  },
+  {
+    "id": "schema-pozorovatelny-vesmir-otazky",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://arxiv.org/abs/astro-ph/0310808"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené výukové schéma v tools/cosmology_diagrams.py; kvalitativní znázornění.",
+    "verified_on": "2026-10-28",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "edu-b11-horizons",
+    "source_id": "own-diagram:schema-pozorovatelny-vesmir-otazky",
+    "source_family": "own-diagram:schema-pozorovatelny-vesmir-otazky",
+    "title": "Dva kosmologické horizonty",
+    "alt": "Rozlišení dosahu dnešního pozorování a dosahu signálů vyslaných nyní.",
+    "caption": "Částicový horizont vymezuje oblast, odkud k nám od raných dob vesmíru až do dneška mohl dorazit signál. Za tuto hranici zatím nedohlédneme, protože světlo odtamtud nemělo dost času k nám doputovat. Kosmologický horizont událostí odpovídá na jinou otázku: odkud k nám ještě někdy může dorazit světlo vyslané právě nyní? Za touto hranicí se prostor rozpíná tak, že k nám takové světlo nedorazí ani v libovolně vzdálené budoucnosti.",
+    "thumbnail": "assets/article-images/thumbs/schema-pozorovatelny-vesmir-otazky.webp",
+    "source_master": "assets/article-images/sources/schema-pozorovatelny-vesmir-otazky.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://arxiv.org/abs/astro-ph/0310808"
+    ]
   }
 ]

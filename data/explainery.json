@@ -114,45 +114,47 @@
     "id": "exp-004",
     "title": "Co je temná energie a jak se liší od temné hmoty?",
     "theme": "temna-energie",
-    "description": "Temná energie tvoří 68 % vesmíru a zrychluje jeho rozpínání. Co přesně je, proč existuje a jak se liší od temné hmoty?",
+    "description": "Temná energie v kosmologickém modelu vysvětluje zrychlené rozpínání. Jak zkoumáme její chování a jak se liší od temné hmoty?",
     "published": "2026-10-17",
-    "updated": "2026-10-25",
-    "perex": "Vesmír se rozpíná stále rychleji — za zrychlením stojí temná energie, záhadná síla naplňující prázdný prostor. Tvoří 68 % vesmíru a rozhoduje o jeho osudu, přitom nevíme, co doopravdy je.",
+    "updated": "2026-10-28",
+    "perex": "Temná energie označuje složku kosmologického modelu, která vysvětluje zrychlené rozpínání vesmíru. Její nejjednodušší podobou je kosmologická konstanta se stálou hustotou energie. Zkoumáme ji prostřednictvím vzdáleností, rozložení galaxií a dalších měření.",
     "sections": [
       {
-        "heading": "Dva druhy temna",
-        "body": "Když astronomové sečetli hmotu ve vesmíru, vyšlo jim něco zvláštního: neviditelná temná hmota tvoří většinu hmoty, ale přesto jen asi 27 % celkového obsahu vesmíru. Zbylých zhruba 68 % tvoří něco ještě záhadnějšího — temná energie. Nejedná se o hmotu vůbec, ale o energii naplňující samotný prostor, která určuje, jak rychle se vesmír rozpíná."
+        "heading": "Dvě odlišné složky vesmíru",
+        "body": "V základním modelu ΛCDM připadá přibližně **5 % dnešního celkového obsahu hmoty a energie na běžnou hmotu, 27 % na temnou hmotu a 68 % na temnou energii**. Tyto podíly se odvozují porovnáním modelu s různými pozorováními.\n\nTemná hmota se působením gravitace shlukuje a ovlivňuje pohyby galaxií i vznik struktur. Temná energie označuje složku modelu, pomocí níž vysvětlujeme zrychlené rozpínání. Její nejjednodušší podobou je kosmologická konstanta."
       },
       {
-        "heading": "Jak víme, že existuje?",
-        "body": "Věděli jsme to překvapivě dlouho, aniž bychom rozuměli proč. Srovnáváním vzdáleností galaxií v 90. letech 20. století dva nezávislé týmy při pozorování supernov typu Ia objevily, že vzdálené galaxie se vzdalují rychleji, než by odpovídalo zpomalování způsobené gravitací. Vesmír se rozpíná zrychleně. Vesmír se rozpíná zrychleně. Je to, jako by se stůl, po němž se valí kulička, začal sám od sebe a čím dál rychleji natahovat do všech směrů."
+        "heading": "Jak jsme zrychlování rozpoznali",
+        "body": "Na konci devadesátých let dva týmy porovnávaly jasnosti a rudé posuvy vzdálených supernov typu Ia. Naměřené vztahy lépe odpovídaly modelům s pozdějším zrychlováním než tehdy běžně zvažovaným modelům se zpomalováním bez kosmologické konstanty.\n\nDůležité bylo určit svítivosti supernov, opravit vliv prachu a prověřit kalibraci. Postup vysvětluje [téma o měření zrychleného rozpínání](https://kosmonovinky.cz/kosmopedie/jak-pozname-ze-se-rozpinani-vesmiru-zrychluje.html); příběh výzkumníků navazuje v tématech o [Perlmutterovi](https://kosmonovinky.cz/kosmopedie/jak-saul-perlmutter-a-jeho-tym-hledali-zrychlene-rozpinani-vesmiru.html), [Schmidtovi](https://kosmonovinky.cz/kosmopedie/jak-brian-schmidt-a-jeho-tym-overovali-ze-se-rozpinani.html) a [Riessovi](https://kosmonovinky.cz/kosmopedie/jak-adam-riess-pomohl-odhalit-zrychlene-rozpinani-vesmiru.html)."
       },
       {
-        "heading": "Měření z více stran",
-        "body": "Kromě supernov typu Ia máme dnes dvě další nezávislé metody, které temnou energii potvrzují: mřížku teplotních fluktuací v reliktním záření a uspořádání galaxií do pěnovité struktury plné vláken, stěn a obřích prázdných oblastí. Všechny tři metody — zcela nezávislé — dávají shodný výsledek: vesmír obsahuje zhruba 68 % temné energie, 27 % temné hmoty a jen 5 % obyčejné hmoty. Evropská družice Euclid, vypuštěná v roce 2023, má tuto otázku proměřit s dosud nevídanou přesností a možná i rozhodnout mezi konkurenčními vysvětleními."
+        "heading": "Co znamená kosmologická konstanta",
+        "body": "**Kosmologická konstanta Λ** se v tomto popisu chová jako složka se stálou hustotou energie. Jak vesmír roste, průměrná hustota hmoty klesá, zatímco hustota této složky zůstává stejná. V pozdějších epochách proto získává větší podíl na celkovém obsahu.\n\nDo rovnic gravitace vstupuje hustota energie i tlak. Pro kosmologickou konstantu je tlak záporný; její dostatečné zastoupení vede ke zrychlování rozpínání. Einstein tuto konstantu původně zavedl při hledání statického modelu. Dnešní použití vychází z pozorovaného vývoje vesmíru."
       },
       {
-        "heading": "Co by temná energie mohla být?",
-        "body": "Fyzikové připravují tři hlavní odpovědi. První je kosmologická konstanta — energie prázdného prostoru, která prostě je, jako stálý tlak vakua; tu předpověděl už Einstein, i když ji později zavrhl. Druhá je kvintesence — dynamické pole, které se v čase mění a mohlo v minulosti působit jinak. Třetí možnost je nejjednodušší popisem a nejrevolučnější důsledky: že Einsteinova rovnice gravitace neplatí na kosmologických vzdálenostech přesně a vesmír se rozpíná jinak, než si myslíme. Rozdíl mezi těmito scénáři se měří právě přesností mapování vesmíru — proto je dnes tak důležitý teleskop Euclid a nový teleskop Nancy Grace Roman."
+        "heading": "Jak zkoumáme jiné možnosti",
+        "body": "Vědci porovnávají konstantu s možností [temné energie měnící se v čase](https://kosmonovinky.cz/kosmopedie/muze-se-temna-energie-menit-v-case.html). Další modely upravují vztah mezi gravitací a obsahem vesmíru. Každá možnost dává určité předpovědi pro vzdálenosti, rozpínání a růst struktur.\n\nSupernovy doplňují měření rozložení galaxií, reliktního záření a gravitačního čočkování. [Euclid](https://kosmonovinky.cz/kosmopedie/co-zkouma-kosmicky-dalekohled-euclid.html) a [DESI](https://kosmonovinky.cz/kosmopedie/co-je-desi-a-jak-mapuje-rozpinani-vesmiru.html) poskytují data pro taková porovnání. Při společném vyhodnocení je třeba sledovat i sdílené předpoklady a kalibrace."
       },
       {
-        "heading": "Co temná energie umí",
-        "body": "Temná energie funguje opačně než gravitace. Zatímco gravitace přitahuje a zpomaluje, temná energie působí jako jakási antigravitace — ne na jednotlivé galaxie, ale na prostor samotný. Každý metr krychlový vesmíru obsahuje trochu této energie a protože přibývá nový prostor, přibývá i energie, která rozpínání ještě urychluje. Je to pozitivní zpětná vazba: čím větší vesmír, tím rychlejší rozpínání."
+        "heading": "Co z toho plyne pro budoucnost",
+        "body": "V modelu se stálou kladnou kosmologickou konstantou pokračuje zrychlené rozpínání a dlouhodobé vyhasínání hvězd. Proměnlivá temná energie může vést i k jiným scénářům. Jejich podmínky rozebírá [téma o možném konci vesmíru](https://kosmonovinky.cz/kosmopedie/jak-muze-vesmir-skoncit.html).\n\nFyzikální podstata temné energie patří k otevřeným otázkám. Pozorování zpřesňují, jak se tato složka může chovat, a tím také omezují možné teoretické výklady."
       },
       {
-        "heading": "Jak se liší od temné hmoty?",
-        "body": "I když se jmenují podobně, jde o dvě zcela odlišné věci. Temná hmota se chová jako hmota — gravituje, shlukuje se kolem galaxií a drží je pohromadě. Temná energie je energie prázdného prostoru a působí na obrovských vzdálenostech mezi galaxiemi. Zjednodušeně: temná hmota řídí, jak se ve vesmíru tvoří struktura, temná energie určuje, jak rychle se celý vesmír rozpíná a jaký bude jeho osud.",
-        "image_id": "schema-temna-hmota-vs-energie"
-      },
-      {
-        "heading": "Co bude dál?",
-        "body": "Budoucnost vesmíru závisí právě na temné energii. Zrychlené rozpínání znamená, že vzdálené galaxie se od nás vzdalují čím dál rychleji — jednou budou mizet za horizontem, který už nebude možné překročit ani světlem. V mlhovinách ustanou zážehy nových hvězd, stará slunce vyhasnou, galaxie osamí a vesmír skončí chladný, temný a prázdný. Vědci ale stále nevědí, co temná energie doopravdy je — ať už jde o kvantovou energii vakua, o nové pole ve vesmíru, nebo o to, že obecná teorie relativity potřebuje na velkých vzdálenostech opravit."
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA: temná energie a hlavní metody měření](https://science.nasa.gov/dark-energy/)\n- [Planck 2018: parametry modelu ΛCDM](https://arxiv.org/abs/1807.06209)\n- [Riess a kol.: výsledky ze supernov](https://arxiv.org/abs/astro-ph/9805201)\n- [DESI: kombinace dat a vývoj temné energie](https://www.desi.lbl.gov/2025/03/19/more-than-a-hint-of-evolving-dark-energy-new-results-and-data-from-desi/)"
       }
     ],
-    "why_box": "Osud vesmíru — zda se jednou zhroutí, zmrzne, nebo se roztrhá — je v rukou něčeho, co nikdy nebylo přímým pozorováním spatřeno. Každá teorie, která ji vysvětlí, zároveň přepíše naše chápání gravitace i kvantové fyziky.",
+    "why_box": "Temná energie propojuje měření kosmických vzdáleností s otázkou vývoje celého vesmíru. Přesnější pozorování pomáhají určit její chování a rozlišovat mezi různými fyzikálními vysvětleními.",
     "related_explainery": [
-      "co-je-temna-hmota",
-      "co-je-reliktni-zareni"
+      "jak-pozname-ze-se-rozpinani-vesmiru-zrychluje",
+      "muze-se-temna-energie-menit-v-case",
+      "jak-muze-vesmir-skoncit",
+      "co-znamena-model-cdm",
+      "co-zkouma-kosmicky-dalekohled-euclid"
+    ],
+    "related_news": [
+      "2610.36051",
+      "2610.23497"
     ]
   },
   {
@@ -206,12 +208,12 @@
     "theme": "cerne-diry",
     "description": "Horizont událostí je hranice, za níž nevede návrat. Proč černá díra černá je, jak velký horizont je a proč zmítá fyzikou dodnes?",
     "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "Horizont událostí je neviditelná hranice kolem černé díry — místo, kde končí všechny cesty ven. Není vytvořen z žádné hmoty, a přesto je neprostupnější než jakákoli zeď ve vesmíru.",
+    "updated": "2026-10-28",
+    "perex": "Horizont událostí je hranice černé díry, kterou hmota i světlo mohou překročit směrem dovnitř. Po jejím překročení už návrat do okolního vesmíru není možný. Jeho vlastnosti zkoumáme pomocí obecné teorie relativity a kvantové fyziky.",
     "sections": [
       {
         "heading": "Hranice bez návratu",
-        "body": "Horizont událostí je nejzajímavější hranice ve vesmíru: není z ničeho vyroben, nemá hmotu, nedá se osahat — a přesto je neprostupnější než jakákoliv zeď. Jde o hranici oblasti, z níž není možné uniknout. Překročíte-li ho, všechny možné dráhy — včetně světla — vedou ke středu černé díry."
+        "body": "**Horizont událostí je hranice, kterou lze překročit pouze jedním směrem: dovnitř černé díry.** Netvoří ho žádná hmotná stěna. Hmota i světlo mohou zvenčí projít dovnitř, ale po překročení horizontu už nemohou uniknout zpět do okolního vesmíru. Zakřivení prostoročasu uvnitř černé díry totiž umožňuje pohyb do budoucnosti pouze po drahách, které zůstávají uvnitř této hranice."
       },
       {
         "heading": "Proč je černá díra černá?",
@@ -219,11 +221,11 @@
       },
       {
         "heading": "Jak velký horizont je?",
-        "body": "Velikost horizontu závisí jen na hmotnosti černé díry. U černé díry o hmotnosti Slunce by měl průměr zhruba 6 kilometrů. U supermasivní černé díry v centru Mléčné dráhy, která váží čtyři miliony Sluncí, jde o kruh o průměru zhruba 24 milionů kilometrů — pořád menší než oběžná dráha Merkuru. Hranice je z hlediska vesmíru úzká; problém je, že za ní cesta jednosměrně končí."
+        "body": "Velikost horizontu závisí jen na hmotnosti černé díry. U černé díry o hmotnosti Slunce by měl průměr zhruba 6 kilometrů. U supermasivní černé díry v centru Mléčné dráhy, která váží čtyři miliony Sluncí, jde o kruh o průměru zhruba 24 milionů kilometrů — pořád menší než oběžná dráha Merkuru. Překročením horizontu může cesta pokračovat hlouběji do černé díry, návrat do okolního vesmíru už ale není možný."
       },
       {
         "heading": "Hawkingovo záření",
-        "body": "Kvantová mechanika horizontu přidává ještě jednu vrstvu podivnosti. Stephen Hawking v roce 1974 ukázal, že černá díra díky kvantovým jevům u horizontu velmi slabě září — a tím pomalu ztrácí hmotu. Čím menší černá díra, tím intenzivněji „vře\"; ta hvězdné velikosti by vypařováním přežila déle než současný věk vesmíru, takže to není způsob, jak černé díry z vesmíru mizí dnes. Hawkingovo záření ale naznačuje, že horizont není absolutně černý — a že kvantová gravitace nakonec přijde na to, co se s informací za horizontem děje."
+        "body": "Kvantová mechanika horizontu přidává ještě jednu vrstvu podivnosti. Stephen Hawking v roce 1974 ukázal, že černá díra díky kvantovým jevům u horizontu velmi slabě září — a tím pomalu ztrácí hmotu. Čím menší černá díra, tím intenzivněji „vře“; černá díra hvězdné velikosti by vypařováním přežila déle než současný věk vesmíru, takže to není způsob, jak černé díry z vesmíru mizí dnes. Hawkingovo záření ale naznačuje, že horizont není absolutně černý — a že kvantová gravitace nakonec přijde na to, co se s informací za horizontem děje."
       },
       {
         "heading": "Dá se horizontu vyhnout?",
@@ -231,56 +233,74 @@
       },
       {
         "heading": "Horizonty i jinde ve vesmíru",
-        "body": "Černé díry nejsou jediné horizonty ve vesmíru. Kosmologie má svůj vlastní horizont událostí: věci, které jsou od nás příliš daleko, se vzdalují rychleji než světlo, takže jejich světlo k nám nikdy nedoputuje — jsou za kosmologickým horizontem navždy mimo náš dosah. Aby se vesmír nekousal sám do sebe, existuje i horizont částic — hranice vzdálenosti, odkud světlo od Velkého třesku stihlo k nám doputovat. Horizonty tak nejsou zvláštností černých děr, ale obecným důsledkem struktury prostoročasu."
+        "body": "Kosmologické horizonty vymezují dosah signálů v rozpínajícím se vesmíru. **Částicový horizont** souvisí s tím, odkud k nám signál už stihl dorazit během dosavadního vývoje. **Kosmologický horizont událostí**, pokud jej model má, určuje možnost přijmout v budoucnu signál vyslaný nyní.\n\nO tom, zda světlo dorazí, rozhoduje celá jeho cesta a vývoj rozpínání. Můžeme proto pozorovat i zdroje s kosmologickou rychlostí vzdalování větší než rychlost světla. Hranice, kde tato rychlost právě odpovídá rychlosti světla, se nazývá Hubbleova sféra a má jiný význam než uvedené horizonty. Podrobnosti přibližuje [téma o tvaru a pozorovatelné části vesmíru](https://kosmonovinky.cz/kosmopedie/jaky-tvar-muze-mit-vesmir-a-je-konecny.html)."
       },
       {
         "heading": "Horizont není pevná hranice",
-        "body": "Horizont není pevná, neměnná věc. Černá díra, která polkne hvězdu nebo plyn, zvětší svůj horizont. Podle obecné teorie relativity se při pádu do černé díry horizont chová zvláštně: pro padajícího pozorovatele ho překročí bez okolků, pro vzdáleného přihlížejícího se obraz padajícího „zamrazí\" na hranici a postupně zhasne. Obě skutečnosti jsou pravdivé zároveň — černá díra nere-spektuje naši intuici současnosti."
+        "body": "Horizont není pevná, neměnná věc. Černá díra, která polkne hvězdu nebo plyn, zvětší svůj horizont. Podle obecné teorie relativity se při pádu do černé díry horizont chová zvláštně: pro padajícího pozorovatele ho překročí bez okolků, pro vzdáleného přihlížejícího se obraz padajícího „zamrazí\" na hranici a postupně zhasne. Obě skutečnosti jsou pravdivé zároveň — černá díra nerespektuje naši intuici současnosti."
+      },
+      {
+        "heading": "Zdroje k doplnění o horizontech a informačním paradoxu",
+        "body": "- [Davis a Lineweaver: rozlišení horizontů a Hubbleovy sféry](https://arxiv.org/abs/astro-ph/0310808)\n- [Raju: přehled informačního paradoxu](https://doi.org/10.1016/j.physrep.2021.10.001)"
       }
     ],
-    "why_box": "Horizont událostí je příčinou největšího paradoxu současné fyziky. Kvantová mechanika tvrdí, že informace nikdy nezaniká; obecná teorie relativity tvrdí, že za horizontem mizí navždy. Kdy se tyto dva popisy srazí právě na hranici černé díry — a který má pravdu — se fyzikové snaží zjistit právě teď.",
+    "why_box": "Horizont událostí propojuje gravitaci s otázkou, co se stane s informací o látce, která do černé díry spadne. Informační paradox vzniká při spojení klasického popisu černé díry s kvantovým vyzařováním. Jeho řešení pomáhá hledat společný popis gravitace a kvantové fyziky.",
     "related_explainery": [
       "co-je-cerna-dira-a-jak-vznika",
-      "co-se-stane-kdyz-spadnete-do-cerne-diry",
+      "jaky-tvar-muze-mit-vesmir-a-je-konecny",
+      "jak-muze-vesmir-skoncit",
       "mohou-cerne-diry-vymirat-hawkingovo-zareni"
+    ],
+    "related_news": [
+      "2610.11391",
+      "2610.31534v1"
     ]
   },
   {
     "id": "exp-007",
     "title": "Co je reliktní záření?",
     "theme": "relictni-zareni",
-    "description": "Reliktní záření je nejstarší světlo vesmíru — fotka jeho mládí. Jak vzniklo, proč je mikrovlnné a co nám říká o věku a složení vesmíru?",
+    "description": "Světlo z raného horkého vesmíru dnes měříme v mikrovlnách. Jak vzniklo reliktní záření a co zjistíme z jeho jemných nerovností?",
     "published": "2026-10-17",
-    "updated": "2026-10-25",
-    "perex": "Reliktní záření je nejstarší světlo ve vesmíru – záře, která vznikla asi 380 tisíc let po velkém třesku, kdy se vesmír poprvé stal průhledným. Vlivem rozpínání vesmíru se toto původně žhavé viditelné světlo natáhlo do podoby chladného mikrovlnného záření o teplotě −270,4 °C, které k Zemi přichází ze všech stran. Je to doslova fotka vesmírného mládí.",
+    "updated": "2026-10-28",
+    "perex": "Reliktní záření je světlo z raného horkého vesmíru, které po vzniku neutrálních atomů začalo putovat mnohem volněji. Dnes je zachycujeme v mikrovlnném oboru. Jeho spektrum a jemné nerovnosti pomáhají určit složení a vývoj vesmíru.",
     "sections": [
       {
-        "heading": "Světlo starší než jakákoliv hvězda",
-        "body": "Když se podíváte na noční oblohu, vidíte světlo hvězd a galaxií — všechny jsou mladší než zhruba 13 miliard let. Ale mikrovlnné záření o teplotě 2,7 kelvinu, které dopadá na celou Zemi naprosto rovnoměrně ze všech směrů, je starší o řád. Vzniklo ve chvíli, kdy ve vesmíru ještě nebyly žádné hvězdy, žádné galaxie, žádné atomy. Objevili ho náhodou v roce 1965 Arno Penzias a Robert Wilson při kalibraci komunikační antény — jako nepřekonatelný šum, který nešel odstranit žádným čištěním. A právě ten šum změnil kosmologii: byl to pozdrav z prvních okamžiků vesmíru."
+        "heading": "Světlo z doby před prvními hvězdami",
+        "body": "**Reliktní záření** je pozůstatek horké rané fáze vesmíru. Přichází téměř rovnoměrně ze všech směrů a jeho spektrum velmi přesně odpovídá tepelnému záření o teplotě přibližně **2,7 kelvinu**. Malé rozdíly mezi směry nesou informace o tehdejších podmínkách.\n\nPenzias a Wilson v roce 1965 zveřejnili měření mikrovlnného přebytku, který se podařilo spojit s touto horkou minulostí. Jejich příběh vysvětluje [samostatné téma](https://kosmonovinky.cz/kosmopedie/jak-arno-penzias-a-robert-wilson-objevili-reliktni-zareni.html)."
       },
       {
-        "heading": "Konec éry mlhy",
-        "body": "Krátce po velkém třesku byl vesmír žhavý, hustý a zcela neprůhledný. Světlo (fotony) neustále naráželo na volné elektrony a nemohlo se šířit volně — jako když se světlo odráží v husté mlze. Asi 380 tisíc let po počátku se vesmír natolik rozepjal a vychladl, že elektrony a protony konečně splynuly do neutrálních atomů vodíku. V ten okamžik vesmír zprůhledněl a fotony se vydaly na cestu vesmírem. Ty, které zamířily směrem k nám, dorazily na Zemi právě teď — po cestě trvající téměř 13,8 miliardy let.",
-        "image_id": "schema-relictni-zareni-recombination"
+        "heading": "Jak se světlo vydalo na dlouhou cestu",
+        "body": "V raném hustém prostředí se fotony často rozptylovaly na volných elektronech. Jak se vesmír rozpínal a chladl, elektrony se vázaly s jádry do neutrálních atomů. Tento přechod označujeme jako **rekombinaci**.\n\nPřibližně ve věku 380 tisíc let se střední vzdálenost mezi rozptyly výrazně prodloužila. Záření od té doby mohlo putovat mnohem volněji a uchovalo otisk tehdejších podmínek. První hvězdy se vytvořily až později."
       },
       {
-        "heading": "Proč je mikrovlnné, když začínalo jako viditelné světlo",
-        "body": "Původně bylo reliktní záření žhavé, oranžové světlo o teplotě zhruba 3 000 °C. Ale mezitím se vesmír rozepjal zhruba tisíckrát — a rozpínání prostoru vlnové délky fotonů fyzicky protáhlo. Je to stejný jev jako u sirény odjíždějící sanitky: zvuk se „natáhne\" do hlubšího tónu, jenže u světla se posouvá barva. Z viditelného světla se stalo infračervené a nakonec mikrovlnné záření, z 3 000 °C zbývá −270,4 °C. Astronomům to umožňuje přesně změřit, jak rychle se vesmír rozpíná — a protože tohle záření má ve vesmíru nejdelší cestu, nese informace o celé historii expanze."
+        "heading": "Proč záření dnes zachycujeme v mikrovlnách",
+        "body": "Při uvolnění světla měla látka a záření teplotu přibližně **3 000 kelvinů**. Tepelné záření pokrývalo široké spektrum. Rozpínání během jeho cesty prodloužilo vlnové délky zhruba tisíckrát.\n\nDnešní tepelné maximum proto leží v mikrovlnném oboru. Změna odpovídá tomu, jak se od této epochy zvětšila prostorová měřítka. Princip kosmologického prodloužení vlnových délek rozebírá [téma o rudém posuvu](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html)."
       },
       {
-        "heading": "Fotka mládí vesmíru",
-        "body": "Kdyby bylo reliktní záření dokonale hladké, byla by to nuda — a nevznikli bychom. Na jeho neuvěřitelně rovnoměrném pozadí jsou totiž drobné teplotní fluktuace, řádově jedna setina procenta. Právě ty jsou zásadní: jsou to semínka, kolem nichž se gravitací v následujících stovkách milionů let nabalovala hmota a vznikaly první galaxie. Družice COBE (1992) tyto nerovnosti poprvé změřila, WMAP (2003) je zmapovala podrobně a Planck (2013) dodal dnešní přesnost. Díky nim máme snímek vesmíru ve věku 380 tisíc let — nejstarší fotografii, jakou lidstvo kdy pořídilo."
+        "heading": "Co ukazují malé teplotní rozdíly",
+        "body": "Na téměř rovnoměrném pozadí měříme drobné nerovnosti, typicky řádu jedné stotisíciny průměrné teploty. Vznikaly souhrou hustoty, gravitace, pohybu látky a tlaku záření. Jejich velikosti a statistické uspořádání pomáhají rekonstruovat rané podmínky.\n\nDružice COBE poprvé zmapovala tyto rozdíly na velkých úhlových měřítkách. WMAP a Planck přidaly podrobnější údaje. Návaznost shrnuje [téma o měření reliktního záření](https://kosmonovinky.cz/kosmopedie/jak-se-fotografovalo-reliktni-zareni.html)."
       },
       {
-        "heading": "Co nám říká o vesmíru",
-        "body": "Reliktní záření je nejpřesnější měřicí přístroj kosmologie. Jeho analýza říká: vesmír je plochý, je mu 13,8 miliardy let a skládá se z 5 % běžné hmoty, 27 % temné hmoty a 68 % temné energie. Je to také nejsilnější potvrzení velkého třesku — žádný jiný model nedokáže vysvětlit, proč má pozadí vesmíru přesně 2,7 kelvinu a proč je jeho struktura taková, jaká je. Vědci dnes pracují na mapování polarizace reliktního záření, která by mohla odhalit stopy gravitačních vln z éry kosmické inflace — z okamžiků těsně po zrodu vesmíru."
+        "heading": "Jak z něj odvozujeme vlastnosti vesmíru",
+        "body": "Porovnáním teplotních a polarizačních vzorů s kosmologickým modelem odvozujeme jeho parametry. V základním ΛCDM vychází stáří přibližně 13,8 miliardy let a dnešní složení kolem 5 % běžné hmoty, 27 % temné hmoty a 68 % temné energie.\n\nSpojení mapy s dalšími daty omezuje také prostorovou křivost a je dobře slučitelné s plochým modelem. Vztah geometrie, konečnosti a rozsahu našeho výhledu rozvíjí [téma o tvaru vesmíru](https://kosmonovinky.cz/kosmopedie/jaky-tvar-muze-mit-vesmir-a-je-konecny.html). Měření polarizace současně zkoušejí možné stopy prvotních gravitačních vln."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA: reliktní záření a hlavní pojmy](https://science.nasa.gov/universe/glossary/)\n- [ESA: výsledky Plancku](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights)\n- [Planck 2018: odvození kosmologických parametrů](https://arxiv.org/abs/1807.06209)\n- [ESA: rekombinace a pozdější epochy](https://www.esa.int/Science_Exploration/Space_Science/Cosmic_eras)"
       }
     ],
-    "why_box": "Reliktní záření je nejuniverzálnější vědecký úkaz na světě: dopadá na každý metr čtvereční Země, na každou střechu i na každou anténu. Když jste kdysi přelaďovali televizi a narazili na šum na nenaladěném kanálu, asi jedno procento zrnění tvořily fotony reliktního záření – částice světla starší než Slunce. Málokdo si uvědomuje, že měl doma přijímač, který zachytával světlo z prvních okamžiků vesmíru. Vy ano.",
+    "why_box": "Reliktní záření propojuje dávné fyzikální podmínky s dnešními přesnými měřeními. Jeho nezávislé porovnávání s galaxiemi a dalšími daty umožňuje prověřovat společný kosmologický model.",
     "related_explainery": [
-      "co-je-temna-hmota",
-      "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty",
-      "co-je-velky-tresk"
+      "co-nam-rika-mapa-reliktniho-zareni",
+      "jak-se-fotografovalo-reliktni-zareni",
+      "co-zmerila-druzice-planck",
+      "co-je-velky-tresk",
+      "co-je-kosmicka-inflace-a-jak-ji-muzeme-overovat"
+    ],
+    "related_news": [
+      "2610.22648",
+      "2610.02301"
     ]
   },
   {
@@ -476,46 +496,56 @@
     "id": "exp-013",
     "title": "Co nám říká mapa reliktního záření?",
     "theme": "relictni-zareni",
-    "description": "Mapa reliktního záření je nejstarší fotografie vesmíru. Co se z jejích skvrn dá odečíst o věku, složení a osudu vesmíru?",
+    "description": "Mapa reliktního záření zachycuje malé rozdíly teplot na obloze. Jak z jejich vzoru odvozujeme složení, geometrii a vývoj vesmíru?",
     "published": "2026-10-18",
-    "updated": "2026-10-25",
-    "perex": "Reliktní záření nese jemné teplotní skvrny — otisk zárodků galaxií z doby, kdy byl vesmír starý 380 000 let. Z jejich vzoru lze odečíst věk, složení i geometrii celého vesmíru.",
+    "updated": "2026-10-28",
+    "perex": "Mapa reliktního záření zachycuje jemné rozdíly teplot na obloze. Jejich vzor uchovává informace o podmínkách přibližně 380 tisíc let po začátku horkého vývoje. Porovnáním s modelem odvozujeme složení, stáří a geometrii vesmíru.",
     "sections": [
       {
         "heading": "Fotografie z dětství vesmíru",
-        "body": "Mapa reliktního záření je nejstarší fotografie vesmíru, jakou máme — snímek světla z doby, kdy byl vesmír starý pouhých 380 000 let. Zdánlivě jde o mozaiku nepatrných teplotních rozdílů, ve skutečnosti jde o zakódovaný záznam všech základních vlastností vesmíru: jeho věku, složení, geometrie i budoucnosti. Kosmologové proto říkají, že v těchto teplotních fluktuacích je napsáno „dětství\" vesmíru."
+        "body": "Mapa reliktního záření zachycuje světlo uvolněné přibližně 380 tisíc let po začátku horkého vývoje. Zobrazuje jemné rozdíly teplot na obloze. Jejich vzor uchovává informace o složení, pohybu a gravitačních podmínkách raného vesmíru."
       },
       {
-        "heading": "Kdy se světlo osvobodilo",
-        "body": "Po Velkém třesku byl vesmír žhavý, hustý a neprůhledný — světlo se neustále sráželo s částicemi volných elektronů a nemohlo volně cestovat. Teprve když se vesmír dostatečně roztáhl a ochladil, elektrony a jádra se spojily do atomů (tzv. rekombinace), světlo se osvobodilo. Toto světlo k nám doputovalo po 13,8 miliardy let z každého směru najednou a dnes ho pozorujeme jako reliktní záření s teplotou −270,4 °C."
+        "heading": "Jak číst barevnou mapu",
+        "body": "Barvy v mapě představují nepatrné rozdíly teplot reliktního záření mezi různými směry na obloze. Barevná stupnice tyto rozdíly zvýrazňuje, aby byly dobře patrné. Téměř rovnoměrná základní teplota se při vytváření takové mapy odečítá.\n\nVědci zkoumají, jak velké jsou teplejší a chladnější oblasti a jak jsou po obloze uspořádané. Původ záření, jeho uvolnění při vzniku neutrálních atomů a dnešní mikrovlnné vlnové délky vysvětluje [základní téma o reliktním záření](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html)."
       },
       {
-        "heading": "Skvrny jsou zárodky galaxií",
-        "body": "Když astronomové tuto mapu proměřili, objevili v ní jemnou strukturu: teplejší a chladnější skvrny o velikosti necelého stupně. Ty nejsou náhodné. Chladnější místa odpovídají místům, kde bylo v raném vesmíru o něco hustší — gravitační semínka, z nichž časem vyrostly galaxie a galaktické kupy. Teplejší místa byla naopak řidší. Mapa reliktního záření je tedy doslova katalogem zárodků všech budoucích struktur ve vesmíru."
+        "heading": "Jak skvrny souvisejí se vznikem galaxií",
+        "body": "Teplejší a chladnější místa vznikají společným působením rozdílů hustoty, gravitace, tlaku a pohybu látky. Proto jsou pro fyzikální výklad důležité vzory na různých úhlových měřítkách a jejich statistické vlastnosti.\n\nPrvotní hustotní nerovnosti se působením gravitace dále vyvíjely. V hustších oblastech později rostly galaxie a kupy. Mapa tak poskytuje důležitou součást počátečních podmínek pro výpočty kosmických struktur."
       },
       {
-        "heading": "Od náhodného objevu k přesné mapě",
-        "body": "První stopu reliktního záření objevil náhodou v roce 1965 dvojice radioastronomů Arno Penzias a Robert Wilson — původně hledali zdroj rušení antény a místo toho našli signál z počátku vesmíru. Systematicky mapu proměřila série družic: COBE v roce 1992 poprvé zachytila skvrny, WMAP je zmapovala přesněji a evropský Planck v roce 2013 dodal dnešní standard s přesností, jakou žádný pozemský teleskop nepřekoná. Nadšenci si mohou mapu prohlédnout na stránkách ESA — je to detailnější obrázek, než jaký pořídil kterýkoli teleskop hvězdné oblohy."
+        "heading": "Jak získáváme mapu raného vesmíru",
+        "body": "Družice měří mikrovlnné záření v mnoha směrech a frekvencích. K oddělení reliktního záření od záření naší galaxie využívají rozdíly v jejich spektrech. Součástí vyhodnocení je také kontrola šumu a přístrojových vlivů.\n\nVývoj od měření družicí COBE k podrobnějším mapám WMAP a Plancku popisuje [téma o měření reliktního záření](https://kosmonovinky.cz/kosmopedie/jak-se-fotografovalo-reliktni-zareni.html). Původní objev přibližuje [příběh Penziase a Wilsona](https://kosmonovinky.cz/kosmopedie/jak-arno-penzias-a-robert-wilson-objevili-reliktni-zareni.html)."
       },
       {
         "heading": "Co všechno lze z mapy odečíst",
-        "body": "Z velikosti a rozložení skvrn lze odečíst klíčová čísla kosmologie. Z úhlu, pod nýmž jsou skvrny největší, vyplývá, že vesmír je geometricky plochý. Z jejich intenzit vyplývá složení: 5 % obyčejné hmoty, 27 % temné hmoty a 68 % temné energie. A z celkového vzoru vyplývá, že vesmír je 13,8 miliardy let starý — s přesností na méně než jedno procento. Žádný jiný kosmologický nástroj nedává tolik čísel najednou.",
+        "body": "Vědci zjišťují, jak výrazné jsou teplotní rozdíly mezi oblastmi různých úhlových velikostí. Tak získají přehled o tom, která měřítka jsou v mapě zastoupena silněji a která slaběji. Výpočty předpovídají, jak se tento přehled změní například při jiném množství běžné a temné hmoty.\n\nPorovnáním předpovědí s měřením hledáme hodnoty, které společně nejlépe odpovídají datům. Tak odvozujeme složení a stáří vesmíru v rámci [modelu ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html).\n\nPozorovanou úhlovou velikost charakteristických struktur porovnáváme s jejich velikostí vypočtenou pro raný vesmír. Společně s údaji o galaxiích tím omezujeme prostorovou křivost. Výsledky dobře odpovídají téměř plochému prostoru. [Téma o geometrii a konečnosti vesmíru](https://kosmonovinky.cz/kosmopedie/jaky-tvar-muze-mit-vesmir-a-je-konecny.html) vysvětluje, jak tyto otázky rozlišujeme.",
         "image_id": "schema-slozeni-vesmiru"
       },
       {
         "heading": "Polarizace a stopa inflace",
-        "body": "Měření mapy pokračuje. Současné pozemské observatoře v Chile a na jižním pólu studují polarizaci reliktního záření — uspořádání světelných vln, které by mohlo nést stopu gravitačních vln z éry inflace, zlomků vteřiny po Velkém třesku. Nová generace přístrojů (Simons Observatory, plánované CMB-S4) zvýší citlivost desetkrát. Kdyby se stopa inflace našla, byl by to druhý nejvýznamnější důkaz po samotném reliktním záření — a zase by pocházel z té samé mapy."
+        "body": "Polarizace popisuje uspořádání orientací elektrického pole světla. Její vzory vznikají při rozptylu záření a některé mohou obsahovat stopu prvotních gravitačních vln. Další příspěvky vytváří gravitační čočkování a látka v naší galaxii.\n\nPozorování v různých frekvencích a přesnější modely popředí umožňují jednotlivé složky oddělovat. Výsledky poskytují meze pro [inflační modely](https://kosmonovinky.cz/kosmopedie/co-je-kosmicka-inflace-a-jak-ji-muzeme-overovat.html) a připravují další zkoušky rané fyziky."
       },
       {
         "heading": "Stopy temné hmoty",
-        "body": "Jednu věc mapa neukazuje: temnou hmotu přímo. Ta neinteraguje se světlem, takže v ní „nezáří\". Ale její stopu vidíme nepřímo — právě v tom, jak silně jsou skvrny vyjádřené. Bez temné hmoty by ve vesmíru nebylo dost gravitačního „lepidla\" na to, aby z fluktuací něco vyrostlo; skvrny by byly slabší a galaxie by vznikaly příliš pozdě. Mapa reliktního záření tak temnou hmotu potvrzuje, i když ji nikdy přímo neuvidíme."
+        "body": "Temná hmota ovlivňuje gravitaci a tím i pohyb rané látky a rozložení nerovností. Různé hustoty běžné a temné hmoty vedou k různým předpovědím pro statistický vzor mapy.\n\nPorovnáním s měřením odhadujeme potřebné hustoty v rámci modelu. Další kontrolu přináší pohyb galaxií, gravitační čočkování a vznik kosmické sítě. Společně jde o více různých zkoušek stejného fyzikálního obrazu."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Planck 2018: kosmologické parametry](https://arxiv.org/abs/1807.06209)\n- [Planck 2018: testy inflace](https://arxiv.org/abs/1807.06211)\n- [ESA: hlavní výsledky Plancku](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights)"
       }
     ],
-    "why_box": "Když se podíváte na mapu reliktního záření, díváte se na světlo, které vzniklo, když neexistoval žádný hvězdný prach, žádná Země, žádné Slunce. Každá galaxie, každá hvězda, každý atom ve vašem těle pochází z jedné z těchto skvrn. Vědci to říkají stručně: jsme způsobem, jakým vesmír poznává sám sebe — a mapa reliktního záření je jeho nejstarší fotografie.",
+    "why_box": "Mapa reliktního záření umožňuje zkoumat podmínky dávno před vznikem Slunce a Země. Statistické vlastnosti jejích nerovností propojují ranou fyziku s pozdějším vznikem galaxií a s dnešními měřeními.",
     "related_explainery": [
       "co-je-reliktni-zareni",
-      "co-je-temna-hmota",
-      "jak-vime-ze-temna-hmota-existuje"
+      "co-zmerila-druzice-planck",
+      "jaky-tvar-muze-mit-vesmir-a-je-konecny",
+      "co-je-kosmicka-inflace-a-jak-ji-muzeme-overovat",
+      "jak-vznikaji-galaxie"
+    ],
+    "related_news": [
+      "2610.22648",
+      "2610.12418v1"
     ]
   },
   {
@@ -567,14 +597,14 @@
     "id": "exp-015",
     "title": "Co jsou exoplanety a jak se hledají?",
     "theme": "exoplanety",
-    "description": "Exoplanet známe přes 5000, ale jen před 30 lety to byla vědecká fikce. Jak je objevujeme a jak blízko jsme k nálezu života?",
+    "description": "Jak objevujeme planety u jiných hvězd, určujeme jejich vlastnosti a zkoumáme atmosféry i podmínky pro kapalnou vodu?",
     "published": "2026-10-18",
-    "updated": "2026-10-25",
+    "updated": "2026-10-28",
     "perex": "Exoplaneta je planeta u jiné hvězdy než Slunce. První byla potvrzena v roce 1992; dnes jich známe tisíce a Mléčná dráha jich pravděpodobně obsahuje miliardy.",
     "sections": [
       {
         "heading": "Z fikce k faktu",
-        "body": "Exoplaneta je planeta, která obíhá jinou hvězdu než Slunce. Do roku 1992 jsme o nich nevěděli nic konkrétního — byly vědeckou fikcí. Dnes známe přes pět tisíc exoplanet a odhady říkají, že jen v Mléčné dráze jich jsou miliardy. Naše Sluneční soustava už ztratila své výsadní postavení; stala se pouhou kapkou v nespočetném vesmírném oceánu."
+        "body": "Exoplanety jsou planety u jiných hvězd než Slunce. První potvrzený systém byl zveřejněn v roce 1992 u pulsaru, pozůstatku hmotné hvězdy. Od té doby astronomové objevili tisíce dalších světů v mnoha typech hvězdných soustav.\n\nSrovnáváním jejich velikostí, hmotností a drah zkoumáme, jak běžné jsou různé způsoby vzniku a vývoje planet."
       },
       {
         "heading": "Jak exoplanety hledáme",
@@ -583,29 +613,38 @@
       },
       {
         "heading": "Divoká rozmanitost světů",
-        "body": "Mezi objevenými exoplanetami je ohromná rozmanitost. Horké Jupitery — plynní obři těsně u svých hvězd, kde rok trvá jeden den. Superzemě — kamenné planety větší než Země, jaké nemáme ve Sluneční soustavě. Lava planety — kamenné světy tak blízko hvězdě, že jejich povrch taje. A v roce 2016 jsme poprvé změřili atmosféru exoplanety kolem hvězdy podobné Slunci; od té doby jich známe desítky."
+        "body": "Mezi exoplanetami nacházíme horké plynné obry, malé kamenné světy i planety s velikostí mezi Zemí a Neptunem. Jejich vlastnosti odvozujeme kombinací měření; stejná velikost může připouštět více možností složení.\n\nHubble v roce 2001 zachytil sodík v atmosféře planety HD 209458 b. Další přístroje postupně rozšířily studium plynů, oblaků a teplot. Podrobnosti rozvíjí [téma o atmosférách exoplanet](https://kosmonovinky.cz/kosmopedie/jak-zkoumame-atmosfery-exoplanet.html)."
       },
       {
         "heading": "Světy na hraně fantazie",
-        "body": "Mezi exoplanetami najdeme i světy bez mateřské hvězdy — osamělé poutníky vyvržené ze svých domovských soustav gravitačním chaosem, kteří se sami toulají věčnou temnotou. Objevujeme oceánské světy s globálním mořem hlubokým desítky kilometrů, nebo takzvané „oční planety\". Ty jsou slapově uzamčené u svých červených trpaslíků, takže jedna jejich polovina věčně plane žárem a druhá mrzne, zatímco obyvatelný pás se táhne jen podél linie terminátoru. Výjimkou nejsou ani světy obíhající dvojhvězdy, kde západ slunce rozehrává představení dvou sluncí najednou — zkrátka sci-fi, která se dnes stala pouhým katalogovým číslem."
+        "body": "Známe planety obíhající velmi blízko hvězd i soustavy s více hvězdami. Zkoumají se také objekty planetární hmotnosti volně putující prostorem. Odhad původu těchto světů vyžaduje znalost jejich hmotností, stáří a prostředí.\n\nU některých planet mohou modely připouštět povrchové oceány, lávu nebo výrazné rozdíly mezi denní a noční stranou. Tyto scénáře se posuzují podle dostupných měření a fyzikálních podmínek."
       },
       {
         "heading": "Hledáme život",
-        "body": "Největší otázka zní: je někde život? Klíčová je obyvatelná zóna — oblast kolem hvězdy, kde planeta s atmosférou může udržet kapalnou vodu. Známe několik desítek planet v této zóně. Teleskop Jamese Webba zkoumá jejich atmosféry a hledá chemické stopy — vodní páru, oxid uhličitý, metan — které by mohly naznačovat biologické procesy. Zatím žádný jasný důkaz neexistuje, ale první kandidáti už jsou na stole."
+        "body": "Při hledání prostředí vhodného pro známý život nás zajímá kapalná voda, chemické složení a zdroje energie. [Obyvatelná zóna](https://kosmonovinky.cz/kosmopedie/co-znamena-obyvatelna-zona-a-proc-nezarucuje-zivot.html) pomáhá vybírat planety, které by při vhodné atmosféře mohly mít kapalnou vodu na povrchu.\n\nK posouzení skutečného prostředí potřebujeme údaje o atmosféře, aktivitě hvězdy a historii planety. Případné chemické stopy biologické činnosti se porovnávají i s vysvětleními založenými na geologii a fyzikální chemii."
       },
       {
         "heading": "Kdo a čím hledá",
-        "body": "Hlavními lovci exoplanet byly družice Kepler (2009–2018), která objevila tisíce planet tranzitní metodou u jednoho malého úseku oblohy, a její pokračovatel TESS, která skenuje téměř celou oblohu. Teleskop Jamese Webba nyní studuje atmosféry těch nejzajímavějších a připravuje půdu pro příští generaci pozemských obrů (Extremely Large Telescope), které budou schopné vidět podobné planety přímo. Tempo objevů se zrychluje — nová exoplaneta přibývá průměrně každý druhý den."
+        "body": "Družice Kepler poskytla rozsáhlé soubory tranzitních planet a TESS hledá zejména vhodné cíle u jasnějších hvězd. Pozemské spektrografy měří pohyb hvězd, zatímco Hubble, Webb a další přístroje zkoumají světlo vybraných soustav.\n\nObjev planety a podrobné určení jejího prostředí vyžadují různé druhy měření. Navazující pozorování zpřesňují hmotnost, velikost, dráhu a při příznivých podmínkách i vlastnosti atmosféry."
       },
       {
         "heading": "Jak exoplanety vznikají",
         "body": "Exoplanety vznikají spolu se hvězdou z kolabujícího plynného mraku. Prach a plyn se v něm slepí do kamenů, kameny do jader planet, jádra přitahují plyn — nebo také ne; výsledek závisí na tom, kde v protoplanetárním disku se planeta rodí. Blízko hvězdy vznikají kamenné planety, dál plynní obři. Naše Sluneční soustava se zformovala před 4,6 miliardami let; ostatní hvězdy jsou různě staré — takže exoplanety pozorujeme ve všech fázích vývoje, od novorozených po mrtvé."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA: metody hledání a charakterizace exoplanet](https://science.nasa.gov/exoplanets/how-we-find-and-characterize/)\n- [NASA: detekce atmosféry HD 209458 b v roce 2001](https://science.nasa.gov/missions/hubble/hubble-makes-first-direct-measurements-of-atmosphere-on-world-around-another-star/)\n- [NASA: obyvatelná zóna](https://science.nasa.gov/exoplanets/habitable-zone/)"
       }
     ],
-    "why_box": "Před třiceti lety jsme nevěděli, jestli jsme ve vesmíru sami, dokonce ani jestli jsou planety obvyklé. Dnes už víme, že planety jsou ve vesmíru běžnější než samotné hvězdy. Otázka, zda na své objevení někde čeká mimozemský život, hluboký oceán nebo alespoň mikrobiální stopa, zůstává otevřená — a každá nová exoplaneta v obyvatelné zóně nás posouvá blíž k odpovědi.",
+    "why_box": "Objevování exoplanet umožňuje porovnávat naši soustavu s mnoha jinými světy. Zkoumáním jejich drah, velikostí a atmosfér postupně zjišťujeme, jak běžné mohou být podmínky podobné těm pozemským.",
     "related_explainery": [
-      "co-je-vesmirne-teleskopy",
-      "co-je-neutronova-hvezda"
+      "jak-zkoumame-atmosfery-exoplanet",
+      "co-znamena-obyvatelna-zona-a-proc-nezarucuje-zivot",
+      "co-umi-webbuv-vesmirny-dalekohled",
+      "co-je-spektroskopie-a-co-nam-rika-svetlo"
+    ],
+    "related_news": [
+      "https://www.sciencedaily.com/releases/2026/10/261007042106.htm"
     ]
   },
   {
@@ -650,47 +689,60 @@
     "id": "exp-017",
     "title": "Co je velký třesk?",
     "theme": "velky-tresk",
-    "description": "Co je velký třesk: model vzniku vesmíru před 13,8 miliardami let. Tři nezávislé důkazy, co velký třesk není a jaké otázky zůstávají otevřené.",
+    "description": "Horký velký třesk popisuje rozpínání a ochlazování vesmíru. Jak jeho historii ověřují reliktní záření, lehké prvky a galaxie?",
     "published": "2026-10-18",
-    "updated": "2026-10-25",
-    "perex": "Velký třesk je vědecký model vzniku vesmíru: před zhruba 13,8 miliardami let byl vesmír nesmírně horký a hustý a od té doby se rozpíná. Nebyl to výbuch do prázdna – prostor samotný se zvětšoval. Model předpověděl reliktní záření, které bylo v roce 1965 skutečně objeveno, a dnes je základem veškeré kosmologie.",
+    "updated": "2026-10-28",
+    "perex": "Horký velký třesk popisuje, jak se vesmír rozpínal a ochlazoval z velmi horkého a hustého stavu. Jeho historii ověřujeme pomocí galaxií, reliktního záření a lehkých prvků. Na raný vývoj navazuje vznik atomů, prvních hvězd a dalších kosmických struktur.",
     "sections": [
       {
-        "heading": "Jak nápad vznikl",
-        "body": "Na počátku 20. století se zdálo, že vesmír je statický a nekonečný. Zlom přinesl Edwin Hubble, který v roce 1929 změřil, že galaxie se od nás vzdalují – a čím jsou dál, tím rychleji. Přišel na to pozorováním rudého posuvu světla, které se u vzdalujících se objektů posouvá k červeným vlnovým délkám. Pokud se vesmír rozpíná dnes, musel být v minulosti hustší a teplejší – a v určitém okamžiku neuvěřitelně horký a hustý. Opačným převíjením času došel belgický kněz a fyzik Georges Lemaître k myšlence, že vesmír vzešel z prvotního atomu, jediného bodu. Tehdy to znělo jako teologie. Dnes je to nejlépe ověřený model vesmíru, jaký máme."
+        "heading": "Co popisuje horký velký třesk",
+        "body": "Model horkého velkého třesku popisuje vývoj vesmíru z velmi horkého a hustého stavu k dnešnímu chladnějšímu a řidšímu prostředí. V základním modelu vychází stáří vesmíru přibližně **13,8 miliardy let**.\n\nTeoretické základy rozpínání rozvíjeli [Alexandr Friedmann](https://kosmonovinky.cz/kosmopedie/jak-alexandr-friedmann-ukazal-ze-se-vesmir-muze-menit.html) a [Georges Lemaître](https://kosmonovinky.cz/kosmopedie/jak-georges-lemaitre-propojil-rozpinani-s-pocatkem-vesmiru.html). Měření vzdáleností a spekter galaxií, spojená s prací Hubblea a dalších astronomů, postupně podpořila dynamický obraz vesmíru."
       },
       {
-        "heading": "Co velký třesk není",
-        "body": "Nejčastější mýtus říká, že velký třesk byl explozí uprostřed prázdna, z níž se hmota rozletěla do dálky. Ale vesmír není uvnitř ničeho – prostor sám je to, co se rozpíná. Galaxie se od sebe vzdalují ne proto, že by letěly, ale protože mezi nimi přibývá prostor – jako když kyne kynuté těsto: každá rozinka se vzdaluje od každé jiné, ale žádná rozinka nikam nekráčí. Podobně velký třesk nevznikl v čase – čas samotný se zrodil společně s vesmírem. Ptát se, co bylo před velkým třeskem, je jako ptát se, co je na sever od severního pólu: otázka ztrácí smysl, protože používá kategorie, které tam neexistují."
+        "heading": "Jak rozumět rozpínání",
+        "body": "Na velkých měřítkách se s časem zvětšují vzdálenosti mezi místy, která se účastní průměrného rozpínání. Pozorovatelé v různých galaxiích mohou vidět podobný obraz vzdalujících se vzdálených soustav.\n\nHorká raná fáze se v modelu týká prostoru jako celku. Naše pozorovatelná oblast byla tehdy hustší a teplejší. Otázka samotného počátku času sahá k podmínkám, pro něž hledáme úplnější spojení gravitace a kvantové fyziky."
       },
       {
-        "heading": "Tři důkazy, které nelze vyvrátit",
-        "body": "Model Velkého třesku stojí na třech nezávislých pilířích. První je rozpínání vesmíru samotné, změřené Hubblem a dnes potvrzené s přesností na procenta. Druhý je reliktní záření – slabé mikrovlnné pozadí, které zbylo z doby, kdy byl vesmír 380 tisíc let starý. Jeho teplota 2,7 kelvinu byla předpovězena dřív, než bylo záření objeveno. Třetí je zastoupení lehkých prvků: velký třesk přesně předpovídá, kolik vodíku, helia a lithia mělo vzniknout v prvních minutách – a měření souhlasí do desetiny procenta. Tři nezávislé důkazy, tři různé metody, stejný výsledek. Ve fyzice lepší zadostiučinění model nenajde."
+        "heading": "Tři navazující zkoušky modelu",
+        "body": "**Rozpínání:** vzdálenosti a rudé posuvy galaxií odpovídají vyvíjejícím se prostorovým měřítkům.\n\n**Reliktní záření:** téměř tepelné mikrovlnné pozadí poskytuje zprávu o rané horké fázi a o době, kdy světlo začalo putovat mnohem volněji.\n\n**Lehké prvky:** zastoupení deuteria a helia lze porovnat s výpočty reakcí v prvních minutách. Lithium představuje zvláštní otevřený problém. Každý test má vlastní nejistoty; jejich společná návaznost dává horkému modelu silnou pozorovací oporu."
       },
       {
-        "heading": "Co se stalo v prvních minutách",
-        "body": "První okamžiky byly bouřlivé. V prvních zlomcích sekundy se vesmír zvětšil exponenciálně rychle – období zvané inflace, které vysvětluje, proč je dnešní vesmír tak rovnoměrný. Pak nastalo zhruba tři minuty trvající období primordiální nukleosyntézy: z protonů a neutronů vznikla jádra helia a stopy lithia. Následovala éra, kdy vesmír svítil jako žhavá mlha – světlo nemohlo uniknout, protože naráželo na volné elektrony. Teprve po 380 tisících letech se elektrony spojily s jádry do atomů, vesmír zprůhledněl a světlo se vydalo na cestu – jako reliktní záření, které registrujeme dodnes. Na vznik galaxií, hvězd a nakonec i nás, lidí, si však vesmír musel počkat ještě další miliardy let.",
-        "image_id": "schema-velky-tresk-1"
+        "heading": "Od jader k neutrálním atomům",
+        "body": "V prvních minutách se z protonů a neutronů tvořila jádra deuteria, helia a stopových množství dalších lehkých izotopů. Podrobnosti vysvětluje [téma o prvotní nukleosyntéze](https://kosmonovinky.cz/kosmopedie/jak-v-prvnich-minutach-vesmiru-vznikla-jadra-lehkych-prvku.html).\n\nV dalších epochách vesmír dál chladl. Přibližně po 380 tisících letech se elektrony vázaly s jádry do neutrálních atomů a výrazně ubylo volných elektronů, na nichž se světlo rozptylovalo. Z této doby přichází [reliktní záření](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html)."
       },
       {
-        "heading": "Otázky, které zůstaly otevřené",
-        "body": "Velký třesk je triumfem vědy, ale neřekl poslední slovo. Nevíme, co způsobilo inflaci, co bylo před ní – nebo jestli to slovo vůbec dává smysl. Neznáme povahu temné hmoty, která struktury vesmíru zformovala, ani temné energie, která expanzi zrychluje. Může existovat jeden vesmír, nebo nekonečně mnoho – každý se svými fyzikálními zákony. Tyto otázky dnes nejintenzivněji probírají kosmologové. Zajímavé je, že na žádnou z nich nepotřebujete víru – potřebujete jen teleskopy, detektory a poctivé počítání. Vesmír přišel z horkého hustého počátku, ale kam směřuje, je příběh teprve v polovině."
+        "heading": "Temné věky, první hvězdy a reionizace",
+        "body": "Po vzniku neutrálních atomů ještě vesmír postrádal hvězdy. Tomuto období říkáme **temné věky**. V hustších oblastech postupně rostla hala, rozsáhlé koncentrace temné hmoty, hromadil se plyn a vznikaly podmínky pro první hvězdy a galaxie.\n\nJejich energetické ultrafialové světlo postupně znovu oddělovalo elektrony od atomů vodíku v mezigalaktickém prostoru. Tento dlouhý přechod nazýváme **reionizace**. Látka už byla natolik řídká, že vesmír zůstal jako celek dobře průhledný pro mnoho druhů světla. Stopy této epochy hledáme ve spektrech vzdálených galaxií, v reliktním záření i v rádiovém signálu neutrálního vodíku."
+      },
+      {
+        "heading": "Kam do příběhu patří inflace",
+        "body": "[Kosmická inflace](https://kosmonovinky.cz/kosmopedie/co-je-kosmicka-inflace-a-jak-ji-muzeme-overovat.html) je hypotéza velmi raného prudkého rozpínání, která nabízí vysvětlení podobnosti vzdálených oblastí a původu prvotních nerovností. Její konkrétní podoby se testují pomocí měření.\n\nHorký model pak sleduje tvorbu částic a jader, ochlazování, vznik atomů a pozdější růst struktur. Dnešní otázky po temné hmotě, temné energii a [budoucnosti vesmíru](https://kosmonovinky.cz/kosmopedie/jak-muze-vesmir-skoncit.html) na tuto fyzikální historii navazují."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA: horký velký třesk](https://science.nasa.gov/universe/the-big-bang/)\n- [ESA: kosmické epochy, temné věky a reionizace](https://www.esa.int/Science_Exploration/Space_Science/Cosmic_eras)\n- [Particle Data Group 2025: lehké prvky a nejistoty](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf)\n- [Planck 2018: testy inflačních modelů](https://arxiv.org/abs/1807.06211)"
       }
     ],
-    "why_box": "Velký třesk je myšlenka, která člověka postaví před fakt neintuitivní: celý vesmír, každý atom ve vašem těle, každá hvězda, kterou jste kdy viděli, byly v jediném okamžiku stisnuty do prostoru menšího než zrnko písku. Vy jste zrozen z tohoto počátku – vodík ve vaší vodě vznikl ve chvílích po velkém třesku a těžší prvky ve hvězdách. Když se podíváte na reliktní záření v šumu staré televize, díváte se na světlo, které bylo na cestě předtím, než vznikla Země. To není metafora, to je měřitelný fakt.",
+    "why_box": "Horký model spojuje chemické složení, nejstarší pozorovatelné světlo a rozpínání do jedné ověřitelné historie. Díky němu můžeme porovnávat události z velmi rozdílných epoch.",
     "related_explainery": [
+      "jak-v-prvnich-minutach-vesmiru-vznikla-jadra-lehkych-prvku",
+      "co-je-kosmicka-inflace-a-jak-ji-muzeme-overovat",
       "co-je-reliktni-zareni",
-      "co-nam-rika-mapa-reliktniho-zareni",
-      "jak-vime-ze-temna-hmota-existuje"
+      "jak-vznikaji-galaxie",
+      "jaky-tvar-muze-mit-vesmir-a-je-konecny"
+    ],
+    "related_news": [
+      "2609.35941",
+      "https://www.sciencedaily.com/releases/2026/10/261001214012.htm"
     ]
   },
   {
     "id": "exp-018",
     "title": "Co je supermasivní černá díra v centru galaxie?",
-    "theme": "temna-dira-v-centru",
+    "theme": "cerne-diry",
     "description": "Supermasivní černá díra v centru galaxie: hmotnost miliard Sluncí, první fotografie z roku 2019 a jak ovlivňuje osud galaxií i hvězdného tvoření.",
     "published": "2026-10-18",
-    "updated": "2026-10-25",
+    "updated": "2026-10-28",
     "perex": "Téměř každá velká galaxie má ve středu supermasivní černou díru o hmotnosti milionů až miliard Sluncí. Naše Mléčná dráha není výjimkou: její střed ovládá Sagittarius A* o hmotnosti čtyř milionů Sluncí. Tyto černé díry vznikly zvláštně brzy a ovlivňují osud celých galaxií – včetně toho, zda v nich mohou vzniknout hvězdy a planety.",
     "sections": [
       {
@@ -720,43 +772,54 @@
       "co-je-cerna-dira-a-jak-vznika",
       "proc-maji-galaxie-spiralni-ramena",
       "co-je-temna-hmota"
-    ]
+    ],
+    "related_news": []
   },
   {
     "id": "exp-019",
     "title": "Co by se stalo bez temné hmoty?",
     "theme": "temna-hmota",
-    "description": "Bez temné hmoty by vesmír zůstal rovnoměrnou polévkou bez galaxií, hvězd a lidí. Proč je temná hmota neviditelným lešením vesmíru a co ukazují simulace.",
+    "description": "Jak by odebrání temné hmoty změnilo kosmologický výpočet? Proč záleží na zachovaných předpokladech a společném vysvětlení více měření?",
     "published": "2026-10-18",
-    "updated": "2026-10-18",
-    "perex": "Bez temné hmoty by vesmír zůstal rovnoměrnou, neprůhlednou polévkou – žádné galaxie, žádné hvězdy, žádné planety a žádní lidé. Temná hmota funguje jako neviditelné lešení: kolem jejích hustších míst se nabalovala běžná hmota, vznikly první hvězdy a nakonec i my. Že tomu tak je, dnes vědci dokazují počítačovými simulacemi, které vesmír bez temné hmoty nedokážou vytvořit.",
+    "updated": "2026-10-28",
+    "perex": "Temná hmota v základním modelu ovlivňuje rozpínání, pohyby i vznik galaxií. Při zkoumání vesmíru bez této složky musíme určit, co ostatního ponecháme stejné, a výsledný scénář porovnat s různými druhy pozorování.",
     "sections": [
       {
-        "heading": "Vesmír bez semínek",
-        "body": "Po velkém třesku nebyl vesmír úplně hladký – v reliktním záření jsou vidět drobné teplotní nerovnosti. Ale samy o sobě by nestačily. Plyn (běžná hmota) byl v raném vesmíru pevně svázán se světlem a nemohl se nikam hrnout – teprve po rekombinaci se vydal na vlastní cestu, a to s hustotními rozdíly řádově setiny procenta. Gravitace tak slabých nerovností sama nezachytila dostatečně rychle – vesmír se mezitím rozpínal a rozmazával je. Chyběl rám. Právě ten poskytla temná hmota: neinteraguje se světlem, takže nerovnosti v jejím rozložení zůstaly větší a začaly růst už dávno před rekombinací. Pokud v počítačových simulacích temnou hmotu zcela vynecháme, ukazuje se, že samotná hustota běžné hmoty nestačí k tomu, aby se z ní v rozumném čase zformovaly první galaxie."
+        "heading": "Proč porovnáváme vesmír s temnou hmotou a bez ní",
+        "body": "**Jakou úlohu temná hmota ve vesmíru hraje, můžeme zkoumat také porovnáním modelů s ní a bez ní.** Sledujeme například, jak se změní vznik galaxií, jejich pohyby nebo rozložení kosmických struktur. Rozdíly mezi výpočty pak porovnáváme s pozorováním a zjišťujeme, které vlastnosti skutečného vesmíru pomáhá temná hmota vysvětlit.\n\nPři takovém porovnání určujeme, které ostatní vlastnosti ponecháme stejné. Můžeme například zachovat obvyklou gravitaci a množství běžné hmoty a odebrat temnou hmotu. Jiný výsledek dá její nahrazení běžnou látkou nebo změna gravitačních pravidel."
       },
       {
-        "heading": "Žádné galaxie, žádné hvězdy",
-        "body": "Hvězdy vznikají, když se oblak plynu zhroutí pod vlastní hmotností. Ale k tomu potřebuje být oblak dostatečně hmotný a chladný – a právě to bez temných hal zajištěné není. Galaxie potřebují gravitační studnu, která plyn udrží pohromadě a přitáhne další; bez ní by se plyn v rozpínajícím se vesmíru prostě rozptýlil. První hvězdy by vznikly později, řidčeji a v menších počtech. Místo desítek miliard galaxií by vesmír obsahoval spíš obrovská řídká oblaka rozptýleného plynu s několika hvězdami. Slova galaxie bychom vlastně nepotřebovali – nebylo by co katalogizovat."
+        "heading": "Jak temná hmota pomáhá růstu struktur",
+        "body": "Před vznikem neutrálních atomů byla běžná látka silně provázána se zářením. Tlak a rozptyl světla ovlivňovaly její shlukování. Temná hmota v běžném modelu téměř není ovlivňována světlem a vytváří gravitační nerovnosti, do nichž se může později soustřeďovat plyn.\n\nPo ochlazení plyn v dostatečně hustých oblastech vytváří hvězdy. Temná hala tak pomáhají vysvětlit, jak mohly galaxie vyrůst z malých počátečních nerovností v dostupném kosmickém čase."
       },
       {
-        "heading": "I kdyby hvězdy vznikly, byl by to jiný svět",
-        "body": "Představme si, že by některé hvězdy přesto vznikly. Bez galaxií jako gravitačních domovů by se však pohybovaly volně vesmírem, obklopené temnotou. Vzácné hvězdné systémy by neměly stabilní prostředí pro vznik planet – planety vznikají z protoplanetárních disků kolem hvězd v klidných prostředích galaktických disků. A i kdyby planety existovaly, bylo by jich málo, stejně jako těžkých prvků: zlato, železo a uhlík vznikají především v hustém prostředí galaxií, kde se hmotné hvězdy rodí a umírají. Vesmír bez temné hmoty by byl světem osamělých hvězd bez planet, bez chemie a bez svědků."
+        "heading": "Co by se při odebrání temné hmoty změnilo",
+        "body": "Při zachování obvyklé gravitace a množství běžné hmoty by růst struktur měl jiné podmínky a jiný průběh. Výpočty by musely nově vysvětlit počet a vlastnosti galaxií, jejich pohyby a také vzor reliktního záření.\n\nVznik jednotlivé hvězdy nebo planetární soustavy závisí na místním plynu, jeho chladnutí a předchozím vývoji. Konkrétní počty a časy proto odvozujeme z celého zvoleného scénáře. Důležitou otázkou je současné vysvětlení všech pozorovaných vlastností vesmíru."
       },
       {
-        "heading": "Ještě horší: vesmír by se nedržel pohromadě",
-        "body": "Současné kupy galaxií jsou ohromné struktury – tisíce galaxií svázaných gravitací. Bez temné hmoty by však nevznikly: kupa galaxií je v podstatě obrovské halo temné hmoty, v níž viditelné galaxie tvoří jen špičku ledovce. Měření ukazují, že v kupách je temné hmoty zhruba osmkrát víc než běžné hmoty. Bez ní by galaxie kupami nebyly – rozpínání vesmíru by je před desítkami miliard let roztrhalo. Podobně by dopadly i jednotlivé galaxie: současné rotace ukazují, že viditelná hmota tvoří jen malou část hmotnosti; bez temné hmoty by se spirální disky rozpadly. Slovy jednoho astrofyzika: vesmír bez temné hmoty by byl jako stavba bez cementu – zdi sice stojí, ale nebudou držet pohromadě."
+        "heading": "Jak porovnáváme počítačové simulace s pozorováním vesmíru",
+        "body": "Počítačové simulace sledují gravitaci a pohyb hmoty, u běžné látky také plyn, hvězdnou tvorbu a energetickou zpětnou vazbu. Jejich výsledky se mění s počátečními podmínkami, fyzikálními předpisy i rozlišením výpočtu.\n\nModely s temnou hmotou dokážou popsat řadu vlastností galaxií a kosmické sítě. Přesnost se posuzuje porovnáním různých pozorovatelných veličin, od pohybů a čočkování po chemické složení. Práce na slabších místech simulací pokračuje."
       },
       {
-        "heading": "Proč je to důkaz, ne spekulace",
-        "body": "Tohle není jen filosofie. Současné superpočítačové simulace (například IllustrisTNG nebo EAGLE) dokážou z počátečních podmínek vesmíru vypěstovat přesně takový vesmír, jaký vidíme – galaxie, kupy, vlákna – ale jen tehdy, když do simulace zahrneme temnou hmotu. Pokud ji vynecháme, vznikne něco úplně jiného, co s realitou nesouhlasí. Navíc každá další generace simulací potvrzuje totéž: temná hmota není ozdobná hypotéza, ale nezbytná součást receptu. Odpověď na otázku, co by se stalo bez temné hmoty, proto zní: nic z toho, co známe. A to je silný důvod věřit, že tu je – drží vesmír pohromadě doslova od první chvíle."
+        "heading": "Proč zkoumáme i jiné možnosti",
+        "body": "Z pohybů galaxií a ohýbání světla gravitací zjišťujeme, kolik hmoty je potřeba k vysvětlení naměřených jevů a jak je rozložena. V modelu s temnou hmotou část tohoto působení připisujeme dosud neznámým částicím, které se vědci snaží zachytit. [Jiné teorie gravitace](https://kosmonovinky.cz/kosmopedie/lze-vysvetlit-pozorovani-bez-temne-hmoty.html) zkoumají, zda lze některá z těchto pozorování vysvětlit změnou gravitačních zákonů.\n\nKaždý úplný scénář má před sebou stejný úkol: vysvětlit společně galaxie, kupy, gravitační čočky, reliktní záření a jejich vývoj. Soubor těchto testů shrnuje [téma o důkazech temné hmoty](https://kosmonovinky.cz/kosmopedie/jak-vime-ze-temna-hmota-existuje.html)."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Planck 2018: obsah a vývoj kosmologického modelu](https://arxiv.org/abs/1807.06209)\n- [IllustrisTNG: popis kosmologických simulací](https://www.tng-project.org/about/)\n- [Famaey a McGaugh: alternativy a jejich testy](https://arxiv.org/abs/1112.3960)\n- [NASA: velkorozměrové struktury a kosmická síť](https://science.nasa.gov/universe/galaxies/large-scale-structures/)"
       }
     ],
-    "why_box": "Žijete v příběhu, který by bez temné hmoty vůbec nezačal. Váš domov – planeta – by nevznikl, protože by nevznikla hvězda Slunce, a ta by nevznikla, protože by neexistovala galaxie, která by ji zformovala. Temná hmota je neviditelné lešení, které bylo potřebné jen chvíli na začátku – a pak už ho šlo odstranit. Ale odstranit ho nejde: tvoří většinu hmotnosti vesmíru a drží pohromadě i vaši galaxii. Podívejte se večer na hvězdy – a uvědomte si, že je tam drží něco, co nikdo nikdy neviděl.",
+    "why_box": "Porovnání modelů vesmíru s temnou hmotou a bez ní pomáhá zjistit, jakou úlohu tato složka hraje při vzniku galaxií a jejich dalším vývoji. Úspěšný model musí společně vysvětlit jejich pohyby, gravitační čočkování i vlastnosti reliktního záření.",
     "related_explainery": [
-      "jak-vime-ze-temna-hmota-existuje",
       "co-je-temna-hmota",
-      "cim-by-temna-hmota-mohla-byt"
+      "jak-vime-ze-temna-hmota-existuje",
+      "lze-vysvetlit-pozorovani-bez-temne-hmoty",
+      "jak-vznikaji-galaxie",
+      "jak-experimenty-hledaji-castice-temne-hmoty"
+    ],
+    "related_news": [
+      "2610.36531",
+      "2610.18957"
     ]
   },
   {
@@ -876,37 +939,51 @@
     "id": "exp-023",
     "title": "Jak vznikají galaxie?",
     "theme": "galaxie",
-    "description": "Galaxie rostou jako kapky deště: kolem hustších míst temné hmoty se nabaluje plyn, vznikají hvězdy a malé galaxie se slévají do velkých. Včetně Mléčné dráhy.",
+    "description": "Galaxie rostou zhušťováním plynu, tvorbou hvězd a slučováním. Jak jejich vývoj souvisí s temnou hmotou a kosmickou sítí?",
     "published": "2026-10-18",
-    "updated": "2026-10-18",
-    "perex": "Galaxie nevznikly naráz – rostly jako kapky deště: kolem mírně hustších míst temné hmoty se postupně nabaloval plyn, vznikaly hvězdy a malé galaxie se slévaly do větších. Náš domov, Mléčná dráha, je výsledkem miliard let takového růstu a jeho stavba pokračuje dodnes – za čtyři miliardy let se sloučí s galaxií Andromeda.",
+    "updated": "2026-10-28",
+    "perex": "Galaxie rostou přísunem plynu, tvorbou hvězd a slučováním s dalšími soustavami. Jejich vývoj ovlivňují temná hmota, okolní prostředí i aktivita centrálních černých děr. Na větších měřítkách tvoří galaxie rozsáhlou kosmickou síť.",
     "sections": [
       {
         "heading": "Ze zrnka temné hmoty",
-        "body": "Po rekombinaci, kdy se vesmír stal průhledným, byly drobné hustotní nerovnosti v temné hmotě už patrné. Tam, kde byla temná hmota o něco hustší, působila gravitace silněji a přitahovala okolní temnou hmotu. Za stovky milionů let vznikly první temné hmotné halos – obrovské, neviditelné studny, do nichž začal z okolí padat plyn. Tento proces probíhal hierarchicky: nejdřív vznikly malá hala o hmotnosti milionů Sluncí, ta se postupně slévala do větších a větších. Výpočty ukazují, že dnešní obří galaxie vznikly z tisíců menších předchůdců. Vznik galaxie je vlastně příběhem o tom, jak gravitace z chaosu vytvoří řád."
+        "body": "Malé počáteční hustotní nerovnosti se působením gravitace zesilovaly. Temná hmota vytvářela hala, rozsáhlé koncentrace gravitačně působící hmoty, do nichž se postupně soustřeďoval plyn.\n\nKdyž plyn dokázal účinně chladnout a zhušťovat se, vznikaly hvězdy a první galaxie. Jejich další růst závisí na spojení gravitace, proudění plynu a energie uvolňované hvězdami a aktivními jádry."
       },
       {
         "heading": "Sběrači plynu",
-        "body": "Temná hmota sama galaxii nevytvoří – potřebuje plyn, z nějž vzniknou hvězdy. Když plyn padal do temných hal, zahříval se a svítil. Jádra galaxií vznikla tam, kde se plyn usadil nejrychleji a nejefektivněji. V raném vesmíru byl plyn chladný a hustý, takže galaxie vznikaly rychle – první už existovaly jen několik set milionů let po velkém třesku. Klíčovým okamžikem bylo zformování prvních hvězd: jejich světlo a výbuchy začaly ohřívat a ionizovat okolní plyn, což zbrzdilo další kolaps a regulovalo růst galaxií. Bez těchto výbuchů by galaxie spotřebovaly plyn příliš rychle a vyhořely by."
+        "body": "Plyn při pádu do gravitačních oblastí získává energii a může se zahřívat. Vyzařováním ji zase ztrácí, což umožňuje další zhuštění. V nejhustších oblastech se vytvářejí hvězdy.\n\nUltrafialové záření a hvězdné výbuchy mění teplotu, složení i pohyb okolního plynu. První galaxie tak přispívaly také k [reionizaci mezigalaktického vodíku](https://kosmonovinky.cz/kosmopedie/co-je-velky-tresk.html). Tato zpětná vazba reguluje zásoby plynu pro další hvězdnou tvorbu."
       },
       {
         "heading": "Malé se slévají, velké rostou",
-        "body": "Hierarchický model předpovídá, že velké galaxie rostou především slučováním menších. Důkazy vidíme všude: trpasličí galaxie, které obíhají kolem velkých a jsou jejich stavebními kameny; proudy hvězd rozpoutané slučováním; galaxie s více jádry – známkou nedávné srážky. Naše Mléčná dráha právě teď konzumuje trpasličí galaxie: proudy hvězd z rozebrané trpasličí galaxie Sagittarius jsou vidět i pouhým okem tmavé oblohy jako pás přes celou oblohu. Galaxie rostou kanibalismem – a tento proces nikdy nekončí."
+        "body": "Galaxie rostou přísunem plynu, vznikem hvězd i slučováním s jinými galaxiemi. Poměr těchto procesů se mění s hmotností, prostředím a epochou. Pozorujeme malé galaxie v okolí větších, soustavy s více jádry i hvězdné proudy po působení slapových sil.\n\nNaše Mléčná dráha postupně rozebírá trpasličí galaxii Sagittarius. Její rozsáhlé hvězdné proudy byly rozpoznány pomocí astronomických přehlídek a měření; odlišují se od jasného pásu Mléčné dráhy na noční obloze."
       },
       {
         "heading": "Role centrální černé díry",
-        "body": "Každá velká galaxie má ve středu supermasivní černou díru a její přítomnost ovlivňuje, jak galaxie roste. Když černá díra aktivně přijímá materiál, vydává obrovské množství energie – v podobě záření, výtrysků a výbuchů. Ty dokážou odhánět plyn z galaxie a zastavit zrod nových hvězd. Galaxie s velmi aktivní černou dírou proto často přestávají růst. Tato zpětná vazba je jedním z klíčů k pochopení, proč existují velké galaxie s málo hvězdami a malé galaxie s hodně hvězdami. Bez regulace by velké galaxie spotřebovaly veškerý plyn a byly by mnohem jasnější, než jaké pozorujeme."
+        "body": "Mnohé velké galaxie hostí ve středu supermasivní černou díru. Plyn padající do jejího okolí se zahřívá a může vyzařovat velké množství energie; aktivní jádro někdy vytváří i výtrysky.\n\nPředávání energie okolnímu plynu může ovlivnit jeho chladnutí a vznik hvězd. Síla a důsledky této zpětné vazby závisí na podmínkách konkrétní galaxie. Samostatně se jí věnuje [téma o supermasivních černých dírách](https://kosmonovinky.cz/kosmopedie/co-je-supermasivni-cerna-dira-v-centru-galaxie.html)."
+      },
+      {
+        "heading": "Jak galaxie tvoří kosmickou síť",
+        "body": "Galaxie se sdružují do skupin a kup a dále vytvářejí vlákna a stěny obklopující rozsáhlé řídké oblasti, označované jako **voidy**. Tuto strukturu nazýváme **kosmická síť**. Roste z počátečních nerovností působením gravitace a její vývoj závisí i na rozpínání.\n\nKupy mohou být gravitačně vázané jako celek. U větších seskupení, například nadkup, se jednotlivé části mohou dál vzájemně vzdalovat. Pozorované hranice struktur proto určujeme pomocí pohybů i rozložení hmoty.\n\nTrojrozměrné mapy sestavujeme z poloh galaxií a rudých posuvů. Jejich statistické vlastnosti zkoumají [Euclid](https://kosmonovinky.cz/kosmopedie/co-zkouma-kosmicky-dalekohled-euclid.html) a [DESI](https://kosmonovinky.cz/kosmopedie/co-je-desi-a-jak-mapuje-rozpinani-vesmiru.html). Kosmická síť zároveň ukazuje, jak může být vesmír místně členitý a na mnohem větších měřítkách přibližně stejnorodý."
       },
       {
         "heading": "Co ještě nevíme",
-        "body": "Přestože hierarchický model funguje, mnoho otázek zůstává otevřených. Nevíme přesně, jak rychle vznikaly první galaxie – data z teleskopu Jamese Webba ukazují, že některé první galaxie jsou větší a zralejší, než modely předpovídaly. Nevíme, proč některé galaxie zastavily růst a jiné pokračují. A nevíme, jak přesně vznikly supermasivní černé díry v jejich centrech. Vznik galaxií je živou oblastí výzkumu: každý nový teleskop, každá nová simulace přináší data, která nás nutí revidovat modely. To je ale dobré znamení – vesmír je složitější, než si umíme představit."
+        "body": "Vědci zkoumají, jak rychle vyrostly první galaxie, proč některé přestaly tvořit hvězdy a jak se vyvíjela jejich centrální černá díra. Pozorování Webbem a dalšími přístroji se porovnávají s modely světla hvězd, prachu a plynu.\n\nJasnost či chemické složení rané galaxie poskytují důležité údaje pro její historii. Přesná interpretace vyžaduje také vzdálenost, odhad hmotnosti a kontrolu dalších možných zdrojů záření."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA: velkorozměrové struktury](https://science.nasa.gov/universe/galaxies/large-scale-structures/)\n- [NASA: mapování kosmické sítě](https://science.nasa.gov/mission/hubble/science/science-highlights/mapping-the-cosmic-web/)\n- [ESA: vývoj struktur a první hvězdy](https://www.esa.int/Science_Exploration/Space_Science/Planck/History_of_cosmic_structure_formation)\n- [IllustrisTNG: modelování galaxií a zpětné vazby](https://www.tng-project.org/about/)"
       }
     ],
-    "why_box": "Mléčná dráha není dokončená stavba – je to galaxie v procesu. Právě teď se její hvězdný disk ohýbá srážkou s trpasličí galaxií Sagittarius a za čtyři miliardy let se sloučí s Andromedou. Když se díváte na noční oblohu, díváte se na dílo, které ještě není hotovo. A to je vzrušující: žijeme uvnitř stavby, která trvá miliardy let, a můžeme pozorovat, jak vzniká.",
+    "why_box": "Mléčná dráha se během miliard let proměňovala a její vývoj pokračuje. Hvězdné proudy, pohyby sousedních galaxií a rozložení plynu nám umožňují rekonstruovat tuto historii a porovnávat ji s modely vzniku kosmických struktur.",
     "related_explainery": [
-      "proc-maji-galaxie-spiralni-ramena",
-      "co-je-temna-hmota",
+      "co-je-velky-tresk",
+      "co-by-se-stalo-bez-temne-hmoty",
+      "co-zkouma-kosmicky-dalekohled-euclid",
+      "co-je-desi-a-jak-mapuje-rozpinani-vesmiru",
       "co-je-supermasivni-cerna-dira-v-centru-galaxie"
+    ],
+    "related_news": [
+      "2609.35941",
+      "2610.23806"
     ]
   },
   {
@@ -1040,7 +1117,7 @@
     "theme": "rozpinani-a-modely-vesmiru",
     "description": "Co znamenají písmena ΛCDM, proč model potřebuje temnou hmotu a temnou energii a které otázky zatím nechává otevřené?",
     "published": "2026-10-24",
-    "updated": "2026-10-25",
+    "updated": "2026-10-28",
     "perex": "ΛCDM je zkratka pro nejpoužívanější základní model vývoje vesmíru. Spojuje rozpínání kosmu, běžnou hmotu, chladnou temnou hmotu a temnou energii v podobě kosmologické konstanty. Mnoho pozorování vysvětluje společně, ale odpověď na všechno nemá.",
     "sections": [
       {
@@ -1049,7 +1126,7 @@
       },
       {
         "heading": "Víc než dvě neznámé složky",
-        "body": "Model obsahuje také běžnou hmotu, záření a neutrina. Opírá se o obecnou teorii relativity a předpoklad, že vesmír je na dostatečně velkých měřítkách přibližně stejnorodý a ve všech směrech podobný. Běžná základní verze navíc předpokládá prostorovou plochost.\n\nNejde o mapu každé jednotlivé galaxie. Je to rámec pro popis celkového rozpínání a růstu nerovnoměrností, z nichž vznikly galaxie a kosmická síť. Vznik hvězd a působení černých děr vyžadují další astrofyzikální modelování."
+        "body": "Model obsahuje také běžnou hmotu, záření a neutrina. Opírá se o obecnou teorii relativity a předpoklad, že vesmír je na dostatečně velkých měřítkách přibližně stejnorodý a ve všech směrech podobný. Tento předpoklad se nazývá **kosmologický princip**. Stejnorodost vyjadřuje podobnost průměrných vlastností na různých místech, izotropie podobnost v různých směrech. Běžná základní verze navíc předpokládá prostorovou plochost.\n\nNejde o mapu každé jednotlivé galaxie. Je to rámec pro popis celkového rozpínání a růstu nerovnoměrností, z nichž vznikly galaxie a kosmická síť. Vznik hvězd a působení černých děr vyžadují další astrofyzikální modelování."
       },
       {
         "heading": "Co se s pozorováním shoduje",
@@ -1058,7 +1135,7 @@
       },
       {
         "heading": "Co zůstává otevřené",
-        "body": "Stále neznáme částicovou podstatu temné hmoty ani hlubší vysvětlení kosmologické konstanty. Významnou zkouškou je také Hubbleovo napětí. Výsledky některých měření se s předpovědí základního modelu rozcházejí.\n\nJe důležité rozlišovat nevysvětlenou podstatu složky a konkrétní neshodu předpovědi s daty. To, že zatím nevíme, z čeho je temná hmota, samo o sobě nevyvrací pozorování jejích gravitačních účinků. Naopak skutečný a opakovaně potvrzený rozpor s daty by mohl vyžadovat úpravu modelu."
+        "body": "Stále neznáme částicovou podstatu temné hmoty ani hlubší vysvětlení kosmologické konstanty. Významnou zkouškou je také Hubbleovo napětí. Výsledky některých měření se s předpovědí základního modelu rozcházejí.\n\nTemnou hmotu v modelu používáme k vysvětlení gravitačních účinků, které pozorujeme například v pohybech galaxií a při ohýbání světla. Z jakých částic se skládá, vědci teprve zjišťují. Přesnost modelu ověřujeme porovnáváním jeho předpovědí s měřením. Pokud se určitá předpověď opakovaně rozchází se spolehlivými výsledky, hledáme příčinu rozdílu a zvažujeme, kterou část modelu je třeba upravit."
       },
       {
         "heading": "Proč se zkoumají alternativy",
@@ -2082,10 +2159,10 @@
   {
     "id": "exp-051",
     "title": "Může se temná energie měnit v čase?",
-    "theme": "rozpinani-a-modely-vesmiru",
+    "theme": "temna-energie",
     "description": "Kosmologická konstanta má stálou hustotu energie. Co kdyby se temná energie vyvíjela? Jak to měříme a co naznačují výsledky DESI?",
     "published": "2026-10-26",
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "perex": "Zrychlené rozpínání vesmíru lze v nejjednodušším modelu popsat kosmologickou konstantou. Fyzici ale zkoumají také možnost, že se temná energie během vývoje vesmíru mění. Rozdíl hledají v historii rozpínání a růstu kosmických struktur.",
     "sections": [
       {
@@ -2120,7 +2197,12 @@
       "co-znamena-model-cdm",
       "co-je-kvantove-vakuum",
       "jak-pozname-ktery-model-vesmiru-odpovida-merenim"
-    ]
+    ],
+    "related_news": [
+      "2610.13739",
+      "2610.23497"
+    ],
+    "related_news_note": "Tyto modelové práce navazují na otázku, jak může vývoj temné energie ovlivnit rozpínání a kosmologické testy."
   },
   {
     "id": "exp-052",
@@ -3380,5 +3462,346 @@
       "2610.18957"
     ],
     "related_news_note": "Novinky navazují na zkoumání hmotnosti a chování kup. Jejich konkrétní modelové závěry je třeba odlišovat od obecného argumentu, že pohyby prozrazují gravitačně působící hmotu."
+  },
+  {
+    "id": "exp-078",
+    "title": "Jaký tvar může mít vesmír a je konečný?",
+    "theme": "rozpinani-a-modely-vesmiru",
+    "description": "Křivost, konečnost a pozorovatelný vesmír: jak tyto otázky rozlišujeme a co o nich zjišťujeme z měření?",
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "perex": "Prostor může mít různou geometrii a různé celkové uspořádání. Kosmologové zkoumají jeho zakřivení, možnost konečného objemu i hranice toho, co můžeme pozorovat. K odpovědím využívají reliktní záření, rozložení galaxií a modely rozpínání.",
+    "sections": [
+      {
+        "heading": "Co znamená tvar prostoru",
+        "body": "Když se ptáme na tvar vesmíru, zajímá nás například to, jak v něm souvisejí vzdálenosti a úhly. Těmto vlastnostem říkáme **geometrie**. Na velkých měřítkách ji popisujeme pomocí prostorového zakřivení.\n\nZákladní modely vycházejí z **kosmologického principu**: dostatečně velké oblasti mají v průměru podobné vlastnosti na různých místech a v různých směrech. Umožňuje to zkoumat celkovou geometrii a rozpínání, zatímco jednotlivé galaxie a kupy popisujeme podrobněji."
+      },
+      {
+        "heading": "Tři možnosti prostorové křivosti",
+        "body": "V **plochém prostoru** platí na velkých měřítkách známá geometrie: součet úhlů trojúhelníku tvořeného nejpřímějšími drahami je 180 stupňů. Při **kladném zakřivení** může být větší; při **záporném** menší. Na malém výseku i velmi rozsáhlého zakřiveného prostoru mohou být rozdíly nepatrné.\n\nPovrch koule, rovina a sedlo nabízejí dvourozměrné pomůcky pro tyto vztahy. Skutečný prostor má tři rozměry. Jeho křivost určujeme z měření uvnitř prostoru; obrázky pomáhají představit si její účinky.\n\nV obvyklém kosmologickém členění se modelům s kladnou křivostí říká **uzavřené**, s nulovou **ploché** a se zápornou **otevřené**. Jejich celkovou konečnost dále upřesňuje topologie."
+      },
+      {
+        "heading": "Jak může být prostor konečný a bez okraje",
+        "body": "Povrch koule má konečnou plochu a při cestě po něm nenarazíme na okraj. Podobně lze v matematice popsat trojrozměrný prostor s konečným objemem a bez hranice.\n\nO celkovém propojení prostoru rozhoduje **topologie**. Představme si jako pomůcku plochou herní mapu, na které se po opuštění jednoho okraje objevíme na protějším: body obou okrajů jsou propojené. I plochý prostor tak může mít konečný objem. Geometrie a topologie jsou dvě vlastnosti, které společně určují, jaké celkové uspořádání připadá v úvahu."
+      },
+      {
+        "heading": "Co nám řekne světlo z dávného vesmíru",
+        "body": "Ve vzoru [reliktního záření](https://kosmonovinky.cz/kosmopedie/co-nam-rika-mapa-reliktniho-zareni.html) rozpoznáváme charakteristická úhlová měřítka. Jejich porovnání s výpočty raného vesmíru a s rozložením galaxií pomáhá určit prostorovou křivost. Kombinace měření reliktního záření družicí Planck a údajů o rozložení galaxií ukazuje, že prostorová křivost vesmíru je blízká nule. Výsledky tak dobře odpovídají modelu s plochým prostorem.\n\nVýsledek vždy doprovází nejistota a předpoklady použitého modelu. Celkové propojení prostoru vědci zkoumají také hledáním shodných vzorů v mapě reliktního záření. V některých modelech konečného vesmíru by k nám světlo ze stejné oblasti mohlo dorazit různými cestami, takže by se její obraz na obloze opakoval. Dosavadní měření ponechávají otázku konečnosti celého vesmíru otevřenou."
+      },
+      {
+        "heading": "Jak velká část vesmíru je pozorovatelná",
+        "body": "**Pozorovatelný vesmír** zahrnuje místa, odkud k nám od raných epoch stihlo dorazit světlo či jiný signál. Protože se prostor během jeho cesty rozpínal, jsou dnešní vzdálenosti těchto míst větší než součin doby letu a rychlosti světla. V základním modelu vychází dnešní poloměr pozorovatelné oblasti přibližně **46 miliard světelných let**, zatímco stáří vesmíru činí asi 13,8 miliardy let.\n\nČásticový horizont vymezuje dosah dosavadního šíření signálu. Kosmologický horizont událostí, pokud jej daný model má, souvisí s tím, odkud k nám ještě mohou dorazit signály vyslané nyní. Závisí také na budoucím rozpínání. Schéma odděluje tyto dvě otázky; převod rudého posuvu na dobu letu a dnešní vzdálenost rozvíjí [samostatné téma s příklady](https://kosmonovinky.cz/kosmopedie/jak-velky-je-rudy-posuv-priklady-a-vypocty.html).",
+        "image_id": "schema-pozorovatelny-vesmir-otazky"
+      },
+      {
+        "heading": "Jak tvar souvisí s budoucností",
+        "body": "Budoucí rozpínání závisí současně na geometrii, obsahu vesmíru a vlastnostech temné energie. Vědci proto posuzují různé kombinace těchto předpokladů. Scénáře postupného vyhasínání, smršťování či rozpadu struktur vysvětluje [téma o možném konci vesmíru](https://kosmonovinky.cz/kosmopedie/jak-muze-vesmir-skoncit.html)."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Planck 2018: kosmologické parametry a prostorová křivost](https://arxiv.org/abs/1807.06209)\n- [Planck: geometrie a topologie vesmíru](https://doi.org/10.1051/0004-6361/201321546)\n- [NASA: velikost pozorovatelného vesmíru](https://www.nasa.gov/science-research/astrophysics/how-big-is-space-we-asked-a-nasa-expert-episode-61/)\n- [Davis a Lineweaver: kosmologické horizonty a rozpínání](https://arxiv.org/abs/astro-ph/0310808)"
+      }
+    ],
+    "why_box": "Otázky ohledně křivosti prostoru, celkové velikosti vesmíru a dosahu našeho pozorování spolu souvisejí, ale každá se týká jiné vlastnosti. Jejich rozlišení pomáhá pochopit, co nám měření říkají o tvaru a velikosti vesmíru.",
+    "related_explainery": [
+      "co-znamena-model-cdm",
+      "jak-velky-je-rudy-posuv-priklady-a-vypocty",
+      "co-zmerila-druzice-planck",
+      "jak-alexandr-friedmann-ukazal-ze-se-vesmir-muze-menit",
+      "jak-muze-vesmir-skoncit"
+    ],
+    "related_news": [
+      "2610.12418v1",
+      "2610.11269"
+    ],
+    "related_news_note": "První novinka se věnuje hledání kosmické topologie v reliktním záření; druhá zkoumá alternativní geometrický model rozpínání."
+  },
+  {
+    "id": "exp-079",
+    "title": "Jak může vesmír skončit?",
+    "theme": "rozpinani-a-modely-vesmiru",
+    "description": "Big Freeze, Big Crunch a Big Rip: co by vedlo k různým budoucnostem vesmíru a jakou roli hraje temná energie?",
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "perex": "Vzdálenou budoucnost vesmíru odhadujeme z jeho rozpínání, složení a fyzikálních zákonů. Základní model ΛCDM vede k pokračujícímu rozpínání a postupnému vyhasínání. Jiné předpoklady o temné energii připouštějí také obrat ke smršťování nebo rozpad vázaných struktur.",
+    "sections": [
+      {
+        "heading": "Co znamená konec vesmíru",
+        "body": "V kosmologii tím můžeme myslet velmi různé děje: postupné vyčerpání možností pro vznik hvězd, zhroucení prostoru do hustého stavu nebo hypotetickou hranici, na níž model přestane dávat fyzikální smysl. Každý scénář vychází z určitého dalšího vývoje.\n\nDnes pozorujeme rozpínání, jehož pozdní zrychlování popisujeme pomocí [temné energie](https://kosmonovinky.cz/kosmopedie/co-je-temna-energie-a-jak-se-lisi-od-temne.html). Pro výpočet velmi vzdálené budoucnosti musíme předpokládat, jak se tato složka bude chovat i v dalších epochách."
+      },
+      {
+        "heading": "Big Freeze: postupné vyhasínání",
+        "body": "Jestliže kosmologická konstanta zůstane kladná a její hustota energie stálá, bude se vesmír podle základního ΛCDM dál zrychleně rozpínat. Gravitačně nevázané oblasti se budou oddělovat a záření v rozpínajícím se prostoru bude chladnout.\n\nHvězdám postupně dojde palivo a zásoby plynu pro další hvězdnou tvorbu se ztenčí.\n\nPo hvězdách zůstanou bílí trpaslíci, neutronové hvězdy a černé díry, vedle nich také chladnoucí planety a další menší tělesa. Část těchto objektů může časem splynout nebo skončit v černých dírách. Ty podle teorie [Hawkingova záření](https://kosmonovinky.cz/kosmopedie/mohou-cerne-diry-vymirat-hawkingovo-zareni.html) postupně ztrácejí hmotnost a na nepředstavitelně dlouhých časových škálách se vypařují.\n\nV obvyklém scénáři tak vzdálené budoucnosti zbývá stále řidší směs záření a rozptýlených částic. Osud zbývající hmoty závisí také na životnosti protonů: pokud se rozpadají, postupně zaniknou i tělesa, která jsou z nich složena. Pokud jsou stabilní, mohou některé chladné pozůstatky přetrvávat mnohem déle. Vesmír postupně směřuje ke stavu s velmi omezenými možnostmi dalších dějů, jako je vznik a svícení hvězd.\n\nOznačení **Big Freeze**, velké ochlazení, vyjadřuje tento dlouhý vývoj k řídkému, málo aktivnímu vesmíru. **Tepelná smrt** zdůrazňuje úbytek využitelných rozdílů teplot a dalších zdrojů práce."
+      },
+      {
+        "heading": "Big Crunch: obrat ke smršťování",
+        "body": "Některé modely připouštějí, že se rozpínání zastaví a měřítko vesmíru začne klesat. S rostoucí průměrnou hustotou se záření zahřívá a vývoj směřuje k hustému stavu. Tento scénář se nazývá **Big Crunch**, velké smrštění.\n\nMůže nastat například v některých modelech, kde se temná energie v budoucnu výrazně změní. Základní model s dnešní kladnou kosmologickou konstantou k takovému obratu nevede. Výpočty případného odrazu po smršťování vyžadují další předpoklady o fyzice při extrémních hustotách."
+      },
+      {
+        "heading": "Big Rip: když růst hustoty energie rozruší struktury",
+        "body": "Ve zvláštním scénáři zvaném **Big Rip** hustota temné energie během rozpínání roste. Její účinek může postupně překonat vazby držící pohromadě kupy, galaxie a nakonec i menší soustavy.\n\nZnámý jednoduchý příklad používá stálou hodnotu **w menší než −1**, kde w vyjadřuje poměr tlaku k hustotě energie. Při zachování tohoto chování model dosáhne extrémního rozpínání v konečném čase. Vlastnosti w a jejich měření přibližuje [téma o proměnlivé temné energii](https://kosmonovinky.cz/kosmopedie/muze-se-temna-energie-menit-v-case.html).\n\nPři Big Freeze hvězdy postupně vyhasínají a vesmír chladne; samotné rozpínání přitom neroztrhá gravitačně vázané soustavy, například galaxie nebo planetární systémy. Při Big Rip účinek temné energie naopak zesílí natolik, že postupně rozruší i tyto soustavy a v krajním případě také atomy. Rozdíl tedy spočívá v postupném vyhasínání a řídnutí oproti rozpadu samotných struktur."
+      },
+      {
+        "heading": "Co můžeme rozhodnout měřením",
+        "body": "Supernovy, rozložení galaxií a reliktní záření omezují dosavadní historii rozpínání. Porovnáním různých období zjišťujeme, zda je temná energie slučitelná s konstantou, nebo zda se objevují známky jejího vývoje.\n\nPředpověď vzdáleného konce závisí na pokračování tohoto vývoje daleko za dobu dostupnou pozorování. Vědecky užitečné je proto porovnávat konkrétní scénáře a jejich podmínky."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA: temná energie a budoucnost rozpínání](https://science.nasa.gov/dark-energy/)\n- [Caldwell, Kamionkowski a Weinberg: původní práce o Big Rip](https://arxiv.org/abs/astro-ph/0302506)\n- [Adams a Laughlin: dlouhodobý vývoj hvězd a vesmíru](https://arxiv.org/abs/astro-ph/9701131)\n- [Planck 2018: referenční kosmologický model](https://arxiv.org/abs/1807.06209)"
+      }
+    ],
+    "why_box": "Budoucnost vesmíru propojuje měření dnešního rozpínání s otázkou, jak se bude chovat temná energie. Každý scénář konce je výsledkem konkrétních předpokladů, které můžeme postupně zpřesňovat.",
+    "related_explainery": [
+      "jaky-tvar-muze-mit-vesmir-a-je-konecny",
+      "co-je-temna-energie-a-jak-se-lisi-od-temne",
+      "muze-se-temna-energie-menit-v-case",
+      "co-znamena-model-cdm",
+      "mohou-cerne-diry-vymirat-hawkingovo-zareni"
+    ],
+    "related_news": [
+      "2610.13739",
+      "2609.31113"
+    ],
+    "related_news_note": "Odkazované práce zkoumají možné chování temné energie. Jejich scénáře ukazují důsledky zvolených modelů a podněcují další měření."
+  },
+  {
+    "id": "exp-080",
+    "title": "Jak poznáme, že se rozpínání vesmíru zrychluje?",
+    "theme": "temna-energie",
+    "description": "Jak z jasností supernov a rudých posuvů odvozujeme historii rozpínání a jak výsledek ověřují další kosmologická měření?",
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "perex": "Světlo vzdálených objektů ukazuje vesmír v různých obdobích jeho historie. Porovnáním jejich jasností, rudých posuvů a dalších měření vědci zjišťují, jak se rozpínání měnilo. Pozorování podporují přechod od dřívějšího zpomalování k pozdějšímu zrychlování.",
+    "sections": [
+      {
+        "heading": "Jakou změnu vlastně hledáme",
+        "body": "Představme si dvě dostatečně vzdálená místa, která se účastní průměrného kosmického rozpínání. Při zrychleném rozpínání roste jejich vzájemná vzdálenost ve stejně dlouhých časových úsecích o stále větší přírůstky. Schéma tuto myšlenku ilustruje.\n\nU skutečného vesmíru zkoumáme vývoj z časově vzdálených pozorování: světlo bližšího a vzdálenějšího zdroje vypovídá o jiných epochách. [Hubbleova konstanta H₀](https://kosmonovinky.cz/kosmopedie/co-je-hubbleova-konstanta.html) naproti tomu shrnuje dnešní tempo rozpínání. K odhalení zrychlování potřebujeme průběh celé části jeho historie."
+      },
+      {
+        "heading": "Dvě vlastnosti světla jedné supernovy",
+        "body": "Supernova typu Ia je termonukleární výbuch bílého trpaslíka. Z jejího spektra získáme **rudý posuv**, který udává prodloužení vlnových délek světla. Z průběhu jasnosti a barev odhadujeme její skutečný světelný výkon a porovnáváme jej se světlem zachyceným na Zemi.\n\nSlabší světlo může odpovídat větší vzdálenosti, ale také menší svítivosti nebo prachu v cestě. Proto se supernovy **standardizují**: opravujeme jejich rozdílné vlastnosti a účinky, které ovlivňují pozorovanou jasnost. Jednotlivé kroky vyžadují kalibraci a odhad nejistot."
+      },
+      {
+        "heading": "Co ukázal soubor vzdálených výbuchů",
+        "body": "Pro různé historie rozpínání umíme vypočítat vztah mezi rudým posuvem a pozorovanou jasností standardizovaných supernov. Naměřené body pak porovnáváme s těmito předpověďmi.\n\nNa konci devadesátých let astronomové zjistili, že vzdálené supernovy jsou v průměru méně jasné, než pro jejich naměřený rudý posuv předpovídaly tehdy zvažované modely se zpomalujícím rozpínáním a bez kosmologické konstanty. Lepší shodu s měřením poskytly modely s pozdním zrychlováním rozpínání. Na výsledku se podílely dvě spolupráce; jejich příběhy vysvětlují témata o [Perlmutterovi](https://kosmonovinky.cz/kosmopedie/jak-saul-perlmutter-a-jeho-tym-hledali-zrychlene-rozpinani-vesmiru.html), [Schmidtovi](https://kosmonovinky.cz/kosmopedie/jak-brian-schmidt-a-jeho-tym-overovali-ze-se-rozpinani.html) a [Riessovi](https://kosmonovinky.cz/kosmopedie/jak-adam-riess-pomohl-odhalit-zrychlene-rozpinani-vesmiru.html)."
+      },
+      {
+        "heading": "Jak prověřujeme další vysvětlení slabšího světla",
+        "body": "Vědci kontrolují barvy supernov, vlastnosti jejich hostitelských galaxií, přesnost fotometrie a výběr pozorovaných událostí. Zvlášť důležité je ověřit, zda se blízké a vzdálené supernovy porovnávají stejným způsobem.\n\nPři vyhodnocení vědci zohledňují zeslabení světla prachem, rozdíly mezi samotnými supernovami a přesnost nastavení měřicích přístrojů. Každý z těchto kroků má určitou nejistotu, která ovlivňuje přesnost odvozených vzdáleností a závěrů o rozpínání vesmíru. Rozsáhlejší soubory a více přístrojů umožňují postupy navzájem prověřovat a hledat společné posuny měření."
+      },
+      {
+        "heading": "Proč přidáváme mapy galaxií a reliktní záření",
+        "body": "Rozložení galaxií uchovává charakteristické měřítko vzniklé působením dávných zvukových vln. Jeho pozorovaná velikost v různých epochách poskytuje další údaje o historii rozpínání. Tuto metodu využívá [DESI](https://kosmonovinky.cz/kosmopedie/co-je-desi-a-jak-mapuje-rozpinani-vesmiru.html).\n\n[Reliktní záření měřené Planckem](https://kosmonovinky.cz/kosmopedie/co-zmerila-druzice-planck.html) přidává informace o raných podmínkách. Společné vyhodnocení různých dat zpřesňuje obsah a vývoj vesmíru. Zrychlování v základním modelu vysvětluje kosmologická konstanta; možnost její náhrady proměnlivou složkou zkoumá [téma o vývoji temné energie](https://kosmonovinky.cz/kosmopedie/muze-se-temna-energie-menit-v-case.html)."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Riess a kol.: pozorovací důkazy ze supernov, 1998](https://arxiv.org/abs/astro-ph/9805201)\n- [Perlmutter a kol.: analýza 42 vzdálených supernov, 1999](https://arxiv.org/abs/astro-ph/9812133)\n- [NASA: temná energie a metody jejího zkoumání](https://science.nasa.gov/dark-energy/)\n- [DESI: historie rozpínání a spojení různých měření](https://www.desi.lbl.gov/2025/03/19/more-than-a-hint-of-evolving-dark-energy-new-results-and-data-from-desi/)"
+      }
+    ],
+    "why_box": "Zrychlování rozpínání odvozujeme z porovnání světla a vzdáleností v různých epochách. Supernovy, galaxie a reliktní záření poskytují odlišné údaje, které společně prověřují historii vesmíru.",
+    "related_explainery": [
+      "co-je-temna-energie-a-jak-se-lisi-od-temne",
+      "muze-se-temna-energie-menit-v-case",
+      "co-je-hubbleova-konstanta",
+      "co-je-desi-a-jak-mapuje-rozpinani-vesmiru",
+      "jak-saul-perlmutter-a-jeho-tym-hledali-zrychlene-rozpinani-vesmiru",
+      "jak-adam-riess-pomohl-odhalit-zrychlene-rozpinani-vesmiru"
+    ],
+    "related_news": [
+      "2610.36051",
+      "2610.23657"
+    ],
+    "related_news_note": "Nové soubory měření supernov zpřesňují vztah mezi jasností, vzdáleností a rudým posuvem. Zároveň umožňují ověřit, zda používaný postup určování vzdáleností nevede k jejich soustavnému nadhodnocování nebo podhodnocování."
+  },
+  {
+    "id": "exp-081",
+    "title": "Co je kosmická inflace a jak ji můžeme ověřovat?",
+    "theme": "velky-tresk",
+    "description": "Co vysvětluje hypotéza rané inflace a jak její předpovědi zkoušíme pomocí reliktního záření a rozložení galaxií?",
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "perex": "Kosmická inflace je hypotéza velmi rané fáze prudkého rozpínání. Nabízí vysvětlení podobných podmínek ve vzdálených částech vesmíru i původu malých nerovností, z nichž vyrostly galaxie. Její různé podoby vědci porovnávají s měřením reliktního záření a kosmických struktur.",
+    "sections": [
+      {
+        "heading": "Proč vznikla myšlenka raného rychlého rozpínání",
+        "body": "[Reliktní záření](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html) má v různých směrech téměř stejnou teplotu. Při zpětném výpočtu jednoduchého horkého modelu se ale dostáváme k oblastem, které by si před vznikem tohoto světla nestačily vyměnit signál. Inflace nabízí vysvětlení: pozorovatelné oblasti mohly původně patřit k menší oblasti se společnou fyzikální historií.\n\nNásledný rychlý růst měřítek je od sebe oddělil. Prudké rozpínání během inflace zároveň způsobuje, že se původně zakřivený prostor v námi pozorované oblasti jeví téměř plochý. Podobně nám malý výsek povrchu obrovské koule připadá rovný. **Prostorová křivost** popisuje, jak se geometrické vztahy, například mezi úhly a stranami trojúhelníků, liší od geometrie rovného prostoru. Podrobněji ji vysvětluje [téma o tvaru a konečnosti vesmíru](https://kosmonovinky.cz/kosmopedie/jaky-tvar-muze-mit-vesmir-a-je-konecny.html)."
+      },
+      {
+        "heading": "Jak by taková fáze mohla probíhat",
+        "body": "V mnoha modelech inflaci pohání **pole**, jehož energie po určitou dobu převažuje nad ostatním obsahem. Pole si můžeme představit jako fyzikální veličinu s hodnotou v každém místě; jeho konkrétní částicová podstata se zkoumá.\n\nPo skončení této fáze se energie pole může přeměnit na částice a záření. Následuje horká fáze vývoje s pozdější tvorbou lehkých jader. Raná inflace a dnešní zrychlování rozpínání patří k velmi rozdílným epochám a energetickým podmínkám.\n\nK průkopníkům inflačních scénářů patří Alexej Starobinskij, Alan Guth a Andrej Linde. Jejich návrhy a další práce rozvinuly více možností, jak by tato raná fáze mohla probíhat."
+      },
+      {
+        "heading": "Jak vzniknou zárodky budoucích struktur",
+        "body": "Kvantové vlastnosti polí mohou během inflace vytvářet drobné rozdíly, které se rychlým rozpínáním přenesou na velká prostorová měřítka. V dalším vývoji se projeví jako malé rozdíly hustoty a teploty.\n\nGravitace pak podporuje růst hustších oblastí. Z tohoto společného začátku odvozujeme předpovědi pro mapu reliktního záření a pro pozdější rozložení galaxií. Zásadní je **vzor nerovností na různých měřítkách**, který lze měřit a porovnávat s konkrétním modelem."
+      },
+      {
+        "heading": "Co už můžeme porovnat s daty",
+        "body": "Výsledky družice Planck jsou slučitelné s řadou jednoduchých inflačních modelů a některé jiné modely výrazně omezují. Porovnává se například změna síly počátečních nerovností s velikostí jejich měřítka a vlastnosti jejich statistického rozdělení.\n\nDůležitým cílem je také hledání prvotních gravitačních vln v **polarizaci reliktního záření**, tedy ve vzoru orientací jeho elektrického pole. Naměřenou polarizaci reliktního záření ovlivňuje také záření mezihvězdného prachu a gravitační čočkování, které mění směr přicházejícího světla. Vědci tyto vlivy při vyhodnocení oddělují, aby zjistili, jak silný signál prvotních gravitačních vln se ještě může v datech skrývat."
+      },
+      {
+        "heading": "Jaký výsledek by znamenal další pokrok",
+        "body": "Přesnější měření mohou rozlišit modely, které dnes dávají velmi podobné předpovědi. K přesvědčivému výsledku patří soulad různých frekvencí, přístrojů a způsobů odstranění rušení.\n\nInflace dnes představuje rozpracovaný fyzikální rámec s měřitelnými důsledky. Identita pole, přesný průběh a začátek této fáze zůstávají otevřenými otázkami. Horkou ranou fázi vesmíru a průběh [jaderných reakcí v prvních minutách](https://kosmonovinky.cz/kosmopedie/jak-v-prvnich-minutach-vesmiru-vznikla-jadra-lehkych-prvku.html) ověřujeme také porovnáním vypočteného množství lehkých prvků s jejich zastoupením ve vesmíru."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Guth: původní inflační návrh, 1981](https://doi.org/10.1103/PhysRevD.23.347)\n- [Planck 2018: omezení inflačních modelů](https://arxiv.org/abs/1807.06211)\n- [BICEP/Keck: referenční meze prvotních gravitačních vln, 2021](https://arxiv.org/abs/2110.00483)\n- [MIT: Guth, Linde a Starobinskij a vývoj inflační teorie](https://news.mit.edu/2014/alan-guth-shares-1-million-kavli-prize-astrophysics)"
+      }
+    ],
+    "why_box": "Inflace spojuje velmi ranou fyziku s měřitelným uspořádáním dnešního vesmíru. Právě předpovědi pro různé druhy pozorování umožňují jednotlivé inflační modely prověřovat.",
+    "related_explainery": [
+      "co-je-velky-tresk",
+      "co-nam-rika-mapa-reliktniho-zareni",
+      "co-je-kvantova-gravitace-a-proc-ji-hledame",
+      "jaky-tvar-muze-mit-vesmir-a-je-konecny",
+      "jak-v-prvnich-minutach-vesmiru-vznikla-jadra-lehkych-prvku"
+    ],
+    "related_news": [
+      "2610.28608v1",
+      "2610.02301"
+    ],
+    "related_news_note": "Jedna novinka rozvíjí teoretické výpočty inflace, druhá řeší čištění polarizačních dat potřebných pro hledání jejího možného gravitačního signálu."
+  },
+  {
+    "id": "exp-082",
+    "title": "Jak v prvních minutách vesmíru vznikla jádra lehkých prvků?",
+    "theme": "velky-tresk",
+    "description": "Jak vznikly deuterium a helium, proč jaderné reakce ustaly a co nám měření lehkých prvků říká o raném vesmíru?",
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "perex": "V prvních minutách horkého vesmíru se protony a neutrony spojovaly do lehkých jader. Výsledkem byl především vodík a helium, doplněné stopami dalších lehkých izotopů. Výpočty jejich zastoupení dnes porovnáváme s pozorováním velmi staré a málo chemicky obohacené látky.",
+    "sections": [
+      {
+        "heading": "Z jakých částic začínáme",
+        "body": "Počáteční horká látka obsahovala protony, neutrony, elektrony, neutrina a záření. Proton je jádro nejběžnějšího vodíku. Spojením protonů a neutronů mohou vzniknout složitější atomová jádra.\n\nS ochlazováním se měnil poměr protonů a neutronů. Volné neutrony se také rozpadají. Kolik jich zůstalo do začátku účinné tvorby jader, ovlivňuje výsledné množství helia. Celý soubor těchto raných reakcí označujeme jako **prvotní nukleosyntézu**."
+      },
+      {
+        "heading": "Proč bylo nutné počkat na deuterium",
+        "body": "Proton a neutron mohou vytvořit **deuterium**, těžší podobu vodíku. Jeho jádro obsahuje jeden proton a jeden neutron. V příliš horkém prostředí však početné energetické fotony čerstvá jádra deuteria rychle rozbíjejí.\n\nTeprve po dalším ochlazení může deuterium přežívat dostatečně dlouho a navazují další jaderné reakce. Většina dostupných neutronů se nakonec váže v jádrech **helia-4**, tvořených dvěma protony a dvěma neutrony. Schéma ukazuje zjednodušenou návaznost reakcí."
+      },
+      {
+        "heading": "Jaká směs po prvních minutách zůstala",
+        "body": "V běžné hmotě vzniklé touto cestou připadá přibližně **tři čtvrtiny hmotnosti na vodík a čtvrtina na helium**. V malém množství zůstává deuterium, helium-3 a lithium-7, jehož část vzniká pozdější přeměnou beryllia-7.\n\nPokračující rozpínání snižuje teplotu a hustotu, takže se jaderné reakce postupně utlumí. Tvorbě velkého množství těžších jader brání i vlastnosti lehkých jader a krátká doba příznivých podmínek. Pozdější vznik uhlíku, kyslíku a těžkých prvků probíhá ve hvězdách a dalších událostech; navazuje [téma o původu těžkých prvků](https://kosmonovinky.cz/kosmopedie/jak-vznikly-tezke-prvky-ve-vesmiru.html)."
+      },
+      {
+        "heading": "Jak porovnáváme výpočty s pozorováním",
+        "body": "Astronomové hledají látku, jejíž složení co nejméně změnily předchozí generace hvězd. Deuterium lze měřit v absorpčních čarách vzdálených plynných oblaků, helium ve světle vhodných plynných oblastí. Model musí zahrnout podmínky, za kterých čáry vznikají.\n\nZastoupení deuteria silně závisí na hustotě běžné hmoty v raném vesmíru. Porovnání s hustotou odvozenou z reliktního záření propojuje dvě různá období kosmických dějin. Množství deuteria a helia poskytuje významnou oporu horkému modelu."
+      },
+      {
+        "heading": "Co znamená lithiový problém",
+        "body": "U velmi starých hvězd se odvozuje méně lithia-7, než předpovídá základní výpočet při hustotě běžné hmoty určené jinými daty. Tento rozdíl se nazývá **lithiový problém**.\n\nVědci zkoumají, jak se lithium ve hvězdách ničí nebo přesouvá pod povrch, jak přesně se určuje z jejich spekter a zda je třeba upravit vstupy jaderných reakcí či další fyziku. Síla jednotlivých testů proto závisí na tom, který prvek a které nejistoty právě porovnáváme. Vznik neutrálních atomů následoval až mnohem později, přibližně 380 tisíc let po počátku horkého vývoje."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Particle Data Group, aktualizace 2025: prvotní nukleosyntéza](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf)\n- [NASA WMAP: lehké prvky jako test horkého vesmíru](https://map.gsfc.nasa.gov/universe/bb_tests_ele.html)\n- [NASA: horký vývoj vesmíru a hlavní epochy](https://science.nasa.gov/universe/the-big-bang/)\n- [Planck 2018: hustota běžné hmoty odvozená z reliktního záření](https://arxiv.org/abs/1807.06209)"
+      }
+    ],
+    "why_box": "Poměry lehkých prvků uchovávají zprávu o době, kdy ještě neexistovaly hvězdy. Jejich porovnání s reliktním zářením ověřuje společný popis dvou velmi odlišných epoch vesmíru.",
+    "related_explainery": [
+      "co-je-velky-tresk",
+      "jak-vznikly-tezke-prvky-ve-vesmiru",
+      "jak-ze-svetla-pozname-chemicke-slozeni-vesmiru",
+      "co-je-reliktni-zareni",
+      "co-zmerila-druzice-planck"
+    ],
+    "related_news": [
+      "2609.13140",
+      "https://www.sciencedaily.com/releases/2026/09/260930225443.htm"
+    ],
+    "related_news_note": "Měření prvotního helia navazuje na testy prvních minut. Výzkum chemického obohacení mladých galaxií pak sleduje pozdější působení hvězd."
+  },
+  {
+    "id": "exp-083",
+    "title": "Jak zkoumáme atmosféry exoplanet?",
+    "theme": "exoplanety",
+    "description": "Jak přechody a zákryty planet odhalují složení jejich atmosfér a jak oddělujeme slabý planetární signál od světla hvězdy?",
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "perex": "Atmosféru exoplanety zkoumáme podle toho, jak mění světlo hvězdy nebo jaké záření sama planeta vysílá. Spektra pomáhají určit přítomné plyny, teplotu i vliv oblaků. Výsledek vzniká porovnáním opakovaných měření s fyzikálními modely atmosféry.",
+    "sections": [
+      {
+        "heading": "Když světlo projde okrajem atmosféry",
+        "body": "Při **tranzitu**, přechodu planety před hvězdou, zakryje planeta malou část hvězdného kotouče. Část světla zároveň projde okrajovými vrstvami její atmosféry. Plyny pohlcují různé vlnové délky různě silně.\n\nAstronomové proto měří hloubku poklesu jasnosti v mnoha vlnových délkách. Tam, kde atmosféra více pohlcuje, se planeta jeví při tranzitu o něco větší. Tak vzniká **transmisní spektrum**, které nese informaci o složení a výškovém uspořádání atmosféry."
+      },
+      {
+        "heading": "Jaké další světlo můžeme použít",
+        "body": "Při pohybu planety za hvězdu na chvíli zmizí její vlastní záření i odražené světlo. Porovnání před zákrytem a během něj pomáhá oddělit planetární příspěvek od hvězdy. V infračerveném oboru tak zkoumáme zejména teplotu a spektrum osvětlené strany.\n\nSledování změn světla během celého oběhu přináší údaje o rozdílech mezi denní a noční stranou. U některých vzdálenějších planet lze světlo oddělit přímo vhodnou optikou. Jednotlivé metody si vybíráme podle velikosti planety, dráhy a vlastností hvězdy."
+      },
+      {
+        "heading": "Jak molekuly poznáme ve spektru",
+        "body": "Voda, oxid uhličitý, oxid uhelnatý či metan vytvářejí charakteristické soubory spektrálních pásů. Model propojuje tyto stopy s teplotou, tlakem a množstvím plynu. Základ pohlcování světla vysvětluje [téma o spektrálních čarách](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html).\n\nSilnější pás může souviset s větším množstvím molekul, ale také s teplotou nebo podmínkami v různých výškách. Proto se porovnává více částí spektra současně. Výsledek bývá rozmezím možných složení a teplot, které nejlépe vysvětlují data.",
+        "image_id": "schema-spektralni-otisky"
+      },
+      {
+        "heading": "Co ukázal Webb u WASP-39 b",
+        "body": "U horkého plynného obra **WASP-39 b** získal Webb výraznou stopu oxidu uhličitého v okolí vlnové délky 4,3 mikrometru. Měření zveřejněné v roce 2022 ukázalo, jak podrobnou informaci může dát světlo při tranzitu.\n\nTato planeta je výrazně větší než Země a má rozměrnou horkou atmosféru. Zkoumání menších kamenných světů vyžaduje zachytit podstatně slabší změny. Podrobnosti o přístrojích a tomto příkladu doplňuje [téma o Webbově dalekohledu](https://kosmonovinky.cz/kosmopedie/co-umi-webbuv-vesmirny-dalekohled.html)."
+      },
+      {
+        "heading": "Proč pomáhá opakování a více přístrojů",
+        "body": "Oblaky a zákaly mohou část spektrálních stop zakrýt. Skvrny na hvězdě či změny přístroje zase mohou ovlivnit naměřené světlo. Vědci proto sledují aktivitu hvězdy, kontrolují kalibraci a porovnávají opakované tranzity.\n\nRůzné vlnové délky a metody dohromady pomáhají odlišit atmosférické scénáře. Při hledání možných známek života se k chemickému složení přidává znalost hvězdy, teplotních podmínek a geologických zdrojů plynů. Tento širší kontext rozvíjí [téma o obyvatelné zóně a obyvatelnosti](https://kosmonovinky.cz/kosmopedie/co-znamena-obyvatelna-zona-a-proc-nezarucuje-zivot.html)."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA: metody objevování a charakterizace exoplanet](https://science.nasa.gov/exoplanets/how-we-find-and-characterize/)\n- [ESA: spektroskopie atmosfér exoplanet](https://www.esa.int/Science_Exploration/Space_Science/Ariel/Studying_exoplanet_atmospheres_with_Ariel)\n- [NASA: detekce oxidu uhličitého u WASP-39 b](https://www.nasa.gov/universe/nasas-webb-detects-carbon-dioxide-in-exoplanet-atmosphere/)\n- [Původní práce: Identification of carbon dioxide in an exoplanet atmosphere](https://www.nature.com/articles/s41586-022-05269-w)"
+      }
+    ],
+    "why_box": "Světlo dovoluje zkoumat chemii planety, kterou nerozlišíme jako podrobný kotouček. Kombinace spekter a opakovaných pozorování postupně zpřesňuje představu o jejím prostředí.",
+    "related_explainery": [
+      "co-jsou-exoplanety-a-jak-se-hledaji",
+      "co-je-spektroskopie-a-co-nam-rika-svetlo",
+      "co-jsou-absorpcni-a-emisni-cary",
+      "co-umi-webbuv-vesmirny-dalekohled",
+      "co-znamena-obyvatelna-zona-a-proc-nezarucuje-zivot"
+    ],
+    "related_news": [
+      "https://www.sciencedaily.com/releases/2026/10/261007042106.htm"
+    ],
+    "related_news_note": "Související novinka ukazuje další oblast výzkumu exoplanet: hledání světů v neobvyklých hvězdných soustavách."
+  },
+  {
+    "id": "exp-084",
+    "title": "Co znamená obyvatelná zóna a proč nezaručuje život?",
+    "theme": "exoplanety",
+    "description": "Jak vzdálenost od hvězdy, atmosféra a vývoj planety ovlivňují kapalnou vodu a možnosti hledání života?",
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "perex": "Obyvatelná zóna je oblast kolem hvězdy, kde může planeta za vhodných atmosférických podmínek udržet kapalnou vodu na povrchu. Pomáhá vybírat zajímavé cíle pozorování. Skutečné prostředí pak závisí také na atmosféře, dostupné vodě, aktivitě hvězdy a historii planety.",
+    "sections": [
+      {
+        "heading": "Co vlastně vymezuje obyvatelnou zónu",
+        "body": "**Obyvatelná zóna je oblast kolem hvězdy, kde může mít planeta při vhodné atmosféře kapalnou vodu na povrchu.** Vzdálenost od hvězdy určuje, kolik energie planeta dostává, a tím ovlivňuje její teplotu. Příliš blízko může silné zahřívání vést k odpařování oceánů a postupné ztrátě vody, příliš daleko může povrchová voda zamrznout.\n\nHranice této oblasti závisejí na zářivosti hvězdy a předpokladech o atmosféře planety. U méně zářivé hvězdy leží obyvatelná zóna blíže, u zářivější dál. Během vývoje hvězdy se může její poloha měnit."
+      },
+      {
+        "heading": "Proč potřebujeme znát atmosféru",
+        "body": "Skleníkové plyny zachycují část tepelného záření a ohřívají povrch. Tlak atmosféry ovlivňuje, při jakých teplotách může existovat kapalná voda. Oblaky mohou odrážet světlo hvězdy i zadržovat tepelné záření.\n\nProto mohou mít planety s podobným příjmem hvězdné energie rozdílné povrchové podmínky. Podstatné je i to, zda si planeta atmosféru a zásoby vody udržela. Postupy, jak získat údaje o plynech a teplotách, vysvětluje [téma o atmosférách exoplanet](https://kosmonovinky.cz/kosmopedie/jak-zkoumame-atmosfery-exoplanet.html)."
+      },
+      {
+        "heading": "Co mění aktivní hvězda a historie planety",
+        "body": "Mladé hvězdy a některé malé chladné hvězdy mohou vysílat silné energetické záření a částicové proudy. Ty ovlivňují chemii atmosféry a její únik. Při blízké dráze se také často ustálí rotace tak, že je ke hvězdě obrácena stejná strana.\n\nRozdíl mezi osvětlenou a noční stranou pak závisí na přenosu tepla atmosférou či oceánem. Pro výsledné prostředí je důležité také vulkanické doplňování plynů a dlouhodobý vývoj dráhy. Místo v obyvatelné zóně je proto začátkem souboru otázek o konkrétní planetě."
+      },
+      {
+        "heading": "Jak souvisí voda s hledáním života",
+        "body": "Kapalná voda je zásadní pro život, který známe na Zemi. Při hledání vhodných světů proto poskytuje dobré výchozí vodítko. Samotná voda ale může vznikat a přetrvávat při čistě fyzikálních a chemických dějích.\n\nMožnou **biosignaturou** nazýváme měřitelnou stopu, kterou by mohly vytvářet živé organismy. Posuzujeme ji společně s ostatními plyny a s prostředím planety. Například kyslík může vznikat biologicky, ale také fotochemickým rozkladem látek a únikem lehkých složek do vesmíru."
+      },
+      {
+        "heading": "Jak bychom ověřovali přesvědčivý nález",
+        "body": "Nejprve potřebujeme spolehlivě určit vlastnosti planety a její hvězdy. Potom měřit atmosféru opakovaně a v různých částech spektra. Složení porovnáváme s modely geologie, chemie a případné biologické činnosti.\n\nVhodnější závěr přináší několik navzájem souvisejících stop než izolovaná spektrální čára. Obyvatelnost je popis podmínek umožňujících život; obydlenost znamená jeho skutečnou přítomnost. Toto rozlišení pomáhá číst zprávy o vzdálených světech s přiměřeným očekáváním."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA: význam a hranice obyvatelné zóny](https://science.nasa.gov/exoplanets/habitable-zone/)\n- [NASA: co je biosignatura](https://science.nasa.gov/astrobiology/learning-resources/alp/what-is-a-biosignature/)\n- [NASA: biologické a nebiologické původy atmosférických stop](https://astrobiology.nasa.gov/nai/media/medialibrary/2016/09/Meadows_Biosignatures_State_of_Science.pdf)\n- [NASA: metody charakterizace exoplanet](https://science.nasa.gov/exoplanets/how-we-find-and-characterize/)"
+      }
+    ],
+    "why_box": "Obyvatelná zóna pomáhá vybrat planety pro další výzkum. Rozhodující informace o jejich skutečném prostředí přináší kombinace vlastností hvězdy, atmosféry, vody a dlouhodobého vývoje.",
+    "related_explainery": [
+      "co-jsou-exoplanety-a-jak-se-hledaji",
+      "jak-zkoumame-atmosfery-exoplanet",
+      "co-umi-webbuv-vesmirny-dalekohled",
+      "jak-ze-svetla-pozname-chemicke-slozeni-vesmiru"
+    ],
+    "related_news": [
+      "news708341582",
+      "https://www.sciencedaily.com/releases/2026/10/261007042106.htm"
+    ],
+    "related_news_note": "Výzkum Marsu připomíná význam rozlišování vody a jiných látek při vysvětlování povrchových útvarů. Hledání planet u neobvyklých hvězd zase rozšiřuje představu o rozmanitých planetárních prostředích."
   }
 ]
