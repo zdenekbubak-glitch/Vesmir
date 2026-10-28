@@ -152,6 +152,15 @@ CSS = """
     .back { margin-top: 1.5rem; font-size: .9rem; }
     .post-nav { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid #1e293b; padding-top: 1rem; margin-top: 1.5rem; font-size: .95rem; }
     .post-nav .next { margin-left: auto; }
+    .image-paging { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+    .image-paging a { min-width: 0; overflow-wrap: anywhere; text-decoration: none; }
+    .image-paging a:hover, .image-paging a:focus-visible { text-decoration: underline; }
+    .image-paging .next { grid-column: 2; margin-left: 0; text-align: right; }
+    .image-paging span { display: block; }
+    @media (max-width: 600px) {
+      .image-paging { grid-template-columns: minmax(0, 1fr); }
+      .image-paging .next { grid-column: auto; text-align: left; }
+    }
     .back a { color: var(--accent); }
     .search-box { width: 100%; padding: .35rem .85rem; margin: .6rem 0 1.2rem; border: 1px solid #1e293b; border-radius: 10px; background: var(--card); color: var(--text); font-size: .95rem; outline: none; }
     article.item[hidden], h2.section-title[hidden] { display: none !important; }
@@ -843,6 +852,36 @@ def build_newsletter_example(out, base, news):
     return (url, max(dates).isoformat() if selected and dates else datetime.now(timezone.utc).date().isoformat())
 
 
+def gallery_neighbours(images, topic_ids):
+    """Match gallery.js: separate collections, deduplicate and sort newest first."""
+    neighbours = {}
+    for thematic in (False, True):
+        members = [img for img in images if (img['id'] in topic_ids) == thematic]
+        def identity(img):
+            return (img.get('catalog_image_id') or img['id']) if thematic else img['id']
+        unique = {identity(img): img for img in members}
+        ordered = sorted(unique.values(), key=lambda img: str(img.get('published') or ''), reverse=True)
+        by_identity = {
+            identity(img): (ordered[i - 1] if i else None,
+                            ordered[i + 1] if i + 1 < len(ordered) else None)
+            for i, img in enumerate(ordered)
+        }
+        for img in members:
+            neighbours[img['_path']] = by_identity[identity(img)]
+    return neighbours
+
+
+def image_paging(previous, following):
+    links = []
+    for image, rel, label in ((previous, 'prev', '← Předchozí obrázek'),
+                              (following, 'next', 'Následující obrázek →')):
+        if image:
+            links.append(f'<a class="{rel}" rel="{rel}" href="/{esc(image["_path"])}">'
+                         f'<span class="meta">{label}</span><span>{esc(image.get("title"))}</span></a>')
+    return ('<nav class="post-nav image-paging" aria-label="Procházení obrázků">' +
+            ''.join(links) + '</nav>') if links else ''
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--site-dir", default=".")
@@ -862,6 +901,7 @@ def main():
     img_path = site / "data" / "images.json"
     if img_path.exists():
         images = json.loads(img_path.read_text(encoding="utf-8"))
+    curated = []
     permanent_images = site / 'data' / 'kosmopedie_images.json'
     if permanent_images.exists():
         catalog = {e['id']: e for e in json.loads((site / 'data/article_image_catalog.json').read_text(encoding='utf-8'))}
@@ -1052,6 +1092,8 @@ def main():
     urls.append((f"{base}/temata/", fmt_iso_date(news[0].get("inserted_at") if news else None)))
 
     # ---- stránky obrázků ----
+    topic_image_ids = {img['id'] for img in curated}
+    image_adjacent = gallery_neighbours(images, topic_image_ids)
     if images:
         (out / "obrazky").mkdir(exist_ok=True)
         gallery_items = ""
@@ -1069,6 +1111,9 @@ def main():
                 "datePublished": img.get("published"),
                 "creditText": img.get("credit"),
             }
+            navigation = image_paging(*image_adjacent[img['_path']])
+            gallery_back = '/images.html?galerie=temata' if img['id'] in topic_image_ids else '/images.html'
+            gallery_back += '#img-' + quote(str(img['id']), safe='')
             catalog_image = image_library[1].get(img.get('catalog_image_id'))
             license_html = ''
             if catalog_image:
@@ -1087,6 +1132,8 @@ def main():
       </figure>
       <p class="source-link"><a class="original-source" href="{esc(img.get("url"))}" target="_blank" rel="noopener">Původní zdroj snímku →</a></p>
 {license_html}
+      {navigation}
+      <p class="back"><a href="{esc(gallery_back)}">← Zpět do galerie</a></p>
     </article>
 '''
             page += FOOT
