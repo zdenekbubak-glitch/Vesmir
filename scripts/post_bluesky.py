@@ -3,7 +3,8 @@
 
 One deterministic AT Protocol TID per UTC day prevents duplicates on reruns,
 including concurrent runs or a lost createRecord response. Publication is confirmed
-only after a public AppView read. --dry-run uses no API.
+only after a public AppView read; pending visibility is a warning, not a failed
+write. --dry-run uses no API.
 """
 import argparse
 from datetime import datetime, timezone
@@ -178,7 +179,10 @@ def confirm_publication(item, day, did, key):
                    'rozhraní se nepodařilo ověřit. Nevytvářím duplicitu.')
     if os.environ.get('GITHUB_ACTIONS') == 'true':
         print('::warning::' + message)
-    raise RuntimeError(message)
+    else:
+        print(message)
+    # A confirmed PDS write succeeded; AppView lag is not a publication error.
+    return
 
 
 def publish(item, card, day, handle, password):
