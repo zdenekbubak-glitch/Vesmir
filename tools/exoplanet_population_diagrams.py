@@ -21,7 +21,7 @@ def diagram(entry):
  data=json.loads((Path(__file__).resolve().parents[1]/entry['data_file']).read_text(encoding='utf8'));kind=entry['diagram'];h=1290 if kind=='exopop-hosts' else 1510 if kind=='exopop-flux' else 950
  im=Image.new('RGB',(1100,h),BG);d=ImageDraw.Draw(im)
  if kind=='exopop-hosts':
-  txt(d,50,35,'Kolem jakých hvězd známe planety?',38);txt(d,50,100,'NASA Exoplanet Archive • údaje staženy 29. 10. 2026',25,MUTED)
+  txt(d,50,35,'Kolem jakých hvězd obíhají známé exoplanety?',34);txt(d,50,100,'NASA Exoplanet Archive • údaje staženy 29. 10. 2026',25,MUTED)
   txt(d,50,145,f"{data['total_planets']:,} planet / {data['host_names']:,} hostitelů".replace(',',' '),30,BLUE)
   x0,x1=500,875;top=260;mx=4500
   for v in [0,1500,3000,4500]:
@@ -32,7 +32,7 @@ def diagram(entry):
    x=x0+(x1-x0)*g['count']/mx;d.rectangle((x0,y+10,max(x0+2,x),y+38),fill=GOLD if g['key']=='missing' else BLUE)
    txt(d,910,y,str(g['count']),27);txt(d,910,y+36,num(g['percent'],1)+' %',23,MUTED)
   y=1100;y=txt(d,50,y,'Každá planeta je v právě jedné skupině. Procenta mají společný základ 6 451 planet.',25,MUTED)
-  txt(d,50,y+10,'Chybějící typy ponecháváme viditelné. Přehled zachycuje objevené planety a dostupnost údajů.',25,MUTED)
+  txt(d,50,y+10,'U 4 034 planet chybí v archivu spektrální třída hvězdy. Jiné vlastnosti těchto hvězd mohou být známé.',25,MUTED)
  elif kind=='exopop-flux':
   txt(d,50,35,'Kolik energie dostávají vybrané planety?',36);txt(d,50,100,'Příjem hvězdné energie na jednotku plochy • Země = 1',25,MUTED)
   x0,x1=425,1015;top=245;rows=data['sample']+[{'pl_name':'Země — srovnání','hostname':'Slunce','pl_insol':1,'pl_insolerr1':None,'pl_insolerr2':None}]

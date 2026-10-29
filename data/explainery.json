@@ -4256,7 +4256,7 @@
       },
       {
         "heading": "Datovaný přehled podle typu hostitele",
-        "body": "Každá planeta je zařazena do jedné skupiny. Podíly mají společný základ **všech 6 451 planet**. U **4 034 planet** zůstává typ hostitele v našem přehledu neuveden. Tuto skupinu ponecháváme viditelnou, i když mohou být známé jiné vlastnosti hvězdy. Pulsary jsme předtím vyčlenili podle jejich archivních názvů, i když spektrální třídu uvedenou nemají.\n\nBílí trpaslíci a pulsary jsou společně vyčleněni jako hvězdné pozůstatky. Mezi další uvedené typy patří například hnědí trpaslíci a horký podtrpaslík. Všechny skupiny se sčítají do celku.",
+        "body": "Každá planeta je zařazena do jedné skupiny. Podíly mají společný základ **všech 6 451 planet**.\n\n**U 4 034 z celkových 6 451 planet chybí v použité tabulce spektrální označení hostitelské hvězdy.** Proto je nemůžeme zařadit do skupin F, G, K či M, přestože o jejich hvězdách mohou být známé jiné vlastnosti. Velikost této skupiny vypovídá o úplnosti katalogových údajů. Nejdelší sloupec grafu tak ukazuje chybějící údaj v našem podkladu, nikoli nejběžnější druh hvězdy. Pulsary jsme vyčlenili podle jejich archivních názvů, i když spektrální třídu uvedenou nemají.\n\nBílí trpaslíci a pulsary jsou společně vyčleněni jako hvězdné pozůstatky. Mezi další uvedené typy patří například hnědí trpaslíci a horký podtrpaslík. Všechny skupiny se sčítají do celku.",
         "table": {
           "caption": "Potvrzené planety podle typu hostitele — výřez NASA z 29. 10. 2026",
           "columns": [
@@ -4309,7 +4309,7 @@
               "V0391 Peg"
             ],
             [
-              "Typ v tabulce neuveden",
+              "Archiv neuvádí spektrální třídu hvězdy",
               "4034",
               "62,5 %",
               "—"
@@ -4327,7 +4327,7 @@
       },
       {
         "heading": "Jak je přehled sestavený",
-        "body": "**V přehledu je každá planeta započítána jednou a zařazena podle typu své hostitelské hvězdy uvedeného v archivu NASA.** Pokud tento údaj chybí, zůstává ve skupině „Typ neuveden“. Význam označení F, G, K a M vysvětluje [téma o třídění hvězd](https://kosmonovinky.cz/kosmopedie/jak-tridime-hvezdy-a-co-nam-jejich-oznaceni-rika.html).\n\nVýběr obsahuje také **58 záznamů planet, jejichž existenci pozdější odborné práce zpochybnily**. Archiv je přesto nadále ponechává v této tabulce. Celkem **577 planet obíhá v soustavách s více hvězdami**. Uvedené počty zachycují stav archivu k **29. říjnu 2026**; další objevy a přehodnocení dosavadních výsledků je mohou změnit."
+        "body": "**V přehledu je každá planeta započítána jednou a zařazena podle typu své hostitelské hvězdy uvedeného v archivu NASA.** Pokud tento údaj chybí, zůstává ve skupině „Archiv neuvádí spektrální třídu hvězdy“. Význam označení F, G, K a M vysvětluje [téma o třídění hvězd](https://kosmonovinky.cz/kosmopedie/jak-tridime-hvezdy-a-co-nam-jejich-oznaceni-rika.html).\n\nVýběr obsahuje také **58 záznamů planet, jejichž existenci pozdější odborné práce zpochybnily**. Archiv je přesto nadále ponechává v této tabulce. Celkem **577 planet obíhá v soustavách s více hvězdami**. Uvedené počty zachycují stav archivu k **29. říjnu 2026**; další objevy a přehodnocení dosavadních výsledků je mohou změnit."
       },
       {
         "heading": "Zdroje a další čtení",
