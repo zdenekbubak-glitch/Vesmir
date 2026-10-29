@@ -327,6 +327,15 @@ def classify(item):
 # Explicit topic patterns prevent arbitrary links based on shared generic words.
 # Keys refer to stable IDs in data/explainery.json; unknown entries are omitted.
 EXPLAINER_PATTERNS = {
+    'exp-085': r'max planck',
+    'exp-086': r'niels bohr',
+    'exp-087': r'louis de broglie',
+    'exp-088': r'werner heisenberg',
+    'exp-089': r'erwin schrodinger',
+    'exp-090': r'max born',
+    'exp-091': r'wolfgang pauli',
+    'exp-092': r'paul dirac',
+
     'exp-001': r'temn\w* hmot\w*|dark matter|\baxion\w*|\bwimps?\b',
     'exp-002': r'gravitacn\w* vln\w*|gravitational wave',
     'exp-003': r'spad\w* do cern\w* dir\w*|pad\w* do cern\w* dir\w*|spagetifik\w*',

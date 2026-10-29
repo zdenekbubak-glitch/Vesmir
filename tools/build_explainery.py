@@ -217,9 +217,19 @@ def section_image_figure(entry):
 # The overview introduces the group. Equal-year profiles keep their editorial order;
 # this is a reading sequence, not a claim of priority between discovery teams.
 PEOPLE_HISTORY = {
+    # Quantum contributions, ordered by their first main contribution in these profiles.
+    'exp-085': 1900,  # Planck: energy quanta
+    'exp-086': 1913,  # Bohr: atomic model
+    'exp-087': 1924,  # de Broglie: matter waves
+    'exp-088': 1925,  # Heisenberg: matrix mechanics; uncertainty in 1927
+    'exp-089': 1926,  # Schrodinger: wave mechanics
+    'exp-090': 1926,  # Born: probability interpretation
+    'exp-091': 1925,  # Pauli: exclusion principle
+    'exp-092': 1928,  # Dirac: relativistic electron equation
+
     'exp-055': 0,     # introductory overview
     'exp-056': 1908,  # Leavitt: 1908/1912 period-luminosity work
-    'exp-070': 1915,  # Einstein: general relativity, cosmology in 1917
+    'exp-070': 1905,  # Einstein: light quanta; general relativity in 1915
     'exp-071': 1922,  # Friedmann: evolving models, 1922/1924
     'exp-058': 1924,  # Hubble: other galaxies; expansion relation in 1929
     'exp-057': 1927,  # Lemaitre: expansion; primordial-atom proposal in 1931

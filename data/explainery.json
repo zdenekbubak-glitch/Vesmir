@@ -2346,9 +2346,13 @@
     "theme": "lide-a-objevy",
     "description": "Od Einsteinovy gravitace přes měření vzdáleností a temnou hmotu ke zrychlenému rozpínání: lidé a objevy, které proměnily náš pohled na vesmír.",
     "published": "2026-10-26",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "perex": "Poznání vesmíru vznikalo postupným spojováním měření, nových přístrojů a fyzikálních teorií. Tento přehled ukazuje, jak jsme získali měřítko vzdáleností, rozpoznali rozpínání a jeho zrychlování a našli důvody uvažovat o neviditelné hmotě. Za známými jmény přitom stojí práce mnoha dalších lidí.",
     "sections": [
+      {
+        "heading": "Kvantový popis světla a hmoty",
+        "body": "[Max Planck](https://kosmonovinky.cz/kosmopedie/jak-max-planck-otevrel-cestu-ke-kvantove-fyzice.html) v roce 1900 použil energetická kvanta při odvození zákona tepelného záření. [Albert Einstein](https://kosmonovinky.cz/kosmopedie/jak-albert-einstein-zmenil-nas-pohled-na-gravitaci-a-vesmir.html) rozvinul v roce 1905 představu světelných kvant a [Niels Bohr](https://kosmonovinky.cz/kosmopedie/jak-niels-bohr-pomohl-vysvetlit-atomova-spektra.html) v roce 1913 spojil atomové energie s čárovým spektrem vodíku.\n\n[Louis de Broglie](https://kosmonovinky.cz/kosmopedie/jak-louis-de-broglie-spojil-castice-s-vlnami.html) přisoudil částicím vlnové vlastnosti. [Werner Heisenberg](https://kosmonovinky.cz/kosmopedie/jak-werner-heisenberg-zmenil-popis-kvantoveho-sveta.html) a [Erwin Schrödinger](https://kosmonovinky.cz/kosmopedie/jak-erwin-schrodinger-popsal-vyvoj-kvantoveho-stavu.html) vytvořili nové početní postupy kvantové mechaniky a [Max Born](https://kosmonovinky.cz/kosmopedie/jak-max-born-propojil-vlnovou-funkci-s-pravdepodobnosti.html) propojil vlnovou funkci s pravděpodobnostmi měření.\n\n[Wolfgang Pauli](https://kosmonovinky.cz/kosmopedie/jak-wolfgang-pauli-pomohl-vysvetlit-stavbu-hmoty.html) přispěl pravidlem pro obsazování stavů a návrhem neutrina; [Paul Dirac](https://kosmonovinky.cz/kosmopedie/jak-paul-dirac-propojil-kvantovou-fyziku-s-relativitou.html) propojil kvantový popis elektronu s relativitou a otevřel cestu k antihmotě. Jejich práce dnes pomáhají vysvětlit světlo hvězd, vlastnosti husté látky i procesy raného vesmíru."
+      },
       {
         "heading": "Einstein: fyzikální základ pro popis vesmíru",
         "body": "**Albert Einstein** vytvořil obecnou teorii relativity, která popisuje gravitaci jako zakřivení časoprostoru. Jeho rovnice umožnily vědcům zkoumat vývoj vesmíru jako celku. Einstein sám zpočátku hledal model vesmíru, který se s časem nemění. Podrobnosti včetně jeho statického modelu a role kosmologické konstanty rozvíjí [téma o Einsteinovi](https://kosmonovinky.cz/kosmopedie/jak-albert-einstein-zmenil-nas-pohled-na-gravitaci-a-vesmir.html)."
@@ -2383,7 +2387,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Leavittová: původní práce z roku 1912](https://articles.adsabs.harvard.edu/pdf/1912HarCi.173....1L)\n- [Hubble: původní práce z roku 1929](https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/)\n- [Rubinová a Ford: měření Andromedy z roku 1970](https://web.physics.rutgers.edu/grad/690/Rubin-Ford-1970.pdf)\n- [Nobelova cena za fyziku 2011: objev zrychleného rozpínání](https://www.nobelprize.org/prizes/physics/2011/press-release/)"
+        "body": "- [Leavittová: původní práce z roku 1912](https://articles.adsabs.harvard.edu/pdf/1912HarCi.173....1L)\n- [Hubble: původní práce z roku 1929](https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/)\n- [Rubinová a Ford: měření Andromedy z roku 1970](https://web.physics.rutgers.edu/grad/690/Rubin-Ford-1970.pdf)\n- [Nobelova cena za fyziku 2011: objev zrychleného rozpínání](https://www.nobelprize.org/prizes/physics/2011/press-release/)\n- [Niels Bohr Institute: vznik kvantové mechaniky ve spolupráci její zakladatelské generace](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)"
       }
     ],
     "why_box": "Objevy v kosmologii na sebe navazují. Metody, přístroje a nezávislá ověření jsou stejně důležité jako známá jména jejich průkopníků.",
@@ -2399,7 +2403,15 @@
       "jak-adam-riess-pomohl-odhalit-zrychlene-rozpinani-vesmiru",
       "jak-arno-penzias-a-robert-wilson-objevili-reliktni-zareni",
       "jak-james-peebles-pomohl-vybudovat-moderni-kosmologii",
-      "jak-fritz-zwicky-upozornil-na-chybejici-hmotu-v-kupach-galaxii"
+      "jak-fritz-zwicky-upozornil-na-chybejici-hmotu-v-kupach-galaxii",
+      "jak-max-planck-otevrel-cestu-ke-kvantove-fyzice",
+      "jak-niels-bohr-pomohl-vysvetlit-atomova-spektra",
+      "jak-louis-de-broglie-spojil-castice-s-vlnami",
+      "jak-werner-heisenberg-zmenil-popis-kvantoveho-sveta",
+      "jak-erwin-schrodinger-popsal-vyvoj-kvantoveho-stavu",
+      "jak-max-born-propojil-vlnovou-funkci-s-pravdepodobnosti",
+      "jak-wolfgang-pauli-pomohl-vysvetlit-stavbu-hmoty",
+      "jak-paul-dirac-propojil-kvantovou-fyziku-s-relativitou"
     ],
     "related_news": [
       "2610.36051",
@@ -3085,9 +3097,13 @@
     "theme": "lide-a-objevy",
     "description": "Obecná relativita umožnila popsat vývoj vesmíru. Proč Einstein hledal statický model a jakou roli má kosmologická konstanta dnes?",
     "published": "2026-10-28",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "perex": "Albert Einstein (1879–1955) změnil fyzikální popis gravitace. Jeho obecná teorie relativity propojila hmotu a energii s geometrií prostoru a času a otevřela cestu k modelům vývoje celého vesmíru. Einstein sám přitom zpočátku hledal vesmír, který se nemění.",
     "sections": [
+      {
+        "heading": "Světelná kvanta a fotoelektrický jev",
+        "body": "Einstein v roce 1905 při zkoumání vlastností tepelného záření dospěl k odvážnější představě: samotné světlo se při předávání energie může chovat jako jednotlivá kvanta. Každé nese energii **E = hν**. Tato myšlenka zároveň nabízela vysvětlení fotoelektrického jevu, při němž světlo uvolňuje elektrony z kovu.\n\nPokusy ukazovaly překvapivý rozdíl mezi intenzitou světla a jeho frekvencí, tedy u viditelného světla barvou. Silnější osvětlení určité barvy uvolňovalo více elektronů, ale nezvyšovalo jejich nejvyšší pohybovou energii. Ta rostla se zvyšující se frekvencí. Pod určitou frekvenční hranicí se elektrony neuvolňovaly ani při silnějším osvětlení.\n\nEinsteinovo vysvětlení spojilo tyto výsledky do jednoho obrazu: **elektron přijme energii jednoho světelného kvanta.** Část spotřebuje na uvolnění z kovu a zbytek získá jako pohybovou energii. Vyšší frekvence znamená energeticky vydatnější kvantum. Silnější světlo stejné frekvence přináší více kvant, takže může uvolnit více elektronů.\n\nRozhodující tedy byla energie jednotlivého kvanta. Podobně jako k překonání schodu potřebujeme dostatečně vysoký krok, musí mít světelné kvantum dost energie k uvolnění elektronu.\n\nEinstein tak rozvinul [Planckův přínos](https://kosmonovinky.cz/kosmopedie/jak-max-planck-otevrel-cestu-ke-kvantove-fyzice.html) a položil základ dnešního pojmu foton. Za zásluhy o teoretickou fyziku, zejména za zákon fotoelektrického jevu, získal Nobelovu cenu pro rok 1921."
+      },
       {
         "heading": "Gravitace jako vlastnost prostoročasu",
         "body": "Newtonův popis vystihuje mnoho pohybů velmi přesně. Einstein v roce **1915** předložil obecnou teorii relativity, která umožňuje zkoumat také silnou gravitaci a vývoj prostoru a času. Hmota a energie ovlivňují geometrii **prostoročasu**, tedy společného popisu tří prostorových rozměrů a času.\n\nVolně padající těleso se v této geometrii pohybuje po přirozené dráze. Neznamená to, že prostor je látka, která těleso mechanicky tlačí. Zakřivení prostoročasu můžeme rozpoznat podle jeho účinků: dvě blízká tělesa při volném pádu mohou měnit svou vzájemnou vzdálenost a světlo se při průchodu kolem hmotného objektu odchyluje od původního směru."
@@ -3110,7 +3126,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Einstein: kosmologická práce z roku 1917](https://cds.cern.ch/record/632340)\n- [Baez a Bunn: geometrický význam Einsteinových rovnic](https://math.ucr.edu/home/baez/einstein/einstein.html)\n- [Einstein Online: kosmologická konstanta](https://www.einstein-online.info/en/explandict/cosmological-constant/)\n- [Instituut-Lorentz: Friedmannovy práce a vztah k Einsteinovu modelu](https://www.lorentz.leidenuniv.nl/history/Ehrenfest_archive/full_size_scans/Friedmann_archive/)"
+        "body": "- [Einstein: kosmologická práce z roku 1917](https://cds.cern.ch/record/632340)\n- [Baez a Bunn: geometrický význam Einsteinových rovnic](https://math.ucr.edu/home/baez/einstein/einstein.html)\n- [Einstein Online: kosmologická konstanta](https://www.einstein-online.info/en/explandict/cosmological-constant/)\n- [Instituut-Lorentz: Friedmannovy práce a vztah k Einsteinovu modelu](https://www.lorentz.leidenuniv.nl/history/Ehrenfest_archive/full_size_scans/Friedmann_archive/)\n- [Nobel Prize: Einstein a zákon fotoelektrického jevu](https://www.nobelprize.org/prizes/physics/1921/einstein/facts/)\n- [Nobel Prize: Einsteinova cesta od tepelného záření ke světelným kvantům](https://www.nobelprize.org/prizes/physics/the-dual-nature-of-light-as-reflected-in-the-nobel-archives/)\n- [Nobel Prize: vysvětlení fotoelektrického jevu a jeho ověřování](https://www.nobelprize.org/prizes/physics/1921/ceremony-speech/?print=1)"
       }
     ],
     "why_box": "Einsteinova teorie poskytla společný základ pro popis místní gravitace i vývoje vesmíru. Její rovnice připouštějí více kosmologických scénářů; o jejich použitelnosti rozhodují pozorování.",
@@ -3118,7 +3134,9 @@
       "co-znamena-model-cdm",
       "co-jsou-gravitacni-vlny",
       "co-je-modifikovana-gravitace",
-      "jak-georges-lemaitre-propojil-rozpinani-s-pocatkem-vesmiru"
+      "jak-georges-lemaitre-propojil-rozpinani-s-pocatkem-vesmiru",
+      "jak-max-planck-otevrel-cestu-ke-kvantove-fyzice",
+      "jak-niels-bohr-pomohl-vysvetlit-atomova-spektra"
     ],
     "related_news": [
       "2610.22045v1",
@@ -3803,5 +3821,395 @@
       "https://www.sciencedaily.com/releases/2026/10/261007042106.htm"
     ],
     "related_news_note": "Výzkum Marsu připomíná význam rozlišování vody a jiných látek při vysvětlování povrchových útvarů. Hledání planet u neobvyklých hvězd zase rozšiřuje představu o rozmanitých planetárních prostředích."
+  },
+  {
+    "id": "exp-085",
+    "title": "Jak Max Planck otevřel cestu ke kvantové fyzice?",
+    "theme": "lide-a-objevy",
+    "description": "Max Planck (1858–1947) hledal zákon, který by popsal záření zahřátých těles. V roce 1900 při jeho odvození použil energetická kvanta. Jeho řešení konkrétního problému otevřelo cestu k novému popisu světla a hmoty.",
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "perex": "Max Planck (1858–1947) hledal zákon, který by popsal záření zahřátých těles. V roce 1900 při jeho odvození použil energetická kvanta. Jeho řešení konkrétního problému otevřelo cestu k novému popisu světla a hmoty.",
+    "sections": [
+      {
+        "heading": "Co prozradí barva zahřátého tělesa",
+        "body": "Zahřáté těleso vyzařuje elektromagnetické záření. S růstem teploty se mění množství vyzářené energie i její rozdělení mezi různé vlnové délky. Rozžhavený kov tak postupně mění barvu. Fyzici potřebovali vysvětlit celý průběh tohoto **tepelného spektra**.\n\nPlanck se zabýval ideálním zářičem, označovaným jako **černé těleso**: dokonale pohlcuje dopadající světlo a jeho tepelné záření určuje teplota."
+      },
+      {
+        "heading": "Proč v roce 1900 vstoupila do výpočtu kvanta",
+        "body": "Planck potřeboval vysvětlit, jak se energie vyzařovaná zahřátým tělesem rozděluje mezi různé frekvence. Laboratorní měření ukazovala přesný průběh spektra, který dosavadní vzorce vystihovaly jen částečně. V roce 1900 sestavil zákon odpovídající měřením a hledal jeho fyzikální odvození.\n\nLátku ve svém modelu popisoval pomocí drobných kmitajících soustav, které si vyměňují energii se zářením. Při výpočtu počítal, kolika způsoby mezi ně může být energie rozdělena. Správný výsledek získal, když ji rozdělil do dílů o určité velikosti: pro frekvenci ν měl každý díl energii **E = hν**.\n\nPro danou frekvenci tedy ve výpočtu pracoval s jedním, dvěma či třemi takovými díly. Kdyby jejich velikost nechal klesnout k nule a obnovil spojité rozdělování energie, shoda s měřením by se ztratila. **Právě nutnost ponechat energetickým dílům určitou velikost byla zásadním krokem ke kvantové fyzice.** Planck k němu dospěl při hledání výpočtu odpovídajícího skutečnému záření.\n\nVe vztahu **E = hν** je E energie jednoho kvanta, ν frekvence a h Planckova konstanta. Vyšší frekvence odpovídá většímu energetickému dílu. Konstanta h patří k základním veličinám kvantové fyziky."
+      },
+      {
+        "heading": "Jak na něj navázal Einstein",
+        "body": "Planck pracoval s modelem výměny energie mezi látkou a zářením. [Albert Einstein](https://kosmonovinky.cz/kosmopedie/jak-albert-einstein-zmenil-nas-pohled-na-gravitaci-a-vesmir.html) v roce **1905** rozvinul představu světelných kvant a použil ji k vysvětlení fotoelektrického jevu, při němž světlo uvolňuje elektrony z látky.\n\nTím se otevřela otázka, jak spojit vlnové vlastnosti světla s předáváním energie po jednotlivých kvantech. Pozdější vývoj vedl k dnešnímu pojmu **foton**. Planckův krok a Einsteinovo rozvinutí tak představují dva navazující přínosy."
+      },
+      {
+        "heading": "Od laboratorního zářiče k vesmíru",
+        "body": "Tepelná spektra pomáhají určovat teploty hvězd a dalších zdrojů. Velmi přesný tepelný tvar má také [reliktní záření](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html), které přichází z raného vesmíru. Zákon vytvořený při studiu zahřáté látky tak nachází uplatnění při zkoumání kosmické historie.\n\nDružice [Planck](https://kosmonovinky.cz/kosmopedie/co-zmerila-druzice-planck.html) dostala jméno právě po tomto fyzikovi. S jejími měřeními pokračuje tento příběh v dnešní kosmologii."
+      },
+      {
+        "heading": "Co z jeho přínosu používáme dál",
+        "body": "Planck ukázal, že přesný popis záření vyžaduje zásadní změnu způsobu počítání energie. Následující generace tuto myšlenku rozvinula do [kvantové mechaniky](https://kosmonovinky.cz/kosmopedie/co-je-kvantova-mechanika.html).\n\nJeho příběh začíná měřením, pokračuje matematickým řešením a vede k otázkám o vlastnostech přírody. Za práci na energetických kvantech získal Nobelovu cenu za fyziku pro rok 1918."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Max-Planck-Gesellschaft: vznik kvantové myšlenky a vztah E = hν](https://www.mpg.de/19252749/what-did-max-planck-discover)\n- [Nobel Prize: Max Planck a jeho přínos](https://www.nobelprize.org/prizes/physics/1918/planck/facts/)\n- [Nobel Prize: Planckova přednáška o vzniku kvantové teorie](https://www.nobelprize.org/prizes/physics/1918/planck/lecture/)"
+      }
+    ],
+    "why_box": "Planckův zákon spojuje měření teploty, barvy a energie záření. Díky němu můžeme číst informace ze světla hvězd i z mikrovlnného pozadí celého vesmíru.",
+    "related_explainery": [
+      "jak-albert-einstein-zmenil-nas-pohled-na-gravitaci-a-vesmir",
+      "jak-niels-bohr-pomohl-vysvetlit-atomova-spektra",
+      "co-je-kvantova-mechanika",
+      "co-je-reliktni-zareni",
+      "co-zmerila-druzice-planck"
+    ],
+    "related_news": [
+      "2610.22648",
+      "2610.26766v1"
+    ],
+    "related_news_note": "Novinky ukazují dnešní výzkum reliktního záření a využití spektroskopie při testování fyzikálních modelů. Navazují na oblasti, v nichž je popis záření zásadní."
+  },
+  {
+    "id": "exp-086",
+    "title": "Jak Niels Bohr pomohl vysvětlit atomová spektra?",
+    "theme": "lide-a-objevy",
+    "description": "Niels Bohr (1885–1962) v roce 1913 propojil stavbu atomu s jeho čárovým spektrem. Pro vodík ukázal, jak vybrané energie elektronu souvisejí s barvami vyzařovaného světla. Jeho model se stal důležitým krokem na cestě ke kvantové mechanice.",
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "perex": "Niels Bohr (1885–1962) v roce 1913 propojil stavbu atomu s jeho čárovým spektrem. Pro vodík ukázal, jak vybrané energie elektronu souvisejí s barvami vyzařovaného světla. Jeho model se stal důležitým krokem na cestě ke kvantové mechanice.",
+    "sections": [
+      {
+        "heading": "Proč vodík vyzařuje jen určité barvy",
+        "body": "Při rozkladu světla řídkého zářícího vodíku vidíme jednotlivé jasné [spektrální čáry](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html). Každá odpovídá určité vlnové délce. Johann Balmer už našel pravidelnost v jejich polohách; úkolem bylo vysvětlit ji pomocí stavby atomu.\n\nErnest Rutherford popsal atom s malým kladným jádrem. Pro Bohra tím vznikla otázka, jak v takovém atomu uspořádat elektrony a získat právě pozorované spektrum. Samotný klasický obraz elektronu obíhajícího jádro k tomu nestačil."
+      },
+      {
+        "heading": "Vybrané energie místo libovolných možností",
+        "body": "Bohr v roce **1913** navrhl, že elektron v atomu může zaujímat jen určité **energetické stavy**. Při přechodu mezi nimi atom vyzáří nebo pohltí světelné kvantum s energií odpovídající rozdílu obou stavů.\n\nJe-li rozdíl energií větší, má foton vyšší frekvenci. Z povolených přechodů tak vychází sada čar, kterou lze porovnat s měřením. Bohr tím propojil Rutherfordovo jádro s kvantovými myšlenkami Plancka a Einsteina.",
+        "image_id": "schema-kvantove-hladiny"
+      },
+      {
+        "heading": "V čem byl vodíkový atom úspěšným testem",
+        "body": "Vodík má jedno jádro a jeden elektron, a proto nabídl poměrně jednoduchou soustavu. Bohrův model vystihl hlavní pravidelnosti jeho spektra a spojil je s hodnotami základních fyzikálních konstant.\n\nPřesnost modelu se prověřovala dalšími měřeními. Jemnější členění čar, působení magnetického pole a složitější atomy vedly k podrobnějším teoriím. Základní myšlenka energetických stavů přitom zůstala součástí nového popisu."
+      },
+      {
+        "heading": "Jak jeho práci rozvinula další generace",
+        "body": "Ve dvacátých letech přinesli [Heisenberg](https://kosmonovinky.cz/kosmopedie/jak-werner-heisenberg-zmenil-popis-kvantoveho-sveta.html) a [Schrödinger](https://kosmonovinky.cz/kosmopedie/jak-erwin-schrodinger-popsal-vyvoj-kvantoveho-stavu.html) nové početní postupy. Moderní kvantová teorie popisuje elektron pomocí stavu, z něhož odvozujeme pravděpodobnosti výsledků měření. Rozložení v prostoru přibližuje [téma o vlnové funkci](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).\n\nBohrův ústav v Kodani byl důležitým místem spolupráce a diskusí. Bohr se podílel také na výkladu kvantových měření a vztahu mezi různými experimentálními uspořádáními."
+      },
+      {
+        "heading": "Proč má jeho příběh význam pro astronomii",
+        "body": "Světlo z hvězd a plynných oblaků obsahuje čáry různých atomů a iontů. Porovnáním se známými přechody určujeme chemické složení a podmínky v kosmických zdrojích.\n\nBohrův model představuje historický most od stavby jednotlivého atomu k [určování složení vzdálených objektů](https://kosmonovinky.cz/kosmopedie/jak-ze-svetla-pozname-chemicke-slozeni-vesmiru.html). Dnešní výpočty spekter jsou podrobnější, ale spojení mezi atomovým stavem a energií světla zůstává jejich základem."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Niels Bohr Institute: vznik atomového modelu a práce z roku 1913](https://nbi.ku.dk/english/www/niels/bohr/bohratomet/)\n- [Nobel Prize: Niels Bohr](https://www.nobelprize.org/prizes/physics/1922/bohr/facts/)\n- [Niels Bohr Institute: od staré kvantové teorie k nové mechanice](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)"
+      }
+    ],
+    "why_box": "Bohrův příběh vysvětluje, proč může několik úzkých čar ve světle vypovědět tolik o vzdálené hvězdě. Propojuje vlastnosti atomů s jednou z hlavních metod poznávání vesmíru.",
+    "related_explainery": [
+      "jak-max-planck-otevrel-cestu-ke-kvantove-fyzice",
+      "jak-albert-einstein-zmenil-nas-pohled-na-gravitaci-a-vesmir",
+      "jak-ze-svetla-pozname-chemicke-slozeni-vesmiru",
+      "co-jsou-absorpcni-a-emisni-cary",
+      "jak-erwin-schrodinger-popsal-vyvoj-kvantoveho-stavu"
+    ],
+    "related_news": [
+      "2610.19862",
+      "2610.26766v1"
+    ],
+    "related_news_note": "Obě novinky se věnují výkladu spekter a fyzikálním modelům potřebným k jejich využití. Historický Bohrův model je výchozím krokem k této dnešní mnohem podrobnější práci."
+  },
+  {
+    "id": "exp-087",
+    "title": "Jak Louis de Broglie spojil částice s vlnami?",
+    "theme": "lide-a-objevy",
+    "description": "Louis de Broglie (1892–1987) rozvinul v roce 1924 myšlenku, že i částicím hmoty příslušejí vlnové vlastnosti. Jeho vztah mezi hybností a vlnovou délkou se dal ověřit při pokusech s elektrony. Pomohl tak otevřít cestu k vlnové mechanice.",
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "perex": "Louis de Broglie (1892–1987) rozvinul v roce 1924 myšlenku, že i částicím hmoty příslušejí vlnové vlastnosti. Jeho vztah mezi hybností a vlnovou délkou se dal ověřit při pokusech s elektrony. Pomohl tak otevřít cestu k vlnové mechanice.",
+    "sections": [
+      {
+        "heading": "Od světelných kvant k částicím hmoty",
+        "body": "Světlo vykazovalo vlnové jevy, například interferenci, a zároveň předávalo energii v jednotlivých kvantech. De Broglie se ptal, zda podobná souvislost může platit také pro hmotné částice.\n\nV pracích z let 1923–1924 spojil pohyb částice s vlnovou délkou. Podstatnou veličinou byla **hybnost**, která popisuje pohybový stav částice. U běžně pomalého tělesa ji získáme jako součin hmotnosti a rychlosti."
+      },
+      {
+        "heading": "Co znamená vlnová délka elektronu",
+        "body": "De Broglieho vztah říká, že při větší hybnosti je příslušná vlnová délka kratší. Pro elektrony urychlené vhodným napětím mohou být tyto délky srovnatelné s rozestupy atomů v krystalu. Krystal proto umožňuje jejich vlnové vlastnosti zkoušet.\n\nVlnový popis se projeví v tom, kde a s jakou pravděpodobností elektrony zachytíme. Při opakování pokusu vzniká prostorové rozložení zásahů. Jak se jednotlivé zásahy skládají do obrazce, ukazuje [téma o superpozici a měření](https://kosmonovinky.cz/kosmopedie/co-je-superpozice-a-co-se-deje-pri-mereni.html).",
+        "image_id": "schema-dvojsterbina-zasahy"
+      },
+      {
+        "heading": "Jak se předpověď setkala s experimentem",
+        "body": "V roce **1927** Clinton Davisson a Lester Germer pozorovali rozptyl elektronů na krystalu niklu s pravidelnostmi odpovídajícími vlnovému popisu. George Paget Thomson se spolupracovníky zkoumal průchod elektronů tenkými kovovými fóliemi.\n\nVznikaly **difrakční obrazce**: výraznější a slabší směry záchytu, které lze vysvětlit skládáním vln. Naměřené vlnové délky odpovídaly de Broglieho vztahu. Na teoretickou myšlenku tak navázaly různé experimentální postupy."
+      },
+      {
+        "heading": "Jak de Broglieho myšlenka ovlivnila popis atomů",
+        "body": "Schrödinger použil myšlenku vlnových vlastností při vytváření své rovnice v roce **1926**. Povolené stavy atomu bylo možné odvozovat podobně jako přípustné tvary vln při daných podmínkách.\n\nDnešní [vlnová funkce](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html) představuje matematický popis kvantového stavu. [Max Born](https://kosmonovinky.cz/kosmopedie/jak-max-born-propojil-vlnovou-funkci-s-pravdepodobnosti.html) upřesnil, jak z ní získat pravděpodobnosti výsledků měření. De Broglieho návrh byl jedním z rozhodujících kroků k tomuto propojení."
+      },
+      {
+        "heading": "Kde tyto vlastnosti využíváme",
+        "body": "Vlnová délka elektronů ovlivňuje možnosti elektronových mikroskopů a zkoumání krystalové struktury látek. Podobné principy se uplatňují i v pokusech s neutrony, atomy a molekulami.\n\nV kosmologii se vlnové modely používají například při výzkumu některých hypotetických podob temné hmoty. Výsledek pak závisí na vlastnostech zvolených částic a na porovnání s astronomickými daty."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Nobel Prize: de Broglieho návrh a jeho význam](https://www.nobelprize.org/prizes/physics/1929/broglie/facts/)\n- [Clinton Davisson: Nobelova přednáška o objevu elektronových vln](https://www.nobelprize.org/uploads/2018/06/davisson-lecture.pdf)\n- [Nobel Prize 1937: experimentální objev difrakce elektronů](https://www.nobelprize.org/prizes/physics/1937/summary/)"
+      }
+    ],
+    "why_box": "Vlnové vlastnosti částic umožňují zkoumat stavbu látek a přesně předpovídat výsledky mikroskopických pokusů. De Broglieho příběh ukazuje cestu od odvážné souvislosti k měřitelnému důsledku.",
+    "related_explainery": [
+      "co-je-kvantova-mechanika",
+      "co-je-vlnova-funkce-a-co-nam-rika-o-castici",
+      "co-je-superpozice-a-co-se-deje-pri-mereni",
+      "jak-erwin-schrodinger-popsal-vyvoj-kvantoveho-stavu",
+      "jak-max-born-propojil-vlnovou-funkci-s-pravdepodobnosti"
+    ],
+    "related_news": [
+      "2609.11510v1",
+      "2610.12331v1"
+    ],
+    "related_news_note": "Novinky představují současné teoretické využití vlnového a kvantového popisu. U temné hmoty jde o konkrétní model částic, jehož důsledky se porovnávají s pozorováním."
+  },
+  {
+    "id": "exp-088",
+    "title": "Jak Werner Heisenberg změnil popis kvantového světa?",
+    "theme": "lide-a-objevy",
+    "description": "Werner Heisenberg (1901–1976) patřil k tvůrcům kvantové mechaniky. V roce 1925 založil nový postup na měřitelných vlastnostech atomového záření a v roce 1927 formuloval princip neurčitosti. Jeho práce proměnila způsob, jakým předpovídáme chování mikroskopických soustav.",
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "perex": "Werner Heisenberg (1901–1976) patřil k tvůrcům kvantové mechaniky. V roce 1925 založil nový postup na měřitelných vlastnostech atomového záření a v roce 1927 formuloval princip neurčitosti. Jeho práce proměnila způsob, jakým předpovídáme chování mikroskopických soustav.",
+    "sections": [
+      {
+        "heading": "Jak popsat atom podle toho, co měříme",
+        "body": "Fyzici znali polohy a intenzity spektrálních čar, ale starší atomové modely narážely na potíže. Heisenberg se v roce **1925** soustředil na vztahy mezi pozorovatelnými přechody atomu. Hledal početní pravidla, která by z nich vytvořila souvislou teorii.\n\nPráce navazovala na Bohra a další fyziky. Její význam spočíval v novém způsobu výpočtu, z něhož bylo možné získávat předpovědi pro atomové procesy."
+      },
+      {
+        "heading": "Proč se mluví o maticové mechanice",
+        "body": "Max Born rozpoznal v Heisenbergových početních pravidlech **matice**, uspořádané tabulky čísel. Spolu s Pascualem Jordanem a Heisenbergem rozvinuli jejich použití do nové mechaniky.\n\nTyto tabulky umožnily propojit možné přechody elektronu mezi energetickými stavy atomu s vlastnostmi vyzařovaného světla. Z nových početních pravidel mohli fyzici odvozovat například polohy spektrálních čar a porovnávat je s měřením. **Heisenbergův nápad se tak díky spolupráci s Bornem a Jordanem proměnil v použitelný nástroj pro výpočty atomových jevů.**"
+      },
+      {
+        "heading": "Co v roce 1927 vyjádřila neurčitost",
+        "body": "Představme si, že opakujeme pokus s elektrony za stejných výchozích podmínek. V jedné sérii měříme jejich polohu, ve druhé hybnost, tedy veličinu popisující jejich pohyb. Výsledky mají určitý rozptyl: některé hodnoty naměříme častěji, jiné méně často. **Heisenbergův princip říká, že čím užší je rozmezí možných poloh v určitém směru, tím širší musí být rozmezí odpovídajících hybností v témže směru.**\n\nJde o vlastnost kvantového stavu a o to, jaké výsledky může poskytovat. Praktický příklad i přesnější vysvětlení nabízí [samostatné téma o principu neurčitosti](https://kosmonovinky.cz/kosmopedie/co-rika-heisenberguv-princip-neurcitosti.html).",
+        "image_id": "schema-kvantova-neurcitost"
+      },
+      {
+        "heading": "Dvě početní cesty ke stejné teorii",
+        "body": "Schrödinger v roce **1926** předložil vlnovou mechaniku. Brzy se ukázalo, že maticový a vlnový přístup představují za odpovídajících podmínek dva způsoby zápisu stejné kvantové teorie.\n\nRůzné zápisy se hodí k různým úlohám. Jejich propojení umožnilo sjednotit výpočty a společně zkoumat, jak rozumět měření, stavu a vývoji atomů. Na výkladu se podíleli také Bohr, Born, Pauli a další."
+      },
+      {
+        "heading": "Jak Heisenbergův přínos navazuje na dnešní výzkum",
+        "body": "Kvantový stav a vztahy mezi měřenými veličinami jsou základem přesných senzorů, atomové fyziky i částicových teorií. Pomáhají určit, jaký signál může pokus poskytnout a jak jej odlišit od šumu.\n\nHeisenbergův příběh zároveň ukazuje, jak při výzkumu spolupracují různé dovednosti: **určit, co chceme pokusem zjistit, vytvořit vhodný způsob výpočtu a ověřit jeho předpovědi měřením.**"
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Nobel Prize: Heisenberg a vznik nové mechaniky](https://www.nobelprize.org/prizes/physics/1932/heisenberg/biographical/)\n- [American Physical Society: princip neurčitosti v roce 1927](https://www.aps.org/apsnews/2008/02/1927-heisenberg-uncertainty-principle)\n- [Niels Bohr Institute: propojení maticové a vlnové mechaniky](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)"
+      }
+    ],
+    "why_box": "Heisenbergova práce pomáhá rozumět tomu, jaké otázky lze kvantové soustavě položit a jak přesně předpovídat rozdělení výsledků. Tyto vztahy používají dnešní přístroje i výpočty.",
+    "related_explainery": [
+      "co-rika-heisenberguv-princip-neurcitosti",
+      "jak-erwin-schrodinger-popsal-vyvoj-kvantoveho-stavu",
+      "jak-max-born-propojil-vlnovou-funkci-s-pravdepodobnosti",
+      "co-je-superpozice-a-co-se-deje-pri-mereni",
+      "jak-ze-signalu-detektoru-pozname-castici-a-objev"
+    ],
+    "related_news": [
+      "2610.22097v1",
+      "2609.20500v1"
+    ],
+    "related_news_note": "Současný výzkum kvantových experimentů a senzorů navazuje na otázky měření, rozlišitelnosti signálu a vlastností kvantových stavů."
+  },
+  {
+    "id": "exp-089",
+    "title": "Jak Erwin Schrödinger popsal vývoj kvantového stavu?",
+    "theme": "lide-a-objevy",
+    "description": "Erwin Schrödinger (1887–1961) v roce 1926 vytvořil vlnovou rovnici pro kvantové soustavy. Umožňuje počítat vývoj jejich stavu a například energie elektronů v atomu. Jeho práce dodnes patří k základům fyziky a chemie.",
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "perex": "Erwin Schrödinger (1887–1961) v roce 1926 vytvořil vlnovou rovnici pro kvantové soustavy. Umožňuje počítat vývoj jejich stavu a například energie elektronů v atomu. Jeho práce dodnes patří k základům fyziky a chemie.",
+    "sections": [
+      {
+        "heading": "Nová cesta od vln k atomu",
+        "body": "Louis de Broglie spojil pohyb částic s vlnovými vlastnostmi. Schrödinger tuto myšlenku rozvinul do početního postupu, který v roce **1926** předložil v sérii prací. Hledal vlnový popis elektronu v atomu, z něhož by vyplynuly měřitelné energie.\n\nVýsledkem byla **Schrödingerova rovnice**. Při výpočtu potřebujeme znát například síly působící na částici a její výchozí kvantový stav. Rovnice pak určuje, jak se tento stav mění v čase."
+      },
+      {
+        "heading": "Co znamená vlnová funkce",
+        "body": "Stav lze v tomto přístupu vyjádřit **vlnovou funkcí**. Je to matematický předpis, z něhož odvozujeme pravděpodobnosti výsledků měření. Význam pravděpodobností objasnil [Max Born](https://kosmonovinky.cz/kosmopedie/jak-max-born-propojil-vlnovou-funkci-s-pravdepodobnosti.html).\n\nU elektronu v atomu pomáhá vlnová funkce určit, ve kterých místech jej při opakovaných měřeních zachytíme častěji. Takové prostorové rozložení označujeme jako **orbital**. Jeho tvar přibližuje obrázek a podrobněji jej vysvětluje [téma o vlnové funkci](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).",
+        "image_id": "schema-orbital-pravdepodobnost"
+      },
+      {
+        "heading": "Proč mají atomy vybrané energie",
+        "body": "Při hledání stavů s určitou energií musí řešení rovnice splnit podmínky dané atomem. Pro elektron vázaný v atomu vodíku z toho vycházejí oddělené energetické hladiny.\n\nRozdíly hladin odpovídají energiím světla, které atom může pohltit nebo vyzářit. Navazuje tak na [Bohrův model](https://kosmonovinky.cz/kosmopedie/jak-niels-bohr-pomohl-vysvetlit-atomova-spektra.html) a poskytuje širší rámec pro výpočty vlastností atomů, molekul i složitějších látek. U složitějších soustav fyzici používají vhodná přiblížení a počítačové metody."
+      },
+      {
+        "heading": "Jak se jeho rovnice používá",
+        "body": "Vlnová mechanika se dobře hodí například pro elektrony v atomech a molekulách při rychlostech výrazně menších než rychlost světla. Z jejích řešení rozumíme chemickým vazbám, spektrům i chování elektronů v materiálech.\n\nPro propojení kvantové teorie se speciální relativitou vznikly další rovnice. Důležitý krok udělal [Paul Dirac](https://kosmonovinky.cz/kosmopedie/jak-paul-dirac-propojil-kvantovou-fyziku-s-relativitou.html). Jednotlivé nástroje tak vybíráme podle toho, jakou soustavu a jaké energie zkoumáme."
+      },
+      {
+        "heading": "Od slavné kočky k měření",
+        "body": "Schrödinger v roce **1935** navrhl myšlenkový pokus s kočkou v uzavřené schránce. Uvnitř je zařízení, které při zaznamenání radioaktivního rozpadu uvolní jed. Osud kočky tak závisí na jediné kvantové události — zda se sledovaný atom během určené doby rozpadne.\n\nKvantový popis může před měřením zahrnovat **superpozici dvou možností: atom se rozpadl a atom se nerozpadl**. Když stejným způsobem popíšeme také zařízení a kočku, dostáváme společný stav se dvěma větvemi: v jedné je kočka živá, ve druhé mrtvá. Schrödinger tím názorně položil otázku: **jak se tento popis propojí s jediným konkrétním výsledkem, který při otevření schránky zjistíme?**\n\nPříklad otevřel diskusi o tom, jak kvantová pravidla souvisejí s naším každodenním světem, v němž pozorujeme určité výsledky. Podrobněji tuto otázku rozebírá [téma o superpozici a měření](https://kosmonovinky.cz/kosmopedie/co-je-superpozice-a-co-se-deje-pri-mereni.html).\n\n**Za zásadní přínos ke kvantovému popisu atomů získal Schrödinger společně s Paulem Diracem Nobelovu cenu za fyziku pro rok 1933.**"
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Schrödinger: původní přehled vlnové mechaniky z roku 1926](https://doi.org/10.1103/PhysRev.28.1049)\n- [Nobel Prize: Schrödingerův život a práce](https://www.nobelprize.org/prizes/physics/1933/schrodinger/biographical/)\n- [Nobel Prize: ocenění Schrödingera a Diraca v roce 1933](https://www.nobelprize.org/prizes/physics/1933/summary/)"
+      }
+    ],
+    "why_box": "Schrödingerova rovnice spojuje několik jednoduchých fyzikálních vstupů s konkrétními předpověďmi. Díky ní rozumíme vlastnostem atomů, chemickým vazbám i materiálům, z nichž vyrábíme přístroje.",
+    "related_explainery": [
+      "co-je-vlnova-funkce-a-co-nam-rika-o-castici",
+      "co-je-superpozice-a-co-se-deje-pri-mereni",
+      "jak-louis-de-broglie-spojil-castice-s-vlnami",
+      "jak-max-born-propojil-vlnovou-funkci-s-pravdepodobnosti",
+      "jak-paul-dirac-propojil-kvantovou-fyziku-s-relativitou"
+    ],
+    "related_news": [
+      "2609.20500v1",
+      "2610.10802"
+    ],
+    "related_news_note": "Novinky ukazují dnešní využití kvantových výpočtů a simulací. Kosmologický odraz v druhé zprávě je zkoumanou modelovou možností."
+  },
+  {
+    "id": "exp-090",
+    "title": "Jak Max Born propojil vlnovou funkci s pravděpodobností?",
+    "theme": "lide-a-objevy",
+    "description": "Max Born (1882–1970) pomohl vytvořit matematický základ kvantové mechaniky a v roce 1926 vyložil vlnovou funkci pomocí pravděpodobnosti. Propojil tak početní předpis s tím, jaké výsledky získáváme při měření částic.",
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "perex": "Max Born (1882–1970) pomohl vytvořit matematický základ kvantové mechaniky a v roce 1926 vyložil vlnovou funkci pomocí pravděpodobnosti. Propojil tak početní předpis s tím, jaké výsledky získáváme při měření částic.",
+    "sections": [
+      {
+        "heading": "Jak z početních pravidel vznikla nová mechanika",
+        "body": "V roce **1925** Born rozpoznal matice v početních pravidlech, která navrhl Heisenberg. Matice jsou tabulky čísel s přesně určenými pravidly výpočtu. S Pascualem Jordanem a Wernerem Heisenbergem jejich použití rozvinul do souvislé teorie.\n\nBorn působil v Göttingenu, jednom z důležitých center tehdejší teoretické fyziky. Nová mechanika zde vznikala spoluprací: bylo třeba spojit nápad, vhodnou matematiku a výpočty porovnatelné s atomovými měřeními."
+      },
+      {
+        "heading": "Co nám říká vlnová funkce",
+        "body": "Schrödingerova rovnice umožnila počítat vlnovou funkci. Born se zabýval tím, jak souvisí s jednotlivými výsledky pokusů, zejména při rozptylu částic na jiných částicích.\n\nV roce **1926** navrhl pravděpodobnostní výklad. V případě polohy je pravděpodobnost zachycení částice v určité oblasti dána součtem příspěvků **čtverce velikosti vlnové funkce** v této oblasti. Matematický pojem tak dostal přímé spojení s četností výsledků měření."
+      },
+      {
+        "heading": "Od jednoho zásahu k rozdělení výsledků",
+        "body": "Představme si, že opakujeme pokus s elektrony za stejných výchozích podmínek a zaznamenáváme, kam na detektor jednotlivé elektrony dopadnou. Každé zachycení vytvoří konkrétní zásah. Po dostatečném počtu opakování vznikne rozložení míst, které můžeme porovnat s výpočtem.\n\nMá-li vlnová funkce v některé oblasti větší velikost, očekáváme tam více zásahů. Jak se tato předpověď ověřuje na souboru měření, rozvádí [téma o pravděpodobnostním významu vlnové funkce](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).",
+        "image_id": "schema-kvantova-pravdepodobnost"
+      },
+      {
+        "heading": "Proč se pravděpodobnost může měnit",
+        "body": "Kvantový stav se vyvíjí podle příslušné rovnice. Mění se tím také rozdělení pravděpodobností, které z něj počítáme. U vlnových složek je důležité jejich vzájemné sladění: mohou se při skládání zesilovat nebo zeslabovat.\n\nTento jev, **interference**, vytváří například pruhy v [dvouštěrbinovém pokusu](https://kosmonovinky.cz/kosmopedie/co-je-superpozice-a-co-se-deje-pri-mereni.html). Bornův výklad umožňuje převést vypočtený výsledek skládání vln na očekávaný počet zásahů v jednotlivých místech."
+      },
+      {
+        "heading": "Jak jeho přínos používáme při zkoumání vesmíru",
+        "body": "Pravděpodobnostní předpovědi se používají při výpočtech atomových procesů, reakcí částic i [neutrinových oscilací](https://kosmonovinky.cz/kosmopedie/proc-neutrina-meni-svuj-druh.html). Vědci z nich určují, jaké rozdělení událostí má jejich experiment zaznamenat.\n\nBornův přínos tak propojuje teorii s opakovatelným pokusem: vypočtené pravděpodobnosti můžeme kontrolovat na skutečných datech. Za základní výzkum kvantové mechaniky, zvláště statistický výklad vlnové funkce, získal Nobelovu cenu za fyziku v roce 1954."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Max Born: Nobelova přednáška o statistickém výkladu kvantové mechaniky](https://www.nobelprize.org/uploads/2018/06/born-lecture.pdf)\n- [Nobel Prize: Max Born a oceněný přínos](https://www.nobelprize.org/prizes/physics/1954/born/facts/)\n- [Niels Bohr Institute: vznik a výklad kvantové mechaniky](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)"
+      }
+    ],
+    "why_box": "Bornův výklad říká, jak z kvantového výpočtu získat předpověď pro měření. Díky tomu můžeme porovnávat teorii s četností skutečně zaznamenaných událostí.",
+    "related_explainery": [
+      "co-je-vlnova-funkce-a-co-nam-rika-o-castici",
+      "co-je-superpozice-a-co-se-deje-pri-mereni",
+      "jak-werner-heisenberg-zmenil-popis-kvantoveho-sveta",
+      "jak-erwin-schrodinger-popsal-vyvoj-kvantoveho-stavu",
+      "proc-neutrina-meni-svuj-druh"
+    ],
+    "related_news": [
+      "2609.20500v1",
+      "2610.22097v1"
+    ],
+    "related_news_note": "Novinky navazují na dnešní výpočty a experimentální testy kvantové fyziky. Pravděpodobnostní popis pomáhá určit očekávané signály i možnosti jejich rozlišení."
+  },
+  {
+    "id": "exp-091",
+    "title": "Jak Wolfgang Pauli pomohl vysvětlit stavbu hmoty?",
+    "theme": "lide-a-objevy",
+    "description": "Wolfgang Pauli (1900–1958) v roce 1925 formuloval pravidlo určující, jak mohou elektrony obsazovat atomové stavy. O pět let později navrhl částici, z níž se stalo neutrino. Jeho myšlenky spojují stavbu atomů s nitrem hvězd i částicovou fyzikou.",
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "perex": "Wolfgang Pauli (1900–1958) v roce 1925 formuloval pravidlo určující, jak mohou elektrony obsazovat atomové stavy. O pět let později navrhl částici, z níž se stalo neutrino. Jeho myšlenky spojují stavbu atomů s nitrem hvězd i částicovou fyzikou.",
+    "sections": [
+      {
+        "heading": "Proč se elektrony v atomu uspořádávají do slupek",
+        "body": "Chemické vlastnosti prvků se pravidelně opakují v periodické tabulce. Vysvětlení vyžaduje porozumět tomu, jak elektrony postupně obsazují dostupné stavy kolem jádra.\n\nPauli v roce **1925** předložil **vylučovací princip**: dva elektrony v atomu nemohou mít současně stejný úplný soubor kvantových čísel. Tato čísla označují vlastnosti stavu, například jeho prostorové uspořádání a spin. Princip tak určuje, které kombinace obsazení jsou možné."
+      },
+      {
+        "heading": "Co doplňuje spin",
+        "body": "**Spin** je vnitřní kvantová vlastnost částice, která souvisí s jejím momentem hybnosti a magnetickými vlastnostmi. U elektronu mohou při měření jeho složky v daném směru nastat dvě hodnoty.\n\nJeden prostorový orbital proto mohou obsadit dva elektrony s odlišnou hodnotou této složky spinu. Další elektrony musí zaujmout jiné dostupné stavy. V kombinaci s energiemi stavů a elektrickými interakcemi tím vysvětlujeme stavbu elektronových slupek a pravidelnosti chemických vazeb."
+      },
+      {
+        "heading": "Jak princip souvisí s hustými hvězdami",
+        "body": "Elektrony patří mezi **fermiony**, částice podléhající Pauliho principu. Do stejné skupiny patří protony a neutrony. Při stlačování takové látky musí část částic obsazovat stavy s vyššími hybnostmi a energiemi.\n\nZ toho vzniká **degenerační tlak**, který pomáhá vzdorovat gravitaci například uvnitř bílých trpaslíků. Význam má také v [neutronových hvězdách](https://kosmonovinky.cz/kosmopedie/co-je-neutronova-hvezda.html), kde na vlastnosti velmi husté látky působí spolu s jadernými interakcemi. **Pauliho vylučovací princip, původně formulovaný při studiu elektronů v atomech, tak pomáhá vysvětlit i to, jak husté hvězdné pozůstatky odolávají vlastní gravitaci.**"
+      },
+      {
+        "heading": "Proč Pauli navrhl neutrino",
+        "body": "Při jednom druhu **beta rozpadu**, přeměně atomového jádra provázené vznikem elektronu, vycházelo elektronům spojité rozdělení energií. Pauli v dopise z **4. prosince 1930** navrhl, že část energie odnáší další elektricky neutrální částice.\n\nPozději dostala jméno **neutrino**; dnes u tohoto typu beta rozpadu mluvíme přesněji o elektronovém antineutrinu. Návrh umožnil zachovat energii a další veličiny v jednotlivé přeměně. Frederick Reines a Clyde Cowan oznámili experimentální zachycení antineutrin z reaktoru v roce **1956**."
+      },
+      {
+        "heading": "Dvě návaznosti na dnešní kosmologii",
+        "body": "Pauliho princip pomáhá popsat látku v extrémních podmínkách. Neutrina zase odnášejí informace z nitra Slunce a ze zániku hvězd; jejich vlastnosti ovlivňují také vznik kosmických struktur.\n\nJak se takové částice zachycují, vysvětluje [téma o neutrinových detektorech](https://kosmonovinky.cz/kosmopedie/jak-funguji-detektory-neutrin-a-co-nam-odhaluji.html). Jejich přeměny během letu přibližuje [téma o neutrinových oscilacích](https://kosmonovinky.cz/kosmopedie/proc-neutrina-meni-svuj-druh.html). **Pauliho dva zásadní přínosy — vylučovací princip a návrh existence neutrina — nám dnes pomáhají porozumět stavbě hmoty, vlastnostem hvězd i vývoji vesmíru.**"
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [American Physical Society: Pauliho vylučovací princip z roku 1925](https://www.aps.org/apsnews/2007/01/wolfgang-pauli-announces-exclusion-principle)\n- [CERN: archiv Pauliho dopisu o nové částici z roku 1930](https://cds.cern.ch/record/264021/)\n- [CERN: Pauliho život, neutrino a jeho experimentální zachycení](https://archives.web.cern.ch/pauli_archive/biography/)"
+      }
+    ],
+    "why_box": "**Pauliho princip pomáhá vysvětlit uspořádání elektronů v atomech i vznik tlaku, kterým hustá látka uvnitř hvězdných pozůstatků vzdoruje gravitačnímu stlačování.** Návrh neutrina ukazuje, jak může přesná bilance jednoho procesu otevřít cestu k nové částici.",
+    "related_explainery": [
+      "co-je-neutronova-hvezda",
+      "jak-funguji-detektory-neutrin-a-co-nam-odhaluji",
+      "proc-neutrina-meni-svuj-druh",
+      "co-je-standardni-model-casticove-fyziky",
+      "jak-niels-bohr-pomohl-vysvetlit-atomova-spektra"
+    ],
+    "related_news": [
+      "2610.28609v1",
+      "2610.31658v1"
+    ],
+    "related_news_note": "Novinky rozvíjejí dvě oblasti spojené s Pauliho přínosem: vlastnosti husté hvězdné látky a hledání podstaty neutrinové hmotnosti."
+  },
+  {
+    "id": "exp-092",
+    "title": "Jak Paul Dirac propojil kvantovou fyziku s relativitou?",
+    "theme": "lide-a-objevy",
+    "description": "Paul Dirac (1902–1984) v roce 1928 propojil kvantový popis elektronu se speciální relativitou. Jeho rovnice přirozeně zahrnula spin a otevřela cestu k předpovědi antihmoty. Dnešní částicová fyzika z tohoto spojení stále vychází.",
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "perex": "Paul Dirac (1902–1984) v roce 1928 propojil kvantový popis elektronu se speciální relativitou. Jeho rovnice přirozeně zahrnula spin a otevřela cestu k předpovědi antihmoty. Dnešní částicová fyzika z tohoto spojení stále vychází.",
+    "sections": [
+      {
+        "heading": "Proč bylo třeba spojit dvě teorie",
+        "body": "Kvantová mechanika vysvětlovala atomové jevy, zatímco speciální relativita popisovala vztahy mezi prostorem, časem, energií a pohybem při vysokých rychlostech. Pro elektron bylo potřeba vytvořit teorii respektující oba rámce.\n\nDirac v roce **1928** předložil rovnici, která tento úkol splnila. Umožnila podrobněji počítat vlastnosti elektronu a jeho interakci s elektromagnetickým polem. Stala se důležitým krokem k relativistické [kvantové teorii pole](https://kosmonovinky.cz/kosmopedie/co-je-kvantova-teorie-pole.html)."
+      },
+      {
+        "heading": "Jak se v rovnici objevil spin",
+        "body": "Elektron má **spin**, vnitřní kvantovou vlastnost související s momentem hybnosti a magnetickým chováním. Při měření jeho složky v určitém směru poskytuje dvě možné hodnoty.\n\nDiracova rovnice tuto strukturu přirozeně zahrnula. Diracův popis pomohl vysvětlit také magnetické vlastnosti elektronu a drobné rozdíly mezi energiemi některých stavů v atomu. Ty se projevují ve světle, které atom vyzařuje nebo pohlcuje: **některé spektrální čáry se při podrobném měření rozliší na několik velmi blízkých čar.** Tomuto jevu říkáme jemná struktura atomového spektra. Důsledky rovnice tak šlo porovnávat s přesnými laboratorními měřeními."
+      },
+      {
+        "heading": "Cesta k pozitronu",
+        "body": "Řešení relativistické rovnice přinesla také otázku stavů se zápornou energií. Dirac při jejich výkladu dospěl v roce **1931** k předpovědi částice se stejnou hmotností jako elektron a opačným elektrickým nábojem.\n\nCarl Anderson v roce **1932** objevil v kosmickém záření **pozitron**. Tento kladně nabitý protějšek elektronu se stal prvním známým příkladem antihmoty. **Při setkání elektronu s pozitronem může dojít k anihilaci. Při ní obě částice zaniknou a jejich energie, včetně energie odpovídající jejich hmotnosti, se přemění v energii záření — při anihilaci pomalého elektronu a pozitronu nejčastěji vzniknou dva fotony.**",
+        "image_id": "schema-anihilace-dva-fotony"
+      },
+      {
+        "heading": "Jak jeho přínos rozvinula částicová fyzika",
+        "body": "V dnešní teorii pole částice a antičástice přirozeně patří do společného popisu. Diracova rovnice se používá také pro další fermiony, tedy částice se spinem podobného typu jako elektron.\n\nSpojení relativity a kvantových pravidel je základem [standardního modelu částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html). Přesné výpočty přitom zahrnují další interakce a opravy; jejich porovnávání s experimenty navazuje na otázky, které Dirac otevřel."
+      },
+      {
+        "heading": "Proč se jeho jméno objevuje u neutrin",
+        "body": "Označení **Diracovo neutrino** znamená, že neutrino a jeho antičástice jsou dvě odlišné částice. Druhou zkoumanou možností je **Majoránovo neutrino**, které by bylo vlastní antičásticí. Rozlišení těchto možností patří k důležitým úkolům současných experimentů.\n\nTato otázka souvisí s původem neutrinové hmotnosti a s hledáním vysvětlení převahy hmoty ve vesmíru. Laboratorní výzkum přibližuje [téma o antihmotě](https://kosmonovinky.cz/kosmopedie/jak-zkoumame-antiatomy-a-prevahu-hmoty-nad-antihmotou.html). Za zásadní přínos ke kvantovému popisu atomů získal Dirac společně s Erwinem Schrödingerem Nobelovu cenu za fyziku pro rok 1933."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Dirac: původní práce The Quantum Theory of the Electron z roku 1928](https://doi.org/10.1098/rspa.1928.0023)\n- [Nobel Prize: Diracova rovnice a antihmota](https://www.nobelprize.org/prizes/physics/1933/dirac/facts/)\n- [Nobel Prize: Carl Anderson a objev pozitronu v roce 1932](https://www.nobelprize.org/prizes/physics/1936/anderson/facts/)"
+      }
+    ],
+    "why_box": "Diracova práce ukazuje, jak může spojení dvou úspěšných teorií předpovědět novou částici. Jeho rovnice propojuje atomová měření, antihmotu i dnešní otázky o vlastnostech neutrin.",
+    "related_explainery": [
+      "co-je-kvantova-teorie-pole",
+      "co-je-standardni-model-casticove-fyziky",
+      "jak-zkoumame-antiatomy-a-prevahu-hmoty-nad-antihmotou",
+      "proc-neutrina-meni-svuj-druh",
+      "jak-erwin-schrodinger-popsal-vyvoj-kvantoveho-stavu"
+    ],
+    "related_news": [
+      "2610.31658v1",
+      "2610.10688"
+    ],
+    "related_news_note": "Zprávy se věnují současným hypotézám o neutrinech a převaze hmoty. Rozlišení Diracovy a Majoránovy možnosti zůstává otevřenou experimentální otázkou."
   }
 ]
