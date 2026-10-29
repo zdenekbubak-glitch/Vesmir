@@ -7993,5 +7993,255 @@
       "manual"
     ],
     "match_keywords": []
+  },
+  {
+    "id": "osa-vesmir-celkovy-prehled",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://science.nasa.gov/universe/overview/"
+      },
+      {
+        "text": "Odborný podklad",
+        "url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově kreslená časová osa v tools/cosmic_timeline_diagrams.py. Přibližná rekonstrukce v horkém kosmologickém modelu; popsané časové měřítko a rozsahy procesů.",
+    "verified_on": "2026-10-29",
+    "revision": 3,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "timeline-overview",
+    "source_id": "own-diagram:osa-vesmir-celkovy-prehled",
+    "source_family": "own-diagram:osa-vesmir-celkovy-prehled",
+    "title": "Vývoj vesmíru — celkový přehled",
+    "alt": "Čtyři navazující etapy od první sekundy do dneška.",
+    "caption": "Orientační přehled čtyř etap. Rozestupy mezi kartami nevyjadřují délku jejich trvání.",
+    "thumbnail": "assets/article-images/thumbs/osa-vesmir-celkovy-prehled.webp",
+    "source_master": "assets/article-images/sources/osa-vesmir-celkovy-prehled.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://science.nasa.gov/universe/overview/",
+      "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf"
+    ],
+    "width": 1100,
+    "height": 1390
+  },
+  {
+    "id": "osa-vesmir-prvni-sekunda",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://cds.cern.ch/record/610265"
+      },
+      {
+        "text": "Odborný podklad",
+        "url": "https://home.web.cern.ch/science/physics/early-universe/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově kreslená časová osa v tools/cosmic_timeline_diagrams.py. Přibližná rekonstrukce v horkém kosmologickém modelu; popsané časové měřítko a rozsahy procesů.",
+    "verified_on": "2026-10-29",
+    "revision": 3,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "timeline-first",
+    "source_id": "own-diagram:osa-vesmir-prvni-sekunda",
+    "source_family": "own-diagram:osa-vesmir-prvni-sekunda",
+    "title": "První zlomky sekundy",
+    "alt": "Horká částicová látka: 10^-12 až přibližně 10^-5 s; Vznik protonů a neutronů: řádově kolem 10^-5 s; Neutrina se postupně oddělují: řádově kolem 1 s",
+    "caption": "Od 10⁻¹² sekundy do přibližně 1 sekundy. Logaritmické měřítko času: stejná vzdálenost znamená stejný násobek stáří. Pásy vyznačují orientační časové oblasti dějů, kroužky vybrané milníky. Nejde o intervaly statistické nejistoty.",
+    "thumbnail": "assets/article-images/thumbs/osa-vesmir-prvni-sekunda.webp",
+    "source_master": "assets/article-images/sources/osa-vesmir-prvni-sekunda.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://cds.cern.ch/record/610265",
+      "https://home.web.cern.ch/science/physics/early-universe/"
+    ],
+    "width": 1100,
+    "height": 1155
+  },
+  {
+    "id": "osa-vesmir-prvni-minuty",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově kreslená časová osa v tools/cosmic_timeline_diagrams.py. Přibližná rekonstrukce v horkém kosmologickém modelu; popsané časové měřítko a rozsahy procesů.",
+    "verified_on": "2026-10-29",
+    "revision": 3,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "timeline-minutes",
+    "source_id": "own-diagram:osa-vesmir-prvni-minuty",
+    "source_family": "own-diagram:osa-vesmir-prvni-minuty",
+    "title": "První minuty vesmíru",
+    "alt": "Ustaluje se poměr protonů a neutronů: kolem 1 s a dále; Ubývá elektronů a pozitronů: během prvních minut; Deuterium otevírá cestu k heliu: přibližně 2 až 5 minut; Jaderné reakce postupně utichají: přibližně 5 až 20 minut",
+    "caption": "Od 1 sekundy do přibližně 20 minut. Logaritmické měřítko času: stejná vzdálenost znamená stejný násobek stáří. Pásy vyznačují orientační časové oblasti dějů, kroužky vybrané milníky. Nejde o intervaly statistické nejistoty.",
+    "thumbnail": "assets/article-images/thumbs/osa-vesmir-prvni-minuty.webp",
+    "source_master": "assets/article-images/sources/osa-vesmir-prvni-minuty.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf"
+    ],
+    "width": 1100,
+    "height": 1360
+  },
+  {
+    "id": "osa-vesmir-atomy-hvezdy",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/History_of_cosmic_structure_formation"
+      },
+      {
+        "text": "Odborný podklad",
+        "url": "https://science.nasa.gov/universe/overview/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově kreslená časová osa v tools/cosmic_timeline_diagrams.py. Přibližná rekonstrukce v horkém kosmologickém modelu; popsané časové měřítko a rozsahy procesů.",
+    "verified_on": "2026-10-29",
+    "revision": 3,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "timeline-light",
+    "source_id": "own-diagram:osa-vesmir-atomy-hvezdy",
+    "source_family": "own-diagram:osa-vesmir-atomy-hvezdy",
+    "title": "Od plazmatu k prvním galaxiím",
+    "alt": "Dlouhá etapa horkého plazmatu: od prvních minut do asi 380 tisíc let; Hmota přebírá převahu nad zářením: přibližně 50 tisíc let; Vznik atomů a uvolnění reliktního světla: přibližně 380 tisíc let; Temné věky, pak první hvězdy a galaxie: první hvězdy řádově po 100 až 200 milionech let; Reionizace mezigalaktického vodíku: během prvních stovek milionů let až asi 1 miliardy",
+    "caption": "Od 20 minut do první miliardy let. Logaritmické měřítko času: stejná vzdálenost znamená stejný násobek stáří. Pásy vyznačují orientační časové oblasti dějů, kroužky vybrané milníky. Nejde o intervaly statistické nejistoty.",
+    "thumbnail": "assets/article-images/thumbs/osa-vesmir-atomy-hvezdy.webp",
+    "source_master": "assets/article-images/sources/osa-vesmir-atomy-hvezdy.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://www.esa.int/Science_Exploration/Space_Science/Planck/History_of_cosmic_structure_formation",
+      "https://science.nasa.gov/universe/overview/"
+    ],
+    "width": 1100,
+    "height": 1565
+  },
+  {
+    "id": "osa-vesmir-galaxie-dnes",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://cosmicdawn.astro.ucla.edu/cosmic_noon.html"
+      },
+      {
+        "text": "Odborný podklad",
+        "url": "https://science.nasa.gov/solar-system/solar-system-facts/"
+      },
+      {
+        "text": "Odborný podklad",
+        "url": "https://arxiv.org/abs/1807.06209"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově kreslená časová osa v tools/cosmic_timeline_diagrams.py. Přibližná rekonstrukce v horkém kosmologickém modelu; popsané časové měřítko a rozsahy procesů.",
+    "verified_on": "2026-10-29",
+    "revision": 3,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "timeline-late",
+    "source_id": "own-diagram:osa-vesmir-galaxie-dnes",
+    "source_family": "own-diagram:osa-vesmir-galaxie-dnes",
+    "title": "Od prvních galaxií k dnešku",
+    "alt": "Galaxie a kosmická síť dále rostou: od první miliardy let až do dneška; Vrchol kosmické hvězdné tvorby: zhruba 2 až 4 miliardy let; Rozpínání se začíná zrychlovat: asi 7,7 miliardy let v základním modelu ΛCDM; Vznik Slunce a Sluneční soustavy: asi 9,2 miliardy let; tedy před 4,6 miliardy let; Dnešní vesmír: přibližně 13,8 miliardy let",
+    "caption": "Od 1 do 13,8 miliardy let. Lineární měřítko stáří vesmíru v miliardách let. Pásy vyznačují orientační časové oblasti dějů, kroužky vybrané milníky. Nejde o intervaly statistické nejistoty.",
+    "thumbnail": "assets/article-images/thumbs/osa-vesmir-galaxie-dnes.webp",
+    "source_master": "assets/article-images/sources/osa-vesmir-galaxie-dnes.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://cosmicdawn.astro.ucla.edu/cosmic_noon.html",
+      "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "https://arxiv.org/abs/1807.06209"
+    ],
+    "width": 1100,
+    "height": 1565
   }
 ]

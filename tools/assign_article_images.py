@@ -189,7 +189,7 @@ def figure(entry):
     links=' '.join('<a href="'+esc(a['url'],quote=True)+'" rel="noopener">'+esc(a['text'])+'</a>'
                    for a in entry.get('credit_links',[]) if a.get('url','').startswith(('https://','http://')))
     return ('<figure class="article-image"><img src="'+esc(image_url(entry),quote=True)+'" '
-            'alt="'+esc(entry['alt'],quote=True)+'" width="1200" height="630" style="width:100%;height:auto;border-radius:10px">'
+            'alt="'+esc(entry['alt'],quote=True)+'" width="'+str(entry.get('width',1200))+'" height="'+str(entry.get('height',630))+'" style="width:100%;height:auto;border-radius:10px">'
             '<figcaption style="font-size:.85rem;color:var(--muted)">'+esc(entry['caption'])+'<br>© / kredit: '+esc(entry['credit'])+
             ' · <a href="'+esc(entry['source'],quote=True)+'">Zdroj</a> · '+links+
             ' · <a href="'+esc(entry['license_url'],quote=True)+'">'+esc(entry['license'])+'</a>'
@@ -200,7 +200,7 @@ def image_schema(entry,base):
     result = {'@type':'ImageObject','url':image_url(entry,base),
               'contentUrl':image_url(entry,base),
               'caption':entry['caption'],'creditText':entry['credit'],'license':entry['license_url'],
-              'acquireLicensePage':entry['source'],'width':1200,'height':630}
+              'acquireLicensePage':entry['source'],'width':entry.get('width',1200),'height':entry.get('height',630)}
     # Use explicit rights metadata where known. A credit line alone does not
     # establish either authorship or ownership of a third-party image.
     creator = entry.get('creator')

@@ -262,7 +262,7 @@
     "theme": "relictni-zareni",
     "description": "Světlo z raného horkého vesmíru dnes měříme v mikrovlnách. Jak vzniklo reliktní záření a co zjistíme z jeho jemných nerovností?",
     "published": "2026-10-17",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "perex": "Reliktní záření je světlo z raného horkého vesmíru, které po vzniku neutrálních atomů začalo putovat mnohem volněji. Dnes je zachycujeme v mikrovlnném oboru. Jeho spektrum a jemné nerovnosti pomáhají určit složení a vývoj vesmíru.",
     "sections": [
       {
@@ -272,6 +272,11 @@
       {
         "heading": "Jak se světlo vydalo na dlouhou cestu",
         "body": "V raném hustém prostředí se fotony často rozptylovaly na volných elektronech. Jak se vesmír rozpínal a chladl, elektrony se vázaly s jádry do neutrálních atomů. Tento přechod označujeme jako **rekombinaci**.\n\nPřibližně ve věku 380 tisíc let se střední vzdálenost mezi rozptyly výrazně prodloužila. Záření od té doby mohlo putovat mnohem volněji a uchovalo otisk tehdejších podmínek. První hvězdy se vytvořily až později."
+      },
+      {
+        "heading": "Od horkého plazmatu k prvním hvězdám",
+        "body": "Časová osa propojuje vznik lehkých jader s pozdějšími hvězdami a galaxiemi. **Plazma** je látka s volnými elektrony a elektricky nabitými částicemi. V raném vesmíru bylo volných elektronů velmi mnoho. **Fotony, tedy částice světla, se na nich často rozptylovaly — při setkání s elektronem změnily směr a pokračovaly jinudy.** Než mohly urazit větší vzdálenost, následoval další rozptyl. Světlo se tak šířilo klikatou cestou a prostředí bylo neprůhledné, podobně jako hustá mlha.\n\n**Důležitou roli už tehdy hrála podle současného kosmologického modelu temná hmota.** Zatímco běžnou látku ovlivňoval tlak záření, temná hmota se světlem téměř neinteragovala. Její hustší oblasti proto mohly působením gravitace růst už před uvolněním reliktního světla. Tyto oblasti později přitahovaly plyn, z něhož vznikaly první hvězdy a galaxie.\n\nTento vývoj ověřujeme porovnáváním modelů s mapami reliktního záření a rozložením galaxií. **Z čeho se temná hmota skládá a jaké má další vlastnosti, vědci stále zjišťují.**\n\nZobrazené období je nesmírně dlouhé, proto osa používá logaritmické měřítko. Stejné vzdálenosti znamenají stejné násobky stáří. Krátké přechody zabírají jen malou část osy.\n\n- **od prvních minut do asi 380 tisíc let: Dlouhá etapa horkého plazmatu.** Jádra a volné elektrony tvoří plazma. Světlo se často rozptyluje na elektronech.\n- **přibližně 50 tisíc let: Hmota přebírá převahu nad zářením.** Hustoty energie hmoty a záření se vyrovnají. Poté převládá hmota; rostou zárodky struktur.\n- **přibližně 380 tisíc let: Vznik atomů a uvolnění reliktního světla.** Elektrony se vážou do atomů. Ubyde rozptylů a světlo může putovat mnohem volněji.\n- **první hvězdy řádově po 100 až 200 milionech let: Temné věky, pak první hvězdy a galaxie.** Gravitace zhušťuje plyn. Začíná hvězdná tvorba a rostou první galaxie; přesné začátky zkoumáme.\n- **během prvních stovek milionů let až asi 1 miliardy: Reionizace mezigalaktického vodíku.** Záření prvních zdrojů postupně znovu odděluje elektrony od atomů v řídkém plynu.\n\nPři rekombinaci se výrazně omezil rozptyl již existujícího záření. **První hvězdy potom přidaly nové zdroje světla.** Jejich přesný začátek i průběh reionizace vědci dál zkoumají pomocí vzdálených galaxií a dalších měření. Pozdější miliardy let pokračují u [vzniku galaxií](https://kosmonovinky.cz/kosmopedie/jak-vznikaji-galaxie.html).",
+        "image_id": "osa-vesmir-atomy-hvezdy"
       },
       {
         "heading": "Proč záření dnes zachycujeme v mikrovlnách",
@@ -287,7 +292,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [NASA: reliktní záření a hlavní pojmy](https://science.nasa.gov/universe/glossary/)\n- [ESA: výsledky Plancku](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights)\n- [Planck 2018: odvození kosmologických parametrů](https://arxiv.org/abs/1807.06209)\n- [ESA: rekombinace a pozdější epochy](https://www.esa.int/Science_Exploration/Space_Science/Cosmic_eras)"
+        "body": "- [NASA: reliktní záření a hlavní pojmy](https://science.nasa.gov/universe/glossary/)\n- [ESA: výsledky Plancku](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights)\n- [Planck 2018: odvození kosmologických parametrů](https://arxiv.org/abs/1807.06209)\n- [ESA: rekombinace a pozdější epochy](https://www.esa.int/Science_Exploration/Space_Science/Cosmic_eras)\n- [NASA: první hvězdy a reionizace](https://science.nasa.gov/universe/overview/)\n- [ESA: časová návaznost růstu kosmických struktur](https://www.esa.int/Science_Exploration/Space_Science/Planck/History_of_cosmic_structure_formation)\n- [Particle Data Group 2025: přechod od převahy záření k převaze hmoty](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf)"
       }
     ],
     "why_box": "Reliktní záření propojuje dávné fyzikální podmínky s dnešními přesnými měřeními. Jeho nezávislé porovnávání s galaxiemi a dalšími daty umožňuje prověřovat společný kosmologický model.",
@@ -498,7 +503,7 @@
     "theme": "relictni-zareni",
     "description": "Mapa reliktního záření zachycuje malé rozdíly teplot na obloze. Jak z jejich vzoru odvozujeme složení, geometrii a vývoj vesmíru?",
     "published": "2026-10-18",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "perex": "Mapa reliktního záření zachycuje jemné rozdíly teplot na obloze. Jejich vzor uchovává informace o podmínkách přibližně 380 tisíc let po začátku horkého vývoje. Porovnáním s modelem odvozujeme složení, stáří a geometrii vesmíru.",
     "sections": [
       {
@@ -511,7 +516,7 @@
       },
       {
         "heading": "Jak skvrny souvisejí se vznikem galaxií",
-        "body": "Teplejší a chladnější místa vznikají společným působením rozdílů hustoty, gravitace, tlaku a pohybu látky. Proto jsou pro fyzikální výklad důležité vzory na různých úhlových měřítkách a jejich statistické vlastnosti.\n\nPrvotní hustotní nerovnosti se působením gravitace dále vyvíjely. V hustších oblastech později rostly galaxie a kupy. Mapa tak poskytuje důležitou součást počátečních podmínek pro výpočty kosmických struktur."
+        "body": "Teplejší a chladnější místa vznikají společným působením rozdílů hustoty, gravitace, tlaku a pohybu látky. Proto jsou pro fyzikální výklad důležité vzory na různých úhlových měřítkách a jejich statistické vlastnosti.\n\nPrvotní hustotní nerovnosti se působením gravitace dále vyvíjely. V hustších oblastech později rostly galaxie a kupy. Mapa tak poskytuje důležitou součást počátečních podmínek pro výpočty kosmických struktur.\n\nKdy se uvolnilo reliktní světlo a kdy se objevily první hvězdy, názorně porovnává [časová osa od plazmatu k prvním galaxiím](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html)."
       },
       {
         "heading": "Jak získáváme mapu raného vesmíru",
@@ -691,7 +696,7 @@
     "theme": "velky-tresk",
     "description": "Horký velký třesk popisuje rozpínání a ochlazování vesmíru. Jak jeho historii ověřují reliktní záření, lehké prvky a galaxie?",
     "published": "2026-10-18",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "perex": "Horký velký třesk popisuje, jak se vesmír rozpínal a ochlazoval z velmi horkého a hustého stavu. Jeho historii ověřujeme pomocí galaxií, reliktního záření a lehkých prvků. Na raný vývoj navazuje vznik atomů, prvních hvězd a dalších kosmických struktur.",
     "sections": [
       {
@@ -701,6 +706,16 @@
       {
         "heading": "Jak rozumět rozpínání",
         "body": "Na velkých měřítkách se s časem zvětšují vzdálenosti mezi místy, která se účastní průměrného rozpínání. Pozorovatelé v různých galaxiích mohou vidět podobný obraz vzdalujících se vzdálených soustav.\n\nHorká raná fáze se v modelu týká prostoru jako celku. Naše pozorovatelná oblast byla tehdy hustší a teplejší. Otázka samotného počátku času sahá k podmínkám, pro něž hledáme úplnější spojení gravitace a kvantové fyziky."
+      },
+      {
+        "heading": "Čtyři pohledy na časovou osu vesmíru",
+        "body": "První děje probíhaly v nepatrných zlomcích sekundy, pozdější vývoj trval miliardy let. Přehled proto rozděluje historii do čtyř úseků. **Čas zde znamená stáří vesmíru od počátku horkého vývoje.** Údaje jsou přibližné a vycházejí z fyzikálních modelů porovnávaných s měřeními.\n\nSchéma níže nabízí celkový přehled čtyř etap. Následující oddíl podrobněji popisuje první sekundu a doplňuje ji vlastní časovou osou. **Podrobný výklad prvních minut i jejich časovou osu najdete v tématu [Jak v prvních minutách vesmíru vznikla jádra lehkých prvků?](https://kosmonovinky.cz/kosmopedie/jak-v-prvnich-minutach-vesmiru-vznikla-jadra-lehkych-prvku.html).** Cestu od plazmatu k prvním galaxiím najdete u [reliktního záření](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html) a pozdější vývoj až do dneška u [vzniku galaxií](https://kosmonovinky.cz/kosmopedie/jak-vznikaji-galaxie.html).",
+        "image_id": "osa-vesmir-celkovy-prehled"
+      },
+      {
+        "heading": "Co se dělo během první sekundy",
+        "body": "Osa začíná v čase **10^-12 sekundy**, tedy v biliontině sekundy. Vesmír tehdy vyplňovala velmi horká směs částic a záření, jejíž součástí byly také **kvarky a gluony**. Kvarky jsou stavebními částicemi protonů a neutronů; gluony mezi kvarky přenášejí silnou interakci. **Jak se vesmír rozpínal a chladl, mohly se kvarky později vázat do složených částic, mezi něž patří protony a neutrony.**\n\nPoužité měřítko je logaritmické: stejná vzdálenost znamená stejný násobek času. Například mezi 10^-9 a 10^-6 sekundy se čas zvětší tisíckrát, stejně jako mezi 10^-6 a 10^-3 sekundy.\n\n- **10^-12 až přibližně 10^-5 s: Horká částicová látka.** Kvarky, gluony a další částice se často srážejí. Při rozpínání teplota klesá.\n- **řádově kolem 10^-5 s: Vznik protonů a neutronů.** Kvarky se vážou do složených částic. Protony a neutrony jsou stavebními částmi jader.\n- **řádově kolem 1 s: Neutrina se postupně oddělují.** Srážky neutrin s okolní látkou řídnou. Neutrina začínají putovat mnohem volněji.\n\nOddělování neutrin je postupné a pokračuje i po první sekundě. Podrobnosti o částicích rozvíjí [standardní model](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html). Dřívější [inflace](https://kosmonovinky.cz/kosmopedie/co-je-kosmicka-inflace-a-jak-ji-muzeme-overovat.html) je samostatně zkoumaný scénář s modelově závislým časováním.",
+        "image_id": "osa-vesmir-prvni-sekunda"
       },
       {
         "heading": "Tři navazující zkoušky modelu",
@@ -720,7 +735,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [NASA: horký velký třesk](https://science.nasa.gov/universe/the-big-bang/)\n- [ESA: kosmické epochy, temné věky a reionizace](https://www.esa.int/Science_Exploration/Space_Science/Cosmic_eras)\n- [Particle Data Group 2025: lehké prvky a nejistoty](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf)\n- [Planck 2018: testy inflačních modelů](https://arxiv.org/abs/1807.06211)"
+        "body": "- [NASA: horký velký třesk](https://science.nasa.gov/universe/the-big-bang/)\n- [ESA: kosmické epochy, temné věky a reionizace](https://www.esa.int/Science_Exploration/Space_Science/Cosmic_eras)\n- [Particle Data Group 2025: lehké prvky a nejistoty](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf)\n- [Planck 2018: testy inflačních modelů](https://arxiv.org/abs/1807.06211)\n- [CERN: první sekunda a přechod kvarků do složených částic](https://cds.cern.ch/record/610265)\n- [Particle Data Group 2025: horký kosmologický vývoj](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf)"
       }
     ],
     "why_box": "Horký model spojuje chemické složení, nejstarší pozorovatelné světlo a rozpínání do jedné ověřitelné historie. Díky němu můžeme porovnávat události z velmi rozdílných epoch.",
@@ -941,7 +956,7 @@
     "theme": "galaxie",
     "description": "Galaxie rostou zhušťováním plynu, tvorbou hvězd a slučováním. Jak jejich vývoj souvisí s temnou hmotou a kosmickou sítí?",
     "published": "2026-10-18",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "perex": "Galaxie rostou přísunem plynu, tvorbou hvězd a slučováním s dalšími soustavami. Jejich vývoj ovlivňují temná hmota, okolní prostředí i aktivita centrálních černých děr. Na větších měřítkách tvoří galaxie rozsáhlou kosmickou síť.",
     "sections": [
       {
@@ -965,12 +980,17 @@
         "body": "Galaxie se sdružují do skupin a kup a dále vytvářejí vlákna a stěny obklopující rozsáhlé řídké oblasti, označované jako **voidy**. Tuto strukturu nazýváme **kosmická síť**. Roste z počátečních nerovností působením gravitace a její vývoj závisí i na rozpínání.\n\nKupy mohou být gravitačně vázané jako celek. U větších seskupení, například nadkup, se jednotlivé části mohou dál vzájemně vzdalovat. Pozorované hranice struktur proto určujeme pomocí pohybů i rozložení hmoty.\n\nTrojrozměrné mapy sestavujeme z poloh galaxií a rudých posuvů. Jejich statistické vlastnosti zkoumají [Euclid](https://kosmonovinky.cz/kosmopedie/co-zkouma-kosmicky-dalekohled-euclid.html) a [DESI](https://kosmonovinky.cz/kosmopedie/co-je-desi-a-jak-mapuje-rozpinani-vesmiru.html). Kosmická síť zároveň ukazuje, jak může být vesmír místně členitý a na mnohem větších měřítkách přibližně stejnorodý."
       },
       {
+        "heading": "Od první miliardy let k dnešnímu vesmíru",
+        "body": "První galaxie jsou začátkem dlouhého vývoje. Další miliardy let přinášejí růst galaxií, proměny hvězdné tvorby i vznik Sluneční soustavy. Zde je osa lineární: stejně dlouhý úsek znamená stejně dlouhou dobu. Všechny její hodnoty vyjadřují stáří vesmíru.\n\n- **od první miliardy let až do dneška: Galaxie a kosmická síť dále rostou.** Přitéká plyn, vznikají hvězdy a galaxie se slučují. Mění se jejich velikost, složení i okolí.\n- **zhruba 2 až 4 miliardy let: Vrchol kosmické hvězdné tvorby.** V průměru vznikají hvězdy nejrychleji. Později celková rychlost jejich tvorby klesá.\n- **asi 7,7 miliardy let v základním modelu ΛCDM: Rozpínání se začíná zrychlovat.** Vliv temné energie převáží nad gravitačním zpomalováním. Jde o vývoj velkých měřítek.\n- **asi 9,2 miliardy let; tedy před 4,6 miliardy let: Vznik Slunce a Sluneční soustavy.** Z místního oblaku plynu a prachu vzniká Slunce a planety včetně Země.\n- **přibližně 13,8 miliardy let: Dnešní vesmír.** Pozorujeme galaxie různého stáří a skládáme jejich světlo do příběhu kosmického vývoje.\n\n**Stáří vesmíru a dobu před dneškem rozlišujeme:** Sluneční soustava vznikla přibližně před 4,6 miliardy let, tedy ve vesmíru starém asi 9,2 miliardy let. Začátek zrychlování kolem 7,7 miliardy let je orientační výsledek základního [modelu ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html); jeho příčiny a měření rozvádí [téma o zrychlování rozpínání](https://kosmonovinky.cz/kosmopedie/jak-pozname-ze-se-rozpinani-vesmiru-zrychluje.html). Vývoj se začne zrychlovat ještě předtím, než hustota energie temné energie převýší hustotu hmoty.\n\nMožné scénáře po dnešní epoše přibližuje [téma o budoucnosti vesmíru](https://kosmonovinky.cz/kosmopedie/jak-muze-vesmir-skoncit.html).",
+        "image_id": "osa-vesmir-galaxie-dnes"
+      },
+      {
         "heading": "Co ještě nevíme",
         "body": "Vědci zkoumají, jak rychle vyrostly první galaxie, proč některé přestaly tvořit hvězdy a jak se vyvíjela jejich centrální černá díra. Pozorování Webbem a dalšími přístroji se porovnávají s modely světla hvězd, prachu a plynu.\n\nJasnost či chemické složení rané galaxie poskytují důležité údaje pro její historii. Přesná interpretace vyžaduje také vzdálenost, odhad hmotnosti a kontrolu dalších možných zdrojů záření."
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [NASA: velkorozměrové struktury](https://science.nasa.gov/universe/galaxies/large-scale-structures/)\n- [NASA: mapování kosmické sítě](https://science.nasa.gov/mission/hubble/science/science-highlights/mapping-the-cosmic-web/)\n- [ESA: vývoj struktur a první hvězdy](https://www.esa.int/Science_Exploration/Space_Science/Planck/History_of_cosmic_structure_formation)\n- [IllustrisTNG: modelování galaxií a zpětné vazby](https://www.tng-project.org/about/)"
+        "body": "- [NASA: velkorozměrové struktury](https://science.nasa.gov/universe/galaxies/large-scale-structures/)\n- [NASA: mapování kosmické sítě](https://science.nasa.gov/mission/hubble/science/science-highlights/mapping-the-cosmic-web/)\n- [ESA: vývoj struktur a první hvězdy](https://www.esa.int/Science_Exploration/Space_Science/Planck/History_of_cosmic_structure_formation)\n- [IllustrisTNG: modelování galaxií a zpětné vazby](https://www.tng-project.org/about/)\n- [UCLA: galaxie a vrchol kosmické hvězdné tvorby](https://cosmicdawn.astro.ucla.edu/cosmic_noon.html)\n- [NASA: vznik Sluneční soustavy před 4,6 miliardy let](https://science.nasa.gov/solar-system/solar-system-facts/)\n- [Planck 2018: parametry základního modelu ΛCDM](https://arxiv.org/abs/1807.06209)"
       }
     ],
     "why_box": "Mléčná dráha se během miliard let proměňovala a její vývoj pokračuje. Hvězdné proudy, pohyby sousedních galaxií a rozložení plynu nám umožňují rekonstruovat tuto historii a porovnávat ji s modely vzniku kosmických struktur.",
@@ -3685,7 +3705,7 @@
     "theme": "velky-tresk",
     "description": "Jak vznikly deuterium a helium, proč jaderné reakce ustaly a co nám měření lehkých prvků říká o raném vesmíru?",
     "published": "2026-10-28",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "perex": "V prvních minutách horkého vesmíru se protony a neutrony spojovaly do lehkých jader. Výsledkem byl především vodík a helium, doplněné stopami dalších lehkých izotopů. Výpočty jejich zastoupení dnes porovnáváme s pozorováním velmi staré a málo chemicky obohacené látky.",
     "sections": [
       {
@@ -3695,6 +3715,11 @@
       {
         "heading": "Proč bylo nutné počkat na deuterium",
         "body": "Proton a neutron mohou vytvořit **deuterium**, těžší podobu vodíku. Jeho jádro obsahuje jeden proton a jeden neutron. V příliš horkém prostředí však početné energetické fotony čerstvá jádra deuteria rychle rozbíjejí.\n\nTeprve po dalším ochlazení může deuterium přežívat dostatečně dlouho a navazují další jaderné reakce. Většina dostupných neutronů se nakonec váže v jádrech **helia-4**, tvořených dvěma protony a dvěma neutrony. Schéma ukazuje zjednodušenou návaznost reakcí."
+      },
+      {
+        "heading": "Kdy jednotlivé děje probíhaly",
+        "body": "Následující osa začíná v jedné sekundě a končí přibližně po dvaceti minutách. Je logaritmická: mezi 1 a 10 sekundami je stejná vzdálenost jako mezi 10 a 100 sekundami. Pásy ukazují přibližné doby hlavního průběhu jednotlivých dějů; několik procesů může probíhat současně.\n\n- **kolem 1 s a dále: Ustaluje se poměr protonů a neutronů.** Vzájemné přeměny zpomalují. Část volných neutronů se před tvorbou jader rozpadne.\n- **během prvních minut: Ubývá elektronů a pozitronů.** Většina párů anihiluje a předává energii záření. Malý přebytek elektronů zůstává.\n- **přibližně 2 až 5 minut: Deuterium otevírá cestu k heliu.** Po ochlazení přežívají jádra deuteria. Navazující reakce rychle vytvářejí helium-4.\n- **přibližně 5 až 20 minut: Jaderné reakce postupně utichají.** Klesá teplota i hustota. Zůstává hlavně vodík a helium, se stopami dalších lehkých jader.\n\n**Záření i fotony existují už během těchto dějů.** Vznik lehkých jader a pozdější vznik neutrálních atomů jsou dvě různé etapy. Jejich návaznost ukazuje [časová osa u reliktního záření](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html).",
+        "image_id": "osa-vesmir-prvni-minuty"
       },
       {
         "heading": "Jaká směs po prvních minutách zůstala",
