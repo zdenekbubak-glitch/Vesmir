@@ -327,6 +327,8 @@ def classify(item):
 # Explicit topic patterns prevent arbitrary links based on shared generic words.
 # Keys refer to stable IDs in data/explainery.json; unknown entries are omitted.
 EXPLAINER_PATTERNS = {
+    'exp-093': r'nasa exoplanet archive|katalog.*exoplanet',
+    'exp-094': r'trappist.?1|proxima.* b|lhs.?1140|toi.?700|kepler.?62',
     'exp-085': r'max planck',
     'exp-086': r'niels bohr',
     'exp-087': r'louis de broglie',

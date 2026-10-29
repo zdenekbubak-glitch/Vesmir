@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-29",
+  "unit": "AU",
+  "trappist1_semimajor_axes": {
+    "b": 0.01154,
+    "c": 0.0158,
+    "d": 0.02227,
+    "e": 0.02925,
+    "f": 0.03849,
+    "g": 0.04683,
+    "h": 0.06189
+  },
+  "orbit_reference": "Agol et al. 2021 as tabulated by NASA Exoplanet Archive; nominal semimajor axes, not instantaneous distances",
+  "solar_semimajor_axes": {
+    "Mercury": 0.3871,
+    "Venus": 0.7233,
+    "Earth": 1,
+    "Mars": 1.5237
+  },
+  "top_pixels_per_AU": 120,
+  "detail_pixels_per_AU": 12857.142857142855,
+  "detail_magnification": 107.14285714285712,
+  "solar_hz_AU": [
+    0.950443247520335,
+    1.6760038078849773
+  ],
+  "solar_hz_method": "Kopparapu 2014, 1 Earth mass, 5780 K; runaway / maximum greenhouse",
+  "trappist_hz_AU": [
+    0.024,
+    0.049
+  ],
+  "trappist_hz_method": "Illustrative published 0.024–0.049 AU interval, Gillon et al. 2016. Not a new fit at 2566 K; historical rounded model interval. NASA modern schematic likewise places e/f/g in the zone. Align other figures at finalization without extrapolating a temperature fit.",
+  "references": [
+    "https://exoplanetarchive.ipac.caltech.edu/cgi-bin/DisplayOverview/nph-DisplayOverview?objname=TRAPPIST-1",
+    "https://www.nature.com/articles/nature17448",
+    "https://arxiv.org/abs/1404.5292",
+    "https://science.nasa.gov/asset/webb/trappist-1-system-orbit-comparison/"
+  ]
+}

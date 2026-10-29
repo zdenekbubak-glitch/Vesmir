@@ -15,6 +15,15 @@ def font(size):
 
 def diagram(entry):
     """Different physical concepts, not random seeds/crops of one illustration."""
+    if str(entry.get('diagram', '')).startswith('stellarclass-'):
+        from stellar_classification_diagrams import diagram as stellar_diagram
+        return stellar_diagram(entry)
+    if str(entry.get('diagram', '')).startswith('exosystem-'):
+        from exoplanet_system_comparison import diagram as system_diagram
+        return system_diagram(entry)
+    if str(entry.get('diagram', '')).startswith('exopop-'):
+        from exoplanet_population_diagrams import diagram as population_diagram
+        return population_diagram(entry)
     if str(entry.get('diagram', '')).startswith('timeline-'):
         from cosmic_timeline_diagrams import diagram as timeline_diagram
         return timeline_diagram(entry)

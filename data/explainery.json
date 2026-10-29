@@ -4236,5 +4236,445 @@
       "2610.10688"
     ],
     "related_news_note": "Zprávy se věnují současným hypotézám o neutrinech a převaze hmoty. Rozlišení Diracovy a Majoránovy možnosti zůstává otevřenou experimentální otázkou."
+  },
+  {
+    "id": "exp-093",
+    "title": "Kolik exoplanet známe a kolem jakých hvězd obíhají?",
+    "theme": "exoplanety",
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "description": "Datovaný přehled potvrzených exoplanet podle hostitelských hvězd. Počty, podíly, chybějící údaje a vliv metod hledání.",
+    "perex": "Známe tisíce potvrzených exoplanet u hvězd podobných Slunci, chladných trpaslíků i hvězdných pozůstatků. Datovaný přehled ukazuje jejich rozdělení podle hostitelů a vysvětluje, jak se v něm projevuje způsob hledání i dostupnost údajů.",
+    "sections": [
+      {
+        "heading": "Kolik planet a kolik hostitelů",
+        "body": "Ve výřezu **NASA Exoplanet Archive staženém 29. října 2026 je 6 451 potvrzených planet u 4 847 hostitelů**. Hostitelem zde rozumíme hvězdu nebo hvězdnou soustavu vedenou v archivu pod jedním názvem. U jedné hvězdy tak můžeme znát několik planet; počet planet a počet hostitelů jsou dva různé údaje.\n\nPočítáme objekty zařazené v archivu mezi potvrzené planety. Katalogy kandidátů, kteří na potvrzení teprve čekají, mají vlastní seznamy. Jak astronomové planety nacházejí, vysvětluje [téma o metodách hledání exoplanet](https://kosmonovinky.cz/kosmopedie/co-jsou-exoplanety-a-jak-se-hledaji.html)."
+      },
+      {
+        "heading": "Co znamenají písmena F, G, K a M",
+        "body": "**Spektrální třída** popisuje hvězdu podle vlastností jejího světla a úzce souvisí s povrchovou teplotou. V řadě O, B, A, F, G, K, M postupujeme od nejteplejších hvězd k chladnějším. Slunce patří do třídy G; hvězdy F bývají teplejší, K chladnější a M zahrnuje nejchladnější běžné hvězdy.\n\nSpektrální písmeno samo ještě neurčuje velikost ani vývojovou etapu. Ve stejné třídě mohou být trpaslíci i obři. U hvězdy označené G2 V číslice upřesňuje podtřídu a římská V označuje hlavní posloupnost, dlouhou etapu spalování vodíku v jádře. Naše tabulka zahrnuje různé vývojové etapy a netřídí hvězdy podle samotné velikosti."
+      },
+      {
+        "heading": "Datovaný přehled podle typu hostitele",
+        "body": "Každá planeta je zařazena do jedné skupiny. Podíly mají společný základ **všech 6 451 planet**. U **4 034 planet** zůstává typ hostitele v našem přehledu neuveden. Tuto skupinu ponecháváme viditelnou, i když mohou být známé jiné vlastnosti hvězdy. Pulsary jsme předtím vyčlenili podle jejich archivních názvů, i když spektrální třídu uvedenou nemají.\n\nBílí trpaslíci a pulsary jsou společně vyčleněni jako hvězdné pozůstatky. Mezi další uvedené typy patří například hnědí trpaslíci a horký podtrpaslík. Všechny skupiny se sčítají do celku.",
+        "table": {
+          "caption": "Potvrzené planety podle typu hostitele — výřez NASA z 29. 10. 2026",
+          "columns": [
+            "Typ hostitele",
+            "Počet planet",
+            "Podíl ze všech",
+            "Příklad hostitele"
+          ],
+          "rows": [
+            [
+              "F — teplejší než Slunce",
+              "307",
+              "4,8 %",
+              "WASP-17"
+            ],
+            [
+              "G — třída našeho Slunce",
+              "812",
+              "12,6 %",
+              "Kepler-22"
+            ],
+            [
+              "K — chladnější hvězdy",
+              "673",
+              "10,4 %",
+              "HD 40307"
+            ],
+            [
+              "M — nejchladnější běžná třída",
+              "571",
+              "8,9 %",
+              "TRAPPIST-1"
+            ],
+            [
+              "O, B, A — horké hvězdy",
+              "35",
+              "0,5 %",
+              "KELT-9"
+            ],
+            [
+              "Bílí trpaslíci a pulsary",
+              "14",
+              "0,2 %",
+              "WD 1856+534; PSR B1257+12"
+            ],
+            [
+              "Další uvedené typy",
+              "5",
+              "0,1 %",
+              "V0391 Peg"
+            ],
+            [
+              "Typ v tabulce neuveden",
+              "4034",
+              "62,5 %",
+              "—"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Co nám jednotlivé skupiny prozrazují",
+        "body": "Planety u hvězd G umožňují srovnávat cizí soustavy s prostředím Slunce. U chladných trpaslíků M se malé planety často hledají snáze: při přechodu před menší hvězdou zakryjí větší podíl jejího světla. **I planeta obíhající blízko takové slabé hvězdy může být zahřívána právě natolik, aby při vhodné atmosféře mohla mít na povrchu kapalnou vodu.** Konkrétní příklady nabízí [výběr planet v obyvatelných zónách](https://kosmonovinky.cz/kosmopedie/ktere-zname-exoplanety-lezi-v-obyvatelne-zone.html).\n\nPlanety u bílých trpaslíků a pulsarů rozšiřují příběh o otázku, jak planetární soustavy přežívají proměny svých hvězd nebo jak mohou vznikat nové objekty v jejich okolí. Vlastnosti světla, z něhož hvězdy poznáváme, rozvádí [téma o spektroskopii](https://kosmonovinky.cz/kosmopedie/co-je-spektroskopie-a-co-nam-rika-svetlo.html)."
+      },
+      {
+        "heading": "Jak výsledek ovlivňuje způsob hledání",
+        "body": "Tranzitní přehlídky zvýhodňují vhodně natočené dráhy a planety s častými přechody. Měření pohybu hvězdy zase snáze zachytí výraznější gravitační působení planety. Přímé zobrazení či gravitační mikročočkování doplňují další části populace.\n\n**Graf ukazuje, jaké planety jsme dosud objevili.** Aby astronomové zjistili, jak běžné jsou planety kolem různých typů hvězd, musí zohlednit i ty, které používané přístroje a metody snadno přehlédnou."
+      },
+      {
+        "heading": "Jak je přehled sestavený",
+        "body": "**V přehledu je každá planeta započítána jednou a zařazena podle typu své hostitelské hvězdy uvedeného v archivu NASA.** Pokud tento údaj chybí, zůstává ve skupině „Typ neuveden“. Význam označení F, G, K a M vysvětluje [téma o třídění hvězd](https://kosmonovinky.cz/kosmopedie/jak-tridime-hvezdy-a-co-nam-jejich-oznaceni-rika.html).\n\nVýběr obsahuje také **58 záznamů planet, jejichž existenci pozdější odborné práce zpochybnily**. Archiv je přesto nadále ponechává v této tabulce. Celkem **577 planet obíhá v soustavách s více hvězdami**. Uvedené počty zachycují stav archivu k **29. říjnu 2026**; další objevy a přehodnocení dosavadních výsledků je mohou změnit."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA Exoplanet Archive: aktuální archiv a statistiky](https://exoplanetarchive.ipac.caltech.edu/)\n- [NASA Exoplanet Archive: definice tabulek PS a PSCompPars](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)\n- [NASA Exoplanet Archive: výběr parametrů a práce s katalogem](https://exoplanetarchive.ipac.caltech.edu/docs/faq.html)\n- [NASA: typy hvězd a jejich vývoj](https://science.nasa.gov/universe/stars/types/)"
+      }
+    ],
+    "why_box": "Datovaný přehled pomáhá zasadit jednotlivé objevy do celku. Vidíme, u jakých hostitelů už planety známe, které údaje chybějí a proč nové pozorovací metody mohou dnešní obraz výrazně rozšířit.",
+    "related_explainery": [
+      "co-jsou-exoplanety-a-jak-se-hledaji",
+      "ktere-zname-exoplanety-lezi-v-obyvatelne-zone",
+      "jak-zkoumame-atmosfery-exoplanet",
+      "co-znamena-obyvatelna-zona-a-proc-nezarucuje-zivot",
+      "co-je-spektroskopie-a-co-nam-rika-svetlo"
+    ],
+    "related_news": [
+      "https://www.sciencedaily.com/releases/2026/10/261007042106.htm"
+    ],
+    "related_news_note": "Zpráva o možném vzniku planety po zániku hvězdy ukazuje, proč má smysl studovat i hostitele, kteří už opustili hlavní posloupnost."
+  },
+  {
+    "id": "exp-094",
+    "title": "Které známé exoplanety leží v obyvatelné zóně?",
+    "theme": "exoplanety",
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "description": "Osm konkrétních exoplanet v užším či širším vymezení obyvatelné zóny: příjem energie, oběžné doby, rozměry a dosud otevřené otázky.",
+    "perex": "TRAPPIST-1 e, Proxima b nebo Kepler-62 f jsou od svých hvězd ohřívány právě tolik, aby při vhodné atmosféře mohly mít na povrchu kapalnou vodu. Porovnejme osm známých planet, jejich oběhy a rozměry i to, co ještě potřebujeme zjistit o jejich prostředí.",
+    "sections": [
+      {
+        "heading": "Jak jsme vybrali osm světů",
+        "body": "Výběr zahrnuje potvrzené planety, které jejich odborné studie kladou do užší nebo širší **obyvatelné zóny**. Je to oblast, kde by planeta s vhodnou atmosférou mohla udržet na povrchu kapalnou vodu. Základní podmínky vysvětluje [samostatné téma o obyvatelné zóně](https://kosmonovinky.cz/kosmopedie/co-znamena-obyvatelna-zona-a-proc-nezarucuje-zivot.html); zde se soustředíme na konkrétní světy a jejich údaje.\n\n**Užší neboli konzervativní vymezení** používá klimatické hranice mezi příliš silným ohřevem a příliš slabým ohřevem i při výrazném skleníkovém účinku oxidu uhličitého. **Širší neboli optimistické vymezení** rozšiřuje interval podle úvah o dávné Venuši a Marsu. TOI-700 e je v našem výběru výslovně příkladem širšího vymezení.\n\nJde o názorný výběr, nikoli úplný soupis nebo počet obyvatelných planet. Příjem hvězdné energie pomáhá vybrat zajímavé cíle; skutečné podmínky pak závisejí na atmosféře, vodě a vývoji každé planety."
+      },
+      {
+        "heading": "Jak porovnat oběh a příjem energie",
+        "body": "Hodnota **1 znamená stejný příjem hvězdné energie na jednotku plochy jako u Země**, ještě před působením atmosféry. Hodnota 0,5 znamená polovinu, hodnota 1,3 přibližně o třetinu více. Teplota povrchu se odvíjí také od odrazu světla, oblačnosti a skleníkových plynů.\n\nČervení trpaslíci jsou slabší než Slunce, takže podobný příjem energie může mít planeta i na velmi blízké dráze s krátkým rokem. Kepler-62 f u hvězdy K má naopak oběžnou dobu přes 267 dní. Čísla v následujících tabulkách pocházejí z konkrétních studií uvedených níže; archivní výřez jsme stáhli 29. října 2026.\n\nBarevné pásy v úvodním grafu patří vždy hostitelské hvězdě dané planety. Zeleně je užší vymezení obyvatelné zóny, hnědozlatě širší; TOI-700 e leží v širším pásmu. U TRAPPIST-1 používáme publikované orientační pásmo 0,024–0,049 AU, stejné jako ve srovnání soustav níže. Pro převod jeho hranic na příjem energie používáme svítivost ze zvolené studie Agol a kol. (2021). U ostatních hvězd jsou hranice vypočtené modelem Kopparapua a kol. (2014) pro planetu o hmotnosti Země.",
+        "table": {
+          "caption": "Osm planet: hostitelská hvězda, oběh a příjem energie",
+          "columns": [
+            "Planeta",
+            "Typ hvězdy",
+            "Oběh ve dnech",
+            "Energie: Země = 1",
+            "Vymezení zóny"
+          ],
+          "rows": [
+            [
+              "TRAPPIST-1 e",
+              "M8.0 V",
+              "6,10",
+              "0,646 ± 0,025",
+              "užší zóna"
+            ],
+            [
+              "TRAPPIST-1 f",
+              "M8.0 V",
+              "9,21",
+              "0,373 (+0,015 / −0,014)",
+              "užší zóna"
+            ],
+            [
+              "TRAPPIST-1 g",
+              "M8.0 V",
+              "12,35",
+              "0,252 ± 0,010",
+              "užší zóna"
+            ],
+            [
+              "Proxima Cen b",
+              "M5.5 V",
+              "11,18",
+              "0,641 ± 0,065",
+              "užší zóna"
+            ],
+            [
+              "LHS 1140 b",
+              "M4.5 V",
+              "24,74",
+              "0,430 ± 0,030",
+              "užší zóna"
+            ],
+            [
+              "TOI-700 d",
+              "M2.5 V",
+              "37,42",
+              "0,850 (+0,090 / −0,100)",
+              "užší zóna"
+            ],
+            [
+              "TOI-700 e",
+              "M2.5 V",
+              "27,81",
+              "1,270 (+0,130 / −0,150)",
+              "širší zóna"
+            ],
+            [
+              "Kepler-62 f",
+              "K2 V",
+              "267,29",
+              "0,466 ± 0,034",
+              "užší zóna"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Proč záleží také na typu hvězdy",
+        "body": "Slunce vyzařuje velkou část energie ve viditelném světle, červený trpaslík má větší podíl infračerveného záření. To sníh a led pohlcují účinněji; více ho pohlcují také vodní pára a oxid uhličitý v atmosféře. **Planeta u červeného trpaslíka tak může pohltit větší část přicházející energie než podobná planeta u Slunce, přestože obě dostávají celkově stejné množství energie.**\n\nV klimatických modelech proto obyvatelná zóna červeného trpaslíka odpovídá nižšímu příjmu energie než obyvatelná zóna Slunce: planeta může zůstat dostatečně teplá i při menším přísunu záření. Při porovnání vzdáleností od hvězdy působí dva vlivy: slabší výkon červeného trpaslíka posouvá obyvatelnou zónu blízko ke hvězdě, zatímco červenější záření ji oproti výpočtu se slunečním spektrem posouvá poněkud dál.\n\nGraf níže porovnává příjem energie na hranicích zóny pro modelovou planetu o hmotnosti Země u hvězd hlavní posloupnosti. Zelený interval je užší, hnědozlatý širší. Osa vyjadřuje příjem energie, nikoli vzdálenost od hvězdy. Jde o model Kopparapua a spoluautorů z roku 2014; konkrétní atmosféry a oblačnost jednotlivých planet vyžadují podrobnější výpočty.",
+        "image_id": "graf-hranice-obyvatelne-zony"
+      },
+      {
+        "heading": "Co známe o velikosti a hmotnosti",
+        "body": "Poloměr a hmotnost nám společně pomáhají odhadnout průměrnou hustotu a uvažovat o stavbě planety. V tabulce jsou jednotkami **poloměr Země a hmotnost Země**. Hodnoty v závorkách nebo za znakem ± vyjadřují nejistoty uvedené ve zvolených studiích. Pomlčka znamená, že použitá sada neposkytuje spolehlivou měřenou hodnotu; modelové odhady chybějících hmotností a poloměrů zde nedoplňujeme.\n\nU Proximy b měření pohybu hvězdy určuje **m sin i**, tedy hmotnost násobenou funkcí sklonu dráhy. Protože sklon neznáme, jde o minimální hmotnost, zatímco skutečná může být vyšší. U tranzitujících planet pomáhá geometrii dráhy určit jejich přechod před hvězdou.",
+        "table": {
+          "caption": "Rozměry a hmotnosti — jedna související publikovaná sada pro každou planetu",
+          "columns": [
+            "Planeta",
+            "Poloměr: Země = 1",
+            "Hmotnost: Země = 1",
+            "Použitá studie"
+          ],
+          "rows": [
+            [
+              "TRAPPIST-1 e",
+              "0,920 (+0,013 / −0,012)",
+              "0,692 ± 0,022",
+              "Agol et al. 2021"
+            ],
+            [
+              "TRAPPIST-1 f",
+              "1,045 (+0,013 / −0,012)",
+              "1,039 ± 0,031",
+              "Agol et al. 2021"
+            ],
+            [
+              "TRAPPIST-1 g",
+              "1,129 (+0,015 / −0,013)",
+              "1,321 ± 0,038",
+              "Agol et al. 2021"
+            ],
+            [
+              "Proxima Cen b",
+              "—",
+              "m sin i = 1,055 ± 0,055",
+              "Suárez Mascareño et al. 2025"
+            ],
+            [
+              "LHS 1140 b",
+              "1,730 ± 0,025",
+              "5,600 ± 0,190",
+              "Cadieux et al. 2024"
+            ],
+            [
+              "TOI-700 d",
+              "1,073 (+0,059 / −0,054)",
+              "—",
+              "Gilbert et al. 2023"
+            ],
+            [
+              "TOI-700 e",
+              "0,953 (+0,089 / −0,075)",
+              "—",
+              "Gilbert et al. 2023"
+            ],
+            [
+              "Kepler-62 f",
+              "1,461 ± 0,070",
+              "—",
+              "Borucki et al. 2018"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "TRAPPIST-1 e, f a g: tři různé příjmy energie",
+        "body": "Tyto tři planety obíhají stejnou velmi chladnou hvězdu M8. Mají roky dlouhé přibližně 6,1, 9,2 a 12,4 dne, ale dostávají různá množství energie: přibližně 65 %, 37 % a 25 % zemského příjmu. Jedna soustava tak umožňuje porovnávat odlišně ozářené světy.\n\nZměny časů přechodů před hvězdou prozrazují vzájemné gravitační působení planet a dovolují odhadnout jejich hmotnosti. Podle velikosti a hustoty jde nejspíš o kamenné planety. Otázku atmosfér však řešíme samostatně: pozorování Webbem zatím neposkytla jednoznačné potvrzení atmosféry u TRAPPIST-1 e. Skvrny a další projevy aktivity hvězdy mění její světlo, a tím ovlivňují měření atmosféry planety. Astronomové proto při vyhodnocování rozlišují, které změny ve spektru souvisejí s hvězdou a které s atmosférou planety. Podrobnosti metody vysvětluje [téma o atmosférách exoplanet](https://kosmonovinky.cz/kosmopedie/jak-zkoumame-atmosfery-exoplanet.html).\n\nPorovnání níže ukazuje, jak těsně u své hvězdy tyto planety obíhají: všech sedm známých planet TRAPPIST-1 se vejde do vzdálenosti menší, než je dráha Merkuru kolem Slunce. Horní panely mají stejné měřítko vzdáleností; pod nimi je zvětšený detail soustavy.",
+        "image_id": "schema-trappist1-slunecni-soustava"
+      },
+      {
+        "heading": "Proxima b a LHS 1140 b: dva různé cíle dalšího výzkumu",
+        "body": "Proxima b je zajímavá blízkostí své hvězdy ke Slunci a minimální hmotností podobnou Zemi. Z jejího příjmu energie lze odvozovat možné klimatické scénáře, zatímco její skutečný poloměr a atmosféra zůstávají otevřenými otázkami.\n\nLHS 1140 b je větší a hmotnější: přibližně 1,73 zemského poloměru a 5,60 zemské hmotnosti. Přesné rozměry připouštějí například svět bohatý na vodu nebo planetu s plynným obalem. Výzkum atmosféry se rychle vyvíjí: práce z července 2026 oznámila absorpci helia, zatímco další týmy v srpnu stejný signál v datech Webbu nepotvrdily. Ověření složení a rozsahu atmosféry proto vyžaduje další měření. Zkoumá se také možnost, že se únik plynu mění s krátkodobou aktivitou hvězdy."
+      },
+      {
+        "heading": "TOI-700 a Kepler-62: hranice zóny v konkrétních soustavách",
+        "body": "TOI-700 d a e obíhají stejnou hvězdu M2,5. Planeta d ve zvolené studii dostává asi 85 % zemského příjmu, planeta e asi 127 %. Právě druhá z nich ukazuje, proč je důležité uvést širší vymezení zóny.\n\nKepler-62 f obíhá chladnější hvězdu K2 a v použité sadě má přibližně 1,46 zemského poloměru. Vlastnosti případné atmosféry a množství vody rozhodují o tom, jaký povrchový stav by při jejím ozáření mohl nastat.\n\nPro srovnání vybíráme u každé planety jednu související sadu hodnot. U TOI-700 jde o studii Gilbert a kol. z roku 2023, která zahrnuje i příjem energie; archiv obsahuje také novější zpřesnění oběžných dob a poloměrů z roku 2026. Při budoucí aktualizaci je třeba posoudit souvislost celé sady."
+      },
+      {
+        "heading": "Jaké měření přinese další rozhodující informaci",
+        "body": "Další postup spojuje přesnější znalost hvězdy, oběhu a hustoty planety s pozorováním její atmosféry. Spektra mohou odhalovat plyny, zatímco časové změny signálu pomáhají odlišit vliv planety od aktivity hvězdy.\n\nPříjem energie tak funguje jako první vodítko pro výběr cílů. Nejvíce nám o jejich skutečném prostředí řekne společné vyhodnocení několika druhů měření. Širší kontext počtů a typů hostitelů nabízí [přehled známých exoplanet](https://kosmonovinky.cz/kosmopedie/kolik-exoplanet-zname-a-kolem-jakych-hvezd-obihaji.html)."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA Exoplanet Archive: parametry a jejich literární zdroje](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)\n- [Kopparapu a kol. 2014: klimatické hranice obyvatelných zón](https://arxiv.org/abs/1404.5292)\n- [Virtual Planetary Laboratory: užší a širší vymezení](https://vpl.uw.edu/calculation-of-habitable-zones/)\n- [Agol a kol. 2021: hmotnosti a rozměry planet TRAPPIST-1](https://doi.org/10.3847/psj/abd022)\n- [NASA Webb: současná pozorování TRAPPIST-1 e](https://science.nasa.gov/missions/webb/nasa-webb-looks-at-earth-sized-habitable-zone-exoplanet-trappist-1-e/)\n- [Heliový signál u LHS 1140 b: práce z července 2026](https://arxiv.org/abs/2607.14326)\n- [Následná kontrola LHS 1140 b: práce ze srpna 2026](https://arxiv.org/abs/2608.13470)\n- [Gilbert a kol. 2023: TOI-700 e a srovnání s planetou d](https://arxiv.org/abs/2301.03617)\n- [Proxima Cen b: Suárez Mascareño et al. 2025](https://ui.adsabs.harvard.edu/abs/2025A&A...700A..11M/abstract)\n- [LHS 1140 b: Cadieux et al. 2024](https://ui.adsabs.harvard.edu/abs/2024ApJ...960L...3C/abstract)\n- [TOI-700 d: Gilbert et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...944L..35G/abstract)\n- [TOI-700 e: Gilbert et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...944L..35G/abstract)\n- [Kepler-62 f: Borucki et al. 2018](https://ui.adsabs.harvard.edu/abs/2018NewAR..83...28B/abstract)\n- [Cherubim a kol., září 2026: možný vliv proměnlivosti hvězdy, preprint v recenzním řízení](https://arxiv.org/abs/2609.31859)\n- [NASA: dráhy TRAPPIST-1 v porovnání se Sluneční soustavou](https://science.nasa.gov/asset/webb/trappist-1-system-orbit-comparison/)\n- [Gillon a kol. (2016): orientační obyvatelné pásmo TRAPPIST-1](https://www.nature.com/articles/nature17448)"
+      }
+    ],
+    "why_box": "Konkrétní čísla ukazují, jak různorodé světy se mohou dostat do výběru pro další hledání vody. Porovnání oběhu, příjmu energie, rozměrů a nejistot pomáhá rozumět tomu, co o každé planetě skutečně víme a jaké měření potřebujeme dál.",
+    "related_explainery": [
+      "co-znamena-obyvatelna-zona-a-proc-nezarucuje-zivot",
+      "jak-zkoumame-atmosfery-exoplanet",
+      "co-jsou-exoplanety-a-jak-se-hledaji",
+      "kolik-exoplanet-zname-a-kolem-jakych-hvezd-obihaji",
+      "co-je-spektroskopie-a-co-nam-rika-svetlo"
+    ],
+    "related_news": [
+      "2610.04048"
+    ],
+    "related_news_note": "Výzkum červených trpaslíků ukazuje, jak přesná měření vlastností hvězd pomáhají prověřovat fyzikální modely. Znalost hostitelské hvězdy je důležitá i pro výklad prostředí jejích planet."
+  },
+  {
+    "id": "exp-095",
+    "title": "Jak třídíme hvězdy a co nám jejich označení říká?",
+    "theme": "svetlo-a-mereni-vesmiru",
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "description": "Spektrální třídy OBAFGKM, podtřídy a třídy svítivosti. Jak číst označení Slunce G2 V a rozlišit teplotu, velikost a vývojovou etapu hvězdy.",
+    "perex": "Označení G2 V nebo M5 V je stručnou zprávou o vlastnostech hvězdy. Písmena a číslice pomáhají rozpoznat její povrchovou teplotu a odlišit hvězdy hlavní posloupnosti od obrů. Ukážeme si, jak se v tomto třídění vyznat a proč je důležité i při hledání planet.",
+    "sections": [
+      {
+        "heading": "Proč začínáme světlem hvězdy",
+        "body": "Když světlo hvězdy rozložíme podle vlnových délek, získáme **spektrum**. Obsahuje charakteristické čáry vznikající při působení atomů, iontů a molekul v hvězdné atmosféře. Jejich podobu ovlivňuje teplota, tlak i chemické složení. Princip měření přibližuje [téma o spektroskopii](https://kosmonovinky.cz/kosmopedie/co-je-spektroskopie-a-co-nam-rika-svetlo.html).\n\nAstronomové porovnávají soubory čar s dobře prozkoumanými vzorovými hvězdami a přiřazují **spektrální typ**. Změna teploty ovlivňuje stavy atomů a iontů, a tím i sílu jednotlivých čar. Proto mohou mít dvě hvězdy s převahou vodíku výrazně odlišná spektra. Samotné zastoupení prvků podrobněji rozebírá [téma o chemickém složení ze světla](https://kosmonovinky.cz/kosmopedie/jak-ze-svetla-pozname-chemicke-slozeni-vesmiru.html)."
+      },
+      {
+        "heading": "Proč řada zní O, B, A, F, G, K, M",
+        "body": "V této řadě klesá povrchová teplota od nejteplejších hvězd O k chladným hvězdám M. Horké hvězdy mívají namodralé až bělavé světlo, chladnější oranžové až načervenalé. Rozdělení vzniklo porovnáváním spekter; jeho historický vývoj vysvětluje i neabecední pořadí písmen. Podílely se na něm mimo jiné Williamina Flemingová, Antonia Mauryová a Annie Jump Cannonová.\n\nPříklady teplot v tabulce jsou orientační hodnoty uvnitř jednotlivých tříd. Přesnější zařazení poskytují podtřídy a naměřené spektrum. Každé písmeno zahrnuje rozsah vlastností, nikoli jedinou teplotu.",
+        "table": {
+          "caption": "Spektrální řada a příklady povrchových teplot",
+          "columns": [
+            "Třída",
+            "Příklad teploty",
+            "Orientační barevný dojem"
+          ],
+          "rows": [
+            [
+              "O",
+              "40 000 K",
+              "namodralý"
+            ],
+            [
+              "B",
+              "20 000 K",
+              "modrobílý"
+            ],
+            [
+              "A",
+              "9 000 K",
+              "bělavý"
+            ],
+            [
+              "F",
+              "7 000 K",
+              "bělavý až žlutobílý"
+            ],
+            [
+              "G",
+              "5 800 K",
+              "bělavý až nažloutlý"
+            ],
+            [
+              "K",
+              "4 500 K",
+              "oranžový"
+            ],
+            [
+              "M",
+              "3 000 K",
+              "oranžový až načervenalý"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Jak přečteme označení Slunce G2 V",
+        "body": "Označení **G2 V** má tři části:\n\n- **G** je spektrální třída související s teplotou a charakteristickými čarami.\n- **2** je podtřída. U běžné řady postupují číslice od 0 do 9 směrem k chladnějším spektrům: například G9 leží u přechodu ke K0.\n- **V** je římská číslice třídy svítivosti. Označuje hvězdu hlavní posloupnosti, která získává energii přeměnou vodíku na helium v jádře.\n\nPovrchová teplota Slunce je přibližně 5 770 kelvinů. Jeho světlo při pohledu z kosmu působí téměř bíle; žluté značení Slunce ve schématech je zjednodušení. Pozorovaný barevný dojem může měnit také zemská atmosféra nebo prach mezi námi a hvězdou."
+      },
+      {
+        "heading": "Co přidává třída svítivosti",
+        "body": "**Zářivý výkon** říká, kolik energie hvězda vyzáří za jednotku času. Při stejné povrchové teplotě má větší hvězda větší vyzařující plochu a vyšší celkový výkon. Právě proto potřebujeme rozlišovat například hvězdu hlavní posloupnosti a obra podobné teploty.\n\n**Třída svítivosti** se určuje z vlastností spektrálních čar citlivých na podmínky v atmosféře, zejména tlak a povrchovou gravitaci. S jejich pomocí odlišujeme následující hlavní skupiny. Jasnost, s níž hvězdu vidíme na obloze, navíc ovlivňuje její vzdálenost.",
+        "table": {
+          "caption": "Hlavní třídy svítivosti",
+          "columns": [
+            "Označení",
+            "Skupina",
+            "Co si pod ní představit"
+          ],
+          "rows": [
+            [
+              "I",
+              "veleobři",
+              "velmi rozměrné a zářivé hvězdy"
+            ],
+            [
+              "II",
+              "jasní obři",
+              "zářivější skupina obrů"
+            ],
+            [
+              "III",
+              "obři",
+              "rozpínající se či rozměrné hvězdy mimo hlavní posloupnost"
+            ],
+            [
+              "IV",
+              "podobři",
+              "skupina mezi hlavní posloupností a obry"
+            ],
+            [
+              "V",
+              "hlavní posloupnost",
+              "dlouhá etapa přeměny vodíku na helium v jádře"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Jak pomáhá H-R diagram",
+        "body": "**Hertzsprungův–Russellův diagram**, zkráceně H-R diagram, porovnává povrchovou teplotu a zářivý výkon hvězd. Teplota na vodorovné ose obvykle klesá zleva doprava, výkon roste směrem vzhůru. Podobné hvězdy se seskupují do charakteristických oblastí:\n\n- **Hlavní posloupnost** vede od horkých zářivých hvězd vlevo nahoře k chladným slabším hvězdám vpravo dole.\n- **Obři a veleobři** mají při své teplotě velký vyzařující povrch a vysoký výkon.\n- **Bílí trpaslíci** mají malou vyzařující plochu. I s horkým povrchem proto mohou mít nízký celkový výkon.\n\nUmístění na diagramu popisuje vlastnosti hvězdy v dané době. Její pohyb mezi oblastmi během života se odvozuje z vývojových modelů a porovnávání s pozorováním.",
+        "image_id": "schema-hr-diagram"
+      },
+      {
+        "heading": "Jak souvisejí teplota, hmotnost a vývoj",
+        "body": "Na hlavní posloupnosti souvisejí vyšší hmotnosti obecně s vyšší teplotou a větším výkonem. Hmotné hvězdy spotřebovávají své palivo rychleji; malé chladné hvězdy mohou svítit velmi dlouho.\n\nJak se hvězda vyvíjí, mění se její poloměr, povrchová teplota i výkon. Samotné písmeno M tak může patřit malému červenému trpaslíku i rozměrnému chladnému obru. Přidaná třída svítivosti pomáhá tyto případy rozlišit. Hmotnost se zjišťuje a ověřuje dalšími postupy, například z pohybu složek dvojhvězdy; rozměr pomáhají určit také měření záření a vzdálenosti."
+      },
+      {
+        "heading": "Kam patří hnědí a bílí trpaslíci",
+        "body": "U velmi chladných objektů se používají také třídy **L, T a Y**. Patří sem především hnědí trpaslíci, objekty příliš málo hmotné na dlouhodobé spalování vodíku jako u běžných hvězd. V pozdních třídách M a ve třídě L se mohou jejich spektra překrývat se spektry nejméně hmotných hvězd; rozlišení pomáhají další údaje o hmotnosti a vývoji.\n\n**Bílí trpaslíci** jsou pozůstatky hvězd a mají vlastní spektrální značení začínající písmenem D. Například **DA** označuje spektrum s převahou vodíkových čar, **DB** s čarami neutrálního helia. Pulsary, tedy rotující neutronové hvězdy, se v katalozích označují jiným způsobem. Tato rozlišení vysvětlují, proč přehled hostitelů exoplanet vyčleňuje hvězdné pozůstatky samostatně."
+      },
+      {
+        "heading": "Proč to potřebujeme při studiu exoplanet",
+        "body": "Znalost hvězdy pomáhá určit velikost její planety z tranzitu, odhadovat příjem hvězdné energie i vykládat případnou atmosféru. U malého červeného trpaslíka může mít planeta s podobným příjmem energie jako Země mnohem kratší oběžnou dobu.\n\nV [přehledu známých exoplanet](https://kosmonovinky.cz/kosmopedie/kolik-exoplanet-zname-a-kolem-jakych-hvezd-obihaji.html) jsou hostitelé rozděleni podle údajů dostupných v archivu. Pokud spektrální označení chybí, zachováváme chybějící údaj místo doplňování celého typu z teploty. Konkrétní planetární příklady nabízí [výběr světů v obyvatelných zónách](https://kosmonovinky.cz/kosmopedie/ktere-zname-exoplanety-lezi-v-obyvatelne-zone.html). K přesnému popisu jejich prostředí potřebujeme vedle hvězdy znát také vlastnosti samotné planety."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Las Cumbres Observatory: spektrální řada a její historický vznik](https://lco.global/spacebook/stars/types-stars/)\n- [NASA: hvězdy jako hostitelé exoplanet](https://science.nasa.gov/exoplanets/stars/)\n- [NASA SOHO: Slunce jako G2 V](https://soho.nascom.nasa.gov/explore/notsofaq.html)\n- [SIMBAD/CDS: spektrální typy a třídy svítivosti](https://simbad.u-strasbg.fr/Pages/guide/chD.htx)\n- [STScI/MAST: značení různých typů hvězd a pozůstatků](https://archive.stsci.edu/spec_class/spec_class_tables.html)\n- [ESA Gaia: čtení H-R diagramu](https://www.esa.int/ESA_Multimedia/Images/2018/04/Gaia_s_Hertzsprung-Russell_diagram)\n- [NASA: hlavní skupiny hvězd a hnědí trpaslíci](https://science.nasa.gov/universe/stars/types/)"
+      }
+    ],
+    "why_box": "Označení hvězdy propojuje několik údajů, které při čtení astronomických zpráv často potkáváme zvlášť. Když rozumíme G2 V nebo M5 V, snáze si představíme hostitelskou hvězdu planety a víme, které další vlastnosti je potřeba zjistit měřením.",
+    "related_explainery": [
+      "co-je-spektroskopie-a-co-nam-rika-svetlo",
+      "co-jsou-absorpcni-a-emisni-cary",
+      "jak-ze-svetla-pozname-chemicke-slozeni-vesmiru",
+      "kolik-exoplanet-zname-a-kolem-jakych-hvezd-obihaji",
+      "ktere-zname-exoplanety-lezi-v-obyvatelne-zone",
+      "co-znamena-obyvatelna-zona-a-proc-nezarucuje-zivot"
+    ],
+    "related_news": [
+      "2610.04048",
+      "https://www.sciencedaily.com/releases/2026/10/261007042106.htm"
+    ],
+    "related_news_note": "Novinky ukazují dvě odlišné skupiny hostitelů: malé červené trpaslíky a hvězdné pozůstatky. Přesné určení vlastností hvězdy pomáhá vykládat měření i historii její planetární soustavy."
   }
 ]

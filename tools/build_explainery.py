@@ -75,6 +75,13 @@ WHY_CSS = '''
     .why-box h2 { margin-top: 0; }
     .why-box p { margin: 0; }
     .explainer-perex { font-size: 1.06rem; color: #c9d6ec; }
+    .explainer-table-hint { display:none; font-size:.85rem; color:var(--muted); }
+    @media(max-width:640px) { .explainer-table-hint { display:block; } }
+    .explainer-table-scroll { max-width:100%; overflow-x:auto; margin:1rem 0; }
+    .explainer-table { border-collapse:collapse; width:100%; min-width:640px; font-size:.92rem; }
+    .explainer-table caption { text-align:left; font-weight:bold; padding:.6rem 0; }
+    .explainer-table th, .explainer-table td { padding:.65rem; border:1px solid #344155; text-align:left; vertical-align:top; }
+    .explainer-table thead { background:#1b2940; }
     .section-image-link { display: block; cursor: zoom-in; }
     .explainer-group[hidden] { display: none; }
     .post mark { background: #f6d365; color: #141a26; border-radius: 2px; padding: 0 .06em; }
@@ -143,6 +150,24 @@ def render_body(text):
     return '\n'.join(out)
 
 
+def render_table(table):
+    """Accessible data table; horizontally scrollable on narrow screens."""
+    caption = str(table.get('caption', 'Přehled údajů'))
+    columns = table.get('columns', [])
+    rows = table.get('rows', [])
+    if not columns or any(len(row) != len(columns) for row in rows):
+        raise ValueError('Invalid explainer table dimensions')
+    head = ''.join('<th scope="col">' + esc(str(c)) + '</th>' for c in columns)
+    body = []
+    for row in rows:
+        cells = '<th scope="row" data-search-block>' + esc(str(row[0])) + '</th>'
+        cells += ''.join('<td data-search-block>' + esc(str(c)) + '</td>' for c in row[1:])
+        body.append('<tr>' + cells + '</tr>')
+    return ('<p class="explainer-table-hint">Na úzké obrazovce posuňte tabulku do strany.</p><div class="explainer-table-scroll" tabindex="0" aria-label="' + esc(caption) + '">'
+            '<table class="explainer-table"><caption>' + esc(caption) + '</caption>'
+            '<thead><tr>' + head + '</tr></thead><tbody>' + ''.join(body) + '</tbody></table></div>')
+
+
 class SearchBlocks(HTMLParser):
     """Keep words in links/bold, but not their URLs or markup. One paragraph per unit."""
     def __init__(self):
@@ -184,6 +209,10 @@ def search_record(entry):
         parser = SearchBlocks()
         parser.feed(render_body(section.get('body')))
         blocks.extend(parser.blocks)
+        if section.get('table'):
+            table = section['table']
+            blocks.append(str(table.get('caption', '')))
+            blocks.extend(' '.join(str(c) for c in row) for row in table.get('rows', []))
     parser = SearchBlocks()
     parser.feed(render_body(entry.get('why_box', '')))
     blocks.extend(parser.blocks)
@@ -207,7 +236,7 @@ def section_image_figure(entry):
     href = esc(image_url(entry))
     attrs = f'href="{href}" target="_blank" rel="noopener"'
     link = f'<a class="section-image-link" {attrs} aria-label="Zvětšit obrázek: {esc(entry["title"])}">'
-    figure = image_figure(entry).replace('<img ', link + '<img loading="lazy" decoding="async" ', 1)
+    figure = image_figure(entry, zoom=False).replace('<img ', link + '<img loading="lazy" decoding="async" ', 1)
     figure = figure.replace('<figcaption', '</a><figcaption', 1)
     return re.sub(r'(<figcaption\b[^>]*>)',
                   lambda m: m.group(1) + f'<a {attrs}>Zvětšit obrázek</a><br>', figure, count=1)
@@ -307,6 +336,8 @@ def main():
             attribute = '' if sources else ' data-search-block'
             section = f"      <h2{attribute}>{esc(sec.get('heading'))}</h2>\n"
             section += (render_body(sec.get('body')) if sources else searchable_body(sec.get('body'))) + '\n'
+            if sec.get('table'):
+                section += render_table(sec['table']) + '\n'
             # Editorial placement: an optional catalog ID belongs to this exact
             # section, independently of automatic selection of the lead image.
             if sec.get('image_id'):

@@ -8243,5 +8243,287 @@
     ],
     "width": 1100,
     "height": 1565
+  },
+  {
+    "id": "graf-exoplanet-podle-hvezd",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelný datový graf v tools/exoplanet_population_diagrams.py; zdrojový datový výřez a metodika v data/exoplanets-2026-10-29.json.",
+    "verified_on": "2026-10-29",
+    "revision": 2,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "exopop-hosts",
+    "source_id": "own-diagram:graf-exoplanet-podle-hvezd",
+    "source_family": "own-diagram:graf-exoplanet-podle-hvezd",
+    "title": "Potvrzené exoplanety podle hostitelských hvězd",
+    "alt": "Počty potvrzených planet v osmi nepřekrývajících se skupinách hostitelů; neuvedené typy jsou zobrazené samostatně.",
+    "caption": "Vlastní datový graf z tabulky PSCompPars NASA Exoplanet Archive, výřez stažen 29. 10. 2026. Každá planeta je započítána jednou; procenta ze všech 6 451 planet.",
+    "thumbnail": "assets/article-images/thumbs/graf-exoplanet-podle-hvezd.webp",
+    "source_master": "assets/article-images/sources/graf-exoplanet-podle-hvezd.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html"
+    ],
+    "data_file": "data/exoplanets-2026-10-29.json",
+    "width": 1100,
+    "height": 1290,
+    "zoomable": true
+  },
+  {
+    "id": "graf-energie-vybranych-exoplanet",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelný datový graf v tools/exoplanet_population_diagrams.py; zdrojový datový výřez a metodika v data/exoplanets-2026-10-29.json.",
+    "verified_on": "2026-10-29",
+    "revision": 2,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "exopop-flux",
+    "source_id": "own-diagram:graf-energie-vybranych-exoplanet",
+    "source_family": "own-diagram:graf-energie-vybranych-exoplanet",
+    "title": "Příjem energie osmi vybraných exoplanet",
+    "alt": "Příjem energie osmi planet a Země s body a měřicími úsečkami; v každém řádku je vyznačeno obyvatelné pásmo příslušné hostitelské hvězdy.",
+    "caption": "Bod ukazuje, kolik energie planeta přijímá od své hvězdy ve srovnání se Zemí. Hodnota 1 odpovídá Zemi, hodnota 0,5 polovičnímu množství energie. Úsečka kolem bodu vyznačuje rozmezí odhadu podle měření. Barevné pásmo ukazuje odhad obyvatelné zóny pro danou hvězdu: oblast, kde by planeta s vhodnou atmosférou mohla mít na povrchu kapalnou vodu. Zelená označuje užší vymezení, hnědozlatá širší; u TRAPPIST-1 je vyznačeno publikované orientační pásmo.",
+    "thumbnail": "assets/article-images/thumbs/graf-energie-vybranych-exoplanet.webp",
+    "source_master": "assets/article-images/sources/graf-energie-vybranych-exoplanet.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html",
+      "https://www.nature.com/articles/nature17448"
+    ],
+    "data_file": "data/exoplanets-2026-10-29.json",
+    "width": 1100,
+    "height": 1510,
+    "zoomable": true
+  },
+  {
+    "id": "graf-hranice-obyvatelne-zony",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://arxiv.org/abs/1404.5292"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelný datový graf v tools/exoplanet_population_diagrams.py; zdrojový datový výřez a metodika v data/exoplanets-2026-10-29.json.",
+    "verified_on": "2026-10-29",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "exopop-hz",
+    "source_id": "own-diagram:graf-hranice-obyvatelne-zony",
+    "source_family": "own-diagram:graf-hranice-obyvatelne-zony",
+    "title": "Modelové hranice obyvatelné zóny",
+    "alt": "Užší a širší meze příjmu energie pro planetu o hmotnosti Země u Slunce a modelových hvězd K a M.",
+    "caption": "Vlastní výpočet podle Kopparapua a kol. (2014), pro planetu o hmotnosti Země a hvězdy hlavní posloupnosti. Vodorovná osa je příjem energie, nikoli vzdálenost. Barevné pásy vyjadřují dvě vymezení modelu.",
+    "thumbnail": "assets/article-images/thumbs/graf-hranice-obyvatelne-zony.webp",
+    "source_master": "assets/article-images/sources/graf-hranice-obyvatelne-zony.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://arxiv.org/abs/1404.5292"
+    ],
+    "data_file": "data/exoplanets-2026-10-29.json",
+    "width": 1100,
+    "height": 950
+  },
+  {
+    "id": "schema-trideni-hvezd",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://lco.global/spacebook/stars/types-stars/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelné výukové schéma v tools/stellar_classification_diagrams.py.",
+    "verified_on": "2026-10-29",
+    "revision": 2,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "stellarclass-sequence",
+    "source_id": "own-diagram:schema-trideni-hvezd",
+    "source_family": "own-diagram:schema-trideni-hvezd",
+    "title": "Spektrální třídy hvězd",
+    "alt": "Řada OBAFGKM s orientačními příklady teplot; podtřídy 0–9 zpřesňují zařazení.",
+    "caption": "Uvedené teploty jsou orientační příklady pro jednotlivé třídy. Podtřídy 0–9 řadu dále zpřesňují. Barvy a velikosti značek jsou schematické.",
+    "thumbnail": "assets/article-images/thumbs/schema-trideni-hvezd.webp",
+    "source_master": "assets/article-images/sources/schema-trideni-hvezd.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://lco.global/spacebook/stars/types-stars/"
+    ],
+    "zoomable": true,
+    "width": 1100,
+    "height": 1150
+  },
+  {
+    "id": "schema-hr-diagram",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://www.esa.int/ESA_Multimedia/Images/2018/04/Gaia_s_Hertzsprung-Russell_diagram"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelné výukové schéma v tools/stellar_classification_diagrams.py.",
+    "verified_on": "2026-10-29",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "stellarclass-hr",
+    "source_id": "own-diagram:schema-hr-diagram",
+    "source_family": "own-diagram:schema-hr-diagram",
+    "title": "Jak číst H-R diagram",
+    "alt": "Teplota klesá zleva doprava, zářivý výkon roste vzhůru. Hlavní posloupnost, obři, veleobři a bílí trpaslíci leží v odlišných oblastech.",
+    "caption": "Vlastní kvalitativní schéma H-R diagramu, bez číselných stupnic a bez měření konkrétních hvězd. Značky pouze názorně rozlišují hlavní skupiny.",
+    "thumbnail": "assets/article-images/thumbs/schema-hr-diagram.webp",
+    "source_master": "assets/article-images/sources/schema-hr-diagram.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://www.esa.int/ESA_Multimedia/Images/2018/04/Gaia_s_Hertzsprung-Russell_diagram"
+    ],
+    "zoomable": true,
+    "width": 1100,
+    "height": 1050
+  },
+  {
+    "id": "schema-trappist1-slunecni-soustava",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad: NASA",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/cgi-bin/DisplayOverview/nph-DisplayOverview?objname=TRAPPIST-1"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelné schéma v tools/exoplanet_system_comparison.py. Metodika v data/trappist1-srovnani-2026-10-29.json.",
+    "verified_on": "2026-10-29",
+    "revision": 2,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "exosystem-trappist",
+    "source_id": "own-diagram:schema-trappist1-slunecni-soustava",
+    "source_family": "own-diagram:schema-trappist1-slunecni-soustava",
+    "title": "TRAPPIST-1 a Sluneční soustava ve stejném měřítku",
+    "alt": "Dva panely se stejným měřítkem vzdáleností ukazují vnitřní Sluneční soustavu a kompaktní TRAPPIST-1; pod nimi je zvětšený detail planet b až h a obyvatelného pásma.",
+    "caption": "Horní panely mají shodné měřítko vzdáleností. Všechny známé planety TRAPPIST-1 obíhají blíže ke své hvězdě než Merkur ke Slunci. Dolní detail je přibližně 107krát zvětšený. Zelená vyznačuje orientační obyvatelné pásmo při vhodné atmosféře. Velikosti značek planet a hvězd jsou schematické.",
+    "thumbnail": "assets/article-images/thumbs/schema-trappist1-slunecni-soustava.webp",
+    "source_master": "assets/article-images/sources/schema-trappist1-slunecni-soustava.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://exoplanetarchive.ipac.caltech.edu/cgi-bin/DisplayOverview/nph-DisplayOverview?objname=TRAPPIST-1",
+      "https://www.nature.com/articles/nature17448",
+      "https://arxiv.org/abs/1404.5292",
+      "https://science.nasa.gov/asset/webb/trappist-1-system-orbit-comparison/"
+    ],
+    "width": 1100,
+    "height": 1450,
+    "zoomable": true
   }
 ]

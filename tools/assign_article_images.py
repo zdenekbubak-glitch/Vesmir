@@ -183,17 +183,28 @@ def image_url(entry,base=''):
     if not entry:return None
     return base+'/assets/article-images/'+entry['id']+'.jpg'+('?v='+str(entry['revision']) if entry.get('revision') else '')
 
-def figure(entry):
+def figure(entry, zoom=None):
     from html import escape as esc
     if not entry:return ''
     links=' '.join('<a href="'+esc(a['url'],quote=True)+'" rel="noopener">'+esc(a['text'])+'</a>'
                    for a in entry.get('credit_links',[]) if a.get('url','').startswith(('https://','http://')))
-    return ('<figure class="article-image"><img src="'+esc(image_url(entry),quote=True)+'" '
+    result = ('<figure class="article-image"><img src="'+esc(image_url(entry),quote=True)+'" '
             'alt="'+esc(entry['alt'],quote=True)+'" width="'+str(entry.get('width',1200))+'" height="'+str(entry.get('height',630))+'" style="width:100%;height:auto;border-radius:10px">'
             '<figcaption style="font-size:.85rem;color:var(--muted)">'+esc(entry['caption'])+'<br>© / kredit: '+esc(entry['credit'])+
             ' · <a href="'+esc(entry['source'],quote=True)+'">Zdroj</a> · '+links+
             ' · <a href="'+esc(entry['license_url'],quote=True)+'">'+esc(entry['license'])+'</a>'
             ' · Úpravy: '+esc(entry.get('modifications','zmenšení, rámeček a kredit'))+'.</figcaption></figure>\n')
+
+    if zoom is None:
+        zoom = entry.get('zoomable', False)
+    if zoom:
+        link = ('<a href="' + esc(image_url(entry), quote=True) + '" target="_blank" rel="noopener" '
+                'class="article-image-zoom" aria-label="Zvětšit graf: ' + esc(entry['title'], quote=True) + '">')
+        result = result.replace('<img ', link + '<img ', 1).replace('<figcaption', '</a><figcaption', 1)
+        caption = '<figcaption style="font-size:.85rem;color:var(--muted)">'
+        result = result.replace(caption, caption + link + 'Zvětšit graf</a><br>', 1)
+    return result
+
 
 def image_schema(entry,base):
     if not entry:return None
