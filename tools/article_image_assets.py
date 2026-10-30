@@ -21,6 +21,9 @@ def diagram(entry):
     if str(entry.get('diagram', '')).startswith('exosystem-'):
         from exoplanet_system_comparison import diagram as system_diagram
         return system_diagram(entry)
+    if str(entry.get('diagram', '')).startswith('localview-'):
+        from local_universe_diagrams import diagram as local_diagram
+        return local_diagram(entry)
     if str(entry.get('diagram', '')).startswith('exofamily-'):
         from exoplanet_systems_diagrams import diagram as family_diagram
         return family_diagram(entry)

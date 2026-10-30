@@ -8741,5 +8741,245 @@
     "width": 1100,
     "height": 1500,
     "zoomable": true
+  },
+  {
+    "id": "schema-budoucnost-slunce",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Datové zdroje a metodika",
+        "url": "https://kosmonovinky.cz/data/local-universe-2026-10-30.json"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelné schéma v tools/local_universe_diagrams.py. Datový výběr a zdroje v data/local-universe-2026-10-30.json.",
+    "verified_on": "2026-10-30",
+    "revision": 4,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "localview-sun",
+    "source_id": "own-diagram:schema-budoucnost-slunce",
+    "source_family": "own-diagram:schema-budoucnost-slunce",
+    "title": "Budoucnost Slunce a Země",
+    "alt": "Osm etap budoucnosti Slunce a Země. U začátku je uvedena orientační doba od dneška, u pozdějších etap jejich trvání. Stejně velká pole představují různě dlouhá období. Po dlouhém chladnutí bílého trpaslíka by podle výpočtů zůstal černý trpaslík.",
+    "caption": "Osm etap budoucnosti Slunce a Země. U začátku je uvedena orientační doba od dneška, u pozdějších etap jejich trvání. Stejně velká pole představují různě dlouhá období. Po dlouhém chladnutí bílého trpaslíka by podle výpočtů zůstal černý trpaslík.",
+    "thumbnail": "assets/article-images/thumbs/schema-budoucnost-slunce.webp",
+    "source_master": "assets/article-images/sources/schema-budoucnost-slunce.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://gruze.org/10pc/",
+      "https://science.nasa.gov/solar-system/solar-system-facts/"
+    ],
+    "data_file": "data/local-universe-2026-10-30.json",
+    "width": 1100,
+    "height": 2260,
+    "zoomable": true
+  },
+  {
+    "id": "schema-nejblizsi-hvezdy",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Datové zdroje a metodika",
+        "url": "https://kosmonovinky.cz/data/local-universe-2026-10-30.json"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelné schéma v tools/local_universe_diagrams.py. Datový výběr a zdroje v data/local-universe-2026-10-30.json.",
+    "verified_on": "2026-10-30",
+    "revision": 3,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "localview-stars",
+    "source_id": "own-diagram:schema-nejblizsi-hvezdy",
+    "source_family": "own-diagram:schema-nejblizsi-hvezdy",
+    "title": "Nejbližší hvězdy Slunce",
+    "alt": "Vzdálenosti jedenácti hvězd v sedmi soustavách na společné ose v jednotkách světelných let. Červená značí třídu M, žlutá dvojici G/K, modrá Sirius A a jeho průvodce bílého trpaslíka. Alfa Centauri A/B a Proxima patří do jedné soustavy.",
+    "caption": "Vzdálenosti jedenácti hvězd v sedmi soustavách na společné ose v jednotkách světelných let. Červená značí třídu M, žlutá dvojici G/K, modrá Sirius A a jeho průvodce bílého trpaslíka. Alfa Centauri A/B a Proxima patří do jedné soustavy.",
+    "thumbnail": "assets/article-images/thumbs/schema-nejblizsi-hvezdy.webp",
+    "source_master": "assets/article-images/sources/schema-nejblizsi-hvezdy.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://gruze.org/10pc/",
+      "https://science.nasa.gov/solar-system/solar-system-facts/"
+    ],
+    "data_file": "data/local-universe-2026-10-30.json",
+    "width": 1100,
+    "height": 1450,
+    "zoomable": true
+  },
+  {
+    "id": "schema-slunce-v-mlecne-draze",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Datové zdroje a metodika",
+        "url": "https://kosmonovinky.cz/data/local-universe-2026-10-30.json"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelné schéma v tools/local_universe_diagrams.py. Datový výběr a zdroje v data/local-universe-2026-10-30.json.",
+    "verified_on": "2026-10-30",
+    "revision": 3,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "localview-milkyway",
+    "source_id": "own-diagram:schema-slunce-v-mlecne-draze",
+    "source_family": "own-diagram:schema-slunce-v-mlecne-draze",
+    "title": "Slunce v Mléčné dráze",
+    "alt": "Názorná stavba disku Mléčné dráhy shora a z boku. Slunce je přibližně 27 tisíc světelných let od středu. Oba pohledy používají stejné délkové měřítko; ramena jsou zjednodušená a halo pokračuje za zobrazený disk.",
+    "caption": "Názorná stavba disku Mléčné dráhy shora a z boku. Slunce je přibližně 27 tisíc světelných let od středu. Oba pohledy používají stejné délkové měřítko; ramena jsou zjednodušená a halo pokračuje za zobrazený disk.",
+    "thumbnail": "assets/article-images/thumbs/schema-slunce-v-mlecne-draze.webp",
+    "source_master": "assets/article-images/sources/schema-slunce-v-mlecne-draze.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://gruze.org/10pc/",
+      "https://science.nasa.gov/solar-system/solar-system-facts/"
+    ],
+    "data_file": "data/local-universe-2026-10-30.json",
+    "width": 1100,
+    "height": 1450,
+    "zoomable": true
+  },
+  {
+    "id": "schema-mistni-skupina-3d",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Datové zdroje a metodika",
+        "url": "https://kosmonovinky.cz/data/local-universe-2026-10-30.json"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelné schéma v tools/local_universe_diagrams.py. Datový výběr a zdroje v data/local-universe-2026-10-30.json.",
+    "verified_on": "2026-10-30",
+    "revision": 4,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "localview-group",
+    "source_id": "own-diagram:schema-mistni-skupina-3d",
+    "source_family": "own-diagram:schema-mistni-skupina-3d",
+    "title": "Vybraní členové Místní skupiny ve 3D",
+    "alt": "Prostorová projekce vybraných galaxií Místní skupiny ze směrů na obloze a zaokrouhlených vzdáleností. Osy udávají miliony světelných let od Slunce; vložený detail zvětšuje blízké Magellanovy oblaky. Body představují polohy galaxií, jejich velikosti jsou názorné.",
+    "caption": "Prostorová projekce vybraných galaxií Místní skupiny ze směrů na obloze a zaokrouhlených vzdáleností. Osy udávají miliony světelných let od Slunce; vložený detail zvětšuje blízké Magellanovy oblaky. Body představují polohy galaxií, jejich velikosti jsou názorné.",
+    "thumbnail": "assets/article-images/thumbs/schema-mistni-skupina-3d.webp",
+    "source_master": "assets/article-images/sources/schema-mistni-skupina-3d.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://gruze.org/10pc/",
+      "https://science.nasa.gov/solar-system/solar-system-facts/"
+    ],
+    "data_file": "data/local-universe-2026-10-30.json",
+    "width": 1100,
+    "height": 1500,
+    "zoomable": true
+  },
+  {
+    "id": "schema-galakticke-okoli-3d",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Datové zdroje a metodika",
+        "url": "https://kosmonovinky.cz/data/local-universe-2026-10-30.json"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelné schéma v tools/local_universe_diagrams.py. Datový výběr a zdroje v data/local-universe-2026-10-30.json.",
+    "verified_on": "2026-10-30",
+    "revision": 3,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "localview-wide",
+    "source_id": "own-diagram:schema-galakticke-okoli-3d",
+    "source_family": "own-diagram:schema-galakticke-okoli-3d",
+    "title": "Širší galaktické okolí ve 3D",
+    "alt": "Další galaktické skupiny a kupa v Panně v prostorové projekci. Jednotky na osách jsou miliony světelných let od Slunce. U skupin je vyznačena referenční galaxie, u kupy v Panně směr M87; značky nevymezují prostorový rozsah těchto celků.",
+    "caption": "Další galaktické skupiny a kupa v Panně v prostorové projekci. Jednotky na osách jsou miliony světelných let od Slunce. U skupin je vyznačena referenční galaxie, u kupy v Panně směr M87; značky nevymezují prostorový rozsah těchto celků.",
+    "thumbnail": "assets/article-images/thumbs/schema-galakticke-okoli-3d.webp",
+    "source_master": "assets/article-images/sources/schema-galakticke-okoli-3d.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://gruze.org/10pc/",
+      "https://science.nasa.gov/solar-system/solar-system-facts/"
+    ],
+    "data_file": "data/local-universe-2026-10-30.json",
+    "width": 1100,
+    "height": 1370,
+    "zoomable": true
   }
 ]

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Nejbližší hvězdy – prostorová mapa</title><style>__STYLE__</style></head>
+<body><main><a href="/kosmopedie/ktere-hvezdy-jsou-nejblize-slunci.html">← Zpět k tématu v Kosmopedii</a><h1>Nejbližší hvězdy v prostoru</h1>
+<p>Slunce je uprostřed hlavního pohledu. Mapa ukazuje stejné sousední hvězdy jako přehled v tématu: 11 hvězd v 7 soustavách. Otáčejte tažením myší či prstem; přiblížení upravíte posuvníkem.</p>
+<div class="controls"><label>Pohled <select id="view"><option value="all" selected>Okolí Slunce do 10 světelných let</option><option value="alpha">Detail soustavy Alfa Centauri</option></select></label><label>Přiblížení <input id="zoom" type="range" min="0.6" max="3" step="0.1" value="1"></label><button id="left" aria-label="Otočit pohled doleva">← Otočit</button><button id="right" aria-label="Otočit pohled doprava">Otočit →</button><button id="reset">Výchozí pohled</button></div>
+<p id="frame" class="muted" aria-live="polite">Počátek souřadnic: Slunce. Všechny osy jsou ve světelných letech.</p>
+<div class="canvas-box"><canvas id="map" role="img" aria-label="Prostorové polohy nejbližších hvězd. Názvy, typy a vzdálenosti jsou také v tabulce pod mapou."></canvas></div>
+<p id="selection" aria-live="polite">Kliknutím na bod zobrazíte název, typ a vzdálenost od Slunce.</p>
+<div class="legend"><span style="--c:#ffd287">Slunce a hvězdy G/K</span><span style="--c:#ff9d87">Červení trpaslíci M</span><span style="--c:#7dcfff">Sirius A a bílý trpaslík Sirius B</span></div>
+<p>Alfa Centauri A/B, Sirius A/B a BL/UV Ceti jsou těsné dvojice: každou zastupuje společný bod. Proxima je vyznačena zvlášť a patří do stejné soustavy jako Alfa Centauri A/B. Jejich vzájemnou polohu ukáže detail, jehož počátek je u dvojice A/B. Slunce v tomto detailu leží mimo výřez.</p>
+<p class="muted">Osy mají stejné délkové měřítko. X míří ke středu Mléčné dráhy, Y podél její roviny k galaktické délce 90°, Z k severnímu galaktickému pólu. Velikosti bodů slouží k označení poloh, nikoli k porovnání velikostí hvězd.</p>
+<h2>Vybrané hvězdy a vzdálenosti od Slunce</h2><div class="tablebox"><table><thead><tr><th>Hvězda či dvojice</th><th>Vzdálenost (světelné roky)</th><th>Typ</th></tr></thead><tbody id="rows">__ROWS__</tbody></table></div>
+<p class="muted">Podklad sestaven 30. 10. 2026. Hvězdy se pohybují; mapa zachycuje přibližné katalogové polohy pro rok 2016. Směry a vzdálenosti: <a href="https://gruze.org/10pc/">The 10 pc sample v2</a>; společná vzdálenost BL/UV Ceti podle <a href="http://www.recons.org/TOP100.posted.htm">RECONS</a>. <a href="/data/local-universe-2026-10-30.json">Úplný datový podklad a metodika</a>. Vlastní zobrazení Kosmologických novinek, CC BY 4.0.</p>
+<noscript><p>Pro otáčení mapy zapněte JavaScript. Přehled vzdáleností je dostupný v tabulce a <a href="/kosmopedie/ktere-hvezdy-jsou-nejblize-slunci.html">původním tématu</a>.</p></noscript></main>
+<script id="map-data" type="application/json">__DATA__</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('map-data').textContent);
+const canvas=document.getElementById('map'),ctx=canvas.getContext('2d');
+const view=document.getElementById('view'),zoom=document.getElementById('zoom');
+const fmt=n=>n.toLocaleString('cs-CZ',{maximumFractionDigits:2});
+let yaw=.6,pitch=.43,points=[],drag=null,moved=false;
+function state(){return {yaw,pitch,view:view.value,zoom:+zoom.value}}
+function draw(){
+ const w=canvas.clientWidth,h=canvas.clientHeight,dpr=devicePixelRatio||1;
+ canvas.width=w*dpr;canvas.height=h*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);
+ ctx.fillStyle='#0b1424';ctx.fillRect(0,0,w,h);
+ const detail=view.value==='alpha';
+ const anchor=data.stars.find(a=>a.name==='Alfa Centauri A + B');
+ const center=detail?anchor.xyz_ly:[0,0,0],limit=detail ? .35 : 10;
+ const scale=Math.min(w,h)*.36/limit*+zoom.value;
+ document.getElementById('frame').textContent=detail?'Detail Alfy Centauri: počátek u dvojice A/B; osy ve světelných letech. Vzdálenosti v tabulce jsou stále od Slunce.':'Počátek souřadnic: Slunce. Všechny osy jsou ve světelných letech.';
+ function project(v){
+  const [x,y,z]=v.map((a,i)=>a-center[i]);
+  const a=x*Math.cos(yaw)-y*Math.sin(yaw),b=x*Math.sin(yaw)+y*Math.cos(yaw);
+  return [w*.5+a*scale,h*.5+(b*Math.sin(pitch)-z*Math.cos(pitch))*scale];
+ }
+ const occupied=[];
+ ctx.font='13px system-ui';ctx.textBaseline='middle';ctx.lineWidth=1;
+ for(let i=0;i<3;i++){
+  const a=[...center],b=[...center];a[i]-=limit;b[i]+=limit;
+  const p=project(a),q=project(b);ctx.strokeStyle='#43536b';ctx.beginPath();ctx.moveTo(...p);ctx.lineTo(...q);ctx.stroke();
+  ctx.fillStyle='#7dcfff';ctx.fillText(['X','Y','Z'][i],q[0]+5,q[1]);occupied.push({x:q[0]+3,y:q[1]-8,w:18,h:18});
+  for(const val of (detail?[-.2,.2]:[-5,5])){
+   a[i]=center[i]+val;const u=project(a),label=fmt(val);ctx.fillStyle='#bac8db';ctx.fillText(label,u[0]+4,u[1]+12);
+   occupied.push({x:u[0]+2,y:u[1]+3,w:ctx.measureText(label).width+5,h:18});
+  }
+ }
+ const rows=detail?data.stars.filter(a=>a.system==='Alfa Centauri'):[{name:'Slunce',short_name:'Slunce',xyz_ly:[0,0,0],distance_ly:0,kind:'G',color:'#ffd287'},...data.stars];
+ points=[];
+ // Paint all points before labels; label rectangles also avoid covering point positions.
+ for(const a of rows){
+  const [x,y]=project(a.xyz_ly);if(x<0||x>w||y<28||y>h)continue;
+  ctx.strokeStyle='#263c55';ctx.beginPath();ctx.moveTo(w*.5,h*.5);ctx.lineTo(x,y);ctx.stroke();
+  ctx.fillStyle=a.color;ctx.beginPath();ctx.arc(x,y,6,0,Math.PI*2);ctx.fill();points.push({x,y,a});
+  occupied.push({x:x-9,y:y-9,w:18,h:18});
+ }
+ for(const {x,y,a} of points){
+  ctx.font='14px system-ui';const label=a.short_name,tw=ctx.measureText(label).width;
+  let lx,ly;
+  outer:for(const rr of [24,48,72,96,120,144,168,192]){
+   for(const sign of [1,-1])for(const dy of [-rr,rr,0]){
+    const xx=Math.max(8,Math.min(w-tw-8,x+sign*(rr+8)-(sign<0?tw:0))),yy=Math.max(38,Math.min(h-25,y+dy));
+    if(occupied.some(b=>xx<b.x+b.w+7&&xx+tw+7>b.x&&yy-9<b.y+b.h+7&&yy+9>b.y))continue;
+    lx=xx;ly=yy;break outer;
+   }
+  }
+  if(lx===undefined){lx=8;ly=42+points.indexOf(points.find(p=>p.a===a))*24;}
+  occupied.push({x:lx,y:ly-9,w:tw,h:18});
+  ctx.strokeStyle='#61748b';ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(Math.max(lx,Math.min(lx+tw,x)),ly);ctx.stroke();
+  ctx.fillStyle='#0b1424';ctx.fillRect(lx-3,ly-10,tw+6,20);ctx.fillStyle=a.color;ctx.fillText(label,lx,ly);
+ }
+ ctx.fillStyle='#edf4ff';ctx.font='14px system-ui';ctx.fillText('Osy: světelné roky',12,18);
+ canvas.dataset.state=JSON.stringify(state());canvas.dataset.points=JSON.stringify(points.map(({x,y,a})=>({x,y,name:a.name})));
+}
+canvas.addEventListener('pointerdown',e=>{drag={x:e.clientX,y:e.clientY,yaw,pitch};moved=false;canvas.setPointerCapture(e.pointerId)});
+canvas.addEventListener('pointermove',e=>{
+ if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;
+ if(Math.abs(dx)+Math.abs(dy)>4)moved=true;
+ yaw=drag.yaw+dx*.008;pitch=Math.max(-1.3,Math.min(1.3,drag.pitch+dy*.008));draw();
+});
+canvas.addEventListener('pointerup',e=>{
+ if(!moved){const box=canvas.getBoundingClientRect(),x=e.clientX-box.left,y=e.clientY-box.top;
+  const hit=[...points].sort((a,b)=>Math.hypot(a.x-x,a.y-y)-Math.hypot(b.x-x,b.y-y))[0];
+  if(hit&&Math.hypot(hit.x-x,hit.y-y)<25)document.getElementById('selection').textContent=hit.a.name+' — '+fmt(hit.a.distance_ly)+' světelných let od Slunce; typ '+hit.a.kind+'.';
+ }drag=null;
+});
+canvas.addEventListener('pointercancel',()=>drag=null);
+view.addEventListener('change',()=>{zoom.value='1';document.getElementById('selection').textContent='Kliknutím na bod zobrazíte název, typ a vzdálenost od Slunce.';draw()});
+zoom.addEventListener('input',draw);
+document.getElementById('left').onclick=()=>{yaw-=.25;draw()};document.getElementById('right').onclick=()=>{yaw+=.25;draw()};
+document.getElementById('reset').onclick=()=>{yaw=.6;pitch=.43;zoom.value='1';draw()};
+new ResizeObserver(draw).observe(canvas);draw();
+</script></body></html>
