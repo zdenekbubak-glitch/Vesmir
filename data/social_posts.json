@@ -238,5 +238,45 @@
     "status": "published",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-10-30T08:24:41.175823+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_e4ee43a035125b483eee",
+    "title": "Bílí trpaslíci nejsou jen bílí. Vědci objevili mrtvé hvězdy se zelenou i růžovou barvou\nAstronomové vypočítali, jak by lidské oko vnímalo barvy blízkých bílých trpaslíků – pozůstatků hvězd podobných Slunci. Většina by se jevila bíle, některé by však měly nečekané odstíny, od",
+    "platform_id": "6ae45d91c2427e8527c7510e",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-30T09:04:18.739984+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_99bd6ef9492d75eaa52d",
+    "title": "Přitažlivost galaxií. Působí na nekonečné vzdálenosti. Vzájemná rychlost je obrovská (100km/s) a pravděpodobnost srážky je nízká (50%). Pravděpodobnost srážky dvou hvězd je téměř nulová. 🌌 https://t.co/CCQN3ecgLB",
+    "platform_id": "6ae45d94d518fcaf80a912ab",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-30T09:04:21.388436+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "reply",
+    "key": "x_reply_88bdd44aa9912c2cde34",
+    "title": "Vesmírný dalekohled Swift se během následujících týdnů zřítí k povrchu Země. Důležitá observatoř ukončila misi po více než dvaceti letech, přičemž poskytla tisíce průkopnických zjištění.\nhttps://t.co/6euYfc9AzD",
+    "platform_id": "6ae45d9658a62337fb770355",
+    "status": "draft",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-30T09:04:22.945252+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "reply",
+    "key": "x_reply_e605db9defb664f711ca",
+    "title": "Co všechno nám ještě vesmír tají? A jakou roli dnes hrají moderní vesmírné teleskopy. Na to jsem se ptal Vítěslava Škorpíka z naší redakce. https://t.co/iwj0ZjIDyR https://t.co/SEFO7RswDc",
+    "platform_id": "6ae45d9858a62337fb77040a",
+    "status": "draft",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-30T09:04:24.414631+00:00"
   }
 ]
