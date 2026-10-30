@@ -1,5 +1,20 @@
 [
   {
+    "id": "apod-2026-10-30",
+    "title": "Strašidla v Cefeově mračnu",
+    "caption": "Strašidelné tvary v královském souhvězdí Cefea jsou ve skutečnosti oblaka kosmického prachu, která slabě odrážejí hvězdné světlo. Nacházejí se nad rovinou Mléčné dráhy na okraji komplexu molekulárních mračen v Cefeovi ve vzdálenosti kolem 1 200 světelných roků. Vpravo dole vyniká mlhovina Duch (vdB 141 či Sh2-136) o průměru přes 2 světelné roky, v jejímž nitru probíhají rané fáze vzniku nových hvězd.",
+    "thumb": "assets/gallery/apod-2026-10-30.jpg",
+    "image": "assets/gallery/apod-2026-10-30.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+    "published": "2026-10-30",
+    "credit": "Mirko Tondinelli",
+    "original_title": "Haunting the Cepheus Flare",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-10-30T08:23:44.327572+00:00"
+  },
+  {
     "id": "apod-2026-10-28",
     "title": "Vzájemný zákryt Ganymedu a Io",
     "caption": "Dva z Jupiterových Galileových měsíců, Ganymedes a Io, se na obloze potkaly při vzájemném zákrytu, během něhož Ganymedes krátce zakryl měsíc Io. Tyto vzájemnéákryty jsou poměrně vzácné, neboť k nim dochází jen jednou za šest let, kdy ze Země vidíme jejich oběžné dráhy z profilu během Jupiterovy rovnodennosti.",
