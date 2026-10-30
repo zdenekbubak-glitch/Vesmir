@@ -1010,34 +1010,38 @@
     "id": "exp-024",
     "title": "Co se stane, když se galaxie srazí?",
     "theme": "galaxie",
-    "description": "Hvězdy se při srážce galaxií téměř nikdy nesrazí, ale galaxie se promění k nepoznání. Včetně budoucí srážky Mléčné dráhy s Andromedou.",
+    "description": "Jak gravitace a střety plynu proměňují galaxie při setkání. Co víme o možném budoucím setkání Mléčné dráhy s Andromedou.",
     "published": "2026-10-18",
-    "updated": "2026-10-25",
-    "perex": "Když se galaxie srazí, hvězdy se téměř nikdy nesrazí – mezihvězdné vzdálenosti jsou příliš velké. Přesto srážka promění obě galaxie k nepoznání: plynné disky se zmačkají, pruhy hvězd se rozvinou do vesmíru a centrální černé díry se nakonec sloučí. Náš domov čeká totéž – za čtyři miliardy let se Mléčná dráha srazí s galaxií Andromeda.",
+    "updated": "2026-10-30",
+    "perex": "Při setkání galaxií gravitace přetváří jejich hvězdné dráhy a srážející se plyn může podnítit vznik nových hvězd. Počítačové modely zkoumají podobné možnosti i pro budoucí vzájemné přiblížení Mléčné dráhy a Andromedy.",
     "sections": [
       {
-        "heading": "Hvězdy se téměř nikdy nesrazí",
-        "body": "Když si představíme srážku galaxií, vybavíme si obvykle obraz chaosu a výbuchů. Skutečnost je překvapivě poklidná. Hvězdy v galaxii jsou od sebe tak daleko, že se při srážce dvou galaxií téměř nikdy nesrazí. Pokud bychom žili v jedné z takových galaxií, mnohé bychom nepoznali – obloha by se sice měnila, ale pravděpodobnost, že by naše Sluneční soustava byla zasažena jinou hvězdou, je menší než jedna ku miliardám. Co se skutečně srazí, je plyn a prach – a právě ten určuje, jak srážka vypadá. Zmačkané molekulární oblaky se zhroutí a vznikne vlna zrodu nových hvězd.",
+        "heading": "Hvězdné dráhy a srážející se plyn",
+        "body": "Galaxie jsou rozsáhlé soustavy hvězd, plynu, prachu a temné hmoty. **Při jejich setkání gravitace mění dráhy hvězd a vytahuje z galaxií dlouhé proudy hvězd a plynu. Ty mohou vytvářet protáhlé „ocasy“ nebo mosty spojující obě galaxie.** Vzhledem k velkým vzdálenostem mezi hvězdami jsou přímé srážky jednotlivých hvězd velmi vzácné.\n\nPlynná mračna se naopak mohou přímo střetávat. Stlačený plyn se může ochladit, zhroutit a vytvořit nové hvězdy. Právě kombinace pohybu hvězd a proměn plynu vytváří působivé tvary interagujících galaxií.",
         "image_id": "schema-srazka-galaxii-slozky"
       },
       {
-        "heading": "Fáze srážky",
-        "body": "Srážka galaxií trvá stovky milionů let a probíhá ve fázích. Nejdřív se galaxie přibližují a její gravitační působení začne deformovat vnější části – vznikají proudy hvězd, které vypadají jako ocasy a mosty. Poté proletí kolem sebe a její gravitační působení vytrhne další materiál. Nakonec se vzájemně zaklesnou a začnou se točit kolem společného těžiště. Plyn a prach se během toho srážejí, zahřívají a září – srážka galaxií je často doprovázena explozí zrodu hvězd. Konečným výsledkem je většinou eliptická galaxie nebo velká spirála s aktivním jádrem."
+        "heading": "Od prvního setkání ke sloučení",
+        "body": "Vývoj trvá stovky milionů až miliardy let a závisí na hmotnostech i dráze setkání. Galaxie mohou kolem sebe proletět, vzájemně se deformovat nebo po opakovaných průchodech splynout. Při sloučení se pohyb jejich hvězd postupně přeuspořádá; výsledný tvar ovlivňuje množství plynu i původní uspořádání obou soustav."
       },
       {
-        "heading": "Černé díry se slévají",
-        "body": "V centru každé velké galaxie číhá supermasivní černá díra. Když se galaxie srazí, černé díry se postupně přibližují, až nakonec splynou. Toto sloučení je jedním z nejprudších dějů ve vesmíru – uvolňuje gigantické množství energie v podobě gravitačních vln, které jako mohutné rázové vlny rozechvívají samotný časoprostor. Vědci simulují tyto srážky pomocí počítačových modelů, jejichž výsledky ukazují, že proces splývání trvá miliony let a odehrává se v několika fázích. Přímé důkazy z pozorování supermasivních děr nám zatím chybí, ale připravovaná vesmírná observatoř LISA by měla tyto gravitační vlny poprvé přímo detekovat."
+        "heading": "Co se děje s centrálními černými dírami",
+        "body": "Pokud mají obě galaxie centrální supermasivní černou díru, mohou po sloučení galaxií vytvořit těsnou dvojici. Její další přibližování závisí na působení okolních hvězd a plynu. Závěrečné splynutí by vyzářilo energii v gravitačních vlnách.\n\nTyto procesy vědci zkoumají pomocí pozorování i simulací; budoucí kosmická observatoř LISA má měřit gravitační vlny z části takových systémů. Princip vysvětluje [téma o měření gravitačních vln](https://kosmonovinky.cz/kosmopedie/jak-se-meri-gravitacni-vlny.html)."
       },
       {
-        "heading": "Naše budoucnost: Mléčná dráha × Andromeda",
-        "body": "Naše galaxie se právě teď vzdaluje od Andromedy rychlostí zhruba 110 kilometrů za sekundu. Ale gravitace je táhne zpátky – a výpočty ukazují, že se za přibližně čtyři miliardy let srazí. Modelování budoucí srážky ukazuje, že výsledek bude jediná velká eliptická galaxie. Na Sluneční soustavu to pravděpodobně dopadne jen kosmeticky – obloha se promění v ohromující podívanou, kdy galaxie Andromeda bude vypadat větší než Mléčná dráha. Vědci dokonce spočítali, že Slunce má šanci přežít a bude obíhat kolem výsledné galaxie. Život na Zemi ale tehdy už pravděpodobně nebude existovat – Slunce se stane červeným obrem dřív, než srážka nastane."
+        "heading": "Naše budoucnost: Mléčná dráha a Andromeda",
+        "body": "**Mléčná dráha a Andromeda se k sobě přibližují** radiální rychlostí zhruba 110 kilometrů za sekundu. Pro jejich budoucí dráhu je důležitý také pohyb do strany, hmotnosti obou galaxií a gravitační působení okolí.\n\nStudie Sawala a spoluautorů z roku **2025** zahrnula také galaxii M33 a Velký Magellanův oblak. Při zohlednění nejistot měření vyšla přibližně poloviční možnost, že se Mléčná dráha s Andromedou během příštích **10 miliard let nesloučí**. Výsledkem může být blízké setkání, pozdější sloučení nebo jiné vzájemné přiblížení podle skutečných počátečních podmínek.\n\nBudoucnost Slunce má vlastní časový průběh: výkon Slunce postupně roste a podmínky pro kapalnou vodu na Zemi se změní ještě před jeho pozdějšími obřími etapami. Při líčení možného setkání galaxií proto potřebujeme zvažovat i to, v jaké fázi vývoje bude samotné Slunce."
       },
       {
-        "heading": "Proč je to důležité",
-        "body": "Srážky galaxií nejsou jen kosmická kuriozita – jsou hlavním způsobem, jakým galaxie rostou a vyvíjejí se. Většina velkých galaxií, které vidíme dnes, vznikla sloučováním menších. Srážky aktivují zrod hvězd, živí supermasivní černé díry a mění tvar galaxií. Některé z nejjasnějších objektů vesmíru – tzv. ultrajasné infračervené galaxie – jsou vlastně galaxie v průběhu srážky, jejichž jas vzniká ohřátím prachu a explozí zrodu hvězd. Bez srážek by dnešní vesmír vypadal úplně jinak – a my bychom tu pravděpodobně nebyli."
+        "heading": "Proč setkání galaxií studujeme",
+        "body": "Setkání a sloučení mění tvary galaxií, přemisťují plyn, mohou vyvolat tvorbu hvězd a přivádět hmotu k centrálním černým dírám. Pozorováním galaxií v různých fázích a jejich porovnáváním s modely rekonstruujeme, jak galaxie v průběhu času rostou."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Sawala a kol. (2025): budoucí dráha Mléčné dráhy a Andromedy](https://www.nature.com/articles/s41550-025-02563-1)\n- [ESA/Hubble: nové posouzení možného setkání galaxií](https://esahubble.org/news/heic2508/)\n- [NASA: galaxie a jejich vývoj](https://science.nasa.gov/universe/galaxies/)\n- [ESA: kosmická observatoř LISA](https://www.esa.int/Science_Exploration/Space_Science/LISA)"
       }
     ],
-    "why_box": "Představte si, že se podíváte na noční oblohu za čtyři miliardy let. Místo Mléčné dráhy uvidíte obří galaxii Andromedu, která zaplní celý pohled – a vaše Sluneční soustava bude její součástí. Srážka galaxií, která tehdy nastane, je největší událostí v budoucím životě naší galaxie. Vědci již dnes přesně modelují, jak proběhne. A vy máte jedinečnou možnost: dozvědět se o ní předem.",
+    "why_box": "Pozorované deformace galaxií vyprávějí příběh jejich minulých setkání. Stejné fyzikální principy pomáhají zkoumat i možné budoucí dráhy naší galaxie a ukazují, které nové údaje předpovědi nejvíce zpřesní.",
     "related_explainery": [
       "jak-vznikaji-galaxie",
       "proc-maji-galaxie-spiralni-ramena",
@@ -4676,5 +4680,240 @@
       "https://www.sciencedaily.com/releases/2026/10/261007042106.htm"
     ],
     "related_news_note": "Novinky ukazují dvě odlišné skupiny hostitelů: malé červené trpaslíky a hvězdné pozůstatky. Přesné určení vlastností hvězdy pomáhá vykládat měření i historii její planetární soustavy."
+  },
+  {
+    "id": "exp-096",
+    "title": "Jak vypadají jiné planetární soustavy ve srovnání se Sluneční soustavou?",
+    "theme": "exoplanety",
+    "description": "Pět známých soustav vedle Sluneční soustavy: rozložení drah, délky roků a různé typy planet. Společné měřítko a detail vnitřních oblastí.",
+    "published": "2026-10-30",
+    "updated": "2026-10-30",
+    "perex": "Sedm planet těsně u červeného trpaslíka, osm světů uvnitř oblasti podobné dráze Země nebo soustava s velmi blízkou planetou i vzdáleným obrem. Porovnání pěti známých soustav ukazuje, jak různorodé mohou být planetární rodiny.",
+    "sections": [
+      {
+        "heading": "Co vlastně srovnáváme",
+        "body": "Sluneční soustava má čtyři menší kamenné planety ve vnitřní oblasti a čtyři obří planety dál od Slunce. U jiných hvězd nacházíme také soustavy, kde se několik planet vejde do prostoru menšího než dráha Merkuru.\n\nZde srovnáváme pět vybraných soustav se Sluneční soustavou. Počty a planetární parametry vycházejí z archivu NASA staženého **30. října 2026**. Přehled doplňuje [téma o počtech objevených exoplanet](https://kosmonovinky.cz/kosmopedie/kolik-exoplanet-zname-a-kolem-jakych-hvezd-obihaji.html); tentokrát sledujeme především uspořádání jejich drah."
+      },
+      {
+        "heading": "Jak číst společné měřítko",
+        "body": "Vodorovná osa úvodního grafu ukazuje vzdálenosti v **astronomických jednotkách (AU)**: 1 AU odpovídá vzdálenosti Země od Slunce. U planet znázorňujeme velkou poloosu, která určuje celkovou velikost oběžné dráhy.\n\nAby se do obrázku vešly těsné soustavy i Neptun, je osa **logaritmická**. Posun z 0,1 na 1 AU zabírá stejně místa jako posun z 1 na 10 AU: v obou případech jde o desetinásobek vzdálenosti. Všechny řádky používají stejné měřítko.\n\nDetail níže má běžnou lineární osu do 1 AU. Na něm stejné rozestupy opravdu znamenají stejné vzdálenosti. Barevné body označují planety; jejich poloměry najdete v tabulce.\n\n**Barva značky rozlišuje odhadovaný typ planety:** oranžová označuje kamenné světy, modrá plynné obry a fialová planety neptunového typu a menší planety s výrazným obalem. U exoplanet jde o zařazení podle měření a modelů jejich stavby. Zelený pás patří obyvatelné zóně hvězdy; zelený kroužek zvýrazňuje planetu uvnitř ní.\n\nVe srovnání jsou takto označeny Země, Mars, TRAPPIST-1 e, f, g a 55 Cancri f. Poslední z nich je plynná planeta: zelené označení zde popisuje polohu dráhy, nikoli potvrzený povrch s kapalnou vodou. Pro Slunce a TRAPPIST-1 jsou použita stejná orientační pásma jako ve 14. várce; u 55 Cancri pásmo 0,67–1,32 AU ze studie von Brauna a kol. (2011).\n\nMars leží v takto vymezeném pásmu, ale jeho dnešní řídká atmosféra nedovoluje dlouhodobě udržet kapalnou vodu na povrchu. Označení zóny tedy vždy potřebujeme posuzovat spolu s prostředím konkrétní planety.",
+        "image_id": "graf-planetarni-soustavy-detail"
+      },
+      {
+        "heading": "Přehled šesti planetárních rodin",
+        "body": "Délky oběhů jsou v pozemských dnech a poloměry v násobcích poloměru Země. Rozmezí v řádku znamená nejmenší a největší uvedenou hodnotu mezi planetami dané soustavy.\n\nU **55 Cancri A** počítáme pět planet hlavní hvězdy. Dvě další katalogové planety patří vzdálené hvězdné průvodkyni 55 Cancri B. Obě části proto v tomto řádku neslučujeme. Kepler-90 archiv vede převážně pod názvem KOI-351; zde používáme známější název Kepler-90.\n\nU 55 Cancri A je měřený poloměr uveden pouze pro tranzitující planetu e; velikosti ostatních čtyř planet touto hodnotou neodhadujeme. U Kepler-90 jsou poloměry ze studií Cabrera a kol. (2014) a Shallue a Vanderburg (2018). Novější archivní záznamy některých planet doplňují hmotnosti, ale poloměry neuvádějí.",
+        "table": {
+          "caption": "Sluneční soustava a pět vybraných soustav k 30. 10. 2026",
+          "columns": [
+            "Soustava",
+            "Hostitelská hvězda",
+            "Počet planet",
+            "Délka roku (pozemské dny)",
+            "Změřené poloměry (Země = 1)",
+            "Poznámka"
+          ],
+          "rows": [
+            [
+              "Sluneční soustava",
+              "G2 V",
+              "8",
+              "87,97 až 60189,0",
+              "0,38 až 11,21",
+              "osm planet od Merkuru po Neptun"
+            ],
+            [
+              "TRAPPIST-1",
+              "velmi chladná hvězda M",
+              "7",
+              "1,51 až 18,8",
+              "0,76 až 1,13",
+              "sedm malých planet těsně u hvězdy"
+            ],
+            [
+              "Kepler-90",
+              "hvězda podobná Slunci",
+              "8",
+              "7,01 až 331,6",
+              "1,19 až 11,30",
+              "osm planet v oblasti přibližně do 1 AU"
+            ],
+            [
+              "Kepler-11",
+              "hvězda podobná Slunci",
+              "6",
+              "10,30 až 118,4",
+              "1,80 až 4,19",
+              "šest planet ve vzdálenostech menších než dráha Venuše"
+            ],
+            [
+              "TOI-178",
+              "oranžový trpaslík K",
+              "6",
+              "1,91 až 20,7",
+              "1,20 až 2,94",
+              "pět vnějších planet má provázaný rytmus oběhů"
+            ],
+            [
+              "55 Cancri A",
+              "chladnější hvězda podobná Slunci",
+              "5",
+              "0,74 až 4799,0",
+              "1,88 (pouze planeta e)",
+              "pět planet hlavní hvězdy, od velmi těsné po vzdáleného obra"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "TRAPPIST-1 a Kepler-90: mnoho planet na malém prostoru",
+        "body": "U **TRAPPIST-1** obíhá sedm planet přibližně od 0,012 do 0,062 AU. I nejvzdálenější z nich je mnohem blíž své hvězdě než Merkur Slunci. Jejich velikosti jsou blízké Zemi; soustava tak umožňuje porovnávat menší planety s různým zahříváním. Podrobnější srovnání s naší soustavou a obyvatelným pásmem je v [tématu o planetách v obyvatelné zóně](https://kosmonovinky.cz/kosmopedie/ktere-zname-exoplanety-lezi-v-obyvatelne-zone.html).\n\n**Kepler-90** má osm známých planet stejně jako Sluneční soustava, ale všechny se pohybují přibližně uvnitř 1 AU. Délky jejich roků sahají od sedmi do zhruba 332 dní. Shodný počet planet tedy může provázet velmi odlišné rozložení drah."
+      },
+      {
+        "heading": "Kepler-11 a TOI-178: těsné soustavy a rytmus oběhů",
+        "body": "Šest planet **Kepler-11** obíhá přibližně od 0,09 do 0,47 AU. Mají přibližně 1,8 až 4,2 poloměru Země. Většina z nich tedy velikostí leží mezi Zemí a Neptunem, zatímco v naší soustavě v tomto rozmezí žádnou planetu nemáme. Jejich hmotnosti a poloměry pomáhají zkoumat, jak významné plynné obaly mohou menší planety získat.\n\nV soustavě **TOI-178** je šest planet s oběhy od necelých dvou do přibližně 21 dní. Pět vnějších tvoří **rezonanční řetězec**: jejich oběhy se vzájemně gravitačně ovlivňují a určité kombinace jejich poloh se pravidelně vracejí. Zjednodušeně za dobu, kdy nejvzdálenější planeta g vykoná tři oběhy, c vykoná přibližně 18, d devět, e šest a f čtyři. Takové uspořádání pomáhá rekonstruovat přesuny planet v mladé soustavě."
+      },
+      {
+        "heading": "55 Cancri A: krátký rok i vzdálený obr",
+        "body": "Nejbližší planeta **55 Cancri e** oběhne hvězdu za necelých 18 hodin. Naproti tomu vnější planeta d potřebuje přibližně 13 let a obíhá asi v 5,6 AU. Tato rodina tak vedle těsné vnitřní oblasti obsahuje i vzdáleného plynného obra.\n\nPrávě kombinace malých blízkých planet a vzdálených obrů ukazuje, proč se při srovnávání soustav vyplatí sledovat více vlastností: počet planet, rozložení drah, hmotnosti i jejich vzájemné působení."
+      },
+      {
+        "heading": "Co nám rozdíly říkají o vzniku soustav",
+        "body": "Planety vznikají v discích plynu a prachu kolem mladých hvězd. Během růstu mohou měnit své dráhy působením disku i ostatních planet. Těsné rezonanční řetězce, vzdálení obři a rozmanité velikosti nám pomáhají prověřovat, jak takový vývoj probíhal.\n\n**To, které planety v soustavě objevíme, závisí také na použité pozorovací metodě.** Časté přechody před hvězdou usnadňují objev těsných soustav, zatímco vzdálená planeta může vyžadovat dlouhá léta měření. Další pozorování mohou známé rodiny rozšířit. Metody vysvětluje [téma o hledání exoplanet](https://kosmonovinky.cz/kosmopedie/co-jsou-exoplanety-a-jak-se-hledaji.html)."
+      },
+      {
+        "heading": "Jak vznikl tento přehled",
+        "body": "Každá planeta je započítána jednou. Pro tabulku jsme použili po jedné archivní sadě parametrů planety z tabulky PS; původní studie a rozmezí odhadů jsou uložené v datovém podkladu. U Sluneční soustavy jsou uvedené zaokrouhlené srovnávací hodnoty.\n\nVzdálenosti u TOI-178 a Kepler-90 jsme jednotně dopočítali z dob oběhu a zvolené hmotnosti hvězdy pomocí Keplerova zákona. Při stejné hmotnosti hvězdy odpovídá delšímu roku větší dráha; hmotnější hvězda umožňuje při stejné velikosti dráhy rychlejší oběh. Tento vztah je důležitý pro správné porovnání různých hvězd."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA Exoplanet Archive: tabulky PS a PSCompPars](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)\n- [NASA: různé planetární rodiny včetně Kepler-90](https://science.nasa.gov/exoplanets/other-stars-other-worlds/)\n- [NASA: oběžné dráhy planet Sluneční soustavy](https://ssd.jpl.nasa.gov/planets/approx_pos.html)\n- [Leleu a kol. (2024): zpřesnění soustavy TOI-178](https://arxiv.org/abs/2405.13732)\n- [ESO: oběhový rytmus a rozdílné hustoty planet TOI-178](https://www.eso.org/public/news/eso2102/)\n- [NASA Exoplanet Archive: Kepler-90 / KOI-351](https://exoplanetarchive.ipac.caltech.edu/overview/Kepler-90)\n- [NASA Exoplanet Archive: 55 Cancri a její hvězdná průvodkyně](https://exoplanetarchive.ipac.caltech.edu/overview/55%20Cnc)\n- [NASA: rozdělení typů exoplanet](https://science.nasa.gov/exoplanets/planet-types/)\n- [Von Braun a kol. (2011): obyvatelná zóna 55 Cancri](https://arxiv.org/abs/1106.1152)\n- [NASA: typy planet soustavy Kepler-90](https://science.nasa.gov/universe/exoplanets/discovery-of-eight-planets-makes-alien-system-the-first-to-tie-with-our-solar-system/)"
+      }
+    ],
+    "why_box": "Sluneční soustava je náš nejlépe prozkoumaný příklad. Srovnání s jinými rodinami ukazuje, které možnosti vzniku planet nám doma chybějí: celé řetězce těsných drah, mezilehlé velikosti i velmi krátké planetární roky.",
+    "related_explainery": [
+      "co-jsou-exoplanety-a-jak-se-hledaji",
+      "kolik-exoplanet-zname-a-kolem-jakych-hvezd-obihaji",
+      "ktere-zname-exoplanety-lezi-v-obyvatelne-zone",
+      "jak-tridime-hvezdy-a-co-nam-jejich-oznaceni-rika",
+      "jake-neobvykle-exoplanety-jsme-objevili"
+    ],
+    "related_news": [
+      "https://www.sciencedaily.com/releases/2026/10/261007042106.htm"
+    ],
+    "related_news_note": "Novinka o možné planetě u hvězdného pozůstatku rozšiřuje srovnání o další prostředí, v němž mohou existovat planetární soustavy."
+  },
+  {
+    "id": "exp-097",
+    "title": "Jaké neobvyklé exoplanety jsme objevili?",
+    "theme": "exoplanety",
+    "description": "Horké obří planety, krátké roky, malé hustoty, protáhlé dráhy a světy u dvojhvězd i pulsarů. Šest příkladů s údaji z měření.",
+    "published": "2026-10-30",
+    "updated": "2026-10-30",
+    "perex": "Objevili jsme plynné obry s několika dny dlouhým rokem, malé rozpálené planety i světy obíhající dvě hvězdy nebo pulsar. Šest příkladů ukazuje, jak rozmanité mohou být podmínky vzniku a vývoje planet.",
+    "sections": [
+      {
+        "heading": "Šest různých způsobů, jak může být planeta neobvyklá",
+        "body": "Některé planety překvapují krátkým rokem, jiné malou hustotou nebo svým hostitelem. Pro přehled je porovnáváme podle konkrétních vlastností. Údaje níže pocházejí z datovaného výběru archivu NASA z **30. října 2026**.\n\nTabulka uvádí poloměry a hmotnosti v jednotkách Země. Zápis ± či dvě rozdílné odchylky vyjadřuje rozmezí odhadu v použité studii. Pomlčka u poloměru znamená, že jej tato studie neposkytuje jako změřenou hodnotu.\n\nBarvy v obou grafech rozlišují stejným způsobem kamenné světy a plynné obry. U planety pulsaru PSR B1257+12 c je značka šedá, protože bez měřeného poloměru zatím její stavbu neurčujeme. Zeleným kroužkem je zvýrazněna srovnávací Země v obyvatelné zóně Slunce.",
+        "table": {
+          "caption": "Šest vybraných exoplanet: délka oběhu a fyzikální vlastnosti",
+          "columns": [
+            "Planeta",
+            "Rok (dny)",
+            "Poloměr (Země = 1)",
+            "Hmotnost (Země = 1)",
+            "Čím překvapuje"
+          ],
+          "rows": [
+            [
+              "51 Peg b",
+              "4,231",
+              "—",
+              "193,9 (+19,1 / -15,9)",
+              "plynný obr s rokem dlouhým čtyři dny"
+            ],
+            [
+              "55 Cnc e",
+              "0,737",
+              "1,88 ± 0,03",
+              "8,0 (+0,3 / -0,3)",
+              "velmi horká malá planeta"
+            ],
+            [
+              "WASP-107 b",
+              "5,721",
+              "10,48 ± 0,26",
+              "33,0 (+1,2 / -1,3)",
+              "velký poloměr při malé hmotnosti"
+            ],
+            [
+              "HD 80606 b",
+              "111,437",
+              "11,57 ± 0,17",
+              "1323,5 ± 1,5",
+              "silně protáhlá dráha"
+            ],
+            [
+              "Kepler-16 b",
+              "228,776",
+              "8,45 ± 0,03",
+              "105,8 ± 5,1",
+              "planeta obíhající dvě hvězdy"
+            ],
+            [
+              "PSR B1257+12 c",
+              "66,542",
+              "—",
+              "4,3 ± 0,2",
+              "planeta u pulsaru"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "51 Pegasi b: plynný obr těsně u hvězdy",
+        "body": "Planeta **51 Pegasi b**, v katalogu 51 Peg b, oběhne hvězdu za přibližně **4,23 dne**. Její objev v roce 1995 doložil, že kolem hvězd podobných Slunci mohou obíhat obří planety na mnohem těsnějších drahách než Jupiter. Pro takové světy se vžilo označení **horké Jupitery**.\n\nTěsná dráha vede k intenzivnímu zahřívání. Při vysvětlování jejího původu astronomové zkoumají růst planety i pozdější přesun dráhy. Ve zvolené studii Cont a kol. (2026) měření spektra samotné planety pomohlo odhadnout sklon oběhu a hmotnost kolem 194 Zemí. Při této metodě měříme, jak planeta svou gravitací rozhýbává hvězdu směrem k nám a od nás. **Velikost naměřeného pohybu závisí nejen na hmotnosti planety, ale i na tom, pod jakým úhlem její dráhu pozorujeme.** Hmotnější planeta na více nakloněné dráze může vyvolat stejný naměřený pohyb jako lehčí planeta na dráze, na kterou se díváme z boku. Dokud sklon neznáme, určíme proto jen nejnižší možnou hmotnost."
+      },
+      {
+        "heading": "55 Cancri e: rok kratší než jeden pozemský den",
+        "body": "**55 Cancri e** potřebuje na jeden oběh přibližně **17,7 hodiny**. Její poloměr je asi 1,88násobkem zemského a hmotnost kolem osmi Zemí. Velmi silné zahřívání z ní činí vhodný cíl pro studium roztaveného povrchu a možné atmosféry.\n\nPozorování družicí Webb zkoumají infračervené záření planety a jeho změny během oběhu. Rozbor z roku 2024 podpořil možnost atmosféry s oxidem uhelnatým či uhličitým; složení a proměnlivost prostředí se dále prověřují. Představa lávového oceánu vychází z modelů slučitelných s měřením. Metodu přibližuje [téma o zkoumání atmosfér exoplanet](https://kosmonovinky.cz/kosmopedie/jak-zkoumame-atmosfery-exoplanet.html)."
+      },
+      {
+        "heading": "WASP-107 b: velká planeta s malou hustotou",
+        "body": "**WASP-107 b** má poloměr blízký Jupiteru, ale jen asi **33 hmotností Země**; Jupiter má přibližně 318. Průměrná hustota je proto mnohem menší než u našich obřích planet. Objem při růstu poloměru rychle roste, takže i planeta s poměrně malou hmotností může mít rozsáhlý plynný obal.\n\nJejí rok trvá přibližně 5,72 dne. Výzkum atmosféry a přenosu tepla pomáhá vysvětlit, jak se takový rozměrný obal udržuje a co prozrazuje o nitru planety.",
+        "image_id": "graf-exoplanety-hmotnost-polomer"
+      },
+      {
+        "heading": "HD 80606 b: velké změny vzdálenosti během jednoho roku",
+        "body": "Plynný obr **HD 80606 b** oběhne hvězdu přibližně za **111,4 dne**, ale jeho dráha je velmi protáhlá. **Výstřednost dráhy** je číslo od nuly pro kružnici k hodnotám blížícím se jedné pro stále protáhlejší elipsy. Zde dosahuje přibližně 0,932.\n\nZ uvedené velikosti dráhy vychází nejmenší vzdálenost kolem 0,031 AU a největší kolem 0,89 AU. Vzdálenost se tak mění přibližně 28krát a příjem hvězdné energie na jednotku plochy zhruba 800krát. Pozorování kolem těsného průletu umožňují sledovat, jak rychle atmosféra reaguje na prudké zahřátí."
+      },
+      {
+        "heading": "Kepler-16 b: jedna planeta, dvě hvězdy",
+        "body": "**Kepler-16 b** je plynná planeta, která obíhá kolem společného těžiště dvou hvězd. Ty zároveň obíhají jedna kolem druhé. Na jeden oběh planety připadá přibližně **229 dní**.\n\nJejí přechody před hvězdami spolu s pohybem obou hvězd umožnily určit rozměry i hmotnost planety. **Studiem těchto soustav astronomové zjišťují, za jakých podmínek může planeta dlouhodobě obíhat kolem dvou hvězd, aniž by ji jejich gravitace vychýlila na nestabilní dráhu.**"
+      },
+      {
+        "heading": "PSR B1257+12 c: planeta u pozůstatku hvězdy",
+        "body": "Hostitelem této planety je **pulsar**: rychle rotující neutronová hvězda, jejíž záření k nám přichází v pravidelných pulzech. Drobné posuny v časech jejich příchodů prozrazují pohyb pulsaru vyvolaný planetami.\n\nPlaneta **PSR B1257+12 c** má hmotnost asi 4,3 Země a rok dlouhý přibližně 66,5 dne. Dvě planety tohoto pulsaru byly oznámeny už v roce 1992, tedy před objevem 51 Pegasi b. Jejich existence otevřela otázky, jak mohou planety vznikat nebo přetrvat v okolí hvězdných pozůstatků."
+      },
+      {
+        "heading": "Co si z těchto příkladů odnést",
+        "body": "Vlastnosti planet vysvětlujeme společně s prostředím jejich hvězd a s vývojem dráhy. Stejná velikost může doprovázet velmi rozdílnou hmotnost; podobná délka roku může patřit světu u běžné hvězdy i pulsaru.\n\nSouvislosti lépe vyniknou při [porovnání celých planetárních soustav](https://kosmonovinky.cz/kosmopedie/jak-vypadaji-jine-planetarni-soustavy-ve-srovnani-se-slunecni-soustavou.html). [Výběr planet v obyvatelných zónách](https://kosmonovinky.cz/kosmopedie/ktere-zname-exoplanety-lezi-v-obyvatelne-zone.html) se naopak soustředí na příjem energie vhodný pro kapalnou vodu při odpovídající atmosféře."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Cont et al. 2026: 51 Peg b](https://ui.adsabs.harvard.edu/abs/2026A&A...710A.345C/abstract)\n- [Bourrier et al. 2018: 55 Cnc e](https://ui.adsabs.harvard.edu/abs/2018A&A...619A...1B/abstract)\n- [Yee & Vissapragada 2026: WASP-107 b](https://ui.adsabs.harvard.edu/abs/2026ApJ..1000L..54Y/abstract)\n- [Pearson et al. 2022: HD 80606 b](https://ui.adsabs.harvard.edu/abs/2022AJ....164..178P/abstract)\n- [Doyle et al. 2011: Kepler-16 b](https://ui.adsabs.harvard.edu/abs/2011Sci...333.1602D/abstract)\n- [Konacki and Wolszczan 2003: PSR B1257+12 c](https://ui.adsabs.harvard.edu/abs/2003ApJ...591L.147K/abstract)\n- [NASA Exoplanet Archive: definice parametrů a původ dat](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)\n- [Cont a kol. (2026): atmosféra a hmotnost 51 Peg b](https://arxiv.org/abs/2605.23582)\n- [Hu a kol. (2024): možná atmosféra 55 Cancri e](https://arxiv.org/abs/2405.04744)\n- [NASA: nitro a atmosféra WASP-107 b](https://science.nasa.gov/missions/webb/webb-cracks-case-of-inflated-exoplanet/)\n- [NASA: planeta Kepler-16 b kolem dvou hvězd](https://science.nasa.gov/exoplanets/other-stars-other-worlds/kepler-16-b-almost-a-real-life-tatooine/)\n- [NASA: pulsary a jejich planety](https://www.nasa.gov/universe/stars/neutron-stars/pulsars/)"
+      }
+    ],
+    "why_box": "**Díky exoplanetám poznáváme světy s vlastnostmi, které u planet Sluneční soustavy nenajdeme.** Krátké roky, rozsáhlé atmosféry a neobvyklí hostitelé dávají vědcům přirozené příklady, na kterých mohou zkoumat vznik planet i chování hmoty.",
+    "related_explainery": [
+      "co-jsou-exoplanety-a-jak-se-hledaji",
+      "jak-vypadaji-jine-planetarni-soustavy-ve-srovnani-se-slunecni-soustavou",
+      "ktere-zname-exoplanety-lezi-v-obyvatelne-zone",
+      "jak-tridime-hvezdy-a-co-nam-jejich-oznaceni-rika",
+      "jak-zkoumame-atmosfery-exoplanet"
+    ],
+    "related_news": [
+      "https://www.sciencedaily.com/releases/2026/10/261007042106.htm"
+    ],
+    "related_news_note": "Možná planeta u hvězdného pozůstatku souvisí zejména s otázkou, jak mohou vznikat či přetrvat planety v takto proměněných soustavách."
   }
 ]

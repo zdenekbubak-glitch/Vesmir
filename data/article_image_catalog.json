@@ -8525,5 +8525,221 @@
     "width": 1100,
     "height": 1450,
     "zoomable": true
+  },
+  {
+    "id": "graf-planetarni-soustavy-prehled",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Datový podklad: NASA",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelný datový graf v tools/exoplanet_systems_diagrams.py. Datový výběr a metodika v data/exoplanet-systems-2026-10-30.json.",
+    "verified_on": "2026-10-30",
+    "revision": 6,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "exofamily-orbits",
+    "source_id": "own-diagram:graf-planetarni-soustavy-prehled",
+    "source_family": "own-diagram:graf-planetarni-soustavy-prehled",
+    "title": "Uspořádání planetárních soustav",
+    "alt": "Srovnání velikostí drah na společné logaritmické ose v AU. Stejné rozestupy vyjadřují stejné násobky vzdálenosti. Každý bod je jedna známá planeta; velikost značek je schematická. Barva značek rozlišuje odhadovaný typ planety podle legendy. Zelený kroužek označuje planetu v obyvatelné zóně. Zelené pásy vyznačují odhad obyvatelné zóny pro danou hvězdu.",
+    "caption": "Srovnání velikostí drah na společné logaritmické ose v AU. Stejné rozestupy vyjadřují stejné násobky vzdálenosti. Každý bod je jedna známá planeta; velikost značek je schematická. Barva značek rozlišuje odhadovaný typ planety podle legendy. Zelený kroužek označuje planetu v obyvatelné zóně. Zelené pásy vyznačují odhad obyvatelné zóny pro danou hvězdu.",
+    "thumbnail": "assets/article-images/thumbs/graf-planetarni-soustavy-prehled.webp",
+    "source_master": "assets/article-images/sources/graf-planetarni-soustavy-prehled.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html",
+      "https://science.nasa.gov/solar-system/planets/",
+      "https://science.nasa.gov/asset/webb/trappist-1-system-orbit-comparison/",
+      "https://science.nasa.gov/universe/exoplanets/discovery-of-eight-planets-makes-alien-system-the-first-to-tie-with-our-solar-system/",
+      "https://www.nasa.gov/news-release/nasa-finds-earth-size-planet-candidates-in-habitable-zone-six-planet-system/",
+      "https://doi.org/10.1051/0004-6361/202039767",
+      "https://arxiv.org/abs/1106.1152",
+      "https://science.nasa.gov/exoplanet-catalog/55-cancri-c/"
+    ],
+    "data_file": "data/exoplanet-systems-2026-10-30.json",
+    "width": 1100,
+    "height": 1740,
+    "zoomable": true
+  },
+  {
+    "id": "graf-planetarni-soustavy-detail",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Datový podklad: NASA",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelný datový graf v tools/exoplanet_systems_diagrams.py. Datový výběr a metodika v data/exoplanet-systems-2026-10-30.json.",
+    "verified_on": "2026-10-30",
+    "revision": 7,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "exofamily-inner",
+    "source_id": "own-diagram:graf-planetarni-soustavy-detail",
+    "source_family": "own-diagram:graf-planetarni-soustavy-detail",
+    "title": "Detail vnitřních oblastí planetárních soustav",
+    "alt": "Společná lineární osa do 1 AU. Planety ve větších vzdálenostech jsou uvedené jako objekty za okrajem. Vzdálenosti u Kepler-90 a TOI-178 jsou dopočtené z dob oběhu a hmotností hvězd. Barva značek rozlišuje odhadovaný typ planety podle legendy. Zelený kroužek označuje planetu v obyvatelné zóně. Zelené pásy vyznačují odhad obyvatelné zóny pro danou hvězdu.",
+    "caption": "Společná lineární osa do 1 AU. Planety ve větších vzdálenostech jsou uvedené jako objekty za okrajem. Vzdálenosti u Kepler-90 a TOI-178 jsou dopočtené z dob oběhu a hmotností hvězd. Barva značek rozlišuje odhadovaný typ planety podle legendy. Zelený kroužek označuje planetu v obyvatelné zóně. Zelené pásy vyznačují odhad obyvatelné zóny pro danou hvězdu.",
+    "thumbnail": "assets/article-images/thumbs/graf-planetarni-soustavy-detail.webp",
+    "source_master": "assets/article-images/sources/graf-planetarni-soustavy-detail.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html",
+      "https://science.nasa.gov/solar-system/planets/",
+      "https://science.nasa.gov/asset/webb/trappist-1-system-orbit-comparison/",
+      "https://science.nasa.gov/universe/exoplanets/discovery-of-eight-planets-makes-alien-system-the-first-to-tie-with-our-solar-system/",
+      "https://www.nasa.gov/news-release/nasa-finds-earth-size-planet-candidates-in-habitable-zone-six-planet-system/",
+      "https://doi.org/10.1051/0004-6361/202039767",
+      "https://arxiv.org/abs/1106.1152",
+      "https://science.nasa.gov/exoplanet-catalog/55-cancri-c/"
+    ],
+    "data_file": "data/exoplanet-systems-2026-10-30.json",
+    "width": 1100,
+    "height": 1670,
+    "zoomable": true
+  },
+  {
+    "id": "graf-neobvykle-exoplanety-roky",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Datový podklad: NASA",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelný datový graf v tools/exoplanet_systems_diagrams.py. Datový výběr a metodika v data/exoplanet-systems-2026-10-30.json.",
+    "verified_on": "2026-10-30",
+    "revision": 5,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "exofamily-years",
+    "source_id": "own-diagram:graf-neobvykle-exoplanety-roky",
+    "source_family": "own-diagram:graf-neobvykle-exoplanety-roky",
+    "title": "Délky roků na vybraných exoplanetách",
+    "alt": "Jeden rok znamená jeden oběh planety. Osa je logaritmická, údaje jsou v pozemských dnech. Země je přidána pro srovnání. Barva značek rozlišuje odhadovaný typ planety podle legendy. Zelený kroužek označuje planetu v obyvatelné zóně.",
+    "caption": "Jeden rok znamená jeden oběh planety. Osa je logaritmická, údaje jsou v pozemských dnech. Země je přidána pro srovnání. Barva značek rozlišuje odhadovaný typ planety podle legendy. Zelený kroužek označuje planetu v obyvatelné zóně.",
+    "thumbnail": "assets/article-images/thumbs/graf-neobvykle-exoplanety-roky.webp",
+    "source_master": "assets/article-images/sources/graf-neobvykle-exoplanety-roky.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html",
+      "https://science.nasa.gov/solar-system/planets/",
+      "https://science.nasa.gov/asset/webb/trappist-1-system-orbit-comparison/",
+      "https://science.nasa.gov/universe/exoplanets/discovery-of-eight-planets-makes-alien-system-the-first-to-tie-with-our-solar-system/",
+      "https://www.nasa.gov/news-release/nasa-finds-earth-size-planet-candidates-in-habitable-zone-six-planet-system/",
+      "https://doi.org/10.1051/0004-6361/202039767",
+      "https://arxiv.org/abs/1106.1152",
+      "https://science.nasa.gov/exoplanet-catalog/55-cancri-c/"
+    ],
+    "data_file": "data/exoplanet-systems-2026-10-30.json",
+    "width": 1100,
+    "height": 1610,
+    "zoomable": true
+  },
+  {
+    "id": "graf-exoplanety-hmotnost-polomer",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Datový podklad: NASA",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní reprodukovatelný datový graf v tools/exoplanet_systems_diagrams.py. Datový výběr a metodika v data/exoplanet-systems-2026-10-30.json.",
+    "verified_on": "2026-10-30",
+    "revision": 6,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "exofamily-sizes",
+    "source_id": "own-diagram:graf-exoplanety-hmotnost-polomer",
+    "source_family": "own-diagram:graf-exoplanety-hmotnost-polomer",
+    "title": "Poloměry a hmotnosti vybraných planet",
+    "alt": "Body porovnávají hmotnost a poloměr v jednotkách Země. Obě osy jsou logaritmické, úsečky ukazují publikovaná rozmezí odhadů. U 51 Peg b a PSR B1257+12 c chybí v použité studii měřený poloměr, proto jsou jejich hmotnosti pouze v tabulce. Barva značek rozlišuje odhadovaný typ planety podle legendy. Zelený kroužek označuje planetu v obyvatelné zóně.",
+    "caption": "Body porovnávají hmotnost a poloměr v jednotkách Země. Obě osy jsou logaritmické, úsečky ukazují publikovaná rozmezí odhadů. U 51 Peg b a PSR B1257+12 c chybí v použité studii měřený poloměr, proto jsou jejich hmotnosti pouze v tabulce. Barva značek rozlišuje odhadovaný typ planety podle legendy. Zelený kroužek označuje planetu v obyvatelné zóně.",
+    "thumbnail": "assets/article-images/thumbs/graf-exoplanety-hmotnost-polomer.webp",
+    "source_master": "assets/article-images/sources/graf-exoplanety-hmotnost-polomer.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html",
+      "https://science.nasa.gov/solar-system/planets/",
+      "https://science.nasa.gov/asset/webb/trappist-1-system-orbit-comparison/",
+      "https://science.nasa.gov/universe/exoplanets/discovery-of-eight-planets-makes-alien-system-the-first-to-tie-with-our-solar-system/",
+      "https://www.nasa.gov/news-release/nasa-finds-earth-size-planet-candidates-in-habitable-zone-six-planet-system/",
+      "https://doi.org/10.1051/0004-6361/202039767",
+      "https://arxiv.org/abs/1106.1152",
+      "https://science.nasa.gov/exoplanet-catalog/55-cancri-c/"
+    ],
+    "data_file": "data/exoplanet-systems-2026-10-30.json",
+    "width": 1100,
+    "height": 1500,
+    "zoomable": true
   }
 ]
