@@ -115,7 +115,7 @@ def score_relevance(client, posts: list) -> list:
 Hubbleovo napětí, inflace vesmíru, kvantová gravitace)?
 Metaforické použití („černá díra peněz“, politika, inflace ekonomická, vtipy) = NE.
 Odpověz pouze JSON: {{"relevant": true/false, "reason": "krátké zdůvodnění", "score": 0-10,
-"comment": "1-2 krátké české věty, přirozený komentář ke sdílení na X jako web Kosmonovinky; bez slov 'příspěvek', 'tento text', 'autor'; max 200 znaků"}}
+"comment": "1-2 krátké české věty, přirozený komentář ke sdílení na X jako web Kosmonovinky; bez slov 'příspěvek', 'tento text', 'autor'; max 200 znaků; bez interních poznámek, skóre a označení 'k posouzení'"}}
 
 Příspěvek:
 {p['text'][:500]}
@@ -280,8 +280,7 @@ def compose_post(post, article_url=None, as_draft=False):
     comment = URL_RE.sub("", comment).strip()
     # Preserve both links; shorten only the generated commentary.
     suffix = "\n\nPřehledně česky: " + tracked_url(article_url or BASE_URL + "/", "x", "reply" if as_draft else "quote", post_key("x", "reply" if as_draft else "quote", post["id"])) + "\n\n" + post["url"]
-    if as_draft:
-        suffix += f"\n(k posouzení, skóre {post.get('score', 0)})"
+    # Editorial scores stay in internal state, outside the publishable post text.
     while comment and (weighted_length(comment) > 180 or weighted_length(comment + suffix) > 275):
         comment = comment.rstrip(".… ")
         comment = (comment.rsplit(" ", 1)[0] if " " in comment else comment[:-1]).rstrip(",;:") + "…"
