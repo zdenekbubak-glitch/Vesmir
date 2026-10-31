@@ -472,23 +472,49 @@ def topic_text(value):
     return re.sub(r'\s+', ' ', text).strip()
 
 
-def related_explainers(item, catalog, limit=2):
+def explainer_match_score(item, identity):
+    """Shared relevance for both article -> topic and topic -> article links."""
+    pattern = EXPLAINER_MATCHERS.get(identity)
+    if not pattern:
+        return 0
     title = topic_text(item.get('title'))
     body = topic_text(' '.join(str(item.get(k) or '') for k in ('summary', 'original_title')))
-    ranked = []
-    for entry in catalog:
-        pattern = EXPLAINER_MATCHERS.get(entry.get('id'))
-        if not pattern:
-            continue
-        title_hit = bool(pattern.search(title))
-        body_hit = bool(pattern.search(body))
-        if not (title_hit or body_hit):
-            continue
-        # Prefer a specific concept from the headline over incidental body mentions.
-        basic = entry['id'] in ('exp-001', 'exp-002', 'exp-005', 'exp-007', 'exp-008')
-        score = 10 * title_hit + 2 * body_hit + (0 if basic else 1)
-        ranked.append((-score, entry['id'], entry))
-    return [entry for _, _, entry in sorted(ranked, key=lambda r: (r[0], r[1]))[:limit]]
+    title_hit = bool(pattern.search(title))
+    body_hit = bool(pattern.search(body))
+    if not (title_hit or body_hit):
+        return 0
+    basic = identity in ('exp-001', 'exp-002', 'exp-005', 'exp-007', 'exp-008')
+    return 10 * title_hit + 2 * body_hit + (0 if basic else 1)
+
+
+def related_explainers(item, catalog, limit=2):
+    ranked = [(explainer_match_score(item, entry.get('id')), entry) for entry in catalog]
+    ranked = [(score, entry) for score, entry in ranked if score]
+    return [entry for score, entry in sorted(ranked, key=lambda row: (-row[0], row[1]['id']))[:limit]]
+
+
+def related_news_for_explainer(entry, news, limit=3):
+    """Keep explicit editorial choices; otherwise select by topic, not category.
+
+    Evaluate every article independently of its two outgoing topic links: a
+    relevant third topic must still be able to link back to the article.
+    """
+    if entry.get('disable_related_news'):
+        return []
+    if entry.get('related_news'):
+        by_id = {str(item.get('id')): item for item in news}
+        result = []
+        for identity in entry['related_news']:
+            if str(identity) not in by_id:
+                raise ValueError(f"{entry['id']}: nedostupná související novinka {identity}")
+            result.append(by_id[str(identity)])
+        return result
+    ranked = [(explainer_match_score(item, entry.get('id')), item) for item in news]
+    ranked = [(score, item) for score, item in ranked if score]
+    ranked.sort(key=lambda row: (str(row[1].get('inserted_at') or row[1].get('published') or ''),
+                                 str(row[1].get('id') or '')), reverse=True)
+    ranked.sort(key=lambda row: row[0], reverse=True)
+    return [item for score, item in ranked[:limit]]
 
 
 def explainer_links_html(item, catalog):

@@ -28,7 +28,7 @@ for _p in (_here.parent, _here):
         sys.path.remove(str(_p))
     sys.path.insert(0, str(_p))
 from build_static import (FALLBACK_THEME, THEME_LABEL, esc, fmt_date, fmt_iso_date,
-                          page_head, FOOT, slugify, classify, explainer_catalog, NEWSLETTER_CTA, collection_switch, feedback_link)
+                          page_head, FOOT, slugify, classify, explainer_catalog, NEWSLETTER_CTA, collection_switch, feedback_link, related_news_for_explainer)
 
 # Kosmopedie may introduce a subject before it has its own news category.
 KOSMOPEDIE_THEMES = {
@@ -308,16 +308,8 @@ def main():
         json.dumps([search_record(ex) for ex in ordered], ensure_ascii=False, separators=(',', ':')),
         encoding='utf-8')
 
-    # novinky pro sekci Související novinky (stejná logika rubrik jako build_static)
+    # Topic-based matching is shared with article -> Kosmopedie links.
     news = json.loads((site / 'data' / 'news.json').read_text(encoding='utf-8'))
-    news.sort(key=lambda x: x.get('inserted_at') or '', reverse=True)
-    for item in news:
-        item['_theme'] = classify(item)
-    by_theme = {}
-    for item in news:
-        by_theme.setdefault(item['_theme'], []).append(item)
-
-    news_by_id = {str(item.get('id')): item for item in news}
 
     slugs = {ex['_slug'] for ex in explainery}
     (out / 'kosmopedie').mkdir(parents=True, exist_ok=True)
@@ -357,16 +349,7 @@ def main():
                         + searchable_body(ex['why_box']) +
                         '\n      </div>\n')
 
-        # An explicit editorial selection uses the same footer as automatic news.
-        # Topics without it retain their existing category-based selection.
-        if 'related_news' in ex:
-            related_news = []
-            for identity in ex['related_news']:
-                if str(identity) not in news_by_id:
-                    raise ValueError(f"{ex['id']}: nedostupná související novinka {identity}")
-                related_news.append(news_by_id[str(identity)])
-        else:
-            related_news = by_theme.get(theme, [])[:3]
+        related_news = related_news_for_explainer(ex, news)
         rel_html = ''
         if related_news:
             rows = []

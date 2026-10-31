@@ -75,4 +75,42 @@ class ExplainerMatchingTests(unittest.TestCase):
             site.explainer_catalog(ROOT)
         self.assertIn('exp-999',output.getvalue())
 
+class ReverseLinkTests(unittest.TestCase):
+    def test_topic_in_other_category(self):
+        article = {'id':'a','title':'Vývoj supermasivních černých děr','_theme':'cerne-diry'}
+        self.assertEqual([article],site.related_news_for_explainer({'id':'exp-018','theme':'temna-dira-v-centru'},[article]))
+
+    def test_same_category_is_not_enough(self):
+        self.assertEqual([],site.related_news_for_explainer({'id':'exp-018'},[{'id':'a','title':'Malé černé díry','_theme':'temna-dira-v-centru'}]))
+
+    def test_reverse_is_not_limited_by_two_outgoing_links(self):
+        article={'id':'a','title':'Temná hmota a gravitační vlny','summary':'Také supermasivní černé díry.'}
+        self.assertNotIn('exp-018',selected(article['title'],summary=article['summary']))
+        self.assertEqual([article],site.related_news_for_explainer({'id':'exp-018'},[article]))
+
+    def test_editorial_choices_and_explicit_disable_are_preserved(self):
+        news=[{'id':'a'},{'id':'b'}]
+        self.assertEqual([news[1],news[0]],site.related_news_for_explainer({'id':'exp-018','related_news':['b','a']},news))
+        self.assertEqual([],site.related_news_for_explainer({'id':'exp-018','disable_related_news':True},news))
+        match={'id':'c','title':'Supermasivní černé díry'}
+        self.assertEqual([match],site.related_news_for_explainer({'id':'exp-018','related_news':[]},[match]))
+        with self.assertRaises(ValueError):site.related_news_for_explainer({'id':'exp-018','related_news':['missing']},news)
+
+    def test_relevance_then_recency_and_limit(self):
+        news=[{'id':'older','title':'Supermasivní černé díry','inserted_at':'2025-01-01'},
+              {'id':'newer','title':'Supermasivní černé díry','inserted_at':'2026-01-01'},
+              {'id':'body','title':'Výzkum','summary':'Supermasivní černé díry','inserted_at':'2026-02-01'}]
+        self.assertEqual(['newer','older'],[n['id'] for n in site.related_news_for_explainer({'id':'exp-018'},news,limit=2)])
+
+    def test_real_catalog_matches_and_explicit_selections(self):
+        news=json.loads((ROOT/'data/news.json').read_text(encoding='utf8'))
+        for entry in CATALOG:
+            result=site.related_news_for_explainer(entry,news)
+            if entry.get('related_news'):
+                self.assertEqual([str(i) for i in entry['related_news']],[str(i['id']) for i in result])
+            else:
+                self.assertLessEqual(len(result),3)
+                self.assertTrue(all(site.explainer_match_score(n,entry['id']) for n in result))
+        self.assertTrue(site.related_news_for_explainer(next(e for e in CATALOG if e['id']=='exp-018'),news))
+
 if __name__=='__main__':unittest.main()

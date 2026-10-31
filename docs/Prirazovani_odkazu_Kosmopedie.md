@@ -13,3 +13,15 @@ Při přidání nového tématu:
 3. Spusťte `python tools/test_explainer_links.py` a generování webu. Zkontrolujte vybrané odkazy v kontextu skutečných článků.
 
 Generátor upozorní na téma bez pravidla. Test navíc vyžaduje pokrytí všech témat. To pomáhá odhalit chybějící pravidla při příštím rozšíření katalogu.
+
+## Opačný směr: Kosmopedie → novinky
+
+`related_news_for_explainer` používá stejné vzory a hodnocení jako odkazy z článků. Nepožaduje shodnou rubriku. Posuzuje všechny články, i když se téma nevešlo mezi jejich dva odchozí odkazy. Automaticky vybere nejvýše tři články: podle relevance (nadpis má přednost), při shodě od novějšího vložení.
+
+Neprázdný `related_news` má přednost a zachovává redakční pořadí i připojenou poznámku. Chybějící nebo prázdný seznam znamená automatický výběr. Pro výslovné vypnutí všech souvisejících novinek použijte `disable_related_news: true`. Pokud odpovídající články nenajdeme, blok se nevytvoří; pouhá společná rubrika nestačí.
+
+## Opačný směr: Kosmopedie → novinky
+
+`related_news_for_explainer` používá stejné vzory a hodnocení jako odkazy z článků. Nepožaduje shodnou rubriku. Posuzuje všechny články, i když se téma nevešlo mezi jejich dva odchozí odkazy. Automaticky vybere nejvýše tři články: podle relevance (nadpis má přednost), při shodě od novějšího vložení.
+
+Neprázdný `related_news` má přednost a zachovává redakční pořadí i připojenou poznámku. Chybějící nebo prázdný seznam znamená automatický výběr. Pro výslovné vypnutí všech souvisejících novinek použijte `disable_related_news: true`. Pokud odpovídající články nenajdeme, blok se nevytvoří; pouhá společná rubrika nestačí.
