@@ -211,7 +211,8 @@ def image_schema(entry,base):
     result = {'@type':'ImageObject','url':image_url(entry,base),
               'contentUrl':image_url(entry,base),
               'caption':entry['caption'],'creditText':entry['credit'],'license':entry['license_url'],
-              'acquireLicensePage':entry['source'],'width':entry.get('width',1200),'height':entry.get('height',630)}
+              'acquireLicensePage':entry.get('acquireLicensePage') or entry.get('rights_url') or entry['source'],
+              'width':entry.get('width',1200),'height':entry.get('height',630)}
     # Use explicit rights metadata where known. A credit line alone does not
     # establish either authorship or ownership of a third-party image.
     creator = entry.get('creator')
@@ -227,6 +228,26 @@ def image_schema(entry,base):
     return result
 
 
+def gallery_image_schema(entry, base, content_url):
+    """Metadata for daily gallery images; never infer ownership from credit."""
+    result = {'@type': 'ImageObject', 'contentUrl': content_url,
+              'name': entry.get('title'), 'description': entry.get('caption'),
+              'datePublished': entry.get('published'), 'creditText': entry.get('credit')}
+    for field in ('creator', 'copyrightNotice', 'acquireLicensePage'):
+        if entry.get(field):
+            result[field] = entry[field]
+    license_url = entry.get('license_url')
+    if license_url:
+        result['license'] = license_url
+    # APOD publishes both NASA material and copyrighted third-party pictures.
+    # Its policy describes those different rights; this is NOT a CC/PD grant.
+    if entry.get('source') == 'NASA APOD':
+        rights = 'https://science.nasa.gov/apod/apod-about/'
+        result.setdefault('license', rights)
+        result.setdefault('acquireLicensePage', rights)
+    return {key: value for key, value in result.items() if value not in (None, '')}
+
+
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--site-dir',default='.')
@@ -236,5 +257,3 @@ def main():
     print(f'OK: {len(lib)} obrázků, {len(cache)} trvalých přiřazení. Zpracován archiv i nové články.')
 
 if __name__=='__main__':main()
-
-

@@ -22,7 +22,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, urlencode, quote
-from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, image_url, thumbnail
+from assign_article_images import prepare as prepare_images, lookup as lookup_image, figure as image_figure, image_schema, gallery_image_schema, image_url, thumbnail
 
 MESICE_GEN = ["ledna", "února", "března", "dubna", "května", "června", "července",
               "srpna", "září", "října", "listopadu", "prosince"]
@@ -1113,15 +1113,9 @@ def main():
             caption = img.get("caption") or img.get("title")
             description = truncate(caption)
             img_url = absolute_url(base, img.get("image") or img.get("thumb"))
-            jsonld = {
-                "@context": "https://schema.org",
-                "@type": "ImageObject",
-                "name": img.get("title"),
-                "description": description,
-                "contentUrl": img_url,
-                "datePublished": img.get("published"),
-                "creditText": img.get("credit"),
-            }
+            jsonld = {'@context': 'https://schema.org',
+                      **gallery_image_schema(img, base, img_url),
+                      'description': description}
             navigation = image_paging(*image_adjacent[img['_path']])
             gallery_back = '/images.html?galerie=temata' if img['id'] in topic_image_ids else '/images.html'
             gallery_back += '#img-' + quote(str(img['id']), safe='')
@@ -1131,6 +1125,14 @@ def main():
                 jsonld.update(image_schema(catalog_image, base))
                 license_html = (f'<p class="source-link">Licence: <a href="{esc(catalog_image["license_url"])}">'
                                 f'{esc(catalog_image["license"])}</a> · {esc(catalog_image["modifications"])}</p>')
+            else:
+                rights_links = []
+                if jsonld.get('license'):
+                    rights_links.append(f'<a href="{esc(jsonld["license"])}">Podmínky použití obrázku</a>')
+                if jsonld.get('acquireLicensePage'):
+                    rights_links.append(f'<a href="{esc(jsonld["acquireLicensePage"])}">Informace k získání oprávnění</a>')
+                if rights_links:
+                    license_html = '<p class="source-link">' + ' · '.join(rights_links) + '</p>'
             page = page_head(f'{img.get("title")} – Obrázek – Kosmologické novinky', description, url,
                              og_image=img_url, jsonld=jsonld)
             page += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › <a href="/images.html">Galerie</a> › {esc(img.get("title"))}</p>
