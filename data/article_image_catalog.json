@@ -507,7 +507,13 @@
     "source_sha256": "a528e685b4bd5c5c787f088cde1a67e4a9d5b9a5518688b69a43b59acf07fca1",
     "source_pixel_sha256": "0851e76393b1bf1d795c929686e1fafde5207624ab45be190165d251d7688849",
     "source_master_sha256": "eb1183b69bb191d0011ac2bdb4aceba5c8ce7ba86547c6c0bbe2e8b5dfc38b42",
-    "source_title": "Artist’s impression of Schwarzschild precession"
+    "source_title": "Artist’s impression of Schwarzschild precession",
+    "creator": {
+      "@type": "Person",
+      "name": "L. Calçada"
+    },
+    "copyrightNotice": "ESO/L. Calçada",
+    "acquireLicensePage": "https://www.eso.org/public/outreach/copyright/"
   },
   {
     "id": "eso2406a",
@@ -1460,7 +1466,27 @@
     "source_sha256": "8f9a5bb588aa9a3eccdedeb45aa287cee1fc5581c5ad7be479ef7c2d1fa36a01",
     "source_pixel_sha256": "2069b31a2a32e27c4588aa5649047dd1896e1009c21319039a89958b648e06ce",
     "source_master_sha256": "fc53e242e8e3bddc6b91c8b8bda97e33e16560b7f397a8d2fde988696b98d9d6",
-    "source_title": "Dark matter map of KiDS survey region (region G9)"
+    "source_title": "Dark matter map of KiDS survey region (region G9)",
+    "creator": [
+      {
+        "@type": "Organization",
+        "name": "Kilo-Degree Survey Collaboration"
+      },
+      {
+        "@type": "Person",
+        "name": "H. Hildebrandt"
+      },
+      {
+        "@type": "Person",
+        "name": "B. Giblin"
+      },
+      {
+        "@type": "Organization",
+        "name": "ESO"
+      }
+    ],
+    "copyrightNotice": "Kilo-Degree Survey Collaboration/H. Hildebrandt & B. Giblin/ESO",
+    "acquireLicensePage": "https://www.eso.org/public/outreach/copyright/"
   },
   {
     "id": "eso1514a",
@@ -1495,7 +1521,13 @@
     "source_sha256": "a8e403053561ecc3bf52a14cd636a3a901d1244a2c3a12ad52121eb34cd9abc1",
     "source_pixel_sha256": "76ce09e227bfe3980e29042c7f54ed0f389768ac3fd5a90026be7fffde7a1119",
     "source_master_sha256": "d3e124faa2d27628ec91e426f480532858d1e45368211e1df32dccce1eeb7757",
-    "source_title": "Hubble image of the galaxy cluster Abell 3827"
+    "source_title": "Hubble image of the galaxy cluster Abell 3827",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO"
+    },
+    "copyrightNotice": "ESO",
+    "acquireLicensePage": "https://www.eso.org/public/outreach/copyright/"
   },
   {
     "id": "potw2504a",
@@ -1899,7 +1931,14 @@
     "source_master": "assets/article-images/sources/schema-temna-hmota-1.jpg",
     "source_pixel_sha256": "c72ed6c1206c8170754ac38596cc5d640f3b76d7976713a1c463c43bdb61a264",
     "source_master_sha256": "1bf7991db9ec58495668d79a5c5c3954ae4a2b5662e59263a833ca6852d5b27c",
-    "source_family": "own-diagram:recoil"
+    "source_family": "own-diagram:recoil",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-hmota-2",
@@ -1931,7 +1970,14 @@
     "source_master": "assets/article-images/sources/schema-temna-hmota-2.jpg",
     "source_pixel_sha256": "069b6a9e884973ac09f2323c9173c160bf4845b86d742823b80166534f04af23",
     "source_master_sha256": "4a8c9880a04a7c5af0f1a5f1839467cf673043c8ed19792bc5526861a006d193",
-    "source_family": "own-diagram:rotation"
+    "source_family": "own-diagram:rotation",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-hmota-detector",
@@ -1964,7 +2010,14 @@
     "source_master": "assets/article-images/sources/schema-temna-hmota-detector.jpg",
     "source_pixel_sha256": "b19ed4b60e7dfdb9f5f45d1ab0512c0455396934f3ca98716101a0f816e4cc8a",
     "source_master_sha256": "f795492171d535f36febd75f61f0b89c739a510fa6b2137c4eb4b64081e24fb9",
-    "source_family": "own-diagram:detector"
+    "source_family": "own-diagram:detector",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-hmota-axion",
@@ -1997,7 +2050,14 @@
     "source_master": "assets/article-images/sources/schema-temna-hmota-axion.jpg",
     "source_pixel_sha256": "3a3ccecaef9721a6a0de6e8224ea1afb1ee7c141cd40ebf5bb833dbbd248e36b",
     "source_master_sha256": "0b98eebc1155b77ac00c43fe9f1ced533cbe13911070c510fd007856ce756a15",
-    "source_family": "own-diagram:axion"
+    "source_family": "own-diagram:axion",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-hmota-annihilation",
@@ -2030,7 +2090,14 @@
     "source_master": "assets/article-images/sources/schema-temna-hmota-annihilation.jpg",
     "source_pixel_sha256": "6e5e15e51cd54aff20fa7a502ed40421dd511f3bfe1c602810b1e13436f0f2cf",
     "source_master_sha256": "06fad22d052f0f4f90e9f96ca3885ce6756e6d1d4097fe60eb780af224da07a0",
-    "source_family": "own-diagram:annihilation"
+    "source_family": "own-diagram:annihilation",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-hmota-lensing",
@@ -2062,7 +2129,14 @@
     "source_master": "assets/article-images/sources/schema-temna-hmota-lensing.jpg",
     "source_pixel_sha256": "f4a2b0b902ffe586c2e4e55d3a4835b51d2c3746e99addcf9926d867f4208262",
     "source_master_sha256": "667f2da5b1f58213a9afbb1f86c742289c3dda486649d94b146e1384fae21dd4",
-    "source_family": "own-diagram:lensing"
+    "source_family": "own-diagram:lensing",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-energie-1",
@@ -2095,7 +2169,14 @@
     "source_master": "assets/article-images/sources/schema-temna-energie-1.jpg",
     "source_pixel_sha256": "5ad09729e493cccc76123974bc0ae89c912bb535bccbbdea3e6f44ac40d698f6",
     "source_master_sha256": "fd1188d90ef532e329bf9a98842f681a47a844db61bb0d101cb0d07610666184",
-    "source_family": "own-diagram:expansion"
+    "source_family": "own-diagram:expansion",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-energie-2",
@@ -2128,7 +2209,14 @@
     "source_master": "assets/article-images/sources/schema-temna-energie-2.jpg",
     "source_pixel_sha256": "0d85067aed831a87be0c3bd622b83b83932c74b6ed5162cb047a9beffbbb5bf6",
     "source_master_sha256": "6b0f9e7262292cc2e0008be60e227d5e6c0624464fc13c6fc95d5666e9251725",
-    "source_family": "own-diagram:hubble"
+    "source_family": "own-diagram:hubble",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-energie-ladder",
@@ -2160,7 +2248,14 @@
     "source_master": "assets/article-images/sources/schema-temna-energie-ladder.jpg",
     "source_pixel_sha256": "8253b8171edcae570fc11c9a22c15beffcf7c8bd44743c979f4fb791255bfd8f",
     "source_master_sha256": "2f5a6772e8ef2ddd15a08ef75c15bb14d8a2c0c5603fbd4259b256308c3dd738",
-    "source_family": "own-diagram:ladder"
+    "source_family": "own-diagram:ladder",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-energie-candle",
@@ -2193,7 +2288,14 @@
     "source_master": "assets/article-images/sources/schema-temna-energie-candle.jpg",
     "source_pixel_sha256": "da8ed5bf2f40efa747d9b245343e5f6df5adb1b45c00fbdeea514b7d073247a9",
     "source_master_sha256": "17c7a21b7ea2d1f90667be836293ce9456a701a23aa58b7d9c452879d868f91b",
-    "source_family": "own-diagram:candle"
+    "source_family": "own-diagram:candle",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-energie-bao",
@@ -2226,7 +2328,14 @@
     "source_master": "assets/article-images/sources/schema-temna-energie-bao.jpg",
     "source_pixel_sha256": "f1798a1d79b139538e499c6e47bf946b912a8293c198e1cb83e1fd3c670b6b9a",
     "source_master_sha256": "2bcbde45858c65f77a1adff824bc2265db76f0dd8cfd148d6a9657adb8b196a2",
-    "source_family": "own-diagram:bao"
+    "source_family": "own-diagram:bao",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-energie-equation-state",
@@ -2259,7 +2368,14 @@
     "source_master": "assets/article-images/sources/schema-temna-energie-equation-state.jpg",
     "source_pixel_sha256": "e2106a4168fd25a4f7c55fdff3943d1879de03f68d3424cb569de001c4a23f3d",
     "source_master_sha256": "d4cf253be7894238d984061c40f866a221acdf7f99559b7ef33273f829e60dc0",
-    "source_family": "own-diagram:equation-state"
+    "source_family": "own-diagram:equation-state",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-energie-density",
@@ -2292,7 +2408,14 @@
     "source_master": "assets/article-images/sources/schema-temna-energie-density.jpg",
     "source_pixel_sha256": "02f6dd5f73df30e3e2146d009916af18893635f905a05a5a2a0d5c5f6c33caa4",
     "source_master_sha256": "80b4f247a8bc6218d4d8a24a19404c7e909c245bc9414a9c3542d6a8cfd08c5c",
-    "source_family": "own-diagram:density"
+    "source_family": "own-diagram:density",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-energie-fate",
@@ -2325,7 +2448,14 @@
     "source_master": "assets/article-images/sources/schema-temna-energie-fate.jpg",
     "source_pixel_sha256": "97e97bf052c24f3ad7d382e2241b853b41d062903cea9a39a7fdcdc234cccdc5",
     "source_master_sha256": "4486eebf66ffdc62cc2089540fc0c44bdd259b3a0997ed2ffcd610e3af4acde1",
-    "source_family": "own-diagram:fate"
+    "source_family": "own-diagram:fate",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-energie-potential",
@@ -2358,7 +2488,14 @@
     "source_master": "assets/article-images/sources/schema-temna-energie-potential.jpg",
     "source_pixel_sha256": "a4bd97063c808c618d1cc52a948276e2bf3892c65d15fac1bc52c59b5b557b0e",
     "source_master_sha256": "32c1db1de12daa6e21c622b1e52e736520d0101dbba6c4fa6935273fc0cd2681",
-    "source_family": "own-diagram:potential"
+    "source_family": "own-diagram:potential",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravitacni-vlny-1",
@@ -2390,7 +2527,14 @@
     "source_master": "assets/article-images/sources/schema-gravitacni-vlny-1.jpg",
     "source_pixel_sha256": "c43bdaa4c82971a09e771d76c73d022630fe8bc9438fb4d96b2ca8c886ae70a9",
     "source_master_sha256": "503f9ea3552aabcf76098205dc0ff1ba7af30a60a7a2d32e57803d93c5242e7c",
-    "source_family": "own-diagram:binary"
+    "source_family": "own-diagram:binary",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravitacni-vlny-2",
@@ -2422,7 +2566,14 @@
     "source_master": "assets/article-images/sources/schema-gravitacni-vlny-2.jpg",
     "source_pixel_sha256": "a448cf179f8863715437afd35fd6a9483259f667668b9321d8b8b8cf3f64de15",
     "source_master_sha256": "3f57ea5867b309e599f7632dc7a8add4603f1d4fd22ba1a7d6eb59b5d8049ba0",
-    "source_family": "own-diagram:chirp"
+    "source_family": "own-diagram:chirp",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravitacni-vlny-interferometer",
@@ -2454,7 +2605,14 @@
     "source_master": "assets/article-images/sources/schema-gravitacni-vlny-interferometer.jpg",
     "source_pixel_sha256": "7559a4d2646cb3704b000c5185a38576676476d85e70d8525d42d771a4684c64",
     "source_master_sha256": "07e8feea7909890ba053f8a410ab27cb6e3dd11cd4d8d7fabc9133d12caa32d2",
-    "source_family": "own-diagram:interferometer"
+    "source_family": "own-diagram:interferometer",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravitacni-vlny-polarization",
@@ -2486,7 +2644,14 @@
     "source_master": "assets/article-images/sources/schema-gravitacni-vlny-polarization.jpg",
     "source_pixel_sha256": "1ee39822de1eae8667f2350952f3ca3e35c20ab17e6989c98295101734473297",
     "source_master_sha256": "09eae9ebe648b6819a054d6e6cdb9cc9c3322095e8694dd5f2112f037c2d2554",
-    "source_family": "own-diagram:polarization"
+    "source_family": "own-diagram:polarization",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravitacni-vlny-pulsar-timing",
@@ -2518,7 +2683,14 @@
     "source_master": "assets/article-images/sources/schema-gravitacni-vlny-pulsar-timing.jpg",
     "source_pixel_sha256": "b3325057f21b42293557a05dc5ec34ff5775626c4b187e0e35ad366607a1d2e6",
     "source_master_sha256": "58b593e56077acd98fda95a5de4ada77a9069979ac82c1700ce442c1866381e5",
-    "source_family": "own-diagram:pulsar-timing"
+    "source_family": "own-diagram:pulsar-timing",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravitacni-vlny-siren",
@@ -2551,7 +2723,14 @@
     "source_master": "assets/article-images/sources/schema-gravitacni-vlny-siren.jpg",
     "source_pixel_sha256": "5d11354023cb9c9dc6fd0468b7d67b236cb86fd3487bc297296ce62cab9912e6",
     "source_master_sha256": "159d97b851a7798b1e97a403e847311bbe998a8af8791c3c408fbb3f9b75b54c",
-    "source_family": "own-diagram:siren"
+    "source_family": "own-diagram:siren",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravitacni-vlny-lensing",
@@ -2583,7 +2762,14 @@
     "source_master": "assets/article-images/sources/schema-gravitacni-vlny-lensing.jpg",
     "source_pixel_sha256": "aa0baa44754ccf9897ad2c4e5024dc255de636667025adf6c3da6e42b6e411f6",
     "source_master_sha256": "0c747ef2c18b223615f86bb745ca9a55c429be79560ed837a51c06a45a151d29",
-    "source_family": "own-diagram:lensing"
+    "source_family": "own-diagram:lensing",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravitacni-vlny-spectrum",
@@ -2615,7 +2801,14 @@
     "source_master": "assets/article-images/sources/schema-gravitacni-vlny-spectrum.jpg",
     "source_pixel_sha256": "cd803d89a839663a21afc6713afaa612d3abc8acc85c27c26aab9837582af09d",
     "source_master_sha256": "3337b8f33e68aab8f052c019a6b98baa283f48b6952b1452ff700524b99e076d",
-    "source_family": "own-diagram:gw-background"
+    "source_family": "own-diagram:gw-background",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-relictni-zareni-1",
@@ -2647,7 +2840,14 @@
     "source_master": "assets/article-images/sources/schema-relictni-zareni-1.jpg",
     "source_pixel_sha256": "cdbc10c54e13380a9b141212c13db65da97d6698cd066f62c6371fd906e0b8fa",
     "source_master_sha256": "336e74772a3cac809b5c89b43a8cbbea4f9d5c19618df7965cdcfcd5d7c84639",
-    "source_family": "own-diagram:cmb-map"
+    "source_family": "own-diagram:cmb-map",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-relictni-zareni-2",
@@ -2679,7 +2879,14 @@
     "source_master": "assets/article-images/sources/schema-relictni-zareni-2.jpg",
     "source_pixel_sha256": "c5b5ffb1a5dfe3e5e1d4014c7386b368bd26d8c9245dece4135087398d9259b6",
     "source_master_sha256": "178bc7b8b4536e5d0f0a637cc0cc0ea754001c834035a1323413bdee9398a623",
-    "source_family": "own-diagram:spectrum"
+    "source_family": "own-diagram:spectrum",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-relictni-zareni-e-mode",
@@ -2711,7 +2918,14 @@
     "source_master": "assets/article-images/sources/schema-relictni-zareni-e-mode.jpg",
     "source_pixel_sha256": "7d84dfd37d4cc47f6247ce7e1084c6bbda90fdd939ca7be839e8d7169136b46f",
     "source_master_sha256": "a0150e0d49d32cc4511c814b187366a769a898454e5cc99f0ce90f1511c97be7",
-    "source_family": "own-diagram:e-mode"
+    "source_family": "own-diagram:e-mode",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-relictni-zareni-b-mode",
@@ -2743,7 +2957,14 @@
     "source_master": "assets/article-images/sources/schema-relictni-zareni-b-mode.jpg",
     "source_pixel_sha256": "f8f1fb02eac87d2398740e40324beb19250ecc642e31874b9090a324cdcb2394",
     "source_master_sha256": "71217df69ed1992b89adb7f1b91dd6c94e7e7d396e29741f8b1542b1b46e807e",
-    "source_family": "own-diagram:b-mode"
+    "source_family": "own-diagram:b-mode",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-relictni-zareni-foreground",
@@ -2775,7 +2996,14 @@
     "source_master": "assets/article-images/sources/schema-relictni-zareni-foreground.jpg",
     "source_pixel_sha256": "9511ea15f9ef8df82fecc3872376cbc138ec100f8a057181e85938ad4d25bb88",
     "source_master_sha256": "0bdbee23cbdde31952f48358ea9e5848b98bd8a75989c265d727cb8b4ba450b7",
-    "source_family": "own-diagram:foreground"
+    "source_family": "own-diagram:foreground",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-relictni-zareni-recombination",
@@ -2807,7 +3035,14 @@
     "source_master": "assets/article-images/sources/schema-relictni-zareni-recombination.jpg",
     "source_pixel_sha256": "6f3ec5614de68cbb900fc17296e023c9cdadfabd3d821f45d8b9f1efb98f04f4",
     "source_master_sha256": "cdb85305f5f05b0fc2511151ce973a36a697e048e20f97a2352025a4fad28f03",
-    "source_family": "own-diagram:recombination"
+    "source_family": "own-diagram:recombination",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-relictni-zareni-acoustic",
@@ -2839,7 +3074,14 @@
     "source_master": "assets/article-images/sources/schema-relictni-zareni-acoustic.jpg",
     "source_pixel_sha256": "ec7f23a6678c28c5c75c0e27c80dd3cee63c264a36b193eb11deeb215609c5f3",
     "source_master_sha256": "b13acdabf7adac4f08e493ee78ac13e1500f55171fdcaadcb734fd8a712a0aac",
-    "source_family": "own-diagram:acoustic"
+    "source_family": "own-diagram:acoustic",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-relictni-zareni-reionization",
@@ -2871,7 +3113,14 @@
     "source_master": "assets/article-images/sources/schema-relictni-zareni-reionization.jpg",
     "source_pixel_sha256": "4e4610f9865f27e83f3c0047978f665c544a2d47d232d8fe1d5b0a639689c1f0",
     "source_master_sha256": "30f2b4105ce2a1dfa206fc9b28e2eb3aa3248caa9bd5e5bfadb3efeae6da9ae2",
-    "source_family": "own-diagram:reionization"
+    "source_family": "own-diagram:reionization",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-velky-tresk-1",
@@ -2903,7 +3152,14 @@
     "source_master": "assets/article-images/sources/schema-velky-tresk-1.jpg",
     "source_pixel_sha256": "4f7e55ef0d2b73478ada675176dccef19bb409a99364fe5c270ad497ff27a6e2",
     "source_master_sha256": "329087da7a3580dd8147cb36b10946613f809113824cc0d99bb3152c81e9eb80",
-    "source_family": "own-diagram:timeline"
+    "source_family": "own-diagram:timeline",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-velky-tresk-2",
@@ -2935,7 +3191,14 @@
     "source_master": "assets/article-images/sources/schema-velky-tresk-2.jpg",
     "source_pixel_sha256": "869553bf1d8dc29fb0b23c40bb92930fa60db62e9e325e6a6755ae859b8e8c4e",
     "source_master_sha256": "d682b561b49a7565027ed45c81827c3c5ab3466337f32330a589addbac429df7",
-    "source_family": "own-diagram:inflation"
+    "source_family": "own-diagram:inflation",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-velky-tresk-nucleosynthesis",
@@ -2967,7 +3230,14 @@
     "source_master": "assets/article-images/sources/schema-velky-tresk-nucleosynthesis.jpg",
     "source_pixel_sha256": "fed434f7fe8d666f25cc482546cb558b99744633678610f200cf48642e039467",
     "source_master_sha256": "07e9d86a644284cb065e996df07b308ca48be5ef779c14f0dbe933474e56d617",
-    "source_family": "own-diagram:nucleosynthesis"
+    "source_family": "own-diagram:nucleosynthesis",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-velky-tresk-reionization",
@@ -2999,7 +3269,14 @@
     "source_master": "assets/article-images/sources/schema-velky-tresk-reionization.jpg",
     "source_pixel_sha256": "b5cdc5669a13da6f803514cb64673406df620ea79ee77deeb53dba614a0b303b",
     "source_master_sha256": "128993c0833473ec0d385719c0abd21c8a18f9ca158a3ab2d3a990d605f97bf4",
-    "source_family": "own-diagram:reionization"
+    "source_family": "own-diagram:reionization",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-velky-tresk-phase",
@@ -3031,7 +3308,14 @@
     "source_master": "assets/article-images/sources/schema-velky-tresk-phase.jpg",
     "source_pixel_sha256": "28ecca0007e5606e60f7d979641cc8afa5d066ddf63a40aa176ea8ce2aeb1c94",
     "source_master_sha256": "8f8089271300f6ef96b771f6d46a46de769e5b49c4c98675564e7067bf17f9ff",
-    "source_family": "own-diagram:phase"
+    "source_family": "own-diagram:phase",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-velky-tresk-21cm",
@@ -3063,7 +3347,14 @@
     "source_master": "assets/article-images/sources/schema-velky-tresk-21cm.jpg",
     "source_pixel_sha256": "bd0632d6e1b4ef736182babe8ef9575f123127e4c21b94843f7a2d31abcc92c2",
     "source_master_sha256": "3923fb49c59cb9919a041597fa702a5eb58938d96eb614780e8bea595d5df9af",
-    "source_family": "own-diagram:21cm"
+    "source_family": "own-diagram:21cm",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-velky-tresk-asymmetry",
@@ -3095,7 +3386,14 @@
     "source_master": "assets/article-images/sources/schema-velky-tresk-asymmetry.jpg",
     "source_pixel_sha256": "250f6d6edc47c0e655b8a3c0c372c1b58d3744936771629b1e43eea224564d16",
     "source_master_sha256": "b91ae00f012a5da4ebbdea32c400326a963fdc7383fffc60e3dd616cd1935b2f",
-    "source_family": "own-diagram:asymmetry"
+    "source_family": "own-diagram:asymmetry",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-velky-tresk-web",
@@ -3127,7 +3425,14 @@
     "source_master": "assets/article-images/sources/schema-velky-tresk-web.jpg",
     "source_pixel_sha256": "d65d7bcf72e04f5ba4fa29e45814d81e407c28ad4493a9070735e77ab11bb557",
     "source_master_sha256": "ac10101a343a95ca992d51dce4d50b630510f202dde9a0ccf0bc82d82e1d6807",
-    "source_family": "own-diagram:web"
+    "source_family": "own-diagram:web",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kvantova-gravitace-1",
@@ -3159,7 +3464,14 @@
     "source_master": "assets/article-images/sources/schema-kvantova-gravitace-1.jpg",
     "source_pixel_sha256": "f87307bae229963cc89bb208e85529e2a09ab571172099a218eb55c402d56211",
     "source_master_sha256": "c87cecb7d7334ae65536fddb182a286f8458edca144abe1ffccf69b156cd114f",
-    "source_family": "own-diagram:curvature"
+    "source_family": "own-diagram:curvature",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kvantova-gravitace-2",
@@ -3191,7 +3503,14 @@
     "source_master": "assets/article-images/sources/schema-kvantova-gravitace-2.jpg",
     "source_pixel_sha256": "52a236510f53b81509274cb2dd7a5dc21c488110b731fe1ee2301ad650e99424",
     "source_master_sha256": "faab955796c99f6a82e47615a44a9805c4af3fba4687e39ba9a9c9ddc4bef372",
-    "source_family": "own-diagram:entanglement"
+    "source_family": "own-diagram:entanglement",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kvantova-gravitace-holography",
@@ -3223,7 +3542,14 @@
     "source_master": "assets/article-images/sources/schema-kvantova-gravitace-holography.jpg",
     "source_pixel_sha256": "d5d2009e894b0ea4c7a6ae43e5f7a0ad3527270d1288bcd123ffcc2fd378f1e5",
     "source_master_sha256": "f7100ff4cceadada16e1457bbed2e136c767842fcac2ed5a6247888cbb9eba8e",
-    "source_family": "own-diagram:holography"
+    "source_family": "own-diagram:holography",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kvantova-gravitace-spin-network",
@@ -3255,7 +3581,14 @@
     "source_master": "assets/article-images/sources/schema-kvantova-gravitace-spin-network.jpg",
     "source_pixel_sha256": "f3c1258388394365540b1d4fb4edd1293fa137f529f737cbc51652e70e061d13",
     "source_master_sha256": "a3aab159524dfd736b0448f933d854a9ca59e5b9b99e7d6f56b8b81b02acaf5e",
-    "source_family": "own-diagram:spin-network"
+    "source_family": "own-diagram:spin-network",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kvantova-gravitace-foam",
@@ -3287,7 +3620,14 @@
     "source_master": "assets/article-images/sources/schema-kvantova-gravitace-foam.jpg",
     "source_pixel_sha256": "fe7908f2ee286c4c7ad457da261c1307010aaf0f359935d24df8e322d6c73bce",
     "source_master_sha256": "ec2f8959ade252a8ce396545dc5b5222277c25c2e5e426055ecd452cd60a1dde",
-    "source_family": "own-diagram:foam"
+    "source_family": "own-diagram:foam",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kvantova-gravitace-bounce",
@@ -3319,7 +3659,14 @@
     "source_master": "assets/article-images/sources/schema-kvantova-gravitace-bounce.jpg",
     "source_pixel_sha256": "a46411a339a41eccd9fe1d6b4b47d9ac8846da2e1c2fd32f3f0800e4e9f70260",
     "source_master_sha256": "3e58cf12456528819b331fe2db05b5aea5181718f2c06c6c48b2eb2c70a0147d",
-    "source_family": "own-diagram:bounce"
+    "source_family": "own-diagram:bounce",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kvantova-gravitace-wormhole",
@@ -3351,7 +3698,14 @@
     "source_master": "assets/article-images/sources/schema-kvantova-gravitace-wormhole.jpg",
     "source_pixel_sha256": "b9a9b677f03adc38a8e19857cbc3d2d8ce8730e0df44f23e814419782bd109c7",
     "source_master_sha256": "33b5df0ce0c827cfcdb71570f1e158ee6ffcaf80b1babb916e424a8497d83a92",
-    "source_family": "own-diagram:wormhole"
+    "source_family": "own-diagram:wormhole",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kvantova-gravitace-feynman",
@@ -3383,7 +3737,14 @@
     "source_master": "assets/article-images/sources/schema-kvantova-gravitace-feynman.jpg",
     "source_pixel_sha256": "dec1e7692f98c0a403d8f5ec060d7294a533f0d410263592d73f7d170b824b32",
     "source_master_sha256": "8a23f2510cf60df021b98d1ca90a092b94cd6d2932ac1b99f13aa5068d8d276c",
-    "source_family": "own-diagram:feynman"
+    "source_family": "own-diagram:feynman",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kvantova-gravitace-discrete-time",
@@ -3415,7 +3776,14 @@
     "source_master": "assets/article-images/sources/schema-kvantova-gravitace-discrete-time.jpg",
     "source_pixel_sha256": "ef04133d886e34796c5fab9d0e82f5c48bcf6db2cc91139158cccc7c6854fbb3",
     "source_master_sha256": "2c7d9542e453ac1b18abd0dd0af188256f0e3d4895839ba8874aa161e3b3d159",
-    "source_family": "own-diagram:discrete-time"
+    "source_family": "own-diagram:discrete-time",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravimetrie-testy-1",
@@ -3447,7 +3815,14 @@
     "source_master": "assets/article-images/sources/schema-gravimetrie-testy-1.jpg",
     "source_pixel_sha256": "1a01cc2b28f5fa8fe5b1b0fa44155090e19f86fe1a8625550a0b9ce4295593b9",
     "source_master_sha256": "2ad66a3c15bdd20b447c1cb2d62d0f8b098da65b3073100954fdb84291be90af",
-    "source_family": "own-diagram:curvature"
+    "source_family": "own-diagram:curvature",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravimetrie-testy-2",
@@ -3480,7 +3855,14 @@
     "source_master": "assets/article-images/sources/schema-gravimetrie-testy-2.jpg",
     "source_pixel_sha256": "f4c11959de69b6fb948c1b87cf9e55a21800143cbaa785bb12bc80834a48e917",
     "source_master_sha256": "5730f95df3b6abf6be7d0c53c64c4cc7e413c27135797bc2df356ca10e6dc8d1",
-    "source_family": "own-diagram:orbit"
+    "source_family": "own-diagram:orbit",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravimetrie-testy-equivalence",
@@ -3512,7 +3894,14 @@
     "source_master": "assets/article-images/sources/schema-gravimetrie-testy-equivalence.jpg",
     "source_pixel_sha256": "5cbca7a87bec3b3e6b39128da2aeb1b3116aa5b87bcb2827ec853ecacf495e4b",
     "source_master_sha256": "8be27cf70e6eb9bc1ca2061d85c26a5e642c6f73d5a2c22523caa32ec3aef63d",
-    "source_family": "own-diagram:equivalence"
+    "source_family": "own-diagram:equivalence",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravimetrie-testy-redshift",
@@ -3544,7 +3933,14 @@
     "source_master": "assets/article-images/sources/schema-gravimetrie-testy-redshift.jpg",
     "source_pixel_sha256": "2f44de484ff3700e280a88de257753a8c57a06223a383d9deca7cdf41700e049",
     "source_master_sha256": "f014903998bf49c4027be928891a2bd434f18e2c50cf285b1ad450fc7fb0fba4",
-    "source_family": "own-diagram:redshift"
+    "source_family": "own-diagram:redshift",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravimetrie-testy-shapiro",
@@ -3576,7 +3972,14 @@
     "source_master": "assets/article-images/sources/schema-gravimetrie-testy-shapiro.jpg",
     "source_pixel_sha256": "c8ac7f54da1e6f7a8c8a8f621bc86f9d8d69710bf771c9b056a4e869a8b2a3bc",
     "source_master_sha256": "2c8c38371fa36572b6fb4dbe02f9852eda32022171f0dde90eec87c75bb4d598",
-    "source_family": "own-diagram:shapiro"
+    "source_family": "own-diagram:shapiro",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravimetrie-testy-screening",
@@ -3608,7 +4011,14 @@
     "source_master": "assets/article-images/sources/schema-gravimetrie-testy-screening.jpg",
     "source_pixel_sha256": "22575ef478dc3dd2f1bf19fd704a8a1a212a1e6f0ac2b632387cd2dbd07b53fa",
     "source_master_sha256": "43f88bf54a10fbd94e9b499d202aa555fd7c390c721a2fc1607e063882e175d2",
-    "source_family": "own-diagram:screening"
+    "source_family": "own-diagram:screening",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravimetrie-testy-lensing",
@@ -3640,7 +4050,14 @@
     "source_master": "assets/article-images/sources/schema-gravimetrie-testy-lensing.jpg",
     "source_pixel_sha256": "0486d62aa32dd798b2caf95905ea0cad1c0e1c4e4d63d896772b5753d109ae52",
     "source_master_sha256": "ead1cc528801ef5dff0604cb99b3e7883fe47248e014373337a3873f4331e849",
-    "source_family": "own-diagram:lensing"
+    "source_family": "own-diagram:lensing",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-gravimetrie-testy-web",
@@ -3673,7 +4090,14 @@
     "source_master": "assets/article-images/sources/schema-gravimetrie-testy-web.jpg",
     "source_pixel_sha256": "118fe97064eb0e6a4528640e79c19a69f7a66dbe3ea27282dd9d29c0350f29a6",
     "source_master_sha256": "4876602b87824fabb80a1f4f72d26554dc094a82166ba409a739458254a474fc",
-    "source_family": "own-diagram:web"
+    "source_family": "own-diagram:web",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-multivesmir-1",
@@ -3705,7 +4129,14 @@
     "source_master": "assets/article-images/sources/schema-multivesmir-1.jpg",
     "source_pixel_sha256": "2c93b0891cece922ff4672304f18a4b924e02c5c7176658f4423a5987e9dfc4e",
     "source_master_sha256": "301e374905e1f8446deb6160a293f9def9c19470e05e182c4332af5609e28f15",
-    "source_family": "own-diagram:multiverse"
+    "source_family": "own-diagram:multiverse",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-multivesmir-2",
@@ -3737,7 +4168,14 @@
     "source_master": "assets/article-images/sources/schema-multivesmir-2.jpg",
     "source_pixel_sha256": "8622ba1cb6fe938b65777d146f2a29901089240f618363de59553a8e06120d2f",
     "source_master_sha256": "14f923e42d877006ec75d60a6d35f7c9555a818ba9b030dc75f6f3db241bfd57",
-    "source_family": "own-diagram:phase"
+    "source_family": "own-diagram:phase",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-multivesmir-holography",
@@ -3769,7 +4207,14 @@
     "source_master": "assets/article-images/sources/schema-multivesmir-holography.jpg",
     "source_pixel_sha256": "1aafc54f557ceac60469c19e8d40055baf49e56c50ec3a52ff654dd983d68c41",
     "source_master_sha256": "d5c514dbbaccb71d1fb7f36145b1ea7f34ebabd94cef5fe9452c7df0f03cfc31",
-    "source_family": "own-diagram:holography"
+    "source_family": "own-diagram:holography",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-ostatni-1",
@@ -3801,7 +4246,14 @@
     "source_master": "assets/article-images/sources/schema-ostatni-1.jpg",
     "source_pixel_sha256": "99ec2a04c88e54b50ff8142d21bd20daf211e2a6bedd20a777de391b488352cd",
     "source_master_sha256": "ef64bc9024df326f27d27be638ce6d3e6ddc03d81be99104ee049f9a23268524",
-    "source_family": "own-diagram:selection"
+    "source_family": "own-diagram:selection",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-ostatni-2",
@@ -3833,7 +4285,14 @@
     "source_master": "assets/article-images/sources/schema-ostatni-2.jpg",
     "source_pixel_sha256": "36e453a22c0a5f5175d48ac8e9b5ca70deda8850761fdfab9dafe515fd0b6637",
     "source_master_sha256": "ba59f3096703d095d2cfc00184288631218b55e936a3126219d7039bd42e12ee",
-    "source_family": "own-diagram:timeline"
+    "source_family": "own-diagram:timeline",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-ostatni-web",
@@ -3865,7 +4324,14 @@
     "source_master": "assets/article-images/sources/schema-ostatni-web.jpg",
     "source_pixel_sha256": "f0d6bfd3eb0bbc196fb680f608560a260baa7aa4f49b5d6e8678bbb1fef772f3",
     "source_master_sha256": "1ca6b9556d5d24fb541e3d84d397bbc3dd38c6a269e4544e24d388a67ed3be76",
-    "source_family": "own-diagram:web"
+    "source_family": "own-diagram:web",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-neutronove-hvezdy-pulsar",
@@ -3897,7 +4363,14 @@
     "source_master": "assets/article-images/sources/schema-neutronove-hvezdy-pulsar.jpg",
     "source_pixel_sha256": "36f7a5e9e32b3f7afcd933e02d3a2d3733a517f85b08ee0d5952d605477f12bb",
     "source_master_sha256": "0ea877d89af1ebee3f41c56ce71c121f17a2a66a92869bff9d58c95b07c48a0b",
-    "source_family": "own-diagram:pulsar"
+    "source_family": "own-diagram:pulsar",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-neutronove-hvezdy-binary",
@@ -3929,7 +4402,14 @@
     "source_master": "assets/article-images/sources/schema-neutronove-hvezdy-binary.jpg",
     "source_pixel_sha256": "96574dc9aaab8deeb07c8b679a2e15aeac49605631cf77fe96756a8dd53ccdea",
     "source_master_sha256": "48d4d30afb8ac1d69adee6fdc8dacd72c3ad5c5d01a29b6cda76311e8718a846",
-    "source_family": "own-diagram:binary"
+    "source_family": "own-diagram:binary",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kvazary-jet",
@@ -3961,7 +4441,14 @@
     "source_master": "assets/article-images/sources/schema-kvazary-jet.jpg",
     "source_pixel_sha256": "217937487e764f9b0e66a49d2168795aa40b440310077df804a91b8501af024e",
     "source_master_sha256": "d209e4e69857a2884249ae6ed87b17d3bba082db2101077135b2d7836f307d2e",
-    "source_family": "own-diagram:jet"
+    "source_family": "own-diagram:jet",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-vesmirne-teleskopy-telescope",
@@ -3993,7 +4480,14 @@
     "source_master": "assets/article-images/sources/schema-vesmirne-teleskopy-telescope.jpg",
     "source_pixel_sha256": "f960c6955954af61053f54d850fd2d362aa17a978c23da65949e0c7b5a6b631f",
     "source_master_sha256": "2e22aef7ad91bdbd1012b68144f049225eae992e838c6328f7cca9cd33e1b9af",
-    "source_family": "own-diagram:telescope"
+    "source_family": "own-diagram:telescope",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-vesmirne-teleskopy-spectrum",
@@ -4025,7 +4519,14 @@
     "source_master": "assets/article-images/sources/schema-vesmirne-teleskopy-spectrum.jpg",
     "source_pixel_sha256": "fd17f56838267cb554cbf2871d05a9c48a606bc2b839c9a527f00b6ef5c17154",
     "source_master_sha256": "a9c53e173ff3b58ab02f6de4736e26607b731a2cd711a41a6d51af50151aff0f",
-    "source_family": "own-diagram:spectrograph"
+    "source_family": "own-diagram:spectrograph",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-cerne-diry-horizon",
@@ -4057,7 +4558,14 @@
     "source_master": "assets/article-images/sources/schema-cerne-diry-horizon.jpg",
     "source_pixel_sha256": "c1f2fc4c4935a57138cecd97ec0cf302dab3f8669dd1366baf4aa7f08b97a981",
     "source_master_sha256": "b347e855a5ef9ba184ac20cddb61d38f5075a7fa1ffc641454b3669350d02349",
-    "source_family": "own-diagram:horizon"
+    "source_family": "own-diagram:horizon",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-cerne-diry-collapse",
@@ -4089,7 +4597,14 @@
     "source_master": "assets/article-images/sources/schema-cerne-diry-collapse.jpg",
     "source_pixel_sha256": "d860f96171af8e410756b1347b63a40afffe1a3e891e54e8d4f96c790cd8194e",
     "source_master_sha256": "8de02247d637fd53e10abce88ff4f5103d7a07b962790018326595aa7879aaa1",
-    "source_family": "own-diagram:collapse"
+    "source_family": "own-diagram:collapse",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-hmota-electron-recoil",
@@ -4122,7 +4637,14 @@
     "source_master": "assets/article-images/sources/schema-temna-hmota-electron-recoil.jpg",
     "source_pixel_sha256": "aa39f76fb542f7c0501d4ab99344297dfa105002e6f5917b65670d826783f579",
     "source_master_sha256": "ad7b50b6c85f5a3a803257fd670fe3a9cf262e356b9a5e1cb2c13e05b8029794",
-    "source_family": "own-diagram:electron-recoil"
+    "source_family": "own-diagram:electron-recoil",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-temna-hmota-dual-signal",
@@ -4155,7 +4677,14 @@
     "source_master": "assets/article-images/sources/schema-temna-hmota-dual-signal.jpg",
     "source_pixel_sha256": "8168649afbc747d4b7f105e254d9b4161189d98253a970c730bc73f20799435b",
     "source_master_sha256": "b382fb343ea721171e04f902ebf71141ac3938b87faea4c5ab3bd3c5e1322a85",
-    "source_family": "own-diagram:dual-signal"
+    "source_family": "own-diagram:dual-signal",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "vesmirne-teleskopy",
@@ -4276,7 +4805,14 @@
     "alt": "Kvalitativní schéma protiběžných svazků částic a produktů srážky",
     "caption": "Vlastní kvalitativní schéma principu srážeče částic. Nejde o plán LHC ani záznam skutečné srážky. Rozměry, dráhy a počet míst srážek nejsou v měřítku.",
     "thumbnail": "assets/article-images/thumbs/schema-lhc-collider.webp",
-    "source_master": "assets/article-images/sources/schema-lhc-collider.jpg"
+    "source_master": "assets/article-images/sources/schema-lhc-collider.jpg",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "castice-a-zakladni-sily",
@@ -4314,7 +4850,14 @@
     "reference_urls": [
       "https://home.cern/science/physics/standard-model",
       "https://www.energy.gov/science/doe-explainsthe-standard-model-particle-physics"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "vesmirne-teleskopy",
@@ -4357,7 +4900,14 @@
     "reference_urls": [
       "https://esawebb.org/about/general/spectroscopy-with-webb/",
       "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "vesmirne-teleskopy",
@@ -4402,7 +4952,14 @@
     "reference_urls": [
       "https://esawebb.org/about/general/spectroscopy-with-webb/",
       "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "vesmirne-teleskopy",
@@ -4445,7 +5002,14 @@
     "reference_urls": [
       "https://esawebb.org/about/general/spectroscopy-with-webb/",
       "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "vesmirne-teleskopy",
@@ -4487,7 +5051,14 @@
     "reference_urls": [
       "https://esawebb.org/about/general/spectroscopy-with-webb/",
       "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "vesmirne-teleskopy",
@@ -4529,7 +5100,14 @@
     "reference_urls": [
       "https://esawebb.org/about/general/spectroscopy-with-webb/",
       "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kvantova-gravitace",
@@ -4574,7 +5152,14 @@
       "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec01/",
       "https://science.nasa.gov/universe/overview/",
       "https://arxiv.org/abs/1312.7340"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kvantova-gravitace",
@@ -4618,7 +5203,14 @@
       "https://www.feynmanlectures.caltech.edu/III_03.html",
       "https://www.feynmanlectures.caltech.edu/III_02.html",
       "https://quantum.cloud.ibm.com/learning/en/courses/general-formulation-of-quantum-information/density-matrices/introduction"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kvantova-gravitace",
@@ -4664,7 +5256,14 @@
       "https://www.feynmanlectures.caltech.edu/III_03.html",
       "https://quantum.cloud.ibm.com/learning/en/courses/tools-for-quantum-advantage/noise-and-errors",
       "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec01/"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kvantova-gravitace",
@@ -4708,7 +5307,14 @@
       "https://www.feynmanlectures.caltech.edu/III_02.html",
       "https://arxiv.org/abs/quant-ph/0609185",
       "https://www.nist.gov/blogs/taking-measure/5-concepts-can-help-you-understand-quantum-mechanics-and-technology-without"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kvantova-gravitace",
@@ -4753,7 +5359,14 @@
       "https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/multiple-systems/quantum-information",
       "https://www.nist.gov/blogs/taking-measure/quantum-leap-forward-how-tiny-particles-can-bring-us-exciting-new-tech",
       "https://quantum.cloud.ibm.com/learning/en/courses/general-formulation-of-quantum-information/density-matrices/introduction"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kvantova-gravitace",
@@ -4795,7 +5408,14 @@
     ],
     "reference_urls": [
       "https://www.feynmanlectures.caltech.edu/III_01.html"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kvantova-gravitace",
@@ -4838,7 +5458,14 @@
     "reference_urls": [
       "https://quantum.cloud.ibm.com/learning/en/modules/quantum-mechanics/superposition-with-qiskit",
       "https://quantum.cloud.ibm.com/learning/en/courses/general-formulation-of-quantum-information/density-matrices/introduction"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -4881,7 +5508,14 @@
     "reference_urls": [
       "https://ligo.org/faq/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -4924,7 +5558,14 @@
     "reference_urls": [
       "https://science.nasa.gov/dark-matter/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -4967,7 +5608,14 @@
     "reference_urls": [
       "https://science.nasa.gov/missions/hubble/hubble-spies-galactic-traffic-jam/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5010,7 +5658,14 @@
     "reference_urls": [
       "https://science.nasa.gov/missions/chandra/a-clash-of-clusters/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5053,7 +5708,14 @@
     "reference_urls": [
       "https://ligo.org/science-summaries/gw170817grb/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5096,7 +5758,14 @@
     "reference_urls": [
       "https://science.nasa.gov/exoplanets/whats-a-transit/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5139,7 +5808,14 @@
     "reference_urls": [
       "https://www.mpe.mpg.de/6588951/The-black-hole"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5182,7 +5858,14 @@
     "reference_urls": [
       "https://ligo.org/faq/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5225,7 +5908,14 @@
     "reference_urls": [
       "https://www.energy.gov/science/doe-explainsbeta-decay"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5268,7 +5958,14 @@
     "reference_urls": [
       "https://science.nasa.gov/missions/webb/nasas-webb-provides-another-look-into-galactic-collisions/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5311,7 +6008,14 @@
     "reference_urls": [
       "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5354,7 +6058,14 @@
     "reference_urls": [
       "https://science.nasa.gov/universe/overview/building-blocks/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5397,7 +6108,14 @@
     "reference_urls": [
       "https://science.nasa.gov/ems/01_intro/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5440,7 +6158,14 @@
     "reference_urls": [
       "https://science.nasa.gov/asset/webb/webbs-orbit-at-sun-earth-lagrange-point-2-l2/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5483,7 +6208,14 @@
     "reference_urls": [
       "https://www.eso.org/public/teles-instr/technology/interferometry/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5526,7 +6258,14 @@
     "reference_urls": [
       "https://home.cern/how-detector-works"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5569,7 +6308,14 @@
     "reference_urls": [
       "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-how-absorption-and-emission-spectra-work/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5613,7 +6359,14 @@
       "https://arxiv.org/abs/astro-ph/9905116",
       "https://arxiv.org/abs/1807.06209"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5656,7 +6409,14 @@
     "reference_urls": [
       "https://www.feynmanlectures.caltech.edu/III_03.html"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5699,7 +6459,14 @@
     "reference_urls": [
       "https://www.feynmanlectures.caltech.edu/III_02.html"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5742,7 +6509,14 @@
     "reference_urls": [
       "https://www.nist.gov/blogs/taking-measure/quantum-leap-forward-how-tiny-particles-can-bring-us-exciting-new-tech"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5785,7 +6559,14 @@
     "reference_urls": [
       "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft1.pdf"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5828,7 +6609,14 @@
     "reference_urls": [
       "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft3.pdf"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5871,7 +6659,14 @@
     "reference_urls": [
       "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft5.pdf"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5914,7 +6709,14 @@
     "reference_urls": [
       "https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -5957,7 +6759,14 @@
     "reference_urls": [
       "https://arxiv.org/abs/hep-th/0503158"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6000,7 +6809,14 @@
     "reference_urls": [
       "https://home.cern/science/physics/higgs-boson/what/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6043,7 +6859,14 @@
     "reference_urls": [
       "https://repository.cern/records/g9287-8t069"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6086,7 +6909,14 @@
     "reference_urls": [
       "https://www.einstein-online.info/en/spotlight/background_independence/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6131,7 +6961,14 @@
       "https://arxiv.org/abs/2512.09748",
       "https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6176,7 +7013,14 @@
       "https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/",
       "https://arxiv.org/abs/2512.09748"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6221,7 +7065,14 @@
       "https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/",
       "https://arxiv.org/abs/2512.09748"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6266,7 +7117,14 @@
       "https://arxiv.org/abs/2512.09748",
       "https://arxiv.org/abs/1504.04623"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6312,7 +7170,14 @@
       "https://arxiv.org/abs/1112.3960",
       "https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6358,7 +7223,14 @@
       "https://arxiv.org/abs/1112.3960",
       "https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6403,7 +7275,14 @@
       "https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html",
       "https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6448,7 +7327,14 @@
       "https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html",
       "https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6493,7 +7379,14 @@
       "https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/",
       "https://web.physics.rutgers.edu/grad/690/Rubin-Ford-1970.pdf"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6538,7 +7431,14 @@
       "https://www.jb.man.ac.uk/~tob/litmus-leavitt.html",
       "https://cosmology.carnegiescience.edu/timeline/1912.html"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6583,7 +7483,14 @@
       "https://www.aps.org/apsnews/2026/05/lemaitre-proposes-universe-beginning",
       "https://www.pas.va/en/publications/acta/acta24pas/hertog.html"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6628,7 +7535,14 @@
       "https://science.nasa.gov/missions/hubble/hubble-completes-eight-year-effort-to-measure-expanding-universe/",
       "https://iauarchive.eso.org/news/pressreleases/detail/iau1812/"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6672,7 +7586,14 @@
       "https://web.physics.rutgers.edu/grad/690/Rubin-Ford-1970.pdf",
       "https://carnegiescience.edu/news/vera-rubin-opening-doors-dark-matter-and-women-stem"
     ],
-    "manual_only": true
+    "manual_only": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -6976,7 +7897,14 @@
     "source_master": "assets/article-images/sources/schema-urychlovace-tri-cesty.jpg",
     "source_family": "own-diagram:particle-accelerators",
     "source_master_sha256": "7c229d280f11c8b9c88d50142f10eaa29766b749f31589ccadffdd32d0073023",
-    "source_pixel_sha256": "f7456ca3cc3b330fe55c9366ba102b023ff9715cc6691164fc34bee290e288f3"
+    "source_pixel_sha256": "f7456ca3cc3b330fe55c9366ba102b023ff9715cc6691164fc34bee290e288f3",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-castice-signal-a-objev",
@@ -7008,7 +7936,14 @@
     "source_master": "assets/article-images/sources/schema-castice-signal-a-objev.jpg",
     "source_family": "own-diagram:particle-discovery",
     "source_master_sha256": "432c82bf9c63bc9290fa41d768779cb918aa3bd30e1f57217e788c3a7c22bf66",
-    "source_pixel_sha256": "f9c0e4596175960ce38d51bf23012c7b3f2e7e4b6f3679d2a3490c901e16c636"
+    "source_pixel_sha256": "f9c0e4596175960ce38d51bf23012c7b3f2e7e4b6f3679d2a3490c901e16c636",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-vodik-a-antivodik",
@@ -7040,7 +7975,14 @@
     "source_master": "assets/article-images/sources/schema-vodik-a-antivodik.jpg",
     "source_family": "own-diagram:particle-antiatoms",
     "source_master_sha256": "93436667e6ee565217a5912c7c2063c4e3ce18c406a3d6e2405928d9d3ae32f9",
-    "source_pixel_sha256": "06fc726aaa9c21d4b693000f65f42ab8121206b6b291112e0190168321a5a36d"
+    "source_pixel_sha256": "06fc726aaa9c21d4b693000f65f42ab8121206b6b291112e0190168321a5a36d",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-neutrinove-oscilace",
@@ -7072,7 +8014,14 @@
     "source_master": "assets/article-images/sources/schema-neutrinove-oscilace.jpg",
     "source_family": "own-diagram:particle-neutrino-oscillations",
     "source_master_sha256": "72e59a83fb059d5574a85757233fd5f016f58926ccffc17956753154a07a4021",
-    "source_pixel_sha256": "7d610e0720282ffcacb0921e40bb22e4434dfd74a342ec4b6e1b6353d1a63657"
+    "source_pixel_sha256": "7d610e0720282ffcacb0921e40bb22e4434dfd74a342ec4b6e1b6353d1a63657",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kosmicke-zareni-sprska",
@@ -7104,7 +8053,14 @@
     "source_master": "assets/article-images/sources/schema-kosmicke-zareni-sprska.jpg",
     "source_family": "own-diagram:particle-air-shower",
     "source_master_sha256": "9830e8422f14b585c665e73c0b917657c04474a29e9d88e6b8cf4045544bc406",
-    "source_pixel_sha256": "9c73eed4631ed1c02432152250ed08284c344bcaeaee78d311e2268eea32b17d"
+    "source_pixel_sha256": "9c73eed4631ed1c02432152250ed08284c344bcaeaee78d311e2268eea32b17d",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "portret-albert-einstein",
@@ -7419,7 +8375,14 @@
     "match_keywords": [],
     "reference_urls": [
       "https://arxiv.org/abs/1807.06209"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-budoucnost-vesmiru",
@@ -7462,7 +8425,14 @@
     "match_keywords": [],
     "reference_urls": [
       "https://science.nasa.gov/dark-energy/"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-jak-merime-zrychlovani",
@@ -7505,7 +8475,14 @@
     "match_keywords": [],
     "reference_urls": [
       "https://arxiv.org/abs/astro-ph/9805201"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-kosmicka-inflace",
@@ -7548,7 +8525,14 @@
     "match_keywords": [],
     "reference_urls": [
       "https://arxiv.org/abs/1807.06211"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-prvotni-nukleosynteza",
@@ -7591,7 +8575,14 @@
     "match_keywords": [],
     "reference_urls": [
       "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-atmosfera-exoplanety",
@@ -7634,7 +8625,14 @@
     "match_keywords": [],
     "reference_urls": [
       "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-obyvatelna-zona",
@@ -7677,7 +8675,14 @@
     "match_keywords": [],
     "reference_urls": [
       "https://science.nasa.gov/exoplanets/habitable-zone/"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-pozorovatelny-vesmir-otazky",
@@ -7720,7 +8725,14 @@
     "match_keywords": [],
     "reference_urls": [
       "https://arxiv.org/abs/astro-ph/0310808"
-    ]
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "portret-max-planck",
@@ -8042,7 +9054,14 @@
       "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf"
     ],
     "width": 1100,
-    "height": 1390
+    "height": 1390,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "osa-vesmir-prvni-sekunda",
@@ -8092,7 +9111,14 @@
       "https://home.web.cern.ch/science/physics/early-universe/"
     ],
     "width": 1100,
-    "height": 1155
+    "height": 1155,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "osa-vesmir-prvni-minuty",
@@ -8137,7 +9163,14 @@
       "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf"
     ],
     "width": 1100,
-    "height": 1360
+    "height": 1360,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "osa-vesmir-atomy-hvezdy",
@@ -8187,7 +9220,14 @@
       "https://science.nasa.gov/universe/overview/"
     ],
     "width": 1100,
-    "height": 1565
+    "height": 1565,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "osa-vesmir-galaxie-dnes",
@@ -8242,7 +9282,14 @@
       "https://arxiv.org/abs/1807.06209"
     ],
     "width": 1100,
-    "height": 1565
+    "height": 1565,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "graf-exoplanet-podle-hvezd",
@@ -8289,7 +9336,14 @@
     "data_file": "data/exoplanets-2026-10-29.json",
     "width": 1100,
     "height": 1290,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "graf-energie-vybranych-exoplanet",
@@ -8337,7 +9391,14 @@
     "data_file": "data/exoplanets-2026-10-29.json",
     "width": 1100,
     "height": 1510,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "graf-hranice-obyvatelne-zony",
@@ -8383,7 +9444,14 @@
     ],
     "data_file": "data/exoplanets-2026-10-29.json",
     "width": 1100,
-    "height": 950
+    "height": 950,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-trideni-hvezd",
@@ -8429,7 +9497,14 @@
     ],
     "zoomable": true,
     "width": 1100,
-    "height": 1150
+    "height": 1150,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-hr-diagram",
@@ -8475,7 +9550,14 @@
     ],
     "zoomable": true,
     "width": 1100,
-    "height": 1050
+    "height": 1050,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-trappist1-slunecni-soustava",
@@ -8524,7 +9606,14 @@
     ],
     "width": 1100,
     "height": 1450,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "graf-planetarni-soustavy-prehled",
@@ -8578,7 +9667,14 @@
     "data_file": "data/exoplanet-systems-2026-10-30.json",
     "width": 1100,
     "height": 1740,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "graf-planetarni-soustavy-detail",
@@ -8632,7 +9728,14 @@
     "data_file": "data/exoplanet-systems-2026-10-30.json",
     "width": 1100,
     "height": 1670,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "graf-neobvykle-exoplanety-roky",
@@ -8686,7 +9789,14 @@
     "data_file": "data/exoplanet-systems-2026-10-30.json",
     "width": 1100,
     "height": 1610,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "graf-exoplanety-hmotnost-polomer",
@@ -8740,7 +9850,14 @@
     "data_file": "data/exoplanet-systems-2026-10-30.json",
     "width": 1100,
     "height": 1500,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-budoucnost-slunce",
@@ -8788,7 +9905,14 @@
     "data_file": "data/local-universe-2026-10-30.json",
     "width": 1100,
     "height": 2260,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-nejblizsi-hvezdy",
@@ -8836,7 +9960,14 @@
     "data_file": "data/local-universe-2026-10-30.json",
     "width": 1100,
     "height": 1450,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-slunce-v-mlecne-draze",
@@ -8884,7 +10015,14 @@
     "data_file": "data/local-universe-2026-10-30.json",
     "width": 1100,
     "height": 1450,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-mistni-skupina-3d",
@@ -8932,7 +10070,14 @@
     "data_file": "data/local-universe-2026-10-30.json",
     "width": 1100,
     "height": 1500,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "id": "schema-galakticke-okoli-3d",
@@ -8980,6 +10125,13 @@
     "data_file": "data/local-universe-2026-10-30.json",
     "width": 1100,
     "height": 1370,
-    "zoomable": true
+    "zoomable": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   }
 ]
