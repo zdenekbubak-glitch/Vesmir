@@ -1,5 +1,20 @@
 [
   {
+    "id": "apod-2026-10-31",
+    "title": "Noc na strašidelné planetě",
+    "caption": "Tato strašidelná scenérie zachycuje planetu Zemi během temné noci v geotermálně aktivní oblasti Hverir na severovýchodě Islandu. Geomagnetické bouře vyvolané sluneční aktivitou zde vytvořily tajuplnou zelenou polární záři, proti níž tančí sloupy páry a plynů unikající z místních fumarol. Aktivita polárních září zůstává i nadále vysoká, neboť Slunce se teprve začíná vzdalovat od maxima svého cyklu.",
+    "thumb": "assets/gallery/apod-2026-10-31.jpg",
+    "image": "assets/gallery/apod-2026-10-31.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+    "published": "2026-10-31",
+    "credit": "Stéphane Vetter (Nuits sacrées)",
+    "original_title": "Night on a Spooky Planet",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-10-31T08:24:04.777481+00:00"
+  },
+  {
     "id": "apod-2026-10-30",
     "title": "Strašidla v Cefeově mračnu",
     "caption": "Strašidelné tvary v královském souhvězdí Cefea jsou ve skutečnosti oblaka kosmického prachu, která slabě odrážejí hvězdné světlo. Nacházejí se nad rovinou Mléčné dráhy na okraji komplexu molekulárních mračen v Cefeovi ve vzdálenosti kolem 1 200 světelných roků. Vpravo dole vyniká mlhovina Duch (vdB 141 či Sh2-136) o průměru přes 2 světelné roky, v jejímž nitru probíhají rané fáze vzniku nových hvězd.",
