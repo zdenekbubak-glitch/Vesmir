@@ -408,7 +408,7 @@ EXPLAINER_PATTERNS = {
     'exp-075': r'penzias\w*|robert wilson',
     'exp-076': r'james peebles|jim peebles|peeblesov\w*',
     'exp-077': r'fritz zwicky|zwickyho',
-    'exp-078': r'kosmick\w* topologi\w*|cosmic topology|prostorov\w* kriv\w*|spatial curvature|tvar\w* vesmir\w*',
+    'exp-078': r'kosmick\w* topologi\w*|cosmic topology|prostorov\w* kriv\w*|spatial curvature|tvar\w* vesmir\w*|\bzakriven\w*\s+vesmir\w*\b|\bzakriveni\s+prostorocasu\b',
     'exp-079': r'big rip|big crunch|big freeze|heat death|tepelna smrt|konec vesmir\w*|budoucnost\w* vesmir\w*',
     'exp-080': r'zrychl\w* rozpin\w*|accelerat\w* expansion|supernov\w* cosmolog\w*',
     'exp-081': r'kosmick\w* inflac\w*|kosmologick\w* inflac\w*|cosmic inflation|cosmological inflation|primordial gravitational waves',
