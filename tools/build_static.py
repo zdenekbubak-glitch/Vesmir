@@ -324,52 +324,55 @@ def classify(item):
     return FALLBACK_THEME[0]
 
 
+# Czech dira / der alternate across cases; do not treat every word starting dir- as a hole.
+BLACK_HOLE_PATTERN = r'\bcern(?:a|e|ou|ych|ym|ymi)[\s-]+(?:dir(?:a|y|e|u|o|ou|am|ach|ami)|der)\b'
+
 # Explicit topic patterns prevent arbitrary links based on shared generic words.
 # Keys refer to stable IDs in data/explainery.json; unknown entries are omitted.
 EXPLAINER_PATTERNS = {
     'exp-093': r'nasa exoplanet archive|katalog.*exoplanet',
     'exp-094': r'trappist.?1|proxima.* b|lhs.?1140|toi.?700|kepler.?62',
-    'exp-085': r'max planck',
-    'exp-086': r'niels bohr',
-    'exp-087': r'louis de broglie',
-    'exp-088': r'werner heisenberg',
-    'exp-089': r'erwin schrodinger',
-    'exp-090': r'max born',
-    'exp-091': r'wolfgang pauli',
-    'exp-092': r'paul dirac',
+    'exp-085': r'max\w* planck\w*|planckov\w* konstant\w*',
+    'exp-086': r'niels\w* bohr\w*|bohrov\w* (?:model\w*|atom\w*)',
+    'exp-087': r'(?:louis\w* )?de[ -]broglie\w*',
+    'exp-088': r'werner\w* heisenberg\w*',
+    'exp-089': r'erwin\w* schr(?:o|oe)dinger\w*',
+    'exp-090': r'max\w* born\w*|bornov\w* (?:pravidl\w*|interpretac\w*)',
+    'exp-091': r'wolfgang\w* pauli\w*|pauli(?:ho|mu|m)? (?:vylucovac\w* )?princip\w*',
+    'exp-092': r'paul\w* dirac\w*|diracov\w* rovnic\w*',
 
     'exp-001': r'temn\w* hmot\w*|dark matter|\baxion\w*|\bwimps?\b',
     'exp-002': r'gravitacn\w* vln\w*|gravitational wave',
-    'exp-003': r'spad\w* do cern\w* dir\w*|pad\w* do cern\w* dir\w*|spagetifik\w*',
+    'exp-003': r'(?:spad\w*|pad\w*) do ' + BLACK_HOLE_PATTERN + r'|spagetifik\w*',
     'exp-004': r'temn\w* energi\w*|dark energy|kosmologick\w* konstant\w*',
-    'exp-005': r'cern\w* dir\w*|black holes?',
+    'exp-005': BLACK_HOLE_PATTERN + r'|black holes?',
     'exp-006': r'horizont\w* udalost\w*|event horizons?',
     'exp-007': r'reliktn\w* zaren\w*|\bcmb\b|cosmic microwave background',
     'exp-008': r'neutronov\w* hvezd\w*|neutron stars?',
     'exp-009': r'spiraln\w* ramen\w*|spiral arms?',
     'exp-010': r'rotacn\w* kriv\w*|rotation curves?|dukaz\w* temn\w* hmot\w*',
-    'exp-011': r'hawking\w*|vypar\w* cern\w* dir\w*|black hole evaporation',
+    'exp-011': r'hawking\w*|vypar\w* ' + BLACK_HOLE_PATTERN + r'|black hole evaporation',
     'exp-012': r'\bgw\d{6}\b|detek\w* gravitacn\w* vln\w*|gravitational.wave event',
     'exp-013': r'anizotrop\w*|map\w* reliktn\w* zaren\w*|cmb anisotrop\w*',
     'exp-014': r'\bmagnetar\w*|\bpul[sz]ar\w*',
     'exp-015': r'\bexoplanet\w*',
     'exp-016': r'\baxion\w*|\bwimps?\b|kandidat\w* temn\w* hmot\w*|dark matter candidates?',
-    'exp-017': r'velk\w* tresk\w*|big bang|kosmick\w* inflac\w*|cosmic inflation',
+    'exp-017': r'velk\w* tresk\w*|big bang|kosmick\w* inflac\w*|cosmic inflation|reionizac\w*|temn\w* vek\w* (?:vesmir\w*|kosm\w*)|ran\w* vesmir\w*|pocat\w* vesmir\w*',
     'exp-018': r'supermasiv\w*|supermassive|\bsgr a|\bm87\b',
     'exp-019': r'bez temn\w* hmot\w*|without dark matter|dark.matter.free',
     'exp-020': r'\bligo\b|\bvirgo\b|\bkagra\b|\blisa\b|interferometr\w*',
     'exp-021': r'\bcobe\b|\bwmap\b|planck\w* (?:druzic\w*|satelit\w*|observator\w*)',
     'exp-022': r'kilonov\w*|r.proces\w*|nukleosyntez\w*|nucleosynthesis|tezk\w* prvk\w*',
-    'exp-023': r'vznik\w* galaxi\w*|formov\w* galaxi\w*|galaxy formation|galaxi\w* rost\w*',
-    'exp-024': r'sraz\w* galaxi\w*|splyv\w* galaxi\w*|sluc\w* galaxi\w*|galaxy (?:collisions?|mergers?)',
+    'exp-023': r'vznik\w* galaxi\w*|formov\w* galaxi\w*|zrod\w* galaxi\w*|galaxy formation|galaxi\w* (?:rost\w*|vznik\w*|formuj\w*)|kosmick\w* (?:sit\w*|pavucin\w*)|vesmirn\w* sit\w*|velkorozmerov\w* struktur\w*|formov\w* galaktick\w* jader\w*|tvorb\w* hvezd\w*',
+    'exp-024': r'sraz\w* galaxi\w*|sply[vn]\w* galaxi\w*|slo?uc\w* galaxi\w*|galaxy (?:collisions?|mergers?)',
     'exp-025': r'hubble\w* konstant\w*|hubble constant|\bh0\b|\bh₀\b',
     'exp-026': r'hubble\w* napeti|hubble tension',
     'exp-027': r'\b(?:λ|lambda)[ -]?cdm\b|\blcdm\b|standard\w* kosmolog\w* model\w*',
-    'exp-028': r'\bteleskop\w*|\bdalekohled\w*|\bobservator\w*|\bjwst\b|james webb|\balma\b|\bvlt\b',
+    'exp-028': r'\b(?:radio)?teleskop\w*|\b(?:radio)?dalekohled\w*|\bobservator\w*|\bjwst\b|james webb|\balma\b|\bvlt\b',
     'exp-029': r'standard\w* model\w* castic\w*|standard model of particle|\bkvark\w*|\bquark\w*|\blepton\w*|higgs\w*',
     'exp-030': r'hubble\w* (?:vesmirn\w* )?(?:teleskop\w*|dalekohled\w*)|hubble space telescope|\bhst\b',
     'exp-031': r'webb\w*|\bjwst\b',
-    'exp-032': r'\bvlt\b|\bvlti\b|\bparanal\w*|\bgravity\b',
+    'exp-032': r'\bvlt\b|\bvlti\b|\bparanal\w*|(?:pristroj\w*|interferometr\w*|instrument\w*|spoluprac\w*) gravity|gravity (?:collaboration|interferometr\w*|instrument\w*)|gravity\+',
     'exp-033': r'\balma\b|\bchajnantor\w*',
     'exp-034': r'\blhc\b|\bcern\b|\batlas\b|\bcms\b|\balice\b|urychlovac\w*|hadron collider',
     'exp-035': r'\bspektroskop\w*|\bspektrograf\w*|\bspectroscop\w*|\bspectrograph\w*',
@@ -382,11 +385,11 @@ EXPLAINER_PATTERNS = {
     'exp-042': r'\bsuperpozic\w*|\bsuperposition\w*|\bdekoherenc\w*|\bdecoherence\w*',
     'exp-043': r'\bheisenberg\w*|princip\w* neurcitost\w*|uncertainty principle',
     'exp-044': r'kvantov\w* provazan\w*|\bentangle\w*|bellov\w* nerovnost\w*',
-    'exp-045': r'kvantov\w* teori\w* pol\w*|quantum field theor\w*|\bqft\b',
+    'exp-045': r'kvantov\w* teori\w* pol\w*|quantum field theor\w*|\bqft\b|mrizkov\w* teori\w* pol\w*|feynmanov\w* diagram\w*|kvantov\w* amplitud\w*',
     'exp-046': r'kvantov\w* pol\w*|quantum fields?|elektronov\w* pol\w*',
     'exp-047': r'kvantov\w* vaku\w*|quantum vacuum|vakuov\w* fluktuac\w*|casimir\w*',
     'exp-048': r'higgs\w*|brout.englert',
-    'exp-049': r'kvantov\w* gravitac\w*|quantum gravity|\bgraviton\w*|smyckov\w* gravitac\w*|string theor\w*',
+    'exp-049': r'kvantov\w* gravitac\w*|quantum gravity|\bgraviton\w*|smyckov\w* gravitac\w*|string theor\w*|holografick\w* (?:kosmolog\w*|princip\w*|dualit\w*)|\bikkt\b|maticov\w* model\w* casoprostor\w*',
     'exp-050': (r'rozsir\w* (?:standardn\w* |zakladn\w* )?(?:kosmologick\w* model\w*|(?:model\w* )?(?:lambda|λ|l)[ -]?cdm)'
         r'|extended cosmolog\w*|beyond [λl]?cdm|early dark energy|ran\w* temn\w* energi\w*'
         r'|\b(?:sidm|wdm)\b|self[ -]?interact\w* dark matter|warm dark matter'
@@ -397,18 +400,18 @@ EXPLAINER_PATTERNS = {
     'exp-054': r'bayes\w*|porovnavan\w* (?:kosmologick\w* )?model\w*|model selection|systematick\w* (?:chyb\w*|nejistot\w*)',
     'exp-055': r'histori\w* kosmologi\w*|history of cosmology',
     'exp-056': r'leavitt\w*|cefeid\w*|cepheid\w*',
-    'exp-057': r'lemaitre\w*|prvotni atom|primeval atom',
-    'exp-058': r'edwin hubble|hubble.{0,12}1929|slipher\w*|humason\w*',
-    'exp-059': r'vera rubin\w*|rubinov\w*|kent ford',
-    'exp-070': r'albert einstein',
+    'exp-057': r'lemaitr\w*|prvotni atom|primeval atom',
+    'exp-058': r'edwin\w* hubble\w*|hubble.{0,12}1929|slipher\w*|humason\w*',
+    'exp-059': r'ver\w* rubin\w*|rubinov\w*|kent\w* ford\w*',
+    'exp-070': r'albert\w* einstein\w*|einsteinov\w* rovnic\w*|obecn\w* (?:teori\w* )?relativit\w*',
     'exp-071': r'friedmann\w*',
     'exp-072': r'perlmutter\w*',
-    'exp-073': r'brian schmidt',
-    'exp-074': r'adam riess|riessov\w*',
-    'exp-075': r'penzias\w*|robert wilson',
-    'exp-076': r'james peebles|jim peebles|peeblesov\w*',
-    'exp-077': r'fritz zwicky|zwickyho',
-    'exp-078': r'kosmick\w* topologi\w*|cosmic topology|prostorov\w* kriv\w*|spatial curvature|tvar\w* vesmir\w*|\bzakriven\w*\s+vesmir\w*\b|\bzakriveni\s+prostorocasu\b',
+    'exp-073': r'brian\w* schmidt\w*',
+    'exp-074': r'adam\w* riess\w*|riessov\w*',
+    'exp-075': r'penzias\w*|robert\w* wilson\w*',
+    'exp-076': r'james\w* peebles\w*|jim\w* peebles\w*|peeblesov\w*',
+    'exp-077': r'fritz\w* zwicky\w*|zwickyho',
+    'exp-078': r'kosmick\w* topologi\w*|cosmic topology|prostorov\w* kriv\w*|spatial curvature|tvar\w* vesmir\w*|\bzakriven\w*\s+vesmir\w*\b|\bzakriveni\s+prostorocasu\b|\bzakriveni\s+casoprostoru\b',
     'exp-079': r'big rip|big crunch|big freeze|heat death|tepelna smrt|konec vesmir\w*|budoucnost\w* vesmir\w*',
     'exp-080': r'zrychl\w* rozpin\w*|accelerat\w* expansion|supernov\w* cosmolog\w*',
     'exp-081': r'kosmick\w* inflac\w*|kosmologick\w* inflac\w*|cosmic inflation|cosmological inflation|primordial gravitational waves',
@@ -420,8 +423,25 @@ EXPLAINER_PATTERNS = {
     'exp-067': r'antihmot\w*|antimatter|antiatom\w*|antivodik\w*|antihydrogen|leptogenez\w*|leptogenesis',
     'exp-068': r'neutrin\w* oscil\w*|neutrino oscillation\w*|oscil\w* neutrin\w*|hmotnost\w* neutrin\w*|neutrino mass\w*|\bmsw\b',
     'exp-069': r'kosmick\w* zaren\w*|cosmic rays?|casticov\w* sprsk\w*|air showers?|pierre auger',
+
+    'exp-060': r'(?:druzic\w*|satelit\w*|mise|mission) planck\w*|planck\w* (?:druzic\w*|satelit\w*|observator\w*|data|meren\w*)|(?:vysledk\w*|dat\w*|meren\w*) (?:druzic\w* )?planck\w*',
+    'exp-061': r'euclid(?:u|em|a|uv|ova|ovy|ove|ovych|ovym|ovymi|ovu)?|(?:dalekohled\w*|teleskop\w*|mise) euklid(?:u|em|a|uv|ova|ovy|ove)?',
+    'exp-062': r'\bdesi\b|dark energy spectroscopic instrument',
+    'exp-063': r'neutrinov\w* (?:detektor\w*|zachytavac\w*)|detektor\w* neutrin\w*|icecube|km3net|super[ -]?kamiokande|hyper[ -]?kamiokande',
+    'exp-064': r'prim\w* detekc\w* temn\w* hmot\w*|hledan\w* castic\w* temn\w* hmot\w*|xenonnt|lux[ -]?zeplin|pandax',
+    'exp-095': r'spektraln\w* (?:trid\w*|typ\w*|klasifikac\w*)|trid\w* hvezd\w*|klasifikac\w* hvezd\w*|hlavn\w* posloupnost\w*',
+    'exp-096': r'planetarn\w* soustav\w*|viceplanet\w* (?:system\w*|soustav\w*)|trappist[ -]?1|kepler[ -]?(?:90|11)|toi[ -]?178|55 cancri',
+    'exp-097': r'hork\w* jupiter\w*|hork\w* neptun\w*|neobvykl\w* (?:exo)?planet\w*|exotick\w* (?:exo)?planet\w*|wasp[ -]?107|hd[ -]?80606|kepler[ -]?16|51 peg\w*|psr b1257',
+    'exp-098': r'(?:budoucnost\w*|zanik\w*|konec|vyvoj\w*) slunc\w*|slunc\w*.{0,60}(?:cerven\w* obr\w*|bil\w* trpasl\w*)',
+    'exp-099': r'nejblizs\w* hvezd\w*|sousedn\w* hvezd\w*|proxima(?: centauri)?|(?:alfa|alpha) centauri|barnardov\w* hvezd\w*|wolf[ -]?359|lalande[ -]?21185|siri(?:us|a|u|ovi|em)',
+    'exp-100': r'mlecn\w* drah\w*|milky way|(?:mlecn\w* draze)|ramen\w* orion\w*|mistn\w* ramen\w*|poloh\w* slunc\w* v galaxi\w*',
+    'exp-101': r'mistn\w* skupin\w*|local group|magellan(?:ov|uv)\w* oblak\w*|kup\w* v panne|virgo cluster|andromed\w*|galaktick\w* okoli|kup\w* galaxi\w*',
 }
 
+
+# Compile once; require full word boundaries around each complete phrase.
+EXPLAINER_MATCHERS = {identity: re.compile(r'(?<!\w)(?:' + pattern + r')(?!\w)')
+                      for identity, pattern in EXPLAINER_PATTERNS.items()}
 
 def explainer_catalog(site):
     """Use the exact same slug allocation as the Kosmopedie generator."""
@@ -438,12 +458,18 @@ def explainer_catalog(site):
             number += 1
         used.add(slug)
         entry['_slug'] = slug
+    missing = [entry['id'] + ': ' + entry['title'] for entry in entries
+               if entry['id'] not in EXPLAINER_PATTERNS]
+    if missing:
+        print('::warning::Kosmopedie: doplňte pravidla pro související odkazy: ' + '; '.join(missing))
     return entries
 
 
 def topic_text(value):
     text = unicodedata.normalize('NFKD', str(value or '').lower())
-    return ''.join(c for c in text if not unicodedata.combining(c))
+    text = ''.join(c for c in text if not unicodedata.combining(c))
+    text = re.sub(r'[\u2010-\u2015\u2212]', '-', text)
+    return re.sub(r'\s+', ' ', text).strip()
 
 
 def related_explainers(item, catalog, limit=2):
@@ -451,11 +477,11 @@ def related_explainers(item, catalog, limit=2):
     body = topic_text(' '.join(str(item.get(k) or '') for k in ('summary', 'original_title')))
     ranked = []
     for entry in catalog:
-        pattern = EXPLAINER_PATTERNS.get(entry.get('id'))
+        pattern = EXPLAINER_MATCHERS.get(entry.get('id'))
         if not pattern:
             continue
-        title_hit = bool(re.search(pattern, title))
-        body_hit = bool(re.search(pattern, body))
+        title_hit = bool(pattern.search(title))
+        body_hit = bool(pattern.search(body))
         if not (title_hit or body_hit):
             continue
         # Prefer a specific concept from the headline over incidental body mentions.
