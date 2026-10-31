@@ -26,8 +26,10 @@ ACCENT = (110, 168, 254)
 BORDER = (30, 41, 59)
 LOGO_SIZE = 88
 
-BODY_SIZE = 26
-BODY_LEADING = 38
+# Větší písmo + odpovídající řádkování ponechají přibližně 2/3 textu.
+# Počet řádků se dále odvozuje od výšky titulku a místa nad patičkou.
+BODY_SIZE = 32
+BODY_LEADING = 44
 BODY_MAX_WIDTH = W - 120
 FOOTER_Y = H - 92
 BODY_BOTTOM = FOOTER_Y - 28
