@@ -5,6 +5,7 @@ from datetime import date, datetime
 from zoneinfo import ZoneInfo
 from pathlib import Path
 from html import escape
+from urllib.parse import urlsplit
 from assign_article_images import candidates_for, thumbnail, figure, image_url, image_schema
 
 START = '<!-- EDITORIAL:START -->'
@@ -47,6 +48,84 @@ def markdown(body):
         blocks.append('</section>')
     return '\n'.join(blocks)
 
+LINK = re.compile(r'\[([^\]]+)\]\(([^\s)]+)\)')
+RELATED_HEADINGS = {
+    'pro pochopení souvislostí', 'související z kosmopedie',
+    'odkazy na kosmopedii', 'odkazy na novinky', 'související novinky',
+    'související články z kosmonovinek',
+}
+
+
+def related_kind(url):
+    """Only exact detail links on this site belong in the related-link footer."""
+    parsed = urlsplit(url)
+    if parsed.scheme:
+        if parsed.scheme not in ('http', 'https') or parsed.hostname not in ('kosmonovinky.cz', 'www.kosmonovinky.cz'):
+            return None
+    elif not url.startswith('/') or url.startswith('//'):
+        return None
+    match = re.fullmatch(r'/(clanky|kosmopedie)/[a-z0-9-]+\.html', parsed.path)
+    return match[1] if match else None
+
+
+def related_section(links, heading, css):
+    if not links:
+        return ''
+    items = ''.join('<li>' + inline('[' + title + '](' + url + ')') + '</li>' for title, url in links)
+    return ('<section class="related ' + css + '"><h2>' + heading + '</h2><ul>' + items + '</ul></section>')
+
+
+def article_parts(body):
+    """Preserve prose; render sources, news and Kosmopedie in one shared order."""
+    links = {'clanky': [], 'kosmopedie': []}
+    seen = {'clanky': set(), 'kosmopedie': set()}
+    for match in LINK.finditer(body):
+        kind = related_kind(match[2])
+        if kind and urlsplit(match[2]).path not in seen[kind]:
+            seen[kind].add(urlsplit(match[2]).path)
+            links[kind].append((match[1], match[2]))
+
+    pieces = re.split(r'(?m)^##[ \t]+([^\r\n]+)[ \t]*$', body)
+    prose, sources = [pieces[0]], []
+    for i in range(1, len(pieces), 2):
+        heading, content = pieces[i].strip(), pieces[i + 1]
+        lines = [line for line in content.splitlines() if line.strip()]
+        is_link_list = bool(lines) and all(re.fullmatch(r'- \[[^\]]+\]\([^\s)]+\)', line.strip()) for line in lines)
+        if heading.casefold().startswith('zdroje'):
+            kept = []
+            for line in content.splitlines():
+                item = re.fullmatch(r'\s*- \[([^\]]+)\]\(([^\s)]+)\)\s*', line)
+                # Local links move to the related footer; keep all external sources
+                # and any explanatory prose in the bibliography.
+                if item and related_kind(item[2]):
+                    continue
+                kept.append(line)
+            if any(line.strip() for line in kept):
+                sources.append('## ' + heading + '\n\n' + '\n'.join(kept).strip())
+        elif heading.casefold() in RELATED_HEADINGS and is_link_list and all(related_kind(LINK.search(line)[2]) for line in lines):
+            # A dedicated list is now represented once by the standard footer.
+            continue
+        else:
+            prose.append('## ' + heading + '\n' + content)
+    return {
+        'body': markdown('\n\n'.join(prose)),
+        'sources': '\n'.join(markdown(part) for part in sources),
+        'related_news': related_section(links['clanky'], 'Související novinky', 'editorial-news'),
+        'related_explainery': related_section(links['kosmopedie'], 'Související z Kosmopedie', 'kosmopedie-context'),
+    }
+
+
+def paging(previous, following):
+    links = []
+    for post, rel, label, css in ((previous, 'prev', '← Předchozí příspěvek', 'prev'),
+                                  (following, 'next', 'Následující příspěvek →', 'next')):
+        if post:
+            links.append('<a class="' + css + '" rel="' + rel + '" href="' + escape(post['href'], quote=True) + '">'
+                         '<span class="meta">' + label + '</span><span>' + escape(post['title']) + '</span></a>')
+    return ('<nav class="post-nav editorial-paging" aria-label="Procházení příspěvků Pohledem editora">'
+            + ''.join(links) + '</nav>') if links else ''
+
+
 def load_posts(site, library):
     posts = []
     today = datetime.now(ZoneInfo('Europe/Prague')).date()
@@ -70,7 +149,8 @@ def load_posts(site, library):
         if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', slug):
             raise ValueError(f'{path}: název souboru smí obsahovat malá písmena bez diakritiky, číslice a spojovníky')
         if not match[2].strip(): raise ValueError(f'{path}: chybí text')
-        meta.update(slug=slug, body=markdown(match[2]), author='Zdeněk Bubák',
+        meta.update(article_parts(match[2]))
+        meta.update(slug=slug, author='Zdeněk Bubák',
                     href='/pohledem-editora/' + slug + '.html', published=meta['date'])
         catalog = library[1]
         requested = meta.get('image', 'auto')
@@ -98,7 +178,9 @@ def build(site, out, base, library, page_head, foot, fmt_date, article_footer=""
     # This directory is owned by this generator; remove withdrawn comments too.
     for old in folder.glob('*.html'): old.unlink()
     urls = []
-    for post in posts:
+    for index, post in enumerate(posts):
+        previous = posts[index + 1] if index + 1 < len(posts) else None
+        following = posts[index - 1] if index > 0 else None
         url = base + post['href']; entry = post['image_entry']
         description = description_formatter(post['perex']) if description_formatter else post['perex']
         schema = {'@type':'Article','headline':post['title'],'description':description,
@@ -108,8 +190,9 @@ def build(site, out, base, library, page_head, foot, fmt_date, article_footer=""
         page += ('<p class="breadcrumbs"><a href="/">Hlavní stránka</a> › <a href="/pohledem-editora/">Pohledem editora</a></p>'
                  '<article class="post"><p class="theme-badge">Pohledem editora</p>'
                  f'<h1>{escape(post["title"])}</h1><p class="meta">Zdeněk Bubák · {fmt_date(post["date"])}</p>'
-                 f'<p class="summary"><strong>{escape(post["perex"])}</strong></p>'+figure(entry)+post['body']+article_footer+
-                 (feedback_renderer(post['title'], url) if feedback_renderer else '')+
+                 f'<p class="summary"><strong>{escape(post["perex"])}</strong></p>'+figure(entry)+post['body']+
+                 post['sources']+post['related_news']+post['related_explainery']+article_footer+
+                 (feedback_renderer(post['title'], url) if feedback_renderer else '')+paging(previous, following)+
                  '</article><p class="back"><a href="/pohledem-editora/">← Všechny komentáře</a> · <a href="/clanky/">Přehled článků</a></p>'+foot)
         (folder/(post['slug']+'.html')).write_text(page,encoding='utf-8')
         urls.append((url,post['date']))

@@ -152,14 +152,14 @@ CSS = """
     .back { margin-top: 1.5rem; font-size: .9rem; }
     .post-nav { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid #1e293b; padding-top: 1rem; margin-top: 1.5rem; font-size: .95rem; }
     .post-nav .next { margin-left: auto; }
-    .image-paging { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
-    .image-paging a { min-width: 0; overflow-wrap: anywhere; text-decoration: none; }
-    .image-paging a:hover, .image-paging a:focus-visible { text-decoration: underline; }
-    .image-paging .next { grid-column: 2; margin-left: 0; text-align: right; }
-    .image-paging span { display: block; }
+    .image-paging, .editorial-paging { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+    .image-paging a, .editorial-paging a { min-width: 0; overflow-wrap: anywhere; text-decoration: none; }
+    .image-paging a:hover, .image-paging a:focus-visible, .editorial-paging a:hover, .editorial-paging a:focus-visible { text-decoration: underline; }
+    .image-paging .next, .editorial-paging .next { grid-column: 2; margin-left: 0; text-align: right; }
+    .image-paging span, .editorial-paging span { display: block; }
     @media (max-width: 600px) {
-      .image-paging { grid-template-columns: minmax(0, 1fr); }
-      .image-paging .next { grid-column: auto; text-align: left; }
+      .image-paging, .editorial-paging { grid-template-columns: minmax(0, 1fr); }
+      .image-paging .next, .editorial-paging .next { grid-column: auto; text-align: left; }
     }
     .back a { color: var(--accent); }
     .search-box { width: 100%; padding: .35rem .85rem; margin: .6rem 0 1.2rem; border: 1px solid #1e293b; border-radius: 10px; background: var(--card); color: var(--text); font-size: .95rem; outline: none; }
@@ -473,7 +473,7 @@ def explainer_links_html(item, catalog):
         f'        <li><a href="/kosmopedie/{esc(entry["_slug"])}.html">{esc(entry["title"])}</a></li>'
         for entry in entries)
     return ('    <section class="related kosmopedie-context">\n'
-            '      <h2>Pro pochopení souvislostí</h2>\n'
+            '      <h2>Související z Kosmopedie</h2>\n'
             '      <p>Související pojmy srozumitelně vysvětluje Kosmopedie:</p>\n'
             '      <ul>\n' + links + '\n      </ul>\n    </section>\n')
 
@@ -1013,7 +1013,7 @@ def main():
       {image_figure(article_image)}
       <p class="summary">{esc(summary)}</p>
 {lang_note}      <a class="original-source" href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
-{context_html}{rel_html}{NEWSLETTER_CTA}{feedback_link(item.get('title'), url)}{nav_html}    </article>
+{rel_html}{context_html}{NEWSLETTER_CTA}{feedback_link(item.get('title'), url)}{nav_html}    </article>
         <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>
 '''
         page += FOOT
