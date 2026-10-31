@@ -308,5 +308,25 @@
     "status": "published",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-10-31T08:24:59.540753+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_dd4a2906027c80e76813",
+    "title": "https://t.co/InkoEjgkA6: Webb zachytil záhadný signál z prázdného vesmíru. Nikdo neví, co je zač https://t.co/iqZX5Rzanr https://t.co/N8hJsHz5mt",
+    "platform_id": "6ae5ae911891472093c278e7",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-31T09:02:10.527727+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_2c9343c41e4e9dd1f285",
+    "title": "Prastaré monstrum: Rádiová galaxie z doby před 12,5 miliardami let může být nejvýkonnější, jaká kdy byla objevena https://t.co/z3xjeyCtmp https://t.co/Nbb6yMJdnC",
+    "platform_id": "6ae5ae94406ab8a018aadc67",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-10-31T09:02:13.385771+00:00"
   }
 ]
