@@ -517,6 +517,22 @@ def related_news_for_explainer(entry, news, limit=3):
     return [item for score, item in ranked[:limit]]
 
 
+def article_summary_html(summary):
+    """Separate the reader-facing takeaway without changing stored article text."""
+    text = str(summary or '')
+    match = re.search(r'(?<!\w)Proč\s+je\s+to\s+zajímavé\s*:', text, flags=re.IGNORECASE)
+    if not match:
+        return f'<p class="summary">{esc(text)}</p>'
+    main = text[:match.start()].strip()
+    takeaway = text[match.end():].strip()
+    # An empty label alone should not create an empty paragraph.
+    if not takeaway:
+        return f'<p class="summary">{esc(text)}</p>'
+    paragraphs = [f'<p class="summary">{esc(main)}</p>'] if main else []
+    paragraphs.append(f'<p class="summary"><strong>Proč je to zajímavé:</strong> {esc(takeaway)}</p>')
+    return '\n      '.join(paragraphs)
+
+
 def explainer_links_html(item, catalog):
     entries = related_explainers(item, catalog)
     if not entries:
@@ -1063,7 +1079,7 @@ def main():
       <h1>{esc(item.get("title"))}</h1>
       <p class="meta">Publikováno: {fmt_date(item.get("published"))} · Zdroj: {esc(item.get("source"))}</p>
       {image_figure(article_image)}
-      <p class="summary">{esc(summary)}</p>
+      {article_summary_html(summary)}
 {lang_note}      <a class="original-source" href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
 {rel_html}{context_html}{NEWSLETTER_CTA}{feedback_link(item.get('title'), url)}{nav_html}    </article>
         <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>
