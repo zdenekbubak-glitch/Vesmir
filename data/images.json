@@ -1,5 +1,20 @@
 [
   {
+    "id": "apod-2026-11-01",
+    "title": "Barvy Měsíce",
+    "caption": "Jakou barvu má Měsíc? Mimo zemskou atmosféru se jeví jako hnědošedý, ale při pohledu ze Země jeho barvu ovlivňuje výška nad obzorem i atmosférické podmínky. Tato mozaika zachycuje různé zdánlivé barvy úplňku fotografované napříč Itálií během deseti let, od běžných žlutých a červených odstínů u obzoru až po vzácnější modré či fialové tóny.",
+    "thumb": "assets/gallery/apod-2026-11-01.jpg",
+    "image": "assets/gallery/apod-2026-11-01.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+    "published": "2026-11-01",
+    "credit": "Marcella Giulia Pace",
+    "original_title": "Colors of the Moon",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-01T08:22:21.787798+00:00"
+  },
+  {
     "id": "apod-2026-10-31",
     "title": "Noc na strašidelné planetě",
     "caption": "Tato strašidelná scenérie zachycuje planetu Zemi během temné noci v geotermálně aktivní oblasti Hverir na severovýchodě Islandu. Geomagnetické bouře vyvolané sluneční aktivitou zde vytvořily tajuplnou zelenou polární záři, proti níž tančí sloupy páry a plynů unikající z místních fumarol. Aktivita polárních září zůstává i nadále vysoká, neboť Slunce se teprve začíná vzdalovat od maxima svého cyklu.",
