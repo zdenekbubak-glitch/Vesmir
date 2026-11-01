@@ -328,5 +328,35 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-10-31T09:02:13.385771+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_fc72dc4e5cf7e6f0cd47",
+    "title": "Zapomenutá částice může vysvětlit, proč vesmír a život vůbec existují",
+    "platform_id": "6ae6f6da1ee172cd6de7b7dd",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-01T08:22:52.799478+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_fc72dc4e5cf7e6f0cd47",
+    "title": "Zapomenutá částice může vysvětlit, proč vesmír a život vůbec existují",
+    "platform_id": "6ae6f6f4cf3a3112f3e8798a",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-01T08:23:19.209973+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_fc72dc4e5cf7e6f0cd47",
+    "title": "Zapomenutá částice může vysvětlit, proč vesmír a život vůbec existují",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mz7iuy6k22ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-01T08:23:51.112856+00:00"
   }
 ]
