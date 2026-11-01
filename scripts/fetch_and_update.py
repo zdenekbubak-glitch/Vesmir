@@ -118,9 +118,13 @@ Abstrakt:
 
 Požadavky:
 1. Vytvoř poutavý český titulek (max 80 znaků).
-2. Napiš shrnutí 80–140 slov – srozumitelně, přesně, bez zbytečného žargonu.
-3. Na konci přidej jednu větu „Proč je to zajímavé“.
-4. Vrať POUZE validní JSON v tomto formátu (žádný markdown):
+2. Napiš srozumitelný a věcně přesný český článek, obvykle 120–200 slov včetně závěru. Pokud potřebné vysvětlení vyžaduje více místa a podklad obsahuje dost informací, můžeš použít až přibližně 250 slov. Jednoduchou zprávu nenatahuj a neopakuj stejné sdělení.
+3. Už v úvodu jasně řekni, co výzkum zkoumá a co autoři zjistili nebo navrhli. Uveď přesný název hlavního předmětu (například částice, přístroje či jevu), pokud je v podkladu. Nezůstávej jen u neurčitého označení typu „zapomenutá částice“.
+4. Odborný pojem nebo zkratku potřebnou k pochopení při prvním použití stručně vysvětli běžnou češtinou přímo ve větě. Zbytečný odborný termín nahraď běžnými slovy. Vysvětli také důležité vazby mezi příčinou, postupem a výsledkem. Nepřidávej odbočky ani slovníček.
+5. Konkrétní názvy, výsledky a závěry přebírej pouze z dodaného podkladu; chybějící identitu částice ani jiné podrobnosti neodhaduj. Obecné vysvětlení pojmu musí být ustálené a jednoznačné. Důsledně rozlišuj pozorování, výsledek simulace a hypotézu; možnost nepopisuj jako prokázaný objev.
+6. Před vrácením výsledku text v rámci této odpovědi redakčně zkontroluj: pochopí běžný čtenář hlavní sdělení, jsou potřebné termíny vysvětlené a pojmenovaný předmět přesný podle podkladu? Nejasná místa uprav. Upřednostni přímý výklad; upozornění na to, co výsledek neznamená, přidej jen tam, kde předchází podstatnému omylu. Kontrolní postup ve výsledku nevypisuj.
+7. Na konci přidej jednu konkrétní větu začínající přesně „Proč je to zajímavé:“.
+8. Vrať POUZE validní JSON v tomto formátu (žádný markdown):
 {{
   "title_cs": "...",
   "summary_cs": "..."
