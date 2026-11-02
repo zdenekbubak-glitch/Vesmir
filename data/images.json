@@ -1,5 +1,20 @@
 [
   {
+    "id": "apod-2026-11-02",
+    "title": "Dlouhý oblak na Marsu",
+    "caption": "Tento neobvyklý mrak z vodního ledu, známý jako AMEC (Arsia Mons Elongated Cloud), se nad Marsem tvoří pouze v ranních hodinách během jara a léta. Na snímku ze sondy Mars Express z roku 2018 je vidět, jak vítr odnáší mrak od sopky Arsia Mons a vytváří závoj dlouhý přes 1500 kilometrů. Vzhledem k řídké atmosféře a nedostatku prachu ve velkých výškách se vědci domnívají, že krystalky ledu zde vznikají neobvyklým způsobem bez účasti prachových částic.",
+    "thumb": "assets/gallery/apod-2026-11-02.jpg",
+    "image": "assets/gallery/apod-2026-11-02.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
+    "published": "2026-11-02",
+    "credit": "ESA, DLR, FU Berlin; Processing &amp; License: J. Cowart",
+    "original_title": "A Long Cloud on Mars",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-02T08:25:26.677543+00:00"
+  },
+  {
     "id": "apod-2026-11-01",
     "title": "Barvy Měsíce",
     "caption": "Jakou barvu má Měsíc? Mimo zemskou atmosféru se jeví jako hnědošedý, ale při pohledu ze Země jeho barvu ovlivňuje výška nad obzorem i atmosférické podmínky. Tato mozaika zachycuje různé zdánlivé barvy úplňku fotografované napříč Itálií během deseti let, od běžných žlutých a červených odstínů u obzoru až po vzácnější modré či fialové tóny.",
