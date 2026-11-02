@@ -358,5 +358,35 @@
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-01T08:23:51.112856+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_bb2adb029f2f2ba0f9f8",
+    "title": "Silné gravitační čočky naznačují samopůsobící temnou hmotu",
+    "platform_id": "6ae849197817c41d1a523dea",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-02T08:26:03.875019+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_bb2adb029f2f2ba0f9f8",
+    "title": "Silné gravitační čočky naznačují samopůsobící temnou hmotu",
+    "platform_id": "6ae84936759fc887b6d954b8",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-02T08:26:34.936251+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_bb2adb029f2f2ba0f9f8",
+    "title": "Silné gravitační čočky naznačují samopůsobící temnou hmotu",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzbzdvnc22ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-02T08:27:06.887170+00:00"
   }
 ]
