@@ -398,5 +398,15 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-02T09:03:25.950162+00:00"
+  },
+  {
+    "source": "linkedin",
+    "kind": "weekly",
+    "key": "linkedin_weekly_bb2adb029f2f2ba0f9f8",
+    "title": "Týdenní výběr Kosmologických novinek: 27. října – 2. listopadu 2026",
+    "platform_id": "6ae854c7dd7a4869734d93b0",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-02T09:15:52.603003+00:00"
   }
 ]
