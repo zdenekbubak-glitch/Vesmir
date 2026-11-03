@@ -1,5 +1,20 @@
 [
   {
+    "id": "apod-2026-11-03",
+    "title": "Kometa PanSTARRS a duhový meteor",
+    "caption": "Pocházel tento meteor z prolétající komety? Pravděpodobně ne, kometa C/2025 R3 (PanSTARRS) zachycená v dubnu z francouzského Hautacamu se nachází daleko za zářícím meteorem v popředí. Zatímco obří ledovec předvedl působivý iontový a prachový ohon, pestré barvy meteoru mohou ukazovat na jeho složitější chemické složení.",
+    "thumb": "assets/gallery/apod-2026-11-03.jpg",
+    "image": "assets/gallery/apod-2026-11-03.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
+    "published": "2026-11-03",
+    "credit": "Eddy Metais",
+    "original_title": "Comet PanSTARRs and Rainbow Meteor",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-03T08:24:33.880438+00:00"
+  },
+  {
     "id": "apod-2026-11-02",
     "title": "Dlouhý oblak na Marsu",
     "caption": "Tento neobvyklý mrak z vodního ledu, známý jako AMEC (Arsia Mons Elongated Cloud), se nad Marsem tvoří pouze v ranních hodinách během jara a léta. Na snímku ze sondy Mars Express z roku 2018 je vidět, jak vítr odnáší mrak od sopky Arsia Mons a vytváří závoj dlouhý přes 1500 kilometrů. Vzhledem k řídké atmosféře a nedostatku prachu ve velkých výškách se vědci domnívají, že krystalky ledu zde vznikají neobvyklým způsobem bez účasti prachových částic.",
