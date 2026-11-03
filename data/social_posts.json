@@ -408,5 +408,35 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-02T09:15:52.603003+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_5078719ef4595b8e1126",
+    "title": "Simulační kód Mercury zkoumá vesmír za hranicemi Einsteinovy teorie",
+    "platform_id": "6ae99a650b0de5080ffaa08f",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-03T08:25:11.779250+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_5078719ef4595b8e1126",
+    "title": "Simulační kód Mercury zkoumá vesmír za hranicemi Einsteinovy teorie",
+    "platform_id": "6ae99a828cfed4eda4c64bac",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-03T08:25:43.574243+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_5078719ef4595b8e1126",
+    "title": "Simulační kód Mercury zkoumá vesmír za hranicemi Einsteinovy teorie",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzejst4222ep",
+    "status": "published",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-03T08:25:46.516765+00:00"
   }
 ]
