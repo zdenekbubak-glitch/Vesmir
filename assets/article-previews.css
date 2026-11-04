@@ -30,3 +30,28 @@
 @media (max-width: 340px) {
   .article-preview { float: none; margin: 0 0 .7rem; }
 }
+
+/* Home-page news: text flows below the image; credits keep their full width. */
+.article-teaser.news-teaser {
+  display: flow-root;
+}
+.news-teaser.article-preview > a {
+  float: right;
+  margin: 0 0 .75rem 1rem;
+}
+.news-teaser > .summary { margin: 0; }
+.news-teaser.article-preview figcaption {
+  clear: both;
+  padding-top: .7rem;
+}
+@media (max-width: 520px) {
+  .news-teaser.article-preview {
+    float: none;
+    width: auto;
+    margin: .75rem 0 1rem;
+  }
+  .news-teaser.article-preview > a {
+    float: none;
+    margin: 0 0 .9rem;
+  }
+}

@@ -653,6 +653,17 @@ def write_gallery_context(site, out, images, news, explainery, library, editor_p
     (folder / 'gallery-context.json').write_text(json.dumps(context, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
 
 
+def home_news_teaser(item, href, library):
+    """Float only the news image; keep its full credit below the entire text."""
+    summary = f'<p class="summary">{esc(item.get("summary"))}</p>'
+    preview = thumbnail(lookup_image(item, 'news', library), href)
+    if not preview:
+        return '<div class="article-teaser news-teaser">' + summary + '</div>'
+    preview = preview.replace('<figure class="article-preview">',
+                              '<figure class="article-preview article-teaser news-teaser">', 1)
+    return preview.replace('<figcaption>', summary + '<figcaption>', 1)
+
+
 def build_home_news(site, out, news, library, links, now=None):
     """Render identical news HTML for all visitors; JS only filters existing cards."""
     template = Path(out) / 'index.html'
@@ -700,9 +711,8 @@ def build_home_news(site, out, news, library, links, now=None):
             cards.append(
                 '<article class="post">'
                 f'<h2><a href="{esc(href)}">{esc(item.get("title"))}</a></h2>'
-                f'<div class="meta">{meta}</div>' + note + '<div class="article-teaser">'
-                + thumbnail(lookup_image(item, 'news', library), href)
-                + f'<p class="summary">{esc(item.get("summary"))}</p></div>'
+                f'<div class="meta">{meta}</div>' + note
+                + home_news_teaser(item, href, library)
                 + context + source_link + '</article>')
         blocks.append('<section class="news-month">'
                       f'<h2 class="section-title">{MESICE_NOM[month - 1]} {year}</h2>'
