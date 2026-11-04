@@ -1,60 +1,131 @@
-/* One layout for the home page, archive, article lists and Kosmopedie. */
-.article-teaser {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 144px;
-  gap: .7rem 1rem;
-  align-items: start;
-  margin: .75rem 0 1rem;
-}
-.article-teaser > .summary { grid-column: 1; grid-row: 1; margin: 0; min-width: 0; }
-.article-preview { display: contents; }
-.article-preview > a { grid-column: 2; grid-row: 1; display: block; }
-.article-preview img {
-  display: block; width: 144px; height: 144px; max-width: 100%;
-  border-radius: 8px; background: #0b1424;
-}
-.article-preview figcaption {
-  grid-column: 1 / -1;
-  margin: 0; font-size: 12px; line-height: 1.5; color: var(--muted, #afbed4);
-  overflow-wrap: anywhere;
-}
-.article-preview figcaption a { text-decoration: underline; }
-.post h2 a { color: inherit; }
-.post h2 a:hover { color: var(--accent, #76c8ff); }
-@media (max-width: 520px) {
-  .article-teaser { display: flow-root; }
-  .article-preview { display: block; float: right; width: 120px; margin: 0 0 .7rem .7rem; }
-  .article-preview img { width: 120px; height: 120px; }
-  .article-preview figcaption { margin-top: .4rem; }
-}
-@media (max-width: 340px) {
-  .article-preview { float: none; margin: 0 0 .7rem; }
-}
-
-/* Home-page news: text flows below the image; credits keep their full width. */
-.article-teaser.news-teaser {
-  display: flow-root;
-}
-.news-teaser.article-preview > a {
-  float: right;
-  margin: 0 0 .75rem 1rem;
-}
-.news-teaser > .summary { margin: 0; }
-.news-teaser.article-preview figcaption {
-  clear: both;
-  padding-top: .7rem;
-}
-@media (max-width: 520px) {
-  .news-teaser.article-preview {
-    float: none;
-    width: auto;
-    margin: .75rem 0 1rem;
-  }
-  .news-teaser.article-preview > a {
-    float: none;
-    margin: 0 0 .9rem;
-  }
-}
+/* One layout for the home page, archive, article lists and Kosmopedie. */
+
+.article-teaser {
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr) 144px;
+
+  gap: .7rem 1rem;
+
+  align-items: start;
+
+  margin: .75rem 0 1rem;
+
+}
+
+.article-teaser > .summary { grid-column: 1; grid-row: 1; margin: 0; min-width: 0; }
+
+.article-preview { display: contents; }
+
+.article-preview > a { grid-column: 2; grid-row: 1; display: block; }
+
+.article-preview img {
+
+  display: block; width: 144px; height: 144px; max-width: 100%;
+
+  border-radius: 8px; background: #0b1424;
+
+}
+
+.article-preview figcaption {
+
+  grid-column: 1 / -1;
+
+  margin: 0; font-size: 12px; line-height: 1.5; color: var(--muted, #afbed4);
+
+  overflow-wrap: anywhere;
+
+}
+
+.article-preview figcaption a { text-decoration: underline; }
+
+.post h2 a { color: inherit; }
+
+.post h2 a:hover { color: var(--accent, #76c8ff); }
+
+@media (max-width: 520px) {
+
+  .article-teaser { display: flow-root; }
+
+  .article-preview { display: block; float: right; width: 120px; margin: 0 0 .7rem .7rem; }
+
+  .article-preview img { width: 120px; height: 120px; }
+
+  .article-preview figcaption { margin-top: .4rem; }
+
+}
+
+@media (max-width: 340px) {
+
+  .article-preview { float: none; margin: 0 0 .7rem; }
+
+}
+
+
+
+/* Home-page news: text flows below the image; credits keep their full width. */
+
+.article-teaser.news-teaser {
+
+  display: flow-root;
+
+}
+
+.news-teaser.article-preview > a {
+
+  float: right;
+
+  margin: 0 0 .75rem 1rem;
+
+}
+
+.news-teaser > .summary { margin: 0; }
+
+.news-teaser.article-preview figcaption {
+
+  clear: both;
+
+  padding-top: .7rem;
+
+}
+
+@media (max-width: 520px) {
+
+  .news-teaser.article-preview {
+
+    float: none;
+
+    width: auto;
+
+    margin: .75rem 0 1rem;
+
+  }
+
+  .news-teaser.article-preview > a {
+
+    float: none;
+
+    margin: 0 0 .9rem;
+
+  }
+
+}
+
 
 /* Give the takeaway its own paragraph in home-page news. */
 .news-teaser > .summary + .summary { margin-top: .85rem; }
+
+/* Home-page news on phones: keep a readable text column beside the image. */
+@media (max-width: 520px) {
+  #feed .news-teaser.article-preview > a {
+    float: right;
+    width: min(120px, 38%);
+    margin: 0 0 .65rem .75rem;
+  }
+  #feed .news-teaser.article-preview > a > img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+}
