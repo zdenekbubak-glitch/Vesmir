@@ -211,7 +211,7 @@
     }
   </style>
   <script defer src="/assets/analytics.js"></script>
-  <link rel="stylesheet" href="/assets/article-previews.css">
+  <link rel="stylesheet" href="/assets/article-previews.css?v=20261104">
   <script src="/assets/article-previews.js"></script>
   <link rel="stylesheet" href="/assets/navigation.css">
 </head>
@@ -299,6 +299,31 @@
       return div.innerHTML;
     }
 
+    function summaryHtml(summary) {
+      const text = String(summary || '');
+      const match = /Proč\s+je\s+to\s+zajímavé\s*:/i.exec(text);
+      if (!match || (match.index > 0 && /[\p{L}\p{N}_]/u.test(text[match.index - 1]))) {
+        return '<p class="summary">' + escapeHtml(text) + '</p>';
+      }
+      const main = text.slice(0, match.index).trim();
+      const takeaway = text.slice(match.index + match[0].length).trim();
+      if (!takeaway) return '<p class="summary">' + escapeHtml(text) + '</p>';
+      return (main ? '<p class="summary">' + escapeHtml(main) + '</p>' : '')
+        + '<p class="summary"><strong>Proč je to zajímavé:</strong> ' + escapeHtml(takeaway) + '</p>';
+    }
+
+    function newsTeaserHtml(preview, summary) {
+      const paragraphs = summaryHtml(summary);
+      const template = document.createElement('template');
+      template.innerHTML = preview.html || '';
+      const figure = template.content.querySelector('figure.article-preview');
+      const caption = figure && figure.querySelector('figcaption');
+      if (!figure || !caption) return '<div class="article-teaser news-teaser">' + paragraphs + '</div>';
+      figure.classList.add('article-teaser', 'news-teaser');
+      caption.insertAdjacentHTML('beforebegin', paragraphs);
+      return figure.outerHTML;
+    }
+
     function renderPost(item) {
       const preview = ArticlePreviews.get(item);
       const inserted = new Date(item.inserted_at).toLocaleString('cs-CZ', { timeZone: 'Europe/Prague' });
@@ -314,7 +339,7 @@
             Vloženo: ${inserted} · Zdroj: ${escapeHtml(item.source)} ${published ? '· Publikováno: ' + published : ''}
           </div>
           ${note}
-          <div class="article-teaser">${preview.html}<p class="summary">${escapeHtml(item.summary)}</p></div>
+          ${newsTeaserHtml(preview, item.summary)}
           <a href="${item.url}" target="_blank" rel="noopener">Původní zdroj →</a>
         </article>`;
     }
