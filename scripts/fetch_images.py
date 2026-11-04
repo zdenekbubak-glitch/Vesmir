@@ -8,6 +8,10 @@ import re
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
+from image_rights import apply_rights, source_metadata, clean_text
 
 import feedparser
 import requests
@@ -219,6 +223,22 @@ def store_local(item: dict) -> bool:
 
 
 
+def enrich_source_metadata(item):
+    """Best-effort official source lookup, independent of paid AI services."""
+    try:
+        response = SESSION.get(item.get('url') or '', timeout=15)
+        response.raise_for_status()
+        fields = source_metadata(response.text, response.url)
+        if fields.get('credit'):
+            item['credit'] = fields['credit']
+        apply_rights(item, fields)
+        if fields.get('rights_metadata_source'):
+            item['rights_metadata_source'] = fields['rights_metadata_source']
+    except Exception as error:
+        print(f"Metadata obrázku nelze ověřit: {item.get('id')}: {error}")
+    return item
+
+
 def fetch_apod() -> list:
     """APOD se přestěhoval. Denní stránky apod.nasa.gov přesměrují na úvod,
     proto bereme oficiální RSS s vlastní fotkou pro každý den.
@@ -275,7 +295,7 @@ def fetch_apod() -> list:
             "source": "NASA APOD",
             "url": link or f"https://science.nasa.gov/apod/",
             "published": date,
-            "credit": credit[:160],
+            "credit": clean_text(credit),
         })
         print(f"APOD {date}: {title[:50]} | {image.split('/')[-1][:50]}")
     return items
@@ -382,6 +402,7 @@ def main():
     now = datetime.now(timezone.utc).isoformat()
     new_items = []
     for item in new_raw[:MAX_ITEMS]:
+        enrich_source_metadata(item)
         item["original_title"] = item.get("title") or ""
         translated = translate_cs(client, item["title"], item["caption"]) if client else None
         if translated:

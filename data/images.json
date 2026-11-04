@@ -12,7 +12,14 @@
     "original_title": "The Not-So-Hidden Galaxy, IC 342",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-11-04T08:25:41.854282+00:00"
+    "inserted_at": "2026-11-04T08:25:41.854282+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Artem Mironov"
+    },
+    "copyrightNotice": "Artem Mironov",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-11-03",
@@ -27,7 +34,14 @@
     "original_title": "Comet PanSTARRs and Rainbow Meteor",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-11-03T08:24:33.880438+00:00"
+    "inserted_at": "2026-11-03T08:24:33.880438+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Eddy Metais"
+    },
+    "copyrightNotice": "Eddy Metais",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-11-02",
@@ -38,11 +52,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
     "published": "2026-11-02",
-    "credit": "ESA, DLR, FU Berlin; Processing &amp; License: J. Cowart",
+    "credit": "ESA , DLR , FU Berlin ; Processing & License : J. Cowart",
     "original_title": "A Long Cloud on Mars",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-11-02T08:25:26.677543+00:00"
+    "inserted_at": "2026-11-02T08:25:26.677543+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESA , DLR , FU Berlin ; Processing & License : J. Cowart"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-11-01",
@@ -57,7 +77,14 @@
     "original_title": "Colors of the Moon",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-11-01T08:22:21.787798+00:00"
+    "inserted_at": "2026-11-01T08:22:21.787798+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Marcella Giulia Pace"
+    },
+    "copyrightNotice": "Marcella Giulia Pace",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-31",
@@ -68,11 +95,18 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
     "published": "2026-10-31",
-    "credit": "Stéphane Vetter (Nuits sacrées)",
+    "credit": "Stéphane Vetter ( Nuits sacrées )",
     "original_title": "Night on a Spooky Planet",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-31T08:24:04.777481+00:00"
+    "inserted_at": "2026-10-31T08:24:04.777481+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Stéphane Vetter ( Nuits sacrées )"
+    },
+    "copyrightNotice": "Stéphane Vetter ( Nuits sacrées )",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-30",
@@ -87,7 +121,14 @@
     "original_title": "Haunting the Cepheus Flare",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-30T08:23:44.327572+00:00"
+    "inserted_at": "2026-10-30T08:23:44.327572+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Mirko Tondinelli"
+    },
+    "copyrightNotice": "Mirko Tondinelli",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-28",
@@ -121,11 +162,18 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
     "published": "2026-10-27",
-    "credit": "V. Höfer, D. Večerník &amp; B. Večerníková",
+    "credit": "V. Höfer , D. Večerník & B. Večerníková",
     "original_title": "Noctilucent Clouds over Sweden",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-27T08:24:20.320396+00:00"
+    "inserted_at": "2026-10-27T08:24:20.320396+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "V. Höfer , D. Večerník & B. Večerníková"
+    },
+    "copyrightNotice": "V. Höfer , D. Večerník & B. Večerníková",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-25",
@@ -136,11 +184,18 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
     "published": "2026-10-25",
-    "credit": "Tom Abel &amp; Ralf Kaehler (KIPAC , SLAC), AMNH",
+    "credit": "Tom Abel & Ralf Kaehler ( KIPAC , SLAC ), AMNH",
     "original_title": "Dark Matter in a Simulated Universe",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-26T08:24:09.832835+00:00"
+    "inserted_at": "2026-10-26T08:24:09.832835+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "Tom Abel & Ralf Kaehler ( KIPAC , SLAC ), AMNH"
+    },
+    "copyrightNotice": "Tom Abel & Ralf Kaehler ( KIPAC , SLAC ), AMNH",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-24",
@@ -151,11 +206,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
     "published": "2026-10-24",
-    "credit": "ESA/Rosetta/Philae/CIVA",
+    "credit": "ESA/Rosetta/Philae/CIV A",
     "original_title": "Rosetta&#039;s Selfie",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-24T07:23:40.344222+00:00"
+    "inserted_at": "2026-10-24T07:23:40.344222+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESA/Rosetta/Philae/CIV A"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-23",
@@ -170,7 +231,14 @@
     "original_title": "Andromeda in Southern Spring",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-23T07:23:48.485238+00:00"
+    "inserted_at": "2026-10-23T07:23:48.485238+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Lucy Yunxi Hu"
+    },
+    "copyrightNotice": "Lucy Yunxi Hu",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-22",
@@ -181,11 +249,18 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
     "published": "2026-10-22",
-    "credit": "Mark A. Garlick/University of Warwick",
+    "credit": "Mark A. Garlick / University of Warwick",
     "original_title": "The First Green Star, WD J1330+6435",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-22T07:23:37.331128+00:00"
+    "inserted_at": "2026-10-22T07:23:37.331128+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "Mark A. Garlick / University of Warwick"
+    },
+    "copyrightNotice": "Mark A. Garlick / University of Warwick",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-16",
@@ -200,7 +275,13 @@
     "original_title": "Chasing the International Space Station",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-22T07:23:37.331128+00:00"
+    "inserted_at": "2026-10-22T07:23:37.331128+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Eric Holland"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-21",
@@ -211,11 +292,18 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-21-new-ghosts-revealed-in-cassiopeia/",
     "published": "2026-10-21",
-    "credit": "Louis Leroux-Géré, Thibault Rouillée, Vincent Martin, Cédric de Decker (Starfront Observatories)",
+    "credit": "Louis Leroux-Géré , Thibault Rouillée , Vincent Martin , Cédric de Decker ( Starfront Observatories )",
     "original_title": "New Ghosts Revealed in Cassiopeia",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-21T07:25:15.797690+00:00"
+    "inserted_at": "2026-10-21T07:25:15.797690+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "Louis Leroux-Géré , Thibault Rouillée , Vincent Martin , Cédric de Decker ( Starfront Observatories )"
+    },
+    "copyrightNotice": "Louis Leroux-Géré , Thibault Rouillée , Vincent Martin , Cédric de Decker ( Starfront Observatories )",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-21-new-ghosts-revealed-in-cassiopeia/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-20",
@@ -230,7 +318,14 @@
     "original_title": "A Year of Sunspots",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-20T07:23:37.048615+00:00"
+    "inserted_at": "2026-10-20T07:23:37.048615+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Aurelia Degli Esposti"
+    },
+    "copyrightNotice": "Aurelia Degli Esposti",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-19",
@@ -241,11 +336,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/",
     "published": "2026-10-19",
-    "credit": "X-ray: NASA/CXC/INAF-IRA/A. Botteon et al.; Infrared: UKIDSS-GPS; Radio: ASTRONLOFAR; Image processing: NASA/CXC/SAO/N. Wolk",
+    "credit": "X-ray: NASA / CXC / INAF-IRA / A. Botteon et al. ; Infrared: UKIDSS - GPS ; Radio: ASTRON LOFAR ; Image processing: NASA / CXC / SAO / N. Wolk",
     "original_title": "Treble Clef: Unusual X-ray Hot Radio Source",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-19T07:28:19.290064+00:00"
+    "inserted_at": "2026-10-19T07:28:19.290064+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "X-ray: NASA / CXC / INAF-IRA / A. Botteon et al. ; Infrared: UKIDSS - GPS ; Radio: ASTRON LOFAR ; Image processing: NASA / CXC / SAO / N. Wolk"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-18",
@@ -256,11 +357,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
     "published": "2026-10-18",
-    "credit": "Image Credit: NASA, ESA, &amp; The Hubble Heritage Project (STScI/AURA);Sonification: NASA, CXC, SAO, K. Arcand, M. Russo &amp; A. Santaguida",
+    "credit": "Image Credit: NASA , ESA , & The Hubble Heritage Project ( STScI / AURA ); Sonification: NASA , CXC , SAO , K. Arcand , M. Russo & A. Santaguida",
     "original_title": "Sonified: Eagle Nebula Pillars",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-18T07:22:13.938029+00:00"
+    "inserted_at": "2026-10-18T07:22:13.938029+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA , ESA , & The Hubble Heritage Project ( STScI / AURA ); Sonification: NASA , CXC , SAO , K. Arcand , M. Russo & A. Santaguida"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-17",
@@ -275,7 +382,13 @@
     "original_title": "3D 67P",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-17T07:23:15.077841+00:00"
+    "inserted_at": "2026-10-17T07:23:15.077841+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESA , Rosetta , MPS , OSIRIS - Stereo Anaglyph: Philippe Lamy and The Team"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-15",
@@ -286,11 +399,18 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-15-the-milky-way-over-manhattan/",
     "published": "2026-10-15",
-    "credit": "Jason Kurth, Ty Buckley",
+    "credit": "Jason Kurth , Ty Buckley",
     "original_title": "The Milky Way over Manhattan",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-15T07:23:45.981780+00:00"
+    "inserted_at": "2026-10-15T07:23:45.981780+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "Jason Kurth , Ty Buckley"
+    },
+    "copyrightNotice": "Jason Kurth , Ty Buckley",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-15-the-milky-way-over-manhattan/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-14",
@@ -301,11 +421,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/",
     "published": "2026-10-14",
-    "credit": "Petr Horálek (Institute of Physics in Opava), Josef Kujal, Vojan Höfer",
+    "credit": "Petr Horálek ( Institute of Physics in Opava ), Josef Kujal , Vojan Höfer",
     "original_title": "Mars and the Beehive Under an Aurora",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-14T09:03:06.541483+00:00"
+    "inserted_at": "2026-10-14T09:03:06.541483+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "Petr Horálek ( Institute of Physics in Opava ), Josef Kujal , Vojan Höfer"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-01",
@@ -320,7 +446,14 @@
     "original_title": "Harvest Moon with Erupting Mount Etna",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-14T09:03:06.541483+00:00"
+    "inserted_at": "2026-10-14T09:03:06.541483+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Dario Giannobile"
+    },
+    "copyrightNotice": "Dario Giannobile",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-09-30",
@@ -335,7 +468,14 @@
     "original_title": "Arp 78: Peculiar Galaxy in Aries",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-14T09:03:06.541483+00:00"
+    "inserted_at": "2026-10-14T09:03:06.541483+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Robert Eder"
+    },
+    "copyrightNotice": "Robert Eder",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-september-30-arp-78-peculiar-galaxy-in-aries/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-09-29",
@@ -350,7 +490,14 @@
     "original_title": "Sh2-188: The Shrimp Nebula",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-14T09:03:06.541483+00:00"
+    "inserted_at": "2026-10-14T09:03:06.541483+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Pawel Piechnik"
+    },
+    "copyrightNotice": "Pawel Piechnik",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-september-29-sh2-188-the-shrimp-nebula/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-13",
@@ -365,7 +512,14 @@
     "original_title": "Desert Stairway to Heaven",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-13T15:08:53.068697+00:00"
+    "inserted_at": "2026-10-13T15:08:53.068697+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Julien Looten"
+    },
+    "copyrightNotice": "Julien Looten",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-13-desert-stairway-to-heaven/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-12",
@@ -380,7 +534,14 @@
     "original_title": "Jupiter and the Moons",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-12T16:47:37.178460+00:00"
+    "inserted_at": "2026-10-12T16:47:37.178460+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Chirag Upreti"
+    },
+    "copyrightNotice": "Chirag Upreti",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-12-jupiter-and-the-moons/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-11",
@@ -391,11 +552,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-11-ice-fishing-for-cosmic-neutrinos/",
     "published": "2026-10-11",
-    "credit": "NSF, B. Gudbjartsson, IceCube Collaboration",
+    "credit": "NSF , B. Gudbjartsson, IceCube Collaboration",
     "original_title": "Ice Fishing for Cosmic Neutrinos",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-11T07:32:18.205667+00:00"
+    "inserted_at": "2026-10-11T07:32:18.205667+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "NSF , B. Gudbjartsson, IceCube Collaboration"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-11-ice-fishing-for-cosmic-neutrinos/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-10",
@@ -410,7 +577,13 @@
     "original_title": "Lunar Farside",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-10T07:31:41.650542+00:00"
+    "inserted_at": "2026-10-10T07:31:41.650542+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA / GSFC / Arizona State Univ. / Lunar Reconnaissance Orbiter"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-09",
@@ -421,11 +594,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-9-stickney-crater/",
     "published": "2026-10-09",
-    "credit": "HiRISE, MRO, LPL (U. Arizona), NASA",
+    "credit": "HiRISE , MRO , LPL (U. Arizona) , NASA",
     "original_title": "Stickney Crater",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-09T07:36:32.691326+00:00"
+    "inserted_at": "2026-10-09T07:36:32.691326+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "HiRISE , MRO , LPL (U. Arizona) , NASA"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-9-stickney-crater/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-08",
@@ -440,7 +619,13 @@
     "original_title": "The Saturn System Smörgåsbord",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-08T07:37:06.596319+00:00"
+    "inserted_at": "2026-10-08T07:37:06.596319+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Tom Williams"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-8-the-saturn-system-smorgasbord/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-07",
@@ -451,11 +636,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-7-supernova-remnant-pa-30/",
     "published": "2026-10-07",
-    "credit": "International Gemini Observatory/NOIRLab/NSF/AURA. Acknowledgment: PI: T. Cunningham (Center for Astrophysics - Harvard &amp; Smithsonian). Image Processing: J.",
+    "credit": "International Gemini Observatory / NOIRLab / NSF / AURA . Acknowledgment: PI: T. Cunningham ( Center for Astrophysics - Harvard & Smithsonian ). Image Processing: J. Miller & M. Rodriguez ( International Gemini Observatory / NSF NOIRLab ), T.A. Rector ( University of Alaska Anchorage / NSF NOIRLab ), D. de Martin & M. Zamani ( NSF NOIRLab ).",
     "original_title": "Supernova Remnant Pa 30",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-07T07:35:24.603416+00:00"
+    "inserted_at": "2026-10-07T07:35:24.603416+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "International Gemini Observatory / NOIRLab / NSF / AURA . Acknowledgment: PI: T. Cunningham ( Center for Astrophysics - Harvard & Smithsonian ). Image Processing: J. Miller & M. Rodriguez ( International Gemini Observatory / NSF NOIRLab ), T.A. Rector ( University of Alaska Anchorage / NSF NOIRLab ), D. de Martin & M. Zamani ( NSF NOIRLab )."
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-7-supernova-remnant-pa-30/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-05",
@@ -470,7 +661,14 @@
     "original_title": "M104: The Sombrero Galaxy&#039;s Tidal Streams",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-05T07:37:06.994233+00:00"
+    "inserted_at": "2026-10-05T07:37:06.994233+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Engelbert Vollmer"
+    },
+    "copyrightNotice": "Engelbert Vollmer",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-5-m104-the-sombrero-galaxys-tidal-streams/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-04",
@@ -485,7 +683,14 @@
     "original_title": "Supernumerary Rainbows over New Jersey",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-04T15:05:34.817667+00:00"
+    "inserted_at": "2026-10-04T15:05:34.817667+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "John Entwistle"
+    },
+    "copyrightNotice": "John Entwistle",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-03",
@@ -496,11 +701,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
     "published": "2026-10-03",
-    "credit": "Image Credit: NASA, JPL-Caltech, MSSS - Panorama: Andrew Bodrov",
+    "credit": "Image Credit: NASA , JPL-Caltech , MSSS - Panorama: Andrew Bodrov",
     "original_title": "Selfie at Vera Rubin Ridge",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-03T07:34:31.486920+00:00"
+    "inserted_at": "2026-10-03T07:34:31.486920+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA , JPL-Caltech , MSSS - Panorama: Andrew Bodrov"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-10-02",
@@ -515,7 +726,13 @@
     "original_title": "The Complete Sharpless Catalog: 313 Nebulas",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-03T07:34:31.486920+00:00"
+    "inserted_at": "2026-10-03T07:34:31.486920+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Bing Xin"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-09-13",
@@ -530,7 +747,14 @@
     "original_title": "Comet NEOWISE Rising Over the Adriatic Sea",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-01T10:43:21.490118+00:00"
+    "inserted_at": "2026-10-01T10:43:21.490118+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Paolo Girotti"
+    },
+    "copyrightNotice": "Paolo Girotti",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-09-09",
@@ -541,11 +765,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-9-witness-xz-andromedae-wink/",
     "published": "2026-09-09",
-    "credit": "Ogetay Kayali",
+    "credit": "Ogetay Kayali ( MTU , Starfront Observatories )",
     "original_title": "Witness XZ Andromedae Wink",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-01T10:43:21.490118+00:00"
+    "inserted_at": "2026-10-01T10:43:21.490118+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "Ogetay Kayali ( MTU , Starfront Observatories )"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-september-9-witness-xz-andromedae-wink/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-09-06",
@@ -556,11 +786,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-6-pluto-in-enhanced-color/",
     "published": "2026-09-06",
-    "credit": "NASA, Johns Hopkins Univ./APL, Southwest Research Inst.",
+    "credit": "NASA , Johns Hopkins Univ./APL , Southwest Research Inst.",
     "original_title": "Pluto in Enhanced Color",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-01T10:43:21.490118+00:00"
+    "inserted_at": "2026-10-01T10:43:21.490118+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA , Johns Hopkins Univ./APL , Southwest Research Inst."
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-september-6-pluto-in-enhanced-color/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-09-05",
@@ -575,7 +811,13 @@
     "original_title": "Chasing the Moon&#039;s Shadow",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-01T10:43:21.490118+00:00"
+    "inserted_at": "2026-10-01T10:43:21.490118+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-september-5-chasing-the-moons-shadow/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-09-04",
@@ -586,11 +828,17 @@
     "source": "NASA APOD",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-4-na-uhane-mahoe-huki-pu-i-ke-ola/",
     "published": "2026-09-04",
-    "credit": "Image Credit: International Gemini Observatory / NOIRLab/NSF/AURAImage Processing: J. Miller &amp; M. Rodriguez (International Gemini Observatory/NSF NOIRLab),T",
+    "credit": "Image Credit: International Gemini Observatory / NOIRLab/NSF/AURA Image Processing: J. Miller & M. Rodriguez (International Gemini Observatory/NSF NOIRLab), T.A. Rector (University of Alaska Anchorage/NSF NOIRLab), D. de Martin & M. Zamani (NSF NOIRLab)",
     "original_title": "Nā ʻUhane Māhoe Huki Pū i ke Ola",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-01T10:43:21.490118+00:00"
+    "inserted_at": "2026-10-01T10:43:21.490118+00:00",
+    "creator": {
+      "@type": "Organization",
+      "name": "International Gemini Observatory / NOIRLab/NSF/AURA Image Processing: J. Miller & M. Rodriguez (International Gemini Observatory/NSF NOIRLab), T.A. Rector (University of Alaska Anchorage/NSF NOIRLab), D. de Martin & M. Zamani (NSF NOIRLab)"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-september-4-na-uhane-mahoe-huki-pu-i-ke-ola/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-09-03",
@@ -605,7 +853,14 @@
     "original_title": "The Eclipse and the Stork",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-01T10:43:21.490118+00:00"
+    "inserted_at": "2026-10-01T10:43:21.490118+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Włodzimierz Bubak"
+    },
+    "copyrightNotice": "Włodzimierz Bubak",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-september-3-the-eclipse-and-the-stork/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-09-02",
@@ -620,7 +875,14 @@
     "original_title": "Solar Eclipses and Culture",
     "lang": "cs",
     "needs_translation": false,
-    "inserted_at": "2026-10-01T10:43:21.490118+00:00"
+    "inserted_at": "2026-10-01T10:43:21.490118+00:00",
+    "creator": {
+      "@type": "Person",
+      "name": "Javier Castro"
+    },
+    "copyrightNotice": "Javier Castro",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-september-2-solar-eclipses-and-culture/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "apod-2026-09-28",

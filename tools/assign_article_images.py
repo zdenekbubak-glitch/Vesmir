@@ -29,6 +29,8 @@ RULES = [
 SCHEMATICS = ['relictni-zareni','temna-hmota','temna-energie','gravitacni-vlny',
               'velky-tresk','kvantova-gravitace','multivesmir','gravimetrie-testy','ostatni']
 
+from image_rights import image_rights
+
 def norm(s):
     return ''.join(c for c in unicodedata.normalize('NFKD',str(s).lower()) if not unicodedata.combining(c))
 
@@ -213,18 +215,7 @@ def image_schema(entry,base):
               'caption':entry['caption'],'creditText':entry['credit'],'license':entry['license_url'],
               'acquireLicensePage':entry.get('acquireLicensePage') or entry.get('rights_url') or entry['source'],
               'width':entry.get('width',1200),'height':entry.get('height',630)}
-    # Use explicit rights metadata where known. A credit line alone does not
-    # establish either authorship or ownership of a third-party image.
-    creator = entry.get('creator')
-    copyright_notice = entry.get('copyrightNotice')
-    if entry.get('generated') is True and str(entry.get('source_id','')).startswith('own-diagram:'):
-        creator = creator or {'@type':'Organization','name':'Kosmologické novinky',
-                              'url':base.rstrip('/') + '/'}
-        copyright_notice = copyright_notice or 'Kosmologické novinky'
-    if creator:
-        result['creator'] = creator
-    if copyright_notice:
-        result['copyrightNotice'] = copyright_notice
+    result.update(image_rights(entry, base))
     return result
 
 
@@ -233,9 +224,7 @@ def gallery_image_schema(entry, base, content_url):
     result = {'@type': 'ImageObject', 'contentUrl': content_url,
               'name': entry.get('title'), 'description': entry.get('caption'),
               'datePublished': entry.get('published'), 'creditText': entry.get('credit')}
-    for field in ('creator', 'copyrightNotice', 'acquireLicensePage'):
-        if entry.get(field):
-            result[field] = entry[field]
+    result.update(image_rights(entry, base))
     license_url = entry.get('license_url')
     if license_url:
         result['license'] = license_url

@@ -31,7 +31,13 @@
     "source_pixel_sha256": "b20323506afddd152c937801cb3c5dee060fbe3db52a50ae74ca44c6df2edebf",
     "source_master_sha256": "0a8d5a5d85aa6b6a8492c2ba99630be4350961726160197571c95a620fc6ecfe",
     "source_family": "eht-m87-2017",
-    "source_title": "First Image of a Black Hole"
+    "source_title": "First Image of a Black Hole",
+    "creator": {
+      "@type": "Organization",
+      "name": "EHT Collaboration"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1907a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2208-eht-mwa",
@@ -65,7 +71,13 @@
     "source_pixel_sha256": "d4b85d77b4fa6dac0960b03d04446677de4f7b8146e0be247a91b24ce065bd98",
     "source_master_sha256": "fc86d718f249cc415ac2299ef8c67e020b2064b349a3c6f1e00b0f3ee173c720",
     "source_family": "eht-sgra-2017",
-    "source_title": "First image of our black hole"
+    "source_title": "First image of our black hole",
+    "creator": {
+      "@type": "Organization",
+      "name": "EHT Collaboration"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso2208-eht-mwa/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2105a",
@@ -99,7 +111,13 @@
     "source_pixel_sha256": "7b6f1881450e08abd1484fa954632a9e5099f8dfd3d67fa51b3c3e8e578ff614",
     "source_master_sha256": "f1405e7866dde7198c4382f64cc7646c9ad3e8140c586e3bc6906a4cf521951e",
     "source_family": "eht-m87-2017",
-    "source_title": "A view of the M87 supermassive black hole in polarised light"
+    "source_title": "A view of the M87 supermassive black hole in polarised light",
+    "creator": {
+      "@type": "Organization",
+      "name": "EHT Collaboration"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso2105a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2117a",
@@ -137,7 +155,13 @@
     "source_sha256": "daeb8ec6ad7c11119b69bc6ddd71494364652d61aee18addecbf46007ea7bcfe",
     "source_pixel_sha256": "8fa62f5f7e18417beda02446d9ea267135eb112770b1dbd4b00f2cb3e755c856",
     "source_master_sha256": "53c9cf3507f6fa3cfb4b5d23f36d39332595471a518e32019864124ea09281db",
-    "source_title": "Close-up and wide views of the nearest pair of supermassive black holes"
+    "source_title": "Close-up and wide views of the nearest pair of supermassive black holes",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/Voggel et al.; ESO/ VST ATLAS team"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso2117a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso9845d",
@@ -170,7 +194,13 @@
     "source_sha256": "db383d8e28b4377a50bb19ecfee0285d0cb8e8cf32faa526efefa3979ec512d9",
     "source_pixel_sha256": "512c78cbff18c0c9c255e118b161fa1a1a41abc8c2df79c356f0a3495b7507e6",
     "source_master_sha256": "afa6ccb7ef338dcbe6ce776ed4282911c93018e80f3a15cc418bd851def4de8e",
-    "source_title": "Wide Field Imager view of the spiral galaxy NGC 247"
+    "source_title": "Wide Field Imager view of the spiral galaxy NGC 247",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1107a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso0949a",
@@ -203,7 +233,13 @@
     "source_sha256": "05d6612e1525ac45c22f111a42d545cc565d769c2e21999c5206d3edfd47fc7a",
     "source_pixel_sha256": "ab2469ea2c22ad1933837c003fc2e4dff012666b04ba40d7fa31f7f68bd7218d",
     "source_master_sha256": "8d76b87977de5bb551b46f314eeb2e50f36accbd0c7cc5a328a7bb8c3ff968f0",
-    "source_title": "The Orion Nebula and cluster from the VLT Survey Telescope"
+    "source_title": "The Orion Nebula and cluster from the VLT Survey Telescope",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/G. Beccari"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1723a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1107a",
@@ -237,7 +273,13 @@
     "source_sha256": "db383d8e28b4377a50bb19ecfee0285d0cb8e8cf32faa526efefa3979ec512d9",
     "source_pixel_sha256": "512c78cbff18c0c9c255e118b161fa1a1a41abc8c2df79c356f0a3495b7507e6",
     "source_master_sha256": "afa6ccb7ef338dcbe6ce776ed4282911c93018e80f3a15cc418bd851def4de8e",
-    "source_title": "Wide Field Imager view of the spiral galaxy NGC 247"
+    "source_title": "Wide Field Imager view of the spiral galaxy NGC 247",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1107a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1538a",
@@ -275,7 +317,13 @@
     "source_sha256": "d7b367e645153643cfb54d7a267c572ad7c8c1dd30dd23c5c966cec4c1ab3d95",
     "source_pixel_sha256": "728b55d0a146f7cf1ccdd3705cad86310df3268dacdb2cd92d1f4370e72f0483",
     "source_master_sha256": "dfb1a711f4571720ea67a6bc129424518ea98efa6b38e98a85b70a4272ee451e",
-    "source_title": "Artist’s impression of the super-Earth exoplanet LHS 1140b"
+    "source_title": "Artist’s impression of the super-Earth exoplanet LHS 1140b",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/ spaceengine.org"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1712a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso0338b",
@@ -308,7 +356,13 @@
     "source_sha256": "43cc6453726f39f3820ab62edca2c3d5c30bb5a34335678e29559a801cc4d3fe",
     "source_pixel_sha256": "c5bb9a5fbfc9d1fd12c8ee041927f4ca3efb1525f26be85e68485843a797ac04",
     "source_master_sha256": "2ef6d802e44a21b3790e5aaa78dc203935dcc3a37a29577ed9a5b0f1a772a0d9",
-    "source_title": "Artist's impression of the central bulge of the Milky Way"
+    "source_title": "Artist's impression of the central bulge of the Milky Way",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/NASA/JPL-Caltech/M. Kornmesser/R. Hurt"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1339a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1242a",
@@ -341,7 +395,13 @@
     "source_sha256": "c1a505cdb08f025ec03ce67807b740459e6cd4e605c1c2e889dd41a88a536cab",
     "source_pixel_sha256": "210f576732a7c5f1c8170a9c15743539fbcffeff8ac9e427294eec1cdae24f5a",
     "source_master_sha256": "5450e2412f6a017d24e98b6514deca29076c9360563634cddabe3e9986179d22",
-    "source_title": "VISTA gigapixel mosaic of the central parts of the Milky Way"
+    "source_title": "VISTA gigapixel mosaic of the central parts of the Milky Way",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/VVV Survey/D. Minniti"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1242a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1006a",
@@ -374,7 +434,13 @@
     "source_sha256": "2e3dc0c6181fe552fa0733dc57e4c13ae9443c30365c2e2f9eb60cd1b034f716",
     "source_pixel_sha256": "230fdefa11971484a032a53cbf1bdada4b7ee8e9acb9271488baa86f3690cdd9",
     "source_master_sha256": "a0478dfcbdc0abf176e9d3c29985f525a538181cadcffadae609735142207dd6",
-    "source_title": "A deep infrared view of the Orion Nebula from HAWK-I"
+    "source_title": "A deep infrared view of the Orion Nebula from HAWK-I",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/H. Drass et al"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1625a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1042a",
@@ -408,7 +474,13 @@
     "source_sha256": "c1a505cdb08f025ec03ce67807b740459e6cd4e605c1c2e889dd41a88a536cab",
     "source_pixel_sha256": "210f576732a7c5f1c8170a9c15743539fbcffeff8ac9e427294eec1cdae24f5a",
     "source_master_sha256": "5450e2412f6a017d24e98b6514deca29076c9360563634cddabe3e9986179d22",
-    "source_title": "VISTA gigapixel mosaic of the central parts of the Milky Way"
+    "source_title": "VISTA gigapixel mosaic of the central parts of the Milky Way",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/VVV Survey/D. Minniti"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1242a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1629a",
@@ -441,7 +513,13 @@
     "source_sha256": "543c741512214e4ec249ae37342e279ff58165ac2f3e4d0b5c6959d89d51818c",
     "source_pixel_sha256": "0627f2bdb30a49e0460b9b71cb254eddee4dd3d2bc3cc8429db3bd28e64e4490",
     "source_master_sha256": "5c7491bc6cb4a7c93dfafa12cc8db558636887ffc08633c1f18401872d523ad8",
-    "source_title": "Artist's impression of the planet orbiting Proxima Centauri"
+    "source_title": "Artist's impression of the planet orbiting Proxima Centauri",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/M. Kornmesser"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1629a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1916a",
@@ -474,7 +552,13 @@
     "source_sha256": "6b177ba817058133c34f1da68a15ed18c2b7a8d755371b25129d34306d38df80",
     "source_pixel_sha256": "5d7573a7b6d6f4c61b5bf7d4b5e15c0f46b6f4af22d757587dcded782b70cb65",
     "source_master_sha256": "5cdc7a58619545f0a280f3a4277d9ce27ef61a6ed749f57ee268340dc1e58236",
-    "source_title": "An infrared view of the L1688 region in Ophiuchus"
+    "source_title": "An infrared view of the L1688 region in Ophiuchus",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/S. Meingast et al"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso2307a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2006a",
@@ -547,7 +631,13 @@
     "source_pixel_sha256": "d1f7e8defd6315cecf932226e150bca7efed0dd9807012f450bb551d560c2e2b",
     "source_master_sha256": "f4fe514942d3d79a9d5f69108a380a032dabd43a3597eaf3898345b19ddc1fbb",
     "source_family": "eht-sgra-2017",
-    "source_title": "A view of the Milky Way supermassive black hole Sagittarius A* in polarised light"
+    "source_title": "A view of the Milky Way supermassive black hole Sagittarius A* in polarised light",
+    "creator": {
+      "@type": "Organization",
+      "name": "EHT Collaboration"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso2406a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2304a",
@@ -581,7 +671,13 @@
     "source_sha256": "db383d8e28b4377a50bb19ecfee0285d0cb8e8cf32faa526efefa3979ec512d9",
     "source_pixel_sha256": "512c78cbff18c0c9c255e118b161fa1a1a41abc8c2df79c356f0a3495b7507e6",
     "source_master_sha256": "afa6ccb7ef338dcbe6ce776ed4282911c93018e80f3a15cc418bd851def4de8e",
-    "source_title": "Wide Field Imager view of the spiral galaxy NGC 247"
+    "source_title": "Wide Field Imager view of the spiral galaxy NGC 247",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1107a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1035a",
@@ -614,7 +710,13 @@
     "source_sha256": "700c96d8574aed002076bf1b23a597dd562c87317f96a7e68a0d988f0f1bbeab",
     "source_pixel_sha256": "164485e0a3443a3f0e4c4bccd8ae93893db3db65203bbfa259e8045f3013a191",
     "source_master_sha256": "e495379126f3db9e3d17713fa4702918b9a0cad905f5882dab64ec7c624744fd",
-    "source_title": "The planetary system around the Sun-like star HD 10180 (artist’s impression)"
+    "source_title": "The planetary system around the Sun-like star HD 10180 (artist’s impression)",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/L. Calçada"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1035a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1733a",
@@ -647,7 +749,13 @@
     "source_sha256": "a79378065b959143f2970020d99ccc75612e15041b35b657581050049df9bb27",
     "source_pixel_sha256": "70da8764b36be5b91e3531bdcbb6dbcb84fc33cace8184555861d9f42047a22a",
     "source_master_sha256": "11c2fed92f5e7f2a64bbabd8ada080789e8341fe785397b44434e042da5ddb8c",
-    "source_title": "Artist’s impression of merging neutron stars"
+    "source_title": "Artist’s impression of merging neutron stars",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/L. Calçada/M. Kornmesser"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1733a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2008a",
@@ -680,7 +788,13 @@
     "source_sha256": "91884600b789095797a4617ad7b539109ee3ba9946b850a251b0abcfaaddca2e",
     "source_pixel_sha256": "2f56b6fe556d0db68a7fb1cb4597583a73d2232258bad20c664cbf1b21ca8c40",
     "source_master_sha256": "1eaacbc7a67fe194704977bfaa7c3938a220c8bfc5edb4e06eb4b83950f3e1e4",
-    "source_title": "GRAVITY instrument breaks new ground in exoplanet imaging"
+    "source_title": "GRAVITY instrument breaks new ground in exoplanet imaging",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/L. Calçada"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1905a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1525a",
@@ -714,7 +828,13 @@
     "source_sha256": "43cc6453726f39f3820ab62edca2c3d5c30bb5a34335678e29559a801cc4d3fe",
     "source_pixel_sha256": "c5bb9a5fbfc9d1fd12c8ee041927f4ca3efb1525f26be85e68485843a797ac04",
     "source_master_sha256": "2ef6d802e44a21b3790e5aaa78dc203935dcc3a37a29577ed9a5b0f1a772a0d9",
-    "source_title": "Artist's impression of the central bulge of the Milky Way"
+    "source_title": "Artist's impression of the central bulge of the Milky Way",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/NASA/JPL-Caltech/M. Kornmesser/R. Hurt"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1339a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2307a",
@@ -748,7 +868,13 @@
     "source_sha256": "6b177ba817058133c34f1da68a15ed18c2b7a8d755371b25129d34306d38df80",
     "source_pixel_sha256": "5d7573a7b6d6f4c61b5bf7d4b5e15c0f46b6f4af22d757587dcded782b70cb65",
     "source_master_sha256": "5cdc7a58619545f0a280f3a4277d9ce27ef61a6ed749f57ee268340dc1e58236",
-    "source_title": "An infrared view of the L1688 region in Ophiuchus"
+    "source_title": "An infrared view of the L1688 region in Ophiuchus",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/S. Meingast et al"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso2307a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2301a",
@@ -781,7 +907,13 @@
     "source_sha256": "b5ff07e411fb2cc705f2477eaa411cb2f430cc09f5c86a0f44bdef540a933580",
     "source_pixel_sha256": "9bab4bf83451691bef4eab06dad1055946674ba31522347da9833644f5315fb3",
     "source_master_sha256": "4c1dc92eed246ceea56d5d47337c3c8f0ff6a18f4a690ca57ec80f6b1b0b66b8",
-    "source_title": "VST images the Lagoon Nebula"
+    "source_title": "VST images the Lagoon Nebula",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/VPHAS+ team"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1403a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1917a",
@@ -814,7 +946,13 @@
     "source_sha256": "3b03e066320ae79bda2902e094f50d6a7969cf12f6b2addc7aec7fa3eb72519d",
     "source_pixel_sha256": "99f3b7307f1624f6772f981459f723a78bd75beb896e405029abfa36fca066a9",
     "source_master_sha256": "fa8c898d6d34bbe95b4071ffea2b5732cd329231daa675acc16aa5a3563642dd",
-    "source_title": "Artist’s impression of strontium emerging from a neutron star merger"
+    "source_title": "Artist’s impression of strontium emerging from a neutron star merger",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/L. Calçada/M. Kornmesser"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1917a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2011a",
@@ -847,7 +985,13 @@
     "source_sha256": "00885f0f455f2e4e0a3f8106ea13d983de798c1e1124c7c4d7384a13b81241f7",
     "source_pixel_sha256": "4f75bb8c3e6545486b761bc2b1fa5fed105a2814845ea521ccc4754558013255",
     "source_master_sha256": "25226cf24a3f5d164ecb66d9ab0f1c2deee27c004cc0dc6268b91cbe3d3763bb",
-    "source_title": "GJ1214b (artist’s impression)"
+    "source_title": "GJ1214b (artist’s impression)",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/L. Calçada"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso0950a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1403a",
@@ -881,7 +1025,13 @@
     "source_sha256": "b5ff07e411fb2cc705f2477eaa411cb2f430cc09f5c86a0f44bdef540a933580",
     "source_pixel_sha256": "9bab4bf83451691bef4eab06dad1055946674ba31522347da9833644f5315fb3",
     "source_master_sha256": "4c1dc92eed246ceea56d5d47337c3c8f0ff6a18f4a690ca57ec80f6b1b0b66b8",
-    "source_title": "VST images the Lagoon Nebula"
+    "source_title": "VST images the Lagoon Nebula",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/VPHAS+ team"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1403a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1705a",
@@ -915,7 +1065,13 @@
     "source_sha256": "2e3dc0c6181fe552fa0733dc57e4c13ae9443c30365c2e2f9eb60cd1b034f716",
     "source_pixel_sha256": "230fdefa11971484a032a53cbf1bdada4b7ee8e9acb9271488baa86f3690cdd9",
     "source_master_sha256": "a0478dfcbdc0abf176e9d3c29985f525a538181cadcffadae609735142207dd6",
-    "source_title": "A deep infrared view of the Orion Nebula from HAWK-I"
+    "source_title": "A deep infrared view of the Orion Nebula from HAWK-I",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/H. Drass et al"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1625a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1205a",
@@ -948,7 +1104,13 @@
     "source_sha256": "9eedeced8dc9085ad0dd926e9cc22cc95fa1a04c9396d4a29e153aa8d05a4a67",
     "source_pixel_sha256": "53393c3a4998992c5efdf920fe25365371a1927f7f31f35ba10c45bd0ac2eeb7",
     "source_master_sha256": "1078d6df04ddbd007862001fa3bcbeb9222aa0ac3df27b0d9f57069c593ff167",
-    "source_title": "ESO’s VLT reveals the Carina Nebula's hidden secrets"
+    "source_title": "ESO’s VLT reveals the Carina Nebula's hidden secrets",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/T. Preibisch"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1208a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1008a",
@@ -982,7 +1144,13 @@
     "source_sha256": "05d6612e1525ac45c22f111a42d545cc565d769c2e21999c5206d3edfd47fc7a",
     "source_pixel_sha256": "ab2469ea2c22ad1933837c003fc2e4dff012666b04ba40d7fa31f7f68bd7218d",
     "source_master_sha256": "8d76b87977de5bb551b46f314eeb2e50f36accbd0c7cc5a328a7bb8c3ff968f0",
-    "source_title": "The Orion Nebula and cluster from the VLT Survey Telescope"
+    "source_title": "The Orion Nebula and cluster from the VLT Survey Telescope",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/G. Beccari"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1723a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1208a",
@@ -1016,7 +1184,13 @@
     "source_sha256": "9eedeced8dc9085ad0dd926e9cc22cc95fa1a04c9396d4a29e153aa8d05a4a67",
     "source_pixel_sha256": "53393c3a4998992c5efdf920fe25365371a1927f7f31f35ba10c45bd0ac2eeb7",
     "source_master_sha256": "1078d6df04ddbd007862001fa3bcbeb9222aa0ac3df27b0d9f57069c593ff167",
-    "source_title": "ESO’s VLT reveals the Carina Nebula's hidden secrets"
+    "source_title": "ESO’s VLT reveals the Carina Nebula's hidden secrets",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/T. Preibisch"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1208a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1238a",
@@ -1050,7 +1224,13 @@
     "source_sha256": "b5ff07e411fb2cc705f2477eaa411cb2f430cc09f5c86a0f44bdef540a933580",
     "source_pixel_sha256": "9bab4bf83451691bef4eab06dad1055946674ba31522347da9833644f5315fb3",
     "source_master_sha256": "4c1dc92eed246ceea56d5d47337c3c8f0ff6a18f4a690ca57ec80f6b1b0b66b8",
-    "source_title": "VST images the Lagoon Nebula"
+    "source_title": "VST images the Lagoon Nebula",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/VPHAS+ team"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1403a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1509a",
@@ -1087,7 +1267,13 @@
     "source_sha256": "e887f78b1b8a25dcc63e1c2d149c1c5754740f75268c31186f8b62f27482eb76",
     "source_pixel_sha256": "ea59bcf441f02abd679a3df5b058afb6e0a2d8dcda5ec86ec76d2ac8d3474c25",
     "source_master_sha256": "1465a1feeda3c7c970a6fe2d6b5222329dba28be6963391debb4df332479fdcc",
-    "source_title": "Artist’s impression of Mars four billion years ago"
+    "source_title": "Artist’s impression of Mars four billion years ago",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/M. Kornmesser"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1509a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1322a",
@@ -1121,7 +1307,13 @@
     "source_sha256": "2e3dc0c6181fe552fa0733dc57e4c13ae9443c30365c2e2f9eb60cd1b034f716",
     "source_pixel_sha256": "230fdefa11971484a032a53cbf1bdada4b7ee8e9acb9271488baa86f3690cdd9",
     "source_master_sha256": "a0478dfcbdc0abf176e9d3c29985f525a538181cadcffadae609735142207dd6",
-    "source_title": "A deep infrared view of the Orion Nebula from HAWK-I"
+    "source_title": "A deep infrared view of the Orion Nebula from HAWK-I",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/H. Drass et al"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1625a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1533a",
@@ -1155,7 +1347,13 @@
     "source_sha256": "c1a505cdb08f025ec03ce67807b740459e6cd4e605c1c2e889dd41a88a536cab",
     "source_pixel_sha256": "210f576732a7c5f1c8170a9c15743539fbcffeff8ac9e427294eec1cdae24f5a",
     "source_master_sha256": "5450e2412f6a017d24e98b6514deca29076c9360563634cddabe3e9986179d22",
-    "source_title": "VISTA gigapixel mosaic of the central parts of the Milky Way"
+    "source_title": "VISTA gigapixel mosaic of the central parts of the Milky Way",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/VVV Survey/D. Minniti"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1242a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1517a",
@@ -1193,7 +1391,13 @@
     "source_sha256": "95d4d2247c6cc930376b1f0d3c5eb8a519c339c73de28c14589efbc0b1751cfa",
     "source_pixel_sha256": "bffbf774d86d2de22e8ec3e2828fd989c52762c4c85e6da0d0797f7beb3d2b94",
     "source_master_sha256": "0a174ebe95bf04c98cf5c524fab334932c049456e4e7c192534ea2f454cb92cf",
-    "source_title": "Artist’s impression of the exoplanet 51 Pegasi b"
+    "source_title": "Artist’s impression of the exoplanet 51 Pegasi b",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/M. Kornmesser/Nick Risinger ( skysurvey.org )"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1517a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1105a",
@@ -1227,7 +1431,13 @@
     "source_sha256": "9eedeced8dc9085ad0dd926e9cc22cc95fa1a04c9396d4a29e153aa8d05a4a67",
     "source_pixel_sha256": "53393c3a4998992c5efdf920fe25365371a1927f7f31f35ba10c45bd0ac2eeb7",
     "source_master_sha256": "1078d6df04ddbd007862001fa3bcbeb9222aa0ac3df27b0d9f57069c593ff167",
-    "source_title": "ESO’s VLT reveals the Carina Nebula's hidden secrets"
+    "source_title": "ESO’s VLT reveals the Carina Nebula's hidden secrets",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/T. Preibisch"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1208a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso0826a",
@@ -1264,7 +1474,13 @@
     ],
     "source_sha256": "a650dcdb6c185405ca21bc46c037135d2f84a9de2ea14d151f0f6214789a9845",
     "source_pixel_sha256": "1cf96b33f07b51b2f1960e0c0133f87206fd4dee3a22a021d3ccdb35bf8a317a",
-    "source_master_sha256": "e1707aa774a6c026bfa2d13ab2cd6c7f1e60855094bcd3ff7b8d4d5e64f84818"
+    "source_master_sha256": "e1707aa774a6c026bfa2d13ab2cd6c7f1e60855094bcd3ff7b8d4d5e64f84818",
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA's Goddard Space Flight Center/Conceptual Image Lab"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/gallery/roman-space-telescope-illustrations/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2402a",
@@ -1297,7 +1513,13 @@
     "source_sha256": "47e4123f9aaf1d8f4077ff5332b6638884fa0cc7c677c9574a8baabe5969dfe6",
     "source_pixel_sha256": "c1f7137997c6b594c6e82d2e67f98fe6e0fff8f99c75792af0f373b3e5df4d98",
     "source_master_sha256": "3acc5183d7f392bfafcd0fd90e821a370416d5ac5e129766bc20bbefcd6447e2",
-    "source_title": "Artist’s impression of the record-breaking quasar J0529-4351"
+    "source_title": "Artist’s impression of the record-breaking quasar J0529-4351",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/M. Kornmesser"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso2402a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1122a",
@@ -1330,7 +1552,13 @@
     "source_sha256": "40fb5074ee111f62000abf4c249894ff30a93659692ffe84474df668d55b0de8",
     "source_pixel_sha256": "41d5f22bc251482df63cf737b3e8bbd92a1099357c7deffb7b52909f4a823761",
     "source_master_sha256": "f585a917ecf39569b4eb1b3500e94ef1ce1ec25dce192585c53cf8e4901fb4ae",
-    "source_title": "An artist’s rendering of the most distant quasar"
+    "source_title": "An artist’s rendering of the most distant quasar",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/M. Kornmesser"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1122a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1503a",
@@ -1364,7 +1592,13 @@
     "source_sha256": "6b177ba817058133c34f1da68a15ed18c2b7a8d755371b25129d34306d38df80",
     "source_pixel_sha256": "5d7573a7b6d6f4c61b5bf7d4b5e15c0f46b6f4af22d757587dcded782b70cb65",
     "source_master_sha256": "5cdc7a58619545f0a280f3a4277d9ce27ef61a6ed749f57ee268340dc1e58236",
-    "source_title": "An infrared view of the L1688 region in Ophiuchus"
+    "source_title": "An infrared view of the L1688 region in Ophiuchus",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/S. Meingast et al"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso2307a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "vlt-platform-at-dusk",
@@ -1397,7 +1631,13 @@
     "source_sha256": "a1fb3da9e72407cfad812977b7d25d5246d861890d7983db067461fca95806f7",
     "source_pixel_sha256": "6fac588194cddcdfb009a6e70eeef51ba269313116f6e092bf0b50883586240d",
     "source_master_sha256": "4b7dd777471afb056ec8b8f7c51bb50a8e2e1e08a1b0e29bd6bf8d9d031665bb",
-    "source_title": "ESO's Very Large Telescope array"
+    "source_title": "ESO's Very Large Telescope array",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/vlt-platform-at-dusk/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1217a",
@@ -1431,7 +1671,13 @@
     "source_sha256": "5937ba67ff9d659daf6f59761b2ad0d1feab9df52545ecb54fb1d50dac5e2881",
     "source_pixel_sha256": "0d92a21be3978533704ab39af7e8248a7c0d68bd69d484ab82ea3e8c5010fb3a",
     "source_master_sha256": "8fbacc03caca5404def76124b03939e730d9b9446d21fe49f27ee08bdea50a37",
-    "source_title": "Artist’s impression of the expected dark matter distribution around the Milky Way"
+    "source_title": "Artist’s impression of the expected dark matter distribution around the Milky Way",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/L. Calçada"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1217a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1642b",
@@ -1561,7 +1807,13 @@
     "source_sha256": "058e870c7f79d347d3fe8ca094abc3827f3ce0a3693f4155a4e812edfda8e2fa",
     "source_pixel_sha256": "9f3ec2d4f263cafc021f2b0012d75f96bea5e6f03a4aa53e987bf1a7b2037926",
     "source_master_sha256": "87d2170df8b2a10fcd919c118f8b76111f0ebb070eae34717b17d18a124daf43",
-    "source_title": "Revealing a filament from the cosmic web"
+    "source_title": "Revealing a filament from the cosmic web",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/D. Tornotti et al./Hubble: M. Revalski, P. Francis et al"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/potw2504a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1426b",
@@ -1594,7 +1846,13 @@
     "source_sha256": "264201224e448895a091ac0f8bc2402bc2ac70ac82ea328f1d7dd77088ac8bfb",
     "source_pixel_sha256": "8d139671e8d73f1a6b5cca27a29d9e5233795c5131072f4c757b9b08e9a93fa2",
     "source_master_sha256": "9ed9080a65b7b47b3c3c3f5331d56713df73d9978adedf6607cae45b4abefc96",
-    "source_title": "How gravitational lensing acts like a magnifying glass"
+    "source_title": "How gravitational lensing acts like a magnifying glass",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/M. Kornmesser"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1426b/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso0836a",
@@ -1627,7 +1885,13 @@
     "source_sha256": "eb6644f79939d1a9128791e4932620c61665b6a85a8fed2fa323943bddd57715",
     "source_pixel_sha256": "a0ea3d338350f8f805de6707b7760637a17488dbdd8b9a99879b1c4f750c09f1",
     "source_master_sha256": "ac69d4a1e71b6c51e2a75f67eb89df6863cbbb6745506dcea0b7a6f184dc36bb",
-    "source_title": "A binary black hole"
+    "source_title": "A binary black hole",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/L. Calçada"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso0836a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2210a",
@@ -1660,7 +1924,13 @@
     "source_sha256": "8981e019bd71269f4f0bbfce7e387886c57b8dc0fd4b191aa837fdb7e9221cc5",
     "source_pixel_sha256": "c8213859597d8275a8f7f11863555e3997be326d2d4a49afafeb67bf3a98e57d",
     "source_master_sha256": "e20f12e1fe04a779297637223a9f568db95b6cd48ada8cf65c8418bdc25c97ca",
-    "source_title": "Artist’s impression of VFTS 243 in the Tarantula Nebula"
+    "source_title": "Artist’s impression of VFTS 243 in the Tarantula Nebula",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/L. Calçada"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso2210a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso2305a",
@@ -1693,7 +1963,13 @@
     "source_sha256": "6dcf8120946a287078e10610d4d5896e8f11baec22d79f35d83e0100f708b874",
     "source_pixel_sha256": "860e9ba620ac0a8ed7b65493afb6619d7328a734b148c8e1d91bc64b16195573",
     "source_master_sha256": "fc7356b4bb2f749d781a1d0aa0d6093f5afa3cbb34510015e08c694eba6d10f8",
-    "source_title": "A view of the jet and shadow of M87’s black hole"
+    "source_title": "A view of the jet and shadow of M87’s black hole",
+    "creator": {
+      "@type": "Organization",
+      "name": "R.-S. Lu (SHAO), E. Ros (MPIfR), S. Dagnello (NRAO/AUI/NSF)"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso2305a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "potw2102a",
@@ -1731,7 +2007,13 @@
     "source_sha256": "003030021ceff7d95ba6a34313b7a43f82ffc9716717588d8ec06f069f6623f0",
     "source_pixel_sha256": "5373e1fc7efc0c10ddfba9532cd18406081822a3c27268a6ad8109bbd4b66910",
     "source_master_sha256": "3e274afa6a0667084c4df5008610133766efc53ca8d40b685a28828f140e4e15",
-    "source_title": "Rose of star formation around distant supermassive black hole"
+    "source_title": "Rose of star formation around distant supermassive black hole",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/ TIMER survey"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/potw2102a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso9010a",
@@ -1765,7 +2047,13 @@
     "source_sha256": "7e51905186de112a25372dacf880aeb1b1bedd7d6fef02a8ae194284f62bc3f0",
     "source_pixel_sha256": "735ccc2670891874310a5cd70d475086d008c5fd07fc2a842716c5ff5742213e",
     "source_master_sha256": "b7029360aa00266deb9d02d9ec6b87ce30815e70bc8a4ab5781e8b9283c2fda6",
-    "source_title": "Southern spiral galaxy NGC 5236"
+    "source_title": "Southern spiral galaxy NGC 5236",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso9010a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso0525a",
@@ -1799,7 +2087,13 @@
     "source_sha256": "36fd77eaed472637b572fa5f7f4482b6d21b79d0a7f2e8aaf1e9dcdb4fa3ce8c",
     "source_pixel_sha256": "1f43e7d70b3fdf093e029e41f1f6071c8cac824513f74fd0b371811d6dcd708d",
     "source_master_sha256": "0c80a5cfa02c0c7c51dcf8681721890e6d40cf5d876b86f5e01f3aedc44ec8c3",
-    "source_title": "Spiral galaxy NGC 4565"
+    "source_title": "Spiral galaxy NGC 4565",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso0525a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso0931a",
@@ -1832,7 +2126,13 @@
     "source_sha256": "a66687066154b4b4676f6bf88e780bf8f73d3099c7ff2dbe07749a5903c3b24a",
     "source_pixel_sha256": "4b1758a31dd6d428e0ff32249f02bb3f3163ee8e4a63dcd4eda806af9c161ee8",
     "source_master_sha256": "3908a5ef4c5ca0078ae0e34c979520cf25cb5fc3ff14f386953b6d0ccb600474",
-    "source_title": "Spiral galaxy NGC 4945"
+    "source_title": "Spiral galaxy NGC 4945",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso0931a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1118a",
@@ -1865,7 +2165,13 @@
     "source_sha256": "92e82adba8ccdac377d4787e7f231750b0f57879e331c76a4bf42024b0da0d42",
     "source_pixel_sha256": "24bc2950dc09c29115f9dfc85887189f201d5f6609a9292f94230d577974b9cb",
     "source_master_sha256": "37e1e83021d39d0610eebae236719f65ceb29f25489691ac13a37abc2968cab1",
-    "source_title": "Wide Field Imager view of a Milky Way look-alike, NGC 6744"
+    "source_title": "Wide Field Imager view of a Milky Way look-alike, NGC 6744",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1118a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "eso1524a",
@@ -1898,7 +2204,13 @@
     "source_sha256": "ff460ec95cdb8e00e45eedc5124c19c75b305af55522672f285b7220bcc12892",
     "source_pixel_sha256": "8f52be8bd01fb358d4c41c911a6bd2cee7b0fb62d2df780f6acb7f755bfdd2b7",
     "source_master_sha256": "6f84e3eca54c7357ebfc358843691353337af0527fdcc52f05751fcfb201c1e9",
-    "source_title": "Artist’s impression of CR7: the brightest galaxy in the early Universe"
+    "source_title": "Artist’s impression of CR7: the brightest galaxy in the early Universe",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/M. Kornmesser"
+    },
+    "rights_metadata_source": "https://www.eso.org/public/images/eso1524a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "schema-temna-hmota-1",
@@ -4742,7 +5054,13 @@
     "thumbnail": "assets/article-images/thumbs/weic2204a.webp",
     "source_master": "assets/article-images/sources/weic2204a.jpg",
     "verified_on": "2026-10-24",
-    "rights_note": "Oficiální stránka obrázku uvádí uvedený úplný kredit a odkazuje na podmínky CC BY 4.0; bez zvláštní omezující výjimky. Zachován kredit, odkaz na zdroj a licenci, uvedeny úpravy. Bez implikace podpory původního vydavatele."
+    "rights_note": "Oficiální stránka obrázku uvádí uvedený úplný kredit a odkazuje na podmínky CC BY 4.0; bez zvláštní omezující výjimky. Zachován kredit, odkaz na zdroj a licenci, uvedeny úpravy. Bez implikace podpory původního vydavatele.",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESA/ATG medialab"
+    },
+    "rights_metadata_source": "https://esawebb.org/images/weic2204a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "topic": "vesmirne-teleskopy",
@@ -4771,7 +5089,13 @@
     "thumbnail": "assets/article-images/thumbs/malin-dsc0027.webp",
     "source_master": "assets/article-images/sources/malin-dsc0027.jpg",
     "verified_on": "2026-10-24",
-    "rights_note": "Oficiální stránka obrázku uvádí uvedený úplný kredit a odkazuje na podmínky CC BY 4.0; bez zvláštní omezující výjimky. Zachován kredit, odkaz na zdroj a licenci, uvedeny úpravy. Bez implikace podpory původního vydavatele."
+    "rights_note": "Oficiální stránka obrázku uvádí uvedený úplný kredit a odkazuje na podmínky CC BY 4.0; bez zvláštní omezující výjimky. Zachován kredit, odkaz na zdroj a licenci, uvedeny úpravy. Bez implikace podpory původního vydavatele.",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESO/C. Malin"
+    },
+    "rights_metadata_source": "https://eso.org/public/images/malin-dsc0027/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "topic": "castice-a-zakladni-sily",
@@ -7625,7 +7949,10 @@
     "source_master": "assets/article-images/sources/portret-henrietta-leavitt.jpg",
     "match_keywords": [],
     "manual_only": true,
-    "download": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Henrietta_Swan_Leavitt.jpg"
+    "download": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Henrietta_Swan_Leavitt.jpg",
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Henrietta_Swan_Leavitt.jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -7657,7 +7984,10 @@
     "source_master": "assets/article-images/sources/portret-georges-lemaitre.jpg",
     "match_keywords": [],
     "manual_only": true,
-    "download": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Lemaitre-1.jpg"
+    "download": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Lemaitre-1.jpg",
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Lemaitre-1.jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -7689,7 +8019,13 @@
     "source_master": "assets/article-images/sources/portret-edwin-hubble.jpg",
     "match_keywords": [],
     "manual_only": true,
-    "download": "https://cdn.esahubble.org/archives/images/large/ann1527a.jpg"
+    "download": "https://cdn.esahubble.org/archives/images/large/ann1527a.jpg",
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA & ESA"
+    },
+    "rights_metadata_source": "https://esahubble.org/images/ann1527a/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -7721,7 +8057,14 @@
     "source_master": "assets/article-images/sources/portret-vera-rubin.jpg",
     "match_keywords": [],
     "manual_only": true,
-    "download": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Vera_Rubin_AIP.jpg"
+    "download": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Vera_Rubin_AIP.jpg",
+    "creator": {
+      "@type": "Organization",
+      "name": "AIP Emilio Segrè Visual Archives, AIP Gallery of Member Society Presidents"
+    },
+    "copyrightNotice": "American Institute of Physics (AIP)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Vera_Rubin_AIP.jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "planck-cmb-2018",
@@ -7757,7 +8100,13 @@
     "source_master": "assets/article-images/sources/planck-cmb-2018.jpg",
     "source_sha256": "e4c5df7be6bac1f84afd9c992e15cca918d07cae0e055bceed1354a7516eedc3",
     "source_pixel_sha256": "eab55d7fdb87bd487d510cf807b5ed366ee5c1dd5db46746066bdbafdbb47bab",
-    "source_master_sha256": "4f0442475bd3c5636abc6c47359e7e61c9711be82d74f29055c06f443388c14e"
+    "source_master_sha256": "4f0442475bd3c5636abc6c47359e7e61c9711be82d74f29055c06f443388c14e",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESA/Planck Collaboration"
+    },
+    "rights_metadata_source": "https://www.esa.int/ESA_Multimedia/Images/2018/07/Planck_s_view_of_the_cosmic_microwave_background2",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "euclid-perseus-2023",
@@ -7793,7 +8142,13 @@
     "source_master": "assets/article-images/sources/euclid-perseus-2023.jpg",
     "source_sha256": "68021f0052c11933d3932aa022e837998c35f299da08a51e88a78fb5ee50e896",
     "source_pixel_sha256": "0efd8f4fe81ff2d59250df3462d735de6dfa2c19f69ca5a173b718a9af732a5f",
-    "source_master_sha256": "046f4d50c4cfafa2f13a9a52363c52b7677bd5d55c91524d0baf7a62a0f67984"
+    "source_master_sha256": "046f4d50c4cfafa2f13a9a52363c52b7677bd5d55c91524d0baf7a62a0f67984",
+    "creator": {
+      "@type": "Organization",
+      "name": "ESA/Euclid/Euclid Consortium/NASA, image processing by J.-C. Cuillandre (CEA Paris-Saclay), G. Anselmi"
+    },
+    "rights_metadata_source": "https://www.esa.int/ESA_Multimedia/Images/2023/11/Euclid_s_view_of_the_Perseus_cluster_of_galaxies",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "desi-mayall-noirlab2512g",
@@ -7829,7 +8184,13 @@
     "source_master": "assets/article-images/sources/desi-mayall-noirlab2512g.jpg",
     "source_sha256": "3934df87db1d35b8ca3db5b63b908ee9a0f2fd374530feac794c44ade5da8e96",
     "source_pixel_sha256": "b89b2383189693849c1fa57b0e8ce315cd0fc5b97cd71d6ba54d346f21ff6693",
-    "source_master_sha256": "4ed849cc67fd3841101e9540d86a2f657df3a55ac21e211a8061659ca0f4525a"
+    "source_master_sha256": "4ed849cc67fd3841101e9540d86a2f657df3a55ac21e211a8061659ca0f4525a",
+    "creator": {
+      "@type": "Organization",
+      "name": "DESI Collaboration/DOE/KPNO/NOIRLab/NSF/AURA/M. Sargent (Berkeley Lab)"
+    },
+    "rights_metadata_source": "https://noirlab.edu/public/images/noirlab2512g/",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "icecube-laborator-usgs",
@@ -7865,7 +8226,13 @@
     "source_master": "assets/article-images/sources/icecube-laborator-usgs.jpg",
     "source_sha256": "adb4ad5b188e22345879fae1e5a1bfbc7ea087b0d573a6e907893d53e6acc294",
     "source_pixel_sha256": "3f6a3c2a697b834a9416025567c25937a3205423702284c26a219fa4fea96d20",
-    "source_master_sha256": "85c0fd4d4084e2ccc6d577cfce5c935da33c092abdde23b160499ee5da90bb2d"
+    "source_master_sha256": "85c0fd4d4084e2ccc6d577cfce5c935da33c092abdde23b160499ee5da90bb2d",
+    "creator": {
+      "@type": "Organization",
+      "name": "USGS / Earthquake Hazards Program"
+    },
+    "rights_metadata_source": "https://www.usgs.gov/media/images/icecube-lab-southpolejpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "schema-urychlovace-tri-cesty",
@@ -8094,7 +8461,14 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Person",
+      "name": "Herman Mishkin"
+    },
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_by_Mishkin,_1921.png",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-alexandr-friedmann",
@@ -8128,7 +8502,10 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Aleksandr_Fridman.png",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-saul-perlmutter",
@@ -8162,7 +8539,14 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Organization",
+      "name": "The White House"
+    },
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Saul_Perlmutter,_PCAST_Member.jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-brian-schmidt",
@@ -8196,7 +8580,14 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Organization",
+      "name": "Tim Wetherell"
+    },
+    "copyrightNotice": "Tim Wetherell",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Brian_Schmidt_portrait_1.jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-adam-riess",
@@ -8230,7 +8621,14 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA, ESA, STScI"
+    },
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Adam_Riess,_STScI_Astrophysicist_(2008-36-2421).jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "antena-holmdel-historicka",
@@ -8264,7 +8662,14 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA"
+    },
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Horn_Antenna-in_Holmdel,_New_Jersey.jpeg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-james-peebles",
@@ -8298,7 +8703,14 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Person",
+      "name": "Juan Diego Soler"
+    },
+    "copyrightNotice": "Juan Diego Soler",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Jim_Peebles_(cropped).jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-fritz-zwicky",
@@ -8332,7 +8744,10 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Zwicky,_Fritz_(1898-1974)-Portr_01030_(cropped).tif",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "schema-prostorova-krivost",
@@ -8766,7 +9181,14 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Organization",
+      "name": "AB Lagrelius & Westphal"
+    },
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Max_Planck_(Nobel_1918).jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-niels-bohr",
@@ -8800,7 +9222,14 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Organization",
+      "name": "Bain News Service; restoration: Bammesk"
+    },
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-louis-de-broglie",
@@ -8834,7 +9263,10 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Broglie_Big.jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-werner-heisenberg",
@@ -8868,7 +9300,10 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Werner_Heisenberg_cropped.jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-erwin-schrodinger",
@@ -8902,7 +9337,14 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Organization",
+      "name": "Nobel foundation"
+    },
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Erwin_Schr%C3%B6dinger_(1933).jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-max-born",
@@ -8936,7 +9378,14 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Organization",
+      "name": "Nobel foundation"
+    },
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Max_Born_1954.jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-wolfgang-pauli",
@@ -8970,7 +9419,13 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Organization",
+      "name": "Bettina Katzenstein / ETH Zürich"
+    },
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Wolfgang_Pauli_ETH-Bib_Portr_01042.jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "portret-paul-dirac",
@@ -9004,7 +9459,14 @@
     "subtopics": [
       "manual"
     ],
-    "match_keywords": []
+    "match_keywords": [],
+    "creator": {
+      "@type": "Organization",
+      "name": "Cambridge University, Cavendish Laboratory"
+    },
+    "copyrightNotice": "Public domain (see source)",
+    "rights_metadata_source": "https://commons.wikimedia.org/wiki/File:Paul_Dirac,_1933,_head_and_shoulders_portrait,_bw.jpg",
+    "rights_verified_on": "2026-11-04"
   },
   {
     "id": "osa-vesmir-celkovy-prehled",
