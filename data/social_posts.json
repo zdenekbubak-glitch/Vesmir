@@ -458,5 +458,35 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-03T09:01:42.700002+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_aaf9134e098e2ad7a3ff",
+    "title": "Nová analýza vesmírného střihu přináší přesnější pohled na temnou energii",
+    "platform_id": "6aeaec27c63bd995bd2221a2",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-04T08:26:17.390126+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_aaf9134e098e2ad7a3ff",
+    "title": "Nová analýza vesmírného střihu přináší přesnější pohled na temnou energii",
+    "platform_id": "6aeaec45394911f9f12d36ae",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-04T08:26:48.768199+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_aaf9134e098e2ad7a3ff",
+    "title": "Nová analýza vesmírného střihu přináší přesnější pohled na temnou energii",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzh2bqks22ep",
+    "status": "published",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-04T08:26:51.281928+00:00"
   }
 ]
