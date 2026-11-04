@@ -655,7 +655,7 @@ def write_gallery_context(site, out, images, news, explainery, library, editor_p
 
 def home_news_teaser(item, href, library):
     """Float only the news image; keep its full credit below the entire text."""
-    summary = f'<p class="summary">{esc(item.get("summary"))}</p>'
+    summary = article_summary_html(item.get("summary"))
     preview = thumbnail(lookup_image(item, 'news', library), href)
     if not preview:
         return '<div class="article-teaser news-teaser">' + summary + '</div>'
