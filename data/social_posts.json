@@ -531,8 +531,52 @@
     "key": "bluesky_daily_cd3af2c65bc838d00637",
     "title": "Gravitační vlny z neutronových hvězd prověřily limity kvadratické gravitace",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzjkqnzk22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/",
-    "recorded_at": "2026-11-05T08:25:21.935633+00:00"
+    "recorded_at": "2026-11-05T08:25:21.935633+00:00",
+    "last_check_attempt_at": "2026-11-05T09:04:07.655601+00:00",
+    "publication_checked_at": "2026-11-05T09:04:07.655601+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_7515d9a89ba763d09632",
+    "title": "OSELcz: Kosmický lockdown: Náš vesmír možná drží v existenci kvantový jev https://t.co/NdW3CFmNiC https://t.co/N27rEfBEoB",
+    "platform_id": "6aec46866cf2d1291872bd02",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-05T09:04:07.735872+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_590c62c213b7c1d94631",
+    "title": "🔮 „Kvantová brzda” může bránit zhroucení vesmíru!\n\nVíc hír ►https://t.co/igAtyUbYEK  📺\n\n#quantum #quantumphysics #fyzika #universe https://t.co/jwkrPLxNis",
+    "platform_id": "6aec46884a486827e73559d2",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-05T09:04:10.152028+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "reply",
+    "key": "x_reply_6e7281d12df83057b349",
+    "title": "📌 Po 22 letech(!) na oběžné dráze a neúspěšné letní záchranné misi končí observatoř \"Neila Gehrelse Swifta\" v zemské atmosféře. Neřízený teleskop shoří během klesání právě tuto středu.🛰️〰️💥🌍   🖖\n📖\n👇\nhttps://t.co/vykkrBqW7S",
+    "platform_id": "6aec468c6cf2d1291872cb29",
+    "status": "draft",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-05T09:04:12.150024+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "reply",
+    "key": "x_reply_adb1ca4971a28ad4b3b9",
+    "title": "Týden utekl jako nic a druhý díl povídání s fyzikem Vítěslavem Škorpíkem z naší redakce pokračuje. Tentokrát se společně vydáme ještě hlouběji do tajemství vesmíru. https://t.co/iKGqlgC4H4 https://t.co/1ZqntTVySJ",
+    "platform_id": "6aec468d6cf2d1291872cb56",
+    "status": "draft",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-05T09:04:13.532871+00:00"
   }
 ]
