@@ -1,5 +1,25 @@
 [
   {
+    "id": "apod-2026-11-05",
+    "title": "Enceladus v siluetě",
+    "caption": "Na snímku ze sondy Cassini z 1. listopadu 2009 je měsíc Enceladus podsvícen Sluncem, což odhaluje ledové výtrysky nepřetržitě proudící z jeho jižního pólu. Tyto gejzíry pravděpodobně pocházejí z podpovrchového oceánu, doplňují materiál do Saturnova prstence E a činí povrch Enceladu jasným jako sníh. Vpravo dole za prstenci je světlem odraženým od Saturnu slabě osvětlena noční strana měsíce Pandora.",
+    "thumb": "assets/gallery/apod-2026-11-05.jpg",
+    "image": "assets/gallery/apod-2026-11-05.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette/",
+    "published": "2026-11-05",
+    "credit": "Cassini Imaging Team , SSI , JPL , ESA , NASA",
+    "creator": {
+      "@type": "Organization",
+      "name": "Cassini Imaging Team , SSI , JPL , ESA , NASA"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette/",
+    "original_title": "Enceladus in Silhouette",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-05T08:23:57.906701+00:00"
+  },
+  {
     "id": "apod-2026-11-04",
     "title": "Ne tak docela skrytá galaxie IC 342",
     "caption": "Dnešní snímek nahlíží skrz rovinu Mléčné dráhy přes veškerý její plyn, prach a hvězdy, aby odhalil spirální galaxii IC 342, přezdívanou Skrytá galaxie. Tato galaxie (neboli Caldwell 5) se nachází asi 10 milionů světelných let daleko a je jedním z nejjasnějších členů skupiny galaxií IC 342/Maffei v sousedství naší Místní skupiny. Prach v samotné IC 342 místy blokuje záři vodíkového plynu, což poukazuje na přítomnost jasných mladých hvězd.",
