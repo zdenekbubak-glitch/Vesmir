@@ -116,14 +116,16 @@
 /* Give the takeaway its own paragraph in home-page news. */
 .news-teaser > .summary + .summary { margin-top: .85rem; }
 
-/* Home-page news on phones: keep a readable text column beside the image. */
+/* News and archive on phones: text flows beside and below the image. */
 @media (max-width: 520px) {
-  #feed .news-teaser.article-preview > a {
+  #feed .news-teaser.article-preview > a,
+  #content .news-teaser.article-preview > a {
     float: right;
     width: min(120px, 38%);
     margin: 0 0 .65rem .75rem;
   }
-  #feed .news-teaser.article-preview > a > img {
+  #feed .news-teaser.article-preview > a > img,
+  #content .news-teaser.article-preview > a > img {
     width: 100%;
     height: auto;
     aspect-ratio: 1;
