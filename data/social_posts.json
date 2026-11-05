@@ -145,9 +145,13 @@
     "key": "facebook_daily_58beca76ab87ec970134",
     "title": "Nový model orientace galaxií zpřesní naše chápání vesmíru",
     "platform_id": "6ae1b20b3ca4e5ab3b2f9bf4",
-    "status": "sending",
+    "status": "sent",
     "target": "https://kosmonovinky.cz/",
-    "recorded_at": "2026-10-28T08:28:05.923169+00:00"
+    "recorded_at": "2026-10-28T08:28:05.923169+00:00",
+    "last_check_attempt_at": "2026-11-05T08:24:23.083426+00:00",
+    "publication_checked_at": "2026-11-05T08:24:23.083426+00:00",
+    "publication_check_source": "buffer",
+    "publication_check_result": "verified"
   },
   {
     "source": "bluesky",
@@ -195,9 +199,13 @@
     "key": "bluesky_daily_5ef2d8c8a905e88171c9",
     "title": "Zostření kosmického pravítka: Přesnější měření rozpínání vesmíru",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3myxxi7sc22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/",
-    "recorded_at": "2026-10-29T08:25:10.113830+00:00"
+    "recorded_at": "2026-10-29T08:25:10.113830+00:00",
+    "last_check_attempt_at": "2026-11-05T08:25:21.668152+00:00",
+    "publication_checked_at": "2026-11-05T08:25:21.668152+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
   },
   {
     "source": "x",
@@ -355,9 +363,13 @@
     "key": "bluesky_daily_fc72dc4e5cf7e6f0cd47",
     "title": "Zapomenutá částice může vysvětlit, proč vesmír a život vůbec existují",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mz7iuy6k22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/",
-    "recorded_at": "2026-11-01T08:23:51.112856+00:00"
+    "recorded_at": "2026-11-01T08:23:51.112856+00:00",
+    "last_check_attempt_at": "2026-11-05T08:25:21.668152+00:00",
+    "publication_checked_at": "2026-11-05T08:25:21.668152+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
   },
   {
     "source": "x",
@@ -385,9 +397,13 @@
     "key": "bluesky_daily_bb2adb029f2f2ba0f9f8",
     "title": "Silné gravitační čočky naznačují samopůsobící temnou hmotu",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzbzdvnc22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/",
-    "recorded_at": "2026-11-02T08:27:06.887170+00:00"
+    "recorded_at": "2026-11-02T08:27:06.887170+00:00",
+    "last_check_attempt_at": "2026-11-05T08:25:21.668152+00:00",
+    "publication_checked_at": "2026-11-05T08:25:21.668152+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
   },
   {
     "source": "x",
@@ -488,5 +504,35 @@
     "status": "published",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-04T08:26:51.281928+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_cd3af2c65bc838d00637",
+    "title": "Gravitační vlny z neutronových hvězd prověřily limity kvadratické gravitace",
+    "platform_id": "6aec3d343ddb81d2211b026e",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-05T08:24:23.479683+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_cd3af2c65bc838d00637",
+    "title": "Gravitační vlny z neutronových hvězd prověřily limity kvadratické gravitace",
+    "platform_id": "6aec3d4d660b2991f165d3da",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-05T08:24:49.686256+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_cd3af2c65bc838d00637",
+    "title": "Gravitační vlny z neutronových hvězd prověřily limity kvadratické gravitace",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzjkqnzk22ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-05T08:25:21.935633+00:00"
   }
 ]
