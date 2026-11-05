@@ -176,6 +176,22 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+
+      - name: Restore IndexNow history
+        id: indexnow-cache
+        continue-on-error: true
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/indexnow-state.json
+          key: indexnow-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            indexnow-v1-
+
+      - name: Prepare IndexNow changes
+        id: indexnow-prepare
+        continue-on-error: true
+        run: python3 scripts/submit_indexnow.py prepare --state "${{ runner.temp }}/indexnow-state.json" --plan "${{ runner.temp }}/indexnow-plan.json"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -184,6 +200,21 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Notify IndexNow after deployment
+        id: indexnow-submit
+        if: ${{ success() && steps.indexnow-prepare.outcome == 'success' }}
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python3 scripts/submit_indexnow.py submit --state "${{ runner.temp }}/indexnow-state.json" --plan "${{ runner.temp }}/indexnow-plan.json"
+
+      - name: Save IndexNow history
+        if: ${{ success() && steps.indexnow-submit.outcome == 'success' }}
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/indexnow-state.json
+          key: indexnow-v1-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Post daily card to Facebook via Buffer
         env:
