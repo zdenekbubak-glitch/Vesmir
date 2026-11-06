@@ -1,5 +1,25 @@
 [
   {
+    "id": "apod-2026-11-06",
+    "title": "Rozloučení s observatoří Swift",
+    "caption": "Je čas se rozloučit s observatoří NASA Neil Gehrels Swift, která po téměř 22 letech služby 4. listopadu vstoupila nad indonéskou Severní Sumatrou do zemské atmosféry. Uvedená mozaika byla vytvořena v roce 2018 z prvního milionu snímků pořízených jejím ultrafialovým/optickým dalekohledem. Swift díky unikátní kombinaci přístrojů umožnil lidstvu v nebývalém detailu zkoumat ty nejrychlejší a nejenergetičtější výbuchy ve vesmíru.",
+    "thumb": "assets/gallery/apod-2026-11-06.jpg",
+    "image": "assets/gallery/apod-2026-11-06.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+    "published": "2026-11-06",
+    "credit": "NASA / Swift and AndreaMosaic",
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA / Swift and AndreaMosaic"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+    "original_title": "A Farewell to Swift",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-06T08:23:45.694490+00:00"
+  },
+  {
     "id": "apod-2026-11-05",
     "title": "Enceladus v siluetě",
     "caption": "Na snímku ze sondy Cassini z 1. listopadu 2009 je měsíc Enceladus podsvícen Sluncem, což odhaluje ledové výtrysky nepřetržitě proudící z jeho jižního pólu. Tyto gejzíry pravděpodobně pocházejí z podpovrchového oceánu, doplňují materiál do Saturnova prstence E a činí povrch Enceladu jasným jako sníh. Vpravo dole za prstenci je světlem odraženým od Saturnu slabě osvětlena noční strana měsíce Pandora.",
