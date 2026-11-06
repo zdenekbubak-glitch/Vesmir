@@ -578,5 +578,35 @@
     "status": "draft",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-05T09:04:13.532871+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_7c4060bc63013af77e92",
+    "title": "Rychlé rádiové záblesky pomohou zpřesnit množství hmoty ve vesmíru",
+    "platform_id": "6aed8eb0c1e74b84e5d84337",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-06T08:24:18.686476+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_7c4060bc63013af77e92",
+    "title": "Rychlé rádiové záblesky pomohou zpřesnit množství hmoty ve vesmíru",
+    "platform_id": "6aed8eca07f945cca94f2eb7",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-06T08:24:46.288169+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_7c4060bc63013af77e92",
+    "title": "Rychlé rádiové záblesky pomohou zpřesnit množství hmoty ve vesmíru",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzm37lic22ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-06T08:25:17.882973+00:00"
   }
 ]
