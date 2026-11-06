@@ -605,8 +605,22 @@
     "key": "bluesky_daily_7c4060bc63013af77e92",
     "title": "Rychlé rádiové záblesky pomohou zpřesnit množství hmoty ve vesmíru",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzm37lic22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/",
-    "recorded_at": "2026-11-06T08:25:17.882973+00:00"
+    "recorded_at": "2026-11-06T08:25:17.882973+00:00",
+    "last_check_attempt_at": "2026-11-06T09:01:18.735690+00:00",
+    "publication_checked_at": "2026-11-06T09:01:18.735690+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_431c48036ee7c0f5529d",
+    "title": "PŘIPRAVUJEME ❗ Má Einstein stále pravdu?\nČerné díry, gravitační vlny a zakřivený časoprostor. Obecná teorie relativity už více než sto let obstává v náročných testech. Znamená to ale, že vysvětluje všechno?\n↪ https://t.co/VGKrDwP2Eb https://t.co/KWhYXzmBLS",
+    "platform_id": "6aed975ddbada656be04e315",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-06T09:01:18.901943+00:00"
   }
 ]
