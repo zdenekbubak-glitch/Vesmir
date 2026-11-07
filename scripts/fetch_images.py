@@ -141,6 +141,12 @@ def alt_urls(url: str) -> list:
     if url:
         out.append(url)
     if url and "apod.nasa.gov" in url:
+        # The legacy NASA host can redirect image URLs to an HTML landing page.
+        # Astro.cz archives the same dated APOD files; never use today's image.
+        archived = re.fullmatch(r"https?://(?:www\.)?apod\.nasa\.gov/apod/image/(\d{2})(\d{2})/([^/?#]+)", url)
+        if archived:
+            year, month, filename = archived.groups()
+            out.append(f"https://www.astro.cz/apod_data/20{year}/{month}/{filename}")
         out.append(url.replace("https://apod.nasa.gov", "https://www.apod.nasa.gov"))
         out.append(url.replace("https://", "http://", 1))
     if url and url.startswith("http"):
