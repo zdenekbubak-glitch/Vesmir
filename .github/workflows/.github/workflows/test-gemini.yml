@@ -1,0 +1,67 @@
+name: Test Gemini
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Test českého překladu
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import ast
+          import os
+          from pathlib import Path
+          from google import genai
+
+          key = os.environ.get("GEMINI_API_KEY")
+          if not key:
+              raise SystemExit("CHYBA: Chybí GEMINI_API_KEY.")
+
+          # Načte model z denního skriptu, aniž by skript spustil.
+          tree = ast.parse(
+              Path("scripts/fetch_and_update.py").read_text(encoding="utf-8")
+          )
+          model = None
+          for node in tree.body:
+              if isinstance(node, ast.Assign):
+                  if any(
+                      isinstance(t, ast.Name) and t.id == "GEMINI_MODEL"
+                      for t in node.targets
+                  ):
+                      model = ast.literal_eval(node.value)
+
+          if not isinstance(model, str) or not model:
+              raise SystemExit("CHYBA: Nelze zjistit model denního běhu.")
+
+          print("Testovaný model:", model)
+          client = genai.Client(api_key=key)
+          chat = client.chats.create(model=model)
+          response = chat.send_message(
+              "Přelož následující větu do češtiny. "
+              "Vrať pouze překlad: "
+              "Scientists discovered a new planet orbiting a distant star."
+          )
+          result = (response.text or "").strip()
+          if not result:
+              raise SystemExit("CHYBA: Gemini vrátil prázdnou odpověď.")
+
+          print("Odpověď Gemini:", result)
+          print("API požadavek úspěšně dokončen.")
+          PY
