@@ -1,5 +1,25 @@
 [
   {
+    "id": "apod-2026-11-07",
+    "title": "Masiv De Gerlache-Kocher",
+    "caption": "Na detailním snímku okraje Měsíce se na horizontu tyčí horský masiv De Gerlache-Kocher, který vystupuje asi 4 kilometry nad své okolí v blízkosti jižního pólu. Tato oblast je díky trvale zastíněným kráterům s vodním ledem a vrcholům s téměř nepřetržitým slunečním svitem považována za ideální místo pro přistání misí Artemis a vybudování lidské základny. Pozoruhodný teleskopický pohled pořízený 31. října umožnila příznivá librace Měsíce.",
+    "thumb": "assets/gallery/apod-2026-11-07.jpg",
+    "image": "assets/gallery/apod-2026-11-07.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+    "published": "2026-11-07",
+    "credit": "Alejandro Sanz",
+    "creator": {
+      "@type": "Person",
+      "name": "Alejandro Sanz"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+    "original_title": "De Gerlache-Kocher Massif",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-07T08:24:36.885901+00:00"
+  },
+  {
     "id": "apod-2026-11-06",
     "title": "Rozloučení s observatoří Swift",
     "caption": "Je čas se rozloučit s observatoří NASA Neil Gehrels Swift, která po téměř 22 letech služby 4. listopadu vstoupila nad indonéskou Severní Sumatrou do zemské atmosféry. Uvedená mozaika byla vytvořena v roce 2018 z prvního milionu snímků pořízených jejím ultrafialovým/optickým dalekohledem. Swift díky unikátní kombinaci přístrojů umožnil lidstvu v nebývalém detailu zkoumat ty nejrychlejší a nejenergetičtější výbuchy ve vesmíru.",
