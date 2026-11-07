@@ -622,5 +622,35 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-06T09:01:18.901943+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_5f5f00655a43300dd982",
+    "title": "Dokáže gravitace provázat kvantové hodiny? Vědci navrhují nový experiment",
+    "platform_id": "6aeee061229bf05daf38e58b",
+    "status": "sending",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-07T08:25:15.320069+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_5f5f00655a43300dd982",
+    "title": "Dokáže gravitace provázat kvantové hodiny? Vědci navrhují nový experiment",
+    "platform_id": "6aeee08c004e4879a742120f",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-07T08:25:52.004597+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_5f5f00655a43300dd982",
+    "title": "Dokáže gravitace provázat kvantové hodiny? Vědci navrhují nový experiment",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzoloix222ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-07T08:26:23.614046+00:00"
   }
 ]
