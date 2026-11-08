@@ -16,6 +16,26 @@
   const cache = new Map();
   let context = {}, contextReady = false, branch = 'snimky', records = [], version = 0;
   function fold(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
+  // Map normalized matches back to original Czech text, preserving diacritics.
+  function highlight(target, text, needle) {
+    target.textContent = text;
+    if (!needle) return;
+    let normalized = '', starts = [], ends = [], offset = 0;
+    for (const char of text) {
+      const part = fold(char);
+      for (let i = 0; i < part.length; i++) { normalized += part[i]; starts.push(offset); ends.push(offset + char.length); }
+      offset += char.length;
+    }
+    const fragment = document.createDocumentFragment(); let at = 0, position = 0, found = false;
+    while ((position = normalized.indexOf(needle, position)) !== -1) {
+      found = true;
+      const start = starts[position], end = ends[position + needle.length - 1];
+      fragment.append(document.createTextNode(text.slice(at, start)));
+      const mark = document.createElement('mark'); mark.textContent = text.slice(start, end); fragment.append(mark);
+      at = end; position += needle.length;
+    }
+    if (found) { fragment.append(document.createTextNode(text.slice(at))); target.replaceChildren(fragment); }
+  }
   function node(tag, text, cls) {
     const el = document.createElement(tag); if (text) el.textContent = text; if (cls) el.className = cls; return el;
   }
@@ -92,7 +112,7 @@
       const h = node('h2'); if (detail) h.append(anchor(item.title || '', detail)); else h.textContent = item.title || ''; figure.append(h);
       if (branch === 'temata') figure.append(node('span', item.gallery_type_label || labels[kind] || 'Typ dosud nezařazen', 'image-type'));
       figure.append(node('div', [item.source, item.published, item.credit].filter(Boolean).join(' · '), 'meta'));
-      figure.append(node('p', item.caption || '', 'caption'));
+      const caption = node('p', item.caption || '', 'caption'); figure.append(caption);
       if (item.license_url && safeUrl(item.license_url)) {
         const p = node('p', 'Licence: ', 'meta'); p.append(anchor(item.license || 'Podmínky použití', safeUrl(item.license_url), true));
         if (item.modifications) p.append(document.createTextNode(' · ' + item.modifications)); figure.append(p);
@@ -103,7 +123,7 @@
         figure.append(anchor(branch === 'temata' && new URL(source).pathname.startsWith('/kosmopedie/') ? 'Výklad v Kosmopedii →' : 'Původní zdroj →', source, true));
       }
       gallery.append(figure);
-      records.push({figure, kind, refs, text: fold([item.title, item.original_title, item.caption, item.credit, item.source, ...(item.gallery_keywords || []), ...refs.map(r => r.title)].join(' '))});
+      records.push({figure, kind, refs, highlights: [[h.querySelector('a') || h, String(item.title || '')], [caption, String(item.caption || '')]], text: fold([item.title, item.original_title, item.caption, item.credit, item.source, ...(item.gallery_keywords || []), ...refs.map(r => r.title)].join(' '))});
     }
     const empty = node('p', 'Žádný obrázek neodpovídá zvoleným filtrům.', 'empty'); empty.id = 'gallery-empty'; empty.hidden = true; gallery.append(empty);
   }
@@ -111,6 +131,7 @@
     const q = fold(input.value.trim()); let count = 0;
     for (const r of records) {
       r.figure.hidden = !(r.text.includes(q) && (branch !== 'temata' || ((!type.value || r.kind === type.value) && (!use.value || r.refs.some(x => x.kind === use.value)))));
+      r.highlights.forEach(([target, text]) => highlight(target, text, r.figure.hidden ? '' : q));
       if (!r.figure.hidden) count++;
     }
     const empty = document.getElementById('gallery-empty'); if (empty) empty.hidden = count !== 0;
