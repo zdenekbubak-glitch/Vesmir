@@ -123,7 +123,7 @@
         figure.append(anchor(branch === 'temata' && new URL(source).pathname.startsWith('/kosmopedie/') ? 'Výklad v Kosmopedii →' : 'Původní zdroj →', source, true));
       }
       gallery.append(figure);
-      records.push({figure, kind, refs, highlights: [[h.querySelector('a') || h, String(item.title || '')], [caption, String(item.caption || '')]], text: fold([item.title, item.original_title, item.caption, item.credit, item.source, ...(item.gallery_keywords || []), ...refs.map(r => r.title)].join(' '))});
+      records.push({figure, kind, refs, highlights: [[h.querySelector('a') || h, String(item.title || '')], [caption, String(item.caption || '')]], text: fold([item.title, item.original_title, item.caption, item.credit, item.source, ...(item.gallery_keywords || [])].join(' '))});
     }
     const empty = node('p', 'Žádný obrázek neodpovídá zvoleným filtrům.', 'empty'); empty.id = 'gallery-empty'; empty.hidden = true; gallery.append(empty);
   }
