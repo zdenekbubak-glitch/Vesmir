@@ -1,4 +1,4 @@
-/* Full text of published articles only; fetched on first search. */
+/* Shared search for published news and editorial comments; full text loads on demand. */
 (() => {
   function normalized(value) {
     let text = '', starts = [], ends = [], offset = 0;
@@ -40,25 +40,34 @@
     if (end < text.length) { const space = text.lastIndexOf(' ', end); if (space >= hit[1]) end = space; }
     return (start ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
   }
-  // Pure helpers are also used by regression checks; nothing is attached globally.
-  const box = document.getElementById('clanky-search'); if (!box) return;
-  const status = document.getElementById('clanky-search-status');
-  const cards = Array.from(document.querySelectorAll('article.item')).map(card => {
+  const home = Boolean(document.getElementById('news-filter'));
+  const box = document.getElementById(home ? 'news-filter' : 'clanky-search'); if (!box) return;
+  const status = document.getElementById(home ? 'filter-meta' : 'clanky-search-status');
+  const clearBtn = home ? document.getElementById('filter-clear') : null;
+  const empty = home ? document.getElementById('news-no-match') : null;
+  const nodes = home ? document.querySelectorAll('#feed article.post, main > article.editorial-card') : document.querySelectorAll('article.item');
+  const cards = Array.from(nodes).map(card => {
     const link = card.querySelector('h2 a');
-    // Search article content only; image credits, licenses and navigation are not content.
-    const lead = ['h2', '.summary'].map(selector => {
-      const el = card.querySelector(selector); return el ? el.textContent : '';
-    });
-    return {card, href: link ? new URL(link.href, location.href).pathname : '', original: card.innerHTML, visible: lead.map(value => normalized(value).text)};
+    // Search content only, excluding credits, navigation and unrelated links.
+    const lead = [card.querySelector('h2'), ...card.querySelectorAll('.summary')].filter(Boolean);
+    return {card, href: link ? new URL(link.href, location.href).pathname : '', original: card.innerHTML,
+      searchOnly: home && card.hasAttribute('data-search-only'), editorial: card.classList.contains('editorial-card'),
+      visible: lead.map(el => normalized(el.textContent).text)};
   });
   let index = null, pending = null, generation = 0, timer;
-  function reset() { cards.forEach(r => {r.card.innerHTML = r.original; r.card.hidden = false;}); }
+  function reset() { cards.forEach(r => {r.card.innerHTML = r.original; r.card.hidden = r.searchOnly;}); }
   function headings() {
-    document.querySelectorAll('h2.section-title').forEach(h => {
-      let el = h.nextElementSibling, any = false;
-      while (el && el.tagName !== 'H2') { if (el.matches('article.item') && !el.hidden) any = true; el = el.nextElementSibling; }
-      h.hidden = !any;
-    });
+    if (home) {
+      document.querySelectorAll('#feed .news-month').forEach(group => {
+        group.hidden = !Array.from(group.querySelectorAll('article.post')).some(card => !card.hidden);
+      });
+    } else {
+      document.querySelectorAll('h2.section-title').forEach(h => {
+        let el = h.nextElementSibling, any = false;
+        while (el && el.tagName !== 'H2') { if (el.matches('article.item') && !el.hidden) any = true; el = el.nextElementSibling; }
+        h.hidden = !any;
+      });
+    }
   }
   function load() {
     if (!pending) pending = fetch('/data/article-search.json', {cache: 'no-cache'}).then(async r => {
@@ -68,38 +77,59 @@
     }).catch(e => {pending = null; throw e;});
     return pending;
   }
-  async function apply() {
-    const version = ++generation, q = box.value.trim(), needle = normalized(q).text;
-    reset();
-    if (!needle) {headings(); status.textContent = ''; return;}
-    status.textContent = 'Načítám hledání v celých textech…';
-    try {if (!index) await load();} catch {
-      if (version !== generation) return;
-      status.textContent = 'Celé texty se nepodařilo načíst. Zobrazeny jsou shody v titulcích a perexech; zkuste hledání znovu.';
-      filter(needle, false); return;
-    }
-    if (version !== generation) return;
-    const count = filter(needle, true);
-    status.textContent = count ? count + ' z ' + cards.length + ' článků' : 'Žádný článek neodpovídá hledanému textu.';
+  function countText() {
+    const comments = cards.filter(r => r.editorial && !r.card.hidden).length;
+    const articles = cards.filter(r => !r.editorial && !r.card.hidden).length;
+    return (home ? 'Novinky: ' : 'Články: ') + articles + ' · Komentáře: ' + comments;
+  }
+  function updateUrl(q) {
+    if (!home) return;
+    try { const url = new URL(location.href); if (q) url.searchParams.set('q', q); else url.searchParams.delete('q'); history.replaceState(null, '', url.pathname + url.search + url.hash); } catch {}
   }
   function filter(needle, full) {
     let count = 0;
     cards.forEach(r => {
-      const text = full ? index.get(r.href) || '' : '', inCard = r.visible.some(value => value.includes(needle));
-      const match = inCard || normalized(text).text.includes(needle);
+      const text = full ? index.get(r.href) || '' : '';
+      const match = r.visible.some(value => value.includes(needle)) || normalized(text).text.includes(needle);
       r.card.hidden = !match; if (!match) return; count++;
-      const title = r.card.querySelector('h2'), perex = r.card.querySelector('.summary');
-      const inLead = [title, perex].some(el => el && normalized(el.textContent).text.includes(needle));
-      [title, perex].filter(Boolean).forEach(el => highlight(el, needle));
+      const title = r.card.querySelector('h2'), summaries = Array.from(r.card.querySelectorAll('.summary'));
+      const lead = [title, ...summaries].filter(Boolean);
+      const inLead = lead.some(el => normalized(el.textContent).text.includes(needle));
+      lead.forEach(el => highlight(el, needle));
       if (full && !inLead && normalized(text).text.includes(needle)) {
         const p = document.createElement('p'); p.className = 'search-excerpt'; p.textContent = excerpt(text, needle); highlight(p, needle);
-        const teaser = r.card.querySelector('.article-teaser'); (teaser || perex || title).after(p);
+        const teaser = r.card.querySelector('.article-teaser'); (teaser || summaries.at(-1) || title).after(p);
       }
     });
-    headings(); return count;
+    headings(); if (empty) empty.hidden = count !== 0;
+    return count;
   }
+  async function apply() {
+    const version = ++generation, q = box.value.trim(), needle = normalized(q).text;
+    reset(); updateUrl(q);
+    if (clearBtn) clearBtn.style.display = q ? 'inline-flex' : 'none';
+    if (!needle) { headings(); if (empty) empty.hidden = true; status.textContent = home ? countText() : ''; return; }
+    // Keep only matching leads visible while waiting for the full-text index.
+    filter(needle, false);
+    status.textContent = 'Načítám hledání v celých textech…';
+    try {if (!index) await load();} catch {
+      if (version !== generation) return;
+      status.textContent = 'Celé texty se nepodařilo načíst. Zobrazeny jsou shody v titulcích a perexech; zkuste hledání znovu.';
+      return;
+    }
+    if (version !== generation) return;
+    reset(); const count = filter(needle, true);
+    status.textContent = count ? countText() : (home ? 'Žádná novinka ani komentář neodpovídá hledanému textu.' : 'Žádný článek ani komentář neodpovídá hledanému textu.');
+  }
+  function clear() { box.value = ''; clearTimeout(timer); apply(); box.focus(); }
   box.addEventListener('input', () => {generation++; clearTimeout(timer); timer = setTimeout(apply, 150);});
-  box.addEventListener('keydown', e => {if (e.key === 'Escape') {box.value = ''; clearTimeout(timer); apply();}});
-  if (box.value.trim()) apply();
+  box.addEventListener('keydown', e => {if (e.key === 'Escape') {e.preventDefault(); clear();}});
+  if (home) {
+    const bar = document.getElementById('filter-bar'); bar.hidden = false; bar.style.display = 'block';
+    if (clearBtn) clearBtn.addEventListener('click', clear);
+    const clearEmpty = document.getElementById('clear-empty'); if (clearEmpty) clearEmpty.addEventListener('click', clear);
+    box.value = new URLSearchParams(location.search).get('q') || '';
+    window.addEventListener('popstate', () => {box.value = new URLSearchParams(location.search).get('q') || ''; apply();});
+  }
+  apply();
 })();
-

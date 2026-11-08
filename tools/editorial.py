@@ -207,7 +207,10 @@ def build(site, out, base, library, page_head, foot, fmt_date, article_footer=""
         homepage = source.read_text(encoding='utf-8')
         if START not in homepage or END not in homepage:
             raise ValueError('index.html: chybí značky EDITORIAL pro upoutávku')
-        teaser = card(posts[0],fmt_date,True) if posts else ''
+        teaser = ''.join(
+            card(post, fmt_date, True).replace('<article ', '<article hidden data-search-only="true" ', 1)
+            if index else card(post, fmt_date, True)
+            for index, post in enumerate(posts))
         homepage = re.sub(re.escape(START)+'.*?'+re.escape(END),lambda m:START+'\n'+teaser+'\n'+END,homepage,flags=re.S)
         (out/'index.html').write_text(homepage,encoding='utf-8')
     return posts, urls

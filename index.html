@@ -282,6 +282,9 @@
     }
     .editorial-card { background: var(--card); border: 1px solid #334155; border-radius: 12px; padding: 1.25rem 1.4rem; margin: 1.4rem 0; }
     .editorial-card h2 { margin: 0 0 .65rem; font-size: 1.25rem; }
+    article[hidden] { display: none !important; }
+    .search-excerpt { margin: .6rem 0; padding-left: .8rem; border-left: 2px solid var(--accent); font-size: .9rem; color: var(--muted); }
+    article mark { background: #f6d365; color: #141a26; border-radius: 2px; padding: 0 .06em; }
   </style>
   <script defer src="/assets/analytics.js"></script>
   <link rel="stylesheet" href="/assets/article-previews.css">
@@ -326,11 +329,11 @@
   <main>
     <div class="filter-bar" id="filter-bar" hidden>
       <div class="filter-row">
-        <label class="visually-hidden" for="news-filter" style="position:absolute;left:-9999px">Hledat v novinkách</label>
-        <input type="search" id="news-filter" placeholder="Hledat v novinkách…" autocomplete="off" spellcheck="false">
+        <label class="visually-hidden" for="news-filter" style="position:absolute;left:-9999px">Hledat v novinkách a komentářích</label>
+        <input type="search" id="news-filter" placeholder="Hledat v novinkách a komentářích…" autocomplete="off" spellcheck="false">
         <button type="button" class="filter-clear" id="filter-clear" aria-label="Vymazat filtr">×</button>
       </div>
-      <p class="filter-meta" id="filter-meta"></p>
+      <p class="filter-meta" id="filter-meta" role="status" aria-live="polite"></p>
     </div>
 
     <div class="thumbs-head" id="thumbs-head">
@@ -404,45 +407,6 @@
       history.replaceState(null, '', url);
     }
 
-    function initNewsFilter() {
-      const feed = document.getElementById('feed');
-      const cards = Array.from(feed.querySelectorAll('article.post'));
-      if (!cards.length) return;
-      const bar = document.getElementById('filter-bar');
-      const input = document.getElementById('news-filter');
-      const clearBtn = document.getElementById('filter-clear');
-      const meta = document.getElementById('filter-meta');
-      const empty = document.getElementById('news-no-match');
-      const searchable = cards.map(card => ({card, text: fold(
-        Array.from(card.querySelectorAll('h2, .summary, .meta')).map(el => el.textContent).join(' '))}));
-      function applyFilter() {
-        const q = input.value.trim();
-        const needle = fold(q);
-        let count = 0;
-        searchable.forEach(({card, text}) => {
-          card.hidden = Boolean(needle && !text.includes(needle));
-          if (!card.hidden) count++;
-        });
-        feed.querySelectorAll('.news-month').forEach(group => {
-          group.hidden = !Array.from(group.querySelectorAll('article.post')).some(card => !card.hidden);
-        });
-        if (empty) empty.hidden = count !== 0;
-        clearBtn.style.display = q ? 'inline-flex' : 'none';
-        meta.textContent = needle ? count + ' z ' + cards.length : cards.length + ' novinek';
-        try { writeQuery(q); } catch (e) { /* Filtering also works without history access. */ }
-      }
-      function clear() { input.value = ''; applyFilter(); input.focus(); }
-      bar.hidden = false;
-      bar.style.display = 'block';
-      input.value = queryFromUrl();
-      let timer;
-      input.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(applyFilter, 150); });
-      clearBtn.addEventListener('click', clear);
-      const clearEmpty = document.getElementById('clear-empty');
-      if (clearEmpty) clearEmpty.addEventListener('click', clear);
-      applyFilter();
-    }
-
     async function loadThumbs() {
       const strip = document.getElementById('thumbs');
       const head = document.getElementById('thumbs-head');
@@ -466,7 +430,8 @@
     }
     loadThumbs();
     
-    initNewsFilter();
+
   </script>
+  <script defer src="/assets/article-search.js?v=20261108"></script>
 </body>
 </html>

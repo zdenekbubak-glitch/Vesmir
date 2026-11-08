@@ -1133,9 +1133,9 @@ def main():
     idx += f'''    <p class="breadcrumbs"><a href="/">Hlavní stránka</a> › Přehled článků</p>
     <h1 class="section-title" style="font-size:1.4rem;color:var(--text)">Přehled článků ({len(news) + len(editor_posts)})</h1>
     <p class="summary">Všechny články přehledně po měsících, nejnovější nahoře. Kliknutím na titulek otevřete celý text — výběr zúží fulltextové hledání níže.</p>
-{collection_switch('articles', 'all')}{editor_archive_link}    <input type="search" id="clanky-search" class="search-box" placeholder="Hledat v článcích…" aria-label="Hledat v článcích">
+{collection_switch('articles', 'all')}{editor_archive_link}    <input type="search" id="clanky-search" class="search-box" placeholder="Hledat v článcích a komentářích…" aria-label="Hledat v článcích a komentářích">
     <p id="clanky-search-status" class="search-status" role="status" aria-live="polite"></p>
-{list_html}    <script defer src="/assets/article-search.js"></script>
+{list_html}    <script defer src="/assets/article-search.js?v=20261108"></script>
 '''
     idx += FOOT
     (out / "clanky" / "index.html").write_text(idx, encoding="utf-8")
