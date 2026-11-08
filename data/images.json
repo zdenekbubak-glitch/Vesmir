@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-08",
+    "title": "Mimořádně jasný bolid",
+    "caption": "Promyšlená kompozice z 14. listopadu 2017 zachycuje v mrazivém soumraku zasněžené štíty italských Dolomit nad vesničkou La Villa i souhvězdí Velké medvědice na severním obzoru. Nejúžasnějším prvkem snímku je však náhodně zachycený mimořádně jasný bolid, který během expozice proletěl od východu k západu přímo pod známým asterismem Velkého vozu. Tento jasný meteor byl pozorován napříč celou Evropou a stal se jedním z nejvíce hlášených bolidů v historii.",
+    "thumb": "assets/gallery/apod-2026-11-08.jpg",
+    "image": "assets/gallery/apod-2026-11-08.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+    "published": "2026-11-08",
+    "credit": "Ollie Taylor",
+    "creator": {
+      "@type": "Person",
+      "name": "Ollie Taylor"
+    },
+    "copyrightNotice": "Ollie Taylor",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+    "original_title": "Major Fireball Meteor",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-08T08:22:06.867841+00:00"
+  },
+  {
     "id": "apod-2026-11-07",
     "title": "Masiv De Gerlache-Kocher",
     "caption": "Na detailním snímku okraje Měsíce se na horizontu tyčí horský masiv De Gerlache-Kocher, který vystupuje asi 4 kilometry nad své okolí v blízkosti jižního pólu. Tato oblast je díky trvale zastíněným kráterům s vodním ledem a vrcholům s téměř nepřetržitým slunečním svitem považována za ideální místo pro přistání misí Artemis a vybudování lidské základny. Pozoruhodný teleskopický pohled pořízený 31. října umožnila příznivá librace Měsíce.",
@@ -984,8 +1005,8 @@
     "id": "apod-2026-09-26",
     "title": "Zrcadlený meteor a Mléčná dráha",
     "caption": "Dne 15. srpna proťal noční oblohu nad observatoří Roque de los Muchachos na ostrově La Palma tento jasný meteor z roje Perseid. V popředí úchvatné scény s centrem Mléčné dráhy a jejími temnými prachovými mračny se vyjímá 23metrové zrcadlo prototypu teleskopu LST-1. Tento dalekohled sítě Cherenkov Telescope Array Observatory je navržen k detekci extrémně krátkých světelných záblesků v atmosféře.",
-    "thumb": "https://apod.nasa.gov/apod/image/2609/MilkyWayMeteorLSTJeffDai1024.jpg",
-    "image": "https://apod.nasa.gov/apod/image/2609/MilkyWayMeteorLSTJeffDai.jpg",
+    "thumb": "assets/gallery/apod-2026-09-26.jpg",
+    "image": "assets/gallery/apod-2026-09-26.jpg",
     "source": "NASA APOD",
     "url": "https://apod.nasa.gov/apod/ap260926.html",
     "published": "2026-09-26",
