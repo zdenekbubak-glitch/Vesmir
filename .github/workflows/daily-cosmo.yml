@@ -65,19 +65,22 @@ jobs:
           fi
 
       - name: Post daily card to X via Buffer
+        id: daily-x
+        continue-on-error: true
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: |
           export CARD_SHA=$(git rev-parse HEAD)
           python3 << 'EOF'
-          import json, os, datetime, requests
+          import json, os, datetime, requests, time, hashlib, io
+          from PIL import Image
           from scripts.social_tracking import post_key, tracked_url, receipt
           from pathlib import Path
 
           api_key = os.environ.get("BUFFER_API_KEY")
           if not api_key:
               print("Chybí BUFFER_API_KEY")
-              exit(0)
+              raise SystemExit("Chybí BUFFER_API_KEY pro X.")
 
           news_path = Path("data/news.json")
           if not news_path.exists():
@@ -105,6 +108,24 @@ jobs:
           # jsDelivr CDN – Buffer spolehlivěji stahuje než raw.githubusercontent.com
           card_url = f"https://cdn.jsdelivr.net/gh/zdenekbubak-glitch/Vesmir@{os.environ.get('CARD_SHA', 'main')}/assets/cards/daily.jpg"
           print(f"Card URL: {card_url}")
+
+          # Čekej na přesné bajty právě vytvořené karty, ne jen HTTP 200.
+          expected = hashlib.sha256(Path("assets/cards/daily.jpg").read_bytes()).digest()
+          for attempt in range(1, 7):
+              try:
+                  media = requests.get(card_url, timeout=15)
+                  media.raise_for_status()
+                  Image.open(io.BytesIO(media.content)).verify()
+                  if hashlib.sha256(media.content).digest() != expected:
+                      raise ValueError("CDN ještě nevrací aktuální kartu.")
+                  print(f"Karta dostupná a ověřená (pokus {attempt}).")
+                  break
+              except (requests.RequestException, OSError, ValueError) as exc:
+                  print(f"Karta zatím nedostupná (pokus {attempt}): {type(exc).__name__}")
+                  if attempt == 6:
+                      raise RuntimeError("Karta není dostupná; požadavek do Bufferu nebyl odeslán.") from exc
+                  time.sleep(10)
+
 
           mutation = """
           mutation CreateThread($input: CreatePostInput!) {
@@ -151,21 +172,25 @@ jobs:
           r = requests.post("https://api.buffer.com", json={"query": mutation, "variables": variables}, headers=headers, timeout=30)
           print(f"Buffer HTTP {r.status_code}")
           print(f"Buffer odpověď: {r.text[:1000]}")
-          try:
-            data = r.json()
-            errors = data.get("errors")
-            if errors:
-              print(f"GraphQL errors: {errors}")
-            result = data.get("data", {}).get("createPost", {})
-            if "message" in result:
-              print(f"Buffer chyba: {result['message']}")
-            else:
-              post_id = result.get("post", {}).get("id") if result.get("post") else None
-              if post_id:
-                  receipt("x", "daily", post_key("x","daily",today), title, post_id, result.get("post", {}).get("status"))
-              print(f"Post odeslán: {post_id}")
-          except Exception as e:
-            print(f"Nelze parsovat odpověď: {e}")
+          r.raise_for_status()
+          data = r.json()
+          if data.get("errors"):
+              raise RuntimeError(f"Buffer GraphQL chyba: {data['errors']}")
+          result = (data.get("data") or {}).get("createPost") or {}
+          if "message" in result:
+              raise RuntimeError(f"Buffer chyba: {result['message']}")
+          post = result.get("post") or {}
+          post_id = post.get("id")
+          status = (post.get("status") or "").lower()
+          if not post_id:
+              raise RuntimeError("Buffer nevrátil ID příspěvku.")
+          receipt("x", "daily", post_key("x","daily",today), title, post_id, post.get("status"))
+          if status in {"error", "failed"}:
+              raise RuntimeError(f"X příspěvek {post_id} má stav {status}. Zkontroluj Buffer a použij Retry Now; celý workflow neopakuj.")
+          if status == "sent":
+              print(f"X příspěvek odeslán: {post_id}")
+          else:
+              print(f"Buffer přijal příspěvek {post_id}; stav {status or 'neuveden'} ještě nepotvrzuje zveřejnění.")
           EOF
 
       - name: Generate SEO pages
@@ -324,3 +349,10 @@ jobs:
       - name: Uložit výsledky odeslání pro statistiky
         if: ${{ always() }}
         run: python scripts/save_social_posts.py
+
+      - name: Report daily X failure
+        if: ${{ always() && steps.daily-x.outcome == 'failure' }}
+        run: |
+          echo "::error::Denní karta na X selhala. Ostatní kroky mohly doběhnout; zkontrolujte krok Post daily card to X via Buffer."
+          exit 1
+
