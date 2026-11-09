@@ -19,6 +19,25 @@ def tracked_url(url, source, kind, key):
     query += [('utm_source', source), ('utm_medium', 'social'), ('utm_campaign', 'kosmonovinky'), ('utm_content', key), ('utm_term', kind)]
     return urlunsplit((p.scheme, p.netloc, p.path or '/', urlencode(query), p.fragment))
 
+def article_url(item, items):
+    """Resolve exactly the article path used by tools/build_static.py, including collisions."""
+    import unicodedata
+    def slug(title):
+        text = unicodedata.normalize('NFKD', title).encode('ascii', 'ignore').decode('ascii').lower()
+        return '-'.join(re.sub(r'[^a-z0-9]+', ' ', text).split()[:10]) or 'clanek'
+    used = set()
+    for row in sorted(items, key=lambda x: x.get('inserted_at') or '', reverse=True):
+        base = slug(row.get('title', 'clanek')) + '-' + (re.sub(r'[^0-9]', '', str(row.get('id')))[:12] or '0')
+        name, number = base, 2
+        while name in used:
+            name = base + '-' + str(number)
+            number += 1
+        used.add(name)
+        if row is item:
+            return 'https://kosmonovinky.cz/clanky/' + name + '.html'
+    raise ValueError('Selected daily article is not in news.json')
+
+
 def receipt(source, kind, key, title, platform_id, status, target='https://kosmonovinky.cz/'):
     recheck_pending()
     # Buffer acceptance is not proof of publication. Keep its returned status.

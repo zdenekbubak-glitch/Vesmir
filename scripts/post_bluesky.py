@@ -19,7 +19,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
 
-from social_tracking import post_key, tracked_url, receipt
+from social_tracking import post_key, tracked_url, receipt, article_url
+from generate_x_card import pick_item
 
 SITE_URL = 'https://kosmonovinky.cz'
 COLLECTION = 'app.bsky.feed.post'
@@ -43,7 +44,7 @@ def shorten(text, limit):
     return part.rstrip(' ,;:–—-') + '…'
 
 
-def compose(item):
+def compose(item, target, day):
     title = clean(item.get('title')) or 'Kosmologické novinky'
     summary = clean(item.get('summary')).split('Proč je to zajímavé:')[0].strip()
     budget = 300 - len('\n\n' + SITE_URL)
@@ -57,7 +58,7 @@ def compose(item):
     start = len(text[:-len(SITE_URL)].encode('utf-8'))
     facets = [{
         'index': {'byteStart': start, 'byteEnd': len(text.encode('utf-8'))},
-        'features': [{'$type': 'app.bsky.richtext.facet#link', 'uri': tracked_url(SITE_URL, 'bluesky', 'daily', post_key('bluesky', 'daily', datetime.now(timezone.utc).date().isoformat()))}],
+        'features': [{'$type': 'app.bsky.richtext.facet#link', 'uri': tracked_url(target, 'bluesky', 'daily', post_key('bluesky', 'daily', day))}],
     }]
     return text, facets
 
@@ -158,7 +159,7 @@ def public_visibility(uri):
     return 'not_visible' if absent else 'unverified'
 
 
-def confirm_publication(item, day, did, key):
+def confirm_publication(item, day, did, key, target):
     """Call only after the record has been confirmed on the account's PDS."""
     uri = f'at://{did}/{COLLECTION}/{key}'
     link = f'https://bsky.app/profile/{did}/post/{key}'
@@ -167,7 +168,7 @@ def confirm_publication(item, day, did, key):
     status = {'visible': 'published', 'not_visible': 'stored_pending_visibility',
               'unverified': 'stored_visibility_unverified'}[visibility]
     receipt('bluesky', 'daily', post_key('bluesky', 'daily', day),
-            item.get('title', ''), uri, status)
+            item.get('title', ''), uri, status, target=target)
     if visibility == 'visible':
         print('Bluesky: příspěvek je uložen a jeho veřejná dostupnost je ověřena.')
         return
@@ -185,7 +186,7 @@ def confirm_publication(item, day, did, key):
     return
 
 
-def publish(item, card, day, handle, password):
+def publish(item, card, day, handle, password, target):
     session = api('https://bsky.social', 'com.atproto.server.createSession',
                   payload={'identifier': handle, 'password': password})
     did, token = session['did'], session['accessJwt']
@@ -203,16 +204,25 @@ def publish(item, card, day, handle, password):
             or endpoint.password or endpoint.query or endpoint.fragment):
         raise RuntimeError('Neplatná adresa Bluesky PDS serveru.')
     key = daily_key(day)
-    if get_existing(pds, token, did, key):
+    existing = get_existing(pds, token, did, key)
+    if existing:
         print(f'Bluesky: denní příspěvek {day} už existuje, znovu jej neposílám.')
-        confirm_publication(item, day, did, key)
+        # On reruns record the destination of the already stored post, not a new one.
+        stored_target = SITE_URL
+        for facet in existing.get('value', {}).get('facets', []):
+            for feature in facet.get('features', []):
+                uri = feature.get('uri', '')
+                parsed = urlsplit(uri)
+                if parsed.scheme == 'https' and parsed.hostname == 'kosmonovinky.cz':
+                    stored_target = SITE_URL + (parsed.path or '/')
+        confirm_publication(item, day, did, key, stored_target)
         return
     data, width, height = prepare_image(card)
     uploaded = api(pds, 'com.atproto.repo.uploadBlob', token=token, data=data)
     blob = uploaded.get('blob')
     if not blob or blob.get('mimeType') != 'image/jpeg':
         raise RuntimeError('Bluesky nepotvrdilo nahrání JPEG karty.')
-    text, facets = compose(item)
+    text, facets = compose(item, target, day)
     record = {
         '$type': COLLECTION, 'text': text, 'facets': facets, 'langs': ['cs'],
         'createdAt': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
@@ -233,7 +243,7 @@ def publish(item, card, day, handle, password):
         if not get_existing(pds, token, did, key):
             raise
         print('Bluesky: příspěvek byl ověřen na serveru po nejednoznačné odpovědi.')
-    confirm_publication(item, day, did, key)
+    confirm_publication(item, day, did, key, target)
 
 
 def main():
@@ -249,23 +259,24 @@ def main():
         print('Bluesky: dnes žádná nová položka – kartu neposílám.')
         return
     # Same ordering and Czech preference as scripts/generate_x_card.py:pick_item.
-    item = next((i for i in today if i.get('lang') != 'en'
-                 and not i.get('needs_translation')), today[0])
+    item = pick_item(today)
+    target = article_url(item, items)
     card = root / 'assets/cards/daily.jpg'
     if not card.is_file():
         raise RuntimeError('Chybí assets/cards/daily.jpg – nic neodesláno.')
-    text, _ = compose(item)
+    text, _ = compose(item, target, day)
     if args.dry_run:
         data, width, height = prepare_image(card)
         print(f'NÁHLED – nic se neodesílá. Klíč dne: {daily_key(day)}')
         print(f'Karta: {width}×{height}, {len(data)} bajtů; text: {len(text)}/300 znaků')
         print(text)
+        print('Cílový článek: ' + target)
         return
     handle = os.environ.get('BLUESKY_HANDLE', 'zdenekbubak.bsky.social').strip()
     password = os.environ.get('BLUESKY_APP_PASSWORD', '').strip()
     if not password:
         raise RuntimeError('V GitHub Secrets chybí BLUESKY_APP_PASSWORD.')
-    publish(item, card, day, handle, password)
+    publish(item, card, day, handle, password, target)
 
 
 if __name__ == '__main__':
