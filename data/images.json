@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-09",
+    "title": "Rigel a mlhovina Čarodějnická hlava",
+    "caption": "Modrá mlhovina IC 2118 je známá jako Čarodějnická hlava, protože svým tvarem připomíná profil čarodějnice. Tento oblak plynu a prachu o šířce asi 50 světelných let ozařuje a tvaruje blízká jasná hvězda Rigel ze souhvězdí Orionu. Modré zbarvení způsobuje intenzivní svit Rigelu i efektivnější rozptyl modrého světla na prachových zrnech, což je stejný proces, díky kterému je modrá i denní obloha na Zemi.",
+    "thumb": "assets/gallery/apod-2026-11-09.jpg",
+    "image": "assets/gallery/apod-2026-11-09.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula/",
+    "published": "2026-11-09",
+    "credit": "Piotr Czerski",
+    "creator": {
+      "@type": "Person",
+      "name": "Piotr Czerski"
+    },
+    "copyrightNotice": "Piotr Czerski",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula/",
+    "original_title": "Rigel and the Witch Head Nebula",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-09T08:24:17.804712+00:00"
+  },
+  {
     "id": "apod-2026-11-08",
     "title": "Mimořádně jasný bolid",
     "caption": "Promyšlená kompozice z 14. listopadu 2017 zachycuje v mrazivém soumraku zasněžené štíty italských Dolomit nad vesničkou La Villa i souhvězdí Velké medvědice na severním obzoru. Nejúžasnějším prvkem snímku je však náhodně zachycený mimořádně jasný bolid, který během expozice proletěl od východu k západu přímo pod známým asterismem Velkého vozu. Tento jasný meteor byl pozorován napříč celou Evropou a stal se jedním z nejvíce hlášených bolidů v historii.",
