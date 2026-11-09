@@ -700,5 +700,15 @@
     "status": "published",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-09T08:25:19.046316+00:00"
+  },
+  {
+    "source": "linkedin",
+    "kind": "weekly",
+    "key": "linkedin_weekly_d66834b1e2633b31445f",
+    "title": "Týdenní výběr Kosmologických novinek: 3. listopadu – 9. listopadu 2026",
+    "platform_id": "6af18f4505fdd541fbcded0a",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-09T09:15:50.658798+00:00"
   }
 ]
