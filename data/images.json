@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-10",
+    "title": "Saturn za Měsícem",
+    "caption": "Občas Saturn zdánlivě zmizí z naší oblohy, když před něj vstoupí Měsíc – tento úkaz se odborně nazývá zákryt a počátkem roku 2025 byl viditelný i ze střední Evropy. Snímek pořízený na Sardinii vznikl digitálním spojením tří expozic zachycujících Měsíc a Saturn těsně před jeho zmizením. Jasná tečka poblíž Saturnu přitom není jeho měsíc, ale ještě vzdálenější hvězda 85 Aquarii.",
+    "thumb": "assets/gallery/apod-2026-11-10.jpg",
+    "image": "assets/gallery/apod-2026-11-10.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
+    "published": "2026-11-10",
+    "credit": "Roberto Ortu",
+    "creator": {
+      "@type": "Person",
+      "name": "Roberto Ortu"
+    },
+    "copyrightNotice": "Roberto Ortu",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
+    "original_title": "Saturn Behind the Moon",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-10T08:24:08.294417+00:00"
+  },
+  {
     "id": "apod-2026-11-09",
     "title": "Rigel a mlhovina Čarodějnická hlava",
     "caption": "Modrá mlhovina IC 2118 je známá jako Čarodějnická hlava, protože svým tvarem připomíná profil čarodějnice. Tento oblak plynu a prachu o šířce asi 50 světelných let ozařuje a tvaruje blízká jasná hvězda Rigel ze souhvězdí Orionu. Modré zbarvení způsobuje intenzivní svit Rigelu i efektivnější rozptyl modrého světla na prachových zrnech, což je stejný proces, díky kterému je modrá i denní obloha na Zemi.",
