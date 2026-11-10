@@ -56,6 +56,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          timeout: '1800000'
 
       - name: Notify IndexNow after deployment
         id: indexnow-submit
@@ -71,3 +73,4 @@ jobs:
         with:
           path: ${{ runner.temp }}/indexnow-state.json
           key: indexnow-v1-${{ github.run_id }}-${{ github.run_attempt }}
+

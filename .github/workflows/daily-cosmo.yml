@@ -64,6 +64,87 @@ jobs:
             echo "Push OK."
           fi
 
+      - name: Generate SEO pages
+        run: |
+          python3 tools/build_static.py --site-dir . --out . --base https://kosmonovinky.cz
+          python3 tools/build_explainery.py --site-dir . --out . --base https://kosmonovinky.cz
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+
+      - name: Restore IndexNow history
+        id: indexnow-cache
+        continue-on-error: true
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/indexnow-state.json
+          key: indexnow-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            indexnow-v1-
+
+      - name: Prepare IndexNow changes
+        id: indexnow-prepare
+        continue-on-error: true
+        run: python3 scripts/submit_indexnow.py prepare --state "${{ runner.temp }}/indexnow-state.json" --plan "${{ runner.temp }}/indexnow-plan.json"
+
+      - name: Identify current Pages content
+        id: pages-content
+        run: |
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          python3 - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          marker = {"run": os.environ["GITHUB_RUN_ID"], "attempt": os.environ["GITHUB_RUN_ATTEMPT"],
+                    "news_sha256": hashlib.sha256(Path("data/news.json").read_bytes()).hexdigest()}
+          Path("pages-content-check.json").write_text(json.dumps(marker), encoding="utf-8")
+          PY
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        env:
+          GITHUB_SHA: ${{ steps.pages-content.outputs.sha }}
+        with:
+          timeout: '1800000'
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Verify live Pages content
+        timeout-minutes: 4
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, time
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          expected = json.loads(Path("pages-content-check.json").read_text())
+          base = "https://kosmonovinky.cz/"
+          def read(path, attempt):
+              req = Request(base + path + "?pages_check=" + expected["run"] + "-" + expected["attempt"] + "-" + str(attempt),
+                            headers={"Cache-Control": "no-cache"})
+              with urlopen(req, timeout=12) as response:
+                  return response.read()
+          for attempt in range(1, 7):
+              try:
+                  marker = json.loads(read("pages-content-check.json", attempt))
+                  if marker != expected:
+                      raise ValueError("Web vrací jinou verzi nasazení.")
+                  if hashlib.sha256(read("data/news.json", attempt)).hexdigest() != expected["news_sha256"]:
+                      raise ValueError("Živý news.json neodpovídá nasazenému souboru.")
+                  print("Živá verze i obsah news.json ověřeny.")
+                  break
+              except Exception as exc:
+                  print(f"Ověření {attempt}/6: {type(exc).__name__}: {exc}")
+                  if attempt == 6:
+                      raise SystemExit("Publikování nebylo potvrzeno; příspěvky na sociální sítě se neodesílají.")
+                  time.sleep(10)
+          PY
+
       - name: Post daily card to X via Buffer
         id: daily-x
         continue-on-error: true
@@ -74,7 +155,8 @@ jobs:
           python3 << 'EOF'
           import json, os, datetime, requests, time, hashlib, io
           from PIL import Image
-          from scripts.social_tracking import post_key, tracked_url, receipt
+          from scripts.social_tracking import post_key, tracked_url, receipt, article_url
+          from scripts.generate_x_card import pick_item
           from pathlib import Path
 
           api_key = os.environ.get("BUFFER_API_KEY")
@@ -94,8 +176,9 @@ jobs:
               print("Dnes žádná nová položka – kartu neposílám.")
               exit(0)
 
-          # Preferuj český text
-          item = next((i for i in today_items if i.get("lang") == "cs"), today_items[0])
+          # Stejný výběr jako na obrázku denní karty.
+          item = pick_item(today_items)
+          target_url = article_url(item, items)
           title = (item.get("title") or "").strip()
           summary = (item.get("summary") or "").strip()
           if "Proč je to zajímavé:" in summary:
@@ -159,7 +242,7 @@ jobs:
                       "text": main_text,
                       "assets": [{"image": {"url": card_url}}]
                     },
-                    {"text": tracked_url("https://kosmonovinky.cz/", "x", "daily", post_key("x", "daily", today))}
+                    {"text": tracked_url(target_url, "x", "daily", post_key("x", "daily", today))}
                   ]
                 }
               }
@@ -184,7 +267,7 @@ jobs:
           status = (post.get("status") or "").lower()
           if not post_id:
               raise RuntimeError("Buffer nevrátil ID příspěvku.")
-          receipt("x", "daily", post_key("x","daily",today), title, post_id, post.get("status"))
+          receipt("x", "daily", post_key("x","daily",today), title, post_id, post.get("status"), target=target_url)
           if status in {"error", "failed"}:
               raise RuntimeError(f"X příspěvek {post_id} má stav {status}. Zkontroluj Buffer a použij Retry Now; celý workflow neopakuj.")
           if status == "sent":
@@ -192,39 +275,6 @@ jobs:
           else:
               print(f"Buffer přijal příspěvek {post_id}; stav {status or 'neuveden'} ještě nepotvrzuje zveřejnění.")
           EOF
-
-      - name: Generate SEO pages
-        run: |
-          python3 tools/build_static.py --site-dir . --out . --base https://kosmonovinky.cz
-          python3 tools/build_explainery.py --site-dir . --out . --base https://kosmonovinky.cz
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-
-      - name: Restore IndexNow history
-        id: indexnow-cache
-        continue-on-error: true
-        uses: actions/cache/restore@v4
-        with:
-          path: ${{ runner.temp }}/indexnow-state.json
-          key: indexnow-v1-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: |
-            indexnow-v1-
-
-      - name: Prepare IndexNow changes
-        id: indexnow-prepare
-        continue-on-error: true
-        run: python3 scripts/submit_indexnow.py prepare --state "${{ runner.temp }}/indexnow-state.json" --plan "${{ runner.temp }}/indexnow-plan.json"
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
 
       - name: Notify IndexNow after deployment
         id: indexnow-submit
@@ -248,7 +298,8 @@ jobs:
           export CARD_SHA=$(git rev-parse HEAD)
           python3 << 'EOF'
           import json, os, datetime, requests
-          from scripts.social_tracking import post_key, tracked_url, receipt
+          from scripts.social_tracking import post_key, tracked_url, receipt, article_url
+          from scripts.generate_x_card import pick_item
           from pathlib import Path
 
           api_key = os.environ.get("BUFFER_API_KEY")
@@ -268,8 +319,9 @@ jobs:
               print("Dnes žádná nová položka – kartu neposílám.")
               exit(0)
 
-          # Preferuj český text
-          item = next((i for i in today_items if i.get("lang") == "cs"), today_items[0])
+          # Stejný výběr jako na obrázku denní karty.
+          item = pick_item(today_items)
+          target_url = article_url(item, items)
           title = (item.get("title") or "").strip()
           summary = (item.get("summary") or "").strip()
           if "Proč je to zajímavé:" in summary:
@@ -302,7 +354,7 @@ jobs:
               "channelId": "6ad13365778b240e2f1e1c2b",
               "schedulingType": "automatic",
               "mode": "shareNow",
-              "text": main_text + "\n\n" + tracked_url("https://kosmonovinky.cz/", "facebook", "daily", post_key("facebook","daily",today)),
+              "text": main_text + "\n\n" + tracked_url(target_url, "facebook", "daily", post_key("facebook","daily",today)),
               "assets": [{
                 "image": {
                   "url": card_url
@@ -334,7 +386,7 @@ jobs:
               post_id = result.get("post", {}).get("id") if result.get("post") else None
               if not post_id:
                   raise RuntimeError("Buffer nevrátil ID příspěvku.")
-              receipt("facebook", "daily", post_key("facebook","daily",today), title, post_id, result.get("post", {}).get("status"))
+              receipt("facebook", "daily", post_key("facebook","daily",today), title, post_id, result.get("post", {}).get("status"), target=target_url)
               print(f"Post odeslán: {post_id}")
           except Exception as e:
             raise RuntimeError(f"Odeslání na Facebook selhalo: {e}") from e
@@ -355,4 +407,5 @@ jobs:
         run: |
           echo "::error::Denní karta na X selhala. Ostatní kroky mohly doběhnout; zkontrolujte krok Post daily card to X via Buffer."
           exit 1
+
 
