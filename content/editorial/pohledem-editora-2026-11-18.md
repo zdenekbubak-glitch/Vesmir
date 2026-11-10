@@ -1,5 +1,5 @@
 ---
-title: Temná hmota: co už víme a co přinášejí nové výzkumy
+title: "Temná hmota: co už víme a co přinášejí nové výzkumy"
 date: 2026-11-18
 published: true
 perex: Temnou hmotu stále přesněji mapujeme a zkoušíme určit, co ji tvoří. Nedávné články ukazují, jak k tomu přispívají gravitační čočky, podzemní detektory i počítačové simulace.
