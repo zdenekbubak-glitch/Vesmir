@@ -74,8 +74,7 @@ jobs:
           python3 << 'EOF'
           import json, os, datetime, requests, time, hashlib, io
           from PIL import Image
-          from scripts.social_tracking import post_key, tracked_url, receipt, article_url
-          from scripts.generate_x_card import pick_item
+          from scripts.social_tracking import post_key, tracked_url, receipt
           from pathlib import Path
 
           api_key = os.environ.get("BUFFER_API_KEY")
@@ -95,9 +94,8 @@ jobs:
               print("Dnes žádná nová položka – kartu neposílám.")
               exit(0)
 
-          # Stejný výběr jako na obrázku denní karty.
-          item = pick_item(today_items)
-          target_url = article_url(item, items)
+          # Preferuj český text
+          item = next((i for i in today_items if i.get("lang") == "cs"), today_items[0])
           title = (item.get("title") or "").strip()
           summary = (item.get("summary") or "").strip()
           if "Proč je to zajímavé:" in summary:
@@ -161,7 +159,7 @@ jobs:
                       "text": main_text,
                       "assets": [{"image": {"url": card_url}}]
                     },
-                    {"text": tracked_url(target_url, "x", "daily", post_key("x", "daily", today))}
+                    {"text": tracked_url("https://kosmonovinky.cz/", "x", "daily", post_key("x", "daily", today))}
                   ]
                 }
               }
@@ -186,7 +184,7 @@ jobs:
           status = (post.get("status") or "").lower()
           if not post_id:
               raise RuntimeError("Buffer nevrátil ID příspěvku.")
-          receipt("x", "daily", post_key("x","daily",today), title, post_id, post.get("status"), target=target_url)
+          receipt("x", "daily", post_key("x","daily",today), title, post_id, post.get("status"))
           if status in {"error", "failed"}:
               raise RuntimeError(f"X příspěvek {post_id} má stav {status}. Zkontroluj Buffer a použij Retry Now; celý workflow neopakuj.")
           if status == "sent":
@@ -250,8 +248,7 @@ jobs:
           export CARD_SHA=$(git rev-parse HEAD)
           python3 << 'EOF'
           import json, os, datetime, requests
-          from scripts.social_tracking import post_key, tracked_url, receipt, article_url
-          from scripts.generate_x_card import pick_item
+          from scripts.social_tracking import post_key, tracked_url, receipt
           from pathlib import Path
 
           api_key = os.environ.get("BUFFER_API_KEY")
@@ -271,9 +268,8 @@ jobs:
               print("Dnes žádná nová položka – kartu neposílám.")
               exit(0)
 
-          # Stejný výběr jako na obrázku denní karty.
-          item = pick_item(today_items)
-          target_url = article_url(item, items)
+          # Preferuj český text
+          item = next((i for i in today_items if i.get("lang") == "cs"), today_items[0])
           title = (item.get("title") or "").strip()
           summary = (item.get("summary") or "").strip()
           if "Proč je to zajímavé:" in summary:
@@ -306,7 +302,7 @@ jobs:
               "channelId": "6ad13365778b240e2f1e1c2b",
               "schedulingType": "automatic",
               "mode": "shareNow",
-              "text": main_text + "\n\n" + tracked_url(target_url, "facebook", "daily", post_key("facebook","daily",today)),
+              "text": main_text + "\n\n" + tracked_url("https://kosmonovinky.cz/", "facebook", "daily", post_key("facebook","daily",today)),
               "assets": [{
                 "image": {
                   "url": card_url
@@ -338,7 +334,7 @@ jobs:
               post_id = result.get("post", {}).get("id") if result.get("post") else None
               if not post_id:
                   raise RuntimeError("Buffer nevrátil ID příspěvku.")
-              receipt("facebook", "daily", post_key("facebook","daily",today), title, post_id, result.get("post", {}).get("status"), target=target_url)
+              receipt("facebook", "daily", post_key("facebook","daily",today), title, post_id, result.get("post", {}).get("status"))
               print(f"Post odeslán: {post_id}")
           except Exception as e:
             raise RuntimeError(f"Odeslání na Facebook selhalo: {e}") from e
