@@ -737,8 +737,32 @@
     "key": "bluesky_daily_146a623ac4a8012181e4",
     "title": "Mohly záhadné „malé červené tečky“ vzniknout z prvotních černých děr?",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzw53bdc22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/clanky/mohly-zahadne-male-cervene-tecky-vzniknout-z-prvotnich-cernych-der-2611128611.html",
-    "recorded_at": "2026-11-10T08:25:58.142806+00:00"
+    "recorded_at": "2026-11-10T08:25:58.142806+00:00",
+    "last_check_attempt_at": "2026-11-10T09:01:24.311378+00:00",
+    "publication_checked_at": "2026-11-10T09:01:24.311378+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_83922f1252359c29afe5",
+    "title": "Superhmotné černé díry mohou být vyvrženy z center galaxií\n\nhttps://t.co/hLUpf7HAsx",
+    "platform_id": "6af2dd6207c5e29b2ea734ff",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-10T09:01:24.526313+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_d0aef68bb95001304f24",
+    "title": "https://t.co/InkoEjfMKy: Černé díry rotující téměř na hranici možností by se mohly rozdělit na dvě https://t.co/UEAoOnb45y https://t.co/LTxPNXdfUf",
+    "platform_id": "6af2dd6669951ef15d5a8b9c",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-10T09:01:27.575924+00:00"
   }
 ]
