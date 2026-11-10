@@ -710,5 +710,35 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-09T09:15:50.658798+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_146a623ac4a8012181e4",
+    "title": "Mohly záhadné „malé červené tečky“ vzniknout z prvotních černých děr?",
+    "platform_id": "6af2d4b72224e5e6237192d8",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/mohly-zahadne-male-cervene-tecky-vzniknout-z-prvotnich-cernych-der-2611128611.html",
+    "recorded_at": "2026-11-10T08:24:25.964642+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_146a623ac4a8012181e4",
+    "title": "Mohly záhadné „malé červené tečky“ vzniknout z prvotních černých děr?",
+    "platform_id": "6af2d4f12224e5e62371a2d7",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/mohly-zahadne-male-cervene-tecky-vzniknout-z-prvotnich-cernych-der-2611128611.html",
+    "recorded_at": "2026-11-10T08:25:25.857322+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_146a623ac4a8012181e4",
+    "title": "Mohly záhadné „malé červené tečky“ vzniknout z prvotních černých děr?",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzw53bdc22ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/clanky/mohly-zahadne-male-cervene-tecky-vzniknout-z-prvotnich-cernych-der-2611128611.html",
+    "recorded_at": "2026-11-10T08:25:58.142806+00:00"
   }
 ]
