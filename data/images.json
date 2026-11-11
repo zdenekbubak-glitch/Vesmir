@@ -1,5 +1,25 @@
 [
   {
+    "id": "apod-2026-11-11",
+    "title": "NGC 4449: Malá galaxie, velký dopad",
+    "caption": "Na snímku z Hubbleova vesmírného dalekohledu je zachycena trpasličí galaxie NGC 4449, která dosahuje jen desetiny velikosti Mléčné dráhy. Ukazuje se, že zdejší hvězdné větry a supernovy překvapivě účinně vyfukují kyslík a další těžké prvky do okolního prostoru. Tyto malé galaxie tak mohou hrát klíčovou roli v šíření stavebních kamenů potřebných pro vznik nových hvězd a planet.",
+    "thumb": "assets/gallery/apod-2026-11-11.jpg",
+    "image": "assets/gallery/apod-2026-11-11.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/",
+    "published": "2026-11-11",
+    "credit": "NASA, ESA, A. Aloisi (STScI/ESA), and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration",
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA, ESA, A. Aloisi (STScI/ESA), and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/",
+    "original_title": "NGC 4449: Small Galaxy, Big Impact",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-11T08:24:05.818870+00:00"
+  },
+  {
     "id": "apod-2026-11-10",
     "title": "Saturn za Měsícem",
     "caption": "Občas Saturn zdánlivě zmizí z naší oblohy, když před něj vstoupí Měsíc – tento úkaz se odborně nazývá zákryt a počátkem roku 2025 byl viditelný i ze střední Evropy. Snímek pořízený na Sardinii vznikl digitálním spojením tří expozic zachycujících Měsíc a Saturn těsně před jeho zmizením. Jasná tečka poblíž Saturnu přitom není jeho měsíc, ale ještě vzdálenější hvězda 85 Aquarii.",
