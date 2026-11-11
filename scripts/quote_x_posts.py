@@ -102,12 +102,50 @@ def search_x(bearer: str, hours: int = 36) -> list:
     return []
 
 
-def score_relevance(client, posts: list) -> list:
+EXPRESSIVE_WORDS = {
+    "fascinující": "fascinuj",
+    "úžasný": "úžasn",
+    "ohromující": "ohromuj",
+    "udivující": "udivuj",
+    "pozoruhodný": "pozoruhodn",
+    "úchvatný": "úchvatn",
+}
+
+
+def expressive_words(comment):
+    words = re.findall(r"[^\W\d_]+", unicodedata.normalize("NFC", comment).casefold())
+    return [
+        label for label, stem in EXPRESSIVE_WORDS.items()
+        if any(word.startswith(stem) for word in words)
+    ]
+
+
+def recent_expressive_words(state):
+    records = [
+        record for record in state["reviewed"].values()
+        if record.get("kind") == "quote" and record.get("buffer_id")
+    ]
+    latest = sorted(records, key=lambda record: record.get("at", ""), reverse=True)[:6]
+    return sorted({word for record in latest for word in record.get("expressive_words", [])})
+
+
+def score_relevance(client, posts: list, recent_words=()) -> list:
     """Gemini vyhodnotí vědeckou relevanci. Vrátí seřazený seznam s score."""
     if not client:
         raise RuntimeError("Chybí funkční Gemini klient; bez hodnocení se nic nepublikuje.")
     if not posts:
         return []
+    style_hint = (
+        "Piš přirozeně a věcně, konkrétně popiš, co je na tématu zajímavé. "
+        "Zachovej význam a potřebné odborné názvy."
+    )
+    if recent_words:
+        style_hint += (
+            " V posledních citacích už zazněla tato expresivní slova: "
+            + ", ".join(recent_words)
+            + ". Zkus se jim i jejich tvarům vyhnout, pokud lze totéž říct přirozeně. "
+              "Pokud by obměna zhoršila smysl nebo zněla strojeně, slovo klidně zopakuj."
+        )
     scored = []
     for p in posts:
         prompt = f"""Je tento český příspěvek na X vědecky relevantní pro kosmologii
@@ -116,6 +154,8 @@ Hubbleovo napětí, inflace vesmíru, kvantová gravitace)?
 Metaforické použití („černá díra peněz“, politika, inflace ekonomická, vtipy) = NE.
 Odpověz pouze JSON: {{"relevant": true/false, "reason": "krátké zdůvodnění", "score": 0-10,
 "comment": "1-2 krátké české věty, přirozený komentář ke sdílení na X jako web Kosmonovinky; bez slov 'příspěvek', 'tento text', 'autor'; max 200 znaků; bez interních poznámek, skóre a označení 'k posouzení'"}}
+
+{style_hint}
 
 Příspěvek:
 {p['text'][:500]}
@@ -350,6 +390,9 @@ def process_posts(relevant, buffer_key, state):
                 state['reviewed'][post['id']] = {"at": datetime.now(timezone.utc).isoformat(),
                     "relevant": True, "score": post.get('score'), "buffer_id": created['id'],
                     "kind": 'draft' if as_draft else 'quote', "status": created.get('status')}
+                if not as_draft:
+                    sent_comment = text.partition("\n\nPřehledně česky: ")[0]
+                    state["reviewed"][post["id"]]["expressive_words"] = expressive_words(sent_comment)
                 save_state(state)
                 if not created['_status_ok']:
                     raise RuntimeError(f"ID {created['id']} vzniklo, ale stav není draft; zkontrolujte Buffer (automaticky neopakuji)")
@@ -388,8 +431,8 @@ def main():
         except Exception as e:
             print(f"Gemini client: {e}")
 
-    relevant = score_relevance(client, posts)
     state = load_state()
+    relevant = score_relevance(client, posts, recent_expressive_words(state))
     for post in posts:
         if post.get('evaluated'):
             state['reviewed'][post['id']] = {"at": datetime.now(timezone.utc).isoformat(),
