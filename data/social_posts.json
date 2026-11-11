@@ -791,8 +791,22 @@
     "key": "bluesky_daily_4e9c38edd9fe3c0bdf16",
     "title": "Singustáry: Nové teoretické objekty na pomezí černých děr a běžných hvězd",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3mzynk6s222ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/clanky/singustary-nove-teoreticke-objekty-na-pomezi-cernych-der-a-beznych-2611144821.html",
-    "recorded_at": "2026-11-11T08:25:32.490212+00:00"
+    "recorded_at": "2026-11-11T08:25:32.490212+00:00",
+    "last_check_attempt_at": "2026-11-11T09:01:18.939449+00:00",
+    "publication_checked_at": "2026-11-11T09:01:18.939449+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_d0bdb7a9f44ab6039a0e",
+    "title": "🌀 Černé díry by se mohly dělit jako buňky!\n\nNová studie naznačuje, že extrémně rychle rotující černé díry by se teoreticky mohly rozdělit na dvě. Zatím ale není jasné, zda k tomu dochází. 🌀 🌀\n\nVíc hír ►https://t.co/KDwdwh7Iq8 (link na kanál v bio) 📺\n\n#vesmir #universe https://t.co/LFhr7m33Xf",
+    "platform_id": "6af42edd27e91ec769c060e5",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-11T09:01:19.137525+00:00"
   }
 ]
