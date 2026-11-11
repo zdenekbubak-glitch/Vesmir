@@ -80,7 +80,7 @@
     "description": "Pád do černé díry je nejextrémnější cestou ve vesmíru. Co uvidíte, co pocítíte — a proč vám nikdo nebude moct pomoct?",
     "published": "2026-10-17",
     "updated": "2026-10-17",
-    "perex": "Překročíte horizont událostí a cesta je jednosměrná. Pro vás jako pádujícího pád trvá několik hodin; pro pozorovatele zvenčí se váš pád protáhne do nekonečna. Černá díra si podmaňuje nejen hmotu, ale i čas.",
+    "perex": "Podle vlastních hodin překročíte horizont událostí za konečnou dobu. Jak dlouho pád potrvá, závisí mimo jiné na tom, odkud padáte a jakou hmotnost má černá díra. Ke vzdálenému pozorovateli přichází světlo vyslané těsně před překročením horizontu stále více zpožděné a posunuté k delším vlnovým délkám. Váš obraz postupně zeslábne. Samotný okamžik překročení horizontu pozorovatel neuvidí, protože světlo vyslané z této hranice už k němu nedorazí.",
     "sections": [
       {
         "heading": "Nejdřív: co černá díra vlastně je",
@@ -193,7 +193,7 @@
       },
       {
         "heading": "Supermasivní černé díry — jiná cesta",
-        "body": "Supermasivní černé díry vznikly jinak — jejich počátky jsou jedním z největších otevřených problémů kosmologie. Buď se zrodily už z obřích plynů v prvních vesmírech, nebo vznikly slučováním menších černých děr po generace. Pozorujeme je nepřímo: hvězdy kolem středu galaxie obíhají kolem něčeho neviditelného o ohromné hmotnosti. Občas se do černé díry zakousne plyn, který se před samotným pádem zahřeje na miliony stupňů a jasně zazáří v rentgenovém spektru."
+        "body": "Jak vznikly první zárodky supermasivních černých děr, je stále otevřená otázka. Mohly vzniknout po zániku prvních hvězd nebo za určitých podmínek při gravitačním kolapsu rozsáhlých oblaků plynu v raném vesmíru. Dále mohly růst pohlcováním okolního plynu a slučováním s jinými černými děrami. Pozorujeme je nepřímo: hvězdy kolem středu galaxie obíhají kolem něčeho neviditelného o ohromné hmotnosti. Občas se do černé díry zakousne plyn, který se před samotným pádem zahřeje na miliony stupňů a jasně zazáří v rentgenovém spektru."
       }
     ],
     "why_box": "Černé díry nejsou kosmické vysavače, jak je kreslí filmy — bez překročení horizontu vás nepohltí. Jsou především extrémní laboratoře gravitace: právě v nich bychom mohli najít první jiskřičky kvantové gravitace, teorie, která sjednotí obecnou teorii relativity s kvantovou mechanikou. A jedna čeká i v centru naší galaxie, 27 000 světelných let od nás.",
@@ -779,7 +779,7 @@
       },
       {
         "heading": "Záhada jejich vzniku",
-        "body": "Největší záhadou je, jak supermasivní černé díry vůbec vznikly – a jak mohly být tak brzy hotové. Pozorujeme je už v galaxiích, které existovaly jen několik set milionů let po velkém třesku. Na vybudování takové hmotnosti obvyklou cestou – zvolna, srážkami hvězd a dalších černých děr – nebylo dost času. Fyzikové proto přemýšlejí o přímém kolapsu obřích plyných oblaků v raném vesmíru, o supermasivních hvězdách, nebo o primordiálním původu černých děr. Každá možnost znamená něco jiného o podmínkách raného vesmíru. Vesmírný teleskop Jamese Webba právě pozoruje galaxie z této éry a přináší data, která teorie pomalu, ale jistě zužují. Odpověď se blíží."
+        "body": "Supermasivní černé díry pozorujeme už ve vesmíru starém jen několik set milionů let. Jak stihly za tak krátkou dobu tolik vyrůst? Podle jedné hypotézy začínaly jako černé díry po zániku prvních hvězd a rychle rostly pohlcováním okolního plynu. Podle jiné mohl za určitých podmínek gravitační kolaps rozsáhlého oblaku plynu vytvořit už na začátku mnohem hmotnější černou díru. Taková černá díra by měla při dalším růstu náskok. Pozorování raných galaxií a jejich jader pomáhají zkoumat, které z těchto cest byly možné."
       }
     ],
     "why_box": "Sagittarius A* ve středu Mléčné dráhy je vzdálena 26 tisíc světelných let – světlo z jejího okolí k nám letí 26 tisíc let, a přitom je to nejbližší supermasivní černá díra. Právě její pozorování získalo v roce 2020 Nobelovu cenu. Když se podíváte na souhvězdí Střelce, díváte se směrem k obří černé díře, která drží pohromadě vaši galaxii – a o které astronomové ještě před třiceti letech pochybovali, že existuje.",
