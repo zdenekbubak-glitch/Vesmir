@@ -79,28 +79,32 @@
     "theme": "cerne-diry",
     "description": "Pád do černé díry je nejextrémnější cestou ve vesmíru. Co uvidíte, co pocítíte — a proč vám nikdo nebude moct pomoct?",
     "published": "2026-10-17",
-    "updated": "2026-10-17",
+    "updated": "2026-11-11",
     "perex": "Podle vlastních hodin překročíte horizont událostí za konečnou dobu. Jak dlouho pád potrvá, závisí mimo jiné na tom, odkud padáte a jakou hmotnost má černá díra. Ke vzdálenému pozorovateli přichází světlo vyslané těsně před překročením horizontu stále více zpožděné a posunuté k delším vlnovým délkám. Váš obraz postupně zeslábne. Samotný okamžik překročení horizontu pozorovatel neuvidí, protože světlo vyslané z této hranice už k němu nedorazí.",
     "sections": [
       {
         "heading": "Nejdřív: co černá díra vlastně je",
-        "body": "Černá díra je oblast prostoročasu, kde je gravitace tak silná, že z ní neunikne ani světlo — a proto ani žádná informace. Vzniká zhroucením velmi hmotné hvězdy: když dojde jaderné palivo, zářivý tlak v nitru hvězdy už neudrží její hmotu proti vlastní gravitaci. Hvězda se pod vlastní vahou zhroutí a vše, co zbyde, se schová za horizont událostí. Supermasivní černé díry v centrech galaxií — miliony až miliardy hmotností Slunce — vznikly buď zhroucením obřích plynných oblaků, nebo postupným slučováním menších černých děr v průběhu miliard let."
+        "body": "Černá díra je oblast prostoročasu, ze které k vnějšímu pozorovateli nemůže dorazit žádný signál, ani světlo. Černá díra hvězdné hmotnosti může vzniknout zhroucením jádra velmi hmotné hvězdy. Podrobnosti vysvětluje [téma o vzniku černých děr](https://kosmonovinky.cz/kosmopedie/co-je-cerna-dira-a-jak-vznika.html).\n\nSupermasivní černé díry v centrech galaxií rostly pohlcováním plynu a slučováním s jinými černými děrami. Jak vznikly jejich první zárodky, se stále zkoumá. Mezi možnosti patří pozůstatky prvních hvězd i přímý kolaps rozsáhlých oblaků plynu."
       },
       {
         "heading": "Cesta dovnitř: co uvidíte vy",
-        "body": "Pokud byste klesali do dostatečně velké černé díry (supermasivní, miliony hmotností Slunce), první část cesty by byla překvapivě nudná:\n\n- **Táhání gravitací (spagetizace).** Rozdíl gravitační síly mezi vaší hlavou a chodidly je na začátku nepatrný, blízko centra vás ale rozdílné síly doslova natáhnou jako špagetu. U supermasivní černé díry byste horizont překročili dřív, než by spagetizace nastala — u malé černé díry by vás roztrhala už před horizontem.\n- **Obraz vesmíru se stáčí.** Světlo z okolních hvězd se kolem černé díry ohýbá — uvidíte oblohu zkreslenou do jasného prstence. Černá díra se zahalí do světla vesmíru, které za sebou nechává.\n- **Čas.** Váš vlastní čas vám bude připadat zcela normální. Z pohledu vzdáleného pozorovatele se však váš čas dramaticky zpomalí — což je přímý důsledek gravitační dilatace času, kterou popisuje teorie relativity."
+        "body": "Pokud byste padali do dostatečně hmotné černé díry, během cesty byste mohli zaznamenat několik různých jevů.\n\n- **Slapové síly a špagetizace.** Gravitace působí na bližší část těla silněji než na vzdálenější. Tento rozdíl tělo natahuje ve směru pádu a stlačuje napříč. U černé díry hvězdné hmotnosti by vás slapové síly roztrhaly ještě před překročením horizontu. U dostatečně hmotné supermasivní černé díry mohou být na horizontu mnohem slabší a ničivými se stanou až hlouběji uvnitř.\n- **Zkreslený pohled na okolí.** Silná gravitace ohýbá dráhy světla. Obrazy hvězd a zářícího plynu proto mohou být protažené, posunuté nebo se objevit ve více směrech. Během pádu se tento pohled výrazně mění podle vaší polohy a směru pohybu.\n- **Čas.** Vaše hodiny během pádu poběží z vašeho pohledu normálně. Vzdálený pozorovatel bude signály od vašich hodin přijímat ve stále delších rozestupech. Na jejich příchod má vliv gravitace i váš pohyb."
       },
       {
         "heading": "Co uvidí pozorovatel zvenčí",
-        "body": "Pro přítele, který by z bezpečné vzdálenosti přihlížel, váš pád nikdy neskončí. S každou další vteřinou svítíte slaběji a ruději, pohyb se zpomaluje, až vás pohltí tma horizontu. Matematicky řečeno: váš obraz se „zamrazí“ na horizontu. V praxi se však záblesk stane neviditelným během zlomku vteřiny — zamrzlý obraz nikdo neodfotí."
+        "body": "Vzdálený pozorovatel dostává světelné signály vyslané během vašeho přibližování k horizontu se stále větším zpožděním. Světlo se posouvá k delším vlnovým délkám a slábne, až vás přestane být možné sledovat. Jak rychle obraz zeslábne, závisí na hmotnosti černé díry, průběhu pádu a možnostech pozorování. Vy sami přitom podle vlastních hodin překročíte horizont za konečnou dobu."
       },
       {
         "heading": "Je východisko?",
-        "body": "Vysoce spekulativní koncepty teoretické fyziky — jako jsou bílé či červí díry — pak představují ideální námět pro žánr sci-fi. Fyzikálně ověřitelná odpověď je jednoduchá: nic z horizontu neunikne a nic, co dovnitř vstoupilo, se nevrátí. Ani světlo, ani signál, ani vy. Jedinou „dírkou\" v pravidlech je Hawkingovo záření — neuvěřitelně slabé vyzáření způsobené kvantovými efekty u horizontu. Od pádu by vás ale nezachránilo: Hawkingovo záření nenese žádnou informaci o tom, kdo dovnitř vstoupil."
+        "body": "Po překročení horizontu se nemůžete vrátit do okolního vesmíru ani tam poslat signál. [Hawkingovo záření](https://kosmonovinky.cz/kosmopedie/mohou-cerne-diry-vymirat-hawkingovo-zareni.html) je kvantový jev, který může černé díře postupně ubírat hmotnost. Pro padajícího pozorovatele cestu zpět neotevírá."
       },
       {
         "heading": "Co se stane s vašimi informacemi?",
-        "body": "Zde se fyzika dostává k největšímu sporu současnosti. Kvantová mechanika říká, že informace nemůže být zničena; obecná teorie relativity říká, že za horizontem informace zmizí navždy. Tento spor — tzv. informační paradox černých děr — stále nemá definitivní řešení a je jedním z hlavních problémů, na němž se dnes pracuje v kvantové gravitaci. Možná informace zůstane na horizontu v podobě kvantového „filmového pásu\". Možná unikne s Hawkingovým zářením. Vědci to zatím nevědí — a právě to činí černé díry nejzajímavějšími laboratořemi fyziky."
+        "body": "V běžném kvantovém popisu se informace o počátečním stavu soustavy při jejím vývoji zachovává. Hawkingův původní výpočet však vedl k záření, ze kterého se podrobnosti o hmotě spadlé do černé díry nedaly získat. Pokud by se černá díra úplně vypařila, vzniká otázka, kde tyto informace zůstaly. Právě tomu se říká informační paradox černých děr.\n\nSoučasný výzkum zkoumá, jak by informace mohla být zachována například v jemných souvislostech mezi částmi vyzářeného záření."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [University of California – pád do černé díry](https://math.ucr.edu/home/baez/physics/Relativity/BlackHoles/fall_in.html)\n- [NASA – vizualizace pádu k černé díře](https://science.nasa.gov/universe/black-holes/supermassive-black-holes/new-nasa-black-hole-visualization-takes-viewers-beyond-the-brink/)\n- [NASA – typy a vznik černých děr](https://science.nasa.gov/universe/black-holes/types/)\n- [NASA – vznik a růst supermasivních černých děr](https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/massive-black-holes-and-the-evolution-of-galaxies/)\n- [Stephen Hawking – původní práce o vyzařování černých děr](https://doi.org/10.1007/BF02345020)\n- [Suvrat Raju – přehled informačního paradoxu](https://doi.org/10.1016/j.physrep.2021.10.001)"
       }
     ],
     "why_box": "Černé díry nejsou „vysavače vesmíru\", jak je kreslí filmy — bez překročení horizontu vás nepohltí. Jsou koncentrovaná gravitace, která testuje naši intuici o čase a prostoru. A supermasivní černá díra čeká i v centru naší vlastní galaxie, ve vzdálenosti 27 000 světelných let, s hmotností čtyř milionů Sluncí.",
@@ -163,7 +167,7 @@
     "theme": "cerne-diry",
     "description": "Černá díra je oblast, z níž neunikne ani světlo. Jak vzniká zhroucením hvězdy, kolik druhů existuje a jak ji vůbec pozorujeme?",
     "published": "2026-10-17",
-    "updated": "2026-10-25",
+    "updated": "2026-11-11",
     "perex": "Černá díra je místo, kde gravitace zvítězila nad vším ostatním — oblast, z níž neunikne ani světlo. Nejznámější vznikají zhroucením umírajících hvězd, ty největší ale číhají v srdcích galaxií.",
     "sections": [
       {
@@ -172,11 +176,11 @@
       },
       {
         "heading": "Kolik druhů černých děr existuje?",
-        "body": "Astronomové rozlišují několik druhů podle hmotnosti. Černé díry hvězdné vznikají zhroucením velkých hvězd a mají řádově několik až desítky hmotností Slunce. Supermasivní černé díry v centrech galaxií váží miliony až miliardy Sluncí. Mezi nimi se hledají i střední černé díry, vzniklé pravděpodobně slučováním menších, a hypotetické primordiální černé díry, které mohly vzniknout už v raném vesmíru."
+        "body": "Podle hmotnosti rozlišujeme černé díry hvězdné hmotnosti, středně hmotné a supermasivní. Zvláštní hypotézou jsou prvotní neboli primordiální černé díry, které mohly vzniknout z velmi hustých oblastí raného vesmíru. Toto označení popisuje jejich původ. Jejich možné hmotnosti závisejí na konkrétním scénáři vzniku."
       },
       {
         "heading": "Zrození z hvězdy",
-        "body": "Hvězdná černá díra se rodí dramaticky. Když velká hvězda spotřebuje své jaderné palivo, už ji neudržuje zářivý tlak vnitřku. Hvězda se zhroutí — nejdřív vrstvami, pak v jediném okamžiku, když jádro zkolabuje pod vlastní vahou. Při tomto kolapsu nastane výbuch supernovy, který vnější vrstvy hvězdy odhodí do vesmíru. To, co zbyde, se propadne za horizont událostí. Z hvězdy o hmotnosti desítek Sluncí tak zbude objekt o průměru jen několika kilometrů.",
+        "body": "Hvězdu proti vlastní gravitaci podpírá tlak horkého plynu a záření v jejím nitru. V závěru života velmi hmotné hvězdy může její jádro tuto oporu ztratit a začít se hroutit. Podle hmotnosti a dalšího vývoje jádra vznikne neutronová hvězda nebo černá díra. Vnější vrstvy může odvrhnout výbuch supernovy. V některých případech však černá díra vznikne bez výrazného výbuchu a část okolní hmoty do ní dále padá.\n\nČerná díra může vzniknout zhroucením jádra hvězdy, která měla na začátku života přibližně dvacetkrát větší hmotnost než Slunce. Jde o orientační údaj, protože záleží i na tom, kolik hmoty hvězda během života ztratí a jak hmotné jádro jí zbude. Vzniklá černá díra může mít hmotnost několika až desítek Sluncí. Pro představu má horizont nerotující černé díry o hmotnosti deseti Sluncí průměr přibližně 60 kilometrů.",
         "image_id": "schema-cerne-diry-collapse"
       },
       {
@@ -185,15 +189,19 @@
       },
       {
         "heading": "Kolik jich kolem nás je?",
-        "body": "Černé díry jsou běžnější, než by se zdálo. V samotné Mléčné dráze odhadují astronomové kolem sta milionů černých děr hvězdné hmotnosti — pozůstatků dávno zaniklých hvězd. Ty, které vidíme, většinou patří k dvojhvězdám: samy jsou neviditelné, ale poloha a rychlost jejich průvodce prozradí, že se tam skrývá něco nesmírně těžkého. Zatím nejbližší známá černá díra leží v souhvězdí Draka, zhruba 1600 světelných let od nás — na měřítka vesmíru to je doslova sousedství."
+        "body": "Černé díry jsou běžnější, než by se zdálo. V samotné Mléčné dráze odhadují astronomové kolem sta milionů černých děr hvězdné hmotnosti — pozůstatků dávno zaniklých hvězd. Ty, které vidíme, většinou patří k dvojhvězdám: samy jsou neviditelné, ale poloha a rychlost jejich průvodce prozradí, že se tam skrývá něco nesmírně těžkého. Poměrně blízko nás leží například Gaia BH1 v souhvězdí Hadonoše, přibližně 1 600 světelných let od Země. Její přítomnost astronomové odvodili z pohybu hvězdy, která kolem ní obíhá."
       },
       {
         "heading": "Kdo černé díry objevil?",
-        "body": "Idea černých děr je starší, než se zdá. Už v roce 1783 anglický učenec John Michell vypočetl, že z dostatečně husté hvězdy by nemohlo uniknout ani světlo — nazval ji „tmavou hvězdou\". Matematicky černé díry předpověděla Einsteinova obecná teorie relativity, když ji o rok po jejím zveřejnění vyřešil Karl Schwarzschild. Po desetiletí je ale fyzikové považovali za matematickou zvláštnost, ne za reálné objekty — obávali se, že vesmír by se sám zhroutil, kdyby existovaly. Slovo „černá díra\" se vžilo až v roce 1967 díky Johnu Wheelerovi."
+        "body": "Idea černých děr je starší, než se zdá. Už v roce 1783 anglický učenec John Michell vypočetl, že z dostatečně husté hvězdy by nemohlo uniknout ani světlo — nazval ji „tmavou hvězdou\". Karl Schwarzschild v roce 1916 nalezl řešení Einsteinových rovnic pro gravitační pole kolem sféricky symetrického, nerotujícího tělesa. Význam tohoto řešení pro černé díry se vyjasňoval postupně. Důležitý krok udělal Roger Penrose v roce 1965, když ukázal, že gravitační kolaps může vést ke vzniku černé díry i bez dokonale souměrného uspořádání hmoty."
       },
       {
         "heading": "Supermasivní černé díry — jiná cesta",
-        "body": "Jak vznikly první zárodky supermasivních černých děr, je stále otevřená otázka. Mohly vzniknout po zániku prvních hvězd nebo za určitých podmínek při gravitačním kolapsu rozsáhlých oblaků plynu v raném vesmíru. Dále mohly růst pohlcováním okolního plynu a slučováním s jinými černými děrami. Pozorujeme je nepřímo: hvězdy kolem středu galaxie obíhají kolem něčeho neviditelného o ohromné hmotnosti. Občas se do černé díry zakousne plyn, který se před samotným pádem zahřeje na miliony stupňů a jasně zazáří v rentgenovém spektru."
+        "body": "Jak vznikly první zárodky supermasivních černých děr, je stále otevřená otázka. Mohly vzniknout po zániku prvních hvězd nebo za určitých podmínek při gravitačním kolapsu rozsáhlých oblaků plynu v raném vesmíru. Dále mohly růst pohlcováním okolního plynu a slučováním s jinými černými děrami. Pozorujeme je nepřímo: hvězdy kolem středu galaxie obíhají kolem něčeho neviditelného o ohromné hmotnosti. Plyn v okolí může vytvořit zářící akreční disk. Podrobnosti vysvětluje [téma o supermasivních černých dírách](https://kosmonovinky.cz/kosmopedie/co-je-supermasivni-cerna-dira-v-centru-galaxie.html)."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA – typy a vznik černých děr](https://science.nasa.gov/universe/black-holes/types/)\n- [NASA – vznik černé díry bez výrazné supernovy](https://science.nasa.gov/missions/hubble/collapsing-star-gives-birth-to-a-black-hole/)\n- [ESA – Gaia BH1 a Gaia BH2](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_discovers_a_new_family_of_black_holes)\n- [Nobelova cena za fyziku 2020](https://www.nobelprize.org/prizes/physics/2020/press-release/)\n- [NASA – vznik a růst supermasivních černých děr](https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/massive-black-holes-and-the-evolution-of-galaxies/)\n- [NASA – aktivní galaktická jádra](https://science.nasa.gov/mission/webb/science-overview/science-explainers/what-are-active-galactic-nuclei/)"
       }
     ],
     "why_box": "Černé díry nejsou kosmické vysavače, jak je kreslí filmy — bez překročení horizontu vás nepohltí. Jsou především extrémní laboratoře gravitace: právě v nich bychom mohli najít první jiskřičky kvantové gravitace, teorie, která sjednotí obecnou teorii relativity s kvantovou mechanikou. A jedna čeká i v centru naší galaxie, 27 000 světelných let od nás.",
@@ -208,7 +216,7 @@
     "theme": "cerne-diry",
     "description": "Horizont událostí je hranice, za níž nevede návrat. Proč černá díra černá je, jak velký horizont je a proč zmítá fyzikou dodnes?",
     "published": "2026-10-17",
-    "updated": "2026-10-28",
+    "updated": "2026-11-11",
     "perex": "Horizont událostí je hranice černé díry, kterou hmota i světlo mohou překročit směrem dovnitř. Po jejím překročení už návrat do okolního vesmíru není možný. Jeho vlastnosti zkoumáme pomocí obecné teorie relativity a kvantové fyziky.",
     "sections": [
       {
@@ -217,31 +225,31 @@
       },
       {
         "heading": "Proč je černá díra černá?",
-        "body": "Proto vypadá černá díra černě. Světlo z hvězd a plynů, které k černé díře dopadá, se sice ohýbá a krouží kolem ní, ale jakmile překročí horizont, už se ven nevrátí. Zvenčí vidíme jen tmu ohraničenou světlem, které se zastavilo těsně před ní. První skutečný snímek černé díry z roku 2019 (M87*) ukázal přesně toto: zářící prstenec materiálu kolem dokonalé temné skvrny."
+        "body": "Na snímcích teleskopu Event Horizon Telescope vidíme záření horkého plynu v okolí černé díry. Jeho obraz výrazně mění gravitace. Uprostřed se objevuje tmavší oblast označovaná jako stín černé díry, která je větší než samotný horizont událostí. Barvy snímku znázorňují intenzitu zachyceného rádiového záření."
       },
       {
         "heading": "Jak velký horizont je?",
-        "body": "Velikost horizontu závisí jen na hmotnosti černé díry. U černé díry o hmotnosti Slunce by měl průměr zhruba 6 kilometrů. U supermasivní černé díry v centru Mléčné dráhy, která váží čtyři miliony Sluncí, jde o kruh o průměru zhruba 24 milionů kilometrů — pořád menší než oběžná dráha Merkuru. Překročením horizontu může cesta pokračovat hlouběji do černé díry, návrat do okolního vesmíru už ale není možný."
+        "body": "U nerotující černé díry připadá na každou hmotnost Slunce přibližně šest kilometrů průměru horizontu událostí. Rotace mění tvar horizontu i jeho plochu. Porovnáme-li dvě černé díry stejné hmotnosti, ta rychleji rotující má menší plochu horizontu."
       },
       {
         "heading": "Hawkingovo záření",
-        "body": "Kvantová mechanika horizontu přidává ještě jednu vrstvu podivnosti. Stephen Hawking v roce 1974 ukázal, že černá díra díky kvantovým jevům u horizontu velmi slabě září — a tím pomalu ztrácí hmotu. Čím menší černá díra, tím intenzivněji „vře“; černá díra hvězdné velikosti by vypařováním přežila déle než současný věk vesmíru, takže to není způsob, jak černé díry z vesmíru mizí dnes. Hawkingovo záření ale naznačuje, že horizont není absolutně černý — a že kvantová gravitace nakonec přijde na to, co se s informací za horizontem děje."
+        "body": "Stephen Hawking vypočítal, že černá díra by měla velmi slabě tepelně zářit. Čím menší černá díra je, tím vyšší je teplota tohoto záření. Pokud černá díra vyzáří více energie, než přijme z okolí, její hmotnost klesá. Podrobnosti vysvětluje [téma o Hawkingově záření](https://kosmonovinky.cz/kosmopedie/mohou-cerne-diry-vymirat-hawkingovo-zareni.html)."
       },
       {
-        "heading": "Dá se horizontu vyhnout?",
-        "body": "Dá se horizontu nějak vyhnout? Fyzika říká ne. Představte si nejvýkonnější raketu — cokoliv, co překročí horizont, se k němu už nemůže vrátit zpátky, i kdyby mělo neomezený tah a neomezené palivo. Důvod je geometrický: uvnitř horizontu se směr „ke středu\" stává směrem „do budoucnosti\". Je to jako se ptát, jestli se můžete vyhnout zítřku — horizont neudržuje nic svou silou, jen předznamenává, kam už čas povede jediným možným směrem."
+        "heading": "Lze se po překročení horizontu vrátit?",
+        "body": "Po překročení horizontu už žádná budoucí dráha tělesa ani světelného signálu nevede zpět do vnějšího vesmíru. Změna směru letu ani silnější motor proto návrat neumožní."
       },
       {
         "heading": "Horizonty i jinde ve vesmíru",
         "body": "Kosmologické horizonty vymezují dosah signálů v rozpínajícím se vesmíru. **Částicový horizont** souvisí s tím, odkud k nám signál už stihl dorazit během dosavadního vývoje. **Kosmologický horizont událostí**, pokud jej model má, určuje možnost přijmout v budoucnu signál vyslaný nyní.\n\nO tom, zda světlo dorazí, rozhoduje celá jeho cesta a vývoj rozpínání. Můžeme proto pozorovat i zdroje s kosmologickou rychlostí vzdalování větší než rychlost světla. Hranice, kde tato rychlost právě odpovídá rychlosti světla, se nazývá Hubbleova sféra a má jiný význam než uvedené horizonty. Podrobnosti přibližuje [téma o tvaru a pozorovatelné části vesmíru](https://kosmonovinky.cz/kosmopedie/jaky-tvar-muze-mit-vesmir-a-je-konecny.html)."
       },
       {
-        "heading": "Horizont není pevná hranice",
-        "body": "Horizont není pevná, neměnná věc. Černá díra, která polkne hvězdu nebo plyn, zvětší svůj horizont. Podle obecné teorie relativity se při pádu do černé díry horizont chová zvláštně: pro padajícího pozorovatele ho překročí bez okolků, pro vzdáleného přihlížejícího se obraz padajícího „zamrazí\" na hranici a postupně zhasne. Obě skutečnosti jsou pravdivé zároveň — černá díra nerespektuje naši intuici současnosti."
+        "heading": "Jak se horizont mění?",
+        "body": "Horizont černé díry se může zvětšit, když do ní padá hmota. Padající pozorovatel jej podle vlastních hodin překročí za konečnou dobu. Ke vzdálenému pozorovateli mezitím přicházejí signály vyslané před překročením horizontu se stále větším zpožděním a jejich světlo slábne."
       },
       {
         "heading": "Zdroje k doplnění o horizontech a informačním paradoxu",
-        "body": "- [Davis a Lineweaver: rozlišení horizontů a Hubbleovy sféry](https://arxiv.org/abs/astro-ph/0310808)\n- [Raju: přehled informačního paradoxu](https://doi.org/10.1016/j.physrep.2021.10.001)"
+        "body": "- [Davis a Lineweaver: rozlišení horizontů a Hubbleovy sféry](https://arxiv.org/abs/astro-ph/0310808)\n- [Raju: přehled informačního paradoxu](https://doi.org/10.1016/j.physrep.2021.10.001)\n- [ESO – snímek stínu černé díry v M87](https://www.eso.org/public/images/eso1907a/)\n- [Plocha a tvar horizontu rotující černé díry](https://doi.org/10.1088/1361-6382/ace232)\n- [University of California – pád do černé díry](https://math.ucr.edu/home/baez/physics/Relativity/BlackHoles/fall_in.html)\n- [Stephen Hawking – původní práce o vyzařování černých děr](https://doi.org/10.1007/BF02345020)"
       }
     ],
     "why_box": "Horizont událostí propojuje gravitaci s otázkou, co se stane s informací o látce, která do černé díry spadne. Informační paradox vzniká při spojení klasického popisu černé díry s kvantovým vyzařováním. Jeho řešení pomáhá hledat společný popis gravitace a kvantové fyziky.",
@@ -426,33 +434,37 @@
     "id": "exp-011",
     "title": "Mohou černé díry vymírat? Hawkingovo záření",
     "theme": "cerne-diry",
-    "description": "Stephen Hawking přišel na to, že černé díry nejsou zcela černé — slabě září a pomalu se vypařují. Jak je to možné, kolik to trvá a kam zmizí informace.",
+    "description": "Co předpověděl Stephen Hawking, jak dlouho by trvalo vypařování černých děr a proč se vědci ptají, kde zůstane informace o pohlcené hmotě?",
     "published": "2026-10-17",
-    "updated": "2026-10-17",
-    "perex": "V roce 1974 Stephen Hawking ukázal něco, co nikdo nečekal: černé díry nejsou zcela černé. Kvantová fyzika jim dovoluje velmi slabě zářit — a tím ztrácet hmotu. Černá díra se tak postupně vypařuje. Pro hvězdnou černou díru to trvá déle než věk vesmíru, ale princip mění vše: černé díry nejsou věčné.",
+    "updated": "2026-11-11",
+    "perex": "Stephen Hawking v roce 1974 předpověděl, že černé díry velmi slabě tepelně září. Pokud černá díra vyzáří více energie, než přijme z okolí, postupně ztrácí hmotnost. U černých děr hvězdné hmotnosti by vypařování trvalo mnohem déle, než je současný věk vesmíru.",
     "sections": [
       {
-        "heading": "Paradox: nic neunikne, přesto něco uniká",
-        "body": "Z klasické fyziky plyne, že z černé díry neunikne nic — ani světlo, proto je černá. Ale Hawking zkombinoval obecnou teorii relativity s kvantovou mechanikou a došel k opačnému závěru: černá díra musí zářit, a to čím dál tím víc, čím je menší. Odborníci tomu zprvu nevěřili — teorie samotná předpovídala, že černá díra, definovaná jako objekt, z něhož neuniká nic, něco vyzáří. Ukázalo se ale, že při spojení obou teorií je to nevyhnutelné. Hawkingovo záření patří mezi nejvýznamnější objevy teoretické fyziky druhé poloviny 20. století — a stále čeká na přímé pozorování."
+        "heading": "Kvantová fyzika předpovídá záření černých děr",
+        "body": "Z nitra horizontu se světlo do okolního vesmíru nedostane. Stephen Hawking při výpočtu spojil obecnou teorii relativity s kvantovou fyzikou a odvodil, že vzdálený pozorovatel by přesto měl zaznamenat slabé tepelné záření. Fyzici je označují jako Hawkingovo záření."
       },
       {
         "heading": "Jak záření vzniká",
-        "body": "Vysvětlení vychází z kvantové nejistoty: vakuum vesmíru není prázdné, ale neustále v něm vznikají páry virtuálních částic — částice a antočástice, které se okamžitě znovu anihilují. U horizontu událostí se může stát, že jedna z dvojice za horizont spadne a druhá unikne. Pro vnějšího pozorovatele pak vypadá, jako by černá díra emitovala částici — jako by slabě zářila. Druhý pohled: energie unikající částice se musí někde vzít. Bere se z hmotnosti černé díry. Každý odlet jedné částice znamená, že černá díra o kousek zhubne. Vypařování následuje ze zákonitosti, ne ze shody náhod."
+        "body": "I prostor bez běžných částic má podle kvantové fyziky své vlastnosti. Hawking zkoumal, jak se kvantová pole chovají v prostoročasu černé díry, a vypočítal, že vzdálený pozorovatel by měl zachytit slabé tepelné záření. Energie tohoto záření se odebírá černé díře, takže může postupně ztrácet hmotnost. Čím menší černá díra je, tím vyšší je teplota jejího Hawkingova záření."
       },
       {
-        "heading": "Výparník nesmírné trpělivosti",
-        "body": "Hawkingova teorie má paradoxní vlastnost: čím hmotnější černá díra, tím chladněji září. Supermasivní černá díra v centru galaxie má teplotu zlomku kelvinu — méně než reliktní záření, kterým je obklopena, takže do ní proudí více energie, než kolik vyzáří. Vypařovat se začne až poté, co vesmír dostatečně vychladne. Výpočty říkají, že vypařování hvězdné černé díry trvá zhruba 10^67 let — to je číslo s 67 nulami, miliardkrát déle než stáří vesmíru. Vymírání černých děr je tedy teoretický proces, který nikdo nikdy neuvidí. Poslední okamžiky by ovšem byly impozantní: teplota roste, záření sílí a malá černá díra skončí explozí — posledním výkřikem hmoty, která se vrací vesmíru."
+        "heading": "Jak dlouho trvá vypařování?",
+        "body": "Podle Hawkingova výpočtu černá díra vyzařuje stále. Pokud však přijímá více energie z okolí, než kolik vyzáří, její hmotnost roste. U dnešních velkých černých děr je předpovězené Hawkingovo záření mimořádně slabé. U supermasivních černých děr je jeho teplota mnohem nižší než miliontina kelvinu. Dlouhodobý úbytek hmotnosti by mohl převládnout až v mnohem chladnějším a řidším vesmíru.\n\nIzolovaná nerotující černá díra s hmotností Slunce by podle tohoto výpočtu ztrácela hmotnost po dobu řádu 10⁶⁷ let. U černé díry s desetinásobnou hmotností by šlo přibližně o 10⁷⁰ let. Pro srovnání: současný věk vesmíru je asi 14 miliard let.\n\nS klesající hmotností záření sílí. Popis úplně poslední fáze však vyžaduje znalost kvantových vlastností gravitace, které zatím nemáme dostatečně ověřené."
       },
       {
         "heading": "Kam zmizí informace?",
-        "body": "Hawkingovo záření otevřelo největší paradox teoretické fyziky, tzv. informační paradox černých děr. Podle kvantové mechaniky informace nikdy nezaniká — jen se přeměňuje. Ale pokud se černá díra vypaří do čistého, neinformovaného záření, informace o tom, co do ní spadlo, navždy zmizí. To kvantová fyzika zakazuje. Hawking dlouho trval na tom, že informace mizí — a vsadil se o to s fyzikem Johnem Preskillem (sázka: baseballová encyklopedie). V roce 2004 sázku prohrál: přiznal, že informace uniká se zářením, byť v zakódované podobě. Přesný mechanismus je předmětem výzkumu dodnes — paradox nebyl vyřešen, jen zúžen."
+        "body": "V běžném kvantovém popisu se informace o počátečním stavu soustavy při jejím vývoji zachovává. Hawkingův původní výpočet však vedl k záření, ze kterého se podrobnosti o hmotě spadlé do černé díry nedaly získat. Pokud by se černá díra úplně vypařila, vzniká otázka, kde tyto informace zůstaly. Právě tomu se říká informační paradox černých děr.\n\nSoučasný výzkum zkoumá, jak by informace mohla být zachována například v jemných souvislostech mezi částmi vyzářeného záření."
       },
       {
         "heading": "Kde by se dalo hledat",
-        "body": "Hawkingovo záření bylo potvrzeno jen nepřímo — v laboratorních analogiích (například v proudění tekutin napodobujících horizont událostí) a v jevu podobném zeslabování akustických vln u supersonického proudění. Přímé pozorování u skutečné černé díry zatím neexistuje: záření je příliš slabé pro naše detektory. Pozornost budí mikroskopické černé díry — hypotetické zbytky z raného vesmíru, které by se mohly vypařovat právě teď a v signálu detektorů by zářily jako charakteristické spršky částic. Kdyby některý detektor něco takového zachytil, znamenalo by to Nobelovu cenu — a konec života jedné mikroskopické černé díry."
+        "body": "Hawkingovo záření skutečné černé díry se zatím nepodařilo pozorovat. V laboratořích vědci vytvářejí systémy, v nichž se například zvukové vlny chovají podobně jako světlo u horizontu. V těchto systémech pozorovali analogické záření a zkoumají na něm některé principy Hawkingova výpočtu.\n\nJednou z možností je hledat záření hypotetických prvotních černých děr. Pokud některé z nich vznikly s dostatečně nízkou hmotností, mohly by se právě v současné době blížit závěru vypařování."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Stephen Hawking – původní práce o vyzařování černých děr](https://doi.org/10.1007/BF02345020)\n- [Jeff Steinhauer – laboratorní obdoba Hawkingova záření](https://www.nature.com/articles/nphys3863)\n- [Don Page – vypařování prvotních černých děr](https://www.osti.gov/biblio/4048788)\n- [Suvrat Raju – přehled informačního paradoxu](https://doi.org/10.1016/j.physrep.2021.10.001)"
       }
     ],
-    "why_box": "Hawkingovo záření je jedním z mála míst, kde se potkávají dvě největší teorie fyziky — gravitace a kvantová mechanika — a ukazuje, že spolu zatím nefungují. Právě v tomto rozporu se skrývá fyzika 21. století: teorie kvantové gravitace. Černá díra, kterou nikdy neuvidíte, vám tak ukazuje hranici lidského poznání. A paradox, který vznikl, když se Hawking vsadil o encyklopedii, dosud nikdo neuzavřel.",
+    "why_box": "Hawkingovo záření propojuje kvantovou fyziku s popisem gravitace. Otázka, co se při vypařování stane s informací o pohlcené hmotě, vede fyziky k hledání přesnějšího společného popisu obou jevů.",
     "related_explainery": [
       "co-je-cerna-dira-a-jak-vznika",
       "co-je-horizont-udalosti",
@@ -755,10 +767,10 @@
     "id": "exp-018",
     "title": "Co je supermasivní černá díra v centru galaxie?",
     "theme": "cerne-diry",
-    "description": "Supermasivní černá díra v centru galaxie: hmotnost miliard Sluncí, první fotografie z roku 2019 a jak ovlivňuje osud galaxií i hvězdného tvoření.",
+    "description": "Jak astronomové pozorují supermasivní černé díry v centrech galaxií a jak jejich aktivní okolí ovlivňuje vznik hvězd?",
     "published": "2026-10-18",
-    "updated": "2026-10-28",
-    "perex": "Téměř každá velká galaxie má ve středu supermasivní černou díru o hmotnosti milionů až miliard Sluncí. Naše Mléčná dráha není výjimkou: její střed ovládá Sagittarius A* o hmotnosti čtyř milionů Sluncí. Tyto černé díry vznikly zvláštně brzy a ovlivňují osud celých galaxií – včetně toho, zda v nich mohou vzniknout hvězdy a planety.",
+    "updated": "2026-11-11",
+    "perex": "V centrech velkých galaxií často nacházíme supermasivní černé díry o hmotnosti milionů až miliard Sluncí. V centru Mléčné dráhy leží Sagittarius A* o hmotnosti přibližně čtyř milionů Sluncí. Záření a výtrysky z okolí aktivních černých děr mohou ovlivňovat vznik hvězd.",
     "sections": [
       {
         "heading": "Jak velké jsou a kde žijou",
@@ -766,23 +778,27 @@
       },
       {
         "heading": "Jak se dají pozorovat, když jsou černé",
-        "body": "Černá díra sama žádné světlo nevydává, ale její gravitace ovlivňuje okolí dramaticky. Hvězdy v její blízkosti krouží ohromnou rychlostí – u Sagittarius A* bylo sledováno několik hvězd po celá desetiletí a jejich dráhy přesně vymezují hmotnost černé díry. Když se k černé díře přiblíží plyn a prach, vytvoří se kolem ní rotující disk – akreční disk – který se žhaví na miliony stupňů a září v rentgenovém pásmu. Někdy je tento proces tak prudký, že galaxie září jako kvasar – jasnější objekt vesmíru, který přehluší všechny hvězdy galaxie dohromady. Právě výbuchy aktivních galaxií v raném vesmíru daly astronomům první důkaz, že supermasivní černé díry existují, ještě předtím, než byly přímo detekovány.",
+        "body": "Přítomnost černé díry prozrazuje její vliv na okolí. U Sagittarius A* astronomové sledovali dráhy blízkých hvězd po celá desetiletí a z jejich pohybu odvodili její hmotnost.\n\nPlyn padající k supermasivní černé díře může vytvořit rotující akreční disk. Při pohybu dovnitř se zahřívá a intenzivně září. Samotný disk často vydává hlavně viditelné a ultrafialové záření. Velmi horký plyn v jeho blízkosti přispívá k rentgenovému záření. Mimořádně jasné aktivní jádro galaxie označujeme jako kvasar. Jeho světlo může přezářit hvězdy celé hostitelské galaxie.",
         "image_id": "schema-hvezda-centralni-hmotnost"
       },
       {
-        "heading": "První fotografie černé díry",
-        "body": "Dne 10. dubna 2019 představilo spojení teleskopů Event Horizon Telescope první fotografii černé díry – supermasivní černé díry v centru galaxie M87 o hmotnosti 6,5 miliardy Sluncí. Šlo o technický husarský kousek: osm radioteleskopů na čtyřech kontinentech bylo synchronizováno do jediného virtuálního teleskopu velikosti Země. Výsledkem byla rozmazaná oranžová kobliha – žhavý plyn obklopující černou díru, s tmavým stínem uprostřed. Přesně to, co předpovídala obecná teorie relativity o generaci dřív. V roce 2022 tým zveřejnil snímek Sagittarius A*, naší vlastní centrální černé díry. Fotky se dají porovnat, studovat jejich dynamiku a testovat fyziku v extrémním gravitačním poli."
+        "heading": "První snímek stínu černé díry",
+        "body": "Dne 10. dubna 2019 představila síť radioteleskopů Event Horizon Telescope první snímek stínu černé díry. Šlo o objekt v centru galaxie M87 o hmotnosti 6,5 miliardy Sluncí. Jasný prstenec zachycuje rádiové záření horkého plynu, jehož obraz mění silná gravitace. Tmavší střed odpovídá stínu černé díry, který je větší než její horizont. V roce 2022 tým zveřejnil také snímek Sagittarius A*. Porovnání snímků s výpočty pomáhá prověřovat modely okolí černých děr."
       },
       {
-        "heading": "Ovlivňují osud galaxií – a možná i naší existence",
-        "body": "Supermasivní černé díry nejsou pasivními obyvateli galaxií – jsou jejich regulátory. Černá díra svými výbuchy a výtrysky materiálu dokáže vyhnat plyn z galaxie, čímž se přestane živit a zároveň tím zastaví zrod nových hvězd. Galaxie s velmi aktivní černou dírou tak často přestávají růst. Náš vesmír je proto možná takový, jaký je, právě díky těmto regulátorům: bez nich by galaxie produkovaly hvězdy rychleji a spotřebovaly by plyn dřív, než by vznikly hvězdy dlouho žijící a jako je naše Slunce. Je to i zásadní pro pochopení našeho místa: Sagittarius A* je tichá, přestala se živit před miliony let, a proto může naše galaxie klidně tvořit hvězdy – mezi nimi Slunce, a tedy i nás."
+        "heading": "Jak ovlivňují vznik hvězd v galaxii",
+        "body": "Když do centrální černé díry proudí mnoho plynu, její okolí může uvolňovat velké množství energie. Záření, proudy plynu a výtrysky částic zahřívají nebo odnášejí plyn, ze kterého by jinak vznikaly nové hvězdy. Tím mohou tvorbu hvězd omezovat. Za některých podmínek naopak stlačí okolní plyn a pomohou vzniku hvězd v určité oblasti. Astronomové zkoumají, jak tyto procesy ovlivňují dlouhodobý vývoj galaxií.\n\nSagittarius A* je dnes poměrně málo aktivní, přesto k ní stále přitéká určité množství hmoty a v jejím okolí pozorujeme záblesky záření."
       },
       {
         "heading": "Záhada jejich vzniku",
         "body": "Supermasivní černé díry pozorujeme už ve vesmíru starém jen několik set milionů let. Jak stihly za tak krátkou dobu tolik vyrůst? Podle jedné hypotézy začínaly jako černé díry po zániku prvních hvězd a rychle rostly pohlcováním okolního plynu. Podle jiné mohl za určitých podmínek gravitační kolaps rozsáhlého oblaku plynu vytvořit už na začátku mnohem hmotnější černou díru. Taková černá díra by měla při dalším růstu náskok. Pozorování raných galaxií a jejich jader pomáhají zkoumat, které z těchto cest byly možné."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA – aktivní galaktická jádra](https://science.nasa.gov/mission/webb/science-overview/science-explainers/what-are-active-galactic-nuclei/)\n- [ESO – snímek stínu černé díry v M87](https://www.eso.org/public/images/eso1907a/)\n- [ESO – snímek Sagittarius A*](https://www.eso.org/public/news/eso2208-eht-mw/)\n- [Výzkum vlivu aktivních jader na galaxie](https://arxiv.org/abs/astro-ph/0608517)\n- [NASA – minulá aktivita Sagittarius A*](https://www.nasa.gov/missions/ixpe/milky-ways-central-black-hole-woke-up-200-years-ago-nasas-ixpe-finds/)\n- [NASA – centrum Mléčné dráhy](https://science.nasa.gov/mission/webb/science-overview/science-explainers/what-is-the-center-of-our-galaxy-like/)\n- [Nobelova cena za fyziku 2020](https://www.nobelprize.org/prizes/physics/2020/press-release/)\n- [NASA – vznik a růst supermasivních černých děr](https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/massive-black-holes-and-the-evolution-of-galaxies/)"
       }
     ],
-    "why_box": "Sagittarius A* ve středu Mléčné dráhy je vzdálena 26 tisíc světelných let – světlo z jejího okolí k nám letí 26 tisíc let, a přitom je to nejbližší supermasivní černá díra. Právě její pozorování získalo v roce 2020 Nobelovu cenu. Když se podíváte na souhvězdí Střelce, díváte se směrem k obří černé díře, která drží pohromadě vaši galaxii – a o které astronomové ještě před třiceti letech pochybovali, že existuje.",
+    "why_box": "Sagittarius A* v centru Mléčné dráhy je od nás vzdálená přibližně 26 tisíc světelných let. Pohyb hvězd v jejím těsném okolí poskytl přesvědčivé důkazy o přítomnosti supermasivní černé díry. Za tento výzkum získali Reinhard Genzel a Andrea Ghezová polovinu Nobelovy ceny za fyziku pro rok 2020. Pohyb hvězd ve vzdálenějších částech galaxie určuje společná gravitace hvězd, plynu, temné hmoty a dalších složek Mléčné dráhy.",
     "related_explainery": [
       "co-je-cerna-dira-a-jak-vznika",
       "proc-maji-galaxie-spiralni-ramena",
