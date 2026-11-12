@@ -40,3 +40,7 @@ Místní zkouška se simulovanými odpověďmi ověřila deduplikaci, běžný �
 Přírůstek automatických denních nákladů: 0 Kč a 0 tokenů. Místní zkouška nevolala Gemini. Ruční běh s živými daty využije stejný model a rozsah jako dnešní denní překlad, maximálně sedm položek a dva pokusy na položku. Přesnou spotřebu zkoušky zatím nemáme změřenou.
 
 Místní sestavení prošlo pro 500 článků a 101 témat Kosmopedie. Prošlo všech 51 existujících testů.
+
+## Fáze 1
+
+Místní sestavení obou verzí potvrdilo 61 změněných stránek HTML. Po sjednocení hranic odstavců a mezer bylo HTML shodné. Adresy článků i obsah sitemap.xml jsou shodné. Prošlo 51 existujících testů. Přidaná kontrola je samostatný příkaz a nezasahuje do překladu ani publikování. Odchylka od návrhu: kontroly zatím spouštíme v režimu hlášení. Nové překlady ani výběr nepřepisují. Slovníček obsahuje návrhy k posouzení. Náklady navíc: 0 tokenů, 0 Kč. Návrat: obnovit tools/build_static.py a odebrat kontrolní skript, slovníček a report. Dříve evidované případy dne bez vhodného článku a zachování adres při opravě anglické verze zůstávají podmínkami pozdějšího zapnutí.

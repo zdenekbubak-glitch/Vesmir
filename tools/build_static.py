@@ -521,16 +521,16 @@ def article_summary_html(summary):
     """Separate the reader-facing takeaway without changing stored article text."""
     text = str(summary or '')
     match = re.search(r'(?<!\w)Proč\s+je\s+to\s+zajímavé\s*:', text, flags=re.IGNORECASE)
-    if not match:
-        return f'<p class="summary">{esc(text)}</p>'
-    main = text[:match.start()].strip()
-    takeaway = text[match.end():].strip()
-    # An empty label alone should not create an empty paragraph.
-    if not takeaway:
-        return f'<p class="summary">{esc(text)}</p>'
-    paragraphs = [f'<p class="summary">{esc(main)}</p>'] if main else []
-    paragraphs.append(f'<p class="summary"><strong>Proč je to zajímavé:</strong> {esc(takeaway)}</p>')
-    return '\n      '.join(paragraphs)
+    takeaway = text[match.end():].strip() if match else ''
+    main = text[:match.start()].strip() if takeaway else text
+    paragraphs = [
+        f'<p class="summary">{esc(part)}</p>'
+        for part in re.split(r'\r?\n[^\S\r\n]*\r?\n(?:[^\S\r\n]*\r?\n)*', main)
+        if part.strip()
+    ]
+    if takeaway:
+        paragraphs.append(f'<p class="summary"><strong>Proč je to zajímavé:</strong> {esc(takeaway)}</p>')
+    return '\n      '.join(paragraphs) or '<p class="summary"></p>'
 
 
 def explainer_links_html(item, catalog):

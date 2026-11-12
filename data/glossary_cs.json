@@ -1,0 +1,66 @@
+[
+  {
+    "term": "redshift",
+    "preferred": "rudý posuv",
+    "variants": [
+      "červený posun"
+    ],
+    "note": "Pojem používaný v Kosmopedii.",
+    "status": "proposed"
+  },
+  {
+    "term": "dark matter",
+    "preferred": "temná hmota",
+    "variants": [
+      "tmavá hmota",
+      "tmavé hmoty",
+      "tmavou hmotu"
+    ],
+    "note": "Co je temná hmota?",
+    "status": "proposed"
+  },
+  {
+    "term": "dark energy",
+    "preferred": "temná energie",
+    "variants": [
+      "tmavá energie",
+      "tmavé energie"
+    ],
+    "note": "Co je temná energie a jak se liší od temné hmoty?",
+    "status": "proposed"
+  },
+  {
+    "term": "cosmic microwave background",
+    "preferred": "reliktní záření (CMB)",
+    "variants": [],
+    "note": "Co je reliktní záření?",
+    "status": "proposed"
+  },
+  {
+    "term": "spacetime",
+    "preferred": "časoprostor",
+    "variants": [
+      "prostoročas"
+    ],
+    "note": "V archivu se používají oba tvary.",
+    "status": "disputed"
+  },
+  {
+    "term": "non-Gaussianity",
+    "preferred": "negaussovskost",
+    "variants": [
+      "ne-gaussianita"
+    ],
+    "note": "Odborný český tvar ověřit.",
+    "status": "proposed"
+  },
+  {
+    "term": "Hubble tension",
+    "preferred": "Hubbleovo napětí",
+    "variants": [
+      "Hubbleovo pnutí"
+    ],
+    "note": "Co je Hubbleovo napětí?",
+    "status": "proposed"
+  }
+]
