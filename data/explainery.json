@@ -1245,12 +1245,12 @@
     "theme": "castice-a-zakladni-sily",
     "description": "Kvarky, leptony, částice přenášející síly a Higgsův boson: co vysvětluje standardní model částic a proč nestačí na celý vesmír?",
     "published": "2026-10-24",
-    "updated": "2026-10-24",
+    "updated": "2026-11-12",
     "perex": "Z čeho je hmota a jak spolu její nejmenší známé stavební prvky působí? Standardní model částicové fyziky spojuje naše znalosti elementárních částic a tří základních interakcí. Je mimořádně úspěšný, ale gravitaci ani temnou hmotu nevysvětluje.",
     "sections": [
       {
         "heading": "Od atomů k elementárním částicím",
-        "body": "Atom má elektronový obal a jádro složené z protonů a neutronů. Elektron podle dnešních poznatků nemá známou vnitřní strukturu, protony a neutrony ji mají: jsou složeny z kvarků a gluonů.\n\nStandardní model rozlišuje šest druhů kvarků a šest leptonů. Mezi leptony patří elektron, mion, tau a tři druhy neutrin. Částice mají také své antičástice. Běžná hmota kolem nás vystačí převážně s elektrony a kvarky up a down, z nichž jsou složeny protony a neutrony. Těžší příbuzné studujeme například v urychlovačích a kosmickém záření."
+        "body": "Atom má elektronový obal a jádro. Jádro nejběžnějšího izotopu vodíku tvoří jediný proton. Jádra ostatních prvků obsahují protony i neutrony.\n\nElektron nemá podle dosavadních měření známou vnitřní strukturu. Protony a neutrony mají uvnitř kvarky a gluony. Jejich základní kvarkové složení popisujeme pomocí trojice takzvaných valenčních kvarků. Proton má dva kvarky up a jeden down, neutron jeden up a dva down. Tyto trojice určují mimo jiné elektrický náboj protonu a neutronu.\n\nStandardní model rozlišuje šest druhů kvarků a šest leptonů. Mezi leptony patří elektron, mion, tau a tři druhy neutrin. Částice mají také své antičástice. Těžší příbuzné studujeme například v urychlovačích a kosmickém záření."
       },
       {
         "heading": "Tři interakce ze čtyř",
@@ -1266,11 +1266,11 @@
       },
       {
         "heading": "Co model zatím neřeší",
-        "body": "Standardní model nenabízí potvrzenou částici, která by vysvětlovala kosmologickou temnou hmotu. Nevysvětluje ani temnou energii a sám neposkytuje uspokojivou odpověď na převahu hmoty nad antihmotou ve vesmíru.\n\nJeho úspěchy tím nezanikají. Znamená to, že má své meze. Nová teorie bude muset vysvětlit otevřené otázky a současně zachovat přesně ověřené výsledky. Standardní model částic a kosmologický model ΛCDM přitom nejsou totéž: první popisuje částice a interakce, druhý celkový vývoj vesmíru."
+        "body": "Standardní model neobsahuje částici, která by vysvětlila převážnou část kosmologické temné hmoty. Známá neutrina mají sice hmotnost, ale jejich příspěvek je příliš malý. Jejich rychlý pohyb v raném vesmíru navíc ovlivňoval vznik struktur jinak než chladná temná hmota. Nevysvětluje ani temnou energii a sám neposkytuje uspokojivou odpověď na převahu hmoty nad antihmotou ve vesmíru.\n\nJeho úspěchy tím nezanikají. Znamená to, že má své meze. Nová teorie bude muset vysvětlit otevřené otázky a současně zachovat přesně ověřené výsledky. Standardní model částic a kosmologický model ΛCDM přitom nejsou totéž: první popisuje částice a interakce, druhý celkový vývoj vesmíru."
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "[CERN: Standardní model](https://home.cern/science/physics/standard-model)\n\n[DOE: Co vysvětluje standardní model částicové fyziky](https://www.energy.gov/science/doe-explainsthe-standard-model-particle-physics)\n\n[CERN: Higgsův boson](https://home.cern/science/physics/higgs-boson)"
+        "body": "[CERN: Standardní model](https://home.cern/science/physics/standard-model)\n\n[DOE: Co vysvětluje standardní model částicové fyziky](https://www.energy.gov/science/doe-explainsthe-standard-model-particle-physics)\n\n[CERN: Higgsův boson](https://home.cern/science/physics/higgs-boson)\n- [Particle Data Group: kvarkový model](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-quark-model.pdf)\n- [T2K: neutrina a fyzika za standardním modelem](https://t2k-experiment.org/neutrinos/beyond-the-standard-model/)"
       }
     ],
     "why_box": "Zprávy o „částici mimo standardní model“ míří na konkrétní, velmi dobře otestovanou teorii. Zajímavá odchylka ještě není objevem nové částice. Pokud se ale nezávisle potvrdí, může propojit výsledky pozemských experimentů s otázkami o složení a historii vesmíru.",
@@ -1456,12 +1456,12 @@
     "theme": "castice-a-zakladni-sily",
     "description": "LHC sráží protony a těžké ionty. Jak funguje, co objevily jeho detektory a jak pomáhá zkoumat raný vesmír a hledat temnou hmotu?",
     "published": "2026-10-24",
-    "updated": "2026-10-25",
+    "updated": "2026-11-12",
     "perex": "Ve vesmíru sledujeme přírodní děje na obrovských vzdálenostech. V urychlovači LHC naopak připravujeme srážky částic v laboratoři. Oba přístupy se doplňují: vlastnosti nejmenších stavebních prvků hmoty ovlivnily také vývoj raného vesmíru.",
     "sections": [
       {
         "heading": "Co znamená zkratka LHC",
-        "body": "**Large Hadron Collider**, česky Velký hadronový urychlovač, je součástí laboratoře CERN u Ženevy. Jeho kruhový tunel měří přibližně **27 kilometrů** a vede pod francouzsko-švýcarskou hranicí. Poprvé byl spuštěn v roce 2008.\n\nUrychluje především protony, ale také svazky těžkých iontů. Proton je hadron: složená částice obsahující kvarky a gluony. LHC tedy není přístroj, který by urychloval celé atomy s elektronovými obaly, ani obří dalekohled namířený do vesmíru."
+        "body": "**LHC** je zkratka anglického názvu *Large Hadron Collider*. Česky se mu běžně říká **Velký hadronový urychlovač**. Slovo *collider* označuje srážeč, tedy typ urychlovače, který přivádí dva svazky částic ke srážce. V LHC obíhají svazky opačnými směry v kruhovém tunelu a srážejí se ve vybraných místech. LHC nejčastěji urychluje protony, při některých experimentech také těžké ionty, například jádra olova zbavená všech elektronů.\n\nTunel měří přibližně 27 kilometrů a vede pod francouzsko-švýcarskou hranicí u Ženevy. LHC byl poprvé spuštěn v roce 2008. Proton je hadron, tedy složená částice obsahující kvarky a gluony."
       },
       {
         "heading": "Jak částice získají energii",
@@ -1482,11 +1482,11 @@
       },
       {
         "heading": "Může objevit temnou hmotu?",
-        "body": "Pokud existují vhodné nové částice, mohla by je energie srážek umožnit vytvořit. Částice slabě interagující s detektorem by mohla uniknout a projevit se nerovnováhou měřené příčné hybnosti.\n\nPodobnou stopu ale mohou zanechat i známá neutrina nebo nepřesnosti měření. Samotná chybějící hybnost proto není důkazem temné hmoty. A ani případná nová neviditelná částice by bez dalších údajů automaticky nebyla potvrzenou složkou galaktických hal."
+        "body": "Před srážkou letí protony podél svazků. Když se podíváme na pohyb kolmo k jejich směru, hybnosti všech produktů srážky by se měly přibližně vyrovnat. Pokud některá částice proletí detektorem bez zaznamenatelné stopy, může v tomto součtu část hybnosti chybět. Takto se projevují například známá neutrina. Podobnou nerovnováhu může způsobit i nepřesné měření. Fyzici proto hledají případy, v nichž je nerovnováha častější nebo má jiné vlastnosti, než očekávají od známých procesů.\n\nKdyby se podařilo objevit novou částici, její možný podíl na temné hmotě v galaxiích by musela ověřit další měření."
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "[CERN: Velký hadronový urychlovač LHC](https://home.cern/science/accelerators/large-hadron-collider)\n\n[CERN: Higgsův boson](https://home.cern/science/physics/higgs-boson)\n\n[CERN: Experiment ALICE a kvark-gluonové plazma](https://home.cern/science/experiments/alice/)\n\n[CERN: Hledání temné hmoty](https://home.cern/science/physics/dark-matter)"
+        "body": "[CERN: Velký hadronový urychlovač LHC](https://home.cern/science/accelerators/large-hadron-collider)\n\n[CERN: Higgsův boson](https://home.cern/science/physics/higgs-boson)\n\n[CERN: Experiment ALICE a kvark-gluonové plazma](https://home.cern/science/experiments/alice/)\n\n[CERN: Hledání temné hmoty](https://home.cern/science/physics/dark-matter)\n- [Akademie věd ČR: Velký hadronový urychlovač](https://www.avcr.cz/cs/o-nas/aktuality/Svet-je-sama-prazdnota-rika-jaderny-fyzik-ktery-zkouma-slozeni-hmoty/)\n- [ATLAS: příklad analýzy chybějící příčné hybnosti](https://s3.cern.ch/inspire-prod-files-0/07916ed21c0704d29727af4fde81c641)"
       }
     ],
     "why_box": "U zprávy o „nové částici z CERN“ je dobré rozlišovat předběžný přebytek v datech, statisticky přesvědčivý objev a následné určení vlastností částice. Teprve další měření ukážou, zda a jak výsledek souvisí s otázkami kosmologie.",
@@ -2884,7 +2884,7 @@
     "theme": "castice-a-zakladni-sily",
     "description": "Nejvyšší energie není jedinou cestou k nové fyzice. Jak se doplňují SuperKEKB, J-PARC a pokusy se svazkem namířeným na pevný terč?",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-12",
     "perex": "Urychlovače se neliší jen velikostí a energií. Některé připravují srážky dvou svazků, jiné posílají částice do pevného terče nebo vytvářejí zdroj neutrin. Výběr závisí na tom, zda chceme vytvořit novou těžkou částici, přesně změřit vzácný rozpad, nebo sledovat přeměny neutrin.",
     "sections": [
       {
@@ -2893,7 +2893,7 @@
       },
       {
         "heading": "SuperKEKB: mnoho srážek pro přesné testy",
-        "body": "**SuperKEKB v japonské Cukubě**, v laboratoři KEK, sráží elektrony s pozitrony. Produkty srážek měří detektor **Belle II**. Energie se volí tak, aby účinně vznikaly mimo jiné dvojice mezonů B, krátce žijících částic obsahujících kvark b nebo jeho antikvark.\n\nZ velkého počtu jejich rozpadů vědci určují četnosti různých přeměn a porovnávají chování částic a antičástic. Vysoká četnost srážek umožňuje studovat i velmi vzácné procesy. V odborných zprávách se přitom používá **luminozita**, veličina popisující, jaké příležitosti ke srážkám svazky vytvářejí; počet konkrétních reakcí závisí také na jejich pravděpodobnosti."
+        "body": "**SuperKEKB v japonské Cukubě**, v laboratoři KEK, sráží elektrony s pozitrony. Produkty srážek měří detektor **Belle II**. Energie se volí tak, aby účinně vznikaly mimo jiné dvojice mezonů B, krátce žijících částic obsahujících kvark b nebo jeho antikvark.\n\nZ velkého počtu jejich rozpadů vědci určují četnosti různých přeměn a porovnávají chování částic a antičástic. Vysoká četnost srážek umožňuje studovat i velmi vzácné procesy. **Luminozita** říká, jak intenzivně se dva svazky v místě srážek setkávají. Čím je při stejné energii srážek vyšší, tím víc případů stejné reakce za sekundu očekáváme. Pro různé reakce se počty liší, protože některé nastávají mnohem vzácněji než jiné."
       },
       {
         "heading": "Jak mohou přesná měření odhalit těžší částice",
@@ -2905,7 +2905,7 @@
       },
       {
         "heading": "Pevný terč má jiné přednosti než dva vstřícné svazky",
-        "body": "Při pokusu s pevným terčem svazek zasahuje látku, jejíž složení lze zvolit podle úkolu. Takové experimenty mohou vytvářet intenzivní zdroje dalších částic a velmi podrobně sledovat jejich reakce či rozpady. Například **NA62 v CERN**, využívající protony z urychlovače SPS, studuje vzácné rozpady **kaonů**. Kaony jsou nestabilní částice tvořené kvarkem a antikvarkem, přičemž jednou z těchto složek je podivný kvark nebo jeho antikvark. Označení „podivný“ je název jednoho druhu kvarku. Přesné měření vzácných způsobů rozpadu kaonů umožňuje hledat odchylky od předpovědí standardního modelu.\n\nPři stejné energii dopadajícího svazku je ve srážce s pevným terčem menší část energie dostupná pro vznik nových hmotných částic než u vhodně uspořádané srážky dvou vstřícných svazků. Výhodou terčových experimentů může být velký počet připravených částic a specializace na vybraný proces."
+        "body": "Při pokusu s pevným terčem svazek zasahuje látku, jejíž složení lze zvolit podle úkolu. Takové experimenty mohou vytvářet intenzivní zdroje dalších částic a velmi podrobně sledovat jejich reakce či rozpady. Například **NA62 v CERN**, využívající protony z urychlovače SPS, studuje vzácné rozpady **kaonů**. Kaony jsou nestabilní částice tvořené kvarkem a antikvarkem, přičemž jednou z těchto složek je podivný kvark nebo jeho antikvark. Označení „podivný“ je název jednoho druhu kvarku. Přesné měření vzácných způsobů rozpadu kaonů umožňuje hledat odchylky od předpovědí standardního modelu.\n\nPředstavme si dva protony. Když proti sobě letí stejnou rychlostí, jejich hybnosti se vyruší a vzniklé částice se jako celek nemusejí pohybovat žádným směrem. Když jeden proton narazí do druhého, který je v klidu, produkty srážky si musí část původní energie odnést ve společném pohybu dopředu. Při srovnatelné energii na částici je tak ve srážce dvou vstřícných svazků k dispozici více energie pro vznik těžkých částic. Výhodou terčových experimentů může být velký počet připravených částic a specializace na vybraný proces."
       },
       {
         "heading": "CERN jako soustava různých experimentů",
@@ -2913,7 +2913,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Belle II: přesná měření a fyzikální cíle](https://www.belle2.de/en/belle-2-experiment/physics)\n- [KEK: Belle II a SuperKEKB, přehled zařízení](https://www2.kek.jp/proffice/Pamphlets/IPNS/BELLEII_E.pdf)\n- [J-PARC: urychlovací řetězec a jeho využití](https://www.j-parc.jp/c/en/facilities/accelerators/rcs.html)\n- [T2K: jak vzniká svazek a proč putuje do Kamioky](https://t2k-experiment.org/t2k/)\n- [CERN: experimenty s pevným terčem včetně NA62](https://home.web.cern.ch/science/experiments/)\n- [CERN: ALICE a výzkum kvark-gluonového plazmatu](https://home.cern/science/experiments/alice/)\n- [CERN: LHCb a rozdíly mezi hmotou a antihmotou](https://home.cern/science/experiments/lhcb/)"
+        "body": "- [Belle II: přesná měření a fyzikální cíle](https://www.belle2.de/en/belle-2-experiment/physics)\n- [KEK: Belle II a SuperKEKB, přehled zařízení](https://www2.kek.jp/proffice/Pamphlets/IPNS/BELLEII_E.pdf)\n- [J-PARC: urychlovací řetězec a jeho využití](https://www.j-parc.jp/c/en/facilities/accelerators/rcs.html)\n- [T2K: jak vzniká svazek a proč putuje do Kamioky](https://t2k-experiment.org/t2k/)\n- [CERN: experimenty s pevným terčem včetně NA62](https://home.web.cern.ch/science/experiments/)\n- [CERN: ALICE a výzkum kvark-gluonového plazmatu](https://home.cern/science/experiments/alice/)\n- [CERN: LHCb a rozdíly mezi hmotou a antihmotou](https://home.cern/science/experiments/lhcb/)\n- [CERN: princip urychlovačů a srážečů](https://home.cern/science/accelerators/how-accelerator-works)\n- [CERN: význam luminozity](https://home.cern/science/accelerators/hilumi-lhc/)"
       }
     ],
     "why_box": "Zpráva o novém urychlovači má smysl teprve spolu s tím, co má měřit. Energie, četnost reakcí a přesnost jsou různé přednosti. I menší zařízení může rozhodnout důležitou otázku, pokud je pro ni vhodně navržené.",
@@ -2936,7 +2936,7 @@
     "theme": "castice-a-zakladni-sily",
     "description": "Jak ze stop a uložené energie určíme částici? Co je pozadí, statistická významnost a proč k objevu potřebujeme více než neobvyklou událost?",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-12",
     "perex": "Ze stop a energie předané v detektoru vědci určují, jaké částice zachytili. Novou částici pak hledají podle opakujících se vzorů v mnoha událostech. Jak tento postup vede od jednotlivých signálů až k potvrzenému objevu?",
     "sections": [
       {
@@ -2945,7 +2945,7 @@
       },
       {
         "heading": "Od jednotlivých zásahů k dráze částice",
-        "body": "Když nabitá částice prochází tenkými vrstvami detektoru, zanechává v nich drobné signály. Spojením jejich poloh vznikne odhad její dráhy. V magnetickém poli se dráha zakřivuje; směr zakřivení pomáhá určit znaménko náboje a jeho velikost souvisí s **hybností**, veličinou popisující pohyb částice.\n\nMěření nejprve vyžaduje kalibraci: například převod velikosti elektrického impulzu na předanou energii a přesnou znalost polohy senzorů. Rekonstrukce také rozlišuje, které zásahy patří k sobě, když se v přístroji překrývá více událostí."
+        "body": "Když nabitá částice prochází tenkými vrstvami detektoru, zanechává v nich drobné signály. Spojením jejich poloh vznikne odhad její dráhy. Z toho, na kterou stranu se dráha v magnetickém poli ohýbá, lze určit znaménko náboje. Při stejné velikosti náboje a stejném magnetickém poli se dráha zakřivuje méně, když má částice větší **hybnost** kolmo ke směru pole.\n\nMěření nejprve vyžaduje kalibraci: například převod velikosti elektrického impulzu na předanou energii a přesnou znalost polohy senzorů. Rekonstrukce také rozlišuje, které zásahy patří k sobě, když se v přístroji překrývá více událostí."
       },
       {
         "heading": "Proč potřebujeme více různých vrstev",
@@ -2954,11 +2954,11 @@
       },
       {
         "heading": "Jak poznáme částici, která zanikla před detektorem",
-        "body": "Některé částice žijí tak krátce, že do měřicích vrstev vůbec nedoletí. Zaznamenáme až produkty jejich rozpadu. Z energií a směrů těchto produktů lze vypočítat **invariantní hmotnost**: hodnotu, která by odpovídala hmotnosti společné původní částice.\n\nPři vyhodnocení mnoha událostí může vzniknout přebytek případů kolem stejné hmotnosti. Právě takový opakující se vzor je jednou z cest k objevu. Úvodní obrázek ukazuje jen modelový rozdíl mezi hladkým očekáváním a dodatečným příspěvkem; skutečná analýza obsahuje nejistoty a podrobné testy."
+        "body": "Některé částice žijí tak krátce, že do měřicích vrstev vůbec nedoletí. Zaznamenáme až produkty jejich rozpadu. Z energií a hybností zachycených produktů lze vypočítat jejich společnou **invariantní hmotnost**. Vyjde stejně bez ohledu na to, z jaké vztažné soustavy jejich pohyb popíšeme. Pokud jsme zachytili všechny produkty jediného rozpadu, tato hodnota odpovídá hmotnosti původní částice v mezích přesnosti měření.\n\nPři vyhodnocení mnoha událostí může vzniknout přebytek případů kolem stejné hmotnosti. Právě takový opakující se vzor je jednou z cest k objevu. Úvodní obrázek ukazuje jen modelový rozdíl mezi hladkým očekáváním a dodatečným příspěvkem; skutečná analýza obsahuje nejistoty a podrobné testy."
       },
       {
         "heading": "Co znamená pozadí a pět sigma",
-        "body": "**Pozadí** tvoří známé procesy a vlivy přístroje, které mohou napodobit hledaný signál. Vědci odhadují, kolik takových událostí očekávají a jaké vlastnosti mají mít. Pak zkoumají, jak neobvyklá by naměřená odchylka byla, kdyby působilo pouze toto pozadí.\n\n**Pět sigma** je označení přísné statistické hranice, která se v částicové fyzice běžně požaduje pro oznámení objevu. Vědci například zaznamenají více událostí s produkty rozpadu odpovídajícími určité původní hmotnosti, než předpovídají známé procesy. Zkoumají proto, zda tento **přebytek počtu událostí** mohl vzniknout pouhým náhodným kolísáním. Pět sigma znamená, že podle výpočtu by stejně výrazný nebo větší rozdíl vznikal náhodou mimořádně vzácně, pokud by působily pouze známé procesy. Výpočet musí zahrnout i rozsah hledání: při prohledávání mnoha možných hmotností máme více příležitostí narazit někde na náhodnou odchylku než při ověřování jediné předem zvolené hmotnosti. **Přebytek, který by při hledání na jednom místě stačil k dosažení hranice pěti sigma, proto při rozsáhlém hledání stačit nemusí.** Musí být výraznější, aby i po započtení všech prohledávaných možností tuto hranici splnil. Další měření stejného signálu naopak mohou důkaz posílit, pokud přebytek přetrvává a lze jej lépe odlišit od náhodného kolísání. Ani dosažení pěti sigma však nenahrazuje kontrolu přístroje, zpracování dat a správnosti odhadu známých procesů."
+        "body": "**Pozadí** tvoří známé procesy a vlivy přístroje, které mohou napodobit hledaný signál. Vědci odhadují, kolik takových událostí očekávají a jaké vlastnosti mají mít. Pak zkoumají, jak neobvyklá by naměřená odchylka byla, kdyby působilo pouze toto pozadí.\n\n**Pět sigma** je statistická hranice běžně používaná při oznámení objevu. Při hledání přebytku odpovídá přibližně jedné šanci ze 3,5 milionu, že by podle modelu samotného pozadí vznikl stejně výrazný nebo výraznější přebytek. Vědci mohou tuto pravděpodobnost počítat pro jednu konkrétní hmotnost nebo pro celý rozsah, který prohledávali. V druhém případě se ptají, jak často by se takový přebytek náhodně objevil **kdekoli v tomto rozsahu**. Stejný výsledek proto zpravidla vychází méně významný při posouzení celého rozsahu než při posouzení jedné hmotnosti. Ani dosažení pěti sigma nenahrazuje kontrolu přístroje, zpracování dat a správnosti odhadu známých procesů."
       },
       {
         "heading": "Konkrétní příklad: jak byl objeven Higgsův boson",
@@ -2970,7 +2970,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [CMS: jak jednotlivé části detektoru měří částice](https://cms.cern/detector)\n- [CERN: postup od návrhu experimentu k objevu](https://home.cern/science/physics/12-steps-idea-discovery/)\n- [CERN: hledání Higgsova bosonu a hmotnostní přebytek](https://home.web.cern.ch/science/physics/higgs-boson/how/)\n- [ATLAS: statistická významnost a pojem sigma](https://atlas-public.web.cern.ch/glossary/standard-deviation)\n- [CERN: objev v roce 2012 a následné ověřování vlastností Higgsova bosonu](https://home.cern/science/physics/higgs-boson/)"
+        "body": "- [CMS: jak jednotlivé části detektoru měří částice](https://cms.cern/detector)\n- [CERN: postup od návrhu experimentu k objevu](https://home.cern/science/physics/12-steps-idea-discovery/)\n- [CERN: hledání Higgsova bosonu a hmotnostní přebytek](https://home.web.cern.ch/science/physics/higgs-boson/how/)\n- [ATLAS: statistická významnost a pojem sigma](https://atlas-public.web.cern.ch/glossary/standard-deviation)\n- [CERN: objev v roce 2012 a následné ověřování vlastností Higgsova bosonu](https://home.cern/science/physics/higgs-boson/)\n- [ATLAS: rekonstrukce drah nabitých částic](https://repository.cern/records/t2ztg-g3q40/files/CERN-THESIS-2024-130.pdf?download=1)\n- [ATLAS: invariantní hmotnost](https://atlas.cern/glossary/mass)\n- [Gross a Vitells: statistický vliv rozsahu hledání](https://arxiv.org/abs/1005.1891)"
       }
     ],
     "why_box": "Když titulek oznamuje záhadný signál, můžete se ptát: co přístroj zaznamenal, jaké pozadí vědci očekávali a zda výsledek potvrdila další měření. Tyto otázky pomáhají rozlišit zajímavou stopu od skutečného objevu.",
@@ -2993,7 +2993,7 @@
     "theme": "castice-a-zakladni-sily",
     "description": "Jak se vyrábí a drží antivodík? Co měří jeho spektrum a pád v gravitaci a jak tyto testy souvisejí s převahou hmoty ve vesmíru?",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-12",
     "perex": "Antiatomy lze v laboratoři připravit a na určitou dobu udržet, aby bylo možné měřit jejich vlastnosti. Fyzici porovnávají například vodík s antivodíkem: jaké světlo pohlcují a jak se pohybují v gravitaci. Zkoušejí tím základní pravidla fyziky; vysvětlení převahy hmoty ve vesmíru však vyžaduje další souvislosti.",
     "sections": [
       {
@@ -3006,7 +3006,7 @@
       },
       {
         "heading": "Co zjistíme porovnáním spektrálních čar",
-        "body": "Laser nebo mikrovlnné záření může vyvolat přechod mezi dvěma energetickými stavy antiatomu. Vědci hledají frekvenci, při níž k přechodu dochází, a porovnávají ji s odpovídajícím přechodem běžného vodíku. Princip přechodů připomíná [téma o spektrálních čarách](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html).\n\nJde o velmi přesnou zkoušku základních symetrií: pravidel, podle nichž má fyzikální popis zůstávat stejný při určitých společných záměnách částic, prostoru a času. Dosavadní spektroskopická měření ALPHA jsou v rámci své přesnosti v souladu s očekávanou shodou vodíku a antivodíku."
+        "body": "Laser nebo mikrovlnné záření může vyvolat přechod mezi dvěma energetickými stavy antiatomu. Vědci hledají frekvenci, při níž k přechodu dochází, a porovnávají ji s odpovídajícím přechodem běžného vodíku. Princip přechodů připomíná [téma o spektrálních čarách](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html).\n\nPorovnání vodíku a antivodíku prověřuje předpověď **symetrie CPT**. Její název odkazuje na tři změny najednou: záměnu částic za antičástice, obrácení prostorových směrů a obrácení směru času. Z této symetrie plyne, že odpovídající přechody ve vodíku a antivodíku mají stejnou frekvenci. Měření experimentu ALPHA u zkoumaných přechodů s touto předpovědí souhlasí v mezích své přesnosti."
       },
       {
         "heading": "Co ukázal pokus s gravitací",
@@ -3018,7 +3018,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [CERN: výroba a uvěznění antivodíku v ALPHA](https://home.cern/science/experiments/alpha)\n- [CERN: první měření optického spektra antivodíku](https://home.cern/alpha-experiment-observes-the-light-spectrum-of-antimatter-for-the-first-time/)\n- [ALPHA Collaboration: gravitační měření antivodíku, Nature 2023](https://doi.org/10.1038/s41586-023-06527-1)\n- [CERN: antihmota a problém jejího nedostatku ve vesmíru](https://home.cern/science/physics/antimatter/)\n- [Belle II: rozpadové procesy a rozdíly mezi hmotou a antihmotou](https://belle2.jp/)\n- [T2K: CP symetrie, neutrina a souvislost s převahou hmoty](https://t2k-experiment.org/neutrinos/faq/)"
+        "body": "- [CERN: výroba a uvěznění antivodíku v ALPHA](https://home.cern/science/experiments/alpha)\n- [CERN: první měření optického spektra antivodíku](https://home.cern/alpha-experiment-observes-the-light-spectrum-of-antimatter-for-the-first-time/)\n- [ALPHA Collaboration: gravitační měření antivodíku, Nature 2023](https://doi.org/10.1038/s41586-023-06527-1)\n- [CERN: antihmota a problém jejího nedostatku ve vesmíru](https://home.cern/science/physics/antimatter/)\n- [Belle II: rozpadové procesy a rozdíly mezi hmotou a antihmotou](https://belle2.jp/)\n- [T2K: CP symetrie, neutrina a souvislost s převahou hmoty](https://t2k-experiment.org/neutrinos/faq/)\n- [ALPHA: porovnání přechodu 1S–2S ve vodíku a antivodíku](https://www.nature.com/articles/s41586-018-0017-2)"
       }
     ],
     "why_box": "Laboratorní antiatom je prostředek k přesnému porovnání fyzikálních pravidel. Rozlišování mezi atomovým spektrem, gravitačním pohybem a četností částicových rozpadů pomáhá pochopit, kterou část otázky o antihmotě daný experiment skutečně zkouší.",
@@ -3041,7 +3041,7 @@
     "theme": "castice-a-zakladni-sily",
     "description": "Elektronové, mionové a tauonové neutrino: jak souvisejí jejich druhy s hmotnostními stavy a jak experimenty měří oscilace?",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-12",
     "perex": "Neutrino vytvořené jako určitý druh může ve vzdáleném detektoru vyvolat interakci odpovídající jinému druhu. Tento jev nazýváme neutrinové oscilace. Souvisí s tím, že kvantové stavy s určitou hmotností nejsou totožné se stavy, podle kterých neutrina rozpoznáváme při jejich vzniku a zachycení.",
     "sections": [
       {
@@ -3062,11 +3062,11 @@
       },
       {
         "heading": "Co oscilace říkají o hmotnosti a co měří jiné pokusy",
-        "body": "Oscilace prokazují, že hmotnostní stavy nejsou všechny stejně těžké a že alespoň některá neutrina mají nenulovou hmotnost. Oscilace nám prozradí, o kolik se liší druhé mocniny hmotností neutrinových stavů. Samotné jednotlivé hmotnosti z toho ale určit nedokážeme: stejný rozdíl druhých mocnin mohou dát různé dvojice hodnot. Proto potřebujeme také jiné druhy měření, například experiment KATRIN popsaný níže.\n\nJinou cestou jde **KATRIN v Karlsruhe**: zkoumá rozdělení energií elektronů při radioaktivním rozpadu tritia, těžšího izotopu vodíku. Hmotnost neutrina se projevuje jemnou změnou na konci tohoto rozdělení. Kosmologie zase zkoumá společný vliv neutrin na vznik struktur. Vzájemné porovnání pomáhá ověřovat modely; různé metody mají různé předpoklady. Samotné oscilace také neříkají, zda je neutrino svou vlastní antičásticí."
+        "body": "Oscilace prokazují, že hmotnostní stavy nejsou všechny stejně těžké a že alespoň některá neutrina mají nenulovou hmotnost. Oscilace nám prozradí, o kolik se liší druhé mocniny hmotností neutrinových stavů. Samotné jednotlivé hmotnosti z toho ale určit nedokážeme: stejný rozdíl druhých mocnin mohou dát různé dvojice hodnot. Proto potřebujeme také jiné druhy měření, například experiment KATRIN popsaný níže.\n\nExperiment **KATRIN v Karlsruhe** sleduje elektrony, které vznikají při radioaktivním rozpadu tritia, těžšího izotopu vodíku. Při rozpadu vzniká také elektronové antineutrino. Jeho hmotnostní stavy společně ovlivňují, kolik elektronů naměříme těsně u nejvyšší možné energie. Z této drobné změny vědci určují mez pro **efektivní hmotnost** – hodnotu, která zahrnuje příspěvky jednotlivých hmotnostních stavů podle toho, jak silně se podílejí na elektronovém antineutrinu.\n\nKosmologie zase zkoumá společný vliv neutrin na vznik struktur. Vzájemné porovnání pomáhá ověřovat modely; různé metody mají různé předpoklady. Samotné oscilace také neříkají, zda je neutrino svou vlastní antičásticí."
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Fermilab: druhy neutrin a hmotnostní stavy](https://neutrinos.fnal.gov/types/masses/)\n- [T2K: oscilace, úbytek a výskyt druhů, role blízkých detektorů](https://t2k-experiment.org/neutrinos/faq/)\n- [T2K: konkrétní uspořádání experimentu](https://t2k-experiment.org/t2k/)\n- [Fermilab: co zatím víme o hmotnosti neutrin](https://neutrinos.fnal.gov/mysteries/mass/)\n- [KIT: princip přímého hmotnostního měření KATRIN](https://www.katrin.kit.edu/79.php)"
+        "body": "- [Fermilab: druhy neutrin a hmotnostní stavy](https://neutrinos.fnal.gov/types/masses/)\n- [T2K: oscilace, úbytek a výskyt druhů, role blízkých detektorů](https://t2k-experiment.org/neutrinos/faq/)\n- [T2K: konkrétní uspořádání experimentu](https://t2k-experiment.org/t2k/)\n- [Fermilab: co zatím víme o hmotnosti neutrin](https://neutrinos.fnal.gov/mysteries/mass/)\n- [KIT: princip přímého hmotnostního měření KATRIN](https://www.katrin.kit.edu/79.php)\n- [KATRIN: měření efektivní hmotnosti elektronového antineutrina](https://arxiv.org/abs/2406.13516)"
       }
     ],
     "why_box": "Změna neutrinového druhu je pozorovatelný projev kvantového vývoje na velké vzdálenosti. Umožňuje zkoumat hmotnosti i směšování částic a propojuje laboratorní experimenty s vývojem vesmíru.",
@@ -3089,7 +3089,7 @@
     "theme": "castice-a-zakladni-sily",
     "description": "Energetická částice z kosmu může v atmosféře vytvořit rozsáhlou spršku. Jak z jejích stop odhadujeme původní energii, směr a složení?",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-12",
     "perex": "Kosmické záření tvoří především rychlé protony a další atomová jádra, ale také elektrony a jiné částice. Po zásahu zemské atmosféry může jediná vysokoenergetická částice vyvolat sled reakcí, při nichž vzniká množství druhotných částic. Rozsáhlé pozemní observatoře měří právě tuto spršku a z ní odvozují vlastnosti původního příletu.",
     "sections": [
       {
@@ -3102,11 +3102,11 @@
       },
       {
         "heading": "Co zachytíme na zemi a co vysoko ve vzduchu",
-        "body": "**Observatoř Pierra Augera v argentinské provincii Mendoza** kombinuje různé způsoby měření rozsáhlých spršek. Povrchové detektory zaznamenávají průchody částic v jednotlivých místech. Z jejich časů příchodu a rozložení signálů se odhaduje směr a energie původní částice.\n\nFluorescenční dalekohledy navíc sledují slabé ultrafialové světlo, které vydává vzduch vybuzený průletem spršky. Tím lze sledovat její vývoj v atmosféře. Čím více nezávislých údajů máme, tím lépe lze prověřit rekonstrukci. Kalibrace zahrnuje také průhlednost a proměnlivé vlastnosti atmosféry."
+        "body": "**Observatoř Pierra Augera v argentinské provincii Mendoza** kombinuje různé způsoby měření rozsáhlých spršek. Povrchové detektory zaznamenají, kdy částicová sprška dorazí do jednotlivých míst. Z rozdílů časů lze určit, z jakého směru přiletěla. Síla signálů a jejich rozložení po povrchu pomáhají odhadnout energii.\n\nFluorescenční dalekohledy dokážou sledovat slabé ultrafialové světlo, které vydává dusík vybuzený průletem spršky. Ukazují tak, jak se sprška rozvíjela a kolik energie předala vzduchu. U spršek zachycených oběma metodami vědci kalibrují odhad energie z povrchových detektorů."
       },
       {
         "heading": "Jak poznáme energii a druh původní částice",
-        "body": "Větší energie obvykle znamená mohutnější spršku, ale samotný počet zásahů není úplné měření. Výsledek závisí také na vzdálenosti od její osy a na tom, jak hluboko v atmosféře se rozvinula. Proto se vyhodnocuje více vlastností společně.\n\nPrůměrná hloubka největšího rozvoje i zastoupení mionů se liší pro lehká a těžká jádra. Z těchto ukazatelů lze statisticky usuzovat na složení kosmického záření. Jednotlivé spršky se ale přirozeně liší a potřebujeme modely vysokoenergetických jaderných reakcí. Právě k jejich ověřování přispívají také [urychlovačové experimenty s terčem](https://kosmonovinky.cz/kosmopedie/proc-pouzivame-ruzne-druhy-urychlovacu-castic.html)."
+        "body": "Větší energie obvykle znamená mohutnější spršku, ale samotný počet zásahů není úplné měření. Výsledek závisí také na vzdálenosti od její osy a na tom, jak hluboko v atmosféře se rozvinula. Proto se vyhodnocuje více vlastností společně.\n\nČásticová sprška nejprve roste a potom slábne. Vědci sledují, jak hluboko do atmosféry pronikne, než dosáhne maxima. Při stejné energii se spršky vyvolané protony rozvíjejí v průměru hlouběji než spršky vyvolané těžkými jádry, například železem. Další vodítko dává množství mionů. Protože se jednotlivé spršky přirozeně liší, složení kosmického záření se odhaduje z většího souboru měření pomocí modelů částicových reakcí. Právě k jejich ověřování přispívají také [urychlovačové experimenty s terčem](https://kosmonovinky.cz/kosmopedie/proc-pouzivame-ruzne-druhy-urychlovacu-castic.html)."
       },
       {
         "heading": "Proč určený směr nemusí ukazovat přímo na zdroj",
@@ -3114,7 +3114,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [NASA: složení kosmického záření a odchylování magnetickými poli](https://imagine.gsfc.nasa.gov/science/toolbox/cosmic_rays1.html)\n- [CERN: kosmické částice, piony a miony v atmosféře](https://home.web.cern.ch/science/physics/cosmic-rays-particles-outer-space/)\n- [NOAA: jednotlivé složky atmosférických částicových spršek](https://www.ncei.noaa.gov/products/space-weather/legacy-data/cosmic-ray)\n- [Pierre Auger Observatory: povrchová a fluorescenční měření](https://www.auger.org/observatory/)\n- [Pierre Auger Observatory: jak z průchodů částic rekonstruujeme spršku](https://auger.org/outreach/cosmic-rays/detection)"
+        "body": "- [NASA: složení kosmického záření a odchylování magnetickými poli](https://imagine.gsfc.nasa.gov/science/toolbox/cosmic_rays1.html)\n- [CERN: kosmické částice, piony a miony v atmosféře](https://home.web.cern.ch/science/physics/cosmic-rays-particles-outer-space/)\n- [NOAA: jednotlivé složky atmosférických částicových spršek](https://www.ncei.noaa.gov/products/space-weather/legacy-data/cosmic-ray)\n- [Pierre Auger Observatory: povrchová a fluorescenční měření](https://www.auger.org/observatory/)\n- [Pierre Auger Observatory: jak z průchodů částic rekonstruujeme spršku](https://auger.org/outreach/cosmic-rays/detection)\n- [Observatoř Pierra Augera: hybridní detektor](https://www.auger.org/observatory/hybrid-detector)\n- [Observatoř Pierra Augera: rekonstrukce a kalibrace měření](https://opendata.auger.org/analysis.php)"
       }
     ],
     "why_box": "Vesmír nám poskytuje přirozené zdroje velmi energetických částic. Atmosféra převádí jejich vzácné přílety na měřitelná množství druhotných částic. Zkoumáním spršek se učíme o kosmických zdrojích i o reakcích, které se obtížně studují v laboratoři.",
