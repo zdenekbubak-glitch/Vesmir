@@ -835,8 +835,22 @@
     "key": "bluesky_daily_c0fbeb5078d4b7e20262",
     "title": "Černé díry s ježatým vlasem: Poznáme je z fotek akrečních disků?",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n235z4as22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/clanky/cerne-diry-s-jezatym-vlasem-pozname-je-z-fotek-akrecnich-2611143061.html",
-    "recorded_at": "2026-11-12T08:25:56.499091+00:00"
+    "recorded_at": "2026-11-12T08:25:56.499091+00:00",
+    "last_check_attempt_at": "2026-11-12T09:01:30.488708+00:00",
+    "publication_checked_at": "2026-11-12T09:01:30.488708+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_acdf66deb29789f89d9a",
+    "title": "Vesmírná show pana Vanguarda: Dva kvasary z doby, kdy byl vesmír ještě v plenkách, a v nich černé díry velké jako dnešní obři. Jak tak rychle vyrostly? To zatím neví nikdo.\nMějte se pozemsky!\n\n#MateVkus #vesmir #astronomie https://t.co/Pn5PTWH5NL",
+    "platform_id": "6af58069df70eccdaac3dd2d",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-12T09:01:30.631250+00:00"
   }
 ]
