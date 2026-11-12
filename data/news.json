@@ -1,5 +1,89 @@
 [
   {
+    "id": "2611.14306v1",
+    "title": "Černé díry s ježatým vlasem: Poznáme je z fotek akrečních disků?",
+    "summary": "Autoři ve své teoretické simulaci zkoumali, jak by na snímcích vypadala geometricky pravidelná černá díra s takzvaným ježatým skalárním vlasem – hypotetickým fyzikálním polem v okolí objektu bez centrální singularity. Modelovali ji v prostředí radiativně neefektivního akrečního proudění (RIAF), tedy v horkém plazmatu, které jen minimálně vyzařuje energii, a jako základ použili hmotnost a vzdálenost černé díry M87*.\n\nPři standardní frekvenci 230 GHz simulace ukázala, že s růstem parametru vlasu L/M z 0 na 0,9 se průměr kritické křivky optického stínu zmenší o 4,78 %, poloměr vyzařující polovinu toku záření o 4,07 % a potřebná hustota elektronů v plazmatu klesne o 9,15 %. Při nižší frekvenci 84 GHz posouvá synchrotronové samopohlcení maxima jasu dále vně kritické křivky, zatímco při 230 a 345 GHz prstence záření kritickou křivku těsně kopírují.\n\nAutoři dospěli k závěru, že ačkoliv pravidelné jádro systémově zmenšuje vyzařující prstenec, odlišení této černé díry od klasického Schwarzschildova modelu vyžaduje jemnější úhlové rozlišení, než jaké nabízejí současné teleskopy.\n\nProč je to zajímavé: Studie jasně vymezuje limity dnešních observatoří při pokusech odhalit alternativní modely černých děr neobsahující centrální singularitu.",
+    "url": "http://arxiv.org/abs/2611.14306v1",
+    "source": "arXiv",
+    "original_title": "Images of Regular Black Holes with Hedgehog Scalar Hair Embedded in Radiatively Inefficient Accretion Flows",
+    "published": "2026-11-10T16:37:28+00:00",
+    "inserted_at": "2026-11-12T08:22:06.253887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.14305v1",
+    "title": "Dokáže torze prostoročasu nahradit kosmologickou konstantu?",
+    "summary": "Vědci v nové studii zkoumali, zda může zrychlené rozšiřování vesmíru pramenit z geometrické kroutivosti neboli torze prostoročasu namísto působení záhadné kosmologické konstanty. Navrhli nový teoretický model f(T) teleparalelní gravitace, což je modifikace obecné relativity popisující gravitační působení pomocí torze časoprostoru. Tento model představuje jednoparametrové logaritmické rozšíření standardního kosmologického modelu ΛCDM a zavádí parametr γ, který měří odchylky od konvenční teorie. Autoři spočítali kosmickou dynamiku a model podrobili statistickému testování pomocí metody Markov Chain Monte Carlo. Využili rozsáhlá observationalní data zahrnující vesmírné chronometry, kompilace supernov typu Ia (DES-SN5YR, Pantheon+SH0ES a Union 3.0), baryonové akustické oscilace z přehlídky DESI DR2 i měření reliktního záření ze sondy Planck 2018. Výsledky ukazují, že navržený f(T) model přesně napodobuje zrychlené rozpínání a statisticky plně odpovídá současným pozorovacím datům. Parametr γ vychází těsně u nuly, takže se model chová téměř totožně se standardním ΛCDM, ale zároveň umožňuje drobné dynamické úpravy gravitačního působení.\n\nProč je to zajímavé: Výzkum naznačuje, že zrychlené rozpínání vesmíru nemusí vyžadovat temnou energii, ale může jít o přirozený geometrický důsledek kroutivosti prostoročasu.",
+    "url": "http://arxiv.org/abs/2611.14305v1",
+    "source": "arXiv",
+    "original_title": "Can torsion mimic a cosmological constant? A one-parameter logarithmic $f(T)$ extension of $Λ$CDM",
+    "published": "2026-11-10T16:37:27+00:00",
+    "inserted_at": "2026-11-12T08:22:06.253887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.14280v1",
+    "title": "Nová metoda DustER využívá červené galaxie k mapování kosmického prachu",
+    "summary": "Astrofyzici navrhli novou metodu nazvanou DustER (Dust Extinction with Photometric Red Galaxies), která dokáže mapovat prach v Mléčné dráze z dat fotometrických přehlídek galaxií. Metoda využívá galaxie z červené posloupnosti jako takzvané „standardní pastelky“ – vychází z předpokladu, že průměrná barva těchto galaxií nezávisí na jejich poloze na obloze. Z rozdílu mezi pozorovanou a očekávanou barvou galaxie při známém rudém posuvu (odhadu vzdálenosti) lze určit zčervenání světla způsobené prachem podél zorného paprsku.\n\nPři použití fotometrických rudých posuvů, což jsou odhady vzdálenosti určené z jasu galaxií v různých filtrech, však dochází ke systematickému zkreslení map vlivem výběrových efektů. DustER tato zkreslení popisuje a opravuje pomocí známých statistických vlastností rozložení prachu v okolí Mléčné dráhy.\n\nTesty na simulacích ukázaly, že samotné mapy prachu sice zůstávají částečně kontaminovány velkorozměrovou strukturou vesmíru, ale pokud se mapa DustER použije k korekci zčervenání a následnému výběru červených galaxií, výsledná dvoubodová funkce popisující shlukování galaxií vlivem prachu zkreslena není.\n\nProč je to zajímavé: Metoda DustER umožňuje spolehlivě očistit astronomická pozorování od rušivého vlivu galaktického prachu, aniž by tím byla narušena měření velkorozměrové struktury vesmíru.",
+    "url": "http://arxiv.org/abs/2611.14280v1",
+    "source": "arXiv",
+    "original_title": "DustER: Dust Extinction with Photometric Red Galaxies",
+    "published": "2026-11-10T16:22:23+00:00",
+    "inserted_at": "2026-11-12T08:22:06.253887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.14255v1",
+    "title": "Nová metoda výrazně zrychlí detekci gravitačních vln pro detektor LISA",
+    "summary": "Plánovaný vesmírný detektor LISA (Laser Interferometer Space Antenna) se zaměří na detekci gravitačních vln ze spirálovitých splynutí objektů s extrémním poměrem hmotností (EMRI). Vyhledávání a určování parametrů z těchto dlouhých a složitých signálů je však výpočetně extrémně náročné. Autoři výzkumu proto navrhli a na simulacích otestovali novou metodu, která využívá inferenci založenou na simulacích (SBI, z anglického Simulation-Based Inference). Tato technika strojového učení pracuje přímo s frekvenčními stopami zachyceného signálu místo náročného modelování celých vlnových tvarů. Metoda dokáže spolehlivě určit správné frekvenční složky signálu (harmonické), přičemž u fyzikálně přijatelných kandidátů dosahuje úspěšnosti 98 %. Sekvenční výpočet pomocí SBI dokáže zmenšit objem prostoru hledaných parametrů až o 10¹³ během několika hodin výpočetního času na grafických kartách. Následné zpřesnění zmenší tento prostor o další až čtyři řády, a to i u signálů, které jsou před finálním splynutím částečně zakryté. Proč je to zajímavé: Výrazně zrychluje analýzu složitých gravitačních vln a poskytuje přesná výchozí data pro navazující výpočty, aniž by bylo nutné zdlouhavě generovat teoretické vlnové tvary.",
+    "url": "http://arxiv.org/abs/2611.14255v1",
+    "source": "arXiv",
+    "original_title": "Simulation-Based Inference on EMRI Frequency Tracks: Harmonic Identification and Parameter Constraints from Search Outputs",
+    "published": "2026-11-10T16:03:44+00:00",
+    "inserted_at": "2026-11-12T08:22:06.253887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.14243v1",
+    "title": "Slapové síly neutronových hvězd: Jak gravitace trhá jejich kůru",
+    "summary": "Vědci v nové teoretické studii zkoumali, jak slapové působení – tedy deformace způsobená gravitací druhého tělesa – v dvojhvězdných systémech neutronových hvězd rozkmitává jejich vnitřní strukturu a ovlivňuje vyzařování gravitačních vln. Výzkumníci vytvořili fyzikální model, který propojil vnitřní stavbu hvězdy (včetně její elastické kůry, vrstevnaté kompozice a fázových přechodů hmoty) s relativistickou dynamikou vzájemného oběhu.\n\nPomocí analytického aparátu využívajícího takzvaná Mano–Suzuki–Takasugiho řešení přirovnávají autoři odezvu hvězdy k soustavě harmonických oscilátorů. Tyto kmity začlenili do relativistického modelu oběhu se započtením zakřivení časoprostoru a strhávání časoprostorového rámce. Pro modelovanou dvojhvězdu složenou z hadronovo-hybridních hvězd o hmotnostech 1,20 a 1,50 násobku hmotnosti Slunce výpočty ukázaly, že gravitační, rozhranové a střižné kmity vyvolávají jen nepatrný fázový posun gravitačních vln (do 10⁻² radiánu).\n\nPřestože je dopad na gravitační vlny malý, vyvolané kmity způsobují uvnitř hvězdy obrovské mechanické napětí. Gravitační kmity překračují mez pevnosti kůry u její báze a nejnižší střižný mód způsobuje rozsáhlé přetížení a praskání kůry napříč celým tělesem.\n\nProč je to zajímavé: Ukazuje se, že slapové síly mohou narušit a roztrhat kůru neutronové hvězdy ještě před samotným splynutím obou těles, což přináší nový způsob, jak zkoumat vlastnosti extrémní hmoty v jejich nitru.",
+    "url": "http://arxiv.org/abs/2611.14243v1",
+    "source": "arXiv",
+    "original_title": "Relativistic tidal response and mode excitation in neutron-star binaries",
+    "published": "2026-11-10T15:56:00+00:00",
+    "inserted_at": "2026-11-12T08:22:06.253887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
+    "title": "Jak vesmír vystoupil z temnoty: Obří simulace Lumina odhaluje raný kosmos",
+    "summary": "Nová superpočítačová simulace nazvaná Lumina nabízí dosud nejdetailnější pohled na to, jak vesmír překonal své rané období temna – tedy fázi před vznikem prvních hvězd a galaxií – a proměnil se v kosmos plný zářících objektů. Vědci pomocí tohoto pokročilého modelu rekonstruovali dvě miliardy let rané kosmické historie v oblasti o obří šířce 1,6 miliardy světelných let. Simulace Lumina dokázala zachytit mimořádné detaily a komplexní procesy, které předchozí počítačové modely nedokázaly postihnout. Díky tomu výzkum objasňuje přechod od temného vesmíru k prostředí prosvětlenému hvězdnými soustavami a ukazuje, jak se utvářely první rozsáhlé kosmické struktury.\n\nProč je to zajímavé: Simulace Lumina umožňuje vědcům sledovat zrod prvních hvězd a galaxií v dosud nebývalém detailu a zároveň v obřím měřítku přesahujícím miliardu světelných let.",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
+    "source": "RSS",
+    "original_title": "A massive new simulation reveals how the universe emerged from darkness",
+    "published": "2026-11-12T04:07:24+00:00",
+    "inserted_at": "2026-11-12T08:22:06.253887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/11/261108233040.htm",
+    "title": "Je vesmír dvakrát starší? Nový model navrhuje stáří 26,7 miliardy let",
+    "summary": "Výzkumníci z Ottawské univerzity představili nový kosmologický model, který zkoumá stáří a celkový vývoj vesmíru. Podle jejich teoretického návrhu by vesmír mohl být starý až 26,7 miliardy let, což je přibližně dvojnásobek dosud předpokládaného věku.\n\nTento model navíc naznačuje, že k popisu chování vesmíru možná vůbec nepotřebujeme temnou hmotu ani temnou energii – tedy hypotetické složky, kterými fyzikové dosud vysvětlovali neznámé gravitační působení a zrychlující se rozpínání prostoru. Autorský tým podrobil svou teoretickou hypotézu testování vůči několika hlavním astronomickým pozorováním. Zjistil, že nová teorie dokáže uspokojivě vysvětlit rotaci galaxií, kosmickou expanzi i vznik prvotních prvků. Ačkoli jde zatím o teoretický model a nikoli o prokázaný objev, nabízí zcela nový pohled na základní fungování kosmu.\n\nProč je to zajímavé: Výzkum ukazuje teoretickou možnost, jak vysvětlit klíčové astronomické jevy bez nutnosti spoléhat se na dosud neobjevenou temnou hmotu a temnou energii.",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261108233040.htm",
+    "source": "RSS",
+    "original_title": "A radical theory says the universe is twice as old as we thought",
+    "published": "2026-11-11T06:46:30+00:00",
+    "inserted_at": "2026-11-12T08:22:06.253887+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2611.14482v1",
     "title": "Singustáry: Nové teoretické objekty na pomezí černých děr a běžných hvězd",
     "summary": "Vědci v teoretické studii zkoumali vlastnosti takzvaných singustárů. Jde o teoretické objekty, v nichž je odpudivá nahá singularita se zápornou bodovou hmotností obklopena silnou obálkou ze samogravitující tekutiny. Pomocí Tolmanových–Oppenheimerových–Volkoffových rovnic, které popisují hydrostatickou rovnováhu těles v obecné relativitě, autoři ukázali, že singustáry tvoří rodinu modelů určených hmotností M a kompaktností C (definovanou jako poměr hmotnosti k poloměru M/R). Tyto objekty dokážou překročit takzvaný Buchdahlův limit, tedy teoretickou hranici maximální hustoty běžných hvězd.\n\nZ výpočtů rovnovážných stavů a numerických simulací pro polytropní stavovou rovnici se stupněm Γ = 2 vyplývá, že singustáry jsou stabilní jen při nízké hmotnosti (M ≲ 0,63) a kompaktnosti (C ≲ 0,25). Nestabilní konfigurace reagují na poruchy různě: buď se hroutí za vzniku černé díry s horizontem událostí, rozptýlí se do okolí, nebo přecházejí do stabilního stavu.\n\nProč je to zajímavé: Výzkum ukazuje, že hypotetická záporná hmotnost může stabilizovat obálku hmoty do konfigurací kompaktnějších než jakékoliv klasické hvězdy.",
@@ -5713,16 +5797,6 @@
     "source": "arXiv",
     "original_title": "Universal Structure of Horizon Formation in Generic Binary Black Hole Mergers",
     "published": "2026-09-10T17:12:52+00:00",
-    "inserted_at": "2026-09-11T17:39:40.179192+00:00"
-  },
-  {
-    "id": "2609.11750v1",
-    "title": "Sahala éra záření až k velkému třesku?",
-    "summary": "V Einsteinově gravitaci by záření táhnoucí se až k velkému třesku vyrobilo příliš mnoho reliktních gravitonů. Práce zkoumá tutéž otázku v kvadratické gravitaci, kde se raný vesmír chová jinak. Autoři ukazují, za jakých podmínek může éra záření sahat velmi daleko do minulosti, aniž by to rozbilo dnešní limity na gravitační pozadí, a co z toho plyne pro vznik temné hmoty. Výsledek odděluje naivní odhad od realistického průběhu v rozšířené teorii gravitace. Proč je to zajímavé: Propojuje výrobu temné hmoty s tím, jak daleko do minulosti smí sahat klasický časoprostor.",
-    "url": "http://arxiv.org/abs/2609.11750v1",
-    "source": "arXiv",
-    "original_title": "Might the radiation era extend back to the Big Bang? On dark matter production and the relic graviton background in quadratic gravity",
-    "published": "2026-09-10T16:06:11+00:00",
     "inserted_at": "2026-09-11T17:39:40.179192+00:00"
   }
 ]

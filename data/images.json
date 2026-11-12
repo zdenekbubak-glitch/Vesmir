@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-12",
+    "title": "Setkání Měsíce, Venuše a Spiky",
+    "caption": "Tento klidný snímek pořízený v Polsku zachycuje srpkovitý Měsíc nad Tatrami v těsné blízkosti jasné Venuše. Nalevo od Venuše září Spica ze souhvězdí Panny, jedna z nejjasnějších hvězd oblohy vzdálená přibližně 250 světelných let. Tato zdánlivá přiblížení nebeských těles se podle zákonů nebeské mechaniky nazývají konjunkce.",
+    "thumb": "assets/gallery/apod-2026-11-12.jpg",
+    "image": "assets/gallery/apod-2026-11-12.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
+    "published": "2026-11-12",
+    "credit": "Włodzimierz Bubak",
+    "creator": {
+      "@type": "Person",
+      "name": "Włodzimierz Bubak"
+    },
+    "copyrightNotice": "Włodzimierz Bubak",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
+    "original_title": "Moon, Venus and Spica Meet",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-12T08:24:25.616773+00:00"
+  },
+  {
     "id": "apod-2026-11-11",
     "title": "NGC 4449: Malá galaxie, velký dopad",
     "caption": "Na snímku z Hubbleova vesmírného dalekohledu je zachycena trpasličí galaxie NGC 4449, která dosahuje jen desetiny velikosti Mléčné dráhy. Ukazuje se, že zdejší hvězdné větry a supernovy překvapivě účinně vyfukují kyslík a další těžké prvky do okolního prostoru. Tyto malé galaxie tak mohou hrát klíčovou roli v šíření stavebních kamenů potřebných pro vznik nových hvězd a planet.",
