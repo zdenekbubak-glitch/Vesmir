@@ -1,0 +1,43 @@
+name: Stínový výběr článků
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 8 * * *'
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Ověřit termín zkoušky
+        id: trial
+        shell: bash
+        run: |
+          today=$(TZ=Europe/Prague date +%Y%m%d)
+          if [[ "$GITHUB_EVENT_NAME" == workflow_dispatch ]] || (( today >= 20261113 && today <= 20261126 )); then
+            echo 'active=true' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.trial.outputs.active == 'true'
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        if: steps.trial.outputs.active == 'true'
+        with:
+          python-version: '3.12'
+      - if: steps.trial.outputs.active == 'true'
+        run: python -m pip install -r requirements.txt
+      - name: Porovnat výběr
+        if: steps.trial.outputs.active == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/compare_article_selection.py
+      - uses: actions/upload-artifact@v4
+        if: steps.trial.outputs.active == 'true'
+        with:
+          name: selection-shadow
+          path: tmp/selection-shadow/
+          if-no-files-found: error
+          retention-days: 30
+
