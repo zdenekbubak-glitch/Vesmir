@@ -44,3 +44,15 @@ Místní sestavení prošlo pro 500 článků a 101 témat Kosmopedie. Prošlo v
 ## Fáze 1
 
 Místní sestavení obou verzí potvrdilo 61 změněných stránek HTML. Po sjednocení hranic odstavců a mezer bylo HTML shodné. Adresy článků i obsah sitemap.xml jsou shodné. Prošlo 51 existujících testů. Přidaná kontrola je samostatný příkaz a nezasahuje do překladu ani publikování. Odchylka od návrhu: kontroly zatím spouštíme v režimu hlášení. Nové překlady ani výběr nepřepisují. Slovníček obsahuje návrhy k posouzení. Náklady navíc: 0 tokenů, 0 Kč. Návrat: obnovit tools/build_static.py a odebrat kontrolní skript, slovníček a report. Dříve evidované případy dne bez vhodného článku a zachování adres při opravě anglické verze zůstávají podmínkami pozdějšího zapnutí.
+
+## Fáze 2 – stínový výběr
+
+Samostatné workflow **Stínový výběr článků** běží na main ručně a od 13. do 26. listopadu 2026 přibližně v 9:07 pražského času. GitHub může plánovaný běh zpozdit. V obou větvích porovnání se použije jedna verze historie a společný sběr RSS. ArXiv se dotazuje dvakrát, aby srovnávací větev zachovala skutečný limit 12 záznamů a původní zálohu RSS. Rozšířený dotaz má pojistku 100 záznamů a okno 60 hodin. Při výpadku arXiv API se zachová stávající postup opakování a využijí se dostupné RSS zdroje.
+
+Délka abstraktu, hustota matematických zápisů a vybrané odborné výrazy snižují skóre. Důležité odborné práce tak stále mohou postoupit. Za populární kandidáty považujeme položky se srozumitelností alespoň 4 a technickou náročností nejvýše 2, kromě čistě matematických prací. Výběr upřednostňuje dosažení cílových počtů srozumitelných a pozorovacích či populárních položek. Následuje počet vybraných článků a součet jejich skóre. Limity na téma a matematické práce platí vždy. Při neúplném nebo chybném bodování se použije dosavadní výběr.
+
+Každý běh uloží do artefaktu **selection-shadow** čitelný soubor comparison.md a úplný curation_log.json s kandidáty, skóre, rozdíly a údaji o spotřebě. Artefakty mají platnost 30 dní. Zápis do data/curation_log.json a produkční commit se řeší až při případném přepnutí. Karta má v této fázi pouze navrženého kandidáta. Kontrola českého textu před potvrzením karty patří do následného zapojení.
+
+Předpoklad 20–40 kandidátů znamená zhruba 8–20 tisíc vstupních a 2–5 tisíc výstupních tokenů za den. Při sazbě Gemini 3.6 Flash 0,75 USD za milion vstupních a 3,75 USD za milion výstupních tokenů vychází odhad přibližně na 0,014–0,034 USD za běh, tedy asi 0,19–0,47 USD za 14 běhů před daní. Skutečná spotřeba závisí na počtu a délce podkladů. Zdroj sazeb je https://aistudio.google.com/docs/pricing#gemini-3.6-flash.
+
+Místní simulace ověřila bodování, výpadek bodování, prázdný den a limity výběru. Živý výsledek ověří první běh v GitHub Actions. Zkoušku lze ukončit vypnutím samostatného workflow.

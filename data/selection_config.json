@@ -1,0 +1,33 @@
+{
+  "arxiv_search_limit": 100,
+  "min_abstract_words": 60,
+  "math_threshold": 8,
+  "technical_terms": [
+    "lattice",
+    "instanton",
+    "brane",
+    "nlo"
+  ],
+  "max_per_topic": 2,
+  "max_math": 1,
+  "min_easy": 3,
+  "min_broad": 2,
+  "weights": {
+    "accessibility": 4,
+    "wow": 3,
+    "technicality": -2,
+    "hype_risk": -1
+  },
+  "topics": [
+    "black holes",
+    "gravitational waves",
+    "dark matter and energy",
+    "inflation and early universe",
+    "Hubble tension",
+    "structure and galaxies",
+    "neutrinos and particles",
+    "quantum gravity and theory",
+    "observations and instruments",
+    "other"
+  ]
+}

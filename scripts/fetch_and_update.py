@@ -182,7 +182,7 @@ def english_fallback(item: dict, now: str) -> dict:
     }
 
 
-def fetch_arxiv(existing_ids: set) -> list:
+def fetch_arxiv(existing_ids: set, *, search_limit=12, item_limit=MAX_NEW_ITEMS) -> list:
     """Nejdřív API s retry při 429, při neúspěchu fallback na arXiv RSS."""
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
     new_items = []
@@ -194,7 +194,7 @@ def fetch_arxiv(existing_ids: set) -> list:
     )
     search = arxiv.Search(
         query=ARXIV_QUERY,
-        max_results=12,
+        max_results=search_limit,
         sort_by=arxiv.SortCriterion.SubmittedDate,
         sort_order=arxiv.SortOrder.Descending,
     )
@@ -202,16 +202,20 @@ def fetch_arxiv(existing_ids: set) -> list:
     delays = [5, 45, 90]
     api_ok = False
     for attempt, wait in enumerate(delays, start=1):
+        if item_limit is None:
+            new_items.clear()
         try:
             time.sleep(wait)
             for paper in client.results(search):
                 paper_id = paper.entry_id.split("/abs/")[-1]
-                if paper_id in existing_ids:
-                    continue
                 published = paper.published
                 if published.tzinfo is None:
                     published = published.replace(tzinfo=timezone.utc)
                 if published < cutoff:
+                    if item_limit is None:
+                        break
+                    continue
+                if paper_id in existing_ids:
                     continue
                 new_items.append({
                     "id": paper_id,
@@ -221,7 +225,7 @@ def fetch_arxiv(existing_ids: set) -> list:
                     "url": paper.entry_id,
                     "published": published.isoformat(),
                 })
-                if len(new_items) >= MAX_NEW_ITEMS:
+                if item_limit is not None and len(new_items) >= item_limit:
                     break
             api_ok = True
             print(f"arXiv API OK (pokus {attempt}), nalezeno kandidátů: {len(new_items)}")
@@ -286,12 +290,12 @@ def fetch_arxiv(existing_ids: set) -> list:
                     "url": f"https://arxiv.org/abs/{paper_id}",
                     "published": (published or datetime.now(timezone.utc)).isoformat(),
                 })
-                if len(new_items) >= MAX_NEW_ITEMS:
+                if item_limit is not None and len(new_items) >= item_limit:
                     break
         except Exception as e:
             print(f"arXiv RSS chyba {feed_url}: {e}")
 
-        if len(new_items) >= MAX_NEW_ITEMS:
+        if item_limit is not None and len(new_items) >= item_limit:
             break
 
     seen = set()
