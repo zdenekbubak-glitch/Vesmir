@@ -39,6 +39,23 @@ def signals(item, config):
     }
 
 
+class RatingError(ValueError):
+    """A diagnostic safe to publish in Actions and the report."""
+
+
+def rating_schema(topics):
+    properties = {field: {"type": "INTEGER", "minimum": 1, "maximum": 5}
+                  for field in FIELDS}
+    properties.update({
+        "id": {"type": "STRING"},
+        "evidence_type": {"type": "STRING", "enum": list(EVIDENCE)},
+        "topic_tag": {"type": "STRING", "enum": topics},
+        "reason": {"type": "STRING"},
+    })
+    return {"type": "ARRAY", "items": {"type": "OBJECT", "properties": properties,
+                                       "required": list(properties)}}
+
+
 def rate(items, config):
     payload = [
         {"id": str(i), "source": item["source"],
@@ -55,30 +72,44 @@ def rate(items, config):
         "Prioritize cosmology, dark matter and energy, black holes, gravitational waves "
         "and the early universe. Distinguish measured results from theory and simulations."
     )
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise RatingError("V prostředí chybí GEMINI_API_KEY.")
+    client = genai.Client(api_key=api_key)
     response = client.models.generate_content(
         model=GEMINI_MODEL,
         contents=instruction + "\n" + json.dumps(payload, ensure_ascii=False),
         config={"response_mime_type": "application/json", "temperature": 0.2,
+                "response_schema": rating_schema(config["topics"]),
                 "max_output_tokens": 16384, "thinking_config": {"thinking_level": "minimal"}},
     )
-    rows = json.loads(response.text)
+    try:
+        rows = json.loads(response.text or "")
+    except json.JSONDecodeError:
+        raise RatingError("Gemini nevrátilo platný JSON.") from None
+    if not isinstance(rows, list):
+        raise RatingError("Gemini nevrátilo seznam hodnocení.")
     expected_ids = {item["id"] for item in payload}
+    required = ("id", *FIELDS, "evidence_type", "topic_tag", "reason")
     scores = {}
-    for row in rows:
+    for index, row in enumerate(rows, start=1):
+        if not isinstance(row, dict):
+            raise RatingError(f"Hodnocení č. {index} nemá očekávanou strukturu.")
+        missing = [field for field in required if field not in row]
+        if missing:
+            raise RatingError(f"V hodnocení č. {index} chybí pole {', '.join(missing)}.")
         key = row["id"]
-        if key in scores or key not in expected_ids:
-            raise ValueError("Neplatné nebo duplicitní ID")
+        if not isinstance(key, str) or key not in expected_ids or key in scores:
+            raise RatingError(f"Hodnocení č. {index} má neplatné nebo duplicitní ID.")
         if any(type(row[field]) is not int or not 1 <= row[field] <= 5 for field in FIELDS):
-            raise ValueError("Skóre mimo rozsah")
+            raise RatingError(f"Hodnocení č. {index} obsahuje skóre mimo rozsah 1 až 5.")
         if row["evidence_type"] not in EVIDENCE or row["topic_tag"] not in config["topics"]:
-            raise ValueError("Neznámá kategorie")
+            raise RatingError(f"Hodnocení č. {index} má neznámou kategorii.")
         if not isinstance(row["reason"], str) or not row["reason"].strip():
-            raise ValueError("Chybí zdůvodnění")
-        scores[key] = {field: row[field] for field in
-                       (*FIELDS, "evidence_type", "topic_tag", "reason")}
+            raise RatingError(f"V hodnocení č. {index} chybí zdůvodnění.")
+        scores[key] = {field: row[field] for field in required if field != "id"}
     if len(scores) != len(items):
-        raise ValueError("Chybí bodování části kandidátů")
+        raise RatingError(f"Gemini ohodnotilo {len(scores)} z {len(items)} kandidátů.")
     usage = response.usage_metadata
     return [scores[str(i)] for i in range(len(items))], (
         usage.model_dump(mode="json", exclude_none=True) if usage else {}
@@ -141,12 +172,14 @@ def main():
     by_id = {row["id"]: row for row in rows}
     baseline = [by_id[item["id"]] for item in baseline]
     proposed, usage, status = baseline, {}, "empty"
+    rating_error = None
     if rows:
         try:
             ratings, usage = rate(rows, config)
         except Exception as error:
             status = "fallback"
-            print(f"Bodování nedostupné: {type(error).__name__}")
+            rating_error = str(error) if isinstance(error, RatingError) else type(error).__name__
+            print(f"Bodování nedostupné: {rating_error}")
         else:
             for row, rating in zip(rows, ratings):
                 row["rating"] = rating
@@ -164,7 +197,7 @@ def main():
     new_ids = [row["id"] for row in proposed]
     report = {
         "time_utc": datetime.now(timezone.utc).isoformat(), "model": GEMINI_MODEL,
-        "status": status, "usage": usage, "wide_arxiv": len(wide_arxiv),
+        "status": status, "rating_error": rating_error, "usage": usage, "wide_arxiv": len(wide_arxiv),
         "arxiv_search_limit": config["arxiv_search_limit"],
         "baseline": old_ids, "proposed": new_ids, "candidates": rows,
         "only_baseline": [key for key in old_ids if key not in new_ids],
@@ -181,6 +214,8 @@ def main():
         f"Kandidátů celkem: {len(rows)}.", "",
         f"Návrh pro kartu před kontrolou textu: {lead['original_title'] if lead else 'žádný'}.",
     ]
+    if rating_error:
+        lines.extend(["", f"Důvod použití zálohy: {rating_error}"])
     for heading, selection in (("Dosavadní výběr", baseline), ("Nový výběr", proposed)):
         lines.extend(["", f"## {heading}", ""])
         for row in selection:
@@ -192,4 +227,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
