@@ -68,8 +68,9 @@ def load_history() -> list:
 
 
 def save_history(items: list):
-    DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
-    with open(DATA_FILE, "w", encoding="utf-8") as f:
+    output = Path("tmp/content-dryrun/news.json") if os.environ.get("DRY_RUN") == "1" else DATA_FILE
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with output.open("w", encoding="utf-8") as f:
         json.dump(items, f, ensure_ascii=False, indent=2)
 
 
