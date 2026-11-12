@@ -1,0 +1,32 @@
+name: Zkušební výběr a překlad článků
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Výchozí měření
+        run: python tools/quality_report.py --output tmp/content-dryrun/baseline.md
+      - name: Zkušební sběr a překlad
+        env:
+          DRY_RUN: '1'
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/fetch_and_update.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: content-dryrun
+          path: tmp/content-dryrun/
+          retention-days: 7
