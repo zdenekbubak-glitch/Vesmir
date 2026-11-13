@@ -17,7 +17,7 @@
       "tmavou hmotu"
     ],
     "note": "Co je temná hmota?",
-    "status": "proposed"
+    "status": "approved"
   },
   {
     "term": "dark energy",
@@ -27,7 +27,20 @@
       "tmavé energie"
     ],
     "note": "Co je temná energie a jak se liší od temné hmoty?",
-    "status": "proposed"
+    "status": "approved"
+  },
+  {
+    "term": "dark sector",
+    "preferred": "temný sektor",
+    "variants": [
+      "tmavý sektor",
+      "tmavého sektoru",
+      "tmavému sektoru",
+      "tmavém sektoru",
+      "tmavým sektorem"
+    ],
+    "note": "Schválené označení v kosmologii a částicové fyzice.",
+    "status": "approved"
   },
   {
     "term": "cosmic microwave background",
