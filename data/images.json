@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-13",
+    "title": "NGC 206 a hvězdná mračna v galaxii Andromeda",
+    "caption": "Velká hvězdná asociace katalogizovaná jako NGC 206 se nachází v prašných ramenech sousední spirální galaxie v Andromedě (M31). Jasné modré hvězdy ukazují na její mládí, přičemž ty nejmladší hmotné hvězdy jsou staré méně než 10 milionů let. S průměrem kolem 4000 světelných roků je NGC 206 mnohem větší než otevřené hvězdokupy v Mléčné dráze a srovnatelná s obřími hvězdnými porodnicemi v jiných galaxiích.",
+    "thumb": "assets/gallery/apod-2026-11-13.jpg",
+    "image": "assets/gallery/apod-2026-11-13.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
+    "published": "2026-11-13",
+    "credit": "David Cruz",
+    "creator": {
+      "@type": "Person",
+      "name": "David Cruz"
+    },
+    "copyrightNotice": "David Cruz",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
+    "original_title": "NGC 206 and the Star Clouds of Andromeda",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-13T08:24:14.050153+00:00"
+  },
+  {
     "id": "apod-2026-11-12",
     "title": "Setkání Měsíce, Venuše a Spiky",
     "caption": "Tento klidný snímek pořízený v Polsku zachycuje srpkovitý Měsíc nad Tatrami v těsné blízkosti jasné Venuše. Nalevo od Venuše září Spica ze souhvězdí Panny, jedna z nejjasnějších hvězd oblohy vzdálená přibližně 250 světelných let. Tato zdánlivá přiblížení nebeských těles se podle zákonů nebeské mechaniky nazývají konjunkce.",
