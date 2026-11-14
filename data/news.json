@@ -5824,5 +5824,15 @@
     "original_title": "Fermion quantum field theory on curved and non-inertial backgrounds in standard-Minkowski form",
     "published": "2026-09-10T15:53:12+00:00",
     "inserted_at": "2026-09-11T17:42:53.460053+00:00"
+  },
+  {
+    "id": "2609.11692v1",
+    "title": "Lov na neviditelné: Hluboké učení odhaluje temnou hmotu",
+    "summary": "Při hledání temné hmoty na urychlovačích částic mohou vznikat takzvané poloviditelné výtrysky. Ty obsahují jak běžné viditelné částice, tak neviditelné temné hadrony, které se projevují jako chybějící energie. Odlišit tyto vzácné procesy od běžného pozadí Standardního modelu představuje značnou výzvu. Nová studie využívá pokročilé modely hlubokého učení k analýze dat z Velkého hadronového urychlovače. Vědci zkombinovali celkovou kinematiku srážek s detailní vnitřní strukturou částicových výtrysků. Nejlepších výsledků dosáhly multimodální neuronové sítě, které propojují více typů datových reprezentací. Proč je to zajímavé: Výzkum ukazuje, že detailní rozbor vnitřní struktury výtrysků pomocí umělé inteligence může výrazně zvýšit šance na objevení dosud neviditelných částic temné hmoty.",
+    "url": "http://arxiv.org/abs/2609.11692v1",
+    "source": "arXiv",
+    "original_title": "Hunting the Unseen: Deep Learning Analysis for Semi-Visible Jet Tagging",
+    "published": "2026-09-10T15:17:24+00:00",
+    "inserted_at": "2026-09-11T17:42:53.460053+00:00"
   }
 ]
