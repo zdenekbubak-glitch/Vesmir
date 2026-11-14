@@ -1742,7 +1742,7 @@
     "id": "exp-040",
     "title": "Co je kvantová mechanika?",
     "theme": "kvantovy-svet",
-    "description": "Jak funguje svět atomů a světla? Kvantová mechanika vysvětluje energetické hladiny, interferenci i to, proč měření předpovídá pomocí pravděpodobností.",
+    "description": "Jak se chovají atomy a světlo? Kvantová mechanika vysvětluje energetické hladiny a interferenci a umožňuje předpovídat pravděpodobnosti výsledků měření.",
     "published": "2026-10-25",
     "updated": "2026-10-25",
     "perex": "Elektron není malá planeta a světlo není jen obyčejná vlna. Kvantová mechanika popisuje jejich chování, které se vymyká naší běžné zkušenosti a intuici. Bez ní bychom ale nerozuměli atomům ani světlu hvězd.",
@@ -1766,11 +1766,11 @@
       },
       {
         "heading": "Proč to patří na web o vesmíru",
-        "body": "Z kvantové fyziky vychází porozumění spektrům hvězd, vlastnostem hmoty i reakcím v jejich nitrech. Pro částice při vysokých energiích používáme její relativistické rozšíření, teorii kvantového pole; na té stojí [standardní model částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html).\n\nV inflačních modelech raného vesmíru mohou kvantové fluktuace polí vytvořit zárodky pozdějších rozdílů hustoty. To je modelové vysvětlení vzniku struktur, nikoli přímý snímek prvotních kvantových dějů. Samotná úspěšnost kvantové mechaniky také neznamená, že už máme hotovou a experimentálně potvrzenou teorii kvantové gravitace."
+        "body": "Z kvantové fyziky vychází porozumění spektrům hvězd, vlastnostem hmoty i reakcím v jejich nitrech. Kvantová teorie pole spojuje kvantová pravidla se speciální relativitou a umožňuje popsat i vznik a zánik částic. Stojí na ní [standardní model částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html). Kvantová elektrodynamika, která do tohoto rámce patří, umožňuje počítat také drobné posuny energetických hladin v atomech.\n\nV inflačních modelech raného vesmíru mohou kvantové fluktuace polí vytvořit zárodky pozdějších rozdílů hustoty. To je modelové vysvětlení vzniku struktur, nikoli přímý snímek prvotních kvantových dějů. Samotná úspěšnost kvantové mechaniky také neznamená, že už máme hotovou a experimentálně potvrzenou teorii kvantové gravitace."
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [NIST: pět základních kvantových pojmů](https://www.nist.gov/blogs/taking-measure/5-concepts-can-help-you-understand-quantum-mechanics-and-technology-without)\n- [Caltech: kvantové chování a dvojštěrbina](https://www.feynmanlectures.caltech.edu/III_01.html)\n- [MIT: úvod do superpozice](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec01/)\n- [NASA: historie vesmíru a inflace](https://science.nasa.gov/universe/overview/)\n- [A. Guth: kvantové fluktuace v kosmologii](https://arxiv.org/abs/1312.7340)"
+        "body": "- [NIST: pět základních kvantových pojmů](https://www.nist.gov/blogs/taking-measure/5-concepts-can-help-you-understand-quantum-mechanics-and-technology-without)\n- [Caltech: kvantové chování a dvojštěrbina](https://www.feynmanlectures.caltech.edu/III_01.html)\n- [MIT: úvod do superpozice](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec01/)\n- [NASA: historie vesmíru a inflace](https://science.nasa.gov/universe/overview/)\n- [A. Guth: kvantové fluktuace v kosmologii](https://arxiv.org/abs/1312.7340)\n- [David Tong: přednášky o kvantové teorii pole](https://davidtong.org/teaching/quantum-field-theory/)"
       }
     ],
     "why_box": "Kvantová mechanika spojuje chování částic s měřitelnými výsledky: vysvětluje například, proč atomy pohlcují jen určité barvy světla a proč se při mnoha jednotlivých zásazích může objevit interferenční obrazec.",
@@ -1801,7 +1801,7 @@
       },
       {
         "heading": "Proč nestačí samotná procenta",
-        "body": "Dvě různě připravené soustavy mohou mít stejné pravděpodobnosti pro měření polohy, a přesto se později vyvíjet jinak. Vlnová funkce totiž obsahuje také informaci o **fázi**. Lze si ji přibližně představit jako sladění dvou vln: setkají se jejich vrcholy, nebo vrchol jedné s prohlubní druhé?\n\nPři skládání možností se nejprve kombinují amplitudy. Teprve potom se počítají pravděpodobnosti. Díky tomu se příspěvky mohou zesílit i vyrušit. Příklady tohoto rozdílu najdete v hesle [Co je superpozice a co se děje při měření?](https://kosmonovinky.cz/kosmopedie/co-je-superpozice-a-co-se-deje-pri-mereni.html). Analogie s vlnami na vodě pomáhá se skládáním, ale neznamená, že elektron je vodní vlna."
+        "body": "Dvě vlnové funkce mohou dávat stejné rozdělení pravděpodobnosti polohy, a přesto předpovídat odlišný vývoj. Při interferenci záleží na rozdílu fází jednotlivých příspěvků. Podobně u dvou vln záleží na tom, zda se setkají dva vrcholy, nebo vrchol jedné vlny s prohlubní druhé.\n\nPři skládání možností se nejprve kombinují amplitudy. Teprve potom se počítají pravděpodobnosti. Díky tomu se příspěvky mohou zesílit i vyrušit. Příklady tohoto rozdílu najdete v hesle [Co je superpozice a co se děje při měření?](https://kosmonovinky.cz/kosmopedie/co-je-superpozice-a-co-se-deje-pri-mereni.html). Analogie s vlnami na vodě pomáhá se skládáním, ale neznamená, že elektron je vodní vlna."
       },
       {
         "heading": "Elektronový obal není oběžná dráha",
@@ -1817,7 +1817,7 @@
         "body": "- [MIT: vlnová funkce](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec03/)\n- [Caltech: amplitudy pravděpodobnosti](https://www.feynmanlectures.caltech.edu/III_03.html)\n- [Caltech: vztah vlnového a částicového pohledu](https://www.feynmanlectures.caltech.edu/III_02.html)\n- [IBM: proč potřebujeme také matice hustoty](https://quantum.cloud.ibm.com/learning/en/courses/general-formulation-of-quantum-information/density-matrices/introduction)"
       }
     ],
-    "why_box": "Pravděpodobnost říká, jak často se určitý výsledek objeví v mnoha stejně připravených pokusech. Vlnová funkce navíc uchovává fázi, bez níž bychom nedokázali vysvětlit interferenci.",
+    "why_box": "Z vlnové funkce vypočítáme pravděpodobnosti výsledků měření. Při interferenci záleží také na vzájemné fázi jednotlivých příspěvků, která určuje, kde se zesílí a kde zeslabí.",
     "related_explainery": [
       "co-je-kvantova-mechanika",
       "co-je-superpozice-a-co-se-deje-pri-mereni",
@@ -1852,12 +1852,12 @@
         "body": "Tentýž stav může být superpozicí vzhledem k jednomu měření, zatímco jiné vhodně zvolené měření má jistý výsledek. U qubitu záleží na tom, zda rozlišujeme původní stavy 0 a 1, nebo jejich jiné kombinace. Proto má smysl ptát se: **superpozice kterých stavů a vzhledem k jakému měření?**\n\nVe standardním výpočtu po ideálním měření přiřadíme soustavě stav odpovídající zaznamenanému výsledku. Tomuto kroku se často říká kolaps. Jak přesně chápat vznik jediného výsledku v celkovém popisu světa, řeší různé interpretace kvantové mechaniky."
       },
       {
-        "heading": "Proč takto běžně nevidíme stůl",
-        "body": "Velké předměty neustále interagují se vzduchem, světlem a okolím. Informace o jejich různých možných stavech se rozptyluje do prostředí a interference mezi těmito možnostmi se pro místní pozorování rychle potlačuje. Tento proces nazýváme **dekoherence**.\n\nDekoherence vysvětluje, proč se obtížně pozoruje interference velkých předmětů. Sama však bez další interpretace neodpovídá na všechny otázky o jediném výsledku měření. Kvantové počítače proto potřebují pečlivě omezovat nežádoucí interakce a chyby; superpozice sama o sobě nezaručuje rychlé řešení každé úlohy."
+        "heading": "Proč u běžných předmětů těžko pozorujeme interferenci",
+        "body": "Velké předměty neustále interagují se vzduchem, světlem a okolím. Informace o jejich různých možných stavech se rozptyluje do prostředí a interference mezi těmito možnostmi se pro místní pozorování rychle potlačuje. Tento proces nazýváme **dekoherence**.\n\nDekoherence pomáhá vysvětlit, proč se u velkých předmětů obtížně pozoruje interference. Otázku, jak při měření vzniká jediný výsledek, řeší různé interpretace kvantové mechaniky. U kvantových počítačů má dekoherence praktický důsledek. Nežádoucí působení okolí může narušit interferenci, kterou výpočet potřebuje."
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [IBM: superpozice a význam fáze](https://quantum.cloud.ibm.com/learning/en/modules/quantum-mechanics/superposition-with-qiskit)\n- [IBM: měření v různých bázích](https://quantum.cloud.ibm.com/learning/en/courses/use-a-qc-today/quantum-mechanics-basics)\n- [Caltech: interference a rozlišitelné výsledky](https://www.feynmanlectures.caltech.edu/III_03.html)\n- [IBM: kvantový šum a dekoherence](https://quantum.cloud.ibm.com/learning/en/courses/tools-for-quantum-advantage/noise-and-errors)\n- [MIT: úvod do superpozice](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec01/)"
+        "body": "- [IBM: superpozice a význam fáze](https://quantum.cloud.ibm.com/learning/en/modules/quantum-mechanics/superposition-with-qiskit)\n- [IBM: měření v různých bázích](https://quantum.cloud.ibm.com/learning/en/courses/use-a-qc-today/quantum-mechanics-basics)\n- [Caltech: interference a rozlišitelné výsledky](https://www.feynmanlectures.caltech.edu/III_03.html)\n- [IBM: kvantový šum a dekoherence](https://quantum.cloud.ibm.com/learning/en/courses/tools-for-quantum-advantage/noise-and-errors)\n- [MIT: úvod do superpozice](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec01/)\n- [MFF UK: interpretace kvantové mechaniky](https://utf.mff.cuni.cz/vyuka/NTMF036/)"
       }
     ],
     "why_box": "Superpozici nepoznáme jen podle náhodného výsledku. Její podstatnou vlastností je možnost interference, pokud se zachová vzájemná fáze a nevznikne rozlišitelný záznam o jednotlivých možnostech.",
@@ -1875,15 +1875,15 @@
     "description": "Poloha a hybnost nemohou mít současně libovolně úzká rozdělení. Princip neurčitosti vysvětlený pomocí vlnového balíku i číselného příkladu.",
     "published": "2026-10-25",
     "updated": "2026-10-25",
-    "perex": "Heisenbergův princip neurčitosti není jen povzdech nad nepřesným přístrojem. Popisuje omezení samotných kvantových stavů: čím těsněji vymezíme polohu částice, tím větší musí být alespoň určitý rozptyl její hybnosti.",
+    "perex": "Heisenbergův princip neurčitosti není jen povzdech nad nepřesným přístrojem. Popisuje omezení samotných kvantových stavů: čím těsněji vymezíme polohu částice, tím větší musí být alespoň určitý směrodatná odchylka její hybnosti.",
     "sections": [
       {
         "heading": "Dvě veličiny, které nejdou libovolně zostřit",
-        "body": "Poloha říká, kde částici zachytíme. **Hybnost** vyjadřuje její pohyb; při rychlostech výrazně menších než rychlost světla je součinem hmotnosti a rychlosti. U polohy a hybnosti ve stejném směru nelze připravit kvantový stav, v němž by obě veličiny měly libovolně úzká rozdělení.\n\nNejde pouze o poškození částice při pozorování. Vztah platí pro statistiku výsledků i u ideálních měření stejně připravených soustav. Na jedné skupině mnoha stejně připravených elektronů změříme polohu, na jiné hybnost a porovnáme rozptyly výsledků."
+        "body": "Poloha říká, kde částici zachytíme. **Hybnost** vyjadřuje její pohyb; při rychlostech výrazně menších než rychlost světla je součinem hmotnosti a rychlosti. U polohy a hybnosti ve stejném směru nelze připravit kvantový stav, v němž by obě veličiny měly libovolně úzká rozdělení.\n\nNejde pouze o poškození částice při pozorování. Vztah platí pro statistiku výsledků i u ideálních měření stejně připravených soustav. Na jedné skupině stejně připravených elektronů změříme polohu a na druhé hybnost ve stejném směru. Z obou skupin výsledků určíme směrodatné odchylky."
       },
       {
         "heading": "Analogie: dlouhý tón a krátké klepnutí",
-        "body": "Dlouhý čistý tón má dobře vymezenou frekvenci, ale není přesně lokalizovaný v čase. Krátké klepnutí je časově ostré, zato obsahuje širší směs frekvencí. Jde o analogii skládání vln, ne o úplný popis elektronu.\n\nPodobně vzniká prostorově úzký kvantový vlnový balík skládáním širšího rozsahu vlnových délek. Ty u částice souvisejí s hybností. Když tedy sestavíme stav s úzkým rozložením polohy, rozložením hybnosti nemůžeme libovolně šetřit. Na tento vlnový pohled navazuje heslo o [vlnové funkci](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).",
+        "body": "Dlouhý čistý tón má dobře vymezenou frekvenci, ale není přesně lokalizovaný v čase. Krátké klepnutí je časově ostré, zato obsahuje širší směs frekvencí. Jde o analogii skládání vln, ne o úplný popis elektronu.\n\nÚzký vlnový balík vzniká složením vln s různými vlnovými čísly. Vlnové číslo určuje, jak rychle se fáze vlny mění v prostoru, a u částice odpovídá hybnosti v daném směru. Čím užší je rozdělení polohy, tím vyšší je dolní mez šířky rozdělení hybnosti. Na tento vlnový pohled navazuje heslo o [vlnové funkci](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).",
         "image_id": "schema-ton-a-klep"
       },
       {
@@ -1892,7 +1892,7 @@
       },
       {
         "heading": "Příklad: elektron a míček",
-        "body": "Uvažujme elektron s **Δx = 0,1 nanometru**, což je měřítko atomu. Ze vztahu vyjde nejmenší možná Δpₓ přibližně **5,27 × 10⁻²⁵ kg·m/s**. Při použití hmotnosti elektronu to odpovídá směrodatné odchylce složky rychlosti alespoň **580 000 m/s**. Není to vypočtená oběžná rychlost elektronu, ale dolní mez rozptylu výsledků pro takto lokalizovaný stav.\n\nPro srovnání vezměme předmět o hmotnosti **0,1 kg** se stejnou šířkou rozdělení polohy. Odpovídající dolní mez rozptylu rychlosti je jen asi **5,3 × 10⁻²⁴ m/s**. Běžné vlivy prostředí jsou nesrovnatelně větší. To pomáhá pochopit, proč u míčku obvykle kvantovou neurčitost neřešíme."
+        "body": "Uvažujme elektron s **Δx = 0,1 nanometru**, což je měřítko atomu. Ze vztahu vyjde nejmenší možná Δpₓ přibližně **5,27 × 10⁻²⁵ kg·m/s**. V nerelativistickém přiblížení to odpovídá dolní mezi přibližně **580 000 m/s** pro směrodatnou odchylku složky rychlosti v témže směru.\n\nU míčku o hmotnosti **0,1 kg** se stejnou směrodatnou odchylkou polohy vychází dolní mez pro směrodatnou odchylku složky rychlosti přibližně **5,3 × 10⁻²⁴ m/s**. Běžné vlivy prostředí jsou nesrovnatelně větší. To pomáhá pochopit, proč u míčku obvykle kvantovou neurčitost neřešíme."
       },
       {
         "heading": "Co si z principu nevyvozovat",
@@ -1900,7 +1900,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [MIT: střední hodnoty, hybnost a neurčitost](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec04/)\n- [Caltech: vlnové balíky a princip neurčitosti](https://www.feynmanlectures.caltech.edu/III_02.html)\n- [P. Busch, T. Heinonen, P. Lahti: podoby principu neurčitosti](https://arxiv.org/abs/quant-ph/0609185)\n- [NIST: základní pojmy kvantové mechaniky](https://www.nist.gov/blogs/taking-measure/5-concepts-can-help-you-understand-quantum-mechanics-and-technology-without)"
+        "body": "- [MIT: střední hodnoty, hybnost a neurčitost](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec04/)\n- [Caltech: vlnové balíky a princip neurčitosti](https://www.feynmanlectures.caltech.edu/III_02.html)\n- [P. Busch, T. Heinonen, P. Lahti: podoby principu neurčitosti](https://arxiv.org/abs/quant-ph/0609185)\n- [NIST: základní pojmy kvantové mechaniky](https://www.nist.gov/blogs/taking-measure/5-concepts-can-help-you-understand-quantum-mechanics-and-technology-without)\n- [MIT: Fourierova analýza a vztah neurčitosti](https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/7a86f546565e2180f8f00e86c2ed9982_MIT8_03SCF16_Text_Ch10.pdf)\n- [MFF UK: rozptyl a směrodatná odchylka](https://www.karlin.mff.cuni.cz/~zichova/PRFUK/MatStat/03_nahodna_vel_tisk.pdf)"
       }
     ],
     "why_box": "Neurčitost polohy a hybnosti není jen vada přístroje. Jde o mez šířek rozdělení výsledků v daném stavu. U elektronu se výrazně projeví, u běžného míčku je její dolní mez zanedbatelná.",
@@ -1921,15 +1921,15 @@
     "sections": [
       {
         "heading": "Jedna dvojice, společný kvantový stav",
-        "body": "Představme si dva fotony, tedy částice světla, které vznikly ve vhodně připraveném společném procesu. Jeden pošleme k prvnímu pozorovateli, druhý k druhému. **Provázání znamená, že pro popis jejich vzájemného vztahu potřebujeme společný kvantový stav.**\n\nU zvolené dvojice nastavíme oba měřicí přístroje stejně. Každý přístroj může ukázat výsledek 0 nebo 1. Na každé straně je výsledek náhodný, ale při porovnání odpovídajících dvojic se v ideálním pokusu výsledky vždy shodují: buď oba naměří 0, nebo oba 1. Tomu odpovídá obrázek nahoře.\n\nJakmile tedy známe výsledek na jedné straně, můžeme určit i výsledek odpovídajícího měření na druhé. Podstatné je, že tuto vazbu kvantová teorie zachovává i při obrovském oddálení částic."
+        "body": "Představme si dva fotony, tedy částice světla, které vznikly ve vhodně připraveném společném procesu. Jeden pošleme k prvnímu pozorovateli, druhý k druhému.\n\nU zvolené dvojice nastavíme oba měřicí přístroje stejně. Každý přístroj může ukázat výsledek 0 nebo 1. Na každé straně je výsledek náhodný, ale při porovnání odpovídajících dvojic se v ideálním pokusu výsledky vždy shodují: buď oba naměří 0, nebo oba 1. Tomu odpovídá obrázek nahoře.\n\nPředstavme si zdroj, který si u každé dvojice náhodně vybere jednu ze dvou příprav. V polovině případů připraví oba fotony tak, aby při zvoleném nastavení přístrojů daly výsledek 0. Ve druhé polovině je připraví tak, aby oba daly výsledek 1. Každý pozorovatel pak vidí náhodnou řadu nul a jedniček. Když si ale pozorovatelé porovnají záznamy, výsledky u každé dvojice se shodují. Shodu zajistila společná volba při přípravě.\n\nO provázání mluvíme tehdy, když tímto způsobem nedokážeme popsat celý stav dvojice. Můžeme uvažovat libovolný počet různých příprav a libovolné pravděpodobnosti jejich výběru. Pokud má v každé z těchto příprav každý foton svůj vlastní kvantový stav, žádná taková směs nedá stejné předpovědi pro všechna nastavení měřicích přístrojů jako provázaný stav."
       },
       {
         "heading": "Co když je od sebe dělí milion světelných let?",
-        "body": "Myšlenkově nyní odsuňme oba pozorovatele tak daleko, že by mezi nimi světlo letělo **milion let**. Pokud by se podařilo provázanou dvojici dopravit a její provázání uchovat, kvantová teorie předpovídá stejnou souvislost výsledků jako v laboratoři. **Vzdálenost sama o sobě nemá stanovenou horní mez, za kterou by provázání přestalo platit.**\n\nZ výsledku prvního měření můžeme ihned vyvodit výsledek odpovídajícího měření druhé částice. Souvislost má platit i tehdy, když by mezi oběma měřeními světelný signál vůbec nestihl přeběhnout. Právě to je na provázání tak překvapivé.\n\nMilion světelných let je zde myšlenkový příklad. V reálném pokusu je obtížné částice dopravit, zachytit a chránit jejich stav před rušivými interakcemi s okolím."
+        "body": "Myšlenkově nyní odsuňme oba pozorovatele tak daleko, že by mezi nimi světlo letělo **milion let**. Pokud by se podařilo provázanou dvojici dopravit a její provázání uchovat, kvantová teorie předpovídá stejnou souvislost výsledků jako v laboratoři. **Vzdálenost sama o sobě nemá stanovenou horní mez, za kterou by provázání přestalo platit.**\n\nV popsaném ideálním pokusu se při stejném nastavení výsledky obou měření shodují. Kvantová teorie tuto shodu předpovídá i tehdy, když mezi měřeními nemůže projít světelný signál. Každý pozorovatel však ve vlastních záznamech vidí náhodné výsledky. Jejich rozdělení se nemění podle toho, jak druhý pozorovatel nastaví svůj přístroj.\n\nMilion světelných let je zde myšlenkový příklad. V reálném pokusu je obtížné částice dopravit, zachytit a chránit jejich stav před rušivými interakcemi s okolím."
       },
       {
         "heading": "Co ukázaly skutečné experimenty",
-        "body": "Samotnou shodu dvou výsledků lze zařídit i předem. Fyzici proto zkoumají mnoho dvojic a střídají různá nastavení přístrojů. Při nezávislé volbě nastavení odhalují takzvané **Bellovy testy** překvapivý výsledek: naměřené souvislosti jsou silnější, než dovoluje vysvětlení pomocí společné předchozí přípravy a odpovědí závisejících jen na místním nastavení přístroje. Právě tím provázání přesahuje obyčejnou dohodu před odesláním částic.\n\nProvázání se podařilo ověřit i na velkou vzdálenost. V roce **2017** vědci pomocí družice Micius rozeslali provázané fotony ke dvěma pozemním stanicím vzdáleným **1 203 km** od sebe. Měření potvrdila, že provázání fotonů zůstalo zachováno i mezi takto vzdálenými stanicemi."
+        "body": "Při **Bellově testu** vědci mění nastavení obou přístrojů a porovnávají, jak spolu výsledky souvisejí při různých kombinacích nastavení. Pokud jsou volby nastavení nezávislé na přípravě dvojice a výsledek na každé straně závisí jen na místním nastavení a společné přípravě, musí takto vyhodnocené souvislosti splňovat Bellovu nerovnost. Experimenty ukázaly její porušení.\n\nV roce 2017 je vědci naměřili také u fotonů, které družice Micius vyslala ke dvěma pozemním stanicím vzdáleným 1 203 kilometrů od sebe."
       },
       {
         "heading": "Souvislost výsledků a odeslání zprávy",
@@ -1938,10 +1938,10 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [NIST: provázání na velkou vzdálenost a možnosti komunikace](https://www.nist.gov/blogs/taking-measure/quantum-leap-forward-how-tiny-particles-can-bring-us-exciting-new-tech)\n- [IBM: společné kvantové stavy a provázané dvojice](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/multiple-systems/quantum-information)\n- [NIST: experimentální Bellův test s fotony](https://www.nist.gov/publications/bell-violation-using-entangled-photons-without-fair-sampling-assumption)\n- [Yin a kol., Science 2017: provázání fotonů mezi stanicemi vzdálenými 1 203 km](https://arxiv.org/abs/1707.01339)"
+        "body": "- [NIST: provázání na velkou vzdálenost a možnosti komunikace](https://www.nist.gov/blogs/taking-measure/quantum-leap-forward-how-tiny-particles-can-bring-us-exciting-new-tech)\n- [IBM: společné kvantové stavy a provázané dvojice](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/multiple-systems/quantum-information)\n- [NIST: experimentální Bellův test s fotony](https://www.nist.gov/publications/bell-violation-using-entangled-photons-without-fair-sampling-assumption)\n- [Yin a kol., Science 2017: provázání fotonů mezi stanicemi vzdálenými 1 203 km](https://arxiv.org/abs/1707.01339)\n- [IBM: co lze dělat s kvantovým provázáním](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/introduction)\n- [M. Dušek a P. Cejnar: Bellovy nerovnosti a jejich experimentální testy](https://www-ucjf.troja.mff.cuni.cz/cejnar/publikace/Hlavol5.pdf)"
       }
     ],
-    "why_box": "Dvě částice mohou tvořit společný kvantový stav i na obrovskou vzdálenost. Souvislost jejich měření podle teorie nečeká na přelet světelného signálu; ověřit ji porovnáním záznamů však vyžaduje běžnou komunikaci.",
+    "why_box": "Provázání se projeví při porovnání výsledků obou pozorovatelů. K předání záznamů potřebují běžnou komunikaci.",
     "related_explainery": [
       "co-je-kvantova-mechanika",
       "co-je-superpozice-a-co-se-deje-pri-mereni",
@@ -1960,7 +1960,7 @@
     "sections": [
       {
         "heading": "Základ současného popisu mikrosvěta",
-        "body": "Z čeho se skládá hmota a jak na sebe její nejmenší složky působí? **Kvantová teorie pole** nabízí společný jazyk pro hledání odpovědí. Vychází z polí, která popisujeme v prostoru a čase.\n\n**Elementární částice je kvantovou excitací neboli vzbuzením příslušného pole.** Pole se nachází ve stavu s vyšší energií než ve vakuu a takové vzbuzení se při měření projevuje jako částice. Foton je například kvantem elektromagnetického pole, elektron excitací elektronového pole. Podrobněji tento vztah vysvětluje [téma o částicích a polích](https://kosmonovinky.cz/kosmopedie/jak-souviseji-castice-a-kvantova-pole.html).\n\nNa tomto základě stojí [standardní model částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html), náš současný popis známých elementárních částic a elektromagnetického, slabého a silného působení. Označení **QFT** je zkratkou anglického quantum field theory."
+        "body": "Z čeho se skládá hmota a jak na sebe její nejmenší složky působí? **Kvantová teorie pole** nabízí společný jazyk pro hledání odpovědí. Vychází z polí, která popisujeme v prostoru a čase.\n\nElementární částice popisujeme pomocí kvantových polí. Například foton odpovídá jednomu kvantu elektromagnetického pole a elektron je jedním z možných vzbuzení elektronového pole. Podrobněji tento vztah vysvětluje [téma o částicích a polích](https://kosmonovinky.cz/kosmopedie/jak-souviseji-castice-a-kvantova-pole.html).\n\nNa tomto základě stojí [standardní model částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html), náš současný popis známých elementárních částic a elektromagnetického, slabého a silného působení. Označení **QFT** je zkratkou anglického quantum field theory."
       },
       {
         "heading": "Tři stavební kameny",
@@ -1985,7 +1985,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [MFF UK, přednášky 2025: kvantová pole a jejich experimentální ověřování](https://utf.mff.cuni.cz/popularizace/PMF/Pmf25.htm)\n- [Perimeter Institute, 2025: současný význam kvantové teorie pole](https://perimeterinstitute.ca/news/25-years-quantum-fields-and-strings)\n- [Max Planck Institute of Quantum Optics, 2026: ověřování standardního modelu pomocí atomu vodíku](https://www.mpq.mpg.de/7234081/sub-part-per-trillion-test-of-the-standard-model-with-atomic-hydrogen)\n- [J. He, W.-T. Lin a J. A. Sauls, 2025: teorie pole při studiu supravodičů](https://repository.lsu.edu/physics_astronomy_pubs/7204/)\n- [CERN: kvantová pole a Higgsův boson](https://home.cern/science/physics/higgs-boson/what/)"
+        "body": "- [MFF UK, přednášky 2025: kvantová pole a jejich experimentální ověřování](https://utf.mff.cuni.cz/popularizace/PMF/Pmf25.htm)\n- [Perimeter Institute, 2025: současný význam kvantové teorie pole](https://perimeterinstitute.ca/news/25-years-quantum-fields-and-strings)\n- [Max Planck Institute of Quantum Optics, 2026: ověřování standardního modelu pomocí atomu vodíku](https://www.mpq.mpg.de/7234081/sub-part-per-trillion-test-of-the-standard-model-with-atomic-hydrogen)\n- [J. He, W.-T. Lin a J. A. Sauls, 2025: teorie pole při studiu supravodičů](https://repository.lsu.edu/physics_astronomy_pubs/7204/)\n- [CERN: kvantová pole a Higgsův boson](https://home.cern/science/physics/higgs-boson/what/)\n- [David Tong: kvantování polí a částice](https://davidtong.org/teaching/quantum-field-theory/qfthtml/S2)"
       }
     ],
     "why_box": "Kvantová teorie pole tvoří základ současného popisu elementárních částic a jejich vzájemného působení. Její využití sahá od přesných výpočtů v atomech přes vlastnosti materiálů až po raný vesmír. Urychlovače představují jeden ze způsobů, jak její předpovědi ověřujeme.",
@@ -2011,7 +2011,7 @@
       },
       {
         "heading": "Co se tedy u pole vlní?",
-        "body": "U vodní vlny se mění výška hladiny: jednotlivé části vody kmitají a vlna se šíří dál. U pole může prostorem postupovat změna jeho fyzikálních veličin. **U světelné vlny se například mění velikost a směr elektrického a magnetického pole.** K přenosu energie tak postačuje samotné elektromagnetické pole, i v prostoru bez látky.\n\nTo je názorný popis světla jako elektromagnetické vlny. U elektronového pole potřebujeme obecnější kvantový popis jeho stavu. Slovem „vlna“ zde vyjadřujeme vlnové vlastnosti tohoto popisu, například možnost interference; nejde o výšku nějakého skrytého povrchu."
+        "body": "U vodní vlny se mění výška hladiny: jednotlivé části vody kmitají a vlna se šíří dál. U pole může prostorem postupovat změna jeho fyzikálních veličin. Ve světelné vlně kmitá elektrické a magnetické pole. Například u lineárně polarizované rovinné vlny kmitá každé z nich podél pevné osy. Obě osy jsou navzájem kolmé a zároveň kolmé ke směru šíření světla. K přenosu energie tak postačuje samotné elektromagnetické pole, i v prostoru bez látky.\n\nTo je názorný popis světla jako elektromagnetické vlny. U elektronového pole potřebujeme obecnější kvantový popis jeho stavu. Slovem „vlna“ zde vyjadřujeme vlnové vlastnosti tohoto popisu, například možnost interference; nejde o výšku nějakého skrytého povrchu."
       },
       {
         "heading": "Jak do toho vstupují částice",
@@ -2031,7 +2031,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [David Tong: kvantování polí a částice](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf)\n- [David Tong: elektronové pole, částice a antičástice](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft5.pdf)\n- [CERN: pole a jejich kvanta](https://home.cern/science/physics/higgs-boson/what/)\n- [Penn State: energie fotonu, frekvence a vlnová délka](https://courses.ems.psu.edu/meteo300/node/682)\n- [Perimeter Institute, 2025: kvantová pole a jejich vzbuzení](https://perimeterinstitute.ca/news/25-years-quantum-fields-and-strings)\n- [Caltech: elektromagnetické vlny a jejich šíření ve vakuu](https://www.feynmanlectures.caltech.edu/II_20.html)"
+        "body": "- [David Tong: kvantování polí a částice](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf)\n- [David Tong: elektronové pole, částice a antičástice](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft5.pdf)\n- [CERN: pole a jejich kvanta](https://home.cern/science/physics/higgs-boson/what/)\n- [Penn State: energie fotonu, frekvence a vlnová délka](https://courses.ems.psu.edu/meteo300/node/682)\n- [Perimeter Institute, 2025: kvantová pole a jejich vzbuzení](https://perimeterinstitute.ca/news/25-years-quantum-fields-and-strings)\n- [Caltech: elektromagnetické vlny a jejich šíření ve vakuu](https://www.feynmanlectures.caltech.edu/II_20.html)\n- [MFF UK: šíření elektromagnetických vln](https://physics.mff.cuni.cz/kfpp/skripta/kurz_fyziky_pro_DS/display.php/elmag/5_3)"
       }
     ],
     "why_box": "Pole a jeho vzbuzení patří ke společnému fyzikálnímu popisu: například elektron je excitací elektronového pole. Vlnění označuje vlnové vlastnosti pole a jeho stavu, nikoli pohyb skryté látkové hladiny. Částice stejného druhu mají stejné základní vlastnosti, ale jejich konkrétní stavy a energie se mohou lišit.",
@@ -2060,7 +2060,7 @@
       },
       {
         "heading": "Co měříme u samotného pole",
-        "body": "U elektromagnetického vakua zkoumáme místo polohy závaží například **elektrické pole**. I bez přítomných fotonů mají vhodně zvolená měření jeho elektrické složky nenulový kvantový rozptyl. Tento projev nazýváme **vakuovými fluktuacemi**.\n\nV citlivých optických experimentech vědci používají krátké laserové pulzy jako sondy. Interakce s polem ovlivní jejich polarizaci, tedy orientaci elektrického kmitání světla. Z mnoha měření lze určit kvantové kolísání pole i souvislosti mezi výsledky na různých místech a v různých časech. Tepelné záření a šum přístrojů je přitom třeba oddělit od hledaného příspěvku vakua."
+        "body": "U elektromagnetického vakua zkoumáme místo polohy závaží například **elektrické pole**. I bez přítomných fotonů mají vhodně zvolená měření jeho elektrické složky nenulový kvantový rozptyl. Tento projev nazýváme **vakuovými fluktuacemi**.\n\nV citlivých optických experimentech slouží krátké laserové pulzy jako sondy. Při interakci v krystalu ovlivní zkoumané elektrické pole polarizaci sondy. Z opakovaných měření vědci vyhodnocují statistické vlastnosti signálu a porovnávají, jak spolu souvisejí výsledky sondování v různých místech nebo časech. Přitom oddělují příspěvek vakua od tepelného záření a šumu přístrojů."
       },
       {
         "heading": "Co konkrétně měříme mezi blízkými povrchy",
@@ -2077,7 +2077,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [David Tong: kvantový oscilátor, vakuum a energie pole](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf)\n- [R. L. Jaffe: Casimirův jev a kvantové vakuum](https://arxiv.org/abs/hep-th/0503158)\n- [NASA: temná energie a možnost energie vakua](https://science.nasa.gov/dark-energy/)\n- [C. M. Wilson a kol.: vznik fotonů při dynamickém Casimirově jevu](https://arxiv.org/abs/1105.4714)\n- [ETH Zürich, 2026: měření vakuových fluktuací pomocí laserových pulzů](https://www.research-collection.ethz.ch/entities/publication/f6f357cb-24a4-4ab0-9190-0e4dcbc2bb7f)\n- [Výzkumný projekt ANR: měření Casimirovy síly pomocí pružného nosníku](https://anr.fr/Project-ANR-20-CE30-0008)"
+        "body": "- [David Tong: kvantový oscilátor, vakuum a energie pole](https://davidtong.org/pdfs/teaching/quantum-field-theory/qft2.pdf)\n- [R. L. Jaffe: Casimirův jev a kvantové vakuum](https://arxiv.org/abs/hep-th/0503158)\n- [NASA: temná energie a možnost energie vakua](https://science.nasa.gov/dark-energy/)\n- [C. M. Wilson a kol.: vznik fotonů při dynamickém Casimirově jevu](https://arxiv.org/abs/1105.4714)\n- [ETH Zürich, 2026: měření vakuových fluktuací pomocí laserových pulzů](https://www.research-collection.ethz.ch/entities/publication/f6f357cb-24a4-4ab0-9190-0e4dcbc2bb7f)\n- [Výzkumný projekt ANR: měření Casimirovy síly pomocí pružného nosníku](https://anr.fr/Project-ANR-20-CE30-0008)\n- [C. Riek a kol.: elektrooptické měření kvantových fluktuací](https://arxiv.org/abs/1611.06773)\n- [F. F. Settembrini a kol.: měření korelací kvantového vakua](https://arxiv.org/abs/2111.02377)"
       }
     ],
     "why_box": "Kvantové vakuum je nejnižší energetický stav polí za daných podmínek. Jeho vlastnosti zkoumáme prostřednictvím kvantového rozptylu a souvislostí mezi výsledky optických měření. U Casimirova jevu měříme mechanickou sílu mezi povrchy a její závislost na vzdálenosti.",
@@ -2115,11 +2115,11 @@
       },
       {
         "heading": "Co objevili vědci v roce 2012",
-        "body": "Experimenty **ATLAS a CMS** na [LHC](https://kosmonovinky.cz/kosmopedie/co-je-lhc-a-jak-souvisi-s-kosmologii.html) oznámily 4. července 2012 objev nové částice odpovídající Higgsovu bosonu, s hmotností kolem **125 GeV/c²**. GeV je jednotka energie; dělením c² ji zde převádíme na jednotku hmotnosti.\n\nBoson vzniká při vhodných srážkách a rychle se rozpadá. Detektory zachytí produkty rozpadu, z jejichž energií a dalších vlastností vědci původní částici rozpoznávají. Objev tak ověřil předpověď spojenou s Higgsovým polem; boson je jeho kvantovou excitací, tedy stavem s přidanou energií."
+        "body": "Dne 4. července 2012 oznámily experimenty **ATLAS a CMS** na [LHC](https://kosmonovinky.cz/kosmopedie/co-je-lhc-a-jak-souvisi-s-kosmologii.html) objev nové částice s hmotností kolem **125 GeV/c²**. GeV je jednotka energie. Dělením c² získáme jednotku hmotnosti.\n\nBoson vzniká při vhodných srážkách a rychle se rozpadá. Detektory zachytí produkty rozpadu, z jejichž energií a dalších vlastností vědci původní částici rozpoznávají. Pozdější měření ukázala, že její vlastnosti odpovídají předpovědím pro Higgsův boson standardního modelu."
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [CERN: Higgsovo pole a jeho kvantum](https://home.cern/science/physics/higgs-boson/what/)\n- [Fermilab: které částice získávají hmotnost z Higgsova pole](https://news.fnal.gov/2018/06/who-gets-their-mass-from-the-higgs/)\n- [CERN: Higgsův mechanismus a původ hmotnosti běžné hmoty](https://repository.cern/records/g9287-8t069)\n- [ATLAS: objev Higgsova bosonu](https://atlas.cern/Discover/Physics/Higgs)\n- [CERN, 2025: energie gluonového pole a hmotnost protonu](https://home.cern/other-99/)"
+        "body": "- [CERN: Higgsovo pole a jeho kvantum](https://home.cern/science/physics/higgs-boson/what/)\n- [Fermilab: které částice získávají hmotnost z Higgsova pole](https://news.fnal.gov/2018/06/who-gets-their-mass-from-the-higgs/)\n- [CERN: Higgsův mechanismus a původ hmotnosti běžné hmoty](https://repository.cern/records/g9287-8t069)\n- [ATLAS: objev Higgsova bosonu](https://atlas.cern/Discover/Physics/Higgs)\n- [CERN, 2025: energie gluonového pole a hmotnost protonu](https://home.cern/other-99/)\n- [ATLAS: oznámení ze 4. července 2012](https://atlas.cern/updates/press-statement/latest-results-atlas-higgs-search)\n- [ATLAS a CMS: měření vlastností Higgsova bosonu](https://www.atlas.cern/index.php/Updates/News/ATLAS-CMS-Higgs-2022)"
       }
     ],
     "why_box": "Higgsovo pole souvisí s hmotnostmi mnoha elementárních částic; Higgsův boson je jeho kvantem. Většinu hmotnosti protonů a neutronů však vysvětluje energie jejich vnitřního stavu se silným působením.",
@@ -2148,7 +2148,7 @@
       },
       {
         "heading": "Kde očekáváme, že bude spojení důležité",
-        "body": "Výrazné kvantové projevy gravitace očekáváme zejména při snaze popsat nejranější fáze vesmíru nebo krajní podmínky uvnitř [černých děr](https://kosmonovinky.cz/kosmopedie/co-je-cerna-dira-a-jak-vznika.html). Klasický výpočet tam může dojít k singularitě, například k neomezenému růstu některých veličin. To je důvod hledat úplnější teorii.\n\nSamotná velká hmotnost nebo existence [horizontu událostí](https://kosmonovinky.cz/kosmopedie/co-je-horizont-udalosti.html) ještě nezaručuje, že budou místní kvantové opravy geometrie velké. Rozhodující jsou také měřítko děje a zakřivení prostoročasu."
+        "body": "V klasickém popisu nejranějšího vesmíru nebo nitra [černých děr](https://kosmonovinky.cz/kosmopedie/co-je-cerna-dira-a-jak-vznika.html) můžeme dojít k singularitě. Znamená to, že dráhu tělesa nebo světelného paprsku už podle tohoto popisu nelze prodloužit, přestože k této mezi dospěje za konečný čas nebo po konečném úseku svého průběhu. V některých řešeních přitom zakřivení prostoročasu roste bez omezení. To je jeden z důvodů, proč hledáme úplnější teorii.\n\nSamotná velká hmotnost nebo existence [horizontu událostí](https://kosmonovinky.cz/kosmopedie/co-je-horizont-udalosti.html) ještě nezaručuje, že budou místní kvantové opravy geometrie velké. Rozhodující jsou také měřítko děje a zakřivení prostoročasu."
       },
       {
         "heading": "Co už jde počítat a kde je hranice",
@@ -2160,10 +2160,10 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Einstein Online, Max Planck Institute: geometrie a kvantová gravitace](https://www.einstein-online.info/en/spotlight/background_independence/)\n- [J. F. Donoghue: gravitace jako efektivní kvantová teorie](https://arxiv.org/abs/gr-qc/9405057)\n- [A. Ashtekar, M. Reuter a C. Rovelli: cesty od relativity ke kvantové gravitaci](https://arxiv.org/abs/1408.4336)"
+        "body": "- [Einstein Online, Max Planck Institute: geometrie a kvantová gravitace](https://www.einstein-online.info/en/spotlight/background_independence/)\n- [J. F. Donoghue: gravitace jako efektivní kvantová teorie](https://arxiv.org/abs/gr-qc/9405057)\n- [A. Ashtekar, M. Reuter a C. Rovelli: cesty od relativity ke kvantové gravitaci](https://arxiv.org/abs/1408.4336)\n- [Max Planck Institute: singularity prostoročasu](https://www.einstein-online.info/en/spotlight/singularities/)"
       }
     ],
-    "why_box": "Kvantová gravitace má společně popsat kvantové jevy i dynamickou geometrii prostoročasu. Pro nízké energie už existuje účinný výpočetní postup; úplný ověřený popis extrémních podmínek stále hledáme.",
+    "why_box": "Kvantová gravitace má společně popsat kvantové jevy a proměnlivou geometrii prostoročasu. Při dostatečně nízkých energiích lze pomocí efektivní teorie počítat malé kvantové opravy k obecné relativitě. Úplný a experimentálně ověřený popis pro extrémní podmínky stále hledáme.",
     "related_explainery": [
       "co-je-kvantova-teorie-pole",
       "co-je-kvantova-mechanika",
