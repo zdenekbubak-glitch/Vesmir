@@ -75,5 +75,29 @@
     ],
     "note": "Co je Hubbleovo napětí?",
     "status": "proposed"
+  },
+  {
+    "term": "prompt SN Ia population",
+    "preferred": "supernovy typu Ia, které vybuchují krátce po vzniku hvězdné populace",
+    "variants": [
+      "mládežnická populace",
+      "mládežnickou populaci",
+      "mládežnické populace",
+      "mládežnické populaci"
+    ],
+    "note": "Zpoždění se počítá od vzniku hvězd do výbuchu.",
+    "status": "approved"
+  },
+  {
+    "term": "delayed SN Ia progenitor channel",
+    "preferred": "scénář vzniku supernov typu Ia s delší dobou od vzniku hvězd do výbuchu",
+    "variants": [
+      "opožděný kanál vzniku",
+      "opožděný kanál jejich vzniku",
+      "opožděného kanálu vzniku",
+      "opožděného kanálu jejich vzniku"
+    ],
+    "note": "V popularizačním textu popiš vývoj hvězdných soustav vedoucí k výbuchu po delší době.",
+    "status": "approved"
   }
 ]
