@@ -74,6 +74,22 @@ def save_history(items: list):
         json.dump(items, f, ensure_ascii=False, indent=2)
 
 
+def retain_history(history: list) -> list:
+    """Keep the most recent news and every active editorial reference."""
+    catalog_path = DATA_FILE.with_name("explainery.json")
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8")) if catalog_path.exists() else []
+    referenced_ids = {
+        str(identity)
+        for entry in catalog
+        if not entry.get("disable_related_news")
+        for identity in (entry.get("related_news") or [])
+    }
+    return [
+        item for index, item in enumerate(history)
+        if index < 500 or str(item.get("id")) in referenced_ids
+    ]
+
+
 def get_existing_ids(history: list) -> set:
     return {item.get("id") for item in history if item.get("id")}
 
@@ -428,7 +444,7 @@ def main():
 
     new_posts.sort(key=lambda p: 0 if p.get("lang") == "cs" else 1)  
     history = new_posts + history
-    history = history[:500]
+    history = retain_history(history)
     save_history(history)
     print(f"Přidáno {len(new_posts)} nových příspěvků. Celkem v historii: {len(history)}")
 
