@@ -2416,7 +2416,7 @@
       },
       {
         "heading": "Jak jsme se naučili měřit vzdálenosti ve vesmíru",
-        "body": "Slabá hvězda může být málo svítivá, nebo velmi vzdálená. Bez rozlišení těchto možností těžko určíme velikost galaxie či celého pozorovatelného vesmíru. **Henrietta Leavittová** našla u pravidelně proměnných hvězd vztah mezi dobou jejich proměn a svítivostí. Po doplnění kalibrace se z něj stala metoda měření vzdáleností.\n\nJejí objev umožnil dalším astronomům porovnávat soustavy, které dosavadními metodami ležely příliš daleko. Podrobnosti vysvětluje [téma o Leavittové](https://kosmonovinky.cz/kosmopedie/jak-henrietta-leavittova-pomohla-zmerit-vesmir.html)."
+        "body": "Slabá hvězda může být málo svítivá, nebo velmi vzdálená. Bez rozlišení těchto možností těžko určíme velikost galaxie či celého pozorovatelného vesmíru. **Henrietta Leavittová** našla u cefeid, pravidelně pulzujících hvězd, vztah mezi periodou změn jasnosti a svítivostí. Po doplnění kalibrace se z něj stala metoda měření vzdáleností.\n\nJejí objev umožnil dalším astronomům porovnávat soustavy, které dosavadními metodami ležely příliš daleko. Podrobnosti vysvětluje [téma o Leavittové](https://kosmonovinky.cz/kosmopedie/jak-henrietta-leavittova-pomohla-zmerit-vesmir.html)."
       },
       {
         "heading": "Když rovnice připustí proměnlivý vesmír",
@@ -2440,11 +2440,11 @@
       },
       {
         "heading": "Proč příběh nekončí jménem objevitele",
-        "body": "Vztah cefeid bylo třeba přesněji kalibrovat, vzdálenosti galaxií opravovat a rotační křivky ověřovat různými přístroji. Kosmologii proměnila také měření reliktního záření. Další osobnostní témata mohou přiblížit i tento objev a další práci vědců zmíněných v přehledu.\n\n**Rozhodující je návaznost důkazů:** jak měření vzniklo, kdo přinesl metodu a zda závěr obstál při dalších zkouškách. Jména pomáhají vyprávět příběh; fyzikální vysvětlení stojí na měřitelných souvislostech."
+        "body": "Vztah mezi periodou a svítivostí cefeid bylo třeba přesněji kalibrovat, vzdálenosti galaxií opravovat a rotační křivky ověřovat různými přístroji. Podobně na objev reliktního záření navázala přesnější měření jeho spektra a drobných teplotních rozdílů na obloze. Každý z těchto kroků umožnil podrobněji prověřovat představy o vývoji vesmíru.\n\n**Rozhodující je návaznost důkazů:** jak měření vzniklo, kdo přinesl metodu a zda závěr obstál při dalších zkouškách. Jména pomáhají vyprávět příběh; fyzikální vysvětlení stojí na měřitelných souvislostech."
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Leavittová: původní práce z roku 1912](https://articles.adsabs.harvard.edu/pdf/1912HarCi.173....1L)\n- [Hubble: původní práce z roku 1929](https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/)\n- [Rubinová a Ford: měření Andromedy z roku 1970](https://web.physics.rutgers.edu/grad/690/Rubin-Ford-1970.pdf)\n- [Nobelova cena za fyziku 2011: objev zrychleného rozpínání](https://www.nobelprize.org/prizes/physics/2011/press-release/)\n- [Niels Bohr Institute: vznik kvantové mechaniky ve spolupráci její zakladatelské generace](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)"
+        "body": "- [Leavittová: původní práce z roku 1912](https://articles.adsabs.harvard.edu/pdf/1912HarCi.173....1L)\n- [Hubble: původní práce z roku 1929](https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/)\n- [Rubinová a Ford: měření Andromedy z roku 1970](https://web.physics.rutgers.edu/grad/690/Rubin-Ford-1970.pdf)\n- [Nobelova cena za fyziku 2011: objev zrychleného rozpínání](https://www.nobelprize.org/prizes/physics/2011/press-release/)\n- [Niels Bohr Institute: vznik kvantové mechaniky ve spolupráci její zakladatelské generace](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)\n- [NASA: historie měření reliktního záření](https://asd.gsfc.nasa.gov/archive/mather/cosmology/history.html)"
       }
     ],
     "why_box": "Objevy v kosmologii na sebe navazují. Metody, přístroje a nezávislá ověření jsou stejně důležité jako známá jména jejich průkopníků.",
@@ -2496,7 +2496,7 @@
       },
       {
         "heading": "Jak z periody získáme vzdálenost",
-        "body": "Postup má tři kroky. Nejprve změříme periodu. Z kalibrovaného vztahu odvodíme, jak velký světelný výkon hvězda vydává. Potom ho porovnáme s tím, kolik světla přichází k nám.\n\nPro stejně svítivé zdroje platí jednoduchá pomůcka: **ve dvojnásobné vzdálenosti zachytíme čtvrtinu světelného toku**. V praxi astronomové opravují také vliv prachu, složení hvězdy a překrývání obrazu se sousedními hvězdami. Schéma níže odděluje vlastní objev vztahu od jeho použití.",
+        "body": "Postup má tři kroky. Nejprve změříme periodu. Z kalibrovaného vztahu odvodíme, jak velký světelný výkon hvězda vydává. Potom ho porovnáme s tím, kolik světla přichází k nám.\n\nPokud se světlo po cestě nepohlcuje, zachytíme od stejné cefeidy ve dvojnásobné vzdálenosti na stejné ploše detektoru čtvrtinu zářivého výkonu. V praxi astronomové zohledňují také vliv prachu, chemického složení hvězdy a světla sousedních hvězd, které se na snímku překrývá se světlem cefeidy. Schéma níže odděluje vlastní objev vztahu od jeho použití.",
         "image_id": "schema-leavitt-vzdalenost"
       },
       {
@@ -2578,11 +2578,11 @@
       },
       {
         "heading": "Proč byla cefeida tak důležitá",
-        "body": "Díky vztahu [objevenému Leavittovou](https://kosmonovinky.cz/kosmopedie/jak-henrietta-leavittova-pomohla-zmerit-vesmir.html) lze z periody proměn odhadnout svítivost cefeidy. Porovnáním se zachyceným světelným tokem dostaneme vzdálenost.\n\nHubble tehdy odhadl, že je Andromeda blíž, než ukazují dnešní měření. I jeho odhad vzdálenosti však stačil k zásadnímu závěru: Andromeda leží daleko za hranicemi Mléčné dráhy. Patří tedy mezi samostatné galaxie tvořené obrovským množstvím hvězd, které se tehdejším dalekohledům jevily jako mlhavé skvrny."
+        "body": "Díky vztahu [objevenému Leavittovou](https://kosmonovinky.cz/kosmopedie/jak-henrietta-leavittova-pomohla-zmerit-vesmir.html) lze z periody proměn odhadnout svítivost cefeidy. Porovnáním se zachyceným světelným tokem dostaneme vzdálenost.\n\nHubble tehdy odhadl, že je Andromeda blíž, než ukazují dnešní měření. I jeho odhad vzdálenosti však stačil k zásadnímu závěru. Andromeda leží daleko za hranicemi Mléčné dráhy a je samostatnou galaxií. Velký Hookerův dalekohled v ní umožnil rozlišit jednotlivé hvězdy včetně cefeid, jejichž proměny poskytly potřebné měření vzdálenosti."
       },
       {
         "heading": "Vztah zveřejněný v roce 1929",
-        "body": "Hubble porovnal odhady vzdáleností galaxií s jejich radiálními rychlostmi odvozenými ze spektrálních posuvů. V souboru vynikl trend: vzdálenější galaxie se v průměru vzdalují rychleji. Pro blízký vesmír jej dnes zapisujeme přibližně **v = H₀ × d**.\n\nJednotlivé galaxie mají také vlastní pohyby způsobené okolní gravitací. Proto nemusí každá přesně ležet na stejné přímce a blízká Andromeda se k nám dokonce přibližuje. Širší vztah popisuje [téma o Hubbleově konstantě](https://kosmonovinky.cz/kosmopedie/co-je-hubbleova-konstanta.html).",
+        "body": "Hubble porovnal odhady vzdáleností galaxií s jejich radiálními rychlostmi odvozenými ze spektrálních posuvů. V souboru vynikl trend: vzdálenější galaxie se v průměru vzdalují rychleji. Pro blízký vesmír jej dnes zapisujeme přibližně **v = H₀ × d**. Zde d označuje vzdálenost galaxie, v rychlost jejího vzdalování způsobeného kosmickým rozpínáním a H₀ dnešní hodnotu Hubbleova parametru.\n\nJednotlivé galaxie mají také vlastní pohyby způsobené okolní gravitací. Proto nemusí každá přesně ležet na stejné přímce a blízká Andromeda se k nám dokonce přibližuje. Širší vztah popisuje [téma o Hubbleově konstantě](https://kosmonovinky.cz/kosmopedie/co-je-hubbleova-konstanta.html).",
         "image_id": "schema-hubble-vztah"
       },
       {
@@ -2595,7 +2595,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Hubble: původní práce o vzdálenosti a radiální rychlosti, 1929](https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/)\n- [NASA: historická návaznost měření rozpínání](https://science.nasa.gov/missions/hubble/hubble-completes-eight-year-effort-to-measure-expanding-universe/)\n- [IAU: označení Hubbleův–Lemaîtrův zákon](https://iauarchive.eso.org/news/pressreleases/detail/iau1812/)"
+        "body": "- [Hubble: původní práce o vzdálenosti a radiální rychlosti, 1929](https://science.nasa.gov/apod/a-relation-between-distance-and-radial-velocity-among-extra-galactic-nebulae/)\n- [NASA: historická návaznost měření rozpínání](https://science.nasa.gov/missions/hubble/hubble-completes-eight-year-effort-to-measure-expanding-universe/)\n- [IAU: označení Hubbleův–Lemaîtrův zákon](https://iauarchive.eso.org/news/pressreleases/detail/iau1812/)\n- [NASA: Hubbleova pozorování cefeidy v Andromedě](https://science.nasa.gov/missions/hubble/hubble-views-the-star-that-changed-the-universe/)\n- [Einstein Online: Hubbleova konstanta](https://www.einstein-online.info/en/explandict/hubble-constant/)"
       }
     ],
     "why_box": "Hubble pomohl prokázat mimogalaktickou povahu Andromedy a pozorovací vztah vzdálenosti a vzdalování. Výsledek navazoval na Leavittovou, Sliphera, Lemaîtra i další spolupracovníky.",
@@ -2617,7 +2617,7 @@
     "sections": [
       {
         "heading": "Co znamená změřit rotaci galaxie",
-        "body": "Galaxii na obloze obvykle nesledujeme tak dlouho, abychom viděli hvězdu dokončit oběh. Místo toho změříme **spektrální čáry** různých oblastí galaxie. Jejich posuny ukazují pohyb směrem k nám nebo od nás.\n\nZ rozdílu mezi oběma stranami galaxie, se zohledněním jejího sklonu, lze odvodit rychlost oběhu v různých vzdálenostech od středu. Graf těchto rychlostí se nazývá **rotační křivka**. Podrobnosti světelného měření vysvětluje [spektroskopie](https://kosmonovinky.cz/kosmopedie/co-je-spektroskopie-a-co-nam-rika-svetlo.html)."
+        "body": "Jeden oběh hvězdy kolem středu galaxie může trvat stovky milionů let. Rychlost rotace proto zjišťujeme z posunů spektrálních čar naměřených v různých oblastech galaxie. Tyto posuny ukazují složku pohybu směrem k nám nebo od nás.\n\nZ rozdílu mezi oběma stranami galaxie, se zohledněním jejího sklonu, lze odvodit rychlost oběhu v různých vzdálenostech od středu. Graf těchto rychlostí se nazývá **rotační křivka**. Podrobnosti světelného měření vysvětluje [spektroskopie](https://kosmonovinky.cz/kosmopedie/co-je-spektroskopie-a-co-nam-rika-svetlo.html)."
       },
       {
         "heading": "Proč byl důležitý Kent Ford",
@@ -3159,7 +3159,7 @@
     "sections": [
       {
         "heading": "Světelná kvanta a fotoelektrický jev",
-        "body": "Einstein v roce 1905 při zkoumání vlastností tepelného záření dospěl k odvážnější představě: samotné světlo se při předávání energie může chovat jako jednotlivá kvanta. Každé nese energii **E = hν**. Tato myšlenka zároveň nabízela vysvětlení fotoelektrického jevu, při němž světlo uvolňuje elektrony z kovu.\n\nPokusy ukazovaly překvapivý rozdíl mezi intenzitou světla a jeho frekvencí, tedy u viditelného světla barvou. Silnější osvětlení určité barvy uvolňovalo více elektronů, ale nezvyšovalo jejich nejvyšší pohybovou energii. Ta rostla se zvyšující se frekvencí. Pod určitou frekvenční hranicí se elektrony neuvolňovaly ani při silnějším osvětlení.\n\nEinsteinovo vysvětlení spojilo tyto výsledky do jednoho obrazu: **elektron přijme energii jednoho světelného kvanta.** Část spotřebuje na uvolnění z kovu a zbytek získá jako pohybovou energii. Vyšší frekvence znamená energeticky vydatnější kvantum. Silnější světlo stejné frekvence přináší více kvant, takže může uvolnit více elektronů.\n\nRozhodující tedy byla energie jednotlivého kvanta. Podobně jako k překonání schodu potřebujeme dostatečně vysoký krok, musí mít světelné kvantum dost energie k uvolnění elektronu.\n\nEinstein tak rozvinul [Planckův přínos](https://kosmonovinky.cz/kosmopedie/jak-max-planck-otevrel-cestu-ke-kvantove-fyzice.html) a položil základ dnešního pojmu foton. Za zásluhy o teoretickou fyziku, zejména za zákon fotoelektrického jevu, získal Nobelovu cenu pro rok 1921."
+        "body": "Einstein v roce 1905 při zkoumání vlastností tepelného záření dospěl k odvážnější představě: samotné světlo se při předávání energie může chovat jako jednotlivá kvanta. Tato myšlenka zároveň nabízela vysvětlení fotoelektrického jevu, při němž světlo uvolňuje elektrony z kovu.\n\nPokusy ukazovaly překvapivý rozdíl mezi intenzitou světla a jeho frekvencí, tedy u viditelného světla barvou. Silnější osvětlení určité barvy uvolňovalo více elektronů, ale nezvyšovalo jejich nejvyšší pohybovou energii. Ta rostla se zvyšující se frekvencí.\n\nV běžném jednofotonovém fotoelektrickém jevu přijme elektron energii jednoho světelného kvanta. Jeho energie je E = hν, kde h je Planckova konstanta a ν frekvence světla. Část energie je potřebná k uvolnění elektronu z kovu a zbytek může elektron získat jako pohybovou energii. Pokud energie jednotlivého kvanta k uvolnění nestačí, samotné zvýšení počtu takových kvant tento děj nevyvolá.\n\nEinstein tak rozvinul [Planckův přínos](https://kosmonovinky.cz/kosmopedie/jak-max-planck-otevrel-cestu-ke-kvantove-fyzice.html) a položil základ dnešního pojmu foton. Za zásluhy o teoretickou fyziku, zejména za zákon fotoelektrického jevu, získal Nobelovu cenu pro rok 1921."
       },
       {
         "heading": "Gravitace jako vlastnost prostoročasu",
@@ -3183,7 +3183,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Einstein: kosmologická práce z roku 1917](https://cds.cern.ch/record/632340)\n- [Baez a Bunn: geometrický význam Einsteinových rovnic](https://math.ucr.edu/home/baez/einstein/einstein.html)\n- [Einstein Online: kosmologická konstanta](https://www.einstein-online.info/en/explandict/cosmological-constant/)\n- [Instituut-Lorentz: Friedmannovy práce a vztah k Einsteinovu modelu](https://www.lorentz.leidenuniv.nl/history/Ehrenfest_archive/full_size_scans/Friedmann_archive/)\n- [Nobel Prize: Einstein a zákon fotoelektrického jevu](https://www.nobelprize.org/prizes/physics/1921/einstein/facts/)\n- [Nobel Prize: Einsteinova cesta od tepelného záření ke světelným kvantům](https://www.nobelprize.org/prizes/physics/the-dual-nature-of-light-as-reflected-in-the-nobel-archives/)\n- [Nobel Prize: vysvětlení fotoelektrického jevu a jeho ověřování](https://www.nobelprize.org/prizes/physics/1921/ceremony-speech/?print=1)"
+        "body": "- [Einstein: kosmologická práce z roku 1917](https://cds.cern.ch/record/632340)\n- [Baez a Bunn: geometrický význam Einsteinových rovnic](https://math.ucr.edu/home/baez/einstein/einstein.html)\n- [Einstein Online: kosmologická konstanta](https://www.einstein-online.info/en/explandict/cosmological-constant/)\n- [Instituut-Lorentz: Friedmannovy práce a vztah k Einsteinovu modelu](https://www.lorentz.leidenuniv.nl/history/Ehrenfest_archive/full_size_scans/Friedmann_archive/)\n- [Nobel Prize: Einstein a zákon fotoelektrického jevu](https://www.nobelprize.org/prizes/physics/1921/einstein/facts/)\n- [Nobel Prize: Einsteinova cesta od tepelného záření ke světelným kvantům](https://www.nobelprize.org/prizes/physics/the-dual-nature-of-light-as-reflected-in-the-nobel-archives/)\n- [Nobel Prize: vysvětlení fotoelektrického jevu a jeho ověřování](https://www.nobelprize.org/prizes/physics/1921/ceremony-speech/?print=1)\n- [Einstein Online: fotoelektrický jev](https://www.einstein-online.info/en/explandict/photo-effect/)"
       }
     ],
     "why_box": "Einsteinova teorie poskytla společný základ pro popis místní gravitace i vývoje vesmíru. Její rovnice připouštějí více kosmologických scénářů; o jejich použitelnosti rozhodují pozorování.",
@@ -3268,11 +3268,11 @@
       },
       {
         "heading": "Jak z jasnosti vyčteme historii rozpínání",
-        "body": "Pro známý světelný výkon platí, že vzdálenější zdroj obvykle pozorujeme slabší. V rozpínajícím se vesmíru se do vztahu promítá i cesta světla během měnícího se prostoru. Porovnáním jasností a rudých posuvů souboru supernov proto zkoumáme historii rozpínání.\n\nVzdálené supernovy vycházely v průměru slabší, než očekávaly tehdy běžně zvažované zpomalující modely bez kosmologické konstanty. Jedním z vysvětlení bylo, že se rozpínání v pozdější části historie zrychluje. Závěr nevycházel z jediného snímku ani z přímého sledování, jak jedna galaxie právě zrychluje."
+        "body": "Ze známé svítivosti a pozorované jasnosti supernovy odvozujeme její vzdálenost. V kosmologickém výpočtu zohledňujeme také rozpínání vesmíru během letu světla. To prodlužuje vlnové délky fotonů a časové rozestupy mezi jejich příchody. Porovnáním takto určených vzdáleností s rudými posuvy supernov zkoumáme, jak se rozpínání v minulosti vyvíjelo.\n\nVzdálené supernovy vycházely v průměru slabší, než očekávaly tehdy běžně zvažované zpomalující modely bez kosmologické konstanty. Jedním z vysvětlení bylo, že se rozpínání v pozdější části historie zrychluje. Závěr nevycházel z jediného snímku ani z přímého sledování, jak jedna galaxie právě zrychluje."
       },
       {
         "heading": "Co zveřejnil Supernova Cosmology Project",
-        "body": "Výsledky představené v roce **1998** a podrobná práce o **42 vzdálených supernovách**, publikovaná v roce **1999**, podpořily modely s kladnou kosmologickou konstantou. Tým rozebíral také vliv výběru supernov a dalších možných systematických posunů.\n\nNezávisle došel k obdobnému závěru High-z Supernova Search Team vedený Brianem Schmidtem, v němž zásadní roli při analýze sehrál Adam Riess. Nobelova cena za fyziku z roku **2011** ocenila Perlmuttera, Schmidta a Riesse za tento objev. Rozsáhlá pozorování a analýzy ale byly dílem obou spoluprací."
+        "body": "Výsledky představené v roce **1998** a podrobná práce o **42 vzdálených supernovách**, publikovaná v roce **1999**, podpořily modely s kladnou kosmologickou konstantou. Tým rozebíral také vliv výběru supernov a dalších možných systematických posunů.\n\nNezávisle došel k obdobnému závěru High-z Supernova Search Team vedený Brianem Schmidtem, v němž zásadní roli při analýze sehrál Adam Riess. Nobelova cena za fyziku z roku **2011** ocenila Perlmuttera, Schmidta a Riesse za tento objev. Rozsáhlá pozorování a analýzy byly výsledkem práce mnoha členů obou výzkumných týmů."
       },
       {
         "heading": "Co se tím změnilo a co měříme dál",
@@ -3280,10 +3280,10 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Perlmutter a kol.: měření ze 42 vzdálených supernov, 1999](https://arxiv.org/abs/astro-ph/9812133)\n- [Supernova Cosmology Project: vyhledávání supernov v plánovaných sériích](https://www-supernova.lbl.gov/public/)\n- [Perlmutter: měření zrychlování pomocí supernov, Nobelova přednáška](https://www.nobelprize.org/uploads/2018/06/perlmutter-lecture_slides.pdf)\n- [Nobelova cena 2011: objev a role dvou týmů](https://www.nobelprize.org/prizes/physics/2011/press-release/)"
+        "body": "- [Perlmutter a kol.: měření ze 42 vzdálených supernov, 1999](https://arxiv.org/abs/astro-ph/9812133)\n- [Supernova Cosmology Project: vyhledávání supernov v plánovaných sériích](https://www-supernova.lbl.gov/public/)\n- [Perlmutter: měření zrychlování pomocí supernov, Nobelova přednáška](https://www.nobelprize.org/uploads/2018/06/perlmutter-lecture_slides.pdf)\n- [Nobelova cena 2011: objev a role dvou týmů](https://www.nobelprize.org/prizes/physics/2011/press-release/)\n- [Odborný podklad Nobelovy ceny za fyziku 2011](https://www.nobelprize.org/uploads/2018/06/advanced-physicsprize2011.pdf)"
       }
     ],
-    "why_box": "Perlmutterův tým pomohl proměnit obtížně předvídatelné hvězdné výbuchy v systematické měření vesmíru. Objev nevytvořil jen nový výklad, ale také způsob, jak získat dost pozorování k jeho ověření.",
+    "why_box": "Perlmutterův tým vyvinul postup, který umožňoval vyhledávat vzdálené supernovy v plánovaných sériích a včas zajistit jejich další pozorování. Díky tomu získal soubor měření potřebný ke zkoumání historie rozpínání vesmíru.",
     "related_explainery": [
       "jak-brian-schmidt-a-jeho-tym-overovali-ze-se-rozpinani",
       "jak-adam-riess-pomohl-odhalit-zrychlene-rozpinani-vesmiru",
@@ -3298,20 +3298,20 @@
   },
   {
     "id": "exp-073",
-    "title": "Jak Brian Schmidt a jeho tým ověřovali, že se rozpínání vesmíru zrychluje?",
+    "title": "Jak Brian Schmidt a jeho tým přispěli k objevu zrychleného rozpínání vesmíru?",
     "theme": "lide-a-objevy",
-    "description": "Proč byl High-z Supernova Search Team důležitý a co znamená nezávislé ověření překvapivého kosmologického výsledku?",
+    "description": "Jak vznikl High-z Supernova Search Team a proč shoda dvou nezávislých týmů posílila důkazy zrychleného rozpínání vesmíru?",
     "published": "2026-10-28",
     "updated": "2026-10-28",
-    "perex": "Brian Schmidt vedl High-z Supernova Search Team, druhou spolupráci zkoumající rozpínání pomocí vzdálených supernov. Její výsledek společně s prací Perlmutterova týmu ukázal, že zrychlování není jen zvláštností jediné analýzy. Důvěru v objev posílilo, že oba týmy dospěly k podobnému závěru a pečlivě prověřovaly možné chyby měření i vyhodnocení dat.",
+    "perex": "Brian Schmidt vedl High-z Supernova Search Team, jeden ze dvou týmů, které pomocí vzdálených supernov odhalily zrychlené rozpínání vesmíru. Tým dospěl k tomuto závěru nezávisle na skupině Saula Perlmuttera. Shoda výsledků posílila důvěru v objev a oba týmy zároveň prověřovaly možné chyby měření i vyhodnocení dat.",
     "sections": [
       {
         "heading": "Proč vznikl další tým",
-        "body": "Brian Schmidt se narodil v roce 1967 v USA a později rozvíjel svou vědeckou práci v Austrálii. High-z Supernova Search Team založili **Brian Schmidt a Nicholas Suntzeff v roce 1994**. Název High-z odkazuje na vysoký rudý posuv, označovaný písmenem z, tedy na vzdálené zdroje pozorované v dřívějších obdobích vesmíru.\n\nCílem bylo spojit vyhledávání supernov, jejich sledování na různých dalekohledech a přesnější odhady vzdáleností. Schmidt vedl spolupráci, v níž přispěli mimo jiné Suntzeff, Adam Riess, Robert Kirshner, Alexei Filippenko a další pozorovatelé a analytici."
+        "body": "Brian Schmidt se narodil v roce 1967 v USA a později rozvíjel svou vědeckou práci v Austrálii. High-z Supernova Search Team založili **Brian Schmidt a Nicholas Suntzeff v roce 1994**. Název High-z odkazuje na vysoký rudý posuv, označovaný písmenem z, tedy na vzdálené zdroje pozorované v dřívějších obdobích vesmíru.\n\nCílem bylo spojit vyhledávání supernov, jejich sledování na různých dalekohledech a přesnější odhady vzdáleností. Schmidt vedl tým, v němž působili mimo jiné Suntzeff, Adam Riess, Robert Kirshner, Alexei Filippenko a další pozorovatelé a analytici."
       },
       {
         "heading": "Co znamená nezávislý výsledek",
-        "body": "Ve stejném období pracoval na podobné otázce [Supernova Cosmology Project Saula Perlmuttera](https://kosmonovinky.cz/kosmopedie/jak-saul-perlmutter-a-jeho-tym-hledali-zrychlene-rozpinani-vesmiru.html). Dvě spolupráce mohly porovnávat závěry z vlastních pozorovacích programů a analýz.\n\nNezávislost neznamená, že nepoužívaly žádné společné fyzikální znalosti, přístroje nebo kalibrační podklady. Oba týmy například využívaly supernovy stejného typu. Proto jejich shoda výrazně pomáhala, ale nemohla automaticky vyloučit každou chybu, kterou by oba postupy sdílely."
+        "body": "Ve stejném období pracoval na podobné otázce [Supernova Cosmology Project Saula Perlmuttera](https://kosmonovinky.cz/kosmopedie/jak-saul-perlmutter-a-jeho-tym-hledali-zrychlene-rozpinani-vesmiru.html). Oba týmy mohly porovnávat závěry z vlastních pozorovacích programů a analýz.\n\nNezávislost neznamená, že nepoužívaly žádné společné fyzikální znalosti, přístroje nebo kalibrační podklady. Oba týmy například využívaly supernovy stejného typu. Proto jejich shoda výrazně pomáhala, ale nemohla automaticky vyloučit každou chybu, kterou by oba postupy sdílely."
       },
       {
         "heading": "Jak prověřit nečekaně slabé supernovy",
@@ -3358,7 +3358,7 @@
       },
       {
         "heading": "Co přinesla práce s více barvami",
-        "body": "Riess společně s **Williamem Pressem a Robertem Kirshnerem** popsal v roce **1996** metodu využívající tvary vícebarevných světelných křivek. Jejich vztah ke svítivosti se odvozoval z pozorovaných supernov, pro které byly dostupné doplňující údaje.\n\nBarvy pomáhají odhadnout, nakolik světlo zeslabil prach. Tvar křivky zase přispívá k určení skutečné svítivosti. Výsledkem je odhad vzdálenosti i jeho nejistoty. Nejde o přesné přečtení vzdálenosti z jediného čísla: metoda musí být kalibrována a její předpoklady kontrolovány."
+        "body": "Riess společně s **Williamem Pressem a Robertem Kirshnerem** popsal v roce **1996** metodu využívající tvary vícebarevných světelných křivek. Jejich vztah ke svítivosti se odvozoval z pozorovaných supernov, pro které byly dostupné doplňující údaje.\n\nRiessova metoda společně využívala průběh jasnosti v několika barevných oborech. Zohledňovala, že se supernovy liší vlastní svítivostí, barvou i rychlostí slábnutí a že jejich světlo může navíc zeslabit a zčervenat prach. Porovnáním s kalibračním souborem supernov umožňovala odhadnout vzdálenost i zeslabení světla po cestě."
       },
       {
         "heading": "Jak se z odhadů vzdálenosti stal kosmologický závěr",
@@ -3366,16 +3366,16 @@
       },
       {
         "heading": "Zrychlování rozpínání a dnešní hodnota H₀ jsou různé otázky",
-        "body": "Objev zrychleného rozpínání odpověděl na otázku, jak se rozpínání vesmíru během jeho historie měnilo. **Hubbleova konstanta H₀** naproti tomu udává, jak rychle se vesmír rozpíná dnes. Riess se podílel na výzkumu obou těchto otázek.\n\nRiess se později podílel také na zpřesňování žebříku vzdáleností, včetně projektu SH0ES, který propojuje geometrické kalibrace, cefeidy a supernovy. Rozdíl některých takto získaných hodnot H₀ a odhadů z reliktního záření patří k [Hubbleovu napětí](https://kosmonovinky.cz/kosmopedie/co-je-hubbleovo-napeti.html). Schéma níže ukazuje odlišnost obou cest; tento dnešní problém není totožný s objevem z roku 1998.",
+        "body": "Hubbleova konstanta H₀ udává dnešní rychlost rozpínání přepočtenou na jednotku vzdálenosti. Pomocí ní například odhadneme, jak rychle se vlivem rozpínání vzdaluje galaxie v určité vzdálenosti. Objev zrychleného rozpínání se týkal toho, jak se růst vzdáleností mezi místy unášenými rozpínáním mění v čase. Riess přispěl k výzkumu obou otázek.\n\nRiess se později podílel také na zpřesňování žebříku vzdáleností, včetně projektu SH0ES, který propojuje geometrické kalibrace, cefeidy a supernovy. Rozdíl některých takto získaných hodnot H₀ a odhadů z reliktního záření patří k [Hubbleovu napětí](https://kosmonovinky.cz/kosmopedie/co-je-hubbleovo-napeti.html). Schéma níže ukazuje odlišnost obou cest; tento dnešní problém není totožný s objevem z roku 1998.",
         "image_id": "schema-hubble-dve-cesty"
       },
       {
         "heading": "Jak správně připsat zásluhu",
-        "body": "Riess pracoval ve spolupráci vedené [Brianem Schmidtem](https://kosmonovinky.cz/kosmopedie/jak-brian-schmidt-a-jeho-tym-overovali-ze-se-rozpinani.html). Druhou nezávislou spolupráci vedl [Saul Perlmutter](https://kosmonovinky.cz/kosmopedie/jak-saul-perlmutter-a-jeho-tym-hledali-zrychlene-rozpinani-vesmiru.html). Nobelova cena z roku 2011 ocenila tuto trojici za objev zrychlování rozpínání.\n\nRiessův profil zdůrazňuje důležitou část celé cesty: jak převést pozorované světlo na porovnatelné vzdálenosti a ověřit, že překvapivý výsledek nevytvořila použitá metoda. Bez práce mnoha dalších pozorovatelů a spoluautorů by taková analýza neměla potřebná data."
+        "body": "Riess pracoval v týmu vedeném [Brianem Schmidtem](https://kosmonovinky.cz/kosmopedie/jak-brian-schmidt-a-jeho-tym-overovali-ze-se-rozpinani.html). Druhý nezávislý tým vedl [Saul Perlmutter](https://kosmonovinky.cz/kosmopedie/jak-saul-perlmutter-a-jeho-tym-hledali-zrychlene-rozpinani-vesmiru.html). Nobelova cena z roku 2011 ocenila tuto trojici za objev zrychlování rozpínání.\n\nRiessův profil zdůrazňuje důležitou část celé cesty: jak převést pozorované světlo na porovnatelné vzdálenosti a ověřit, že překvapivý výsledek nevytvořila použitá metoda. Bez práce mnoha dalších pozorovatelů a spoluautorů by taková analýza neměla potřebná data."
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Riess, Press a Kirshner: vícebarevné světelné křivky jako ukazatel vzdálenosti, 1996](https://arxiv.org/abs/astro-ph/9604143)\n- [Riess a kol.: důkazy zrychleného rozpínání ze supernov, 1998](https://arxiv.org/abs/astro-ph/9805201)\n- [SH0ES: měření Hubbleovy konstanty pomocí žebříku vzdáleností](https://esahubble.org/news/heic2208/)\n- [Nobelova cena 2011: oceněný objev](https://www.nobelprize.org/prizes/physics/2011/press-release/)"
+        "body": "- [Riess, Press a Kirshner: vícebarevné světelné křivky jako ukazatel vzdálenosti, 1996](https://arxiv.org/abs/astro-ph/9604143)\n- [Riess a kol.: důkazy zrychleného rozpínání ze supernov, 1998](https://arxiv.org/abs/astro-ph/9805201)\n- [SH0ES: měření Hubbleovy konstanty pomocí žebříku vzdáleností](https://esahubble.org/news/heic2208/)\n- [Nobelova cena 2011: oceněný objev](https://www.nobelprize.org/prizes/physics/2011/press-release/)\n- [Einstein Online: význam Hubbleovy konstanty](https://www.einstein-online.info/en/explandict/hubble-constant/)"
       }
     ],
     "why_box": "Riessův přínos ukazuje, jak mnoho záleží na převodu zachyceného světla na fyzikální údaj. Kalibrace a kontrola vlivu prachu jsou součástí samotného měření vzdálenosti, nikoli pouhý dodatek k objevu.",
@@ -3415,7 +3415,7 @@
       },
       {
         "heading": "Proč dnešní záření připomíná horkou minulost",
-        "body": "V raném vesmíru bylo světlo silně provázáno s nabitými částicemi. Když se vytvořily neutrální atomy a ubylo volných elektronů, mohlo se šířit mnohem volněji. Rozpínání později prodloužilo jeho vlnové délky.\n\nDnešní [reliktní záření](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html) má téměř tepelné spektrum odpovídající teplotě asi **2,7 kelvinu**. Původní pozorování na jedné vlnové délce však samo nezměřilo celý tento spektrální tvar. Přesné potvrzení jeho podoby a mapy drobných rozdílů přinesly další experimenty včetně družice COBE."
+        "body": "V raném vesmíru se fotony často rozptylovaly na volných elektronech. Když se při ochlazování vytvořily neutrální atomy a volných elektronů výrazně ubylo, mohlo se záření šířit mnohem volněji. Další rozpínání vesmíru prodlužovalo jeho vlnové délky.\n\nDnešní [reliktní záření](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html) má téměř tepelné spektrum odpovídající teplotě asi **2,7 kelvinu**. Původní pozorování na jedné vlnové délce však samo nezměřilo celý tento spektrální tvar. Přesné potvrzení jeho podoby a mapy drobných rozdílů přinesly další experimenty včetně družice COBE."
       },
       {
         "heading": "Co bylo vlastním objevem této dvojice",
@@ -3423,7 +3423,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Penzias a Wilson: A Measurement of Excess Antenna Temperature at 4080 Mc/s, 1965](https://articles.adsabs.harvard.edu/pdf/1965ApJ...142..419P)\n- [Dicke, Peebles, Roll a Wilkinson: Cosmic Black-Body Radiation, 1965](https://articles.adsabs.harvard.edu/pdf/1965ApJ...142..414D)\n- [NASA: měření a souběžná princetonská interpretace](https://asd.gsfc.nasa.gov/archive/mather/cosmology/history.html)\n- [Nobelova cena 1978: ocenění Penziasova a Wilsonova objevu](https://www.nobelprize.org/prizes/physics/1978/press-release/)"
+        "body": "- [Penzias a Wilson: A Measurement of Excess Antenna Temperature at 4080 Mc/s, 1965](https://articles.adsabs.harvard.edu/pdf/1965ApJ...142..419P)\n- [Dicke, Peebles, Roll a Wilkinson: Cosmic Black-Body Radiation, 1965](https://articles.adsabs.harvard.edu/pdf/1965ApJ...142..414D)\n- [NASA: měření a souběžná princetonská interpretace](https://asd.gsfc.nasa.gov/archive/mather/cosmology/history.html)\n- [Nobelova cena 1978: ocenění Penziasova a Wilsonova objevu](https://www.nobelprize.org/prizes/physics/1978/press-release/)\n- [Česká astronomická společnost: vznik reliktního záření](https://www.astro.cz/clanky/vzdaleny-vesmir/reliktni-zareni-i.html)"
       }
     ],
     "why_box": "Důležitý objev může začít přebytkem, který se zdá být vadou přístroje. Teprve důkladné kontroly a spojení s fyzikální předpovědí ukázaly, že jde o zprávu z horké minulosti vesmíru.",
@@ -3451,7 +3451,7 @@
     "sections": [
       {
         "heading": "Jak může teoretik měřitelně přispět",
-        "body": "James Peebles se narodil v roce 1935 v Kanadě a podstatnou část vědecké dráhy spojil s Princetonem. Při pohledu na mapu galaxií vidíme současný výsledek dlouhého vývoje. Abychom z ní vyčetli vlastnosti vesmíru, potřebujeme spočítat, jak se počáteční malé nerovnosti mohly měnit působením gravitace a rozpínání.\n\nPeebles rozvíjel právě tento druh popisu: vycházet z fyzikálních procesů, vypočítat jejich následky a porovnat je s daty. Teoretická práce zde nevytváří jen možné příběhy. Poskytuje předpovědi, podle nichž lze modely přijmout jako použitelné, omezit nebo odmítnout."
+        "body": "James Peebles se narodil v roce 1935 v Kanadě a podstatnou část vědecké dráhy spojil s Princetonem. Na mapě galaxií pozorujeme struktury vzniklé dlouhým vývojem vesmíru. Vzdálenější galaxie přitom vidíme v dřívějších obdobích, protože jejich světlo k nám letělo déle. Abychom z mapy vyčetli vlastnosti vesmíru, potřebujeme spočítat, jak se počáteční malé rozdíly hustoty měnily působením gravitace a rozpínání.\n\nPeebles rozvíjel právě tento druh popisu: vycházet z fyzikálních procesů, vypočítat jejich následky a porovnat je s daty. Teoretická práce zde nevytváří jen možné příběhy. Poskytuje předpovědi, podle nichž lze modely přijmout jako použitelné, omezit nebo odmítnout."
       },
       {
         "heading": "Spojení s objevem reliktního záření",
@@ -3500,7 +3500,7 @@
     "sections": [
       {
         "heading": "Galaxie uvnitř kupy nejsou nehybné",
-        "body": "Kupa galaxií obsahuje mnoho galaxií, horký plyn a další hmotu. Její členové se pohybují ve společném gravitačním poli. Z [jejich spekter](https://kosmonovinky.cz/kosmopedie/co-je-spektroskopie-a-co-nam-rika-svetlo.html) lze zjistit složku pohybu směrem k nám či od nás.\n\nZwicky v roce **1933** zkoumal rychlosti galaxií v kupě **Coma**, v souhvězdí Vlasů Bereniky. Zajímalo ho, jak velkou hmotnost by kupa potřebovala, aby odpovídala pozorovanému rozptylu rychlostí. Rozptyl zde znamená, o kolik se rychlosti jednotlivých galaxií liší od společného průměru."
+        "body": "Kupa galaxií obsahuje mnoho galaxií, horký plyn a další hmotu. Její členové se pohybují ve společném gravitačním poli. Z [jejich spekter](https://kosmonovinky.cz/kosmopedie/co-je-spektroskopie-a-co-nam-rika-svetlo.html) lze zjistit složku pohybu směrem k nám či od nás.\n\nZwicky v roce 1933 zkoumal rychlosti galaxií v kupě Coma v souhvězdí Vlasů Bereniky. Ze spekter určoval složky jejich rychlostí ve směru našeho pohledu a sledoval, jak široké je jejich rozdělení kolem průměrné hodnoty. Z této šířky a odhadu velikosti kupy odvozoval její hmotnost."
       },
       {
         "heading": "Jak se z pohybu odhaduje hmotnost",
@@ -3512,7 +3512,7 @@
       },
       {
         "heading": "Jiná zkouška než rotační křivky galaxií",
-        "body": "Zwicky sledoval **pohyb galaxií uvnitř kupy**. [Vera Rubinová a Kent Ford](https://kosmonovinky.cz/kosmopedie/co-vera-rubinova-zjistila-o-temne-hmote.html) později studovali **oběh látky uvnitř jednotlivých galaxií**. Jde o různé velikosti soustav a různé soubory měření.\n\nDnes se přidává gravitační čočkování, výzkum horkého plynu, reliktní záření a vznik struktur. Schéma níže připomíná současný test při srážce kup: světelná mapa plynu a mapa gravitačně působící hmotnosti nemusejí mít stejné rozložení. Jde o další výzkum, nikoli o Zwickyho původní metodu.",
+        "body": "Zwicky sledoval **pohyb galaxií uvnitř kupy**. [Vera Rubinová a Kent Ford](https://kosmonovinky.cz/kosmopedie/co-vera-rubinova-zjistila-o-temne-hmote.html) později studovali **oběh látky uvnitř jednotlivých galaxií**. Jde o různé velikosti soustav a různé soubory měření.\n\nDnes se přidává gravitační čočkování, výzkum horkého plynu, reliktní záření a vznik struktur. Schéma níže přibližuje měření při srážce kup galaxií. Rozložení horkého plynu zjišťujeme z jeho rentgenového záření. Rozložení celkové hmotnosti odvozujeme z gravitačního čočkování, tedy z deformací obrazů galaxií ležících za kupou.\n\nPři srážce dvou kup se jejich oblaka horkého plynu vzájemně střetávají a zpomalují. Galaxie mohou pokračovat dál a podle výkladu s temnou hmotou spolu s nimi postupuje i většina temné hmoty, která srážkou prochází téměř bez odporu. Největší koncentrace celkové hmotnosti odvozené z gravitačního čočkování pak nacházíme poblíž galaxií, zatímco zpomalený plyn zůstává za nimi. Na mapě oblohy se proto maxima rentgenového záření plynu nacházejí na jiných místech než maxima odvozené hmotnosti.",
         "image_id": "schema-kupy-plyn-a-hmota"
       },
       {
@@ -3521,7 +3521,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Zwicky: Die Rotverschiebung von extragalaktischen Nebeln, 1933](https://doi.org/10.5169/seals-110267)\n- [K. C. Freeman: Zwickyho měření kupy Coma a pozdější návaznosti](https://ned.ipac.caltech.edu/level5/Sept15/Freeman2/Freeman2.html)\n- [Caltech / Palomar: Zwicky, Baade a pozorovací programy](https://astro.caltech.edu/palomar/about/personalities.html)\n- [NASA: galaxie, kupy a jejich horký plyn](https://science.nasa.gov/universe/galaxies/large-scale-structures/)"
+        "body": "- [Zwicky: Die Rotverschiebung von extragalaktischen Nebeln, 1933](https://doi.org/10.5169/seals-110267)\n- [K. C. Freeman: Zwickyho měření kupy Coma a pozdější návaznosti](https://ned.ipac.caltech.edu/level5/Sept15/Freeman2/Freeman2.html)\n- [Caltech / Palomar: Zwicky, Baade a pozorovací programy](https://astro.caltech.edu/palomar/about/personalities.html)\n- [NASA: galaxie, kupy a jejich horký plyn](https://science.nasa.gov/universe/galaxies/large-scale-structures/)\n- [Chandra: rentgenové záření a gravitační čočkování v Bullet Clusteru](https://chandra.harvard.edu/photo/2006/1e0657/index.html)"
       }
     ],
     "why_box": "Pohyb může odhalit hmotu, kterou součet světla nezachytí. Zwickyho práce otevřela tuto otázku na úrovni kup galaxií; dnešní vysvětlení musí obstát i v dalších, nezávislých testech.",
@@ -3947,7 +3947,7 @@
       },
       {
         "heading": "Vybrané energie místo libovolných možností",
-        "body": "Bohr v roce **1913** navrhl, že elektron v atomu může zaujímat jen určité **energetické stavy**. Při přechodu mezi nimi atom vyzáří nebo pohltí světelné kvantum s energií odpovídající rozdílu obou stavů.\n\nJe-li rozdíl energií větší, má foton vyšší frekvenci. Z povolených přechodů tak vychází sada čar, kterou lze porovnat s měřením. Bohr tím propojil Rutherfordovo jádro s kvantovými myšlenkami Plancka a Einsteina.",
+        "body": "Bohr v roce 1913 předpokládal, že elektron může obíhat jádro jen po určitých dovolených drahách. Každé odpovídala určitá energie a elektron na ní podle modelu nevyzařoval. Při přechodu mezi dvěma takovými stavy se energie atomu změnila o množství odpovídající energii vyzářeného nebo pohlceného světelného kvanta.\n\nJe-li rozdíl energií větší, má foton vyšší frekvenci. Z povolených přechodů tak vychází sada čar, kterou lze porovnat s měřením. Bohr tím propojil Rutherfordovo jádro s kvantovými myšlenkami Plancka a Einsteina.",
         "image_id": "schema-kvantove-hladiny"
       },
       {
@@ -3964,7 +3964,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Niels Bohr Institute: vznik atomového modelu a práce z roku 1913](https://nbi.ku.dk/english/www/niels/bohr/bohratomet/)\n- [Nobel Prize: Niels Bohr](https://www.nobelprize.org/prizes/physics/1922/bohr/facts/)\n- [Niels Bohr Institute: od staré kvantové teorie k nové mechanice](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)"
+        "body": "- [Niels Bohr Institute: vznik atomového modelu a práce z roku 1913](https://nbi.ku.dk/english/www/niels/bohr/bohratomet/)\n- [Nobel Prize: Niels Bohr](https://www.nobelprize.org/prizes/physics/1922/bohr/facts/)\n- [Niels Bohr Institute: od staré kvantové teorie k nové mechanice](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)\n- [Niels Bohr Institute: historický atomový model](https://fysikleksikon.nbi.ku.dk/b/bohrmodel)"
       }
     ],
     "why_box": "Bohrův příběh vysvětluje, proč může několik úzkých čar ve světle vypovědět tolik o vzdálené hvězdě. Propojuje vlastnosti atomů s jednou z hlavních metod poznávání vesmíru.",
@@ -4049,7 +4049,7 @@
       },
       {
         "heading": "Co v roce 1927 vyjádřila neurčitost",
-        "body": "Představme si, že opakujeme pokus s elektrony za stejných výchozích podmínek. V jedné sérii měříme jejich polohu, ve druhé hybnost, tedy veličinu popisující jejich pohyb. Výsledky mají určitý rozptyl: některé hodnoty naměříme častěji, jiné méně často. **Heisenbergův princip říká, že čím užší je rozmezí možných poloh v určitém směru, tím širší musí být rozmezí odpovídajících hybností v témže směru.**\n\nJde o vlastnost kvantového stavu a o to, jaké výsledky může poskytovat. Praktický příklad i přesnější vysvětlení nabízí [samostatné téma o principu neurčitosti](https://kosmonovinky.cz/kosmopedie/co-rika-heisenberguv-princip-neurcitosti.html).",
+        "body": "Představme si dvě skupiny elektronů připravených ve stejném kvantovém stavu. U jedné skupiny měříme polohu, u druhé hybnost ve stejném směru. Z výsledků určíme šířku obou rozdělení pomocí směrodatných odchylek. Princip neurčitosti stanovuje dolní mez jejich součinu. Čím menší je směrodatná odchylka polohy, tím větší je nejmenší přípustná směrodatná odchylka hybnosti.\n\nJde o vlastnost kvantového stavu a o to, jaké výsledky může poskytovat. Praktický příklad i přesnější vysvětlení nabízí [samostatné téma o principu neurčitosti](https://kosmonovinky.cz/kosmopedie/co-rika-heisenberguv-princip-neurcitosti.html).",
         "image_id": "schema-kvantova-neurcitost"
       },
       {
@@ -4062,7 +4062,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Nobel Prize: Heisenberg a vznik nové mechaniky](https://www.nobelprize.org/prizes/physics/1932/heisenberg/biographical/)\n- [American Physical Society: princip neurčitosti v roce 1927](https://www.aps.org/apsnews/2008/02/1927-heisenberg-uncertainty-principle)\n- [Niels Bohr Institute: propojení maticové a vlnové mechaniky](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)"
+        "body": "- [Nobel Prize: Heisenberg a vznik nové mechaniky](https://www.nobelprize.org/prizes/physics/1932/heisenberg/biographical/)\n- [American Physical Society: princip neurčitosti v roce 1927](https://www.aps.org/apsnews/2008/02/1927-heisenberg-uncertainty-principle)\n- [Niels Bohr Institute: propojení maticové a vlnové mechaniky](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)\n- [David Tong: vztah neurčitosti](https://www.damtp.cam.ac.uk/user/tong/qm/qmhtml/S3.html)"
       }
     ],
     "why_box": "Heisenbergova práce pomáhá rozumět tomu, jaké otázky lze kvantové soustavě položit a jak přesně předpovídat rozdělení výsledků. Tyto vztahy používají dnešní přístroje i výpočty.",
@@ -4094,7 +4094,7 @@
       },
       {
         "heading": "Co znamená vlnová funkce",
-        "body": "Stav lze v tomto přístupu vyjádřit **vlnovou funkcí**. Je to matematický předpis, z něhož odvozujeme pravděpodobnosti výsledků měření. Význam pravděpodobností objasnil [Max Born](https://kosmonovinky.cz/kosmopedie/jak-max-born-propojil-vlnovou-funkci-s-pravdepodobnosti.html).\n\nU elektronu v atomu pomáhá vlnová funkce určit, ve kterých místech jej při opakovaných měřeních zachytíme častěji. Takové prostorové rozložení označujeme jako **orbital**. Jeho tvar přibližuje obrázek a podrobněji jej vysvětluje [téma o vlnové funkci](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).",
+        "body": "Stav lze v tomto přístupu vyjádřit **vlnovou funkcí**. Je to matematický předpis, z něhož odvozujeme pravděpodobnosti výsledků měření. Význam pravděpodobností objasnil [Max Born](https://kosmonovinky.cz/kosmopedie/jak-max-born-propojil-vlnovou-funkci-s-pravdepodobnosti.html).\n\nAtomový orbital je vlnová funkce popisující prostorovou část stavu jednoho elektronu v atomu. Z druhé mocniny její velikosti vypočítáme hustotu pravděpodobnosti nalezení elektronu. Obrázky orbitalů často vyznačují oblast, v níž bychom elektron nalezli s předem zvolenou pravděpodobností. Jeho zobrazení přibližuje obrázek a podrobněji jej vysvětluje [téma o vlnové funkci](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).",
         "image_id": "schema-orbital-pravdepodobnost"
       },
       {
@@ -4111,7 +4111,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Schrödinger: původní přehled vlnové mechaniky z roku 1926](https://doi.org/10.1103/PhysRev.28.1049)\n- [Nobel Prize: Schrödingerův život a práce](https://www.nobelprize.org/prizes/physics/1933/schrodinger/biographical/)\n- [Nobel Prize: ocenění Schrödingera a Diraca v roce 1933](https://www.nobelprize.org/prizes/physics/1933/summary/)"
+        "body": "- [Schrödinger: původní přehled vlnové mechaniky z roku 1926](https://doi.org/10.1103/PhysRev.28.1049)\n- [Nobel Prize: Schrödingerův život a práce](https://www.nobelprize.org/prizes/physics/1933/schrodinger/biographical/)\n- [Nobel Prize: ocenění Schrödingera a Diraca v roce 1933](https://www.nobelprize.org/prizes/physics/1933/summary/)\n- [IUPAC: definice atomového orbitalu](https://goldbook.iupac.org/terms/view/A00500)"
       }
     ],
     "why_box": "Schrödingerova rovnice spojuje několik jednoduchých fyzikálních vstupů s konkrétními předpověďmi. Díky ní rozumíme vlastnostem atomů, chemickým vazbám i materiálům, z nichž vyrábíme přístroje.",
@@ -4147,7 +4147,7 @@
       },
       {
         "heading": "Od jednoho zásahu k rozdělení výsledků",
-        "body": "Představme si, že opakujeme pokus s elektrony za stejných výchozích podmínek a zaznamenáváme, kam na detektor jednotlivé elektrony dopadnou. Každé zachycení vytvoří konkrétní zásah. Po dostatečném počtu opakování vznikne rozložení míst, které můžeme porovnat s výpočtem.\n\nMá-li vlnová funkce v některé oblasti větší velikost, očekáváme tam více zásahů. Jak se tato předpověď ověřuje na souboru měření, rozvádí [téma o pravděpodobnostním významu vlnové funkce](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).",
+        "body": "Představme si, že opakujeme pokus s elektrony za stejných výchozích podmínek a zaznamenáváme, kam na detektor jednotlivé elektrony dopadnou. Každé zachycení vytvoří konkrétní zásah. Po dostatečném počtu opakování vznikne rozložení míst, které můžeme porovnat s výpočtem.\n\nPravděpodobnost zásahu v určité oblasti získáme sečtením příspěvků hustoty pravděpodobnosti přes celou tuto oblast. Záleží tedy jak na velikosti vlnové funkce, tak na rozsahu oblasti. Při mnoha stejně připravených pokusech očekáváme více zásahů v oblasti s větší celkovou pravděpodobností. Jak se tato předpověď ověřuje na souboru měření, rozvádí [téma o pravděpodobnostním významu vlnové funkce](https://kosmonovinky.cz/kosmopedie/co-je-vlnova-funkce-a-co-nam-rika-o-castici.html).",
         "image_id": "schema-kvantova-pravdepodobnost"
       },
       {
@@ -4160,7 +4160,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Max Born: Nobelova přednáška o statistickém výkladu kvantové mechaniky](https://www.nobelprize.org/uploads/2018/06/born-lecture.pdf)\n- [Nobel Prize: Max Born a oceněný přínos](https://www.nobelprize.org/prizes/physics/1954/born/facts/)\n- [Niels Bohr Institute: vznik a výklad kvantové mechaniky](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)"
+        "body": "- [Max Born: Nobelova přednáška o statistickém výkladu kvantové mechaniky](https://www.nobelprize.org/uploads/2018/06/born-lecture.pdf)\n- [Nobel Prize: Max Born a oceněný přínos](https://www.nobelprize.org/prizes/physics/1954/born/facts/)\n- [Niels Bohr Institute: vznik a výklad kvantové mechaniky](https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation)\n- [David Tong: pravděpodobnostní popis kvantového stavu](https://www.damtp.cam.ac.uk/user/tong/qm/qmhtml/S3.html)"
       }
     ],
     "why_box": "Bornův výklad říká, jak z kvantového výpočtu získat předpověď pro měření. Díky tomu můžeme porovnávat teorii s četností skutečně zaznamenaných událostí.",
@@ -4249,7 +4249,7 @@
       },
       {
         "heading": "Jak jeho přínos rozvinula částicová fyzika",
-        "body": "V dnešní teorii pole částice a antičástice přirozeně patří do společného popisu. Diracova rovnice se používá také pro další fermiony, tedy částice se spinem podobného typu jako elektron.\n\nSpojení relativity a kvantových pravidel je základem [standardního modelu částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html). Přesné výpočty přitom zahrnují další interakce a opravy; jejich porovnávání s experimenty navazuje na otázky, které Dirac otevřel."
+        "body": "V dnešní teorii pole částice a antičástice patří do společného popisu. Diracova rovnice se používá pro částice se spinem ½, mezi něž patří elektron a kvarky. Tyto částice náleží mezi fermiony a podléhají Pauliho vylučovacímu principu.\n\nSpojení relativity a kvantových pravidel je základem [standardního modelu částicové fyziky](https://kosmonovinky.cz/kosmopedie/co-je-standardni-model-casticove-fyziky.html). Přesné výpočty přitom zahrnují další interakce a opravy; jejich porovnávání s experimenty navazuje na otázky, které Dirac otevřel."
       },
       {
         "heading": "Proč se jeho jméno objevuje u neutrin",
@@ -4257,7 +4257,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Dirac: původní práce The Quantum Theory of the Electron z roku 1928](https://doi.org/10.1098/rspa.1928.0023)\n- [Nobel Prize: Diracova rovnice a antihmota](https://www.nobelprize.org/prizes/physics/1933/dirac/facts/)\n- [Nobel Prize: Carl Anderson a objev pozitronu v roce 1932](https://www.nobelprize.org/prizes/physics/1936/anderson/facts/)"
+        "body": "- [Dirac: původní práce The Quantum Theory of the Electron z roku 1928](https://doi.org/10.1098/rspa.1928.0023)\n- [Nobel Prize: Diracova rovnice a antihmota](https://www.nobelprize.org/prizes/physics/1933/dirac/facts/)\n- [Nobel Prize: Carl Anderson a objev pozitronu v roce 1932](https://www.nobelprize.org/prizes/physics/1936/anderson/facts/)\n- [Cambridge: Diracova rovnice a spin](https://www.damtp.cam.ac.uk/events/dirac/dirac/highlights.html)"
       }
     ],
     "why_box": "Diracova práce ukazuje, jak může spojení dvou úspěšných teorií předpovědět novou částici. Jeho rovnice propojuje atomová měření, antihmotu i dnešní otázky o vlastnostech neutrin.",
