@@ -881,6 +881,18 @@
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n25ohzpk22ep",
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/clanky/castice-z-tmaveho-sektoru-by-mohly-vysvetlit-zahadne-signaly-z-2611173281.html",
-    "recorded_at": "2026-11-13T08:25:44.956120+00:00"
+    "recorded_at": "2026-11-13T08:25:44.956120+00:00",
+    "last_check_attempt_at": "2026-11-14T09:04:08.170012+00:00",
+    "publication_check_result": "unavailable"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_43b318a92796bb8165f7",
+    "title": "Uprostřed kosmické temnoty kde vesmír sestává pouze z vlastní galaxie. https://t.co/U7o4q7go6R",
+    "platform_id": "6af8240681e1228421f5b821",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-14T09:04:08.594382+00:00"
   }
 ]
