@@ -1,5 +1,25 @@
 [
   {
+    "id": "apod-2026-11-14",
+    "title": "Apollo 12 a Surveyor 3",
+    "caption": "Nasaďte si červenomodré brýle a pohlédněte na západní Oceán bouří na povrchu Měsíce. Tento 3D anaglyf zachycuje astronauta Apolla 12 Peta Conrada při návštěvě sondy Surveyor 3 v listopadu 1969, přičemž na obzoru stojí lunární modul Intrepid vzdálený necelých 200 metrů. Stereoskopický snímek byl pečlivě vytvořen ze dvou fotografií pořízených z mírně odlišných úhlů odpovídajících rozteči lidských očí.",
+    "thumb": "assets/gallery/apod-2026-11-14.jpg",
+    "image": "assets/gallery/apod-2026-11-14.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-14-apollo-12-and-surveyor-3/",
+    "published": "2026-11-14",
+    "credit": "Apollo 12 , Alan Bean - Stereo Image Copyright: Kevin Frank",
+    "creator": {
+      "@type": "Organization",
+      "name": "Apollo 12 , Alan Bean - Stereo Image Copyright: Kevin Frank"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-14-apollo-12-and-surveyor-3/",
+    "original_title": "Apollo 12 and Surveyor 3",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-14T08:24:15.790348+00:00"
+  },
+  {
     "id": "apod-2026-11-13",
     "title": "NGC 206 a hvězdná mračna v galaxii Andromeda",
     "caption": "Velká hvězdná asociace katalogizovaná jako NGC 206 se nachází v prašných ramenech sousední spirální galaxie v Andromedě (M31). Jasné modré hvězdy ukazují na její mládí, přičemž ty nejmladší hmotné hvězdy jsou staré méně než 10 milionů let. S průměrem kolem 4000 světelných roků je NGC 206 mnohem větší než otevřené hvězdokupy v Mléčné dráze a srovnatelná s obřími hvězdnými porodnicemi v jiných galaxiích.",
