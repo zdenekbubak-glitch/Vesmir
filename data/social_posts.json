@@ -882,7 +882,7 @@
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/clanky/castice-z-tmaveho-sektoru-by-mohly-vysvetlit-zahadne-signaly-z-2611173281.html",
     "recorded_at": "2026-11-13T08:25:44.956120+00:00",
-    "last_check_attempt_at": "2026-11-14T09:04:08.170012+00:00",
+    "last_check_attempt_at": "2026-11-15T08:23:40.097746+00:00",
     "publication_check_result": "unavailable"
   },
   {
@@ -894,5 +894,35 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-14T09:04:08.594382+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_3b2aee34f2a1e2594a7e",
+    "title": "Teleskop Euclid objevil 31 prastarých kvazarů z úsvitu vesmíru",
+    "platform_id": "6af96be4e5a113497ad54a9d",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/teleskop-euclid-objevil-31-prastarych-kvazaru-z-usvitu-vesmiru-202611261112.html",
+    "recorded_at": "2026-11-15T08:23:02.955371+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_3b2aee34f2a1e2594a7e",
+    "title": "Teleskop Euclid objevil 31 prastarých kvazarů z úsvitu vesmíru",
+    "platform_id": "6af96be8c5b364e062424bc2",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/teleskop-euclid-objevil-31-prastarych-kvazaru-z-usvitu-vesmiru-202611261112.html",
+    "recorded_at": "2026-11-15T08:23:07.891273+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_3b2aee34f2a1e2594a7e",
+    "title": "Teleskop Euclid objevil 31 prastarých kvazarů z úsvitu vesmíru",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n2cpfun222ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/clanky/teleskop-euclid-objevil-31-prastarych-kvazaru-z-usvitu-vesmiru-202611261112.html",
+    "recorded_at": "2026-11-15T08:23:40.186806+00:00"
   }
 ]
