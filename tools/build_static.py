@@ -658,14 +658,11 @@ def write_gallery_context(site, out, images, news, explainery, library, editor_p
 
 
 def home_news_teaser(item, href, library):
-    """Float only the news image; keep its full credit below the entire text."""
+    """Render the image and its credit as one preview beside the summary."""
     summary = article_summary_html(item.get("summary"))
     preview = thumbnail(lookup_image(item, 'news', library), href)
-    if not preview:
-        return '<div class="article-teaser news-teaser">' + summary + '</div>'
-    preview = preview.replace('<figure class="article-preview">',
-                              '<figure class="article-preview article-teaser news-teaser">', 1)
-    return preview.replace('<figcaption>', summary + '<figcaption>', 1)
+    return ('<div class="article-teaser news-teaser">' + preview
+            + '<div class="news-summary">' + summary + '</div></div>')
 
 
 def build_home_news(site, out, news, library, links, now=None):
@@ -876,7 +873,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
   <meta property="og:type" content="{og_type}">
   <meta property="og:site_name" content="Kosmologické novinky">
   {og}<style>{CSS}</style>
-  <link rel="stylesheet" href="/assets/article-previews.css">
+  <link rel="stylesheet" href="/assets/article-previews.css?v=20261115">
   <link rel="stylesheet" href="/assets/navigation.css">
   <script defer src="/assets/analytics.js"></script>
   <script>{COUNTER_JS}</script>

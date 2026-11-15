@@ -214,7 +214,7 @@
     }
   </style>
   <script defer src="/assets/analytics.js"></script>
-  <link rel="stylesheet" href="/assets/article-previews.css?v=20261104">
+  <link rel="stylesheet" href="/assets/article-previews.css?v=20261115">
   <script src="/assets/article-previews.js"></script>
   <link rel="stylesheet" href="/assets/navigation.css">
 </head>
@@ -316,15 +316,8 @@
     }
 
     function newsTeaserHtml(preview, summary) {
-      const paragraphs = summaryHtml(summary);
-      const template = document.createElement('template');
-      template.innerHTML = preview.html || '';
-      const figure = template.content.querySelector('figure.article-preview');
-      const caption = figure && figure.querySelector('figcaption');
-      if (!figure || !caption) return '<div class="article-teaser news-teaser">' + paragraphs + '</div>';
-      figure.classList.add('article-teaser', 'news-teaser');
-      caption.insertAdjacentHTML('beforebegin', paragraphs);
-      return figure.outerHTML;
+      return '<div class="article-teaser news-teaser">' + (preview.html || '')
+        + '<div class="news-summary">' + summaryHtml(summary) + '</div></div>';
     }
 
     function renderPost(item) {
