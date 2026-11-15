@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-15",
+    "title": "Leonidy napříč Orionem",
+    "caption": "Snímek zachycuje meteorický roj Leonid z roku 2022 z čínského ostrova Chaj-nan s pohledem nad Jihočínské moře. Stopy meteorů zaznamenané během několika hodin byly spojeny do jedné kompozice, na níž přelétají přes souhvězdí Orionu. Blízko horního okraje snímku září jasně červená planeta Mars.",
+    "thumb": "assets/gallery/apod-2026-11-15.jpg",
+    "image": "assets/gallery/apod-2026-11-15.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-15-leonid-meteors-through-orion/",
+    "published": "2026-11-15",
+    "credit": "Luo Hongyang",
+    "creator": {
+      "@type": "Person",
+      "name": "Luo Hongyang"
+    },
+    "copyrightNotice": "Luo Hongyang",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-15-leonid-meteors-through-orion/",
+    "original_title": "Leonid Meteors Through Orion",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-15T08:22:15.774400+00:00"
+  },
+  {
     "id": "apod-2026-11-14",
     "title": "Apollo 12 a Surveyor 3",
     "caption": "Nasaďte si červenomodré brýle a pohlédněte na západní Oceán bouří na povrchu Měsíce. Tento 3D anaglyf zachycuje astronauta Apolla 12 Peta Conrada při návštěvě sondy Surveyor 3 v listopadu 1969, přičemž na obzoru stojí lunární modul Intrepid vzdálený necelých 200 metrů. Stereoskopický snímek byl pečlivě vytvořen ze dvou fotografií pořízených z mírně odlišných úhlů odpovídajících rozteči lidských očí.",

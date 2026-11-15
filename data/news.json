@@ -1,5 +1,17 @@
 [
   {
+    "id": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm",
+    "title": "Teleskop Euclid objevil 31 prastarých kvazarů z úsvitu vesmíru",
+    "summary": "Vesmírný teleskop Euclid Evropské vesmírné agentury (ESA) objevil 31 prastarých kvazarů, tedy mimořádně jasných vesmírných majáků poháněných supermasivními černými dírami. Součástí nálezu jsou i dva rekordní objekty, které zářily jasností jednoho bilionu Sluncí v době, kdy byl vesmír starý pouhých 670 milionů let.\n\nTyto neobyčejně jasné zdroje světla pocházejí z doby, kdy se v mladém vesmíru teprve utvářely první galaxie. Pozorování teleskopu Euclid tak vědcům otevírá okno do rané epochy kosmu a ukazuje, jak tyto extrémní vesmírné objekty zářily na samém počátku vývoje galaktických struktur.\n\nProč je to zajímavé: Objev rekordně jasných kvazarů z doby krátce po vzniku vesmíru odhaluje prostředí, ve kterém se formovaly první galaxie a v jejichž centrech rostly supermasivní černé díry.",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm",
+    "source": "RSS",
+    "original_title": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
+    "published": "2026-11-15T01:52:47+00:00",
+    "inserted_at": "2026-11-15T08:21:59.154653+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2611.17242v1",
     "title": "Supernovy v jádrech kup galaxií pohasínají rychleji, ukazuje výzkum",
     "summary": "Nový výzkum archivních dat z astronomické přehlídky Zwicky Transient Facility (ZTF) se zaměřil na supernovy typu Ia v jádrech galaktických kup. Vědci zjistili, že v těchto oblastech se starou hvězdnou populací a potlačeným vznikem hvězd převládají supernovy s velmi rychlým poklesem jasnosti.\n\nTým pomocí výpočetní platformy AMPEL analyzoval 89 025 světelných jevů a vyčlenil dosud největší vzorek 4 969 pravděpodobných supernov typu Ia. V nejvnitřnějších jádrech kup (do vzdálenosti r ≤ 0,5 R₅₀₀ od středu) identifikoval 242 supernov. Tato populace pohasíná výrazně rychleji než supernovy ve vnějších částech kup nebo mimo ně, a to se statistickou významností přibližně 4σ. Barevné rozložení supernov se přitom mezi různými prostředími neliší.\n\nV jádrech kup galaxií se jen zřídka vyskytují supernovy typu Ia, které vybuchují krátce po vzniku hvězd. Vědci tak mohou přímo zkoumat vývoj hvězdných soustav, v nichž k výbuchu supernovy typu Ia dojde až po delší době od vzniku hvězd. Pozorování podporují model dvou populací, v němž tvar světelné křivky přímo určuje věk mateřských hvězd. Nízké roztažení světelných křivek u supernov v jádrech kup podle autorů ukazuje, že jejich pravděpodobnými původci jsou takzvané dvojitě degenerované systémy – dvojhvězdy tvořené bílými trpaslíky s celkovou hmotností pod Chandrasekharovou mezí.\n\nProč je to zajímavé: Odhalení vlivu věku hvězdných předchůdců na průběh výbuchu supernov typu Ia pomáhá objasnit přesné fyzikální mechanismy, které tyto klíčowe kosmologické události spouštějí.",
@@ -5813,16 +5825,6 @@
     "source": "arXiv",
     "original_title": "Precise bubble wall velocity in a specific phase transition pattern in the CxSM and beyond",
     "published": "2026-09-10T16:02:55+00:00",
-    "inserted_at": "2026-09-11T17:42:53.460053+00:00"
-  },
-  {
-    "id": "2609.11738v1",
-    "title": "Kvantová pole v zakřiveném vesmíru: Návrat ke známým pravidlům",
-    "summary": "Popisovat kvantová pole, jako je elektron, v zakřiveném nebo zrychlujícím se časoprostoru představuje značnou výzvu. Matematický popis a kvantová pravidla se totiž mění podle zvolené souřadnicové sítě a geometrie pozadí. Fyzici nyní představili elegantní způsob, jak tento problém vyřešit. Pomocí lokální redefinice fermionového pole dokázali převést základní matematické struktury do standardního tvaru známého z plochého Minkowskiho časoprostoru. Veškerá složitost zakřivení se tak přenáší pouze do transformovaného lagranžiánu, který získává přehlednou formu podobnou Schrödingerově rovnici. Tento krok výrazně zjednodušuje počítání obsazovacích čísel a analýzu nerelativistických limit. Proč je to zajímavé: Práce dává fyzikům praktický nástroj pro snazší studium kvantových jevů v blízkosti černých děr nebo v rotujících soustavách, aniž by museli opouštět osvědčený aparát standardní kvantové teorie.",
-    "url": "http://arxiv.org/abs/2609.11738v1",
-    "source": "arXiv",
-    "original_title": "Fermion quantum field theory on curved and non-inertial backgrounds in standard-Minkowski form",
-    "published": "2026-09-10T15:53:12+00:00",
     "inserted_at": "2026-09-11T17:42:53.460053+00:00"
   },
   {
