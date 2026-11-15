@@ -77,3 +77,32 @@
     border-top: 1px solid color-mix(in srgb, currentColor 25%, transparent);
   }
 }
+
+@media (width > 520px) {
+  #feed .news-teaser {
+    --news-preview-size: 144px;
+    grid-template-columns: minmax(0, 1fr) var(--news-preview-size);
+  }
+
+  #feed .news-teaser > .article-preview > a {
+    z-index: 1;
+  }
+
+  #feed .news-teaser > .article-preview img {
+    width: var(--news-preview-size);
+    height: var(--news-preview-size);
+  }
+
+  #feed .news-teaser > .news-summary {
+    grid-column: 1 / -1;
+  }
+
+  /* The image overlays this float, so only the adjacent lines are shortened. */
+  #feed .news-teaser > .article-preview + .news-summary::before {
+    content: "";
+    float: right;
+    width: var(--news-preview-size);
+    height: var(--news-preview-size);
+    margin: 0 0 .5rem 1rem;
+  }
+}
