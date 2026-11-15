@@ -873,7 +873,7 @@ def page_head(title, description, canonical, og_image=None, jsonld=None):
   <meta property="og:type" content="{og_type}">
   <meta property="og:site_name" content="Kosmologické novinky">
   {og}<style>{CSS}</style>
-  <link rel="stylesheet" href="/assets/article-previews.css?v=20261115">
+  <link rel="stylesheet" href="/assets/article-previews.css?v=20261115-2">
   <link rel="stylesheet" href="/assets/navigation.css">
   <script defer src="/assets/analytics.js"></script>
   <script>{COUNTER_JS}</script>
