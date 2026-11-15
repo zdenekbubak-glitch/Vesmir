@@ -65,3 +65,15 @@
 .news-summary > .summary { margin: 0; }
 .news-summary > .summary + .summary { margin-top: .85rem; }
 .news-summary:only-child { grid-column: 1 / -1; }
+
+@media (width > 520px) {
+  .article-teaser > .article-preview { display: contents; }
+  .article-teaser > .article-preview > a { grid-column: 2; grid-row: 1; }
+  .article-teaser > .article-preview > figcaption {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin: 0;
+    padding-top: .45rem;
+    border-top: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  }
+}
