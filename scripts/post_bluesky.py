@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Daily Bluesky post, using the existing local card. No Buffer or extra state commit.
+"""Daily Bluesky post with a clickable article card. No Buffer or extra state commit.
 
 One deterministic AT Protocol TID per UTC day prevents duplicates on reruns,
 including concurrent runs or a lost createRecord response. Publication is confirmed
 only after a public AppView read; pending visibility is a warning, not a failed
-write. --dry-run uses no API.
+write. --dry-run makes no publishing API calls.
 """
 import argparse
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from io import BytesIO
 import json
 import os
@@ -16,7 +17,7 @@ import time
 import re
 import unicodedata
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlencode, urlsplit
+from urllib.parse import urlencode, urljoin, urlsplit
 from urllib.request import Request, urlopen
 
 from social_tracking import post_key, tracked_url, receipt, article_url
@@ -76,23 +77,53 @@ def daily_key(day):
     return ''.join(reversed(chars))
 
 
-def prepare_image(path):
+class OpenGraphImage(HTMLParser):
+    image = None
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'meta':
+            attributes = dict(attrs)
+            if attributes.get('property') == 'og:image' and not self.image:
+                self.image = attributes.get('content')
+
+
+def prepare_image(target):
     from PIL import Image, ImageOps
-    data = path.read_bytes()
+    with urlopen(target, timeout=20) as response:
+        parser = OpenGraphImage()
+        parser.feed(response.read().decode('utf-8'))
+    if not parser.image:
+        return None
+
+    url = urljoin(target, parser.image)
+    parsed = urlsplit(url)
+    if parsed.scheme != 'https' or parsed.netloc != 'kosmonovinky.cz':
+        raise RuntimeError('Obrázek článku nemá očekávanou adresu.')
+    with urlopen(url, timeout=20) as response:
+        data = response.read(10_000_001)
+    if len(data) > 10_000_000:
+        raise RuntimeError('Obrázek článku je příliš velký.')
     with Image.open(BytesIO(data)) as original:
-        original.load()
         image = ImageOps.exif_transpose(original).convert('RGB')
-        width, height = image.size
-        if original.format == 'JPEG' and len(data) <= MAX_IMAGE_BYTES:
-            return data, width, height
-        # Recompress only the uploaded copy; never modify assets/cards/daily.jpg.
-        for quality in (92, 85, 75, 65):
+        image.thumbnail((1200, 1200))
+        for quality in (90, 80, 65):
             buf = BytesIO()
             image.save(buf, format='JPEG', quality=quality, optimize=True)
             data = buf.getvalue()
             if len(data) <= MAX_IMAGE_BYTES:
-                return data, width, height
-    raise RuntimeError('Karta je i po kompresi příliš velká pro Bluesky.')
+                return data
+    raise RuntimeError('Obrázek článku je i po kompresi příliš velký.')
+
+
+def article_embed(item, target, day):
+    return {
+        '$type': 'app.bsky.embed.external',
+        'external': {
+            'uri': tracked_url(target, 'bluesky', 'daily', post_key('bluesky', 'daily', day)),
+            'title': clean(item.get('title')) or 'Kosmologické novinky',
+            'description': shorten(clean(item.get('summary')).split('Proč je to zajímavé:')[0].strip(), 240),
+        },
+    }
 
 
 class ApiError(RuntimeError):
@@ -186,7 +217,7 @@ def confirm_publication(item, day, did, key, target):
     return
 
 
-def publish(item, card, day, handle, password, target):
+def publish(item, day, handle, password, target):
     session = api('https://bsky.social', 'com.atproto.server.createSession',
                   payload={'identifier': handle, 'password': password})
     did, token = session['did'], session['accessJwt']
@@ -217,19 +248,25 @@ def publish(item, card, day, handle, password, target):
                     stored_target = SITE_URL + (parsed.path or '/')
         confirm_publication(item, day, did, key, stored_target)
         return
-    data, width, height = prepare_image(card)
-    uploaded = api(pds, 'com.atproto.repo.uploadBlob', token=token, data=data)
-    blob = uploaded.get('blob')
-    if not blob or blob.get('mimeType') != 'image/jpeg':
-        raise RuntimeError('Bluesky nepotvrdilo nahrání JPEG karty.')
+    embed = article_embed(item, target, day)
+    try:
+        data = prepare_image(target)
+    except (OSError, ValueError, RuntimeError) as exc:
+        print(f'::warning::Bluesky: náhled obrázku není dostupný ({exc}).')
+        data = None
+    if data:
+        uploaded = api(pds, 'com.atproto.repo.uploadBlob', token=token, data=data)
+        blob = uploaded.get('blob')
+        if not blob or blob.get('mimeType') != 'image/jpeg':
+            raise RuntimeError('Bluesky nepotvrdilo nahrání náhledu článku.')
+        embed['external']['thumb'] = blob
+    else:
+        print('Bluesky: zveřejním klikací kartu bez náhledu obrázku.')
     text, facets = compose(item, target, day)
     record = {
         '$type': COLLECTION, 'text': text, 'facets': facets, 'langs': ['cs'],
         'createdAt': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
-        'embed': {'$type': 'app.bsky.embed.images', 'images': [{
-            'alt': shorten('Kosmologické novinky – ' + clean(item.get('title')), 900),
-            'image': blob, 'aspectRatio': {'width': width, 'height': height},
-        }]},
+        'embed': embed,
     }
     try:
         result = api(pds, 'com.atproto.repo.createRecord', token=token, payload={
@@ -256,27 +293,24 @@ def main():
     items = json.loads((root / 'data/news.json').read_text(encoding='utf-8'))
     today = [i for i in items if (i.get('inserted_at') or '')[:10] == day]
     if not today:
-        print('Bluesky: dnes žádná nová položka – kartu neposílám.')
+        print('Bluesky: dnes žádná nová položka – příspěvek neposílám.')
         return
     # Same ordering and Czech preference as scripts/generate_x_card.py:pick_item.
     item = pick_item(today)
     target = article_url(item, items)
-    card = root / 'assets/cards/daily.jpg'
-    if not card.is_file():
-        raise RuntimeError('Chybí assets/cards/daily.jpg – nic neodesláno.')
     text, _ = compose(item, target, day)
     if args.dry_run:
-        data, width, height = prepare_image(card)
+        data = prepare_image(target)
         print(f'NÁHLED – nic se neodesílá. Klíč dne: {daily_key(day)}')
-        print(f'Karta: {width}×{height}, {len(data)} bajtů; text: {len(text)}/300 znaků')
+        print(f'Náhled: {len(data) if data else 0} bajtů; text: {len(text)}/300 znaků')
         print(text)
-        print('Cílový článek: ' + target)
+        print('Cíl karty: ' + article_embed(item, target, day)['external']['uri'])
         return
     handle = os.environ.get('BLUESKY_HANDLE', 'zdenekbubak.bsky.social').strip()
     password = os.environ.get('BLUESKY_APP_PASSWORD', '').strip()
     if not password:
         raise RuntimeError('V GitHub Secrets chybí BLUESKY_APP_PASSWORD.')
-    publish(item, card, day, handle, password, target)
+    publish(item, day, handle, password, target)
 
 
 if __name__ == '__main__':
