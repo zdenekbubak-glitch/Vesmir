@@ -324,34 +324,38 @@
     "id": "exp-008",
     "title": "Co je neutronová hvězda?",
     "theme": "neutronove-hvezdy",
-    "description": "Neutronová hvězda: zbytek po supernově o velikosti města a hmotnosti Slunce. Proč je nejhustější hmotou vesmíru, jak pulsuje a proč se z některých stanou černé díry?",
+    "description": "Jak vzniká neutronová hvězda? Co drží pohromadě objekt o hmotnosti srovnatelné se Sluncem a průměru jen několika desítek kilometrů?",
     "published": "2026-10-17",
     "updated": "2026-10-25",
-    "perex": "Neutronová hvězda je zbytek jádra umírající hmotné hvězdy — koule o průměru zhruba 20 kilometrů, do níž je vmáčknuta hmotnost větší než hmotnost Slunce. Je to nejhustější hmota ve vesmíru: jedna čajová lžička jejího materiálu by na Zemi vážila přes miliardu tun.",
+    "perex": "Neutronová hvězda je mimořádně hustý pozůstatek jádra hmotné hvězdy. Do koule o průměru zhruba 20 až 25 kilometrů se vejde víc hmoty, než má Slunce. Pro představu o hustotě: objem čajové lžičky vyplněný látkou o typické hustotě jejího nitra by odpovídal hmotnosti řádově miliardy tun.",
     "sections": [
       {
         "heading": "Zbytek po hvězdném výbuchu",
-        "body": "Když hmotná hvězda vyčerpá své jaderné palivo, její jádro už nedokáže odolávat vlastní gravitaci a prudce se zhroutí. Vnější vrstvy hvězdy vyletí do vesmíru jako supernova — na několik týdnů zjasní víc než celá galaxie. Ale jádro zůstane: zhroutí se z velikosti Země na kouli o průměru asi 20 kilometrů, velikosti malého města. Tuto možnost teoreticky předpověděli už v roce 1934 Walter Baade a Fritz Zwicky — desetiletí předtím, než byla potvrzena pozorováním. V roce 1967 pak Jocelyn Bell Burnellová objevila záhadné pravidelné radiové signály, které nakonec vysvětlily právě neutronové hvězdy."
+        "body": "Na konci života hmotné hvězdy se její jádro může zhroutit vlastní gravitací. Pokud je výbuch supernovy úspěšný, vyvrhne vnější vrstvy hvězdy do okolí. Z jádra může zůstat neutronová hvězda. Možnost vzniku neutronových hvězd při supernovách navrhli Walter Baade a Fritz Zwicky už ve 30. letech 20. století. V roce 1967 zachytila Jocelyn Bell Burnellová pravidelné rádiové pulzy. Jejich zdrojem se ukázaly být rychle rotující neutronové hvězdy."
       },
       {
         "heading": "Nejhustší hmota, jakou známe",
-        "body": "Hustota neutronové hvězdy je neuvěřitelná: odpovídá hustotě atomového jádra. Jedna čajová lžička materiálu z jejího vnitřku by vážila přes miliardu tun — víc než všechny lidské stavby dohromady. Gravitace na povrchu je stovky miliardkrát silnější než na Zemi; pokud byste z výšky jednoho metru upustili kladívko, dopadlo by rychlostí blízkou rychlosti světla. Čas tam běží měřitelně pomaleji podle obecné teorie relativity — hodiny na povrchu neutronové hvězdy by se oproti těm na Zemi zpozdily o několik sekund za hodinu. Fyzikové proto říkají, že neutronové hvězdy jsou laboratoře extrémní fyziky, jaké nelze vytvořit na Zemi."
+        "body": "Hustota ve velké části nitra neutronové hvězdy je srovnatelná s hustotou atomových jader nebo ji převyšuje. Silná gravitace ovlivňuje i chod hodin. U nerotující neutronové hvězdy o hmotnosti 1,4 Slunce a poloměru 12 kilometrů by za hodinu naměřenou daleko od hvězdy uplynulo na jejím povrchu přibližně 49 minut. Jde o příklad založený na obecné relativitě. Přesný rozdíl závisí na hmotnosti a poloměru hvězdy."
       },
       {
         "heading": "Co ji drží pohromadě",
-        "body": "Když se jádro zhroutí, elektrony a protony se sloučí v neutrony — odtud název. Tlak degenerovaného neutronového plynu, kvantově mechanický efekt, který brání částicím zcela splývat, se postaví na odpor gravitaci a hvězda se ustálí. Toto rovnovážné řešení ale existuje jen do určité hmotnosti. Podobně jako bílého trpaslíka (jehož maximální hmotnost určil Subrahmanyan Chandrasekhar — 1,4 hmotnosti Slunce), i neutronovou hvězdu gravitace při překročení limitu rozdrtí. Kde přesně tato hranice leží, dnes nevíme přesně; odhady se pohybují kolem 2–2,5 hmotnosti Slunce. Nad ní už žádná známá síla nezabrání kolapsu do černé díry."
+        "body": "Při kolapsu jádra se část protonů a elektronů přemění na neutrony. Vzniklá hvězda má pevnou kůru a velmi husté nitro, v němž podle současných modelů převažují neutrony. Gravitaci vyvažuje tlak husté hmoty. Ten vyplývá z kvantových vlastností částic i z jejich vzájemného působení. Pozorujeme neutronové hvězdy s hmotnostmi kolem dvojnásobku hmotnosti Slunce. Přesnou nejvyšší hmotnost stabilní nerotující neutronové hvězdy zatím neznáme. Rychlá rotace může umožnit stabilitu i při vyšší hmotnosti. Pokud se rovnováha ztratí, hvězda může zkolabovat do černé díry."
       },
       {
         "heading": "Majáky vesmíru: pulsary",
-        "body": "Mnoho neutronových hvězd rotuje řádově jednou za sekundu až milisekundu — zůstatek rychlé rotace původní hvězdy, zachované zmenšením jako když krasobruslařka přitáhne ruce. Mají také extrémní magnetická pole, která urychlují částice a vytvářejí úzké paprsky radiového záření. Pokud paprsek šťastnou náhodou směřuje k Zemi, vidíme jej jako blikající majík — pulsar. Perioda pulsarů je tak stabilní, že se měří v nanosekundách a předčí přesnost atomových hodin. Dvojhvězda s pulsanem PSR B1913+16 (Hulseova–Taylorova) umožnila v 70. letech první nepřímý důkaz gravitačních vln — Nobelova cena 1993.",
+        "body": "Rotující neutronová hvězda může vysílat svazky záření z oblastí poblíž magnetických pólů. Když při rotaci svazek opakovaně míří k Zemi, zaznamenáváme pulzy a objekt pozorujeme jako pulsar. Některé pulsary vykonají stovky otáček za sekundu a jejich pulzy lze přesně časovat. U dvojhvězdy PSR B1913+16 astronomové zjistili, že se její oběžná doba postupně zkracuje. Změna odpovídala ztrátě energie vyzařováním gravitačních vln a poskytla první nepřímý důkaz jejich existence.",
         "image_id": "schema-neutronove-hvezdy-pulsar"
       },
       {
         "heading": "Extrémní příbuzní a kosmické srážky",
-        "body": "Neutronové hvězdy mají ještě divočejší příbuzné. Magnetary mají magnetická pole bilionkrát silnější než Země — jejich erupce dokážou zhasnout radiový signál z celé galaxie. A když se dvě neutronové hvězdy srazí, nastane kilonova: exploze, při níž se zrodí velké množství těžkých prvků — zlata, platiny, uranu. V roce 2017 astronomové poprvé pozorovali srážku neutronových hvězd dvojím způsobem současně: gravitačními vlnami (GW170817) a světlem. Výpočty ukazují, že většina těžkých prvků ve vesmíru — včetně zlata ve vašich špercích — pochází právě z těchto srážek."
+        "body": "Magnetar je neutronová hvězda s mimořádně silným magnetickým polem. Uvolnění energie z tohoto pole může vyvolat prudké záblesky rentgenového a gama záření. Při splynutí dvou neutronových hvězd se zase může část jejich hmoty rozptýlit do okolí. V tomto materiálu vznikají těžká jádra a jejich radioaktivní rozpady mohou pohánět záření kilonovy. První takové splynutí pozorované gravitačními vlnami i elektromagnetickým zářením bylo GW170817 v roce 2017."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA, neutronové hvězdy](https://imagine.gsfc.nasa.gov/science/objects/neutron_stars1.html)\n- [NASA/NICER, rozměry neutronových hvězd](https://heasarc.gsfc.nasa.gov/docs/nicer/science_nuggets/20240905.html)\n- [Lattimer a Prakash, měření hmotnosti a vlastnosti husté hmoty](https://arxiv.org/abs/1012.3208)\n- [Nobelova přednáška Russella Hulse](https://www.nobelprize.org/uploads/2018/06/hulse-lecture.pdf)\n- [ESO, identifikace stroncia](https://eso.org/public/czechia/news/eso1917/)"
       }
     ],
-    "why_box": "Neutronová hvězda je jediný objekt ve vesmíru, kde se můžete dotknout hmoty, která existuje stabilně jen díky své hustotě — hmoty složené téměř výhradně z neutronů, bez atomů, bez chemie. A když nosíte zlatý šperk, nosíte na sobě důkaz kosmické srážky: zlato nevzniklo ve hvězdách běžnou termonukleární fúzí, ale v chaosu srážky dvou neutronových hvězd. Tento materiál se pak stal součástí mlhoviny, ze které se teprve později zformovala Sluneční soustava včetně naší Země.",
+    "why_box": "Neutronové hvězdy umožňují zkoumat hmotu při mimořádně vysokých hustotách. Když dvě takové hvězdy splynou, mohou při tom vznikat těžké prvky. Ve spektru kilonovy po události GW170817 astronomové identifikovali stroncium. Ze splynutí neutronových hvězd může pocházet i část zlata ve vašem šperku.",
     "related_explainery": [
       "co-je-cerna-dira-a-jak-vznika",
       "co-jsou-gravitacni-vlny",
@@ -582,41 +586,45 @@
     "id": "exp-014",
     "title": "Co jsou magnetary a pulsary?",
     "theme": "neutronove-hvezdy",
-    "description": "Pulsary jsou kosmické hodiny s přesností atomových hodin, magnetary mají nejsilnější magnetická pole ve vesmíru. Co jsou zač?",
+    "description": "Jak vznikají pravidelné pulzy neutronových hvězd a proč některé z nich vysílají prudké záblesky rentgenového a gama záření?",
     "published": "2026-10-18",
     "updated": "2026-10-18",
-    "perex": "Pulsary a magnetary jsou dvě tváře neutronových hvězd: rotující majáky s přesností hodin a magnetické příšery s poli bilionkrát silnějšími než pozemská. Oba vznikají smrtí hvězd.",
+    "perex": "Pulsary se projevují pravidelnými pulzy, které souvisejí s jejich rotací. Magnetary vynikají mimořádně silným magnetickým polem, jehož energie může pohánět prudké erupce. Některé neutronové hvězdy se projevují oběma způsoby.",
     "sections": [
       {
-        "heading": "Dva extrémy jedné hvězdy",
-        "body": "Pulsary a magnetary jsou dvě nejextrémnější podoby neutronových hvězd. Pulsar je rotující neutronová hvězda, která svítí jako maják — záblesk magnetického pole a záření k nám dopadá v přesných intervalech, někdy s přesností atomových hodin. Magnetar je ještě divočejší: neutronová hvězda s magnetickým polem tak silným, že by na Zemi zničilo kreditní kartu na vzdálenost tisíců kilometrů."
+        "heading": "Co označujeme jako pulsar a co jako magnetar",
+        "body": "Pulsar poznáme podle opakovaných pulzů záření. Magnetar rozeznáváme podle projevů mimořádně silného magnetického pole. I magnetar může vysílat pravidelné pulzy, zejména v rentgenovém oboru a u některých objektů také v rádiovém."
       },
       {
         "heading": "Zrození neutronové hvězdy",
-        "body": "Neutronová hvězda vzniká zhroucením velké hvězdy — jádro se zhroutí do průměru asi 20 kilometrů, tak hustého, že jedna čajová lžička jeho hmoty váží miliardy tun. Většina neutronových hvězd se narodí s rotací a silným magnetickým polem. Když se hvězda zhroutí, zachová si většinu své rotace (podobně jako krasobruslařka přitáhnou paže), takže se může točit i stokrát za sekundu."
+        "body": "Při kolapsu se jádro hvězdy prudce zmenší. Pokud si přitom uchová část momentu hybnosti, tedy veličiny popisující jeho rotační pohyb, roztočí se rychleji. Podobně zrychlí krasobruslařka, když přitáhne paže k tělu. Neutronová hvězda může dále zrychlit v dvojhvězdě, kde na ni přitéká hmota z průvodce. Tak vzniká řada milisekundových pulsarů."
       },
       {
         "heading": "Pulsar — maják vesmíru",
-        "body": "Pulsar je přesný hodinový stroj vesmíru. Má dvě magnetické „koróny\" u pólů; rotací se tyto směry střídavě obrací k Zemi a my vidíme pravidelný záblesk — pulz. Některé pulsary rotují s přesností lepší než atomové hodiny a po desetiletích se jejich rytmus téměř nezmění. Astronomové je používají k testování obecné teorie relativity a k hledání gravitačních vln: když gravitační vlna projde mezi námi a pulsarem, na okamžik naruší jeho tikot."
+        "body": "Z oblastí poblíž magnetických pólů mohou vycházet svazky záření. Jestliže při otáčení hvězdy některý svazek pravidelně přechází přes směr k Zemi, rádiový dalekohled zaznamenává pulzy. Astronomové sledují přesné časy příchodu pulzů a při výpočtu zohledňují například postupné prodlužování doby jedné otáčky a vliv mezihvězdného plynu."
       },
       {
-        "heading": "Magnetar — nejsilnější magnet",
-        "body": "Magnetar je specifický typ pulsaru, který při svém zrodu získal extrémně rychlou rotací magnetické pole bilionkrát silnější než pozemské. Toto pole je tak mohutné, že zcela diktuje chování hvězdy: deformuje její povrch, vyvolává obří erupce rentgenového záření a občas způsobí mimořádný úkaz – záblesk, který během jediné sekundy vyzáří tolik energie jako Slunce za desetitisíce let. V Mléčné dráze jich známe zhruba třicet a představují ty nejsilnější magnety ve vesmíru."
+        "heading": "Magnetické erupce",
+        "body": "Magnetar je neutronová hvězda, jejíž aktivitu výrazně ovlivňuje silné magnetické pole. Změny pole mohou namáhat pevnou kůru a uvolňovat energii v okolí hvězdy. Pozorujeme krátké záblesky rentgenového záření a vzácně také obří erupce gama záření."
       },
       {
-        "heading": "Záhada původu pole",
-        "body": "Největší nezodpovězenou otázkou je původ samotného pole. Proč mají některé neutronové hvězdy pole bilionkrát silnější než Slunce? Teorie nabízejí dva scénáře: buď se pole zformovalo už při kolapsu hvězdy a zesílilo uvnitř díky turbulenci (dynamo), nebo se krátce po zrození hvězdy v jejím nitru rozpadly částice zvané axiony a energie se proměnila v magnetismus. Pátrání po správné odpovědi probíhá — a každý nový magnetar, který astronomové pozorují, přináší vodítka."
+        "heading": "Původ pole",
+        "body": "Jak magnetary získávají tak silné pole, zůstává otevřenou otázkou. Jednou z možností je, že při zhroucení zesílí pole původní hvězdy. Další možností je zesílení pole působením rychlé rotace a proudění vodivé hmoty v mladé neutronové hvězdě. Takový proces se označuje jako magnetické dynamo."
       },
       {
         "heading": "Jak magnetar poznáme",
-        "body": "Magnetary odhalujeme až podle jejich chování. Normální pulsar tiká pravidelně; magnetar pulsy nepravidelné a často slabé, občas ale vysílá obří záblesky. Nejsilnější zaznamenaný — erupce magnetaru SGR 1806-20 v roce 2004 — zasáhl Zemi přes půl galaxie a po dobu deseti vteřin narušila ionosféru silněji než Slunce. I kdybychom magnetar nikdy neviděli přímo, jeho záblesky prozradí, co se uvnitř děje: pole se trhá, povrch praská, koróny se zhroutí."
+        "body": "Magnetary prozrazuje proměnlivé rentgenové záření a krátké erupce. Mimořádně silný záblesk magnetaru SGR 1806−20 z prosince 2004 bylo možné zaznamenat i u Země. Jeho záření měřitelně ovlivnilo zemskou ionosféru."
       },
       {
         "heading": "Hranice nejsou ostré",
-        "body": "Hranice mezi oběma typy není ostrá — pozorujeme i přechodné formy, a neutronové hvězdy se časem mění. Rychle rotující pulsar zpomaluje a jeho magnetické pole slábne; některé z nich se mohou později projevit jako magnetary. A když se dvě neutronové hvězdy srazí, výsledkem je ještě divočejší událost — srážka, která generuje gravitační vlny a zároveň vytváří polovinu prvků těžších než železo, včetně zlata ve vašem prstenu."
+        "body": "Pulsar poznáme podle pravidelných pulzů spojených s rotací. U běžného pulsaru dodává energii záření otáčení hvězdy, které se tím postupně zpomaluje. U magnetaru je hlavním zdrojem energie jeho mimořádné aktivity silné magnetické pole. I magnetar může při každé otáčce vyslat naším směrem svazek záření, takže pozorujeme pravidelné pulzy.\n\nPřekryv funguje i opačně. U některých běžně pozorovaných pulsarů astronomové zachytili náhlé rentgenové erupce podobné těm u magnetarů. Taková erupce ukazuje, že se u hvězdy může projevit i energie magnetického pole. Při zařazení mezi magnetary astronomové posuzují širší soubor pozorování, například jak se hvězda chová mezi erupcemi a zda samotná rotace dokáže vysvětlit množství energie, které vyzařuje."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA/NICER, pozorování rotujícího magnetaru](https://www.nasa.gov/universe/nasas-nicer-telescope-sees-hot-spots-merge-on-a-magnetar/)\n- [NANOGrav, časování pulsarů](https://nanograv.org/15yr/Summary/Timing)\n- [NANOGrav, korelace způsobené gravitačními vlnami](https://nanograv.org/15yr/Summary/Background)\n- [NASA, obří erupce magnetarů](https://www.nasa.gov/universe/nasas-fermi-satellite-finds-hints-of-starquakes-in-magnetar-storm/)\n- [Kaspi a Beloborodov, přehled magnetarů](https://arxiv.org/abs/1703.00068)\n- [Pozorování erupce pulsaru PSR J1119−6127](https://arxiv.org/abs/1608.01007)"
       }
     ],
-    "why_box": "Pulsary jsou tak přesné, že slouží jako kosmické hodiny — když jeden „zmešká\" o zlomek milisekundy, víme, že mezi námi a ním prolétla gravitační vlna, nebo že v mezihvězdném prostoru něco světlo zpomalilo. Magnetary zase ukazují, jak fyzika chová v extrémech, které si na Zemi nikdy nenapodobíme. Obojí vzniklo ze smrti hvězdy — a přitom slouží k tomu, abychom vesmír lépe pochopili.",
+    "why_box": "Při hledání gravitačních vln astronomové sledují mnoho pulsarů po řadu let. V datech hledají společný vzor drobných odchylek v časech příchodu pulzů. Záleží přitom i na tom, jak daleko od sebe pulsary vidíme na obloze.",
     "related_explainery": [
       "co-je-neutronova-hvezda",
       "co-jsou-gravitacni-vlny",
@@ -949,34 +957,38 @@
     "id": "exp-022",
     "title": "Jak vznikly těžké prvky ve vesmíru?",
     "theme": "neutronove-hvezdy",
-    "description": "Zlato ve vašem prstenu vzniklo ve srážce neutronových hvězd. Kde se berou těžké prvky, proč fúze stačí jen do železa a jaký byl objev kilonovy.",
+    "description": "Jak ve vesmíru vznikají prvky těžší než železo a co nám o tom prozradila kilonova po splynutí neutronových hvězd?",
     "published": "2026-10-18",
     "updated": "2026-10-25",
-    "perex": "Vodík a helium ve vašem těle vznikly ve chvílích po velkém třesku, uhlík a kyslík v nitru hvězd. Ale zlato, platina nebo uran? Ty vznikají jen tam, kde je neutronů víc než atomů – při výbuchu supernovy a hlavně při srážce neutronových hvězd. Teoretici to tušili desetiletí, ale přímý důkaz přišel až v roce 2017, kdy se srážku dvou neutronových hvězd podařilo pozorovat gravitačními vlnami i světlem současně.",
+    "perex": "Většina vodíku a helia má původ v raném vesmíru. Uhlík a kyslík vznikaly převážně ve hvězdách. K tvorbě mnoha prvků těžších než železo vede záchyt neutronů. Ten může probíhat pomalu v nitru některých hvězd nebo velmi rychle v látce bohaté na neutrony. Jedno takové prostředí nám pomohlo poznat splynutí neutronových hvězd v roce 2017.",
     "sections": [
       {
         "heading": "Z čeho jsme",
-        "body": "Lidské tělo je složeno z prvků, které vznikly v různých dobách a místech vesmíru. Vodík vznikl přibližně tři minuty po velkém třesku, helium o něco později. Uhlík, kyslík a dusík vznikly v nitrech hvězd, které před miliardami let shořely nebo explodovaly jako supernovy a svůj materiál rozptýlily do vesmíru. To vědci věděli přesně. Ale prvky těžší než železo – zlato, platina, rtuť, uran – se v hvězdách běžnou fúzí vyrobit nedají, protože fúze prvků těžších než železo spotřebovává energii místo toho, aby ji uvolňovala. Původ těchto prvků představoval pro vědce dlouholetou hádanku spojenou s jednou z největších otázek moderní astrofyziky: jaké astrofyzikální objekty jsou zdrojem rychlého záchytu neutronů (r-procesu)?"
+        "body": "Jádrem nejběžnějšího vodíku je proton. V prvních minutách po velkém třesku se z části protonů a neutronů vytvořila jádra helia a menší množství dalších lehkých izotopů. Uhlík, dusík a kyslík vznikaly později ve hvězdách. Hvězdy tyto prvky vracejí do mezihvězdného prostoru například hvězdnými větry a při výbuších supernov."
       },
       {
-        "heading": "Fúze stačí jen do železa",
-        "body": "Hvězdy jsou fúzní reaktory. V jádru Slunce se spojují jádra vodíku na helium a uvolňuje se energie, která nás zahřívá. V hmotnějších hvězdách fúze pokračuje dál – helium na uhlík, uhlík na kyslík, až po železo. Tam fúze končí. Železo je nejstabilnější prvek a jeho další slučování už neuvolňuje energii, ale spotřebovává ji. Hvězda pak nedokáže udržet rovnováhu, kolabuje a exploduje jako supernova. I při tomto výbuchu vzniká jen malé množství těžkých prvků – zdaleka ne tolik, kolik ve vesmíru vidíme. Někde musí existovat efektivnější továrna."
+        "heading": "Kam až hvězdu pohání fúze",
+        "body": "Hmotné hvězdy mohou postupně vytvářet jádra až v oblasti železa a niklu. Další slučování těchto jader už neposkytuje energii, která by pomáhala udržet jádro hvězdy proti gravitaci. Mnoho těžších jader vzniká jinou cestou. Již existující jádro zachytí neutrony a následnými přeměnami mohou vzniknout nové prvky."
       },
       {
-        "heading": "Záhada r-procesu",
-        "body": "Vědci tušili, že odpověď spočívá v rychlém záchytu neutronů (r-proces): když je kolem atomového jádra náhle mnoho neutronů, jádro je začne pohlcovat dříve, než se stihnou rozpadnout, a posouvá se tak po periodické tabulce k těžkým prvkům. K tomu ale potřebujete prostředí s obrovskou hustotou neutronů. Supernovy byly dlouho hlavním podezřelým, ale výpočty ukazovaly, že by jich vznikalo příliš málo. Dalším kandidátem byly srážky neutronových hvězd – nejhustějších objektů ve vesmíru. Při srážce dvou takových hvězd se uvolňuje obrovské množství neutronů a materiál se houpá v silném gravitačním poli. Ideální podmínky pro r-proces. Chyběl jen důkaz.",
+        "heading": "Jak funguje rychlý záchyt neutronů",
+        "body": "Při r-procesu jádra zachycují neutrony tak rychle, že mohou přijmout několik dalších neutronů dřív, než se radioaktivně přemění. Při následných beta rozpadech se některé neutrony v jádře mění na protony. Tím roste protonové číslo a vznikají jiné prvky. Takové podmínky může poskytnout například látka vyvržená při splynutí neutronových hvězd.",
         "image_id": "schema-neutrony-a-prvky"
       },
       {
-        "heading": "Kilonova: továrna na zlato",
-        "body": "Dne 17. srpna 2017 detekovaly observatoře LIGO a Virgo srážku dvou neutronových hvězd (událost GW170817). Během hodin zamířily desítky teleskopů k události a v následujících dnech pozorovaly záblesk v celém elektromagnetickém spektru. Výsledek potvrdil, co teoretici předpovídali: srážka neutronových hvězd produkuje obrovské množství těžkých prvků – včetně zlata, platiny a uranu. Odhadovalo se, že při této jediné srážce vzniklo zlato o hmotnosti několika desítek Zemí. Spektroskopie ukázala přímé stopy po těchto prvcích. Záhada r-procesu byla vyřešena – alespoň z větší části. Dnes vědci věří, že většina zlata ve vesmíru pochází právě z těchto srážek."
+        "heading": "Co ukázala kilonova v roce 2017",
+        "body": "Dne 17. srpna 2017 zachytily detektory LIGO gravitační vlny ze splynutí dvou neutronových hvězd. Údaje z detektoru Virgo pomohly určit oblast na obloze. Dalekohledy následně našly světelný protějšek a sledovaly jeho vývoj. Záření kilonovy odpovídalo modelům, v nichž vyvrženou látku zahřívají radioaktivní rozpady nově vzniklých jader. Pozdější rozbor spektra odhalil stroncium. Tento nález doložil, že při splynutí neutronových hvězd vznikají prvky záchytem neutronů."
       },
       {
         "heading": "Ještě zbývá dořešit",
-        "body": "I když kilonovy jsou hlavním zdrojem, nejsou jediným. Nejtěžší prvky – některé izotopy uranu a plutonia – možná vznikají i při specifických typech supernov, kde rotace hvězdy vytváří silné magnetické pole, které urychluje r-proces. A objevy pokračují: další srážky neutronových hvězd přinášejí stále přesnější data o tom, kolik kterých prvků vzniká. Příští generace gravitačních observatoří odhalí tyto srážky pravidelně a každá přinese nové informace. Chemie vesmíru je stále otevřená kniha – a my čteme teprve první kapitoly."
+        "body": "Splynutí neutronových hvězd jsou doloženým místem vzniku těžkých jader záchytem neutronů. Vědci zkoumají, jak velká část prvků jako zlato a platina pochází právě z těchto událostí a jakou roli hrají například některé vzácné typy hvězdných výbuchů. K odhadu potřebují vědět, jak často jednotlivé události nastávají a kolik kterých prvků při nich vzniká."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [NASA, prvotní nukleosyntéza](https://science.nasa.gov/universe/overview/)\n- [LIGO/Virgo, pozorování GW170817](https://www.ligo.caltech.edu/page/press-release-gw170817)\n- [Watson a kol., identifikace stroncia](https://www.eso.org/public/archives/releases/sciencepapers/eso1917/eso1917a.pdf)\n- [Siegel a kol., možný příspěvek kolapsů hmotných hvězd](https://arxiv.org/abs/1810.00098)"
       }
     ],
-    "why_box": "Zlato ve vašem prstenu vzniklo ve srážce dvou neutronových hvězd – nejhustějších objektů vesmíru – před miliardami let. Část materiálu z této srážky se dostala do oblaku, z nějž vznikla Sluneční soustava, a jeden z těch atomů skončil právě ve vašem šperku. Podívejte se na něj: je to důkaz kosmické události, kterou nikdo nikdy neviděl přímo, ale jejíž stopy nosíme na sobě. Nejvzácnější kov na Zemi je vlastně produktem nejextrémnějších fyzikálních dějů ve vesmíru.",
+    "why_box": "Ve spektru kilonovy po splynutí dvou neutronových hvězd astronomové identifikovali stroncium. Pozorování tak ukázalo jedno z míst, kde ve vesmíru vznikají těžké prvky. Podíl jednotlivých zdrojů na celkovém množství zlata a dalších prvků zůstává předmětem výzkumu.",
     "related_explainery": [
       "co-je-neutronova-hvezda",
       "co-zatim-gravitacni-vlny-odhalily",
