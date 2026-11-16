@@ -882,7 +882,7 @@
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/clanky/castice-z-tmaveho-sektoru-by-mohly-vysvetlit-zahadne-signaly-z-2611173281.html",
     "recorded_at": "2026-11-13T08:25:44.956120+00:00",
-    "last_check_attempt_at": "2026-11-15T08:23:40.097746+00:00",
+    "last_check_attempt_at": "2026-11-16T09:03:58.746951+00:00",
     "publication_check_result": "unavailable"
   },
   {
@@ -921,8 +921,42 @@
     "key": "bluesky_daily_3b2aee34f2a1e2594a7e",
     "title": "Teleskop Euclid objevil 31 prastarých kvazarů z úsvitu vesmíru",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n2cpfun222ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/clanky/teleskop-euclid-objevil-31-prastarych-kvazaru-z-usvitu-vesmiru-202611261112.html",
-    "recorded_at": "2026-11-15T08:23:40.186806+00:00"
+    "recorded_at": "2026-11-15T08:23:40.186806+00:00",
+    "last_check_attempt_at": "2026-11-16T09:03:58.746951+00:00",
+    "publication_checked_at": "2026-11-16T09:03:58.746951+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_dd714331515c7296b24c",
+    "title": "Mise Euclid Evropské kosmické agentury odhalila více než devět set milionů galaxií a tisíce vzácných jevů, které pomáhají vyřešit tajemství temného vesmíru. Nově zveřejněná data slouží k vytvoření největší 3D mapy kosmu.\nhttps://t.co/cwXK6jdE2v",
+    "platform_id": "6afac6fd8e87c256a3c62a0e",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-16T09:03:59.033235+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_e80a6e27db4f00a6debd",
+    "title": "Vesmírná show pana Vanguarda: Jedna supernova, tři představení. Webbův dalekohled zachytil první obraz výbuchu a na dvě reprízy si počkáme zhruba 73 a 76 let.\nMějte se pozemsky!\n\n#MateVkus #vesmir #astronomie https://t.co/d1BQnevDaK",
+    "platform_id": "6afac7008e87c256a3c62aa8",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-16T09:04:01.994525+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "reply",
+    "key": "x_reply_4a98e62c846500a93cba",
+    "title": "Nová počítačová simulace vytvořená vědci z Harvardu přináší detailní pohled na vývoj raného vesmíru.\nhttps://t.co/lu4L04FzHp",
+    "platform_id": "6afac7038e87c256a3c62b6f",
+    "status": "draft",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-16T09:04:03.685520+00:00"
   }
 ]
