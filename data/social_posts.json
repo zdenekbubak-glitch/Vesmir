@@ -958,5 +958,15 @@
     "status": "draft",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-16T09:04:03.685520+00:00"
+  },
+  {
+    "source": "linkedin",
+    "kind": "weekly",
+    "key": "linkedin_weekly_af40659fc9f7a95a6d28",
+    "title": "Týdenní výběr Kosmologických novinek: 10. listopadu – 16. listopadu 2026",
+    "platform_id": "6afac9c4ff465c57dae88ec0",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-16T09:15:49.482797+00:00"
   }
 ]
