@@ -1,5 +1,89 @@
 [
   {
+    "id": "2611.17374",
+    "title": "Mění se temná energie s rozpínáním vesmíru? Nový model v teorii VCDM",
+    "summary": "Fyzici v novém výzkumu navrhli teoretický model temné energie nazvaný HoloEoS, ve kterém závisí stavová rovnice temné energie na rychlosti rozpínání vesmíru, popsané Hubbleovým parametrem. Tento model zasadili do teorie VCDM, což je minimálně modifikovaná gravitace typu II, která stejně jako Einsteinova obecná relativita šíří pouze dva tenzorové režimy gravitačních vln.\n\nV rámci teorie VCDM autoři rekonstruovali potenciál pomocného skalárního pole a popsali vývoj homogenního pozadí i vesmírných poruch. Tento přístup umožňuje temné energii hladce překročit takzvanou fantomovou hranici, kde je hodnota její stavové rovnice w = −1. Vědci následně tento model srovnali s pozorováními reliktního záření z teleskopů Planck, ACT a SPT, měřeními vzdáleností z přehlídky DESI DR2 a daty o supernovách z přehlídky DESY5 a porovnali jej se standardním kosmologickým modelem LambdaCDM.\n\nProč je to zajímavé: Studie ukazuje, jak lze teoreticky zkonstruovat proměnnou temnou energii v modifikované gravitaci a prověřit její souhlas s nejnovějšími kosmologickými daty.",
+    "url": "https://arxiv.org/abs/2611.17374",
+    "source": "arXiv",
+    "original_title": "Holographically motivated Hubble-running dark energy: Phantom-divide crossing in VCDM and observational constraints",
+    "published": "2026-11-16T05:00:00+00:00",
+    "inserted_at": "2026-11-16T08:22:16.450950+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.17405",
+    "title": "Mapování vesmíru pomocí Lymanova alfa lesa: Nový model prověřily simulace",
+    "summary": "Vědci navrhli nový teoretický model založený na efektivní teorii pole pro komplexní analýzu takzvaného Lymanova alfa lesa. Jde o soustavu absorpčních čar neutrálního vodíku ve spektrech vzdálených světelných zdrojů, která funguje jako detailní mapa hmoty v raném vesmíru. Nový postup kombinuje tradiční výkonové spektrum měřící korelace dvojic bodů – včetně vzájemné korelace s haly temné hmoty zastupujícími kvazary – s takzvaným bispektrem, které vyhodnocuje geometrické vztahy mezi trojicemi bodů.\n\nPrávě přidání bispektra pomáhá odstranit dosavadní nejasnost a odlišit od sebe průměrný tok záření a amplitudu hustotních odchylek vodíku. Autoři svou metodiku úspěšně prověřili na počítačových simulacích AbacusSummit při rudém posuvu z = 2,5. Analýza ze simulovaných dat dokázala získat přesné a nezkreslené hodnoty kosmologických parametrů pro vlnová čísla až do k_max = 0,6 h Mpc⁻¹ u výkonového spektra a 0,1 h Mpc⁻¹ u bispektra.\n\nProč je to zajímavé: Připravený teoretický rámec umožní vytěžit maximum informací z rozsáhlých reálných pozorování, která v současnosti provádí spektroskopický přístroj DESI.",
+    "url": "https://arxiv.org/abs/2611.17405",
+    "source": "arXiv",
+    "original_title": "Full-shape analysis of the Lyman-alpha forest power spectrum and bispectrum: validation on simulations",
+    "published": "2026-11-16T05:00:00+00:00",
+    "inserted_at": "2026-11-16T08:22:16.450950+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.17422",
+    "title": "Model slábnoucího temného sektoru překonává standardní kosmologii",
+    "summary": "Fyzici prověřili model slábnoucího temného sektoru (FDS), který vychází z teorie strun a předpokládá, že proměnlivost temné energie a temné hmoty řídí fyzikální skalární pole. Výzkumníci zjistili, že tento model předpovídá vývoj kosmických struktur přesněji než dosavadní standardní kosmologický model.\n\nDo analýzy vědci poprvé zahrnuli měření celkového tvaru spektra výkonu galaxií z přehlídky DESI DR1, které popisuje časový vývoj vesmírné struktury. Po skloubení s daty reliktního záření (světelného otisku raného vesmíru) a baryonových akustických oscilací (zvukových vln v prastaré plazmě) dosáhl model FDS výrazně lepší shody s pozorováními. V porovnání se standardním kosmologickým modelem ΛCDM je nová teorie preferována se statistickou významností 4,1 σ a překonává i dosud populární parametrizaci CPL se zlepšením shody o Δχ² MAP = −4 při stejném počtu parametrů. Klíčové parametry zůstaly beze změny, což potvrzuje správnost předpovědi modelu pro růst struktur.\n\nProč je to zajímavé: Výsledky ukazují, že temný sektor vesmíru nemusí být neměnný, což dává naději na propojení teoretické fyziky strun s přímým pozorováním vývoje kosmu.",
+    "url": "https://arxiv.org/abs/2611.17422",
+    "source": "arXiv",
+    "original_title": "The Full-Shape Analysis of the Fading Dark Sector Model",
+    "published": "2026-11-16T05:00:00+00:00",
+    "inserted_at": "2026-11-16T08:22:16.450950+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.17425",
+    "title": "Strojové učení zabydluje simulace temné hmoty galaxiemi z projektu FLAMINGO",
+    "summary": "Hydrodynamické simulace jsou klíčové pro analýzu pozorovaného shlukování galaxií a odhad kosmologických parametrů. Kombinace velkého objemu simulovaného vesmíru a vysokého rozlišení je však výpočetně nesmírně náročná. Autoři nové studie proto navrhli způsob, jak pomocí strojového učení doplnit galaxie do jednodušších simulací obsahujících pouze temnou hmotu, k čemuž využili data z kosmologického projektu FLAMINGO.\n\nVědci využili vztah mezi galaxiemi a halo temné hmoty, což jsou obří shluky neviditelné hmoty tvořící gravitační základ pro vznik galaxií. Pro centrální galaxie použili algoritmus zvaný extrémně náhodné stromy (Extremely Randomized Trees), který učili na odpovídajících si strukturách z hydrodynamických i čistě gravitačních simulací. Pro satelitní galaxie vyvinuli emulátor založený na gaussovských procesech, který vyhledává klíčové vlastnosti temné hmoty určující hmotnost hvězd a zároveň minimalizuje citlivost na odchylky mezi oběma typy simulací.\n\nProč je to zajímavé: Tento postup umožňuje efektivně vytvářet obří katalogy galaxií bez nutnosti spouštět výpočetně náročné hydrodynamické simulace, což usnadní interpretaci reálných astronomických pozorování.",
+    "url": "https://arxiv.org/abs/2611.17425",
+    "source": "arXiv",
+    "original_title": "Augmenting Galaxy Catalogues using Machine Learning in the FLAMINGO Simulations",
+    "published": "2026-11-16T05:00:00+00:00",
+    "inserted_at": "2026-11-16T08:22:16.450950+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.17538",
+    "title": "Simulace IllustrisTNG ukazují, jak tvar galaxií zkresluje měření H₀",
+    "summary": "Vědci za pomoci hydrodynamické simulace IllustrisTNG zkoumali, jak nepravidelnosti v rozložení hmoty masivních eliptických galaxií ovlivňují určování Hubbleovy konstanty H₀, která popisuje rychlost rozpínání vesmíru. Využili k tomu metodu zvanou kosmografie s časovým zpožděním. Ta vychází ze silného gravitačního čočkování, při němž masivní galaxie zakřivuje světlo ze vzdáleného objektu a vytváří jeho násobné obrazy s odlišnou dobou doletu světelných paprsků. Autoři zjistili, že složitější úhlové odchylky hmoty, takzvané multipóly se stupni m = 1, 3 a 4, vznikají běžně během vývoje galaxií a jejich zanedbání při modelování čočky způsobuje zkreslení výsledků.\n\nPodle výpočtů upřednostnila zahrnutí multipólů před běžným eliptickým modelem nadpoloviční většina simulovaných galaxií (51 % z celkového vzorku, přičemž v podskupině TNG50-1 to bylo až 85 %). Odchylky tvaru o velikosti pouhých dvou procent vnášejí do odhadu H₀ systematickou chybu 1–2 % u multipólu m = 1, 4–5 % u m = 3 a 3–6 % u m = 4. Zatímco mód m = 4 odpovídající diskovitému či hranatému tvaru způsobuje předvídatelný směrový posun, liché módy vnášejí do měření výrazný náhodný rozptyl.\n\nProč je to zajímavé: Studie ukazuje, že k dosažení potřebné přesnosti pod 2 % pro vyřešení nesrovnalostí v rychlosti rozpínání vesmíru je nutné při modelování gravitačních čoček zohlednit i drobné tvarové nepravidelnosti galaxií.",
+    "url": "https://arxiv.org/abs/2611.17538",
+    "source": "arXiv",
+    "original_title": "Multipoles in the IllustrisTNG simulation galaxies and implications for Strong Gravitational Lens modelling in Time-delay Cosmography",
+    "published": "2026-11-16T05:00:00+00:00",
+    "inserted_at": "2026-11-16T08:22:16.450950+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.17552",
+    "title": "Kvantová teorie určila nejlepší způsob měření odchylek reliktního záření",
+    "summary": "Výzkum se zabýval otázkou, zda mohou pokročilé kvantové technologie pomoci při detekci extrémně slabých odchylek v spektru reliktního záření, tedy nejstaršího světla ve vesmíru. Autoři s využitím kvantové Fisherovy informace, což je teoretický nástroj pro stanovení maximální dosažitelné přesnosti měření, dokázali, že optimální strategií zůstává klasické měření intenzity rozdělené do jednotlivých frekvenčních pásem.\n\nNa základě tohoto důkazu vědci spočítali minimální teoretickou dobu pozorování nutnou k detekci spektrálních odchylek typu μ a y, které předpovídá standardní kosmologický model ΛCDM. Tyto teoretické limity porovnali s koncepty připravovaných kosmických misí PIXIE a SPECTER a zjistili, že jejich navržené přístroje se nacházejí již jen několik řádů od absolutní kvantové hranice.\n\nProč je to zajímavé: Studie ukazuje, že k dosažení teoretického maxima citlivosti při zkoumání raného vesmíru není nutné vyvíjet složité kvantové detekční triky, ale stačí dále zpřesňovat stávající metody měření intenzity.",
+    "url": "https://arxiv.org/abs/2611.17552",
+    "source": "arXiv",
+    "original_title": "Note on quantum optimal measurements of CMB spectral distortions",
+    "published": "2026-11-16T05:00:00+00:00",
+    "inserted_at": "2026-11-16T08:22:16.450950+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.17676",
+    "title": "Nový model předpovídá koncentraci hal temné hmoty z historie jejich vzniku",
+    "summary": "Astrofyzici navrhli nový empirický model pro předpovídání koncentrace, tedy míry nahloučení hmoty v centru jednotlivých hal temné hmoty. Halami temné hmoty nazýváme obří neviditelné obálky tvořené temnou hmotou, ve kterých vznikají galaxie. Model funguje pro vesmír tvořený chladnou i teplou temnou hmotou v rozsahu rudého posuvu z = 0 až 5, což představuje ukazatel kosmologického času a vzdálenosti.\n\nVědci model sestavili na základě rozsáhlých počítačových simulací N-těles, které výpočetně modelují gravitaci velkého množství částic. Výpočetní model samostatně započítává rozpínání vesmíru, počáteční hustotní odchylky, historii narůstání hmoty zapsanou pomocí teoretického rámce rozšířené Press-Schechterovy teorie (EPS) a útlumový člen pro teplou temnou hmotu. \n\nZ výsledků simulací vyplynulo, že u stabilizovaných hal zůstává rozptyl koncentrace téměř konstantní na hodnotě 0,09 dex. U všech hal bez ohledu na jejich stabilizaci však při rudém posuvu z > 3 rozptyl roste z 0,10 na 0,18 dex, což dokládá silný dopad překotných dynamických dějů v raném vesmíru. Při dané hmotnosti je rozptyl koncentrace určen především historií vzniku daného hala.\n\nProč je to zajímavé: Výzkum přináší přesný nástroj pro propojení historie vývoje vesmírných struktur s jejich vnitřní hustotou, což pomůže lépe pochopit vlastnosti temné hmoty i vznik raných galaxií.",
+    "url": "https://arxiv.org/abs/2611.17676",
+    "source": "arXiv",
+    "original_title": "Predicting Individual Dark Matter Halo Concentrations from Their Assembly Histories",
+    "published": "2026-11-16T05:00:00+00:00",
+    "inserted_at": "2026-11-16T08:22:16.450950+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm",
     "title": "Teleskop Euclid objevil 31 prastarých kvazarů z úsvitu vesmíru",
     "summary": "Vesmírný teleskop Euclid Evropské vesmírné agentury (ESA) objevil 31 prastarých kvazarů, tedy mimořádně jasných vesmírných majáků poháněných supermasivními černými dírami. Součástí nálezu jsou i dva rekordní objekty, které zářily jasností jednoho bilionu Sluncí v době, kdy byl vesmír starý pouhých 670 milionů let.\n\nTyto neobyčejně jasné zdroje světla pocházejí z doby, kdy se v mladém vesmíru teprve utvářely první galaxie. Pozorování teleskopu Euclid tak vědcům otevírá okno do rané epochy kosmu a ukazuje, jak tyto extrémní vesmírné objekty zářily na samém počátku vývoje galaktických struktur.\n\nProč je to zajímavé: Objev rekordně jasných kvazarů z doby krátce po vzniku vesmíru odhaluje prostředí, ve kterém se formovaly první galaxie a v jejichž centrech rostly supermasivní černé díry.",
@@ -5758,26 +5842,6 @@
     "inserted_at": "2026-09-13T08:09:58.434368+00:00"
   },
   {
-    "id": "2609.11525v1",
-    "title": "Regulární černé díry pod drobnohledem: Odhalí je gravitační vlny a stíny?",
-    "summary": "Klasické černé díry obsahují ve svém středu takzvanou singularitu – bod s nekonečnou hustotou, kde selhávají známé fyzikální zákony. Teoretičtí fyzikové proto navrhují modely regulárních černých děr, které singularitu neobsahují. Nová studie zkoumá rotující a nabité verze dvou takových modelů (ABG a BPR) a srovnává je se standardní Einsteinovou teorií. Vědci analyzovali jejich kvazinormální mody (vibrace), vyzařování i tvar stínů testovatelných Teleskopem horizontu událostí (EHT). Zatímco model BPR je od běžných černých děr téměř nerozeznatelný, model ABG vykazuje při vysoké rotaci a náboji měřitelné odchylky. Proč je to zajímavé: Budoucí přesná pozorování gravitačních vln a stínů černých děr by nám mohla poprvé pomoci potvrdit či vyvrátit existenci černých děr bez fyzikálně problematických singularit.",
-    "url": "http://arxiv.org/abs/2609.11525v1",
-    "source": "arXiv",
-    "original_title": "Signatures of charged rotating regular black holes: quasinormal modes, grey-body factors and shadows",
-    "published": "2026-09-10T13:27:05+00:00",
-    "inserted_at": "2026-09-11T17:59:59.858460+00:00"
-  },
-  {
-    "id": "2609.11511v1",
-    "title": "Záhadné extrémní neutrino: Může za něj výbuch prvotní černé díry?",
-    "summary": "Nedávný záchyt neutrina o rekordní energii 220 PeV detektorem KM3NeT představuje záhadu pro standardní astrofyzikální modely. Vědci proto navrhují, že částice pochází z finálního výbuchu prvotní černé díry vzniklé v raném vesmíru. Zahrnutí rozpínání vesmíru do evoluce černé díry ukazuje, že raná akrece hmoty a kosmická expanze změnily dobu jejího života. Díky tomu mohla přečkat až do dnešní epochy, kdy zaniká intenzivním Hawkingovým vyzařováním. Tento dynamický model přirozeně vysvětluje naměřený tok neutrin bez porušení limitů pro kosmologické pozadí a spojuje dnešní pozorování s poruchami hustoty v nejranějším vesmíru. Proč je to zajímavé: Pozorování extrémních neutrin by mohlo sloužit jako unikátní okno do prvních okamžiků po velkém třesku a pomoci odhalit původ prvotních černých děr.",
-    "url": "http://arxiv.org/abs/2609.11511v1",
-    "source": "arXiv",
-    "original_title": "Cosmological Evolution of Primordial Black Holes: UV/IR Decoupling and the KM3NeT 220 PeV Neutrino Anomaly",
-    "published": "2026-09-10T13:18:16+00:00",
-    "inserted_at": "2026-09-11T17:59:59.858460+00:00"
-  },
-  {
     "id": "2609.11510v1",
     "title": "Jak kvantové vlny temné hmoty nafukují a tvarují galaxie",
     "summary": "Snímky z vesmírného teleskopu Euclid ukázaly, že většina blízkých trpasličích galaxií má nečekaně rozptýlený tvar. Vědci navrhují, že za tímto jevem stojí vlnová temná hmota tvořená ultralehkými bozony. Kvantové interference a pohyb hustého jádra temné hmoty postupně předávají energii okolním hvězdám a rozptylují je na vzdálenější oběžné dráhy. Galaxie se tak během miliard let doslova „nafukují“. Model vysvětluje vývoj od kompaktních zárodků pozorovaných teleskopem JWST v raném vesmíru až po dnešní řídké galaxie a zároveň umožňuje přesně stanovit hmotnost hledané částice temné hmoty. Proč je to zajímavé: Studie elegantně propojuje kvantovou mikrofyziku s makroskopickou strukturou vesmíru a nabízí jasně testovatelný scénář vývoje galaxií zkoumatelný nejmodernějšími teleskopy.",
@@ -5786,46 +5850,6 @@
     "original_title": "Generating the wide sequence of Diffuse Galaxies with de Broglie waves of Dark Matter",
     "published": "2026-09-10T13:17:36+00:00",
     "inserted_at": "2026-09-11T17:59:59.858460+00:00"
-  },
-  {
-    "id": "2609.11465v1",
-    "title": "Hvězdné uzly v srdci galaxií: Fosilní svědci z počátku vesmíru",
-    "summary": "Astrofyzici zkoumali pomocí pokročilých kosmologických simulací CIELO centra 54 galaxií a objevili v nich husté hvězdné struktury, takzvané hvězdné uzly. Tyto útvory o velikosti kolem jednoho kiloparsecu leží v samém srdci galaktických výdutí. Analýza ukázala, že uzly vznikly velmi překotně během pouhých dvou miliard let z prvotního plynu přímo na místě, a nikoli pohlcováním jiných galaxií. Jsou výrazně obohaceny o alfa-prvky, což svědčí o bleskové tvorbě hvězd v raných fázích vývoje vesmíru. Většina uzlů má kulovitý tvar a představuje nejstarší dosud zachovanou populaci hvězd v galaxiích. Proč je to zajímavé: Tyto struktury fungují jako jakási vesmírná časová kapsle, která astronomům umožňuje přímo nahlédnout do divokých počátků formování galaktických jader.",
-    "url": "http://arxiv.org/abs/2609.11465v1",
-    "source": "arXiv",
-    "original_title": "The properties of central stellar knots embedded in galactic bulges of CIELO simulations",
-    "published": "2026-09-10T12:35:57+00:00",
-    "inserted_at": "2026-09-11T17:59:59.858460+00:00"
-  },
-  {
-    "id": "https://www.sciencedaily.com/releases/2026/09/260910225251.htm",
-    "title": "Fyzici odhalili drobnou chybu v čase: Čas má fundamentální limit",
-    "summary": "Některé nekonvenční kvantové teorie naznačují, že čas v sobě skrývá drobnou, ale absolutní nejistotu. Tato fundamentální neurčitost stanovuje konečný limit pro přesnost, s níž lze čas měřit jakýmikoliv představitelnými hodinami. Ačkoliv je tento jev svými rozměry daleko za hranicemi možností dnešních nejcitlivějších detektorů, má pro teoretickou fyziku obrovský význam. Mohl by totiž poodhalit dosud skryté propojení mezi světem kvantové mechaniky, gravitací a samotnou strukturou časoprostoru. Proč je to zajímavé: Objev této časové nejistoty poskytuje vzácné vodítko k vytvoření teorie kvantové gravitace, která by sjednotila mikrosvět s Einsteinovou teorií relativity.",
-    "url": "https://www.sciencedaily.com/releases/2026/09/260910225251.htm",
-    "source": "RSS",
-    "original_title": "Physicists just found a tiny glitch in time itself",
-    "published": "2026-09-11T05:18:44+00:00",
-    "inserted_at": "2026-09-11T17:59:59.858460+00:00"
-  },
-  {
-    "id": "https://www.sciencedaily.com/releases/2026/09/260909231729.htm",
-    "title": "Bleskový zrod Měsíce: Gigantická srážka jej mohla stvořit za pár hodin.",
-    "summary": "Tradiční teorie předpokládá, že Měsíc vznikl postupným shlukováním materiálu z disku trosek po srážce mladé Země s protoplanetou Theia. Nové počítačové simulace však ukazují zcela jiný scénář. Průběh kolize závisel na teplotě a fyzikální pevnosti obou těles. Pokud srážející se světy nechápeme jako pouhé kapaliny, jak se dosud předpokládalo, impakt mohl vytvořit celistvý Měsíc již za pouhých pět hodin. Výzkum tak zpochybňuje dosavadní představy o chování materiálu při obřích kolizích. Proč je to zajímavé: Bleskový scénář dokáže vysvětlit překvapivě shodné chemické složení Země a Měsíce, aniž by vyžadoval dlouhé promíchávání materiálu v disku.",
-    "url": "https://www.sciencedaily.com/releases/2026/09/260909231729.htm",
-    "source": "RSS",
-    "original_title": "The Moon may have formed intact just hours after a giant collision",
-    "published": "2026-09-11T01:40:57+00:00",
-    "inserted_at": "2026-09-11T17:59:59.858460+00:00"
-  },
-  {
-    "id": "2609.11747v1",
-    "title": "Záhada raného vesmíru: Jak rychle rostly fázové bubliny?",
-    "summary": "V raném vesmíru docházelo k fázovým přechodům, při nichž vznikaly a rozpínaly se bubliny nového stavu prostoročasu. Rychlost jejich stěn je klíčová pro vznik gravitačních vln, temné hmoty i přebytku hmoty nad antihmotou. Vědci tuto rychlost dosud většinou jen odhadovali jako volný parametr. Autorům nové studie se však podařilo přesně spočítat dynamiku stěn bublin v rozšířeném Standardním modelu částicové fyziky. Propojili mikroskopické tření částic s makroskopickou reakcí okolního plazmatu a ukázali, že rychlost stěny určuje vyváženost mezi expanzní sílou a odporovým třením. Proč je to zajímavé: Přesný výpočet rychlosti rozpínání bublin umožňuje spolehlivěji předpovídat detekovatelné signály gravitačních vln a pochopit, proč ve vesmíru hmota převládla nad antihmotou.",
-    "url": "http://arxiv.org/abs/2609.11747v1",
-    "source": "arXiv",
-    "original_title": "Precise bubble wall velocity in a specific phase transition pattern in the CxSM and beyond",
-    "published": "2026-09-10T16:02:55+00:00",
-    "inserted_at": "2026-09-11T17:42:53.460053+00:00"
   },
   {
     "id": "2609.11692v1",

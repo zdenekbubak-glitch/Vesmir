@@ -1,5 +1,25 @@
 [
   {
+    "id": "apod-2026-11-16",
+    "title": "NGC 7129: Vznik hvězd s výtrysky z Webbova teleskopu",
+    "caption": "Jak vznikají hvězdy? K zodpovězení této otázky zachytil Vesmírný dalekohled Jamese Webba v infračerveném světle hvězdotvornou oblast NGC 7129. Výtrysky a hvězdný vítr z mladých hvězd zde tvarují plyn do vláknitých struktur, přičemž vyvinutější hvězdy vlevo ozařují zlatavý plyn a ještě mladší hvězdy vpravo leží v červené oblasti.",
+    "thumb": "assets/gallery/apod-2026-11-16.jpg",
+    "image": "assets/gallery/apod-2026-11-16.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/",
+    "published": "2026-11-16",
+    "credit": "NASA , ESA , CSA , STScI , JWST ; Processing: A. Pagan ( STScI )",
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA , ESA , CSA , STScI , JWST ; Processing: A. Pagan ( STScI )"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/",
+    "original_title": "NGC 7129: Star Formation with Jets from Webb",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-16T08:24:15.052976+00:00"
+  },
+  {
     "id": "apod-2026-11-15",
     "title": "Leonidy napříč Orionem",
     "caption": "Snímek zachycuje meteorický roj Leonid z roku 2022 z čínského ostrova Chaj-nan s pohledem nad Jihočínské moře. Stopy meteorů zaznamenané během několika hodin byly spojeny do jedné kompozice, na níž přelétají přes souhvězdí Orionu. Blízko horního okraje snímku září jasně červená planeta Mars.",
