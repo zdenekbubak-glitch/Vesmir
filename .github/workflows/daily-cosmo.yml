@@ -351,11 +351,10 @@ jobs:
           path: ${{ runner.temp }}/indexnow-state.json
           key: indexnow-v1-${{ github.run_id }}-${{ github.run_attempt }}
 
-      - name: Post daily card to Facebook via Buffer
+      - name: Post daily link to Facebook via Buffer
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: |
-          export CARD_SHA=$(git rev-parse HEAD)
           python3 << 'EOF'
           import json, os, datetime, requests
           from scripts.social_tracking import post_key, tracked_url, receipt, article_url
@@ -376,7 +375,7 @@ jobs:
           today = datetime.date.today().isoformat()
           today_items = [i for i in items if (i.get("inserted_at") or "")[:10] == today]
           if not today_items:
-              print("Dnes žádná nová položka – kartu neposílám.")
+              print("Dnes žádná nová položka – příspěvek neposílám.")
               exit(0)
 
           # Stejný výběr jako na obrázku denní karty.
@@ -390,10 +389,8 @@ jobs:
           if len(summary) > 180:
               summary = summary[:177].rsplit(" ", 1)[0] + "…"
 
-          main_text = f"{title}\n\n{summary}" if summary else title
-          # jsDelivr CDN – Buffer spolehlivěji stahuje než raw.githubusercontent.com
-          card_url = f"https://cdn.jsdelivr.net/gh/zdenekbubak-glitch/Vesmir@{os.environ.get('CARD_SHA', 'main')}/assets/cards/daily.jpg"
-          print(f"Card URL: {card_url}")
+          main_text = summary or title
+          link = tracked_url(target_url, "facebook", "daily", post_key("facebook", "daily", today))
 
           mutation = """
           mutation CreateThread($input: CreatePostInput!) {
@@ -414,15 +411,10 @@ jobs:
               "channelId": "6ad13365778b240e2f1e1c2b",
               "schedulingType": "automatic",
               "mode": "shareNow",
-              "text": main_text + "\n\n" + tracked_url(target_url, "facebook", "daily", post_key("facebook","daily",today)),
-              "assets": [{
-                "image": {
-                  "url": card_url
-                }
-              
-              }],
+              "text": main_text,
+              "assets": [],
               "metadata": {
-                "facebook": {"type": "post"}
+                "facebook": {"type": "post", "linkAttachment": {"url": link}}
               }
             }
           }
@@ -452,7 +444,7 @@ jobs:
             raise RuntimeError(f"Odeslání na Facebook selhalo: {e}") from e
           EOF
 
-      - name: Post daily card to Bluesky directly
+      - name: Post daily link to Bluesky directly
         env:
           BLUESKY_HANDLE: zdenekbubak.bsky.social
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
