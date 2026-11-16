@@ -99,5 +99,50 @@
     ],
     "note": "V popularizačním textu popiš vývoj hvězdných soustav vedoucí k výbuchu po delší době.",
     "status": "approved"
+  },
+  {
+    "term": "halo concentration",
+    "preferred": "koncentrace hala temné hmoty, tedy míra soustředění hmoty směrem ke středu",
+    "variants": [
+      "nahloučení hmoty",
+      "nahloučením hmoty"
+    ],
+    "note": "Vysvětluje rozložení hmoty v halu.",
+    "status": "approved"
+  },
+  {
+    "term": "dark matter halo",
+    "preferred": "halo temné hmoty",
+    "variants": [
+      "halami temné hmoty",
+      "halách temné hmoty",
+      "halám temné hmoty"
+    ],
+    "note": "Střední rod. Jedno halo, bez hala, v halu. Množné číslo: hala, bez hal, v halech, s haly.",
+    "status": "approved"
+  },
+  {
+    "term": "cold dark matter",
+    "preferred": "chladná temná hmota",
+    "variants": [],
+    "note": "Samostatná kategorie podle pohybu částic v raném vesmíru. Zachovej rozdíl mezi cold, warm a hot.",
+    "status": "approved"
+  },
+  {
+    "term": "warm dark matter",
+    "preferred": "teplá temná hmota",
+    "variants": [
+      "vlažná temná hmota",
+      "vlažnou temnou hmotou"
+    ],
+    "note": "Samostatná kategorie podle pohybu částic v raném vesmíru. Zachovej rozdíl mezi cold, warm a hot.",
+    "status": "approved"
+  },
+  {
+    "term": "hot dark matter",
+    "preferred": "horká temná hmota",
+    "variants": [],
+    "note": "Samostatná kategorie podle pohybu částic v raném vesmíru. Zachovej rozdíl mezi cold, warm a hot.",
+    "status": "approved"
   }
 ]
