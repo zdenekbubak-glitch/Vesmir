@@ -995,8 +995,22 @@
     "key": "bluesky_daily_749763b3c8999e0bdc5a",
     "title": "Jak rozložit rovnice pro poruchy v Plebańského-Demiańského časoprostoru",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n2hqdpkk22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/clanky/jak-rozlozit-rovnice-pro-poruchy-v-plebanskeho-demianskeho-casoprostoru-2611216031.html",
-    "recorded_at": "2026-11-17T08:26:13.482539+00:00"
+    "recorded_at": "2026-11-17T08:26:13.482539+00:00",
+    "last_check_attempt_at": "2026-11-17T09:03:18.576459+00:00",
+    "publication_checked_at": "2026-11-17T09:03:18.576459+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_78b1c5638ad7d0f44768",
+    "title": "Vesmírná show pana Vanguarda: Dalekohled Euclid našel 15 000 nových kandidátů na gravitační čočky, zatímco astronomové jich dosud potvrdili méně než tisíc. Podívejte se, jak ohnuté světlo prozrazuje temnou hmotu, kterou nikdo nevidí.\nMějte se pozemsky!\n\n#MateVkus #vesmir… https://t.co/coSA5BMAKv",
+    "platform_id": "6afc1855dfcbde96ef719703",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-17T09:03:18.715242+00:00"
   }
 ]
