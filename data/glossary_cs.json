@@ -6,7 +6,7 @@
       "červený posun"
     ],
     "note": "Pojem používaný v Kosmopedii.",
-    "status": "proposed"
+    "status": "approved"
   },
   {
     "term": "dark matter",
@@ -47,7 +47,7 @@
     "preferred": "reliktní záření (CMB)",
     "variants": [],
     "note": "Co je reliktní záření?",
-    "status": "proposed"
+    "status": "approved"
   },
   {
     "term": "spacetime",
@@ -55,8 +55,8 @@
     "variants": [
       "prostoročas"
     ],
-    "note": "V archivu se používají oba tvary.",
-    "status": "disputed"
+    "note": "V Kosmonovinkách a Kosmopedii používej časoprostor.",
+    "status": "approved"
   },
   {
     "term": "non-Gaussianity",
@@ -64,8 +64,8 @@
     "variants": [
       "ne-gaussianita"
     ],
-    "note": "Odborný český tvar ověřit.",
-    "status": "proposed"
+    "note": "Schválený český odborný tvar.",
+    "status": "approved"
   },
   {
     "term": "Hubble tension",
@@ -74,11 +74,11 @@
       "Hubbleovo pnutí"
     ],
     "note": "Co je Hubbleovo napětí?",
-    "status": "proposed"
+    "status": "approved"
   },
   {
     "term": "prompt SN Ia population",
-    "preferred": "supernovy typu Ia, které vybuchují krátce po vzniku hvězdné populace",
+    "preferred": "okamžitá populace supernov typu Ia",
     "variants": [
       "mládežnická populace",
       "mládežnickou populaci",
@@ -86,11 +86,12 @@
       "mládežnické populaci"
     ],
     "note": "Zpoždění se počítá od vzniku hvězd do výbuchu.",
-    "status": "approved"
+    "status": "approved",
+    "explanation": "supernovy typu Ia, které vybuchují krátce po vzniku hvězdné populace"
   },
   {
     "term": "delayed SN Ia progenitor channel",
-    "preferred": "scénář vzniku supernov typu Ia s delší dobou od vzniku hvězd do výbuchu",
+    "preferred": "zpožděný kanál progenitorů supernov typu Ia",
     "variants": [
       "opožděný kanál vzniku",
       "opožděný kanál jejich vzniku",
@@ -98,7 +99,8 @@
       "opožděného kanálu jejich vzniku"
     ],
     "note": "V popularizačním textu popiš vývoj hvězdných soustav vedoucí k výbuchu po delší době.",
-    "status": "approved"
+    "status": "approved",
+    "explanation": "scénář vzniku supernov typu Ia s delší dobou od vzniku hvězd do výbuchu"
   },
   {
     "term": "halo concentration",

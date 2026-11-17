@@ -125,6 +125,23 @@ def is_daily_quota_error(err: Exception) -> bool:
     )
 
 
+def translation_glossary() -> str:
+    entries = json.loads(DATA_FILE.with_name("glossary_cs.json").read_text(encoding="utf-8"))
+    lines = []
+    for entry in entries:
+        if entry["status"] != "approved":
+            continue
+        line = f'- {entry["term"]} → {entry["preferred"]}.'
+        if entry.get("explanation"):
+            line += f' Vysvětlivka při prvním výskytu: {entry["explanation"]}.'
+        if entry.get("note"):
+            line += f' {entry["note"]}'
+        if entry.get("variants"):
+            line += f' Vynech varianty: {", ".join(entry["variants"])}.'
+        lines.append(line)
+    return "\n".join(lines)
+
+
 def summarize_czech(client, title: str, abstract: str, url: str) -> dict | None:
     prompt = f"""Jsi odborný popularizátor kosmologie. Napiš krátký článek v češtině pro laickou i odbornou veřejnost.
 
@@ -142,7 +159,9 @@ Požadavky:
 6. Před vrácením výsledku text v rámci této odpovědi redakčně zkontroluj: pochopí běžný čtenář hlavní sdělení, jsou potřebné termíny vysvětlené a pojmenovaný předmět přesný podle podkladu? Nejasná místa uprav. Upřednostni přímý výklad; upozornění na to, co výsledek neznamená, přidej jen tam, kde předchází podstatnému omylu. Kontrolní postup ve výsledku nevypisuj.
 7. Výstup se zobrazuje jako běžný text bez vykreslování LaTeXu. V titulku ani článku nepoužívej matematické oddělovače $, příkazy LaTeXu ani zápis indexů podtržítkem. Jednoduché výrazy piš přímo znaky Unicode: například Ωₘ = 0,272; S₈ = 0,784; w₀ = −1,04; 10⁻³; km/s/Mpc. Pokud potřebný index nelze běžně zapsat, použij jednoznačný slovní popis. Složitý vztah raději vysvětli slovy; zachovej jeho význam, znaménka, číselné hodnoty, jednotky a případné nejistoty. Matematický obsah nemaž. Při závěrečné kontrole ověř i tento způsob zápisu.
 8. Na konci přidej jednu konkrétní větu začínající přesně „Proč je to zajímavé:“.
-9. Převáděj do češtiny význam celých odborných spojení. Použij ustálené české názvy, například „rudý posuv“, „reliktní záření“ nebo „gravitační čočkování“. Skloňuj je podle věty. V titulku i textu překládej dark sector jako „temný sektor“, dark matter jako „temná hmota“ a dark energy jako „temná energie“, vždy ve správném pádě. Jde o tři odlišné pojmy. Dark matter halo překládej jako „halo temné hmoty“ ve středním rodě (jedno halo, bez hala, v halu, množné číslo hala, bez hal, v halech, s haly). Halo concentration překládej jako „koncentrace hala“. Pro laika vysvětli, jak výrazně je hmota soustředěna směrem ke středu. Pojmy cold, warm a hot dark matter překládej jako „chladná“, „teplá“ a „horká temná hmota“ a zachovej jejich odlišný fyzikální význam. U nejasného překladu vysvětli pojem běžnými slovy a původní název uveď v závorce jen tehdy, když pomůže s identifikací. Odborný termín v titulku použij, pokud je pro zprávu zásadní a čtenář se z titulku dozví, o co jde. Jinak ho uveď a vysvětli v úvodu článku. U časových skupin popiš, od které události se zpoždění počítá, pokud to plyne z podkladu. Například prompt SNe Ia jsou supernovy typu Ia, které vybuchují krátce po vzniku hvězdné populace. Delayed SN Ia progenitor channel vysvětli jako vývoj hvězdných soustav vedoucí k výbuchu supernovy typu Ia až po delší době od vzniku hvězd. Pro obecné progenitor channel používej podle kontextu „scénář vzniku“ nebo vysvětli konkrétní vývoj soustavy. Výrazy „mládežnická populace“ a „opožděný kanál vzniku“ v tomto kontextu vynech. Pokud výběr prostředí jen omezuje zastoupení skupiny, popiš její nízký podíl ve vzorku.
+9. Převáděj do češtiny význam celých odborných spojení a skloňuj je podle věty. Pro pojmy, které v článku použiješ, dodrž schválený slovníček níže. Pokud slovníček uvádí termín i vysvětlivku, při prvním výskytu uveď obojí a vysvětlivku přirozeně začleň do věty. U nejasného překladu mimo slovníček vysvětli pojem běžnými slovy. Původní název uveď v závorce, pokud pomůže s identifikací. V titulku použij odborný termín, pokud je pro zprávu zásadní a čtenář z titulku pochopí sdělení. U časových skupin uveď, od které události se zpoždění počítá, pokud to plyne z podkladu. Pro obecné progenitor channel mimo spojení uvedené ve slovníčku používej podle kontextu „scénář vzniku“ nebo popiš konkrétní vývoj soustavy. Pokud výběr prostředí omezuje zastoupení skupiny, popiš její nízký podíl ve vzorku.
+Schválený slovníček:
+{translation_glossary()}
 10. V titulku, úvodu i závěru zachovej míru jistoty z podkladu. Rozliš, co přístroj skutečně naměřil, co vědci z měření odvodili a co navrhli jako možné vysvětlení. Příklad: „Teleskop pozoroval prachový oblak. Podle autorů mohl vzniknout srážkou planetárních těles.“ Stejně zachovej nejistotu v titulku. U simulace uveď, co vyšlo ve výpočtu a za jaké klíčové podmínky. Když autoři porovnávají modely, metody nebo výsledky, výslovně uveď, jak srovnání dopadlo a za jakých podmínek. Pokud výsledek závisí na souboru dat nebo hodnoticím kritériu, uveď tuto závislost. Rozliš lepší shodu s daty od lepšího výsledku podle kritéria, které zohledňuje složitost modelu. Klíčový výsledek uveď už v úvodu, pokud ho podklad obsahuje. Pokud podklad výsledek srovnání neuvádí, nevymýšlej ho. Před odevzdáním ověř výsledek, čísla i vysvětlení pojmů podle titulku a abstraktu.
 11. U delšího textu odděl úvod a vysvětlení prázdným řádkem. Před závěrečnou větou „Proč je to zajímavé:“ dej prázdný řádek. V JSON zapiš oba konce řádků jako \\n\\n. V závěru řekni, k čemu může výsledek přispět, pokud to vyplývá ze zdroje. Vynech superlativy a fráze, které mohou ze studie udělat větší objev, než autoři uvádějí.
 12. Vrať POUZE validní JSON v tomto formátu (žádný markdown):
