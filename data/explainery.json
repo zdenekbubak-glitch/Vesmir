@@ -274,8 +274,8 @@
     "theme": "relictni-zareni",
     "description": "Světlo z raného horkého vesmíru dnes měříme v mikrovlnách. Jak vzniklo reliktní záření a co zjistíme z jeho jemných nerovností?",
     "published": "2026-10-17",
-    "updated": "2026-10-29",
-    "perex": "Reliktní záření je světlo z raného horkého vesmíru, které po vzniku neutrálních atomů začalo putovat mnohem volněji. Dnes je zachycujeme v mikrovlnném oboru. Jeho spektrum a jemné nerovnosti pomáhají určit složení a vývoj vesmíru.",
+    "updated": "2026-11-17",
+    "perex": "Reliktní záření (CMB) je pozůstatek horkého raného vesmíru. Většina světla, které dnes pozorujeme jako reliktní záření, se naposledy rozptýlila v období kolem 380 tisíc let po velkém třesku. Dnes je zachycujeme v mikrovlnném oboru.",
     "sections": [
       {
         "heading": "Světlo z doby před prvními hvězdami",
@@ -283,16 +283,16 @@
       },
       {
         "heading": "Jak se světlo vydalo na dlouhou cestu",
-        "body": "V raném hustém prostředí se fotony často rozptylovaly na volných elektronech. Jak se vesmír rozpínal a chladl, elektrony se vázaly s jádry do neutrálních atomů. Tento přechod označujeme jako **rekombinaci**.\n\nPřibližně ve věku 380 tisíc let se střední vzdálenost mezi rozptyly výrazně prodloužila. Záření od té doby mohlo putovat mnohem volněji a uchovalo otisk tehdejších podmínek. První hvězdy se vytvořily až později."
+        "body": "Reliktní záření (CMB) je pozůstatek horkého raného vesmíru. Tehdy se světlo často rozptylovalo na volných elektronech a měnilo směr. Jak vesmír chladl, elektrony se začaly vázat s atomovými jádry. Tomuto přechodu říkáme **rekombinace**. Volných elektronů výrazně ubylo a většina světla, které dnes pozorujeme jako reliktní záření, se naposledy rozptýlila v období kolem 380 tisíc let po velkém třesku. Od té doby mohlo putovat mnohem volněji."
       },
       {
         "heading": "Od horkého plazmatu k prvním hvězdám",
-        "body": "Časová osa propojuje vznik lehkých jader s pozdějšími hvězdami a galaxiemi. **Plazma** je látka s volnými elektrony a elektricky nabitými částicemi. V raném vesmíru bylo volných elektronů velmi mnoho. **Fotony, tedy částice světla, se na nich často rozptylovaly — při setkání s elektronem změnily směr a pokračovaly jinudy.** Než mohly urazit větší vzdálenost, následoval další rozptyl. Světlo se tak šířilo klikatou cestou a prostředí bylo neprůhledné, podobně jako hustá mlha.\n\n**Důležitou roli už tehdy hrála podle současného kosmologického modelu temná hmota.** Zatímco běžnou látku ovlivňoval tlak záření, temná hmota se světlem téměř neinteragovala. Její hustší oblasti proto mohly působením gravitace růst už před uvolněním reliktního světla. Tyto oblasti později přitahovaly plyn, z něhož vznikaly první hvězdy a galaxie.\n\nTento vývoj ověřujeme porovnáváním modelů s mapami reliktního záření a rozložením galaxií. **Z čeho se temná hmota skládá a jaké má další vlastnosti, vědci stále zjišťují.**\n\nZobrazené období je nesmírně dlouhé, proto osa používá logaritmické měřítko. Stejné vzdálenosti znamenají stejné násobky stáří. Krátké přechody zabírají jen malou část osy.\n\n- **od prvních minut do asi 380 tisíc let: Dlouhá etapa horkého plazmatu.** Jádra a volné elektrony tvoří plazma. Světlo se často rozptyluje na elektronech.\n- **přibližně 50 tisíc let: Hmota přebírá převahu nad zářením.** Hustoty energie hmoty a záření se vyrovnají. Poté převládá hmota; rostou zárodky struktur.\n- **přibližně 380 tisíc let: Vznik atomů a uvolnění reliktního světla.** Elektrony se vážou do atomů. Ubyde rozptylů a světlo může putovat mnohem volněji.\n- **první hvězdy řádově po 100 až 200 milionech let: Temné věky, pak první hvězdy a galaxie.** Gravitace zhušťuje plyn. Začíná hvězdná tvorba a rostou první galaxie; přesné začátky zkoumáme.\n- **během prvních stovek milionů let až asi 1 miliardy: Reionizace mezigalaktického vodíku.** Záření prvních zdrojů postupně znovu odděluje elektrony od atomů v řídkém plynu.\n\nPři rekombinaci se výrazně omezil rozptyl již existujícího záření. **První hvězdy potom přidaly nové zdroje světla.** Jejich přesný začátek i průběh reionizace vědci dál zkoumají pomocí vzdálených galaxií a dalších měření. Pozdější miliardy let pokračují u [vzniku galaxií](https://kosmonovinky.cz/kosmopedie/jak-vznikaji-galaxie.html).",
+        "body": "Časová osa propojuje vznik lehkých jader s pozdějšími hvězdami a galaxiemi. **Plazma** je látka s volnými elektrony a elektricky nabitými částicemi. V raném vesmíru bylo volných elektronů velmi mnoho. **Fotony, tedy částice světla, se na nich často rozptylovaly — při setkání s elektronem změnily směr a pokračovaly jinudy.** Než mohly urazit větší vzdálenost, následoval další rozptyl. Světlo se tak šířilo klikatou cestou a prostředí bylo neprůhledné, podobně jako hustá mlha.\n\n**Důležitou roli už tehdy hrála podle současného kosmologického modelu temná hmota.** Zatímco běžnou látku ovlivňoval tlak záření, temná hmota se světlem téměř neinteragovala. Její hustší oblasti proto mohly působením gravitace růst už před uvolněním reliktního světla. Tyto oblasti později přitahovaly plyn, z něhož vznikaly první hvězdy a galaxie.\n\nTento vývoj ověřujeme porovnáváním modelů s mapami reliktního záření a rozložením galaxií. **Z čeho se temná hmota skládá a jaké má další vlastnosti, vědci stále zjišťují.**\n\nČasová osa používá logaritmické měřítko. Stejně dlouhé úseky mohou odpovídat například růstu stáří z 10 tisíc na 100 tisíc let a ze 100 tisíc na jeden milion let. V obou případech se stáří zvětšilo desetkrát.\n\n- **V prvních minutách** vznikala lehká atomová jádra. Volné elektrony s nimi ještě netvořily neutrální atomy a světlo se na elektronech často rozptylovalo.\n- **Přibližně po 50 tisících letech** se vyrovnaly hustoty energie hmoty a záření. Při dalším rozpínání klesala hustota energie záření rychleji a převládla hmota.\n- **Kolem 380 tisíc let** se při vzniku neutrálních atomů podstatně snížil počet volných elektronů. Reliktní záření pak mohlo putovat mnohem volněji.\n- **Během prvních stovek milionů let** vznikly první hvězdy a galaxie. Jejich záření postupně znovu uvolňovalo elektrony z atomů vodíku v plynu mezi galaxiemi. Tomuto procesu říkáme **reionizace**.\n\nPři rekombinaci se výrazně omezil rozptyl již existujícího záření. **První hvězdy potom přidaly nové zdroje světla.** Jejich přesný začátek i průběh reionizace vědci dál zkoumají pomocí vzdálených galaxií a dalších měření. Pozdější miliardy let pokračují u [vzniku galaxií](https://kosmonovinky.cz/kosmopedie/jak-vznikaji-galaxie.html).",
         "image_id": "osa-vesmir-atomy-hvezdy"
       },
       {
         "heading": "Proč záření dnes zachycujeme v mikrovlnách",
-        "body": "Při uvolnění světla měla látka a záření teplotu přibližně **3 000 kelvinů**. Tepelné záření pokrývalo široké spektrum. Rozpínání během jeho cesty prodloužilo vlnové délky zhruba tisíckrát.\n\nDnešní tepelné maximum proto leží v mikrovlnném oboru. Změna odpovídá tomu, jak se od této epochy zvětšila prostorová měřítka. Princip kosmologického prodloužení vlnových délek rozebírá [téma o rudém posuvu](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html)."
+        "body": "Když se světlo naposledy rozptylovalo, mělo záření teplotu přibližně 3 000 kelvinů. Rozpínání vesmíru od té doby prodloužilo jeho vlnové délky přibližně 1 100krát. Dnes proto reliktní záření měříme v mikrovlnném oboru a jeho spektrum odpovídá tepelnému záření o teplotě přibližně 2,725 kelvinu.\n\nPrincip kosmologického prodloužení vlnových délek rozebírá [téma o rudém posuvu](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html)."
       },
       {
         "heading": "Co ukazují malé teplotní rozdíly",
@@ -300,14 +300,14 @@
       },
       {
         "heading": "Jak z něj odvozujeme vlastnosti vesmíru",
-        "body": "Porovnáním teplotních a polarizačních vzorů s kosmologickým modelem odvozujeme jeho parametry. V základním ΛCDM vychází stáří přibližně 13,8 miliardy let a dnešní složení kolem 5 % běžné hmoty, 27 % temné hmoty a 68 % temné energie.\n\nSpojení mapy s dalšími daty omezuje také prostorovou křivost a je dobře slučitelné s plochým modelem. Vztah geometrie, konečnosti a rozsahu našeho výhledu rozvíjí [téma o tvaru vesmíru](https://kosmonovinky.cz/kosmopedie/jaky-tvar-muze-mit-vesmir-a-je-konecny.html). Měření polarizace současně zkoušejí možné stopy prvotních gravitačních vln."
+        "body": "Přístroje měří intenzitu a polarizaci záření v různých směrech. Z těchto dat vědci sestaví mapy a porovnávají jejich vzory s předpověďmi. V základním kosmologickém modelu ΛCDM tak vychází stáří vesmíru přibližně 13,8 miliardy let. V dnešní hustotě energie v tomto modelu připadá zhruba 5 % na běžnou hmotu, 27 % na temnou hmotu a 68 % na temnou energii.\n\nSpojení mapy s dalšími daty omezuje také prostorovou křivost a je dobře slučitelné s plochým modelem. Vztah geometrie, konečnosti a rozsahu našeho výhledu rozvíjí [téma o tvaru vesmíru](https://kosmonovinky.cz/kosmopedie/jaky-tvar-muze-mit-vesmir-a-je-konecny.html). Měření polarizace současně zkoušejí možné stopy prvotních gravitačních vln."
       },
       {
         "heading": "Zdroje a další čtení",
         "body": "- [NASA: reliktní záření a hlavní pojmy](https://science.nasa.gov/universe/glossary/)\n- [ESA: výsledky Plancku](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights)\n- [Planck 2018: odvození kosmologických parametrů](https://arxiv.org/abs/1807.06209)\n- [ESA: rekombinace a pozdější epochy](https://www.esa.int/Science_Exploration/Space_Science/Cosmic_eras)\n- [NASA: první hvězdy a reionizace](https://science.nasa.gov/universe/overview/)\n- [ESA: časová návaznost růstu kosmických struktur](https://www.esa.int/Science_Exploration/Space_Science/Planck/History_of_cosmic_structure_formation)\n- [Particle Data Group 2025: přechod od převahy záření k převaze hmoty](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf)"
       }
     ],
-    "why_box": "Reliktní záření propojuje dávné fyzikální podmínky s dnešními přesnými měřeními. Jeho nezávislé porovnávání s galaxiemi a dalšími daty umožňuje prověřovat společný kosmologický model.",
+    "why_box": "Reliktní záření zachycuje podmínky z doby dávno před prvními hvězdami. Z jeho map mohou vědci odvodit, jak výrazné tehdy byly nerovnosti. Pozorování galaxií pak pomáhají ověřit, jak se z nich během miliard let vyvinuly dnešní kosmické struktury.",
     "related_explainery": [
       "co-nam-rika-mapa-reliktniho-zareni",
       "jak-se-fotografovalo-reliktni-zareni",
@@ -532,7 +532,7 @@
     "theme": "relictni-zareni",
     "description": "Mapa reliktního záření zachycuje malé rozdíly teplot na obloze. Jak z jejich vzoru odvozujeme složení, geometrii a vývoj vesmíru?",
     "published": "2026-10-18",
-    "updated": "2026-10-29",
+    "updated": "2026-11-17",
     "perex": "Mapa reliktního záření zachycuje jemné rozdíly teplot na obloze. Jejich vzor uchovává informace o podmínkách přibližně 380 tisíc let po začátku horkého vývoje. Porovnáním s modelem odvozujeme složení, stáří a geometrii vesmíru.",
     "sections": [
       {
@@ -541,11 +541,11 @@
       },
       {
         "heading": "Jak číst barevnou mapu",
-        "body": "Barvy v mapě představují nepatrné rozdíly teplot reliktního záření mezi různými směry na obloze. Barevná stupnice tyto rozdíly zvýrazňuje, aby byly dobře patrné. Téměř rovnoměrná základní teplota se při vytváření takové mapy odečítá.\n\nVědci zkoumají, jak velké jsou teplejší a chladnější oblasti a jak jsou po obloze uspořádané. Původ záření, jeho uvolnění při vzniku neutrálních atomů a dnešní mikrovlnné vlnové délky vysvětluje [základní téma o reliktním záření](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html)."
+        "body": "Každé místo v mapě odpovídá jednomu směru na obloze. Barva ukazuje, o kolik se teplota reliktního záření v tomto směru po zpracování měření liší od průměru. Kvůli našemu pohybu se záření jeví teplejší ve směru, kterým se pohybujeme, a chladnější v opačném směru. Vědci tento rozdíl při zpracování mapy odečtou. Potom vyniknou drobné rozdíly řádu desítek mikrokelvinů, tedy desítek miliontin kelvinu. Barevná stupnice je zvýrazňuje, aby byly na mapě viditelné.\n\nPůvod záření, jeho uvolnění při vzniku neutrálních atomů a dnešní mikrovlnné vlnové délky vysvětluje [základní téma o reliktním záření](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html)."
       },
       {
         "heading": "Jak skvrny souvisejí se vznikem galaxií",
-        "body": "Teplejší a chladnější místa vznikají společným působením rozdílů hustoty, gravitace, tlaku a pohybu látky. Proto jsou pro fyzikální výklad důležité vzory na různých úhlových měřítkách a jejich statistické vlastnosti.\n\nPrvotní hustotní nerovnosti se působením gravitace dále vyvíjely. V hustších oblastech později rostly galaxie a kupy. Mapa tak poskytuje důležitou součást počátečních podmínek pro výpočty kosmických struktur.\n\nKdy se uvolnilo reliktní světlo a kdy se objevily první hvězdy, názorně porovnává [časová osa od plazmatu k prvním galaxiím](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html)."
+        "body": "Teplotu záření v daném směru ovlivňovaly hustota a pohyb raného plynu i gravitace. Z barvy jednotlivé skvrny proto nelze přímo vyčíst, kde později vznikla galaxie. Vědci zkoumají, jak jsou skvrny velké, jak výrazné jsou teplotní rozdíly a jak spolu souvisejí na různých úhlových měřítkách. Z těchto údajů mohou odhadnout, jak výrazné byly rozdíly v hustotě hmoty v raném vesmíru. Gravitace pak tyto rozdíly postupně zesilovala a v hustších oblastech nakonec vznikaly galaxie a kupy galaxií.\n\nKdy se uvolnilo reliktní světlo a kdy se objevily první hvězdy, názorně porovnává [časová osa od plazmatu k prvním galaxiím](https://kosmonovinky.cz/kosmopedie/co-je-reliktni-zareni.html)."
       },
       {
         "heading": "Jak získáváme mapu raného vesmíru",
@@ -553,20 +553,16 @@
       },
       {
         "heading": "Co všechno lze z mapy odečíst",
-        "body": "Vědci zjišťují, jak výrazné jsou teplotní rozdíly mezi oblastmi různých úhlových velikostí. Tak získají přehled o tom, která měřítka jsou v mapě zastoupena silněji a která slaběji. Výpočty předpovídají, jak se tento přehled změní například při jiném množství běžné a temné hmoty.\n\nPorovnáním předpovědí s měřením hledáme hodnoty, které společně nejlépe odpovídají datům. Tak odvozujeme složení a stáří vesmíru v rámci [modelu ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html).\n\nPozorovanou úhlovou velikost charakteristických struktur porovnáváme s jejich velikostí vypočtenou pro raný vesmír. Společně s údaji o galaxiích tím omezujeme prostorovou křivost. Výsledky dobře odpovídají téměř plochému prostoru. [Téma o geometrii a konečnosti vesmíru](https://kosmonovinky.cz/kosmopedie/jaky-tvar-muze-mit-vesmir-a-je-konecny.html) vysvětluje, jak tyto otázky rozlišujeme.",
+        "body": "Před uvolněním reliktního záření působily na běžnou hmotu dvě síly. Gravitace ji stlačovala do hustších oblastí a tlak záření působil proti stlačování. V propojené směsi hmoty a záření tak probíhaly tlakové kmity podobné zvukovým vlnám. Jejich stopa se v mapě projevuje tím, že teplotní rozdíly jsou na některých úhlových měřítkách výraznější než na jiných.\n\nMnožství běžné hmoty ovlivňuje poměr mezi vrcholy odpovídajícími stlačení a zředění plynu. Tyto vrcholy ukazují, na kterých úhlových měřítkách jsou teplotní rozdíly nejvýraznější. Temná hmota přispívá hlavně svou gravitací a mění průběh kmitů. Vědci porovnají celý vzor s výpočty pro různá množství obou složek. Tak mohou odhadnout jejich zastoupení v rámci [modelu ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html).\n\nTlakové vlny poskytují měřítko. Z fyzikálního modelu lze vypočítat, jak daleko se mohly rozšířit do doby, kdy se reliktní záření uvolňovalo. Z mapy pak vědci zjistí, pod jakým úhlem toto měřítko na obloze vidíme. Vztah mezi vypočtenou velikostí a pozorovaným úhlem závisí mimo jiné na geometrii prostoru a na historii rozpínání. Společná analýza reliktního záření a měření rozložení galaxií je slučitelná s prostorově plochým vesmírem. [Téma o geometrii a konečnosti vesmíru](https://kosmonovinky.cz/kosmopedie/jaky-tvar-muze-mit-vesmir-a-je-konecny.html) vysvětluje, jak tyto otázky rozlišujeme.",
         "image_id": "schema-slozeni-vesmiru"
       },
       {
         "heading": "Polarizace a stopa inflace",
-        "body": "Polarizace popisuje uspořádání orientací elektrického pole světla. Její vzory vznikají při rozptylu záření a některé mohou obsahovat stopu prvotních gravitačních vln. Další příspěvky vytváří gravitační čočkování a látka v naší galaxii.\n\nPozorování v různých frekvencích a přesnější modely popředí umožňují jednotlivé složky oddělovat. Výsledky poskytují meze pro [inflační modely](https://kosmonovinky.cz/kosmopedie/co-je-kosmicka-inflace-a-jak-ji-muzeme-overovat.html) a připravují další zkoušky rané fyziky."
-      },
-      {
-        "heading": "Stopy temné hmoty",
-        "body": "Temná hmota ovlivňuje gravitaci a tím i pohyb rané látky a rozložení nerovností. Různé hustoty běžné a temné hmoty vedou k různým předpovědím pro statistický vzor mapy.\n\nPorovnáním s měřením odhadujeme potřebné hustoty v rámci modelu. Další kontrolu přináší pohyb galaxií, gravitační čočkování a vznik kosmické sítě. Společně jde o více různých zkoušek stejného fyzikálního obrazu."
+        "body": "Polarizace popisuje, kterým směrem kmitá elektrické pole světla. Reliktní záření získalo polarizaci při rozptylu na elektronech. Prvotní gravitační vlny by mohly ovlivnit, jak se orientace polarizace mění od místa k místu na obloze. Takto by mohly zanechat určitý prostorový vzor polarizace, který vědci označují jako **B-módy**.\n\nB-módy vznikají také při gravitačním čočkování, kdy hmota mezi námi a zdrojem ohýbá dráhu záření. Do měření se navíc promítá polarizované záření prachu v Mléčné dráze. Vědci proto porovnávají měření na více frekvencích a odhadují, jak velkou část signálu vytváří čočkování. Analýza BICEP/Keck společně s daty WMAP a Plancku stanovila horní mez toho, jak silnou stopu mohly prvotní gravitační vlny v polarizaci zanechat."
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Planck 2018: kosmologické parametry](https://arxiv.org/abs/1807.06209)\n- [Planck 2018: testy inflace](https://arxiv.org/abs/1807.06211)\n- [ESA: hlavní výsledky Plancku](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights)"
+        "body": "- [Planck 2018: kosmologické parametry](https://arxiv.org/abs/1807.06209)\n- [Planck 2018: testy inflace](https://arxiv.org/abs/1807.06211)\n- [ESA: hlavní výsledky Plancku](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights)\n- [BICEP/Keck: analýza polarizace](https://arxiv.org/abs/2110.00483)"
       }
     ],
     "why_box": "Mapa reliktního záření umožňuje zkoumat podmínky dávno před vznikem Slunce a Země. Statistické vlastnosti jejích nerovností propojují ranou fyziku s pozdějším vznikem galaxií a s dnešními měřeními.",
@@ -918,35 +914,39 @@
   },
   {
     "id": "exp-021",
-    "title": "Jak se fotografovalo reliktní záření?",
+    "title": "Jak jsme zmapovali reliktní záření?",
     "theme": "relictni-zareni",
-    "description": "Od Gamowovy předpovědi přes náhodný objev v roce 1965 až po družice COBE, WMAP a Planck. Příběh tří generací observatoří, které fotografovaly mládí vesmíru.",
+    "description": "Od předpovědi a objevu mikrovlnného signálu po měření spektra a mapy reliktního záření z družic COBE, WMAP a Planck.",
     "published": "2026-10-18",
-    "updated": "2026-10-18",
-    "perex": "Reliktní záření bylo předpovězeno teoretiky, objeveno náhodou a postupně zmapováno třemi generacemi vesmírných observatoří – COBE, WMAP a Planck. Každá přinesla přesnější fotku mládí vesmíru a každá změnila kosmologii. Cesta od prvního šumu v anténě k mapám s milionem pixelů trvala šedesát let a je jedním z nejkrásnějších příběhů vědy 20. století.",
+    "updated": "2026-11-17",
+    "perex": "Anténa Bellových laboratoří zachytila v 60. letech nečekaný mikrovlnný signál. Družice COBE pak přesně změřila jeho spektrum a odhalila drobné rozdíly mezi směry na obloze. WMAP a Planck tyto rozdíly zmapovaly podrobněji.",
     "sections": [
       {
-        "heading": "Předpověď před objevem",
-        "body": "Idea, že vesmír musí být obalen slabým pozadím starého světla, vznikla už v padesátých letech 20. století. George Gamow a jeho spolupracovníci Ralph Alpher a Robert Herman vypočítali, že raný vesmír musel být horký a že zbytkové záření by dnes mělo teplotu kolem 5 kelvinů. Tehdy je nikdo nebral vážně. V roce 1964 si však fyzici na Princetonu Robert Dicke a Jim Peebles znovu uvědomili, že velký třesk předpovídá detekovatelné mikrovlnné pozadí, a začali stavět přijímač. Netušili, že je předbehli o pár kilometrů – v Bellových laboratořích v New Jersey už totéž záření dva roky registrovala komunikační anténa, aniž by kdokoli tušil, co má před sebou."
+        "heading": "Předpověď a objev",
+        "body": "V roce 1948 Ralph Alpher a Robert Herman odhadli, že po horkém raném vesmíru by mělo zůstat tepelné záření s dnešní teplotou kolem pěti kelvinů. V 60. letech připravoval tým Roberta Dickeho na Princetonské univerzitě vlastní měření. Mezitím Arno Penzias a Robert Wilson při práci s anténou Bellových laboratoří našli přebytek signálu, který přetrvával po započtení známých vlivů. V roce 1965 zveřejnili měření na frekvenci 4,08 GHz. Přebytek odpovídal anténní teplotě **3,5 ± 1,0 kelvinu**. V doprovodném článku princetonský tým vysvětlil, proč by mohlo jít o záření z horkého raného vesmíru."
       },
       {
-        "heading": "Náhodný objev v roce 1965",
-        "body": "Arno Penzias a Robert Wilson tehdy pracovali pro Bellovy laboratoře na kalibraci velké trychtýřové antény určené pro satelitní komunikaci. Zkoušeli odstranit veškerý šum, ale jeden signál zůstával: slabé mikrovlnné záření ze všech směrů, bez ohledu na to, kam anténu natočili. Kontrolovali spoje, vyčistili anténu – šum zůstal. Teprve návštěva Princetonu je přivedla na stopu: Dicke a Peebles právě hledali reliktní záření. Penzias a Wilson změřili teplotu 3,5 kelvinu, publikovali objev a v roce 1978 dostali Nobelovu cenu. Největší vědecký objev dekady přišel z průmyslové antény, která měla sloužit k telefonování."
+        "heading": "Jak vzniká mapa oblohy",
+        "body": "Družice opakovaně měřily intenzitu mikrovln z různých směrů. Měření na několika frekvencích pomáhala oddělit reliktní záření od záření Mléčné dráhy. Z takto zpracovaných dat vznikla mapa oblohy."
       },
       {
-        "heading": "COBE: první fotka, 1992",
-        "body": "Po objevu následovaly desítky let měření z balónů, raket a pozemských stanic. Definitivní obrat přinesla družice COBE (Cosmic Background Explorer), kterou NASA vypustila v roce 1989. Dva roky sbírala data a výsledkem byla historická tisková konference v roce 1992: tým George Smoota ukázal první mapu teplotních fluktuací reliktního záření. Rozdíly byly řádově stotisícinové, ale stačily k tomu, aby se z nich zrodily galaxie. Noviny psaly o fotografii počátku vesmíru. Satelit COBE také potvrdil, že spektrum tohoto záření dokonale odpovídá záření absolutně černého tělesa – Velký třesk od té chvíle neměl konkurenci."
+        "heading": "Dvě měření družice COBE",
+        "body": "Na družici COBE pracovaly dva přístroje s různými úkoly. **FIRAS** měřil intenzitu záření v závislosti na frekvenci. Výsledný průběh velmi přesně odpovídal spektru ideálního tepelného zářiče o teplotě přibližně 2,725 kelvinu. **DMR** porovnával intenzitu mikrovln v různých směrech. V roce 1992 jeho tým oznámil, že odhalil vlastní teplotní nerovnosti reliktního záření na velkých úhlových měřítkách. Byly řádově stotisícinové vůči průměrné teplotě."
       },
       {
-        "heading": "WMAP: když přesnost stoupá",
-        "body": "V roce 2001 odstartovala družice WMAP, umístěná v gravitačním bodě L2, 1,5 milionu kilometrů od Země, kde je rušení od Země, Měsíce a Slunce minimalizováno. Devět let sbírala data v pěti frekvenčních pásmech. Výsledky z roku 2003 zpřesnily parametry vesmíru na několik procent: stáří 13,7 miliardy let, složení zhruba pět procent běžné hmoty, čtvrtina temné hmoty a zbytek temná energie. WMAP také detekovala polarizaci reliktního záření – důkaz, že se první fotony ještě před volným letem rozptýlily. Bylo to poprvé, kdy lidstvo měřilo vesmír jako celek s přesností inženýrského přístroje."
+        "heading": "WMAP a podrobnější mapa polarizace",
+        "body": "**WMAP** odstartovala v roce 2001 a pozorovala z dráhy v okolí druhého Lagrangeova bodu soustavy Slunce–Země (L2), přibližně 1,5 milionu kilometrů od Země. Měřila v pěti frekvenčních pásmech. Z jejích dat vznikly podrobnější celoplošné mapy teploty a polarizace. Polarizační měření pomohla zkoumat, kdy během reionizace začaly první zdroje měnit plyn mezi galaxiemi."
       },
       {
-        "heading": "Planck: konečná mapa, 2013",
-        "body": "Evropská družice Planck odstartovala v roce 2009 a pracovala do roku 2013. Její detektory byly chlazeny na desetinu stupně nad absolutní nulou a dosahovaly úhlového rozlišení až pět obloukových minut – což bylo téměř třikrát ostřeji než u starší sondy WMAP. Výsledná mapa dodnes tvoří základ kosmologie. Planck zpřesnil stáří vesmíru na 13,8 miliardy let a potvrdil standardní model s přesností, která překvapila i samotné vědce. Zároveň přinesl drobné záhady: statisticky významné anomálie, jako je hemisférická asymetrie nebo chladná skvrna. Ty mohou být náhodou – nebo prvním náznakem, že za horizontem číhá něco, co neznáme."
+        "heading": "Planck a jemnější struktury",
+        "body": "**Planck** odstartoval v roce 2009. Měřil v širším rozsahu frekvencí a na jemnějších úhlových měřítkách. První kosmologické výsledky zveřejnil tým v roce 2013. Analýzy zpřesnily parametry modelu ΛCDM a umožnily prověřit i neobvyklé útvary v mapě, například chladnou skvrnu. Z takové odchylky samotné nelze určit její původ."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Alpher a Herman: práce z roku 1948](https://www.nature.com/articles/162774b0)\n- [Penzias a Wilson: původní měření](https://doi.org/10.1086/148307)\n- [Dicke a kolegové: doprovodná práce](https://doi.org/10.1086/148306)\n- [NASA: výsledky COBE](https://science.nasa.gov/mission/cobe/science/)\n- [NASA: přehled mise WMAP](https://science.nasa.gov/mission/wmap/wmap-overview/)\n- [ESA: hlavní výsledky Plancku](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights)\n- [Planck: statistické vlastnosti map reliktního záření](https://arxiv.org/abs/1906.02552)"
       }
     ],
-    "why_box": "Každá generace observatoří přinesla přesnější obraz – a každá byla postavena na zklamáních té předchozí. COBE vznikl, protože pozemská měření byla příliš hrubá; WMAP proto, že COBE byl málo citlivý; Planck proto, že WMAP nezodpověděl vše. Je to příběh o tom, jak věda funguje: největší objevy přicházejí z nejmenších nerovností. Fluktuace, které COBE těsně zachytila, určily, kde dnes žijeme. A další generace přístrojů už se připravuje.",
+    "why_box": "COBE změřila spektrum reliktního záření a zachytila největší struktury v jeho mapě. WMAP a Planck rozlišily jemnější vzory a zpřesnily měření polarizace. Díky tomu mohou vědci srovnávat kosmologické modely s tím, co záření ukazuje na různých úhlových měřítkách.",
     "related_explainery": [
       "co-je-reliktni-zareni",
       "co-nam-rika-mapa-reliktniho-zareni",

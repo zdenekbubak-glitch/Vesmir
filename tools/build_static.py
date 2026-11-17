@@ -451,9 +451,11 @@ def explainer_catalog(site):
     entries = json.loads(path.read_text(encoding='utf-8'))
     used = set()
     for entry in entries:
-        # Preserve the published path after updating Schmidt's title.
+        # Preserve the published paths of topics whose titles have changed.
         if entry['id'] == 'exp-073':
             root = 'jak-brian-schmidt-a-jeho-tym-overovali-ze-se-rozpinani'
+        elif entry['id'] == 'exp-021':
+            root = 'jak-se-fotografovalo-reliktni-zareni'
         else:
             root = slugify(entry['title'])
         slug, number = root, 2
