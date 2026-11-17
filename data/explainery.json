@@ -1099,8 +1099,8 @@
     "theme": "rozpinani-a-modely-vesmiru",
     "description": "Co vyjadřuje Hubbleova konstanta, jak se měří a proč její jednotka obsahuje kilometry, sekundy i megaparseky?",
     "published": "2026-10-24",
-    "updated": "2026-10-24",
-    "perex": "Čím vzdálenější galaxii pozorujeme, tím rychleji se od nás v průměru vzdaluje. Hubbleova konstanta popisuje dnešní tempo rozpínání vesmíru. Její hodnota ale není jen číslem do tabulky: pomáhá určit vzdálenosti i historii kosmu.",
+    "updated": "2026-11-17",
+    "perex": "Hubbleova konstanta popisuje dnešní tempo rozpínání vesmíru. U poměrně blízkých galaxií platí přibližný vztah, podle něhož vzdálenější galaxie v průměru ustupují rychleji. Z měření vzdáleností a vzdalování tak můžeme určit její hodnotu. U velmi vzdálených objektů je třeba započítat také vývoj rozpínání během cesty jejich světla.",
     "sections": [
       {
         "heading": "Co se vlastně rozpíná?",
@@ -1112,15 +1112,15 @@
       },
       {
         "heading": "Jak se číslo měří",
-        "body": "Ze spektra galaxie zjistíme její rudý posuv. Pro určení H₀ potřebujeme také vzdálenost. Ta bývá obtížnější částí měření. Astronomové postupně navazují například geometricky změřené vzdálenosti, proměnné hvězdy cefeidy a supernovy typu Ia. Tomuto postupu se říká žebřík kosmických vzdáleností.\n\nJinou cestou je reliktní záření. Jeho drobné nerovnoměrnosti porovnáme s kosmologickým modelem a odvodíme, jaká dnešní hodnota H₀ jim odpovídá. To je důležitý rozdíl: nejde o přímé měření rychlosti dnešních galaxií. Existují i další přístupy, například gravitační čočky a gravitační vlny."
+        "body": "Ze spektra galaxie zjistíme její rudý posuv. Pro určení H₀ potřebujeme také vzdálenost.\n\nAstronomové nejprve pomocí geometrických metod změří vzdálenosti některých blízkých objektů. Díky tomu mohou určit skutečnou svítivost cefeid, hvězd s pravidelně proměnnou jasností. Z délky jejich cyklu pak odhadují svítivost dalších cefeid a porovnáním s pozorovanou jasností určují jejich vzdálenost.\n\nCefeidy v galaxiích, v nichž byly pozorovány supernovy typu Ia, pomáhají určit také svítivosti těchto výbuchů. Supernovy potom umožňují měřit vzdálenosti ještě vzdálenějších galaxií. Tomuto navazování metod se říká **vzdálenostní žebřík**. Každý jeho stupeň má vlastní nejistoty, které se promítají do výsledku.\n\nJinou cestou je reliktní záření. Jeho drobné nerovnoměrnosti porovnáme s kosmologickým modelem a odvodíme, jaká dnešní hodnota H₀ jim odpovídá. To je důležitý rozdíl: nejde o přímé měření rychlosti dnešních galaxií. Existují i další přístupy, například gravitační čočky a gravitační vlny."
       },
       {
         "heading": "Jaké hodnoty vycházejí?",
-        "body": "Výběr výsledků k říjnu 2026 ukazuje, že různé postupy zatím nevedou k jediné shodné hodnotě. Všechna následující čísla jsou v km/s/Mpc a vztahují se k dnešnímu rozpínání vesmíru.\n\n- **Reliktní záření – Planck: 67,4 ± 0,5.** Zavedený referenční výsledek analýzy Planck 2018. Jde o hodnotu odvozenou z reliktního záření za předpokladu základního modelu ΛCDM, nikoli o přímé měření dnešních rychlostí galaxií.\n- **Síť kosmických vzdáleností – H0DN: 73,50 ± 0,81.** Studie publikovaná v roce 2026 propojuje několik měřítek vzdáleností, například cefeidy, červené obry a supernovy, a zohledňuje jejich společné kalibrace. Je to kombinovaný výsledek celé sítě, nikoli jediné samostatné měření.\n- **Gravitační čočky – TDCOSMO: 71,1 s nejistotou +2,4 / −2,3.** Základní výsledek práce zveřejněné jako preprint v říjnu 2026 vychází z časových zpoždění mezi obrazy 11 vzdálených kvasarů a z modelování čočkujících galaxií. Analýza používá plochý model ΛCDM a doplňující informaci ze supernov. K uvedenému datu byla práce předložena k publikaci v časopise Physical Review D.\n\nUvedené nejistoty vyjadřují přesnost výsledků v rámci dané analýzy; nejsou zaručenými hranicemi správné hodnoty. Záleží také na kalibraci, použitých datech a předpokladech. Čísla proto nelze jednoduše zprůměrovat a tak získat definitivní odpověď.\n\nHlavní diskutovaný rozdíl lze pro základní orientaci shrnout jako přibližně **67–68 oproti 73–74 km/s/Mpc**. Neznamená to ale, že každá metoda nutně spadá do jedné z těchto dvou skupin. Podrobněji se rozporu věnuje související heslo „Co je Hubbleovo napětí?“."
+        "body": "Výběr výsledků k říjnu 2026 ukazuje, že různé postupy zatím nevedou k jediné shodné hodnotě. Všechna následující čísla jsou v km/s/Mpc a vztahují se k dnešnímu rozpínání vesmíru.\n\n- **Reliktní záření – Planck: 67,4 ± 0,5.** Zavedený referenční výsledek analýzy Planck 2018. Jde o hodnotu odvozenou z reliktního záření za předpokladu základního modelu ΛCDM, nikoli o přímé měření dnešních rychlostí galaxií.\n- **Síť kosmických vzdáleností – H0DN: 73,50 ± 0,81.** Studie publikovaná v roce 2026 propojuje několik měřítek vzdáleností, například cefeidy, červené obry a supernovy, a zohledňuje jejich společné kalibrace. Je to kombinovaný výsledek celé sítě, nikoli jediné samostatné měření.\n- **Gravitační čočky – TDCOSMO: 71,1 s nejistotou +2,4 / −2,3.** Základní výsledek práce zveřejněné jako preprint v říjnu 2026 vychází z časových zpoždění mezi obrazy 11 vzdálených kvasarů a z modelování čočkujících galaxií. Analýza používá plochý model ΛCDM a doplňující informaci ze supernov. K uvedenému datu byla práce předložena k publikaci v časopise Physical Review D.\n\nUvedené nejistoty vyjadřují přesnost výsledků v rámci dané analýzy; nejsou zaručenými hranicemi správné hodnoty. Záleží také na kalibraci, použitých datech a předpokladech. Čísla proto nelze jednoduše zprůměrovat a tak získat definitivní odpověď.\n\nHlavní diskutovaný rozdíl lze pro základní orientaci shrnout jako přibližně **67–68 oproti 73–74 km/s/Mpc**. Neznamená to ale, že každá metoda nutně spadá do jedné z těchto dvou skupin. Podrobněji se rozporu věnuje související téma [Co je Hubbleovo napětí?](https://kosmonovinky.cz/kosmopedie/co-je-hubbleovo-napeti.html)."
       },
       {
         "heading": "Proč konstanta nemusí být stálá v čase",
-        "body": "Název může mást. Obecně se tempo rozpínání označuje H(t) a během historie vesmíru se mění. Dolní index nula u H₀ znamená jeho dnešní hodnotu.\n\nPřevrácená hodnota H₀ dává užitečné časové měřítko, ale sama o sobě není přesným stářím vesmíru. K tomu potřebujeme vědět, jak se rozpínání vyvíjelo. Stejně tak H₀ sama neříká, zda se rozpínání zrychluje."
+        "body": "Tempo rozpínání v různých obdobích popisuje **Hubbleův parametr H(t)**. Říká, jak rychle se kosmická vzdálenost zvětšuje vzhledem ke své okamžité velikosti. Označení **H₀**, Hubbleova konstanta, patří jeho dnešní hodnotě.\n\n**V základním modelu ΛCDM Hubbleův parametr během vývoje vesmíru klesá, přestože se rozpínání v současné epoše zrychluje.** Vzdálenost mezi dvěma gravitačně nevázanými oblastmi totiž může přibývat stále rychleji, zatímco poměr této rychlosti k již zvětšené vzdálenosti klesá.\n\nPokud temnou energii správně popisuje stálá kladná kosmologická konstanta, bude Hubbleův parametr postupně klesat stále pomaleji. V základním modelu ΛCDM s parametry z měření družice Planck se v daleké budoucnosti přibližuje hodnotě asi **56 kilometrů za sekundu na megaparsek**, oproti dnešním přibližně **67,4** podle stejné analýzy. Vesmír se přitom bude dál zrychleně rozpínat.\n\nPřevrácená hodnota H₀ dává užitečné časové měřítko, ale sama o sobě není přesným stářím vesmíru. K tomu potřebujeme vědět, jak se rozpínání vyvíjelo. Stejně tak H₀ sama neříká, zda se rozpínání zrychluje."
       },
       {
         "heading": "Proč se o ní tolik píše",
@@ -1128,7 +1128,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "[NASA: Hubbleova konstanta a Hubbleovo napětí](https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/)\n\n[ESA: Měření Hubbleovy konstanty](https://www.esa.int/ESA_Multimedia/Images/2018/07/Measurements_of_the_Hubble_constant)\n\n[Planck Collaboration: Kosmologické parametry, výsledky Planck 2018](https://arxiv.org/abs/1807.06209)\n\n[H0DN Collaboration: Síť kosmických vzdáleností, publikováno v A&A v roce 2026](https://arxiv.org/abs/2510.23823)\n\n[TDCOSMO Collaboration: Hubbleova konstanta z gravitačních čoček, preprint z října 2026](https://arxiv.org/abs/2610.14781)"
+        "body": "[NASA: Hubbleova konstanta a Hubbleovo napětí](https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/)\n\n[ESA: Měření Hubbleovy konstanty](https://www.esa.int/ESA_Multimedia/Images/2018/07/Measurements_of_the_Hubble_constant)\n\n[Planck Collaboration: Kosmologické parametry, výsledky Planck 2018](https://arxiv.org/abs/1807.06209)\n\n[H0DN Collaboration: Síť kosmických vzdáleností, publikováno v A&A v roce 2026](https://arxiv.org/abs/2510.23823)\n\n[TDCOSMO Collaboration: Hubbleova konstanta z gravitačních čoček, preprint z října 2026](https://arxiv.org/abs/2610.14781)\n\n[Particle Data Group: vývoj Hubbleova parametru](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf)"
       }
     ],
     "why_box": "Když článek uvádí novou hodnotu Hubbleovy konstanty, stojí za to se ptát: jak byla změřena, s jakou nejistotou a za jakých předpokladů? Teprve tyto informace ukážou, zda jde o zpřesnění známého výsledku, nebo o skutečnou výzvu pro naše chápání vesmíru.",
@@ -1144,12 +1144,12 @@
     "theme": "rozpinani-a-modely-vesmiru",
     "description": "Dva způsoby určování dnešního rozpínání vesmíru se rozcházejí. Co je Hubbleovo napětí a proč zatím neznamená důkaz nové fyziky?",
     "published": "2026-10-24",
-    "updated": "2026-10-25",
+    "updated": "2026-11-17",
     "perex": "Jak rychle se dnes rozpíná vesmír? Zní to jako otázka s jedinou odpovědí. Některá přesná měření ale vedou k vyšší hodnotě než výpočet založený na reliktním záření. Tomuto nesouladu říkáme Hubbleovo napětí.",
     "sections": [
       {
         "heading": "Dvě cesty k dnešnímu rozpínání",
-        "body": "První cesta vychází z měření vzdáleností a rudých posuvů galaxií. Žebřík kosmických vzdáleností propojuje blízké objekty s dalekými pomocí několika navazujících měřítek. Každý stupeň je potřeba pečlivě zkalibrovat.\n\nDruhá cesta využívá reliktní záření, které vzniklo přibližně 380 000 let po velkém třesku. Jeho strukturu porovnáme s modelem vývoje vesmíru, obvykle ΛCDM, a vypočítáme odpovídající dnešní hodnotu Hubbleovy konstanty.\n\n**Neporovnáváme tedy přímo rychlost rozpínání kdysi a dnes. Obě cesty určují dnešní H₀**, jen využívají jiné informace a předpoklady.",
+        "body": "První cesta vychází z měření vzdáleností a rudých posuvů galaxií. Žebřík kosmických vzdáleností propojuje blízké objekty s dalekými pomocí několika navazujících měřítek. Každý stupeň je potřeba pečlivě zkalibrovat.\n\nDruhá cesta využívá reliktní záření. Většina záření, které dnes zachycujeme, se naposledy rozptýlila v období kolem 380 tisíc let po velkém třesku. Jeho drobné teplotní rozdíly a polarizaci porovnáváme s modelem vývoje vesmíru, obvykle ΛCDM. Z tohoto porovnání odvozujeme, jaká dnešní hodnota Hubbleovy konstanty odpovídá pozorovaným podmínkám raného vesmíru.\n\n**Neporovnáváme tedy přímo rychlost rozpínání kdysi a dnes. Obě cesty určují dnešní H₀**, jen využívají jiné informace a předpoklady.",
         "image_id": "schema-hubble-dve-cesty"
       },
       {
@@ -1162,7 +1162,7 @@
       },
       {
         "heading": "Je to důkaz nové fyziky?",
-        "body": "Zatím ne. Zkoumají se například změny fyziky raného vesmíru, vlastností temné energie nebo dalších složek kosmu. Každý návrh ale musí vysvětlit také reliktní záření, rozložení galaxií a další měření. Posunout jediné číslo správným směrem nestačí.\n\nAni několik metod s podobným výsledkem nemusí představovat zcela nezávislé potvrzení. Mohou sdílet kalibrační data nebo předpoklady. Právě proto jsou cenné odlišné postupy: například měření s gravitačními čočkami nebo takzvanými standardními sirénami, tedy vhodnými zdroji gravitačních vln."
+        "body": "Zatím ne. Zkoumají se například změny fyziky raného vesmíru, vlastností temné energie nebo dalších složek kosmu. Každý návrh ale musí vysvětlit také reliktní záření, rozložení galaxií a další měření. Posunout jediné číslo správným směrem nestačí.\n\nAni několik metod s podobným výsledkem nemusí představovat zcela nezávislé potvrzení. Mohou sdílet kalibrační data nebo předpoklady. Právě proto jsou cenné odlišné postupy, například měření s gravitačními čočkami nebo standardními sirénami.\n\nDalší možnost představují **standardní sirény**, například slučující se neutronové hvězdy. Z průběhu a síly jejich gravitačního signálu lze odhadnout vzdálenost soustavy. Pokud astronomové najdou také její hostitelskou galaxii, mohou změřit rudý posuv a spolu se vzdáleností odhadnout Hubbleovu konstantu.\n\nKdyž se hostitelskou galaxii nepodaří určit jednoznačně, lze využít statistické porovnání s katalogem možných galaxií. Přesnost závisí mimo jiné na vlastnostech gravitačního signálu, orientaci soustavy a dostupných údajích o galaxiích."
       },
       {
         "heading": "Co by pomohlo rozhodnout",
@@ -1170,7 +1170,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "[NASA: Hubbleova konstanta a Hubbleovo napětí](https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/)\n\n[ESA: Planck a kosmologický model (výsledky z roku 2018)](https://www.esa.int/Science_Exploration/Space_Science/Planck/From_an_almost_perfect_Universe_to_the_best_of_both_worlds)"
+        "body": "[NASA: Hubbleova konstanta a Hubbleovo napětí](https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/)\n\n[ESA: Planck a kosmologický model (výsledky z roku 2018)](https://www.esa.int/Science_Exploration/Space_Science/Planck/From_an_almost_perfect_Universe_to_the_best_of_both_worlds)\n\n[LIGO a Virgo: určení Hubbleovy konstanty standardní sirénou](https://arxiv.org/abs/1710.05835)"
       }
     ],
     "why_box": "Výraz „krize kosmologie“ může znít jako konec všeho, co víme. Hubbleovo napětí je přesněji vymezený problém: některé postupy určování H₀ se neshodují tak dobře, jak by podle svých nejistot měly. Právě takové rozpory mohou pomoci odhalit chybu i novou fyziku.",
@@ -1186,12 +1186,12 @@
     "theme": "rozpinani-a-modely-vesmiru",
     "description": "Co znamenají písmena ΛCDM, proč model potřebuje temnou hmotu a temnou energii a které otázky zatím nechává otevřené?",
     "published": "2026-10-24",
-    "updated": "2026-10-28",
+    "updated": "2026-11-17",
     "perex": "ΛCDM je zkratka pro nejpoužívanější základní model vývoje vesmíru. Spojuje rozpínání kosmu, běžnou hmotu, chladnou temnou hmotu a temnou energii v podobě kosmologické konstanty. Mnoho pozorování vysvětluje společně, ale odpověď na všechno nemá.",
     "sections": [
       {
         "heading": "Co znamenají jednotlivá písmena",
-        "body": "**Λ**, čteno lambda, označuje kosmologickou konstantu v Einsteinových rovnicích gravitace. V tomto modelu představuje temnou energii: složku s konstantní hustotou energie, která souvisí se zrychleným rozpínáním vesmíru. Samotná zkratka neříká, jaká je její mikroskopická podstata.\n\n**CDM** pochází z anglického cold dark matter, tedy chladná temná hmota. „Chladná“ zde znamená, že se její částice v období důležitém pro vznik kosmických struktur pohybovaly pomalu ve srovnání s rychlostí světla. Nejde jednoduše o teplotu, kterou bychom změřili běžným teploměrem."
+        "body": "**Λ**, čteno lambda, označuje kosmologickou konstantu v Einsteinových rovnicích gravitace. V modelu ΛCDM představuje temnou energii se stálou hustotou energie. Průměrná hustota hmoty při rozpínání klesá, takže kosmologická konstanta postupně získává větší podíl na celkovém obsahu vesmíru.\n\nV obecné relativitě ovlivňují rozpínání hustota energie i tlak. Kosmologické konstantě odpovídá záporný tlak. Při jejím dostatečném zastoupení se rozpínání zrychluje. Fyzikální podstatu této složky vědci stále zkoumají.\n\n**CDM** pochází z anglického cold dark matter, tedy chladná temná hmota. „Chladná“ zde znamená, že se její částice v období důležitém pro vznik kosmických struktur pohybovaly pomalu ve srovnání s rychlostí světla. Nejde jednoduše o teplotu, kterou bychom změřili běžným teploměrem."
       },
       {
         "heading": "Víc než dvě neznámé složky",
@@ -2189,16 +2189,16 @@
     "theme": "rozpinani-a-modely-vesmiru",
     "description": "Proč kosmologové rozšiřují model ΛCDM? Co mění proměnlivá temná energie, zakřivení prostoru či vlastnosti temné hmoty a jak změny ověřujeme?",
     "published": "2026-10-26",
-    "updated": "2026-10-26",
+    "updated": "2026-11-17",
     "perex": "Model ΛCDM úspěšně propojuje mnoho pozorování vesmíru. Některé jeho složky ale fyzikálně neznáme a mezi měřeními zůstávají otevřené otázky. Rozšíření modelu znamená změnit konkrétní předpoklad a spočítat, zda takový vesmír lépe odpovídá skutečnosti.",
     "sections": [
       {
         "heading": "Co vlastně v modelu měníme",
-        "body": "Představme si model jako recept se seznamem přísad a pravidly přípravy. V kosmologii jsou přísadami běžná a temná hmota, záření a temná energie; pravidla zahrnují gravitaci a vývoj rozpínání. Zadané počáteční podmínky pak určují, jak se rodí struktury.\n\nZákladní plochý [model ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html) používá obecnou relativitu, studenou temnou hmotu a kosmologickou konstantu Λ. Jeho běžná podoba má šest základních parametrů — číselných hodnot, které určujeme porovnáním předpovědí s pozorováním. Popisují například hustoty běžné a temné hmoty nebo velikost počátečních nerovnoměrností, z nichž později vyrostly galaxie. **Při rozšíření dovolíme měnit také vlastnost, kterou základní model považuje za pevně danou: například připustíme, že se hustota temné energie v čase vyvíjí. Jiná rozšíření mění samotná fyzikální pravidla, například způsob, jakým popisujeme gravitaci.**"
+        "body": "Kosmologický model určuje, jaké složky vesmír obsahuje, jak se chovají a jak jejich působení ovlivňuje rozpínání i vznik struktur.\n\nZákladní plochý [model ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html) používá obecnou relativitu, chladnou temnou hmotu a kosmologickou konstantu. Jeho běžná podoba má šest základních parametrů, jejichž hodnoty určujeme porovnáním výpočtů s měřením. Patří mezi ně například hustoty běžné a temné hmoty nebo velikost počátečních nerovností.\n\nPři rozšíření změníme některý předpoklad. Můžeme například připustit vývoj temné energie v čase nebo nenulovou prostorovou křivost. Potom znovu vypočítáme předpovědi a zkoumáme, zda lépe odpovídají různým pozorováním."
       },
       {
         "heading": "Jedna odchylka, několik možných vysvětlení",
-        "body": "Příkladem je [Hubbleovo napětí](https://kosmonovinky.cz/kosmopedie/co-je-hubbleovo-napeti.html): některé metody odvozují rozdílné hodnoty dnešní rychlosti rozpínání. Jedna cesta hledá dosud nerozpoznané nejistoty měření. Jiná zkoumá novou fyziku.\n\nV raném vesmíru se horkou směsí látky a záření šířily zvukové vlny — střídavé stlačování a rozpínání této směsi. Vzdálenost, kterou stihly urazit do doby, než se světlo začalo volně šířit vesmírem, zanechala charakteristický otisk v reliktním záření. Slouží nám jako **kosmické pravítko**.\n\nPřídavná složka energie by mohla urychlit tehdejší rozpínání. Zvukové vlny by do tohoto okamžiku měly méně času a výsledné pravítko by bylo kratší. Když jeho vypočtenou délku porovnáme s velikostí jeho otisku na obloze, změní se odvozené vzdálenosti, a tím může vyjít i jiná Hubbleova konstanta. Taková úprava ale ovlivní také další vlastnosti reliktního záření a vývoj galaxií, takže ji můžeme ověřovat více způsoby."
+        "body": "Příkladem je [Hubbleovo napětí](https://kosmonovinky.cz/kosmopedie/co-je-hubbleovo-napeti.html): některé metody odvozují rozdílné hodnoty dnešní rychlosti rozpínání. Jedna cesta hledá dosud nerozpoznané nejistoty měření. Jiná zkoumá novou fyziku.\n\nV rané směsi látky a záření se šířily tlakové vlny podobné zvuku. Vzdálenost, kterou stihly urazit do doby uvolňování reliktního záření, poskytuje známé fyzikální měřítko. Z mapy záření zjišťujeme, pod jakým úhlem toto měřítko na obloze vidíme.\n\nNěkteré modely přidávají do raného vesmíru složku energie, která zrychlí tehdejší rozpínání a zkrátí dobu dostupnou pro šíření vln. Vypočtené měřítko pak může být menší a z porovnání s pozorovaným úhlem může vyjít vyšší dnešní Hubbleova konstanta.\n\nTaková změna zároveň ovlivňuje další vlastnosti reliktního záření a vznik struktur. Teprve společné porovnání s těmito údaji ukáže, zda model skutečně pomáhá vysvětlit nesoulad měření."
       },
       {
         "heading": "Které možnosti se zkoumají",
@@ -2279,16 +2279,16 @@
     "theme": "rozpinani-a-modely-vesmiru",
     "description": "Co kdyby se gravitace na velkých vzdálenostech chovala jinak? Jak se změny obecné relativity testují pohybem galaxií a ohybem světla?",
     "published": "2026-10-26",
-    "updated": "2026-10-26",
-    "perex": "Obecná relativita vysvětluje gravitaci pomocí geometrie prostoročasu. Modifikovaná gravitace je společné označení pro teorie, které tento popis mění nebo rozšiřují. Hledají mimo jiné odpověď na to, zda by změna gravitačních pravidel mohla vysvětlit některé projevy připisované temnému vesmíru.",
+    "updated": "2026-11-17",
+    "perex": "Obecná relativita vysvětluje gravitaci pomocí geometrie časoprostoru. Modifikovaná gravitace je společné označení pro teorie, které tento popis mění nebo rozšiřují. Hledají mimo jiné odpověď na to, zda by změna gravitačních pravidel mohla vysvětlit některé projevy připisované temnému vesmíru.",
     "sections": [
       {
         "heading": "Změnit pravidla místo přidání nové složky",
-        "body": "Pozorujeme pohyb galaxií nebo historii rozpínání a porovnáváme je s výpočtem. Jedna možnost přidá novou složku, například temnou hmotu. Jiná upraví vztah mezi rozložením hmoty a energie a výslednou gravitací.\n\nV obecné relativitě hmota a energie ovlivňují zakřivení prostoročasu a geometrie určuje pohyb těles i světla. **Modifikace může například přidat další pole, které se na gravitačním působení podílí.** Pak se mohou změnit pohyby galaxií i ohyb světla. Nejde o jedinou teorii, ale o širokou rodinu návrhů."
+        "body": "Pozorujeme pohyb galaxií nebo historii rozpínání a porovnáváme je s výpočtem. Jedna možnost přidá novou složku, například temnou hmotu. Jiná upraví vztah mezi rozložením hmoty a energie a výslednou gravitací.\n\nV obecné relativitě hmota a energie ovlivňují zakřivení časoprostoru a geometrie určuje pohyb těles i světla. **Modifikace může například přidat další pole, které se na gravitačním působení podílí.** Pak se mohou změnit pohyby galaxií i ohyb světla. Nejde o jedinou teorii, ale o širokou rodinu návrhů."
       },
       {
         "heading": "Příklad: další pole spojené s gravitací",
-        "body": "Ve skalárně-tenzorových teoriích se vedle geometrie uplatňuje další pole, popsané v každém místě jednou hodnotou. Jeho stav může ovlivňovat sílu gravitačního působení nebo vývoj rozpínání. Změna stavu pole pak mění předpovědi pro pozorování.\n\nPříbuznou cestou jsou modely označované **f(R)**, které mění závislost gravitační teorie na veličině popisující zakřivení. V řadě případů je lze přepsat pomocí dodatečného skalárního pole. Jde o matematicky určené návrhy, z nichž musí být možné spočítat konkrétní důsledky."
+        "body": "Fyzikální pole přiřazuje jednotlivým místům a okamžikům určitou veličinu. **Skalární pole** je popsáno jednou číselnou hodnotou v každém místě a čase. Pro představu lze podobným způsobem znázornit teplotu v místnosti.\n\nVe skalárně-tenzorových teoriích gravitace se takové pole podílí na gravitačním působení společně s geometrií časoprostoru. Jeho hodnota a vývoj mohou ovlivňovat rozpínání vesmíru i pohyb hmoty. Konkrétní účinky závisejí na rovnicích dané teorie.\n\nDalší rodinou návrhů jsou **teorie f(R)**. Písmeno R označuje veličinu odvozenou ze zakřivení časoprostoru. Zápis f(R) vyjadřuje, že se v základním matematickém popisu gravitace místo samotného R použije zvolená funkce této veličiny.\n\nTaková změna může upravit rozpínání i růst kosmických struktur. Řadu těchto teorií lze popsat také pomocí dodatečného skalárního pole."
       },
       {
         "heading": "Co by taková teorie mohla vysvětlit",
@@ -2300,7 +2300,7 @@
       },
       {
         "heading": "Proč musí změna obstát i poblíž Slunce",
-        "body": "Obecná relativita prošla přesnými zkouškami ve Sluneční soustavě, u pulsarů i pomocí gravitačních vln. Nový model musí tyto výsledky respektovat.\n\nNěkteré teorie proto obsahují **stínicí mechanismus**: v určitých prostředích, například u hustých těles, se dodatečný účinek potlačí, zatímco v řidším kosmickém prostředí může být výraznější. Takové potlačení musí vyplývat z rovnic a být ověřitelné, nestačí je pouze předpokládat."
+        "body": "Obecná relativita prošla přesnými zkouškami ve Sluneční soustavě, u pulsarů i pomocí gravitačních vln. Nový model musí tyto výsledky respektovat.\n\nNěkteré teorie obsahují **stínicí mechanismus**, který za určitých podmínek zeslabuje dodatečný gravitační účinek. Podle konkrétní teorie může záležet například na hustotě okolí, síle gravitačního pole nebo na prostorových změnách přidaného pole.\n\nDíky tomu může teorie v okolí Slunce dávat výsledky velmi blízké obecné relativitě a současně se od ní lišit na kosmických měřítkách. Takové chování musí vyplývat z jejích rovnic a projít porovnáním s měřením."
       },
       {
         "heading": "Kde jsme dnes",
@@ -2308,7 +2308,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Euclid: testování gravitace a růstu struktur](https://www.esa.int/Science_Exploration/Space_Science/Euclid/The_dark_Universe)\n- [Euclid Collaboration, 2025: modely a předpovědi pro testy](https://arxiv.org/abs/2512.09748)\n- [A. Joyce a kol.: kosmologické testy modifikované gravitace](https://arxiv.org/abs/1504.04623)"
+        "body": "- [Euclid: testování gravitace a růstu struktur](https://www.esa.int/Science_Exploration/Space_Science/Euclid/The_dark_Universe)\n- [Euclid Collaboration, 2025: modely a předpovědi pro testy](https://arxiv.org/abs/2512.09748)\n- [Kazuya Koyama: kosmologické testy modifikované gravitace](https://arxiv.org/abs/1504.04623)\n- [De Felice a Tsujikawa: teorie f(R)](https://arxiv.org/abs/1002.4928)"
       }
     ],
     "why_box": "Modifikovaná gravitace mění samotná gravitační pravidla. Prověřujeme ji společně pomocí pohybu hmoty, čočkování, růstu struktur a přesných místních experimentů.",
@@ -2325,7 +2325,7 @@
     "theme": "rozpinani-a-modely-vesmiru",
     "description": "MOND vysvětluje řadu rotačních křivek galaxií. Dokáže ale nahradit temnou hmotu také v kupách galaxií a při popisu celého vesmíru?",
     "published": "2026-10-26",
-    "updated": "2026-10-26",
+    "updated": "2026-11-17",
     "perex": "Hvězdy na okrajích mnoha galaxií i galaxie uvnitř galaktických kup se pohybují rychleji, než dokážeme vysvětlit gravitací pozorované běžné látky při použití obvyklých gravitačních zákonů. Standardní vysvětlení přidává temnou hmotu. Alternativní přístupy zkoumají, zda bychom alespoň část těchto jevů mohli popsat změnou gravitačních pravidel.",
     "sections": [
       {
@@ -2334,11 +2334,11 @@
       },
       {
         "heading": "Co navrhuje MOND",
-        "body": "**MOND**, modifikovaná newtonovská dynamika, mění obvyklý popis při velmi malých zrychleních. Rozhodující je velikost zrychlení, nikoli prostě velká vzdálenost. V nejjednodušším sféricky symetrickém případě hlubokého režimu MOND přibližně platí **g ≈ √(gₙ × a₀)**.\n\nSymbol gₙ označuje zrychlení vypočtené z běžné hmoty podle Newtona a a₀ charakteristické zrychlení asi **1,2 × 10⁻¹⁰ m/s²**. Pokud gₙ = a₀/100, vychází g přibližně a₀/10, tedy desetkrát větší než původní Newtonův odhad. Tento příklad ukazuje změnu pravidla, nikoli dodání nové látky."
+        "body": "**MOND**, modifikovaná newtonovská dynamika, upravuje popis pohybu při velmi malých zrychleních. Zavádí charakteristickou hodnotu a₀ přibližně 1,2 × 10⁻¹⁰ m/s².\n\nPro jednoduchou soustavu s kulově souměrným rozložením hmoty a při zrychleních mnohem menších než a₀ přibližně platí **g ≈ √(gₙ × a₀)**. Symbol gₙ znamená zrychlení vypočtené z běžné hmoty podle Newtonovy teorie. Symbol g označuje zrychlení předpovězené MOND.\n\nPokud Newtonův výpočet dává gₙ = a₀/100, vychází v tomto příkladu podle MOND g přibližně a₀/10. Předpovězené zrychlení je tedy desetkrát větší."
       },
       {
         "heading": "Proč je tato myšlenka zajímavá",
-        "body": "MOND dokáže popsat řadu rotačních křivek a těsné vztahy mezi pohybem a rozložením běžné hmoty v diskových galaxiích. Ve vhodných podmínkách z něj vychází také vztah mezi hmotností běžné látky a čtvrtou mocninou okrajové rotační rychlosti.\n\nTo jsou důležité pravidelnosti, které musí vysvětlit i modely s temnou hmotou. V jejich simulacích záleží mimo jiné na tom, jak vznik hvězd a výrony plynu ovlivňují rozložení běžné i temné složky. Shoda s pozorovanými vztahy se proto skutečně testuje."
+        "body": "**Rotační křivka** ukazuje, jak se oběžná rychlost hvězd či plynu mění se vzdáleností od středu galaxie. MOND dokáže z rozložení běžné hmoty popsat řadu těchto pozorovaných křivek.\n\nPro osamocenou galaxii v oblasti velmi malých zrychlení předpovídá také vztah mezi celkovou hmotností běžné látky a rychlostí obíhání daleko od jejího středu. Hmotnost je v tomto vztahu úměrná čtvrté mocnině rychlosti. Například dvojnásobná rychlost odpovídá šestnáctinásobné hmotnosti běžné látky. Podobný pozorovaný vztah patří k důležitým zkouškám modelů galaxií.\n\nTo jsou důležité pravidelnosti, které musí vysvětlit i modely s temnou hmotou. V jejich simulacích záleží mimo jiné na tom, jak vznik hvězd a výrony plynu ovlivňují rozložení běžné i temné složky. Shoda s pozorovanými vztahy se proto skutečně testuje."
       },
       {
         "heading": "Kde samotná změna nestačí",
@@ -2368,7 +2368,7 @@
     "theme": "rozpinani-a-modely-vesmiru",
     "description": "Jak se z pozorování stane zkouška kosmologického modelu? Proč záleží na nejistotách, počtu parametrů a nezávislých datech?",
     "published": "2026-10-26",
-    "updated": "2026-10-26",
+    "updated": "2026-11-17",
     "perex": "Dva modely mohou dobře popsat stejné pozorování, přestože předpokládají odlišnou fyziku. Rozhoduje proto společná zkouška více předpovědí. Kosmologové porovnávají shodu s daty, nejistoty měření i to, kolik volnosti model k dosažení shody potřebuje.",
     "sections": [
       {
@@ -2381,12 +2381,12 @@
       },
       {
         "heading": "Proč nestačí těsnější shoda s naměřenými body",
-        "body": "Představme si graf, v němž každý bod představuje jedno měření. Hledáme čáru nebo křivku, která vystihne vztah mezi měřenými veličinami. Přímka může dobře zachytit celkový trend. Složitější křivku lze přizpůsobit tak, aby procházela každým bodem — tím ale může kopírovat i náhodné chyby měření. U dalších pozorování pak může předpovídat hůře než jednoduchá přímka.\n\nPři porovnávání modelů proto statistické metody zohledňují také jejich volnost. Bayesovské porovnání například posuzuje shodu napříč předem vymezeným rozsahem parametrů. Záleží tak i na tom, jaký rozsah byl fyzikálně zdůvodněn. Obrázek níže ukazuje princip na smyšlených bodech.",
+        "body": "Představme si graf, v němž každý bod představuje jedno měření. Hledáme čáru nebo křivku, která vystihne vztah mezi měřenými veličinami. Přímka může dobře zachytit celkový trend. Složitější křivku lze přizpůsobit tak, aby procházela každým bodem — tím ale může kopírovat i náhodné chyby měření. U dalších pozorování pak může předpovídat hůře než jednoduchá přímka.\n\nPři bayesovském porovnání vědci hodnotí, jak dobře model odpovídá měření při různých přípustných hodnotách svých parametrů. Zohledňují přitom, jaké hodnoty byly před porovnáním považovány za možné a s jakou vahou.\n\nModel může dosáhnout velmi dobré shody jen v úzké části svých možností. Jiný může vysvětlovat data v širším rozsahu. Výsledek porovnání proto závisí také na fyzikálním zdůvodnění předem zvolených rozsahů parametrů. Obrázek níže ukazuje princip na smyšlených bodech.",
         "image_id": "schema-modely-prolozeni-a-predpoved"
       },
       {
         "heading": "Náhodná chyba a systematický posun",
-        "body": "**Statistická nejistota** souvisí například s konečným počtem pozorovaných objektů. Více kvalitních dat ji zpravidla zmenší. **Systematická nejistota** může vzniknout třeba chybnou kalibrací, výběrem objektů nebo nepřesným modelem prachu. Pouhé přidávání stejně měřených objektů ji nemusí odstranit.\n\nAbychom posoudili rozdíl mezi měřením a předpovědí, porovnáváme ho s vyhodnocenou nejistotou. Její velikost se často vyjadřuje pomocí **směrodatné odchylky, označované řeckým písmenem sigma (σ)**. Pokud například nejistotě jednoho sigma odpovídají dvě jednotky a naměřená hodnota se od předpovědi liší o šest jednotek, jde o rozdíl **tří sigma**.\n\nČím více sigma rozdíl představuje, tím obtížněji jej lze za předpokladů daného testu vysvětlit náhodným kolísáním. Stále ale musíme prověřit kalibraci přístrojů a další možné zdroje chyb. Počet sigma sám o sobě neudává pravděpodobnost, že je celá teorie správná nebo chybná."
+        "body": "**Statistická nejistota** souvisí například s konečným počtem pozorovaných objektů. Více kvalitních dat ji zpravidla zmenší. **Systematická nejistota** může vzniknout třeba chybnou kalibrací, výběrem objektů nebo nepřesným modelem prachu. Pouhé přidávání stejně měřených objektů ji nemusí odstranit.\n\nPro posouzení nesouladu porovnáváme rozdíl výsledků s nejistotou tohoto rozdílu. U dvou měření přitom musíme započítat nejistoty obou. Pokud sdílejí například stejnou kalibraci, zohledníme také tuto souvislost.\n\nJestliže výsledky dělí šest jednotek a směrodatná odchylka jejich rozdílu odpovídá dvěma jednotkám, mluvíme o rozdílu **tří sigma**.\n\nPočet sigma pomáhá posoudit, jak neobvyklý by takový rozdíl byl za předpokladů daného testu. Jeho výklad stále závisí na správném vyhodnocení nejistot a možných chyb měření."
       },
       {
         "heading": "Různá data jako společná zkouška",
@@ -2398,7 +2398,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [Roberto Trotta: statistické odvozování a porovnávání modelů](https://arxiv.org/abs/0803.4089)\n- [Planck: odvozené parametry a závislost na modelu](https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html)\n- [DESI, červenec 2026: více měření a soupeřící předpovědi](https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/)"
+        "body": "- [Roberto Trotta: statistické odvozování a porovnávání modelů](https://arxiv.org/abs/0803.4089)\n- [Planck: odvozené parametry a závislost na modelu](https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html)\n- [DESI, červenec 2026: více měření a soupeřící předpovědi](https://www.desi.lbl.gov/2026/07/30/new-desi-dr2-lyman-alpha-results-shed-light-on-dark-energy/)\n- [Particle Data Group: statistika a porovnávání výsledků](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-statistics.pdf)"
       }
     ],
     "why_box": "Kosmologický model hodnotíme podle společné shody s různými daty, správného zacházení s nejistotami a schopnosti předpovídat. To, že model přesněji odpovídá jedné skupině měření, ještě neznamená, že lépe popisuje vesmír. Musí obstát také při porovnání s dalšími pozorováními.",
@@ -3556,7 +3556,7 @@
     "theme": "rozpinani-a-modely-vesmiru",
     "description": "Křivost, konečnost a pozorovatelný vesmír: jak tyto otázky rozlišujeme a co o nich zjišťujeme z měření?",
     "published": "2026-10-28",
-    "updated": "2026-10-28",
+    "updated": "2026-11-17",
     "perex": "Prostor může mít různou geometrii a různé celkové uspořádání. Kosmologové zkoumají jeho zakřivení, možnost konečného objemu i hranice toho, co můžeme pozorovat. K odpovědím využívají reliktní záření, rozložení galaxií a modely rozpínání.",
     "sections": [
       {
@@ -3569,7 +3569,7 @@
       },
       {
         "heading": "Jak může být prostor konečný a bez okraje",
-        "body": "Povrch koule má konečnou plochu a při cestě po něm nenarazíme na okraj. Podobně lze v matematice popsat trojrozměrný prostor s konečným objemem a bez hranice.\n\nO celkovém propojení prostoru rozhoduje **topologie**. Představme si jako pomůcku plochou herní mapu, na které se po opuštění jednoho okraje objevíme na protějším: body obou okrajů jsou propojené. I plochý prostor tak může mít konečný objem. Geometrie a topologie jsou dvě vlastnosti, které společně určují, jaké celkové uspořádání připadá v úvahu."
+        "body": "Povrch koule má konečnou plochu a při cestě po něm nenarazíme na okraj. Podobně lze v matematice popsat trojrozměrný prostor s konečným objemem a bez hranice.\n\n**Topologie** popisuje celkové propojení prostoru. Pro představu si můžeme vzít krychlovou oblast, jejíž protější stěny jsou navzájem propojené. Při průchodu jednou stěnou bychom plynule pokračovali protější stěnou zpět do téže oblasti.\n\nV takovém matematickém modelu má prostor konečný objem a nemá hranici. Zároveň může být všude prostorově plochý. Odpověď na otázku konečnosti proto vyžaduje zkoumat také celkové propojení prostoru."
       },
       {
         "heading": "Co nám řekne světlo z dávného vesmíru",
@@ -3577,7 +3577,7 @@
       },
       {
         "heading": "Jak velká část vesmíru je pozorovatelná",
-        "body": "**Pozorovatelný vesmír** zahrnuje místa, odkud k nám od raných epoch stihlo dorazit světlo či jiný signál. Protože se prostor během jeho cesty rozpínal, jsou dnešní vzdálenosti těchto míst větší než součin doby letu a rychlosti světla. V základním modelu vychází dnešní poloměr pozorovatelné oblasti přibližně **46 miliard světelných let**, zatímco stáří vesmíru činí asi 13,8 miliardy let.\n\nČásticový horizont vymezuje dosah dosavadního šíření signálu. Kosmologický horizont událostí, pokud jej daný model má, souvisí s tím, odkud k nám ještě mohou dorazit signály vyslané nyní. Závisí také na budoucím rozpínání. Schéma odděluje tyto dvě otázky; převod rudého posuvu na dobu letu a dnešní vzdálenost rozvíjí [samostatné téma s příklady](https://kosmonovinky.cz/kosmopedie/jak-velky-je-rudy-posuv-priklady-a-vypocty.html).",
+        "body": "**Pozorovatelný vesmír** zahrnuje místa, odkud k nám od raných epoch stihlo dorazit světlo či jiný signál. Protože se prostor během jeho cesty rozpínal, jsou dnešní vzdálenosti těchto míst větší než součin doby letu a rychlosti světla. V základním modelu vychází dnešní poloměr pozorovatelné oblasti přibližně **46 miliard světelných let**, zatímco stáří vesmíru činí asi 13,8 miliardy let.\n\n**Částicový horizont** vymezuje oblast, ze které k nám od počátku kosmického vývoje mohl dorazit signál. Souvisí tedy s dosavadní historií vesmíru.\n\n**Kosmologický horizont událostí**, pokud v daném modelu existuje, se týká budoucnosti. Odděluje oblasti, z nichž k nám signál vyslaný nyní ještě někdy dorazí, od oblastí, z nichž už k nám při předpokládaném budoucím rozpínání dorazit nemůže.\n\nTyto horizonty závisejí na vývoji rozpínání. Jejich poloha proto není jednoduše dána vzdáleností, ve které dnes rychlost vzdalování odpovídá rychlosti světla.\n\nSchéma odděluje tyto dvě otázky; převod rudého posuvu na dobu letu a dnešní vzdálenost rozvíjí [samostatné téma s příklady](https://kosmonovinky.cz/kosmopedie/jak-velky-je-rudy-posuv-priklady-a-vypocty.html).",
         "image_id": "schema-pozorovatelny-vesmir-otazky"
       },
       {
@@ -3609,7 +3609,7 @@
     "theme": "rozpinani-a-modely-vesmiru",
     "description": "Big Freeze, Big Crunch a Big Rip: co by vedlo k různým budoucnostem vesmíru a jakou roli hraje temná energie?",
     "published": "2026-10-28",
-    "updated": "2026-10-28",
+    "updated": "2026-11-17",
     "perex": "Vzdálenou budoucnost vesmíru odhadujeme z jeho rozpínání, složení a fyzikálních zákonů. Základní model ΛCDM vede k pokračujícímu rozpínání a postupnému vyhasínání. Jiné předpoklady o temné energii připouštějí také obrat ke smršťování nebo rozpad vázaných struktur.",
     "sections": [
       {
@@ -3622,11 +3622,11 @@
       },
       {
         "heading": "Big Crunch: obrat ke smršťování",
-        "body": "Některé modely připouštějí, že se rozpínání zastaví a měřítko vesmíru začne klesat. S rostoucí průměrnou hustotou se záření zahřívá a vývoj směřuje k hustému stavu. Tento scénář se nazývá **Big Crunch**, velké smrštění.\n\nMůže nastat například v některých modelech, kde se temná energie v budoucnu výrazně změní. Základní model s dnešní kladnou kosmologickou konstantou k takovému obratu nevede. Výpočty případného odrazu po smršťování vyžadují další předpoklady o fyzice při extrémních hustotách."
+        "body": "Některé modely připouštějí, že se rozpínání zastaví a měřítko vesmíru začne klesat. S rostoucí průměrnou hustotou se záření zahřívá a vývoj směřuje k hustému stavu. Tento scénář se nazývá **Big Crunch**, velké smrštění.\n\nObrat ke smršťování připouštějí například některé modely, v nichž se hustota temné energie v budoucnu stane zápornou a její působení umožní zastavení rozpínání.\n\nZda k obratu skutečně dojde, závisí také na ostatním obsahu vesmíru, jeho geometrii a dalším vývoji temné energie. Základní plochý model ΛCDM s kladnou kosmologickou konstantou předpovídá pokračující rozpínání.\n\nVýpočty případného odrazu po smršťování vyžadují další předpoklady o fyzice při extrémních hustotách."
       },
       {
         "heading": "Big Rip: když růst hustoty energie rozruší struktury",
-        "body": "Ve zvláštním scénáři zvaném **Big Rip** hustota temné energie během rozpínání roste. Její účinek může postupně překonat vazby držící pohromadě kupy, galaxie a nakonec i menší soustavy.\n\nZnámý jednoduchý příklad používá stálou hodnotu **w menší než −1**, kde w vyjadřuje poměr tlaku k hustotě energie. Při zachování tohoto chování model dosáhne extrémního rozpínání v konečném čase. Vlastnosti w a jejich měření přibližuje [téma o proměnlivé temné energii](https://kosmonovinky.cz/kosmopedie/muze-se-temna-energie-menit-v-case.html).\n\nPři Big Freeze hvězdy postupně vyhasínají a vesmír chladne; samotné rozpínání přitom neroztrhá gravitačně vázané soustavy, například galaxie nebo planetární systémy. Při Big Rip účinek temné energie naopak zesílí natolik, že postupně rozruší i tyto soustavy a v krajním případě také atomy. Rozdíl tedy spočívá v postupném vyhasínání a řídnutí oproti rozpadu samotných struktur."
+        "body": "Ve zvláštním scénáři zvaném **Big Rip** hustota temné energie během rozpínání roste. Její účinek může postupně překonat vazby držící pohromadě kupy, galaxie a nakonec i menší soustavy.\n\nJednoduchý model **Big Rip** předpokládá, že parametr w zůstává trvale menší než −1. Parametr w vyjadřuje poměr tlaku temné energie k její hustotě energie. Při obvyklém předpokladu, že si tato složka nevyměňuje energii s ostatními složkami, její hustota během rozpínání roste.\n\nPokud toto chování pokračuje, model předpovídá stále silnější působení temné energie, rozrušení vázaných struktur a neomezený růst kosmických vzdáleností v konečném čase.\n\nKdyby měření naznačila hodnotu w pod −1 v určitém období, pro předpověď takového konce bychom museli zjistit také její další vývoj. Proměnlivé w může vést k jinému budoucímu scénáři. Vlastnosti w a jejich měření přibližuje [téma o proměnlivé temné energii](https://kosmonovinky.cz/kosmopedie/muze-se-temna-energie-menit-v-case.html).\n\nPři Big Freeze hvězdy postupně vyhasínají a vesmír chladne; samotné rozpínání přitom neroztrhá gravitačně vázané soustavy, například galaxie nebo planetární systémy. Při Big Rip účinek temné energie naopak zesílí natolik, že postupně rozruší i tyto soustavy a v krajním případě také atomy. Rozdíl tedy spočívá v postupném vyhasínání a řídnutí oproti rozpadu samotných struktur."
       },
       {
         "heading": "Co můžeme rozhodnout měřením",
@@ -3634,7 +3634,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "- [NASA: temná energie a budoucnost rozpínání](https://science.nasa.gov/dark-energy/)\n- [Caldwell, Kamionkowski a Weinberg: původní práce o Big Rip](https://arxiv.org/abs/astro-ph/0302506)\n- [Adams a Laughlin: dlouhodobý vývoj hvězd a vesmíru](https://arxiv.org/abs/astro-ph/9701131)\n- [Planck 2018: referenční kosmologický model](https://arxiv.org/abs/1807.06209)"
+        "body": "- [NASA: temná energie a budoucnost rozpínání](https://science.nasa.gov/dark-energy/)\n- [Caldwell, Kamionkowski a Weinberg: původní práce o Big Rip](https://arxiv.org/abs/astro-ph/0302506)\n- [Adams a Laughlin: dlouhodobý vývoj hvězd a vesmíru](https://arxiv.org/abs/astro-ph/9701131)\n- [Planck 2018: referenční kosmologický model](https://arxiv.org/abs/1807.06209)\n- [Particle Data Group: rovnice kosmického vývoje](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf)"
       }
     ],
     "why_box": "Budoucnost vesmíru propojuje měření dnešního rozpínání s otázkou, jak se bude chovat temná energie. Každý scénář konce je výsledkem konkrétních předpokladů, které můžeme postupně zpřesňovat.",
