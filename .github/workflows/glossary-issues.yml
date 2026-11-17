@@ -1,0 +1,33 @@
+name: Schvalování překladů ve slovníčku
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  glossary-decision:
+    if: >-
+      github.event.issue.state == 'open' &&
+      !github.event.issue.pull_request &&
+      github.event.issue.user.login == 'github-actions[bot]' &&
+      github.actor == github.event.repository.owner.login &&
+      startsWith(github.event.issue.title, 'Slovníček:')
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Zpracovat rozhodnutí
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/glossary_issues.py decision

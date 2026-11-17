@@ -5,6 +5,7 @@ on:
 
 permissions:
   actions: read
+  issues: write
   contents: write
   pages: write
   id-token: write
@@ -204,6 +205,14 @@ jobs:
                       raise SystemExit("Publikování nebylo potvrzeno; příspěvky na sociální sítě se neodesílají.")
                   time.sleep(10)
           PY
+
+      - name: Navrhnout překlady do slovníčku
+        continue-on-error: true
+        timeout-minutes: 3
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/glossary_issues.py propose
 
       - name: Post daily card to X via Buffer
         id: daily-x
