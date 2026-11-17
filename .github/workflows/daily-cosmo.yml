@@ -219,11 +219,6 @@ jobs:
           from scripts.generate_x_card import pick_item
           from pathlib import Path
 
-          api_key = os.environ.get("BUFFER_API_KEY")
-          if not api_key:
-              print("Chybí BUFFER_API_KEY")
-              raise SystemExit("Chybí BUFFER_API_KEY pro X.")
-
           news_path = Path("data/news.json")
           if not news_path.exists():
               print("news.json nenalezen")
@@ -238,6 +233,12 @@ jobs:
 
           # Stejný výběr jako na obrázku denní karty.
           item = pick_item(today_items)
+          if not item:
+              print("Žádný článek pro denní kartu.")
+              exit(0)
+          api_key = os.environ.get("BUFFER_API_KEY")
+          if not api_key:
+              raise SystemExit("Chybí BUFFER_API_KEY.")
           target_url = article_url(item, items)
           title = (item.get("title") or "").strip()
           summary = (item.get("summary") or "").strip()
@@ -361,11 +362,6 @@ jobs:
           from scripts.generate_x_card import pick_item
           from pathlib import Path
 
-          api_key = os.environ.get("BUFFER_API_KEY")
-          if not api_key:
-              print("Chybí BUFFER_API_KEY")
-              raise SystemExit("Nelze odeslat příspěvek na Facebook.")
-
           news_path = Path("data/news.json")
           if not news_path.exists():
               print("news.json nenalezen")
@@ -380,6 +376,12 @@ jobs:
 
           # Stejný výběr jako na obrázku denní karty.
           item = pick_item(today_items)
+          if not item:
+              print("Žádný článek pro denní kartu.")
+              exit(0)
+          api_key = os.environ.get("BUFFER_API_KEY")
+          if not api_key:
+              raise SystemExit("Chybí BUFFER_API_KEY.")
           target_url = article_url(item, items)
           title = (item.get("title") or "").strip()
           summary = (item.get("summary") or "").strip()
