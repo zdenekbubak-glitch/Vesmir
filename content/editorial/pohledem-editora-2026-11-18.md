@@ -7,7 +7,7 @@ theme: temna-hmota
 image: schema-kupy-plyn-a-hmota
 ---
 
-Při procházení zpráv o temné hmotě by si člověk mohl říct, že se kolem ní stále opakuje stejná otázka: z čeho vlastně je? Na našem webu se přitom temná hmota objevuje v mnoha různých souvislostech. Vedle hledání jejího složení se vědci snaží zjistit také to, kde je soustředěná, jak se chová a jak ovlivňuje vývoj galaxií. Jednou jde o pohyb galaxií, podruhé o neobvyklou událost hluboko pod zemí, jindy o výpočet na superpočítači. Co nám tyto práce společně říkají a v čem se naše poznání posouvá?
+Při procházení zpráv o temné hmotě by si člověk mohl říct, že se ve vztahu k ní stále opakuje stejná otázka: z čeho vlastně je? Na našem webu se však temná hmota objevuje v mnoha různých souvislostech. Vedle hledání jejího složení se vědci snaží zjistit také to, kde je soustředěná, jak se chová a jak ovlivňuje vývoj galaxií. Jednou jde o pohyb galaxií, podruhé o neobvyklou událost hluboko pod zemí, jindy o výpočet na superpočítači. Co nám tyto práce společně říkají a v čem se naše poznání posouvá?
 
 ## Proč s temnou hmotou vůbec počítáme
 
@@ -23,7 +23,7 @@ Podrobněji tento rozdíl mezi chováním plynu a temné hmoty vysvětluje téma
 
 Do stejného obrazu zapadá reliktní záření, světlo z doby, kdy bylo vesmíru asi 380 tisíc let. Jeho drobné teplotní rozdíly pomáhají určit tehdejší složení vesmíru. V základním kosmologickém modelu připadá na temnou hmotu přibližně **85 % veškeré hmoty**. Zbývající část tvoří běžná hmota, ze které jsou atomy, hvězdy i my. Temná energie je další složka modelu, spojená se zrychleným rozpínáním vesmíru.
 
-Síla tohoto vysvětlení spočívá ve spojení různých měření. Vedle částicových hypotéz se zkoumají také [úpravy gravitačních zákonů](https://kosmonovinky.cz/kosmopedie/lze-vysvetlit-pozorovani-bez-temne-hmoty.html). I ty musejí současně vysvětlit rychlosti hvězd v galaxiích, pohyby galaxií a ohyb světla v jejich kupách i vlastnosti reliktního záření z raného vesmíru.
+Váhu tomuto tvrzení dodává propojení výsledků různých měření. Vedle hypotéz z oblasti částicové fyziky se zkoumají také [úpravy gravitačních zákonů](https://kosmonovinky.cz/kosmopedie/lze-vysvetlit-pozorovani-bez-temne-hmoty.html). I ty musejí současně vysvětlit rychlosti hvězd v galaxiích, pohyby galaxií a ohyb světla v jejich kupách i vlastnosti reliktního záření z raného vesmíru.
 
 ## Od raného vesmíru k okolí Slunce
 
@@ -89,9 +89,9 @@ To je důležitý výsledek: jedna domnělá stopa dostává pravděpodobnějš�
 
 ## Co z toho společně vyplývá
 
-Kolem temné hmoty dnes probíhá několik propojených pátrání. Zjišťujeme, kde je a jak vytváří vesmírné struktury. Zkoušíme zachytit její částice a počítáme, jaké další projevy by měly mít. A také se učíme přesněji popsat hvězdy, plyn a záření, abychom v měřeních dokázali rozpoznat něco nového.
+Ohledně temné hmoty dnes probíhá několik propojených pátrání. Zjišťujeme, kde je a jak vytváří vesmírné struktury. Zkoušíme zachytit její částice a počítáme, jaké další projevy by měly mít. A také se učíme přesněji popsat hvězdy, plyn a záření, abychom v měřeních dokázali rozpoznat něco nového, co nás dovede k podstatě temné hmoty.
 
-Právě na těchto souvislostech je současný výzkum zajímavý. Lepší model galaxií může změnit výklad události v podzemním detektoru. Výpočet raného vesmíru může určit frekvenci pro laboratorní přijímač. A deformovaný obraz vzdáleného kvazaru může napovědět, zda se temné částice vzájemně srážejí.
+Právě díky těmto souvislostem je současný výzkum mimořádně zajímavý. Lepší model galaxií může změnit výklad události v podzemním detektoru. Výpočet týkající se raného vesmíru může zpřesnit návrh frekvence pro laboratorní přijímač. A deformovaný obraz vzdáleného kvazaru může napovědět, zda se temné částice vzájemně srážejí.
 
 Otázka, z čeho je temná hmota, tak získává stále konkrétnější podobu. Každá z těchto prací vymezuje malý díl problému a ukazuje, jak jej dál měřit. Když se jednotlivé výsledky spojí, je lépe vidět, o kolik jsme se v poznání posunuli — i proč mají cenu zprávy, které na první pohled nepřinášejí převratný objev.
 
