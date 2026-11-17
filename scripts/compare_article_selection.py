@@ -3,13 +3,8 @@ import json
 import os
 import re
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
-
-from fetch_and_update import (
-    GEMINI_MODEL, MAX_NEW_ITEMS, fetch_arxiv, fetch_rss, genai,
-    get_existing_ids, load_history,
-)
 
 CONFIG = Path("data/selection_config.json")
 OUTPUT = Path("tmp/selection-shadow")
@@ -56,7 +51,7 @@ def rating_schema(topics):
                                        "required": list(properties)}}
 
 
-def rate(items, config):
+def rate(items, config, *, client, model):
     payload = [
         {"id": str(i), "source": item["source"],
          "title": item["original_title"][:400], "abstract": item["abstract"][:1600]}
@@ -70,14 +65,13 @@ def rate(items, config):
         "Give evidence_type from " + ", ".join(EVIDENCE) + " and topic_tag from "
         + ", ".join(config["topics"]) + ". Give a specific reason in Czech in at most 25 words. "
         "Prioritize cosmology, dark matter and energy, black holes, gravitational waves "
-        "and the early universe. Distinguish measured results from theory and simulations."
+        "and the early universe. Distinguish measured results from theory and simulations. "
+        "Use observation for work whose main result is measured or independently verified "
+        "on real observations, even when the method was trained on simulations. "
+        "Judge hype risk against what the study actually shows, including tentative claims in news coverage."
     )
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        raise RatingError("V prostředí chybí GEMINI_API_KEY.")
-    client = genai.Client(api_key=api_key)
     response = client.models.generate_content(
-        model=GEMINI_MODEL,
+        model=model,
         contents=instruction + "\n" + json.dumps(payload, ensure_ascii=False),
         config={"response_mime_type": "application/json", "temperature": 0.2,
                 "response_schema": rating_schema(config["topics"]),
@@ -116,7 +110,7 @@ def rate(items, config):
     )
 
 
-def select(rows, config):
+def select(rows, config, *, limit):
     by_topic = {}
     for row in rows:
         by_topic.setdefault(row["rating"]["topic_tag"], []).append(row)
@@ -137,7 +131,7 @@ def select(rows, config):
         next_states = {}
         for (count, easy, broad, math), (score, chosen) in states.items():
             for n, e, b, m, value, batch in options:
-                if count + n > MAX_NEW_ITEMS or math + m > config["max_math"]:
+                if count + n > limit or math + m > config["max_math"]:
                     continue
                 key = (count + n, min(easy + e, config["min_easy"]),
                        min(broad + b, config["min_broad"]), math + m)
@@ -146,6 +140,71 @@ def select(rows, config):
         states = next_states
     best = max(states, key=lambda key: (key[1], key[2], key[0], states[key][0]))
     return sorted(states[best][1], key=lambda row: -row["score"])
+
+
+def apply_scores(rows, ratings, config):
+    for row, rating in zip(rows, ratings, strict=True):
+        row["rating"] = rating
+        indicators = row["signals"]
+        penalty = (int(indicators["short_abstract"]) +
+                   int(indicators["math_per_100_words"] >= config["math_threshold"]) +
+                   min(2, len(indicators["technical_terms"])))
+        row["score"] = sum(rating[key] * weight for key, weight in config["weights"].items()) - penalty
+
+
+def story_key(row):
+    title = row["original_title"].casefold()
+    if re.search(r"\beuclid\b", title) and re.search(r"\b(?:dr[ -]?1|(?:first|1st) data release|data release (?:1|one))\b", title):
+        return "euclid-dr1"
+    return " ".join(re.findall(r"\w+", title))
+
+
+def select_for_web(rows, config, *, limit):
+    best_by_story = {}
+    for row in sorted(rows, key=lambda item: -item["score"]):
+        best_by_story.setdefault(story_key(row), row)
+    distinct = list(best_by_story.values())
+    eligible = [row for row in distinct if row["score"] >= 10]
+    if eligible:
+        return select(eligible, config, limit=limit)
+    return [row for row in distinct if row["score"] > 0
+            and row["rating"]["accessibility"] >= 2
+            and row["rating"]["hype_risk"] <= 3
+            and row["rating"]["evidence_type"] != "mathematical"][:1]
+
+
+def select_for_card(rows, posts, history, day, config):
+    today = date.fromisoformat(day)
+    yesterday = (today - timedelta(days=1)).isoformat()
+    existing = next((post for post in history if post.get("daily_card_selected")
+                     and (post.get("inserted_at") or "")[:10] == day), None)
+    if existing:
+        return None
+    sent_yesterday = any(
+        (post.get("inserted_at") or "")[:10] == yesterday
+        and post.get("daily_card_selected")
+        for post in history
+    )
+    minimum = 14 if sent_yesterday else 12
+    by_id = {row["id"]: row for row in rows}
+    candidates = []
+    for post in posts:
+        row = by_id[post["id"]]
+        rating = row["rating"]
+        lead = re.split(r"\n\s*\n", post["summary"], maxsplit=1)[0]
+        if (post.get("lang") != "cs" or post.get("needs_translation")
+                or row["score"] < minimum or rating["accessibility"] < 3
+                or rating["technicality"] > 3 or rating["hype_risk"] > 2
+                or rating["evidence_type"] == "mathematical"
+                or row["signals"]["math_per_100_words"] >= config["math_threshold"]
+                or re.search(r"[$=∫∑]|\\(?:\(|\[|frac\b|begin\b)", post["title"] + " " + lead)):
+            continue
+        candidates.append(post)
+    return max(candidates, key=lambda post: (
+        by_id[post["id"]]["rating"]["evidence_type"] == "observation",
+        by_id[post["id"]]["rating"]["accessibility"],
+        by_id[post["id"]]["score"],
+    ), default=None)
 
 
 def metrics(rows):
@@ -161,6 +220,11 @@ def metrics(rows):
 
 
 def main():
+    from fetch_and_update import (
+        GEMINI_MODEL, MAX_NEW_ITEMS, fetch_arxiv, fetch_rss, genai,
+        get_existing_ids, load_history,
+    )
+
     config = json.loads(CONFIG.read_text(encoding="utf-8"))
     existing = get_existing_ids(load_history())
     baseline_arxiv = fetch_arxiv(existing)
@@ -175,21 +239,17 @@ def main():
     rating_error = None
     if rows:
         try:
-            ratings, usage = rate(rows, config)
+            api_key = os.environ.get("GEMINI_API_KEY")
+            if not api_key:
+                raise RatingError("V prostředí chybí GEMINI_API_KEY.")
+            ratings, usage = rate(rows, config, client=genai.Client(api_key=api_key), model=GEMINI_MODEL)
         except Exception as error:
             status = "fallback"
             rating_error = str(error) if isinstance(error, RatingError) else type(error).__name__
             print(f"Bodování nedostupné: {rating_error}")
         else:
-            for row, rating in zip(rows, ratings):
-                row["rating"] = rating
-                indicators = row["signals"]
-                penalty = (int(indicators["short_abstract"]) +
-                           int(indicators["math_per_100_words"] >= config["math_threshold"]) +
-                           min(2, len(indicators["technical_terms"])))
-                row["score"] = sum(rating[key] * weight for key, weight in config["weights"].items())
-                row["score"] -= penalty
-            proposed = select(rows, config)
+            apply_scores(rows, ratings, config)
+            proposed = select(rows, config, limit=MAX_NEW_ITEMS)
             status = "rated"
     lead = next((row for row in proposed if row.get("rating", {}).get("accessibility", 0) >= 4
                  and row["rating"]["evidence_type"] != "mathematical"), None)

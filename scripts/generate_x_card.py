@@ -3,7 +3,7 @@
 import json
 import random
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -65,15 +65,12 @@ def wrap(text, font, max_width, draw):
 
 
 def pick_item(items):
-    if not items:
-        return None
-    today = datetime.now().date().isoformat()
-    today_items = [i for i in items if (i.get("inserted_at") or "")[:10] == today]
-    pool = today_items or items
-    for item in pool:
-        if item.get("lang") != "en" and not item.get("needs_translation"):
-            return item
-    return pool[0]
+    today = datetime.now(timezone.utc).date().isoformat()
+    return next((item for item in items
+                 if (item.get("inserted_at") or "")[:10] == today
+                 and item.get("daily_card_selected") is True
+                 and item.get("lang") == "cs"
+                 and not item.get("needs_translation")), None)
 
 
 def _strip_tex(text: str) -> str:
@@ -161,7 +158,8 @@ def generate(item=None, out_path=OUT_PATH):
 
     body_y = y + 18
     max_lines = max(1, (BODY_BOTTOM - body_y) // BODY_LEADING)
-    hook = body_text(item.get("summary", ""))
+    lead = re.split(r"\n\s*\n", item.get("summary") or "", maxsplit=1)[0]
+    hook = body_text(lead)
     hook_lines = fit_body(hook, font_body, draw, max_lines)
     for line in hook_lines:
         draw.text((56, body_y), line, font=font_body, fill=MUTED)

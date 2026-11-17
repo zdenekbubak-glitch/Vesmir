@@ -295,8 +295,10 @@ def main():
     if not today:
         print('Bluesky: dnes žádná nová položka – příspěvek neposílám.')
         return
-    # Same ordering and Czech preference as scripts/generate_x_card.py:pick_item.
     item = pick_item(today)
+    if not item:
+        print('Bluesky: žádný článek pro denní kartu.')
+        return
     target = article_url(item, items)
     text, _ = compose(item, target, day)
     if args.dry_run:

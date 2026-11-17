@@ -377,18 +377,14 @@ def main():
     history = load_history()
     existing_ids = get_existing_ids(history)
 
-    candidates = fetch_arxiv(existing_ids)
-    candidates += fetch_rss(existing_ids)
+    from compare_article_selection import (
+        CONFIG, RatingError, apply_scores, rate, select_for_card, select_for_web, signals, unique,
+    )
 
-    seen = set()
-    unique = []
-    for c in candidates:
-        if c["id"] not in seen:
-            seen.add(c["id"])
-            unique.append(c)
-    unique = unique[:MAX_NEW_ITEMS]
-
-    if not unique:
+    config = json.loads(CONFIG.read_text(encoding="utf-8"))
+    arxiv_items = fetch_arxiv(existing_ids, search_limit=config["arxiv_search_limit"], item_limit=None)
+    candidates = unique(arxiv_items + fetch_rss(existing_ids))
+    if not candidates:
         print("Žádné nové relevantní položky.")
         return
 
@@ -397,11 +393,26 @@ def main():
         raise ValueError("Chybí GEMINI_API_KEY")
 
     client = genai.Client(api_key=api_key)
+    rows = [{**item, "signals": signals(item, config)} for item in candidates]
+    try:
+        ratings, _ = rate(rows, config, client=client, model=GEMINI_MODEL)
+    except Exception as error:
+        detail = str(error) if isinstance(error, RatingError) else type(error).__name__
+        print(f"::warning::Bodování nedostupné ({detail}). Nové články se nevybraly.")
+        return
+    apply_scores(rows, ratings, config)
+    selected = select_for_web(rows, config, limit=MAX_NEW_ITEMS)
+    print(f"Výběr pro web: {len(selected)} z {len(rows)} kandidátů.")
+    for row in selected:
+        print(f"  {row['score']} bodů: {row['original_title']}")
+    if not selected:
+        return
+
     now = datetime.now(timezone.utc).isoformat()
 
     new_posts = []
     skip_translate = False
-    for item in unique:
+    for item in selected:
         if skip_translate:
             print(f"Ukládám anglicky (kvóta): {item['original_title'][:60]}…")
             new_posts.append(english_fallback(item, now))
@@ -442,7 +453,13 @@ def main():
         print("Žádné nové položky k uložení.")
         return
 
-    new_posts.sort(key=lambda p: 0 if p.get("lang") == "cs" else 1)  
+    lead = select_for_card(selected, new_posts, history, now[:10], config)
+    if lead:
+        lead["daily_card_selected"] = True
+        print(f"Vybráno pro denní kartu: {lead['title']}")
+    else:
+        print("Z této várky se denní karta nevybrala.")
+    new_posts.sort(key=lambda post: (post is not lead, post.get("lang") != "cs"))
     history = new_posts + history
     history = retain_history(history)
     save_history(history)
