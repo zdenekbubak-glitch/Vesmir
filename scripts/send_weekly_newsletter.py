@@ -14,6 +14,7 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 from newsletter_content import build_email
+from social_tracking import article_url
 
 import requests
 from google import genai
@@ -59,8 +60,9 @@ def czech_date(day: datetime) -> str:
     return f"{day.day}. {months[day.month - 1]}"
 
 
-def candidates(start: datetime, end: datetime) -> list[dict]:
-    items = json.loads(NEWS.read_text(encoding="utf-8"))
+def candidates(start: datetime, end: datetime, *, items=None, prefer_czech=True) -> list[dict]:
+    if items is None:
+        items = json.loads(NEWS.read_text(encoding="utf-8"))
     picked = []
     for item in items:
         stamp = parse_inserted(item.get("inserted_at") or "")
@@ -69,6 +71,8 @@ def candidates(start: datetime, end: datetime) -> list[dict]:
         if not (item.get("title") and item.get("summary")):
             continue
         picked.append(item)
+    if not prefer_czech:
+        return picked
     czech = [i for i in picked if i.get("lang") == "cs"]
     return czech or picked
 
@@ -116,7 +120,9 @@ def main():
         raise SystemExit("Chybí BUTTONDOWN_API_KEY")
     now = datetime.now(PRAGUE)
     start, end = week_window(now)
-    pool = candidates(start, end)
+    history = json.loads(NEWS.read_text(encoding="utf-8"))
+    weekly_items = candidates(start, end, items=history, prefer_czech=False)
+    pool = [item for item in weekly_items if item.get("lang") == "cs"] or weekly_items
     print(f"Okno {start.isoformat()} – {end.isoformat()}, kandidátů {len(pool)}")
     if not pool:
         print("Za týden není co poslat.")
@@ -132,7 +138,10 @@ def main():
         ids = [i["id"] for i in pool[:PICK]]
     by_id = {i["id"]: i for i in pool}
     selected = [by_id[i] for i in ids if i in by_id]
-    subject, body = build_email(selected, start, end)
+    newsletter_items = [
+        {**item, "_newsletter_url": article_url(item, history)} for item in selected
+    ]
+    subject, body = build_email(newsletter_items, start, end, total_count=len(weekly_items))
     print(f"Předmět: {subject}")
     for item in selected:
         print(f"- {item.get('title')}")

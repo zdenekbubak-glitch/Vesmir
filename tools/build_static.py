@@ -934,7 +934,14 @@ def build_newsletter_example(out, base, news):
         stamps = [parse_dt(item.get('inserted_at') or item.get('published')) for item in selected]
         dates = [stamp.date() for stamp in stamps if stamp]
         if dates:
-            subject, body = newsletter_email(selected, min(dates), max(dates))
+            start, end = min(dates), max(dates)
+            total_count = sum(
+                1 for item in news
+                if item.get('title') and item.get('summary')
+                and (stamp := parse_dt(item.get('inserted_at') or item.get('published')))
+                and start <= stamp.date() <= end
+            )
+            subject, body = newsletter_email(selected, start, end, total_count=total_count)
             page += '<p class="meta">Ukázkový předmět: ' + esc(subject) + '</p>'
             page += editorial.markdown(body)
         else:
