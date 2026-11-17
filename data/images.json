@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-17",
+    "title": "Mléčná dráha versus polární záře",
+    "caption": "Bojují snad tyto dva obří oblouky o nadvládu nad oblohou? Levý oblouk tvoří vzdálený pás Mléčné dráhy starší než Země, zatímco pravý představuje polární záři v zemské atmosféře vyvolanou energetickými částicemi ze Slunce. V pozadí za polární září lze spatřit Velký vůz a v ještě větší vzdálenosti i galaxii v Andromedě.",
+    "thumb": "assets/gallery/apod-2026-11-17.jpg",
+    "image": "assets/gallery/apod-2026-11-17.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora/",
+    "published": "2026-11-17",
+    "credit": "Guillaume Scheib",
+    "creator": {
+      "@type": "Person",
+      "name": "Guillaume Scheib"
+    },
+    "copyrightNotice": "Guillaume Scheib",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora/",
+    "original_title": "Milky Way versus Aurora",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-17T08:24:44.251483+00:00"
+  },
+  {
     "id": "apod-2026-11-16",
     "title": "NGC 7129: Vznik hvězd s výtrysky z Webbova teleskopu",
     "caption": "Jak vznikají hvězdy? K zodpovězení této otázky zachytil Vesmírný dalekohled Jamese Webba v infračerveném světle hvězdotvornou oblast NGC 7129. Výtrysky a hvězdný vítr z mladých hvězd zde tvarují plyn do vláknitých struktur, přičemž vyvinutější hvězdy vlevo ozařují zlatavý plyn a ještě mladší hvězdy vpravo leží v červené oblasti.",

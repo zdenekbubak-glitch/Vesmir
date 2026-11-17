@@ -1,5 +1,89 @@
 [
   {
+    "id": "2611.21603v1",
+    "title": "Jak rozložit rovnice pro poruchy v Plebańského-Demiańského časoprostoru",
+    "summary": "Vědci představili nové konstruktivní kritérium pro lokální separaci proměnných u takzvaných chirálních systémů prvního řádu, které propojují dvě dvojice komplexních veličin. Chirální systém označuje fyzikální soustavu se specifickou stranovou nesouměrností. Separace proměnných je matematická metoda, která rozkládá složitou rovnici s více proměnnými na jednodušší rovnice závislé vždy jen na jedné souřadnici. Výzkum kombinuje takzvanou Gramovu dekompozici, tedy způsob rozkladu zdrojových matic na samostatné závislosti v souřadnicích, s testem diferenciálního transportu. Autoři dokázali, že pro definované rodiny zdrojů je toto kritérium nutnou i postačující podmínkou v rámci maticových transformací s jednotkovým determinantem.\n\nNové kritérium autoři úspěšně aplikovali na spojené vyzařovací Einsteinovy-Maxwellovy poruchy v takzvaném Plebańského-Demiańského časoprostoru. Tento teoretický model představuje zobecněný popis prostoru v okolí rotujících a nabitých černých děr, který započítává zrychlení, kosmologickou konstantu i takzvaný NUT náboj, což je speciální teoretický parametr popisující kroutivý efekt gravitace. Autoři sestrojili explicitní algebraickou transformaci, odvodili samostatné úhlové a radiální rovnice a stanovili okrajové indexy pro topologické identifikace podle Bonnora a Misnera. Zároveň dokázali, že za daných podmínek pravidelnosti mají úhlová řešení diskrétní spektrum a úplnou ortonormální bázi vlastních stavů.\n\nProč je to zajímavé: Práce přináší přesný matematický nástroj, který umožňuje analyticky zkoumat šíření gravitačních a elektromagnetických vln i v těch nejkomplexnějších teoretických modelech rotujících černých děr.",
+    "url": "http://arxiv.org/abs/2611.21603v1",
+    "source": "arXiv",
+    "original_title": "A separation criterion for chiral systems and its application to Plebański--Demiański perturbations",
+    "published": "2026-11-16T18:59:03+00:00",
+    "inserted_at": "2026-11-17T08:21:55.085983+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.21591v1",
+    "title": "Jak popsat gravitační poruchy pětirozměrných rotujících černých děr",
+    "summary": "Vědci ve studii prozkoumali linearizované gravitační poruchy pětidimenzionálních asymptoticky plochých Myersových–Perryho černých děr se dvěma různými rotacemi. Myersovy–Perryho černé díry představují zobecnění rotujících černých děr do vyšších rozměrů a gravitační poruchy znamenají malé odchylky v zakřivení časoprostoru. Autoři úspěšně zkonstruovali rozdělená řešení pro pět kalibračně invariantních polarizací, což jsou fyzikální složky poruch nezávislé na volbě souřadnicového systému.\n\nKlíčovým zjištěním studie je, že Killingova–Yanoova symetrie, tedy skrytá geometrická vlastnost časoprostoru, vytváří úhlový operátor prvního řádu. Tento operátor spolu s komutujícím operátorem druhého řádu určuje úhlový profil všech pěti polarizací. Autoři dále pomocí Carterovy záměny propojili úhlové a radiální rovnice a ukázali, že slapové složky sdílejí jedinou radiální amplitudu. Výzkum dokázal úplnost úhlových harmonických funkcí při reálných frekvencích a ověřil možnost lokální rekonstrukce metriky. Pro případ černé díry s jedinou rotací výpočet úspěšně reprodukuje dřívější známé výsledky pro poruchy se sudou paritou a nulovým azimutálním módovým číslem m. \n\nProč je to zajímavé: Výsledky poskytují teoretický rámec pro studium kvazinormálních módů neboli charakteristických vibrací a gravitační stability pětidimenzionálních rotujících černých děr se dvěma nezávislými rotacemi.",
+    "url": "http://arxiv.org/abs/2611.21591v1",
+    "source": "arXiv",
+    "original_title": "Separation of gravitational perturbations of Myers-Perry black holes",
+    "published": "2026-11-16T18:56:12+00:00",
+    "inserted_at": "2026-11-17T08:21:55.085983+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.21557v1",
+    "title": "Masivní skalární pole u centrálních objektů klesají jinak, než se čekalo",
+    "summary": "Nová teoretická studie zkoumá chování masivních reálných skalárních polí – fyzikálních polí popisujících částice s hmotností a nulovým spinem – v okolí centrálního objektu ve sféricky symetrických systémech. Ve fyzice se dosud běžně předpokládalo, že intenzita těchto polí směrem do velkých vzdáleností slábne podle takzvaného Jukawova poklesu, tedy rychlým exponenciálním úbytkem. Autoři však ukázali, že tomu tak obecně není, a to ani u minimálně vázaných polí, která s gravitací interagují nejjednodušším způsobem bez přímé vazby na zakřivení časoprostoru.\n\nPráce dále odhalila problém s určováním takzvaného skalárního náboje centrálního objektu, což je veličina vyjadřující sílu vazby mezi objektem a skalárním polem. Zatímco teoretický popis pomocí akce hmotného bodu poskytuje definici náboje nezávislou na volbě souřadnic, koeficient běžně odvozovaný ve velkých vzdálenostech u masivních polí tuto nezávislost postrádá a neodpovídá náboji z akce hmotného bodu. Vědci tento rozpor vyřešili poruchovým výpočtem pomocí sešitých asymptotických rozvojů (matematické metody propojující přibližná řešení z blízkých a vzdálených oblastí) a neporuchovou strukturu systému prozkoumali numerickými metodami.\n\nProč je to zajímavé: Práce opravuje dlouho přežívaný předpoklad o úbytku masivních polí ve velkých vzdálenostech a poskytuje správný teoretický postup pro určování vlastností centrálních těles v modelované gravitaci.",
+    "url": "http://arxiv.org/abs/2611.21557v1",
+    "source": "arXiv",
+    "original_title": "On the Asymptotic Expansion of Massive Fields in Spherically Symmetric Systems",
+    "published": "2026-11-16T18:37:34+00:00",
+    "inserted_at": "2026-11-17T08:21:55.085983+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.21512v1",
+    "title": "Gravitace se spojitým spinem pod drobnohledem pulsarů",
+    "summary": "Vědci prozkoumali teoretické vlastnosti gravitace se spojitým spinem a pomocí 15letých pozorovacích dat z projektu NANOGrav stanovili nové fyzikální limity pro její charakteristické rozměrové měřítko ρ se spodním indexem g. Tento teoretický koncept vychází z částic se spojitým spinem, jež představují zobecnění bezhmotných částic a obsahují nekonečnou řadu celočíselných helicit – tedy orientací vnitřního momentu hybnosti vůči směru pohybu. Autorský tým popsal, jak tyto částice ovlivňují šíření světla a signál nízkofrekvenčních gravitačních vln.\n\nK analýze vědci využili pole časování pulsarů, což je síť extrémně stabilně rotujících neutronových hvězd, jejichž pravidelné blikání slouží jako vesmírné hodiny. Zjistili, že tenzorové režimy modelu při nízkých energiích plynule přecházejí v klasickou Hellings-Downsovu korelaci, která popisuje vzájemnou závislost signálů z pulsarů podle Obecné relativity. Společným proložením dat ze sítě NANOGrav a červeného šumu pulsarů odvodili 95% horní limit pro měřítko ρ se spodním indexem g na hodnotu 7,03 × 10⁻²³ eV při rovnoměrném apriorním rozdělení a 4,79 × 10⁻²³ eV při logaritmicko-rovnoměrném rozdělení. Při rovnoměrném rozdělení dává model spektrální index gravitačních vln γ s hodnotou 4,89 s horní nejistotou +0,85 a dolní nejistotou −0,96. Tento index udávající rozložení energie vln se tak přibližuje teoretické hodnotě 13/3 očekávané pro obří binární černé díry ještě více než standardní Obecná relativita.\n\nProč je to zajímavé: Výzkum ukazuje, že přesné sledování gravitačních vln pomocí pulsarů dokáže testovat i velmi exotické teoretické modifikace gravitace a nastavovat přísná omezení pro fyziku částic za hranicemi standardního modelu.",
+    "url": "http://arxiv.org/abs/2611.21512v1",
+    "source": "arXiv",
+    "original_title": "Pulsar timing response and observational constraints on continuous-spin gravity",
+    "published": "2026-11-16T18:09:20+00:00",
+    "inserted_at": "2026-11-17T08:21:55.085983+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.21430v1",
+    "title": "Důkaz Bando–Kasue–Nakajimovy hypotézy pro torické instantony",
+    "summary": "Nová matematická studie se zabývala Bando–Kasue–Nakajimovou hypotézou, která popisuje geometrickou strukturu čtyřrozměrných prostorů v teoretické fyzice. Tato hypotéza tvrdí, že každý jednoduše souvislý Ricciho plochý 4-prostor (varieta), který se ve velké vzdálenosti od středu blíží plochému kuželu R⁴/Γ – neboli je asymptoticky lokálně eukleidovský (ALE) –, má pro jednu ze svých orientací speciální hyperkählerovskou strukturu.\n\nAutoři ve své práci dokázali tuto hypotézu pro třídu objektů zvanou torické ALE instantony. Jde o Ricciho ploché ALE 4-prostory s efektivním symetrickým působením dvourozměrného toru (geometrického útvaru tvaru koblihy), které představují řešení gravitačních rovnic. Důkaz platí pro případy, kdy je grupa v nekonečnu Γ v grupě O(4) konjugovaná k podgrupě grupy SU(2). Výzkumníci ukázali, že každý z těchto prostorů je reprezentován takzvanou multi-Eguchi–Hansonovou metricou s kolineárními středy (středy ležícími na jedné přímce). Hypotéza tak platí mimo jiné pro instantony s velikostí grupy |Γ| v množině {1, 2, 3, 4, 6}.\n\nK řešení autoři použili uzavřený vzorec pro torické gravitační instantony, který vyjadřuje metriku pomocí Hankelových determinantů kladné míry na pevných bodech působení toru. Tím matematický problém převedli na geometrickou otázku hledání mřížkových bodů v rovnoběžníku.\n\nProč je to zajímavé: Výsledek poskytuje přesný matematický důkaz struktury gravitačních instantonů, což přispívá k lepšímu porozumění geometrickým vlastnostem časoprostoru v teoretické fyzice a kvantové gravitaci.",
+    "url": "http://arxiv.org/abs/2611.21430v1",
+    "source": "arXiv",
+    "original_title": "On the toric Bando--Kasue--Nakajima conjecture",
+    "published": "2026-11-16T17:21:04+00:00",
+    "inserted_at": "2026-11-17T08:21:55.085983+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.21426v1",
+    "title": "Jak geometrie fázového prostoru popisuje stlačené stavy v kosmologii",
+    "summary": "Autoři studie navrhli geometrický popis kvantových stavů pomocí metriky ve fázovém prostoru. Ukázali, že stlačené stavy – tedy kvantové stavy, u nichž jsou fluktuace jedné veličiny potlačeny na úkor zvýšení fluktuací druhé veličiny – lze popsat jako vztah mezi dvěma metrikami neboli jako takzvané relativní vakuum. Metrika ve fázovém prostoru, což je matematický prostor zachycující všechny možné polohy a hybnosti systému, v tomto přístupu přímo určuje velikost kvantových fluktuací.\n\nTento rámec autoři uplatnili na bezhmotné pole v de Sitterově prostoru, což je teoretický model zrychleně se rozpínajícího vesmíru. Porovnali dvě kanonická zobrazení dříve zkoumaná Grainem a Venninem pro takzvaný Bunchův-Daviesův stav, který představuje standardní kvantové vakuum. Výpočty ukázaly, že srovnání vůči vakuu odpovídajícímu počátku éry záření v čase η vedlo ke dvakrát rychlejšímu stlačování stavu a je unitárně realizovatelné. Naopak srovnání vůči referenčnímu stavu ze standardního formalismu stlačování unitárně realizovatelné není. Pojem unitární realizovatelnosti označuje možnost matematicky i fyzikálně korektního přechodu mezi kvantovými stavy se zachováním celkové pravděpodobnosti, což vyžaduje jejich konečnou vzdálenost v prostoru vakuí.\n\nProč je to zajímavé: Výzkum poskytuje přesný geometrický nástroj pro analýzu kvantových fluktuací v raném vesmíru a jednoznačně rozlišuje, které popisy vakuových stavů v kosmologii jsou matematicky i fyzikálně konzistentní.",
+    "url": "http://arxiv.org/abs/2611.21426v1",
+    "source": "arXiv",
+    "original_title": "Geometry of squeezed states. The phase-space metric, relative vacua and cosmology",
+    "published": "2026-11-16T17:15:30+00:00",
+    "inserted_at": "2026-11-17T08:21:55.085983+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.21424v1",
+    "title": "Okamžitě složené struny: Jak fraktální rozpad zachraňuje kauzalitu",
+    "summary": "Teoretická studie zkoumala takzvané okamžitě složené struny (zkráceně IFS z anglického Instant Folded Strings), což jsou základní uzavřené struny vznikající v prostředích, kde síla strunové vazby roste směrem do budoucnosti. Autoři ukazují, že domnělý rozpor těchto objektů s principy kauzality a unitarity řeší jejich postupný rozpad, který nasycuje takzvanou průměrnou podmínku nulové energie (ANEC).\n\nSíla strunové vazby udává pravděpodobnost interakce a štěpení strun, zatímco ANEC je základní požadavek fyziky vyžadující, aby světelné paprsky v průměru neprocházely prostředím se zápornou hustotou energie. Výpočty ukázaly, že v plochém Minkowského časoprostoru vede konečná síla vazby k samočinné kaskádě rozpadu struny IFS. Zbytek původní struny přetrvává a neustále generuje soběpodobnou fraktální strukturu nových strun. V semiklasickém režimu řídí tento růst a pokles tlaku jediný Malthusův exponent κ = 2√2 − 2. Výsledný stav si zachovává nulovou celkovou energii i hybnost, zůstává však vysoce vybudzený a vykazuje záporný integrovaný tlak v každém konečném časovém řezu.\n\nProč je to zajímavé: Studie poskytuje konkrétní příklad toho, jak mikroskopická konzistence energie v teorii strun může přímo souviset s makroskopickým záporným tlakem, což má význam pro modelování vnitřku černých děr a kosmologických procesů.",
+    "url": "http://arxiv.org/abs/2611.21424v1",
+    "source": "arXiv",
+    "original_title": "Instant Folded Strings: Fractal Decay and ANEC Saturation",
+    "published": "2026-11-16T17:13:21+00:00",
+    "inserted_at": "2026-11-17T08:21:55.085983+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2611.17374",
     "title": "Mění se temná energie s rozpínáním vesmíru? Nový model v teorii VCDM",
     "summary": "Model HoloEoS, který fyzici představili v nové studii, propojuje chování temné energie s tím, jak rychle se vesmír rozpíná. Při porovnání se standardním modelem ΛCDM vyšel HoloEoS lépe podle Akaikeho kritéria, pokud autoři do výpočtu zahrnuli také měření supernov. Bez nich podle stejného kritéria mírně vedl ΛCDM.\n\nV modelu HoloEoS se parametr w, tedy poměr tlaku temné energie k její hustotě energie, mění v závislosti na Hubbleově parametru, který udává tempo rozpínání vesmíru. Autoři model zasadili do teorie VCDM, jedné z teorií minimálně modifikované gravitace. „Minimálně“ zde znamená, že teorie zachovává dvě polarizace gravitačních vln známé z obecné relativity. Jsou to dva nezávislé vzory, podle nichž procházející vlna střídavě natahuje a stlačuje prostor v rovině kolmé ke směru šíření.\n\nV modelu může hodnota w plynule přejít z hodnot pod −1 nad −1. Hodnotě w = −1 se říká fantomová hranice. Právě tuto hodnotu má ve standardním modelu ΛCDM kosmologická konstanta, jejíž hustota energie se při rozpínání nemění.\n\nAutoři porovnali modely pomocí měření reliktního záření, vzdáleností z přehlídky DESI DR2 a dat o supernovách DESY5. Akaikeho kritérium zohledňuje shodu s daty i počet parametrů modelu. Nižší hodnota vychází lépe. HoloEoS získal oproti ΛCDM o 3,40 bodu méně s daty supernov a o 1,76 bodu více bez nich.\n\nProč je to zajímavé: Studie ukazuje, že proměnná temná energie může v tomto modelu popsat pozorování, ale jeho výhoda před ΛCDM závisí na tom, která měření autoři zahrnou.",
@@ -5772,26 +5856,6 @@
     "inserted_at": "2026-09-13T08:09:58.434368+00:00"
   },
   {
-    "id": "news708346759",
-    "title": "První hvězdy vesmíru: Jak obří byly nejstarší hvězdné porodnice?",
-    "summary": "Díky pokročilým dalekohledům dokážeme nahlížet stále hlouběji do minulosti vesmíru. Přesto nám stále uniká přímý důkaz o existenci takzvaných hvězd Populace III. Jde o vůbec první generaci hvězd, které vznikly v raném vesmíru výhradně z původního vodíku a hélia. Na rozdíl od mladších hvězd neobsahovaly žádné těžší prvky, které astronomové souhrnně nazývají kovy. Absence těchto prvků zásadně měnila fyziku jejich vzniku a umožňovala zrod extrémně masivních objektů. Vědci se nyní snaží určit, jak obří a jasné tyto prvotní hvězdné výbuchy mohly být. Proč je to zajímavé: Objev hvězd Populace III představuje svatý grál kosmologie, který objasní, jak vesmír přešel od temného věku k prvním galaxiím a chemickým prvkům nezbytným pro vznik života.",
-    "url": "https://phys.org/news/2026-09-big-universe-starbursts.html",
-    "source": "RSS",
-    "original_title": "How big can the universe's first starbursts get?",
-    "published": "2026-09-11T23:20:01+00:00",
-    "inserted_at": "2026-09-13T08:09:58.434368+00:00"
-  },
-  {
-    "id": "news708352479",
-    "title": "Podivný nový led odhaluje tajemství nitra Neptunu a Uranu",
-    "summary": "Uprostřed ledových obrů, jako jsou Neptun a Uran, panují tak extrémní tlaky a teploty, že se zde voda chová zcela jinak než na Zemi. Vědci dlouho předpokládali přítomnost exotických forem ledu hluboko v jejich nitru, avšak přímý odběr vzorků z takto vzdálených světů je nepředstavitelný. Výzkumníci proto simulovali tyto extrémní podmínky přímo v laboratoři. Podařilo se jim vytvořit novou, dosud nepoznanou formu ledu a sledovat její unikátní chování pod obrovským tlakem. Tento pokrok zásadně přispívá k pochopení vnitřní struktury, vývoje a neobvyklých magnetických polí ledových planet. Proč je to zajímavé: Výzkum nám umožňuje nahlédnout do vnitra vesmírných těles bez nutnosti opustit Zemi a pomáhá vysvětlit vlastnosti tisíců podobných exoplanet v naší Galaxii.",
-    "url": "https://phys.org/news/2026-09-scientists-strange-ice-interiors-neptune.html",
-    "source": "RSS",
-    "original_title": "Scientists discover a strange new form of ice that could help explain the interiors of Neptune and Uranus",
-    "published": "2026-09-11T18:40:08+00:00",
-    "inserted_at": "2026-09-13T08:09:58.434368+00:00"
-  },
-  {
     "id": "news708341582",
     "title": "Záhada marsovských roklí vyřešena: Místo vody je hloubí suchý led",
     "summary": "Když vědci poprvé spatřili snímky aktivních roklí na Marsu, nechtěli věřit vlastním očím. Struktury nápadně připomínaly koryta vyhloubená tekoucí vodou na Zemi, a navíc se v čase dynamicky měnily. Jenže Mars je příliš chladný a má příliš řídkou atmosféru na to, aby se na jeho povrchu udržela kapalná voda. Nová studie týmu Apolline Leclefové ukazuje, že tyto žlaby vyřezává námraza oxidu uhličitého. Při změně ročních období dochází k její sublimaci, což vyvolává lavinový pohyb částic připomínající chování tekutiny. Proč je to zajímavé: Objev ukazuje, že povrch cizích světů mohou aktivně přetvářet zcela odlišné fyzikální procesy, než jaké známe z přírody na Zemi.",
@@ -5799,46 +5863,6 @@
     "source": "RSS",
     "original_title": "What's carving active gullies on Mars? It's not water",
     "published": "2026-09-11T16:20:12+00:00",
-    "inserted_at": "2026-09-13T08:09:58.434368+00:00"
-  },
-  {
-    "id": "news708340141",
-    "title": "NASA a IBM vydaly otevřenou AI pro detailní mapování Měsíce",
-    "summary": "NASA ve spolupráci s IBM Research a akademickými institucemi vytvořila unikátní otevřený AI model určený pro výzkum Měsíce. Systém byl vycvičen na sedmnáctiletém archivu dat ze sondy Lunar Reconnaissance Orbiter a představuje revoluci v analýze lunárního povrchu. Model dokáže efektivně mapovat zásoby vodního ledu, krátery i dávné vulkanické struktury. Celý projekt je veřejně dostupný na platformách Hugging Face a GitHub, což vědcům umožňuje kód volně testovat a dále rozvíjet. Proč je to zajímavé: Volně přístupná AI zásadně urychlí vyhledávání klíčových zdrojů pro budoucí lidské posádky a ušetří výzkumníkům roky mravenčí práce.",
-    "url": "https://phys.org/news/2026-09-ai-years-lunar-ice-craters.html",
-    "source": "RSS",
-    "original_title": "Release of open AI model trained on 17 years of lunar data maps ice, craters and volcanoes",
-    "published": "2026-09-11T14:40:09+00:00",
-    "inserted_at": "2026-09-13T08:09:58.434368+00:00"
-  },
-  {
-    "id": "news708331622",
-    "title": "Nový atlas Fobosu pomůže misi MMX získat první vzorky z okolí Marsu",
-    "summary": "Japonská vesmírná agentura JAXA se připravuje na historický milník v průzkumu sluneční soustavy. Její mise MMX (Martian Moons eXploration) má za cíl získat vůbec první vzorky z oblasti Marsu, konkrétně z jeho největšího měsíce Fobos. Start sondy je naplánován na říjen, přičemž k cíli dorazí v roce 2027. Sonda odebere materiál z povrchu a v roce 2031 jej dopraví zpět na Zemi. K úspěšnému odběru přispěje nový atlas povrchu, který vědcům pomůže s navigací a výběrem ideálního místa. Proč je to zajímavé: Analýza vzorků z Fobosu může konečně rozluštit, zda jsou marsovské měsíce zachycenými planetkami, nebo vznikly z materiálu vymrštěného z Marsu při dávném dopadu tělesa.",
-    "url": "https://phys.org/news/2026-09-surface-atlas-phobos-mmx-mission.html",
-    "source": "RSS",
-    "original_title": "A new surface atlas of Phobos will help MMX mission collect its samples",
-    "published": "2026-09-11T13:20:04+00:00",
-    "inserted_at": "2026-09-13T08:09:58.434368+00:00"
-  },
-  {
-    "id": "news708330121",
-    "title": "Nejdetailnější rentgenová mapa vesmíru: eROSITA vydává katalog DR2",
-    "summary": "Rentgenový teleskop eROSITA, hlavní přístroj vesmírné observatoře Spektr-RG vypuštěné v roce 2019, představil svůj druhý datový balík (DR2). Jde o dosud nejkomplexnější a nejrozsáhlejší katalog vysoce energetického vesmíru, jaký byl kdy vytvořen. Teleskop vyvinutý v Institutu Maxe Plancka mapuje oblohu v měkkém rentgenovém záření a zachycuje ostré snímky obřích ploch. Vědcům tak přináší detailní přehled o vzdálených kupách galaxií i aktivních supermasivních černých dírách. Proč je to zajímavé: Tento unikátní přehled umožňuje přesněji testovat kosmologické modely, zkoumat temnou energii a pochopit vývoj velkorozměrové struktury vesmíru.",
-    "url": "https://phys.org/news/2026-09-erosita-comprehensive-high-energy-census.html",
-    "source": "RSS",
-    "original_title": "eROSITA's second data release catalog delivering most comprehensive high-energy census of the cosmos to date",
-    "published": "2026-09-11T13:00:08+00:00",
-    "inserted_at": "2026-09-13T08:09:58.434368+00:00"
-  },
-  {
-    "id": "news708271681",
-    "title": "Starověcí švédští Gótové měli překvapivě přesné kalendáře",
-    "summary": "Hodinu cesty severně od Stockholmu se nachází rozsáhlé pohřební mohyly staré nejméně 2 500 let. Tyto monumenty nezanechali známí Vikingové, ale jejich předchůdci – severští Gótové. Tuto starověkou pohanskou kulturu spojenou s uctíváním předchůdců pozdějších severských bohů, jako byli Ódin, Freyr či Thór, fascinovala obloha. Nové poznatky ukazují, že ti lidé dokázali s pozoruhodnou přesností sledovat nebeské cykly a využívat je ke konstrukci kalendářů. Uspořádání mohyl v rovinaté krajině totiž naznačuje hluboké porozumění pohybům Slunce a Měsíce. Proč je to zajímavé: Objev dokazuje, že pokročilé astronomické znalosti a precizní měření času nebyly výsadou pouze jižních civilizací, ale vzkvétaly i u starověkých kultur severní Evropy.",
-    "url": "https://phys.org/news/2026-09-ancient-swedish-goths-accurate-calendars.html",
-    "source": "RSS",
-    "original_title": "Ancient Swedish Goths had surprisingly accurate calendars",
-    "published": "2026-09-10T20:20:06+00:00",
     "inserted_at": "2026-09-13T08:09:58.434368+00:00"
   },
   {
