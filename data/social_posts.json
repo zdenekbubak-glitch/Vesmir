@@ -882,7 +882,7 @@
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/clanky/castice-z-tmaveho-sektoru-by-mohly-vysvetlit-zahadne-signaly-z-2611173281.html",
     "recorded_at": "2026-11-13T08:25:44.956120+00:00",
-    "last_check_attempt_at": "2026-11-17T08:26:13.401179+00:00",
+    "last_check_attempt_at": "2026-11-18T08:33:42.281647+00:00",
     "publication_check_result": "unavailable"
   },
   {
@@ -1012,5 +1012,35 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-17T09:03:18.715242+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_43db3cb95c2941e29ec9",
+    "title": "Pátrání po temné hmotě: Současnost a budoucnost přímé detekce částic",
+    "platform_id": "6afd62d61da11ba017997d68",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/patrani-po-temne-hmote-soucasnost-a-budoucnost-prime-detekce-castic-2611210521.html",
+    "recorded_at": "2026-11-18T08:33:29.228592+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_43db3cb95c2941e29ec9",
+    "title": "Pátrání po temné hmotě: Současnost a budoucnost přímé detekce částic",
+    "platform_id": "6afd62dc3c888574260b2be5",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/patrani-po-temne-hmote-soucasnost-a-budoucnost-prime-detekce-castic-2611210521.html",
+    "recorded_at": "2026-11-18T08:33:38.750200+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_43db3cb95c2941e29ec9",
+    "title": "Pátrání po temné hmotě: Současnost a budoucnost přímé detekce částic",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n2kasmzc22ep",
+    "status": "published",
+    "target": "https://kosmonovinky.cz/clanky/patrani-po-temne-hmote-soucasnost-a-budoucnost-prime-detekce-castic-2611210521.html",
+    "recorded_at": "2026-11-18T08:33:42.378168+00:00"
   }
 ]
