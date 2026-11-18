@@ -153,5 +153,12 @@
     "variants": [],
     "note": "Schváleno v GitHub Issues.",
     "status": "approved"
+  },
+  {
+    "term": "neutrino background",
+    "preferred": "neutrinové pozadí",
+    "variants": [],
+    "note": "V kontextu přímé detekce temné hmoty: signály vyvolané interakcemi neutrin v detektoru, které mohou napodobovat hledaný signál temné hmoty. Vysvětlovat jako rušivé pozadí nebo rušivé vlivy, nikoli jako překážku, kterou lze jednoduše odstranit. Jde o kontextové vysvětlení; jiné významy slova background překládat podle kontextu.",
+    "status": "approved"
   }
 ]
