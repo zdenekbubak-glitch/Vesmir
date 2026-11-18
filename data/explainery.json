@@ -1531,7 +1531,7 @@
     "theme": "svetlo-a-mereni-vesmiru",
     "description": "Spektroskopie rozkládá světlo podle vlnových délek. Jak ze spektra zjišťujeme složení, teplotu a pohyb hvězd i galaxií?",
     "published": "2026-10-25",
-    "updated": "2026-10-25",
+    "updated": "2026-11-18",
     "perex": "Fotografie ukáže, jak objekt vypadá. Spektrum pomáhá odhalit, z čeho je, jaké podmínky v něm panují a jak se pohybuje. Spektroskopie je proto jedním z nejdůležitějších nástrojů astronomie, přestože její výsledky často vypadají jen jako nenápadný graf.",
     "sections": [
       {
@@ -1540,16 +1540,16 @@
       },
       {
         "heading": "Jak číst spektrální graf",
-        "body": "Na vodorovné ose bývá vlnová délka, například v nanometrech nebo mikrometrech. Svislá osa obvykle vyjadřuje množství záření. Široký průběh tvoří pozadí neboli kontinuum, do kterého mohou být vloženy úzké nebo širší spektrální útvary.\n\nV grafu intenzity proti vlnové délce se emisní čára projeví jako vrchol a absorpční jako pokles. Proč tyto čáry vznikají a jak souvisejí s elektrony v atomech, názorně vysvětluje heslo [Co jsou absorpční a emisní čáry?](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html).\n\nVždy je potřeba přečíst osy. Pokud svislá osa ukazuje množství zablokovaného světla, například při průchodu planety před hvězdou, může naopak vrchol představovat silnější absorpci.",
+        "body": "Na vodorovné ose bývá vlnová délka, například v nanometrech nebo mikrometrech. Svislá osa zpravidla ukazuje, kolik záření zaznamenáme při jednotlivých vlnových délkách.\n\n**Kontinuum** je spojitá složka spektra, jejíž průběh se obvykle mění plynuleji než úzké spektrální čáry. Na tomto průběhu se mohou objevit emisní vrcholy nebo absorpční poklesy.\n\nV grafu intenzity proti vlnové délce se emisní čára projeví jako vrchol a absorpční jako pokles. Proč tyto čáry vznikají a jak souvisejí s elektrony v atomech, názorně vysvětluje téma [Co jsou absorpční a emisní čáry?](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html).\n\nVždy je potřeba přečíst osy. Pokud svislá osa ukazuje množství zablokovaného světla, například při průchodu planety před hvězdou, může naopak vrchol představovat silnější absorpci.",
         "image_id": "schema-jak-cist-spektrum"
       },
       {
         "heading": "Co je ve světle zapsáno",
-        "body": "Spektrum může poskytnout několik různých druhů informací. Soustava čar pomáhá rozpoznat látky, jejich tvary a intenzity vypovídají o fyzikálních podmínkách a posun jejich poloh umožňuje zkoumat pohyb nebo rozpínání vesmíru.\n\nJak se z rozpoznaných stop určuje přítomnost a množství látek, rozebírá heslo [Jak ze světla poznáme chemické složení vesmíru?](https://kosmonovinky.cz/kosmopedie/jak-ze-svetla-pozname-chemicke-slozeni-vesmiru.html). Přesné porovnání poloh čar s laboratoří pak ukazuje [výklad rudého posuvu](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html)."
+        "body": "Spektrum může poskytnout několik různých druhů informací. Soustava čar pomáhá rozpoznat látky, jejich tvary a intenzity vypovídají o fyzikálních podmínkách a posun jejich poloh umožňuje zkoumat pohyb nebo rozpínání vesmíru.\n\nJak se z rozpoznaných stop určuje přítomnost a množství látek, rozebírá téma [Jak ze světla poznáme chemické složení vesmíru?](https://kosmonovinky.cz/kosmopedie/jak-ze-svetla-pozname-chemicke-slozeni-vesmiru.html). Přesné porovnání poloh čar s laboratoří pak ukazuje [výklad rudého posuvu](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html)."
       },
       {
         "heading": "Proč nestačí světlo jen rozdělit",
-        "body": "Detektor neměří všechny vlnové délky stejně účinně. Pozorování může ovlivnit vlastní záření oblohy, atmosférická absorpce, šum i vlastnosti přístroje. Astronomové proto kalibrují vlnové délky a citlivost a odhadují nejistoty.\n\nDůležité je také spektrální rozlišení: dvě blízké čáry se v málo podrobném spektru mohou slít do jedné. Naopak velmi podrobné měření vyžaduje dostatek světla. Slabý objekt proto nemusí poskytnout stejně kvalitní spektrum jako jasná hvězda, i když jej na snímku vidíme."
+        "body": "Detektor neměří všechny vlnové délky stejně účinně. Pozorování může ovlivnit vlastní záření oblohy, atmosférická absorpce, šum i vlastnosti přístroje. Astronomové proto kalibrují vlnové délky a citlivost a odhadují nejistoty.\n\nDůležité je také **spektrální rozlišení**, tedy schopnost rozlišit blízké vlnové délky. Dvě sousední čáry se při nízkém rozlišení mohou slít do jedné.\n\nPři vyšším rozlišení rozdělujeme zachycené světlo do užších intervalů vlnových délek. Aby se v nich skutečné spektrální útvary neztratily v šumu, potřebujeme dostatek zachycených fotonů, například díky delší expozici nebo většímu dalekohledu. Samotné vysoké rozlišení tedy kvalitní spektrum nezaručuje."
       },
       {
         "heading": "Jeden objekt, více způsobů pozorování",
@@ -1573,7 +1573,7 @@
     "theme": "svetlo-a-mereni-vesmiru",
     "description": "Proč má světelné spektrum tmavé čáry a jasné vrcholy? Absorpce a emise ukazují, jak atomy a molekuly přijímají a vyzařují energii.",
     "published": "2026-10-25",
-    "updated": "2026-10-25",
+    "updated": "2026-11-18",
     "perex": "Světlo hvězdy obsahuje mnoho vlnových délek. Atomy a molekuly z něj ale mohou některé vybrat a pohltit. Právě to propojuje dění v elektronovém obalu atomu s tmavými čarami, které změří dalekohled. Při vyzařování naopak vznikají jasné emisní čáry.",
     "sections": [
       {
@@ -1583,7 +1583,7 @@
       },
       {
         "heading": "Proč různé prvky vybírají jiné barvy",
-        "body": "Energie fotonu souvisí s vlnovou délkou světla. Ve viditelném oboru ji vnímáme jako barvu: kratší vlnové délky mají vyšší energii než delší. Určitý rozdíl mezi hladinami proto odpovídá určité vlnové délce.\n\nVodík má jiné uspořádání energetických hladin než sodík nebo helium. Jejich elektrony proto pro jednotlivé přechody potřebují jiné energie a pohlcují jiné soustavy vlnových délek. **Každý atom má více možných přechodů, a tedy více čar.** Právě jejich kombinace tvoří rozpoznatelný spektrální vzor. Jedna čára se může s čárou jiné látky překrývat, celá soustava je mnohem lepším vodítkem."
+        "body": "Energie fotonu souvisí s vlnovou délkou světla. Ve viditelném oboru ji vnímáme jako barvu: kratší vlnové délky mají vyšší energii než delší. Určitý rozdíl mezi hladinami proto odpovídá určité vlnové délce.\n\nVodík má jiné uspořádání energetických hladin než sodík nebo helium. Jejich elektrony proto pro jednotlivé přechody potřebují jiné energie a pohlcují jiné soustavy vlnových délek. Atomy mají více možných přechodů mezi energetickými hladinami, a proto mohou vytvářet více spektrálních čar. Jejich soustava pomáhá rozpoznat konkrétní prvek i jeho **ionizační stav**, tedy kolik elektronů atom ztratil nebo získal.\n\nNeutrální vodík tak nemá stejné spektrum jako vodík zbavený elektronu. Úplně ionizovaný vodík už nemá vázaný elektron, který by přecházel mezi atomovými hladinami. Pozorované čáry navíc závisejí na podmínkách v plynu. Přítomnost prvku proto neznamená, že vždy uvidíme všechny jeho známé čáry."
       },
       {
         "heading": "Jak elektronový přechod vytvoří tmavou čáru",
@@ -1603,7 +1603,7 @@
       },
       {
         "heading": "Od čar ke složení a vzdálenostem",
-        "body": "Jak z celé soustavy čar poznat konkrétní látku a proč síla čáry nestačí k určení jejího množství, vysvětluje heslo [Jak ze světla poznáme chemické složení vesmíru?](https://kosmonovinky.cz/kosmopedie/jak-ze-svetla-pozname-chemicke-slozeni-vesmiru.html).\n\nPokud známé čáry najdeme na jiných vlnových délkách než v laboratoři, získáme další informaci. Postup a jednoduchý výpočet ukazuje heslo [Co je rudý posuv a jak se měří?](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html)."
+        "body": "Jak z celé soustavy čar poznat konkrétní látku a proč síla čáry nestačí k určení jejího množství, vysvětluje téma [Jak ze světla poznáme chemické složení vesmíru?](https://kosmonovinky.cz/kosmopedie/jak-ze-svetla-pozname-chemicke-slozeni-vesmiru.html).\n\nPokud známé čáry najdeme na jiných vlnových délkách než v laboratoři, získáme další informaci. Postup a jednoduchý výpočet ukazuje téma [Co je rudý posuv a jak se měří?](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html)."
       },
       {
         "heading": "Zdroje a další čtení",
@@ -1623,16 +1623,16 @@
     "theme": "svetlo-a-mereni-vesmiru",
     "description": "Jak astronomové poznají vodík, kyslík nebo molekuly ve vzdálených objektech? Spektrální stopy porovnávají s laboratorními daty.",
     "published": "2026-10-25",
-    "updated": "2026-10-25",
+    "updated": "2026-11-18",
     "perex": "Ze vzdálené hvězdy si obvykle nemůžeme přivézt vzorek. Přesto dokážeme zjistit přítomnost mnoha prvků a molekul. Využíváme jejich spektrální stopy a porovnáváme je s laboratorními měřeními i modely prostředí, odkud záření přichází.",
     "sections": [
       {
         "heading": "Laboratoř poskytne srovnávací vzor",
-        "body": "Proč mají různé prvky jiné spektrální stopy a jak přechod elektronu vytvoří čáru, vysvětluje heslo [Co jsou absorpční a emisní čáry?](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html). Tady navážeme tím, jak se tyto stopy používají při určování chemického složení.\n\nKlidové vlnové délky a další vlastnosti přechodů vědci měří v laboratořích a ukládají do odborných databází. Ve světle vzdáleného objektu pak hledají odpovídající soustavu čar nebo pásů. Při porovnávání musí zohlednit rozlišení přístroje, [rudý či modrý posuv](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html) a další vlivy. Správná identifikace má vysvětlit soubor pozorování, nikoli jen jeden vhodně umístěný vrchol."
+        "body": "Proč mají různé prvky jiné spektrální stopy a jak přechod elektronu vytvoří čáru, vysvětluje téma [Co jsou absorpční a emisní čáry?](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html). Tady navážeme tím, jak se tyto stopy používají při určování chemického složení.\n\nKlidové vlnové délky a další vlastnosti přechodů vědci měří v laboratořích a ukládají do odborných databází. Ve světle vzdáleného objektu pak hledají odpovídající soustavu čar nebo pásů. Při porovnávání musí zohlednit rozlišení přístroje, [rudý či modrý posuv](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html) a další vlivy. Správná identifikace má vysvětlit soubor pozorování, nikoli jen jeden vhodně umístěný vrchol."
       },
       {
         "heading": "Přítomnost prvku není totéž co jeho množství",
-        "body": "Silná čára může znamenat, že určitého prvku vidíme hodně, ale také že má pro daný přechod vhodnou teplotu nebo ionizační stav. Některé čáry se mohou nasytit: další přidání látky už jejich hloubku nezmění jednoduše úměrně.\n\nPro odhad zastoupení prvků je proto potřeba model vzniku záření. U hvězd se posuzuje například teplota a vlastnosti atmosféry, u plynného mračna hustota a zdroj buzení. Seznam nalezených prvků není automaticky úplným chemickým rozborem celého objektu."
+        "body": "Silná čára může znamenat, že určitého prvku vidíme hodně, ale také že má pro daný přechod vhodnou teplotu nebo ionizační stav. U silné absorpční čáry může plyn v jejím středu pohltit téměř všechno světlo přicházející zpoza něj. Další zvýšení množství pohlcující látky proto už střed čáry příliš neprohloubí. Tomu říkáme **nasycení čáry**.\n\nMěnit se však může její šířka a okrajové části. Astronomové proto při odhadu množství látky zkoumají celý tvar čáry, nejen její hloubku.\n\nPro odhad zastoupení prvků je proto potřeba model vzniku záření. U hvězd se posuzuje například teplota a vlastnosti atmosféry, u plynného mračna hustota a zdroj buzení. Seznam nalezených prvků není automaticky úplným chemickým rozborem celého objektu."
       },
       {
         "heading": "Konkrétní příklad: led před vzdálenou hvězdou",
@@ -1644,7 +1644,7 @@
       },
       {
         "heading": "Proč je složení důležité pro kosmologii",
-        "body": "Vodík a většina helia mají původ v raném vesmíru. Hvězdy a další procesy pak vytvářely a rozptylovaly těžší prvky. Spektra galaxií z různých období pomáhají sledovat, jak se jejich prostředí chemicky obohacovalo.\n\nZjištění kyslíku v rané galaxii je proto informací o předchozí činnosti hvězd, nikoli automatickým porušením kosmologického modelu. Abychom porovnali měření s teorií, musíme znát také nejistoty, podmínky zářícího plynu a možné alternativy výkladu."
+        "body": "Většina dnešního vodíku a helia pochází z raného vesmíru. Během prvních minut vznikala především jádra helia a malé množství dalších lehkých jader; velká část protonů zůstala jako jádra vodíku.\n\nZpočátku byla tato jádra oddělena od volně se pohybujících elektronů. Teprve při dalším ochlazování vesmíru se elektrony mohly vázat k jádrům a vytvářet atomy s elektronovým obalem.\n\nHvězdy následně vyráběly další helium a těžší prvky. Hvězdné větry, výbuchy a další děje je rozptylovaly do okolí. Spektra galaxií z různých období pomáhají sledovat, jak se jejich prostředí chemicky obohacovalo.\n\nZjištění kyslíku v rané galaxii je proto informací o předchozí činnosti hvězd, nikoli automatickým porušením kosmologického modelu. Abychom porovnali měření s teorií, musíme znát také nejistoty, podmínky zářícího plynu a možné alternativy výkladu."
       },
       {
         "heading": "Zdroje a další čtení",
@@ -1664,7 +1664,7 @@
     "theme": "svetlo-a-mereni-vesmiru",
     "description": "Jak určit rudý posuv z absorpčních a emisních čar? Vysvětlení vztahu pro z, porovnání více čar a rozdílu mezi posuvem a vzdáleností.",
     "published": "2026-10-25",
-    "updated": "2026-10-25",
+    "updated": "2026-11-18",
     "perex": "Když známou spektrální čáru najdeme na delší vlnové délce než v laboratoři, mluvíme o rudém posuvu. Je to přesně měřitelná změna světla. Teprve její fyzikální výklad nám řekne, zda souvisí s pohybem, gravitací nebo rozpínáním vesmíru.",
     "sections": [
       {
@@ -1673,15 +1673,15 @@
       },
       {
         "heading": "Jak se změří z absorpčních čar",
-        "body": "Nejprve změříme, na kterých vlnových délkách nastávají poklesy ve spektru. Fyzikální vznik těchto poklesů vysvětluje heslo [Co jsou absorpční a emisní čáry?](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html). Pro měření posuvu potřebujeme rozpoznat jejich laboratorní vzor.\n\nV jednoduchém ilustračním příkladu mají tři klidové čáry polohy 400, 500 a 600 nm, zatímco pozorované leží na 440, 550 a 660 nm. Pro každou vyjde stejný poměr pozorované a klidové vlnové délky: 1,1. Z toho dostaneme **z = 0,1**. Souhlas více čar posiluje správnost identifikace. Jediný pokles může být zaměněn za jinou čáru, poruchu detektoru nebo absorpci v atmosféře Země."
+        "body": "Nejprve změříme, na kterých vlnových délkách nastávají poklesy ve spektru. Fyzikální vznik těchto poklesů vysvětluje téma [Co jsou absorpční a emisní čáry?](https://kosmonovinky.cz/kosmopedie/co-jsou-absorpcni-a-emisni-cary.html). Pro měření posuvu potřebujeme rozpoznat jejich laboratorní vzor.\n\nV jednoduchém ilustračním příkladu mají tři klidové čáry polohy 400, 500 a 600 nm, zatímco pozorované leží na 440, 550 a 660 nm. Pro každou vyjde stejný poměr pozorované a klidové vlnové délky: 1,1. Z toho dostaneme **z = 0,1**. Souhlas více čar posiluje správnost identifikace. Jediný pokles může být zaměněn za jinou čáru, poruchu detektoru nebo absorpci v atmosféře Země."
       },
       {
         "heading": "Proč nejde o posun o stejný počet nanometrů",
-        "body": "V příkladu se jednotlivé čáry posunuly o 40, 50 a 60 nm. Stejný je jejich **poměr**, nikoli absolutní rozdíl. Celá soustava se na běžné lineární ose vlnových délek protáhne. Právě to je důležité při porovnávání spekter.\n\nPro emisní čáry funguje výpočet stejně; místo poklesů hledáme vrcholy. Přesné analýzy mohou porovnávat celé spektrum se vzory a využít i jeho širší strukturu. Součástí práce je kalibrace přístroje a podle požadované přesnosti také oprava na pohyb pozorovatele.\n\nDalší hodnoty a skutečná pozorování najdete v navazujícím hesle [Jak velký je rudý posuv? Příklady a výpočty](https://kosmonovinky.cz/kosmopedie/jak-velky-je-rudy-posuv-priklady-a-vypocty.html)."
+        "body": "V příkladu se jednotlivé čáry posunuly o 40, 50 a 60 nm. Stejný je jejich **poměr**, nikoli absolutní rozdíl. Celá soustava se na běžné lineární ose vlnových délek protáhne. Právě to je důležité při porovnávání spekter.\n\nPro emisní čáry funguje výpočet stejně; místo poklesů hledáme vrcholy. Přesné analýzy mohou porovnávat celé spektrum se vzory a využít i jeho širší strukturu. Součástí práce je kalibrace přístroje a podle požadované přesnosti také oprava na pohyb pozorovatele.\n\nDalší hodnoty a skutečná pozorování najdete v navazujícím tématu [Jak velký je rudý posuv? Příklady a výpočty](https://kosmonovinky.cz/kosmopedie/jak-velky-je-rudy-posuv-priklady-a-vypocty.html)."
       },
       {
         "heading": "Tři různé příčiny",
-        "body": "**Dopplerův posuv** souvisí s relativním pohybem zdroje a pozorovatele. **Gravitační posuv** vzniká při šíření světla mezi místy s rozdílnými gravitačními podmínkami. **Kosmologický posuv** souvisí s rozpínáním vesmíru během cesty světla.\n\nV reálném měření se tyto vlivy mohou kombinovat. U blízkých galaxií může vlastní pohyb výrazně ovlivnit výsledek. U velmi vzdálených galaxií je pro celkový posuv zásadní kosmologické rozpínání. „Rudý“ přitom neznamená, že se světlo musí nacházet ve viditelné červené barvě: může se posunout například z infračerveného do milimetrového oboru."
+        "body": "**Dopplerův posuv** vzniká kvůli relativnímu pohybu zdroje a pozorovatele. Pokud se například hvězda od nás vzdaluje, naměříme její známé spektrální čáry na delších vlnových délkách. Při přibližování se posunou ke kratším.\n\n**Gravitační posuv** může nastat, i když se zdroj a pozorovatel vůči sobě nevzdalují ani nepřibližují. Představme si zdroj na povrchu hvězdy a pozorovatele, který zůstává daleko nad ní. Hodiny na povrchu hvězdy jdou pomaleji než hodiny vzdáleného pozorovatele. Stejným způsobem se liší i tempo atomových dějů, které určují frekvenci vyzařovaného světla. Pozorovatel daleko od hvězdy proto zachytí nižší frekvenci, než jakou by u stejného atomového přechodu naměřil ve své laboratoři. To znamená delší vlnovou délku a **gravitační rudý posuv**. Příčinou je rozdíl gravitačních podmínek, nikoli pohyb hvězdy. Při cestě světla opačným směrem může nastat gravitační modrý posuv.\n\n**Kosmologický posuv** souvisí s rozpínáním vesmíru během cesty světla: jak se vesmír rozpíná, prodlužuje se i vlnová délka volně putujícího záření.\n\nV jednom pozorování se tyto příspěvky mohou kombinovat.\n\n„Rudý“ přitom neznamená, že se světlo musí nacházet ve viditelné červené barvě: může se posunout například z infračerveného do milimetrového oboru."
       },
       {
         "heading": "Co z naměřeného z ještě nevíme",
@@ -1692,7 +1692,7 @@
         "body": "[NASA: Kosmologický rudý posuv](https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-cosmological-redshift/)\n\n[NASA: Pohyb a posuny spektrálních čar](https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-beyond-temperature-and-composition/)\n\n[NASA: Slovník pojmů – druhy rudého posuvu](https://science.nasa.gov/universe/glossary/)"
       }
     ],
-    "why_box": "U titulku o vzdálené galaxii je užitečné hledat, zda je její posuv potvrzen spektroskopicky, nebo zatím odhadnut z měření přes barevné filtry. Obojí má své použití, ale konkrétní spektrální čáry mohou původní odhad zásadně zpřesnit.",
+    "why_box": "U zprávy o vzdálené galaxii je užitečné hledat, zda byl její rudý posuv určen ze spektra, nebo odhadnut z jasností měřených přes různé filtry. Spolehlivě rozpoznané spektrální čáry obvykle umožní přesnější určení. Také spektroskopický výsledek však může být nejistý, například pokud stojí na jediné slabé čáře, kterou lze přiřadit více různým přechodům.",
     "related_explainery": [
       "jak-velky-je-rudy-posuv-priklady-a-vypocty",
       "co-jsou-absorpcni-a-emisni-cary",
@@ -1705,7 +1705,7 @@
     "theme": "svetlo-a-mereni-vesmiru",
     "description": "Jak souvisí rudý posuv se vzdáleností? Výpočty posunu čar, doba cesty světla a dnešní vzdálenosti doplněné skutečnými měřeními.",
     "published": "2026-10-25",
-    "updated": "2026-10-25",
+    "updated": "2026-11-18",
     "perex": "Číslo rudého posuvu ukazuje prodloužení vlnové délky světla. Pomocí kosmologického modelu z něj můžeme odhadnout také vzdálenost a dobu, po kterou světlo cestovalo. Podívejme se na konkrétní výpočty i skutečná měření.",
     "sections": [
       {
@@ -1718,7 +1718,7 @@
       },
       {
         "heading": "Jak z rudého posuvu získáme vzdálenost",
-        "body": "U vzdálených galaxií souvisí kosmologický rudý posuv s rozpínáním vesmíru během cesty světla. Čím větší je z, tím více se jeho vlnová délka od vyzáření prodloužila. Pro převod na vzdálenost ale potřebujeme vědět, jak se vesmír v průběhu času rozpínal.\n\nPředstavme si tedy model jako popis historie rozpínání. Zadáme do něj naměřené z a získáme odpovídající dobu cesty světla a vzdálenost. Protože se vesmír rozpíná, musíme rozlišovat dva údaje:\n\n- **Doba cesty světla:** jak dlouho k nám zachycené světlo putovalo. Když řekneme, že galaxii vidíme před osmi miliardami let, mluvíme o této době.\n- **Dnešní vzdálenost:** jak daleko je od nás v modelu odpovídající místo nyní. Během cesty světla se prostor dál rozpínal, a proto je tato vzdálenost u vzdálených galaxií větší než pouhý součin rychlosti světla a doby jeho cesty.\n\nDnešní vzdálenost tedy nevyčteme přímo ze snímku. Je to modelový odhad; galaxii samotnou stále pozorujeme v minulosti. Výchozí představu o použitém modelu nabízí heslo [Co znamená model ΛCDM?](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html)."
+        "body": "U vzdálených galaxií souvisí kosmologický rudý posuv s rozpínáním vesmíru během cesty světla. Čím větší je z, tím více se jeho vlnová délka od vyzáření prodloužila. Pro převod na vzdálenost ale potřebujeme vědět, jak se vesmír v průběhu času rozpínal.\n\nPředstavme si tedy model jako popis historie rozpínání. Zadáme do něj naměřené z a získáme odpovídající dobu cesty světla a vzdálenost. Protože se vesmír rozpíná, musíme rozlišovat dva údaje:\n\n- **Doba cesty světla:** jak dlouho k nám zachycené světlo putovalo. Když řekneme, že galaxii vidíme před osmi miliardami let, mluvíme o této době.\n- **Dnešní vzdálenost:** vzdálenost mezi námi a sledovanou galaxií vypočtená pro současný kosmický čas ve zvoleném modelu. Nevidíme ji přímo: zachycené světlo ukazuje galaxii v minulosti. Model však umožňuje spočítat, jak se od té doby vzdálenost změnila rozpínáním vesmíru.\n\nDnešní vzdálenost tedy nevyčteme přímo ze snímku. Je to modelový odhad; galaxii samotnou stále pozorujeme v minulosti. Výchozí představu o použitém modelu nabízí téma [Co znamená model ΛCDM?](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html)."
       },
       {
         "heading": "Stejné posuvy převedené na vzdálenosti",
@@ -4589,7 +4589,7 @@
     "title": "Jak třídíme hvězdy a co nám jejich označení říká?",
     "theme": "svetlo-a-mereni-vesmiru",
     "published": "2026-10-29",
-    "updated": "2026-10-29",
+    "updated": "2026-11-18",
     "description": "Spektrální třídy OBAFGKM, podtřídy a třídy svítivosti. Jak číst označení Slunce G2 V a rozlišit teplotu, velikost a vývojovou etapu hvězdy.",
     "perex": "Označení G2 V nebo M5 V je stručnou zprávou o vlastnostech hvězdy. Písmena a číslice pomáhají rozpoznat její povrchovou teplotu a odlišit hvězdy hlavní posloupnosti od obrů. Ukážeme si, jak se v tomto třídění vyznat a proč je důležité i při hledání planet.",
     "sections": [
@@ -4674,7 +4674,7 @@
             [
               "III",
               "obři",
-              "rozpínající se či rozměrné hvězdy mimo hlavní posloupnost"
+              "hvězdy s větším poloměrem a zpravidla vyšším výkonem než hvězdy hlavní posloupnosti stejné povrchové teploty"
             ],
             [
               "IV",
@@ -4700,7 +4700,7 @@
       },
       {
         "heading": "Kam patří hnědí a bílí trpaslíci",
-        "body": "U velmi chladných objektů se používají také třídy **L, T a Y**. Patří sem především hnědí trpaslíci, objekty příliš málo hmotné na dlouhodobé spalování vodíku jako u běžných hvězd. V pozdních třídách M a ve třídě L se mohou jejich spektra překrývat se spektry nejméně hmotných hvězd; rozlišení pomáhají další údaje o hmotnosti a vývoji.\n\n**Bílí trpaslíci** jsou pozůstatky hvězd a mají vlastní spektrální značení začínající písmenem D. Například **DA** označuje spektrum s převahou vodíkových čar, **DB** s čarami neutrálního helia. Pulsary, tedy rotující neutronové hvězdy, se v katalozích označují jiným způsobem. Tato rozlišení vysvětlují, proč přehled hostitelů exoplanet vyčleňuje hvězdné pozůstatky samostatně."
+        "body": "U velmi chladných objektů se používají také třídy **L, T a Y**. Patří sem především hnědí trpaslíci, objekty příliš málo hmotné na dlouhodobé spalování vodíku jako u běžných hvězd. V pozdních třídách M a ve třídě L se mohou jejich spektra překrývat se spektry nejméně hmotných hvězd; rozlišení pomáhají další údaje o hmotnosti a vývoji.\n\n**Bílí trpaslíci** jsou pozůstatky hvězd a mají vlastní spektrální značení začínající písmenem D. Například **DA** označuje spektrum s převahou vodíkových čar, **DB** s čarami neutrálního helia. Neutronové hvězdy mají jiné způsoby označování. Některé pozorujeme jako **pulsary**: jejich směrované záření při rotaci opakovaně zasahuje Zemi, a proto zaznamenáváme pravidelné pulzy. Samotná rotace ještě neznamená, že neutronovou hvězdu uvidíme jako pulsar. Tato rozlišení vysvětlují, proč přehled hostitelů exoplanet vyčleňuje hvězdné pozůstatky samostatně."
       },
       {
         "heading": "Proč to potřebujeme při studiu exoplanet",
@@ -4967,12 +4967,12 @@
     "theme": "svetlo-a-mereni-vesmiru",
     "description": "Slunce bude ještě miliardy let svítit, postupně však změní jasnost, velikost i zdroj energie. Časová osa ukazuje, jak se tyto změny dotknou Země a jak se ze Slunce nakonec stane bílý trpaslík.",
     "published": "2026-10-30",
-    "updated": "2026-10-30",
+    "updated": "2026-11-18",
     "perex": "Slunce bude ještě miliardy let svítit, postupně však změní jasnost, velikost i zdroj energie. Časová osa ukazuje, jak se tyto změny dotknou Země a jak se ze Slunce nakonec stane bílý trpaslík.",
     "sections": [
       {
         "heading": "Proč Slunce postupně mění jasnost",
-        "body": "Slunce je dnes staré přibližně **4,6 miliardy let**. V jeho jádře se vodík jadernými reakcemi mění na helium. Uvolněná energie zahřívá hvězdu a po cestě jejím nitrem odchází do okolí jako záření. Tlak horké látky přitom vyvažuje působení gravitace.\n\nJak v jádře přibývá helia, mění se jeho složení a stav. Jádro se postupně stlačuje a zahřívá; reakce tak probíhají intenzivněji. **Slunce během svého dlouhého klidného období pomalu zvyšuje celkový vyzařovaný výkon.** Země proto bude dostávat více energie už dlouho předtím, než se Slunce výrazně zvětší.\n\nZařazení Slunce na hlavní posloupnost vysvětluje [Jak třídíme hvězdy a co nám jejich označení říká?](https://kosmonovinky.cz/kosmopedie/jak-tridime-hvezdy-a-co-nam-jejich-oznaceni-rika.html). Následující osa se věnuje jeho dalšímu vývoji; časy jsou orientační odhady od dneška."
+        "body": "Slunce je dnes staré přibližně **4,6 miliardy let**. V jeho jádře se při řetězci jaderných reakcí mění vodík na helium. Hmotnost vzniklých částic je v součtu o něco menší než hmotnost výchozích částic; tomuto rozdílu odpovídá uvolněná energie podle vztahu **E = mc²**.\n\nVětšina uvolněné energie zahřívá sluneční nitro a postupně se dostává k povrchu, odkud odchází jako záření. Menší část získají při svém vzniku neutrina. Tyto částice s okolní látkou reagují jen velmi slabě, a proto ze Slunce téměř nerušeně unikají i s energií, kterou jim jaderné reakce předaly. Tlak v nitru Slunce přitom vyvažuje působení gravitace.\n\nJak v jádře přibývá helia, mění se jeho složení a stav. Jádro se postupně stlačuje a zahřívá; reakce tak probíhají intenzivněji. **Slunce během svého dlouhého klidného období pomalu zvyšuje celkový vyzařovaný výkon.** Země proto bude dostávat více energie už dlouho předtím, než se Slunce výrazně zvětší.\n\nZařazení Slunce na hlavní posloupnost vysvětluje [Jak třídíme hvězdy a co nám jejich označení říká?](https://kosmonovinky.cz/kosmopedie/jak-tridime-hvezdy-a-co-nam-jejich-oznaceni-rika.html). Následující osa se věnuje jeho dalšímu vývoji; časy jsou orientační odhady od dneška."
       },
       {
         "heading": "Země se začne měnit dříve než velikost Slunce",
@@ -4984,7 +4984,7 @@
       },
       {
         "heading": "Co po Slunci zůstane",
-        "body": "Po odvržení vnějších vrstev zůstane horké, husté jádro tvořené převážně uhlíkem a kyslíkem: **bílý trpaslík**. Bude mít rozměr srovnatelný se Zemí, přitom v něm zůstane podstatná část dnešní hmotnosti Slunce. Jeho hmotnost je příliš malá pro pokračování jaderných reakcí až k železu a následnou explozi supernovy.\n\nHorký pozůstatek může na určitou dobu rozsvítit odvržený plyn. Výpočty naznačují, že by Slunce mohlo vytvořit poměrně slabou **planetární mlhovinu**. Tento tradiční název označuje zářící plyn z hvězdy.\n\nBílý trpaslík pak bude **během miliard a desítek miliard let** vyzařovat nahromaděné teplo a jeho svit bude slábnout. Nitro začne postupně krystalizovat, tedy tuhnout. Tuhnutí těchto hvězdných pozůstatků už podporují pozorování družice Gaia.\n\nPo **bilionech let a ještě déle** by podle výpočtů zůstal chladný, téměř nesvítící **černý trpaslík**. Jde o předpovídanou velmi vzdálenou etapu: vesmír ještě není dost starý, aby se některý bílý trpaslík stihl takto ochladit. Úplně konečný osud pozůstatku zůstává otevřený, protože závisí i na dosud neověřených vlastnostech hmoty, například na případném rozpadu protonů.\n\nNa různých příkladech v našem okolí tak můžeme sledovat části příběhu, který čeká i Slunce: běžné hvězdy, červené obry a hotové bílé trpaslíky."
+        "body": "Po odvržení vnějších vrstev zůstane horké, husté jádro tvořené převážně uhlíkem a kyslíkem: **bílý trpaslík**. Jeho rozměr bude srovnatelný se Zemí, přitom v něm zůstane podstatná část dnešní hmotnosti Slunce.\n\nSlunce nemá dostatečnou hmotnost, aby jeho jádro dosáhlo podmínek pro další soustavné slučování uhlíku a navazující tvorbu těžších prvků. Jeho běžný vývoj proto neskončí zhroucením jádra a výbuchem supernovy jako u mnohem hmotnějších hvězd.\n\nHorký pozůstatek může na určitou dobu rozsvítit odvržený plyn. Výpočty naznačují, že by Slunce mohlo vytvořit poměrně slabou **planetární mlhovinu**. Tento tradiční název označuje zářící plyn z hvězdy.\n\nBílý trpaslík už nebude získávat energii dlouhodobou přeměnou vodíku na helium v jádře. Bude postupně vyzařovat nahromaděné teplo a chladnout.\n\nProti dalšímu gravitačnímu stlačování ho podpírá především **tlak degenerovaných elektronů**. Jde o kvantový jev: elektrony nemohou všechny obsadit stejné kvantové stavy, a jejich velmi husté soustředění proto vytváří tlak i bez vysoké teploty. Pozůstatek Slunce tak může zůstávat stabilní, zatímco jeho záření postupně slábne.\n\nPři ochlazování začne jeho nitro také krystalizovat, tedy tuhnout. Tento proces u bílých trpaslíků podporují pozorování družice Gaia.\n\nPo **bilionech let a ještě déle** by podle výpočtů zůstal chladný, téměř nesvítící **černý trpaslík**. Jde o předpovídanou velmi vzdálenou etapu: vesmír ještě není dost starý, aby se některý bílý trpaslík stihl takto ochladit. Úplně konečný osud pozůstatku zůstává otevřený, protože závisí i na dosud neověřených vlastnostech hmoty, například na případném rozpadu protonů.\n\nNa různých příkladech v našem okolí tak můžeme sledovat části příběhu, který čeká i Slunce: běžné hvězdy, červené obry a hotové bílé trpaslíky."
       },
       {
         "heading": "Zdroje a další čtení",
@@ -5004,10 +5004,10 @@
     "id": "exp-099",
     "title": "Které hvězdy jsou nejblíže Slunci?",
     "theme": "svetlo-a-mereni-vesmiru",
-    "description": "Nejbližší hvězdou je Proxima Centauri, vzdálená přibližně 4,25 světelného roku. V sousedství Slunce najdeme slabé červené trpaslíky, hvězdy podobné Slunci i bílého trpaslíka. Přehled ukazuje jejich vzdálenosti a vzájemné rozdíly.",
+    "description": "Nejbližší hvězdou mimo Sluneční soustavu je Proxima Centauri, vzdálená přibližně 4,25 světelného roku od Slunce. V našem hvězdném sousedství najdeme slabé červené trpaslíky, hvězdy podobné Slunci i bílého trpaslíka. Přehled ukazuje jejich vzdálenosti a vzájemné rozdíly.",
     "published": "2026-10-30",
-    "updated": "2026-10-30",
-    "perex": "Nejbližší hvězdou je Proxima Centauri, vzdálená přibližně 4,25 světelného roku. V sousedství Slunce najdeme slabé červené trpaslíky, hvězdy podobné Slunci i bílého trpaslíka. Přehled ukazuje jejich vzdálenosti a vzájemné rozdíly.",
+    "updated": "2026-11-18",
+    "perex": "Nejbližší hvězdou mimo Sluneční soustavu je **Proxima Centauri**, vzdálená přibližně 4,25 světelného roku od Slunce. V našem hvězdném sousedství najdeme slabé červené trpaslíky, hvězdy podobné Slunci i bílého trpaslíka. Přehled ukazuje jejich vzdálenosti a vzájemné rozdíly.",
     "sections": [
       {
         "heading": "Jak číst přehled sousedních hvězd",
@@ -5078,7 +5078,7 @@
       },
       {
         "heading": "Proxima a dvojice Alfa Centauri A a B",
-        "body": "Nejbližší **Proxima Centauri** je malý červený trpaslík. Patří do trojhvězdné soustavy společně s Alfou Centauri A a B. Tyto dvě hvězdy kolem sebe obíhají poměrně těsně, zatímco Proxima leží mnohem dále od jejich dvojice.\n\nAlfa Centauri A se teplotou a stavbou podobá Slunci; B je menší a chladnější hvězda třídy K. Proxima je na obloze mnohem slabší. Blízkost hvězdy tedy ještě neurčuje, jak výrazná bude při pohledu ze Země: záleží i na tom, kolik světla vydává.\n\nU Proximy známe planety. Proxima b patří k příkladům rozebíraným v tématu [Které známé exoplanety leží v obyvatelné zóně?](https://kosmonovinky.cz/kosmopedie/ktere-zname-exoplanety-lezi-v-obyvatelne-zone.html). Při posuzování podmínek na takové planetě hrají roli také atmosféra a aktivita její hvězdy."
+        "body": "Ze všech ostatních hvězd je Slunci nejblíže **Proxima Centauri**, malý červený trpaslík. Patří do trojhvězdné soustavy společně s Alfou Centauri A a B. Tyto dvě hvězdy kolem sebe obíhají poměrně těsně, zatímco Proxima leží mnohem dále od jejich dvojice.\n\nAlfa Centauri A se teplotou a stavbou podobá Slunci; B je menší a chladnější hvězda třídy K. Proxima je na obloze mnohem slabší. Blízkost hvězdy tedy ještě neurčuje, jak výrazná bude při pohledu ze Země: záleží i na tom, kolik světla vydává.\n\nU Proximy známe planety. Proxima b patří k příkladům rozebíraným v tématu [Které známé exoplanety leží v obyvatelné zóně?](https://kosmonovinky.cz/kosmopedie/ktere-zname-exoplanety-lezi-v-obyvatelne-zone.html). Při posuzování podmínek na takové planetě hrají roli také atmosféra a aktivita její hvězdy."
       },
       {
         "heading": "Barnardova hvězda a další červení trpaslíci",
@@ -5086,11 +5086,11 @@
       },
       {
         "heading": "Sirius: dvě velmi odlišné hvězdy",
-        "body": "Sirius A je horká hvězda třídy A a díky svému výkonu i blízkosti září na naší noční obloze mimořádně jasně. Jeho průvodce **Sirius B** je bílý trpaslík: hustý pozůstatek hvězdy, která již prošla obřími fázemi a odvrhla vnější vrstvy.\n\nNa jedné dvojici tak vidíme dvě různé etapy hvězdného života. Bílý trpaslík má malý rozměr a postupně uvolňuje nahromaděné teplo. Podobný typ pozůstatku jednou vznikne i ze Slunce, jehož další vývoj rozebírá nové téma o budoucnosti Slunce a Země."
+        "body": "Sirius A je horká hvězda třídy A a díky svému výkonu i blízkosti září na naší noční obloze mimořádně jasně. Jeho průvodce **Sirius B** je bílý trpaslík: hustý pozůstatek hvězdy, která již prošla obřími fázemi a odvrhla vnější vrstvy.\n\nNa jedné dvojici tak vidíme dvě různé etapy hvězdného života. Sirius B má malý rozměr a postupně uvolňuje nahromaděné teplo. Podobný typ pozůstatku jednou vznikne i ze Slunce. Jeho další vývoj vysvětluje téma [Jaká budoucnost čeká Slunce a naši Zemi?](https://kosmonovinky.cz/kosmopedie/jaka-budoucnost-ceka-slunce-a-nasi-zemi.html)."
       },
       {
         "heading": "Jak vzdálenosti zjišťujeme",
-        "body": "Základem je **roční paralaxa**. Při oběhu Země kolem Slunce se mění směr, z něhož pozorujeme blízkou hvězdu. Její poloha se proto vůči vzdálenému pozadí během roku nepatrně posouvá. Z velikosti tohoto úhlového posunu vypočteme vzdálenost.\n\nPoužité hodnoty vycházejí z katalogu deseti parseků v éře družice Gaia a z přehledu RECONS. U dvojhvězd je pro společný přehled převzata jedna reprezentativní vzdálenost soustavy. Zaokrouhlení je přizpůsobené názornému srovnání, zatímco odkazy níže umožňují dohledat přesné katalogové údaje."
+        "body": "Základem je **roční paralaxa**. Při oběhu Země kolem Slunce pozorujeme blízkou hvězdu z různých míst. Její poloha se proto vůči velmi vzdálenému pozadí během roku nepatrně posouvá. Podobně se zdánlivě posune prst před obličejem, když se na něj střídavě díváme levým a pravým okem.\n\nČím je hvězda blíže, tím větší zdánlivý posun vzniká. Paralaktický úhel odpovídá poloměru zemské oběžné dráhy, nikoli celé vzdálenosti mezi dvěma protilehlými polohami Země. Je-li paralaxa vyjádřena v úhlových vteřinách, vzdálenost v parsecích získáme jako **d = 1/p**.\n\nSkutečná měření zároveň oddělují paralaxu od vlastního pohybu hvězdy a dalších vlivů, například oběhu ve dvojhvězdě.\n\nPoužité hodnoty vycházejí z katalogu deseti parseků v éře družice Gaia a z přehledu RECONS. U dvojhvězd je pro společný přehled převzata jedna reprezentativní vzdálenost soustavy. Zaokrouhlení je přizpůsobené názornému srovnání, zatímco odkazy níže umožňují dohledat přesné katalogové údaje."
       },
       {
         "heading": "Zdroje a další čtení",
