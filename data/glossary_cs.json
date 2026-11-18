@@ -146,5 +146,12 @@
     "variants": [],
     "note": "Samostatná kategorie podle pohybu částic v raném vesmíru. Zachovej rozdíl mezi cold, warm a hot.",
     "status": "approved"
+  },
+  {
+    "term": "binary black hole",
+    "preferred": "binární černá díra",
+    "variants": [],
+    "note": "Schváleno v GitHub Issues.",
+    "status": "approved"
   }
 ]
