@@ -160,5 +160,19 @@
     "variants": [],
     "note": "V kontextu přímé detekce temné hmoty: signály vyvolané interakcemi neutrin v detektoru, které mohou napodobovat hledaný signál temné hmoty. Vysvětlovat jako rušivé pozadí nebo rušivé vlivy, nikoli jako překážku, kterou lze jednoduše odstranit. Jde o kontextové vysvětlení; jiné významy slova background překládat podle kontextu.",
     "status": "approved"
+  },
+  {
+    "term": "multi-wavelength observations",
+    "variants": [],
+    "preferred": "pozorování ve více pásmech",
+    "note": "Jde o pozorování elektromagnetického záření v různých částech spektra, například v rádiovém a rentgenovém pásmu.",
+    "status": "approved"
+  },
+  {
+    "term": "multi-messenger observations",
+    "variants": [],
+    "preferred": "víceposlovská pozorování",
+    "note": "Při prvním použití vysvětlit, jaké druhy signálů vědci v daném výzkumu kombinují, například elektromagnetické záření a neutrina.",
+    "status": "approved"
   }
 ]
