@@ -1,5 +1,90 @@
 [
   {
+    "id": "2611.21052v1",
+    "title": "Pátrání po temné hmotě: Současnost a budoucnost přímé detekce částic",
+    "summary": "Nová přehledová studie se zaměřuje na přímou detekci částic temné hmoty – neviditelné formy hmoty, která tvoří většinu hmoty ve vesmíru a projevuje se především gravitačně – pocházejících z hala temné hmoty (oblasti obklopující naši Galaxii, v níž se soustřeďuje její hmota). Autoři shrnují teoretické modely i výsledky měření zveřejněné od roku 2020. I přes výrazné zvýšení citlivosti detektorů však vědci dosud nepřinesli žádný průkazný záchyt hledaných částic.\n\nPřehled rozebírá různé detekční techniky, jako je jaderný či elektronový odraz nebo absorbce částic, a srovnává jejich přednosti i omezení. Vědci poukazují na připravované experimenty, od obřích detektorů s kapalnými vzácnými plyny po zařízení s velmi nízkým energetickým prahem zaměřená na lehkou temnou hmotu s hmotností pod 1 GeV (gigaelektronvolt, jednotka hmotnosti a energie částic). Klíčovou výzvou nadcházející generace přístrojů bude rozlišení rušivých signálů a zvládnutí neutrinového pozadí, tedy nechtěných interakcí běžných neutrin, která mohou napodobit hledaný signál.\n\nK odhalení podstaty temné hmoty bude podle autorů i nadále zásadní rozmanitost a vzájemné doplňování různých detekčních přístupů.\n\nProč je to zajímavé: Přehled jasně ukazuje, že k odhalení neznámých částic vesmíru nestačí jediná metoda, ale je nutná kombinace různých technologií schopných překonat i tak jemné překážky, jako je neutrinové pozadí.",
+    "url": "http://arxiv.org/abs/2611.21052v1",
+    "source": "arXiv",
+    "original_title": "Hunting dark matter: the present and future of direct particle detection",
+    "published": "2026-11-16T13:04:47+00:00",
+    "inserted_at": "2026-11-18T08:30:02.044440+00:00",
+    "lang": "cs",
+    "needs_translation": false,
+    "daily_card_selected": true
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+    "title": "Záhadná rotace v reliktním záření by mohla odhalit novou fyziku",
+    "summary": "Vědci zachytili náznaky záhadné rotace v nejstarším světle vesmíru, kterým je reliktní záření (CMB) – záření přicházející ze všech směrů, jež vzniklo v raném kosmu a nese informace o jeho nejstarší historii. Pozorovaný jev by mohl ukazovat na existenci dosud neznámé fyziky a pomoci objasnit podstatu temné hmoty, tedy neviditelné formy hmoty tvořící většinu látky ve vesmíru, a temné energie, která způsobuje zrychlující se rozpínání vesmíru. Výzkumníci z Kalifornské univerzity v San Diegu navrhli novou metodu, která má pomoci vyloučit zavádějící chyby přístrojů.\n\nPři pozorování reliktního záření (CMB) je klíčové odlišit skutečný vědecký signál od systematických odchylek způsobených samotnými teleskopy. Výzkumný tým proto vyvinul techniku, jež dokáže tyto chyby detektorů identifikovat a odfiltrovat. Astrofyzici se tak přibližují k potvrzení, zda je záhadné stočení světla reálným fyzikálním jevem, nebo jen optickým zkreslením.\n\nProč je to zajímavé: Nová metoda ověřování dat umožní zjistit, zda je neobvyklé stočení nejstaršího světla skutečným projevem nové fyziky, což by mohlo přinést zásadní vhled do podstaty temné hmoty a temné energie.",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+    "source": "RSS",
+    "original_title": "A mysterious twist in the universe’s oldest light could reveal new physics",
+    "published": "2026-11-17T12:14:04+00:00",
+    "inserted_at": "2026-11-18T08:30:02.044440+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.21736v1",
+    "title": "Aktivní galaktická jádra jako okno do fyziky za Standardním modelem",
+    "summary": "Nová přehledová studie navrhuje využít aktivní galaktická jádra (zkráceně AGN), tedy extrémně zářivé středy galaxií poháněné supermasivními černými dírami, jako přírodní laboratoře pro výzkum fyziky za Standardním modelem (BSM). Pod tímto pojmem se rozumí teoretické částice a procesy, které přesahují dosavadní uznávaný model částicové fyziky.\n\nAutoři zdůrazňují, že potenciál těchto objektů lze využít díky víceposlovským a víceladovým pozorováním, jež kombinují různé druhy elektromagnetického záření s detekcí částic, jako jsou neutrina. K rozvoji této oblasti přispělo mimo jiné pozorování neutrinového detektoru IceCube, který spojil zachycená neutrina s konkrétními galaktickými jádry. Propojení astrofyziky a částicové fyziky podle studie vyžaduje dvě věci: detailnější pochopení samotných AGN i temné hmoty (dosud neznámé formy hmoty ovlivňující okolí svou gravitací) v jejich blízkosti a zároveň identifikaci takových projevů nové fyziky, které lze spolehlivě rozlišit od dosavadních mezer v našich znalostech. Publikace shrnuje dosavadní stav poznatků a definuje zásadní otázky pro budoucí výzkum.\n\nProč je to zajímavé: Aktivní galaktická jádra nabízejí unikátní prostředí s extrémními energiemi, které umožňuje testovat neznámé fyzikální částice a vlastnosti temné hmoty daleko za možnostmi pozemských urychlovačů.",
+    "url": "http://arxiv.org/abs/2611.21736v1",
+    "source": "arXiv",
+    "original_title": "Active Galactic Nuclei as Beyond the Standard Model Laboratories: a White Paper",
+    "published": "2026-11-16T19:00:06+00:00",
+    "inserted_at": "2026-11-18T08:30:02.044440+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.21997v1",
+    "title": "Kvantové senzory ve vesmíru nabídnou nový pohled na temnou hmotu",
+    "summary": "Vědci v souhrnné zprávě z workshopu v Aspen Center for Physics představili koncepce vesmírných misí a možnosti využití kvantových senzorů pro výzkum fyziky přesahující Standardní model. Mezi tyto přístroje patří atomové hodiny, které měří čas s extrémní přesností pomocí frekvence atomových přechodů, atomové interferometry využívající vlnové vlastnosti atomů k měření zrychlení či gravitace a atomové magnetometry určené k citlivému měření magnetického pole.\n\nVesmírné prostředí poskytuje pro tato měření výhodné podmínky: mikrogravitaci, dlouhé vzdálenosti mezi přístroji, nízký šum okolí a přístup k různým gravitačním potenciálům v blízkosti Slunce, Měsíce, planet a planetek.\n\nAutoři shrnují, že tyto pokročilé technologie umožní pátrat po temné hmotě, tedy dosud neznámé formě hmoty, která nevyzařuje ani neodráží světlo, provádět přesné testy obecné relativity a detekovat gravitační vlny ve frekvenčních pásmech, jež jsou z povrchu Země nedostupná.\n\nProč je to zajímavé: Umístění kvantových senzorů do vesmíru může otevřít zcela nová okna pro detekci gravitačních vln a odhalování neznámých fyzikálních jevů, které nelze pozemními detektory zachytit.",
+    "url": "http://arxiv.org/abs/2611.21997v1",
+    "source": "arXiv",
+    "original_title": "Fundamental physics with quantum sensors in space",
+    "published": "2026-11-16T23:29:06+00:00",
+    "inserted_at": "2026-11-18T08:30:02.044440+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.21337v1",
+    "title": "Odhalí detektor LISA prvotní černé díry podle jejich rozložení v Galaxii?",
+    "summary": "Astrofyzici hledají způsob, jak ověřit, zda část temné hmoty – neviditelné hmoty, která tvoří většinu hmotnosti vesmíru a projevuje se pouze gravitací – tvoří prvotní černé díry vzniklé v raném vesmíru krátce po velkém třesku. Odlišit je od běžných černých děr hvězdného původu je však obtížné. Vědci proto v nové studii navrhli metodu založenou na trojrozměrné lokalizaci galaktických podvojných černých děr pomocí plánovaného přístroje LISA (Laser Interferometer Space Antenna), což je detektor gravitačních vln určený pro práci ve vesmíru. Zatímco hvězdné černé díry kopírují rozložení hvězd v Mléčné dráze, prvotní černé díry by sledovaly její rozsáhlé halo temné hmoty, tedy rozsáhlou kulovou obalovou strukturu z temné hmoty obklopující Galaxii.\n\nAutoři zavedli ukazatel prostorového překryvu, který srovnává lokalizaci gravitačních vln s hustotními profily hvězd a temné hmoty. Ve výpočtech s Fisherovou maticí a 1000 Monte Carlo simulacích desetileté mise LISA vyšlo, že zachycení tří podvojných černých děr s parametrem překryvu ln B < 0 nastane v přibližně 99 % případů, pokud černé díry sledují halo temné hmoty. Pokud by však sledovaly hvězdnou populaci, nastal by tento výsledek v méně než 0,1 % simulací, a to i při započtení hvězdného hala obsahujícího 3 % hvězdné hmotnosti Galaxie. Přesná lokalizace několika systémů tak může přinést silný důkaz o existenci prvotních černých děr.\n\nProč je to zajímavé: Metoda ukazuje, že detektor LISA by mohla už na základě polohy několika galaktických černých děr nezávisle ověřit jejich možný podíl na temné hmotě.",
+    "url": "http://arxiv.org/abs/2611.21337v1",
+    "source": "arXiv",
+    "original_title": "On the origin of Milky Way binary black holes with LISA",
+    "published": "2026-11-16T16:20:35+00:00",
+    "inserted_at": "2026-11-18T08:30:02.044440+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.22725v1",
+    "title": "Test Kerrovy hypotézy: Jsou deformace černých děr univerzální?",
+    "summary": "Vědci zkoumali, zda černé díry přesně odpovídají Kerrově hypotéze, podle níž jsou rotující černé díry v časoprostoru plně popsány pouze svou hmotností a rotací. Autoři zkombinovali 17 pozorování splynutí dvojitých černých děr z katalogů GWTC-3 a GWTC-4 a zjišťovali, zda černé díry vykazují odchylky od této hypotézy. Zjištěné výsledky jsou s Kerrovou hypotézou plně v souladu.\n\nPřípadné odchylky od standardního řešení vědci měřili pomocí parametrů deformace α₁₃ a ε₃ z takzvané Johannsenovy metriky, což je zobecněný teoretický model časoprostoru v okolí rotující černé díry. Tým analyzoval události dominované fází přibližování (inspiral) a použil Savageův–Dickeyův Bayesův faktor, tedy statistické kritérium pro hodnocení jednotlivých událostí. Dále použil hierarchickou analýzu – metodu posuzující vlastnosti celé populace černých děr pomocí průměru μ a rozptylu σ.\n\nPři předpokladu univerzální deformace platné pro všechny zdroje vědci stanovili parametry na α₁₃ = −0,01 (+0,14 / −0,12) a ε₃ = 0,06 (+0,59 / −0,54). Průměrné hodnoty populace jsou tedy konzistentní s nulou, což odpovídá nulovým deformacím. Vnitřní rozptyl deformací mezi jednotlivými zdroji však současná data neumožňují rozlišit.\n\nVýzkum tak potvrzuje platnost Kerrovy hypotézy, ale zatím nedokáže rozhodnout, zda jsou případné nepatrné deformace univerzální, nebo závisí na konkrétním zdroji.\n\nProč je to zajímavé: Študium ukazuje, že ani pokročilá populační analýza gravitačních vln nenalézá žádné odchylky od Einsteinovy teorie relativity, ale stanovuje přesné limity pro budoucí testy obecné relativity s citlivějšími detektory.",
+    "url": "http://arxiv.org/abs/2611.22725v1",
+    "source": "arXiv",
+    "original_title": "Gravitational Waves Population Study for Testing Kerr Hypothesis: Are Non-Kerr Deformations Universal or Source-Dependent?",
+    "published": "2026-11-17T13:00:04+00:00",
+    "inserted_at": "2026-11-18T08:30:02.044440+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.21719v1",
+    "title": "Slabě interagující částice: Nová cesta k odhalení temné hmoty",
+    "summary": "Přehledová studie se zaměřuje na slabě interagující částice (feebly-interacting particles, FIPs) – hypotetické částice, které s běžnou hmotou vzájemně působí jen extrémně slabě. Autor v práci shrnuje, jak se tyto částice v posledních letech posunuly z okrajové hypotézy do hlavního proudu částicové fyziky. Tento vývoj vychází ze tří hlavních motivací: FIPs představují jednu ze dvou základních možností pro existenci nových částic, jsou pro vysvětlení temné hmoty (neviditelné látky tvořící většinu hmoty ve vesmíru) stejně dobře motivovány jako tradiční těžké slabě interagující částice (WIMP) a zároveň souvisejí s dalšími klíčovými problémy částicové fyziky.\n\nPráce shrnuje nedávný pokrok v několika konkrétních oblastech. Výzkum se zaměřuje na částice podobné axionům, temné fotony a další kalibrační bosony přenášející potenciální nové síly, dosud nevysvětlenou anomálii X17 pozorovanou při jaderných přechodech, částice typu quirk a plánované experimentální zařízení Forward Physics Facility (zařízení pro fyziku v dopředném směru u urychlovače).\n\nProč je to zajímavé: Výzkum ukazuje, že slabě interagující částice představují nadějný směr pro odhalení podstaty temné hmoty a řešení klíčových záhad částicové fyziky.",
+    "url": "http://arxiv.org/abs/2611.21719v1",
+    "source": "arXiv",
+    "original_title": "Feebly-Interacting Particle Searches",
+    "published": "2026-11-16T19:00:01+00:00",
+    "inserted_at": "2026-11-18T08:30:02.044440+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2611.21603v1",
     "title": "Jak rozložit rovnice pro poruchy v Plebańského-Demiańského časoprostoru",
     "summary": "Vědci představili nové konstruktivní kritérium pro lokální separaci proměnných u takzvaných chirálních systémů prvního řádu, které propojují dvě dvojice komplexních veličin. Chirální systém označuje fyzikální soustavu se specifickou stranovou nesouměrností. Separace proměnných je matematická metoda, která rozkládá složitou rovnici s více proměnnými na jednodušší rovnice závislé vždy jen na jedné souřadnici. Výzkum kombinuje takzvanou Gramovu dekompozici, tedy způsob rozkladu zdrojových matic na samostatné závislosti v souřadnicích, s testem diferenciálního transportu. Autoři dokázali, že pro definované rodiny zdrojů je toto kritérium nutnou i postačující podmínkou v rámci maticových transformací s jednotkovým determinantem.\n\nNové kritérium autoři úspěšně aplikovali na spojené vyzařovací Einsteinovy-Maxwellovy poruchy v takzvaném Plebańského-Demiańského časoprostoru. Tento teoretický model představuje zobecněný popis prostoru v okolí rotujících a nabitých černých děr, který započítává zrychlení, kosmologickou konstantu i takzvaný NUT náboj, což je speciální teoretický parametr popisující kroutivý efekt gravitace. Autoři sestrojili explicitní algebraickou transformaci, odvodili samostatné úhlové a radiální rovnice a stanovili okrajové indexy pro topologické identifikace podle Bonnora a Misnera. Zároveň dokázali, že za daných podmínek pravidelnosti mají úhlová řešení diskrétní spektrum a úplnou ortonormální bázi vlastních stavů.\n\nProč je to zajímavé: Práce přináší přesný matematický nástroj, který umožňuje analyticky zkoumat šíření gravitačních a elektromagnetických vln i v těch nejkomplexnějších teoretických modelech rotujících černých děr.",
@@ -5786,56 +5871,6 @@
     "inserted_at": "2026-09-14T06:55:41.204463+00:00"
   },
   {
-    "id": "2609.12044",
-    "title": "Prvotní černé díry jako temná hmota: 20 let pozorování sondy INTEGRAL",
-    "summary": "Prvotní černé díry o hmotnosti asteroidů představují jednoho z možných kandidátů na temnou hmotu. Tyto objekty se pomalu odpařují prostřednictvím Hawkingova záření a uvolňují rychlé elektrony a pozitrony. Ty následně interagují se světlem v Mléčné dráze a vytvářejí rozptýlené tvrdé rentgenové záření. Vědci poprvé využili dvacetiletá pozorování z vesmírné observatoře INTEGRAL a zkombinovali analýzu spektra s mapováním jeho prostorového rozložení. Díky spolehlivému odlišení signálu od běžného astrofyzikálního pozadí stanovili dosud nejpřísnější limity pro výskyt těchto černých děr. Proč je to zajímavé: Studie dokazuje, že tvrdé rentgenové záření představuje klíčový nástroj k testování Hawkingova odpařování a vymezení podstaty samotné temné hmoty.",
-    "url": "https://arxiv.org/abs/2609.12044",
-    "source": "arXiv",
-    "original_title": "Constraining dark matter using 20-year INTEGRAL/IBIS observations I: Primordial black holes",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
-  },
-  {
-    "id": "2609.12061",
-    "title": "Model BAQARO odhaluje tajemství růstu obřích černých děr",
-    "summary": "Supermasivní černé díry v centrech galaxií patří k nejfascinujícím objektům ve vesmíru, jejich přesný způsob růstu však stále zůstává záhadou. Nový semi-empirický model BAQARO využívá kosmologickou simulaci FLAMINGO a propojuje vývoj černých děr s historií jejich mateřských galaktických halo. Model bere v úvahu průměrné trendy i náhodné výkyvy v pohlcování hmoty. Pomocí pokročilé statistiky dokáže přesně reprodukovat pozorované vlastnosti zářivých kvazarů od raného vesmíru až po současnost. Výsledky ukazují, že krmení černých děr odpovídá hromadění studeného plynu, aniž by vyžadovalo přímou závislost na kosmickém čase. Proč je to zajímavé: Model ukazuje, že k pochopení růstu obřích černých děr napříč miliardami let stačí znát lokální zásoby plynu v galaxiích.",
-    "url": "https://arxiv.org/abs/2609.12061",
-    "source": "arXiv",
-    "original_title": "BAQARO: Tracing Stochastic Black Hole Growth Histories and Quasar Lightcurves in a Cosmological Context",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
-  },
-  {
-    "id": "2609.12775",
-    "title": "Prototyp DALI stanovil nový rekord v pátrání po temných fotonech",
-    "summary": "Temná hmota tvoří většinu hmotnosti vesmíru, její podstata je však stále záhadou. Jedním z hypotetických kandidátů jsou takzvané temné fotony, které by se mohly slabě mísit s obyčejným světlem. Vědci analyzovali 36 hodin dat ze zkušebního prototypu haloskopu DALI. Ačkoli nenalezli přímý signál potvrdzující existenci temných fotonů, stanovili v pásmu 6,89 až 6,92 GHz nejpřísnější dosavadní laboratorní limity pro sílu jejich kinetického míšení. Pro hmotnost částic okolo 28,54 mikroelektronvoltů tak výrazně zúžili prostor, kde se tato záhadná hmota může skrývat. Proč je to zajímavé: Tento úspěch potvrzuje vysokou citlivost nového detektoru DALI a ukazuje, že i krátké testovací měření dokáže posunout hranice současného kosmologického výzkumu.",
-    "url": "https://arxiv.org/abs/2609.12775",
-    "source": "arXiv",
-    "original_title": "Constraints on Galactic Dark Photons from a DALI Prototype",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
-  },
-  {
-    "id": "https://www.sciencedaily.com/releases/2026/09/260912220041.htm",
-    "title": "Jak vlastně funguje vesmír? Fyzikové se neshodnou ani na základních otázkách",
-    "summary": "Rozsáhlý celosvětový průzkum mezi fyziky odhalil překvapivou nejednotnost v pohledu na největší záhady kosmologie. Většina vědců se neshodla na standardním kosmologickém modelu, dominantní hypotéze temné hmoty ani na jediné teorii kvantové gravitace. Přesto se objevil jeden výrazný bod shody: celých 68 % dotázaných si myslí, že Velký třesk nemusí představovat absolutní počátek času. Výsledky ukazují, jak dynamický a dosud neuzavřený výzkum vesmíru je. Současná fyzika se potýká s hlubokými neznámými, což otevírá prostor pro nová objevná paradigmata. Proč je to zajímavé: Tento průzkum jasně ukazuje, že moderní kosmologie není uzavřené dogma, ale živé vědecké bojiště, kde i ty nejzákladnější představy o čase a hmotě stále čekají na novou vědeckou revoluci.",
-    "url": "https://www.sciencedaily.com/releases/2026/09/260912220041.htm",
-    "source": "RSS",
-    "original_title": "Physicists can’t agree on how the Universe works",
-    "published": "2026-09-13T13:15:56+00:00",
-    "inserted_at": "2026-09-13T20:09:37.654381+00:00"
-  },
-  {
-    "id": "news708178334",
-    "title": "Sonda Hajabusa 2 jako první na světě změřila vzdálenost planetky laserem",
-    "summary": "Japonská vesmírná agentura JAXA dosáhla s planetární sondou Hajabusa 2 dalšího významného milníku. Během rychlého průletu kolem asteroidu Torifune, který představuje první cíl její prodloužené mise, sonda úspěšně uskutečnila vůbec první laserové dálkoměrné měření u takovéhoto tělesa. Tento technický úspěch otevírá nové možnosti nejen pro JAXA, ale i pro ostatní vesmírné agentury po celém světě. Přesné dálkoměrné metody jsou totiž klíčové pro budoucí výpravy k blízkozemním asteroidům a dalším objektům v hlubokém vesmíru, kde je precizní navigace zcela nezbytná. Proč je to zajímavé: Schopnost přesně určit vzdálenost k malým tělesům pomocí laseru výrazně zlepší navigaci budoucích sond a zpřesní výpočty drah potenciálně nebezpečných asteroidů.",
-    "url": "https://phys.org/news/2026-09-japan-hayabusa2-laser-ranging-asteroid.html",
-    "source": "RSS",
-    "original_title": "Japan's Hayabusa2 achieves first-ever laser ranging experiment with an asteroid",
-    "published": "2026-09-12T21:00:02+00:00",
-    "inserted_at": "2026-09-13T08:09:58.434368+00:00"
-  },
-  {
     "id": "news707989133",
     "title": "Kam se poděli průvodci mladých hvězd u černé díry Mléčné dráhy?",
     "summary": "Mladé hvězdy obíhající kolem supermasivní černé díry v centru Mléčné dráhy fascinují astronomy svou samotou, neboť jim chybí obvyklí hvězdní průvodci. Nová studie publikovaná v časopise Astronomy & Astrophysics však naznačuje, že jejich původ je překvapivě obyčejný. Tyto hvězdy nevznikly v extrémních podmínkách u samotné černé díry, ale zrodily se v běžných dvojhvězdách dále od galaktického centra. Teprve extrémní gravitační vliv černé díry přetvaroval jejich oběžné dráhy a spolehlivě zničil jejich hvězdné společníky.\nProč je to zajímavé: Výzkum ukazuje, že černá díra dokáže maskovat běžný původ hvězd tím, že destruktivně mění jejich dráhy a likviduje jejich průvodce, aniž by k tomu byly potřeba nové teoretické modely.",
@@ -5843,16 +5878,6 @@
     "source": "RSS",
     "original_title": "Why are the stars around our galaxy's black hole missing their companions?",
     "published": "2026-09-12T12:40:01+00:00",
-    "inserted_at": "2026-09-13T08:09:58.434368+00:00"
-  },
-  {
-    "id": "news708097543",
-    "title": "Observatoř Věry Rubinové nahlíží do slavného vesmírného pole COSMOS",
-    "summary": "Jedním z nejslavnějších výseků oblohy je pole COSMOS v souhvězdí Sextantu, které astronomům dlouhodobě slouží jako klíčové okno do minulosti vesmíru. V letech 2003 až 2005 tuto oblast detailně nasnímal Hubbleův vesmírný dalekohled. Propojením jeho snímků s daty z dalších pozemních i oběžných teleskopů vznikla unikátní mozaika zachycující vývoj galaxií v průběhu miliard let. Nyní na tento ikonický výzkum navazuje nová Observatoř Věry Rubinové, která pole COSMOS podrobí ještě hlubšímu průzkumu. Proč je to zajímavé: Opakované pozorování stejného úseku oblohy novou generací výjimečně citlivých přístrojů nám umožní sledovat vývoj vesmírných struktur a temné hmoty s dosud nebývalou přesností.",
-    "url": "https://phys.org/news/2026-09-rubin-observatory-peers-deep-famous.html",
-    "source": "RSS",
-    "original_title": "Rubin observatory peers deep into the famous COSMOS field",
-    "published": "2026-09-12T12:00:08+00:00",
     "inserted_at": "2026-09-13T08:09:58.434368+00:00"
   },
   {

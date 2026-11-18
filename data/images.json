@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-18",
+    "title": "Středně silná sluneční erupce",
+    "caption": "Dnešní snímek pořízený přes filtr H-alfa zachycuje sluneční chromosféru během erupce ze 14. května 2025. Sluneční erupce vznikají, když se spletitá magnetická pole zkroutí a přetrhnou, čímž uvolní energii v podobě světla a energetických částic. Tato erupce byla podle pozorování družice GOES klasifikována jako třída M1, což představuje středně silnou erupci v rentgenovém oboru.",
+    "thumb": "assets/gallery/apod-2026-11-18.jpg",
+    "image": "assets/gallery/apod-2026-11-18.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
+    "published": "2026-11-18",
+    "credit": "Mario Cogo",
+    "creator": {
+      "@type": "Person",
+      "name": "Mario Cogo"
+    },
+    "copyrightNotice": "Mario Cogo",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
+    "original_title": "A Medium-Sized Solar Flare",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-18T08:32:24.785586+00:00"
+  },
+  {
     "id": "apod-2026-11-17",
     "title": "Mléčná dráha versus polární záře",
     "caption": "Bojují snad tyto dva obří oblouky o nadvládu nad oblohou? Levý oblouk tvoří vzdálený pás Mléčné dráhy starší než Země, zatímco pravý představuje polární záři v zemské atmosféře vyvolanou energetickými částicemi ze Slunce. V pozadí za polární září lze spatřit Velký vůz a v ještě větší vzdálenosti i galaxii v Andromedě.",
