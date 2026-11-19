@@ -4850,8 +4850,8 @@
     "subtopics": [
       "general"
     ],
-    "alt": "Horizont událostí černé díry – vlastní kvalitativní schéma",
-    "caption": "Horizont událostí černé díry: vlastní kvalitativní schéma, nikoli pozorování ani numerická simulace.",
+    "alt": "Dvě schematické dráhy světla u nerotující černé díry. Jeden paprsek horizont překročí, druhý jej mine a pokračuje dál.",
+    "caption": "Dvě schematické dráhy světla u nerotující černé díry. Jeden paprsek horizont překročí, druhý jej mine a pokračuje dál.",
     "credit": "Kosmologické novinky",
     "credit_links": [],
     "source": "https://kosmonovinky.cz/",
@@ -4859,17 +4859,17 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
-    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "rights_note": "Vlastní programově vykreslené schéma pod licencí CC BY 4.0. Zdrojový obrázek je uložen v repozitáři.",
     "verified_on": "2026-10-20",
-    "revision": 3,
+    "revision": 4,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
     "thumbnail_modifications": "zmenšení bez výřezu",
     "thumbnail": "assets/article-images/thumbs/schema-cerne-diry-horizon.webp",
     "source_master": "assets/article-images/sources/schema-cerne-diry-horizon.jpg",
-    "source_pixel_sha256": "c1f2fc4c4935a57138cecd97ec0cf302dab3f8669dd1366baf4aa7f08b97a981",
-    "source_master_sha256": "b347e855a5ef9ba184ac20cddb61d38f5075a7fa1ffc641454b3669350d02349",
+    "source_pixel_sha256": "a8d321faf89e0d47c2590c1af549fd6e9537a16dae0974d5a7fe2c3f61a96cf4",
+    "source_master_sha256": "d166e3477307a6a671614f480adf4aed896440a2a815d81a9fb52b687e814a35",
     "source_family": "own-diagram:horizon",
     "creator": {
       "@type": "Organization",
@@ -4877,7 +4877,9 @@
       "url": "https://kosmonovinky.cz/"
     },
     "copyrightNotice": "Kosmologické novinky",
-    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 1200,
+    "height": 630
   },
   {
     "id": "schema-cerne-diry-collapse",
@@ -4889,8 +4891,8 @@
     "subtopics": [
       "general"
     ],
-    "alt": "Vznik hvězdné černé díry – vlastní kvalitativní schéma",
-    "caption": "Vznik hvězdné černé díry: vlastní kvalitativní schéma, nikoli pozorování ani numerická simulace.",
+    "alt": "Jedna z cest ke vzniku hvězdné černé díry začíná kolapsem jádra hmotné hvězdy. Rozměry jsou ilustrační.",
+    "caption": "Jedna z cest ke vzniku hvězdné černé díry začíná kolapsem jádra hmotné hvězdy. Rozměry jsou ilustrační.",
     "credit": "Kosmologické novinky",
     "credit_links": [],
     "source": "https://kosmonovinky.cz/",
@@ -4898,17 +4900,17 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
-    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "rights_note": "Vlastní programově vykreslené schéma pod licencí CC BY 4.0. Zdrojový obrázek je uložen v repozitáři.",
     "verified_on": "2026-10-20",
-    "revision": 3,
+    "revision": 4,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
     "thumbnail_modifications": "zmenšení bez výřezu",
     "thumbnail": "assets/article-images/thumbs/schema-cerne-diry-collapse.webp",
     "source_master": "assets/article-images/sources/schema-cerne-diry-collapse.jpg",
-    "source_pixel_sha256": "d860f96171af8e410756b1347b63a40afffe1a3e891e54e8d4f96c790cd8194e",
-    "source_master_sha256": "8de02247d637fd53e10abce88ff4f5103d7a07b962790018326595aa7879aaa1",
+    "source_pixel_sha256": "3457fecbb0e713d5bfc5e0dc987956a4ab9113659c0887eeaea9777823d1cc71",
+    "source_master_sha256": "f4cf90b7a231ff6ae7da9da6870354efd44a8dea762cef8387212f846dc150e3",
     "source_family": "own-diagram:collapse",
     "creator": {
       "@type": "Organization",
@@ -4916,7 +4918,9 @@
       "url": "https://kosmonovinky.cz/"
     },
     "copyrightNotice": "Kosmologické novinky",
-    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 1200,
+    "height": 630
   },
   {
     "id": "schema-temna-hmota-electron-recoil",
@@ -6109,9 +6113,9 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
-    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "rights_note": "Vlastní programově vykreslené schéma pod licencí CC BY 4.0. Zdrojový obrázek je uložen v repozitáři.",
     "verified_on": "2026-10-25",
-    "revision": 1,
+    "revision": 2,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -6124,8 +6128,8 @@
     "diagram": "edu-stellar-orbit",
     "source_id": "own-diagram:edu-stellar-orbit",
     "source_family": "own-diagram:edu-stellar-orbit",
-    "alt": "Co prozradí oběžná dráha hvězdy – vlastní vysvětlující schéma",
-    "caption": "Idealizovaná hvězdná dráha se společným ohniskem a několik příkladových poloh. Z fyzické velikosti dráhy a doby oběhu lze odhadnout dominantní centrální hmotnost. Nejde o skutečná data hvězdy S2; prostorová projekce a další relativistické efekty jsou vynechány.",
+    "alt": "Idealizovaná dráha hvězdy kolem dominantního tělesa v ohnisku elipsy. Velikost dráhy a doba oběhu umožňují odhadnout jeho hmotnost. Body nejsou měřením hvězdy S2.",
+    "caption": "Idealizovaná dráha hvězdy kolem dominantního tělesa v ohnisku elipsy. Velikost dráhy a doba oběhu umožňují odhadnout jeho hmotnost. Body nejsou měřením hvězdy S2.",
     "thumbnail": "assets/article-images/thumbs/schema-hvezda-centralni-hmotnost.webp",
     "source_master": "assets/article-images/sources/schema-hvezda-centralni-hmotnost.jpg",
     "match_keywords": [],
@@ -6139,7 +6143,11 @@
       "url": "https://kosmonovinky.cz/"
     },
     "copyrightNotice": "Kosmologické novinky",
-    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "source_master_sha256": "7bba5672c2e3e0cd6c99a356c4827a13d0ac29ef28e5d0149893553b987d2605",
+    "source_pixel_sha256": "076aec65b54390e1cefd300b6f5eb7b5540f994da51952094cff0c933fa50b82",
+    "width": 1200,
+    "height": 630
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -10595,5 +10603,45 @@
     },
     "copyrightNotice": "Kosmologické novinky",
     "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "schema-cerne-diry-hawking",
+    "topic": "cerne-diry",
+    "title": "Hawkingovo záření",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "general"
+    ],
+    "alt": "Schéma předpovězeného Hawkingova záření. Záření odnáší energii a černá díra ztrácí hmotnost. Hawkingovo záření skutečných černých děr dosud nebylo změřeno.",
+    "caption": "Schéma předpovězeného Hawkingova záření. Záření odnáší energii a černá díra ztrácí hmotnost. Hawkingovo záření skutečných černých děr dosud nebylo změřeno.",
+    "credit": "Kosmologické novinky",
+    "credit_links": [],
+    "source": "https://kosmonovinky.cz/",
+    "source_id": "own-diagram:hawking",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní programově vykreslené schéma pod licencí CC BY 4.0. Zdrojový obrázek je uložen v repozitáři.",
+    "verified_on": "2026-10-20",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "thumbnail": "assets/article-images/thumbs/schema-cerne-diry-hawking.webp",
+    "source_master": "assets/article-images/sources/schema-cerne-diry-hawking.jpg",
+    "source_pixel_sha256": "4ee2cef069e34bc0afa346cfaefc3dab0df93f6af3349c55cc19f5bd95470b58",
+    "source_master_sha256": "a744bbb56edb2b19cd4fbd39f1df23ee1c6af4c9ffdfcdaab15473a8b86e3ad8",
+    "source_family": "own-diagram:hawking",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 1200,
+    "height": 630
   }
 ]

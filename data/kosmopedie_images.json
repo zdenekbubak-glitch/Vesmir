@@ -422,7 +422,7 @@
   {
     "id": "kosmopedie-schema-cerne-diry-collapse",
     "title": "Vznik hvězdné černé díry",
-    "caption": "Vznik hvězdné černé díry: vlastní kvalitativní schéma, nikoli pozorování ani numerická simulace.",
+    "caption": "Jedna z cest ke vzniku hvězdné černé díry začíná kolapsem jádra hmotné hvězdy. Rozměry jsou ilustrační.",
     "image": "assets/article-images/schema-cerne-diry-collapse.jpg",
     "thumb": "assets/article-images/thumbs/schema-cerne-diry-collapse.webp",
     "source": "Kosmologické novinky",
@@ -626,7 +626,7 @@
   {
     "id": "kosmopedie-schema-hvezda-centralni-hmotnost",
     "title": "Co prozradí oběžná dráha hvězdy",
-    "caption": "Idealizovaná hvězdná dráha se společným ohniskem a několik příkladových poloh. Z fyzické velikosti dráhy a doby oběhu lze odhadnout dominantní centrální hmotnost. Nejde o skutečná data hvězdy S2; prostorová projekce a další relativistické efekty jsou vynechány.",
+    "caption": "Idealizovaná dráha hvězdy kolem dominantního tělesa v ohnisku elipsy. Velikost dráhy a doba oběhu umožňují odhadnout jeho hmotnost. Body nejsou měřením hvězdy S2.",
     "image": "assets/article-images/schema-hvezda-centralni-hmotnost.jpg",
     "thumb": "assets/article-images/thumbs/schema-hvezda-centralni-hmotnost.webp",
     "source": "Kosmologické novinky",
@@ -1622,7 +1622,7 @@
     "id": "kosmopedie-schema-cerne-diry-horizon",
     "catalog_image_id": "schema-cerne-diry-horizon",
     "title": "Horizont událostí černé díry",
-    "caption": "Horizont událostí černé díry: vlastní kvalitativní schéma, nikoli pozorování ani numerická simulace.",
+    "caption": "Dvě schematické dráhy světla u nerotující černé díry. Jeden paprsek horizont překročí, druhý jej mine a pokračuje dál.",
     "image": "assets/article-images/schema-cerne-diry-horizon.jpg",
     "thumb": "assets/article-images/thumbs/schema-cerne-diry-horizon.webp",
     "source": "Kosmologické novinky",
@@ -2349,6 +2349,30 @@
       "ALPHA",
       "spektroskopie",
       "gravitace"
+    ]
+  },
+  {
+    "id": "kosmopedie-schema-cerne-diry-hawking",
+    "catalog_image_id": "schema-cerne-diry-hawking",
+    "title": "Hawkingovo záření",
+    "caption": "Schéma předpovězeného Hawkingova záření. Záření odnáší energii a černá díra ztrácí hmotnost. Hawkingovo záření skutečných černých děr dosud nebylo změřeno.",
+    "image": "assets/article-images/schema-cerne-diry-hawking.jpg",
+    "thumb": "assets/article-images/thumbs/schema-cerne-diry-hawking.webp",
+    "source": "Kosmologické novinky",
+    "url": "https://kosmonovinky.cz/",
+    "credit": "Kosmologické novinky",
+    "published": "2026-10-20",
+    "inserted_at": "2026-10-20",
+    "lang": "cs",
+    "needs_translation": false,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "vlastní schéma",
+    "gallery_type": "schema",
+    "gallery_keywords": [
+      "černá díra",
+      "černé díry",
+      "black hole"
     ]
   }
 ]
