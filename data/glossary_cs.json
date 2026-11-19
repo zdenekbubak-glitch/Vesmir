@@ -174,5 +174,12 @@
     "preferred": "víceposlovská pozorování",
     "note": "Při prvním použití vysvětlit, jaké druhy signálů vědci v daném výzkumu kombinují, například elektromagnetické záření a neutrina.",
     "status": "approved"
+  },
+  {
+    "term": "radio-loud AGN",
+    "preferred": "rádiově hlučná aktivní galaktická jádra",
+    "variants": [],
+    "note": "Schváleno v GitHub Issues.",
+    "status": "approved"
   }
 ]
