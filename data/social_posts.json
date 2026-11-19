@@ -1079,8 +1079,22 @@
     "key": "bluesky_daily_089e3699fe7f6a61be3e",
     "title": "Softwarový balík Redrock přesně určuje rudý posuv pro projekt DESI",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n2mrbki222ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/clanky/softwarovy-balik-redrock-presne-urcuje-rudy-posuv-pro-projekt-desi-2611236361.html",
-    "recorded_at": "2026-11-19T08:32:54.571119+00:00"
+    "recorded_at": "2026-11-19T08:32:54.571119+00:00",
+    "last_check_attempt_at": "2026-11-19T09:01:20.743679+00:00",
+    "publication_checked_at": "2026-11-19T09:01:20.743679+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_367a91cefa88c5ef92a6",
+    "title": "Hvězdné kolize na úsvitu vesmíru: Opakovaným splýváním mohly vznikat gigantické hvězdy i supermasivní černé díry https://t.co/a9kkuwr9zY https://t.co/2lEDrsfPNK",
+    "platform_id": "6afebadfbad67efd5ad85d72",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-19T09:01:20.922249+00:00"
   }
 ]
