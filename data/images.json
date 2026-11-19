@@ -1,5 +1,25 @@
 [
   {
+    "id": "apod-2026-11-19",
+    "title": "Mlhoviny Koňská hlava a Plamen",
+    "caption": "Dnešní snímek připomínající obraz zachycuje jasnou modrou hvězdu Alnitak z Orionova pásu i ikonickou temnou mlhovinu Koňská hlava, vzdálenou přibližně 1 500 světelných let. Siluetu hlavy koně tvoří prach a plyn stínící červeně zářící vodík, zatímco vlevo se rozprostírá oranžová mlhovina Plamen s temnými vlákny. Blíže ke Koňské hlavě se nachází modrá reflexní mlhovina NGC 2023, v níž aktivně vznikají nové hvězdy.",
+    "thumb": "assets/gallery/apod-2026-11-19.jpg",
+    "image": "assets/gallery/apod-2026-11-19.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+    "published": "2026-11-19",
+    "credit": "Mark E. Killion",
+    "creator": {
+      "@type": "Person",
+      "name": "Mark E. Killion"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+    "original_title": "The Horsehead and Flame Nebulas",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-19T08:30:48.195951+00:00"
+  },
+  {
     "id": "apod-2026-11-18",
     "title": "Středně silná sluneční erupce",
     "caption": "Dnešní snímek pořízený přes filtr H-alfa zachycuje sluneční chromosféru během erupce ze 14. května 2025. Sluneční erupce vznikají, když se spletitá magnetická pole zkroutí a přetrhnou, čímž uvolní energii v podobě světla a energetických částic. Tato erupce byla podle pozorování družice GOES klasifikována jako třída M1, což představuje středně silnou erupci v rentgenovém oboru.",

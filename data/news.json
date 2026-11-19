@@ -1,5 +1,90 @@
 [
   {
+    "id": "2611.23636v1",
+    "title": "Softwarový balík Redrock přesně určuje rudý posuv pro projekt DESI",
+    "summary": "Výzkumníci představili algoritmické detaily a zhodnotili výkon softwarového balíčku Redrock. Tento program slouží ke spektroskopické klasifikaci vesmírných objektů a výpočtu jejich rudého posuvu, což je posun spektrálních čar vlnových délek světla způsobený vzdalováním galaxií v rozpínajícím se vesmíru. Nástroj byl vyvinut pro přístroj DESI (Dark Energy Spectroscopic Instrument), ještě před ním ho však jako hlavní nástroj pro určování vzdáleností galaxií využila přehlídka eBOSS (Extended Baryon Oscillation Spectroscopic Survey).\n\nRedrock plně využívá kalibrovaná spektra, nekorelované chyby i matici rozlišení pro jednotlivá spektra. Tato matice popisuje závislost vlastností spektrálních čar na vlnové délce a zahrnuje jejich negaussovskost, tedy odchylku profilu čáry od klasického gaussovského rozdělení pravděpodobnosti. Na datech z druhé edice pozorování DESI DR2 dosáhl Redrock úspěšnosti určování rudého posuvu přibližně 98 % u jasných a svítivých červených galaxií, 95,9 % u galaxií s emisními čarami a 92,6 % u kvazarů, což jsou extrémně jasná jádra vzdálených galaxií. Nástroj navíc poskytuje měření radiálních rychlostí hvězd bez systematického zkreslení s přesností okolo 5 km/s.\n\nProč je to zajímavé: Redrock umožňuje automaticky a s vysokou spolehlivostí zpracovávat obrovské množství spektrálních dat z přehlídek oblohy, což je klíčové pro přesné mapování struktury a rozpínání vesmíru.",
+    "url": "http://arxiv.org/abs/2611.23636v1",
+    "source": "arXiv",
+    "original_title": "Redrock: Spectroscopic Classification and Redshift Fitting for the Dark Energy Spectroscopic Instrument",
+    "published": "2026-11-17T23:58:54+00:00",
+    "inserted_at": "2026-11-19T08:27:55.635172+00:00",
+    "lang": "cs",
+    "needs_translation": false,
+    "daily_card_selected": true
+  },
+  {
+    "id": "2611.24281v1",
+    "title": "Jak více pásem gravitačních vln rozluští vznik supermasivních černých děr",
+    "summary": "Výzkum zkoumá, do jaké míry lze pomocí pozorování gravitačních vln napříč různými frekvenčními pásmy rekonstruovat rozložení hmotnosti a rudého posuvu u splývajících zárodků supermasivních černých děr. Vědci simulovali populace splývání černých děr podle různých astrofyzikálních modelů a zjišťovali, které z nich by dokázaly zachytit plánované detektory.\n\nDo simulací zahrnuli vesmírný detektor LISA působící v milihertzovém pásmu, detektor LGWA v decihertzovém pásmu a pozemní detektory příští generace v pásmu akustických frekvencí. K rekonstrukci rozložení hmotnosti a rudého posuvu – tedy parametru určujícího vzdálenost a stáří objektu na základě posuvu vlnové délky vlivem rozpínání časoprostoru – použili neparametrický inferenční kód FIGARO, což je počítačový nástroj pro statistický odhad vlastností populace bez předem stanoveného tvaru rozložení.\n\nPorovnání modelů ukázalo výrazný rozdíl v přínosu více pásem. U modelů s lehkými počátečními zárodky černých děr, jejichž populace splývání pokrývají široké rozsahy hmotností i rudého posuvu, kombinace dat z různých frekvenčních pásem rekonstrukci zásadně zpřesňuje. Naopak u modelů s těžkými zárodky dokáže většinu dostupné populace zachytit samotný detektor LISA a propojení do vícepásmové sítě přináší jen malé zlepšení.\n\nProč je to zajímavé: Výsledek ukazujeme, jaká kombinace gravitačních detektorů bude potřeba k odhalení rané historie a mechanismů vzniku nejhmotnějších černých děr ve vesmíru.",
+    "url": "http://arxiv.org/abs/2611.24281v1",
+    "source": "arXiv",
+    "original_title": "Reconstructing the mass-redshift distribution of supermassive black holes using multiband gravitational-wave observations",
+    "published": "2026-11-18T11:56:57+00:00",
+    "inserted_at": "2026-11-19T08:27:55.635172+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.22887v1",
+    "title": "Vesmírný dalekohled Euclid sledoval vývoj rádiově hlasitých galaxií",
+    "summary": "Vědci poprvé prozkoumali vztah mezi výskytem rádiově hlasitých aktivních galaktických jader a hvězdnou hmotností mateřských galaxií až do rudého posuvu z = 3,0. Rádiově hlasitá aktivní galaktická jádra (RLAGN) představují supermasivní černé díry v centrech galaxií emitující silné rádiové záření. Rudý posuv z udává míru vzdálenosti a pohledu do minulosti vesmíru v důsledku jeho rozpínání. Výzkum využil data z vesmírného dalekohledu Euclid a rádiové sítě LOFAR (LOw Frequency ARray) v oblasti Severního hlubokého pole Euclid (Euclid Deep Field North) a získal vzorek 3 154 objektů RLAGN, z nichž 2 803 tvoří nízkobuzené rádiové galaxie (LERG) s nižší energetickou excitací okolního plynu.\n\nAutoři zjistili, že výskyt LERG úzce koreluje s hvězdnou hmotností v rozsahu více než dvou řádů. Sklon mocninné relace klesá z γ ≈ 2,5 v lokálním vesmíru na γ ≈ 1,0 při z = 3,0, což ukazuje na relativní nárůst méně hmotných LERG v ranějších epochách. U neaktivních galaxií bez tvorby hvězd je tento vztah strmější (γ ≈ 2,5) než u galaxií s aktivní tvorbou hvězd (γ ≈ 1,5), avšak při z ≥ 2 vykazují obě populace podobně plochý sklon s γ ≈ 1,0. Výsledky naznačují evoluční přechod od akrece chladného plynu při srážkách galaxií v raném vesmíru k mechanismu v lokálním vesmíru, kdy aktivita jádra vyžaduje přítomnost masivního horkého hala.\n\nProč je to zajímavé: Výzkum přináší první ucelený pohled na to, jak se v průběhu miliard let proměňoval způsob krmení supermasivních černých děr a jejich role v evoluci galaxií.",
+    "url": "http://arxiv.org/abs/2611.22887v1",
+    "source": "arXiv",
+    "original_title": "Euclid: Quick Data Release (Q1) -- The evolution of the radio-loud AGN fraction-stellar mass relation to $z\\sim3$ in the Euclid Deep Field North",
+    "published": "2026-11-17T14:57:53+00:00",
+    "inserted_at": "2026-11-19T08:27:55.635172+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.24387v1",
+    "title": "Lokální „malá červená tečka“ J1047 zpochybňuje model ionizovaného obalu",
+    "summary": "Astronomové zkoumali rádiové záření a spektrum vodíku Hα u takzvané „malé červené tečky“ J1047 v blízkém vesmíru. Tyto velmi kompaktní a červené objekty, v odborné literatuře označované jako LRD (z anglického Little Red Dots), podle autorů studie ukrývají aktivní galaktické jádro (AGN), tedy svítivou oblast v centru galaxie napájenou pohlcováním hmoty černou dírou. Autoři zjistili, že pozorovaná rádiová svítivost objektu J1047 pochází právě z aktivního jádra zakrytého hustým neutrálním plynem.\n\nVýzkum zároveň zpochybňuje hypotézu ionizovaného obalu. Podle této hypotézy měl exponenciální tvar spektrální čáry Hα vznikat rozptylem fotonů na volných elektronech v plynném obalu. U objektu J1047 by však takové prostředí s hustotou elektronů Ntext = 2,4 × 10²⁴ cm⁻² vyvolalo extrémně silnou free-free absorpci (absorpci vznikající při interakcích volných elektronů s ionty, s optickou hloubkou τ na frekvenci 5 GHz dosahující přibližně 10⁶), která by rádiové záření zcela potlačila. To je v rozporu s tím, že teleskopy rádiový signál zachytily. Samotný model super-Eddingtonovy akrece (pohlcování hmoty černou dírou vyšší rychlostí, než je běžný teoretický limit) podhodnocuje rádiový výkon přibližně třicetkrát, ačkoli jeho kombinace se stíněním plynem zůstává možná. Autoři proto navrhují, že profil spektrální čáry spíše odráží rozvrstvenou oblast širokých čar obklopující černou dírou. Jako méně pravděpodobné varianty výzkum uvádí unikání rádiového záření skrz částečně zakryté prostředí nebo jeho vznik až vně rozptylujícího obalu.\n\nProč je to zajímavé: Výsledek zpochybňuje obecnou platnost modelu elektronového rozptylu u objektů LRD, což může mít zásadní dopad na dosavadní odhady hmotností supermasivních černých děr i u vzdálených objektů s vysokým rudým posuvem.",
+    "url": "http://arxiv.org/abs/2611.24387v1",
+    "source": "arXiv",
+    "original_title": "Radio emission from a local Little Red Dot: a challenge to the ionized cocoon scenario",
+    "published": "2026-11-18T13:17:00+00:00",
+    "inserted_at": "2026-11-19T08:27:55.635172+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.23978v1",
+    "title": "Geoneutrina se podle dat z detektorů viditelně nerozpadají",
+    "summary": "Fyzikové zkoumali hypotézu rozpadu neutrin za použití geoneutrin — elektronových antineutrin vznikajících radioaktivním rozpadem uranu a thoria uvnitř zemského tělesa. Pokud by se neutrina (lehké fundamentální částice) během letu k detektoru rozpadala, jejich tok by zeslábl, a to nejvíce u nízkých energií v řádu několika MeV, kde dilatace času prodlužuje jejich dobu života nejméně. Výzkumníci se zaměřili na takzvaný viditelný rozpad, při kterém jsou v detektorech zachytitelná i samotná dceřiná neutrina vzniklá rozpadem.\n\nTým spočítal očekávaný signál pro detektory Borexino, KamLAND, SNO+ a JUNO a porovnal jej s publikovanými naměřenými daty. Analýza neukázala žádný důkaz rozpadu, který by platil napříč různými geologickými modely Země. Sloučením dat ze všech čtyř experimentů autoři stanovili první pozemské limity pro rozpad neutrinového stavu ν₁ na ν₃ v invertovaném uspořádání hmotností neutrin (specifickém teoretickém schématu hmotností jednotlivých typů neutrin).\n\nPokud se radiogenní výkon Země (tepelný výkon uvolňovaný radioaktivním rozpadem prvků v nitru) ponechá jako volný parametr, je limit stanoven na τ₁/m₁ > 3,7 × 10⁻⁹ s eV⁻¹, přičemž reaktorová antineutrina zachycená stejnými detektory mají stejnou váhu jako geoneutrina. Při započtení konkrétních zemských modelů určují limit samotná geoneutrina v rozmezí τ₁/m₁ > 4,4 × 10⁻⁹ až 1,6 × 10⁻⁸ s eV⁻¹ na 90% hladině spolehlivosti.\n\nProč je to zajímavé: Výzkum přináší vůbec první pozemská omezení pro viditelný rozpad neutrinového stavu ν₁, čímž zužuje teoretický prostor pro hypotézy o nestabilitě neutrin.",
+    "url": "http://arxiv.org/abs/2611.23978v1",
+    "source": "arXiv",
+    "original_title": "Geoneutrinos (and reactor neutrinos) do not visibly decay",
+    "published": "2026-11-18T07:17:18+00:00",
+    "inserted_at": "2026-11-19T08:27:55.635172+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.23371v1",
+    "title": "Nová fyzika, nebo černé díry? Model binaryfog zpřesňuje data z pulsarů",
+    "summary": "Výzkum zkoumá původ nízkofrekvenčního pozadí gravitačních vln, tedy vlnění časoprostoru na nanohertzových frekvencích, které zaznamenaly sítě pro měření časování pulsarů (PTA, z angl. Pulsar Timing Arrays – astronomické systémy využívající extrémně přesný rytmus rotujících neutronových hvězd). Autoři navrhli nový výpočetní model binaryfog, který přibližně milionkrát rychleji než přímé výpočty simuluje spektra signálů z obíhajících binárních supermasivních černých děr a porovnává je s hypotézami nové fyziky z raného vesmíru.\n\nDíky nástroji binaryfog vědci zahrnuli šest astrofyzikálních parametrů reálných populací černých děr. Ukázalo se, že oproti dosud používanému zjednodušenému mocninnému popisu klesla preference pro fázový přechod v temném sektoru (schválené označení pro hypotetickou oblast vesmíru tvořenou neznámými částicemi a silami) z původních 2,8 σ na pouhých 1,5 σ. Podobný pokles vykazují i kosmické superstruny, inflační gravitační vlny či doménové stěny. Aktualizované astronomické předpoklady z přehlídek galaxií dávají pro fázový přechod stále jen slabou preferenci 1,7 σ. Pokud je naměřený signál způsoben výhradně binárními černými dírami, musejí tyto dvojice splynout do přibližně 2 miliard let od splynutí mateřských galaxií. Pokud by splynutí trvalo déle než 6,5 miliardy let, preference pro novou fyziku opět přesáhne 3 σ.\n\nProč je to zajímavé: Výzkum ukazuje, že po započtení realistického chování známých černých děr výrazně klesá potřeba vysvětlovat pozorované gravitační vlny pomocí exotických procesů z počátku vesmíru.",
+    "url": "http://arxiv.org/abs/2611.23371v1",
+    "source": "arXiv",
+    "original_title": "Seeing through the fog: astrophysical priors and the evidence for new physics in pulsar timing arrays",
+    "published": "2026-11-17T19:00:01+00:00",
+    "inserted_at": "2026-11-19T08:27:55.635172+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.23373v1",
+    "title": "Proč nadzvukové anomální jevy nevydávají třesk? Pomoci může temná hmota",
+    "summary": "Nová studie zkoumá neidentifikované anomální jevy (UAP, z anglického Unidentified Anomalous Phenomena), tedy neobjasněná pozorování v atmosféře vykazující vysokou rychlost či extrémní zrychlení. Autoři teoreticky vysvětlují, proč tyto nadzvukové jevy nedoprovází akustický třesk a nezanechávají po sobě hmotné zbytky. Navrhují, že za nimi stojí takzvané axionové kvarkové nuggety (AQN, z anglického Axion Quark Nuggets) – hypotetické objekty tvořené kvarky či antikvarky a gluony ztemnělé v axionové obálce, které představují možného kandidáta na temnou hmotu (neviditelnou formu hmoty tvořící většinu hmotnosti vesmíru).\n\nModel AQN byl původně navržen k vysvětlení pozorované shody v zastoupení temné a viditelné hmoty ve vesmíru (vyjádřené vztahující se hustotou Ωₘ ~ Ωᵥ). Autoři v práci se stejnými parametry ukazují, že specifická třída UAP představuje stejný fyzikální jev jako kulové blesky, nebeská otřesy či tajemné přechodné jevy. Podle hypotézy jde o různé projevy Průchodu částic AQN atmosférou, přičemž zdrojem jejich energie je antikvarkové jádro těchto objektů. Vědci zároveň formulovali doporučení pro typy přístrojů potřebné k jejich přímému studiu.\n\nProč je to zajímavé: Hypotéza spojuje dosud nevysvětlené atmosférické úkazy s řešením základní kosmologické záhady temné hmoty a nabízí konkrétní fyzikální způsob, jak tyto jevy přístrojově ověřit.",
+    "url": "http://arxiv.org/abs/2611.23373v1",
+    "source": "arXiv",
+    "original_title": "Why supersonic UAP events are not accompanied by acoustic booms?",
+    "published": "2026-11-17T19:00:01+00:00",
+    "inserted_at": "2026-11-19T08:27:55.635172+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2611.21052v1",
     "title": "Pátrání po temné hmotě: Současnost a budoucnost přímé detekce částic",
     "summary": "Nová přehledová studie se zaměřuje na přímou detekci částic temné hmoty – neviditelné formy hmoty, která tvoří většinu hmoty ve vesmíru a projevuje se především gravitačně – pocházejících z hala temné hmoty (oblasti obklopující naši Galaxii, v níž se soustřeďuje její hmota). Autoři shrnují teoretické modely i výsledky měření zveřejněné od roku 2020. I přes výrazné zvýšení citlivosti detektorů však vědci dosud nepřinesli žádný průkazný záchyt hledaných částic.\n\nPřehled rozebírá různé detekční techniky, jako je jaderný či elektronový odraz nebo absorbce částic, a srovnává jejich přednosti i omezení. Vědci poukazují na připravované experimenty, od obřích detektorů s kapalnými vzácnými plyny po zařízení s velmi nízkým energetickým prahem zaměřená na lehkou temnou hmotu s hmotností pod 1 GeV (gigaelektronvolt, jednotka hmotnosti a energie částic). Klíčovou výzvou nadcházející generace přístrojů bude rozlišení rušivých signálů a zvládnutí neutrinového pozadí, tedy nechtěných interakcí běžných neutrin, která mohou napodobit hledaný signál.\n\nK odhalení podstaty temné hmoty bude podle autorů i nadále zásadní rozmanitost a vzájemné doplňování různých detekčních přístupů.\n\nProč je to zajímavé: Přehled ukazuje, proč je při pátrání po částicích temné hmoty důležité kombinovat různé detekční metody. Jejich vzájemné doplňování pomáhá odlišit případný signál temné hmoty od rušivých vlivů, včetně signálů vyvolaných neutriny.",
@@ -5799,66 +5884,6 @@
     "original_title": "Revisiting primordial black hole dark matter from axion inflation",
     "published": "2026-09-14T04:00:00+00:00",
     "inserted_at": "2026-09-14T07:52:38.629709+00:00"
-  },
-  {
-    "id": "2606.10483",
-    "title": "Kupa galaxií Ďas: Jak gigantická srážka přetváří vesmír",
-    "summary": "Srážky galaktických kup představují ideální přírodní laboratoř pro studium vývoje velkorozměrové struktury vesmíru. Astronomové se v nové studii zaměřili na masivní a složitou kupu MACS0600, přezdívanou Ďas. Pomocí kombinace rentgenových dat z teleskopů XMM-Newton a Chandra, rádiových pozorování ze sítě MeerKAT a optických snímků detailně prozkoumali dynamiku jejího splynutí. Výsledky ukazují výrazně narušenou strukturu mezigalaktického plynu a nepřekrývající se oblasti rádiového a rentgenového záření. V místě nejintenzivnějšího rentgenového jasu se nachází kompaktní chladné jádro obklopené žhavým plynem, což značí přítomnost takzvané studené fronty. Proč je to zajímavé: Tento výzkum pomáhá překonat optická zkreslení a přináší klíčové poznatky o tom, jak vznikají největší struktury ve vesmíru a jak se při srážkách chová temná hmota.",
-    "url": "https://arxiv.org/abs/2606.10483",
-    "source": "arXiv",
-    "original_title": "The dynamics of the Anglerfish cluster",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
-  },
-  {
-    "id": "2607.09199",
-    "title": "Supernovy typu Ia: Přesnost měření vesmíru závisí na věku jejich okolí",
-    "summary": "Supernovy typu Ia slouží v kosmologii jako standardní svíčky pro určování vzdáleností ve vesmíru. S nastupující generací přehlídek oblohy však přesnost měření naráží na systematické chyby spojené s vlastnostmi mateřských galaxií. Nová studie analyzovala 56 supernov a zaměřila se na věk hvězdné populace v jejich bezprostředním okolí do vzdálenosti jednoho kiloparsecu. Ukázalo se, že supernovy v mladším prostředí jsou po kalibraci výrazně slabší než ve starším. Lokální věk hvězd je pro svítivost supernov určujícíjším faktorem než celková hmotnost galaxie. Proč je to zajímavé: Zahrnutí věku hvězdného okolí do kalibrace supernov výrazně sníží systematické chyby a umožní přesnější měření temné energie i rozpínání vesmíru.",
-    "url": "https://arxiv.org/abs/2607.09199",
-    "source": "arXiv",
-    "original_title": "Environmental dependence of Type Ia supernova standardization on the local luminosity-weighted age",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
-  },
-  {
-    "id": "2609.12038",
-    "title": "Jak vnitřní orientace galaxií zkresluje testy modifikované gravitace?",
-    "summary": "Gravitační čočkování je klíčovým nástrojem pro výzkum temné energie a testování alternativních teorií gravitace. Pokročilé metody zkoumající např. strukturu prázdnot či shluky galaxií nabízejí přesnější výsledky než běžné statistiky. Tato studie se zaměřuje na efekt, kdy vnitřní orientace galaxií podléhá okolnímu prostředí, což může výsledná pozorování zkreslit. Pomocí simulací vědci ukázali, jak tento sekundární signál ovlivňuje testy modifikované gravitace u připravovaných velkých přehlídek oblohy. Proč je to zajímavé: Započtení tohoto zkreslení je klíčové pro spolehlivé odhalení, zda ve vesmíru platí Einsteinova teorie relativity, nebo její exotické alternativy.",
-    "url": "https://arxiv.org/abs/2609.12038",
-    "source": "arXiv",
-    "original_title": "Impact of galaxy intrinsic alignments on non-Gaussian weak lensing statistics for modified gravity",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
-  },
-  {
-    "id": "2609.12053",
-    "title": "Světlé a temné sirény: Klíč k tajemství rozpínání vesmíru",
-    "summary": "Standardní sirény, tedy detekce gravitačních vln z kolizí kompaktních objektů, představují klíčový nástroj pro měření rozpínání vesmíru. Dělí se na „světlé“ (se světelným doprovodem) a „temné“ (bez něj). Odhady četnosti splynutí neutronových hvězd se po nedávných pozorováních snížily, což vyvolalo obavy o přesnost kosmologických měření. Nová studie však ukazuje, že i malý počet světlých sirén hraje zásadní roli: rozbíjí statistickou provázanost mezi Hubbleovou konstantou a hustotou hmoty. Temné sirény zase mohou fungovat samostatně v kombinaci s vnějšími kosmologickými daty. Proč je to zajímavé: Výzkum ukazuje, že k vyřešení fundamentální záhady rychlosti rozpínání vesmíru nám postačí i poměrně malý počet vzácných astrofyzikálních událostí.",
-    "url": "https://arxiv.org/abs/2609.12053",
-    "source": "arXiv",
-    "original_title": "Reconsidering the role of bright and dark gravitational-wave standard sirens for cosmology",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
-  },
-  {
-    "id": "2609.12158",
-    "title": "Jak rozplést překrývající se galaxie na nejhlubších snímcích vesmíru?",
-    "summary": "Nadcházející gigantické přehlídky oblohy, jako je projekt LSST Observatoře Very C. Rubinové, nahlédnou do vesmíru hlouběji než kdy dříve. Extrémní citlivost však přináší problém: snímky vzdálených galaxií se vzájemně překrývají a splývají, což zkresluje měření jejich vlastností. Vědci proto navrhli nový matematický rámec založený na takzvané „entropii splývání“, která přesně kvantifikuje míru nejistoty při identifikaci jednotlivých objektů. Na simulovaných datech ukázali, že vyřazením přibližně 25 % nejvíce překrytých galaxií lze výrazně zpřesnit výzkum gravitačních čoček a rozložení hmoty ve vesmíru. Proč je to zajímavé: Tato metoda elegantně řeší jeden z největších metodických problémů moderní astronomie a zaručuje, že obří datové přehlídky dodají nezkreslené výsledky o temné hmotě a vývoji vesmíru.",
-    "url": "https://arxiv.org/abs/2609.12158",
-    "source": "arXiv",
-    "original_title": "Probabilistic characterization of blending with LSST and application to cluster lensing cosmology",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
-  },
-  {
-    "id": "2609.12867",
-    "title": "Gravitační vlny pátrají po prvotních černých dírách z raného vesmíru",
-    "summary": "Raný vesmír mohl být divokým místem, kde z obřích hustotních výkyvů vznikaly prvotní černé díry. Tento proces za sebou zanechává i charakteristické stochastické pozadí gravitačních vln. Fyzici analyzovali dosud nejrozsáhlejší data z detektorů LIGO, Virgo a KAGRA a hledali stopy dvou modelů kosmické inflace. Ačkoli žádný signál neobjevili, stanovili dosud nejpřísnější limity pro hustotní poruchy v raném vesmíru. Tyto výsledky výrazně omezují množství prvotních černých děr, a to i v případě, že jsou extrémně vzácné nebo již zcela vyprchaly. Proč je to zajímavé: Gravitační vlny se ukazují jako klíčový nástroj k prozkoumání mikroskopického zárodku vesmíru a ověření teorií o jeho nejranějších okamžicích.",
-    "url": "https://arxiv.org/abs/2609.12867",
-    "source": "arXiv",
-    "original_title": "Probing Inflationary Origins of Primordial Black Holes with LIGO--Virgo--KAGRA O1--O4a data",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T06:55:41.204463+00:00"
   },
   {
     "id": "2609.13140",
