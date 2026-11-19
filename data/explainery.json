@@ -1228,7 +1228,7 @@
     "theme": "vesmirne-teleskopy",
     "description": "Proč některé teleskopy stojí na horách a jiné létají ve vesmíru? Rozhoduje atmosféra, druh záření i otázka, kterou chceme zkoumat.",
     "published": "2026-10-24",
-    "updated": "2026-10-25",
+    "updated": "2026-11-19",
     "perex": "Kosmický dalekohled není automaticky lepší než pozemský. Každé umístění má své výhody a omezení. Důležité je, jaké záření chceme zachytit, jak slabý objekt hledáme a jak podrobně ho potřebujeme rozlišit.",
     "sections": [
       {
@@ -1242,7 +1242,7 @@
       },
       {
         "heading": "Co umějí pozemské observatoře",
-        "body": "Na Zemi můžeme budovat velmi velká zrcadla, přístroje opravovat a měnit jejich vybavení. Adaptivní optika průběžně koriguje část zkreslení způsobeného atmosférou. Soustavy radioteleskopů zase spojují signály z více antén a dosahují jemného úhlového rozlišení.\n\nPříkladem jsou dalekohledy VLT na observatoři Paranal v Chile. Soustava ALMA na náhorní plošině Chajnantor pozoruje milimetrové a submilimetrové záření, v němž lze zkoumat například chladný plyn a prach. Pozemská astronomie tak není jen levnější náhradou kosmických misí."
+        "body": "Na Zemi můžeme budovat velmi velká zrcadla, přístroje opravovat a měnit jejich vybavení. Turbulence v atmosféře rozmazává obraz hvězdy. Systém **adaptivní optiky** měří, jak se její světlo mění při průchodu vzduchem. Podle toho průběžně upravuje tvar zvláštního zrcadla v dalekohledu, aby část zkreslení vyrovnal už během pozorování. Soustavy radioteleskopů zase spojují signály z více antén a dosahují jemného úhlového rozlišení.\n\nPříkladem jsou dalekohledy VLT na observatoři Paranal v Chile. Soustava ALMA na náhorní plošině Chajnantor pozoruje milimetrové a submilimetrové záření, v němž lze zkoumat například chladný plyn a prach. Pozemská astronomie tak není jen levnější náhradou kosmických misí."
       },
       {
         "heading": "Co získáme ve vesmíru",
@@ -1315,7 +1315,7 @@
     "theme": "vesmirne-teleskopy",
     "description": "Hubbleův dalekohled měří světlo hvězd, galaxií i atmosfér planet. Kde obíhá, čím přispěl ke kosmologii a proč ho Webb plně nenahrazuje?",
     "published": "2026-10-24",
-    "updated": "2026-10-24",
+    "updated": "2026-11-19",
     "perex": "Hubbleův vesmírný dalekohled známe hlavně díky snímkům mlhovin a vzdálených galaxií. Jeho význam ale spočívá také v přesném měření jasnosti, polohy a spektra objektů. Pomohl zpřesnit měřítko vesmíru a sledovat, jak se galaxie v čase měnily.",
     "sections": [
       {
@@ -1328,7 +1328,7 @@
       },
       {
         "heading": "Jak přispěl k měření rozpínání",
-        "body": "Jedním z důležitých úkolů byla pozorování cefeid, tedy hvězd s pravidelnými změnami jasnosti. Jejich vlastnosti pomáhají určit vzdálenosti galaxií a navázat další stupně žebříku kosmických vzdáleností. Tím Hubble přispěl k určování Hubbleovy konstanty.\n\nPodílel se také na výzkumu vzdálených supernov, důležitém pro zjištění zrychleného rozpínání vesmíru. Tento objev byl výsledkem práce více týmů a přístrojů, včetně pozemských dalekohledů. Nebylo by přesné připsat ho samotnému Hubbleovu teleskopu."
+        "body": "Hubble sledoval **cefeidy**, hvězdy s pravidelnými změnami jasnosti. Čím delší mají cyklus, tím více světla zpravidla vyzařují. Z délky cyklu tak astronomové odhadnou jejich skutečnou svítivost a porovnáním s tím, jak jasné se jeví ze Země, určí jejich vzdálenost. V galaxiích s cefeidami i supernovami typu Ia pak mohou zpřesnit svítivost těchto supernov. Ty jim umožňují měřit vzdálenosti ještě vzdálenějších galaxií. Tomuto navazování metod říkáme **vzdálenostní žebřík**. Tím Hubble přispěl k určování Hubbleovy konstanty.\n\nPodílel se také na výzkumu vzdálených supernov, důležitém pro zjištění zrychleného rozpínání vesmíru. Tento objev byl výsledkem práce více týmů a přístrojů, včetně pozemských dalekohledů. Nebylo by přesné připsat ho samotnému Hubbleovu teleskopu."
       },
       {
         "heading": "Co ukázaly hluboké snímky",
@@ -1356,12 +1356,12 @@
     "theme": "vesmirne-teleskopy",
     "description": "Webb zkoumá rané galaxie, prachová mračna i atmosféry exoplanet. Proč pozoruje v infračerveném oboru a co z jeho výsledků můžeme vyčíst?",
     "published": "2026-10-24",
-    "updated": "2026-10-25",
+    "updated": "2026-11-19",
     "perex": "Webbův dalekohled sleduje vesmír především v infračerveném záření. Zachycuje světlo dávných galaxií i slabé stopy molekul v atmosférách planet. Není ale přístrojem, který by jediným snímkem rozhodl všechny otázky o vzniku kosmu nebo o životě mimo Zemi.",
     "sections": [
       {
         "heading": "Kde Webb pracuje",
-        "body": "James Webb Space Telescope, zkráceně **JWST**, je projekt NASA, ESA a Kanadské kosmické agentury. Odstartoval 25. prosince 2021. Jeho hlavní zrcadlo má přibližně **6,5 metru** a skládá se z 18 segmentů.\n\nNa rozdíl od Hubbleova dalekohledu neobíhá těsně kolem Země. Pohybuje se kolem Slunce v okolí druhého libračního bodu soustavy Slunce–Země, označovaného L2, přibližně 1,5 milionu kilometrů od Země. Není nehybně zaparkovaný přímo v tomto bodě.",
+        "body": "James Webb Space Telescope, zkráceně **JWST**, je projekt NASA, ESA a Kanadské kosmické agentury. Odstartoval 25. prosince 2021. Jeho hlavní zrcadlo má přibližně **6,5 metru** a skládá se z 18 segmentů.\n\nWebb obíhá kolem Slunce společně se Zemí a přitom opisuje smyčku kolem **druhého Lagrangeova bodu soustavy Slunce–Země (L2)**. Tento bod leží asi 1,5 milionu kilometrů od Země směrem od Slunce. Z Webbovy dráhy zůstávají Slunce, Země a Měsíc na stejné straně dalekohledu, takže je může odstínit jediný sluneční štít.",
         "image_id": "schema-webb-okoli-l2"
       },
       {
@@ -1370,7 +1370,7 @@
       },
       {
         "heading": "Co změří kamera a co spektrum",
-        "body": "Kamera ukáže rozložení jasnosti na obloze. Spektrograf rozloží světlo podle vlnových délek a dovolí hledat charakteristické stopy atomů či molekul, určit rudý posuv nebo zkoumat pohyb plynu.\n\nRozdíl je podstatný u vzdálených galaxií. Objekt může podle barev vypadat jako velmi raná galaxie, ale jiný typ zdroje jej někdy dokáže napodobit. Spektrum proto může původní odhad vzdálenosti potvrdit, zpřesnit nebo změnit. Samotná červená barva není jednoznačným měřením stáří."
+        "body": "Kamera ukáže rozložení jasnosti na obloze. Spektrograf rozloží světlo podle vlnových délek a dovolí hledat charakteristické stopy atomů či molekul, určit rudý posuv nebo zkoumat pohyb plynu.\n\nVelmi vzdálenou galaxii lze podle barev předběžně vytipovat. Podobně červeně však může vypadat i bližší galaxie, jejíž světlo zeslabil prach. Ve spektru astronomové hledají známé čáry a z jejich posunu určují [rudý posuv](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html). Z něj pak pomocí kosmologického modelu odvodí, jak dlouho k nám světlo putovalo a jaké vzdálenosti to odpovídá."
       },
       {
         "heading": "Konkrétní příklad: atmosféra WASP-39 b",
@@ -1399,7 +1399,7 @@
     "theme": "vesmirne-teleskopy",
     "description": "Čtyři velké dalekohledy VLT v Chile studují hvězdy, galaxie i okolí černých děr. Jak fungují a co přineslo sledování hvězdy S2?",
     "published": "2026-10-24",
-    "updated": "2026-10-25",
+    "updated": "2026-11-19",
     "perex": "Zkratka VLT znamená Very Large Telescope. Nejde o jediný dalekohled ani o kosmickou sondu, ale o soustavu pozemních teleskopů na observatoři Paranal v Chile. Jejich přístroje dokážou nejen zobrazit vzdálené objekty, ale i přesně měřit jejich světlo a pohyb.",
     "sections": [
       {
@@ -1417,7 +1417,7 @@
       },
       {
         "heading": "Konkrétní příklad: hvězda u Sagittarius A*",
-        "body": "Dlouhodobé sledování hvězd u středu Mléčné dráhy poskytlo silné důkazy o přítomnosti supermasivní černé díry. Významnou roli při tom hrály přístroje ESO i nezávislá pozorování jiných týmů.\n\nU hvězdy S2 se v roce 2018 pomocí přístrojů VLT a VLTI podařilo změřit relativistický posun spektrálních čar při jejím průchodu poblíž Sagittarius A*. Pozorování odpovídalo předpovědi obecné relativity. Nešlo o fotografii horizontu událostí: měřilo se světlo a pohyb hvězdy v okolním gravitačním poli."
+        "body": "Dlouhodobé sledování hvězd u středu Mléčné dráhy poskytlo silné důkazy o přítomnosti supermasivní černé díry. Významnou roli při tom hrály přístroje ESO i nezávislá pozorování jiných týmů.\n\nOznačení **S2** pochází z práce astronomů Andrease Eckarta a Reinharda Genzela z roku 1997, kteří jedenáct zdrojů infračerveného záření poblíž středu Mléčné dráhy označili S1 až S11.\n\nV roce 2018 se hvězda S2 na své dráze přiblížila k černé díře Sagittarius A*. Právě v té době se pohybovala nejrychleji a světlo vysílala z oblasti se silnější gravitací. Astronomové sledovali její polohu i spektrum. Ve spektrálních čarách rozpoznali společný účinek **gravitačního rudého posuvu** a **relativistického Dopplerova jevu**, který souvisí také s tím, jak pohyb ovlivňuje chod hodin. Naměřený posuv odpovídal předpovědi obecné relativity."
       },
       {
         "heading": "Jak souvisí s kosmologií",
@@ -1425,7 +1425,7 @@
       },
       {
         "heading": "Zdroje a další čtení",
-        "body": "[ESO: Soustava VLT](https://www.eso.org/public/teles-instr/paranal-observatory/vlt/)\n\n[ESO: Relativistický posun světla hvězdy S2, výsledek z roku 2018](https://www.eso.org/public/news/eso1825/)\n\n[ESO: Výzkum středu Mléčné dráhy a Nobelova cena 2020](https://www.eso.org/public/news/eso2017/)"
+        "body": "[ESO: Soustava VLT](https://www.eso.org/public/teles-instr/paranal-observatory/vlt/)\n\n[ESO: Relativistický posun světla hvězdy S2, výsledek z roku 2018](https://www.eso.org/public/news/eso1825/)\n\n[ESO: Výzkum středu Mléčné dráhy a Nobelova cena 2020](https://www.eso.org/public/news/eso2017/)\n\n[Eckart a Genzel (1997): pohyby hvězd u středu Mléčné dráhy](https://academic.oup.com/mnras/article/284/3/576/984237)"
       }
     ],
     "why_box": "Když zpráva z VLT mluví o černé díře, nemusí jít o její snímek. Může vycházet z pohybu hvězdy nebo ze spektrálních čar. Právě tato méně nápadná měření často poskytují nejsilnější podklady pro fyzikální závěr.",
@@ -1441,7 +1441,7 @@
     "theme": "vesmirne-teleskopy",
     "description": "ALMA spojuje antény vysoko v Chile a měří milimetrové záření. Co odhaluje v prachu, plynu a discích, v nichž vznikají planety?",
     "published": "2026-10-24",
-    "updated": "2026-10-25",
+    "updated": "2026-11-19",
     "perex": "ALMA nevypadá jako běžný dalekohled. Tvoří ji soustava antén na náhorní plošině v Chile, které společně zachycují milimetrové a submilimetrové záření. Díky tomu zkoumá i chladný plyn a prach, které ve viditelném světle snadno přehlédneme.",
     "sections": [
       {
@@ -1450,7 +1450,7 @@
       },
       {
         "heading": "Proč používá tolik antén",
-        "body": "ALMA kombinuje signály více antén metodou interferometrie. Z jejich vzájemného porovnání lze rekonstruovat rozložení záření na obloze. Antény lze rozmístit do různých sestav, v nejrozsáhlejší až na vzdálenosti přibližně 16 kilometrů.\n\nVětší rozestupy umožňují rozlišit jemnější struktury, ale nejsou automaticky nejlepší pro každý cíl. Pro rozsáhlé slabé objekty jsou důležité i kratší vzdálenosti mezi anténami a doplňující měření. Výsledek je rekonstrukcí z naměřených signálů, nikoli fotografií pořízenou jedním objektivem.",
+        "body": "ALMA kombinuje signály více antén metodou interferometrie. Z jejich vzájemného porovnání lze rekonstruovat rozložení záření na obloze. Antény lze rozmístit do různých sestav, v nejrozsáhlejší až na vzdálenosti přibližně 16 kilometrů.\n\nVětší rozestupy mezi anténami umožňují rozlišit jemnější detaily. Když ale záření vyplňuje velkou část obrazu, velmi vzdálené dvojice antén ho mohou zachytit jen zčásti. Pro mapu rozsáhlého oblaku plynu proto astronomové kombinují měření blízkých i vzdálených dvojic antén a podle potřeby přidávají měření jednotlivými anténami. Z těchto údajů pak sestaví obraz, který zachytí velké struktury i jemné detaily.",
         "image_id": "schema-interferometrie-zakladny"
       },
       {
@@ -2666,12 +2666,12 @@
     "theme": "vesmirne-teleskopy",
     "description": "Planck mapoval nejstarší pozorovatelné světlo. Kde pracoval, jak odděloval záření Galaxie a co jeho data říkají o stáří a složení vesmíru?",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-19",
     "perex": "Planck byl evropský kosmický přístroj pro měření mikrovlnného záření celé oblohy. Jeho mapy drobných teplotních rozdílů a polarizace reliktního záření patří k základním podkladům moderní kosmologie. Stáří ani složení vesmíru však přístroj neodečetl přímo: vědci je odvozují porovnáváním dat s fyzikálními modely.",
     "sections": [
       {
         "heading": "Kde Planck pracoval a proč tak daleko od Země",
-        "body": "Družice Evropské kosmické agentury ESA odstartovala **14. května 2009**. Pozorovala z okolí bodu **L2 soustavy Slunce–Země**, přibližně 1,5 milionu kilometrů od Země směrem od Slunce. Nešlo o přistání na pevném bodě: družice kolem jeho okolí obíhala.\n\nTaková poloha usnadňovala odstínění Slunce, Země a Měsíce a udržování stálých tepelných podmínek. Pro mikrovlnné detektory je vlastní teplo přístroje rušivým signálem. Proto měla mise také mimořádně účinné chlazení. Vědecká pozorování skončila v roce **2013**; analýza a využívání dat pokračují."
+        "body": "Družice Evropské kosmické agentury ESA odstartovala **14. května 2009**. Planck pozoroval z dráhy kolem **druhého Lagrangeova bodu soustavy Slunce–Země (L2)**. Ten leží přibližně 1,5 milionu kilometrů od Země směrem od Slunce. Tato poloha usnadňovala odstínění Slunce, Země a Měsíce a pomáhala udržovat přístroj ve stabilních tepelných podmínkách.\n\nPro mikrovlnné detektory je vlastní teplo přístroje rušivým signálem. Proto měla mise také mimořádně účinné chlazení. Vědecká pozorování skončila v roce **2013** a analýza a využívání dat pokračují."
       },
       {
         "heading": "Co skutečně zachytily detektory",
@@ -2683,7 +2683,7 @@
       },
       {
         "heading": "Jak z mapy získáme stáří a složení vesmíru",
-        "body": "Vědci zjišťují, jak výrazné jsou teplotní rozdíly na různě velkých úhlových měřítkách. Jejich charakteristický vzor závisí na podmínkách raného vesmíru a na tom, jak se světlo šířilo až k nám.\n\nPředpovědi [modelu ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html) se pak porovnávají s daty. V tomto rámci vychází stáří vesmíru přibližně **13,8 miliardy let** a odhady podílů běžné hmoty, temné hmoty a temné energie. Změníme-li předpoklady modelu, mohou se změnit i odvozené hodnoty. Planck také umožnil rekonstruovat gravitační čočkování reliktního záření, tedy jeho drobné deformace hmotou na cestě."
+        "body": "Vědci měří, jak výrazné jsou teplotní rozdíly v reliktním záření na různých úhlových měřítkách. Sledují například, jak velké skvrny na obloze nejvýrazněji nesou otisk dávných zvukových vln v horkém plynu raného vesmíru. Záleží také na tom, jak daleko od nás leží oblast, odkud záření přichází. Teprve porovnáním těchto měření s předpověďmi kosmologického modelu odvozují stáří a složení vesmíru.\n\nPředpovědi [modelu ΛCDM](https://kosmonovinky.cz/kosmopedie/co-znamena-model-cdm.html) se pak porovnávají s daty. V tomto rámci vychází stáří vesmíru přibližně **13,8 miliardy let** a odhady podílů běžné hmoty, temné hmoty a temné energie. Změníme-li předpoklady modelu, mohou se změnit i odvozené hodnoty. Planck také umožnil rekonstruovat gravitační čočkování reliktního záření, tedy jeho drobné deformace hmotou na cestě."
       },
       {
         "heading": "Co Planck nerozhodl sám",
@@ -2714,7 +2714,7 @@
     "theme": "vesmirne-teleskopy",
     "description": "Euclid měří tvary, jas a spektra galaxií. Jak z okolí L2 mapuje rozložení hmoty a pomáhá zkoumat temnou energii i gravitaci?",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-19",
     "perex": "Euclid je kosmická observatoř ESA navržená pro rozsáhlé mapování galaxií. Pomocí jejich tvarů a rozložení zkoumá, jak se ve vesmíru shlukuje hmota a jak se vesmír rozpíná. Temnou hmotu ani temnou energii přímo nefotografuje: sleduje jejich možné účinky na světlo a vývoj kosmických struktur.",
     "sections": [
       {
@@ -2723,11 +2723,11 @@
       },
       {
         "heading": "Dva přístroje, dva doplňující se druhy měření",
-        "body": "**VIS** pořizuje ostré snímky ve viditelné a nejbližší infračervené části spektra. Vědci z nich určují polohy, jas a především tvary galaxií.\n\n**NISP** pracuje v blízkém infračerveném oboru. Měří jas přes několik filtrů a také rozkládá světlo na spektrum. U vhodných zdrojů tak získává spektrální čáry a jejich [rudý posuv](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html). Pro další galaxie se posuv odhaduje z barev, spolu s doplňujícími pozemními daty. Tyto odhady jsou méně přesné než dobře změřené jednotlivé spektrum."
+        "body": "**VIS** pořizuje ostré snímky v širokém optickém pásmu. Vědci z nich určují především tvary galaxií.\n\n**NISP** doplňuje měření v blízkém infračerveném oboru a u vhodných galaxií pořizuje také spektra. Z nich lze určit [rudý posuv](https://kosmonovinky.cz/kosmopedie/co-je-rudy-posuv-a-jak-se-meri.html). U dalších galaxií se posuv odhaduje z barev s využitím doplňujících pozemních dat."
       },
       {
         "heading": "Proč kosmology zajímá nepatrně protažená galaxie",
-        "body": "Světlo se při průchodu kolem hmoty ohýbá. Mezi vzdálenou galaxií a námi se tím může její obraz nepatrně protáhnout či pootočit. Tomu se říká **slabé gravitační čočkování**.\n\nU jedné galaxie nevíme, jaký tvar měla původně. U velkého množství galaxií však hledáme společný, statisticky sladěný vzor deformací. Z něj lze rekonstruovat rozložení gravitačně působící hmoty podél zorných směrů. Výsledek zahrnuje běžnou i temnou hmotu; oddělení jejich podílů vyžaduje další údaje a modelování."
+        "body": "Hmota mezi vzdálenou galaxií a námi ohýbá světlo. V důsledku toho může být obraz galaxie nepatrně protažený. Tomu říkáme **slabé gravitační čočkování**.\n\nU jediné galaxie její původní tvar neznáme. Když ale porovnáme velké množství galaxií, můžeme v jejich obrazech odhalit nepatrné společné protažení. Z něj vědci odhadují rozložení hmoty, která světlo po cestě ovlivnila. Výsledek zahrnuje běžnou i temnou hmotu."
       },
       {
         "heading": "Jak rozložení galaxií souvisí s temnou energií",
@@ -2762,7 +2762,7 @@
     "theme": "vesmirne-teleskopy",
     "description": "DESI na Kitt Peaku měří spektra tisíců galaxií současně. Jak z rudých posuvů a charakteristických rozestupů galaxií zkoumá historii rozpínání?",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-19",
     "perex": "DESI je spektroskopický přístroj na čtyřmetrovém Mayallově dalekohledu v Arizoně. S pomocí tisíců optických vláken zaznamenává světlo galaxií a kvasarů. Z jejich spekter a poloh skládá trojrozměrnou mapu, jejíž statistické vzory pomáhají měřit historii rozpínání vesmíru.",
     "sections": [
       {
@@ -2771,7 +2771,7 @@
       },
       {
         "heading": "Jak může sledovat tisíce objektů najednou",
-        "body": "V ohniskové rovině je **5 000 roboticky polohovaných optických vláken**. Každé lze nasměrovat na vybraný bod obrazu oblohy. Světlo vláknem doputuje do spektrografu, který je rozdělí podle vlnové délky.\n\nDetektory zaznamenají, kolik světla přichází v jednotlivých částech spektra. Po dokončení pozorování se polohy vláken přenastaví pro další pole. Výsledkem není 5 000 nezávislých fotografií, ale velké množství spekter s informacemi o vybraných zdrojích. Princip rozkladu světla vysvětluje [téma o spektroskopii](https://kosmonovinky.cz/kosmopedie/co-je-spektroskopie-a-co-nam-rika-svetlo.html)."
+        "body": "Dalekohled vytvoří obraz vybraného pole oblohy. Malé robotické mechanismy v něm nastaví konce přibližně **5 000 optických vláken** na místa, kde se zobrazují vybrané galaxie, kvasary nebo hvězdy. Vlákna vedou jejich světlo do **deseti spektrografů**, z nichž každý zpracovává světlo z 500 vláken. Po expozici se vlákna přestaví pro další pole.\n\nDetektory zaznamenají, kolik světla přichází v jednotlivých částech spektra. Princip rozkladu světla vysvětluje [téma o spektroskopii](https://kosmonovinky.cz/kosmopedie/co-je-spektroskopie-a-co-nam-rika-svetlo.html)."
       },
       {
         "heading": "Od spektrální čáry ke třetímu rozměru mapy",
@@ -2811,7 +2811,7 @@
     "theme": "vesmirne-teleskopy",
     "description": "IceCube v antarktickém ledu a Super-Kamiokande v japonském podzemí hledají záblesky po vzácných interakcích neutrin. Co z nich poznáme?",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-19",
     "perex": "Neutrinové observatoře nesbírají světlo vzdálené hvězdy do zrcadla. Čekají, až neutrino vzácně zareaguje s látkou a vzniklé částice zanechají měřitelnou stopu. Led v Antarktidě nebo velká nádrž vody v japonském podzemí se tak stávají součástí vědeckého přístroje.",
     "sections": [
       {
@@ -2823,8 +2823,8 @@
         "body": "**IceCube** leží u stanice Amundsen–Scott na jižním pólu. Základní pole optických senzorů je rozmístěno zhruba mezi hloubkami **1 450 a 2 450 metrů** v objemu přibližně kubického kilometru ledu. Fotografie povrchové budovy proto ukazuje jen provozní zázemí, nikoli samotný citlivý objem.\n\nNeutrino může zareagovat v ledu nebo v okolní hmotě a vytvořit elektricky nabité částice. Vzniklé elektricky nabité částice mohou vydávat **Čerenkovovo světlo**. Je to záření vznikající při průletu nabité částice průhlednou látkou rychleji, než se v ní šíří světlo — podobně jako nadzvukové letadlo vytváří rázovou vlnu ve vzduchu. Ve vodě nebo ledu se světlo šíří pomaleji než ve vakuu, takže částice může tuto místní rychlost překonat, aniž by porušila mezní rychlost světla ve vakuu."
       },
       {
-        "heading": "Co se dozvíme z časů jednotlivých záblesků",
-        "body": "Senzory zaznamenají množství světla i čas jeho příchodu. Z prostorového a časového vzoru se rekonstruuje událost: někdy protáhlá stopa, jindy spíše kompaktní sprška částic. Množství a rozložení světla pomáhá odhadnout energii události.\n\nObtížné je odlišit kosmická neutrina od neutrin a mionů vznikajících v zemské atmosféře. Pomáhá geometrie události, její energie, výběr počátečního bodu i směr průletu.\n\nJednotlivý senzor zachytí jen světelný signál. Teprve spojením údajů z mnoha senzorů — zejména časů příchodu a množství zachyceného světla — vědci rekonstruují průběh události a odhadnou, ze kterého směru neutrino přiletělo. Tento směr pak porovnávají s polohami možných zdrojů na obloze a s pozorováními dalších observatoří. Určit konkrétní zdroj však není vždy možné: záleží na přesnosti určení směru i na dalších dostupných důkazech."
+        "heading": "Jak ze světelných signálů odhadneme směr neutrina",
+        "body": "Světlo z jedné události může dorazit k různým senzorům v různých časech. Z toho, kde senzory světlo zachytily, kdy k nim dorazilo a kolik ho bylo, vědci rekonstruují průběh události. Například mion může v ledu zanechat dlouhou světelnou stopu. Její směr pomáhá odhadnout, odkud neutrino přiletělo. U kompaktní spršky částic bývá určení směru méně přesné.\n\nObtížné je odlišit kosmická neutrina od neutrin a mionů vznikajících v zemské atmosféře. Pomáhá geometrie události, její energie, výběr počátečního bodu i směr průletu.\n\nOdhadnutý směr vědci porovnávají s polohami možných zdrojů na obloze a s pozorováními dalších observatoří. Určení konkrétního zdroje závisí na přesnosti odhadu směru i na dalších dostupných důkazech."
       },
       {
         "heading": "Super-Kamiokande: světelné stopy v japonské vodní nádrži",
@@ -2859,7 +2859,7 @@
     "theme": "vesmirne-teleskopy",
     "description": "LZ a XENONnT čekají na vzácné interakce v kapalném xenonu. Kde pracují, jak vznikají dva světelné signály a co znamená nenalezený signál?",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-19",
     "perex": "Gravitační účinky temné hmoty zkoumáme na galaxiích i v kosmologických mapách. Podzemní experimenty se ptají na něco jiného: může některá její částice přímo předat energii látce v detektoru? LZ a XENONnT kvůli tomu provozují mimořádně čisté a citlivé xenonové aparatury.",
     "sections": [
       {
@@ -2872,12 +2872,12 @@
       },
       {
         "heading": "Proč má jeden zásah dva signály",
-        "body": "V dvoufázové komoře je kapalný xenon a nad ním plynný xenon. První krátký světelný záblesk vzniká přímo při interakci. Elektrické pole mezitím vede uvolněné elektrony vzhůru. Po vytažení do plynu vytvoří druhý světelný signál.\n\nZ časového odstupu lze určit hloubku události; rozložení světla mezi senzory pomáhá určit její polohu v dalších dvou směrech. Poměr signálů a další vlastnosti umožňují statisticky rozlišovat různé druhy interakcí. Následující schéma znázorňuje princip, **ne skutečně naměřený signál temné hmoty**.",
+        "body": "Při zásahu v kapalném xenonu vznikne první světelný záblesk a uvolní se elektrony. Elektrické pole vede elektrony vzhůru do plynného xenonu. Tam při průletu předávají energii atomům xenonu a vznikne druhý světelný signál. Čím hlouběji k zásahu došlo, tím déle elektrony putují k hladině. Z časového odstupu mezi signály proto vědci určí hloubku zásahu.\n\nRozložení světla mezi senzory pomáhá určit polohu zásahu v dalších dvou směrech. Poměr signálů a další vlastnosti umožňují statisticky rozlišovat různé druhy interakcí. Následující schéma znázorňuje princip, **ne skutečně naměřený signál temné hmoty**.",
         "image_id": "schema-temna-hmota-dual-signal"
       },
       {
         "heading": "Proč nestačí schovat přístroj pod zem",
-        "body": "Hornina potlačuje velkou část kosmického záření, ale neodstraní přirozenou radioaktivitu materiálů ani všechny pronikající částice. Detektory proto používají další stínění, velmi čisté materiály, čištění xenonu a pomocné systémy označující rušivé události.\n\nZvlášť užitečná je přesná poloha zásahu: část událostí poblíž stěn lze vyřadit a sledovat lépe odstíněný vnitřní objem. Neutrina mohou sama vyvolávat vzácné interakce a s rostoucí citlivostí se stávají skutečným fyzikálním pozadím. Nejde o technickou poruchu, kterou jednoduše vypneme."
+        "body": "Hornina potlačuje velkou část kosmického záření, ale neodstraní přirozenou radioaktivitu materiálů ani všechny pronikající částice. Detektory proto používají další stínění, velmi čisté materiály, čištění xenonu a pomocné systémy označující rušivé události.\n\nZvlášť užitečná je přesná poloha zásahu. Část událostí poblíž stěn lze vyřadit a sledovat lépe odstíněný vnitřní objem.\n\nNěkterá neutrina mohou v detektoru vyvolat podobný signál, jaký by zanechala hledaná částice temné hmoty. Těmto událostem říkáme **neutrinové pozadí**. Vědci je musí započítat při vyhodnocování dat, zvlášť když detektory začnou zachycovat stále slabší a vzácnější události."
       },
       {
         "heading": "Je nenalezený signál neúspěch?",
