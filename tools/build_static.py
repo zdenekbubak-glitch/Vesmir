@@ -1053,6 +1053,20 @@ def main():
         theme_label = THEME_LABEL.get(theme_slug, FALLBACK_THEME[1])
         url = f"{base}/{item['_path']}"
         summary = item.get("summary") or item.get("original_title") or item.get("title")
+        summary_html = article_summary_html(summary)
+        if item.get("id") == "2611.26593v1":
+            diagram = (
+                '<figure style="margin: 1rem 0">'
+                '<img src="/assets/diagrams/zarovnani-galaxii.png" width="860" height="265" '
+                'style="display:block;max-width:100%;height:auto" '
+                'alt="Vlevo je delší osa galaxie rovnoběžná se spojnicí středů, vpravo je na ni kolmá.">'
+                '<figcaption>Zlatá čára ukazuje delší osu galaxie. Tečkovaná čára spojuje středy '
+                'a samostatná bílá tečka označuje střed druhé galaxie.</figcaption></figure>'
+            )
+            paragraphs = summary_html.split('\n      ', 2)
+            if len(paragraphs) == 3:
+                paragraphs.insert(2, diagram)
+                summary_html = '\n      '.join(paragraphs)
         description = truncate(summary)
         related = [r for r in by_theme.get(theme_slug, []) if r["_path"] != item["_path"]][:3]
         rel_html = ""
@@ -1102,7 +1116,7 @@ def main():
       <h1>{esc(item.get("title"))}</h1>
       <p class="meta">Publikováno: {fmt_date(item.get("published"))} · Zdroj: {esc(item.get("source"))}</p>
       {image_figure(article_image)}
-      {article_summary_html(summary)}
+      {summary_html}
 {lang_note}      <a class="original-source" href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
 {rel_html}{context_html}{NEWSLETTER_CTA}{feedback_link(item.get('title'), url)}{nav_html}    </article>
         <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>

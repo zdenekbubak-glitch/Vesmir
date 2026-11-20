@@ -90,6 +90,13 @@ def candidates_for(item, available):
     # Section diagrams are selected explicitly by the editor, never as a lead image.
     available=[e for e in available if not e.get('manual_only')]
     topic=topic_for(item); text=norm(item.get('title','')+' '+item.get('original_title',''))
+    # A verified photo of the named facility takes precedence over broad science topics.
+    matched = [entry for entry in available if not entry.get('alias_of')
+               and any(re.search(r'(?<!\w)' + re.escape(norm(name)) + r'(?!\w)', text)
+                       for name in entry.get('object_keywords', []))]
+    if matched:
+        return matched
+    available = [entry for entry in available if not entry.get('object_keywords')]
     pool=[e for e in available if topic in e.get('topics',[e['topic']]) and not e.get('alias_of')]
     exact=[e for e in pool if e.get('match_keywords') and any(norm(w) in text for w in e['match_keywords'])]
     subtopic=subtopic_for(item)

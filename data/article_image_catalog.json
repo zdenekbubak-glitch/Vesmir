@@ -10643,5 +10643,41 @@
     "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
     "width": 1200,
     "height": 630
+  },
+  {
+    "id": "rubin-simonyi-lsst-noirlab2511a",
+    "title": "Simonyiho přehlídkový dalekohled s kamerou LSST",
+    "source": "https://rubinobservatory.org/gallery/collections/news-images/noirlab2511a",
+    "download": "https://storage.noirlab.edu/media/archives/images/large/noirlab2511a.jpg",
+    "credit": "NSF–DOE Vera C. Rubin Observatory/NOIRLab/SLAC/AURA/B. Quint",
+    "kind": "snímek",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://rubinobservatory.org/gallery/media-policy",
+    "caption": "Kamera LSST na Simonyiho přehlídkovém dalekohledu v Observatoři Very C. Rubinové na Cerro Pachón v Chile.",
+    "alt": "Kamera LSST upevněná na konstrukci Simonyiho přehlídkového dalekohledu",
+    "topic": "vesmirne-teleskopy",
+    "topics": [
+      "vesmirne-teleskopy"
+    ],
+    "object_keywords": [
+      "Rubin Observatory",
+      "Rubin Twilight Program",
+      "Rubinovy observatoře",
+      "Observatoř Very C. Rubinové",
+      "Simonyi Survey Telescope",
+      "Simonyiho přehlídkový dalekohled"
+    ],
+    "layout": "contain",
+    "thumbnail_fit": "contain",
+    "verified_on": "2026-11-20",
+    "revision": 1,
+    "source_id": "rubin-simonyi-lsst-noirlab2511a",
+    "source_family": "rubin-simonyi-lsst-noirlab2511a",
+    "modifications": "zmenšení bez výřezu, doplnění rámečku a kreditu mimo obraz",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "thumbnail": "assets/article-images/thumbs/rubin-simonyi-lsst-noirlab2511a.webp",
+    "source_master": "assets/article-images/sources/rubin-simonyi-lsst-noirlab2511a.jpg",
+    "source_master_sha256": "9626556f5bc0deb671d109e90f92357b00f8dc6640c1e3f9a8ce292d3bb709cc"
   }
 ]
