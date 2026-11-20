@@ -882,7 +882,7 @@
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/clanky/castice-z-tmaveho-sektoru-by-mohly-vysvetlit-zahadne-signaly-z-2611173281.html",
     "recorded_at": "2026-11-13T08:25:44.956120+00:00",
-    "last_check_attempt_at": "2026-11-19T08:32:54.493670+00:00",
+    "last_check_attempt_at": "2026-11-20T08:32:39.839185+00:00",
     "publication_check_result": "unavailable"
   },
   {
@@ -1096,5 +1096,35 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-19T09:01:20.922249+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_87069b0c5b390896ef8f",
+    "title": "Modré diskové galaxie se orientují tečně ke kosmickému slapovému poli",
+    "platform_id": "6b00057aca85ebefb00b46f6",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/modre-diskove-galaxie-se-orientuji-tecne-ke-kosmickemu-slapovemu-poli-2611265931.html",
+    "recorded_at": "2026-11-20T08:31:57.064544+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_87069b0c5b390896ef8f",
+    "title": "Modré diskové galaxie se orientují tečně ke kosmickému slapovému poli",
+    "platform_id": "6b000581ca85ebefb00b4850",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/modre-diskove-galaxie-se-orientuji-tecne-ke-kosmickemu-slapovemu-poli-2611265931.html",
+    "recorded_at": "2026-11-20T08:32:07.447093+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_87069b0c5b390896ef8f",
+    "title": "Modré diskové galaxie se orientují tečně ke kosmickému slapovému poli",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n2pbqhws22ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/clanky/modre-diskove-galaxie-se-orientuji-tecne-ke-kosmickemu-slapovemu-poli-2611265931.html",
+    "recorded_at": "2026-11-20T08:32:39.952587+00:00"
   }
 ]
