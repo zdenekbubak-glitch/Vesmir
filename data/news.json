@@ -1,5 +1,90 @@
 [
   {
+    "id": "2611.26593v1",
+    "title": "Modré diskové galaxie se orientují tečně ke kosmickému slapovému poli",
+    "summary": "Astrofyzici dlouhodobě zkoumají, jak se orientace tvarů galaxií uspořádávají vůči sobě navzájem i vůči velkorozměrové struktuře vesmíru. Vědci v nové studii zkombinovali spektrofotometrii ze satelitu SPHEREx a přehlídku DESI Legacy Imaging Surveys, čímž vytvořili celooblohový katalog 71 milionů galaxií s přesně určeným rudým posuvem, tedy veličinou popisující změnu vlnové délky světla v důsledku rozpínání vesmíru, která slouží k určení vzdálenosti objektu.\n\nDíky tomuto katalogu výzkumníci zjistili, že modré diskové galaxie vykazují tečné zarovnání vůči kosmickému slapovému poli se statistickou významností 22,5σ. Kosmické slapové pole představuje prostorově se měnící gravitační síly vyvolané nerovnoměrným rozložením hmoty ve vesmíru, které deformují okolní objekty. U červených sféroidních galaxií vědci současně potvrdili radiální zarovnání na úrovni 65σ. Měřením signálu v oblastech s vyšší i nižší hustotou hmoty ukázali, že reakce galaxií závisí na měřítku i prostředí a odpovídá lineární odezvě na slapové pole. Výsledek tak vylučuje čistě kvadratickou odezvu v gaussovském slapovém poli, kterou předpovídala klasická teorie slapového momentu.\n\nZarovnání galaxií představuje významný systematický rušivý efekt pro měření pomocí slabého gravitačního čočkování, tedy metody zkoumající jemné deformace obrazů vzdálených galaxií způsobené gravitací vložené hmoty. Výzkum tak pomůže zpřesnit kosmologická pozorování i teoretické modely vzniku a vývoje galaxií.\n\nProč je to zajímavé: Detekce tečného zarovnání u modrých galaxií vyvrací dosavadní teoretické předpoklady a přináší přesnější pohled na to, jak gravitační působení velkorozměrových struktur utváří galaxie.",
+    "url": "http://arxiv.org/abs/2611.26593v1",
+    "source": "arXiv",
+    "original_title": "Star-forming disc galaxies align tangentially with the cosmic tidal field",
+    "published": "2026-11-19T18:48:05+00:00",
+    "inserted_at": "2026-11-20T08:27:36.525660+00:00",
+    "lang": "cs",
+    "needs_translation": false,
+    "daily_card_selected": true
+  },
+  {
+    "id": "2611.24838v1",
+    "title": "Rychlé rádiové záblesky mapují skrytou běžnou hmotu vesmíru",
+    "summary": "Vědci v nové studii navrhli metodu, jak přesně určit rozložení běžné hmoty (baryonů) ve vesmíru pomocí rychlých rádiových záblesků (FRB), což jsou extrémně krátké a intenzivní impulsy rádiových vln z hlubokého vesmíru. Využili přitom míru rozptylu signálu FRB, která udává, jak se rádiové vlny zpožďují při Průchodu plazmatem, což přímo odhaluje hustotu volných elektronů na dráze signálu.\n\nS využitím kosmologických simulací IllustrisTNG výzkumníci rozčlenili velkorozměrovou strukturu vesmíru do osmi tříd podle hustoty hmoty, odpovídajících kosmickým prázdnotám, vláknům a galaktickým halům. Dále vytvořili syntetický katalog galaxií po vzoru vesmírného teleskopu Euclid. Zkombinováním odhadů ze svítící hmoty a korekce na neviditelnou temnou hmotu – tvořící většinu hmotnosti vesmíru – dokázali zrekonstruovat rozložení elektronů s přesností do 10 % oproti simulované skutečnosti.\n\nVýsledky ukázaly, že elektrony se nacházejí převážně v oblastech s nízkou hustotou. Z kombinace dat z FRB a galaxií vědci určili hustotu ionizovaných baryonů na hodnotu Ωb fion = 0,0455 (+0,0028 / −0,0026), což těsně odpovídá simulované hodnocení 0,0462. Pro podíl ionizace fion = 0,95 pak odvodili celkovou hustotu baryonů Ωb = 0,0479 (+0,0029 / −0,0027). Podíly plynu v prázdnotách, vláknech a halech temné hmoty stanovili na 0,186 ± 0,012; 0,179 ± 0,015 a 0,046 ± 0,014 (oproti simulovaným hodnotám 0,167; 0,173 a 0,067). Přesná znalost rozložení baryonů je přitom klíčová pro studium gravitačního čočkování, vývoje galaxií i reliktního záření (CMB), což je nejstarší dochované světlo vesmíru pocházející z doby krátce po velkém třesku.\n\nProč je to zajímavé: Metoda umožňuje přesně zmapovat i velmi rozptýlenou běžnou hmotu v mezigalaktickém prostoru a ověřit kosmologické modely kombinací rádiových záblesků a galaktických přehlídek.",
+    "url": "http://arxiv.org/abs/2611.24838v1",
+    "source": "arXiv",
+    "original_title": "Deconstructing the cosmic baryon distribution with fast radio bursts",
+    "published": "2026-11-18T18:03:36+00:00",
+    "inserted_at": "2026-11-20T08:27:36.525660+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.25359v1",
+    "title": "Ukrývá se blízko Slunce pod-halo temné hmoty? Vědci navrhují, jak to ověřit",
+    "summary": "Měření zrychlení z časování pulsarů – metody přesného sledování pravidelných rádiových pulzů z rotujících neutronových hvězd – ukazují na lokální soustředění hmoty v blízkosti Slunce. Tento jev odpovídá hypotetickému pod-halu temné hmoty, tedy menšímu shluku neviditelné hmoty nacházejícímu se uvnitř většího hala naší Galaxie. Autoři studie analyzovali, co by existence tohoto objektu znamenala pro různé teoretické modely temné hmoty, a navrhli způsoby, jak mezi nimi s novými pozorováními rozhodnout.\n\nSoučasná měření zrychlení se nacházejí vně slapového poloměru (vzdálenosti od středu objektu, za níž převládá gravitační vliv okolí), takže nerozliší vnitřní profil hmoty, rychlost objektu ani celkovou populaci těchto shluků. Autoři proto identifikovali čtyři způsoby získání nových dat k odstranění těchto nejistot: měření zrychlení uvnitř hala k odhalení rozložení hmotnosti, pozorování gravitačního čočkování a akrece hmoty k ověření kompaktnosti objektu, analýzu tvaru záření z anihilace či rozpadu částic a vyhledávání populace hvězd pohybujících se společně se shlukem.\n\nProč je to zajímavé: Výzkum ukazuje konkrétní pozorovací cesty, které mohou z případné přítomnosti neviditelného shluku hmoty u Slunce učinit klíčový nástroj pro odhalení skutečné podstaty temné hmoty.",
+    "url": "http://arxiv.org/abs/2611.25359v1",
+    "source": "arXiv",
+    "original_title": "Dark Matter Model Implications of a Candidate Sub-halo Near the Sun, and the Data Needed to Discriminate Among Them",
+    "published": "2026-11-19T01:57:40+00:00",
+    "inserted_at": "2026-11-20T08:27:36.525660+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.25312v1",
+    "title": "Rychlé rádiové záblesky poprvé samostatně změřily temnou energii a hmotu",
+    "summary": "Vědci poprvé změřili hustotu hmoty ve vesmíru a stavový parametr temné energie výhradně pomocí rychlých rádiových záblesků (FRB), což jsou krátké a extrémně intenzivní pulzy rádiového záření z mezigalaktického prostoru. Temná energie představuje dosud nevysvětlenou formu energie, která způsobuje zrychlené rozpínání vesmíru. Doposud bylo k určení těchto parametrů z dat FRB nutné využívat doplňující astronomická pozorování.\n\nAplikací nového statistického rámce na 125 přesně lokalizovaných záblesků v rozmezí rudého posuvu od 0,105 do 2,148 – tedy změny vlnové délky světla způsobené rozpínáním vesmíru – výzkumníci určili v plochém kosmologickém modelu hustotu hmoty Ωₘ = 0,33 (+0,10/−0,11) a parametr temné energie w = −0,80 (+0,28/−0,38). Klíčovou roli sehrála míra disperze, jež vyjadřuje zpoždění rádiového signálu při průchodu mezigalaktickým prostředím s volnými elektrony. Propojením fyzikálních modelů autoři provázali vlastnosti disperze přímo s rozpínáním vesmíru a růstem jeho struktur.\n\nAnalýza zároveň odhalila novou pozitivní vzájemnou závislost mezi odvozenou hustotou hmoty a parametrem w. Tento vztah působí opačným směrem než silná antikorelace známá z pozorování supernov typu Ia, díky čemuž rychlé rádiové záblesky poskytují nezávislý a doplňující pohled.\n\nProč je to zajímavé: Měření přináší nový samostatný nástroj pro prověřování vlastností temné energie a testování kosmologických modelů bez závislosti na jiných pozorovacích metodách.",
+    "url": "http://arxiv.org/abs/2611.25312v1",
+    "source": "arXiv",
+    "original_title": "First $Ω_{\\rm m}-w$ Measurement Using Only Fast Radio Burst Observations",
+    "published": "2026-11-19T00:21:56+00:00",
+    "inserted_at": "2026-11-20T08:27:36.525660+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.25876v1",
+    "title": "Záblesky gama záření při pohlcení neutronové hvězdy prvotní černou dírou",
+    "summary": "Nová teoretická studie zkoumá proces, při kterém prvotní černá díra (černá díra hypoteticky vzniklá v raném vesmíru) zachytí a zevnitř pohltí neutronovou hvězdu. Autoři ukázali, že tento děj může vytvořit krátký záblesk gama záření (intenzivní výtrysk vysoce energetických fotonů), aniž by k tomu byl potřeba akreční disk z pohlcovaného materiálu.\n\nPokud černá díra takto konzumuje milisekundový pulsar – extrémně rychle rotující neutronovou hvězdu –, dochází díky zachování impulsmomentu ke zrychlení rotace a díky magnetickému dynamu k prudkému zesílení magnetického pole. Výpočty ukazují, že tyto jevy dokážou vyvolat záblesk gama záření skrze uvolnění magnetické energie a magnetické dipólové záření.\n\nPokud prvotní černé díry o hmotnostech v rozmezí 10⁻¹⁴ až 10⁻¹¹ hmotnosti Slunce tvoří temnou hmotu (neviditelnou formu hmoty projevující se pouze gravitací), autoři odhadují, že by tyto události mohly odhalit vyhledávání v archivu detektoru Fermi-GBM i chystaná gama mise COSI. Model navíc předpovídá doprovodné signály pro víceposlovská pozorování, která v tomto výzkumu kombinují elektromagnetické záření a gravitační vlny. Jde o rychlé rádiové záblesky, kilonovy, emisi na čáře 511 keV z odvržené hmoty bohaté na neutrony a gravitační vlny z rychlého zhroucení hvězdy a následného zklidnění černé díry.\n\nProč je to zajímavé: Výzkum propojuje záhadu temné hmoty s pozorovatelnými vesmírnými výbuchy a ukazuje, jak lze požíraní neutronových hvězd prvotními černými dírami ověřit pomocí více typů signálů současně.",
+    "url": "http://arxiv.org/abs/2611.25876v1",
+    "source": "arXiv",
+    "original_title": "Gamma-Ray Bursts from Primordial Black Hole-Induced Neutron Star Collapse",
+    "published": "2026-11-19T10:32:42+00:00",
+    "inserted_at": "2026-11-20T08:27:36.525660+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.25060v1",
+    "title": "Fyzika za Standardním modelem: Horská dráha vědeckých nadějí v letech 1980–2000",
+    "summary": "Historická retrospektiva zkoumá vývoj fyziky za Standardním modelem – teoretického výzkumu hledajícího hlubší teorii přesahující Standardní model částicové fyziky, který sice úspěšně popisuje známé základní částice a síly, ale neumí vysvětlit všechny záhady vesmíru. Autor v práci popisuje, jak tato oblast v letech 1978 až po počátek 21. století prošla emoční horskou dráhou dvou vln velkého optimismu a následného vystřízlivění, když chyběla rozhodující experimentální potvrzení.\n\nPrvní vlna nadšení koncem 70. let přinesla hypotézy jako Technicolor či Minimální supersymetrický standardní model. Po útlumu v 80. letech přišlo v roce 1991 oživení díky přesným datům z urychlovačů LEP a SLC, která naznačovala supersymetrické sjednocení sil. Absence supersymetrických partnerů – dosud nepozorovaných těžších částic zrcadlících známé částice – však vedla k novému zklamání. Pozornost se proto obrátila k hypotéze velkých extra dimenzí, tedy dodatečných rozměrů časoprostoru, jejichž existenci umožnila skutečnost, že Newtonova gravitace byla otestována jen na centimetrové vzdálenosti. Objev zrychlujícího se rozpínání vesmíru z roku 1998 a koncepce strunové krajiny, popisující obrovské množství možných stavů vesmíru, nakonec proměnily chápání přirozenosti fyzikálních zákonů a vyústily v teoretické modely jako štěpená supersymetrie.\n\nProč je to zajímavé: Studie ilustruje, jak nenaplněná teoretická očekávání a nová pozorování postupně proměňovala představu fyziků o tom, co lze považovat za uspokojivé vysvětlení základních zákonů vesmíru.",
+    "url": "http://arxiv.org/abs/2611.25060v1",
+    "source": "arXiv",
+    "original_title": "The BSM Rollercoaster, 1980-2000",
+    "published": "2026-11-18T19:07:30+00:00",
+    "inserted_at": "2026-11-20T08:27:36.525660+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.25317v1",
+    "title": "Soumrakový program Rubinovy observatoře zpřesní měření temné energie",
+    "summary": "Nová studie navrhuje doplňkový pozorovací program pro Observatoř Very C. Rubinové, který řeší limity hlavního přehlídkového režimu při pozorování blízkých supernov typu Ia. Tyto vybuchující hvězdy slouží jako standardní svíčky pro určování vzdáleností ve vesmíru, avšak u blízkých objektů dochází při standardních 30sekundových expozicích k přeexponování snímků. Autoři pomocí simulací ukázali, že zařazení velmi krátkých expozic během soumraku výrazně zlepší kvalitu i množství získávaných dat.\n\nNavržený program využívá expozice v délce 1 až 5 sekund v optických a blízkých infračervených filtrech g, r, i, z při poloze Slunce −12° až −9° pod obzorem. Simulace jednoho roku pozorování ukázaly, že u blízkých objektů s rudým posuvem z < 0,08 (což je míra prodloužení vlnové délky vyzářeného světla způsobená rozpínáním vesmíru, ze které odvozujeme vzdálenost objektu) vzroste počet použitelných supernov ze 368 na 643.\n\nPropojení těchto soumrakových dat s měřeními vzdálenějších supernov zvyšuje ukazatel kvality měření temné energie – neznámé formy energie způsobující zrychlené rozpínání vesmíru, popsané parametry stavové rovnice w₀ a wₐ – o 18 % a snižuje nejistotu parametru wₐ o 10 %. U měření tempa růstu kosmických struktur při rudém posuvu 0,02 ≤ z < 0,06 navíc relativní nejistota veličiny fσ₈ klesá z 0,783 na 0,305.\n\nProč je to zajímavé: Krátké expozice během soumraku představují elegantní způsob, jak efektivním využitím času dalekohledu výrazně zpřesnit pozorovací testy temné energie bez narušení hlavního přehlídkového programu.",
+    "url": "http://arxiv.org/abs/2611.25317v1",
+    "source": "arXiv",
+    "original_title": "Design and Forecasts for a Rubin Twilight Program for Nearby Type Ia Supernovae",
+    "published": "2026-11-19T00:36:55+00:00",
+    "inserted_at": "2026-11-20T08:27:36.525660+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2611.23636v1",
     "title": "Softwarový balík Redrock přesně určuje rudý posuv pro projekt DESI",
     "summary": "Výzkumníci představili algoritmické detaily a zhodnotili výkon softwarového balíčku Redrock. Tento program slouží ke spektroskopické klasifikaci vesmírných objektů a výpočtu jejich rudého posuvu, což je posun spektrálních čar vlnových délek světla způsobený vzdalováním galaxií v rozpínajícím se vesmíru. Nástroj byl vyvinut pro přístroj DESI (Dark Energy Spectroscopic Instrument), ještě před ním ho však jako hlavní nástroj pro určování vzdáleností galaxií využila přehlídka eBOSS (Extended Baryon Oscillation Spectroscopic Survey).\n\nRedrock plně využívá kalibrovaná spektra, nekorelované chyby i matici rozlišení pro jednotlivá spektra. Tato matice popisuje závislost vlastností spektrálních čar na vlnové délce a zahrnuje jejich negaussovskost, tedy odchylku profilu čáry od klasického gaussovského rozdělení pravděpodobnosti. Na datech z druhé edice pozorování DESI DR2 dosáhl Redrock úspěšnosti určování rudého posuvu přibližně 98 % u jasných a svítivých červených galaxií, 95,9 % u galaxií s emisními čarami a 92,6 % u kvazarů, což jsou extrémně jasná jádra vzdálených galaxií. Nástroj navíc poskytuje měření radiálních rychlostí hvězd bez systematického zkreslení s přesností okolo 5 km/s.\n\nProč je to zajímavé: Redrock umožňuje automaticky a s vysokou spolehlivostí zpracovávat obrovské množství spektrálních dat z přehlídek oblohy, což je klíčové pro přesné mapování struktury a rozpínání vesmíru.",
@@ -5814,76 +5899,6 @@
     "original_title": "Constraining Ultralight Scalars with Black Hole Binary Mergers in Galactic Nuclei",
     "published": "2026-09-14T04:00:00+00:00",
     "inserted_at": "2026-09-14T22:05:57.344606+00:00"
-  },
-  {
-    "id": "2609.12058",
-    "title": "Jak se krmí pohybující se černá díra v srdci neutronové hvězdy?",
-    "summary": "Astrofyzici se znovu zaměřili na proces, při němž pohybující se černá díra pohlcuje okolní plyn. Nová studie se věnuje takzvaným „tuhým“ tekutinám s vysokým tlakem, což je prostředí typické pro vnitřek neutronových hvězd. Vědci pomocí počítačových simulací zkoumali, jak rychlost pohybu černé díry a rychlost zvuku v okolí ovlivňují množství pohlcené hmoty a brzdnou sílu, která na černou díru působí. Objevili různé režimy proudění a navrhli jednoduché analytické vzorce, které tyto děje popisují. Výsledky jsou klíčové pro chování prvotních černých děr zachycených neutronovými hvězdami. Proč je to zajímavé: Výzkum pomáhá pochopit, jak primordiální černé díry požírají neutronové hvězdy zevnitř, což představuje možný způsob, jak tyto těžko lapatelné objekty ve vesmíru detekovat.",
-    "url": "https://arxiv.org/abs/2609.12058",
-    "source": "arXiv",
-    "original_title": "Accretion onto a moving black hole for stiff equations of state",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
-  },
-  {
-    "id": "2609.13041",
-    "title": "Vznikaly první obří černé díry zhroucením temné hmoty?",
-    "summary": "Astronomové dlouho řeší záhadu, jak mohly v raném vesmíru tak rychle vyrůst supermasivní černé díry. Nový výzkum naznačuje, že klíčem může být samoreagující temná hmota. Pokud mezi sebou částice temné hmoty častěji interagují, dochází v centrech galaktických hal ke gravitotermálnímu kolapsu. Tento proces dokáže vytvořit hmotné zárodky černých děr, které následným pohlcováním plynu a slučováním galaxií narostou do obřích rozměrů pozorovaných na úsvitu vesmíru. Autoři studie pomocí simulací stanovili přesné kosmologické podmínky, za kterých tento scénář funguje. Proč je to zajímavé: Výzkum neřeší jen původ záhadných raných gigantů, ale nabízí i nový způsob, jak přímo testovat mikrofyzikální podstatu samotné temné hmoty.",
-    "url": "https://arxiv.org/abs/2609.13041",
-    "source": "arXiv",
-    "original_title": "High-redshift supermassive black hole population from core-collapse in self-interacting dark matter halos",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
-  },
-  {
-    "id": "2509.24026",
-    "title": "Měnící se gravitace: Kvantový model řeší záhadu rozpínání vesmíru",
-    "summary": "Současná kosmologie čelí takzvanému Hubbleovu napětí – rozporu v měření rychlosti rozpínání vesmíru. Nová studie navrhuje rozšíření standardního modelu ΛCDM s využitím kvantové teorie pole. V tomto přístupu se kosmologická konstanta i Newtonova gravitační konstanta mírně mění v závislosti na energetické škále v důsledku vlivu masivních kvantových polí. Tento model přidává jediný nový parametr a při konfrontaci s nejnovějšími daty z reliktního záření, baryonových oscilací a supernov výrazně zmírňuje nesrovnalosti v měření rozpínání. Výsledky navíc ukazují na existenci nové fyziky částic pod Planckovou skalou. Proč je to zajímavé: Tento přístup elegantně propojuje fyziku mikrosvěta s vývojem celého vesmíru a naznačuje, že řešení kosmologické krize může pramenit z kvantového chování samotného vakua.",
-    "url": "https://arxiv.org/abs/2509.24026",
-    "source": "arXiv",
-    "original_title": "Renormalization group corrections to $\\Lambda$CDM model and observational consequences for $H_0$ tension",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
-  },
-  {
-    "id": "2512.15964",
-    "title": "DESI přináší revoluci v určování vzdáleností galaxií",
-    "summary": "Měření vzdáleností galaxií je klíčové pro pochopení temné energie a stavby vesmíru. Astronomové z přehlídky KiDS-1000 spoléhají na fotometrický rudý posuv, který odhaduje vzdálenosti z barev galaxií, což vyžaduje přesnou kalibraci. Zde přichází na řadu spektroskopický projekt DESI, který změřil již přes 50 milionů rudých posuvů. Nová studie využila přes 256 tisíc vysoce kvalitních spektroskopických dat z DESI ke kalibraci snímků z KiDS-1000. Výsledky potvrzují celkovou shodu s dosavadními modely, ale zároveň odhalují drobné posuny v průměrných vzdálenostech galaxií. Proč je to zajímavé: Toto zpřesnění odstraňuje klíčové nejistoty při výzkumu temné energie pomocí slabého gravitačního čočkování.",
-    "url": "https://arxiv.org/abs/2512.15964",
-    "source": "arXiv",
-    "original_title": "The Power of DESI for Photometric Redshift Calibration: A Case Study with KiDS-1000",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
-  },
-  {
-    "id": "2602.15104",
-    "title": "ABCMB: Nový Python+JAX kód pro rychlé simulace reliktního záření",
-    "summary": "Astrofyzici představili nový softwarový balíček ABCMB, který slouží k přesnému a rychlému výpočtu výkonového spektra reliktního záření. Kód je napsán v Pythonu s využitím knihovny JAX, což mu umožňuje efektivní běh na grafických kartách a automatickou diferenciaci. ABCMB zahrnuje klíčové fyzikální jevy standardního kosmologického modelu, jako je gravitační čočkování, polarizace záření, masivní neutrina či prvotní nukleosyntéza. Dosahuje výborné shody s etablovaným kódem CLASS, ale díky moderní objektové architektuře usnadňuje přidávání nové fyziky bez zásahu do zdrojových souborů. Poskytování přesných gradientů navíc výrazně zrychluje náročné statistické analýzy. Proč je to zajímavé: ABCMB propojuje moderní nástroje známé ze strojového učení s kosmologií, což vědcům umožní testovat nové fyzikální hypotézy o vesmíru nesrovnatelně rychleji.",
-    "url": "https://arxiv.org/abs/2602.15104",
-    "source": "arXiv",
-    "original_title": "ABCMB: A Python+JAX Package for the Cosmic Microwave Background Power Spectrum",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
-  },
-  {
-    "id": "2604.08506",
-    "title": "Vesmírný šum černých děr: Nejsilnější gravitační vlny přehluší zbytek",
-    "summary": "Astrofyzici zkoumali pozadí gravitačních vln, které napříč vesmírem vytvářejí obíhající dvojice supermasivních černých děr. Nová studie ukazuje, že tento vesmírný šum neodpovídá běžnému gaussovskému rozdělení, ale obsahuje takzvaný těžký chvost. V praxi to znamená, že výslednému signálu nedominují nesčetné slabé zdroje, ale několik nejvýraznějších dvojic. Tento fakt matematicky komplikuje vyhodnocování dat z pulzarových sítí. Autoři však představili elegantní aproximaci, která dovoluje tyto odchylky účinně propojit se stávajícími statistickými modely. Proč je to zajímavé: Objev přináší zásadní metodický nástroj, který vědcům umožní z měření gravitačních vln spolehlivěji rekonstruovat historii slučování obřích černých děr v centrech galaxií.",
-    "url": "https://arxiv.org/abs/2604.08506",
-    "source": "arXiv",
-    "original_title": "The Heavy Tailed Non-Gaussianity of the Supermassive Black Hole Gravitational Wave Background",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
-  },
-  {
-    "id": "2604.27496",
-    "title": "Prvotní černé díry jako temná hmota: Nové výpočty z období inflace",
-    "summary": "Vědci přezkoumali vznik prvotních černých děr během kosmické inflace za přítomnosti rozkmitaných kalibračních polí. Díky přesnějším numerickým výpočtům a pokročilé statistice hustotních odchylek ukázali, že prvotní černé díry s hmotností srovnatelnou s asteroidy mohou plně vysvětlit veškerou temnou hmotu ve vesmíru. Tento teoretický model zůstává spolehlivý i při velmi slabé zpětné vazbě na inflaton. Vznik těchto černých děr navíc nevyhnutelně generuje charakteristické pozadí gravitačních vln. Budoucí vesmírná observatoř LISA tak bude moci tato vlnění změřit a pomoci nám nepřímo odhalit vlastnosti raného vesmíru. Proč je to zajímavé: Studie ukazuje, že záhadu temné hmoty bychom mohli rozluštit pomocí zachycení gravitačních vln z prvních okamžiků vesmíru.",
-    "url": "https://arxiv.org/abs/2604.27496",
-    "source": "arXiv",
-    "original_title": "Revisiting primordial black hole dark matter from axion inflation",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T07:52:38.629709+00:00"
   },
   {
     "id": "2609.13140",

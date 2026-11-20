@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-20",
+    "title": "V-G-R",
+    "caption": "Explanation: On November 17, fans of interstellar spaceflight around planet Earth were invited to shine a message into the night sky. Traced by a flashlight beam switched on and off, the dashes and dots of a Morse code message captured in this time exposure from the Emirates Astronomical Observatory, are read V-G-R. That's a call sign for the Voyager 1 spacecraft currently in interstellar space some 26 billion kilometers away. How long did it take the message to reach humanity's most distant interstellar spacecraft ? Traveling at the speed of light, the answer is one day . In fact, the Voyager 1 spacecraft was confirmed to reach its one light-day distance milestone on November 18, at 10:16:07 UTC, nearly 50 years after launch in 1977. For extra credit, fans of math can calculate that at on",
+    "thumb": "assets/gallery/apod-2026-11-20.jpg",
+    "image": "assets/gallery/apod-2026-11-20.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
+    "published": "2026-11-20",
+    "credit": "Apostolos Kyriazis",
+    "creator": {
+      "@type": "Person",
+      "name": "Apostolos Kyriazis"
+    },
+    "copyrightNotice": "Apostolos Kyriazis",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
+    "original_title": "V-G-R",
+    "lang": "en",
+    "needs_translation": true,
+    "inserted_at": "2026-11-20T08:30:30.422878+00:00"
+  },
+  {
     "id": "apod-2026-11-19",
     "title": "Mlhoviny Koňská hlava a Plamen",
     "caption": "Dnešní snímek připomínající obraz zachycuje jasnou modrou hvězdu Alnitak z Orionova pásu i ikonickou temnou mlhovinu Koňská hlava, vzdálenou přibližně 1 500 světelných let. Siluetu hlavy koně tvoří prach a plyn stínící červeně zářící vodík, zatímco vlevo se rozprostírá oranžová mlhovina Plamen s temnými vlákny. Blíže ke Koňské hlavě se nachází modrá reflexní mlhovina NGC 2023, v níž aktivně vznikají nové hvězdy.",
