@@ -4304,7 +4304,7 @@
       },
       {
         "heading": "Datovaný přehled podle typu hostitele",
-        "body": "Každá planeta je zařazena do jedné skupiny. Podíly mají společný základ **všech 6 451 planet**.\n\n**U 4 034 z celkových 6 451 planet chybí v použité tabulce spektrální označení hostitelské hvězdy.** Proto je nemůžeme zařadit do skupin F, G, K či M, přestože o jejich hvězdách mohou být známé jiné vlastnosti. Velikost této skupiny vypovídá o úplnosti katalogových údajů. Nejdelší sloupec grafu tak ukazuje chybějící údaj v našem podkladu, nikoli nejběžnější druh hvězdy. Pulsary jsme vyčlenili podle jejich archivních názvů, i když spektrální třídu uvedenou nemají.\n\nBílí trpaslíci a pulsary jsou společně vyčleněni jako hvězdné pozůstatky. Mezi další uvedené typy patří například hnědí trpaslíci a horký podtrpaslík. Všechny skupiny se sčítají do celku.",
+        "body": "Každá planeta je zařazena do jedné skupiny. Podíly mají společný základ **všech 6 451 planet**.\n\n**U 4 034 z celkových 6 451 planet chybí v použité tabulce spektrální označení hostitelské hvězdy.** Proto je nemůžeme zařadit do skupin F, G, K či M, přestože o jejich hvězdách mohou být známé jiné vlastnosti. Velikost této skupiny vypovídá o úplnosti katalogových údajů. Samostatný rámeček pod grafem ukazuje, u kolika planet tento katalogový údaj chybí. Pulsary jsme vyčlenili podle jejich archivních názvů, i když spektrální třídu uvedenou nemají.\n\nBílí trpaslíci a pulsary jsou společně vyčleněni jako hvězdné pozůstatky. Mezi další uvedené typy patří například hnědí trpaslíci a horký podtrpaslík. Všechny skupiny se sčítají do celku.",
         "table": {
           "caption": "Potvrzené planety podle typu hostitele — výřez NASA z 29. 10. 2026",
           "columns": [
