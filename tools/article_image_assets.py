@@ -5,7 +5,7 @@ import math
 import textwrap
 import urllib.request
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageOps
+from PIL import Image, ImageDraw, ImageOps, ImageFilter
 
 
 def font(size):
@@ -351,19 +351,52 @@ def diagram(entry):
         arrow(105,415,275,415,gold);circle(300,415,18,violet)
         text(90,465,'laser');text(350,150,'dvě kolmá ramena');text(575,455,'změna optických drah')
     elif kind=='chirp':
-        axes(xlabel='čas',ylabel='deformace')
+        axes(xlabel='čas',ylabel='poměrná změna délky')
         line([(150+i*2,310+(.06+i/500)**2*90*math.sin(i/20+i*i/1200)) for i in range(400)],blue)
-        text(320,125,'Před splynutím roste frekvence i amplituda.');text(200,490,'Ilustrační průběh; není záznam detektoru.')
+        text(320,125,'Před splynutím roste frekvence i amplituda.');text(200,490,'Ilustrační průběh bez měřítka.')
     elif kind=='gw-background':
-        axes(xlabel='frekvence',ylabel='hustota energie pozadí')
-        curve(lambda x:.15+.45*x,blue);curve(lambda x:.55*math.exp(-((x-.5)/.2)**2),gold)
-        text(240,110,'Možné příspěvky stochastického gravitačního pozadí')
-        text(220,490,'Kvalitativní modely; nikoli měření ani tepelné spektrum.')
+        text(65,110,'Slabé vlny z mnoha zdrojů se překrývají.',white)
+        waves=[lambda x: 22*math.sin(x/39),lambda x: 13*math.sin(x/17+1.2)]
+        for y,title,color,components in ((228,'Zdroj A',blue,waves[:1]),(327,'Zdroj B',gold,waves[1:]),(442,'Součet',violet,waves)):
+            text(65,y-14,title,color)
+            line([(245,y),(1090,y)],'#304e70',2)
+            line([(x,y-sum(f(x-245) for f in components)) for x in range(245,1091)],color,3)
+        text(1030,478,'čas')
+        text(65,520,'Názorný součet dvou vln. Skutečné pozadí může zahrnovat mnoho zdrojů.')
     elif kind=='binary':
-        for cx,cy in ((400,270),(800,340)):
-            circle(cx,cy,45,gold)
-            for r in (75,120,165): d.arc((cx-r,cy-r,cx+r,cy+r),20,300,fill=blue,width=3)
-        text(235,110,'Dvojice kompaktních objektů vyzařuje energii.');arrow(470,310,690,310,violet)
+        text(65,100,'Dvě černé díry obíhají kolem sebe a vysílají gravitační vlny.',white)
+        cx,cy=600,330
+        def mesh(r,a):
+            phase=r/14-2*a
+            h=34*(1-math.exp(-r/100))*math.sin(phase)
+            return (cx+r*math.cos(a),cy+.34*r*math.sin(a)-h)
+        glow=Image.new('RGB',im.size)
+        gd=ImageDraw.Draw(glow)
+        for r in range(58,470,10):
+            pts=[mesh(r,math.tau*i/192) for i in range(193)]
+            gd.line(pts,fill=(14,36,73) if r%40!=18 else (43,89,140),width=4)
+        from PIL import ImageChops
+        im=ImageChops.screen(im,glow.filter(ImageFilter.GaussianBlur(7)))
+        d=ImageDraw.Draw(im)
+        for r in range(58,470,10):
+            pts=[mesh(r,math.tau*i/192) for i in range(193)]
+            for i in range(192):
+                a=math.tau*i/192
+                q=(.5+.5*math.sin(r/14-2*a))**4*(1-.56*r/470)
+                color=(int(33+93*q),int(57+130*q),int(96+155*q))
+                d.line(pts[i:i+2],fill=color,width=2)
+        for i in range(28):
+            a=math.tau*i/28
+            line([mesh(r,a) for r in range(62,465,5)],'#2b4a68',1)
+        d.ellipse((525,289,675,350),outline=gold,width=2)
+        arrow(594,289,629,290,gold)
+        arrow(610,350,575,350,gold)
+        for x,y,r in ((550,298,21),(647,341,25)):
+            for rr in range(r+10,r,-1):
+                q=(r+11-rr)/10
+                d.ellipse((x-rr,y-rr,x+rr,y+rr),outline=(int(28+98*q),int(43+108*q),int(72+132*q)))
+            d.ellipse((x-r,y-r,x+r,y+r),fill='#030711',outline='#8acaff',width=2)
+        text(65,528,'Síť znázorňuje šíření deformace. Skutečná vlna se šíří prostorem.')
     elif kind=='polarization':
         for cx,cy,s in ((350,300,1),(850,300,-1)):
             circle(cx,cy,130)

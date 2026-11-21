@@ -2812,15 +2812,15 @@
   {
     "id": "schema-gravitacni-vlny-1",
     "topic": "gravitacni-vlny",
-    "title": "Dvojice kompaktních objektů",
+    "title": "Gravitační vlny od dvojice černých děr",
     "diagram": "binary",
     "generated": true,
     "kind": "vlastní schéma",
     "subtopics": [
       "general"
     ],
-    "alt": "Dvojice kompaktních objektů – vlastní kvalitativní schéma, nikoli pozorování",
-    "caption": "Dvojice kompaktních objektů: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "alt": "Gravitační vlny od dvojice černých děr – vlastní vysvětlující schéma",
+    "caption": "Prostorově zakreslená síť názorně ukazuje šíření deformace od dvojice obíhajících černých děr. Skutečné gravitační vlny se šíří trojrozměrným prostorem. Jde o kvalitativní ilustraci.",
     "credit": "Kosmologické novinky",
     "credit_links": [],
     "source": "https://kosmonovinky.cz/",
@@ -2830,15 +2830,15 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
     "verified_on": "2026-10-20",
-    "revision": 3,
+    "revision": 4,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
     "thumbnail_modifications": "zmenšení bez výřezu",
     "thumbnail": "assets/article-images/thumbs/schema-gravitacni-vlny-1.webp",
     "source_master": "assets/article-images/sources/schema-gravitacni-vlny-1.jpg",
-    "source_pixel_sha256": "c43bdaa4c82971a09e771d76c73d022630fe8bc9438fb4d96b2ca8c886ae70a9",
-    "source_master_sha256": "503f9ea3552aabcf76098205dc0ff1ba7af30a60a7a2d32e57803d93c5242e7c",
+    "source_pixel_sha256": "922dd8862dddcfe418f037ab1f006c32169c9402af78364a05cb5b8debfb5faf",
+    "source_master_sha256": "a706048821c36f03cf8a3f5ca0696ad41971e6deec18a43ac51ece85d1d3af5a",
     "source_family": "own-diagram:binary",
     "creator": {
       "@type": "Organization",
@@ -2846,7 +2846,10 @@
       "url": "https://kosmonovinky.cz/"
     },
     "copyrightNotice": "Kosmologické novinky",
-    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "reference_urls": [
+      "https://dcc.ligo.org/public/0126/P1600161/013/BBHBasicsANDPFullAuth.pdf"
+    ]
   },
   {
     "id": "schema-gravitacni-vlny-2",
@@ -2859,7 +2862,7 @@
       "general"
     ],
     "alt": "Signál před splynutím – vlastní kvalitativní schéma, nikoli pozorování",
-    "caption": "Signál před splynutím: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "caption": "Ilustrační průběh před splynutím. Frekvence a amplituda poměrné změny délky rostou. Graf je bez měřítka.",
     "credit": "Kosmologické novinky",
     "credit_links": [],
     "source": "https://kosmonovinky.cz/",
@@ -2869,15 +2872,15 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
     "verified_on": "2026-10-20",
-    "revision": 3,
+    "revision": 4,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
     "thumbnail_modifications": "zmenšení bez výřezu",
     "thumbnail": "assets/article-images/thumbs/schema-gravitacni-vlny-2.webp",
     "source_master": "assets/article-images/sources/schema-gravitacni-vlny-2.jpg",
-    "source_pixel_sha256": "a448cf179f8863715437afd35fd6a9483259f667668b9321d8b8b8cf3f64de15",
-    "source_master_sha256": "3f57ea5867b309e599f7632dc7a8add4603f1d4fd22ba1a7d6eb59b5d8049ba0",
+    "source_pixel_sha256": "9919962d7551a3c003935de30a0ab4e0506db53fc66d369ed744857c2d3c3723",
+    "source_master_sha256": "7bfd31beb38909d1e93af58497d265ac65105bdae0cae563fa5d037060d2c474",
     "source_family": "own-diagram:chirp",
     "creator": {
       "@type": "Organization",
@@ -2885,7 +2888,10 @@
       "url": "https://kosmonovinky.cz/"
     },
     "copyrightNotice": "Kosmologické novinky",
-    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "reference_urls": [
+      "https://ligo.org/science-summaries/GW150914CBC/"
+    ]
   },
   {
     "id": "schema-gravitacni-vlny-interferometer",
@@ -3086,15 +3092,15 @@
   {
     "id": "schema-gravitacni-vlny-spectrum",
     "topic": "gravitacni-vlny",
-    "title": "Spektrum stochastického pozadí",
+    "title": "Jak vzniká pozadí gravitačních vln",
     "diagram": "gw-background",
     "generated": true,
     "kind": "vlastní schéma",
     "subtopics": [
       "general"
     ],
-    "alt": "Spektrum stochastického pozadí – vlastní kvalitativní schéma, nikoli pozorování",
-    "caption": "Spektrum stochastického pozadí: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "alt": "Jak vzniká pozadí gravitačních vln – vlastní vysvětlující schéma",
+    "caption": "Názorný součet dvou signálů v čase. Podobně se překrývají signály mnoha vzdálených zdrojů a mohou přispívat k pozadí gravitačních vln.",
     "credit": "Kosmologické novinky",
     "credit_links": [],
     "source": "https://kosmonovinky.cz/",
@@ -3104,15 +3110,15 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
     "verified_on": "2026-10-20",
-    "revision": 3,
+    "revision": 4,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
     "thumbnail_modifications": "zmenšení bez výřezu",
     "thumbnail": "assets/article-images/thumbs/schema-gravitacni-vlny-spectrum.webp",
     "source_master": "assets/article-images/sources/schema-gravitacni-vlny-spectrum.jpg",
-    "source_pixel_sha256": "cd803d89a839663a21afc6713afaa612d3abc8acc85c27c26aab9837582af09d",
-    "source_master_sha256": "3337b8f33e68aab8f052c019a6b98baa283f48b6952b1452ff700524b99e076d",
+    "source_pixel_sha256": "aa5c160a8b9cf1f8e3706d3d04adba477605e0b5a5bb442074ff93cb43d6eb56",
+    "source_master_sha256": "c75b4fad4c297d33cb1a817604bbc6206d0c1fa98447a020bb644c70af613b04",
     "source_family": "own-diagram:gw-background",
     "creator": {
       "@type": "Organization",
@@ -3120,7 +3126,10 @@
       "url": "https://kosmonovinky.cz/"
     },
     "copyrightNotice": "Kosmologické novinky",
-    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "reference_urls": [
+      "https://ligo.org/science-summaries/O4bc1_stoch_isotropic/"
+    ]
   },
   {
     "id": "schema-relictni-zareni-1",
@@ -5815,7 +5824,7 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
     "verified_on": "2026-10-25",
-    "revision": 1,
+    "revision": 2,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -5829,7 +5838,7 @@
     "source_id": "own-diagram:edu-gw-stretch",
     "source_family": "own-diagram:edu-gw-stretch",
     "alt": "Jak gravitační vlna mění vzdálenosti – vlastní vysvětlující schéma",
-    "caption": "Dvě opačné fáze plusové polarizace gravitační vlny působící na kruh volných testovacích částic. Kresba je pohledem kolmo ke směru šíření; deformace jsou pro názornost silně zvětšené. Nejde o změnu velikosti samotných částic ani o naměřená data.",
+    "caption": "Tři příčné řezy ukazují v jednom okamžiku různé fáze plusové polarizace gravitační vlny. Žluté body jsou volné testovací částice. Jejich vzájemné vzdálenosti se mění kolmo ke směru šíření. Změny jsou silně zvětšené.",
     "thumbnail": "assets/article-images/thumbs/schema-vlna-protazeni.webp",
     "source_master": "assets/article-images/sources/schema-vlna-protazeni.jpg",
     "match_keywords": [],
@@ -6015,7 +6024,7 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
     "verified_on": "2026-10-25",
-    "revision": 1,
+    "revision": 2,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -6029,12 +6038,13 @@
     "source_id": "own-diagram:edu-multimessenger",
     "source_family": "own-diagram:edu-multimessenger",
     "alt": "Jedna událost, různé přicházející signály – vlastní vysvětlující schéma",
-    "caption": "Zjednodušené pořadí příchodu a rozpoznání signálů události GW170817: gravitační vlny, gama záblesk přibližně o 1,7 sekundy později a následně nalezený optický protějšek. Časové rozestupy na obrázku nejsou v měřítku; různá elektromagnetická pásma byla sledována také další dny a týdny.",
+    "caption": "Událost GW170817. Gama záblesk byl zachycen přibližně 1,7 sekundy po gravitačním signálu. Optický protějšek astronomové objevili přibližně po 11 hodinách. Časové rozestupy nejsou v měřítku.",
     "thumbnail": "assets/article-images/thumbs/schema-gw170817-signaly.webp",
     "source_master": "assets/article-images/sources/schema-gw170817-signaly.jpg",
     "match_keywords": [],
     "reference_urls": [
-      "https://ligo.org/science-summaries/gw170817grb/"
+      "https://ligo.org/science-summaries/gw170817grb/",
+      "https://ligo.org/science-summaries/GW170817MMA/"
     ],
     "manual_only": true,
     "creator": {
@@ -6169,7 +6179,7 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
     "verified_on": "2026-10-25",
-    "revision": 1,
+    "revision": 2,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -6183,7 +6193,7 @@
     "source_id": "own-diagram:edu-ligo-paths",
     "source_family": "own-diagram:edu-ligo-paths",
     "alt": "Jak laserový interferometr porovnává dvě ramena – vlastní vysvětlující schéma",
-    "caption": "Princip dělení laserového světla do dvou kolmých ramen, jeho návratu a porovnání v detektoru. Změna optických drah mění výslednou interferenci. Není to úplný výkres LIGO, Virgo ani KAGRA: optické dutiny, další zrcadla a jejich skutečné rozměry jsou vynechány.",
+    "caption": "Laserové světlo se rozdělí do dvou stejně dlouhých kolmých ramen. Světlo odražené od zrcadel se znovu spojí u děliče a fotodetektor měří výslednou interferenci. Optické dutiny ani další zrcadla nejsou zakreslené.",
     "thumbnail": "assets/article-images/thumbs/schema-interferometr-mereni.webp",
     "source_master": "assets/article-images/sources/schema-interferometr-mereni.jpg",
     "match_keywords": [],

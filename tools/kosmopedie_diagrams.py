@@ -78,13 +78,30 @@ def diagram(entry):
         return batch5_diagram(entry)
     c = Canvas(entry['title']); k = entry['diagram']
     if k == 'edu-gw-stretch':
-        c.text(65, 90, 'Průchod vlny střídavě mění vzdálenosti volně se pohybujících částic.', WHITE, 24)
-        for cx, rx, ry, label in ((220, 92, 92, 'výchozí kruh'), (600, 145, 62, 'jedna fáze'), (980, 62, 145, 'opačná fáze')):
-            for n in range(20):
-                a = math.tau*n/20; c.circle(cx+rx*math.cos(a), 320+ry*math.sin(a), 6, GOLD, GOLD, 1)
-            c.text(cx-100, 490, label, MUTED, 23)
-        c.arrow(345, 320, 415, 320); c.arrow(780, 320, 850, 320)
-        c.text(70, 540, 'Pohled kolmo ke směru šíření; deformace je silně zvětšená.', MUTED, 22)
+        c.text(65, 90, 'Vlna střídavě prodlužuje vzdálenosti v jednom směru a zkracuje je v kolmém směru.', WHITE, 24)
+        c.arrow(130,170,1045,170,BLUE)
+        c.text(735,135,'směr šíření vlny',BLUE,22)
+        def section(cx,rx,ry,u,v):
+            return cx+rx*u,320+ry*v+0.30*rx*u
+        points=[]
+        for cx,rx,ry,label in ((220,92,92,'kruhový průřez'),(600,120,64,'jedna fáze'),(980,64,120,'opačná fáze')):
+            for v in (-.60,-.30,0,.30,.60):
+                u=math.sqrt(1-v*v)*.93
+                c.line([section(cx,rx,ry,-u,v),section(cx,rx,ry,u,v)],GRID,2)
+            for u in (-.60,-.30,0,.30,.60):
+                v=math.sqrt(1-u*u)*.93
+                c.line([section(cx,rx,ry,u,-v),section(cx,rx,ry,u,v)],GRID,2)
+            ring=[section(cx,rx,ry,math.cos(math.tau*n/80),math.sin(math.tau*n/80)) for n in range(81)]
+            points.append(ring)
+            c.line(ring,BLUE,2)
+            for x,y in ring[:-1:4]:
+                c.circle(x,y,6,GOLD,GOLD,1)
+            c.text(cx-100,490,label,MUTED,23)
+        for index in (0,20,40,60):
+            p=[ring[index] for ring in points]
+            for a,b in zip(p,p[1:]):
+                c.line([a,b],GRID,1)
+        c.text(70,540,'Tři řezy v témže okamžiku. Změny vzdáleností jsou silně zvětšené.',MUTED,22)
     elif k == 'edu-dark-comparison':
         for x, label, color in ((60, 'Temná hmota', BLUE), (650, 'Temná energie', VIOLET)):
             c.box(x, 100, x+490, 505, color)
@@ -123,16 +140,16 @@ def diagram(entry):
         c.text(460, 440, 'horký plyn', '#ffb39c', 25)
         c.paragraph(65, 505, 'Modře: hlavní koncentrace hmotnosti odvozené z čočkování. Ilustrace principu, nikoli mapa Bullet Clusteru.', 1060, MUTED, 21)
     elif k == 'edu-multimessenger':
-        c.text(65, 90, 'GW170817 · příchod signálů na Zemi · 17. srpna 2017', WHITE, 25)
+        c.text(65, 90, 'GW170817 · pořadí zachycení a objevu · 17. srpna 2017', WHITE, 25)
         for x, num, title, body, color in ((65,'1','Gravitační vlny','Splynutí neutronových hvězd',BLUE),
                                           (450,'2','Gama záblesk','Přibližně o 1,7 s později',GOLD),
-                                          (835,'3','Optický protějšek','Nalezen během dalších hodin',VIOLET)):
+                                          (835,'3','Optický protějšek','Objeven asi 11 hodin po signálu',VIOLET)):
             c.box(x, 200, x+300, 450, color)
             c.circle(x+45, 245, 23, color); c.text(x+37, 227, num, color, 27)
             c.paragraph(x+20, 300, title, 260, color, 26)
             c.paragraph(x+20, 365, body, 260, WHITE, 23)
         c.arrow(380, 320, 430, 320); c.arrow(765, 320, 815, 320)
-        c.text(65, 515, 'Časové rozestupy nejsou v měřítku; další pásma byla sledována i dny a týdny.', MUTED, 21)
+        c.text(65, 515, 'Časové rozestupy nejsou v měřítku. Pozorování pokračovala další dny a týdny.', MUTED, 21)
     elif k == 'edu-transit':
         c.text(65, 90, 'Planeta před hvězdou → malý opakovaný pokles jasnosti', WHITE, 25)
         for x, px, label in ((230,-100,'před přechodem'),(600,0,'během přechodu'),(970,100,'po přechodu')):
@@ -160,19 +177,22 @@ def diagram(entry):
         c.paragraph(795, 400, 'Odhad centrální hmotnosti', 310, VIOLET, 25)
         c.text(65, 530, 'Idealizovaná dráha, nikoli měření hvězdy S2; měřítko a projekce jsou zjednodušené.', MUTED, 21)
     elif k == 'edu-ligo-paths':
-        c.text(65, 90, 'Dvě kolmá ramena porovnávají návrat světelných vln.', WHITE, 25)
-        c.line([(365,190),(365,425),(950,425)], BLUE, 7)
-        c.d.rectangle((340,175,390,190),fill=GOLD);c.d.rectangle((950,400,965,450),fill=GOLD)
-        c.d.polygon([(350,425),(365,410),(380,425),(365,440)],fill=VIOLET)
-        c.arrow(105,425,335,425,GOLD);c.text(105,460,'laser',GOLD,24)
-        c.arrow(365,395,365,230,BLUE);c.arrow(380,240,380,395,VIOLET)
-        c.arrow(420,410,900,410,BLUE);c.arrow(895,440,420,440,VIOLET)
-        c.arrow(365,450,365,510,GREEN);c.box(310,510,420,550,GREEN)
-        c.text(445,515,'detektor změny interference',GREEN,23)
-        c.text(430,205,'zrcadlo na konci ramena',GOLD,23)
-        c.text(530,365,'zrcadlo',GOLD,23);c.arrow(635,380,945,410,GOLD,2)
-        c.text(60,160,'Dělič světla',VIOLET,24);c.arrow(220,185,350,410,VIOLET,2)
-        c.text(65,555,'Princip; optické dutiny a další zrcadla nejsou zakreslené.',MUTED,18)
+        c.text(65, 90, 'Fotodetektor měří interferenci světla z obou ramen.', WHITE, 25)
+        c.line([(540,175),(540,420),(785,420)], GRID, 6)
+        c.d.rectangle((514,162,566,175),fill=GOLD)
+        c.d.rectangle((785,394,798,446),fill=GOLD)
+        c.arrow(530,389,530,190,BLUE)
+        c.arrow(550,190,550,389,BLUE)
+        c.arrow(566,410,771,410,BLUE)
+        c.arrow(771,430,566,430,BLUE)
+        c.d.polygon([(524,420),(540,404),(556,420),(540,436)],fill=VIOLET)
+        c.arrow(148,420,518,420,GOLD);c.text(148,452,'laser',GOLD,24)
+        c.text(265,318,'dělič světla',VIOLET,24);c.arrow(398,345,525,408,VIOLET,2)
+        c.text(586,150,'zrcadlo',GOLD,23)
+        c.text(819,406,'zrcadlo',GOLD,23)
+        c.arrow(540,444,540,506,GREEN);c.box(485,506,595,546,GREEN)
+        c.text(622,511,'fotodetektor',GREEN,23)
+        c.text(65,555,'Princip: optické dutiny a další zrcadla nejsou zakreslené.',MUTED,18)
     elif k == 'edu-neutron-capture':
         for x, color, title in ((65,BLUE,'Záchyt neutronu'),(655,VIOLET,'Přeměna beta minus')):
             c.box(x,125,x+485,495,color);c.text(x+25,150,title,color,27)
