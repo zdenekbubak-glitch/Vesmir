@@ -882,7 +882,7 @@
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/clanky/castice-z-tmaveho-sektoru-by-mohly-vysvetlit-zahadne-signaly-z-2611173281.html",
     "recorded_at": "2026-11-13T08:25:44.956120+00:00",
-    "last_check_attempt_at": "2026-11-20T08:32:39.839185+00:00",
+    "last_check_attempt_at": "2026-11-21T09:01:45.352243+00:00",
     "publication_check_result": "unavailable"
   },
   {
@@ -1123,8 +1123,42 @@
     "key": "bluesky_daily_87069b0c5b390896ef8f",
     "title": "Modré diskové galaxie se orientují tečně ke kosmickému slapovému poli",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n2pbqhws22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/clanky/modre-diskove-galaxie-se-orientuji-tecne-ke-kosmickemu-slapovemu-poli-2611265931.html",
-    "recorded_at": "2026-11-20T08:32:39.952587+00:00"
+    "recorded_at": "2026-11-20T08:32:39.952587+00:00",
+    "last_check_attempt_at": "2026-11-21T09:01:45.352243+00:00",
+    "publication_checked_at": "2026-11-21T09:01:45.352243+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_236031d409de1a7f84c1",
+    "title": "Vědci z Univerzity Britské Kolumbie (UBC) a Univerzity v Sheffieldu navrhují, že temná energie může vycházet ze známých zákonů částicové fyziky – konkrétně z kvantové chromodynamiky (QCD) popisující silnou jadernou interakci. https://t.co/yPVYfluv0W",
+    "platform_id": "6b015df8d9cbb430a1325915",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-21T09:01:45.534411+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_c26217bcb4a42b6f20e7",
+    "title": "Vědec zkoumá černou díru. Temná hmota na dosah. https://t.co/Hy0FJKHAiw",
+    "platform_id": "6b015dfa20a2d09a0ae81d44",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-21T09:01:48.048116+00:00"
+  },
+  {
+    "source": "x",
+    "kind": "reply",
+    "key": "x_reply_e2e37388cd3f4f959838",
+    "title": "Pribeh o Karlovi Janskem. Asi jste o nem nidy neslyseli a ja vlastne do nedavna taky ne.  Jansky  pracoval v Bellovych laboratorich a je  vlastne  zakladatel radioastronomie a po prarodicich Cech, kdyby nezemrel v 45 , mozna by dostal Nobelovu cenu. Jansky v roce 1930 zkoumal, co https://t.co/OEVvi1",
+    "platform_id": "6b015dfdd9cbb430a1325dae",
+    "status": "draft",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-21T09:01:49.286429+00:00"
   }
 ]
