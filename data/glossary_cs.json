@@ -200,5 +200,20 @@
     ],
     "note": "Zkratka CIB. Používat i v titulcích a skloňovat podle věty.",
     "status": "approved"
+  },
+  {
+    "term": "radio telescope",
+    "preferred": "radioteleskop",
+    "variants": [
+      "rádioteleskop",
+      "rádioteleskopu",
+      "rádioteleskopem",
+      "rádioteleskopy",
+      "rádioteleskopů",
+      "rádioteleskopům",
+      "rádioteleskopech"
+    ],
+    "note": "Používat jednotně radioteleskop s krátkým a. Skloňovat podle věty.",
+    "status": "approved"
   }
 ]
