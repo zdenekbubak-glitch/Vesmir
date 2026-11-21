@@ -40,7 +40,7 @@ def _run_query(bearer: str, query: str, hours: int) -> list:
     params = {
         "query": query,
         "max_results": 30,
-        "tweet.fields": "created_at,public_metrics,author_id,text",
+        "tweet.fields": "created_at,public_metrics,author_id,text,attachments",
         "expansions": "author_id",
         "user.fields": "username,name",
     }
@@ -63,6 +63,7 @@ def _run_query(bearer: str, query: str, hours: int) -> list:
             "username": author.get("username", ""),
             "name": author.get("name", ""),
             "url": f"https://x.com/{author.get('username','')}/status/{t['id']}",
+            "has_media": bool((t.get("attachments") or {}).get("media_keys")),
             "likes": t.get("public_metrics", {}).get("like_count", 0),
         })
     return posts
@@ -148,17 +149,29 @@ def score_relevance(client, posts: list, recent_words=()) -> list:
         )
     scored = []
     for p in posts:
+        # This workflow reads the text, not the contents of attached media.
+        post_text = re.sub(r"https?://\S+", "", p["text"]).strip()
+        if len(re.findall(r"\b\w+\b", post_text)) <= 12 and (
+            p.get("has_media") or re.search(r"https?://t\.co/", p["text"])
+        ):
+            print(f"Vynechávám {p['id']}: krátký text závisí na nepřečtené příloze nebo odkazu.")
+            p.update(evaluated=True, relevant=False, score=0, reason="Nedostatečný samostatný kontext")
+            continue
         prompt = f"""Je tento český příspěvek na X vědecky relevantní pro kosmologii
 (černé díry, temná hmota/energie, gravitační vlny, neutronové hvězdy, reliktní záření,
 Hubbleovo napětí, inflace vesmíru, kvantová gravitace)?
-Metaforické použití („černá díra peněz“, politika, inflace ekonomická, vtipy) = NE.
+Vyžaduj konkrétní astronomický kontext přímo v textu, například popis měření, objektu,
+pozorování nebo fyzikálního jevu. Samotné výrazy „vědec“, „černá díra“ a „temná hmota“
+ani jejich kombinace ke kladnému hodnocení nestačí. Vtip, narážka, dvojsmysl a metafora = NE.
+Obsah obrázku, videa ani odkazu nemáš k dispozici. Pokud na něm význam závisí
+nebo může jít o slovní hříčku, vrať relevant=false. Stejně posuzuj citace i návrhy odpovědí.
 Odpověz pouze JSON: {{"relevant": true/false, "reason": "krátké zdůvodnění", "score": 0-10,
 "comment": "1-2 krátké české věty, přirozený komentář ke sdílení na X jako web Kosmonovinky; bez slov 'příspěvek', 'tento text', 'autor'; max 200 znaků; bez interních poznámek, skóre a označení 'k posouzení'"}}
 
 {style_hint}
 
 Příspěvek:
-{p['text'][:500]}
+{post_text[:1000]}
 """
         try:
             chat = client.chats.create(model=GEMINI_MODEL)

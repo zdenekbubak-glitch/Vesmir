@@ -188,5 +188,17 @@
     "variants": [],
     "note": "Schváleno v GitHub Issues.",
     "status": "approved"
+  },
+  {
+    "term": "cosmic infrared background",
+    "preferred": "kosmické infračervené pozadí",
+    "variants": [
+      "kosmové infračervené pozadí",
+      "kosmového infračerveného pozadí",
+      "kosmovém infračerveném pozadí",
+      "kosmovým infračerveným pozadím"
+    ],
+    "note": "Zkratka CIB. Používat i v titulcích a skloňovat podle věty.",
+    "status": "approved"
   }
 ]
