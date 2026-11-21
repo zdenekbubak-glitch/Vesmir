@@ -1,5 +1,89 @@
 [
   {
+    "id": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm",
+    "title": "Dvě hmotné hvězdy možná tajně krmí supermasivní černou díru Mléčné dráhy",
+    "summary": "Astronomové dohledali původ záhadných plynných oblaků v blízkosti supermasivní černé díry v centru Mléčné dráhy. Výzkum ukazuje, že tyto oblačné struktury pocházejí od hmotné dvojice hvězd.\n\nPodle vědců se hvězdné větry z obou hvězd – tedy intenzivní proudy plynu vyrážené z jejich povrchu – navzájem srážejí a patrně přitom vytvářejí husté shluky materiálu. Tyto mraky by podle navrženého scénáře mohly v budoucnu padat do centrální černé díry a krmit ji. Pozorování tak odhaluje překvapivou možnou souvislost mezi hvězdnou aktivitou a růstem obřích černých děr.\n\nProč je to zajímavé: Práce pomáhá odpovědět na otázku, jakým způsobem mohou supermasivní černé díry získávat plyn potřebný ke svému růstu. Ukazuje, že k jejich krmení by mohly přispívat i procesy, jako jsou srážky větrů v masivních dvojhvězdách.",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm",
+    "source": "RSS",
+    "original_title": "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
+    "published": "2026-11-20T05:41:16+00:00",
+    "inserted_at": "2026-11-21T08:25:40.077480+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.25871v1",
+    "title": "Vodík ve vláknech superkupy Shapley odhaluje proměnu galaxií",
+    "summary": "Astronomové zkoumali obsah neutrálního atomárního vodíku (v astronomii značovaného HI), který slouží jako hlavní palivo pro vznik hvězd, napříč superkupou Shapley při rudém posuvu z = 0,048 (měřítku kosmologické vzdálenosti). Využili k tomu nová pozorování z rádioteleskopu MeerKAT v pásmu L zaměřená na mezigalaktická vlákna, jež zkombinovali s archivní přehlídkou MeerKAT Galaxy Cluster Legacy Survey a optickými daty ze Shapley Supercluster Survey.\n\nVýzkum ukázal, že podíl galaxií s detekovaným vodíkem roste ze 30 % v hustém jádru superkupy na 45 % v okolních vláknech. V jádru kupy vodík postupně mizí a dominují zde systémy v přechodové zóně (ve fázi útlumu tvorby hvězd). Ve vláknech jsou však galaxie stále bohaté na plyn a dělí se napůl mezi přechodovou zónu a hlavní posloupnost tvorby hvězd (populaci s běžným tempem zrodu hvězd). Zdejší přeměna atomárního plynu na hvězdy je ale velmi neefektivní: u 71 % galaxií v přechodové zóně a 57 % galaxií bohatých na plyn přesahuje doba vyčerpání plynu Hubbleův čas (přibližný věk vesmíru). Pozorovaný vodík ve vláknech mají většinou galaxie pozdního typu (například spirální), zatímco galaxie bez detekovatelného vodíku jsou raného typu (eliptické), což dokládá vývoj galaxií vlivem prostředí ještě před jejich spadnutím do jádra.\n\nProč je to zajímavé: Práce pomáhá zodpovědět otázku, kde a jakým způsobem dochází k útlumu tvorby hvězd při přechodu galaxií z řídkého prostředí do obřích kup. Potvrzuje, že k tomuto procesu dochází významnou měrou již v mezigalaktických vláknech.",
+    "url": "http://arxiv.org/abs/2611.25871v1",
+    "source": "arXiv",
+    "original_title": "Neutral hydrogen in the Shapley Supercluster core II. Gas content and star formation in the filaments connecting the core",
+    "published": "2026-11-19T10:28:05+00:00",
+    "inserted_at": "2026-11-21T08:25:40.077480+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.25355v1",
+    "title": "Kosmové infračervené pozadí nastavuje limity pro prvotní černé díry",
+    "summary": "Vědci zkoumali kosmové infračervené pozadí (CIB) – slabé celooblohové infračervené záření pocházející z raného vesmíru – vytvořené v rámci scénáře vzniku supermasivních černých děr z prvotních hvězd populace III.1. V tomto modelu vznikají zárodky černých děr díky ohřevu anihilací temné hmoty, což je dosud neznámá forma hmoty, která neinteraguje se světlem a projevuje se gravitačně. Autoři vymodelovali záření těchto hvězd i doprovodné méně hmotné populace III.2 a porovnali jej s pozorovanými daty.\n\nPodle výsledků výpočtů tvoří kombinovaný příspěvek samotných hvězd méně než 1 % naměřených hodnot infračerveného pozadí. Převládajícím zdrojem signálu je záření akrečních disků černých děr v epoše s rudým posuvem z = 6 až 20, přičemž rudý posuv udává vzdálenost a stáří vesmíru na základě prodlužování vlnové délky světla. Pokud dosahuje průměrný Eddingtonův poměr λ_Edd ~ 0,01 (poměr zářivosti disku k teoretickému maximu vyváženému gravitací), záření akrece převyšuje hvězdnou složku. Nejnovější pozorování infračerveného pozadí tak pro uvažovaný reprezentativní model stanovují horní mez na λ_Edd ≲ 0,3.\n\nProč je to zajímavé:\nPráce pomáhá odpovědět na otázku, jakým způsobem v raném vesmíru vyrostly nejstarší supermasivní černé díry. Ukazuje totiž, že měření kosmového infračerveného pozadí dokáže vymezit teoretické scénáře jejich vzniku a omezit rychlost krmení těchto černých děr v obdobích s rudým posuvem 6 až 20.",
+    "url": "http://arxiv.org/abs/2611.25355v1",
+    "source": "arXiv",
+    "original_title": "The Cosmic Infrared Background from Population III.1 Supermassive Stars and Black Holes",
+    "published": "2026-11-19T01:50:13+00:00",
+    "inserted_at": "2026-11-21T08:25:40.077480+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.26411v1",
+    "title": "TRUFFLE: Rychlá výstraha pro sledování srážek obřích černých děr detektorem LISA",
+    "summary": "Vědci navrhli novou metodu strojového učení nazvanou TRUFFLE (Time-evolving Rapid Updates For Follow-up of LISA Events). Jejím cílem je poskytovat rychlá a průběžně aktualizovaná varování před srážkami masivních binárních černých děr, což jsou dvojice obřích černých děr obíhajících těsně kolem sebe. Tyto události bude pozorovat plánovaný kosmický detektor LISA (Laser Interferometer Space Antenna) měřením gravitačních vln, tedy vlnění časoprostoru.\n\nMetoda TRUFFLE využívá dvě specializované neuronové sítě rozlišené podle času zbývajícího do splynutí děr. Síť pro včasné varování působí v rozmezí 4 hodin až 2 dnů před srážkou a odhaduje hmotnosti i čas splynutí pro přípravu pozorování. Síť pro těsné splynutí funguje od 1 hodiny před srážkou do 4 hodin po ní a určuje devět parametrů včetně přesné polohy na obloze. Samotný výpočet neuronovou sítí trvá sekundy a následné zpřesnění zabere zhruba pět minut na jediné grafické kartě. V simulacích metoda poskytla nezkreslené výsledky i za přítomnosti rušivých překrývajících se signálů z jiných zdrojů.\n\nProč je to zajímavé: Klíčovou otevřenou otázkou je, zda dokážeme zachytit elektromagnetické záření ze srážky obřích černých děr v momentě jejich splynutí. Metoda TRUFFLE pomáhá tuto výzvu řešit tím, že dokáže včas předpovědět polohu zdroje na obloze, což astronomům umožní namířit klasické teleskopy ještě před samotnou srážkou.",
+    "url": "http://arxiv.org/abs/2611.26411v1",
+    "source": "arXiv",
+    "original_title": "Low-Latency Alerts of Massive Black Hole Binaries in LISA",
+    "published": "2026-11-19T16:59:35+00:00",
+    "inserted_at": "2026-11-21T08:25:40.077480+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.25823v1",
+    "title": "Test observatoře SKA ukázal úskalí i řešení při zkoumání raného vesmíru",
+    "summary": "Vědecká výzva Science Data Challenge 3b (SDC3b), organizovaná Observatoří Square Kilometre Array (SKAO), porovnala různé analytické postupy pro rekonstrukci epochy reionizace ze simulovaných dat budoucího obřího radioteleskopu. Epocha reionizace představuje období raného vesmíru, kdy záření prvních hvězd a galaxií ionizovalo okolní neutrální vodík. Šestnáct vědeckých týmů zpracovávalo simulovaná data a odvozovalo podíl neutrálního vodíku ve třech obdobích odpovídajících rudému posuvu od z = 8,41 do z = 6,25. Rudý posuv popisuje prodloužení vlnové délky světla rozpínáním vesmíru a slouží k určení vzdálenosti a stáří pozorovaného signálu.\n\nVýsledky odhalily výrazné rozdíly mezi odhady jednotlivých týmů, a to i v nejjednodušším scénáři zahrnujícím pouze přístrojový šum. To ukazuje, že na přesnost závěrů má značný vliv způsob modelování signálu, potlačení rušivých vlivů i samotný matematický postup výpočtu. Autoři však zjistili, že kombinovaný průměr odhadů ze všech metod se drží velmi blízko k původním zadaným hodnotám simulace.\n\nProč je to zajímavé: Otevřenou otázkou zůstává, jak přesně probíhala ionizace vodíku v raném vesmíru a do jaké míry mohou chyby v metodách zkreslit pozorování plánovaného radioteleskopu SKA. Výzkum ukazuje, že kombinace a průměrování různých nezávislých analytických přístupů dokáže kompenzovat specifické odchylky jednotlivých metod a zajistit spolehlivé určení vlastností raného vesmíru.",
+    "url": "http://arxiv.org/abs/2611.25823v1",
+    "source": "arXiv",
+    "original_title": "Square Kilometre Array Science Data Challenge 3b: EoR inference",
+    "published": "2026-11-19T09:41:15+00:00",
+    "inserted_at": "2026-11-21T08:25:40.077480+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.26305v1",
+    "title": "Rozpoznají nové teleskopy reliktního záření proměnlivou temnou energii?",
+    "summary": "Vědci v nové studii zkoumali pomocí Bayesovských simulací, zda chystané experimenty Simons Observatory (SO) a CMB-S4 dokážou rozlišit mezi standardním kosmologickým modelem ΛCDM a modelem s dynamickou temnou energií. Temná energie je neznámá složka zrychlující rozpínání vesmíru, která se od temné hmoty liší tím, že působí odpudivě a neshlukuje se. Autoři zjistili, že samotná nová pozorování reliktního záření (CMB) – nejstaršího záření ve vesmíru – k rozlišení těchto modelů nestačí.\n\nModel ΛCDM předpokládá neměnnou temnou energii a chladnou temnou hmotu, ale nedávná měření naznačila možnost, že se stavová rovnice temné energie mění v čase. Výzkumníci vytvořili simulovaná data pro přístroje SO a CMB-S4 a porovnali je s takzvaným „stínovým“ modelem ΛCDM, který zachovává parametr posunu R i první akustický pík reliktního záření. Ukázalo se, že kvůli geometrické degeneraci – situaci, kdy různé modely vesmíru vedou k prakticky stejnému pozorovanému obrazu CMB – neumí samotné experimenty SO a CMB-S4 proměnlivou temnou energii potvrdit ani vyvrátit. Předchozí odhady založené na Fisherově matici byly příliš optimistické, protože negaussovský charakter degenerace podcenily. Až po přidání dat o akustických baryonových oscilacích (BAO – otiscích zvukových vln v rozložení galaxií) a supernovách typu Ia při nízkém rudém posuvu (posunu vlnové délky světla k červenému konci spektra v důsledku rozpínání vesmíru) klesla nejistota na σ(w₀) ≈ 0,05 až 0,06. Výsledná preference proměnlivé temné energie však závisí na volbě dat BAO; například data ze přehlídky SDSS posouvají výsledky zpět ke standardnímu modelu ΛCDM.\n\nProč je to zajímavé:\nPráce odpovídá na otázku, zda ke zjištění případné proměnlivosti temné energie budou stačit samotná přesnější měření reliktního záření. Ukazuje, že k definitivnímu potvrzení nebo vyvrácení dynamické temné energie bude nutné zkombinovat pozorování reliktního záření s přesným měřením vzdáleností v nízkém rudém posuvu.",
+    "url": "http://arxiv.org/abs/2611.26305v1",
+    "source": "arXiv",
+    "original_title": "Can next generation CMB experiments discriminate between $Λ$CDM and dynamical dark energy? A Bayesian forecast for Simons Observatory and CMB-S4",
+    "published": "2026-11-19T15:54:44+00:00",
+    "inserted_at": "2026-11-21T08:25:40.077480+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.26230v1",
+    "title": "Jedno skalární pole pro ranou i pozdní temnou energii: Vyřeší rozpor v expanzi?",
+    "summary": "Vědci zkoumali, zda může jediný fyzikální mechanismus – kanonické skalární pole s potenciálem se dvěma mocninami – vysvětlit zrychlené rozpínání vesmíru v jeho rané i pozdní fázi. V tomto modelu v raném vesmíru nejprve převládá příkrý člen s kladnou mocninou, který vytvoří raný vrcholek v hustotě energie, zatímco později dominanci přebírá člen s inverzní mocninou, který pohání dnešní zrychlenou expanzi.\n\nAutoři model porovnali s měřeními reliktního záření (CMB), baryonovými akustickými oscilacemi z přehlídky DESI a daty o supernovách z katalogu Pantheon+ s kalibrací vzdáleností z projektu SH0ES. Oproti standardnímu plochému modelu ΛCDM dosáhl nový model lepší shody s daty o Δχ² = −6,90 (respektive o Δχ² = −3,76 při započtení penalizace za dodatečné parametry). Model dává hodnotu rychlosti rozpínání H₀ = 69,53 ± 0,26 km/s/Mpc oproti 68,45 ± 0,24 km/s/Mpc u modelu ΛCDM. Tento posun sice přibližuje odhadovanou hodnotu k lokálním měřením z projektu SH0ES, ale existující rozpor v rychlosti expanze významně neřeší.\n\nTemná energie je neviditelná složka vesmíru, která způsobuje zrychlování jeho rozpínání a na rozdíl od temné hmoty nepůsobí přitažlivou gravitační silou na shlukování struktur. Reliktní záření (CMB) představuje nejstarší elektromagnetické záření přicházející z období 380 tisíc let po velkém třesku. Plochý model ΛCDM je standardní kosmologický model předpokládající nulovou zakřivenost časoprostoru, neměnnou temnou energii a chladnou temnou hmotu.\n\nProč je to zajímavé: Výzkum se zabývá konkrétní otázkou, zda je možné sjednotit ranou a pozdní temnou energii do jediného skalárního pole. Ukazuje, že ačkoliv tento teoretický koncept mírně zlepšuje shodu s kosmologickými daty a posouvá odhadovanou rychlost expanze směrem k měřením ze SH0ES, k úplnému vyřešení rozporu v hodnotě Hubbleovy konstanty pravděpodobně sám o sobě nestačí.",
+    "url": "http://arxiv.org/abs/2611.26230v1",
+    "source": "arXiv",
+    "original_title": "Two powers, one scalar field: unified early and late dark energy",
+    "published": "2026-11-19T15:04:46+00:00",
+    "inserted_at": "2026-11-21T08:25:40.077480+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2611.26593v1",
     "title": "Modré diskové galaxie se orientují tečně ke kosmickému slapovému poli",
     "summary": "Astrofyzici dlouhodobě zkoumají, jak se orientace tvarů galaxií uspořádávají vůči sobě navzájem i vůči velkorozměrové struktuře vesmíru. Vědci v nové studii zkombinovali spektrofotometrii ze satelitu SPHEREx a přehlídku DESI Legacy Imaging Surveys, čímž vytvořili celooblohový katalog 71 milionů galaxií s odhady rudého posuvu.\n\nAstronomové sledovali, jak jsou galaxie natočené při pohledu ze Země. U každé dvojice si pomyslně spojili středy galaxií a podívali se, jak je vůči této spojnici natočená delší osa jedné z nich. Pokud vede podél spojnice, jde o radiální zarovnání. Pokud ji kříží v pravém úhlu, jde o tečné zarovnání. Jednotlivé galaxie mohou být natočené pod různými úhly. Studie zjišťovala, ke které orientaci mají v průměru blíž.\n\nDíky tomuto katalogu výzkumníci zjistili, že modré diskové galaxie vykazují tečné zarovnání vůči kosmickému slapovému poli se statistickou významností 22,5σ. Kosmické slapové pole představuje prostorově se měnící gravitační síly vyvolané nerovnoměrným rozložením hmoty ve vesmíru, které deformují okolní objekty. U červených sféroidních galaxií vědci současně potvrdili radiální zarovnání na úrovni 65σ. Měřením signálu v oblastech s vyšší i nižší hustotou hmoty ukázali, že reakce galaxií závisí na měřítku i prostředí a odpovídá lineární odezvě na slapové pole. Výsledek tak vylučuje čistě kvadratickou odezvu v gaussovském slapovém poli, kterou předpovídala klasická teorie slapového momentu.\n\nZarovnání galaxií představuje významný systematický rušivý efekt pro měření pomocí slabého gravitačního čočkování, tedy metody zkoumající jemné deformace obrazů vzdálených galaxií způsobené gravitací vložené hmoty. Výzkum tak pomůže zpřesnit kosmologická pozorování i teoretické modely vzniku a vývoje galaxií.\n\nProč je to zajímavé: Detekce tečného zarovnání u modrých galaxií vyvrací dosavadní teoretické předpoklady a přináší přesnější pohled na to, jak gravitační působení velkorozměrových struktur utváří galaxie.",
@@ -5829,76 +5913,6 @@
     "original_title": "Consistent treatment of flavour-specific neutrino self-interactions in cosmology",
     "published": "2026-09-15T04:00:00+00:00",
     "inserted_at": "2026-09-15T07:13:57.211166+00:00"
-  },
-  {
-    "id": "2607.18441",
-    "title": "Odhalí Einsteinův teleskop kosmické struny pomocí gravitačních vln?",
-    "summary": "Kosmické struny představují dosud nepotvrzené topologické poruchy z raného vesmíru. Tyto extrémně husté útvary dokážou ohýbat světlo i gravitaci, čímž fungují jako gravitační čočky. Nová studie zkoumá, zda by chystaný obří detektor Einstein Telescope (ET) dokázal kosmické struny zachytit právě díky ohybu gravitačních vln. Vědci s využitím vlnové optiky a simulací splynutí kompaktních objektů prokázali, že struny zanechávají v průběhu gravitačních vln charakteristické a dobře měřitelné změny. Většina simulovaných událostí spadá do detekčního rozsahu ET, což umožňuje i přesný odhad fyzikálních parametrů strun. Proč je to zajímavé: Detekce kosmických strun by přinesla přímé svědectví o procesech v prvních zlomcích sekundy po velkém třesku a potvrdila novou fyziku za hranicemi Standardního modelu.",
-    "url": "https://arxiv.org/abs/2607.18441",
-    "source": "arXiv",
-    "original_title": "Detection of cosmic strings by gravitational wave lensing. Predictions for Einstein Telescope",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
-  },
-  {
-    "id": "2608.26920",
-    "title": "Kosmická inflace s hrboly: Jak vznik částic tvoří prvotní černé díry",
-    "summary": "Raná kosmická inflace, během níž se vesmír v prvních okamžicích překotně rozpínal, mohla mít dočasné překážky. Teoretičtí fyzici odvodili model, v němž inflatonové pole při dosažení kritické hodnoty zbaví spřažené vedlejší pole hmotnosti. To vyvolá explozivní vznik nových částic, jehož zpětná reakce vytvoří v potenciálu inflatonu výrazný „hrbol“. Tento jev prudce zesiluje zakřivení prostoročasu a hustotní poruchy v raném vesmíru. Výsledkem může být formování prvotních černých děr a vytvoření stochastického pozadí gravitačních vln. Proč je to zajímavé: Mechanismus propojuje mikrosvět kvantové fyziky s obřími strukturami vesmíru a nabízí elegantní způsob, jak přímo testovat teoretické modely inflace pomocí dnešních detektorů gravitačních vln.",
-    "url": "https://arxiv.org/abs/2608.26920",
-    "source": "arXiv",
-    "original_title": "Bumpy inflation from explosive particle production",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
-  },
-  {
-    "id": "2510.17125",
-    "title": "Od hvězd ke vlnám: Jak odhalit mikročočkování gravitačních vln",
-    "summary": "Když silně zakřivené gravitační vlny procházejí galaxiemi, jejich tvar mohou dodatečně ovlivnit jednotlivé hvězdy či jejich pozůstatky. Tento jev, zvaný gravitační mikročočkování, mění fázi i amplitudu signálu. Protože efekt závisí na polohách a hmotnostech tisíců hvězd, je jeho přesný výpočet tradičními metodami prakticky nemožný. Vědci proto navrhli nový přístup využívající pokročilé strojové učení. Ukázali, že v éře detektorů třetí generace bude možné spolehlivě zachytit přibližně 8 % takto deformovaných událostí a propojit je s hustotou hvězdného prostředí. Proč je to zajímavé: Tato metoda neotevírá pouze dveře k detailnímu průzkumu vzdálených hvězdných populací, ale lze ji použít i pro analýzu dalších složitých kosmických signálů, například z fází po splynutí neutronových hvězd.",
-    "url": "https://arxiv.org/abs/2510.17125",
-    "source": "arXiv",
-    "original_title": "From Stars to Waves: Non-deterministic Inference of Microlensed Gravitational Waves",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
-  },
-  {
-    "id": "2601.11704",
-    "title": "Vesmírná lupa odhalila hvězdu Hedorah: První žlutý veleobr v raném vesmíru",
-    "summary": "Díky gravitační čočce v podobě galaktické kupy AS1063 a datům z Vesmírného dalekohledu Jamese Webba se astronomům podařilo nahlédnout do hlubokého vesmíru s nebývalým detailem. Vědci zpřesnili model čočkování a v silně zvětšených obrazech odhalili pozoruhodné objekty. Nejvýznamnějším z nich je kandidát na jednotlivou hvězdu přezdívanou Hedorah. Jde o vůbec prvního žlutého veleobra zachyceného při rudém posuvu z = 3,7, tedy v době, kdy měl vesmír zhruba jen dvě miliardy let. Data navíc odhalila i extrémně vzdálenou galaxii z ještě ranější epochy. Proč je to zajímavé: Pozorování jednotlivých hvězd na tak obrovské vzdálenosti nám umožňuje přímo zkoumat fyzikální vlastnosti a životní cyklus hmotných hvězd v mladém vesmíru.",
-    "url": "https://arxiv.org/abs/2601.11704",
-    "source": "arXiv",
-    "original_title": "Hedorah, the first yellow supergiant Kaiju star candidate at $z=3.7$ revealed by JWST behind AS1063",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
-  },
-  {
-    "id": "2601.18578",
-    "title": "Jak temná hmota utváří plyn ve vesmíru? Odpověď přináší simulace AIDA-TNG",
-    "summary": "Standardní model chladné temné hmoty funguje skvěle, avšak samotné částice se stále nedaří zachytit. Astronomové proto pomocí simulací AIDA-TNG testovali, jak rozložení plynu a neutrálního vodíku ovlivňují alternativní modely, jako je teplá či samovazebná temná hmota. Výsledky ukazují, že rozdíly mezi modely jsou překvapivě malé. Klíčovou roli v utváření plynu totiž hraje zpětná vazba z aktivních galaktických jader, tedy činnost obřích černých děr, která efekty temné hmoty většinou přebíjí. Pouze u nejmasivnějších galaktických kup vede samovazebná temná hmota ke snížení teploty plynu v jejich středu. Proč je to zajímavé: Ukazuje se, že pro odhalení podstaty temné hmoty musíme nejdříve dokonale porozumět vlivu supermasivních černých děr.",
-    "url": "https://arxiv.org/abs/2601.18578",
-    "source": "arXiv",
-    "original_title": "Gas distributions inside and around haloes in the alternative dark matter simulations AIDA-TNG",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
-  },
-  {
-    "id": "2609.12019",
-    "title": "Černé díry v rozpínajícím se vesmíru a jejich skrytá geometrie",
-    "summary": "Sultana-Dyerův časoprostor popisuje teoretický model černé díry umístěné v rozpínajícím se vesmíru. Nová studie zkoumá jeho geometrické vlastnosti pomocí takzvaných Yamabeho solitonů, které popisují vývoj zakřivení časoprostoru. Autoři ukázali, že časový vývoj úzce souvisí s rozložením hmoty a záření. Když však model přizpůsobili zrychlujícímu se rozpínání vesmíru v jeho pozdních fázích, zjistili, že dochází k porušení standardních energetických podmínek. To naznačuje, že dynamika kosmické expanze zásadně ovlivňuje fyzikální chování černých děr. Proč je to zajímavé: Práce propojuje pokročilou diferenciální geometrii s kosmologií a ukazuje, že černé díry v reálném vesmíru mohou vyžadovat exotické formy energie, které neodpovídají běžné hmotě.",
-    "url": "https://arxiv.org/abs/2609.12019",
-    "source": "arXiv",
-    "original_title": "Sultana--Dyer Black Hole Spacetime and $h$-Almost Yamabe Solitons",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
-  },
-  {
-    "id": "2609.12052",
-    "title": "Obří mračna u černých děr: Nový způsob, jak odhalit tajemné částice",
-    "summary": "Rotující černé díry mohou kolem sebe vytvářet obří mračna z extrémně lehkých hypotetických částic. Tento jev, známý jako superradiance, funguje v hustých jádrech galaxií jako efektivní brzdný mechanismus. Mračna odvádějí energii při blízkých Průletech černých děr, čímž výrazně urychlují vznik jejich těsných dvojic a následné srážky. Autoři studie ukazují, že analýzou gravitačních vln ze srážek s výrazně odlišnými hmotnostmi černých děr (s poměrem pod 3:10) v katalogu GWTC-5 lze testovat existenci těchto částic v rozsahu hmotností 4×10⁻¹⁴ až 10⁻¹³ eV. Tato metoda účinně doplňuje dosavadní přístupy založené na přímém měření rotace. Proč je to zajímavé: Výzkum nabízí elegantní způsob, jak z pozorování srážek černých děr získat informace o dosud neobjavených částicích, které by mohly tvořit temnou hmotu.",
-    "url": "https://arxiv.org/abs/2609.12052",
-    "source": "arXiv",
-    "original_title": "Constraining Ultralight Scalars with Black Hole Binary Mergers in Galactic Nuclei",
-    "published": "2026-09-14T04:00:00+00:00",
-    "inserted_at": "2026-09-14T22:05:57.344606+00:00"
   },
   {
     "id": "2609.13140",

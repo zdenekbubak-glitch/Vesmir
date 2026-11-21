@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-21",
+    "title": "Voyagerův Neptun",
+    "caption": "Sonda Voyager 2 se 25. srpna 1989 stala jedinou sondou, která navštívila nejvzdálenějšího ledového obra Neptun. Tato úchvatná kompozice ze snímků pořízených při průletu zachycuje z pohledu zpět ke Slunci planetu i její největší měsíc Triton jako tenké srpky, společně s řasovitými mraky a slabým systémem prstenců.",
+    "thumb": "assets/gallery/apod-2026-11-21.jpg",
+    "image": "assets/gallery/apod-2026-11-21.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
+    "published": "2026-11-21",
+    "credit": "Assembly/Processing - Rolf Olsen , Data - Voyager 2 , NASA Planetary Data System",
+    "creator": {
+      "@type": "Organization",
+      "name": "Assembly/Processing - Rolf Olsen , Data - Voyager 2 , NASA Planetary Data System"
+    },
+    "copyrightNotice": "Assembly/Processing - Rolf Olsen , Data - Voyager 2 , NASA Planetary Data System",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
+    "original_title": "Voyager&#039;s Neptune",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-21T08:27:56.833358+00:00"
+  },
+  {
     "id": "apod-2026-11-20",
     "title": "V-G-R",
     "caption": "Explanation: On November 17, fans of interstellar spaceflight around planet Earth were invited to shine a message into the night sky. Traced by a flashlight beam switched on and off, the dashes and dots of a Morse code message captured in this time exposure from the Emirates Astronomical Observatory, are read V-G-R. That's a call sign for the Voyager 1 spacecraft currently in interstellar space some 26 billion kilometers away. How long did it take the message to reach humanity's most distant interstellar spacecraft ? Traveling at the speed of light, the answer is one day . In fact, the Voyager 1 spacecraft was confirmed to reach its one light-day distance milestone on November 18, at 10:16:07 UTC, nearly 50 years after launch in 1977. For extra credit, fans of math can calculate that at on",
