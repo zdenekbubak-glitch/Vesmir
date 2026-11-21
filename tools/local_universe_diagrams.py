@@ -70,6 +70,7 @@ def diagram(entry):
   wide=kind=='localview-wide';limit=60 if wide else 3.5;ox,oy,scale=550,700,7.0 if wide else 100
   text(d,45,35,'Naše širší galaktické okolí' if wide else 'Místní skupina v prostoru',38);text(d,45,105,'Vybrané galaxie • prostorová projekce • počátek u Slunce',24,B)
   text(d,45,160,'Vzdálenosti na osách: miliony světelných let',25,W)
+  d.ellipse((46,218,60,232),fill=Y);text(d,72,210,'Slunce v Mléčné dráze',23,Y)
   def p(v):
    u,vv=project(v);return ox+scale*u,oy+scale*vv
   # Project orthogonal equal-scale axes, ticks remain attached to axes.
@@ -78,7 +79,7 @@ def diagram(entry):
    ticks=[-40,-20,20,40] if wide else [-2,-1,1,2]
    for t in ticks:
     v[axis]=t;x,y=p(v);d.ellipse((x-3,y-3,x+3,y+3),fill=B);text(d,x+5,y+5,str(t),19,M,width=65)
-  d.ellipse((ox-7,oy-7,ox+7,oy+7),fill=Y);text(d,ox-145,oy+15,'Mléčná dráha / my',23,Y,width=265)
+  d.ellipse((ox-7,oy-7,ox+7,oy+7),fill=Y);text(d,ox-145,oy+15,'Slunce',23,Y,width=265)
   rows=data['galaxies'] if wide else data['galaxies'][:4]
   if wide:rows=[x for x in rows if x['kind'] in ['group','cluster']]
   offsets=({'M81':(-180,-48),'Centaurus':(15,12),'NGC':(-185,25),'Kupa':(-145,-65)} if wide else {'Velký':(-260,-100),'Malý':(40,50),'Andromeda':(-240,-90),'Galaxie':(25,15)})
@@ -96,7 +97,7 @@ def diagram(entry):
    cox,coy,ss=490,1160,1500
    for a in data['galaxies'][:2]:
     u,v=project(a['xyz_mly']);x,y=cox+ss*u,coy+ss*v;d.line((cox,coy,x,y),fill=GRID,width=2);d.ellipse((x-6,y-6,x+6,y+6),fill=G);dx,dy=(18,-40) if a['name'].startswith('Velký') else (15,-40);text(d,x+dx,y+dy,a['name'],22,G,width=285)
-   d.ellipse((cox-7,coy-7,cox+7,coy+7),fill=Y);text(d,cox+15,coy-45,'My',23,Y,width=70);d.line((95,1280,245,1280),fill=B,width=3);text(d,85,1290,'0,1 mil. sv. let',21,B,width=290)
+   d.ellipse((cox-7,coy-7,cox+7,coy+7),fill=Y);text(d,cox+15,coy-45,'Slunce',23,Y,width=70);d.line((95,1280,245,1280),fill=B,width=3);text(d,85,1290,'0,1 mil. sv. let',21,B,width=290)
    text(d,45,1370,'X: k centru Galaxie • Y: podél roviny • Z: kolmo k rovině',23,M)
    text(d,45,1425,'Směry a vzdálenosti jsou převedeny do společných souřadnic.',22,M)
   else:

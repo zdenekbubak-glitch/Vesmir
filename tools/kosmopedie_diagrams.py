@@ -108,8 +108,8 @@ def diagram(entry):
                 c.d.rounded_rectangle((x-16, y-12, x+16, y+12), radius=5, fill=GOLD if x==yellow else BLUE)
             c.arrow(915, y-35, 1060, y-35, BLUE)
         c.arrow(595, 275, 825, 365, GOLD)
-        c.text(450, 145, 'stejná oblast zhuštění', VIOLET, 24)
-        c.text(65, 535, 'Žluté auto oblastí projíždí. Jde o analogii hustotní vlny, ne model všech ramen.', MUTED, 21)
+        c.text(450, 145, 'oblast zhuštění v obou časech', VIOLET, 24)
+        c.text(65, 535, 'Žluté auto projede oblastí se zvýšenou hustotou. Podobně mohou hvězdy procházet ramenem.', MUTED, 21)
     elif k == 'edu-cluster-separation':
         c.text(65, 90, 'Po průletu dvou kup: horký plyn se zbrzdí, galaxie většinou projdou.', WHITE, 24)
         for cx in (255, 945):
@@ -187,13 +187,32 @@ def diagram(entry):
         rng=random.Random(24)
         for x,label,color in ((65,'Hvězdy',BLUE),(655,'Plyn',GOLD)):
             c.box(x,150,x+485,495,color);c.text(x+25,175,label,color,29)
-        for _ in range(35):
-            c.circle(rng.uniform(105,505),rng.uniform(250,380),3,BLUE,BLUE,1)
-        c.arrow(110,410,240,410,BLUE);c.arrow(490,235,360,235,VIOLET)
+        for cx, color in ((230, BLUE), (378, VIOLET)):
+            for _ in range(24):
+                x = cx + max(-116, min(116, rng.gauss(0, 48)))
+                y = 318 + max(-60, min(60, rng.gauss(0, 27)))
+                c.circle(x,y,3,color,color,1)
+        c.arrow(145,395,260,395,BLUE)
+        c.arrow(463,243,348,243,VIOLET)
         c.paragraph(90,435,'Velké rozestupy: přímé srážky hvězd jsou vzácné.',435,WHITE,22)
-        for cx in (825,970):c.d.ellipse((cx-90,260,cx+90,390),fill='#6e5037',outline=GOLD,width=3)
-        c.arrow(700,320,800,320,GOLD);c.arrow(1100,320,1000,320,GOLD)
-        c.paragraph(680,435,'Plyn se může stlačit, zahřát a podpořit vznik hvězd.',435,WHITE,22)
+        cloud = Image.new('RGBA', (410, 175))
+        pixels = cloud.load()
+        for y in range(175):
+            for x in range(410):
+                wobble = 0.85 + 0.10*math.sin(x/13+y/15) + 0.07*math.cos(x/9-y/12)
+                left = math.exp(-((x-122)/66)**2-((y-92)/40)**2)*wobble
+                right = math.exp(-((x-288)/66)**2-((y-84)/40)**2)*wobble
+                hot = math.exp(-((x-205)/28)**2-((y-88)/48)**2)
+                strength = min(1, 0.90*(left+right)+0.83*hot)
+                if strength > .02:
+                    mix = min(1, 1.6*hot)
+                    pixels[x,y] = (255,int(145+86*mix),int(82+108*mix),int(255*strength))
+        c.im.paste(cloud,(690,225),cloud)
+        c.arrow(706,317,774,317,GOLD)
+        c.arrow(1084,309,1020,309,GOLD)
+        c.line([(895,286),(930,234),(944,234)],MUTED,2)
+        c.text(951,220,'zahřátý plyn',GOLD,22)
+        c.paragraph(680,435,'Při střetu se plyn může stlačit a zahřát.',435,WHITE,22)
         c.text(65,535,'Jde o princip, nikoli předpověď osudu konkrétní dvojice galaxií.',MUTED,22)
     elif k == 'edu-hubble-routes':
         c.text(65,90,'Obě cesty určují dnešní H₀, nikoli dvě různé epochy.',WHITE,25)

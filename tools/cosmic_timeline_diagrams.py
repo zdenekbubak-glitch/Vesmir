@@ -24,7 +24,7 @@ PANELS={
 ('Vznik atomů a uvolnění reliktního světla','přibližně 380 tisíc let','Elektrony se vážou do atomů. Ubyde rozptylů a světlo může putovat mnohem volněji.',300000,500000),
 ('Temné věky, pak první hvězdy a galaxie','první hvězdy řádově po 100 až 200 milionech let','Gravitace zhušťuje plyn. Začíná hvězdná tvorba a rostou první galaxie; přesné začátky zkoumáme.',380000,300000000),
 ('Reionizace mezigalaktického vodíku','během prvních stovek milionů let až asi 1 miliardy','Záření prvních zdrojů postupně znovu odděluje elektrony od atomů v řídkém plynu.',150000000,1000000000)],note='První hvězdy nemají jediné přesně známé datum. Temné věky končí postupně v různých místech.',extra='Drobné časové úseky jsou zvýrazněny kroužkem; pás je vyznačen ve skutečném měřítku osy.'),
-'late':dict(title='Od prvních galaxií k dnešku',subtitle='Od 1 do 13,8 miliardy let',unit='miliardy let',lo=1,hi=13.8,log=False,ticks=[(1,'1'),(4,'4'),(7,'7'),(10,'10'),(13.8,'13,8')],rows=[
+'late':dict(title='Vývoj galaxií po první miliardě let',subtitle='Od 1 do 13,8 miliardy let',unit='miliardy let',lo=1,hi=13.8,log=False,ticks=[(1,'1'),(4,'4'),(7,'7'),(10,'10'),(13.8,'13,8')],rows=[
 ('Galaxie a kosmická síť dále rostou','od první miliardy let až do dneška','Přitéká plyn, vznikají hvězdy a galaxie se slučují. Mění se jejich velikost, složení i okolí.',1,13.8),
 ('Vrchol kosmické hvězdné tvorby','zhruba 2 až 4 miliardy let','V průměru vznikají hvězdy nejrychleji. Později celková rychlost jejich tvorby klesá.',2,4),
 ('Rozpínání se začíná zrychlovat','asi 7,7 miliardy let v základním modelu ΛCDM','Vliv temné energie převáží nad gravitačním zpomalováním. Jde o vývoj velkých měřítek.',7.7,7.7),
