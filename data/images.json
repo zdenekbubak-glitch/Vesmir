@@ -1,5 +1,25 @@
 [
   {
+    "id": "apod-2026-11-22",
+    "title": "Víry a barvy na Jupiteru ze sondy Juno",
+    "caption": "Původ barev v mracích Jupitera zůstává předmětem výzkumu, neboť vodík a hélium jsou při nízkých teplotách bezbarvé a jedním z hlavních kandidátů na zbarvení je hydrosulfid amonný. Tento barevně zvýrazněný snímek ukazuje, že světlé mraky se nacházejí výše než tmavší a víří kolem načervenalých oblastí. Záběr pořídila robotická sonda Juno v roce 2018 během svého 14. blízkého průletu kolem planety.",
+    "thumb": "assets/gallery/apod-2026-11-22.jpg",
+    "image": "assets/gallery/apod-2026-11-22.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+    "published": "2026-11-22",
+    "credit": "NASA , Juno , SwRI , MSSS ; Processing & License : Matt Brealey , Seán Doran",
+    "creator": {
+      "@type": "Organization",
+      "name": "NASA , Juno , SwRI , MSSS ; Processing & License : Matt Brealey , Seán Doran"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+    "original_title": "Swirls and Colors on Jupiter from Juno",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-22T08:21:32.212900+00:00"
+  },
+  {
     "id": "apod-2026-11-21",
     "title": "Voyagerův Neptun",
     "caption": "Sonda Voyager 2 se 25. srpna 1989 stala jedinou sondou, která navštívila nejvzdálenějšího ledového obra Neptun. Tato úchvatná kompozice ze snímků pořízených při průletu zachycuje z pohledu zpět ke Slunci planetu i její největší měsíc Triton jako tenké srpky, společně s řasovitými mraky a slabým systémem prstenců.",
