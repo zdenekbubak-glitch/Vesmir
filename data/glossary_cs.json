@@ -215,5 +215,15 @@
     ],
     "note": "Používat jednotně radioteleskop s krátkým a. Skloňovat podle věty.",
     "status": "approved"
+  },
+  {
+    "term": "primordial black hole",
+    "preferred": "primordiální černá díra",
+    "variants": [
+      "prvotní černá díra",
+      "prvotní černé díry"
+    ],
+    "note": "V množném čísle primordiální černé díry. Při první zmínce v Kosmopedii lze uvést primordiální (prvotní) černé díry.",
+    "status": "approved"
   }
 ]

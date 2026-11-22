@@ -3,34 +3,38 @@
     "id": "exp-001",
     "title": "Co je temná hmota?",
     "theme": "temna-hmota",
-    "description": "Temná hmota tvoří 85 % hmoty vesmíru, ale nikdy jsme ji neviděli. Co víme, jak ji hledáme a proč je tak důležitá?",
+    "description": "Temná hmota tvoří přibližně 85 % veškeré hmoty ve vesmíru. Jak poznáváme její gravitační účinky a jak ji vědci hledají?",
     "published": "2026-10-17",
     "updated": "2026-10-25",
-    "perex": "Vesmír, který vidíme — hvězdy, galaxie, mlhoviny — je jen špička ledovce. Zhruba 85 % veškeré hmoty tvoří substance, která neemituje ani neabsorbuje světlo: temná hmota. Nevíme, z čeho je, ale víme, že tam je.",
+    "perex": "Temná hmota podle standardního kosmologického modelu tvoří přibližně 85 % veškeré hmoty ve vesmíru. Její přítomnost odvozujeme z gravitačních účinků, například z pohybu galaxií a z ohybu světla. Z čeho se skládá, zatím nevíme.",
     "sections": [
       {
         "heading": "Záhada, která je starší než my",
-        "body": "Podezření na existenci neviditelné hmoty se objevilo už ve 30. letech 20. století, když astronom Fritz Zwicky pozoroval galaktickou kupu Coma. Galaxie v kupě se pohybovaly příliš rychle — rychleji, než jak by je viditelná hmota mohla držet pohromadě. Zwicky došel k závěru, že kupa musí obsahovat obrovské množství neviditelné „temné\" hmoty. Jeho kolegové mu příliš nevěřili. Trvalo dalších čtyřicet let, než se podobný problém objevil u rotace jednotlivých galaxií a temná hmota vstoupila do hlavního proudu vědy."
+        "body": "V roce 1933 zkoumal astronom Fritz Zwicky pohyb galaxií v kupě ve Vlasech Bereniky, známé také jako kupa Coma. Z jejich rychlostí odhadl, že kupa obsahuje mnohem více hmoty, než kolik připadá na její zářící galaxie. V dalších desetiletích se podobný nesoulad ukázal i při měření oběžných rychlostí uvnitř jednotlivých galaxií."
       },
       {
         "heading": "Jak víme, že existuje?",
-        "body": "Temnou hmotu nevidíme, ale její gravitace mění to, co vidíme. Dnes máme tři nezávislé důkazy:\n\n- **Rotace galaxií.** Hvězdy na okrajích spirálních galaxií se točí příliš rychle. Podle viditelné hmoty by měly rotovat pomaleji; při měřených rychlostech by galaxie měly rozletět. Dodatečná gravitace neviditelné hmoty je drží pohromadě — jako neviditelný lep, který obaluje viditelnou galaxii do velké „galaktické slupky\".\n- **Gravitační čočky.** Světlo vzdálených galaxií procházející kolem hmotných kup se zakřivuje podle hmotnosti, která mu stojí v cestě. Množství zakřivení systematicky překračuje množství viditelné hmoty. Chybějící gravitace patří temné hmotě — a u čoček můžeme dokonce mapovat, kde přesně se nachází.\n- **Reliktní záření.** Mřížka teplotních fluktuací v reliktním záření (světle z mládí vesmíru) odpovídá modelu, kde tvoří temná hmota asi 85 % veškeré hmoty. Tři nezávislé metody, tři nezávislé výsledky — shodují se do jednotek procent.",
+        "body": "- **Rotace galaxií.** Ve vnějších částech mnoha spirálních galaxií obíhají hvězdy a plyn rychleji, než odpovídá gravitaci pozorovaných hvězd a plynu. Ve standardním výkladu dodatečnou gravitaci poskytuje rozsáhlé halo temné hmoty.\n- **Gravitační čočkování.** Hmota v popředí mění dráhu světla ze vzdálených galaxií a zkresluje jejich obrazy. Z tohoto zkreslení mohou astronomové odhadnout rozložení celkové hmotnosti a porovnat je s množstvím pozorované běžné hmoty.\n- **Reliktní záření.** V drobných rozdílech teploty reliktního záření se odráží složení raného vesmíru. Jejich analýza ve standardním modelu ukazuje, že temné hmoty je přibližně pětkrát více než běžné hmoty.",
         "image_id": "schema-temna-hmota-2"
       },
       {
         "heading": "Co temná hmota není",
-        "body": "Než astronomové dospěli k dnešnímu obrazu, prošli si seznam možností. Temná hmota není prostě hodně tmavý plyn — ten bychom viděli v infračerveném záření. Nejsou to mrtvé hvězdy a neutronové hvězdy — těch je příliš málo a vyskytují se příliš řídce. Nejsou to ani volně putující planety. Přesné měření reliktního záření tato vysvětlení vyloučila. Temná hmota je něco fundamentálně jiného — pravděpodobně dosud neobjevená částice, která interaguje jen velmi slabě s běžnou hmotou a se světlem. Procházela by námi a my bychom to nepoznali."
+        "body": "Část běžné hmoty může být obtížně pozorovatelná, například ve studeném plynu, pozůstatcích hvězd nebo volně putujících planetách. Všechny tyto objekty se však započítávají do odhadu množství běžné hmoty. Podle měření reliktního záření jí ve standardním modelu není dost na vysvětlení všech účinků připisovaných temné hmotě."
       },
       {
         "heading": "Kolik jí vlastně je?",
-        "body": "Kosmologické měření dnes říkají: asi 27 % vesmíru tvoří temná hmota, 5 % běžná (barionová) hmota a zbývajících zhruba 68 % temná energie. Slovy: z každého kilogramu hmoty ve vesmíru je 850 gramů temných. A ze všech forem energie je temná hmota „jen\" druhá nejrozšířenější — předčí ji právě záhadná temná energie."
+        "body": "Podle standardního kosmologického modelu připadá v dnešním vesmíru přibližně 27 % celkové hustoty energie na temnou hmotu, 5 % na běžnou hmotu a 68 % na temnou energii. Pokud počítáme pouze hmotu, připadá na temnou hmotu přibližně 85 %."
       },
       {
         "heading": "Jak ji hledáme?",
-        "body": "Vědci zkouší tři přístupy najednou:\n\n1. **Výroba** — v urychlovači LHC u Ženevy se pokoušíme temnou hmotu vytvořit srážkami protonů. Pokud by vznikla, poznáme ji jako „chybějící energii\" v detektoru.\n2. **Přímá detekce** — hluboko pod zemí (v laboratořích jako XENONnT v Itálii nebo LUX-ZEPLIN v USA) čekáme, až částice temné hmoty proletí skrz krystaly a nechá po sobě stopu. Zatím bez dostatečného úspěchu, ale citlivost se každou generací detektorů zvedá řádově. V Září 2026 byla oznámena detekce jedné nevysvětlitelné vysokoenergetické interakce částic (událost z let 2023–2024). Statistická významnost je 2,6 sigma (šance na náhodný šum pozadí je cca 0,5 %). Pro oficiální objev je nutných 5 sigma. Pokud jde o temnou hmotu, odpovídá částici (WIMP) o hmotnosti minimálně 200 GeV/c²\n3. **Astrofyzika** — hledáme produkty případné anihilace temných částic ve vysokoenergetickém gama záření ve středu galaxie či v halo temné hmoty."
+        "body": "1. **Hledání v urychlovačích.** Při srážkách protonů v LHC vědci hledají mimo jiné případy, kdy část hybnosti kolmé ke směru svazků není v detektoru zaznamenána. Takový signál ale mohou vyvolat i známé částice, například neutrina.\n2. **Přímá detekce.** Podzemní experimenty XENONnT a LUX-ZEPLIN hledají slabé signály, které by mohla vyvolat interakce částice temné hmoty v kapalném xenonu. V září 2026 tým LUX-ZEPLIN popsal jedinou neobvyklou událost odpovídající prudkému pohybu zasaženého jádra xenonu. Její původ zůstal neurčený.\n3. **Nepřímé hledání.** Pokud by se částice temné hmoty rozpadaly nebo se při setkání vzájemně přeměňovaly na jiné částice, mohlo by při tom vznikat například gama záření. Vědci hledají takové signály v místech, kde očekávají větší koncentraci temné hmoty."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Výsledky mise Planck](https://arxiv.org/abs/1807.06209)\n- [Rubinová, Ford a Thonnard: rotační křivky spirálních galaxií](https://articles.adsabs.harvard.edu/pdf/1980ApJ...238..471R)\n- [Clowe a kol.: gravitační čočkování kupy Bullet Cluster](https://arxiv.org/abs/astro-ph/0608407)\n- [ATLAS v CERN: hledání temné hmoty](https://www.atlas.cern/updates/feature/dark-matter)\n- [LUX-ZEPLIN: neobvyklá událost v kapalném xenonu](https://arxiv.org/abs/2609.02823)"
       }
     ],
-    "why_box": "Každý atom ve vašem těle je minorita. Bez temné hmoty by galaxie jako naše nevznikly tak, jak je známe — gravitace temné hmoty totiž sloužila jako jakási „lepicí kostra\", na níž se v raném vesmíru zachytávaly obyčejné plyny, které pak tvořily hvězdy. Bez temné hmoty by pravděpodobně nevznikly hvězdy včas, v potřebném množství — a nic by se nemohlo dívat na noční oblohu.",
+    "why_box": "Ve standardním modelu začala gravitace temné hmoty zesilovat malé počáteční rozdíly v hustotě. V hustších oblastech se později soustředil plyn, z něhož vznikaly hvězdy a galaxie. Temná hmota tak pomáhá vysvětlit, proč dnes galaxie pozorujeme hlavně podél dlouhých vláken hmoty a proč se v místech, kde se vlákna setkávají, často nacházejí kupy galaxií. Tomuto uspořádání říkáme kosmická síť.",
     "related_explainery": [
       "co-je-temna-energie-a-jak-se-lisi-od-temne-hmoty",
       "jak-vime-ze-temna-hmota-existuje"
@@ -408,34 +412,34 @@
     "id": "exp-010",
     "title": "Jak víme, že temná hmota existuje?",
     "theme": "temna-hmota",
-    "description": "Žádný teleskop temnou hmotu nezachytil — přesto o ní vědci nepochybují. Tři nezávislé důkazy, od rotace galaxií po srážku kup, a proč alternativy selhaly.",
+    "description": "Co o temné hmotě vypovídá rotace galaxií, srážka kup a reliktní záření? Jak si s těmito pozorováními poradí alternativní teorie?",
     "published": "2026-10-17",
     "updated": "2026-10-25",
-    "perex": "Temnou hmotu nikdo nikdy neviděl, nezachytil v detektoru ani neucítil. Přesto o její existenci astronomové prakticky nepochybují. Svědčí pro ni totiž tři naprosto nezávislé typy pozorování, které se ve svých výsledcích shodují s přesností na jednotky procent. Definitivním potvrzením – a pomyslným hřebíčkem do rakve alternativních teorií – se stala srážka dvou galaktických kup. Při ní se od sebe viditelná hmota a zdroj gravitace zcela jasně oddělily.",
+    "perex": "Pro temnou hmotu svědčí několik druhů pozorování. Patří k nim oběžné rychlosti v galaxiích, gravitační čočkování a vlastnosti reliktního záření. Zvlášť názorný je případ dvou srážejících se kup galaxií, při němž se největší koncentrace hmotnosti odhadnuté z čočkování prostorově oddělily od většiny běžné hmoty.",
     "sections": [
       {
-        "heading": "Od Zwického k Rubinové: osmdesát let pochybností",
-        "body": "Podezření se objevilo v roce 1933, když Fritz Zwicky měřil rychlosti galaxií v kupě Coma. Galaxie se pohybovaly tak rychle, že by kupa měla dávno rozletět — kdyby ji držela jen viditelná hmota. Zwicky spočítal, že chybí zhruba desetkrát více hmoty, než kolik svítilo. Jeho kolegové ho považovali za excentrika. Rozhodující obrat přišel v 70. letech: astronomka Vera Rubin systematicky měřila rotaci desítek spirálních galaxií a zjistila, že hvězdy na okrajích rotují stejně rychle jako ty vnitřní. Podle zákona gravitace a podle množství viditelné hmoty by měly rotovat čím dál pomaleji. Rubin došla k neoblíbenému závěru: galaxie jsou obalené obrem neviditelné hmoty. Věda se nakonec přiklonila na její stranu."
+        "heading": "Od Zwického k Rubinové a průběh rotace galaxií",
+        "body": "Fritz Zwicky ve 30. letech zjistil, že k vysvětlení rychlostí galaxií v kupě ve Vlasech Bereniky je potřeba více hmoty, než vycházelo z jejich světla. O několik desetiletí později Vera Rubinová a její spolupracovníci měřili, jak se oběžná rychlost mění se vzdáleností od středu spirálních galaxií. Ve vnějších částech mnoha z nich zůstávala přibližně stálá, ačkoli z rozložení samotné běžné hmoty vycházel pokles. V modelu s temnou hmotou tento rozdíl vysvětluje rozsáhlé halo, které sahá za viditelný disk."
       },
       {
-        "heading": "Rotace galaxií: rychleji, než dovoluje zákon",
-        "body": "Detail je důležitý. U planet ve Sluneční soustavě platí: čím dál od středu, tím pomaleji obíhají. Je to přímý důsledek gravitace koncentrované ve středu. U spirálních galaxií to překvapivě neplatí — od jádra ke kraji rotace zhruba neklesá, na okrajích dokonce mírně roste. Aby Newtonovy zákony platily a galaxie se nerozpadly, musí být jejich hmota rozprostřena daleko za hranice viditelného disku – až do vzdálenosti desetinásobku jeho průměru. Toto takzvané temné halo však nedokážeme zachytit v žádné části elektromagnetického spektra. Alternativní vysvětlení nabízí teorie MOND, podle níž gravitační zákon na velké vzdálenosti neplatí. Ta sice rotaci galaxií popsat dokáže, ale ve všech ostatních měřítkách selhává."
-      },
-      {
-        "heading": "Gravitační čočky a srážka kup: důkaz přímý",
-        "body": "Druhý důkaz je nezávislý na rotaci: gravitační čočky. Světlo vzdálených galaxií procházející kolem hmotné kupy se zakřivuje podle hmotnosti v popředí. Čím víc hmoty, tím víc zakřivení. Astronomové dokážou zmapovat, kde hmota je — a výsledek systematicky ukazuje více hmoty, než kolik svítí. Zásadní průlom nastal v roce 2006. Tehdy astronomové nasnímali kolizi kup galaxií v souhvězdí Lodního kýlu (tzv. Bullet Cluster), která poskytla první přímý důkaz o existenci temné hmoty. Při srážce se viditelný plyn podle rentgenu zpomalil a zůstal uprostřed, zatímco většina hmotnosti podle čočkování prolétla dál s galaxiemi. Viditelná hmota a gravitace se prostě fyzicky rozdělily — to žádná modifikace gravitace nevysvětlí, zatímco temná hmota ano.",
+        "heading": "Gravitační čočkování a srážka kup",
+        "body": "Při srážce dvou kup galaxií známých jako Bullet Cluster se oblaka horkého plynu navzájem zbrzdila. Právě v tomto plynu je většina běžné hmoty obou kup. Gravitační čočkování však ukazuje, že největší koncentrace celkové hmotnosti leží blíže ke galaxiím, které při srážce postoupily dál než plyn. V modelu s temnou hmotou se tento rozdíl vysvětluje tím, že se temná hmota při průletu zbrzdila mnohem méně než horký plyn.",
         "image_id": "schema-kupy-plyn-a-hmota"
       },
       {
-        "heading": "Otisk v reliktním záření",
-        "body": "Třetí důkaz pochází z opačného konce vesmíru: z reliktního záření, světla z doby před 13,8 miliardami let. Teplotní fluktuace na této fotce mládí vesmíru mají přesně takovou velikost, jakou předpovídá model s temnou hmotou — a nesedí s modelem bez ní. Kosmologické měření z něj čte složení vesmíru: 5 % běžné hmoty, 27 % temné hmoty. Když pak stejné číslo dosadíte do výpočtu rotace galaxií a čoček, vychází totéž. Tři zcela nezávislé metody, tři zcela nezávislé datové sady — a shoda do jednotek procent. Ve vědě lepší důkaz neexistuje."
+        "heading": "Co se dá vyčíst z reliktního záření",
+        "body": "Reliktní záření pochází z doby, kdy byl vesmír starý asi 380 000 let. Astronomové zkoumají, jak výrazné jsou teplotní rozdíly mezi oblastmi, které na obloze zabírají různě velkou plochu. Některé teplejší či chladnější oblasti vidíme jako drobné skvrny, jiné jsou na mapě oblohy mnohem rozlehlejší. Běžná a temná hmota ovlivňují velikost teplotních rozdílů na těchto měřítkách každá jinak. Z jejich kombinace tak lze ve standardním kosmologickém modelu odhadnout množství obou druhů hmoty zvlášť.\n\nPohyby galaxií a ohyb světla při gravitačním čočkování nabízejí další způsob, jak tento model prověřit. Ukazují, kolik hmoty je například v kupě galaxií potřeba k vysvětlení naměřených rychlostí nebo ohybu světla. Tento odhad pak astronomové porovnávají s množstvím běžné hmoty v dané kupě. Model s temnou hmotou tak lze zkoušet jak podle jejího vlivu na reliktní záření, tak podle jejích gravitačních účinků v pozdějším vesmíru."
       },
       {
-        "heading": "Proč nejde jen o špatné zákony gravitace",
-        "body": "Alternativa MOND (modifikovaná newtonská dynamika) rotaci galaxií popíše bez temné hmoty — a na tom její úspěchy končí. Při srážce kup Bullet Cluster MOND selhává, protože gravitace se tam nerozděluje od hmoty. S fluktuacemi v reliktním záření se vyrovnat nedokáže. A predikuje zvláštní chování, která se nepozorují. Temná hmota zatím obstála ve všech testech — jen ji zatím nikdo nedokázal chytit v laboratoři. Ale důkazy o její existenci jsou dnes stejně silné jako důkazy o existenci exoplanet před érou teleskopů: nepřímé, opakované a vzájemně se potvrzující."
+        "heading": "Co umí a kde má potíže MOND",
+        "body": "Modifikovaná newtonovská dynamika neboli MOND mění předpověď pohybu při velmi malých zrychleních. Dokáže popsat řadu rotačních křivek galaxií. Problémem zůstává vysvětlit rozložení celkové hmotnosti v kupách, jako je Bullet Cluster, jen z pozorované běžné hmoty. Některá relativistická rozšíření MOND dokážou reprodukovat důležité vlastnosti reliktního záření. Při hodnocení teorií, jako je MOND, proto záleží na tom, jak si stejný model poradí s různými druhy pozorování zároveň."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Rubinová, Ford a Thonnard: rotační křivky spirálních galaxií](https://articles.adsabs.harvard.edu/pdf/1980ApJ...238..471R)\n- [Clowe a kol.: gravitační čočkování kupy Bullet Cluster](https://arxiv.org/abs/astro-ph/0608407)\n- [Výsledky mise Planck](https://arxiv.org/abs/1807.06209)\n- [Test MOND u kupy Bullet Cluster](https://academic.oup.com/mnras/article/383/2/417/992404)\n- [Relativistický model Skordise a Złośnika](https://arxiv.org/abs/2007.00082)"
       }
     ],
-    "why_box": "Temná hmota je vědecký unikát: vědci o ní vědí všechno — kolik jí je, kde je, jak se chová — kromě toho, co to vlastně je. Je to jako znát přesnou hmotnost, chování a stopu zvířete z jeho stop, aniž byste ho viděli. A přesto právě tohle neviditelné zvíře drží pohromadě každou galaxii včetně té vaší. Bez něj by hvězdy vaší galaxie dávno rozletěly do tmy.",
+    "why_box": "Z gravitačních účinků dokážeme odhadnout množství a rozložení temné hmoty. Různá pozorování zároveň zužují okruh jejích možných vlastností. Otázka, z čeho se skládá, zůstává otevřená.",
     "related_explainery": [
       "co-je-temna-hmota",
       "co-je-reliktni-zareni",
@@ -684,34 +688,38 @@
     "id": "exp-016",
     "title": "Z čeho by mohla být temná hmota?",
     "theme": "temna-hmota",
-    "description": "WIMP, axion, sterilní neutrino nebo černé díry z raného vesmíru? Přehled kandidátů na temnou hmotu a proč se zatím nenašel ani jeden.",
+    "description": "Částice WIMP, axiony, sterilní neutrina nebo černé díry z raného vesmíru? Přehled zkoumaných možností a způsobů jejich hledání.",
     "published": "2026-10-18",
     "updated": "2026-10-25",
-    "perex": "Vědci vědí, že temná hmota existuje a jak se chová – ale z čeho se skládá, po čtyřiceti letech intenzivního hledání stále neví. V současnosti jsou ve hře čtyři hlavní kandidáti: částice WIMP, axion, sterilní neutrino a primordiální černé díry. Každý z nich má své přednosti i svou Achillovu patu.",
+    "perex": "Gravitační účinky temné hmoty pomáhají určit, kolik jí je a jak je rozložena. Její složení zůstává otevřené. Mezi zkoumané možnosti patří slabě interagující hmotné částice, axiony, sterilní neutrina a primordiální (prvotní) černé díry.",
     "sections": [
       {
         "heading": "Proč je hledání tak těžké",
-        "body": "Temná hmota neinteraguje se světlem a zdá se, že interaguje jen velmi slabě i s běžnou hmotou. To je zároveň její definice a prokletí: právě ta slabá interakce umožnila, aby temná hmota zůstala neviditelná, ale zároveň znemožňuje, abychom ji chytili v laboratoři. Představte si, že hledáte něco, co projde vaší rukou jako duch – a jediný důkaz máte v tom, že se hvězdy točí rychleji, než by měly. Fyzikové proto útočí ze dvou stran: detektory hluboko pod zemí čekají na srážku temné částice s atomem a urychlovače se ji snaží vyrobit. Zatím obojí vrátilo prázdné výsledky – a každý neúspěch možnosti zužuje."
+        "body": "Pokud temnou hmotu tvoří částice, které s běžnou hmotou reagují jen výjimečně, může jich detektorem projít velké množství a přesto vznikne jen málo měřitelných událostí. Experimenty proto hledají slabé projevy a pečlivě rozlišují, které z nich mohou mít známou příčinu."
       },
       {
-        "heading": "WIMP: favorit, který se neukázal",
-        "body": "Nejpopulárnější kandidát se jmenuje WIMP (slabě interagující masivní částice). Je elegantní z teoretického hlediska: předpovídá ho supersymetrie, rozšíření Standardního modelu, podle něhož má každá částice těžšího superpartnera. Nejjasnější WIMP-kandidáti byly neutralino. Detektory jako XENONnT, LUX-ZEPLIN nebo kryogenní moduly v experimentech CRESST hledají záblesk, který by WIMP způsobil v atomovém jádře. Citlivost detektorů se za posledních dvacet let zlepšila stonásobně – a WIMP se stále neukázal. Experimentátoři teď vstupují do éry neutrinového pozadí, kdy je signál temné hmoty zastíněn běžnými neutriny. WIMP není mrtvý, ale jeho životní prostor se rychle zmenšuje."
+        "heading": "Částice WIMP a neutrinové pozadí",
+        "body": "WIMP je zkratka pro slabě interagující hmotnou částici. Příkladem kandidáta je neutralino, které se objevuje v některých modelech supersymetrie. Při hledání těchto částic vědci sledují, zda některé atomové jádro po nárazu nezískalo měřitelnou energii. Detektory s kapalným xenonem přitom zaznamenávají světlo a uvolněné elektrony. Podobný signál mohou vyvolat i neutrina. Tento zdroj nežádoucích událostí se označuje jako neutrinové pozadí."
       },
       {
-        "heading": "Axion: částice, která opravuje teorii",
-        "body": "Druhý favorit je axion, extrémně lehká částice předpovězená už v roce 1977 k vyřešení záhady, proč neutron nemá měřitelný elektrický dipólový moment. Axiony vznikly v raném vesmíru s hustotou, která přesně odpovídá pozorovaným projevům temné hmoty. Metoda jejich detekce je specifická: vzhledem k tomu, že v silném magnetickém poli dochází k přeměně axionů na fotony, využívají experimenty typu ADMX mikrovlnné rezonanční dutiny umístěné v supravodivých magnetech. V současnosti zájem o axionové modely roste, a to především kvůli absenci pozitivních výsledků při detekci kandidátů WIMP. Teoretické modely navíc připouštějí, že intenzivním zdrojem axionů může být Slunce, což umožňuje jejich registraci pozemskými přístroji.",
+        "heading": "Axiony a jejich hledání",
+        "body": "Axion je hypotetická lehká částice navržená při hledání odpovědi na otázku, proč se v silné interakci nepozoruje určitý druh porušení symetrie. Jedním z projevů tohoto porušení by mohl být měřitelný elektrický dipólový moment neutronu. Pokud axiony vznikaly v raném vesmíru, mohly by podle některých modelů tvořit část nebo i všechnu temnou hmotu. Experiment ADMX hledá axiony z galaktického hala pomocí mikrovlnné rezonanční dutiny v silném magnetickém poli, v němž by se axiony mohly přeměnit na fotony. Experiment CAST hledal axiony, které by mohly vznikat ve Slunci.",
         "image_id": "schema-temna-hmota-axion"
       },
       {
-        "heading": "Primordiální černé díry: temná hmota bez částic",
-        "body": "Třetí možnost zní jako zlehčování, ale není: temnou hmotu by mohly tvořit černé díry – konkrétně primordiální černé díry vzniklé v prvních zlomcích sekundy po Velkém třesku. Ty by byly odlišné od hvězdných černých děr: mnohem menší a částečně by se vypařovaly. Část by jich přežila dodnes a jejich gravitační působení by přesně odpovídalo temné hmotě. Tato myšlenka zažila renesanci po detekci srážek černých děr gravitačními vlnami – ukázalo se, že vesmír černé díry produkuje ve větší míře, než se čekalo. Hledají se pomocí efektu mikročočkování v datech hvězdných přehlídek nebo jako krátké záblesky gama záření při Hawkingově vypařování."
+        "heading": "Primordiální černé díry a jejich hmotnost",
+        "body": "Primordiální černé díry mohly vzniknout v raném vesmíru zhroucením mimořádně hustých oblastí. Podle mechanismu vzniku by mohly mít velmi rozdílné hmotnosti. Ty nejlehčí by se podle teorie Hawkingova záření už mohly vypařit, hmotnější by přežily dodnes. Pozorování, například hledání krátkodobého zesílení světla hvězd gravitačním mikročočkováním, omezují, kolik temné hmoty by mohly tvořit v různých intervalech hmotnosti."
       },
       {
-        "heading": "Kde jsme a kam dál",
-        "body": "Čtvrtým kandidátem jsou sterilní neutrina, těžší verze neutrin, které by temnou hmotu tvořily jen zčásti, v kombinaci s jinými kandidáty. Reálně je čím dál pravděpodobnější, že temná hmota nemá jedinou podobu. Příští dekáda přinese rozhodující experimenty: LHC bude hledat slabé stopy po supersymetrii, nová generace axionových experimentů dosáhne citlivosti teoretických predikcí a teleskopy Euclid a Vera Rubin Observatory zmapují rozložení temné hmoty s dosud nebývalou přesností. Anebo nastane ta nejzajímavější situace: dojde k objevu, který současné teoretické modely nepředvídaly. Historie fyziky potvrzuje, že pokud nějaký fenomén dlouho neúspěšně detekujeme, často sice zaznamenáváme reálný fyzikální projev, ale dáváme mu nesprávný teoretický rámec."
+        "heading": "Sterilní neutrina a další výzkum",
+        "body": "Sterilní neutrino je hypotetická částice, která by se na rozdíl od známých neutrin přímo neúčastnila slabé interakce. V některých modelech by sterilní neutrina mohla tvořit část nebo i všechnu temnou hmotu. Tyto modely omezují mimo jiné rentgenová pozorování a měření rozložení hmoty na malých kosmických měřítkách. Další experimenty budou zkoušet různé možnosti. Mapování galaxií a gravitačního čočkování zase zpřesňuje, jak je temná hmota rozložena a jak ovlivňuje vývoj vesmíru."
+      },
+      {
+        "heading": "Zdroje a další čtení",
+        "body": "- [Detekční metoda LUX-ZEPLIN](https://lz.lbl.gov/detector/)\n- [Experiment ADMX](https://admx.uw.edu/)\n- [Experiment CAST v CERN](https://home.cern/science/experiments/cast/)\n- [Carr a Kühnel: primordiální černé díry](https://arxiv.org/abs/2110.02821)\n- [Model sterilních neutrin](https://arxiv.org/abs/1204.3902)\n- [Pozorovací omezení pro sterilní neutrina](https://arxiv.org/abs/1601.07553)"
       }
     ],
-    "why_box": "Temná hmota je jedna z mála velkých vědeckých otázek, u které i soukromá osoba může mít doma přístroj hledající odpověď: axionové detektory jsou kompaktní a mnohem levnější než urychlovače. Ale i bez laboratoře je v tom krása – vesmír, který vidíte, tvoří jen pět procent skutečnosti. Zbytek je otevřená otázka a právě vy žijete v době, kdy se na ni možná odpovídá.",
+    "why_box": "Axiony lze hledat i v laboratorních experimentech, jako je ADMX. Takové zařízení je výrazně menší a levnější než velký urychlovač typu LHC. K zachycení velmi slabého mikrovlnného signálu přesto potřebuje silný supravodivý magnet, hluboké chlazení a citlivou elektroniku. Podzemní detektory a astronomická pozorování hledají jiné možné stopy temné hmoty.",
     "related_explainery": [
       "jak-vime-ze-temna-hmota-existuje",
       "co-je-temna-hmota",
@@ -837,11 +845,11 @@
       },
       {
         "heading": "Jak temná hmota pomáhá růstu struktur",
-        "body": "Před vznikem neutrálních atomů byla běžná látka silně provázána se zářením. Tlak a rozptyl světla ovlivňovaly její shlukování. Temná hmota v běžném modelu téměř není ovlivňována světlem a vytváří gravitační nerovnosti, do nichž se může později soustřeďovat plyn.\n\nPo ochlazení plyn v dostatečně hustých oblastech vytváří hvězdy. Temná hala tak pomáhají vysvětlit, jak mohly galaxie vyrůst z malých počátečních nerovností v dostupném kosmickém čase."
+        "body": "Dokud byla většina elektronů volná, světlo se na nich často rozptylovalo a záření silně ovlivňovalo pohyb běžné hmoty. V modelu se studenou temnou hmotou se tato složka začala gravitačně shlukovat už předtím, než se elektrony spojily s jádry a vznikly atomy. Plyn se pak mohl soustřeďovat v oblastech, kde už gravitace temné hmoty zesílila.\n\nPo ochlazení plyn v dostatečně hustých oblastech vytváří hvězdy. Temná hala tak pomáhají vysvětlit, jak mohly galaxie vyrůst z malých počátečních nerovností v dostupném kosmickém čase."
       },
       {
         "heading": "Co by se při odebrání temné hmoty změnilo",
-        "body": "Při zachování obvyklé gravitace a množství běžné hmoty by růst struktur měl jiné podmínky a jiný průběh. Výpočty by musely nově vysvětlit počet a vlastnosti galaxií, jejich pohyby a také vzor reliktního záření.\n\nVznik jednotlivé hvězdy nebo planetární soustavy závisí na místním plynu, jeho chladnutí a předchozím vývoji. Konkrétní počty a časy proto odvozujeme z celého zvoleného scénáře. Důležitou otázkou je současné vysvětlení všech pozorovaných vlastností vesmíru."
+        "body": "Při zachování obvyklé gravitace a množství běžné hmoty by růst struktur měl jiné podmínky a jiný průběh. Výpočty by musely nově vysvětlit počet a vlastnosti galaxií, jejich pohyby a také rozložení teplotních rozdílů v reliktním záření.\n\nVznik jednotlivé hvězdy nebo planetární soustavy závisí na místním plynu, jeho chladnutí a předchozím vývoji. Konkrétní počty a časy proto odvozujeme z celého zvoleného scénáře. Důležitou otázkou je současné vysvětlení všech pozorovaných vlastností vesmíru."
       },
       {
         "heading": "Jak porovnáváme počítačové simulace s pozorováním vesmíru",
@@ -849,7 +857,7 @@
       },
       {
         "heading": "Proč zkoumáme i jiné možnosti",
-        "body": "Z pohybů galaxií a ohýbání světla gravitací zjišťujeme, kolik hmoty je potřeba k vysvětlení naměřených jevů a jak je rozložena. V modelu s temnou hmotou část tohoto působení připisujeme dosud neznámým částicím, které se vědci snaží zachytit. [Jiné teorie gravitace](https://kosmonovinky.cz/kosmopedie/lze-vysvetlit-pozorovani-bez-temne-hmoty.html) zkoumají, zda lze některá z těchto pozorování vysvětlit změnou gravitačních zákonů.\n\nKaždý úplný scénář má před sebou stejný úkol: vysvětlit společně galaxie, kupy, gravitační čočky, reliktní záření a jejich vývoj. Soubor těchto testů shrnuje [téma o důkazech temné hmoty](https://kosmonovinky.cz/kosmopedie/jak-vime-ze-temna-hmota-existuje.html)."
+        "body": "Z pohybů galaxií a ohýbání světla gravitací zjišťujeme, kolik hmoty je potřeba k vysvětlení naměřených jevů a jak je rozložena. V modelu s temnou hmotou část tohoto působení připisujeme složce, jejíž složení dosud neznáme. [Jiné teorie gravitace](https://kosmonovinky.cz/kosmopedie/lze-vysvetlit-pozorovani-bez-temne-hmoty.html) zkoumají, zda lze některá z těchto pozorování vysvětlit změnou gravitačních zákonů.\n\nKaždý úplný scénář má před sebou stejný úkol: vysvětlit společně galaxie, kupy, gravitační čočky, reliktní záření a jejich vývoj. Soubor těchto testů shrnuje [téma o důkazech temné hmoty](https://kosmonovinky.cz/kosmopedie/jak-vime-ze-temna-hmota-existuje.html)."
       },
       {
         "heading": "Zdroje a další čtení",
