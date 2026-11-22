@@ -397,6 +397,37 @@ def diagram(entry):
                 d.ellipse((x-rr,y-rr,x+rr,y+rr),outline=(int(28+98*q),int(43+108*q),int(72+132*q)))
             d.ellipse((x-r,y-r,x+r,y+r),fill='#030711',outline='#8acaff',width=2)
         text(65,528,'Síť znázorňuje šíření deformace. Skutečná vlna se šíří prostorem.')
+    elif kind=='gw-scattering-angular-momentum':
+        from PIL import ImageFilter
+        glow=Image.new('RGB',im.size,'#0b1424')
+        gd=ImageDraw.Draw(glow)
+        def grid(r,a):
+            wave=16*math.sin(r/16-2*a)*math.exp(-r/620)
+            return (600+r*math.cos(a),310+.39*r*math.sin(a)-wave)
+        for r in range(38,480,11):
+            points=[grid(r,math.tau*i/160) for i in range(161)]
+            gd.line(points,fill='#274462' if r%3 else '#395e80',width=2)
+        im.paste(glow.filter(ImageFilter.GaussianBlur(3)))
+        for r in range(38,480,22):
+            line([grid(r,math.tau*i/160) for i in range(161)],'#284867',1)
+        def track(t):
+            x=205+790*t
+            offset=x-600
+            return (x,275+.21*(offset+math.hypot(offset,65)))
+        for sign,color in ((1,gold),(-1,blue)):
+            def point(t):
+                x,y=track(t)
+                return (x,y) if sign==1 else (1200-x,620-y)
+            pts=[point(i/160) for i in range(161)]
+            line(pts,'#101a2a',9)
+            line(pts,color,4)
+            for a,b in ((.11,.16),(.84,.90)):
+                arrow(*point(a),*point(b),color)
+            x,y=point(.48)
+            d.ellipse((x-16,y-16,x+16,y+16),fill='#091120',outline=color,width=3)
+        text(45,26,title,white,32)
+        text(65,89,'Dvě tělesa se minou a jejich dráhy se vlivem gravitace zakřiví.',white,24)
+        text(65,526,'Při průletu se vyzáří gravitační vlny. Dvojice ztratí část mechanického momentu hybnosti.',muted,22)
     elif kind=='polarization':
         for cx,cy,s in ((350,300,1),(850,300,-1)):
             circle(cx,cy,130)

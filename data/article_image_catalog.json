@@ -10739,5 +10739,38 @@
     "caption": "Hubbleův snímek galaxií Antény (NGC 4038 a NGC 4039). V oblasti, kde se galaxie překrývají, jsou patrné jasné oblasti tvorby hvězd.",
     "manual_only": true,
     "rights_metadata_source": "https://esahubble.org/images/heic0615a/"
+  },
+  {
+    "id": "schema-gravitacni-rozptyl-moment-hybnosti",
+    "topic": "gravitacni-vlny",
+    "title": "Gravitační průlet dvou těles",
+    "generated": true,
+    "kind": "vlastní schéma",
+    "diagram": "gw-scattering-angular-momentum",
+    "manual_only": true,
+    "source": "https://kosmonovinky.cz/",
+    "source_id": "own-diagram:schema-gravitacni-rozptyl-moment-hybnosti",
+    "credit": "Kosmologické novinky",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "revision": 1,
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "alt": "Dvě zakřivené dráhy při gravitačním průletu a názorná kresba gravitačních vln",
+    "caption": "Při těsném průletu se dráhy obou těles zakřiví a soustava ztratí část mechanického momentu hybnosti. Modrá síť názorně připomíná gravitační vlny. Schéma není v měřítku a nezobrazuje samostatně příspěvek gravitační paměti.",
+    "reference_urls": [
+      "https://arxiv.org/abs/2610.26822"
+    ],
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://arxiv.org/abs/2610.26822"
+      }
+    ],
+    "thumbnail": "assets/article-images/thumbs/schema-gravitacni-rozptyl-moment-hybnosti.webp",
+    "source_master": "assets/article-images/sources/schema-gravitacni-rozptyl-moment-hybnosti.jpg"
   }
 ]
