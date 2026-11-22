@@ -66,14 +66,14 @@ def diagram(entry):
         for baseline,label,color,probs in ((305,'Superpozice',blue,(50,50,100,0)),
                                            (490,'Náhodná směs',violet,(50,50,50,50))):
             text(55,baseline-80,label,color,28)
-            text(55,baseline-37,'možností 0 a 1',muted,21)
+            text(55,baseline-37,'0 a 1 se stejnou fází' if baseline==305 else 'náhodně buď 0, nebo 1',muted,21)
             for x,value,state in zip((410,555,850,995),probs,('0','1','0','1')):
                 top=baseline-value
                 if value:d.rectangle((x,top,x+70,baseline),fill=color)
                 else:line([(x,baseline),(x+70,baseline)],color,3)
                 text(x-1,top-35,str(value)+' %',white,24)
                 text(x+27,baseline+8,state,muted,23)
-        text(55,535,'H je v obou řádcích stejná operace; přímé měření jí nepředchází.',muted,22)
+        text(55,535,'H = Hadamardova operace. V pravém sloupci proběhne před měřením.',muted,22)
     elif kind=='electron-interference-hits':
         import random
         rng=random.Random(42140)
@@ -101,8 +101,8 @@ def diagram(entry):
             line([(160,y),(650,y)],blue,4);text(690,y-15,label,white,24)
         circle(230,450,12,gold);arrow(300,428,300,315,gold)
         text(335,355,'pohlcení fotonu',gold,24)
-        arrow(550,320,550,430,violet);text(565,390,'emise',violet,23)
-        text(160,140,'Přechod vyžaduje energii odpovídající rozdílu hladin.',muted,22)
+        arrow(550,320,550,430,violet);text(565,390,'vyzáření fotonu',violet,23)
+        text(160,140,'Energie pohlceného či vyzářeného fotonu odpovídá rozdílu hladin.',muted,22)
         text(160,520,'Schody v energii; nejde o oběžné dráhy elektronu.',muted,23)
     elif kind=='quantum-probability':
         text(65,95,'Jeden pokus: jeden zásah. Mnoho pokusů: rozdělení výsledků.',white,25)
@@ -121,9 +121,10 @@ def diagram(entry):
             for dy in (-42,42):line([(200,y),(280,y+dy),(440,y+dy),(520,y)],c,3)
             if y==425:
                 for dy in (-42,42):d.rectangle((343,y+dy-14,372,y+dy+14),outline=gold,width=3)
-            arrow(520,y,640,y,c);text(245,y-10,'dvě cesty',muted,20)
-            text(690,y-50,'výstup 0: '+p0,c,27);text(690,y+15,'výstup 1: '+p1,c,27)
-        text(65,525,'Ideální vyvážený interferometr; nahoře vhodně sladěná fáze.',muted,22)
+            arrow(520,y,640,y-32,c);arrow(520,y,640,y+32,c);text(245,y-10,'dvě cesty',muted,20)
+            d.polygon([(509,y),(520,y-10),(531,y),(520,y+10)],fill=c)
+            text(670,y-49,'výstup 0: '+p0,c,27);text(670,y+15,'výstup 1: '+p1,c,27)
+        text(65,525,'Druhý dělič spojuje obě cesty. Nahoře jsou jejich fáze vhodně sladěné.',muted,22)
     elif kind=='quantum-uncertainty':
         text(85,95,'Rozdělení polohy x',white,26);text(665,95,'Rozdělení hybnosti pₓ',white,26)
         for y,sx,sp,color,label in ((285,28,90,blue,'užší poloha → širší hybnost'),

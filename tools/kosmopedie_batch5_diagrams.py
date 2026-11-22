@@ -1,5 +1,6 @@
 """Original teaching diagrams for quantum fields; illustrations, not measurements."""
 import math
+from PIL import Image, ImageDraw
 from kosmopedie_diagrams import Canvas, WHITE, MUTED, BLUE, GOLD, VIOLET, GREEN, GRID
 
 
@@ -17,13 +18,20 @@ def diagram(entry):
         c.text(65,550,'QFT spojuje tyto tři stavební kameny do společného výpočetního rámce.',MUTED,21)
     elif k=='edu-b5-annihilation':
         c.text(65,90,'Příklad s nulovou celkovou hybností před reakcí',WHITE,26)
-        for x,col,label,symbol in ((210,BLUE,'elektron','e⁻'),(470,VIOLET,'pozitron','e⁺')):
-            c.circle(x,260,48,col,'#152137');c.text(x-20,238,symbol,col,32)
+        for x,col,label,symbol in ((210,BLUE,'elektron','−'),(470,VIOLET,'pozitron','+')):
+            c.circle(x,260,48,col,'#152137');c.text(x-21,238,'e',col,32);c.text(x-1,235,symbol,col,20)
             c.text(x-65,335,label,col,25)
         c.text(327,240,'+',WHITE,32);c.arrow(570,260,680,260,WHITE)
-        for y,col in ((220,GOLD),(300,GOLD)):
-            c.line([(720+i,y+13*math.sin(i*.13)) for i in range(301)],col,3)
-        c.arrow(850,220,720,220,GOLD);c.arrow(890,300,1020,300,GOLD)
+        center, y = 910, 254
+        backdrop = Image.new('RGBA', c.im.size)
+        painter = ImageDraw.Draw(backdrop)
+        for direction in (-1, 1):
+            shape = [(16,-19),(157,-19),(157,-30),(191,0),(157,30),(157,19),(16,19)]
+            painter.polygon([(center+direction*x,y+dy) for x,dy in shape],fill=(255,210,135,66))
+        c.im.paste(backdrop,(0,0),backdrop)
+        for direction in (-1, 1):
+            c.line([(center+direction*i,y+13*math.sin(i*.15)) for i in range(150)],GOLD,3)
+        c.circle(center,254,6,GOLD,GOLD,1)
         c.text(760,350,'dva fotony',GOLD,27)
         c.paragraph(760,395,'Opačné směry, stejné energie.',350,WHITE,24)
         c.text(65,455,'Náboj: −e + e = 0 → 0',WHITE,27)
@@ -62,10 +70,11 @@ def diagram(entry):
         c.line([(95,300),(520,300)],BLUE,5)
         c.text(95,345,'Nenulová hodnota ve vakuu',WHITE,24,maxwidth=425)
         c.paragraph(95,400,'Přítomná i bez Higgsových bosonů.',425,MUTED,24)
-        c.line([(680+i,300-100*math.exp(-.5*((i-210)/40)**2)) for i in range(426)],GOLD,4)
+        c.line([(680,300),(1105,300)],BLUE,2)
+        c.line([(680+i,300-57*math.exp(-.5*((i-212)/65)**2)*math.cos((i-212)*.105)) for i in range(426)],GOLD,4)
         c.text(680,345,'Kvantum pole',WHITE,25)
-        c.paragraph(680,400,'Excitace: do pole byla dodána energie.',425,MUTED,24)
-        c.text(65,545,'Čáry jsou názorné značky; nejde o skutečný tvar pole ani bosonu.',MUTED,22)
+        c.paragraph(680,400,'Jedno kvantové vzbuzení Higgsova pole.',425,MUTED,24)
+        c.text(65,545,'Modrá čára značí hodnotu pole ve vakuu, zlatá vlna symbolizuje vzbuzení.',MUTED,22)
     elif k=='edu-b5-mass':
         for x,col,title in ((65,BLUE,'Elektron'),(650,GOLD,'Proton')):
             c.box(x,110,x+485,510,col);c.text(x+25,135,title,col,32)

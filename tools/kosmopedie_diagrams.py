@@ -337,23 +337,26 @@ def diagram(entry):
         c.text(65,545,'Matematická ilustrace stavu 1s; jas je názorný a nejde o fotografii atomu.',MUTED,21)
     elif k == 'edu-tone-pulse':
         c.text(115,95,'Průběh v čase',WHITE,26);c.text(715,95,'Zastoupení frekvencí',WHITE,26)
-        for baseline,sigma,fwidth,color,label in ((270,100,20,BLUE,'dlouhý tón'),(470,22,90,GOLD,'krátký zvuk')):
-            c.text(50,baseline-115,label,color,24)
-            c.line([(110,baseline),(550,baseline)],GRID,2);c.line([(680,baseline),(1120,baseline)],GRID,2)
+        c.text(715,132,'Obě spektra mají vrchol přepočtený na 1.',MUTED,21)
+        for baseline,sigma,fwidth,color,label in ((265,85,20,BLUE,'dlouhý tón'),(442,20,85,GOLD,'krátký zvuk')):
+            c.text(55,baseline-86,label,color,24)
+            c.arrow(110,baseline,558,baseline,MUTED,2)
+            c.arrow(680,baseline,1128,baseline,MUTED,2)
+            c.line([(900,baseline),(900,baseline-63)],GRID,2)
+            c.text(651,baseline-12,'0',MUTED,21)
             c.line([(110+i,baseline-45*math.exp(-.5*((i-220)/sigma)**2)*math.cos((i-220)*.27)) for i in range(441)],color,3)
-            c.line([(680+i,baseline-(1600/fwidth)*math.exp(-.5*((i-220)/fwidth)**2)) for i in range(441)],color,4)
-        c.text(65,535,'Delší trvání ↔ užší rozsah frekvencí. Analogie vlnového balíku, nikoli měření elektronu.',MUTED,21)
+            c.line([(680+i,baseline-62*math.exp(-.5*((i-220)/fwidth)**2)) for i in range(441)],color,4)
+        c.text(65,535,'Kratší zvuk má širší spektrum. Svislá značka ukazuje stejnou střední frekvenci.',MUTED,21)
     elif k == 'edu-entanglement-distance':
-        c.text(65,90,'Myšlenkový příklad: pozorovatele dělí milion světelných let.',WHITE,25)
+        c.paragraph(65,90,'Dva pozorovatelé vzdálení milion světelných let měří stejnou vlastnost, každý na své částici z provázané dvojice.',1070,WHITE,25)
         for x,label in ((100,'Pozorovatel A'),(805,'Pozorovatel B')):
             c.box(x,180,x+290,400,BLUE if x==100 else VIOLET)
             c.text(x+20,205,label,WHITE,25)
             c.text(x+25,270,'0 1 0 0 1 1',GOLD,30)
-            c.text(x+20,345,'místní náhodná řada',MUTED,21)
-        c.line([(410,325),(785,325)],GRID,3)
-        c.paragraph(445,205,'Společný stav; odpovídající výsledky spolu souvisejí.',300,MUTED,23)
+            c.text(x+20,345,'záznam šesti měření',MUTED,21)
+        c.paragraph(425,205,'Pokus provedou šestkrát. Každá číslice je výsledek jednoho měření. Oba záznamy se v tomto příkladu shodují.',360,MUTED,23)
         c.arrow(165,460,1040,460,GREEN)
-        c.text(150,490,'Porovnání záznamů: zpráva cestuje nejméně milion let.',GREEN,24)
+        c.text(150,490,'Záznamy porovnají až po doručení zprávy (nejméně milion let).',GREEN,24)
         c.text(65,540,'Uvedené řady jsou názorné; nejde o uskutečněný experiment na této vzdálenosti.',MUTED,21)
     else:
         raise ValueError('Unknown Kosmopedie diagram: '+k)
