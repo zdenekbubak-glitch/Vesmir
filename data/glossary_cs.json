@@ -246,5 +246,15 @@
     "variants": [],
     "note": "Schváleno v GitHub Issues.",
     "status": "approved"
+  },
+  {
+    "term": "statistical fluctuation",
+    "preferred": "statistický výkyv",
+    "variants": [
+      "statistická výkyvnost",
+      "statistickou výkyvností"
+    ],
+    "note": "Podle kontextu také náhodný statistický výkyv nebo odborně statistická fluktuace. Statistical uncertainty je statistická nejistota.",
+    "status": "approved"
   }
 ]
