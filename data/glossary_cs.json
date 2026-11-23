@@ -225,5 +225,12 @@
     ],
     "note": "V množném čísle primordiální černé díry. Při první zmínce v Kosmopedii lze uvést primordiální (prvotní) černé díry.",
     "status": "approved"
+  },
+  {
+    "term": "Little Red Dots",
+    "preferred": "malé červené tečky",
+    "variants": [],
+    "note": "Schváleno v GitHub Issues.",
+    "status": "approved"
   }
 ]
