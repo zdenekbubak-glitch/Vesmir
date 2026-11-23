@@ -102,6 +102,19 @@ def diagram(entry):
             for a,b in zip(p,p[1:]):
                 c.line([a,b],GRID,1)
         c.text(70,540,'Tři řezy v témže okamžiku. Změny vzdáleností jsou silně zvětšené.',MUTED,22)
+    elif k == 'edu-lithium-7-relics':
+        c.text(65,91,'Hypotéza pro první hodiny vesmíru',WHITE,25)
+        for x,label,detail,col in (
+            (65,'Nestabilní relikty','Rozpadající se částice nebo vypařující se útvary Q-balls',BLUE),
+            (450,'Uvolněné částice','Antineutrina, elektrony a fotony mění průběh jaderných reakcí',VIOLET),
+            (835,'Méně lithia-7','Podle výpočtu může vzniknout méně lithia-7',GOLD),
+        ):
+            c.box(x,181,x+300,447,col)
+            c.text(x+20,215,label,col,26)
+            c.paragraph(x+20,288,detail,260,WHITE,23)
+        c.arrow(375,315,439,315,BLUE)
+        c.arrow(760,315,825,315,BLUE)
+        c.text(65,508,'Výsledky musí zároveň odpovídat měřením deuteria, helia-4 a reliktního záření.',MUTED,21)
     elif k == 'edu-dark-comparison':
         for x, label, color in ((60, 'Temná hmota', BLUE), (650, 'Temná energie', VIOLET)):
             c.box(x, 100, x+490, 505, color)
