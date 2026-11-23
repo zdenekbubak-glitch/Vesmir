@@ -882,7 +882,7 @@
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/clanky/castice-z-tmaveho-sektoru-by-mohly-vysvetlit-zahadne-signaly-z-2611173281.html",
     "recorded_at": "2026-11-13T08:25:44.956120+00:00",
-    "last_check_attempt_at": "2026-11-21T09:01:45.352243+00:00",
+    "last_check_attempt_at": "2026-11-23T09:16:00.519285+00:00",
     "publication_check_result": "unavailable"
   },
   {
@@ -1160,5 +1160,15 @@
     "status": "draft",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-21T09:01:49.286429+00:00"
+  },
+  {
+    "source": "linkedin",
+    "kind": "weekly",
+    "key": "linkedin_weekly_f09b63beda3ca17a3ef6",
+    "title": "Týdenní výběr Kosmologických novinek: 17. listopadu – 23. listopadu 2026",
+    "platform_id": "6b04044f4d584ce26837b33b",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-23T09:16:00.679463+00:00"
   }
 ]
