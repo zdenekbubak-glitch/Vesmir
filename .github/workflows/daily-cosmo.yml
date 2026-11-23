@@ -367,8 +367,7 @@ jobs:
         run: |
           python3 << 'EOF'
           import json, os, datetime, requests
-          from scripts.social_tracking import post_key, tracked_url, receipt, article_url
-          from scripts.generate_x_card import pick_item
+          from scripts.social_tracking import post_key, tracked_url, receipt, article_url, pick_daily_link_item
           from pathlib import Path
 
           news_path = Path("data/news.json")
@@ -378,16 +377,12 @@ jobs:
 
           items = json.loads(news_path.read_text())
           today = datetime.date.today().isoformat()
-          today_items = [i for i in items if (i.get("inserted_at") or "")[:10] == today]
-          if not today_items:
-              print("Dnes žádná nová položka – příspěvek neposílám.")
-              exit(0)
-
-          # Stejný výběr jako na obrázku denní karty.
-          item = pick_item(today_items)
+          item = pick_daily_link_item(items, today)
           if not item:
-              print("Žádný článek pro denní kartu.")
+              print("Facebook: dnes není způsobilý český článek.")
               exit(0)
+          source = "článek z karty X" if item.get("daily_card_selected") else "první způsobilý český článek"
+          print(f"Facebook: {source} – {item['title']}")
           api_key = os.environ.get("BUFFER_API_KEY")
           if not api_key:
               raise SystemExit("Chybí BUFFER_API_KEY.")
