@@ -19,6 +19,21 @@ def tracked_url(url, source, kind, key):
     query += [('utm_source', source), ('utm_medium', 'social'), ('utm_campaign', 'kosmonovinky'), ('utm_content', key), ('utm_term', kind)]
     return urlunsplit((p.scheme, p.netloc, p.path or '/', urlencode(query), p.fragment))
 
+def pick_daily_link_item(items, day):
+    """Prefer today's card article, otherwise use the first eligible Czech article."""
+    eligible = [
+        item for item in items
+        if (item.get('inserted_at') or '')[:10] == day
+        and item.get('lang') == 'cs'
+        and not item.get('needs_translation')
+        and (item.get('title') or '').strip()
+        and (item.get('summary') or '').strip()
+    ]
+    eligible.sort(key=lambda item: item.get('inserted_at') or '', reverse=True)
+    return next((item for item in eligible if item.get('daily_card_selected') is True),
+                eligible[0] if eligible else None)
+
+
 def article_url(item, items):
     """Resolve exactly the article path used by tools/build_static.py, including collisions."""
     import unicodedata

@@ -179,6 +179,7 @@ def select_for_card(rows, posts, history, day, config):
     existing = next((post for post in history if post.get("daily_card_selected")
                      and (post.get("inserted_at") or "")[:10] == day), None)
     if existing:
+        print(f"Výběr karty {day}: článek už byl dnes vybrán.")
         return None
     sent_yesterday = any(
         (post.get("inserted_at") or "")[:10] == yesterday
@@ -186,19 +187,29 @@ def select_for_card(rows, posts, history, day, config):
         for post in history
     )
     minimum = 14 if sent_yesterday else 12
+    print(f"Výběr karty {day}: hranice {minimum} bodů, kandidátů {len(posts)}.")
     by_id = {row["id"]: row for row in rows}
     candidates = []
     for post in posts:
         row = by_id[post["id"]]
         rating = row["rating"]
         lead = re.split(r"\n\s*\n", post["summary"], maxsplit=1)[0]
-        if (post.get("lang") != "cs" or post.get("needs_translation")
-                or row["score"] < minimum or rating["accessibility"] < 3
-                or rating["technicality"] > 3 or rating["hype_risk"] > 2
-                or rating["evidence_type"] == "mathematical"
-                or row["signals"]["math_per_100_words"] >= config["math_threshold"]
-                or re.search(r"[$=∫∑]|\\(?:\(|\[|frac\b|begin\b)", post["title"] + " " + lead)):
+        checks = (
+            (post.get("lang") != "cs" or post.get("needs_translation"), "chybí hotový český překlad"),
+            (row["score"] < minimum, f"skóre pod hranicí {minimum}"),
+            (rating["accessibility"] < 3, f"srozumitelnost {rating['accessibility']} < 3"),
+            (rating["technicality"] > 3, f"odborná náročnost {rating['technicality']} > 3"),
+            (rating["hype_risk"] > 2, f"riziko přehánění {rating['hype_risk']} > 2"),
+            (rating["evidence_type"] == "mathematical", "matematická studie"),
+            (row["signals"]["math_per_100_words"] >= config["math_threshold"], "příliš matematiky v abstraktu"),
+            (re.search(r"[$=∫∑]|\\(?:\(|\[|frac\b|begin\b)", post["title"] + " " + lead),
+             "matematický zápis v titulku nebo úvodu"),
+        )
+        reasons = ", ".join(reason for failed, reason in checks if failed)
+        if reasons:
+            print(f"  Vyřazeno [{post['id']}] {post['title']} ({row['score']} bodů): {reasons}")
             continue
+        print(f"  Způsobilý [{post['id']}] {post['title']} ({row['score']} bodů).")
         candidates.append(post)
     return max(candidates, key=lambda post: (
         by_id[post["id"]]["rating"]["evidence_type"] == "observation",

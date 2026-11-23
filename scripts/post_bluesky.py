@@ -20,8 +20,7 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode, urljoin, urlsplit
 from urllib.request import Request, urlopen
 
-from social_tracking import post_key, tracked_url, receipt, article_url
-from generate_x_card import pick_item
+from social_tracking import post_key, tracked_url, receipt, article_url, pick_daily_link_item
 
 SITE_URL = 'https://kosmonovinky.cz'
 COLLECTION = 'app.bsky.feed.post'
@@ -291,14 +290,12 @@ def main():
     root = args.site_dir
     day = datetime.now(timezone.utc).date().isoformat()
     items = json.loads((root / 'data/news.json').read_text(encoding='utf-8'))
-    today = [i for i in items if (i.get('inserted_at') or '')[:10] == day]
-    if not today:
-        print('Bluesky: dnes žádná nová položka – příspěvek neposílám.')
-        return
-    item = pick_item(today)
+    item = pick_daily_link_item(items, day)
     if not item:
-        print('Bluesky: žádný článek pro denní kartu.')
+        print('Bluesky: dnes není způsobilý český článek.')
         return
+    source = 'článek z karty X' if item.get('daily_card_selected') else 'první způsobilý český článek'
+    print(f"Bluesky: {source} – {item['title']}")
     target = article_url(item, items)
     text, _ = compose(item, target, day)
     if args.dry_run:
