@@ -28,7 +28,8 @@ def needs_repair(item: dict) -> bool:
     caption = item.get("caption") or ""
     if not title.strip() and not caption.strip():
         return False
-    # prázdný originál -> kontrola shody titulku s originálem se přeskočí
+    if item.get("needs_translation") or item.get("lang") == "en":
+        return True
     return not looks_czech_image(title, caption, "")
 
 
@@ -64,6 +65,8 @@ def main():
             skipped += 1
             continue
         item["title"], item["caption"] = result
+        item["lang"] = "cs"
+        item["needs_translation"] = False
         fixed += 1
         time.sleep(5)
 

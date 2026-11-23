@@ -70,9 +70,8 @@ def looks_czech_image(title_cs: str, caption_cs: str, original_title: str) -> bo
     caption_cs = (caption_cs or "").strip()
     if len(title_cs) < 3 or len(caption_cs) < 20:
         return False
-    if title_cs.casefold() == (original_title or "").strip().casefold():
-        return False
-    blob = title_cs + " " + caption_cs
+    # An identifier such as V-G-R can remain unchanged after translation.
+    blob = caption_cs
     if re.search(r"[áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]", blob):
         return True
     low = blob.casefold()
@@ -82,7 +81,7 @@ def looks_czech_image(title_cs: str, caption_cs: str, original_title: str) -> bo
 def translate_cs(client, title: str, caption: str, retry_wait: int = 7) -> tuple[str, str] | None:
     prompt = f"""Přelož astronomický popisek do češtiny. Vrať POUZE JSON:
 {{"title_cs":"...","caption_cs":"..."}}
-Titulek max 80 znaků, popisek 1–3 věty.
+Titulek max 80 znaků, popisek 1–3 věty. Identifikátory a vlastní jména v titulku můžeš ponechat.
 
 Title: {title}
 Caption: {caption[:800]}
