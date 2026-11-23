@@ -1,5 +1,41 @@
 [
   {
+    "id": "2601.14559",
+    "title": "Data z Dark Energy Survey odhalují nesouhlas s reliktním zářením",
+    "summary": "Vědci z mezinárodního projektu Dark Energy Survey (DES) zveřejnili finální kosmologické výsledky ze všech šesti let pozorování oblohy. V rámci analýzy velkorozměrové struktury vesmíru změřili klíčové parametry kosmu na základě tří typů korelačních funkcí: kosmického střihu ze tvarů 140 milionů galaxií vyvolaného slabým gravitačním čočkováním (mírným zakřivením dráhy světla gravitací vložené hmoty), rozložení 9 milionů galaxií (shlukování galaxií) a jejich vzájemné korelace.\n\nPro standardní kosmologický model plochého vesmíru (Lambda-CDM) stanovili parametr shlukování hmoty S₈ = 0,789 ⁺⁰,⁰¹² ₋₀,⁰¹² a celkovou hustotu hmoty Ωₘ = 0,333 ⁺⁰,⁰²³ ₋₀,⁰²⁸. Tyto hodnoty vykazují v celkovém parametrovém prostoru odchylku 1,8 σ od výsledků kombinace dat reliktního záření (CMB, což je nejstarší zachycené záření vesmíru vzniklé krátce po velkém třesku) z projektů Planck 2018, ACT-DR6 a SPT-3G DR1. Při posouzení samotného parametru S₈ dosahuje tento nesouhlas 2,6 σ. Pro model wCDM s proměnnou temnou energií vyšla hodnota S₈ = 0,782 ⁺⁰,⁰²¹ ₋₀,⁰²₀.\n\nProč je to zajímavé:\nZda je vesmír v novějším období méně shluknutý, než jak předpovídají modely založené na měření raného vesmíru, představuje zásadní otevřenou otázku kosmologie. Výsledky DES poskytují dosud nejpřesnější samostatné měření ze struktury pozdního vesmíru, které pomáhá určit, zda je odchylka parametru S₈ pouhou statistickou výkyvností, nebo naznačuje nutnost úpravy standardního kosmologického modelu.",
+    "url": "https://arxiv.org/abs/2601.14559",
+    "source": "arXiv",
+    "original_title": "Dark Energy Survey Year 6 Results: Cosmological Constraints from Galaxy Clustering and Weak Lensing",
+    "published": "2026-11-23T05:00:00+00:00",
+    "inserted_at": "2026-11-23T08:22:05.068233+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.26691",
+    "title": "Rozpadající se relikty mohou vyřešit kosmologický problém lithia",
+    "summary": "Množství lithia 7 ve starých hvězdách je přibližně třikrát nižší, než předpovídá standardní model prvotní nukleosyntézy (teorie popisující vznik prvků těsně po Velkém třesku), zatímco deuteria je mírně více. Většinu dřívějších částicových řešení však přesná měření helia 4, deuteria a efektivního počtu druhů neutrin vyloučila. Autoři nové studie navrhují, že tento kosmologický problém lithia mohou vyřešit částicové relikty (pozůstatky z raného vesmíru), které se rozpadají nebo odpařují s dobou života několika hodin.\n\nTyto relikty by se rozpadaly zejména na elektronová antineutrina s energiemi kolem sta MeV (megaelektronvoltů, jednotek energie udávajících hmotnost částic) a na elektrony či fotony. Podle výpočtů mezi tyto objekty patří kalibrační bosony se symetrií Lₑ − L_τ nebo B − 3Lₑ, těžká neutrální leptony s dipólovou vazbou či směšováním s tau neutrinem (s hmotnostmi několika stovek MeV) a populace odpařujících se Q-ballů – částicových shluků polí nesoucích leptonové číslo. Rozpadající se částice podle autorů problém lithia výrazně zmírňují, zatímco Q-bally dosahují tolerance 2σ (dvou směrodatných odchylek) udávané skupinou Particle Data Group.\n\nProč je to zajímavé: Práce pomáhá zodpovědět otázku, proč ve starých hvězdách pozorujeme výrazně méně lithia 7, než kolik ho podle výpočtů mělo vzniknout na počátku vesmíru. Existenci těchto teoretických částic by mohla v budoucnu ověřit pozorování výbuchu galaktické supernovy nebo přesná měření reliktního záření (CMB) z chystané observatoře Simons Observatory.",
+    "url": "https://arxiv.org/abs/2611.26691",
+    "source": "arXiv",
+    "original_title": "The cosmological lithium problem and how decaying relics still solve it",
+    "published": "2026-11-23T05:00:00+00:00",
+    "inserted_at": "2026-11-23T08:22:05.068233+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.26685",
+    "title": "Malé červené tečky v kosmickém poledni: Výzkum ukázal jejich prudký úbytek",
+    "summary": "Astrofyzici zkoumali evoluci takzvaných malých červených teček (Little Red Dots) v období kosmického poledne, tedy v epoše vesmíru při rudém posuvu 2 až 4. Rudý posuv udává míru prodloužení vlnové délky světla vlivem rozpínání vesmíru, a určuje tak vzdálenost i kosmické období. Malé červené tečky jsou kompaktní červené objekty se širokými emisními čarami ve spektru, které při rudém posuvu 5 až 8 dosahují nejméně desetinásobně vyšší četnosti než kvazary vybrané v ultrafialovém pásmu.\n\nTým využil pozorování ve více pásmech — zachycující elektromagnetické záření v rozsahu 0,3 až 4,5 mikrometru — z přehlídky HSC-SSP na dalekohledu Subaru a vybral 266 kandidátů. Následná spektroskopická měření přístroji Keck/NIRES, VLT/X-shooter a Magellan/FIRE potvrdila vzorek čtyř objektů se širokou emisní čarou vodíku Hα. Autoři zjistili, že při rudém posuvu 2,10 až 2,55 klesla objemová hustota těchto teček na přibližně 6,8 × 10⁻⁷ cMpc⁻³ (v pohyblivých souřadnicích). To představuje pětatřicetinásobný pokles oproti jejich dřívější konstantní hustotě při rudém posuvu 4 až 8 určené dalekohledem JWST. Ohyb optické funkce zářivosti si přitom zachovává nezměněný tvar.\n\nProč je to zajímavé: Výzkum pomáhá zodpovědět otázku, jakým vývojem prošly záhadné kompaktní objekty z raného vesmíru při přechodu do pozdějších epoch. Zjištěný prudký pokles jejich počtu naznačuje, že existence malých červených teček představovala v historii galaxií a černých děr pouze přechodnou fázi.",
+    "url": "https://arxiv.org/abs/2611.26685",
+    "source": "arXiv",
+    "original_title": "Little Red Dots at Cosmic Noon: Spectroscopy Reveals Declining Abundance but a Non-Evolving Luminosity Function Shape",
+    "published": "2026-11-23T05:00:00+00:00",
+    "inserted_at": "2026-11-23T08:22:05.068233+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm",
     "title": "Dvě hmotné hvězdy možná tajně krmí supermasivní černou díru Mléčné dráhy",
     "summary": "Astronomové dohledali původ záhadných plynných oblaků v blízkosti supermasivní černé díry v centru Mléčné dráhy. Výzkum ukazuje, že tyto oblačné struktury pocházejí od hmotné dvojice hvězd.\n\nPodle vědců se hvězdné větry z obou hvězd – tedy intenzivní proudy plynu vyrážené z jejich povrchu – navzájem srážejí a patrně přitom vytvářejí husté shluky materiálu. Tyto mraky by podle navrženého scénáře mohly v budoucnu padat do centrální černé díry a krmit ji. Pozorování tak odhaluje překvapivou možnou souvislost mezi hvězdnou aktivitou a růstem obřích černých děr.\n\nProč je to zajímavé: Práce pomáhá odpovědět na otázku, jakým způsobem mohou supermasivní černé díry získávat plyn potřebný ke svému růstu. Ukazuje, že k jejich krmení by mohly přispívat i procesy, jako jsou srážky větrů v masivních dvojhvězdách.",
@@ -5882,36 +5918,6 @@
     "source": "arXiv",
     "original_title": "Can Isotropic Thermal Conduction Heat One of the Hottest Cool Cores?",
     "published": "2026-09-14T17:53:01+00:00",
-    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
-  },
-  {
-    "id": "2609.13363",
-    "title": "Lov na dvojité supermasivní černé díry: SKAO zachytí jejich gravitační vlny",
-    "summary": "Astrofyzici zkoumali, zda známé kandidáty na dvojité supermasivní černé díry vyzařují dostatečně silné gravitační vlny, aby vynikly z celkového vesmírného šumu. S využitím dat z projektu NANOGrav zjistili, že objekty jako 3C 66B nebo Mrk 501 nad tímto pozadím výrazně vyčnívají a představují ideální terče pro přímé pozorování. Chystaná síť radioteleskopů SKAO by v budoucnu měla samostatně rozlišit desítky takových obřích systémů. Tato pozorování nám navíc pomohou rozluštit, jak okolní prostředí ovlivňuje přibližování černých děr před jejich finálním splynutím. Proč je to zajímavé: Získáváme konkrétní terče pro budoucí detekci gravitačních vln, která odhalí tajemství evoluce galaktických jader a chování hmoty v nejextrémnějších podmínkách vesmíru.",
-    "url": "https://arxiv.org/abs/2609.13363",
-    "source": "arXiv",
-    "original_title": "The Loud Tail of the Supermassive Black Hole Binary Population: Multimessenger Candidates and Prospects for SKAO",
-    "published": "2026-09-15T04:00:00+00:00",
-    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
-  },
-  {
-    "id": "2609.13369",
-    "title": "Gravitační vlny jako lupa: Jak odhalit rozlehlé objekty z temné hmoty",
-    "summary": "Astrofyzici čím dál častěji využívají gravitační vlny k pátrání po neviditelných strukturách ve vesmíru, jako jsou solitony či temné hvězdy. Dosavadní studie gravitačního čočkování však většinou předpokládaly, že tyto objekty působí jako bodové zdroje. Nové výpočty ukazují, že rozlehlost temných těles způsobuje charakteristickou difrakci gravitačních vln, která se projevuje změnou jejich tvaru a frekvence. Díky tomu lze i ze současných dat observatoří LIGO-Virgo-KAGRA vyčíst vlastnosti těles o hmotnosti 100 až 100 000 Sluncí, přičemž budoucí detektory hranice citlivosti ještě výrazně posunou. Proč je to zajímavé: Tento přístup mění gravitační vlny v kosmický mikroskop, který dokáže určit nejen hmotnost, ale i skutečné rozměry zcela neviditelných objektů z temné hmoty.",
-    "url": "https://arxiv.org/abs/2609.13369",
-    "source": "arXiv",
-    "original_title": "Diffraction of gravitational waves by extended dark objects",
-    "published": "2026-09-15T04:00:00+00:00",
-    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
-  },
-  {
-    "id": "2609.13821",
-    "title": "Tajemné interakce neutrin: Jak mění naši představu o raném vesmíru?",
-    "summary": "Neutrina patří k nejrozšířenějším, ale zároveň nejméně pochopeným částicím ve vesmíru. Vědci v nové studii zkoumali, jak by případné samovolné interakce mezi jednotlivými typy neutrin ovlivnily otisk raného vesmíru v reliktním záření. Za použití kvantových kinetických rovnic poprvé důsledně započítali jev míchání neutrinových stavů. Ukázali, že dosavadní kosmologické limity pro sílu těchto interakcí byly přehnaně striktní. Pokud vzájemně působí pouze jeden nebo dva druhy neutrin, jsou skutečná omezení slabší o faktor √2 až √6. Proč je to zajímavé: Výzkum otevírá teoretickým fyzikům širší okno pro hledání nových částic a skrytých sil ve vesmíru, aniž by to protiřečilo dosavadním astronomickým pozorováním.",
-    "url": "https://arxiv.org/abs/2609.13821",
-    "source": "arXiv",
-    "original_title": "Consistent treatment of flavour-specific neutrino self-interactions in cosmology",
-    "published": "2026-09-15T04:00:00+00:00",
     "inserted_at": "2026-09-15T07:13:57.211166+00:00"
   },
   {

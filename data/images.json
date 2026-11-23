@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-23",
+    "title": "Vynoření temné mlhoviny Lynds 1251",
+    "caption": "Pokud byste se dívali do vesmíru a sbírali světlo plných 20 hodin, postupně byste si všimli podivné temné struktury. Digitálním zpracováním pak získáte úchvatný snímek mlhoviny Lynds 1251 (LDN 1251) – oblasti tvorby hvězd protkané neprůhledným hnědavým mezihvězdným prachem. Tato mlhovina, známá také jako „Zkažená ryba“, je domovem nejen mladých hvězd.",
+    "thumb": "assets/gallery/apod-2026-11-23.jpg",
+    "image": "assets/gallery/apod-2026-11-23.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251/",
+    "published": "2026-11-23",
+    "credit": "David Cruz",
+    "creator": {
+      "@type": "Person",
+      "name": "David Cruz"
+    },
+    "copyrightNotice": "David Cruz",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251/",
+    "original_title": "The Emergence of Dark Nebula Lynds 1251",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-23T08:23:36.129655+00:00"
+  },
+  {
     "id": "apod-2026-11-22",
     "title": "Víry a barvy na Jupiteru ze sondy Juno",
     "caption": "Původ barev v mracích Jupitera zůstává předmětem výzkumu, neboť vodík a hélium jsou při nízkých teplotách bezbarvé a jedním z hlavních kandidátů na zbarvení je hydrosulfid amonný. Tento barevně zvýrazněný snímek ukazuje, že světlé mraky se nacházejí výše než tmavší a víří kolem načervenalých oblastí. Záběr pořídila robotická sonda Juno v roce 2018 během svého 14. blízkého průletu kolem planety.",
