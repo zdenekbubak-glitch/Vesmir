@@ -289,5 +289,12 @@
     "variants": [],
     "note": "Schváleno v GitHub Issues.",
     "status": "approved"
+  },
+  {
+    "term": "dark-electron rate",
+    "preferred": "četnost rozptylu temné hmoty na elektronech (DM-electron rate)",
+    "variants": [],
+    "note": "Schváleno v GitHub Issues.",
+    "status": "approved"
   }
 ]
