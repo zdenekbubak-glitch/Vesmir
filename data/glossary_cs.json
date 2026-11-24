@@ -282,5 +282,12 @@
     "variants": [],
     "note": "Schváleno v GitHub Issues.",
     "status": "approved"
+  },
+  {
+    "term": "frame dragging",
+    "preferred": "strhávání časoprostoru",
+    "variants": [],
+    "note": "Schváleno v GitHub Issues.",
+    "status": "approved"
   }
 ]
