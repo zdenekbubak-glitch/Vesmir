@@ -268,5 +268,12 @@
     ],
     "note": "Chemický prvek Xe piš česky xenon. Skloňuj xenonu, xenonem; přídavné jméno xenonový, xenonové, xenonových. Zachovej názvy experimentů XENONnT a dalších.",
     "status": "approved"
+  },
+  {
+    "term": "figure of merit",
+    "preferred": "Míra kvality (FoM)",
+    "variants": [],
+    "note": "Schváleno v GitHub Issues.",
+    "status": "approved"
   }
 ]
