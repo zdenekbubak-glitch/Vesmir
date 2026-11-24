@@ -1192,16 +1192,6 @@
     "recorded_at": "2026-11-24T08:47:23.163713+00:00"
   },
   {
-    "source": "bluesky",
-    "kind": "daily",
-    "key": "bluesky_daily_a433c8ba83101c75c5b5",
-    "title": "Roční modulace může odhalit lehkou temnou hmotu v detektorech ksenonu",
-    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n2zdm5rs22ep",
-    "status": "published",
-    "target": "https://kosmonovinky.cz/clanky/rocni-modulace-muze-odhalit-lehkou-temnou-hmotu-v-detektorech-ksenonu-261128211.html",
-    "recorded_at": "2026-11-24T08:47:28.712629+00:00"
-  },
-  {
     "source": "x",
     "kind": "quote",
     "key": "x_quote_c487abbbfca72546c52b",
@@ -1210,5 +1200,15 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-24T09:01:22.424667+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_a433c8ba83101c75c5b5",
+    "title": "Roční modulace může odhalit lehkou temnou hmotu v detektorech xenonu",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n2zdm5rs22ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/clanky/rocni-modulace-muze-odhalit-lehkou-temnou-hmotu-v-detektorech-xenonu-261128211.html",
+    "recorded_at": "2026-11-24T09:26:59.520003+00:00"
   }
 ]
