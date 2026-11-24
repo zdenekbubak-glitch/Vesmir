@@ -465,8 +465,8 @@
   },
   {
     "id": "kosmopedie-schema-neutronove-hvezdy-pulsar",
-    "title": "Pulzar jako kosmický maják",
-    "caption": "Pulzar jako kosmický maják: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "title": "Pulsar jako kosmický maják",
+    "caption": "Osa rotace neutronové hvězdy je nakloněná vůči magnetické ose. Pulz zachytíme, když svazek záření při rotaci přejde přes směr k Zemi.",
     "image": "assets/article-images/schema-neutronove-hvezdy-pulsar.jpg",
     "thumb": "assets/article-images/thumbs/schema-neutronove-hvezdy-pulsar.webp",
     "source": "Kosmologické novinky",
@@ -666,7 +666,7 @@
   {
     "id": "kosmopedie-schema-neutrony-a-prvky",
     "title": "Jak neutrony pomáhají vytvářet nové prvky",
-    "caption": "Dva základní jaderné děje: záchyt neutronu mění izotop při zachování počtu protonů; při přeměně beta minus se neutron mění na proton za emise elektronu a elektronového antineutrina. Rychlý záchyt neutronů a následné přeměny jsou součástí r-procesu. Kresba není úplnou reakcí konkrétního izotopu ani celou sítí nukleosyntézy.",
+    "caption": "Jádro může zachytit několik neutronů, aniž se změní prvek. Při přeměně beta minus se jeden neutron v jádře změní na proton a vzniká jiný prvek. Při r-procesu se tyto děje mohou opakovat.",
     "image": "assets/article-images/schema-neutrony-a-prvky.jpg",
     "thumb": "assets/article-images/thumbs/schema-neutrony-a-prvky.webp",
     "source": "Kosmologické novinky",
@@ -1412,7 +1412,7 @@
     "id": "kosmopedie-eso1917a",
     "catalog_image_id": "eso1917a",
     "title": "Vznik stroncia při srážce neutronových hvězd",
-    "caption": "Tematický obrázek: Vznik stroncia při srážce neutronových hvězd (umělecká představa). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "caption": "Umělecká představa splynutí dvou neutronových hvězd. Ve spektru záření z vyvržené látky astronomové později rozpoznali stopy stroncia.",
     "image": "assets/article-images/eso1917a.jpg",
     "thumb": "assets/article-images/thumbs/eso1917a.webp",
     "source": "ESO/L. Calçada/M. Kornmesser",

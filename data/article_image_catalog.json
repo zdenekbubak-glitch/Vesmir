@@ -928,7 +928,7 @@
     "rights_url": "https://www.eso.org/public/outreach/copyright/",
     "kind": "umělecká představa",
     "alt": "Vznik stroncia při srážce neutronových hvězd – umělecká představa",
-    "caption": "Tematický obrázek: Vznik stroncia při srážce neutronových hvězd (umělecká představa). Nejde nutně o objekt ze studie; neviditelné složky vesmíru nejsou přímým snímkem.",
+    "caption": "Umělecká představa splynutí dvou neutronových hvězd. Ve spektru záření z vyvržené látky astronomové později rozpoznali stopy stroncia.",
     "source_id": "eso1917a",
     "layout": "contain",
     "revision": 3,
@@ -4657,15 +4657,15 @@
   {
     "id": "schema-neutronove-hvezdy-pulsar",
     "topic": "neutronove-hvezdy",
-    "title": "Pulzar jako kosmický maják",
+    "title": "Pulsar jako kosmický maják",
     "diagram": "pulsar",
     "generated": true,
     "kind": "vlastní schéma",
     "subtopics": [
       "general"
     ],
-    "alt": "Pulzar jako kosmický maják – vlastní kvalitativní schéma, nikoli pozorování",
-    "caption": "Pulzar jako kosmický maják: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "alt": "Prostorové schéma pulsaru se svazky záření, osou rotace a šikmou magnetickou osou",
+    "caption": "Osa rotace neutronové hvězdy je nakloněná vůči magnetické ose. Pulz zachytíme, když svazek záření při rotaci přejde přes směr k Zemi.",
     "credit": "Kosmologické novinky",
     "credit_links": [],
     "source": "https://kosmonovinky.cz/",
@@ -4675,7 +4675,7 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
     "verified_on": "2026-10-20",
-    "revision": 3,
+    "revision": 4,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -4691,7 +4691,9 @@
       "url": "https://kosmonovinky.cz/"
     },
     "copyrightNotice": "Kosmologické novinky",
-    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 1734,
+    "height": 907
   },
   {
     "id": "schema-neutronove-hvezdy-binary",
@@ -6229,7 +6231,7 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
     "verified_on": "2026-10-25",
-    "revision": 1,
+    "revision": 2,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -6243,7 +6245,7 @@
     "source_id": "own-diagram:edu-neutron-capture",
     "source_family": "own-diagram:edu-neutron-capture",
     "alt": "Jak neutrony pomáhají vytvářet nové prvky – vlastní vysvětlující schéma",
-    "caption": "Dva základní jaderné děje: záchyt neutronu mění izotop při zachování počtu protonů; při přeměně beta minus se neutron mění na proton za emise elektronu a elektronového antineutrina. Rychlý záchyt neutronů a následné přeměny jsou součástí r-procesu. Kresba není úplnou reakcí konkrétního izotopu ani celou sítí nukleosyntézy.",
+    "caption": "Jádro může zachytit několik neutronů, aniž se změní prvek. Při přeměně beta minus se jeden neutron v jádře změní na proton a vzniká jiný prvek. Při r-procesu se tyto děje mohou opakovat.",
     "thumbnail": "assets/article-images/thumbs/schema-neutrony-a-prvky.webp",
     "source_master": "assets/article-images/sources/schema-neutrony-a-prvky.jpg",
     "match_keywords": [],
@@ -6257,7 +6259,9 @@
       "url": "https://kosmonovinky.cz/"
     },
     "copyrightNotice": "Kosmologické novinky",
-    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 1200,
+    "height": 630
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -10884,5 +10888,26 @@
         "url": "https://www.nobelprize.org/uploads/2018/06/riess_lecture.pdf"
       }
     ]
+  },
+  {
+    "id": "chandra-vela-pulsar",
+    "topic": "neutronove-hvezdy",
+    "title": "Pulsar Vela a jeho okolí",
+    "kind": "snímek",
+    "manual_only": true,
+    "credit": "NASA/PSU/G. Pavlov a kol.",
+    "source": "https://chandra.si.edu/photo/2000/vela/",
+    "source_id": "chandra-vela-pulsar",
+    "download": "https://chandra.si.edu/photo/2000/vela/vela_xray.jpg",
+    "license": "Podmínky užití Chandra",
+    "license_url": "https://chandra.si.edu/photo/image_use.html",
+    "rights_url": "https://chandra.si.edu/photo/image_use.html",
+    "alt": "Rentgenový snímek pulsaru Vela a jeho okolí se šipkou směru pohybu",
+    "caption": "Rentgenový snímek pulsaru Vela a okolní mlhoviny z observatoře Chandra. Pulsar je jasný bod uprostřed. Světlé oblouky vznikají zářením vysokoenergetických částic, které pulsar vyvrhuje do okolí. Zelená šipka ukazuje směr pohybu pulsaru.",
+    "layout": "contain",
+    "modifications": "zmenšení bez výřezu, doplnění rámečku a kreditu",
+    "thumbnail": "assets/article-images/thumbs/chandra-vela-pulsar.webp",
+    "source_master": "assets/article-images/sources/chandra-vela-pulsar.jpg",
+    "revision": 1
   }
 ]
