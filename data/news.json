@@ -1,5 +1,89 @@
 [
   {
+    "id": "2611.30570v1",
+    "title": "Einsteinův teleskop: Která konfigurace detektoru nejlépe prozkoumá vesmír?",
+    "summary": "Vědci v nové zprávě porovnávali tři geometrické konfigurace pro plánovaný detektor gravitačních vln Einsteinův teleskop (ET): jediný trojúhelníkový detektor s desetikilometrovými rameny a dvě vzdálená stanoviště s detektory ve tvaru písmene L o délce ramen 15 kilometrů – buď vzájemně zarovnaná, nebo natočená (měří se úhel ramen jednoho detektoru vůči druhému). Výzkum ukázal, že všechny varianty splní vědecké cíle ET, liší se však ve svých přednostech. Pro většinu měření vyžadujících vysokou citlivost jsou výhodnější konfigurace se dvěma detektory L.\n\nNatočená varianta dvou detektorů L dosahuje nejlepších výsledků v přesné lokalizaci zdrojů, víceposlovské astronomii (kombinující signály gravitačních vln a elektromagnetického záření) a kosmologii jasných sirén, která tyto kombinované zdroje využívá k určování vzdáleností vesmírných objektů. Zarovnaná varianta L je nejvhodnější pro detekci stokastického pozadí gravitačních vln, tedy slabého překrývajícího se šumu z mnoha vzdálených zdrojů. Trojúhelníková konfigurace lokalizuje zdroje lépe než zarovnaná varianta L a u spojitých či impulsních signálů dosahuje srovnatelné účinnosti. Jako ideální kompromis autoři navrhují vzájemné natočení ramen o 30 stupňů. Předpovědi vypočítané pomocí Fisherovy informační matice (statistického nástroje pro odhad nejistot měření) vědci ověřili na simulacích přibližně 550 signálů binárních černých děr (dvojic černých děr obíhajících kolem sebe) a soustav neutronové hvězdy s černou dírou. Přidání plánovaného amerického detektoru Cosmic Explorer do sítě zlepší dosah všech variant, zejména u zdrojů s vysokým rudým posuvem (vzdálených objektů, jejichž světlo se vlivem rozpínání vesmíru posouvá k delším vlnovým délkám).\n\nProč je to zajímavé: Studium pomáhá odpovědět na otázku, jak optimálně navrhnout architekturu gravitačních detektorů třetí generace, aby vědci dosáhli co nejlepší rovnováhy mezi přesným určováním polohy vesmírných katastrof a citlivostí k dosud nezaznamenanému stokastickému pozadí.",
+    "url": "http://arxiv.org/abs/2611.30570v1",
+    "source": "arXiv",
+    "original_title": "The Science Chapter of the Einstein Telescope Geometry Comparison Report",
+    "published": "2026-11-23T12:15:28+00:00",
+    "inserted_at": "2026-11-24T09:22:44.985308+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.29894v1",
+    "title": "Nová metoda zrychlí výpočet kosmologických dat ze supernov z týdnů na hodiny",
+    "summary": "Výzkumníci navrhli novou matematickou metodu pro analýzu supernov typu Ia, což jsou jasné hvězdné výbuchy používané jako standardní svíčky k měření vzdáleností ve vesmíru. Metoda využívá takzvanou Woodburyho identitu k přesnému rozkladu kovarianční matice, která popisuje statistické i systematické nejistoty měření. Na simulovaných datech z desetiletého přehlídkového projektu LSST autoři ukázali, že nová metoda zkracuje výpočetní čas z deseti týdnů na pouhou 1,5 hodiny, aniž by docházelo ke ztrátě informací.\n\nPři sestavování Hubbleova diagramu, který zobrazuje vzdálenost objektů v závislosti na jejich rudém posuvu (změně vlnové délky světla vlivem rozpínání vesmíru), se dříve data shlukovala do skupin. Toto takzvané binování sice snižovalo výpočetní nároky, ale vedlo ke ztrátě přesnosti. Autoři zavedli přesný rozklad matice ve tvaru C = D + U Uᵀ (kde D je diagonální statistická kovariance a U představuje vektory systematických posunů vzdáleností) a vložili ho do balíčku SNANA. V testovací simulaci se 134 400 supernovami a 18 vektory posunu klesla velikost uložení matice na disku 1800krát – ze 36 GB na 20 MB. Určené kosmologické parametry byly téměř totožné s plným výpočtem a ukazatel přesnosti (figure of merit) pro temnou energii – neznámou formu energie zrychlující rozpínání vesmíru, jež se liší od gravitačně přitažlivé temné hmoty – souhlasil s přesností lepší než 0,1 %.\n\nProč je to zajímavé:\nJak přesně určit vlastnosti temné energie z obrovských vzorků supernov bez nutnosti zjednodušovat data zhoršujícím binováním? Navržená metoda umožňuje plně využít nadcházející rozsáhlé datové sady z přehlídek LSST a Romanova kosmického teleskopu při výrazně nižších nárocích na výpočetní čas a datová úložiště.",
+    "url": "http://arxiv.org/abs/2611.29894v1",
+    "source": "arXiv",
+    "original_title": "Binning is Sinning: Absolution for the Unbinned Supernova Hubble Diagram",
+    "published": "2026-11-23T01:49:32+00:00",
+    "inserted_at": "2026-11-24T09:22:44.985308+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.31130v1",
+    "title": "Hledání anihilace temné hmoty: Klíčové budou vzácné trpasličí galaxie",
+    "summary": "Vědci v nové studii zkoumali citlivost pátrání po anihilaci částic temné hmoty — hypotetické neviditelné formy hmoty tvořící většinu hmotnosti vesmíru — v trpasličích satelitních galaxiích Mléčné dráhy. Při anihilaci dochází ke srážce částic temné hmoty a jejich přeměně na záření gama. K předpovědi autoři použili výpočetní nástroj BabyBison, který kombinuje kosmologické simulace galaxií s analýzou dat záření gama. Zjistili, že nadcházející optická přehlídka oblohy LSST (Legacy Survey of Space and Time) sice výrazně rozšíří katalog známých trpasličích galaxií, limity pro anihilaci temné hmoty se tím však zpřesní jen mírně, obvykle o méně než 20 %.\n\nVýznamné zlepšení podle výpočtů nastane pouze tehdy, pokud LSST objeví vzácné galaxie s vysokým J-faktorem. J-faktor je veličina měřící hustotu a soustředění temné hmoty podél zorného pole; čím je vyšší, tím silnější signál záření gama lze očekávat. Citlivost nepřímé detekce tak ovlivňuje spíše několik výjimečných systémů než celkový počet galaxií.\n\nVýzkum dále předpovídá možnosti kosmického gama teleskopu Fermi-LAT a plánovaného přístroje APT (Advanced Particle-astrophysics Telescope). Úplný katalog trpasličích galaxií by těmto detektorům umožnil testovat temnou hmotu s částicemi o hmotnostech až v řádu TeV (teraelektronvoltů) a změřit jejich vlastnosti.\n\nProč je to zajímavé:\nPráce pomáhá odpovědět na otázku, jaké vlastnosti musí mít dosud neobjevené trpasličí galaxie a jaké přístroje budeme potřebovat, abychom dokázali zachytit hypotetický signál anihilace temné hmoty na hmotnostní škále TeV.",
+    "url": "http://arxiv.org/abs/2611.31130v1",
+    "source": "arXiv",
+    "original_title": "The Sensitivity of Gamma-Ray Searches for Dark Matter Annihilation in Milky Way Dwarf Galaxies: the LSST Era and Beyond",
+    "published": "2026-11-23T18:03:36+00:00",
+    "inserted_at": "2026-11-24T09:22:44.985308+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.29122v1",
+    "title": "Měření hmotnosti neutrin: Vědci navrhují využití plutonia-241",
+    "summary": "Autoři studie zkoumají možnost využití izotopu plutonia-241 (²⁴¹Pu) pro měření absolutní hmotnosti neutrin – extrémně lehkých částic, jejichž hmotnost dosud přesně neznáme. Vědci porovnávají teoretickou citlivost měření u ²⁴¹Pu a tradičně používaného tritia a navrhují strategie k potlačení rušivých vlivů.\n\nPři měření hmotnosti neutrin se dlouhodobě využívá tritium (izotop vodíku). Metoda spoléhá na rozpad beta, což je jaderná přeměna, při níž jádro vyzáří elektron a neutrino. Nízká hmotnost jádra tritia však způsobuje výrazný zpětný ráz (odraz jádra po vyzáření částice), který přesnost měření u molekulárního i vázaného tritia omezuje. Izotop plutonia ²⁴¹Pu má podobný poločas rozpadu i koncovou energii beta rozpadu (maximální energii vyzařovaného elektronu), ale výrazně vyšší hmotnost jádra, díky čemuž problém se zpětným rázem odpadá. Hlavním úskalím ²⁴¹Pu je rušivé pozadí z beta rozpadu uranu-237 (²³⁷U). Autoři proto zanalyzovali a stanovili, jakých výsledků lze dosáhnout v závislosti na míře potlačení tohoto uranového pozadí.\n\nProč je to zajímavé: Určení absolutní hmotnosti neutrin zůstává klíčovou otevřenou otázkou částicové fyziky i kosmologie, neboť hmotnost těchto částic ovlivňuje vznik a vývoj velkorozměrových struktur vesmíru. Studie ukazuje, za jakých podmínek by ²⁴¹Pu mohl představovat účinnou alternativu a pomoci překonat fyzikální limity tritiových experimentů.",
+    "url": "http://arxiv.org/abs/2611.29122v1",
+    "source": "arXiv",
+    "original_title": "Measuring the Neutrino Mass with $^{241}$Pu",
+    "published": "2026-11-22T00:59:44+00:00",
+    "inserted_at": "2026-11-24T09:22:44.985308+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.30726v1",
+    "title": "Detekce strhávání časoprostoru pomocí satelitů s optickými hodinami",
+    "summary": "Vědci navrhli novou metodu pro měření strhávání časoprostoru – gravitomagnetického jevu, při kterém rotující Země strhává okolní časoprostor. Studie počítá se zapojením dvou satelitů: jednoho na nízké oběžné dráze Země (LEO) v malé výšce nad povrchem a druhého na vzdálené retrográdní oběžné dráze (DRO). Druhá dráha obíhá ve velké vzdálenosti v opačném směru než okolní tělesa, čímž poskytuje stabilní a gravitačně izolovanou srovnávací referenci.\n\nAutoři odvodili ucelený relativistický model porovnání frekvence mezi oběma družicemi, který započítává zemský gravitomagnetický potenciál, slapové působení Měsíce a Slunce i vyšší multipóly gravitačního pole Země. Očekávaný signál strhávání časoprostoru vyvolává relativní změnu frekvence na úrovni 10⁻²⁰. Takto vysokou citlivost umožňují pokroky u stronciových optických mřížkových hodin s nulovou mrtvou dobou – laserem řízených atomových hodin, které měří čas nepřetržitě bez pauz. Tyto přístroje dosahují relativní frekvenční nestability 2,9 × 10⁻¹⁹ při průměrovací době 20 000 sekund a odhadované denní stability 2,5 × 10⁻¹⁹, díky čemuž by přímé zachycení signálu mělo být v blízké době proveditelné.\n\nProč je to zajímavé: Měření by mohlo přesněji vymezit gravitomagnetické pole Země a otevřít cestu k výzkumu vlivu gravitomagnetismu na Einsteinovu synchronizaci hodin.",
+    "url": "http://arxiv.org/abs/2611.30726v1",
+    "source": "arXiv",
+    "original_title": "Detecting Frame Dragging Effect with Next-Generation Spaceborne Clocks in a LEO-DRO Satellite Configuration",
+    "published": "2026-11-23T14:06:14+00:00",
+    "inserted_at": "2026-11-24T09:22:44.985308+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.29668v1",
+    "title": "Katalog přístroje Fermi/GBM: Změny v datech odrážejí zpracování, ne vývoj",
+    "summary": "Astrofyzici zkoumali spolehlivost spektrálních parametrů v katalogu záblesků záření gama z detektoru Fermi/GBM (Fermi Gamma-ray Burst Monitor, přístroj pro sledování vysoce energetických záblesků gama). Analýza 3337 záblesků vykazujících spektrální data odhalila u objektu GRB180712358 výrazný přechod ve zpracování katalogu. Tento přechod odpovídá změnám verze katalogu, použité statistiky prokládání dat (fitování) a vyhodnocovaných polí. Autoři ukázali, že rozdělení dat na dvě období neodráží fyzikální vývoj populace záblesků gama ve vesmíru, ale jde především o důsledek změny metodiky zpracování.\n\nPři měření s nominálním integračním časem 1024 milisekund (ms) zůstaly tvary spekter v obou obdobích téměř shodné. U kratšího integračního času 64 ms však novější období vykazuje vyšší amplitudy, toky i fluence (celkovou energii přenesenou zářením na jednotku plochy), přičemž původ tohoto rozdílu zůstává neznámý. Studie dále zjišťovala limity spektrálních modelů: parametr modelující mocninný zákon PLAW měří širokopásmovou tvrdost záření, zatímco u složitějšího modelu BAND byla spektrální složka beta často špatně omezená. Fitovací statistiky a chyby parametrů popisují podmínky měření a jasnost záblesku, nelze je proto považovat za nezávislé fyzikální proměnné.\n\nProč je to zajímavé: Jak přesně odlišit skutečné fyzikální vlastnosti vesmírných objektů od artefaktů vzniklých obměnou software či metodiky měření? Tato práce pomáhá vymezit limity katalogu Fermi/GBM a ukazuje, jak se vyhnout chybnému interpretování statistických chyb a metadat jako samostatných fyzikálních parametrů.",
+    "url": "http://arxiv.org/abs/2611.29668v1",
+    "source": "arXiv",
+    "original_title": "Reliability of Fermi/GBM spectral-catalogue parameters for gamma-ray burst population studies",
+    "published": "2026-11-22T18:17:08+00:00",
+    "inserted_at": "2026-11-24T09:22:44.985308+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.30391v1",
+    "title": "Jak kvantový časoprostor mění fázi doznívání rotujících černých děr",
+    "summary": "Vědci teoreticky zkoumali, jak kvantová struktura časoprostoru ovlivňuje gravitační vlny vyzařované při zklidňování rotujících černých děr. Na základě teoretického modelu nekomutativní geometrie vypočítali kvantové opravy pro kvazinormální módy Kerrových černých děr a odhadli jejich možné odchylky v pozorovacích datech z katalogů gravitačních vln GWTC-3 a GWTC-5.0.\n\nKerrova černá díra představuje v obecné teorii relativity popis rotující černé díry. Fáze doznívání je závěrečná část splynutí, během níž vznikající binární černá díra vyzařuje gravitační vlny ve formě kvazinormálních módů – charakteristických oscilací definovaných vlastní frekvencí a rychlostí tlumení. Nekomutativní geometrie předpokládá kvantování samotného časoprostoru, v němž souřadnice nekomutují, což znamená, že záleží na jejich pořadí. K zavedení kvantových oprav autoři použili takzvaný Drinfeldův twist, matematickou metodu deformace symetrií, která zachovává klasický tvar Kerrovy geometrie na pozadí, ale přináší kvantové korekce pro gravitační poruchy. Výpočty ukázaly, že kvantové efekty posouvají oscilační frekvence i rychlost tlumení a vytvářejí dodatečnou vazbu mezi rotací černé díry a kvantovou deformací.\n\nProč je to zajímavé: Jednou z hlavních otevřených otázek moderní fyziky je, jak sjednotit kvantovou mechaniku s obecnou teorií relativity. Výzkum ukazuje, jak by se kvantová struktura časoprostoru mohla teoreticky otisknout do jemných detailů gravitačních vln, což dává šanci kvantové efekty gravitace v budoucnu testovat pomocí přesných astronomických pozorování.",
+    "url": "http://arxiv.org/abs/2611.30391v1",
+    "source": "arXiv",
+    "original_title": "Imprints of quantum space in the ringdown phase of Kerr black holes",
+    "published": "2026-11-23T09:53:28+00:00",
+    "inserted_at": "2026-11-24T09:22:44.985308+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2611.28742",
     "title": "Pátrání po nových Higgsových bosonech mimo Standardní model",
     "summary": "Nová přehledová studie mapuje vývoj a vyhlídky vyhledávání Higgsových bosonů nad rámec Standardního modelu, což je současná teorie popisující základní částice a síly. Autoři shrnují pokrok od Velkého elektron-pozitronového urychlovače (LEP) přes Tevatron až po Velký hadronový urychlovač (LHC). Objev Higgsova bosonu v roce 2012 potvrdil teoretický mechanismus narušení elektroslabé symetrie — tedy způsob, jakým částice získávají hmotnost —, zároveň ale otevřel otázku, zda ve vesmíru neexistují i další příbuzné částice.\n\nPráce vysvětluje, jak odlišné podmínky na jednotlivých urychlovačích utvářely strategie detekce. Popisuje, jak malé odchylky v datech, neobvyklé rozpadové struktury či potlačené interakce mohou napovědět o struktuře takzvaného rozšířeného Higgsova sektoru, který předpokládá existenci více druhů Higgsových bosonů. Studie propojuje historická měření se současnými analýzami a budoucími plány výzkumu.\n\nProč je to zajímavé: Zda je objevený Higgsův boson jediným svého druhu, nebo zda existuje rozšířený Higgsův sektor s dalšími částicemi, zůstává zásadní otevřenou otázkou. Přehled pomáhá novým výzkumníkům i studentům pochopit, jak byly dosavadní experimenty navrženy a jaké jemné odchylky v měřeních by mohly v budoucnu odhalit novou fyziku.",
@@ -5856,76 +5940,6 @@
     "original_title": "A Fully Analytic Expression for the 2PN N-Body Hamiltonian",
     "published": "2026-09-15T17:47:05+00:00",
     "inserted_at": "2026-09-16T07:06:50.869073+00:00"
-  },
-  {
-    "id": "2609.17471v1",
-    "title": "Jak znějí rotující a nabité černé díry v rozpínajícím se vesmíru?",
-    "summary": "Když je černá díra porušena, rozezní se na charakteristických frekvencích nazývaných kvazinormální módy. Teoretičtí fyzici zkoumali tyto „vlastní tóny“ u nejobecnějších černých děr – rotujících, nabitých a zasazených do rozpínajícího se vesmíru s temnou energií. Pomocí pokročilého matematického aparátu zasahujícího do konformní teorie pole odvodili přesné analytické vzorce pro spektrum těchto vibrací. V mezních stavech, jako jsou téměř extrémní černé díry, objevil tým nečekané opravy frekvencí tvořené neceločíselnými mocninami, což zásadně zpřesňuje dosavadní modely. Proč je to zajímavé: Přesné analytické řešení spojuje hlubokou teoretickou matematiku s praktickou gravitací a pomáhá nám lépe rozumět jemným detailům gravitačních vln vycházejících z extrémních vesmírných procesů.",
-    "url": "http://arxiv.org/abs/2609.17471v1",
-    "source": "arXiv",
-    "original_title": "Quasinormal modes of Kerr-Newman-de Sitter black holes from Heun connection formulae",
-    "published": "2026-09-15T17:13:39+00:00",
-    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
-  },
-  {
-    "id": "2609.17462v1",
-    "title": "Symetrie časoprostoru: Nové deformace v rozšířené teorii relativity",
-    "summary": "Obecná teorie relativity skvěle popisuje gravitaci, ale fyzici ji často rozšiřují o takzvaná skalární pole. Tato rozšíření využívají disformální transformace, které představují způsob, jak deformovat časoprostorovou metriku pomocí skalárního pole a jeho derivací vyšších řádů. Nový výzkum se zaměřil na podmínky, za nichž si fundamentální Kleinova-Gordonova rovnice, popisující šíření skalárních částic, zachovává svou formu i po těchto transformacích. Autoři odhalili celé rodiny časoprostorových metrik, které vedou ke stejnému fyzikálnímu chování polí a zároveň vyhovují teoretickým i pozorovacím limitům. Proč je to zajímavé: Tento výsledek poskytuje fyzikům nový matematický nástroj k přesnějšímu testování alternativních teorií gravitace a k výzkumu temné energie bez vzniku fyzikálně nesmyslných stavů.",
-    "url": "http://arxiv.org/abs/2609.17462v1",
-    "source": "arXiv",
-    "original_title": "Symmetry of the Klein-Gordon Equation under Disformal Transformations with Higher-Order Derivatives",
-    "published": "2026-09-15T17:03:03+00:00",
-    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
-  },
-  {
-    "id": "2609.17426v1",
-    "title": "Kosmické zvonění odhaluje skrytou geometrii uvnitř černých děr",
-    "summary": "Astrofyzici objevili nový způsob, jak nahlédnout pod horizont událostí černých děr. Využili k tomu takzvané kvazinormální módy – chvění, kterým černá díra reaguje na poruchy. Ukázali, že vysoké svrchní tóny tohoto spektra v sobě nesou přímý otisk geometrie prostoročasu těsně před samotnou singularitou. Rozborem těchto tónů lze nezávisle určit časové i prostorové parametry vnitřku černé díry a rekonstruovat její strukturu bez nutnosti dodatečných teoretických předpokladů či holografie. Metoda byla úspěšně ověřena na několika teoretických modelech černých děr. Proč je to zajímavé: Výzkum dokazuje, že jemná struktura vnějších vlnových vlastností funguje jako přímá sonda do nejhlubšího vnitřku černých děr, což otevírá nové možnosti pro testování vlastností gravitace.",
-    "url": "http://arxiv.org/abs/2609.17426v1",
-    "source": "arXiv",
-    "original_title": "Channel-Resolved High-Overtone Quasinormal Modes Decode Kasner Scaling inside Black Holes",
-    "published": "2026-09-15T16:41:48+00:00",
-    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
-  },
-  {
-    "id": "2609.17423v1",
-    "title": "Porušuje temná hmota princip ekvivalence? Data z DESI naznačují novou sílu",
-    "summary": "Nedávná měření rozložení galaxií pomocí přístroje DESI odhalila drobný rozpor se standardním kosmologickým modelem, vycházejícím z reliktního záření. Vědci proto navrhují řešení: v temném sektoru neplatí Einsteinův princip ekvivalence, což znamená, že setrvačná a gravitační hmotnost temné hmoty nejsou totožné. Tento rozdíl naznačuje existenci dosud neznámé síly dlouhého dosahu, která působí mezi částicemi temné hmoty a dosahuje asi 0,5 % síly gravitace. Nový model dokáže nesrovnalosti v datech vysvětlit se statistickou významností kolem 2,5 až 3 sigma. Proč je to zajímavé: Případný objev páté síly působící v temném sektoru by znamenal průlomový krok k fyzice za hranicemi Standardního modelu a zcela by změnil náš pohled na gravitaci.",
-    "url": "http://arxiv.org/abs/2609.17423v1",
-    "source": "arXiv",
-    "original_title": "The Equivalence Principle in the Dark Sector in light of DESI",
-    "published": "2026-09-15T16:40:19+00:00",
-    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
-  },
-  {
-    "id": "2609.17412v1",
-    "title": "Signál v detektoru LZ a tajný život dvou stavů temné hmoty",
-    "summary": "Nedávný neobvyklý signál v detektoru LUX-ZEPLIN (LZ) podnítil fyziky k vytvoření nového modelu temné hmoty. Ten předpokládá existenci dvou stavů temné hmoty propojených částicí podobnou axionu. Vědci poprvé nasimulovali vývoj obou stavů od raného vesmíru po dnešek. Zjistili, že typ fyzikální interakce určuje, zda vybudzený stav temné hmoty přetrval dodnes. To zásadně ovlivňuje, zda při srážkách v detektorech dochází k pohlcování, nebo uvolňování energie. Tento model lze ověřit na urychlovačích částic i pomocí sezónních výkyvů signálu. Proč je to zajímavé: Výzkum ukazuje, jak raná historie vesmíru přímo určuje chování temné hmoty v dnešních pozemních laboratořích.",
-    "url": "http://arxiv.org/abs/2609.17412v1",
-    "source": "arXiv",
-    "original_title": "Cosmological Constrained Axion-Portal Inelastic Dark Matter for the LZ Event",
-    "published": "2026-09-15T16:37:10+00:00",
-    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
-  },
-  {
-    "id": "2609.15985v1",
-    "title": "Záhada vysoké energie v LUX-ZEPLIN: Nové vodítko k temné hmotě",
-    "summary": "Detektor temné hmoty LUX-ZEPLIN zaznamenal ojedinělý náraz s neobvykle vysokou energií. Vědci analyzovali, jaký typ částic temné hmoty mohl tento signál způsobit. Výzkum ukázal, že běžný elastický rozptyl je málo pravděpodobný, pokud nejde o specifické interakce závislé na spinu jádra. Mnohem lépe data vysvětlují neelastické procesy – buď endotermické, kdy částice potřebuje k odrazu vysokou prahovou energii, nebo exotermické, při nichž částice uvolní svou vnitřní energii do atomu xenonu. Absence dalších signálů při nižších energiích navíc výrazně zužuje možné vlastnosti kandidátů na temnou hmotu. Proč je to zajímavé: I jediná neobvyklá událost v obřím podzemním detektoru dokáže výrazně omezit teoretické modely a navést fyziky k novým scénářům neviditelné hmoty vesmíru.",
-    "url": "http://arxiv.org/abs/2609.15985v1",
-    "source": "arXiv",
-    "original_title": "Inferring dark matter masses and interactions from high recoil energy events in LUX-ZEPLIN",
-    "published": "2026-09-14T17:59:32+00:00",
-    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
-  },
-  {
-    "id": "2609.15970v1",
-    "title": "Kosmologické limity hmotnosti neutrin drží i při změnách v historii vesmíru",
-    "summary": "Vědci zkoumali, zda by teoretické změny v tepelné historii raného vesmíru – například rozpad částic na fotony či temné záření – mohly oslabit kosmologická omezení pro hmotnost neutrin. Analýza nejnovějších dat z reliktního záření a rozložení galaxií však ukazuje, že kosmologické limity jsou neobyčejně robustní. Horní hranice součtu hmotností neutrin zůstává okolo 0,07 eV. Případný pokles hustoty neutrin navíc prohlubuje rozpor mezi kosmologií a pozemními částicovými experimenty. Proč je to zajímavé: Výzkum dokazuje, že přísné kosmologické odhady hmotnosti neutrin nelze snadno zpochybnit úpravami teoretického vývoje vesmíru.",
-    "url": "http://arxiv.org/abs/2609.15970v1",
-    "source": "arXiv",
-    "original_title": "Less isn't more: Cosmological bounds on the neutrino masses are robust to changes in the neutrino abundance",
-    "published": "2026-09-14T17:55:48+00:00",
-    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
   },
   {
     "id": "2609.13140",
