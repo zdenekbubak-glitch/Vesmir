@@ -882,7 +882,7 @@
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/clanky/castice-z-tmaveho-sektoru-by-mohly-vysvetlit-zahadne-signaly-z-2611173281.html",
     "recorded_at": "2026-11-13T08:25:44.956120+00:00",
-    "last_check_attempt_at": "2026-11-23T09:16:00.519285+00:00",
+    "last_check_attempt_at": "2026-11-24T08:30:49.167446+00:00",
     "publication_check_result": "unavailable"
   },
   {
@@ -1170,5 +1170,25 @@
     "status": "sent",
     "target": "https://kosmonovinky.cz/",
     "recorded_at": "2026-11-23T09:16:00.679463+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_a433c8ba83101c75c5b5",
+    "title": "Roční modulace může odhalit lehkou temnou hmotu v detektorech ksenonu",
+    "platform_id": "6b054b1108d2a2149eac492f",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/rocni-modulace-muze-odhalit-lehkou-temnou-hmotu-v-detektorech-ksenonu-261128211.html",
+    "recorded_at": "2026-11-24T08:30:16.291439+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_a433c8ba83101c75c5b5",
+    "title": "Roční modulace může odhalit lehkou temnou hmotu v detektorech ksenonu",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n2zdm5rs22ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/clanky/rocni-modulace-muze-odhalit-lehkou-temnou-hmotu-v-detektorech-ksenonu-261128211.html",
+    "recorded_at": "2026-11-24T08:30:49.305042+00:00"
   }
 ]
