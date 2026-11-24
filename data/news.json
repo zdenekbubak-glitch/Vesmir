@@ -1,5 +1,17 @@
 [
   {
+    "id": "2611.28742",
+    "title": "Pátrání po nových Higgsových bosonech mimo Standardní model",
+    "summary": "Nová přehledová studie mapuje vývoj a vyhlídky vyhledávání Higgsových bosonů nad rámec Standardního modelu, což je současná teorie popisující základní částice a síly. Autoři shrnují pokrok od Velkého elektron-pozitronového urychlovače (LEP) přes Tevatron až po Velký hadronový urychlovač (LHC). Objev Higgsova bosonu v roce 2012 potvrdil teoretický mechanismus narušení elektroslabé symetrie — tedy způsob, jakým částice získávají hmotnost —, zároveň ale otevřel otázku, zda ve vesmíru neexistují i další příbuzné částice.\n\nPráce vysvětluje, jak odlišné podmínky na jednotlivých urychlovačích utvářely strategie detekce. Popisuje, jak malé odchylky v datech, neobvyklé rozpadové struktury či potlačené interakce mohou napovědět o struktuře takzvaného rozšířeného Higgsova sektoru, který předpokládá existenci více druhů Higgsových bosonů. Studie propojuje historická měření se současnými analýzami a budoucími plány výzkumu.\n\nProč je to zajímavé: Zda je objevený Higgsův boson jediným svého druhu, nebo zda existuje rozšířený Higgsův sektor s dalšími částicemi, zůstává zásadní otevřenou otázkou. Přehled pomáhá novým výzkumníkům i studentům pochopit, jak byly dosavadní experimenty navrženy a jaké jemné odchylky v měřeních by mohly v budoucnu odhalit novou fyziku.",
+    "url": "https://arxiv.org/abs/2611.28742",
+    "source": "arXiv",
+    "original_title": "Evolution and Prospects of Higgs Boson Searches Beyond the Standard Model",
+    "published": "2026-11-24T05:00:00+00:00",
+    "inserted_at": "2026-11-24T08:46:17.302643+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2611.28211",
     "title": "Roční modulace může odhalit lehkou temnou hmotu v detektorech ksenonu",
     "summary": "Nová studie navrhuje způsob, jak v ksenonových detektorech zvýšit citlivost na lehkou temnou hmotu (částice s hmotností pod jedním gigaelektronvoltem) při její interakci s elektrony. Vědci zjistili, že místo přísné filtrace dat je výhodnější využít celkovou hrubou četnost záchytu elektronů (takzvaný dark-electron rate) a zaměřit se na hledání roční modulace – tedy sezónních změn signálu způsobených oběhem Země kolem Slunce.\n\nPři hledání nejlehčích částic temné hmoty se očekávaný signál nachází v režimu jednoho elektronu, který je však zatížen silným rušivým pozadím. Současné experimenty jako XENONnT proto aplikují filtry, které zachovají pouze přibližně 10⁻⁴ expozice, přičemž jejich citlivost se řídí vztahem S ≲ B (kde S je počet signálů a B počet událostí pozadí). Autoři ukazují, že při využití roční modulace se citlivost škáluje výhodněji jako S ≲ √B. Moderní systémy pro sběr dat v detektorech XENONnT, LZ, PandaX-4T, PandaX-xT a XLZD tyto signály již zaznamenávají, takže metoda nevyžaduje úpravu hardwaru. Provedené výpočty ukazují, že tento přístup může citlivost detektorů výrazně zvýšit.\n\nProč je to zajímavé: Práce odpovídá na otázku, jak účinně zachytit lehkou temnou hmotu v režimu silného pozadí jednoho elektronu. Ukazuje, že analýzou již zaznamenané roční modulace lze dosáhnout vyšší citlivosti stávajících i plánovaných detektorů bez nutnosti stavět nový hardware.",
@@ -5913,16 +5925,6 @@
     "source": "arXiv",
     "original_title": "Less isn't more: Cosmological bounds on the neutrino masses are robust to changes in the neutrino abundance",
     "published": "2026-09-14T17:55:48+00:00",
-    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
-  },
-  {
-    "id": "2609.15969v1",
-    "title": "Kvantová gravitace na testu: Mění se temná energie v čase?",
-    "summary": "Astrofyzici poprvé přímo otestovali předpovědi kvantové gravitace zvané teorie grupového pole na reálných kosmologických datech. Srovnáním modelů s pozorováními vzdálených supernov a baryonských akustických kmitů z přehlídky DESI zjišťovali, zda se temná energie mění v čase. Teorie nabízí různé scénáře vývoje: od stavu téměř nerozeznatelného od klasické kosmologické konstanty až po oscilující temnou energii. Právě oscilační model dokáže vysvětlit lehký výkyv v chování temné energie ve středně vzdáleném vesmíru, který naznačují nejnovější měření. Výzkum ukazuje, jak lze kosmologická data využít k prověřování teorií kvantové gravitace. Proč je to zajímavé: Tento přístup otevírá cestu k testování mikroskopické struktury časoprostoru pomocí pozorování vývoje celého vesmíru.",
-    "url": "http://arxiv.org/abs/2609.15969v1",
-    "source": "arXiv",
-    "original_title": "Constraining quantum-gravity predictions for evolving dark energy",
-    "published": "2026-09-14T17:55:04+00:00",
     "inserted_at": "2026-09-15T07:13:57.211166+00:00"
   },
   {
