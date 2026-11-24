@@ -1028,7 +1028,7 @@ def main():
 
     # ---- přiřazení URL a rubrik ----
     for item in news:
-        item["_slug"] = unique_slug(item.get("title", "clanek"), item.get("id"))
+        item["_slug"] = unique_slug(item.get("permalink_title") or item.get("title", "clanek"), item.get("id"))
         item["_path"] = f"clanky/{item['_slug']}.html"
         item["_theme"] = classify(item)
 
@@ -1117,7 +1117,7 @@ def main():
       <p class="meta">Publikováno: {fmt_date(item.get("published"))} · Zdroj: {esc(item.get("source"))}</p>
       {image_figure(article_image)}
       {summary_html}
-{lang_note}      <a class="original-source" href="{esc(item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
+{lang_note}      <a class="original-source" href="{esc(item.get("original_source_url") or item.get("url"))}" target="_blank" rel="noopener">Původní zdroj →</a>
 {rel_html}{context_html}{NEWSLETTER_CTA}{feedback_link(item.get('title'), url)}{nav_html}    </article>
         <p class="back"><a href="/clanky/">← Přehled článků</a> · <a href="/temata/">Rubriky</a></p>
 '''

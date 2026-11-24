@@ -10959,5 +10959,26 @@
     "thumbnail": "assets/article-images/thumbs/schema-opticke-hodiny-strhavani-casoprostoru.webp",
     "source_master": "assets/article-images/sources/schema-opticke-hodiny-strhavani-casoprostoru.jpg",
     "revision": 1
+  },
+  {
+    "id": "noirlab2627a",
+    "topic": "cerne-diry",
+    "title": "Možná dvojice kvasarů Nāpōwawāʻenakaulua",
+    "kind": "umělecká představa",
+    "manual_only": true,
+    "credit": "International Gemini Observatory/NOIRLab/NSF/AURA/P. Marenfeld/M. Zamani",
+    "source": "https://noirlab.edu/public/images/noirlab2627a/",
+    "source_id": "noirlab2627a",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://noirlab.edu/public/outreach/copyright/",
+    "download": "https://storage.noirlab.edu/media/archives/images/large/noirlab2627a.jpg",
+    "alt": "Umělecká představa možné dvojice kvasarů, znázorněné dvěma jasnými zdroji uprostřed obrazu",
+    "caption": "Umělecká představa dvojice kvasarů Nāpōwawāʻenakaulua. Dva jasné zdroje uprostřed představují záření plynu v okolí supermasivních černých děr. Pozorování zatím připouštějí i možnost, že jde o dva obrazy jediného kvasaru.",
+    "layout": "contain",
+    "modifications": "zmenšení bez výřezu, doplnění rámečku a kreditu",
+    "thumbnail": "assets/article-images/thumbs/noirlab2627a.webp",
+    "source_master": "assets/article-images/sources/noirlab2627a.jpg",
+    "revision": 1
   }
 ]

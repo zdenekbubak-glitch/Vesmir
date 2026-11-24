@@ -174,7 +174,7 @@ def export_previews(site, assignments, catalog):
     items.sort(key=lambda x:x.get('inserted_at') or '',reverse=True)
     used=set();manifest={}
     for item in items:
-        stem=slugify(item.get('title','clanek'))+'-'+id_digits(item.get('id'));slug=stem;n=2
+        stem=slugify(item.get('permalink_title') or item.get('title','clanek'))+'-'+id_digits(item.get('id'));slug=stem;n=2
         while slug in used: slug=stem+'-'+str(n);n+=1
         used.add(slug)
         entry=catalog.get(assignments.get(key_for(item,'news')))

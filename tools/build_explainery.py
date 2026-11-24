@@ -354,7 +354,7 @@ def main():
         if related_news:
             rows = []
             for r in related_news:
-                rslug = slugify(r.get('title', 'clanek')) + '-' + (re.sub(r'[^0-9]', '', str(r.get('id')))[:12] or '0')
+                rslug = slugify(r.get('permalink_title') or r.get('title', 'clanek')) + '-' + (re.sub(r'[^0-9]', '', str(r.get('id')))[:12] or '0')
                 rows.append(f'          <li><a href="/clanky/{rslug}.html">{esc(r.get("title"))}</a> '
                             f'<span class="meta">({fmt_date(r.get("published"))})</span></li>')
             rel_html = ('    <section class="related">\n'
