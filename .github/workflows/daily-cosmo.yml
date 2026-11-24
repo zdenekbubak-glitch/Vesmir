@@ -38,7 +38,7 @@ jobs:
       - name: Run agent
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/fetch_and_update.py
+        run: python -u scripts/fetch_and_update.py
 
       - name: Generate X card
         run: python scripts/generate_x_card.py
@@ -62,8 +62,27 @@ jobs:
             echo "Žádné změny – nic necommitám."
           else
             git commit -m "Automatická aktualizace novinek $(date -u +%Y-%m-%d)"
-            git push origin HEAD:main
-            echo "Push OK."
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then
+                echo "Push OK."
+                break
+              fi
+              if [ "$attempt" -eq 3 ]; then
+                echo "::error::Změny se nepodařilo zapsat do main."
+                exit 1
+              fi
+              git fetch origin refs/heads/main
+              if git merge-base --is-ancestor FETCH_HEAD HEAD; then
+                echo "::error::Push selhal, i když main nemá nové změny."
+                exit 1
+              fi
+              echo "Mezitím se změnila větev main. Připojuji denní aktualizaci k její nejnovější verzi."
+              if ! git rebase FETCH_HEAD; then
+                git rebase --abort
+                echo "::error::Denní aktualizace je v konfliktu s novými změnami v main."
+                exit 1
+              fi
+            done
           fi
 
       - name: Generate SEO pages
