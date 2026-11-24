@@ -3329,15 +3329,15 @@
   {
     "id": "schema-relictni-zareni-recombination",
     "topic": "relictni-zareni",
-    "title": "Uvolnění reliktních fotonů",
+    "title": "Jak se uvolnilo reliktní záření",
     "diagram": "recombination",
     "generated": true,
     "kind": "vlastní schéma",
     "subtopics": [
       "general"
     ],
-    "alt": "Uvolnění reliktních fotonů – vlastní kvalitativní schéma, nikoli pozorování",
-    "caption": "Uvolnění reliktních fotonů: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "alt": "Jak se uvolnilo reliktní záření – vlastní vysvětlující schéma",
+    "caption": "Před vznikem atomů vodíku se světlo často rozptylovalo na volných elektronech. Po navázání většiny elektronů na protony se toto záření rozptylovalo mnohem méně a mohlo putovat na velké vzdálenosti.",
     "credit": "Kosmologické novinky",
     "credit_links": [],
     "source": "https://kosmonovinky.cz/",
@@ -3347,7 +3347,7 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
     "verified_on": "2026-10-20",
-    "revision": 3,
+    "revision": 4,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -3363,20 +3363,22 @@
       "url": "https://kosmonovinky.cz/"
     },
     "copyrightNotice": "Kosmologické novinky",
-    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 1200,
+    "height": 630
   },
   {
     "id": "schema-relictni-zareni-acoustic",
     "topic": "relictni-zareni",
-    "title": "Akustické vrcholy CMB",
+    "title": "Akustické vrcholy reliktního záření",
     "diagram": "acoustic",
     "generated": true,
     "kind": "vlastní schéma",
     "subtopics": [
       "general"
     ],
-    "alt": "Akustické vrcholy CMB – vlastní kvalitativní schéma, nikoli pozorování",
-    "caption": "Akustické vrcholy CMB: vlastní kvalitativní schéma. Nejde o naměřená data, fotografii ani výsledek numerické simulace.",
+    "alt": "Akustické vrcholy reliktního záření – vlastní vysvětlující schéma",
+    "caption": "Ilustrační křivka ukazuje, na kterých úhlových měřítkách jsou teplotní odchylky reliktního záření výraznější. Poloha a výška vrcholů v naměřeném spektru pomáhají odvodit vlastnosti vesmíru.",
     "credit": "Kosmologické novinky",
     "credit_links": [],
     "source": "https://kosmonovinky.cz/",
@@ -3386,7 +3388,7 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
     "verified_on": "2026-10-20",
-    "revision": 3,
+    "revision": 4,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -3402,7 +3404,9 @@
       "url": "https://kosmonovinky.cz/"
     },
     "copyrightNotice": "Kosmologické novinky",
-    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 1200,
+    "height": 630
   },
   {
     "id": "schema-relictni-zareni-reionization",
@@ -6383,7 +6387,7 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
     "verified_on": "2026-10-25",
-    "revision": 1,
+    "revision": 2,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -6397,7 +6401,7 @@
     "source_id": "own-diagram:edu-cosmic-budget",
     "source_family": "own-diagram:edu-cosmic-budget",
     "alt": "Z čeho se skládá dnešní vesmír v modelu ΛCDM – vlastní vysvětlující schéma",
-    "caption": "V dnešním vesmíru podle modelu ΛCDM připadá přibližně 5 % celkového obsahu hmoty a energie na běžnou hmotu, 27 % na temnou hmotu a 68 % na temnou energii. Tyto podíly se během vývoje vesmíru měnily. Uvedená čísla jsou zaokrouhlená.",
+    "caption": "Zaokrouhlené podíly na celkové hustotě energie dnešního vesmíru v modelu ΛCDM. Záření dnes přispívá méně než 0,1 % a reliktní záření tvoří jen část tohoto podílu.",
     "thumbnail": "assets/article-images/thumbs/schema-slozeni-vesmiru.webp",
     "source_master": "assets/article-images/sources/schema-slozeni-vesmiru.jpg",
     "match_keywords": [],
@@ -6411,7 +6415,9 @@
       "url": "https://kosmonovinky.cz/"
     },
     "copyrightNotice": "Kosmologické novinky",
-    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 1200,
+    "height": 630
   },
   {
     "topic": "kosmopedie-doplnky",
@@ -8099,7 +8105,7 @@
     "license_url": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website",
     "rights_url": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website",
     "rights_note": "Oficiální stránka ESA: ESA/Planck Collaboration, ESA Standard Licence. Použití pro vzdělávací a informační výklad mise; zachován kredit, bez výřezu a bez úprav vědecké mapy.",
-    "caption": "Celá obloha v oválném promítnutí: mapa drobných teplotních rozdílů reliktního záření z dat Planck Legacy 2018. Barvy jsou nepravé a zvýrazňují odchylky; nejde o snímek v běžném viditelném světle.",
+    "caption": "Celooblohová mapa reliktního záření z dat družice Planck (2018). Oranžové odstíny označují mírně teplejší oblasti, modré mírně chladnější oblasti vzhledem k průměru.",
     "alt": "Oválná mapa celé oblohy s modrými a červenými odchylkami teploty reliktního záření",
     "topics": [
       "vesmirne-teleskopy",
@@ -9684,7 +9690,7 @@
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_note": "Vlastní programově kreslená časová osa v tools/cosmic_timeline_diagrams.py. Přibližná rekonstrukce v horkém kosmologickém modelu; popsané časové měřítko a rozsahy procesů.",
     "verified_on": "2026-10-29",
-    "revision": 3,
+    "revision": 4,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -9694,7 +9700,7 @@
     "source_family": "own-diagram:osa-vesmir-atomy-hvezdy",
     "title": "Od plazmatu k prvním galaxiím",
     "alt": "Dlouhá etapa horkého plazmatu: od prvních minut do asi 380 tisíc let; Hmota přebírá převahu nad zářením: přibližně 50 tisíc let; Vznik atomů a uvolnění reliktního světla: přibližně 380 tisíc let; Temné věky, pak první hvězdy a galaxie: první hvězdy řádově po 100 až 200 milionech let; Reionizace mezigalaktického vodíku: během prvních stovek milionů let až asi 1 miliardy",
-    "caption": "Od 20 minut do první miliardy let. Logaritmické měřítko času: stejná vzdálenost znamená stejný násobek stáří. Pásy vyznačují orientační časové oblasti dějů, kroužky vybrané milníky. Nejde o intervaly statistické nejistoty.",
+    "caption": "Logaritmická časová osa od horkého plazmatu k prvním galaxiím. Pásy vyznačují přibližná období a kroužek označuje stáří vesmíru při vyrovnání hustot energie hmoty a záření.",
     "thumbnail": "assets/article-images/thumbs/osa-vesmir-atomy-hvezdy.webp",
     "source_master": "assets/article-images/sources/osa-vesmir-atomy-hvezdy.jpg",
     "manual_only": true,
@@ -10908,6 +10914,27 @@
     "modifications": "zmenšení bez výřezu, doplnění rámečku a kreditu",
     "thumbnail": "assets/article-images/thumbs/chandra-vela-pulsar.webp",
     "source_master": "assets/article-images/sources/chandra-vela-pulsar.jpg",
+    "revision": 1
+  },
+  {
+    "id": "nasa-pia16874-cobe-wmap-planck",
+    "topic": "relictni-zareni",
+    "title": "Reliktní záření v rozlišení družic COBE, WMAP a Planck",
+    "credit": "NASA/JPL-Caltech/ESA",
+    "source": "https://science.nasa.gov/photojournal/the-universe-comes-into-sharper-focus/",
+    "source_id": "PIA16874",
+    "download": "https://lambda.gsfc.nasa.gov/resources/graphic_history/images/PIA16874-CobeWmapPlanckComparison_1920.jpg",
+    "kind": "srovnání rozlišení měření",
+    "license": "Podmínky užití JPL",
+    "license_url": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+    "rights_url": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+    "alt": "Družice COBE, WMAP a Planck a tentýž výřez mapy reliktního záření v jejich rozlišení",
+    "layout": "contain",
+    "modifications": "zmenšení bez výřezu, doplnění rámečku a kreditu",
+    "manual_only": true,
+    "thumbnail": "assets/article-images/thumbs/nasa-pia16874-cobe-wmap-planck.webp",
+    "source_master": "assets/article-images/sources/nasa-pia16874-cobe-wmap-planck.jpg",
+    "caption": "Stejný výřez oblohy v rozlišení družic COBE, WMAP a Planck, zleva doprava. Jemnější rozlišení odhaluje více podrobností v rozložení teplotních odchylek reliktního záření.",
     "revision": 1
   }
 ]
