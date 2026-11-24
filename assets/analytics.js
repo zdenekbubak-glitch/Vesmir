@@ -15,6 +15,6 @@
  const data={site:'vesmir',id:crypto.randomUUID(),path:location.pathname};
  if(source && external)data.social={source,method,post:method==='utm'?token(q.get('utm_content'),100):'',kind:method==='utm'?token(q.get('utm_term'),24)||'unknown':'unknown'};
  const body=JSON.stringify(data);
- async function send(){try{return (await fetch('https://ai-robotika-radar.zdenek-bubak.chatgpt.site/api/analytics/collect',{method:'POST',mode:'cors',credentials:'omit',headers:{'Content-Type':'application/json'},body,keepalive:true})).ok;}catch{return false;}}
+ async function send(){try{return (await fetch('https://sber-navstevnosti.zdenek-bubak.chatgpt.site/api/analytics/collect',{method:'POST',mode:'cors',credentials:'omit',headers:{'Content-Type':'application/json'},body,keepalive:true})).ok;}catch{return false;}}
  send().then(ok=>{if(!ok)setTimeout(send,1500);});
 })();
