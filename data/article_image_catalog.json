@@ -10936,5 +10936,28 @@
     "source_master": "assets/article-images/sources/nasa-pia16874-cobe-wmap-planck.jpg",
     "caption": "Stejný výřez oblohy v rozlišení družic COBE, WMAP a Planck, zleva doprava. Jemnější rozlišení odhaluje více podrobností v rozložení teplotních odchylek reliktního záření.",
     "revision": 1
+  },
+  {
+    "id": "schema-opticke-hodiny-strhavani-casoprostoru",
+    "topic": "gravimetrie-a-testy-gravitace",
+    "title": "Jak dvě družice změří strhávání časoprostoru",
+    "kind": "vlastní schéma",
+    "manual_only": true,
+    "diagram": "edu-opticke-hodiny",
+    "credit": "Kosmologické novinky",
+    "source": "https://kosmonovinky.cz/",
+    "source_id": "own-diagram:schema-opticke-hodiny-strhavani-casoprostoru",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "caption": "Navržené měření porovnává frekvence optických hodin na dvou družicích pomocí obousměrného laserového spojení. V rozdílu frekvencí by vědci hledali příspěvek od strhávání časoprostoru rotací Země.",
+    "alt": "Schéma porovnávání optických hodin na nízké a vzdálené oběžné dráze pomocí laseru",
+    "modifications": "vlastní schéma",
+    "reference_urls": [
+      "https://arxiv.org/html/2611.30726v1"
+    ],
+    "thumbnail": "assets/article-images/thumbs/schema-opticke-hodiny-strhavani-casoprostoru.webp",
+    "source_master": "assets/article-images/sources/schema-opticke-hodiny-strhavani-casoprostoru.jpg",
+    "revision": 1
   }
 ]

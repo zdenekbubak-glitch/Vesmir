@@ -296,5 +296,37 @@
     "variants": [],
     "note": "Schváleno v GitHub Issues.",
     "status": "approved"
+  },
+  {
+    "term": "stochastic gravitational-wave background",
+    "preferred": "stochastické pozadí gravitačních vln",
+    "variants": [
+      "stokastické pozadí gravitačních vln",
+      "stokastického pozadí gravitačních vln",
+      "stokastickému pozadí"
+    ],
+    "note": "Používej pravopis stochastický.",
+    "status": "approved"
+  },
+  {
+    "term": "binning",
+    "preferred": "seskupování dat do intervalů",
+    "variants": [],
+    "note": "Podle kontextu také seskupování dat do skupin. Redshift binning znamená seskupování do intervalů podle rudého posuvu.",
+    "status": "approved"
+  },
+  {
+    "term": "fitting",
+    "preferred": "prokládání dat modelem",
+    "variants": [],
+    "note": "Pro širší publikum podle kontextu vysvětli, že se model přizpůsobuje naměřeným datům.",
+    "status": "approved"
+  },
+  {
+    "term": "fit statistic",
+    "preferred": "ukazatel shody modelu s daty",
+    "variants": [],
+    "note": "V kontextu prokládání modelu spektra daty.",
+    "status": "approved"
   }
 ]
