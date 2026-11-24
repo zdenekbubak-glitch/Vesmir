@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-24",
+    "title": "Bitva galaxií ve skupině NGC 7771",
+    "caption": "Po této galaktické bitvě ve skupině NGC 7771, ležící téměř 200 milionů světelných let daleko v souhvězdí Pegase, zůstane nakonec jediná galaxie. Na snímku jsou již patrné prstence a slabé hvězdné víry z předchozích gravitačních setkání dominantní spirální galaxie s příčkou NGC 7771 a spirální NGC 7769. Během miliard let opakovaných těsných průchodů se všechny tyto galaxie pravděpodobně spojí do jedné obří galaxie, což je běžná součást jejich evoluce.",
+    "thumb": "assets/gallery/apod-2026-11-24.jpg",
+    "image": "assets/gallery/apod-2026-11-24.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-24-galaxies-battle-in-the-ngc-7771-group/",
+    "published": "2026-11-24",
+    "credit": "Roberto Marinoni",
+    "creator": {
+      "@type": "Person",
+      "name": "Roberto Marinoni"
+    },
+    "copyrightNotice": "Roberto Marinoni",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-24-galaxies-battle-in-the-ngc-7771-group/",
+    "original_title": "Galaxies Battle in the NGC 7771 Group",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-24T08:28:09.546446+00:00"
+  },
+  {
     "id": "apod-2026-11-23",
     "title": "Vynoření temné mlhoviny Lynds 1251",
     "caption": "Pokud byste se dívali do vesmíru a sbírali světlo plných 20 hodin, postupně byste si všimli podivné temné struktury. Digitálním zpracováním pak získáte úchvatný snímek mlhoviny Lynds 1251 (LDN 1251) – oblasti tvorby hvězd protkané neprůhledným hnědavým mezihvězdným prachem. Tato mlhovina, známá také jako „Zkažená ryba“, je domovem nejen mladých hvězd.",
@@ -1526,17 +1547,5 @@
     "original_thumb": "https://apod.nasa.gov/apod/image/2609/SaturnDecagon_Hubble_960.jpg",
     "image_recovery_source": "https://www.astro.cz/apod_data/2026/09/SaturnDecagon_Hubble_960.jpg",
     "archive_url": "https://www.astro.cz/apod/ap260908.html"
-  },
-  {
-    "id": "apod-2026-09-07",
-    "title": "Mlhovina Pelikán v plynu, prachu a hvězdách",
-    "caption": "Mlhovina Pelikán (IC 5070) se pomalu proměňuje a od větší mlhoviny Severní Amerika je oddělena molekulárním mračnem plným tmavého prachu. Tento detailní snímek z Utahu v USA vznikal 25 hodin expozice a odhaluje skvělé podrobnosti o tomto vláknitém prachu. Mlhovina je předmětem mnoha studií, neboť představuje zvláště aktivní prostředí pro vznik nových hvězd.",
-    "thumb": "assets/gallery/apod-2026-09-07.jpg",
-    "image": "assets/gallery/apod-2026-09-07.jpg",
-    "source": "NASA APOD",
-    "url": "https://apod.nasa.gov/apod/ap260907.html",
-    "published": "2026-09-07",
-    "credit": "Mark Killion",
-    "inserted_at": "2026-09-19T12:00:50.070267+00:00"
   }
 ]

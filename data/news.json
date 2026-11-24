@@ -1,5 +1,30 @@
 [
   {
+    "id": "2611.28211",
+    "title": "Roční modulace může odhalit lehkou temnou hmotu v detektorech ksenonu",
+    "summary": "Nová studie navrhuje způsob, jak v ksenonových detektorech zvýšit citlivost na lehkou temnou hmotu (částice s hmotností pod jedním gigaelektronvoltem) při její interakci s elektrony. Vědci zjistili, že místo přísné filtrace dat je výhodnější využít celkovou hrubou četnost záchytu elektronů (takzvaný dark-electron rate) a zaměřit se na hledání roční modulace – tedy sezónních změn signálu způsobených oběhem Země kolem Slunce.\n\nPři hledání nejlehčích částic temné hmoty se očekávaný signál nachází v režimu jednoho elektronu, který je však zatížen silným rušivým pozadím. Současné experimenty jako XENONnT proto aplikují filtry, které zachovají pouze přibližně 10⁻⁴ expozice, přičemž jejich citlivost se řídí vztahem S ≲ B (kde S je počet signálů a B počet událostí pozadí). Autoři ukazují, že při využití roční modulace se citlivost škáluje výhodněji jako S ≲ √B. Moderní systémy pro sběr dat v detektorech XENONnT, LZ, PandaX-4T, PandaX-xT a XLZD tyto signály již zaznamenávají, takže metoda nevyžaduje úpravu hardwaru. Provedené výpočty ukazují, že tento přístup může citlivost detektorů výrazně zvýšit.\n\nProč je to zajímavé: Práce odpovídá na otázku, jak účinně zachytit lehkou temnou hmotu v režimu silného pozadí jednoho elektronu. Ukazuje, že analýzou již zaznamenané roční modulace lze dosáhnout vyšší citlivosti stávajících i plánovaných detektorů bez nutnosti stavět nový hardware.",
+    "url": "https://arxiv.org/abs/2611.28211",
+    "source": "arXiv",
+    "original_title": "Revealing Dark Matter in the Dark-Electron Rate of Xenon Detectors",
+    "published": "2026-11-24T05:00:00+00:00",
+    "inserted_at": "2026-11-24T08:27:25.732809+00:00",
+    "lang": "cs",
+    "needs_translation": false,
+    "daily_card_selected": true
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/11/261122060342.htm",
+    "title": "Dvě obří černé díry z úsvitu vesmíru vzdorují současným teoriím",
+    "summary": "Astronomové objevili nejstarší známou těsnou dvojici kvasarů, tedy extrémně zářivých galaktických jader napájených obřími černými dírami, které pohlcují okolní hmotu. Tato soustava existovala už pouhých 900 milionů let po velkém třesku.\n\nZ výsledků vyplývá, že v centru kvasarů sídlí dvě černé díry o hmotnostech 1,5 miliardy a 400 milionů násobků hmotnosti Slunce. Hlavním zjištěním výzkumu je, že oba vesmírní giganti vyrostli do takto obrovských rozměrů daleko dříve, než jak dokážou objasnit současné teoretické modely. Pozorovaná existence takto hmotné dvojice v raném vesmíru tak vzdoruje dosavadním vědeckým představám o rychlosti růstu černých děr.\n\nProč je to zajímavé: Nález přináší konkrétní otázku, jakými mechanismy mohly černé díry dosáhnout hmotnosti až 1,5 miliardy Sluncí během prvních 900 milionů let od velkého třesku. Výsledek by mohl pomoci zpřesnit teoretické modely raného růstu černých děr a vývoje prvních galaktických jader.",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261122060342.htm",
+    "source": "RSS",
+    "original_title": "Two monster black holes from the dawn of time defy explanation",
+    "published": "2026-11-23T11:21:06+00:00",
+    "inserted_at": "2026-11-24T08:27:25.732809+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2601.14559",
     "title": "Data z Dark Energy Survey odhalují nesouhlas s reliktním zářením",
     "summary": "Vědci z mezinárodního projektu Dark Energy Survey (DES) zveřejnili finální kosmologické výsledky ze všech šesti let pozorování oblohy. V rámci analýzy velkorozměrové struktury vesmíru změřili klíčové parametry kosmu na základě tří typů korelačních funkcí: kosmického smyku z tvarů 140 milionů galaxií vyvolaného slabým gravitačním čočkováním (mírným zakřivením dráhy světla gravitací vložené hmoty), rozložení 9 milionů galaxií (shlukování galaxií) a jejich vzájemné korelace.\n\nPro standardní kosmologický model plochého vesmíru (Lambda-CDM) stanovili parametr shlukování hmoty S₈ = 0,789 ± 0,012 a celkovou hustotu hmoty Ωₘ = 0,333 (+0,023 / −0,028). Tyto hodnoty vykazují v celkovém parametrovém prostoru odchylku 1,8 σ od výsledků kombinace dat reliktního záření (CMB, což je nejstarší zachycené záření vesmíru vzniklé krátce po velkém třesku) z projektů Planck 2018, ACT-DR6 a SPT-3G DR1. Při posouzení samotného parametru S₈ dosahuje tento nesouhlas 2,6 σ. Pro model wCDM s proměnnou temnou energií vyšla hodnota S₈ = 0,782 (+0,021 / −0,020).\n\nProč je to zajímavé:\nZda je vesmír v novějším období méně shluknutý, než jak předpovídají modely založené na měření raného vesmíru, představuje zásadní otevřenou otázku kosmologie. Výsledky DES poskytují dosud nejpřesnější samostatné měření ze struktury pozdního vesmíru, které pomáhá určit, zda lze rozdíl v hodnotě parametru S₈ vysvětlit náhodným statistickým výkyvem, nebo zda může ukazovat na omezení standardního kosmologického modelu.",
@@ -5898,26 +5923,6 @@
     "source": "arXiv",
     "original_title": "Constraining quantum-gravity predictions for evolving dark energy",
     "published": "2026-09-14T17:55:04+00:00",
-    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
-  },
-  {
-    "id": "2609.15967v1",
-    "title": "Obří černé díry na počátku věků mohou být menší, než se zdá",
-    "summary": "Jak mohly v raném vesmíru tak rychle vyrůst supermasivní černé díry? Astronomové zjišťují, že některé z nich mohou být ve skutečnosti podstatně menší, než naznačovalo jejich ultrafialové záření. Příkladem je známá galaxie GN-z11. Pokud se zdejší černá díra krmí extrémní rychlostí (superkritickou akrecí), vnitřní překotný tok plynů se maskuje a vnější část disku vyzařuje světlo, které napodobuje běžný disk. Běžné odhady hmotnosti z ultrafialového spektra tak mohou být až desetinásobně nadsazené a černé díře stačí hmotnost kolem milionu Sluncí. Proč je to zajímavé: Tento efekt výrazně mírní teoretické požadavky na velikost zárodků prvních černých děr a vysvětluje, jak mohly na úsvitu vesmíru tak rychle vyrůst.",
-    "url": "http://arxiv.org/abs/2609.15967v1",
-    "source": "arXiv",
-    "original_title": "A Standard Ultraviolet Continuum Can Hide Supercritical Accretion in GN-z11",
-    "published": "2026-09-14T17:54:11+00:00",
-    "inserted_at": "2026-09-15T07:13:57.211166+00:00"
-  },
-  {
-    "id": "2609.15962v1",
-    "title": "Jak se ohřívají jádra kup galaxií? Pozorování Ophiuchus mění teorie",
-    "summary": "Astrofyzici dlouho řeší, co brání mezigalaktickému plynu v centrálních oblastech kup galaxií před úplným ochlazením. Jedním z možných mechanismů je vedení tepla z horkého okolí. Nový výzkum kupy Ophiuchus s využitím dat z teleskopů Chandra a XRISM však tento předpoklad zpochybňuje. Pokud by teplo proudilo rovnoměrně do všech směrů, brzy by vyhladilo ostrá teplotní rozhraní pozorovaná v plynu. Aby teplo jádro ohřívalo a hranice přitom zůstaly zachovány, musí být jeho šíření silně usměrněno, nejspíše magnetickými poli. Proč je to zajímavé: Výzkum vyvrací představy o běžném vedení tepla jako hlavním zdroji ohřevu kup galaxií a ukazuje, jak klíčovou roli hrají magnetická pole ve vývoji největších struktur vesmíru.",
-    "url": "http://arxiv.org/abs/2609.15962v1",
-    "source": "arXiv",
-    "original_title": "Can Isotropic Thermal Conduction Heat One of the Hottest Cool Cores?",
-    "published": "2026-09-14T17:53:01+00:00",
     "inserted_at": "2026-09-15T07:13:57.211166+00:00"
   },
   {
