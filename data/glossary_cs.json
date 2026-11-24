@@ -256,5 +256,17 @@
     ],
     "note": "Podle kontextu také náhodný statistický výkyv nebo odborně statistická fluktuace. Statistical uncertainty je statistická nejistota.",
     "status": "approved"
+  },
+  {
+    "term": "xenon",
+    "preferred": "xenon",
+    "variants": [
+      "ksenon",
+      "ksenonu",
+      "ksenonový",
+      "ksenonových"
+    ],
+    "note": "Chemický prvek Xe piš česky xenon. Skloňuj xenonu, xenonem; přídavné jméno xenonový, xenonové, xenonových. Zachovej názvy experimentů XENONnT a dalších.",
+    "status": "approved"
   }
 ]
