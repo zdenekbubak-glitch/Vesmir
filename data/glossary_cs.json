@@ -351,5 +351,12 @@
     "preferred": "zpětný ráz elektronu",
     "note": "Při rozptylu na elektronu; kontext přímé detekce: arXiv:2611.21052.",
     "variants": []
+  },
+  {
+    "term": "cosmic birefringence",
+    "preferred": "kosmický dvojlom",
+    "variants": [],
+    "note": "Schváleno v GitHub Issues.",
+    "status": "approved"
   }
 ]
