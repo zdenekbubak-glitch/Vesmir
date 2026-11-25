@@ -358,5 +358,12 @@
     "variants": [],
     "note": "Schváleno v GitHub Issues.",
     "status": "approved"
+  },
+  {
+    "term": "transient signal",
+    "preferred": "přechodný signál",
+    "variants": [],
+    "note": "Schváleno v GitHub Issues.",
+    "status": "approved"
   }
 ]
