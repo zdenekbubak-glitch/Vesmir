@@ -4,6 +4,7 @@ import re
 import json
 import os
 import time
+import subprocess
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -142,6 +143,40 @@ def translation_glossary() -> str:
     return "\n".join(lines)
 
 
+class CorruptedCzechTranslation(Exception):
+    """A known malformed Czech expression survived the translation retry."""
+
+
+def malformed_czech(text: str) -> str | None:
+    match = re.search(r"\bdír(?:s)?aov\w*\b|\baxiont\w*\b", text, re.IGNORECASE)
+    return match.group(0) if match else None
+
+
+def report_translation_review(item: dict, reason: str) -> None:
+    title = f"Překlad ke kontrole: {item['id']}"
+    found = subprocess.run(
+        ["gh", "issue", "list", "--state", "open", "--search", f'"{title}" in:title',
+         "--json", "title,url"],
+        capture_output=True, text=True, encoding="utf-8", check=True,
+    )
+    for issue in json.loads(found.stdout):
+        if issue["title"] == title:
+            print(f"::warning::Článek čeká na kontrolu: {issue['url']}")
+            return
+    body = (
+        "Český text neprošel kontrolou ani při opakování. Článek byl pozastaven.\n\n"
+        f"**Originální titulek**\n{item['original_title']}\n\n"
+        f"**Zdroj**\n{item['url']}\n\n**Nalezený problém**\n{reason}\n\n"
+        "Zkontrolujte překlad podle zdroje a doplňte schválenou položku do data/news.json. "
+        "Po běžném nasazení ověřte článek na webu a uzavřete toto issue."
+    )
+    created = subprocess.run(
+        ["gh", "issue", "create", "--title", title, "--body-file", "-"],
+        input=body, capture_output=True, text=True, encoding="utf-8", check=True,
+    )
+    print(f"::warning::Článek čeká na kontrolu: {created.stdout.strip()}")
+
+
 def summarize_czech(client, title: str, abstract: str, url: str) -> dict | None:
     prompt = f"""Jsi odborný popularizátor kosmologie. Napiš krátký článek v češtině pro laickou i odbornou veřejnost.
 
@@ -154,12 +189,12 @@ Požadavky:
 1. Vytvoř poutavý český titulek (max 80 znaků).
 2. Napiš srozumitelný a věcně přesný český článek. Pro hlavní výklad včetně závěru míř obvykle na 120–200 slov, u složitější zprávy přibližně do 250 slov. Vysvětlivky méně známých pojmů se do tohoto rozsahu nepočítají. Podle potřeby na ně přidej přibližně až 100 slov. Tato rezerva je orientační. Zachovej všechna vysvětlení nutná k pochopení výsledku. Jednoduchou zprávu nenatahuj a neopakuj stejné sdělení.
 3. Už v úvodu jasně řekni, co výzkum zkoumá a co autoři zjistili nebo navrhli. Uveď přesný název hlavního předmětu (například částice, přístroje či jevu), pokud je v podkladu. Nezůstávej jen u neurčitého označení typu „zapomenutá částice“.
-4. Méně známý pojem, zkratku nebo odborné spojení, které v článku použiješ, při prvním výskytu stručně vysvětli běžnou češtinou. Popiš, co výraz v této studii znamená a proč je pro výsledek důležitý. Samotné rozepsání zkratky ani nahrazení jednoho odborného výrazu jiným nestačí. Vedlejší technické podrobnosti použij jen tehdy, když pomáhají výkladu. Vysvětlení začleň do textu přímo k pojmu. Přednost mají pojmy nutné k pochopení hlavního výsledku. U směru, polohy či zarovnání popiš, co se měří a vůči čemu. U méně známého modelu vysvětli, co předpokládá a čím se daná varianta vyznačuje. Běžnější pojem, například rudý posuv, vysvětli podle toho, zda objasnění pomůže pochopit výsledek.
+4. Méně známý pojem, zkratku nebo odborné spojení, které v článku použiješ, při prvním výskytu stručně vysvětli běžnou češtinou. Popiš, co výraz v této studii znamená a proč je pro výsledek důležitý. Samotné rozepsání zkratky ani nahrazení jednoho odborného výrazu jiným nestačí. Vedlejší technické podrobnosti použij jen tehdy, když pomáhají výkladu. Vysvětlení začleň do textu přímo k pojmu. Přednost mají pojmy nutné k pochopení hlavního výsledku. U směru, polohy či zarovnání popiš, co se měří a vůči čemu. U méně známého modelu vysvětli, co předpokládá a čím se daná varianta vyznačuje. Běžné pojmy jako reliktní záření, temná energie, temná hmota a černá díra obecně nedefinuj. Web k nim při prvním výskytu připojí odkaz do Kosmopedie. Vysvětli jejich konkrétní roli ve studii, pokud je důležitá.
 5. Konkrétní názvy, výsledky a závěry přebírej pouze z dodaného podkladu; chybějící identitu částice ani jiné podrobnosti neodhaduj. Obecné vysvětlení pojmu musí být ustálené a jednoznačné. Důsledně rozlišuj pozorování, výsledek simulace a hypotézu; možnost nepopisuj jako prokázaný objev.
-6. Před vrácením výsledku text v rámci této odpovědi redakčně zkontroluj: pochopí běžný čtenář hlavní sdělení, jsou potřebné termíny vysvětlené a pojmenovaný předmět přesný podle podkladu? Nejasná místa uprav. Upřednostni přímý výklad; upozornění na to, co výsledek neznamená, přidej jen tam, kde předchází podstatnému omylu. Kontrolní postup ve výsledku nevypisuj.
+6. Před vrácením výsledku text v rámci této odpovědi redakčně zkontroluj: pochopí běžný čtenář hlavní sdělení, jsou potřebné termíny vysvětlené a pojmenovaný předmět přesný podle podkladu? Nejasná místa uprav. Upřednostni přímý výklad; upozornění na to, co výsledek neznamená, přidej jen tam, kde předchází podstatnému omylu. Zkontroluj také, zda při překladu a skloňování nevznikla slepená slova nebo nechybí části slov či vět. Kontrolní postup ve výsledku nevypisuj.
 7. Výstup se zobrazuje jako běžný text bez vykreslování LaTeXu. V titulku ani článku nepoužívej matematické oddělovače $, příkazy LaTeXu ani zápis indexů podtržítkem. Jednoduché výrazy piš přímo znaky Unicode: například Ωₘ = 0,272; S₈ = 0,784; w₀ = −1,04; 10⁻³; km/s/Mpc. Pokud potřebný index nelze běžně zapsat, použij jednoznačný slovní popis. Složitý vztah raději vysvětli slovy; zachovej jeho význam, znaménka, číselné hodnoty, jednotky a případné nejistoty. Desetinné nejistoty piš na základní řádek: pro stejnou horní a dolní nejistotu například 0,789 ± 0,012, pro rozdílné nejistoty například 0,333 (+0,023 / −0,028). Desetinná čísla neskládej ze znaků Unicode pro horní a dolní index. Matematický obsah nemaž. Při závěrečné kontrole ověř i tento způsob zápisu.
 8. Na konci přidej krátký odstavec začínající přesně „Proč je to zajímavé:“. Pojmenuj konkrétní otevřenou otázku a řekni, jak ji práce pomáhá zodpovědět. U hypotéz a předpovězených signálů zachovej podmíněné znění. Vyhni se vágním obratům typu „záhada temné hmoty“, když lze uvést konkrétní otázku.
-9. Převáděj do češtiny význam celých odborných spojení a skloňuj je podle věty. Časové okolnosti vyjádři přirozeně, například „data získaná za soumraku“. Pro pojmy, které v článku použiješ, dodrž schválený slovníček níže. Pokud slovníček uvádí termín i vysvětlivku, při prvním výskytu uveď obojí a vysvětlivku přirozeně začleň do věty. U nejasného překladu mimo slovníček vysvětli pojem běžnými slovy. Původní název uveď v závorce, pokud pomůže s identifikací. V titulku použij odborný termín, pokud je pro zprávu zásadní a čtenář z titulku pochopí sdělení. U časových skupin uveď, od které události se zpoždění počítá, pokud to plyne z podkladu. Pro obecné progenitor channel mimo spojení uvedené ve slovníčku používej podle kontextu „scénář vzniku“ nebo popiš konkrétní vývoj soustavy. Pokud výběr prostředí omezuje zastoupení skupiny, popiš její nízký podíl ve vzorku.
+9. Převáděj do češtiny význam celých odborných spojení a skloňuj je podle věty. Časové okolnosti vyjádři přirozeně, například „data získaná za soumraku“. Pro pojmy, které v článku použiješ, dodrž schválený slovníček níže. Pokud slovníček uvádí méně známý termín i vysvětlivku, při prvním výskytu uveď obojí a vysvětlivku přirozeně začleň do věty. U nejasného překladu mimo slovníček vysvětli pojem běžnými slovy. Původní název uveď v závorce, pokud pomůže s identifikací. V titulku použij odborný termín, pokud je pro zprávu zásadní a čtenář z titulku pochopí sdělení. U časových skupin uveď, od které události se zpoždění počítá, pokud to plyne z podkladu. Pro obecné progenitor channel mimo spojení uvedené ve slovníčku používej podle kontextu „scénář vzniku“ nebo popiš konkrétní vývoj soustavy. Pokud výběr prostředí omezuje zastoupení skupiny, popiš její nízký podíl ve vzorku.
 Schválený slovníček:
 {translation_glossary()}
 10. V titulku, úvodu i závěru zachovej míru jistoty z podkladu. Rozliš, co přístroj skutečně naměřil, co vědci z měření odvodili a co navrhli jako možné vysvětlení. Příklad: „Teleskop pozoroval prachový oblak. Podle autorů mohl vzniknout srážkou planetárních těles.“ Stejně zachovej nejistotu v titulku. U simulace uveď, co vyšlo ve výpočtu a za jaké klíčové podmínky. Když autoři porovnávají modely, metody nebo výsledky, výslovně uveď, jak srovnání dopadlo a za jakých podmínek. Pokud výsledek závisí na souboru dat nebo hodnoticím kritériu, uveď tuto závislost. Rozliš lepší shodu s daty od lepšího výsledku podle kritéria, které zohledňuje složitost modelu. Klíčový výsledek uveď už v úvodu, pokud ho podklad obsahuje. Pokud podklad výsledek srovnání neuvádí, nevymýšlej ho. Před odevzdáním ověř výsledek, čísla i vysvětlení pojmů podle titulku a abstraktu.
@@ -170,10 +205,12 @@ Schválený slovníček:
   "summary_cs": "..."
 }}
 """
+    corrupted = None
     for attempt in range(1, 3):  # max 2 pokusy
         try:
             chat = client.chats.create(model=GEMINI_MODEL)
-            response = chat.send_message(prompt)
+            correction = f'\nV předchozím pokusu se objevilo poškozené slovo {corrupted!r}. Přepiš dotčenou větu podle podkladu.' if corrupted else ''
+            response = chat.send_message(prompt + correction)
             text = (response.text or "").strip()
             if text.startswith("```"):
                 text = text.split("```")[1]
@@ -185,6 +222,10 @@ Schválený slovníček:
             summary_cs = (data.get("summary_cs") or "").strip()
             if not looks_czech(title_cs, summary_cs, title):
                 raise ValueError("Odpověď nevypadá jako čeština")
+            malformed = malformed_czech(title_cs + " " + summary_cs)
+            if malformed:
+                corrupted = malformed
+                continue
             return {"title_cs": title_cs, "summary_cs": summary_cs}
         except DailyQuotaExhausted:
             raise
@@ -195,6 +236,8 @@ Schválený slovníček:
             if attempt < 2:
                 print("Krátký výpadek – čekám 55 s a zkusím tentýž článek znovu…")
                 time.sleep(55)
+    if corrupted:
+        raise CorruptedCzechTranslation(corrupted)
     print(f"Překlad se nepodařil, uložím anglicky: {title[:70]}")
     return None
 
@@ -445,6 +488,9 @@ def main():
                 item["abstract"],
                 item["url"],
             )
+        except CorruptedCzechTranslation as error:
+            report_translation_review(item, str(error))
+            continue
         except DailyQuotaExhausted:
             print("Denní kvóta Gemini je vyčerpaná – zbytek uložím anglicky.")
             new_posts.append(english_fallback(item, now))

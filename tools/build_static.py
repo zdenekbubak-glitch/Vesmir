@@ -523,19 +523,48 @@ def related_news_for_explainer(entry, news, limit=3):
     return [item for score, item in ranked[:limit]]
 
 
+ARTICLE_EXPLAINER_TERMS = {
+    r"reliktní(?:ho|mu|m)? zářen(?:í|ím)": "co-je-reliktni-zareni",
+    r"temn(?:á|é|ou) energi(?:e|i|í)": "co-je-temna-energie-a-jak-se-lisi-od-temne",
+    r"temn(?:á|é|ou) hmot(?:a|y|ě|u|ou)": "co-je-temna-hmota",
+    r"čern(?:á|é|ou|ých|ým|ými) d(?:ír(?:a|y|u|ou|ám|ách)|ěr(?:ami)?|íře)": "co-je-cerna-dira-a-jak-vznika",
+}
+
+
 def article_summary_html(summary):
     """Separate the reader-facing takeaway without changing stored article text."""
     text = str(summary or '')
     match = re.search(r'(?<!\w)Proč\s+je\s+to\s+zajímavé\s*:', text, flags=re.IGNORECASE)
     takeaway = text[match.end():].strip() if match else ''
     main = text[:match.start()].strip() if takeaway else text
+    linked = set()
+
+    def link_terms(part):
+        pattern = r"(?<!\w)(?:" + "|".join(
+            f"(?P<term{i}>{term})" for i, term in enumerate(ARTICLE_EXPLAINER_TERMS)
+        ) + r")(?!\w)"
+        destinations = tuple(ARTICLE_EXPLAINER_TERMS.values())
+        pieces = []
+        end = 0
+        for occurrence in re.finditer(pattern, part, flags=re.IGNORECASE):
+            pieces.append(esc(part[end:occurrence.start()]))
+            phrase = esc(occurrence.group())
+            slug = destinations[int(occurrence.lastgroup[4:])]
+            if slug not in linked:
+                phrase = f'<a href="/kosmopedie/{slug}.html">{phrase}</a>'
+                linked.add(slug)
+            pieces.append(phrase)
+            end = occurrence.end()
+        pieces.append(esc(part[end:]))
+        return ''.join(pieces)
+
     paragraphs = [
-        f'<p class="summary">{esc(part)}</p>'
+        f'<p class="summary">{link_terms(part)}</p>'
         for part in re.split(r'\r?\n[^\S\r\n]*\r?\n(?:[^\S\r\n]*\r?\n)*', main)
         if part.strip()
     ]
     if takeaway:
-        paragraphs.append(f'<p class="summary"><strong>Proč je to zajímavé:</strong> {esc(takeaway)}</p>')
+        paragraphs.append(f'<p class="summary"><strong>Proč je to zajímavé:</strong> {link_terms(takeaway)}</p>')
     return '\n      '.join(paragraphs) or '<p class="summary"></p>'
 
 
