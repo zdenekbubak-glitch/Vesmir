@@ -1,5 +1,25 @@
 [
   {
+    "id": "apod-2026-11-25",
+    "title": "SPHEREx vidí skrz prach",
+    "caption": "Co blokuje výhled do středu Mléčné dráhy? Během 13 miliard let se v naší Galaxii nahromadila spousta kosmického prachu tvořeného drobnými sloučeninami prvků uvolněných při zániku hvězd. Dnešní video ukazuje infračervené světlo z galaktického centra zachycené satelitem NASA SPHEREx, na němž prachová mračna v blízké infračervené oblasti světlo pohlcují a rozptylují, čímž jádro téměř dokonale stíní.",
+    "thumb": "assets/gallery/apod-2026-11-25.jpg",
+    "image": "assets/gallery/apod-2026-11-25.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/",
+    "published": "2026-11-25",
+    "credit": "Credit: NASA/JPL-Caltech SPHEREx; data from NASA/IPAC IRSA. Processing: The Bright Nobles (Muhammet Mücahit Soylu, Serdar Aydın, Furkan Küpeli), ChronosphereX .",
+    "creator": {
+      "@type": "Organization",
+      "name": "Credit: NASA/JPL-Caltech SPHEREx; data from NASA/IPAC IRSA. Processing: The Bright Nobles (Muhammet Mücahit Soylu, Serdar Aydın, Furkan Küpeli), ChronosphereX ."
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/",
+    "original_title": "SPHEREx Seeing Through Dust",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-25T08:30:06.326035+00:00"
+  },
+  {
     "id": "apod-2026-11-24",
     "title": "Bitva galaxií ve skupině NGC 7771",
     "caption": "Po této galaktické bitvě ve skupině NGC 7771, ležící téměř 200 milionů světelných let daleko v souhvězdí Pegase, zůstane nakonec jediná galaxie. Na snímku jsou již patrné prstence a slabé hvězdné víry z předchozích gravitačních setkání dominantní spirální galaxie s příčkou NGC 7771 a spirální NGC 7769. Během miliard let opakovaných těsných průchodů se všechny tyto galaxie pravděpodobně spojí do jedné obří galaxie, což je běžná součást jejich evoluce.",
@@ -1531,21 +1551,5 @@
     "published": "2026-09-10",
     "credit": "Alessandro Merga\n Text: \nCecilia Chirenti \n(NASA\nGSFC, \nUMCP, \nCRESST II)",
     "inserted_at": "2026-09-19T12:00:50.070267+00:00"
-  },
-  {
-    "id": "apod-2026-09-08",
-    "title": "Hubble: Desetiúhelník kolem jižního pólu Saturnu",
-    "caption": "Proč mají póly Saturnu geometrické tvary? Již od roku 1987 je z dat sond NASA Voyager známo, že severní pól obklopuje šestiúhelníkový mrak. Nedávná pozorování Hubbleovým vesmírným dalekohledem však u jižního pólu odhalila trochu jiný geometrický vzor mraků: desetiúhelník.",
-    "thumb": "assets/gallery/apod-2026-09-08.jpg",
-    "image": "assets/gallery/apod-2026-09-08.jpg",
-    "source": "NASA APOD",
-    "url": "https://apod.nasa.gov/apod/ap260908.html",
-    "published": "2026-09-08",
-    "credit": "NASA / APOD",
-    "inserted_at": "2026-09-19T12:00:50.070267+00:00",
-    "original_image": "https://apod.nasa.gov/apod/image/2609/SaturnDecagon_Hubble_960.jpg",
-    "original_thumb": "https://apod.nasa.gov/apod/image/2609/SaturnDecagon_Hubble_960.jpg",
-    "image_recovery_source": "https://www.astro.cz/apod_data/2026/09/SaturnDecagon_Hubble_960.jpg",
-    "archive_url": "https://www.astro.cz/apod/ap260908.html"
   }
 ]

@@ -1,5 +1,90 @@
 [
   {
+    "id": "2611.32282v1",
+    "title": "Vědci poprvé změřili hmotnost zárodečných kup galaxií pomocí reliktního záření",
+    "summary": "Tým vědců poprvé přímo změřil celkovou hmotnost zárodečných kup galaxií (protokup) vybraných z katalogu satelitu Planck. Autoři využili data z přístroje Atacama Cosmology Telescope (ACT) pro 1012 kandidátů z celkového počtu 2151. Většinu hmoty těchto vznikajících struktur tvoří chladný mezigalaktický plyn a nebaryonická temná hmota, která sama neemituje světlo. Vědci proto použili metodu skládání dat (stacking) gravitačního čočkování, při němž gravitace hmoty v popředí zakřivuje reliktní záření (CMB), tedy nejstarší světlo vesmíru. Zprůměrováním pozorování získali jasný signál čočkování na úrovni významnosti 12 σ.\n\nZ měření odvodili průměrnou hmotnost podél zorné dráhy na hodnotu (6,6 ± 1,4) × 10¹⁴ hmotností Slunce, což odpovídá předpovědím z numerických simulací. Na základě rozsahu rudého posuvu 1,5 < z < 3 (který udává vzdálenost a stáří objektu podle natažení vlnové délky světla rozpínáním vesmíru) autořiyloučili možnost, že by vzorek obsahoval již plně zralé, gravitačně vyvážené (virializované) masivní struktury. Jde o první přímé určení hmotnosti takto vzdálených objektů z výzkumu Planck, které potvrzuje, že vzorek tvoří převážně tvořící se protokupy galaxií s rudým posuvem z ≥ 1.\n\nProč je to zajímavé:\nJednou z klíčových otázek kosmologie je, jak přesně vznikaly a vyvíjely se největší gravitačně vázané struktury ve vesmíru. Tento výzkum pomáhá potvrzovat existenci raných zárodečných kup a poskytuje přímé měření jejich celkové hmotnosti včetně temné hmoty, což umožňuje přesněji testovat modely vývoje vesmírných struktur.",
+    "url": "http://arxiv.org/abs/2611.32282v1",
+    "source": "arXiv",
+    "original_title": "Assessing the total mass of the Planck protocluster candidates with CMB lensing stacking",
+    "published": "2026-11-24T09:46:29+00:00",
+    "inserted_at": "2026-11-25T08:27:41.612964+00:00",
+    "lang": "cs",
+    "needs_translation": false,
+    "daily_card_selected": true
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/11/261122060332.htm",
+    "title": "Černá díra o velikosti atomu může zničit celou hvězdu",
+    "summary": "Vědci z Massachusettského technologického institutu (MIT) zjistili, že drobná primordiální černá díra o velikosti atomu by mohla pomalu požírat hvězdu z jejího vnitřku. Primordiální (prvotní) černé díry jsou hypotetické objekty, které nevznikly zhroucením masivních hvězd, ale zrodily se již během Velkého třesku v samotných počátcích vesmíru.\n\nPodle výpočtů autorů by toto postupné pohlcování hmoty mohl nakonec vyvolat velkolepou explozi, která by byla pozorovatelná i napříč vzdálenými galaxiemi.\n\nProč je to zajímavé: Případné zachycení těchto neobvyklých kosmických událostí by mohlo pomoci zodpovědět otázku, zda primordiální černé díry skutečně existují a zda právě tyto objekty tvoří temnou hmotu.",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261122060332.htm",
+    "source": "RSS",
+    "original_title": "A black hole the size of an atom could destroy an entire star",
+    "published": "2026-11-24T20:58:15+00:00",
+    "inserted_at": "2026-11-25T08:27:41.612964+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.31361v1",
+    "title": "Dvojité záblesky u černých děr: Simulace odhalily mikro-slapová roztrhání",
+    "summary": "Vědci v simulacích pomocí počítačového kódu SpaceHub zkoumali hyperbolické (únikové) průlety binárních systémů, tvořených hvězdnou černou dírou a hvězdou, kolem masivní černé díry. Ukázali, že silné slapové pole masivní černé díry může výrazně zakřivit dráhu binárního páru a vyvolat extrémní výstřednost (excentricitu) jeho vnitřní oběžné dráhy.\n\nTento děj spustí takzvané mikro-slapové roztrhání (µTDE, z anglického micro-tidal disruption event), při kterém hvězdná černá díraovými silami roztrhá svou hvězdnou průvodkyni. Zbytky hvězdy jsou následně pohlceny (akretovány) samotnou masivní černou dírou. Výsledkem výpočtů je předpověď charakteristického dvojitého transientního signálu – dvou po sobě následujících záblesků elektromagnetického záření a gravitačních vln. U masivní černé díry o hmotnosti 10⁶ hmotností Slunce činí časové zpoždění mezi oběma záblesky několik měsíců. Autoři odvodili vzorce pro pravděpodobnost tohoto děje i časovou prodlevu a odhadují četnost událostí na jednotky až 100 za rok ve vzdálenosti do 40 gigaparseců.\n\nProč je to zajímavé:\nPráce předpovídá charakteristický signál v podobě dvojitého záblesku, který by mohly budoucí observatoře využít k identifikaci mikro-slapových roztrhání v hustém hvězdném prostředí v těsné blízkosti masivních černých děr.",
+    "url": "http://arxiv.org/abs/2611.31361v1",
+    "source": "arXiv",
+    "original_title": "Tidally Induced Coda: Double Transients from Black Hole-Star Binary Encounters with Massive Black Holes",
+    "published": "2026-11-23T19:00:01+00:00",
+    "inserted_at": "2026-11-25T08:27:41.612964+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.31389v1",
+    "title": "Je nejobří srážka černých děr GW231123 gravitačně čočkovaná?",
+    "summary": "Vědci v nové studii zkoumali událost GW231123, dosud nejhmotnější pozorované splynutí binární černé díry, tedy dvojice černých děr obíhajících kolem sebe a splývajících v jediný objekt. Autoři prověřovali hypotézu, zda neobvykle vysoké hmotnosti a spiny (parametry popisující rotaci černých děr) nemohou být důsledkem gravitačního čočkování. Při tomto jevu masivní objekt na dráze signálu svou gravitací zakřivuje vlnění a vytváří více jeho obrazů, což u gravitačních vln dosud nebylo pozorováno.\n\nSignál autoři modelovali jako překrývání více obrazů stejného splynutí. Analýza využívající čtyři různé modely tvaru vln – tedy matematické modely předpovídající podobu signálu podle vlastností černých děr – ukázala pro čočkování výraznou podporu. Tato interpretace snížila potřebu extrémně vysokých spinů a přivedla odvozené spiny i hmotnosti do lepší shody mezi jednotlivými modely. Srovnání s pozadím nečočkovaných signálů dává vysvětlení pomocí čočkování odhadovanou významnost 3,96 (+0,68 / −0,30) σ. Gravitační čočkování tak představuje přesvědčivé vysvětlení události GW231123, k definitivnímu potvrzení je však potřeba dalších důkazů.\n\nProč je to zajímavé: Práce pomáhá zodpovědět otázku, zda jsme poprvé zachytili gravitační čočkování gravitačních vln a do jaké míry by tento jev mohl zkreslovat určování hmotností či rotací černých děr z dosavadních detekcí.",
+    "url": "http://arxiv.org/abs/2611.31389v1",
+    "source": "arXiv",
+    "original_title": "On the evidence of lensing in GW231123",
+    "published": "2026-11-23T19:00:14+00:00",
+    "inserted_at": "2026-11-25T08:27:41.612964+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.31411v1",
+    "title": "Rádiové galaxie potvrzují náznak kosmického dvojlomu reliktního záření",
+    "summary": "Analýzy reliktního záření (CMB) – prastarého elektromagnetického záření pocházejícího z raného vesmíru – ukazují na takzvaný kosmický dvojlom. Tento jev způsobuje anizotropní či izotropní stáčení roviny polarizace světla o úhel β v rozmezí 0,2° až 0,3°, což by znamenalo existenci dosud neznámé fyziky narušující paritu. Vědci nyní tento efekt otestovali v blízkém vesmíru pomocí 33 298 složek ze 16 649 dvojitých rádiových galaxií z přehlídky magnetizmu vesmíru POSSUM. Měřili odchylku úhlu polarizace záření vůči geometrické ose zdroje po očistění o Faradayovu rotaci v mezigalaktickém prostředí.\n\nAutoři studie poprvé zahrnuli vedle galaxií s kolmým stočením polarizace (90°) i stejně početnou populaci s rovnoběžnou polarizací (0°). Prokládání dat modelem bez seskupování do intervalů a s využitím obou skupin snížilo rozptyl nejistoty měřeného úhlu na polovinu. Pro rádiové galaxie při rudém posuvu z přibližně 0,5 (což je měřítko vzdálenosti a stáří, jež zde odpovídá pohledu 5 miliard let do minulosti) naměřili β = 0,48° ± 0,35°. V kombinaci s daty z kosmo-observatoří ACT a Planck vychází stočení β = 0,282° ± 0,056°, což je hodnota odchýlená od nuly o 5,0 σ (statistických směrodatných odchylek).\n\nProč je to zajímavé: Výzkum pomáhá zodpovědět otázku, zda ke stáčení polarizace dochází v raném vesmíru, nebo až v jeho pozdní fázi. Naměřená hodnota u poměrně blízkých rádiových galaxií naznačuje působení pozdně se vyvíjejícího pole, jakým by mohla být axiontům podobná temná energie – tajemná složka zrychlující rozpínání vesmíru. Naopak hypotéza stáčení polarizace v rané epoše před reionizací, vyvolaná například axiontům podobnou temnou hmotou, by pro rádiové galaxie předpovídala nulové stočení.",
+    "url": "http://arxiv.org/abs/2611.31411v1",
+    "source": "arXiv",
+    "original_title": "Parallel and perpendicular: a two-population test with POSSUM radio galaxies confirms hint of CMB birefringence",
+    "published": "2026-11-23T19:04:09+00:00",
+    "inserted_at": "2026-11-25T08:27:41.612964+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.33142v1",
+    "title": "Program VENUS s teleskopem JWST mapuje nejsilnější gravitační čočky vesmíru",
+    "summary": "Vědci v rámci programu VENUS (Vast Exploration for Nascent, Unexplored Sources) s využitím Vesmírného dalekohledu Jamese Webba (JWST) vytvořili dosud největší ucelený soubor modelů silného gravitačního čočkování pro 57 kup galaxií. Tento jev nastává, když obří hmotnost kupy ohybem časoprostoru zkresluje a výrazně zesiluje světlo vzdálených objektů ležících za ní. Autoři pomocí softwaru AstroLensPy zpracovali 5013 snímků a vymodelovali 1733 vícenásobně zobrazených systémů s průměrnou přesností 0,54 obloukové vteřiny v rovině zobrazení.\n\nU 912 systémů změřili spektroskopický rudý posuv – posun vlnové délky světla k červenému konci spektra způsobený rozpínáním vesmíru, který určuje vzdálenost objektu – přičemž 227 systémů identifikovali poprvé. Pro zdroje s rudým posuvem z = 10 nabízejí zkoumaná pole celkovou plochu 191 obloukových minut čtverečních se zvětšením minimálně třikrát. Kupy MACS J0717.5+3745, RXC J0600.1-2007 a PLCK G287.0+32.9 přitom vykazují největší Einsteinův poloměr (charakteristickou velikost gravitační čočky) přesahující 60 obloukových vteřin a představují tak nejvýkonnější známé gravitační teleskopy. Z naměřených dat autoři navíc odvodili vztahy mezi parametry čočkování a celkovou hmotností kup odvozenou z rentgenového záření a Sunjajevova-Zeldovičova jevu.\n\nProč je to zajímavé: Studium prvních galaxií naráží na limity citlivosti současných přístrojů. Tento katalog přírodních zvětšovacích skel pomáhá zpřesnit modely rozložení hmoty v kupách galaxií a umožňuje efektivně vyhledávat i detailně zkoumat nejvzdálenější objekty z raných fází vývoje vesmíru.",
+    "url": "http://arxiv.org/abs/2611.33142v1",
+    "source": "arXiv",
+    "original_title": "VENUS: A Census of Strong Lensing in a 60-Cluster JWST Survey",
+    "published": "2026-11-24T18:56:18+00:00",
+    "inserted_at": "2026-11-25T08:27:41.612964+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.32552v1",
+    "title": "Pozorování z teleskopu JWST a raná temná energie řeší Hubbleovo napětí",
+    "summary": "Nová studie zkoumá řešení problému zvaného Hubbleovo napětí, což je nesoulad v určování rychlosti rozpínání vesmíru (Hubbleovy konstanty) mezi měřeními z raného a lokálního vesmíru. Autoři ukázali, že tento rozpor lze snížit na úroveň 0,1 σ v rámci modelu axionové rané temné energie. Jedná se o hypotetickou formu temné energie (neznámé složky zrychlující rozpínání vesmíru), která měla působit v nejranějších fázích kosmické historie. Klíčovou roli v dosažení tohoto výsledku hrají nová pozorování velmi vzdálených galaxií z Vesmírného dalekohledu Jamese Webba (JWST).\n\nZásadní byla vyšší pozorovaná početnost galaxií při vysokém rudém posuvu z = 11 a 12,5 (hodnotě určující vzdálenost a časové období na základě prodloužení vlnové délky světla rozpínáním vesmíru). Tato data naznačují silnější shlukování hmoty na malých měřítkách, což vyžaduje zvýšení primordiálního skalárního spektrálního indexu nₛ. V kombinaci s pozorováními reliktního záření (CMB), tedy nejstaršího dochovaného záření vesmíru, a baryonovými akustickými oscilacemi z přehlídky DESI vede tento efekt k odvozené hodnocení Hubbleovy konstanty 72,76 ± 1,00 km/s/Mpc. To vykazuje vynikající shodu s lokálním měřením projektu SH0ES. Pokud model zahrne i závislost na měřítku pomocí parametru αₛ (prokázanou na úrovni více než 4 σ), zvýší se vypočtená hodnota až na 73,75 ± 1,04 km/s/Mpc.\n\nProč je to zajímavé: Výzkum ukazuje, jak pozorování nejstarších galaxií z teleskopu JWST pomáhají řešit rozpor v měření rychlosti rozpínání vesmíru propojením počátečních poruch hustoty hmoty s vlastnostmi temné energie.",
+    "url": "http://arxiv.org/abs/2611.32552v1",
+    "source": "arXiv",
+    "original_title": "Resolving the Hubble Tension at $0.1σ$ with Early Dark Energy: Key Role of the Highest-redshift Galaxies from JWST Observations",
+    "published": "2026-11-24T13:06:41+00:00",
+    "inserted_at": "2026-11-25T08:27:41.612964+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2611.30570v1",
     "title": "Einsteinův teleskop: Která konfigurace detektoru nejlépe prozkoumá vesmír?",
     "summary": "Vědci v nové zprávě porovnávali tři geometrické konfigurace pro plánovaný detektor gravitačních vln Einsteinův teleskop (ET): jediný trojúhelníkový detektor s desetikilometrovými rameny a dvě vzdálená stanoviště s detektory ve tvaru písmene L o délce ramen 15 kilometrů – buď vzájemně zarovnaná, nebo natočená (měří se úhel ramen jednoho detektoru vůči druhému). Výzkum ukázal, že všechny varianty splní vědecké cíle ET, liší se však ve svých přednostech. Pro většinu měření vyžadujících vysokou citlivost jsou výhodnější konfigurace se dvěma detektory L.\n\nNatočená varianta dvou detektorů L dosahuje nejlepších výsledků v přesné lokalizaci zdrojů, víceposlovské astronomii (kombinující signály gravitačních vln a elektromagnetického záření) a kosmologii jasných sirén, která tyto kombinované zdroje využívá k určování vzdáleností vesmírných objektů. Zarovnaná varianta L je nejvhodnější pro detekci stochastického pozadí gravitačních vln, tedy slabého překrývajícího se šumu z mnoha vzdálených zdrojů. Trojúhelníková konfigurace lokalizuje zdroje lépe než zarovnaná varianta L a u spojitých či impulsních signálů dosahuje srovnatelné účinnosti. Jako ideální kompromis autoři navrhují vzájemné natočení ramen o 30 stupňů. Předpovědi vypočítané pomocí Fisherovy informační matice (statistického nástroje pro odhad nejistot měření) vědci ověřili na simulacích přibližně 550 signálů binárních černých děr (dvojic černých děr obíhajících kolem sebe) a soustav neutronové hvězdy s černou dírou. Přidání plánovaného amerického detektoru Cosmic Explorer do sítě zlepší dosah všech variant, zejména u zdrojů s vysokým rudým posuvem (vzdálených objektů, jejichž světlo se vlivem rozpínání vesmíru posouvá k delším vlnovým délkám).\n\nProč je to zajímavé: Studium pomáhá odpovědět na otázku, jak optimálně navrhnout architekturu gravitačních detektorů třetí generace, aby vědci dosáhli co nejlepší rovnováhy mezi přesným určováním polohy vesmírných katastrof a citlivostí k dosud nezaznamenanému stochastickému pozadí.",
@@ -5876,56 +5961,6 @@
     "inserted_at": "2026-09-17T07:07:39.891500+00:00"
   },
   {
-    "id": "2609.18668v1",
-    "title": "Geometrie částic: Jak mnohostěny počítají kvantové srážky bez integrálů",
-    "summary": "Výpočet kvantových srážek částic v teoretické fyzice tradičně vyžaduje složité integrovaní přes Feynmanovy diagramy. Nový výzkum ukazuje, že tyto výpočty lze výrazně zjednodušit pomocí takzvaného rozptylového aspektu, což je geometrický objekt vycházející z kosmologického polytopu. Vědci popsali tento objekt jako vrstvenou geometrii zachycující kauzální vývoj částic. Díky rozkladu této geometrie na jednodušší struktury lze získat výsledky kvantových amplitud přímo z tvaru mnohostěnů, aniž by bylo nutné provádět náročné integrace. Proč je to zajímavé: Tento přístup obchází extrémně složité výpočty a odhaluje, že základy kvantové fyziky a časoprostorové kauzality lze popsat jako čistou geometrii.",
-    "url": "http://arxiv.org/abs/2609.18668v1",
-    "source": "arXiv",
-    "original_title": "The geometry of multiloop Feynman Integrals from the Scattering Facet",
-    "published": "2026-09-16T13:46:53+00:00",
-    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
-  },
-  {
-    "id": "2609.18664v1",
-    "title": "Matematika optimálního přenosu odhaluje zakřivení časoprostoru",
-    "summary": "Obecná teorie relativity popisuje gravitaci prostřednictvím zakřivení časoprostoru. Nová studie představuje inovativní způsob, jak toto zakřivení kvantifikovat pomocí teorie optimálního transportu, která se původně používala pro efektivní přenos hmoty. Autoři adaptovali koncept takzvané Ollivierovy-Ricciho zakřivenosti pro časoprostorové prostředí. Porovnáváním pravděpodobnostních rozložení na malých prostorových nadplochách pomocí modifikované Wassersteinovy vzdálenosti dokázali přesně rekonstruovat Ricciho tenzor v časovém směru. Tento postup matematicky odráží slavnou Raychaudhuriho rovnici a funguje i pro systémy s proměnnou hustotou. Proč je to zajímavé: Propojení optimalizačních matematických metod s relativistickou geometrií nabízí nové způsoby, jak zkoumat časoprostorové singularity i kvantovou gravitaci.",
-    "url": "http://arxiv.org/abs/2609.18664v1",
-    "source": "arXiv",
-    "original_title": "Timelike Ollivier-Ricci curvature",
-    "published": "2026-09-16T13:42:28+00:00",
-    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
-  },
-  {
-    "id": "2609.18615v1",
-    "title": "Jak kvantová elektrodynamika mění stín a ohyb světla u černých děr",
-    "summary": "Nová studie zkoumá, jak kvantové efekty v podobě nelineární elektrodynamiky ovlivňují optické vlastnosti nabitých černých děr. Vědci analyzovali poloměr fotonové sféry, velikost stínu černé díry a úhel ohybu světelných paprsků. Ukázalo se, že s rostoucím elektrickým nábojem se stín zmenšuje, zatímco hmotnost ho zvětšuje. Korekce nelineární elektrodynamiky se nejvýrazněji projevují u extrémně nabitých objektů, kde ohýbají světlo výrazněji než klasické modely. Srovnáním teoretických výpočtů s reálnými snímky z Teleskopu horizontu událostí pro černé díry Sgr A* a M87* vědci stanovili nové limity pro maximální náboj. Proč je to zajímavé: Tento výzkum ukazuje, že přesná pozorování stínu černých děr mohou odhalit kvantové jevy v podmínkách extrémní gravitace.",
-    "url": "http://arxiv.org/abs/2609.18615v1",
-    "source": "arXiv",
-    "original_title": "Black Hole Shadow and Light Deflection in Generalized Heisenberg-Euler Nonlinear Electrodynamics",
-    "published": "2026-09-16T13:03:43+00:00",
-    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
-  },
-  {
-    "id": "2609.18606v1",
-    "title": "Jak vypadá černá díra v modifikované gravitaci? Napoví polarizace světla",
-    "summary": "Astrofyzici zkoumali, jak by na snímcích z Teleskopu horizontu událostí (EHT) vypadala černá díra obklopená zářícím plynem, pokud by platila takzvaná modifikovaná gravitace (MOG) namísto Einsteinovy obecné relativity. Pomocí počítačových simulací sledovali šíření světla a jeho polarizaci v těsné blízkosti horizontu událostí. Zjistili, že teorie MOG zvětšuje a zjasňuje stín černé díry i světelné prstence kolem ní. Sklon akrečního disku a struktura záření navíc výrazně ovlivňují polarizační vzory. Tyto teoretické modely poskytují vědcům klíčový nástroj pro testování nových gravitačních teorií pomocí budoucích pozorování. Proč je to zajímavé: Polarizované světlo z okolí černých děr nám umožňuje přímo ověřit, zda Einsteinova teorie gravitace platí i v těch nejextrémnějších podmínkách vesmíru.",
-    "url": "http://arxiv.org/abs/2609.18606v1",
-    "source": "arXiv",
-    "original_title": "Shadow and Polarized Images of Schwarzschild-MOG Black Hole Illuminated by Thick Accretion Disk",
-    "published": "2026-09-16T12:57:30+00:00",
-    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
-  },
-  {
-    "id": "2609.17531v1",
-    "title": "Pátrání po počátku vesmíru: Jak odhalit falešné stopy gravitačních vln?",
-    "summary": "Detekce primordiálních B-módů v reliktním záření představuje svatý grál moderní kosmologie, neboť by potvrdila existenci gravitačních vln z období kosmické inflace. Hlavní překážkou je však kontaminace zářením z naší Mléčné dráhy. I po použití pokročilých čisticích algoritmů mohou v datech zůstat zbytkové signály, které způsobí falešný objev. Nová studie představuje metodu založenou na rozptylových transformacích, jež dokáže v mapách reliktního záření spolehlivě identifikovat negaussovské struktury způsobené galaktickým popředím. Test vyvinutý pro chystaný satelit LiteBIRD dokáže odhalit zkreslení klíčového parametru r s přesností odpovídající citlivosti samotného přístroje. Proč je to zajímavé: Získáme tím spolehlivou pojistku, že případný budoucí objev otisků kosmické inflace bude skutečný, a nikoli jen klamný signál z naší vlastní Galaxie.",
-    "url": "http://arxiv.org/abs/2609.17531v1",
-    "source": "arXiv",
-    "original_title": "$B$-sure. Part II. Scattering transforms as robustness test for tensor-to-scalar ratio detection from CMB observations",
-    "published": "2026-09-15T17:59:31+00:00",
-    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
-  },
-  {
     "id": "2609.17530v1",
     "title": "Mionový urychlovač na stopě temné hmoty a záhady neutrin",
     "summary": "Tzv. skotogenický model nabízí elegantní vysvětlení tří zásadních záhad kosmologie: hmotnosti neutrin, podstaty temné hmoty a převahy hmoty nad antihmotou ve vesmíru. Nová studie ukazuje, že zvýšení interakcí druhé generace částic snižuje energetickou škálu tohoto modelu na přibližně 1 TeV, což umožňuje jeho testování na připravovaném mionovém urychlovači. Klíčovým indikátorem se stává pátrání po tzv. dlouhožijících částicích, které v detektoru zanechávají charakteristické posunuté stopy přeměn. Ačkoli je přímé zachycení jednotlivých fotonů náročné, rekonstrukce těchto rozpadových vrcholů představuje mimořádně slibnou cestu k odhalení nové fyziky. Proč je to zajímavé: Model propojuje mikrosvět neutrin s vývojem celého vesmíru a nabízí konkrétní návod, jak tyto hluboké souvislosti ověřit na nadcházející generaci částicových urychlovačů.",
@@ -5933,16 +5968,6 @@
     "source": "arXiv",
     "original_title": "Vanilla Scotogenic Model at the future Muon Collider",
     "published": "2026-09-15T17:58:07+00:00",
-    "inserted_at": "2026-09-16T07:06:50.869073+00:00"
-  },
-  {
-    "id": "2609.17510v1",
-    "title": "Průlom v Einsteinově gravitaci: Kompletní vzorec pro pohyb N těles",
-    "summary": "Předpovídání pohybu více vzájemně se přitahujících těles v obecné teorii relativity představuje klasickou, ale nesmírně složitou výzvu. Dosavadní teoretický popis v takzvaném druhém post-newtonovském řádu narážel na nevyřešený integrální člen, který znemožňoval získat plně analytický vzorec pro popis celkové energie a dynamiky systému. Autoři nové práce tento integrál analyticky spočítali, čímž získali vůbec první zcela explicitní vyjádření. Správnost výpočtu úspěšně ověřili srovnáním s numerickými modely. Proč je to zajímavé: Tento matematický průlom umožňuje fyzikům elegantně a bez nutnosti zdlouhavých výpočtů přesně modelovat dynamiku složitých vesmírných objektů, jako jsou vícečetné černé díry.",
-    "url": "http://arxiv.org/abs/2609.17510v1",
-    "source": "arXiv",
-    "original_title": "A Fully Analytic Expression for the 2PN N-Body Hamiltonian",
-    "published": "2026-09-15T17:47:05+00:00",
     "inserted_at": "2026-09-16T07:06:50.869073+00:00"
   },
   {
