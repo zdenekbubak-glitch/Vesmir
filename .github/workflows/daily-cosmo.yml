@@ -37,6 +37,8 @@ jobs:
 
       - name: Run agent
         env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python -u scripts/fetch_and_update.py
 
