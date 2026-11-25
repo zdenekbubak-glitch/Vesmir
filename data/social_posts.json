@@ -882,7 +882,7 @@
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/clanky/castice-z-tmaveho-sektoru-by-mohly-vysvetlit-zahadne-signaly-z-2611173281.html",
     "recorded_at": "2026-11-13T08:25:44.956120+00:00",
-    "last_check_attempt_at": "2026-11-24T08:30:49.167446+00:00",
+    "last_check_attempt_at": "2026-11-25T08:32:16.498651+00:00",
     "publication_check_result": "unavailable"
   },
   {
@@ -1207,8 +1207,42 @@
     "key": "bluesky_daily_a433c8ba83101c75c5b5",
     "title": "Roční modulace může odhalit lehkou temnou hmotu v detektorech xenonu",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n2zdm5rs22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/clanky/rocni-modulace-muze-odhalit-lehkou-temnou-hmotu-v-detektorech-xenonu-261128211.html",
-    "recorded_at": "2026-11-24T09:26:59.520003+00:00"
+    "recorded_at": "2026-11-24T09:26:59.520003+00:00",
+    "last_check_attempt_at": "2026-11-25T08:32:16.498651+00:00",
+    "publication_checked_at": "2026-11-25T08:32:16.498651+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_059da136dbf487af96e8",
+    "title": "Vědci poprvé změřili hmotnost zárodečných kup galaxií pomocí reliktního záření",
+    "platform_id": "6b069ce3d8874a038c07714b",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/vedci-poprve-zmerili-hmotnost-zarodecnych-kup-galaxii-pomoci-reliktniho-zareni-2611322821.html",
+    "recorded_at": "2026-11-25T08:31:34.424422+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_059da136dbf487af96e8",
+    "title": "Vědci poprvé změřili hmotnost zárodečných kup galaxií pomocí reliktního záření",
+    "platform_id": "6b069ce9d8874a038c077345",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/vedci-poprve-zmerili-hmotnost-zarodecnych-kup-galaxii-pomoci-reliktniho-zareni-2611322821.html",
+    "recorded_at": "2026-11-25T08:31:43.743954+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_059da136dbf487af96e8",
+    "title": "Vědci poprvé změřili hmotnost zárodečných kup galaxií pomocí reliktního záření",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n33u33ak22ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/clanky/vedci-poprve-zmerili-hmotnost-zarodecnych-kup-galaxii-pomoci-reliktniho-zareni-2611322821.html",
+    "recorded_at": "2026-11-25T08:32:16.608992+00:00"
   }
 ]
