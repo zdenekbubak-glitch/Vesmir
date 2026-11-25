@@ -184,9 +184,11 @@
   },
   {
     "term": "dispersion measure",
-    "preferred": "disperzní míra",
-    "variants": [],
-    "note": "Schváleno v GitHub Issues.",
+    "preferred": "míra disperze",
+    "variants": [
+      "disperzní míra"
+    ],
+    "note": "V radioastronomii integrál hustoty volných elektronů podél dráhy signálu. České užití: výukové materiály MUNI.",
     "status": "approved"
   },
   {
@@ -292,9 +294,9 @@
   },
   {
     "term": "dark-electron rate",
-    "preferred": "četnost rozptylu temné hmoty na elektronech (DM-electron rate)",
+    "preferred": "celková četnost zaznamenaných elektronových událostí před filtrováním dat",
     "variants": [],
-    "note": "Schváleno v GitHub Issues.",
+    "note": "V xenonových detektorech zahrnuje i události rušivého pozadí. Zdroj: arXiv:2611.28211.",
     "status": "approved"
   },
   {
@@ -328,5 +330,26 @@
     "variants": [],
     "note": "V kontextu prokládání modelu spektra daty.",
     "status": "approved"
+  },
+  {
+    "term": "proper distance",
+    "status": "approved",
+    "preferred": "vlastní vzdálenost",
+    "note": "V obecné relativitě vzdálenost daná metrikou. České užití: MFF UK.",
+    "variants": []
+  },
+  {
+    "term": "nuclear recoil",
+    "status": "approved",
+    "preferred": "zpětný ráz jádra",
+    "note": "Při rozptylu na jádře; kontext přímé detekce: arXiv:2611.21052.",
+    "variants": []
+  },
+  {
+    "term": "electron recoil",
+    "status": "approved",
+    "preferred": "zpětný ráz elektronu",
+    "note": "Při rozptylu na elektronu; kontext přímé detekce: arXiv:2611.21052.",
+    "variants": []
   }
 ]
