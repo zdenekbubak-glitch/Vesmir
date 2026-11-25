@@ -69,7 +69,7 @@ def _run_query(bearer: str, query: str, hours: int) -> list:
     return posts
 
 
-def search_x(bearer: str, hours: int = 36) -> list:
+def search_x(bearer: str, hours: int = 36, *, broad_only=False, exclude_ids=()) -> list:
     """Hledá recent posty na X (last 7 days max). Primární přesný dotaz,
     při prázdném výsledku záložní širší dotaz (72 h)."""
     if not bearer:
@@ -78,8 +78,10 @@ def search_x(bearer: str, hours: int = 36) -> list:
         (f"({KEYWORDS}) lang:cs -is:retweet -is:reply -from:ZdenekBubak", hours, "primární"),
         (f"({KEYWORDS_BROAD}) lang:cs -is:retweet -is:reply -from:ZdenekBubak", 72, "záložní"),
     ]
+    if broad_only:
+        strategies = strategies[1:]
     posts = []
-    used = load_used()
+    used = load_used() | set(exclude_ids)
     reviewed = load_state()["reviewed"]
     search_errors = []
     for query, window, label in strategies:
@@ -149,12 +151,12 @@ def score_relevance(client, posts: list, recent_words=()) -> list:
         )
     scored = []
     for p in posts:
-        # This workflow reads the text, not the contents of attached media.
+        # Posuzuj obsah i u krátkých příspěvků. Přílohy model nevidí.
         post_text = re.sub(r"https?://\S+", "", p["text"]).strip()
-        if len(re.findall(r"\b\w+\b", post_text)) <= 12 and (
+        if len(re.findall(r"\b\w+\b", post_text)) <= 10 and (
             p.get("has_media") or re.search(r"https?://t\.co/", p["text"])
         ):
-            print(f"Vynechávám {p['id']}: krátký text závisí na nepřečtené příloze nebo odkazu.")
+            print(f"Vynechávám {p['id']}: nejvýše 10 slov a nepřečtená příloha nebo odkaz.")
             p.update(evaluated=True, relevant=False, score=0, reason="Nedostatečný samostatný kontext")
             continue
         prompt = f"""Je tento český příspěvek na X vědecky relevantní pro kosmologii
@@ -446,6 +448,11 @@ def main():
 
     state = load_state()
     relevant = score_relevance(client, posts, recent_expressive_words(state))
+    if not relevant and posts:
+        print("Primární kandidáti neprošli hodnocením; zkouším širší hledání.")
+        extra = search_x(x_bearer, broad_only=True, exclude_ids={p["id"] for p in posts})
+        relevant = score_relevance(client, extra, recent_expressive_words(state))
+        posts.extend(extra)
     for post in posts:
         if post.get('evaluated'):
             state['reviewed'][post['id']] = {"at": datetime.now(timezone.utc).isoformat(),
