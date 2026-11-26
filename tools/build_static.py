@@ -524,6 +524,8 @@ def related_news_for_explainer(entry, news, limit=3):
 
 
 ARTICLE_EXPLAINER_TERMS = {
+    r"rud(?:ý|ého|ému|ém|ým|é|ých|ými) posuv(?:u|em|y|ů|ům|ech)?": "co-je-rudy-posuv-a-jak-se-meri",
+    r"(?:(?:standardn(?:í|ího|ímu|ím) kosmologick(?:ý|ého|ému|ém|ým) )?model(?:u|em)? )?ΛCDM": "co-znamena-model-cdm",
     r"reliktní(?:ho|mu|m)? zářen(?:í|ím)": "co-je-reliktni-zareni",
     r"temn(?:á|é|ou) energi(?:e|i|í)": "co-je-temna-energie-a-jak-se-lisi-od-temne",
     r"temn(?:á|é|ou) hmot(?:a|y|ě|u|ou)": "co-je-temna-hmota",
