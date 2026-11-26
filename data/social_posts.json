@@ -882,7 +882,7 @@
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/clanky/castice-z-tmaveho-sektoru-by-mohly-vysvetlit-zahadne-signaly-z-2611173281.html",
     "recorded_at": "2026-11-13T08:25:44.956120+00:00",
-    "last_check_attempt_at": "2026-11-25T08:32:16.498651+00:00",
+    "last_check_attempt_at": "2026-11-26T08:31:59.222279+00:00",
     "publication_check_result": "unavailable"
   },
   {
@@ -1241,8 +1241,42 @@
     "key": "bluesky_daily_059da136dbf487af96e8",
     "title": "Vědci poprvé změřili hmotnost zárodečných kup galaxií pomocí reliktního záření",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n33u33ak22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/clanky/vedci-poprve-zmerili-hmotnost-zarodecnych-kup-galaxii-pomoci-reliktniho-zareni-2611322821.html",
-    "recorded_at": "2026-11-25T08:32:16.608992+00:00"
+    "recorded_at": "2026-11-25T08:32:16.608992+00:00",
+    "last_check_attempt_at": "2026-11-26T08:31:59.222279+00:00",
+    "publication_checked_at": "2026-11-26T08:31:59.222279+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_e472dc53b936ab404a8b",
+    "title": "Projekt MoonRISE: Radioteleskop na odvrácené straně Měsíce",
+    "platform_id": "6b07ee557cb39d7aa361a472",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/projekt-moonrise-radioteleskop-na-odvracene-strane-mesice-2611335341.html",
+    "recorded_at": "2026-11-26T08:31:19.781324+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_e472dc53b936ab404a8b",
+    "title": "Projekt MoonRISE: Radioteleskop na odvrácené straně Měsíce",
+    "platform_id": "6b07ee5a63939e1d00860254",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/projekt-moonrise-radioteleskop-na-odvracene-strane-mesice-2611335341.html",
+    "recorded_at": "2026-11-26T08:31:26.542324+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_e472dc53b936ab404a8b",
+    "title": "Projekt MoonRISE: Radioteleskop na odvrácené straně Měsíce",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n36ejypc22ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/clanky/projekt-moonrise-radioteleskop-na-odvracene-strane-mesice-2611335341.html",
+    "recorded_at": "2026-11-26T08:31:59.399954+00:00"
   }
 ]
