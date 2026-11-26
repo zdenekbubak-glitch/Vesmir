@@ -1459,7 +1459,7 @@
     ],
     "centering": [
       0.5,
-      0.0
+      0
     ],
     "layout": "landscape",
     "revision": 3,
@@ -5215,9 +5215,9 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
-    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "rights_note": "Vlastní výukové schéma Kosmologických novinek, zveřejněné pod CC BY 4.0.",
     "verified_on": "2026-10-25",
-    "revision": 1,
+    "revision": 2,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -5232,7 +5232,7 @@
     "source_id": "own-diagram:spectroscopy-path",
     "source_family": "own-diagram:spectroscopy-path",
     "alt": "Od světla ke spektru – vlastní názorné schéma",
-    "caption": "Zjednodušený princip spektrografu: světlo projde vstupní štěrbinou, rozloží se podle vlnové délky a dopadne na detektor. Jde o vlastní schéma, nikoli konstrukční plán konkrétního přístroje.",
+    "caption": "Světlo projde vstupní štěrbinou. Hranol je rozloží podle vlnové délky a detektor zaznamená intenzitu světla u různých vlnových délek.",
     "thumbnail": "assets/article-images/thumbs/schema-spektroskopie-cesta-svetla.webp",
     "source_master": "assets/article-images/sources/schema-spektroskopie-cesta-svetla.jpg",
     "match_keywords": [
@@ -5367,9 +5367,9 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
-    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "rights_note": "Vlastní výukové schéma Kosmologických novinek, zveřejněné pod CC BY 4.0.",
     "verified_on": "2026-10-25",
-    "revision": 1,
+    "revision": 2,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -10028,9 +10028,9 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
-    "rights_note": "Vlastní reprodukovatelné výukové schéma v tools/stellar_classification_diagrams.py.",
+    "rights_note": "Vlastní výukové schéma Kosmologických novinek, zveřejněné pod CC BY 4.0.",
     "verified_on": "2026-10-29",
-    "revision": 1,
+    "revision": 2,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -10040,7 +10040,7 @@
     "source_family": "own-diagram:schema-hr-diagram",
     "title": "Jak číst H-R diagram",
     "alt": "Teplota klesá zleva doprava, zářivý výkon roste vzhůru. Hlavní posloupnost, obři, veleobři a bílí trpaslíci leží v odlišných oblastech.",
-    "caption": "Vlastní kvalitativní schéma H-R diagramu, bez číselných stupnic a bez měření konkrétních hvězd. Značky pouze názorně rozlišují hlavní skupiny.",
+    "caption": "Názorný H-R diagram ukazuje hlavní skupiny hvězd a orientační polohu Slunce na hlavní posloupnosti. Teplota klesá doprava a zářivý výkon roste vzhůru.",
     "thumbnail": "assets/article-images/thumbs/schema-hr-diagram.webp",
     "source_master": "assets/article-images/sources/schema-hr-diagram.jpg",
     "manual_only": true,
@@ -10990,5 +10990,58 @@
     "thumbnail": "assets/article-images/thumbs/noirlab2627a.webp",
     "source_master": "assets/article-images/sources/noirlab2627a.jpg",
     "revision": 1
+  },
+  {
+    "id": "schema-rocni-paralaxa",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "subtopics": [
+      "manual"
+    ],
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://cesar.esa.int/upload/202210/RG_Gaia_DataRelease3.pdf"
+      }
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní výukové schéma Kosmologických novinek, zveřejněné pod CC BY 4.0.",
+    "verified_on": "2026-11-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "diagram": "stellar-parallax",
+    "source_id": "own-diagram:schema-rocni-paralaxa",
+    "source_family": "own-diagram:schema-rocni-paralaxa",
+    "title": "Jak funguje roční paralaxa",
+    "alt": "Pohledy na blízkou hvězdu ze dvou protilehlých poloh Země, paralaktický úhel p a základna 1 AU.",
+    "caption": "Dvě protilehlé polohy Země dávají dva směry k téže hvězdě vůči vzdálenému pozadí. Paralaktický úhel p odpovídá základně Země–Slunce (1 AU). Ve schématu je úhel mezi oběma směry 2p. Úhly jsou zvětšené.",
+    "thumbnail": "assets/article-images/thumbs/schema-rocni-paralaxa.webp",
+    "source_master": "assets/article-images/sources/schema-rocni-paralaxa.jpg",
+    "manual_only": true,
+    "match_keywords": [],
+    "reference_urls": [
+      "https://cesar.esa.int/upload/202210/RG_Gaia_DataRelease3.pdf"
+    ],
+    "zoomable": true,
+    "width": 1100,
+    "height": 750,
+    "creator": {
+      "@type": "Organization",
+      "name": "Kosmologické novinky",
+      "url": "https://kosmonovinky.cz/"
+    },
+    "copyrightNotice": "Kosmologické novinky",
+    "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
   }
 ]
