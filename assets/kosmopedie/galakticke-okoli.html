@@ -118,11 +118,15 @@ function drawDisk(item, model, project, scale, displayRadius=model.radius) {
   ctx.restore();
 }
 function openGalaxy(item,fromSun=false) {
-  active=item;picker.value=item.name;view.value='detail';zoom.value='1';
+  const focusSun=item===sun;
+  if(focusSun)item=milkyWay;
+  active=item;picker.value=focusSun?sun.name:item.name;view.value='detail';zoom.value='1';
   const vector=item.xyz_mly.map(x=>-x/item.distance_mly);
   yaw=fromSun?Math.atan2(vector[0],vector[1]):.60;
   pitch=fromSun?Math.asin(Math.max(-1,Math.min(1,vector[2]))):.53;
-  document.getElementById('selection').textContent=item.name+' – '+fmt(item.distance_mly)+' mil. světelných let od Slunce.'+(fromSun?' Pohled od Slunce.':'');
+  document.getElementById('selection').textContent=focusSun
+    ?'Slunce je vyznačené uvnitř disku Mléčné dráhy. Od středu Galaxie je vzdálené asi 26 700 světelných let.'
+    :item.name+' – '+fmt(item.distance_mly)+' mil. světelných let od Slunce.'+(fromSun?' Pohled od Slunce.':'');
   const model=profiles.get(item.name);
   document.getElementById('model-description').textContent=model.note;
   document.getElementById('model-source').href=model.source;
@@ -139,13 +143,7 @@ let rows=data.galaxies.filter(a=>view.value==='satellite'?a.kind==='satellite':v
 for(const [i,a] of rows.entries()){const [x,y]=project(a.xyz_mly);const model=profiles.get(a.name);const showDisk=model&&(!physical||detail||model.radius*scale>=7);if(showDisk){const minimum=a.kind==='satellite'&&view.value==='local'?8:13;drawDisk(a,model,project,scale,physical?model.radius:Math.max(model.radius,minimum/scale));}if(detail)continue;ctx.strokeStyle='#263c55';ctx.beginPath();ctx.moveTo(w*.5,h*.5);ctx.lineTo(x,y);ctx.stroke();ctx.fillStyle=a.kind==='origin'?'#ffd287':a.kind==='satellite'?'#8de0b1':'#7dcfff';if(!showDisk){ctx.beginPath();ctx.arc(x,y,6,0,Math.PI*2);ctx.fill()}points.push({x,y,a});ctx.font='14px system-ui';const label=(a.kind==='origin'?'Slunce':a.name).replace('Galaxie v Trojúhelníku (M33)','M33').replace('Velký Magellanův oblak','Velký oblak').replace('Malý Magellanův oblak','Malý oblak').split(' – ')[0];const tw=ctx.measureText(label).width;let lx,ly;outer:for(const rr of [24,48,72,96,120,144]){for(const sign of [1,-1]){for(const dy of [-rr,rr,0]){const xx=Math.max(8,Math.min(w-tw-8,x+sign*(rr+8)-(sign<0?tw:0))),yy=Math.max(38,Math.min(h-25,y+dy));if(occupied.some(b=>xx<b.x+b.w+8&&xx+tw+8>b.x&&yy-9<b.y+b.h+8&&yy+9>b.y))continue;lx=xx;ly=yy;break outer}}}if(lx===undefined){lx=8;ly=42+i*24}points.at(-1).label={x:lx-5,y:ly-12,w:tw+10,h:24};occupied.push({x:lx,y:ly-9,w:tw,h:18});ctx.strokeStyle='#61748b';ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(Math.max(lx,Math.min(lx+tw,x)),ly);ctx.stroke();ctx.fillStyle='#0b1424';ctx.fillRect(lx-3,ly-10,tw+6,20);ctx.fillStyle=a.kind==='origin'?'#ffd287':a.kind==='satellite'?'#8de0b1':'#7dcfff';ctx.fillText(label,lx,ly)}
 if(!detail){const [sx,sy]=project(sun.xyz_mly);ctx.fillStyle='#ffd287';ctx.beginPath();ctx.arc(sx,sy,3,0,2*Math.PI);ctx.fill();}
 ctx.fillStyle='#edf4ff';ctx.font='14px system-ui';ctx.fillText(detail?active.name+' · prostorový model':'Osy: miliony světelných let',12,18);if(detail){const step=profiles.get(active.name).size>=10?20000:5000,bar=step/1e6*scale;ctx.strokeStyle='#bac8db';ctx.beginPath();ctx.moveTo(14,h-28);ctx.lineTo(14+bar,h-28);ctx.stroke();ctx.fillText(fmt(step)+' světelných let',14,h-13);if(active===milkyWay){const [sx,sy]=project(sun.xyz_mly);ctx.fillStyle='#ffd287';ctx.beginPath();ctx.arc(sx,sy,4,0,2*Math.PI);ctx.fill();ctx.fillText('Slunce',sx+9,sy)}}canvas.dataset.state=JSON.stringify(state())}
-function showObject(item) {
-  if(profiles.has(item.name)){openGalaxy(item);return}
-  document.getElementById('object-picker').value=item.name;
-  document.getElementById('selection').textContent=item.kind==='origin'
-    ?'Slunce v Mléčné dráze – počátek souřadnic.'
-    :item.name+' – vzdálenost od Slunce: '+fmt(item.distance_mly)+' mil. světelných let.';
-}
+function showObject(item){openGalaxy(item);}
 function showPickedObject(){
   const item=[sun,...allGalaxies].find(item=>item.name===picker.value);
   if(item)showObject(item);
@@ -178,7 +176,7 @@ canvas.addEventListener('pointerup',e=>{
   if(hit)showObject(hit.a);
 });
 canvas.addEventListener('pointercancel',()=>{drag=null});
-view.addEventListener('change',()=>{if(view.value==='detail'){openGalaxy(active);return}document.getElementById('model-info').hidden=true;zoom.value='1';document.getElementById('selection').textContent='Kliknutím na galaxii otevřete její detail a údaje.';draw()});const pickedGalaxy=()=>allGalaxies.find(item=>item.name===document.getElementById('object-picker').value)??active;
+view.addEventListener('change',()=>{if(view.value==='detail'){openGalaxy(active);return}document.getElementById('model-info').hidden=true;zoom.value='1';document.getElementById('selection').textContent='Kliknutím na galaxii otevřete její detail a údaje.';draw()});const pickedGalaxy=()=>[sun,...allGalaxies].find(item=>item.name===picker.value)??active;
 document.getElementById('sun').onclick=()=>openGalaxy(pickedGalaxy(),true);
 document.getElementById('andromeda-detail').onclick=()=>openGalaxy(pickedGalaxy());zoom.addEventListener('input',draw);document.getElementById('physical-size').addEventListener('change',draw);document.getElementById('left').onclick=()=>{yaw-=.25;draw()};document.getElementById('right').onclick=()=>{yaw+=.25;draw()};document.getElementById('reset').onclick=()=>{view.value='local';yaw=.60;pitch=.43;zoom.value='1';document.getElementById('model-info').hidden=true;document.getElementById('selection').textContent='Kliknutím na bod nebo název otevřete detail galaxie.';draw()};new ResizeObserver(draw).observe(canvas);draw();
 </script></body></html>
