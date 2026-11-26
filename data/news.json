@@ -3792,15 +3792,16 @@
   },
   {
     "id": "2610.10677",
-    "title": "Prvotní černé díry jako přirozený důsledek škálové invariance",
-    "summary": "Nová studie ukazuje, že prvotní černé díry mohly přirozeně vzniknout v raném vesmíru díky takzvané škálové invarianci – symetrii, při níž fyzikální procesy nezávisejí na velikostním měřítku. Při ukončení termální inflace způsobila interakce Higgsova pole a tepelné fluktuace vznik výrazných hustotních odchylek. Ty následně zkolabovaly do prvotních černých děr širokého spektra hmotností. Tento proces doprovází vznik specifických gravitačních vln, vytvořených jak samotnými fluktuacemi, tak narušením symetrie spojeným s kosmickými strunami. Tytéž signály by mohly zachytit dnešní i chystané detektory. Proč je to zajímavé: Tento model elegantně propojuje teoretickou částicovou fyziku s pozorovatelnými gravitačními vlnami, což umožní nahlédnout do nejranějších okamžiků kosmu.",
+    "title": "Primordiální černé díry jako přirozený důsledek škálové invariance",
+    "summary": "Nová studie ukazuje, že primordiální černé díry mohly přirozeně vzniknout v raném vesmíru díky takzvané škálové invarianci – symetrii, při níž fyzikální procesy nezávisejí na velikostním měřítku. V modelu mohou tepelné fluktuace na konci termální inflace zesílit natolik, že vzniknou primordiální černé díry s různými hmotnostmi. V tomto modelu mohou gravitační vlny vznikat dvěma způsoby. První souvisí s poruchami, z nichž vznikají primordiální černé díry. Druhým zdrojem jsou kosmické struny, které v modelu vznikají při narušení symetrie. Tytéž signály by mohly zachytit dnešní i chystané detektory. Proč je to zajímavé: Tento model elegantně propojuje teoretickou částicovou fyziku s pozorovatelnými gravitačními vlnami, což umožní nahlédnout do nejranějších okamžiků kosmu.",
     "url": "https://arxiv.org/abs/2610.10677",
     "source": "arXiv",
     "original_title": "Primordial black holes as a natural consequence of scale-invariance",
     "published": "2026-10-09T04:00:00+00:00",
     "inserted_at": "2026-10-09T10:36:03.145582+00:00",
     "lang": "cs",
-    "needs_translation": false
+    "needs_translation": false,
+    "permalink_title": "Prvotní černé díry jako přirozený důsledek škálové invariance"
   },
   {
     "id": "2610.10741",
@@ -3853,7 +3854,7 @@
   {
     "id": "2610.10535",
     "title": "Nový pohled na černé díry zpřesňuje měření rozpínání vesmíru",
-    "summary": "Astrofyzici představili nový flexibilní model, který zkoumá hmotnosti obou složek v systémech dvojitých černých děr současně s kosmologickými parametry. Analýza nejnovějšího katalogu gravitačních vln GWTC-5.0 odhalila v populaci černých děr jasné struktury, zejména výrazný shluk těles o hmotnosti kolem 35 násobků hmotnosti Slunce. Výzkum využívá metodu takzvaných spektrálních sirén, kde tyto hmotnostní špičky slouží jako známá pravítka pro určování vzdáleností ve vesmíru. Zahrnutí hmotností obou partnerů zpřesnilo odhad Hubblovy konstanty udávající rychlost rozpínání vesmíru o plnou třetinu oproti starším flexibilním modelům. Proč je to zajímavé: Metoda dokazuje, že přesná znalost hmotnostního rozdělení černých děr dokáže výrazně zpřesnit měření rozpínání vesmíru výhradně z gravitačních vln, bez nutnosti pozorovat záření ze světelných protějšků.",
+    "summary": "Astrofyzici představili nový flexibilní model, který zkoumá hmotnosti obou složek v systémech dvojitých černých děr současně s kosmologickými parametry. Ve zkoumaném souboru vynikla skupina dvojic, v nichž má každá z černých děr přibližně 35 hmotností Slunce. Rudý posuv způsobuje, že se obě hmotnosti v signálu gravitačních vln jeví větší o stejný násobek. Výrazné skupiny v rozdělení hmotností proto pomáhají astronomům rudý posuv statisticky odhadnout. Když vědci při analýze využili hmotnosti obou černých děr v každé dvojici, vyšel jim o 33 % užší interval odhadu Hubbleovy konstanty než při analýze stejných dat založené jen na hmotnostech těžších složek.\n\nProč je to zajímavé: Metoda dokazuje, že přesná znalost hmotnostního rozdělení černých děr dokáže výrazně zpřesnit měření rozpínání vesmíru výhradně z gravitačních vln, bez nutnosti pozorovat záření ze světelných protějšků.",
     "url": "https://arxiv.org/abs/2610.10535",
     "source": "arXiv",
     "original_title": "A weakly modelled view of the joint compact-binary mass plane: population structure and spectral-siren cosmology",
@@ -3925,7 +3926,7 @@
   {
     "id": "2610.12443v1",
     "title": "Záhada v detektoru LUX-ZEPLIN: Nové vysvětlení temné hmoty",
-    "summary": "Detektor temné hmoty LUX-ZEPLIN (LZ) zachytil neobvyklý energetický signál o hodnotě 248 keV. Tento přebytek událostí naznačuje neelastický rozptyl, při němž se částice temné hmoty při srážce s atomovým jádrem přemění na svůj o něco těžší stav. Fyzici v nové studii navrhují teoretické vysvětlení rozšířením Standardního modelu o novou kalibrační symetrii a dvě skalární pole. Tento mechanismus přirozeně vysvětluje potřebný hmotnostní rozdíl částic temné hmoty a výborně odpovídá pozorovaným datům, aniž by porušoval jiné částicové a kosmologické limity. Model zároveň nabízí konkrétní předpovědi, které bude možné testovat v budoucích experimentech. Proč je to zajímavé: Neobvyklý signál v LZ může být prvním hmatatelným vodítkem k odhalení zcela nových sil a částic, které tvoří většinu hmoty ve vesmíru.",
+    "summary": "Detektor LUX-ZEPLIN zaznamenal událost odpovídající zpětnému rázu atomového jádra s energií kolem 248 keV. Autoři zkoumají, zda by ji mohl vysvětlit nepružný rozptyl hypotetické částice temné hmoty, která při srážce přejde do o něco těžšího stavu. Fyzici v nové studii navrhují teoretické vysvětlení rozšířením Standardního modelu o novou kalibrační symetrii a dvě skalární pole. Tento mechanismus přirozeně vysvětluje potřebný hmotnostní rozdíl částic temné hmoty a výborně odpovídá pozorovaným datům, aniž by porušoval jiné částicové a kosmologické limity. Model zároveň nabízí konkrétní předpovědi, které bude možné testovat v budoucích experimentech. Proč je to zajímavé: Neobvyklý signál v LZ může být prvním hmatatelným vodítkem k odhalení zcela nových sil a částic, které tvoří většinu hmoty ve vesmíru.",
     "url": "http://arxiv.org/abs/2610.12443v1",
     "source": "arXiv",
     "original_title": "A scalar-extended ${\\rm U(1)_{L_μ-L_τ}}$ explanation of the LUX-ZEPLIN 248 keV excess",
@@ -3961,7 +3962,7 @@
   {
     "id": "2610.12389v1",
     "title": "Gravitační vlny ze srážek bublin: Nová metoda obchází limity simulací",
-    "summary": "Fázové přechody prvořadého typu v raném vesmíru vedly ke vzniku a srážkám bublin nového vakuového stavu, které vyzářily gravitační vlny. Přímé počítačové simulování tohoto děje v trojrozměrném prostoru je výpočetně téměř nemožné, protože vysoké rychlosti bublin vyžadují extrémně jemné rozlišení. Fyzikové proto navrhli elegantní zjednodušení: simulují pouze srážky dvojic bublin v jednom rozměru a z vytvořené databáze signálů pak skládají výsledná spektra pro mnohabublinové systémy. Tento model je mnohonásobně rychlejší a dokáže nasimulovat i extrémně relativistické srážky, na které dosavadní metody nestačily. Proč je to zajímavé: Umožní nám přesněji předpovědět tvar signálů gravitačních vln z úsvitu vesmíru a připravit se na jejich detekci pomocí budoucích vesmírných observatoří.",
+    "summary": "Při fázovém přechodu prvního druhu mohou stará a nová fáze po určitou dobu existovat vedle sebe. Podobně při varu vznikají v kapalině bubliny páry. V modelu raného vesmíru jsou bubliny oblastmi, v nichž fyzikální pole přešlo do nového stavu. Tyto oblasti se rozpínají a jejich srážky mohou vyvolat gravitační vlny. Autoři zkoumali, jaké spektrum gravitačních vln by při takových srážkách vzniklo.\n\nPřímé počítačové simulování tohoto děje v trojrozměrném prostoru je výpočetně téměř nemožné, protože vysoké rychlosti bublin vyžadují extrémně jemné rozlišení. Fyzikové proto navrhli elegantní zjednodušení: simulují pouze srážky dvojic bublin v jednom rozměru a z vytvořené databáze signálů pak skládají výsledná spektra pro mnohabublinové systémy. Tento model je mnohonásobně rychlejší a dokáže nasimulovat i extrémně relativistické srážky, na které dosavadní metody nestačily. Proč je to zajímavé: Umožní nám přesněji předpovědět tvar signálů gravitačních vln z úsvitu vesmíru a připravit se na jejich detekci pomocí budoucích vesmírných observatoří.",
     "url": "http://arxiv.org/abs/2610.12389v1",
     "source": "arXiv",
     "original_title": "A Pairwise Surrogate for Gravitational-Wave Spectra from Highly Relativistic Vacuum Bubble Collisions",
@@ -4009,7 +4010,7 @@
   {
     "id": "2610.10535v1",
     "title": "Nová mapa hmotností černých děr zpřesňuje měření rozpínání vesmíru",
-    "summary": "Astrofyzici představili nový dvojrozměrný model pro analýzu hmotností v systémech splývajících černých děr z detekcí gravitačních vln. Tato metoda umožňuje sledovat obě složky dvojhvězdy současně, díky čemuž odhalila dříve skryté struktury – například výrazný shluk černých děr s podobnou hmotností kolem 35 násobků hmotnosti Slunce. Poloha těchto vlastností funguje jako takzvané spektrální sirény, které pomáhají určovat rychlost rozpínání vesmíru. Zahrnutí druhého rozměru zpřesnilo měření Hubbleovy konstanty o třetinu oproti dosavadním flexibilním modelům. Proč je to zajímavé: Detailní dvojrozměrná mapa hmotností černých děr nám umožňuje měřit rychlost rozpínání vesmíru s vyšší přesností, aniž bychom museli spoléhat na příliš zjednodušující teoretické předpoklady.",
+    "summary": "Astrofyzici představili nový dvojrozměrný model pro analýzu hmotností v systémech splývajících černých děr z detekcí gravitačních vln. Ve zkoumaném souboru vynikla skupina dvojic, v nichž má každá z černých děr přibližně 35 hmotností Slunce. Rudý posuv způsobuje, že se obě hmotnosti v signálu gravitačních vln jeví větší o stejný násobek. Výrazné skupiny v rozdělení hmotností proto pomáhají astronomům rudý posuv statisticky odhadnout. Když vědci při analýze využili hmotnosti obou černých děr v každé dvojici, vyšel jim o 33 % užší interval odhadu Hubbleovy konstanty než při analýze stejných dat založené jen na hmotnostech těžších složek.\n\nProč je to zajímavé: Detailní dvojrozměrná mapa hmotností černých děr nám umožňuje měřit rychlost rozpínání vesmíru s vyšší přesností, aniž bychom museli spoléhat na příliš zjednodušující teoretické předpoklady.",
     "url": "http://arxiv.org/abs/2610.10535v1",
     "source": "arXiv",
     "original_title": "A weakly modelled view of the joint compact-binary mass plane: population structure and spectral-siren cosmology",
@@ -4080,15 +4081,16 @@
   },
   {
     "id": "2610.10219v1",
-    "title": "Konec lehké temné hmoty? Detektor LZ vyloučil supersymetrická neutralina",
-    "summary": "Jedním z nejsilnějších kandidátů na temnou hmotu byla po desetiletí lehká neutralina – hypotetické částice předpovězené supersymetrickými modely. Fyzikové předpokládali, že tato neutralina mohla v raném vesmíru dosáhnout dnešní hustoty díky rezonančním srážkám přes Higgsův boson nebo boson Z. Stejné teoretické vazby ale současně určují, jak silně by neutralina měla reagovat s běžnou hmotou v detektorech. Autoři nové studie započítali precizní kvantové korekce a porovnali teoretické předpovědi s nejnovějšími daty z detektoru LZ-2024. Výsledky obě rezonanční možnosti přesvědčivě vylučují s mimořádně vysokou istotou, a to bez ohledu na zastoupení neutralin ve vesmíru. Proč je to zajímavé: Tento výsledek uzavírá jednu z nejvýznamnějších kapitol hledání temné hmoty a nuceně obrací pozornost fyziků k novým teoretickým hypotézám.",
+    "title": "Data z detektoru LZ vylučují dva scénáře lehkých neutralin",
+    "summary": "Jedním z nejsilnějších kandidátů na temnou hmotu byla po desetiletí lehká neutralina – hypotetické částice předpovězené supersymetrickými modely. Fyzikové předpokládali, že tato neutralina mohla v raném vesmíru dosáhnout dnešní hustoty díky rezonančním srážkám přes Higgsův boson nebo boson Z. Stejné teoretické vazby ale současně určují, jak silně by neutralina měla reagovat s běžnou hmotou v detektorech. Autoři nové studie započítali precizní kvantové korekce a porovnali teoretické předpovědi s nejnovějšími daty z detektoru LZ-2024. Analýza dat LZ z roku 2024 vylučuje v testované variantě minimálního supersymetrického modelu dva scénáře, v nichž se lehká neutralina v raném vesmíru anihilují přes rezonanci Higgsova bosonu nebo bosonu Z.\n\nProč je to zajímavé: Výsledek zužuje prostor pro lehká neutralina jako kandidáty na temnou hmotu.",
     "url": "http://arxiv.org/abs/2610.10219v1",
     "source": "arXiv",
     "original_title": "Is the Light Neutralino Dark Matter Still Viable in the MSSM After the LZ-2024 Results?",
     "published": "2026-10-07T15:15:28+00:00",
     "inserted_at": "2026-10-08T07:34:54.677435+00:00",
     "lang": "cs",
-    "needs_translation": false
+    "needs_translation": false,
+    "permalink_title": "Konec lehké temné hmoty? Detektor LZ vyloučil supersymetrická neutralina"
   },
   {
     "id": "2610.08752v1",
@@ -4177,7 +4179,7 @@
   {
     "id": "2610.03840",
     "title": "Ostrý pohled na počátek vesmíru: Jak opravit asymetrii teleskopů",
-    "summary": "Reálné teleskopy zkoumající reliktní záření nemají dokonale symetrický optický paprsek, což komplikuje měření polarizace a hledání stop prvotních gravitačních vln. Tradiční matematické metody toto zkreslení zjednodušují, avšak nová studie přichází s řešením pracujícím přímo v reálném prostoru. Tento přístup započítává skutečný tvar paprsku při zpracování časových řad naměřených dat, čímž účinně potlačuje nežádoucí přelévání jasového signálu do polarizačního. Testy potvrdily vysokou přesnost až do rozlišení kolem 1000, což bohatě stačí pro výzkum raného vesmíru. Nový algoritmický nástroj navíc usnadní tvorbu modulárních kosmologických map. Proč je to zajímavé: Metoda eliminuje klíčové přístrojové zkreslení a otevírá cestu k přesnějšímu odhalení jemných otisků inflace na samém počátku vesmíru.",
+    "summary": "Reálné teleskopy zkoumající reliktní záření nemají dokonale symetrický optický paprsek, což komplikuje měření polarizace a hledání stop prvotních gravitačních vln. Tradiční matematické metody toto zkreslení zjednodušují, avšak nová studie přichází s řešením pracujícím přímo v reálném prostoru. Tento přístup započítává skutečný tvar paprsku při zpracování časových řad naměřených dat, čímž účinně potlačuje nežádoucí přelévání jasového signálu do polarizačního. Při ověření na simulaci bez šumu metoda reprodukovala výkonová spektra teploty a polarizačních B-módů až do multipólu ℓ ≈ 1000. Číslo multipólu označuje úhlové měřítko. Nový algoritmický nástroj navíc usnadní tvorbu modulárních kosmologických map. Proč je to zajímavé: Metoda eliminuje klíčové přístrojové zkreslení a otevírá cestu k přesnějšímu odhalení jemných otisků inflace na samém počátku vesmíru.",
     "url": "https://arxiv.org/abs/2610.03840",
     "source": "arXiv",
     "original_title": "Map-based asymmetric beam treatment: application of real-space beam patterns in CMB data analysis",
@@ -4189,7 +4191,7 @@
   {
     "id": "2610.03876",
     "title": "Kosmický dvojlom: Nové teleskopy zpřesní pátrání po neznámých částicích",
-    "summary": "Polarizace reliktního záření může podléhat takzvanému kosmickému dvojlomu – jevu, při němž se rovina kmitání světla z raného vesmíru stáčí. Tento efekt napovídá existenci fyziky za hranicemi Standardního modelu, například axionů tvořících temnou hmotu. Zatímco rovnoměrné stočení světla již pozorování naznačují, jeho prostorové odchylky zatím zůstávají neodhaleny. Přitom právě tyto fluktuace představují klíč k odlišení temné hmoty od temné energie. Nové simulace ukazují, že chystané experimenty, jako je vesmírná sonda LiteBIRD a pozemní Simons Observatory, přinesou obrovský posun. Nabídnou totiž 11krát až 40krát vyšší citlivost než dosavadní družice Planck. Proč je to zajímavé: Zachycení prostorových změn kosmického dvojlomu by znamenalo přímý důkaz existence axionů a Zásadní průlom v chápání podstaty temné hmoty.",
+    "summary": "Polarizace reliktního záření může podléhat takzvanému kosmickému dvojlomu – jevu, při němž se rovina kmitání světla z raného vesmíru stáčí. Tento efekt napovídá existenci fyziky za hranicemi Standardního modelu, například axionů tvořících temnou hmotu. Zatímco rovnoměrné stočení světla již pozorování naznačují, jeho prostorové odchylky zatím zůstávají neodhaleny. Přitom právě tyto fluktuace představují klíč k odlišení temné hmoty od temné energie. Idealizované simulace ukazují, že chystané experimenty, jako je vesmírná sonda LiteBIRD a pozemní Simons Observatory, přinesou obrovský posun. Nabídnou totiž 11krát až 40krát vyšší citlivost než dosavadní družice Planck.\n\nProč je to zajímavé: Změření prostorových změn kosmického dvojlomu by pomohlo prověřit modely s částicemi podobnými axionům a rozlišit některá možná vysvětlení tohoto jevu.",
     "url": "https://arxiv.org/abs/2610.03876",
     "source": "arXiv",
     "original_title": "Anisotropic cosmic birefringence estimates for forthcoming CMB experiments",
@@ -4213,7 +4215,7 @@
   {
     "id": "2610.04048",
     "title": "Červení trpaslíci jako pamětníci: Měnila se nedávno gravitace?",
-    "summary": "Jedním z možných vysvětlení takzvaného Hubbleova napětí – rozporu v měření rychlosti rozpínání vesmíru – byla hypotéza, že se před 73 až 130 miliony let skokově změnila Newtonova gravitační konstanta. Astrofyzikové se rozhodli tuto myšlenku otestovat na červených trpaslících. Hvězdy s hmotností pod 0,35 násobku Slunce totiž chladnou tak pomalu, že by si v dnešním poloměru případnou změnu gravitace stále „pamatovaly“. Srovnání teoretických modelů s přesným měřením osmi červených trpaslíků v dvojhvězdných systémech však jakoukoliv nedávnou změnu síly gravitace přesvědčivě vyloučilo. Proč je to zajímavé: Ukazuje se, že malé hvězdy fungují jako unikátní kroniky vesmíru, které dokážou testovat platnost základních fyzikálních zákonů v kosmologickém čase.",
+    "summary": "Jedním z možných vysvětlení takzvaného Hubbleova napětí – rozporu v měření rychlosti rozpínání vesmíru – byla hypotéza, že se před 73 až 130 miliony let skokově změnila Newtonova gravitační konstanta. Astrofyzikové se rozhodli tuto myšlenku otestovat na červených trpaslících. Hvězdy s hmotností pod 0,35 násobku Slunce totiž chladnou tak pomalu, že by si v dnešním poloměru případnou změnu gravitace stále „pamatovaly“. Srovnání s měřeními osmi červených trpaslíků vyloučilo dva konkrétní scénáře navržené k řešení Hubbleova napětí. První předpokládal skokovou změnu gravitační konstanty o 4 % před 73 miliony let, druhý změnu o 11 % před 130 miliony let. Proč je to zajímavé: Ukazuje se, že malé hvězdy fungují jako unikátní kroniky vesmíru, které dokážou testovat platnost základních fyzikálních zákonů v kosmologickém čase.",
     "url": "https://arxiv.org/abs/2610.04048",
     "source": "arXiv",
     "original_title": "Stars Would Remember a Recent Gravitational Transition: Testing G-step Resolutions of the Hubble Tension with Red Dwarfs",
@@ -4309,7 +4311,7 @@
   {
     "id": "2610.03527",
     "title": "Okno do úsvitu vesmíru: Nový způsob, jak zkoumat éru reionizace",
-    "summary": "Období reionizace, kdy první hvězdy a galaxie rozsvítily vesmír a ionizovaly okolní plyn, patří k nejméně prozkoumaným fázím kosmu. Nová studie navrhuje elegantní způsob, jak nahlédnout do této rané éry. Vědci zkombinovali dva klíčové signály: kinetický Sunjajevův-Zeldovičův efekt z mikrovlnného pozadí a rádiové vyzařování neutrálního vodíku. Umocněním obou signálů na druhou dokázali eliminovat rušivé šumy a ztrátu dat v pozadí. Tato metoda umožní mapovat ohřev i ionizaci plynu s vysokou přesností. Proč je to zajímavé: Propojením dvou odlišných typů astronomických pozorování získáváme klíč k pochopení toho, jak vznikaly úplně první hvězdy ve vesmíru.",
+    "summary": "Období reionizace, kdy první hvězdy a galaxie rozsvítily vesmír a ionizovaly okolní plyn, patří k nejméně prozkoumaným fázím kosmu. Nová studie navrhuje elegantní způsob, jak nahlédnout do této rané éry. Vědci zkombinovali dva klíčové signály: kinetický Sunjajevův-Zeldovičův efekt z mikrovlnného pozadí a rádiové vyzařování neutrálního vodíku. Vědci v každém bodě obou map vynásobili naměřenou hodnotu sebou samou. Poté zkoumali, zda se v obou mapách výrazné odchylky objevují na stejných místech. Tím mohou využít i část informace, která by se při přímém porovnání signálů ztratila. Citlivost metody nadále závisí na přístrojovém šumu a na tom, kolik dat je použitelných kvůli rušivému záření v popředí. Proč je to zajímavé: Propojením dvou odlišných typů astronomických pozorování získáváme klíč k pochopení toho, jak vznikaly úplně první hvězdy ve vesmíru.",
     "url": "https://arxiv.org/abs/2610.03527",
     "source": "arXiv",
     "original_title": "Probing Early Phases of the Epoch of Reionization with the $\\mathrm{kSZ}^{2}\\times21\\,\\mathrm{cm}^{2}$ Cross-Correlation",
@@ -4417,7 +4419,7 @@
   {
     "id": "2610.01865v1",
     "title": "První GPU simulace temného věku vesmíru zabere jen zlomky sekundy",
-    "summary": "Vědci představili kód hyprfine, první analytickou simulaci globálního 21cm signálu vodíku plně přizpůsobenou pro grafické karty. Tento signál je klíčem k pochopení raného vesmíru v období od temného věku až po epochu reionizace, kdy vznikaly první hvězdy a galaxie. Výpočetní simulace vytvořená v jazyce Python s knihovnou JAX dokáže spočítat vývoj průměrné teploty vesmírného vodíku v závislosti na kosmologických parametrech za méně než sekundu. Díky efektivní paralelizaci na GPU a diferencovatelnosti kódu se výrazně zjednoduší zpracování astronomických pozorování. Proč je to zajímavé: Extrémní rychlost simulace umožní vědcům v reálném čase testovat různé teoretické modely a přesněji interpretovat data z chystaných obřích radioteleskopů.",
+    "summary": "Vědci představili kód hyprfine, první analytickou simulaci globálního 21cm signálu vodíku plně přizpůsobenou pro grafické karty. Tento signál je klíčem k pochopení raného vesmíru v období od temného věku až po epochu reionizace, kdy vznikaly první hvězdy a galaxie. Kód počítá, jak se v dějinách vesmíru měnila průměrná jasová teplota čáry vodíku o vlnové délce 21 cm. Jasová teplota je veličina popisující intenzitu rádiového signálu. Výpočet v jazyce Python s knihovnou JAX trvá méně než sekundu. Díky efektivní paralelizaci na GPU a diferencovatelnosti kódu se výrazně zjednoduší zpracování astronomických pozorování. Proč je to zajímavé: Extrémní rychlost simulace umožní vědcům v reálném čase testovat různé teoretické modely a přesněji interpretovat data z chystaných obřích radioteleskopů.",
     "url": "http://arxiv.org/abs/2610.01865v1",
     "source": "arXiv",
     "original_title": "hyprfine: simulating the 21-cm signal from the Dark Ages through to the Epoch of Reionization on a GPU",
@@ -4429,7 +4431,7 @@
   {
     "id": "2610.01836v1",
     "title": "Trojúhelníky galaxií z DESI odhalují přesnější vlastnosti temné hmoty",
-    "summary": "Astrofyzici využili první data z přehlídky DESI k dosud nejdetailnějšímu rozboru velkorozměrové struktury vesmíru. Vedle standardního výkonového spektra, které měří vzdálenosti mezi dvojicemi galaxií, poprvé v takovém rozsahu zapojili i takzvané bispektrum. To zkoumá uspořádání galaxií do trojúhelníků a zachycuje složitý nelineární gravitační vývoj. Analýza svítivých červených galaxií a kvazarů ukázala, že bispektrum zpřesňuje určení hustoty temné hmoty a amplitudy hustotních fluktuací až o pětinu. Tento přístup pomáhá prolomit nejistoty, které samotné dvojbodové měření nedokáže rozlišit. Proč je to zajímavé: Využití vyšších statistik uspořádání galaxií umožňuje získat z kosmologických přehlídek podstatně přesnější informace o temné hmotě a energii i bez nutnosti získávat další pozorování.",
+    "summary": "Astrofyzici využili první data z přehlídky DESI k dosud nejdetailnějšímu rozboru velkorozměrové struktury vesmíru. Výkonové spektrum popisuje, jak silně se rozložení galaxií mění na různých prostorových měřítkách. Vědci rozšířili statistickou analýzu dvojic galaxií o rozbor trojic. Zkoumali, jak často galaxie tvoří trojúhelníky různých tvarů a velikostí. Této statistice se říká bispektrum. Díky ní se při společné analýze všech skupin objektů zmenšila nejistota odhadu hustoty chladné temné hmoty o 6 % a nejistota odhadu velikosti hustotních výkyvů o 4 %. U některých skupin analyzovaných samostatně dosáhlo zpřesnění až zhruba pětiny. Proč je to zajímavé: Využití vyšších statistik uspořádání galaxií umožňuje získat z kosmologických přehlídek podstatně přesnější informace o temné hmotě a energii i bez nutnosti získávat další pozorování.",
     "url": "http://arxiv.org/abs/2610.01836v1",
     "source": "arXiv",
     "original_title": "Cosmological inference from a joint DESI DR1 full-shape power spectrum and bispectrum analysis",
@@ -4537,7 +4539,7 @@
   {
     "id": "2609.39804",
     "title": "Nová metoda zpřesňuje měření vzdáleností pomocí supernov typu II-P",
-    "summary": "Astrofyzici vyvinuli nový statistický přístup pro zpřesnění měření vzdáleností ve vesmíru pomocí supernov typu II-P, které vznikají zhroucením masivních hvězd. S využitím kvalitních spektroskopických dat z projektu SNfactory a pokročilého Bayesovského modelu zpřesnili odhad rychlosti jejich expanze. Klíčovým inovativním prvkem se stalo započtení poměru absorpce a emise vodíkové čáry H-alfa. Díky tomu se podařilo snížit rozptyl naměřených jasností z původních 0,28 na 0,18 magnitudy. Metodu autoři ověřili přímým výpočtem Hubblovy konstanty, která jim vyšla na 70,6 km/s/Mpc. Proč je to zajímavé: Tento přístup proměňuje dříve méně přesné supernovy typu II-P ve spolehlivé kosmické svíčky, které mohou pomoci rozřešit záhadu rozdílných měření tempa rozpínání vesmíru.",
+    "summary": "Astrofyzici vyvinuli nový statistický přístup pro zpřesnění měření vzdáleností ve vesmíru pomocí supernov typu II-P, které vznikají zhroucením masivních hvězd. Autoři doplnili metodu určování vzdáleností o korekci založenou na poměru absorpce a emise v čáře vodíku Hα. Po započtení korekce klesl rozptyl standardizovaných jasností z 0,28 na 0,18 magnitudy. Při zkušebním použití metody vyšla Hubbleova konstanta 70,6 km/s/Mpc se statistickou nejistotou přibližně 4,4 km/s/Mpc. Proč je to zajímavé: Tento přístup proměňuje dříve méně přesné supernovy typu II-P ve spolehlivé kosmické svíčky, které mohou pomoci rozřešit záhadu rozdílných měření tempa rozpínání vesmíru.",
     "url": "https://arxiv.org/abs/2609.39804",
     "source": "arXiv",
     "original_title": "An improved standardization framework for Type II-P supernovae using a hierarchical Bayesian approach",
@@ -4632,15 +4634,16 @@
   },
   {
     "id": "2609.40068v1",
-    "title": "Definitivní důkaz: Rotující černé díry jsou stabilní v celém rozsahu",
-    "summary": "Kerrova metrika popisuje rotující černé díry, které patří k nejfascinujícím objektům v Einsteinově obecné teorii relativity. Ačkoli vědci dlouho předpokládali, že tyto černé díry jsou stabilní vůči drobným poruchám – například při dopadu gravitačních vln –, matematický důkaz byl po desetiletí neúplný. Dosavadní práce potvrzovaly stabilitu pouze pro pomalu rotující objekty. Nový vědecký průlom tento limit odstraňuje a rozšiřuje důkaz stability na celý podextrémní rozsah rotace. Pomocí pokročilých matematických odhadů vlnových rovnic autoři ukázali, že jakákoli reálná rotující černá díra se po narušení opět zklidní do stabilního stavu. Tím byl úspěšně dokončen jeden z nejvýznamnějších důkazů v moderní matematické fyzice. Proč je to zajímavé: Výsledek definitivně potvrzuje, že Einsteinova teorie relativity předpovídá stabilní a reálně existující rotující černé díry pro všechny fyzikálně přípustné rychlosti otáčení.",
+    "title": "Důkaz stability Kerrových černých děr pokrývá celý podextrémní rozsah rotace",
+    "summary": "Kerrova metrika popisuje rotující černé díry, které patří k nejfascinujícím objektům v Einsteinově obecné teorii relativity. Ačkoli vědci dlouho předpokládali, že tyto černé díry jsou stabilní vůči drobným poruchám – například při dopadu gravitačních vln –, matematický důkaz byl po desetiletí neúplný. Dosavadní práce potvrzovaly stabilitu pouze pro pomalu rotující objekty. Nový vědecký průlom tento limit odstraňuje a rozšiřuje důkaz stability na celý podextrémní rozsah rotace. Důkaz ukazuje, že po dostatečně malé poruše se časoprostor ustálí do blízkého Kerrova řešení, pokud rotace zůstává pod mezní hodnotou.\n\nProč je to zajímavé: Výsledek rozšiřuje matematický důkaz stability na celý podextrémní rozsah rotace.",
     "url": "http://arxiv.org/abs/2609.40068v1",
     "source": "arXiv",
     "original_title": "Kerr stability in the full subextremal range",
     "published": "2026-09-30T16:22:55+00:00",
     "inserted_at": "2026-10-01T10:23:30.932497+00:00",
     "lang": "cs",
-    "needs_translation": false
+    "needs_translation": false,
+    "permalink_title": "Definitivní důkaz: Rotující černé díry jsou stabilní v celém rozsahu"
   },
   {
     "id": "2609.40066v1",
@@ -4669,7 +4672,7 @@
   {
     "id": "2609.40363v1",
     "title": "Vesmírný úsvit: Teleskop Jamese Webba mapuje reionizaci vesmíru",
-    "summary": "Vesmírný teleskop Jamese Webba (JWST) pomáhá astronomům rozluštit období tzv. reionizace, kdy světlo prvních hvězd a galaxií postupně ionizovalo chladný vodíkový plyn vytvořený po Velkém třesku. Měřením záření vodíku (čáry Lyman-alfa) u vzdálených galaxií vědci zjistili, jak se mezigalaktické prostředí měnilo. Porovnání dat s pokročilými počítačovými simulacemi ukázalo, že přibližně 400 milionů let po Velkém třesku byl vesmír z devadesáti procent tvořen neutrálním plynem. S postupujícím časem však vznikající galaxie vytvářely čím dál větší „bubliny“ ionizovaného plynu, až se vesmír stal plně průhledným. Proč je to zajímavé: Poprvé získáváme přesnou časovou osu a detailní pohled na to, jak první galaxie definitivně rozptýlily temnou vodíkovou mlhu a proměnily vesmír do dnešní podoby.",
+    "summary": "Vesmírný teleskop Jamese Webba (JWST) pomáhá astronomům rozluštit období tzv. reionizace, kdy světlo prvních hvězd a galaxií postupně ionizovalo chladný vodíkový plyn vytvořený po Velkém třesku. Měřením záření vodíku (čáry Lyman-alfa) u vzdálených galaxií vědci zjistili, jak se mezigalaktické prostředí měnilo. Při rudém posuvu kolem 11 připadalo podle modelových odhadů přibližně 90 % hmotnosti mezigalaktického vodíku na jeho neutrální formu. S postupujícím časem však vznikající galaxie vytvářely čím dál větší „bubliny“ ionizovaného plynu, až se vesmír stal plně průhledným.\n\nProč je to zajímavé: Pozorování čáry Lyman-alfa umožňují zpřesnit modelový odhad průběhu reionizace.",
     "url": "http://arxiv.org/abs/2609.40363v1",
     "source": "arXiv",
     "original_title": "Probing the Reionization History and Bubble Sizes with JWST Lyman-$α$ Fraction Measurements",
@@ -4681,7 +4684,7 @@
   {
     "id": "2609.40315v1",
     "title": "Konec matematické záhady: Rotující černé díry jsou stabilní",
-    "summary": "Rotující černé díry představují jedny z nejfascinujících objektů ve vesmíru. Dlouho však zůstávalo otevřenou otázkou, zda jsou matematicky stabilní – tedy zda se po drobném narušení vrátí do původního stavu. Hypotézu stability Kerrových černých děr se v minulých letech dařilo dokázat jen pro pomalu rotující objekty. Nejnovější výzkumy však tento důkaz dokončily pro celou škálu podextrémně rotujících černých děr. Předložená práce dodává klíčové matematické odvození a důkazy týkající se Teukolskyho rovnic, které popisují šíření poruch v okolí černých děr. Tím se definitivně dohání dlouholetý dluh matematické fyziky. Proč je to zajímavé: Tento výsledek definitivně potvrzuje, že Einsteinova obecná teorie relativity předpovídá matematicky stabilní vesmír, v němž rotující černé díry mohou reálně a dlouhodobě existovat.",
+    "summary": "Rotující černé díry představují jedny z nejfascinujících objektů ve vesmíru. Dlouho však zůstávalo otevřenou otázkou, zda jsou matematicky stabilní – tedy zda se po drobném narušení vrátí do původního stavu. Hypotézu stability Kerrových černých děr se v minulých letech dařilo dokázat jen pro pomalu rotující objekty. Nejnovější výzkumy však tento důkaz dokončily pro celou škálu podextrémně rotujících černých děr. Předložená práce dodává klíčové matematické odvození a důkazy týkající se Teukolskyho rovnic, které popisují šíření poruch v okolí černých děr.\n\nProč je to zajímavé: Tato práce dodává podrobné důkazy dvou výsledků o šíření poruch, které hlavní důkaz stability využívá.",
     "url": "http://arxiv.org/abs/2609.40315v1",
     "source": "arXiv",
     "original_title": "Teukolsky equations in perturbations of Kerr",
@@ -4752,15 +4755,16 @@
   },
   {
     "id": "2609.38305",
-    "title": "Blízké pulsary odhalují skrytou temnou hmotu v gravitačním šumu",
-    "summary": "Pulsarové časovací sítě slouží k detekci jemných struktur temné hmoty, jejich citlivost však výrazně snižuje pozadí nanohertzových gravitačních vln. Nová studie ukazuje, že tento problém lze obejít sledováním dvojic pulsarů vzdálených od sebe méně než jeden parsek. Gravitační vlny totiž ovlivňují oba blízké pulsary téměř stejně, takže se jejich vliv při odečtení signálů vyruší. Naopak blízké shluky temné hmoty působí na každý pulsar odlišně. Využití dvojic s odstupem 0,1 parseku zvyšuje citlivost k mikroskopickým halo temné hmoty o hmotnosti miliontiny Slunce více než desetinásobně. Ideálním místem pro taková pozorování jsou husté kulové hvězdokupy. Proč je to zajímavé: Metoda umožňuje obejít rušivý gravitační šum a poprvé přímo detekovat i ty nejmenší shluky temné hmoty ve vesmíru.",
+    "title": "Blízké dvojice pulsarů by mohly pomoci při hledání shluků temné hmoty",
+    "summary": "Pulsarové časovací sítě slouží k detekci jemných struktur temné hmoty, jejich citlivost však výrazně snižuje pozadí nanohertzových gravitačních vln. Nová studie ukazuje, že tento problém lze obejít sledováním dvojic pulsarů vzdálených od sebe méně než jeden parsek. Gravitační vlny totiž ovlivňují oba blízké pulsary téměř stejně, takže se jejich vliv při odečtení signálů vyruší. Naopak blízké shluky temné hmoty působí na každý pulsar odlišně. Využití dvojic s odstupem 0,1 parseku zvyšuje citlivost k mikroskopickým halo temné hmoty o hmotnosti miliontiny Slunce více než desetinásobně. Ideálním místem pro taková pozorování jsou husté kulové hvězdokupy.\n\nProč je to zajímavé: Podle výpočtu by porovnání signálů blízkých pulsarů potlačilo společný vliv pozadí gravitačních vln a zvýšilo citlivost na gravitační působení malých shluků temné hmoty.",
     "url": "https://arxiv.org/abs/2609.38305",
     "source": "arXiv",
     "original_title": "Close Pulsar Pairs See Dark Matter Substructure through the Gravitational-Wave Background",
     "published": "2026-10-01T04:00:00+00:00",
     "inserted_at": "2026-10-01T07:40:47.816145+00:00",
     "lang": "cs",
-    "needs_translation": false
+    "needs_translation": false,
+    "permalink_title": "Blízké pulsary odhalují skrytou temnou hmotu v gravitačním šumu"
   },
   {
     "id": "2609.38310",
@@ -4909,7 +4913,7 @@
   {
     "id": "2609.36729",
     "title": "Vodní masery hledají temnou hmotu v těsné blízkosti černých děr",
-    "summary": "Když obří černá díra pomalu roste v centru galaxie, měla by kolem sebe vytvořit hustý shluk temné hmoty. Ověřit tuto teorii přímým pozorováním je však nesmírně těžké. Astrofyzikové proto využili vodní megamasery – zářící plynové disky obíhající ve vzdálenosti menší než jeden parsek od černé díry. Pomocí radioastronomických měření určili rychlosti plynu u jedenácti galaxií a zkoumali, zda rotační křivky neodhalí přítomnost temné hmoty. Výsledky ukázaly, že případný shluk tvoří maximálně deset procent hmotnosti černé díry. Započtení tvaru disků navíc většinu podezřelých signálů vysvětlilo. Proč je to zajímavé: Výzkum přináší dosud nejpřesnější přímé testy chování temné hmoty v extrémní blízkosti obřích černých děr.",
+    "summary": "Když obří černá díra pomalu roste v centru galaxie, měla by kolem sebe vytvořit hustý shluk temné hmoty. Ověřit tuto teorii přímým pozorováním je však nesmírně těžké. Vodní megamasery vznikají, když molekuly vody v plynovém disku zesilují mikrovlnné záření. Z pohybu jednotlivých maserových zdrojů mohou astronomové určit, jak se mění rychlost plynu se vzdáleností od černé díry. Pomocí radioastronomických měření určili rychlosti plynu u jedenácti galaxií a zkoumali, zda rotační křivky neodhalí přítomnost temné hmoty. Výsledky ukázaly, že případný shluk tvoří maximálně deset procent hmotnosti černé díry. Započtení tvaru disků navíc většinu podezřelých signálů vysvětlilo. Proč je to zajímavé: Výzkum přináší dosud nejpřesnější přímé testy chování temné hmoty v extrémní blízkosti obřích černých děr.",
     "url": "https://arxiv.org/abs/2609.36729",
     "source": "arXiv",
     "original_title": "Population search for dark matter spikes in megamaser rotation curves",
@@ -4932,15 +4936,16 @@
   },
   {
     "id": "2609.35974",
-    "title": "JWST zachytil stopy temné hmoty s vlastní interakcí",
-    "summary": "Astronomové s využitím Vesmírného dalekohledu Jamese Webba (JWST) zkoumali světlo z 29 kvazarů, které je gravitačně rozštěpeno na čtyři obrazy. Tento jev způsobuje neviditelná temná hmota. Tradiční model chladné temné hmoty předpokládá, že se její částice navzájem ovlivňují pouze gravitací. Nová data však naznačují existenci tzv. sebeinteragující temné hmoty, jejíž částice mohou mezi sebou vzájemně působit. Tento proces vede ke zhroucení jader v temných strukturách, čímž vznikají mimořádně účinné gravitační čočky. Výsledky analýzy výrazně upřednostňují tento nový model před standardním, jehož zachování by vyžadovalo nepravděpodobně vysoký počet kulových hvězdokul. Proč je to zajímavé: Objev naznačuje, že temná hmota není jen chladná a netečná, ale má vlastní složitou fyziku, což by znamenalo zásadní průlom v kosmologii.",
+    "title": "Čočkované kvazary z JWST naznačují vzájemné působení částic temné hmoty",
+    "summary": "Astronomové pomocí Vesmírného dalekohledu Jamese Webba (JWST) zkoumali 29 kvazarů, z nichž každý vidíme ve čtyřech obrazech. Čtyři obrazy kvazaru vznikají gravitačním čočkováním v gravitačním poli galaxie v popředí. Menší shluky hmoty mohou měnit poměry jasností těchto obrazů. Tradiční model chladné temné hmoty předpokládá, že se její částice navzájem ovlivňují pouze gravitací. Nová data však naznačují existenci tzv. sebeinteragující temné hmoty, jejíž částice mohou mezi sebou vzájemně působit. Tento proces vede ke zhroucení jader v temných strukturách, čímž vznikají mimořádně účinné gravitační čočky. Výsledky analýzy výrazně upřednostňují tento nový model před standardním, přičemž výsledek závisí mimo jiné na předpokladech o počtu a vnitřní struktuře malých hal. Proč je to zajímavé: Objev naznačuje, že temná hmota není jen chladná a netečná, ale má vlastní složitou fyziku, což by znamenalo zásadní průlom v kosmologii.",
     "url": "https://arxiv.org/abs/2609.35974",
     "source": "arXiv",
     "original_title": "JWST lensed quasar dark matter survey V: Hints of self-interacting dark matter from 29 quadruply imaged quasars",
     "published": "2026-09-30T04:00:00+00:00",
     "inserted_at": "2026-09-30T09:18:33.282342+00:00",
     "lang": "cs",
-    "needs_translation": false
+    "needs_translation": false,
+    "permalink_title": "JWST zachytil stopy temné hmoty s vlastní interakcí"
   },
   {
     "id": "2609.35988",
