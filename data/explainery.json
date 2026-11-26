@@ -2834,7 +2834,8 @@
       },
       {
         "heading": "IceCube: přístroj hluboko v antarktickém ledu",
-        "body": "**IceCube** leží u stanice Amundsen–Scott na jižním pólu. Základní pole optických senzorů je rozmístěno zhruba mezi hloubkami **1 450 a 2 450 metrů** v objemu přibližně kubického kilometru ledu. Fotografie povrchové budovy proto ukazuje jen provozní zázemí, nikoli samotný citlivý objem.\n\nNeutrino může zareagovat v ledu nebo v okolní hmotě a vytvořit elektricky nabité částice. Vzniklé elektricky nabité částice mohou vydávat **Čerenkovovo světlo**. Je to záření vznikající při průletu nabité částice průhlednou látkou rychleji, než se v ní šíří světlo — podobně jako nadzvukové letadlo vytváří rázovou vlnu ve vzduchu. Ve vodě nebo ledu se světlo šíří pomaleji než ve vakuu, takže částice může tuto místní rychlost překonat, aniž by porušila mezní rychlost světla ve vakuu."
+        "body": "**IceCube** leží u stanice Amundsen–Scott na jižním pólu. Základní pole optických senzorů je rozmístěno zhruba mezi hloubkami **1 450 a 2 450 metrů** v objemu přibližně kubického kilometru ledu. Fotografie povrchové budovy proto ukazuje jen provozní zázemí, nikoli samotný citlivý objem.\n\nNeutrino může zareagovat v ledu nebo v okolní hmotě a vytvořit elektricky nabité částice. Vzniklé elektricky nabité částice mohou vydávat **Čerenkovovo světlo**. Je to záření vznikající při průletu nabité částice průhlednou látkou rychleji, než se v ní šíří světlo — podobně jako nadzvukové letadlo vytváří rázovou vlnu ve vzduchu. Ve vodě nebo ledu se světlo šíří pomaleji než ve vakuu, takže částice může tuto místní rychlost překonat, aniž by porušila mezní rychlost světla ve vakuu.",
+        "image_id": "schema-icecube-interakce-v-ledu"
       },
       {
         "heading": "Jak ze světelných signálů odhadneme směr neutrina",

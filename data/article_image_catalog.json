@@ -4988,8 +4988,8 @@
       "detectors",
       "particles"
     ],
-    "alt": "Dva signály xenonového detektoru – vlastní kvalitativní schéma",
-    "caption": "Dva signály xenonového detektoru: vlastní schéma, nikoli naměřené signály.",
+    "alt": "Časový průběh se dvěma světelnými pulzy, S1 z kapalného xenonu a S2 z plynného xenonu.",
+    "caption": "Dva světelné pulzy xenonového detektoru. S1 vzniká okamžitě v kapalině, S2 později v plynu po driftu elektronů vzhůru. Schéma ukazuje princip měření.",
     "credit": "Kosmologické novinky",
     "credit_links": [],
     "source": "https://kosmonovinky.cz/",
@@ -4997,9 +4997,9 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
-    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "rights_note": "Vlastní výukové schéma Kosmologických novinek, zveřejněné pod CC BY 4.0.",
     "verified_on": "2026-10-20",
-    "revision": 3,
+    "revision": 4,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -6489,9 +6489,9 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
-    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "rights_note": "Vlastní výukové schéma Kosmologických novinek, zveřejněné pod CC BY 4.0.",
     "verified_on": "2026-10-25",
-    "revision": 1,
+    "revision": 2,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -6539,9 +6539,9 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "rights_url": "https://creativecommons.org/licenses/by/4.0/",
-    "rights_note": "Vlastní programově vykreslené schéma, zveřejněné pod CC BY 4.0. Podoba není převzatá z cizího obrázku; zdrojový kód tools/article_image_assets.py.",
+    "rights_note": "Vlastní výukové schéma Kosmologických novinek, zveřejněné pod CC BY 4.0.",
     "verified_on": "2026-10-25",
-    "revision": 1,
+    "revision": 2,
     "layout": "landscape",
     "thumbnail_fit": "contain",
     "modifications": "vlastní schéma",
@@ -11043,5 +11043,51 @@
     },
     "copyrightNotice": "Kosmologické novinky",
     "acquireLicensePage": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "schema-icecube-interakce-v-ledu",
+    "title": "Jak IceCube zachytí stopu neutrina",
+    "topic": "kosmopedie-doplnky",
+    "topics": [
+      "kosmopedie-doplnky"
+    ],
+    "subtopics": [
+      "manual"
+    ],
+    "manual_only": true,
+    "match_keywords": [],
+    "generated": true,
+    "kind": "vlastní schéma",
+    "diagram": "icecube-muon-track",
+    "credit": "Kosmologické novinky",
+    "credit_links": [
+      {
+        "text": "Odborný podklad",
+        "url": "https://icecube.wisc.edu/science/icecube/"
+      }
+    ],
+    "reference_urls": [
+      "https://icecube.wisc.edu/science/icecube/"
+    ],
+    "source": "https://kosmonovinky.cz/",
+    "source_id": "own-diagram:schema-icecube-interakce-v-ledu",
+    "source_family": "own-diagram:schema-icecube-interakce-v-ledu",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_note": "Vlastní výukové schéma Kosmologických novinek.",
+    "verified_on": "2026-11-26",
+    "revision": 1,
+    "layout": "landscape",
+    "thumbnail_fit": "contain",
+    "modifications": "vlastní schéma",
+    "thumbnail_modifications": "zmenšení bez výřezu",
+    "caption": "Příklad interakce mionového neutrina v antarktickém ledu. Vzniklý mion vyzařuje Čerenkovovo světlo, které zachycují optické senzory. Uváděné hloubky odpovídají hlavní soustavě IceCube. Rozmístění prvků je schematické.",
+    "alt": "Mionové neutrino přilétá zdola a v ledu vzniká mion. Jeho Čerenkovovo světlo zachytí optické senzory IceCube.",
+    "source_master": "assets/article-images/sources/schema-icecube-interakce-v-ledu.jpg",
+    "thumbnail": "assets/article-images/thumbs/schema-icecube-interakce-v-ledu.webp",
+    "width": 1200,
+    "height": 630,
+    "zoomable": true
   }
 ]
