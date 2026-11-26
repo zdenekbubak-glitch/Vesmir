@@ -1,5 +1,90 @@
 [
   {
+    "id": "2611.33534v1",
+    "title": "Projekt MoonRISE: Radioteleskop na odvrácené straně Měsíce",
+    "summary": "Tým vědců představil koncept mise MoonRISE (Moon Radio Interferometer for Science and Exploration), který navrhuje vybudovat první propojený radioteleskop na odvrácené straně Měsíce. Přístroj má prozkoumat vesmír na nízkých rádiových frekvencích od 100 kHz do 30 MHz. Tyto frekvence jsou ze Země nepozorovatelné kvůli zemské ionosféře – vrstvě atmosféry s ionizovaným plynem, která rádiové vlny odráží či pohlcuje – a kvůli pozemskému rádiovému rušení.\n\nVědci navrhují přistání v oblasti Lacus Luxuriae. Zařízení představuje radiový interferometr, tedy soustavu propojených antén, jež fungují jako jediný velký teleskop. Systém tvoří devět antén rozvinutých robotickým vozítkem pomocí 1,5 km dlouhého optického kabelu. Vozítko ponese i radar pronikající pod povrch (300–2000 MHz) k měření vlastností měsíčního regolitu.\n\nMise má tři hlavní vědecké cíle: měřit rozptyl slunečních rádiových záblesků typu III a objasnit vliv turbulencí slunečního větru na kosmické počasí, zmapovat hustotu i strukturu měsíční ionosféry a poprvé od průletu sondy Voyager 2 v roce 1986 prozkoumat uranové kilometrové záření, což jsou rádiové emise generované plazmatem v magnetosféře Uranu.\n\nProč je to zajímavé: Rádiové spektrum pod 20 MHz zůstává jednou z posledních neprozkoumaných oblastí vesmíru. Návrh mise MoonRISE ukazuje, jak využití radioteleskopu na odvrácené straně Měsíce může pomoci odpovědět na otázku, jak turbulence ve slunečním větru pohánějí vývoj kosmického počasí a jaké dynamické procesy utvářejí magnetosféru vzdáleného Uranu.",
+    "url": "http://arxiv.org/abs/2611.33534v1",
+    "source": "arXiv",
+    "original_title": "Moon Radio Interferometer for Science and Exploration (MoonRISE): A Mission Concept for a Low-Frequency Radio Interferometer on the Lunar Farside",
+    "published": "2026-11-24T23:22:25+00:00",
+    "inserted_at": "2026-11-26T08:27:37.255391+00:00",
+    "lang": "cs",
+    "needs_translation": false,
+    "daily_card_selected": true
+  },
+  {
+    "id": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+    "title": "Astronomové možná objevili černou díru vzniklou před prvními hvězdami",
+    "summary": "Astronomové pozorovali záhadný objekt pojmenovaný Phoebe, který na krátkou dobu zjasnil světlo vzdálené hvězdy. Autoři výzkumu navrhují, že by se mohlo jednat o primordiální černou díru – tedy hypotetický typ černé díry, který vznikl z hustých oblastí zárodečné hmoty těsně po velkém třesku, ještě před zrodem prvních hvězd.\n\nObjekt Phoebe představuje přibližně 13 miliard let starý kosmický relikt. Z krátkého zjasnění hvězdy vědci odvodili hmotnost objektu, která dosahuje pouze trojnásobku hmotnosti Měsíce. Pokud se navržené vysvětlení potvrdí, půjde o první pozorovatelný doklad existence takto lehkých objektů, jež mohou sloužit jako nové vodítko při zkoumání role temné hmoty ve vesmíru.\n\nProč je to zajímavé: Výsledek pomáhá odpovědět na otázku, zda by část temné hmoty mohl tvořit dosud nepozorovaný druh primordiálních černých děr s hmotnostmi srovnatelnými s měsíci či planetkami.",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+    "source": "RSS",
+    "original_title": "Astronomers may have discovered a black hole born before the first stars",
+    "published": "2026-11-26T02:00:33+00:00",
+    "inserted_at": "2026-11-26T08:27:37.255391+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.34797v1",
+    "title": "Určení vůňového složení neutrin z Mléčné dráhy napoví o jejich původu",
+    "summary": "Původ vysokoenergetických neutrin pocházejících z Mléčné dráhy zůstává předmětem odborných debat. Autoři nové studie ukázali, že klíč k rozluštění této otázky leží v jejich vůňovém složení – tedy v poměrném zastoupení jednotlivých druhů těchto částic. Podle výpočtů vědců by neutrinové observatoře IceCube a KM3NeT mohly díky svému doplňujícímu se pozorování vnitřní části Galaxie z opačných zemských polokoulí začít toto vůňové složení rozlišovat přibližně za deset let. S využitím nadcházejících teleskopů by pak dokázaly určit podíl elektronových neutrin (νₑ) přímo u zdrojů s přesností do 27 %.\n\nNeutrina jsou extrémně lehké částice procházející vesmírem téměř bez interakcí s hmotou a vyskytují se ve třech typech (označovaných jako vůně): elektronové, mionové a tauonové. Detektor IceCube zabudovaný v antarktickém ledu a observatoř KM3NeT umístěná na dně Středozemního moře sledují z opačných polokoulí stejnou oblast oblohy různým způsobem. První srovnání takto naměřeného vůňového složení galaktických a mimogalaktických neutrin by mohlo odhalit přítomnost silných magnetických polí v mimogalaktických zdrojích nebo dokázat rozpad neutrin.\n\nProč je to zajímavé:\nStudie řeší otázku, jakým mechanizmem vznikají vysokoenergetická neutrina v naší Galaxii a zda vykazují stejné vlastnosti jako neutrina z mimogalaktických zdrojů. Předpovězená pozorování by mohla v příštím desetiletí odhalit silná magnetická pole ve vzdáleném vesmíru nebo přinést důkazy o případném rozpadu neutrin.",
+    "url": "http://arxiv.org/abs/2611.34797v1",
+    "source": "arXiv",
+    "original_title": "Measuring the flavor composition of high-energy neutrinos from the Milky Way",
+    "published": "2026-11-25T17:50:14+00:00",
+    "inserted_at": "2026-11-26T08:27:37.255391+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.32800v1",
+    "title": "Umělá inteligence pomůže odhalit miliony dvojhvězd v gravitačních vlnách",
+    "summary": "Chystané kosmické detektory gravitačních vln zachytí desítky milionů galaktických ultrakompaktních dvojhvězd. Velké množství nerozlišených soustav však vytváří silný rušivý šum v galaktickém popředí, který překrývá slabší signály splynutí masivních černých děr či procesů z raného vesmíru. Autoři nové studie navrhují tento problém vyřešit pomocí strojového učení.\n\nVědci definovali detekovatelný zdroj jako dvojhvězdu s odstupem signálu od šumu nad určeným prahem. Využili neuronové toky – architekturu hlubokého učení určenou k modelování pravděpodobnostních rozdělení –, které dokázaly spočítat dvojhvězdy s přesností na jedinou soustavu v 99 % intervalů o šířce 1 mikrohertz v rozsahu 0,5 až 10 milihertz. Metoda hnízdového vzorkování (statistický algoritmus sloužící pro prokládání dat modelem) pak dokázala rozlišit i dvojhvězdy ležící ve spektru blíže, než je jeden frekvenční krok při seskupování dat do intervalů.\n\nStudie ukázala, že sama data stanovují přirozenou hranici: zdroj je rozlišitelný jen tehdy, pokud jeho signál poskytne alespoň 20 natů informační hodnoty (nat je jednotka přirozené četnosti informace). Tento takzvaný bayesovský limit zaměnění je dán samotnými daty, nikoli použitou metodou.\n\nProč je to zajímavé: Práce pomáhá odpovídat na otázku, jak spolehlivě odfiltrovat popředí Galaxie od slabých signálů z raného vesmíru. Převádí nepřehledný šum na přesně zkalibrovaný sčítací přehled dvojhvězd se zadanou selekční funkcí.",
+    "url": "http://arxiv.org/abs/2611.32800v1",
+    "source": "arXiv",
+    "original_title": "Toward Solving the Galactic Foreground Problem in Gravitational-Wave Astronomy with Machine Learning",
+    "published": "2026-11-24T15:23:14+00:00",
+    "inserted_at": "2026-11-26T08:27:37.255391+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.34350v1",
+    "title": "Dvojice kvasarů z přehlídky DESI odhalují zárodky galaktických kup",
+    "summary": "Vědci zkoumali rozložení těsných dvojic kvasarů v prvním balíku dat spektroskopické přehlídky DESI (DR1) v rozmezí rudého posuvu 1,2 až 2,8. Rudý posuv je míra protáhnutí vlnové délky světla vlivem rozpínání vesmíru, která určuje vzdálenost a věk objektu. Kvasary jsou jasná jádra vzdálených galaxií poháněná supermasivními černými dírami. Autoři ověřovali, zda tyto dvojice označují nadprůměrně husté oblasti, ze kterých postupně vznikají obří kupy galaxií.\n\nStudie identifikovala 40 626 fyzikálních dvojic kvasarů s průmětnou vzdáleností do 2,5 megaparsecu a rozdílem rychlostí do 900 km/s. Členové těchto dvojic se kolem ostatních kvasarů nahloukají 1,69 ± 0,14 až 2,01 ± 0,06krát výrazněji než samotné kvasary. Náhodné dvojice přitom zvýšené nahloučení téměř nevykazují (1,08 ± 0,05). Tento výsledek ukazuje, že dvojice kvasarů sídlí v masivních halech temné hmoty o hmotnosti 1,4 až 2,2 × 10¹³ h⁻¹ hmotností Slunce. Halo temné hmoty představuje gravitačně vázaný shluk neviditelné hmoty, v němž galaxie vznikají. Naměřené shlukování přesně odpovídá předpovědím standardního kosmologického modelu ΛCDM ověřeným na počítačových simulacích AbacusSummit a potvrzuje, že dvojice kvasarů spolehlivě mapují protokupy galaxií v období zvaném kosmické poledne, kdy ve vesmíru vrcholila tvorba hvězd.\n\nProtokupy galaxií v raném vesmíru představují klíčové prostředí pro pochopení toho, jak se v kosmu formovaly největší struktury. Výzkum ukazuje, že kompletní přehlídka DESI umožní vytvořit z dvojic kvasarů dosud nejrozsáhlejší statistickou přehlídku těchto zárodků galaktických kup.",
+    "url": "http://arxiv.org/abs/2611.34350v1",
+    "source": "arXiv",
+    "original_title": "Physical quasar pairs in DESI DR1 as tracers of protoclusters at $z\\approx2$",
+    "published": "2026-11-25T13:19:44+00:00",
+    "inserted_at": "2026-11-26T08:27:37.255391+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.34172v1",
+    "title": "Akreční proud kolem černé díry M87* jako detektor temné hmoty",
+    "summary": "Vědci navrhli využití akrečního proudu — tedy plazmatu obíhajícího a padajícího do supermasivní černé díry M87* — jako takzvaného bolometru pro lehkou temnou hmotu. Bolometr je citlivý přístroj měřící pohlcenou tepelnou energii, přičemž v této studii jeho roli zastává samotné plazma. Výzkum zkoumal částice temné hmoty s hmotností pod hranicí megaelektronvoltu, jejichž kinetická energie v gravitačním potenciálu černé díry zůstává nižší než tepelná energie elektronů v plazmatu.\n\nChladnější populace temné hmoty by proto mohla prostřednictvím pružného rozptylu absorbovat energii elektronů, čímž by je ochlazovala a měnila jejich emisní spektrum. Autoři začlenili toto chlazení temnou hmotou do modelu advekčně dominovaného akrečního proudu (teoretického modelu akrece, v němž se většina vzniklého tepla nevyzáří, ale je přenášena dále k černé díře) a vyřešili kompletní soustavu termodynamických rovnic pro teplotní profil i výsledné rádiové a milimetrové záření.\n\nPorovnáním předpovězeného spektra s pozorováními z kampaně sítě radioteleskopů Event Horizon Telescope vědci poprvé využili tepelnou bilanci horkého akrečního proudu k stanovení přísných omezení pro rozptyl temné hmoty na elektronech. Získali tím nové limity pro temnou hmotu v rozsahu hmotností od kiloelektronvoltů po megaelektronvolty pro lehká i těžká zprostředkující pole.\n\nProč je to zajímavé: Práce pomáhá zodpovědět otázku, zda a jak silně může lehká temná hmota interagovat s běžnými elektrony. Ukazuje totiž, že horké plazma v blízkosti supermasivních černých děr by mohlo sloužit jako nová přírodní laboratoř, která doplňuje pozemní experimenty zaměřené na přímou detekci.",
+    "url": "http://arxiv.org/abs/2611.34172v1",
+    "source": "arXiv",
+    "original_title": "Black hole accretion flows as dark matter bolometers",
+    "published": "2026-11-25T11:02:48+00:00",
+    "inserted_at": "2026-11-26T08:27:37.255391+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
+    "id": "2611.34650v1",
+    "title": "Dynamická temná energie? Kosmický smyk z přehlídky HSC-Y3 napovídá změnu",
+    "summary": "Vědci zkoumali, zda se působení temné energie v čase mění, nebo zůstává neměnné. K testování použili měření takzvaného kosmického smyku – slabého zkreslení tvaru vzdálených galaxií způsobeného gravitací hmoty ležící na dráze světla. Analyzovali data z třetího roku přehlídky Hyper Suprime-Cam (HSC-Y3), jež zahrnují přes 25 milionů galaxií. Ty rozdelili do čtyř skupin podle rudého posuvu, který popisuje protahování světelných vln v důsledku rozpínání vesmíru a určuje vzdálenost galaxií.\n\nData kosmického smyku zkombinovali s dalšími měřeními vzdáleností nezávislými na reliktním záření (CMB). V modelu wCDM, jenž předpokládá konstantní temnou energii, obdrželi parametr stavové rovnice w = −0,936 (+0,074 / −0,067), což odpovídá neměnné kosmologické konstantě. V rozšířeném modelu w0waCDM, ve kterém se temná energie vyvíjí v čase, však určili hodnoty w₀ = −0,832 (+0,071 / −0,059) a wₐ = −1,23 (+0,66 / −0,44). Tento výsledek představuje preferenci pro dynamickou temnou energii na úrovni 2,4 σ. Ukazatel S₈, který měří amplitudu růstu struktur a míru shlukování hmoty, přitom zůstal stabilní s hodnotami S₈ = 0,774 (+0,027 / −0,034) pro wCDM a S₈ = 0,772 (+0,031 / −0,030) pro w0waCDM. Signál proměnlivé temné energie tak aktuálně pochází především z geometrického měření vzdáleností.\n\nProč je to zajímavé:\nPráce pomáhá zodpovědět otázku, zda je temná energie statickou konstantou, nebo dynamickým polem. Ukazuje, že měření kosmického smyku poskytuje spolehlivé výsledky pro růst struktur i při složitějších modelech temné energie, což bude zásadní pro vyhodnocení nadcházejících kosmologických přehlídek.",
+    "url": "http://arxiv.org/abs/2611.34650v1",
+    "source": "arXiv",
+    "original_title": "Probing Dynamical Dark Energy with Hyper Suprime-Cam Year 3 Cosmic Shear",
+    "published": "2026-11-25T16:25:50+00:00",
+    "inserted_at": "2026-11-26T08:27:37.255391+00:00",
+    "lang": "cs",
+    "needs_translation": false
+  },
+  {
     "id": "2611.32282v1",
     "title": "Vědci poprvé změřili hmotnost zárodečných kup galaxií pomocí reliktního záření",
     "summary": "Tým vědců poprvé přímo změřil celkovou hmotnost zárodečných kup galaxií (protokup) vybraných z katalogu satelitu Planck. Autoři využili data z přístroje Atacama Cosmology Telescope (ACT) pro 1012 kandidátů z celkového počtu 2151. Většinu hmoty těchto vznikajících struktur tvoří chladný mezigalaktický plyn a nebaryonická temná hmota, která sama neemituje světlo. Vědci proto použili metodu skládání dat (stacking) gravitačního čočkování, při němž gravitace hmoty v popředí zakřivuje reliktní záření (CMB), tedy nejstarší světlo vesmíru. Zprůměrováním pozorování získali jasný signál čočkování na úrovni významnosti 12 σ.\n\nZ měření odvodili průměrnou hmotnost podél zorné dráhy na hodnotu (6,6 ± 1,4) × 10¹⁴ hmotností Slunce, což odpovídá předpovědím z numerických simulací. Na základě rozsahu rudého posuvu 1,5 < z < 3 (který udává vzdálenost a stáří objektu podle natažení vlnové délky světla rozpínáním vesmíru) autoři vyloučili možnost, že by vzorek obsahoval již plně zralé, gravitačně vyvážené (virializované) masivní struktury. Jde o první přímé určení hmotnosti takto vzdálených objektů z výzkumu Planck, které potvrzuje, že vzorek tvoří převážně tvořící se protokupy galaxií s rudým posuvem z ≥ 1.\n\nProč je to zajímavé:\nJednou z klíčových otázek kosmologie je, jak přesně vznikaly a vyvíjely se největší gravitačně vázané struktury ve vesmíru. Tento výzkum pomáhá potvrzovat existenci raných zárodečných kup a poskytuje přímé měření jejich celkové hmotnosti včetně temné hmoty, což umožňuje přesněji testovat modely vývoje vesmírných struktur.",
@@ -5897,76 +5982,6 @@
     "original_title": "Spin-network states for the Bianchi I and IX cosmological models from quantum constrained symmetries",
     "published": "2026-09-17T17:04:16+00:00",
     "inserted_at": "2026-09-18T07:06:08.751018+00:00"
-  },
-  {
-    "id": "2609.20663v1",
-    "title": "Tajemství kvantové entropie při vzniku černých děr",
-    "summary": "Vědci představili nový matematický model, který umožňuje v reálném čase simulovat gravitační kolaps v kvantové teorii pole. Díky speciálnímu způsobu odstranění matematických nekonečen (tzv. ultrafialových divergencí) dokázali přesně vypočítat kvantovou entropii provázanosti. Ukázalo se, že u smršťující se časoprostorové slupky se tato entropie soustředí přímo na jejím povrchu a během vývoje si udržuje přibližně konstantní a konečnou maximální hodnotu. Tento teoretický průlom ukazuje, jak se kvantová informace chová při vzniku extrémně hmotných objektů. Proč je to zajímavé: Práce nabízí elegantní způsob, jak zkoumat hluboké propojení kvantové mechaniky a gravitace bez destruktivního vlivu matoucích matematických nekonečen.",
-    "url": "http://arxiv.org/abs/2609.20663v1",
-    "source": "arXiv",
-    "original_title": "Entropy, area, and the choice of regulator during gravitational collapse",
-    "published": "2026-09-17T16:40:13+00:00",
-    "inserted_at": "2026-09-18T07:06:08.751018+00:00"
-  },
-  {
-    "id": "2609.20626v1",
-    "title": "Dvě černé díry a nahá singularita: Nový pohled na časoprostor",
-    "summary": "Teoretičtí fyzici představili nové souřadnice, které rozšiřují popis teoretického časoprostoru obsahujícího silná magnetická a gravitační pole. Tento nový matematický pohled odhaluje neobvyklý systém složený ze dvou černých děr, které sdílejí společné vnější prostředí s netriviální geometrií, a jedné „nahé“ prstencové singularity – tedy oblasti s nekonečnou hustotou, jež není skrytá pod horizontem událostí. Při zjednodušení na statický stav se tento model elegantně propojuje s již známými fyzikálními řešeními. Proč je to zajímavé: Studium takto extrémních konfigurací pomáhá fyzikům testovat limity Einsteinovy teorie relativity a odhalovat chování časoprostoru v přítomnosti silných elektromagnetických polí.",
-    "url": "http://arxiv.org/abs/2609.20626v1",
-    "source": "arXiv",
-    "original_title": "On the Extended Kerr-Newman-Bertotti-Robinson Spacetime: Two Black Holes and a Naked Singularity in Bertotti-Robinson Universe",
-    "published": "2026-09-17T16:12:29+00:00",
-    "inserted_at": "2026-09-18T07:06:08.751018+00:00"
-  },
-  {
-    "id": "2609.20622v1",
-    "title": "Návrat Palatiniho atraktorů: Nová mapa pro kosmickou inflaci",
-    "summary": "Jak vypadaly první okamžiky vesmíru během takzvané kosmické inflace? Vědci zkoumají modely v rámci Palatiniho formulace gravitace, kde prostoročas a hmota vystupují jako nezávislé proměnné. Nová studie ukazuje, že u takzvaných atraktorů existuje přímé a univerzální mapování mezi teoretickými parametry a pozorovatelnými veličinami. V limitě silné vazby se výrazně potlačuje signál prvotních gravitačních vln, zatímco spektrální index skalárních poruch se posouvá k vyšším hodnotám. Výzkum tak poskytuje elegantní klíč ke sjednocení různorodých scénářů vývoje vesmíru. Proč je to zajímavé: Objev výrazně zjednodušuje testování teoretických modelů inflace a umožňuje jejich přímou konfrontaci s přesnými daty z pozorování reliktního záření.",
-    "url": "http://arxiv.org/abs/2609.20622v1",
-    "source": "arXiv",
-    "original_title": "The return of Palatini inflationary attractors: Universal mapping of observables",
-    "published": "2026-09-17T16:06:51+00:00",
-    "inserted_at": "2026-09-18T07:06:08.751018+00:00"
-  },
-  {
-    "id": "2609.18923v1",
-    "title": "Jak Riemann položil základy kosmologie bez jediného vzorce",
-    "summary": "Roku 1854 představil Bernhard Riemann přelomovou přednášku o základech geometrie, která později umožnila vznik obecné relativity. Překvapivě v ní však chyběl matematický aparát. Dlouho se věřilo, že Riemann vzorce vynechal s ohledem na nespecializované profesory v publiku. Nová analýza tento mýtus vyvrací – téže komisi totiž již dříve obhájil práci plnou složitých rovnic. Skutečným důvodem byla radikální novost jeho vizí. Pojmy jako zakřivený prostor, varieta či metrika byly tak nevídané, že pro ně v té době neexistoval odpovídající matematický jazyk a Riemann je musel formulovat převážně slovně. Proč je to zajímavé: Ukazuje to, že vizionářské myšlenky o struktuře vesmíru mohou předběhnout i samotný matematický aparát potřebný k jejich formálnímu popisu.",
-    "url": "http://arxiv.org/abs/2609.18923v1",
-    "source": "arXiv",
-    "original_title": "The suppression thesis in Riemann's Habilitationsvortrag",
-    "published": "2026-09-16T16:59:11+00:00",
-    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
-  },
-  {
-    "id": "2609.18912v1",
-    "title": "Vědci zachytili první silně gravitačně čočkovanou superluminózní supernovu",
-    "summary": "Astronomové potvrdili objev SN 2025wny, první známé silně gravitačně čočkované superluminózní supernovy I. typu a zároveň nejvzdálenějšího objektu svého druhu s násobným obrazem (rudý posuv z = 2,015). Rozsáhlé simulace kombinující empirické rychlosti výbuchů s geometrií čočkujících galaxií a sedmiletou historií přehlídky Zwicky Transient Facility (ZTF) potvrdily, že zachycení jednoho takového úkazu přesně odpovídá teoretickým modelům. Po započtení pozorovacího zkreslení se ukázalo, že výbuch patřil mezi 3 % nejsvitivějších událostí své třídy. Přestože má supernova neobvykle velký rozptyl obrazů, její detekce ověřuje naše schopnosti modelovat populace čočkovaných přechodných jevů. Proč je to zajímavé: Tento vzácný objev validuje metody pro vyhledávání gravitačně čočkovaných supernov, které v budoucnu pomohou přesněji měřit rychlost rozpínání vesmíru a zkoumat hmotu v čočkujících galaxiích.",
-    "url": "http://arxiv.org/abs/2609.18912v1",
-    "source": "arXiv",
-    "original_title": "Follow-up of SN 2025wny VI: The Rate and Detectable Population of Strongly Lensed SLSNe-I in ZTF",
-    "published": "2026-09-16T16:54:36+00:00",
-    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
-  },
-  {
-    "id": "2609.18821v1",
-    "title": "CosmoDyn: Nový způsob, jak sledovat černé díry v simulacích vesmíru",
-    "summary": "Současné kosmologické simulace vesmíru nabízejí obrovské množství dat, ale nemají dostatečné rozlišení pro sledování malých a hustých objektů, jako jsou černé díry či kompaktní hvězdokupy. Vědci proto vyvinuli otevřený nástroj CosmoDyn v jazyce Python. Tento softwarový rámec dokáže z již hotových simulací rekonstruovat vyvíjející se galaktická prostředí a přesně modelovat pohyb i vývoj nezachycených objektů. Unikátní je schopnost simulovat nejen hlavní galaxii, ale i pohybující se satelitní galaxie, jejich vzájemné gravitační působení, ztrátu hmoty či vznik slapových proudů. CosmoDyn tak umožňuje rychlé a výpočetně levné testování různých fyzikálních scenářů na velkých vzorcích galaxií. Proč je to zajímavé: Tento nástroj umožňuje zkoumat evoluci černých děr a hvězdokup v reálném kosmologickém kontextu bez nutnosti spouštět extrémně náročné superpočítačové simulace znovu.",
-    "url": "http://arxiv.org/abs/2609.18821v1",
-    "source": "arXiv",
-    "original_title": "CosmoDyn: a semi-analytic post-processing framework for the dynamical evolution of compact stellar systems and black holes in cosmological simulations",
-    "published": "2026-09-16T15:28:30+00:00",
-    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
-  },
-  {
-    "id": "2609.18790v1",
-    "title": "Jak matematická symetrie vysvětluje historii a rozpínání vesmíru",
-    "summary": "Teoretičtí fyzici prozkoumali vlastnosti tzv. k-esence – hypotetického skalárního pole, které slouží k popisu temné energie a zrychleného rozpínání vesmíru. Využili při tom koncept matematických symetrií, které vedou k novým zákonům zachování a umožňují přesně vyřešit kosmologické rovnice. Pomocí analýzy dynamických systémů zmapovali kompletní vývoj vesmíru od jeho nejranějších fází až po dalekou budoucnost. Ukázali, že tento model dokáže přirozeně vysvětlit prvotní kosmickou inflaci, plynulý přechod do éry převládané hmotou i dnešní zrychlené rozpínání. Proč je to zajímavé: Výzkum ukazuje, že jediný elegantní symetrický princip dokáže propojit inflaci v raném vesmíru s působením temné energie bez nutnosti umělých úprav.",
-    "url": "http://arxiv.org/abs/2609.18790v1",
-    "source": "arXiv",
-    "original_title": "Symmetry-Driven $k$-Essence Cosmological Dynamics",
-    "published": "2026-09-16T15:10:27+00:00",
-    "inserted_at": "2026-09-17T07:07:39.891500+00:00"
   },
   {
     "id": "2609.17530v1",

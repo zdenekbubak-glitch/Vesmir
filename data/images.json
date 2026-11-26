@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-26",
+    "title": "Oko na obloze: Mléčná dráha nad Lençóis",
+    "caption": "Mléčná dráha jasně září na brazilské obloze nad bílými písečnými dunami a tmavými lagunami Národního parku Lençóis Maranhenses. Tento složený snímek pořízený v červenci zobrazuje výrazné prachové pásy i barevné mlhoviny. Její obloukovitý tvar je však zkreslením širokoúhlého objektivu, které fotograf umělecky sladil s konturami tmavé laguny.",
+    "thumb": "assets/gallery/apod-2026-11-26.jpg",
+    "image": "assets/gallery/apod-2026-11-26.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
+    "published": "2026-11-26",
+    "credit": "Ignacio Fernández",
+    "creator": {
+      "@type": "Person",
+      "name": "Ignacio Fernández"
+    },
+    "copyrightNotice": "Ignacio Fernández",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
+    "original_title": "Eye in the Sky: The Milky Way over Lençóis",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-26T08:30:12.437203+00:00"
+  },
+  {
     "id": "apod-2026-11-25",
     "title": "SPHEREx vidí skrz prach",
     "caption": "Co blokuje výhled do středu Mléčné dráhy? Během 13 miliard let se v naší Galaxii nahromadila spousta kosmického prachu tvořeného drobnými sloučeninami prvků uvolněných při zániku hvězd. Dnešní video ukazuje infračervené světlo z galaktického centra zachycené satelitem NASA SPHEREx, na němž prachová mračna v blízké infračervené oblasti světlo pohlcují a rozptylují, čímž jádro téměř dokonale stíní.",
@@ -1539,17 +1560,5 @@
     "original_thumb": "https://apod.nasa.gov/apod/image/2609/M83_Final2_1x1024.jpg",
     "image_recovery_source": "https://www.astro.cz/apod_data/2026/09/M83_Final2_1x.jpg",
     "archive_url": "https://www.astro.cz/apod/ap260911.html"
-  },
-  {
-    "id": "apod-2026-09-10",
-    "title": "LDN 1295: Mlhovina Žirafa",
-    "caption": "Co vám tento obrázek připomíná? Mnozí v něm vidí žirafu hledící doprava s nataženým krkem a dlouhýma nohama v kroku, i když někdo v něm může spatřit spíše veverku. Snímek zachycuje objekt LDN 1295, nazývaný též mlhovina Žirafa, v souhvězdí bájné etiopské královny Kasiopeji.",
-    "thumb": "assets/gallery/apod-2026-09-10.jpg",
-    "image": "assets/gallery/apod-2026-09-10.jpg",
-    "source": "NASA APOD",
-    "url": "https://apod.nasa.gov/apod/ap260910.html",
-    "published": "2026-09-10",
-    "credit": "Alessandro Merga\n Text: \nCecilia Chirenti \n(NASA\nGSFC, \nUMCP, \nCRESST II)",
-    "inserted_at": "2026-09-19T12:00:50.070267+00:00"
   }
 ]
