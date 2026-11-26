@@ -321,6 +321,19 @@ def main():
         url = f"{base}/kosmopedie/{ex['_slug']}.html"
         description = ex.get('description') or ex.get('perex', '')[:158]
 
+        map_card = ''
+        if ex['id'] == 'exp-101':
+            map_card = (
+                '      <a href="/assets/kosmopedie/galakticke-okoli.html" '
+                'style="display:block;margin:1.25rem 0;padding:12px;border:1px solid #587594;'
+                'border-radius:12px;background:#14263c;color:#edf4ff;text-decoration:none">'
+                '<img src="/assets/article-images/schema-mistni-skupina-3d.jpg" alt="" '
+                'width="1200" height="630" style="display:block;width:100%;height:auto;border-radius:8px">'
+                '<span style="display:block;padding:10px 4px 3px">'
+                '<strong style="color:#91d6ff;text-decoration:underline">Otevřít interaktivní 3D mapu →</strong><br>'
+                'Otočte si Místní skupinu a prohlédněte si prostorový model Andromedy.'
+                '</span></a>\n'
+            )
         sec_html = ''
         section_images = []
         for sec in ex.get('sections', []):
@@ -409,7 +422,7 @@ def main():
                  f"      <p class=\"meta\">Kosmopedie · Aktualizováno: {fmt_date(ex.get('updated') or ex.get('published'))}</p>\n"
                  f"      <p class=\"explainer-perex\" data-search-block>{esc(ex.get('perex'))}</p>\n"
                  '      <p id="kosmopedie-detail-search-status" class="search-status" role="status" hidden></p>\n'
-                 + image_figure(article_image) + sec_html + why_html + rel_html + rel_ex_html + NEWSLETTER_CTA + feedback_link(ex['title'], url) +
+                 + map_card + image_figure(article_image) + sec_html + why_html + rel_html + rel_ex_html + NEWSLETTER_CTA + feedback_link(ex['title'], url) +
                  paging(*neighbours[ex['_slug']]) +
                  '    </article>\n'
                  '    <p class=\"back\"><a data-search-back href=\"/kosmopedie/\">← Celá Kosmopedie</a> · <a href=\"/temata/\">Rubriky</a></p>\n'
