@@ -2612,7 +2612,7 @@
   {
     "id": "2610.28609v1",
     "title": "Magnetická monstra: Stabilita a kolaps obřích neutronových hvězd",
-    "summary": "Astrofyzici pomocí pokročilých trojrozměrných počítačových simulací zkoumali chování extrémně magnetizovaných, rychle rotujících neutronových hvězd. Tyto takzvané supramasivní neutronové hvězdy mohou existovat jen díky své rychlé rotaci. Výzkum ukázal, že extrémní magnetická pole zásadně mění vnitřní strukturu hvězdy a přerozdělují její úhlový moment. Lehčí objekty díky tomu získají novou, stabilní konfiguraci a uvolňují do okolí hmotný hvězdný vítr. Naopak hvězdy na hranici maximální hmotnosti magnetické síly přimějí ke kolapsu do rotující černé díry. Proč je to zajímavé: Objev vysvětluje, jak extrémní magnetismus rozhoduje o přežití či zániku hustých vesmírných těles, což pomáhá objasnit povahu magnetarů i následky srážek neutronových hvězd.",
+    "summary": "Astrofyzici pomocí pokročilých trojrozměrných počítačových simulací zkoumali chování extrémně magnetizovaných, rychle rotujících neutronových hvězd. Tyto takzvané supramasivní neutronové hvězdy mohou existovat jen díky své rychlé rotaci. Výzkum ukázal, že extrémní magnetická pole zásadně mění vnitřní strukturu hvězdy a přerozdělují moment hybnosti uvnitř hvězdy. U lehčích hvězd zůstala nová konfigurace stabilní po několik sledovaných otoček hvězdy. Tyto hvězdy také uvolňovaly do okolí hmotu v podobě hvězdného větru. Naopak hvězdy na hranici maximální hmotnosti magnetické síly přimějí ke kolapsu do rotující černé díry. Proč je to zajímavé: Objev vysvětluje, jak extrémní magnetismus rozhoduje o přežití či zániku hustých vesmírných těles, což pomáhá objasnit povahu magnetarů i následky srážek neutronových hvězd.",
     "url": "http://arxiv.org/abs/2610.28609v1",
     "source": "arXiv",
     "original_title": "Dynamical stability of Magnetic Supramassive Neutron Stars",
@@ -2636,7 +2636,7 @@
   {
     "id": "2610.28592v1",
     "title": "Stabilita modifikované gravitace v okolí dynamických černých děr",
-    "summary": "Einsteinova obecná teorie relativity nemusí být konečným slovem v popisu vesmíru. Fyzikové proto zkoumají její rozšíření, jako je Horndeskiho teorie, která k popisu gravitace přidává skalární pole. Nová studie se zaměřuje na stabilitu časově proměnných, kulově symetrických systémů – například vyvíjejících se černých děr. Autorům se podařilo odvodit přesné matematické podmínky pro monopolní odchylky, které zaručují, že tyto systémy netrpí destruktivními fyzikálními nestabilitami. Výsledky doplňují dosavadní poznatky a zmenšují teoretický prostor pro existenci černých děr se skalárními vlasy. Proč je to zajímavé: Tento výzkum umožňuje vyloučit nefyzikální modely modifikované gravitace ještě předtím, než je začneme testovat pomocí reálných pozorování gravitačních vln.",
+    "summary": "Einsteinova obecná teorie relativity nemusí být konečným slovem v popisu vesmíru. Fyzikové proto zkoumají její rozšíření, jako je Horndeskiho teorie, která k popisu gravitace přidává skalární pole. Nová studie se zaměřuje na stabilitu časově proměnných, kulově symetrických systémů – například vyvíjejících se černých děr. Autoři odvodili nutné podmínky stability pro vysokofrekvenční poruchy s kulovou symetrií. Výsledek doplňuje dřívější testy jiných typů poruch. Proč je to zajímavé: Tento výzkum umožňuje vyloučit nefyzikální modely modifikované gravitace ještě předtím, než je začneme testovat pomocí reálných pozorování gravitačních vln.",
     "url": "http://arxiv.org/abs/2610.28592v1",
     "source": "arXiv",
     "original_title": "Monopole stability of time-dependent, spherically symmetric backgrounds in Horndeski theory",
@@ -2684,7 +2684,7 @@
   {
     "id": "2610.28451v1",
     "title": "Černé díry s „vlasy“ krátkého dosahu: Nový pohled na gravitaci",
-    "summary": "Fyzici představili nový teoretický model nabité černé díry, jejíž vlastnosti upravuje takzvaný Yukawův potenciál. Tento efekt působí výhradně v těsné blízkosti horizontu událostí a ve velkých vzdálenostech rychle slábne. Model tak představuje černou díru s „vlasy“ krátkého dosahu, které neovlivňují vzdálené okolí. Autoři analyzovali její termodynamiku, stín i charakteristické časoprostorové vibrace neboli kvazinormální módy. Konfrontace modelu s daty z Event Horizon Telescope pro černé díry M87* a Sgr A* prokázala, že reálné objekty odpovídají velmi silně stíněnému režimu. Proč je to zajímavé: Studie ukazuje, jak lze teoretické koncepty modifikované gravitace přímo ověřovat pomocí reálných astronomických snímků stínů černých děr.",
+    "summary": "Fyzici představili nový teoretický model nabité černé díry, jejíž vlastnosti upravuje takzvaný Yukawův potenciál. Tento efekt působí výhradně v těsné blízkosti horizontu událostí a ve velkých vzdálenostech rychle slábne. Model tak představuje černou díru s „vlasy“ krátkého dosahu, které neovlivňují vzdálené okolí. Autoři analyzovali její termodynamiku, stín i charakteristické časoprostorové vibrace neboli kvazinormální módy. Porovnání s měřeními M87* a Sgr A* v rámci zkoumaného modelu upřednostňuje variantu, v níž Yukawův příspěvek se vzdáleností rychle slábne. Proč je to zajímavé: Měření stínů černých děr pomáhají omezit možné vlastnosti dodatečné složky hmoty v tomto modelu.",
     "url": "http://arxiv.org/abs/2610.28451v1",
     "source": "arXiv",
     "original_title": "Finite-range hair from a nonlocal matter sector: charged Yukawa black holes",
@@ -2743,15 +2743,16 @@
   },
   {
     "id": "2610.26727v1",
-    "title": "Jak gravitační vlny z projektu TianQin odhalí dynamickou temnou energii",
-    "summary": "Plánovaný vesmírný detektor TianQin bude pozorovat fúze masivních černých děr, které slouží jako takzvané standardní sirény pro přesné měření vzdáleností ve vesmíru. Nová studie zkoumá, jak volba teoretického modelu při simulaci dat ovlivňuje naše předpovědi o vlastnostech temné energie. Autoři vytvořili dva syntetické katalogy pozorování na základě standardního kosmologického modelu a modelu s dynamickou temnou energií. Výsledky ukazují, že i přes malé rozdíly v simulovaných datech vede kombinace pozorování detektoru TianQin se současnými daty z přehlídek DESI, Planck a supernov k silnému upřednostnění dynamické temné energie před konstantní. Proč je to zajímavé: Výzkum ukazuje, že gravitační vlny mohou definitivně potvrdit, že se temná energie v čase mění, což by znamenalo revoluci v chápaní vývoje vesmíru.",
+    "title": "Pomohou gravitační vlny z TianQin ověřit, zda se temná energie mění?",
+    "summary": "Plánovaný vesmírný detektor TianQin bude pozorovat fúze masivních černých děr, které slouží jako takzvané standardní sirény pro přesné měření vzdáleností ve vesmíru. Nová studie zkoumá, jak volba teoretického modelu při simulaci dat ovlivňuje naše předpovědi o vlastnostech temné energie. Autoři vytvořili dva syntetické katalogy pozorování na základě standardního kosmologického modelu a modelu s dynamickou temnou energií.\n\nProč je to zajímavé: Vědci spojili současná kosmologická měření se dvěma simulovanými katalogy budoucích pozorování TianQin. V obou případech vyšla lépe proměnlivá temná energie, ale síla výsledku se lišila. Hodnota 2,3 σ znamená spíše náznak, zatímco 3,8 σ už představuje výrazně silnější indicii. Ani vyšší hodnota však nedosahuje hranice 5 σ, která se ve fyzice často používá pro oznámení objevu. Studie tak ukazuje, jak silně by budoucí měření TianQin mohla podpořit proměnlivou temnou energii a jak výsledek závisí na předpokladech simulace.",
     "url": "http://arxiv.org/abs/2610.26727v1",
     "source": "arXiv",
     "original_title": "Cosmological implications of two mock TianQin standard siren catalogs generated under different background cosmological models",
     "published": "2026-10-19T16:56:30+00:00",
     "inserted_at": "2026-10-20T07:21:43.375229+00:00",
     "lang": "cs",
-    "needs_translation": false
+    "needs_translation": false,
+    "permalink_title": "Jak gravitační vlny z projektu TianQin odhalí dynamickou temnou energii"
   },
   {
     "id": "2610.26692v1",
@@ -2815,15 +2816,16 @@
   },
   {
     "id": "2610.23564",
-    "title": "Astronomové zachytili stopy vesmírných zvukových vln v neutrálním vodíku",
-    "summary": "Astrofyzici zkoumali rozložení galaxií bohatých na neutrální vodík v lokálním vesmíru pomocí dat z přehlídky radioteleskopu FAST. Analýzou více než 142 tisíc zdrojů pokrývajících téměř 40 % oblohy testovali platnost standardního kosmologického modelu v naší blízkosti. Ve statistickém rozložení objektů objevil tým možný otisk baryonových akustických oscilací – fosilních zvukových vln vzniklých v raném vesmíru. Tyto odchylky se projevují jako široký signál na úhlové škále okolo 50 stupňů s předběžnou významností 1,9 sigma. Ačkoliv výsledek zatím neznamená definitivní potvrzení, naznačuje slibný směr výzkumu. Proč je to zajímavé: Neutrální vodík představuje zcela nový způsob, jak mapovat kosmické vzdálenosti a testovat chování vesmíru v naší bezprostřední blízkosti.",
+    "title": "Data o neutrálním vodíku naznačují stopu baryonových akustických oscilací",
+    "summary": "Astrofyzici zkoumali rozložení galaxií bohatých na neutrální vodík v lokálním vesmíru pomocí dat z přehlídky radioteleskopu FAST. Analýzou více než 142 tisíc zdrojů pokrývajících téměř 40 % oblohy testovali platnost standardního kosmologického modelu v naší blízkosti. Ve statistickém rozložení zdrojů se objevil široký vrchol kolem 50°. V jednom testu dosáhl nominální významnosti 1,9 σ. Srovnání se simulovanými katalogy však ukázalo, že podobný vrchol může vzniknout statistickým výkyvem. Proč je to zajímavé: Neutrální vodík představuje zcela nový způsob, jak mapovat kosmické vzdálenosti a testovat chování vesmíru v naší bezprostřední blízkosti.",
     "url": "https://arxiv.org/abs/2610.23564",
     "source": "arXiv",
     "original_title": "Possible detection of Baryon Acoustic Oscillations imprinted in the HI sources from the FASHI catalog",
     "published": "2026-10-19T04:00:00+00:00",
     "inserted_at": "2026-10-19T07:26:34.072243+00:00",
     "lang": "cs",
-    "needs_translation": false
+    "needs_translation": false,
+    "permalink_title": "Astronomové zachytili stopy vesmírných zvukových vln v neutrálním vodíku"
   },
   {
     "id": "2610.23567",
@@ -2840,7 +2842,7 @@
   {
     "id": "2610.23657",
     "title": "Hubbleovo napětí: Nová data o supernovách ukazují nečekané rozpory",
-    "summary": "Astrofyzici dlouhodobě řeší tzv. Hubbleovo napětí – rozpor v měření rychlosti rozpínání vesmíru. Nová studie analyzovala data ze supernov přehlídky DES v kombinaci s baryonovými akustickými kmity z projektu DESI bez závislosti na konkrétním kosmologickém modelu. Výsledky ukazují, že samotné supernovy DES potvrzují vyšší rychlost rozpínání, shodnou s lokálním měřením. Pokud se však přidají starší katalogy, hodnota výrazně klesne. Takto velký rozdíl nelze připsat statistické odchylce, což odhaluje systematické chyby v pozorováních. Proč je to zajímavé: Ukazuje se, že kosmologická krize nemusí vyžadovat novou fyziku, ale možná jen lepší kalibraci teleskopů a datových sad.",
+    "summary": "Astrofyzici dlouhodobě řeší tzv. Hubbleovo napětí – rozpor v měření rychlosti rozpínání vesmíru. Když vědci zkombinovali údaje o supernovách z katalogu DES-Dovekie s měřeními z přehlídky DESI, vyšla jim Hubbleova konstanta přibližně 76 km/s/Mpc, což je slučitelné s výsledkem týmu SH0ES, který tempo rozpínání odvozuje z pozorování cefeid a supernov v relativně blízkých galaxiích. Když do stejného výpočtu přidali údaje o supernovách ze starších katalogů, odhad Hubbleovy konstanty klesl přibližně na 68 km/s/Mpc. Tak velký posun se v simulacích jen zřídka podařilo vysvětlit tím, že přidané supernovy pokrývají jiné rudé posuvy. Výsledek proto naznačuje systematický nesoulad mezi katalogy supernov. Proč je to zajímavé: Ukazuje se, že kosmologická krize nemusí vyžadovat novou fyziku, ale možná jen lepší kalibraci teleskopů a datových sad.",
     "url": "https://arxiv.org/abs/2610.23657",
     "source": "arXiv",
     "original_title": "Does the inverse distance ladder rule out late-time solutions to the Hubble tension? A model-independent test using DES-Dovekie supernovae and DESI DR2 BAO",
@@ -2851,15 +2853,16 @@
   },
   {
     "id": "2610.23806",
-    "title": "Záhada „malých červených teček“ z JWST: Primordiální černé díry to nebyly",
-    "summary": "Vesmírný dalekohled Jamese Webba (JWST) objevil v raném vesmíru záhadné objekty přezdívané „malé červené tečky“. Astrofyzici řešili, zda jde o zárodky galaxií v běžných halech temné hmoty, nebo zda je zažehly primordiální černé díry z doby těsně po Velkém třesku. Nová analýza jejich prostorového shlukování na snímcích z JWST dává jasnou odpověď. Standardní model vzniku galaxií v temné hmotě vysvětluje jejich četnost i rozmístění zcela přirozeně. Naopak hypotéza s primordiálními černými dírami selhává, neboť předpovídá výrazně slabší shlukování, než jaké reálně pozorujeme. Raná aktivita těchto objektů tak závisela na klasickém vývoji v masivních halech. Proč je to zajímavé: Tento výsledek zužuje prostor pro exotické teorie o původu temné hmoty a potvrzuje, že standardní kosmologický model dobře funguje i v raném vesmíru.",
+    "title": "Shlukování malých červených teček z JWST podporuje vznik v halech temné hmoty",
+    "summary": "Vesmírný dalekohled Jamese Webba (JWST) objevil v raném vesmíru záhadné objekty přezdívané „malé červené tečky“. Astrofyzici řešili, zda jde o zárodky galaxií v běžných halech temné hmoty, nebo zda je zažehly primordiální černé díry z doby těsně po Velkém třesku. Pozorované shlukování znevýhodňuje scénář, v němž se primordiální černé díry aktivují nezávisle na masivních hostitelských halech. Pokud však aktivita primordiálních černých děr závisí na tom, zda se nacházejí v masivních halech temné hmoty, může být výsledné shlukování podobné jako u zárodků vzniklých z hvězd. Z rozmístění malých červených teček pak nelze určit, který scénář nastal. Proč je to zajímavé: Četnost i rozmístění pozorovaných objektů dobře vysvětluje scénář vzniku v halech temné hmoty.",
     "url": "https://arxiv.org/abs/2610.23806",
     "source": "arXiv",
     "original_title": "Clustering of JWST LRDs. Implications for PBHs and other early-forming seeds",
     "published": "2026-10-19T04:00:00+00:00",
     "inserted_at": "2026-10-19T07:26:34.072243+00:00",
     "lang": "cs",
-    "needs_translation": false
+    "needs_translation": false,
+    "permalink_title": "Záhada „malých červených teček“ z JWST: Primordiální černé díry to nebyly"
   },
   {
     "id": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
@@ -2888,7 +2891,7 @@
   {
     "id": "2610.22096v1",
     "title": "Nový pohled na černé díry: Bayesovský průlom v měření jejich hmotnosti",
-    "summary": "Aktivní galaktická jádra ukrývají supermasivní černé díry, jejichž hmotnost vědci určují měřením časového zpoždění světla – takzvaným mapováním ozvěny. Rozsáhlé astronomické přehlídky však trpí šumem a mezerami v pozorování, což snižuje přesnost dosavadních výsledků. Vědci proto vyvinuli nový Bayesovský statistický model, který dokáže souběžně vyhodnocovat časová zpoždění i vlastnosti celých populací galaxií. Tento přístup plně zohledňuje nejistoty v datech a zůstává stabilní i u velkých vzorků. Aplikace na data z přehlídky OzDES zvýšila počet spolehlivě určených hmotností černých děr z původních 24 na téměř 300. Proč je to zajímavé: Nová metoda zásadně zvyšuje výtěžnost astronomických pozorování a umožňuje přesněji zkoumat vývoj supermasivních černých děr i ze starších či méně kvalitních datových sad.",
+    "summary": "Když aktivní jádro galaxie změní jas, plyn v jeho okolí na tuto změnu reaguje se zpožděním. Z délky zpoždění astronomové odhadnou vzdálenost plynu od centrální černé díry. Spolu s údaji o pohybu plynu jim to umožňuje odhadnout její hmotnost.\n\nPři dřívějším rozboru dat z přehlídky OzDES vědci použili jen případy, v nichž se časové zpoždění podařilo určit dostatečně spolehlivě. Nová metoda vyhodnocuje více aktivních jader společně a zohledňuje nejistotu každého odhadu. Díky tomu lze ze stejných pozorování lépe určit, jak velikost oblasti zářícího plynu souvisí se svítivostí aktivního jádra, a získat odhady hmotností i u více vzdálených černých děr.\n\nProč je to zajímavé: Nová metoda zásadně zvyšuje výtěžnost astronomických pozorování a umožňuje přesněji zkoumat vývoj supermasivních černých děr i ze starších či méně kvalitních datových sad.",
     "url": "http://arxiv.org/abs/2610.22096v1",
     "source": "arXiv",
     "original_title": "The Radius-Luminosity Relationship for Active Galactic Nuclei with Hierarchical Bayesian Reverberation Mapping",
@@ -3212,7 +3215,7 @@
   {
     "id": "2610.20547v1",
     "title": "Jak zní černé díry: Vědci poprvé spočítali kubické ozvěny časoprostoru",
-    "summary": "Když se spojí dvě černé díry, nově vzniklý objekt divoce osciluje a postupně se zklidňuje. Tento proces, známý jako doznívání (ringdown), vysílá do vesmíru gravitační vlny. Fyzikové nyní poprvé přímo z Einsteinových rovnic spočítali takzvané kubické kvazinormální módy – nelineární efekty třetího řádu. Ukázalo se, že těsně po splynutí tvoří tyto kubické oscilace až 38 % celkového gravitačního signálu. Tento výpočet výrazně zlepšuje shodu s numerickými simulacemi, aniž by bylo nutné zavádět dodatečné nastavitelné parametry. Proč je to zajímavé: Výzkum odhaluje, že časná fáze zrození černé díry je výrazně nelineární, což zásadně zpřesní naši schopnost testovat Einsteinovu teorii relativity z dat gravitačních detektorů.",
+    "summary": "Když se spojí dvě černé díry, nově vzniklý objekt divoce osciluje a postupně se zklidňuje. Tento proces, známý jako doznívání (ringdown), vysílá do vesmíru gravitační vlny. Fyzikové nyní poprvé přímo z Einsteinových rovnic spočítali takzvané kubické kvazinormální módy – nelineární efekty třetího řádu. Vědci se zaměřili na hlavní složku gravitační vlny, kterou ve výpočtech označují h₂₂. V analyzované simulaci dosáhl součet kubických příspěvků krátce po vrcholu signálu přibližně 38 % amplitudy této složky v daném okamžiku. Zahrnutí těchto příspěvků zlepšilo shodu výpočtu se simulací v počáteční fázi doznívání černé díry. Proč je to zajímavé: Výzkum odhaluje, že časná fáze zrození černé díry je výrazně nelineární, což zásadně zpřesní naši schopnost testovat Einsteinovu teorii relativity z dat gravitačních detektorů.",
     "url": "http://arxiv.org/abs/2610.20547v1",
     "source": "arXiv",
     "original_title": "Cubic Quasinormal Modes in the Black-Hole Ringdown",
@@ -3272,7 +3275,7 @@
   {
     "id": "2610.18633v1",
     "title": "Co září v galaktických jádrech? Jak poznat černou díru trhající hvězdu",
-    "summary": "Centra galaxií skrývají supermasivní černé díry, kolem kterých dochází k dramatickým událostem. Mezi ně patří slapová roztrhání hvězd (TDE), záblesky aktivních galaktických jader i běžné výbuchy supernov. S nástupem obřích přehlídek oblohy, jako je chystaná observatoř LSST, bude nemožné spektroskopicky ověřovat všechny zachycené jevy. Astronomové proto v rámci projektu ePESSTO+ vyvinuli a testovali automatický filtr využívající data z přehlídky ZTF. Získali 476 kandidátů, z nichž 202 spektroskopicky klasifikovali. Ukázalo se, že rychlost zjasnění a charakteristická barva dokážou spolehlivě odlišit roztrhání hvězdy černou dírou od běžných supernov i bez náročné spektroskopie. Proč je to zajímavé: Metoda umožňuje efektivně objevovat vzácné vesmírné katastrofy v záplavě dat nadcházející éry průzkumu vesmíru.",
+    "summary": "Centra galaxií skrývají supermasivní černé díry, kolem kterých dochází k dramatickým událostem. Mezi ně patří slapová roztrhání hvězd (TDE), záblesky aktivních galaktických jader i běžné výbuchy supernov. S nástupem obřích přehlídek oblohy, jako je přehlídka LSST Observatoře Very C. Rubinové, bude nemožné spektroskopicky ověřovat všechny zachycené jevy. Astronomové proto v rámci projektu ePESSTO+ vyvinuli a testovali automatický filtr využívající data z přehlídky ZTF. Získali 476 kandidátů, z nichž 202 spektroskopicky klasifikovali. Barva záblesku a rychlost jeho zjasňování pomáhají při výběru kandidátů na slapové roztrhání hvězdy. V této studii astronomové deset takových událostí potvrdili spektroskopicky. Proč je to zajímavé: Metoda umožňuje efektivně objevovat vzácné vesmírné katastrofy v záplavě dat nadcházející éry průzkumu vesmíru.",
     "url": "http://arxiv.org/abs/2610.18633v1",
     "source": "arXiv",
     "original_title": "The ePESSTO+ census of ZTF nuclear transients. I. What flares in galactic nuclei?",
@@ -3356,7 +3359,7 @@
   {
     "id": "2610.18748v1",
     "title": "Přesnější simulace raného vesmíru odhalují chyby v dosavadních modelech inflace",
-    "summary": "Mapování rozložení galaxií nám pomáhá pochopit fyziku vesmírné inflace – období nejranějšího překotného rozpínání vesmíru. Vědci zkoumají otisky inflace pomocí matematických simulací prvotních hustotních odchylek. Nová hybridní metoda efektivně simuluje takzvanou axionovou inflaci, při níž dochází k tvorbě částic kalibračního pole. Místo tradičních zjednodušujících aproximací využívá přímou numerickou integraci, což umožňuje spočítat vývoj poruch na běžném počítači během několika hodin. Výpočty ukázaly, že předchozí přibližné modely se mýlily až čtyřnásobně. Tato metoda otevírá cestu k přesnějšímu zpracování dat z nových přehlídek oblohy a k věrnějšímu simulování struktury vesmíru. Proč je to zajímavé: Dává nám do rukou rychlý a přesný nástroj, který opravuje dosavadní teoretické odhady a umožňuje plně využít data z nejnovějších teleskopů.",
+    "summary": "Mapování rozložení galaxií nám pomáhá pochopit fyziku vesmírné inflace – období nejranějšího překotného rozpínání vesmíru. Vědci zkoumají otisky inflace pomocí matematických simulací prvotních hustotních odchylek. Nová hybridní metoda efektivně simuluje takzvanou axionovou inflaci, při níž dochází k tvorbě částic kalibračního pole. Místo tradičních zjednodušujících aproximací využívá přímou numerickou integraci, což umožňuje spočítat vývoj poruch na běžném počítači během několika hodin. U jedné z testovaných hodnot parametru se výsledek pro bispektrum lišil od dřívější aproximace až zhruba čtyřnásobně. Tato metoda otevírá cestu k přesnějšímu zpracování dat z nových přehlídek oblohy a k věrnějšímu simulování struktury vesmíru. Proč je to zajímavé: Dává nám do rukou rychlý a přesný nástroj, který opravuje dosavadní teoretické odhady a umožňuje plně využít data z nejnovějších teleskopů.",
     "url": "http://arxiv.org/abs/2610.18748v1",
     "source": "arXiv",
     "original_title": "Enabling Polyspectra via Stochastic Realizations of Inverse Decay Curvature Perturbations in Axion Inflation",
@@ -3620,7 +3623,7 @@
   {
     "id": "2610.12443",
     "title": "Záhadný signál v detektoru LUX-ZEPLIN: Stopy neobvyklé temné hmoty?",
-    "summary": "Detektor LUX-ZEPLIN, zaměřený na hledání temné hmoty, nedávno zaznamenal neobvyklý přebytek energie o hodnotě 248 keV. Tento signál lze vysvětlit takzvaným neelastickým rozptylem, při kterém částice temné hmoty během srážky s obyčejnou hmotou absorbuje energii a přejde do mírně těžšího stavu. Teoretický výzkum nyní přichází s elegantním vysvětlením: rozšiřuje Standardní model částicové fyziky o novou symetrii a dvě skalární pole. Tato pole přirozeně vytvářejí potřebný hmotnostní rozdíl mezi dvěma stavy temné hmoty a zároveň popisují, jak s námi tato neviditelná hmota prostřednictvím nového bozonu interaguje. Proč je to zajímavé: Tento model ukazuje, jak může drobná odchylka v naměřených datech poodhalit zcela nové částice a síly stojící mimo známou fyziku.",
+    "summary": "Detektor zaznamenal událost odpovídající zpětnému rázu atomového jádra s energií kolem 248 keV. Studie zkoumá, zda by ji mohl vysvětlit nepružný rozptyl hypotetické částice temné hmoty. Teoretický výzkum nyní přichází s elegantním vysvětlením: rozšiřuje Standardní model částicové fyziky o novou symetrii a dvě skalární pole. Tato pole přirozeně vytvářejí potřebný hmotnostní rozdíl mezi dvěma stavy temné hmoty a zároveň popisují, jak s námi tato neviditelná hmota prostřednictvím nového bozonu interaguje. Proč je to zajímavé: Tento model ukazuje, jak může drobná odchylka v naměřených datech poodhalit zcela nové částice a síly stojící mimo známou fyziku.",
     "url": "https://arxiv.org/abs/2610.12443",
     "source": "arXiv",
     "original_title": "A scalar-extended ${\\rm U(1)_{L_{\\mu}-L_{\\tau}}}$ explanation of the LUX-ZEPLIN 248 keV excess",
@@ -3703,15 +3706,16 @@
   },
   {
     "id": "2610.10695",
-    "title": "Záhadná záře naší galaxie: Pochází z Fermiho bublin, ne z temné hmoty",
-    "summary": "Astrofyzici zkoumali vysokoenergetické gama záření ve vnějších oblastech Mléčné dráhy. Nedávno objevená záře v galaktickém halu vzbudila naděje, že jde o projev anihilace temné hmoty. Nová analýza dat z kosmického teleskopu Fermi však ukazuje jiný příběh. Vědci pečlivě odečetli známé zdroje záření a potvrdili, že tato záře je sice reálná, ale způsobuje ji dosud neznámé rozšíření Fermiho bublin – obřích struktur vytvořených minulou aktivitou galaktického jádra. Studie přináší přesnější model Fermiho bublin a jejich podrobné vnitřní struktury.\n\nProč je to zajímavé: Výzkum pomáhá očistit signály z vesmíru od falešných stop temné hmoty a odhaluje, jak dramatická byla minulost centra naší vlastní Galaxie.",
+    "title": "Gama záření v halu Mléčné dráhy pravděpodobně souvisí s Fermiho bublinami",
+    "summary": "Astrofyzici zkoumali vysokoenergetické gama záření ve vnějších oblastech Mléčné dráhy. Nedávno objevená záře v galaktickém halu vzbudila naděje, že jde o projev anihilace temné hmoty. Aktualizovaný model Fermiho bublin a jejich vnitřních struktur dokáže vysvětlit dříve hlášené záření v galaktickém halu. Studie přináší přesnější model Fermiho bublin a jejich podrobné vnitřní struktury.\n\nProč je to zajímavé: Výzkum pomáhá očistit signály z vesmíru od falešných stop temné hmoty a odhaluje, jak dramatická byla minulost centra naší vlastní Galaxie.",
     "url": "https://arxiv.org/abs/2610.10695",
     "source": "arXiv",
     "original_title": "The Origin of the Fermi Halo-like Emission: A New Model of the Fermi Bubbles",
     "published": "2026-10-09T04:00:00+00:00",
     "inserted_at": "2026-10-09T10:50:41.543224+00:00",
     "lang": "cs",
-    "needs_translation": false
+    "needs_translation": false,
+    "permalink_title": "Záhadná záře naší galaxie: Pochází z Fermiho bublin, ne z temné hmoty"
   },
   {
     "id": "2610.10901",
@@ -3775,15 +3779,16 @@
   },
   {
     "id": "2610.10674",
-    "title": "Kosmické struny a gravitační vlny odhalují skrytou éru vesmíru",
-    "summary": "Nedávné detekce nízkofrekvenčních gravitačních vln pomocí pulsarů přinesly fascinující poznatky. Nová studie ukazuje, že tento signál lze vysvětlit pomocí kosmických strun – hypotetických časoprostorových defektů z raného vesmíru. Vědci analyzovali data z projektů NANOGrav a EPTA a zjistili, že pozadí gravitačních vln odpovídá nestandardnímu vývoji vesmíru. Mezi prvotní syntézou prvků a uvolněním reliktního záření zřejmě nastalo období dominance hmoty následované takzvanou kinací, kdy expanzi poháněla kinetická energie skalárního pole. Bayesovská analýza potvrzuje, že tento scénář vysvětluje data podstatně lépe než standardní kosmologický model. Proč je to zajímavé: Výzkum ukazuje, že gravitační vlny mohou odhalit dosud neznámou éru vývoje vesmíru, která je pro běžné teleskopy zcela neviditelná.",
+    "title": "Mohou kosmické struny vysvětlit nízkofrekvenční gravitační signál?",
+    "summary": "Nedávné detekce nízkofrekvenčních gravitačních vln pomocí pulsarů přinesly fascinující poznatky. Nová studie ukazuje, že tento signál lze vysvětlit pomocí kosmických strun – hypotetických časoprostorových defektů z raného vesmíru. Vědci analyzovali data z projektů NANOGrav a EPTA.\n\nProč je to zajímavé: Pokud gravitační signál pochází z kosmických strun, data NANOGrav o něco lépe odpovídají scénáři, v němž po období převahy hmoty převládla kinetická energie skalárního pole. Z dostupných měření ale zatím nelze spolehlivě určit, zda za signálem stojí kosmické struny, nebo zda jej lze vysvětlit jen dvojicemi supermasivních černých děr.",
     "url": "https://arxiv.org/abs/2610.10674",
     "source": "arXiv",
     "original_title": "Interpretation of Nanohertz Gravitational Waves via Cosmic Strings in Post-BBN Matter and Kination Domination",
     "published": "2026-10-09T04:00:00+00:00",
     "inserted_at": "2026-10-09T10:36:03.145582+00:00",
     "lang": "cs",
-    "needs_translation": false
+    "needs_translation": false,
+    "permalink_title": "Kosmické struny a gravitační vlny odhalují skrytou éru vesmíru"
   },
   {
     "id": "2610.10677",
