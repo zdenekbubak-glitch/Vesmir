@@ -1,0 +1,75 @@
+name: Pilot témat z X
+on: workflow_dispatch
+permissions: {}
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    env:
+      X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+    steps:
+      - name: Vyhledat témata pro Kosmonovinky
+        run: |
+          python3 - <<'PY'
+          import html
+          import json
+          import os
+          from urllib.error import HTTPError, URLError
+          from urllib.parse import quote, urlencode, urlsplit
+          from urllib.request import Request, urlopen
+
+          token = os.environ.get("X_BEARER_TOKEN", "").strip()
+          if not token:
+              raise SystemExit("Secret X_BEARER_TOKEN není dostupný.")
+
+          params = urlencode({
+              "query": "(from:NASAWebb OR from:esa OR from:ESO OR from:NOIRLabAstro OR from:ESA_Euclid) has:links -is:retweet -is:reply",
+              "max_results": 10,
+              "tweet.fields": "created_at,entities,lang",
+          })
+          request = Request(
+              f"https://api.x.com/2/tweets/search/recent?{params}",
+              headers={"Authorization": f"Bearer {token}"},
+          )
+          try:
+              with urlopen(request, timeout=25) as response:
+                  result = json.load(response)
+          except HTTPError as error:
+              raise SystemExit(f"X API vrátilo HTTP {error.code}.") from None
+          except (URLError, TimeoutError, ValueError):
+              raise SystemExit("Dotaz selhal při spojení nebo čtení odpovědi.") from None
+
+          posts = result.get("data", [])
+          lines = [f"## Kandidáti z X ({len(posts)})", "",
+                   "Odkazy z příspěvků čekají na ověření původu a porovnání s archivem KN.", ""]
+          for post in posts:
+              post_id = str(post["id"])
+              if not post_id.isascii() or not post_id.isdecimal():
+                  continue
+              snippet = " ".join(post.get("text", "").split())[:240]
+              lines.append(f"- [Příspěvek na X](https://x.com/i/web/status/{post_id}) "
+                           f"({html.escape(post.get('created_at', '')[:10])}, "
+                           f"{html.escape(post.get('lang', 'und'))})")
+              lines.append(f"  <br><code>{html.escape(snippet)}</code>")
+              links = set()
+              for entity in post.get("entities", {}).get("urls", []):
+                  url = entity.get("unwound_url") or entity.get("expanded_url") or ""
+                  try:
+                      target = urlsplit(url)
+                  except ValueError:
+                      continue
+                  if target.scheme not in {"http", "https"} or not target.hostname:
+                      continue
+                  if target.hostname.lower().removeprefix("www.") in {
+                      "x.com", "twitter.com", "t.co", "pic.twitter.com",
+                  }:
+                      continue
+                  safe_url = quote(url, safe=":/?&=%#@+,-._~")
+                  if safe_url not in links:
+                      links.add(safe_url)
+                      lines.append(f"  <br>[Odkaz z příspěvku](<{safe_url}>)")
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
+              summary.write("\n".join(lines) + "\n")
+          print(f"X API vrátilo {len(posts)} příspěvků. Odkazy jsou v záložce Summary.")
+          PY
