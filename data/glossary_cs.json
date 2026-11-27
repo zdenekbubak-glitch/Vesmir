@@ -372,5 +372,12 @@
     "variants": [],
     "note": "Schváleno v GitHub Issues.",
     "status": "approved"
+  },
+  {
+    "term": "phantom divide",
+    "preferred": "fantomová hranice",
+    "variants": [],
+    "note": "Schváleno v GitHub Issues.",
+    "status": "approved"
   }
 ]
