@@ -33,6 +33,27 @@ Vrať jediný JSON objekt bez Markdownu s poli verdict (ok nebo review), czech
 (dotčené místo), source (opora v angličtině, pokud existuje) a reason (stručně česky).
 Při verdict ok použij pro zbývající pole prázdné řetězce."""
 
+REVIEW_SCHEMA = {
+    "type": "object",
+    "required": ["verdict", "czech", "source", "reason"],
+    "properties": {
+        "verdict": {"type": "string", "enum": ["ok", "review"]},
+        **{field: {"type": "string"} for field in ("czech", "source", "reason")},
+    },
+}
+
+
+def parse_review(text):
+    outcome = json.loads(text or "")
+    if (
+        not isinstance(outcome, dict)
+        or outcome.get("verdict") not in ("ok", "review")
+        or any(not isinstance(outcome.get(field), str) for field in ("czech", "source", "reason"))
+    ):
+        raise ValueError("Odpověď nesplňuje formát kontroly.")
+    return outcome
+
+
 def source(paper):
     url = f"https://arxiv.org/abs/{paper}"
     with urlopen(url, timeout=30) as response:
@@ -48,7 +69,7 @@ def source(paper):
 
 def main():
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-    usage = {"translation": [], "review": []}
+    usage = {"translation": [], "review": [], "fixtures": []}
     def record(response, phase):
         meta = response.usage_metadata
         if meta is None:
@@ -71,14 +92,24 @@ def main():
     sources = {paper: source(paper) for paper in sorted({case[0] for case in CASES})}
     translations = {}
     results = []
-    def review(title, abstract, czech):
+    retries_left = 1
+    def review(title, abstract, czech, phase="review"):
+        nonlocal retries_left
         data = json.dumps({"original_title": title, "abstract": abstract, "czech": czech}, ensure_ascii=False)
-        response = record(client.models.generate_content(model=GEMINI_MODEL,
-            contents=PROMPT + "\n\n" + data, config={"response_mime_type": "application/json"}), "review")
-        outcome = json.loads(response.text)
-        if outcome.get("verdict") not in {"ok", "review"}:
-            raise ValueError("Neplatný verdikt kontroly.")
-        return outcome
+        for attempt in (1, 2):
+            response = record(client.models.generate_content(
+                model=GEMINI_MODEL,
+                contents=PROMPT + "\n\n" + data,
+                config={"response_mime_type": "application/json", "response_schema": REVIEW_SCHEMA,
+                        "max_output_tokens": 512, "thinking_config": {"thinking_level": "minimal"}},
+            ), phase)
+            try:
+                return parse_review(response.text)
+            except ValueError as error:
+                print(f"Neplatná odpověď kontroly, pokus {attempt}/2: {error}", flush=True)
+                if attempt == 2 or retries_left == 0:
+                    return {"verdict": "error", "reason": str(error)}
+                retries_left -= 1
     for paper, (title, abstract, url) in sources.items():
         translated = summarize_czech(TranslationClient(), title, abstract, url)
         if not translated:
@@ -88,22 +119,26 @@ def main():
         assert clean.count(old) == 1
         title, abstract, _ = sources[paper]
         for expected, czech in [("ok", clean), ("review", clean.replace(old, new, 1))]:
-            verdict = review(title, abstract, czech)
+            verdict = review(title, abstract, czech, phase="fixtures")
             results.append({"paper": paper, "case": label, "text": czech,
                             "expected": expected, "match": verdict["verdict"] == expected, "response": verdict})
     prices = {"input": 0.75, "output": 3.75, "thinking": 3.75}
     def cost(calls):
         return sum(sum(case[key] * price for key, price in prices.items()) for case in calls) / 1_000_000
     translation_cost = cost(usage["translation"])
-    review_cost = cost(usage["review"][:len(translations)])
+    review_cost = cost(usage["review"])
     relative = 100 * review_cost / translation_cost if translation_cost else None
     report = {"model": GEMINI_MODEL, "november_2026_usd_per_million": prices, "usage": usage,
               "translation_usd": translation_cost, "control_of_translations_usd": review_cost,
               "control_vs_translation_percent": relative, "projected_seven_reviews_usd": 7 * review_cost / len(translations),
               "matched": sum(case["match"] for case in results), "sample_count": len(results),
+              "invalid_verdicts": sum(case["response"]["verdict"] == "error" for case in results)
+              + sum(item["review"]["verdict"] == "error" for item in translations.values()),
               "cases": results, "generated_translations": translations}
     Path("translation-control-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Shoda s očekáváním: {report['matched']}/{len(results)}. Navýšení vůči překladu: {relative}%.")
+    if report["invalid_verdicts"]:
+        raise SystemExit("Některé odpovědi nebyly platné ani po opakování. Podrobnosti jsou v protokolu.")
 
 if __name__ == "__main__":
     main()
