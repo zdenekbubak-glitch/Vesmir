@@ -1,5 +1,26 @@
 [
   {
+    "id": "apod-2026-11-27",
+    "title": "Pozorovatelé Měsíce",
+    "caption": "Dne 24. listopadu mohli všichni obyvatelé naší planety pozorovat východ velkého a jasného úplňku, známého jako Bobří Měsíc, který nastal v blízkosti přízemí (perigea). Jednalo se o první ze série čtyř po sobě jdoucích superúplňků, kdy se Měsíc nachází v nejbližším bodě své eliptické dráhy kolem Země. Další možnost spatřit východ superúplňku nastane 23. prosince s příchodem takzvaného Chladného Měsíce.",
+    "thumb": "assets/gallery/apod-2026-11-27.jpg",
+    "image": "assets/gallery/apod-2026-11-27.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+    "published": "2026-11-27",
+    "credit": "Marcella Pace",
+    "creator": {
+      "@type": "Person",
+      "name": "Marcella Pace"
+    },
+    "copyrightNotice": "Marcella Pace",
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+    "original_title": "The Moon Watchers",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-27T08:27:56.828941+00:00"
+  },
+  {
     "id": "apod-2026-11-26",
     "title": "Oko na obloze: Mléčná dráha nad Lençóis",
     "caption": "Mléčná dráha jasně září na brazilské obloze nad bílými písečnými dunami a tmavými lagunami Národního parku Lençóis Maranhenses. Tento složený snímek pořízený v červenci zobrazuje výrazné prachové pásy i barevné mlhoviny. Její obloukovitý tvar je však zkreslením širokoúhlého objektivu, které fotograf umělecky sladil s konturami tmavé laguny.",
@@ -1544,21 +1565,5 @@
     "published": "2026-09-12",
     "credit": "NASA / APOD",
     "inserted_at": "2026-09-19T12:00:50.070267+00:00"
-  },
-  {
-    "id": "apod-2026-09-11",
-    "title": "M83: Jižní větrník",
-    "caption": "Krásná a jasná spirální galaxie M83 leží přibližně dvanáct milionů světelných let daleko, nedaleko jihovýchodního cípu rozlehlého souhvězdí Hydry. Výrazná spirální ramena lemovaná tmavými prachovými pásy a modrými hvězdokupami dávají této galaxii její populární název Jižní větrník. Načervenalé oblasti tvorby hvězd v jejích ramenou jí však vysloužily i další přezdívku: Galaxie tisíce rubínů.",
-    "thumb": "assets/gallery/apod-2026-09-11.jpg",
-    "image": "assets/gallery/apod-2026-09-11.jpg",
-    "source": "NASA APOD",
-    "url": "https://apod.nasa.gov/apod/ap260911.html",
-    "published": "2026-09-11",
-    "credit": "Aldo Zanetti",
-    "inserted_at": "2026-09-19T12:00:50.070267+00:00",
-    "original_image": "https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg",
-    "original_thumb": "https://apod.nasa.gov/apod/image/2609/M83_Final2_1x1024.jpg",
-    "image_recovery_source": "https://www.astro.cz/apod_data/2026/09/M83_Final2_1x.jpg",
-    "archive_url": "https://www.astro.cz/apod/ap260911.html"
   }
 ]
