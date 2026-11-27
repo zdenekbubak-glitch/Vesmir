@@ -4,7 +4,6 @@ import re
 import json
 import os
 import time
-import subprocess
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -127,40 +126,6 @@ def translation_glossary() -> str:
     return "\n".join(lines)
 
 
-class CorruptedCzechTranslation(Exception):
-    """A known malformed Czech expression survived the translation retry."""
-
-
-def malformed_czech(text: str) -> str | None:
-    match = re.search(r"\bdír(?:s)?aov\w*\b|\baxiont\w*\b", text, re.IGNORECASE)
-    return match.group(0) if match else None
-
-
-def report_translation_review(item: dict, reason: str) -> None:
-    title = f"Překlad ke kontrole: {item['id']}"
-    found = subprocess.run(
-        ["gh", "issue", "list", "--state", "open", "--search", f'"{title}" in:title',
-         "--json", "title,url"],
-        capture_output=True, text=True, encoding="utf-8", check=True,
-    )
-    for issue in json.loads(found.stdout):
-        if issue["title"] == title:
-            print(f"::warning::Článek čeká na kontrolu: {issue['url']}")
-            return
-    body = (
-        "Český text neprošel kontrolou ani při opakování. Článek byl pozastaven.\n\n"
-        f"**Originální titulek**\n{item['original_title']}\n\n"
-        f"**Zdroj**\n{item['url']}\n\n**Nalezený problém**\n{reason}\n\n"
-        "Zkontrolujte překlad podle zdroje a doplňte schválenou položku do data/news.json. "
-        "Po běžném nasazení ověřte článek na webu a uzavřete toto issue."
-    )
-    created = subprocess.run(
-        ["gh", "issue", "create", "--title", title, "--body-file", "-"],
-        input=body, capture_output=True, text=True, encoding="utf-8", check=True,
-    )
-    print(f"::warning::Článek čeká na kontrolu: {created.stdout.strip()}")
-
-
 def summarize_czech(client, title: str, abstract: str, url: str) -> dict | None:
     prompt = f"""Jsi odborný popularizátor kosmologie. Napiš krátký článek v češtině pro laickou i odbornou veřejnost.
 
@@ -189,12 +154,10 @@ Schválený slovníček:
   "summary_cs": "..."
 }}
 """
-    corrupted = None
     for attempt in range(1, 3):  # max 2 pokusy
         try:
             chat = client.chats.create(model=GEMINI_MODEL)
-            correction = f'\nV předchozím pokusu se objevilo poškozené slovo {corrupted!r}. Přepiš dotčenou větu podle podkladu.' if corrupted else ''
-            response = chat.send_message(prompt + correction)
+            response = chat.send_message(prompt)
             text = (response.text or "").strip()
             if text.startswith("```"):
                 text = text.split("```")[1]
@@ -206,10 +169,6 @@ Schválený slovníček:
             summary_cs = (data.get("summary_cs") or "").strip()
             if not looks_czech(title_cs, summary_cs, title):
                 raise ValueError("Odpověď nevypadá jako čeština")
-            malformed = malformed_czech(title_cs + " " + summary_cs)
-            if malformed:
-                corrupted = malformed
-                continue
             return {"title_cs": title_cs, "summary_cs": summary_cs}
         except DailyQuotaExhausted:
             raise
@@ -220,8 +179,6 @@ Schválený slovníček:
             if attempt < 2:
                 print("Krátký výpadek – čekám 55 s a zkusím tentýž článek znovu…")
                 time.sleep(55)
-    if corrupted:
-        raise CorruptedCzechTranslation(corrupted)
     print(f"Překlad se nepodařil, uložím anglicky: {title[:70]}")
     return None
 
@@ -472,9 +429,6 @@ def main():
                 item["abstract"],
                 item["url"],
             )
-        except CorruptedCzechTranslation as error:
-            report_translation_review(item, str(error))
-            continue
         except DailyQuotaExhausted:
             print("Denní kvóta Gemini je vyčerpaná – zbytek uložím anglicky.")
             new_posts.append(english_fallback(item, now))
