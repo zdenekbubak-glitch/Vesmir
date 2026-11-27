@@ -20,6 +20,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python tools/test_translation_control.py
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: translation-control-report
           path: translation-control-report.json
