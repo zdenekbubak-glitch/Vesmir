@@ -375,6 +375,29 @@ def fetch_rss(existing_ids: set) -> list:
     return new_items
 
 
+def canonical_url(url: str) -> str:
+    return url.split("#", 1)[0].split("?", 1)[0].rstrip("/")
+
+
+def load_editorial_candidates(history: list) -> tuple[list, set]:
+    path = Path("data/editorial-candidates.json")
+    if not path.exists():
+        return [], set()
+
+    existing_ids = get_existing_ids(history)
+    existing_urls = {canonical_url(item.get("url") or "") for item in history}
+    candidates = []
+    editorial_urls = set()
+    for entry in json.loads(path.read_text(encoding="utf-8")):
+        urls = {canonical_url(url) for url in [entry["url"], *entry.get("alternate_urls", [])]}
+        editorial_urls.update(urls)
+        if entry["id"] not in existing_ids and not urls.intersection(existing_urls):
+            candidates.append(entry)
+            existing_ids.add(entry["id"])
+            existing_urls.update(urls)
+    return candidates, editorial_urls
+
+
 def main():
     print("Spouštím denní aktualizaci kosmologických novinek…")
     history = load_history()
@@ -386,7 +409,13 @@ def main():
 
     config = json.loads(CONFIG.read_text(encoding="utf-8"))
     arxiv_items = fetch_arxiv(existing_ids, search_limit=config["arxiv_search_limit"], item_limit=None)
-    candidates = unique(arxiv_items + fetch_rss(existing_ids))
+    editorial, editorial_urls = load_editorial_candidates(history)
+    collected = arxiv_items + fetch_rss(existing_ids)
+    collected = [
+        item for item in collected
+        if canonical_url(item["url"]) not in editorial_urls
+    ]
+    candidates = unique(editorial + collected)
     if not candidates:
         print("Žádné nové relevantní položky.")
         return
@@ -404,7 +433,11 @@ def main():
         print(f"::warning::Bodování nedostupné ({detail}). Nové články se nevybraly.")
         return
     apply_scores(rows, ratings, config)
-    selected = select_for_web(rows, config, limit=MAX_NEW_ITEMS)
+    editorial_ids = {item["id"] for item in editorial}
+    approved = [row for row in rows if row["id"] in editorial_ids][:MAX_NEW_ITEMS]
+    regular = [row for row in rows if row["id"] not in editorial_ids]
+    remaining = MAX_NEW_ITEMS - len(approved)
+    selected = approved + (select_for_web(regular, config, limit=remaining) if remaining else [])
     print(f"Výběr pro web: {len(selected)} z {len(rows)} kandidátů.")
     for row in selected:
         print(f"  {row['score']} bodů: {row['original_title']}")
