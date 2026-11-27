@@ -1,35 +1,54 @@
 name: Pilot témat z X
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 28-30 11 *'
+    - cron: '17 6 1-4 12 *'
 permissions: {}
 
 jobs:
   search:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
+    timeout-minutes: 5
     env:
       X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
     steps:
       - name: Vyhledat témata pro Kosmonovinky
+        id: search
         run: |
           python3 - <<'PY'
           import html
           import json
           import os
+          from datetime import date, datetime, timedelta, timezone
+          from pathlib import Path
           from urllib.error import HTTPError, URLError
           from urllib.parse import quote, urlencode, urlsplit
           from urllib.request import Request, urlopen
+
+          scheduled = os.environ["GITHUB_EVENT_NAME"] == "schedule"
+          now = datetime.now(timezone.utc)
+          if scheduled and not date(2026, 11, 28) <= now.date() <= date(2026, 12, 4):
+              print("Termín automatického pilotu už není aktivní.")
+              raise SystemExit(0)
 
           token = os.environ.get("X_BEARER_TOKEN", "").strip()
           if not token:
               raise SystemExit("Secret X_BEARER_TOKEN není dostupný.")
 
-          params = urlencode({
+          params = {
               "query": "(from:NASAWebb OR from:esa OR from:ESO OR from:NOIRLabAstro OR from:ESA_Euclid) has:links -is:retweet -is:reply",
               "max_results": 10,
               "tweet.fields": "created_at,entities,lang",
-          })
+          }
+          if scheduled:
+              end = now.replace(hour=6, minute=15, second=0, microsecond=0)
+              start = end - timedelta(days=1)
+              params["start_time"] = start.isoformat().replace("+00:00", "Z")
+              params["end_time"] = end.isoformat().replace("+00:00", "Z")
+
           request = Request(
-              f"https://api.x.com/2/tweets/search/recent?{params}",
+              f"https://api.x.com/2/tweets/search/recent?{urlencode(params)}",
               headers={"Authorization": f"Bearer {token}"},
           )
           try:
@@ -69,7 +88,19 @@ jobs:
                   if safe_url not in links:
                       links.add(safe_url)
                       lines.append(f"  <br>[Odkaz z příspěvku](<{safe_url}>)")
+          report = "\n".join(lines) + "\n"
+          Path("kandidati-x.md").write_text(report, encoding="utf-8")
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
-              summary.write("\n".join(lines) + "\n")
+              summary.write(report)
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write("report_ready=true\n")
           print(f"X API vrátilo {len(posts)} příspěvků. Odkazy jsou v záložce Summary.")
           PY
+      - name: Uložit výsledky pilotu
+        if: steps.search.outputs.report_ready == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: kandidati-x-${{ github.run_id }}-${{ github.run_attempt }}
+          path: kandidati-x.md
+          retention-days: 21
+          if-no-files-found: error
