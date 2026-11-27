@@ -386,5 +386,12 @@
     "variants": [],
     "note": "Schváleno v GitHub Issues.",
     "status": "approved"
+  },
+  {
+    "term": "chirp mass",
+    "preferred": "hmotnost chirpu",
+    "variants": [],
+    "note": "Schváleno v GitHub Issues.",
+    "status": "approved"
   }
 ]
