@@ -1,0 +1,45 @@
+name: Test X API
+on: workflow_dispatch
+permissions: {}
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    env:
+      X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+    steps:
+      - name: Ověřit vyhledávání na X
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from urllib.error import HTTPError, URLError
+          from urllib.parse import urlencode
+          from urllib.request import Request, urlopen
+
+          token = os.environ.get("X_BEARER_TOKEN", "").strip()
+          if not token:
+              raise SystemExit("Secret X_BEARER_TOKEN není dostupný.")
+
+          params = urlencode({
+              "query": "(from:NASAWebb OR from:esa OR from:ESO) -is:retweet",
+              "max_results": 10,
+          })
+          request = Request(
+              f"https://api.x.com/2/tweets/search/recent?{params}",
+              headers={"Authorization": f"Bearer {token}"},
+          )
+
+          try:
+              with urlopen(request, timeout=25) as response:
+                  result = json.load(response)
+                  status = response.status
+          except HTTPError as error:
+              raise SystemExit(f"X API vrátilo HTTP {error.code}.") from None
+          except (URLError, TimeoutError, ValueError):
+              raise SystemExit("Dotaz selhal při spojení nebo čtení odpovědi.") from None
+
+          count = result.get("meta", {}).get("result_count", 0)
+          print(f"X API vrátilo HTTP {status}. Počet příspěvků: {count}.")
+          PY
