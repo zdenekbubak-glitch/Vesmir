@@ -882,7 +882,7 @@
     "status": "stored_pending_visibility",
     "target": "https://kosmonovinky.cz/clanky/castice-z-tmaveho-sektoru-by-mohly-vysvetlit-zahadne-signaly-z-2611173281.html",
     "recorded_at": "2026-11-13T08:25:44.956120+00:00",
-    "last_check_attempt_at": "2026-11-27T08:29:46.589058+00:00",
+    "last_check_attempt_at": "2026-11-28T08:23:25.267640+00:00",
     "publication_check_result": "unavailable"
   },
   {
@@ -1329,8 +1329,42 @@
     "key": "bluesky_daily_1630c263a1ca99d273e4",
     "title": "Kupa galaxií RMJ1219: Jde o srážku dvou, nebo tří struktur?",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n3auyw6222ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/clanky/kupa-galaxii-rmj1219-jde-o-srazku-dvou-nebo-tri-struktur-2611339411.html",
-    "recorded_at": "2026-11-27T08:29:46.735800+00:00"
+    "recorded_at": "2026-11-27T08:29:46.735800+00:00",
+    "last_check_attempt_at": "2026-11-28T08:23:25.267640+00:00",
+    "publication_checked_at": "2026-11-28T08:23:25.267640+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "daily",
+    "key": "x_daily_4c0d617c974a763f9f8f",
+    "title": "Webbův teleskop odhalil v prachu po supernově historii vývoje hvězdy",
+    "platform_id": "6b0a8f4fd718580fbd6eb2a8",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/webbuv-teleskop-odhalil-v-prachu-po-supernove-historii-vyvoje-hvezdy-2624.html",
+    "recorded_at": "2026-11-28T08:22:41.805873+00:00"
+  },
+  {
+    "source": "facebook",
+    "kind": "daily",
+    "key": "facebook_daily_4c0d617c974a763f9f8f",
+    "title": "Webbův teleskop odhalil v prachu po supernově historii vývoje hvězdy",
+    "platform_id": "6b0a8f54fe7140cdaca026e1",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/clanky/webbuv-teleskop-odhalil-v-prachu-po-supernove-historii-vyvoje-hvezdy-2624.html",
+    "recorded_at": "2026-11-28T08:22:52.025644+00:00"
+  },
+  {
+    "source": "bluesky",
+    "kind": "daily",
+    "key": "bluesky_daily_4c0d617c974a763f9f8f",
+    "title": "Webbův teleskop odhalil v prachu po supernově historii vývoje hvězdy",
+    "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n3dfhtms22ep",
+    "status": "stored_pending_visibility",
+    "target": "https://kosmonovinky.cz/clanky/webbuv-teleskop-odhalil-v-prachu-po-supernove-historii-vyvoje-hvezdy-2624.html",
+    "recorded_at": "2026-11-28T08:23:25.611921+00:00"
   }
 ]
