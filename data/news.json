@@ -1,5 +1,18 @@
 [
   {
+    "id": "editorial-esa-webb-weic2624",
+    "title": "Webbův teleskop odhalil v prachu po supernově historii vývoje hvězdy",
+    "summary": "Tým pod vedením Tei Temim zkoumal pomocí přístroje MIRI na Vesmírném dalekohledu Jamese Webba infračervená spektra prachu v pozůstatku po supernově Cassiopeia A, což je rozpínající se mračno hmoty po výbuchu masivní hvězdy. Přístroj MIRI (Mid-Infrared Instrument) zachycuje záření ve středním infračerveném pásmu a umožňuje tak určovat chemické složení prachových zrn.\n\nAutoři v rázovou vlnou zasažené vyvržené hmotě rozlišili oblasti s převahou křemičitého a uhlíkatého prachu. Odlišná struktura zvaná Zelená příšera (Green Monster), vytvořená z materiálu odvrženého hvězdou ještě před samotným výbuchem, naopak ukázala složité hořečnaté křemičitany.\n\nKombinací těchto pozorování s rentgenovými daty vědci odhalili chemické vzorce, které odpovídají promíchávání hořících vrstev v nitru původní hvězdy těsně před kolapsem jejího jádra. Odhad, že k tomuto promíchání mohlo dojít pouhé hodiny před explozí, představuje interpretaci naměřených dat. Výzkum vyšel v časopise The Astrophysical Journal Letters.\n\nProč je to zajímavé: Práce pomáhá odpovědět na otázku, jak probíhají závěrečné fáze života hmotných hvězd a jak se chemické prvky v jejich nitru promíchávají těsně před samotným výbuchem supernovy.",
+    "url": "https://esawebb.org/news/weic2624/",
+    "source": "ESA/Webb",
+    "original_title": "Webb shows how supernova dust chronicles star evolution",
+    "published": "2026-11-23",
+    "inserted_at": "2026-11-28T08:21:32.925019+00:00",
+    "lang": "cs",
+    "needs_translation": false,
+    "daily_card_selected": true
+  },
+  {
     "id": "2611.33941v1",
     "title": "Kupa galaxií RMJ1219: Jde o srážku dvou, nebo tří struktur?",
     "summary": "Astronomové podrobně zkoumali kupu galaxií RM J121917.6+505432.8 (zkráceně RMJ1219), která byla dosud považována za kandidáta na srážku dvou podkup. Využili pro to pozorování ve více pásmech – tedy sledování elektromagnetického záření v různých částech spektra zahrnující optické snímky z Hubbleova dalekohledu, rentgenová data ze sondy XMM-Newton a spektroskopii z Keckova dalekohledu. Měření rudého posuvu odhalila rozdíl rychlostí 480 km/s podél zorného paprsku mezi východní a západní podkupou. Mezigalaktické plynné prostředí odpovídá stavu po těsném průletu. Východní, hmotnější podkupa má však výrazně protažený tvar, což naznačuje buď značně eliptické halo temné hmoty, nebo přítomnost třetí, nerozlišené podkupy.\n\nAutoři přizpůsobili čtyřem kombinacím modelů NFW data slabého gravitačního čočkování a určili hmotnost i koncentraci hala temné hmoty, tedy míru soustředění hmoty směrem ke středu. Přestože nejlepší shody s daty dosáhl model se třemi haly temné hmoty, naměřené údaje zatím nestačí k rozhodnutí, zda je zavedení dalších parametrů statisticky oprávněné.\n\nProč je to zajímavé: Srážky kup galaxií slouží jako přírodní laboratoře pro studium vlastností temné hmoty. Tento výzkum pomáhá objasnit, jak spolehlivě rozlišit složité trojnásobné srážky od výrazně eliptických hal temné hmoty při analýze velkých vesmírných struktur.",

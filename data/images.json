@@ -1,5 +1,25 @@
 [
   {
+    "id": "apod-2026-11-28",
+    "title": "Anaglyf stanoviště VIP Apolla 17",
+    "caption": "Nasaďte si červenomodré brýle a prohlédněte si stereoskopický pohled na měsíční údolí Taurus-Littrow s detailním 3D zobrazením vozítka Apolla 17 v popředí a lunárním modulem v pozadí. Toto parkovací místo bylo známé jako stanoviště VIP, protože televizní kamera vozítka odtud snímala start návratového stupně modulu. Astronauti Eugene Cernan a Harrison Schmitt zde v prosinci 1972 strávili přibližně 75 hodin a dodnes zůstávají posledními lidmi, kteří se po Měsíci prošli či projeli.",
+    "thumb": "assets/gallery/apod-2026-11-28.jpg",
+    "image": "assets/gallery/apod-2026-11-28.jpg",
+    "source": "NASA APOD",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-28-apollo-17-vip-site-anaglyph/",
+    "published": "2026-11-28",
+    "credit": "Gene Cernan , Apollo 17 , NASA ; Anaglyph by Erik van Meijgaarden",
+    "creator": {
+      "@type": "Organization",
+      "name": "Gene Cernan , Apollo 17 , NASA ; Anaglyph by Erik van Meijgaarden"
+    },
+    "rights_metadata_source": "https://science.nasa.gov/image-article/apod-2026-november-28-apollo-17-vip-site-anaglyph/",
+    "original_title": "Apollo 17 VIP Site Anaglyph",
+    "lang": "cs",
+    "needs_translation": false,
+    "inserted_at": "2026-11-28T08:21:48.080995+00:00"
+  },
+  {
     "id": "apod-2026-11-27",
     "title": "Pozorovatelé Měsíce",
     "caption": "Dne 24. listopadu mohli všichni obyvatelé naší planety pozorovat východ velkého a jasného úplňku, známého jako Bobří Měsíc, který nastal v blízkosti přízemí (perigea). Jednalo se o první ze série čtyř po sobě jdoucích superúplňků, kdy se Měsíc nachází v nejbližším bodě své eliptické dráhy kolem Země. Další možnost spatřit východ superúplňku nastane 23. prosince s příchodem takzvaného Chladného Měsíce.",
@@ -1551,18 +1571,6 @@
     "source": "NASA APOD",
     "url": "https://apod.nasa.gov/apod/ap260914.html",
     "published": "2026-09-14",
-    "credit": "NASA / APOD",
-    "inserted_at": "2026-09-19T12:00:50.070267+00:00"
-  },
-  {
-    "id": "apod-2026-09-12",
-    "title": "Apollo 11: Chytání slunečních paprsků",
-    "caption": "Jasné sluneční světlo a dlouhé tmavé stíny tvoří výrazné prvky tohoto snímku měsíčního povrchu. Pořídil ho 20. července 1969 astronaut mise Apollo 11 Neil Armstrong, první člověk, který vstoupil na povrch Měsíce. Na snímku je zachycen lunární modul Eagle a pilot Buzz Aldrin ve skafandru, který rozvíjí fólii experimentu pro měření složení slunečního větru.",
-    "thumb": "assets/gallery/apod-2026-09-12.jpg",
-    "image": "assets/gallery/apod-2026-09-12.jpg",
-    "source": "NASA APOD",
-    "url": "https://apod.nasa.gov/apod/ap260912.html",
-    "published": "2026-09-12",
     "credit": "NASA / APOD",
     "inserted_at": "2026-09-19T12:00:50.070267+00:00"
   }
