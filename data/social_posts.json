@@ -1363,8 +1363,22 @@
     "key": "bluesky_daily_4c0d617c974a763f9f8f",
     "title": "Webbův teleskop odhalil v prachu po supernově historii vývoje hvězdy",
     "platform_id": "at://did:plc:u4vdq6dadnb6fa2hhajck26f/app.bsky.feed.post/3n3dfhtms22ep",
-    "status": "stored_pending_visibility",
+    "status": "published",
     "target": "https://kosmonovinky.cz/clanky/webbuv-teleskop-odhalil-v-prachu-po-supernove-historii-vyvoje-hvezdy-2624.html",
-    "recorded_at": "2026-11-28T08:23:25.611921+00:00"
+    "recorded_at": "2026-11-28T08:23:25.611921+00:00",
+    "last_check_attempt_at": "2026-11-28T09:01:31.940385+00:00",
+    "publication_checked_at": "2026-11-28T09:01:31.940385+00:00",
+    "publication_check_source": "bluesky",
+    "publication_check_result": "verified"
+  },
+  {
+    "source": "x",
+    "kind": "quote",
+    "key": "x_quote_5760df3d6b0cdc5573fd",
+    "title": "Při hledání rádiových zdrojů ve vesmíru zachytila 28.listopadu 1967 severoirská astrofyzička Jocelyn Bell Burnell pulsující rádiový signál. Byl to první pulsar, což je rotující neutronová hvězda, které vyzařuje elektromagnetické záření. Nobelovu cenu za to dostal její šéf. https://t.co/3P5kZ6kjUa",
+    "platform_id": "6b0a986a6f5b4d9c17ce3454",
+    "status": "sent",
+    "target": "https://kosmonovinky.cz/",
+    "recorded_at": "2026-11-28T09:01:32.203903+00:00"
   }
 ]
